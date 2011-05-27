@@ -1,0 +1,103 @@
+<?php load_header(); ?>
+
+<?php menu_switch_to_linux(); ?>
+
+<div id="maincontent">
+
+<div id="intro_box">
+<h1>Try or install</h1>
+
+<p>Make the step &ndash; unless you wish to <a href="http://linuxpreloaded.com/" title="Linux Desktops and Laptops">purchase a PC with Linux pre-installed</a>, you can see what freedom looks like on your computer.</p>
+</div><!-- end intro_box -->
+
+
+<div class="section">
+<img src="/_language/switch_to_linux.try_or_install.live_cd.png" width="170" height="207" alt="|| CD ||"/>
+<h2 id="live_cd">Try out: the live CD</h2>
+
+<h3 id="live_cd_what_is">Take no risk</h3>
+
+<p>Using a live CD means that Linux will be running on your computer <em>without installing anything</em>. It's a risk-less way to try and see by yourself what Linux is.</p>
+<p>When running on a live CD, your computer uses solely the CD-ROM to work (without accessing the hard drive inside). You can launch all of the default programs, edit documents, and browse the web.</p>
+<p>Since it is only designed as a trial mode, it is a little slow (it will take you five minutes to boot up, and programs launch somewhat slowly). If you proceed to install, the system will go much faster.</p>
+
+
+<h3 id="live_cd_what_need">What you need</h3>
+
+<p>To use a live CD, you need a little bit of curiosity and fifteen minutes of free time, but <strong>no advanced knowledge in computing</strong>. If you feel confident simply using Windows from time to time, then this is within your reach.</p>
+
+
+
+</div><!-- end section -->
+
+<div class="section">
+
+<img src="/_language/switch_to_linux.try_or_install.computer_screen.png" width="170" height="201" alt="|| computer screen ||"/>
+<h2 id="install_dual_boot">Installing as a dual boot</h2>
+
+<h3 id="dual_boot_what_is">Choose at start-up</h3>
+<p>It is possible to install GNU/Linux along with Windows. This means that upon start-up, you will be greeted with a screen allowing you to boot into the operating system you prefer.</p>
+<p>Setting up a dual-boot can be helpful if you need time to abandon restrictive software. It is <a href="http://www.psychocats.net/ubuntu/installing" title="a tutorial on dual-booting Windows and Ubuntu">not difficult to set-up</a>, though erasing Windows altogether is even easier.</p>
+
+<h3 id="dual_boot_what_need">What you need</h3>
+<p>Installing Linux on your computer will take you less than 30 minutes. It is not an obvious step for complete beginners, but if you use computers on a daily basis this is very likely within your reach. If you have already re-installed Windows on your computer, rest assured that installing Linux is no harder.</p>
+
+
+
+</div><!-- end section -->
+
+
+<div class="section">
+
+
+<h2 id="get_the_cd">Get the CD you need</h2>
+
+<p>For the distributions we recommend, the live CD is the same as the installation CD.</p>
+
+<div class="ubuntu_light">
+<h4 class="ubuntu_title">Ubuntu</h4>
+
+	<p>
+		<a href="http://www.ubuntu.com/download/" class="get_it_button"><span class="go_download"><span class="download">Go download the Ubuntu CD</span></span></a>
+	You can download an <code>iso</code> image (rather large file) and then <a href="https://help.ubuntu.com/community/BurningIsoHowto">burn it to a CD</a>.
+</p>
+</div><!-- end ubuntu_light -->
+
+
+<div class="fedora_light">
+<h4 class="fedora_title">Fedora</h4>
+
+<p>
+	<a href="http://fedoraproject.org/get-fedora" class="get_it_button"><span class="go_download"><span class="download">Go download the Fedora DVD or CD</span></span></a>
+	The Fedora live CD also enables installation. Alternatively, you can download the DVD, which cannot act as live CD but permits speedier installation.
+</p>
+</div><!-- end fedora_light -->
+
+
+<div class="gnewsense_light">
+<h4 class="gnewsense_title">gNewSense</h4>
+
+<p>
+	<a href="http://www.gnewsense.org/" class="get_it_button"><span class="go_download"><span class="download">Go download the gNewSense CD</span></span></a>
+	The gNewSense installation is very similar to that of Ubuntu.</p>
+</div><!-- end gnewsense_light -->
+
+
+<span class="note">
+Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href="http://www.softwareliberty.com/" title="What do you mean, free?">free software</a>. You are simply paying a handling/shipping fee.</span>
+</div><!-- end section -->
+
+
+
+<div class="section">
+<a href="http://linuxpreloaded.com/" title="Linux pre-installed computers"><img src="/_style/switch_to_linux.try_or_install.laptop.png" alt="|| laptop ||"/></a>
+<h2 id="free_software_pre_installed">Free Software pre-installed</h2>
+
+<p>Not all computers are shipped with Windows. If you do not wish to make the install yourself, or are in need of new hardware, you can get a laptop or a desktop pre-installed with GNU/Linux.<br/>
+We have compiled <a title="linux computers" href="http://linuxpreloaded.com/">a list of vendors pre-installing Linux at LinuxPreloaded.com</a> just for that reason.</p>
+
+</div><!-- end section -->
+
+</div><!-- end maincontent -->
+
+<?php load_footer(); ?>

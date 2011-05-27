@@ -1,0 +1,78 @@
+<?php load_header(); ?>
+
+<?php menu_why_not_windows(); ?>
+
+<div id="maincontent">
+
+<h1 class="windows_section_h1">Restrictions</h1>
+<div class="quote1"><div class="quote2"><div class="quote3">
+If you go to most of the free software sites you can click down a couple of levels and find the [GNU] <acronym title="General Public License, the main free software license">GPL</acronym>, the X license, the Apache license, whichever terms and conditions you have to accept in order to use that software.<br/>
+Now with a proprietary software company, the license is buried so you
+can't read it until after you have paid for the product, then they're
+asking you to <strong>turn off part of your brain</strong>, they're
+asking you to turn off part of your ability to work with other people
+and to do business, when you use their software. <span class="source"><span class="author">Don Marti,</span> <a href="http://www.go-opensource.org/go_open/episode_2/big_guns/" hreflang="en" title="Don Marti interview">2005 interview</a></span>
+</div></div></div>
+
+<p>A common mistake is for Windows and Office users to think that they fully own their software. In fact, there are a number of <strong>legal bindings</strong> applied to it.<br/>
+Haven't read your license fully? We did that job for you.</p>
+
+<h2 id="the_small_print">The small print in the contract</h2>
+
+<a href="/_style/windows.restrictions.officexp_eula.png"><img src="/_style/windows.restrictions.officexp_eula_small.png" alt="Office XP EULA" height="145" width="200" /></a>
+
+<ul>
+
+	<li>
+		<div class="keypart">Windows and Office are licensed, not sold.</div>
+
+		<p>No one can buy Windows or Microsoft Office: instead users <strong>purchase a permission to use</strong>
+ them. The license describes the terms of this permission. It is the
+restrictive legal text you have to click "OK" to upon install.</p>
+	</li>
+
+	<li>
+		<div class="keypart">You must abandon many rights to use the software.</div>
+
+		<p>
+		There are a number of restrictions that you must accept by law.<br/>
+	    Restrictions on who can use the software, what kind of revenue you
+may earn with it, on how you choose to install it, restrictions on your
+privacy, even on whether you can give it away: the list is long. <a href="<?php base_url('windows/restrictions/further_details'); ?>" title="a few more things about Mircrosoft licenses">Reading the license and enumerating your remaining rights</a> is itself a difficult task.</p>
+	</li>
+
+	<li>
+		<div class="keypart">An <acronym title="Original Equipment Manufacturer (simply the hardware seller)">OEM</acronym>-distributed software cannot be transferred to another computer.</div>
+
+		<p>If you bought your computer with Windows or Office pre-installed
+(the so-called OEM licenses, or the "shrink wrap" Windows discs), <strong>if you change computers you must buy software again.</strong><br/>
+The license is linked to one computer, and expires when the computer
+dies. It is then illegal to transfer the software on another computer.</p>
+	</li>
+
+</ul>
+
+<h2 id="the_meaning_behind">The meaning behind</h2>
+
+<p>Companies like Microsoft like to assimilate their software to physical products, <a href="http://www.microsoft.com/piracy/" rel="nofollow">when mentioning copyright infringement</a>
+ for example. Yet, proprietary software is very different because of the
+ restrictive license –such restrictions would be unthinkable on a car or
+ bicycle, for example.</p>
+<p>Restrictions on the use of Office and Windows are so harsh, that many
+ violations occur everyday around us. People are tempted to buy only one
+ version of Microsoft Office and install it on two computers. Others
+keep their version of Windows when they throw their PC away. Other
+people give away their second-hand Windows software when they stop using
+ it.</p>
+
+<p><strong>You have an alternative to breaking this law,</strong> or feeling very restrained when you abide to it. GNU/Linux is <a href="http://www.softwareliberty.com/">Free Software</a> (much better than just freeware): its <a href="http://www.gnu.org/copyleft/gpl.html">GPL</a> license is designed to protect your rights.</p>
+
+<div class="read_article">
+<a href="<?php base_url('windows/restrictions/further_details'); ?>">Read more: Restrictions - further details</a>
+</div><!-- end read_article -->
+
+</div><!-- end maincontent -->
+
+<?php menu_foot_why_not_windows(); ?>
+
+<?php load_footer(); ?>
