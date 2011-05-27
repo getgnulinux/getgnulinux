@@ -1,0 +1,75 @@
+body {
+		padding-bottom: 1.5em; /* Because no footer */
+	}
+
+#header_picture_homepage {
+		height: 130px;
+	}
+
+#header_picture_homepage {
+		background: url(../_language/homepage_header_background.jpg) top right no-repeat;
+	}
+
+#maincontent {
+		margin-top: 4em;
+	}
+
+.main_pic {
+		margin: -20px 0 0 0;  /* Pixel margin because of IE bugs */
+		clear: none;
+	}
+
+#text {
+		min-height: 185px; /* Higher than main_pic to avoid IE peekaboo bug */
+	}
+
+h1 {
+		text-align: right;
+	}
+
+#contentlist {
+		padding: 0;
+		margin: 0 2em;
+		clear: both;
+	}
+
+#contentlist a {
+		display: block;
+		padding: 0.8em 0.5em;
+		margin: 0.5em 0;
+		background: #fafcff;
+		border: 1px #ebf2ff solid;
+		-moz-border-radius: 3px; /* Non-standard but nice-looking */
+	}
+
+#contentlist a:hover {
+		text-decoration: none;
+		background: #f5f9ff;
+		border: 1px #e0ecff solid;
+	}
+
+#contentlist a img {
+		clear: none;
+		opacity: 0.8; /* Validates as CSS3 */
+	}
+
+#contentlist a:hover img {
+		opacity: 1;
+	}
+
+#contentlist .title {
+		display: block;
+		color: #000080;
+		margin: 0 0 0.5em 0;
+		padding: 0;
+		font-size: 1.2em;
+		font-weight: normal;
+	}
+
+#contentlist a .subtitle {
+		color: black;
+	}
+
+#contentlist a:hover span, #contentlist a:hover h2 {
+		color: #000080;
+	}

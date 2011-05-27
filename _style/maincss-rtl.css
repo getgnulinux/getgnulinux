@@ -1,0 +1,689 @@
+/*----------------------------------------------------
+- First, resetting some of the heterogenous UA styling
+----------------------------------------------------*/
+
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+		margin: 0;
+		padding: 0;
+	}
+
+table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+fieldset, img, abbr, acronym { 
+		border: 0;
+	}
+
+address, caption, cite, code, dfn, th, var {
+		font-style: normal;
+		font-weight: normal;
+	}
+
+caption, th { 
+		text-align: left;
+	}
+
+h1, h2, h3, h4, h5, h6 {
+		font-weight: normal;
+		font-family: "Times New Roman", Georgia, FreeSerif, serif;
+		margin-bottom: 1em;
+	}
+
+q:before, q:after { 
+		content: '';
+	}
+
+/*----------------------------------------------------
+- General styles 
+----------------------------------------------------*/
+
+.accessibility a {
+		display: none; /* Link to skip all header stuff, for text-based surfers */
+	}
+
+html {	
+		text-align: justify;
+		font-family: "Nimbus Sans L", Helvetica, Arial, sans-serif;
+		color: black;
+		background-color: white;
+		line-height: 1.4;
+	}
+
+a {
+		color: #000080;
+		text-decoration: none;		
+	}
+
+p a, li a {
+		color: black;
+}
+
+a:hover {
+		color: #00c;
+		text-decoration: underline;
+	}
+	
+#maincontent a {
+		background: url(giflink.gif) bottom left repeat-x; /* Dotted default style for links */
+	}
+
+#maincontent a:hover {
+		background: none;
+	}
+
+a:active {
+		color: red; 
+	} 
+
+a:visited {
+		color: #66c;
+	}
+
+a img {
+		border: none;
+	}
+	
+.wehere a {	/* In all navigations, local page or section */
+		color: #043f58;
+		border: 1px #043f58 solid;
+	}
+
+#header li .wehere a {
+		color: #043f58;
+		border: 1px #043f58 solid;
+		text-decoration: none;
+	}
+	
+acronym, abbr, .caps {
+		text-transform: lowercase;
+		font-variant: small-caps;
+		letter-spacing: 0.05em;
+	}
+
+h1 {
+		text-align: center;
+	}
+
+.windows_section_h1 { /* Applied to h1 in Win sub-section */
+		margin-top: 4.5em;
+	}
+
+h2, h3, h4 {
+		text-align: right;
+		margin-right: 0;
+	}
+
+h2 {
+		font-size: 1.5em;
+		font-weight: normal;
+		color: #000080;
+		margin-top: 2em;
+		margin-bottom: 0em;
+	}
+
+h3 {
+		display: inline;
+		color: #630000;
+		font-size: 1em;
+	}
+
+em, strong {
+		color: #630000;
+	}
+		
+
+#maincontent ul {
+		list-style-image: url(blackbullet.png); /* Icons by Mark James - famfamfam.com */
+		margin-bottom: 2em;
+	}
+
+#maincontent li {	
+		margin-top: 1em;
+	}
+
+code { 
+		font-family: "Andale Mono", "Courier New", Courier, monospace;
+	}
+
+.keypart { /* Blue-highlighted key ideas, used in Windows sub-sections */
+		display: block;
+		font-size: 1.05em;
+		padding: 0.4em;
+		margin: 0 0 0.8em 0;
+		line-height: 1.5em;
+		background-color: #edf7ff;
+	}
+
+.note, .note_ital {
+		font-size: 0.8em;
+	}
+
+.note_ital {
+		font-style: italic;
+	}
+
+.footnote {
+		position: relative;
+		bottom: 0.5em;
+		color: red;
+		font-size: 0.8em;
+	}
+
+.footnotes_bottom {
+		margin-top: 3em;
+		border-top: 1px #DFD9F9 solid;
+		padding: 1em 1em 0 1em;
+		font-size: 0.8em;
+	}
+
+/*----------------------------------------------------
+- Translations menu on top of page 
+----------------------------------------------------*/
+
+#translations {
+		position: absolute;
+		left: 50%; /* Unchanged from ltr, because most browsers can't tell right from left when going rtl */
+		top: 0;
+		margin: 0 0 0 -23em; /* This is where the positionning changes */
+		padding: 0 3em 0 1em;
+		height: 1.5em;
+		cursor: pointer;
+		background: white;
+		z-index: 2;	
+	}
+
+#language_menu {
+		width: 13em;
+		height: 1.4em;
+		min-height: 21px;
+		padding: 0;
+		text-align: center;
+		color: #555555;
+		background: #f7f7f9;
+		border-bottom: 1px #dfd9f9 solid;
+		border-right: 1px #dfd9f9 solid;
+		border-left: 1px #dfd9f9 solid;
+		-moz-border-radius-bottomright: 4px;
+		-moz-border-radius-bottomleft: 4px;
+	}
+
+#language_menu_text {
+		font-size: 14px;
+		min-height: 20px;
+		padding: 0 30px 2px 0;
+		background: url(alternate_languages.png) right center no-repeat;
+	}
+
+.lang_code {
+		font-family: "Courier New", Courier, "Nimbus Mono L", monospace;
+		float: left;
+		margin-right: 0.6em;
+		color: #8b0000;
+	}
+
+#translations ul {
+		position: absolute; /* Absolute, within containing div #language_menu that is... */
+		top: 1.5em;
+		right: 0;
+		margin: -1px 0 0 0;
+		padding: 0 3em 3em 3em;
+		list-style: none;
+		z-index: 3;
+		display: none;
+	}
+
+#translations li {
+		width: 13em;
+		margin: 0 0 0 1px;
+		padding: 0;
+		text-align: left;
+	}
+
+#translations:hover ul, #translations.sfhover ul {
+		display: block;
+	}
+
+#translations li a {
+		display: block;
+		margin: -1px 0 0 0;
+		padding: 0.3em 0.3em 0.3em 0.5em;
+		line-height: 1.2em;
+		background: white;
+		border: 1px gray solid;
+		height: 100%;
+		opacity: 0.97;
+	}
+
+#translations li a:hover {
+		border-color: black;
+		text-decoration: none;
+		color: black;
+		opacity: 1;
+	}
+
+#translations #is_current_language a {
+		background: #fafcff;
+		font-style: italic;
+		color: gray;
+		cursor: text;
+	}
+
+/*----------------------------------------------------
+- Main body
+----------------------------------------------------*/
+
+body {
+		margin: 0;
+		padding: 0 0 0.5em 0;
+	}
+
+.wrap_top {	/* "Shadows" brought by 4 divs wrapping the actual content */
+		width: 45em;
+		max-width: 90%;
+		min-width: 550px;
+		margin: 1.5em auto 0 auto;
+		clear: both;
+		background: url(bgd_top.png) top repeat-x;
+		padding-top: 8px;
+	}
+
+.wrap_right {
+		background: url(bgd_right.png) right repeat-y;
+		padding-right: 8px;
+	}
+
+.wrap_bottom {
+		background: url(bgd_bottom.png) bottom repeat-x;
+		padding-bottom: 8px;
+	}
+
+.wrap_left {
+		background: url(bgd_left.png) left repeat-y;
+		padding-left: 8px;
+	}
+
+.topl, .topr, .botl, .botr {	
+		position: relative;	/*corners are floated*/
+		height: 12px;
+		width: 12px;
+	}
+
+.topl {	
+		background: url(bgd_topl.png) top left no-repeat;
+		float: left;
+		top: -6px;
+		left: -6px;
+	}
+	
+.topr {
+		background: url(bgd_topr.png) top right no-repeat;
+		float: right;
+		top: -6px;
+		right: -6px;
+	}
+
+.botl {
+		background: url(bgd_botl.png) bottom left no-repeat;
+		float: left;
+		bottom: 6px;
+		left: -6px;
+	}
+	
+.botr {
+		background: url(bgd_botr.png) bottom right no-repeat;
+		float: right;
+		bottom: 6px;
+		right: -6px;
+	}
+
+#mainbody {      /* Contains everything with header, except the footer and translation tabs */
+		padding: 0 1em 1em 1em;
+		border: 1px #DFD9F9 solid;
+		background: #fefefe;
+	}
+
+/*----------------------------------------------------
+- Headers (blue part + main menu)
+----------------------------------------------------*/
+
+#header { 
+		padding: 1em 0; 	
+	}
+
+#header_picture {
+		background: url(blue_background_rtl.jpg) top right no-repeat;
+		height: 60px;	
+	}
+
+#header ul {
+		padding:0;
+		margin: 1em 0 0 0;
+		list-style-image: none;
+	}
+
+#header li {
+		float: left;
+		display: inline;
+		font-size: 1.2em;
+		line-height: 1.3em;
+		text-align: center;
+		margin: 0;
+		white-space: nowrap;  /* When very large ems are set by user */
+	}
+
+#header li a { 
+
+		display: block;
+		text-align: center;
+		color: #000080;
+		
+		padding: 0.1em 0.5em;
+		border: 1px #DFD9F9 solid;
+		margin-left: -1px;
+		background: white;
+	}
+
+#header li .wehere a {
+		margin-left: 0;
+		border-color: #c9c4e0;
+		background: #fafcff; 
+	}
+
+#header li a:hover {
+		text-decoration: none;
+		color: #043f58;
+		background: #f2f5fa;
+	}
+
+/*----------------------------------------------------
+- Main contents
+----------------------------------------------------*/
+
+#maincontent {		/* The actual (interesting!) text content, inside mainbody */
+		margin-top: 3em;
+		clear: none;
+	}
+
+#maincontent img {
+		clear: left;
+		float: left;
+		margin-right: 1em;
+	}
+
+#intro_box {
+		margin-top: 5em;
+	}
+
+/*----------------------------------------------------
+- Subheader ("contents of chapter" box)
+- (only displays in level 2 pages)
+----------------------------------------------------*/
+
+#subheader { 
+		clear: right;
+		float: right;
+		font-size: 0.8em;
+		margin: 3em -1em 2em 1.5em;
+		padding: 0.5em 1em 0.5em 1em;
+		border-left: 1px #DFD9F9 solid;
+		border-bottom: 1px #DFD9F9 solid;
+	}
+
+		 
+#subheader .title {
+		display: block;
+		text-align: center;
+		font-style: italic;
+		margin-bottom: 0.8em;
+	}
+		 
+#subheader .title a {
+		background: none;
+		text-decoration: none;
+		color: black;
+	}
+
+#subheader ul {
+		list-style-type: none;
+		list-style-image: none; /* IE bug */
+		margin: 0; /* for IE */
+		padding: 0; /* for Moz */
+	}
+	
+#subheader li {
+		margin: 0.5em 0;
+		white-space: nowrap;
+	}
+
+#subheader li a {
+		color: #000080;
+		display: block;
+		padding: 0.2em 0.5em;
+		background: none; 
+	}
+
+#subheader li a:hover, #subheader_foot li a:hover {
+		text-decoration: none;
+		color: #043f58;
+		background: #f2f5fa;
+	}
+		
+#subheader .wehere a, #subheader_foot .wehere a {
+		border: none;
+		background: #f2f5fa;
+	}
+
+#subheader .wehere a:hover, #subheader_foot .wehere a:hover {
+		border: none;
+		background: #e4ebf7;
+	}
+
+/*----------------------------------------------------
+- Subheader foot ("contents of chapter" box at bottom)
+- (same html as #subheader, but different css)
+----------------------------------------------------*/
+
+#subheader_foot { 
+		clear: both; 
+		width: 88%;	
+		font-size: 0.8em;		
+		margin: 2em auto 0 auto;
+		padding: 1em;
+		text-align: center;
+	}
+
+#subheader_foot .title a, #subheader_foot .title a:hover { 
+		color: black;
+		text-decoration: none;
+	}
+
+#subheader_foot ul {
+		list-style-type: none;
+		list-style-image: none; /* IE bug */	
+		height: 1.85em;
+		padding: 0.2em;
+		margin: 0;
+		border: 1px #DFD9F9 solid;
+		-moz-border-radius: 3px;
+	}
+	
+#subheader_foot li {
+		display: inline;
+		margin: 0 0.1em;
+		white-space: nowrap;
+	}
+
+#subheader_foot li a {
+		color: #000080;
+		padding: 0.5em;
+		line-height: 1.8em;
+	}
+
+/*----------------------------------------------------
+- Quotes (big introductory quote at start of page)
+- (only displays in Windows level 2 pages)
+- quote1, quote2 and quote3 are imbricated and style
+- the center quotes; 
+- while floatquote1 and floatquote2 style the quotes
+- on right side of page
+----------------------------------------------------*/
+
+.quote1 {
+		clear: both;
+		width: 85%;
+		margin: 1em auto;
+		background: #ffffed url(leftquote.png) top left no-repeat;
+		color: #3a0000;
+		border-top: 3px #f4f4da solid;
+		border-bottom: 3px #f4f4da solid;
+	}
+
+.quote2 {
+		background: url(rightquote.png) bottom right no-repeat;
+	}
+
+.quote3 {
+		padding: 0.5em 35px;
+	}
+
+.quote1 strong {
+		color: #3a0000;
+	}
+
+.quote1 .source, .floatquote1 .source {
+		display: block;
+		color: black;
+		font-size: 0.9em;
+		margin-top: 0.6em;
+		font-style: italic;
+		text-align: right;
+	}
+
+.quote1 .source a, .floatquote1 a {
+		color: #3a0000;
+		background: none;
+	}
+
+.floatquote1 {
+		float: right;
+		width: 35%;
+		margin-right: 0;
+		margin-left: 1em;
+		padding: 10px 5px;
+		background: #ffffed url(leftquote_light.png) top left no-repeat;
+		color: #3a0000;
+		border-top: 3px #f4f4da solid;
+		border-bottom: 3px #f4f4da solid;
+	}
+
+.floatquote2 {
+		background: url(rightquote_light.png) bottom right no-repeat;
+	}
+
+/*----------------------------------------------------
+- "Next page:" banner at bottom of page
+- used only on switch_to_linux.* (level 2) pages
+----------------------------------------------------*/
+
+#bottom_next_page_banner {
+		margin: 3em -0.8em -0.8em -0.8em;
+		text-align: center;
+	}
+
+#bottom_next_page_banner a {
+		background: #f0f0f0;
+		padding: 0.5em 0 0.5em 0;
+		display: block;
+	}
+
+#bottom_next_page_banner a:hover {
+		background: #e5e5e5;
+		text-decoration: none;
+	}		
+
+#bottom_next_page_banner a .arrow {
+		background: url(arrow_right.png) center right no-repeat;
+		padding-right: 50px;
+	}
+
+#bottom_next_page_banner a:hover .underlining {
+		text-decoration: underline;
+	}	
+
+/*----------------------------------------------------
+- Advertizing from nonbreakingspace
+- this is some general styling; specific pages with
+- ads have additional styling.
+----------------------------------------------------*/
+
+#ad {
+		font-size: 0.85em;
+		color: #383838;
+		min-height: 100px;
+	}
+
+#ad p {
+		padding-top: 5px;
+		text-align: left;
+		max-width: 30em;
+	}
+
+#maincontent #ad_pic {
+		background: none;
+	}
+
+#ad_from {
+		font-size: 0.8em;
+		color: gray;
+	}
+
+#ad_from .caps {
+		font-size: 1.3em;
+	}
+
+#ad_from a {
+		background: none;
+		border-bottom: 1px #8b0000 solid;
+		color: gray;
+	}
+
+#ad_from a:hover {
+		text-decoration: none;
+		color: #8b0000;
+	}
+
+/*----------------------------------------------------
+- Footer (we're almost done!)
+----------------------------------------------------*/
+
+#footer {
+		border: 1px #DFD9F9 solid;
+		background: #fefefe;
+		font-size: 0.9em;
+		padding: 0.8em 1em; 
+	}
+
+#about {
+		float: none;
+	}
+		
+#legal {
+		font-size: 0.85em;
+		font-style: italic;
+	}
+		
+.link_button {
+		float: left;
+		margin: 0.1em 0.2em 0 0.2em;
+	}
+		
+.link_button a img {
+		border: none;
+		opacity: 0.8;
+	}
+
+.link_button a:hover img {
+		opacity: 1;
+	}

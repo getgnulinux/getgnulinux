@@ -1,0 +1,267 @@
+/* This is not a browser. It's a lifestyle. */
+
+.accessibility {
+		line-height: 10px;
+	}
+
+#translations {
+		margin-bottom: 0.5em;
+	}
+
+#header_picture_homepage, #header_picture {
+		background-color: transparent; /* IE6 does not follow "height" property here, so blue background overflows otherwise */ 
+	}
+
+#header ul {
+		width:expression(
+		document.body.clientWidth > (500/12) * 
+		parseInt(document.body.currentStyle.fontSize)?
+        "99.9%":
+        "auto" ); /* Ugly emulation of max-width to avoid round corner display bug*/ 
+	}
+
+#header li, #header li a {
+		padding: 0;
+		margin: 0;
+	}
+
+#header #menu_linux {
+		float: left; /* So when font size increases it stays on left*/
+	}
+
+#header li a {
+		margin-left: 0;
+	}
+
+#subheader {
+		float: none;
+		display: block;
+		width: 25%;
+		margin: 0 0 -4.5em auto;
+	}
+
+#subheader li {
+		line-height: 0.5em; /* Screws up whole display otherwise*/
+	}
+
+h1 {
+		clear: right; /* If not, title sometimes plays peek-a-boo */ 
+	}
+
+#text {
+		height: 185px; /* In homepage, higher than main_pic to avoid IE peekaboo bug */
+	}
+
+.windows_section_h1 {
+		margin-top: 0;
+	}
+
+#bottom_next_page_banner {
+		margin: 3em 0 0 0;
+	}
+
+.botl, .botr {
+		bottom: 0.8em;
+		margin-bottom: -1em;
+	}
+
+/*---------------------------------------------------- 
+- Using a non-transparent version of all of the small
+- icons here and there in links.
+- At the moment, this introduces a bug on rtl
+- languages, like Arabic, since the rules here 
+- over-ride rtl styling. Will be solved soon. 
+- The icons are CC-BY by Mark James - famfamfam.com
+----------------------------------------------------*/
+ 
+.previous {
+		background-image: url(left_ie.png);
+	}
+
+.next {		
+		background-image: url(right_ie.png);
+	}
+
+.up {		
+		background-image: url(up_ie.png);
+	}
+
+.go_download {		
+		background-image: url(go_ltr_ie.png);
+	}
+
+.order {	
+		background-image: url(box_ie.png);
+	}
+
+#bottom_next_page_banner a .arrow {
+		background-image: url(arrow_right_ie.png);
+	}
+
+/*---------------------------------------------------- 
+- No Javascript? Then we have do degrade the 
+- translation bar menu.
+----------------------------------------------------*/
+
+#translations {
+		font-size: 0.8em;
+		margin: 0;
+		left: 0;
+		cursor: normal;
+		border-bottom: 1px silver solid;
+		padding: 0.2em 1em 0 1em;
+		color: gray;
+		display: block;
+		width: 100%;
+		position: relative
+		cursor: auto;
+	}
+
+#language_menu {
+		display: inline;
+		width: inherit;
+		height: inherit;
+		text-align: left;
+		color: gray;
+		background: white;
+		border: none;
+	}
+
+#language_menu_text {
+		padding: 0;
+		background: none;
+	}
+
+.lang_code {
+		display: inline;
+		position: relative;
+		left: 0; /*inherit? nah, ie6. */
+		float: none;
+		background: none;
+		border: none;
+		padding: 0.2em 0;
+		margin: 0;
+		color: gray;
+	}
+
+#translations ul {
+		display: inline;
+		position: relative;
+		top: 0;
+		left: 0;
+		float: none;
+		list-style: none;
+		margin: 0 0 0 1em;
+		padding: 0;
+	}
+
+#translations li {
+		display: inline;
+		float: none;
+		margin: 0 0.2em;
+		padding: 0;
+		text-align: left;
+		/* non-breaking spaces? nah, ie6. */
+	}
+
+#translations li a {
+		display: inline;
+		padding: 0.3em;		
+		background: none;
+		color: gray;
+		border: 1px white solid;
+	}
+
+#translations li a:hover {
+		border: 1px gray solid;
+		background: white;
+		text-decoration: none;
+		color: black;
+		padding: 0.3em;
+	}
+
+/*---------------------------------------------------- 
+- Aha, so we *do* have Javascript? Then we can re-
+- build the menu and use that nifty suckerfish
+- JavaScript to emulate :hover behavior. 
+----------------------------------------------------*/
+
+/* --This is roughly the same code as real browsers--*/
+
+body.ie6_has_js #translations {
+		font-size: 1em;
+		left: 50%;
+		top: 0;
+		margin: 0 0 0 5.9em;
+		padding: 0 1em 0 3em;
+		height: 1.5em;
+		background: white;
+		z-index: 2;
+		border-bottom: none;
+		width: 15em;
+	}
+
+body.ie6_has_js #language_menu {
+		display: block;
+		width: 13em;
+		height: 1.4em;
+		padding: 0;
+		text-align: center;
+		color: #555555;
+		background: #f7f7f9;
+		border-bottom: 1px #dfd9f9 solid;
+		border-right: 1px #dfd9f9 solid;
+		border-left: 1px #dfd9f9 solid;
+	}
+
+body.ie6_has_js #language_menu_text {
+		font-size: 14px;
+		padding: 0 0 2px 30px;
+		background: url(alternate_languages.png) top left no-repeat;
+	}
+
+body.ie6_has_js .lang_code {
+		font-family: "Courier New", Courier, "Nimbus Mono L", monospace;
+		float: left;
+		margin-right: 0.6em;
+		color: #8b0000;
+	}
+
+body.ie6_has_js #translations ul {
+		position: absolute;
+		top: 1.5em;
+		right: 0;
+		margin: -1px -2em 0 0;
+		padding: 0 3em 3em 3em;
+		list-style: none;
+		z-index: 3;
+		width: 13em;
+		display: none;
+	}
+
+body.ie6_has_js #translations li {
+		width: 13em;
+		margin: 0 0 0 1px;
+		padding: 0;
+		text-align: left;
+	}
+
+body.ie6_has_js #translations.sfhover ul {
+		display: block;
+	}
+
+body.ie6_has_js #translations li a {
+		display: block;
+		margin: -1px 0 0 0;
+		padding: 0.3em 0.3em 0.3em 0.5em;
+		line-height: 1.2em;
+		background: white;
+		border: 1px gray solid;
+		height: 100%;
+	}
+
+body.ie6_has_js #translations li a:hover {
+		border-color: black;
+		text-decoration: none;
+		color: black;
+	}

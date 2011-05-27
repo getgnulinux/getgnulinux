@@ -1,0 +1,96 @@
+h2 {
+		margin: 0.5em 0 1.5em 0;
+		font-size: 1.8em;
+	}
+
+h3 {
+		display: block;
+		font-size: 1.2em;
+		margin: 1em 1em 0.5em 0;
+		color: #000080;
+	}
+
+.section {
+		clear: both;
+		border-top: 2px #ddddef solid;
+		padding: 1em 0 3em 0;
+	}
+
+/* the "go download" button code below differs strongly from ltr CSS */
+
+#mainbody a.get_it_button {
+		float: right;
+		clear: both;
+		margin-left: 1em;
+		margin-bottom: 0.5em;
+		padding: 0.4em;
+		background: #dbffbf url(go_rtl.png) 10px center no-repeat;
+		border: 1px #adcd94 solid;
+		-moz-border-radius: 2px;
+	}
+
+#mainbody a.get_it_button:hover {
+		color: black;
+		background: #d0fcae url(go_rtl.png) 10px center no-repeat;
+		border-color: #79bf42;
+		text-decoration: none;
+	}
+
+#mainbody a.get_it_button:active {
+		border-color: red;
+	}
+
+.order {
+		background: url(box.png) center right no-repeat;
+		padding-right: 22px;
+	}
+
+#mainbody .go_download a, #mainbody .order a {
+		background: none;
+	}
+
+h4 {
+		margin: 0 0 0.5em 0;
+	}
+
+
+.ubuntu_light, .fedora_light, .gnewsense_light {
+		margin: 0 0.5em 0.5em 0;
+		padding: 0.5em;
+		background: white;
+		-moz-border-radius: 2px;
+	}
+
+.ubuntu_light {
+		border: 1px #DD4814 solid;
+	}
+
+.fedora_light {
+		border: 1px #6c94c9 solid;
+	}
+
+.gnewsense_light {
+		border: 1px #c59292 solid;
+	}
+
+
+.ubuntu_title, .fedora_title, .gnewsense_title {
+		font-family: Helvetica, Arial, sans-serif;
+		padding-right: 20px;
+		font-size: 1em;
+	}
+
+.ubuntu_title {
+		color: #000000;
+		background: url(switch_to_linux.try_or_install.ubuntu_icon.png) center right no-repeat;
+	}
+
+.fedora_title {
+		color: #0a57a4;
+		background: url(switch_to_linux.try_or_install.fedora_icon.png) center right no-repeat;
+	}
+
+.gnewsense_title {
+		color: #563100;
+		background: url(switch_to_linux.try_or_install.gnewsense_icon.png) center right no-repeat;
+	}

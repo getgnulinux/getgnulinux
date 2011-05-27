@@ -1,0 +1,115 @@
+@import url(previous_next_up-ltr.css);
+
+#content {
+		font-size: 0.9em;
+		padding-left: 0.5em;
+	}
+
+#content ul {
+		margin: 0 0 1em 0;
+		padding-left: 1em;
+		list-style-image: none;
+		list-style-type: none;
+	}
+
+#content li {
+		margin-top: 0.4em;
+		padding-left: 0; /*for IE*/
+		margin-left: 0; /*for moz*/
+	}
+	
+#maincontent #content a, #maincontent #content a:hover {
+		padding-left: 16px;
+		background: white url(bullet_arrow_down.png) no-repeat center left; /* icons by Mark James - famfamfam.com */
+	}
+
+
+.back_to_top {
+		float: right;
+		font-size: 0.6em;
+		margin-right: -3px;
+	}
+
+#maincontent .back_to_top a {
+		padding: 1px 3px 2px 16px;
+		background: white url(bullet_arrow_up.png) no-repeat top left;
+		border: 1px white solid;
+	}
+
+#maincontent .back_to_top a:hover {
+		border: 1px #000080 solid;
+		text-decoration: none;
+	}
+
+.QA_series { /*Set of questions*/
+		margin-top: 2em;
+	}
+
+.QA { /*Set of one Q+Q_sub+Answer*/
+		padding-left: 2em;
+		background: white url(blackbullet_faq.png) no-repeat top left;
+	}
+
+.Q  { /*Question, is also h3*/
+		font-size: 1.2em;
+		margin: 2em 0 0.8em 0;
+		display: block;
+		font-weight: normal;
+		color: #000080;
+	}
+
+.Q_sub, .A {
+		font-size: 0.9em;
+	}
+
+.Q_sub {
+		color: #000080;
+	}
+
+.A {
+		margin-top: 0.8em;
+		border-left: 1px #000080 solid;
+		padding-left: 0.5em;
+	}
+
+.read_more {
+		margin-left: 60%;
+		font-size: 0.9em;
+	}
+
+#more_q {
+		margin-top: 3em;
+	}
+
+#more_q h3 {
+		font-size: 1.2em;
+		font-weight: normal;
+		color: #000080;
+	}
+
+code {
+		font-size: 1.2em;
+	}
+
+
+/*----------------nonbreakingspace advertizing area----------------*/
+
+#ad {
+		background: url(bgd_nbsp_horizontal.png) center center repeat-y;
+		margin: 7em 0 3em 0;
+		padding: 0.6em 20%;
+		border-top: 1px silver solid;
+		border-bottom: 1px silver solid;
+	}
+
+#ad img {
+		float: left;
+		margin: 5px 1em 5px 0;
+	}
+
+#ad_from {
+		height: 2em;
+		clear: left;
+		float: right;
+		margin-top: -2em;
+	}

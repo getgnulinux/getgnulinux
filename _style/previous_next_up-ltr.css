@@ -1,0 +1,82 @@
+/* previous, next and up yellow navigation "buttons" occasionally displayed at top and bottom of pages.*/
+/* The present stylesheet is only called (@import) from within page-specific stylesheets */
+
+#switcher {
+		margin-top: 3em;
+		padding-bottom: 1.5em;
+	}
+
+/* ------------------------- General style --------------*/
+
+#mainbody a.previousbutton, #mainbody a.nextbutton, #mainbody a.upbutton {
+		width: 13.5em;
+		display: block;
+		padding: 0.3em 0.2em;
+		color: black;
+		background: #fffbc9;
+		border: 1px #046380 solid;
+		-moz-border-radius: 3px;
+	}
+
+#mainbody a.previousbutton:hover, #mainbody a.nextbutton:hover, #mainbody a.upbutton:hover {
+		background: #fff8ab;
+		border-color: #0584ab;
+		text-decoration: none;
+	}
+
+#mainbody a.nextbutton:active, #mainbody a.previousbutton:active, #mainbody a.upbutton:active {
+		border-color: red;
+	}	
+
+.button_title {
+		color: #000080;
+		font-size: 1.11em;
+	}
+
+
+/* ------------------------- Previous button --------------*/
+
+#mainbody a.previousbutton {
+		float: left;
+		text-align: center;
+	}	
+	
+.previous {
+		background: url(left.png) center left no-repeat; /* icons by Mark James - famfamfam.com */
+		padding-left: 20px;
+		font-size: 0.9em;
+	}
+
+
+/* ------------------------- Next button --------------*/
+
+#mainbody a.nextbutton {
+		float: right;
+		text-align: center;
+	}
+
+.next {		
+		background: url(right.png) center right no-repeat; 
+		padding-right: 20px;
+		font-size: 0.9em;
+	}
+
+
+/* ------------------------- Up button --------------*/
+
+.upbutton_section {
+		margin: 3em 0 0 0;
+		height: 2em;
+	}
+
+#mainbody a.upbutton {
+		width: 17em;
+		float: right;
+		padding-left: 20px;
+	}
+
+.up {		
+		background: url(up.png) center left no-repeat;
+		padding-left: 20px;
+		font-size: 0.9em;
+	}

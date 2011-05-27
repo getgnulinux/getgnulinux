@@ -1,0 +1,231 @@
+/* First, the main stuff */
+
+.accessibility a {
+		display: none; /*link to skip all header stuff, for text-based surfers*/
+	}
+
+html {	
+		text-align: justify;
+		font-family: arial, helvetica, sans-serif;
+		color: black;
+		background-color: white;
+	}
+
+a {
+		color: #000080;
+		text-decoration: none;		
+	}
+	
+a:hover {
+		color: #00c;
+		text-decoration: underline;
+	}
+	
+#maincontent a {
+		background: url(giflink.gif) bottom left repeat-x; /*dotted default style for links*/
+	}
+
+#maincontent a:hover {
+		background: none;
+	}
+
+a:active {
+		color: red; 
+	} 
+
+a:visited {
+		color: #66c;
+	}
+
+a img {
+		border: none;
+	}
+	
+.wehere a {				/*in all navigations, local page or section*/
+		color: #043f58;
+		border: 1px #043f58 solid;
+	}
+
+#header li .wehere a, #subheader .wehere a, #subheader .wehere a:hover {
+		color: #043f58;
+		border: 1px #043f58 solid;
+		text-decoration: none;
+	}
+
+h1 {
+		
+	}
+
+h2, h3, h4 {
+		text-align: left;
+	}
+
+h2 {			
+		color: #000080;
+		margin-top: 40px;
+		font-weight: normal;
+	}
+		
+h3 {
+		display: inline;
+		color: #630000;
+		font-size: 1em;
+	}
+
+em, strong {
+		color: #630000;
+	}
+		
+
+#maincontent ul {
+		list-style-image: url(blackbullet.png); /* icons by Mark James - famfamfam.com */
+		margin-bottom: 2em;
+	}
+
+#maincontent li {	
+		margin-top: 1em;
+	}
+
+
+
+
+
+
+/*----------------------------------- now, main body ------------------------ */
+
+body {
+		margin: 0;
+		padding: 0 0 0.5em 0;
+	}
+
+
+.wrap_top {	/*shades brought by 4 divs wrapping content*/
+		width: 49.5em;
+		max-width: 90%;
+		min-width: 800px;
+		margin: 2em auto 0 auto;
+		clear: both;
+		background: url(bgd_top.png) top repeat-x;
+		padding-top: 8px;
+	}
+
+.wrap_right {
+		background: url(bgd_right.png) right repeat-y;
+		padding-right: 8px;
+	}
+
+.wrap_bottom {
+		background: url(bgd_bottom.png) bottom repeat-x;
+		padding-bottom: 8px;
+	}
+
+.wrap_left {
+		background: url(bgd_left.png) left repeat-y;
+		padding-left: 8px;
+	}
+
+.topl, .topr, .botl, .botr {	
+		position: relative;	/*corners are floated*/
+		height: 12px;
+		width: 12px;
+	}
+
+.topl {	
+		background: url(bgd_topl.png) top left no-repeat;
+		float: left;
+		top: -6px;
+		left: -6px;
+	}
+	
+.topr {
+		background: url(bgd_topr.png) top right no-repeat;
+		float: right;
+		top: -6px;
+		right: -6px;
+	}
+
+.botl {
+		background: url(bgd_botl.png) bottom left no-repeat;
+		float: left;
+		bottom: 6px;
+		left: -6px;
+	}
+	
+.botr {
+		background: url(bgd_botr.png) bottom right no-repeat;
+		float: right;
+		bottom: 6px;
+		right: -6px;
+	}
+
+#mainbody {      /* everything with header, except footer*/
+		padding: 0 1em 1em 1em;
+		border: 1px #DFD9F9 solid;
+		background: #fefefe;
+	}
+
+
+/*----------------------------------- now, headers ------------------------ */
+
+#header { 
+		padding: 1em 0;
+		text-align: center; 	
+	}
+
+
+/*-------------------- main contents------------------------*/
+
+		
+#maincontent {		/* the actual (interesting) content, inside mainbody*/
+		margin-top: 3em;
+		clear: none;
+	}
+
+#maincontent img {
+		clear: right;
+		float: right;
+		margin: 0 0 1em 1em;
+	}
+
+
+.section {
+		clear: both;
+		border-top: 2px #ddddef solid;
+		padding: 1em 0 0 0;
+		margin-top: 2em;
+	}
+
+.feed {
+		font-size: 0.9em;
+		text-align: right;
+	}
+
+#maincontent .feed a {
+		font-size: 1em;
+		background: url(rss_symbol_small.png) center left no-repeat;
+		padding: 2px 0 2px 20px;
+		margin: 0.2em 0 0.2em 5em;
+	}
+
+
+
+/*------------------------------ now finally footer stuff------------------------*/
+		
+#footer {
+		border: 1px #DFD9F9 solid;
+		background: #fefefe;
+		font-size: 0.9em;
+		padding: 0.8em 1em; 
+		line-height: 1em;
+	}
+
+		
+.link_button {
+		float: right;
+		margin: 0 0.2em;
+	}
+		
+.link_button a img, .link_button a {
+		border: none;
+	}
+
