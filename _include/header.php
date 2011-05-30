@@ -13,15 +13,16 @@
 	<link rel="alternate" type="text/html" dir="ltr" hreflang="vi" href="/vi/" title="Xem trang này bằng tiếng Tiếng Việt !" />
     <link rel="alternate" type="text/html" dir="ltr" hreflang="nl" href="/nl/" title="Bekijk deze pagina in het Nderlands" />
 
-    <link rel="copyright" type="text/html" title="Copyright notice for this website." href="../legal.gnulinuxmatters.org/index.html" hreflang="en" />
+    <link rel="copyright" type="text/html" title="Copyright notice for this website." href="/en/legal/" hreflang="en" />
     <link rel="shortcut icon" type="image/x-icon" href="/_style/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/_language/language.css" />
     <link rel="stylesheet" type="text/css" href="/_style/maincss-ltr.css" />
+
     <title><?php print _("get GNU/Linux!"); ?></title>
+
     <meta name="description" content="Get GNU/Linux! A simple, clear website about Linux. | What is Linux? | Why not Windows? | Tips to make the switch"/>
     <meta name="keywords" content="linux, gnu/linux, free software, software freedom, open-source, windows alternative, get linux, switch to linux" />
 
-    <link rel="stylesheet" type="text/css" href="/_language/language.css" />
-    <link rel="stylesheet" type="text/css" href="/_style/maincss-ltr.css" />
     <?php
     $p = isset($_GET['p']) ? $_GET['p'] : NULL;
     switch ($p) {
@@ -99,15 +100,23 @@
 <div id="language_menu"><span id="language_menu_text"><?php print _("Alternate languages"); ?></span></div>
 
 <ul>
-    <li <?php id_is_current_language('ar'); ?>><a href="/ar/" hreflang="ar" title="الرئيسية"><span class="lang_code">ar</span> <span class="language" dir="rtl">العربية</span></a></li>
-    <li <?php id_is_current_language('ca'); ?>><a href="/ca/" hreflang="ca" title="Inici"><span class="lang_code">ca</span> <span class="language" dir="ltr">català</span></a></li>
-    <li <?php id_is_current_language('en'); ?>><a href="/" hreflang="en" title="Home"><span class="lang_code">en</span> <span class="language" dir="ltr">English</span></a></li>
-    <li <?php id_is_current_language('es'); ?>><a href="/es/" hreflang="es" title="Inicio"><span class="lang_code">es</span> <span class="language" dir="ltr">castellano</span></a></li>
-    <li <?php id_is_current_language('fr'); ?>><a href="/fr/" hreflang="fr" title="Accueil"><span class="lang_code">fr</span> <span class="language" dir="ltr">français</span></a></li>
-    <li <?php id_is_current_language('ru'); ?>><a href="/ru/" hreflang="ru" title="Домой"><span class="lang_code">ru</span> <span class="language" dir="ltr">русский</span></a></li>
-    <li <?php id_is_current_language('uk'); ?>><a href="/uk/" hreflang="uk" title="Додому"><span class="lang_code">uk</span> <span class="language" dir="ltr">українська</span></a></li>
-    <li <?php id_is_current_language('vi'); ?>><a href="/vi/" hreflang="vi" title="Nhà"><span class="lang_code">vi</span> <span class="language" dir="ltr">Tiếng Việt</span></a></li>
-    <li <?php id_is_current_language('nl'); ?>><a href="/nl/" hreflang="nl" title="Hoofdpagina"><span class="lang_code">nl</span> <span class="language" dir="ltr">Nederlands</span></a></li>
+<?php
+$locale_codes = array('ar' => array("الرئيسية",'rtl',"العربية"),
+    'ca' => array("Inici",'ltr',"català"),
+    'en' => array("Home",'ltr',"English"),
+    'es' => array("Inicio",'ltr',"castellano"),
+    'fr' => array("Accueil",'ltr',"français"),
+    'ru' => array("Домой",'ltr',"русский"),
+    'uk' => array("Додому",'ltr',"українська"),
+    'vi' => array("Nhà",'ltr',"Tiếng Việt"),
+    'nl' => array("Hoofdpagina",'ltr',"Nederlands"),
+    );
+
+foreach ($locale_codes as $id => $items) {
+    printf("<li%s><a href=\"/%s/\" hreflang=\"%s\" title=\"%s\"><span class=\"lang_code\">%s</span> <span class=\"language\" dir=\"%s\">%s</span></a></li>\n",
+        is_current_language($id), $id, $id, $items[0], $id, $items[1], $items[2]);
+}
+?>
 </ul>
 
 </div><!-- end translations -->
@@ -125,10 +134,11 @@
 <div id="header">
 
 <?php
-if ( !isset($_GET['p']) || $_GET['p'] == 'home' ) {
+$p = isset($_GET['p']) ? $_GET['p'] : NULL;
+if ($p == "home" || !$p) {
 ?>
     <div id="header_picture_homepage">
-	    <img src="/_language/homepage_header.png" height="130" alt="Get GNU/Linux"/>
+	    <h1><?php print _("get GNU/Linux!"); ?></h1>
     </div>
 <?php
 }
@@ -136,16 +146,30 @@ else {
 ?>
     <div id="header_picture">
 	    <a href="<?php base_url(); ?>" title="home page">
-		    <img src="/_language/website_header.png" height="60" alt="GetGNULinux.org"/>
+		    <h1><?php print _("get GNU/Linux!"); ?></h1>
 	    </a>
     </div>
 <?php } ?>
 
-<ul>
-	<li id="menu_more"><a href="<?php base_url('more'); ?>"><?php print _("More"); ?></a></li>
-	<li id="menu_switch_to_linux"><a href="<?php base_url('switch_to_linux'); ?>"><?php print _("Switch to Linux"); ?></a></li>
-	<li id="menu_windows"><a href="<?php base_url('windows'); ?>"><?php print _("Why not Windows"); ?></a></li>
-	<li id="menu_linux"><a href="<?php base_url('linux'); ?>"><?php print _("What is Linux?"); ?></a></li>
-</ul>
 </div><!-- end header -->
 
+<div id="top_bar" class="grid_9">
+<div class="left">
+<div class="menu-globalnav-container">
+    <ul>
+    <?php
+    $menu_items = array('linux' => _("What is Linux?"),
+        'windows' => _("Why not Windows"),
+        'switch_to_linux' => _("Switch to Linux"),
+        'more' => _("More"),
+        );
+
+    foreach ($menu_items as $id => $title) {
+        printf("<li%s><a href=\"%s\">%s</a></li>\n",
+            is_current_menu_item($id), base_url($id,1), $title);
+    }
+    ?>
+    </ul>
+</div>
+</div>
+</div>

@@ -52,7 +52,7 @@
 	<li><h3>General set-up:</h3>
 	<img src="/_style/switch_to_linux.from_windows_to_linux.mouse.png" width="100" height="69" alt="simple use"/>If you still believe Linux is controlled with code and command-line, you should update your views! <br />
 	Just like Windows, Linux has to boot when you switch your computer on, and then you use programs in it to do different things. The taskbar and layout of applications will feel familiar to Windows or Mac OS users.<br/>
-	<div class="note">See more: we have <a href="/linux/screenshots/">screenshots</a>.</div></li>
+	<div class="note">See more: we have <a href="<?php base_url('linux/screenshots'); ?>">screenshots</a>.</div></li>
 
 
 	<li><h3>Web browsing and common tasks:</h3>
@@ -77,7 +77,7 @@
 	<li><h3>Driver support.</h3>
 	<img src="/_style/switch_to_linux.from_windows_to_linux.hardware.png" width="100" height="69" alt="some hardware problems"/>
 	Manufacturers of computer hardware don't always (yet) release drivers for Linux or publicize full specifications.<br/>
-	So, drivers are sometimes unavailable for the most recent high-end graphics cards &amp;mdash; some are reverse-engineered from Windows drivers by volunteers. Some are also released free of charge, but under restrictive licenses.<br/>
+	So, drivers are sometimes unavailable for the most recent high-end graphics cards &mdash; some are reverse-engineered from Windows drivers by volunteers. Some are also released free of charge, but under restrictive licenses.<br/>
 	Sadly, the same problem occurs with many low-end WiFi cards.<br/>
 	However, the vast majority of computers with standard hardware work out of the box with main Linux distributions. Common hardware such as USB keys or photo cameras never are a problem.</li>
 
@@ -85,7 +85,7 @@
 	<li><h3>DVDs, restricted formats.</h3>
 	<img src="/_style/switch_to_linux.from_windows_to_linux.dvd_restricted.png" width="100" height="69" alt="DVDs and restricted media"/>Many multimedia formats in use are proprietary and not openly specified; this means, broadly speaking, that Linux programmers have to find out how to read them without any help from the format designers.  <br/>
 	This might lead you to circumvent the restrictions in some DVDs and the <acronym title="Digital Restrictions Management">DRM</acronym> in some music files, even if you purchased them in full legality, to be make them work under Linux. Unfortunately, depending on where you live, <em>such circumvention processes may be illegal</em> even if you purchased your media entirely legally.<br/>
-<div class="note">Read more in our Linux FAQ: <a href="/linux/linux_faq/#dvd_mp3">Can I play my DVDs and MP3s under GNU/Linux?</a></div>
+<div class="note">Read more in our Linux FAQ: <a href="<?php base_url('linux/linux_faq'); ?>#dvd_mp3">Can I play my DVDs and MP3s under GNU/Linux?</a></div>
 
 	</li>
 
@@ -93,7 +93,7 @@
 	<img src="/_style/switch_to_linux.from_windows_to_linux.gaming.png" width="100" height="69" alt="gaming"/>
 	Hard-core computer gamers, you might find that the Linux gaming world is less professional and out-of-the-box than under Windows: the large game developing companies are only slowly getting interested in the free software world, which means that many well-known titles do not work on Linux, or need special restrictive emulators to work.<br/>
     There is a very active free software game development community though, and they have produced quite a few high-quality games, both 2D and 3D, that are free software. You can head to the <a href="http://ubuntuforums.org/forumdisplay.php?f=93">Ubuntu gaming forum</a> to find more information.<br/>
-<div class="note">Read more in our Linux FAQ: <a href="/linux/linux_faq/#games">Can I play popular 3D games under GNU/Linux?</a></div>
+<div class="note">Read more in our Linux FAQ: <a href="<?php base_url('linux/linux_faq'); ?>#games">Can I play popular 3D games under GNU/Linux?</a></div>
 
 	</li>
 

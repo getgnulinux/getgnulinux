@@ -2,7 +2,7 @@
 
 <div id="maincontent">
 
-<a href="/linux/" title="What is Linux?">
+<a href="<?php base_url('linux'); ?>" title="What is Linux?">
 <img class="main_pic" width="200" height="202"
      src="/_style/index.applications-ltr.jpg"
      alt="GNU/Linux applications"/></a>

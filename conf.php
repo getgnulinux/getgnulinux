@@ -1,7 +1,7 @@
 <?php
 
 // Variables.
-$base_path = "/home/serrano/public_html/getgnulinux/";
+$base_path = "/home/serrano/htdocs/getgnulinux/";
 
 // Set paths.
 define('BASE_PATH', $base_path);
@@ -24,7 +24,7 @@ switch (@$_GET['l']) {
 
 // Initialise gettext.
 putenv("LANG=".LOCALE);
-setlocale('LC_ALL', LOCALE);
+setlocale(LC_ALL, LOCALE);
 bindtextdomain("messages", "_locale/");
 textdomain("messages");
 

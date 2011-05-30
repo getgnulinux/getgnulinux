@@ -18,7 +18,7 @@
 	</a>
 </span>
 <span class="link_button">
-    <a href='http://www.getfirefox.com/'><img src='http://sfx-images.mozilla.org/affiliates/Buttons/organic/Button_80_2.gif' alt='Get Firefox' border='0' /></a>
+    <a href='http://www.getfirefox.com/'><img src='http://sfx-images.mozilla.org/affiliates/Buttons/organic/Button_80_2.gif' alt='Get Firefox' /></a>
 </span>
 
 

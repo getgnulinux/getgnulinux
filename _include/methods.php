@@ -13,7 +13,7 @@ function load_content()
             return;
         }
         else {
-            include BASE_PATH.'_pages/404.php';
+            include BASE_PATH.'_pages/not_found.php';
             return;
         }
     }
@@ -35,9 +35,31 @@ function load_footer_simple()
     include INCLUDE_PATH.'footer_simple.php';
 }
 
-function id_is_current_language($lang) {
-    if ($lang == locale_code()) {
-        print "id='is_current_language'";
+function startswith($haystack, $needle)
+{
+    $length = strlen($needle);
+    return (substr($haystack, 0, $length) === $needle);
+}
+
+function is_current_language($lang_id) {
+    if ($lang_id == locale_code()) {
+        return " id='is_current_language'";
+    }
+    else {
+        return "";
+    }
+}
+
+function is_current_menu_item($page_id) {
+    $p = isset($_GET['p']) ? $_GET['p'] : NULL;
+    if ($p == $page_id) {
+        return " class='current-menu-item'";
+    }
+    else if ( startswith($p, $page_id) ) {
+        return " class='current-menu-subitem'";
+    }
+    else {
+        return "";
     }
 }
 

@@ -1,5 +1,7 @@
 Options -Indexes
 
+ErrorDocument 404 /en/not_found/
+
 RewriteEngine On
 RewriteRule ^([a-z]{2})/([a-z_]+)/([a-z_]+)/([a-z_]+)/$ /index.php?l=$1&p=$2.$3.$4 [L]
 RewriteRule ^([a-z]{2})/([a-z_]+)/([a-z_]+)/([a-z_]+)$ /index.php?l=$1&p=$2.$3.$4 [L]
@@ -9,3 +11,5 @@ RewriteRule ^([a-z]{2})/([a-z_]+)/$ /index.php?l=$1&p=$2 [L]
 RewriteRule ^([a-z]{2})/([a-z_]+)$ /index.php?l=$1&p=$2 [L]
 RewriteRule ^([a-z]{2})/$ /index.php?l=$1 [L]
 RewriteRule ^([a-z]{2})$ /index.php?l=$1 [L]
+
+php_value display_errors 1
