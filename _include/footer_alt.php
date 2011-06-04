@@ -14,13 +14,8 @@
 <span class="link_button">
     <a href="<?php base_url('link_buttons'); ?>"
 	title="Help spread the word: link to us!">
-		<img src="/_style/tux.png" alt="link to us"/>
+		<img src="/links/en/getgnulinux_80x15_3.png" height="15" alt="| link to us |"/>
 	</a>
-</span>
-<span class="link_button">
-    <a href='http://www.getfirefox.com/' title="Firefox. Made to make the Web a better place.">
-        <img src='/_style/application_firefox.gif' alt='Get Firefox' />
-    </a>
 </span>
 
 

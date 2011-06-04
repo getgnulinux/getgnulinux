@@ -11,7 +11,7 @@ CHARSET=UTF-8
 TEMPLATE=$(DOMAIN).pot
 
 all:
-	@xgettext --default-domain=$(DOMAIN) -k_ -o $(TEMPLATE) $(INCLUDE_DIR)/*.php $(PAGES_DIR)/*.php
+	@xgettext --default-domain=$(DOMAIN) --from-code=utf-8 -k_ -o $(TEMPLATE) $(INCLUDE_DIR)/*.php $(PAGES_DIR)/*.php
 	@sed --in-place $(TEMPLATE) --expression=s/CHARSET/$(CHARSET)/
 	@sed --in-place $(TEMPLATE) --expression=s/PACKAGE\ VERSION/0.1.0/
 	@sed --in-place $(TEMPLATE) --expression=s/FULL\ NAME/Serrano\ Pereira/

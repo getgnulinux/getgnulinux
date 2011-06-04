@@ -74,6 +74,9 @@
         case 'more':
             print '<link rel="stylesheet" type="text/css" href="/_style/more-ltr.css" />';
             break;
+        case 'link_buttons':
+            print '<script src="/_style/togglecodetext.js" type="text/javascript"></script>';
+            break;
 
         default:
             print '<link rel="stylesheet" type="text/css" href="/_style/index-ltr.css" />';
