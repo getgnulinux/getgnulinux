@@ -21,7 +21,9 @@ define('INCLUDE_PATH', $base_path.'_include/');
 define('BASE_URL', $base_url);
 
 # Set the locale.
-switch (@$_GET['l']) {
+# Locale::acceptFromHttp($_SERVER['HTTP_ACCEPT_LANGUAGE'])
+$locale = isset($_GET['l']) ? $_GET['l'] : NULL;
+switch ($locale) {
     case 'en':
         define('LOCALE', 'en_EN');
         break;
@@ -32,16 +34,23 @@ switch (@$_GET['l']) {
         define('LOCALE', 'fr_FR');
         break;
     default:
+        # get the preferred locale of the http agent.
+
         define('LOCALE', 'en_EN');
 }
 
-# Initialise gettext.
-putenv("LANG=".LOCALE);
-setlocale(LC_ALL, LOCALE);
-bindtextdomain("messages", "_locale/");
-textdomain("messages");
-
 # Define global functions.
 include(INCLUDE_PATH.'methods.php');
+
+# Initialize gettext
+$gettext_domain = "getgnulinux";
+# Set language.
+putenv("LANG=".LOCALE);
+setlocale(LC_ALL, LOCALE);
+# Specify location of translation tables
+bindtextdomain($gettext_domain, "_locale/");
+# Choose domain
+textdomain($gettext_domain);
+# Translation is looking for ./_locale/xx_XX/LC_MESSAGES/getgnulinux.mo now
 
 ?>
