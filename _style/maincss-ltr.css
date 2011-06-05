@@ -55,25 +55,13 @@ html {
 	}
 
 a {
-		color: #000080;
+		color: #3F568B;
 		text-decoration: none;
 	}
-
-p a, li a {
-		color: black;
-}
 
 a:hover {
 		color: #00c;
 		text-decoration: underline;
-	}
-
-#maincontent a {
-		background: url("giflink.gif") bottom left repeat-x; /* Dotted default style for links */
-	}
-
-#maincontent a:hover {
-		background: none;
 	}
 
 a:active {
@@ -81,7 +69,7 @@ a:active {
 	}
 
 a:visited {
-		color: #66c;
+		color: #2351B9;
 	}
 
 a img {
@@ -100,10 +88,11 @@ a img {
 	}
 
 acronym, abbr, .caps {
-		text-transform: lowercase;
-		font-variant: small-caps;
-		letter-spacing: 0.05em;
-	}
+    text-transform: lowercase;
+    font-variant: small-caps;
+    letter-spacing: 0.05em;
+    border-bottom: dotted 1px #6B6B6B;
+}
 
 h1 {
 		text-align: center;

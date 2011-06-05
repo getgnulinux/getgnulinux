@@ -29,7 +29,9 @@ h1 {
 		margin: 0.5em 0;
 		background: #fafcff;
 		border: 1px #ebf2ff solid;
-		-moz-border-radius: 3px; /* Non-standard but nice-looking */
+        border-radius: 3px;
+		-moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
 	}
 
 #contentlist a:hover {
