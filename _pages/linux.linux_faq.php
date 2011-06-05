@@ -268,7 +268,7 @@
 	<p><?php print _("It is technically possible to adapt Microsoft Office to Linux, but Microsoft isn't keen on allowing Office users to choose their operating system. There are other issues with MS Office and openness &mdash; like Microsoft's fierce opposition to supporting <a href=\"http://opendocumentfellowship.com/\">the OpenDocument format</a>."); ?></p>
 	<p><a href="http://why.openoffice.org/"><img src="/_images/OpenOffice.org.png" alt="|| OpenOffice.org ||"/></a>
     <br/><a href="http://www.libreoffice.org/features/"><img src="/_images/LibreOfficelogo.png" alt="|| LibreOffice.org ||"/></a>
-	<?php print _("However, a complete, Free, reliable office suite exists: <a href=\"http://www.openoffice.org/\">OpenOffice.org</a>. Or you can choose its Open Source community-driven alternative, <a href=\"http://www.libreoffice.org/\">LibreOffice</a>, which is a fork of OpenOffice.org. They will both happily use all your existing office files in MS-Word, MS-Excel, and MS-PowerPoint format, and is really free (both as in freedom and as in price). And they run on Windows as well as on Linux."); ?></p>
+	<?php print _("However, a complete, Free, reliable office suite exists: <a href=\"http://www.openoffice.org/\">OpenOffice.org</a>. Or you can choose its Open Source community-driven alternative, <a href=\"http://www.libreoffice.org/\">LibreOffice</a>, which is a fork of OpenOffice.org. They will both happily use all your existing office files in MS-Word, MS-Excel, and MS-PowerPoint format, and are really free (both as in freedom and as in price). And they run on Windows as well as on Linux."); ?></p>
 	</div>
 
 	<span class="back_to_top"><a href="#top" title="<?php print _("jump to top of page"); ?>"><?php print _("top"); ?></a></span>
@@ -310,8 +310,13 @@
 	<div id="more_q">
 	<h3 id="huh"><?php print _("More questions?"); ?></h3>
 	<p><?php
-    $p = _("If you have a question that is not covered here, there are many communities to help you. Our \"<a href=\"%s\">More</a>\" section will help you find the right place to ask.<br/>If you can think of a frequent question that we haven't answered yet, do <a href=\"http://www.gnulinuxmatters.org/contact/\">let us know</a>, or even better, <a href=\"https://tracker.gnulinuxmatters.org/newticket?type=enhancement&amp;component=GetGNULinux&amp;keywords=linux%%20faq\">file a new ticket</a>.");
-    printf($p, base_url('more',1)); ?></p>
+    $p = _("If you have a question that is not covered here, there are many
+    communities to help you. Our \"<a href=\"%s\">More</a>\" section will help
+    you find the right place to ask.<br/>
+    If you can think of a frequent question that we haven't answered yet, do
+    <a href=\"%s\">let us know</a>, or even better,
+    <a href=\"https://bugs.launchpad.net/getgnulinux\">file a new bug</a>.");
+    printf($p, base_url('more',1), "https://launchpad.net/~serrano-pereira/+contactuser"); ?></p>
 	</div>
 
 
