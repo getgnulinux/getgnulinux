@@ -25,7 +25,7 @@ define('BASE_URL', $base_url);
 $locale = isset($_GET['l']) ? $_GET['l'] : NULL;
 switch ($locale) {
     case 'en':
-        define('LOCALE', 'en_EN');
+        define('LOCALE', 'en_GB');
         break;
     case 'nl':
         define('LOCALE', 'nl_NL');
@@ -36,7 +36,7 @@ switch ($locale) {
     default:
         # get the preferred locale of the http agent.
 
-        define('LOCALE', 'en_EN');
+        define('LOCALE', 'en_GB');
 }
 
 # Define global functions.

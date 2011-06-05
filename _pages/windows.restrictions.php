@@ -62,7 +62,7 @@ dies. It is then illegal to transfer the software on another computer."); ?></p>
 <p><?php print _("Companies like Microsoft like to assimilate their software to
 physical products, <a href=\"http://www.microsoft.com/piracy/\" rel=\"nofollow\">when mentioning copyright infringement</a>
 for example. Yet, proprietary software is very different because of the
-restrictive license –such restrictions would be unthinkable on a car or
+restrictive license -such restrictions would be unthinkable on a car or
 bicycle, for example."); ?></p>
 
 <p><?php print _("Restrictions on the use of Office and Windows are so harsh,

@@ -77,7 +77,7 @@ which focuses on Internet advocacy for free software."); ?></p>
 <br/>
 
 <p><?php print _("As of 2010, GNU/Linux Matters have ceased activity. Despite
-their best efforts they just haven’t been able to find the time to keep this
+their best efforts they just haven't been able to find the time to keep this
 project going. This mirror of getgnulinux.org is being maintained at
 <a href=\"https://launchpad.net/getgnulinux\">Launchpad</a>."); ?></p>
 <br/>
