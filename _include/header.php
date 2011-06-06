@@ -1,17 +1,27 @@
+<?php
+$locale_codes = array('ar' => array("الرئيسية",'rtl',"العربية", "احصل على هذه الصفحة باللغة العربية !"),
+    'ca' => array("Inici",'ltr',"català", "Traduïu aquesta pàgina a la llengua català!"),
+    'en' => array("Home",'ltr',"English", "Watch this page in English"),
+    'es' => array("Inicio",'ltr',"castellano", "¡Lee esta página en castellano!"),
+    'fr' => array("Accueil",'ltr',"français", "Cette page en français"),
+    'ru' => array("Домой",'ltr',"русский", "Просмотреть эту страницу на русский языке!"),
+    'uk' => array("Додому",'ltr',"українська", "Переглянути цю сторінку на українська мові!"),
+    'vi' => array("Nhà",'ltr',"Tiếng Việt", "Xem trang này bằng tiếng Tiếng Việt !"),
+    'nl' => array("Hoofdpagina",'ltr',"Nederlands", "Bekijk deze pagina in het Nderlands"),
+    );
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" dir="ltr">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 
     <!-- Alternate languages: -->
-	<link rel="alternate" type="text/html" dir="rtl" hreflang="ar" href="/ar/" title="احصل على هذه الصفحة باللغة العربية !" />
-	<link rel="alternate" type="text/html" dir="ltr" hreflang="ca" href="/ca/" title="Traduïu aquesta pàgina a la llengua català!" />
-	<link rel="alternate" type="text/html" dir="ltr" hreflang="es" href="/es/" title="¡Lee esta página en castellano!" />
-	<link rel="alternate" type="text/html" dir="ltr" hreflang="fr" href="/fr/" title="Cette page en français" />
-	<link rel="alternate" type="text/html" dir="ltr" hreflang="ru" href="/ru/" title="Просмотреть эту страницу на русский языке!" />
-	<link rel="alternate" type="text/html" dir="ltr" hreflang="uk" href="/uk/" title="Переглянути цю сторінку на українська мові!" />
-	<link rel="alternate" type="text/html" dir="ltr" hreflang="vi" href="/vi/" title="Xem trang này bằng tiếng Tiếng Việt !" />
-    <link rel="alternate" type="text/html" dir="ltr" hreflang="nl" href="/nl/" title="Bekijk deze pagina in het Nderlands" />
+    <?php
+    foreach ($locale_codes as $id => $items) {
+        printf("<link rel=\"alternate\" type=\"text/html\" dir=\"%s\" hreflang=\"%s\" href=\"/%s/\" title=\"%s\" />\n",
+            $items[1], $id, $id, $items[3]);
+    }
+    ?>
 
     <link rel="copyright" type="text/html" title="Copyright notice for this website." href="/en/legal/" hreflang="en" />
     <link rel="shortcut icon" type="image/x-icon" href="/_style/favicon.ico" />
@@ -104,20 +114,9 @@
 
 <ul>
 <?php
-$locale_codes = array('ar' => array("الرئيسية",'rtl',"العربية"),
-    'ca' => array("Inici",'ltr',"català"),
-    'en' => array("Home",'ltr',"English"),
-    'es' => array("Inicio",'ltr',"castellano"),
-    'fr' => array("Accueil",'ltr',"français"),
-    'ru' => array("Домой",'ltr',"русский"),
-    'uk' => array("Додому",'ltr',"українська"),
-    'vi' => array("Nhà",'ltr',"Tiếng Việt"),
-    'nl' => array("Hoofdpagina",'ltr',"Nederlands"),
-    );
-
 foreach ($locale_codes as $id => $items) {
-    printf("<li%s><a href=\"/%s/\" hreflang=\"%s\" title=\"%s\"><span class=\"lang_code\">%s</span> <span class=\"language\" dir=\"%s\">%s</span></a></li>\n",
-        is_current_language($id), $id, $id, $items[0], $id, $items[1], $items[2]);
+    printf("<li%s><a href=\"/%s/%s\" hreflang=\"%s\" title=\"%s\"><span class=\"lang_code\">%s</span> <span class=\"language\" dir=\"%s\">%s</span></a></li>\n",
+        is_current_language($id), $id, current_page(), $id, $items[0], $id, $items[1], $items[2]);
 }
 ?>
 </ul>

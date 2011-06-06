@@ -30,7 +30,7 @@ caption, th {
 
 h1, h2, h3, h4, h5, h6 {
 		font-weight: normal;
-		font-family: "Times New Roman", Georgia, FreeSerif, serif;
+		font-family: "MgOpen Cosmetica", "Times New Roman", Georgia, FreeSerif, serif;
 		margin-bottom: 1em;
 	}
 
@@ -359,7 +359,7 @@ body {
 	}
 
 #header_picture h1 {
-    font-family: Times, "Times New Roman", Georgia, FreeSerif, serif;
+    font-family: "MgOpen Cosmetica", Times, "Times New Roman", Georgia, FreeSerif, serif;
     color: #ffffff;
     text-decoration: none;
     padding: 4px 15px;
@@ -385,7 +385,7 @@ body {
 	}
 
 #header_picture_homepage h1 {
-    font-family: Times, "Times New Roman", Georgia, FreeSerif, serif;
+    font-family: "MgOpen Cosmetica", Times, "Times New Roman", Georgia, FreeSerif, serif;
     font-size: 3.0em;
     color: #ffffff;
     margin-bottom: 10px;
@@ -425,6 +425,7 @@ theme by Vinicius Depizzol for gnome.org.
     margin: 0 5px 0 0;
 }
 #top_bar a {
+    font-size: 1.0em;
     color: #fff;
     text-decoration: none;
     padding: 4px 8px;
@@ -444,48 +445,13 @@ theme by Vinicius Depizzol for gnome.org.
     background: rgba(100%, 100%, 100%, 0.15);
 }
 #top_bar a:active, #top_bar li.current-menu-item a, #top_bar li.current-menu-subitem a {
-    background: #203F57 url("images/top_bar-item-bg.png") top repeat-x;
+    background: #203F57;
     -moz-box-shadow: inset 0 -1px 0 rgba(100%,100%,100%, 0.4), inset 0 1px 3px rgba(0,0,0,0.4);
     -webkit-box-shadow: inset 0 -1px 0 rgba(100%,100%,100%, 0.4), inset 0 1px 3px rgba(0,0,0,0.4);
     box-shadow: inset 0 -1px 0 rgba(100%,100%,100%, 0.4), inset 0 1px 3px rgba(0,0,0,0.4);
 }
 #top_bar li.current-menu-subitem a {
-    background: #2C5473 url("images/top_bar-item-bg.png") top repeat-x;
-}
-#top_bar li.selected a {
-    font-weight: bold;
-}
-#top_bar li a span.home {
-    background: url("images/top_bar-item-home.png") no-repeat;
-    padding-left: 18px;
-}
-#top_bar #main_search {
-    text-align: right;
-}
-#top_bar input {
-    margin: -8px 0 -8px -8px;
-    line-height: 22px;
-    width: 150px;
-    border: 0;
-    font: inherit;
-    color: inherit;
-    padding: 8px 8px 8px 28px;
-    background: transparent url(images/search-icon.png) 8px center no-repeat;
-    color: #fff;
-    border-left: 1px solid rgba(100%,100%,100%,0.3);
-    outline: none;
-}
-#top_bar input.placeholder {
-    color: #CCC;
-}
-#top_bar input:focus {
-    background-color: rgba(100%,100%,100%,0.1);
-    -moz-border-radius-topright: 5px;
-    -moz-border-radius-bottomright: 5px;
-    -webkit-border-top-right-radius: 6px;
-    -webkit-border-bottom-right-radius: 6px;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
+    background: #2C5473;
 }
 
 
@@ -549,11 +515,15 @@ theme by Vinicius Depizzol for gnome.org.
 	}
 
 #subheader li a {
-		color: #000080;
-		display: block;
-		padding: 0.2em 0.5em;
-		background: none;
-	}
+    color: #000080;
+    display: block;
+    padding: 0.2em 0.5em;
+    background: none;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    outline: 0;
+}
 
 #subheader li a:hover, #subheader_foot li a:hover {
 		text-decoration: none;

@@ -315,8 +315,10 @@
     you find the right place to ask.<br/>
     If you can think of a frequent question that we haven't answered yet, do
     <a href=\"%s\">let us know</a>, or even better,
-    <a href=\"https://bugs.launchpad.net/getgnulinux\">file a new bug</a>.");
-    printf($p, base_url('more',1), "https://launchpad.net/~serrano-pereira/+contactuser"); ?></p>
+    <a href=\"%s\">file a new bug</a>.");
+    printf($p, base_url('more',1),
+    "https://launchpad.net/~serrano-pereira/+contactuser",
+    "https://bugs.launchpad.net/getgnulinux"); ?></p>
 	</div>
 
 

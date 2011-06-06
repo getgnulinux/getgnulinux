@@ -50,6 +50,17 @@ function is_current_language($lang_id) {
     }
 }
 
+function current_page() {
+    $p = isset($_GET['p']) ? $_GET['p'] : NULL;
+    $p = str_replace('.','/',$p);
+    if ($p) {
+        return $p.'/';
+    }
+    else {
+        return "";
+    }
+}
+
 function is_current_menu_item($page_id) {
     $p = isset($_GET['p']) ? $_GET['p'] : NULL;
     if ($p == $page_id) {
