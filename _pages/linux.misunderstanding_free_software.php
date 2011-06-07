@@ -58,13 +58,13 @@
 <p><?php print _("Any proprietary software author can easily check that his copyright is not violated in a free software application, since its source code is readily available."); ?></p>
 
 <p><?php print _("Patents in software, on the other hand, are a very controversial concept. To put it shortly: there is <strong>no such thing as a \"patented software\"</strong>. By registering for a patent, however, someone can claim ownership over a <em>process</em>. The patent then applies to all software that use this process, whether proprietary or free."); ?></p>
-<p><?php print _("Software patents:"); ?></p>
+<p><?php print _("Software patents:</p>
 <ul>
-<li><?php print _("Are expensive and are granted only several years after application;"); ?></li>
-<li><?php print _("Are limited geographically (a patent granted in the US is worthless in Europe);"); ?></li>
-<li><?php print _("Have long life-times (often 20 years) in a quickly-moving industry;"); ?></li>
-<li><?php print _("Often apply <a href=\"http://eupat.ffii.org/patents/samples/\">entirely trivial processes</a>."); ?></li>
-</ul>
+<li>Are expensive and are granted only several years after application;</li>
+<li>Are limited geographically (a patent granted in the US is worthless in Europe);</li>
+<li>Have long life-times (often 20 years) in a quickly-moving industry;</li>
+<li>Often apply <a href=\"http://eupat.ffii.org/patents/samples/\">entirely trivial processes</a>.</li>
+</ul>"); ?>
 <p><?php print _("As such, they are seldom used to benefit innovators (and in fact, rarely used by the innovators themselves)."); ?></p>
 
 <p><?php print _("It's safe to say that <strong>any medium-size piece of software violates patents</strong>, in several countries, whether it's free or not."); ?></p>

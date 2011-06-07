@@ -310,15 +310,11 @@
 	<div id="more_q">
 	<h3 id="huh"><?php print _("More questions?"); ?></h3>
 	<p><?php
-    $p = _("If you have a question that is not covered here, there are many
-    communities to help you. Our \"<a href=\"%s\">More</a>\" section will help
-    you find the right place to ask.<br/>
-    If you can think of a frequent question that we haven't answered yet, do
-    <a href=\"%s\">let us know</a>, or even better,
-    <a href=\"%s\">file a new bug</a>.");
-    printf($p, base_url('more',1),
-    "https://launchpad.net/~serrano-pereira/+contactuser",
-    "https://bugs.launchpad.net/getgnulinux"); ?></p>
+    $p = _("If you have a question that is not covered here, there are many communities to help you. Our \"<a href=\"%s\">More</a>\" section will help you find the right place to ask.<br/>
+If you can think of a frequent question that we haven't answered yet, do <a href=\"%s\">let us know</a>, or even better, <a href=\"%s\">file a new bug</a>.");
+printf($p, base_url('more',1),
+"https://launchpad.net/~serrano-pereira/+contactuser",
+"https://bugs.launchpad.net/getgnulinux"); ?></p>
 	</div>
 
 
