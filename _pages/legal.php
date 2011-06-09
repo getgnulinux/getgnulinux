@@ -119,7 +119,7 @@ of, such website.</p>
 <p>We do not intend to infringe others' copyrights, and we ask our readers to
 do the same. If you believe that your work has been copied in a way that
 constitutes infringement on our websites, please
-<a href="http://www.gnulinuxmatters.org/contact">contact us</a>.
+<a href="https://launchpad.net/~getgnulinux/+contactuser">contact us</a>.
 We reserve the right to seek all remedies available at law and in equity for
 violations of these terms of use, including, but not limited to, the right to
 block access from a particular Internet address to our websites.</p>

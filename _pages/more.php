@@ -71,25 +71,17 @@
 <div id="about_us">
 <h2><?php print _("About us"); ?></h2>
 <p><a href="http://www.gnulinuxmatters.org/"><img src="/_style/more.denfer.png" alt="|| GLM mascot ||" height="60" width="60"/></a>
-<?php print _("This website was initialised and maintained by a non-profit
-organization, <em><a href=\"http://www.gnulinuxmatters.org/\">GNU/Linux Matters</a></em>,
-which focuses on Internet advocacy for free software."); ?></p>
+<?php print _("This website was created and maintained by a non-profit organization, <em><a href=\"http://www.gnulinuxmatters.org/\">GNU/Linux Matters</a></em>, which focuses on Internet advocacy for free software."); ?></p>
 <br/>
-
-<p><?php print _("As of 2010, GNU/Linux Matters have ceased activity. Despite
-their best efforts they just haven't been able to find the time to keep this
-project going. This mirror of getgnulinux.org is being maintained at
-<a href=\"https://launchpad.net/getgnulinux\">Launchpad</a>."); ?></p>
+<p><?php print _("As of 2010, GNU/Linux Matters have ceased activity. Despite their best efforts they just haven't been able to find the time to keep this project going. This mirror of getgnulinux.org is being maintained at <a href=\"https://launchpad.net/getgnulinux\">Launchpad</a>."); ?></p>
 <br/>
-
-<p><?php $p = _("Please consider participating, or simply helping us by
-<a href=\"%s\">making a link to this website</a>.");
+<p><?php $p = _("Please consider participating, or simply helping us by <a href=\"%s\">making a link to this website</a>.");
 printf($p, base_url('link_buttons',1)); ?></p>
 
 <div id="about_us_more">
 <ul>
 	<li><a href="<?php base_url('legal'); ?>"><?php print _("legal terms"); ?></a></li>
-	<li><a href="https://launchpad.net/~serrano-pereira/+contactuser"><?php print _("contact"); ?></a></li>
+	<li><a href="https://launchpad.net/~getgnulinux/+contactuser"><?php print _("contact"); ?></a></li>
 	<li><a href="<?php base_url('credits'); ?>"><?php print _("credits"); ?></a></li>
 	<li><a href="http://www.gnulinuxmatters.org/about/faq/"><?php print _("FAQ"); ?></a></li>
 </ul>

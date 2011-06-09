@@ -246,7 +246,7 @@
 	<h3 id="new_computer" class="Q"><?php print _("Do I have to purchase a new computer to run Linux?"); ?></h3>
 
 	<div class="A"><p><?php print _("Not at all. It will run happily on your own computer."); ?></p>
-	<p><?php print _("The only thing you might be worried about is using very recent special hardware, such as graphics cards. Otherwise, almost all Linux distributions can run on normal PCs (often called \"i386\" or \"x86\" computers), 64-bit-processor computers and Apple Mac computers (including the G5, G4, G3 series). <a href=\"/switch_to_linux/try_or_install/\">Read how you can try or install Linux on your computer</a>, be it instead of or together with Windows."); ?></p>
+    <p><?php $p = _("The only thing you might be worried about is using very recent special hardware, such as graphics cards. Otherwise, almost all Linux distributions can run on normal PCs (often called \"i386\" or \"x86\" computers), 64-bit-processor computers and Apple Mac computers (including the G5, G4, G3 series). <a href=\"%s\">Read how you can try or install Linux on your computer</a>, be it instead of or together with Windows."); printf($p, base_url('switch_to_linux/try_or_install',1)); ?></p>
 	</div>
 
 	<span class="back_to_top"><a href="#top" title="<?php print _("jump to top of page"); ?>"><?php print _("top"); ?></a></span>
@@ -313,7 +313,7 @@
     $p = _("If you have a question that is not covered here, there are many communities to help you. Our \"<a href=\"%s\">More</a>\" section will help you find the right place to ask.<br/>
 If you can think of a frequent question that we haven't answered yet, do <a href=\"%s\">let us know</a>, or even better, <a href=\"%s\">file a new bug</a>.");
 printf($p, base_url('more',1),
-"https://launchpad.net/~serrano-pereira/+contactuser",
+"https://launchpad.net/~getgnulinux/+contactuser",
 "https://bugs.launchpad.net/getgnulinux"); ?></p>
 	</div>
 
