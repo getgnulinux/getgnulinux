@@ -1,13 +1,13 @@
 <?php
-$locale_codes = array('ar' => array("الرئيسية",'rtl',"العربية", "احصل على هذه الصفحة باللغة العربية !"),
-    'ca' => array("Inici",'ltr',"català", "Traduïu aquesta pàgina a la llengua català!"),
-    'en' => array("Home",'ltr',"English", "Watch this page in English"),
-    'es' => array("Inicio",'ltr',"castellano", "¡Lee esta página en castellano!"),
-    'fr' => array("Accueil",'ltr',"français", "Cette page en français"),
-    'ru' => array("Домой",'ltr',"русский", "Просмотреть эту страницу на русский языке!"),
-    'uk' => array("Додому",'ltr',"українська", "Переглянути цю сторінку на українська мові!"),
-    'vi' => array("Nhà",'ltr',"Tiếng Việt", "Xem trang này bằng tiếng Tiếng Việt !"),
-    'nl' => array("Hoofdpagina",'ltr',"Nederlands", "Bekijk deze pagina in het Nderlands"),
+$locale_codes = array('ar' => array("الرئيسية",'rtl',"العربية", "احصل على هذه الصفحة باللغة العربية !", "sa"),
+    'ca' => array("Inici",'ltr',"català", "Traduïu aquesta pàgina a la llengua català!", "ad"),
+    'en' => array("Home",'ltr',"English", "Watch this page in English", "gb"),
+    'es' => array("Inicio",'ltr',"castellano", "¡Lee esta página en castellano!", "es"),
+    'fr' => array("Accueil",'ltr',"français", "Cette page en français", "fr"),
+    'ru' => array("Домой",'ltr',"русский", "Просмотреть эту страницу на русский языке!", "ru"),
+    'uk' => array("Додому",'ltr',"українська", "Переглянути цю сторінку на українська мові!", "ua"),
+    'vi' => array("Nhà",'ltr',"Tiếng Việt", "Xem trang này bằng tiếng Tiếng Việt !", "vn"),
+    'nl' => array("Hoofdpagina",'ltr',"Nederlands", "Bekijk deze pagina in het Nderlands", "nl"),
     );
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -115,8 +115,8 @@ $locale_codes = array('ar' => array("الرئيسية",'rtl',"العربية", "
 <ul>
 <?php
 foreach ($locale_codes as $id => $items) {
-    printf("<li%s><a href=\"/%s/%s\" hreflang=\"%s\" title=\"%s\"><span class=\"lang_code\">%s</span> <span class=\"language\" dir=\"%s\">%s</span></a></li>\n",
-        is_current_language($id), $id, current_page(), $id, $items[0], $id, $items[1], $items[2]);
+    printf("<li%s><a href=\"/%s/%s\" hreflang=\"%s\"><img src=\"/_style/flags/%s.gif\" /> <span class=\"language\" dir=\"%s\">%s</span></a></li>\n",
+        is_current_language($id), $id, current_page(), $id, $items[4], $items[1], $items[2]);
 }
 ?>
 </ul>

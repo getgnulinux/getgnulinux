@@ -1,23 +1,22 @@
 /* style for the "read our article: XY" links in some Windows pages */
 
 .read_article {
-		float: right;		
-		clear: right;
-		margin: 0.8em 0 2em 0;
-		font-size: 0.8em;
-	}
+    float: right;
+    clear: right;
+    margin: 0.8em 0 2em 0;
+    font-size: 0.8em;
+}
 
 #mainbody .read_article a {
-		background: none;
-		padding: 0.4em 0.8em;
-		line-height: 1.5em; /* special for IE*/
-		border-right: 1px #ab5050 solid;
-		border-bottom: 1px #ab5050 solid;
-		-moz-border-radius: 2px;
-	}
+    color: #222;
+    font-style: italic;
+    background: #F5F5F5;
+    padding: 0.4em 0.8em;
+    line-height: 1.5em; /* special for IE*/
+    border-bottom: 1px solid #999;
+}
 
 #mainbody .read_article a:hover {
-		text-decoration: none;
-		border: 1px #ab5050 solid;
-		background: #f9f9f9;
-	}
+    text-decoration: none;
+    background: #F0F0F0;
+}

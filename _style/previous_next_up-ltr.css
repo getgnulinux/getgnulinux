@@ -2,7 +2,7 @@
 /* The present stylesheet is only called (@import) from within page-specific stylesheets */
 
 #switcher {
-		margin-top: 3em;
+		margin: 3em 0 1em 0;
 		padding-bottom: 1.5em;
 	}
 
@@ -13,21 +13,26 @@
     display: block;
     padding: 0.3em 0.2em;
     color: black;
-    background: #fffbc9;
-    border: 1px #046380 solid;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 36px;
-    border-radius: 3px;
+    background: url("/_style/button-bg.png") repeat-x scroll center center #ECECEC;
+    border: 1px #CCCCCC solid;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 1px 0 #FFFFFF inset;
+    -moz-box-shadow: 0 1px 0 #FFFFFF inset;
+    -webkit-box-shadow: 0 1px 0 #FFFFFF inset;
+    transition: background-position 100ms linear;
+    -webkit-transition: background-position 100ms linear;
+    -moz-transition: background-position 100ms linear;
 }
 
 #mainbody a.previousbutton:hover, #mainbody a.nextbutton:hover, #mainbody a.upbutton:hover {
-		background: #fff8ab;
-		border-color: #0584ab;
-		text-decoration: none;
-	}
+    text-decoration: none;
+    background-position: center bottom;
+}
 
 #mainbody a.nextbutton:active, #mainbody a.previousbutton:active, #mainbody a.upbutton:active {
-		border-color: red;
+		background: #EEEBE6;
 	}
 
 .button_title {

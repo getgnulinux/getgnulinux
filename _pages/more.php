@@ -75,8 +75,8 @@
 <br/>
 <p><?php print _("As of 2010, GNU/Linux Matters have ceased activity. Despite their best efforts they just haven't been able to find the time to keep this project going. This mirror of getgnulinux.org is being maintained at <a href=\"https://launchpad.net/getgnulinux\">Launchpad</a>."); ?></p>
 <br/>
-<p><?php $p = _("Please consider participating, or simply helping us by <a href=\"%s\">making a link to this website</a>.");
-printf($p, base_url('link_buttons',1)); ?></p>
+<p><?php $p = _("Please consider <a href=\"%s\">participating</a>, or simply helping us by <a href=\"%s\">making a link to this website</a>.");
+printf($p, "https://launchpad.net/getgnulinux", base_url('link_buttons',1)); ?></p>
 
 <div id="about_us_more">
 <ul>

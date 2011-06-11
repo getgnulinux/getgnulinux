@@ -174,19 +174,19 @@ code {
 ----------------------------------------------------*/
 
 #translations {
-		position: absolute;
-		left: 50%;
-		top: 0;
-		margin: 0 0 0 5.9em;
-		padding: 0 1em 0 3em;
-		height: 1.5em;
-		cursor: pointer;
-		background: white;
-		z-index: 2;
-	}
+    position: absolute;
+    left: 60%;
+    top: 0;
+    margin-left: 10px;
+    padding: 0;
+    height: 1.5em;
+    width: 13em;
+    cursor: pointer;
+    background: white;
+    z-index: 1;
+}
 
 #language_menu {
-    width: 13em;
     height: 1.4em;
     min-height: 21px;
     padding: 0;
@@ -196,10 +196,9 @@ code {
     border-bottom: 1px #dfd9f9 solid;
     border-right: 1px #dfd9f9 solid;
     border-left: 1px #dfd9f9 solid;
-    -moz-border-radius-bottomright: 4px;
-    -moz-border-radius-bottomleft: 4px;
-    border-radius-bottomright: 3px;
-    border-radius-bottomleft: 3px;
+    background-image: url("/_style/arrow_down.png");
+    background-position: right center;
+    background-repeat: no-repeat;
 }
 
 #language_menu_text {
@@ -209,59 +208,50 @@ code {
 		background: url("alternate_languages.png") top left no-repeat;
 	}
 
-.lang_code {
-		font-family: "Courier New", Courier, "Nimbus Mono L", monospace;
-		float: left;
-		margin-right: 0.6em;
-		color: #8b0000;
-	}
-
 #translations ul {
-		position: absolute; /* Absolute, within containing div #language_menu that is... */
-		top: 1.5em;
-		right: 0;
-		margin: -1px -2em 0 0;
-		padding: 0 3em 3em 3em;
-		list-style: none;
-		z-index: 3;
-		display: none;
-	}
+    position: absolute; /* Absolute, within containing div #language_menu that is... */
+    top: 1.5em;
+    margin: -1px -2em 0 0;
+    padding: 0;
+    list-style: none;
+    z-index: 3;
+    display: none;
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 4px 2px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
 
 #translations li {
-		width: 13em;
-		margin: 0 0 0 1px;
-		padding: 0;
-		text-align: left;
-	}
+    width: 13em;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
 
 #translations:hover ul, #translations.sfhover ul {
 		display: block;
 	}
 
 #translations li a {
-		display: block;
-		margin: -1px 0 0 0;
-		padding: 0.3em 0.3em 0.3em 0.5em;
-		line-height: 1.2em;
-		background: white;
-		border: 1px gray solid;
-		height: 100%;
-		opacity: 0.97;
-	}
+    display: block;
+    margin: -1px 0 0 0;
+    padding: 0.3em 0.3em 0.3em 0.5em;
+    line-height: 1.0em;
+    background: #f7f7f9;
+    border: 1px #dfd9f9 solid;
+    height: 100%;
+}
 
 #translations li a:hover {
-		border-color: black;
-		text-decoration: none;
-		color: black;
-		opacity: 1;
-	}
+    background: #EEEEEE;
+    text-decoration: none;
+    color: black;
+}
 
 #translations #is_current_language a {
-		background: #fafcff;
-		font-style: italic;
-		color: gray;
-		cursor: text;
-	}
+    font-style: italic;
+    color: gray;
+}
 
 /*----------------------------------------------------
 - Main body
@@ -657,6 +647,9 @@ theme by Vinicius Depizzol for gnome.org.
 		background: #f0f0f0;
 		padding: 0.5em 0 0.5em 0;
 		display: block;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
 	}
 
 #bottom_next_page_banner a:hover {
