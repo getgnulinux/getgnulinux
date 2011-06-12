@@ -17,9 +17,8 @@ to change my recipe and make it work right!\""); ?>
 
 <p><?php print _("The source code details the way a program works (it is
 effectively what programmers write). Without it no one can understand how the
-software is built.<br/>
-It does not matter if you can't read code: whether or not it is available
-<strong>directly affects any user</strong>."); ?></p>
+software is built. It does not matter if you can't read code: whether or not
+it is available <strong>directly affects any user</strong>."); ?></p>
 
 <ul>
 <li>
@@ -30,8 +29,9 @@ It does not matter if you can't read code: whether or not it is available
 
 <div class="keypart"><?php print _("You may not reverse engineer, decompile, or disassemble the software."); ?></div>
 
-<p><?php print _("As such, it is illegal to work out how Windows or Microsoft Word are designed. It is even illegal to try.<br/>
-You are also forbidden to modify the program for any purpose."); ?></p>
+<p><?php print _("As such, it is illegal to work out how Windows or Microsoft
+Word are designed. It is even illegal to try. You are also forbidden to modify
+the program for any purpose."); ?></p>
 
 <p><?php print _("This restriction in the license makes sure that
 <strong>Microsoft remain the sole organisation that understand how their
@@ -68,18 +68,20 @@ available (including GNU/Linux)."); ?></p>
 <p><?php print _("Free software means <strong>programmers can change the
 code</strong> to repair flaws. It means you can hire someone to really check
 how secure your software is. It means you can benefit from the contributions
-of a world-wide community to improve safety and reliability.<br />
-Fifteen million users run GNU/Linux without an anti-virus, in complete safety.
-And the servers behind search engines and banks run on it too."); ?></p>
+of a world-wide community to improve safety and reliability. Fifteen million
+users run GNU/Linux without an anti-virus, in complete safety. And the servers
+behind search engines and banks run on it too."); ?></p>
 
 </li>
 </ul>
 
 <p><?php print _("Source code is the recipe for software. How could one improve
-on a meal with too much salt, if forbidden to look at the recipe used to cook it?<br/>
-Using Windows and Office requires us to <strong>not ask</strong> nor search for
-the source of the software. Only Microsoft developers can modify your program.<br />
-Which would you rather trust: the package you are forbidden to study, or the
+on a meal with too much salt, if forbidden to look at the recipe used to cook it?"); ?></p>
+
+<p><?php print _("Using Windows and Office requires us to <strong>not ask</strong> nor search for
+the source of the software. Only Microsoft developers can modify your program."); ?></p>
+
+<p><?php print _("Which would you rather trust: the package you are forbidden to study, or the
 package with the recipe?"); ?></p>
 
 </div><!-- end of maincontent -->

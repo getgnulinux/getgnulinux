@@ -5,10 +5,14 @@
 - First, resetting some of the heterogenous UA styling
 ----------------------------------------------------*/
 
-body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, th, td {
 		margin: 0;
 		padding: 0;
 	}
+
+p {
+    margin: 0 0 10px 0;
+}
 
 table {
 		border-collapse: collapse;

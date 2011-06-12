@@ -25,7 +25,8 @@
 <div class="paragraph">
 
 <h2><a href="<?php base_url('windows/what_about_choice'); ?>" title="How Microsoft lock customers in."><?php print _("What about choice?"); ?></a></h2>
-<p><a href="<?php base_url('windows/what_about_choice'); ?>" title="How Microsoft lock customers in."><img src="/_style/windows.windows2.png" width="115" height="95" alt="What about choice?"/></a><?php print _("Software should come without locks in it."); ?></p>
+<p><a href="<?php base_url('windows/what_about_choice'); ?>" title="How Microsoft lock customers in."><img src="/_style/windows.windows2.png" width="115" height="95" alt="What about choice?"/></a>
+<?php print _("Software should come without locks in it."); ?></p>
 <p><?php print _("Why are Office documents difficult to export? Why are the formats continually changing? Why can you not even uninstall some programs? It might be that if you look for choice, Microsoft products aren't for you."); ?></p>
 
 <div class="read_article">

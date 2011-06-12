@@ -108,9 +108,9 @@ that benefit from restricting your computing (such as proprietary software and
 recording companies). It is suddenly possible to rent DVDs that only play two
 times, or music you can only listen to during September, or information you can
 read but can't save or copy. All of a sudden, Trusted Computing and DRM enable
-<strong>remote control</strong> over content.<br/>
-Trusted Computing, in effect, enables the publisher to write their own
-copyright law."); ?></p>
+<strong>remote control</strong> over content."); ?></p>
+    <p><?php print _("Trusted Computing, in effect, enables the publisher to
+write their own copyright law.</p>"); ?></p>
 	</li>
 </ul>
 

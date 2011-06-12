@@ -22,21 +22,22 @@ out how to collect sometime in the next decade."); ?>
 
 <ul>
 <li>
-    <h2 id="no_open_standards"><?php print _("No support for open standards"); ?></h2>
+    <h2 id="no_open_standards"><?php print _("Poor support for open standards"); ?></h2>
 
     <p><?php print _("There exist open file formats and protocols, which are
 standards to store and carry many types of information, respectively. They are
 openly specified: they can be read by anyone on any computer, now and in the
 future. Proprietary programs, however, rarely support them."); ?></p>
-    <p><?php print _("<strong>Microsoft Office only reads and writes Microsoft
-formats</strong>. There are many ways to write work documents, but Office users
-are bound to Office files.<br/>
-People who opted without expensive Microsoft products cannot write and read
-<code>.doc</code> files very reliably."); ?></p>
+    <p><?php print _("<strong>For a long time Microsoft Office only had support
+for Microsoft formats</strong>. There are many ways to write work documents,
+but Microsoft Office users were bound to Microsoft Office files. People who
+opted without expensive Microsoft products cannot write and read <code>.doc</code>
+files very reliably."); ?></p>
     <p><?php print _("There are of course other ways of writing and exchanging
-office files, the most well-known being <a href=\"http://www.opendocumentfellowship.com/\">the ODF format</a>.
+office files, the most well-known being <a href=\"http://www.opendocumentfellowship.com/\">the OpenDocument Format</a>.
 But Microsoft isn't keen on letting Office users exchange files anyone can read
-and edit."); ?></p>
+and edit. As of Microsoft Office 2007 SP2, Microsoft finally added support for
+the ODF format after being pushed by the European Commission."); ?></p>
 </li>
 <li>
     <h2 id="standards_that_change"><?php print _("Standards that change all the time"); ?></h2>
@@ -47,19 +48,19 @@ unless you can afford to upgrade very often. Ever tried to work on the same
 know what we mean."); ?></p>
     <p><?php print _("Microsoft owns the Office file formats: <strong>they
 change them with every new Office version</strong> and have no obligation to
-keep them backwards-compatible.<br/>
-Saved your presentation as a <code>.ppt</code> file? If you give up using
-Microsoft Office next year, you'll have to rely on other communities to
-reverse-engineer the format, to be able to access and modify your own work."); ?></p>
+keep them backwards-compatible. Saved your presentation as a <code>.ppt</code>
+file? If you give up using Microsoft Office next year, you'll have to rely on
+other communities to reverse-engineer the format, to be able to access and
+modify your own work."); ?></p>
 </li>
 <li>
     <h2 id="cant_remove_programs"><?php print _("Default programs you can't uninstall"); ?></h2>
 
     <p><?php print _("Don't want Windows Media Player on your computer? Don't
-use Internet Explorer anymore? <strong>You can't uninstall these programs</strong>."); ?></p>
-    <p><?php print _("They previously worked on a standalone basis, but have
-been intrinsically linked with Windows &ndash; so they come in with every PC
-and no one can get rid of them."); ?></p>
+use Internet Explorer anymore? <strong>You can't uninstall these programs</strong>.
+They previously worked on a standalone basis, but have been intrinsically
+linked with Windows &ndash; so they come in with every PC and no one can get
+rid of them."); ?></p>
 </li>
 
 <li>
@@ -67,7 +68,7 @@ and no one can get rid of them."); ?></p>
 
     <p><?php print _("Microsoft has a tight control over
 <acronym title=\"Original Equipment Manufacturer\">OEM</acronym>s
-(computer manufacturers) who ship their computers with Windows installed.<br/>
+(computer manufacturers) who ship their computers with Windows installed.
 This means that no program competing with Microsoft products, be it
 <a href=\"http://www.videolan.org/vlc/\">multimedia player</a>,
 <a href=\"http://www.getfirefox.com/\">web browser</a>,
