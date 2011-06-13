@@ -115,8 +115,8 @@ $locale_codes = array('ar' => array("الرئيسية",'rtl',"العربية", "
 <ul>
 <?php
 foreach ($locale_codes as $id => $items) {
-    printf("<li%s><a href=\"/%s/%s\" hreflang=\"%s\"><img src=\"/_style/flags/%s.gif\" /> <span class=\"language\" dir=\"%s\">%s</span></a></li>\n",
-        is_current_language($id), $id, current_page(), $id, $items[4], $items[1], $items[2]);
+    printf("<li%s><a href=\"/%s/%s\" hreflang=\"%s\"><img src=\"/_style/flags/%s.gif\" alt=\"%s\" /> <span class=\"language\" dir=\"%s\">%s</span></a></li>\n",
+        is_current_language($id), $id, current_page(), $id, $items[4], $id, $items[1], $items[2]);
 }
 ?>
 </ul>
@@ -147,9 +147,7 @@ if ($p == "home" || !$p) {
 else {
 ?>
     <div id="header_picture">
-	    <a href="<?php base_url(); ?>" title="home page">
-		    <h1><?php print _("get GNU/Linux!"); ?></h1>
-	    </a>
+        <h1><a href="<?php base_url(); ?>" title="home page"><?php print _("get GNU/Linux!"); ?></a></h1>
     </div>
 <?php } ?>
 

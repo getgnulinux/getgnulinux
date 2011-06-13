@@ -59,7 +59,7 @@
 <h3 id="gpl"><?php print _("<a href=\"http://www.gnu.org/copyleft/gpl.html\" title=\"The GNU General Public License\">The GPL</a>"); ?></h3>
 <p><?php print _("The GNU General Public License, under which GNU/Linux and a vast amount of free software are published."); ?></p>
 
-<h3 id="gpl_eula_comparison"><a href="http://www.cyber.com.au/cyber/about/comparing_the_gpl_to_eula.pdf" hreflang="en"><?php print _("Comparing the GPL to the Microsoft WinXP License"); ?></a></h3> (pdf, 600k)<br/>
+<h3 id="gpl_eula_comparison"><a href="/archive/comparing_the_gpl_to_eula.pdf" hreflang="en"><?php print _("Comparing the GPL to the Microsoft WinXP License"); ?></a> (pdf, 600k)</h3>
 <p><?php print _("A thorough and clear comparison of the <acronym title=\"GNU General Public License\">GPL</acronym> and the Microsoft <acronym title=\"End-User License Agreement\">EULA</acronym> license that governs the use of most Windows XP versions."); ?></p>
 
 </div><!-- end left column -->
