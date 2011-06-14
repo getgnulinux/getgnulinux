@@ -18,9 +18,9 @@
 <p><?php print _("We recommend this friendly and complete distribution if you are looking for an easy way to try and step into GNU/Linux."); ?></p>
 
 <div class="distro_screenshots">
-<a href="/linux/screenshots/"><img src="/_language/screenshots/h113px/ubuntu2.png" alt="screenshot1" height="113" width="151"/></a>
-<a href="/linux/screenshots/"><img src="/_language/screenshots/h113px/ubuntu1.png" alt="screenshot2" height="113" width="151"/></a>
-<a href="/linux/screenshots/"><img src="/_language/screenshots/h113px/ubuntu3.png" alt="screenshot3" height="113" width="151"/></a>
+<a href="<?php base_url('linux/screenshots'); ?>"><img src="/_language/screenshots/h113px/ubuntu2.png" alt="screenshot1" height="113" width="151"/></a>
+<a href="<?php base_url('linux/screenshots'); ?>"><img src="/_language/screenshots/h113px/ubuntu1.png" alt="screenshot2" height="113" width="151"/></a>
+<a href="<?php base_url('linux/screenshots'); ?>"><img src="/_language/screenshots/h113px/ubuntu3.png" alt="screenshot3" height="113" width="151"/></a>
 </div><!-- end distro_screenshots -->
 
 <p><?php print _("Ubuntu also has a sister distribution, <a href=\"http://www.kubuntu.org/\">Kubuntu</a>, with a different layout and slightly more advanced graphics."); ?></p>
@@ -36,9 +36,9 @@
 <p><?php print _("We recommend this distribution if you wish to learn more about the workings of a GNU/Linux system, security configuration, or work on software development."); ?></p>
 
 <div class="distro_screenshots">
-<a href="/linux/screenshots/"><img src="/_language/screenshots/h113px/fedora2.png" alt="screenshot1" height="113" width="151"/></a>
-<a href="/linux/screenshots/"><img src="/_language/screenshots/h113px/fedora1.png" alt="screenshot2" height="113" width="151"/></a>
-<a href="/linux/screenshots/"><img src="/_language/screenshots/h113px/fedora3.png" alt="screenshot3" height="113" width="151"/></a>
+<a href="<?php base_url('linux/screenshots'); ?>"><img src="/_language/screenshots/h113px/fedora2.png" alt="screenshot1" height="113" width="151"/></a>
+<a href="<?php base_url('linux/screenshots'); ?>"><img src="/_language/screenshots/h113px/fedora1.png" alt="screenshot2" height="113" width="151"/></a>
+<a href="<?php base_url('linux/screenshots'); ?>"><img src="/_language/screenshots/h113px/fedora3.png" alt="screenshot3" height="113" width="151"/></a>
 </div><!-- end distro_screenshots -->
 
 </div><!-- end fedora -->
@@ -51,9 +51,9 @@
 <p><?php print _("We recommend this distribution if you are committed to freedom in your computing."); ?></p>
 
 <div class="distro_screenshots">
-<a href="/linux/screenshots/"><img src="/_language/screenshots/h113px/gnewsense1.png" alt="screenshot1" height="113" width="151"/></a>
-<a href="/linux/screenshots/"><img src="/_language/screenshots/h113px/gnewsense2.png" alt="screenshot2" height="113" width="151"/></a>
-<a href="/linux/screenshots/"><img src="/_language/screenshots/h113px/gnewsense3.png" alt="screenshot3" height="113" width="151"/></a>
+<a href="<?php base_url('linux/screenshots'); ?>"><img src="/_language/screenshots/h113px/gnewsense1.png" alt="screenshot1" height="113" width="151"/></a>
+<a href="<?php base_url('linux/screenshots'); ?>"><img src="/_language/screenshots/h113px/gnewsense2.png" alt="screenshot2" height="113" width="151"/></a>
+<a href="<?php base_url('linux/screenshots'); ?>"><img src="/_language/screenshots/h113px/gnewsense3.png" alt="screenshot3" height="113" width="151"/></a>
 </div><!-- end distro_screenshots -->
 
 </div><!-- end gnewsense -->
