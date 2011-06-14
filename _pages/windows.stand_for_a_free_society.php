@@ -31,8 +31,7 @@ with many free things in it, for example:"); ?></p>
 <div class="small_list">
 
 <div class="floatquote1"><div class="floatquote2">
-<?php print _("Though no one has a proprietary lock on yoga, it is still a
-thriving $30 billion business in the United States."); ?></div>
+<?php print _("Though no one has a proprietary lock on yoga, it is still a thriving $30 billion business in the United States."); ?></div>
 <span class="source"><span class="author">Venkatesh Hariharan</span> <a href="http://www.redhat.com/magazine/025nov06/features/intellectual_india/?sc_cid=bcm_edmsept_007">[1]</a></span>
 </div></div>
 
@@ -109,8 +108,7 @@ recording companies). It is suddenly possible to rent DVDs that only play two
 times, or music you can only listen to during September, or information you can
 read but can't save or copy. All of a sudden, Trusted Computing and DRM enable
 <strong>remote control</strong> over content."); ?></p>
-    <p><?php print _("Trusted Computing, in effect, enables the publisher to
-write their own copyright law.</p>"); ?></p>
+    <p><?php print _("Trusted Computing, in effect, enables the publisher to write their own copyright law.</p>"); ?></p>
 	</li>
 </ul>
 
@@ -158,9 +156,7 @@ printf($p, base_url('switch_to_linux',1)); ?></p>
 
 <div class="footnotes_bottom">
 <a class="footnote" id="footnote_bottom1" href="<?php base_url('windows/stand_for_a_free_society'); ?>#footnote1">1</a>
-<?php print _("Note that DRM is often referred to as \"Digital Rights Management\",
-although it has little to do with rights &ndash; \"Digital Restrictions Management\"
-is a more accurate name."); ?></div>
+<?php print _("Note that DRM is often referred to as \"Digital Rights Management\", although it has little to do with rights &ndash; \"Digital Restrictions Management\" is a more accurate name."); ?></div>
 
 
 <div class="further_reading">
@@ -169,17 +165,13 @@ is a more accurate name."); ?></div>
 <div id="left_column">
 <h3><a href="http://www.gnu.org/philosophy/right-to-read.html">The Right to Read</a></h3>
 
-<p><?php print _("What is the Trusted Computing world like? This is a short
-story by Richard Stallman that describes how this can affect any of us."); ?></p>
+<p><?php print _("What is the Trusted Computing world like? This is a short story by Richard Stallman that describes how this can affect any of us."); ?></p>
 
 <h3><a href="http://www.timj.co.uk/digiculture/drm-fallacy">The fallacy of DRM</a></h3>
-<p><?php print _("A very well constructed article about <acronym title=\"Digital
-Restrictions Management\">DRM</acronym> by Tim Jackson, and on which we based
-the present article."); ?></p>
+<p><?php print _("A very well constructed article about <acronym title=\"Digital Restrictions Management\">DRM</acronym> by Tim Jackson, and on which we based the present article."); ?></p>
 
 <h3><a href="http://blog.jimmywales.com/index.php/archives/2004/10/21/free-knowledge-requires-free-software-and-free-file-formats/">Free Knowledge requires Free Software and Free File Formats</a></h3>
-<p><?php print _("An engaged article by Jimmy Wales, who co-founded the free
-encyclopedia <a href=\"http://www.wikipedia.org/\">Wikipedia</a>."); ?></p>
+<p><?php print _("An engaged article by Jimmy Wales, who co-founded the free encyclopedia <a href=\"http://www.wikipedia.org/\">Wikipedia</a>."); ?></p>
 
 
 </div><!-- end left column -->
@@ -190,9 +182,7 @@ encyclopedia <a href=\"http://www.wikipedia.org/\">Wikipedia</a>."); ?></p>
 <p><?php print _("Short video animation by Benjamin Stephan and Lutz Vogel. A clear, snappy and convincing argument."); ?></p>
 
 <h3><a href="http://www.gnu.org/philosophy/why-free.html">Why Software Should Not Have Owners</a></h3>
-<p><?php print _("A pivotal text for the Free Software movement by Richard
-Stallman. It clarifies common objections and explains a handful of important
-ideas."); ?></p>
+<p><?php print _("A pivotal text for the Free Software movement by Richard Stallman. It clarifies common objections and explains a handful of important ideas."); ?></p>
 
 <h3><a href="<?php base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a></h3>
 <p><?php print _("More on free software on this website."); ?></p>

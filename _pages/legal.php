@@ -56,7 +56,7 @@ Our websites are released under the following licenses:</p>
 <ul>
 	<li><a href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="|| Creative Commons License ||" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png"/></a>
 	Text content of SoftwareLiberty.com, GetGNULinux.org, 3dollarsoftware.org,
-    and all their translations: <strong><a href="http://creativecommons.org/licenses/by/2.0/">Creative
+    and all their translations: <strong><a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative
     Commons Attribution Share-Alike 3.0 License</a></strong>. This means we hold
     the copyright upon it, but grant some rights, including copying,
     redistributing, modifying for any purpose, including commercial, without

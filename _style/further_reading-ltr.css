@@ -2,14 +2,16 @@
 /* "read more" section, bottom of the page, with 2 columns */
 
 .further_reading {
+    background: none repeat scroll 0 0 #E4EBFF;
     font-size: 0.95em;
     margin-top: 4.5em;
-    padding: 0.5em;
-    background: none repeat scroll 0 0 #EAE8E3;
-    border: 1px solid #BABDB6;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0 1px 0 #B3C7FF;
+    -moz-box-shadow: 0 1px 0 #B3C7FF;
+    -webkit-box-shadow: 0 1px 0 #B3C7FF;
 }
 
 .further_reading a {
@@ -36,7 +38,7 @@
 #left_column {
 		width: 47%;
 		float: left;
-		border-right: 1px #ccc solid;
+		border-right: 1px #B3C7FF solid;
 		padding-right: 1em;
 		margin-right: 1em;
 	}

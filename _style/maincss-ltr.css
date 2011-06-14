@@ -81,9 +81,8 @@ a img {
 	}
 
 .wehere a {	/* In all navigations, local page or section */
-		color: #043f58;
-		border: 1px #043f58 solid;
-	}
+    color: #043f58;
+}
 
 #header li .wehere a {
 		color: #043f58;
@@ -220,9 +219,9 @@ code {
     list-style: none;
     z-index: 3;
     display: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     -webkit-box-shadow: 0 4px 2px rgba(0,0,0,0.2);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 #translations li {
@@ -343,13 +342,13 @@ body {
     background: #ffffff url("/_language/homepage_header_background.jpg") top repeat-x;
     padding: 8px 0;
     margin-top: 0px;
+    height: 50px;
+    border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
-    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    height: 50px;
 	}
 
 #header_picture h1 {
@@ -521,18 +520,18 @@ theme by Vinicius Depizzol for gnome.org.
     outline: 0;
 }
 
-#subheader li a:hover, #subheader_foot li a:hover {
+#subheader li a:hover {
 		text-decoration: none;
 		color: #043f58;
 		background: #f2f5fa;
 	}
 
-#subheader .wehere a, #subheader_foot .wehere a {
+#subheader .wehere a {
 		border: none;
 		background: #f2f5fa;
 	}
 
-#subheader .wehere a:hover, #subheader_foot .wehere a:hover {
+#subheader .wehere a:hover {
 		border: none;
 		background: #e4ebf7;
 	}
@@ -544,7 +543,7 @@ theme by Vinicius Depizzol for gnome.org.
 
 #subheader_foot {
 		clear: both;
-		width: 88%;
+		width: 90%;
 		font-size: 0.8em;
 		margin: 2em auto 0 auto;
 		padding: 1em;
@@ -557,26 +556,49 @@ theme by Vinicius Depizzol for gnome.org.
 	}
 
 #subheader_foot ul {
-		list-style-type: none;
-		list-style-image: none; /* IE bug */
-		height: 1.85em;
-		padding: 0.2em;
-		margin: 0;
-		border: 1px #DFD9F9 solid;
-		-moz-border-radius: 3px;
-	}
+    background: none repeat scroll 0 0 #E4EBFF;
+    list-style-type: none;
+    list-style-image: none; /* IE bug */
+    height: 1.85em;
+    padding: 0.2em;
+    margin: 0.2em;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 1px 0 #B3C7FF;
+    -moz-box-shadow: 0 1px 0 #B3C7FF;
+    -webkit-box-shadow: 0 1px 0 #B3C7FF;
+}
 
-#subheader_foot li {
-		display: inline;
-		margin: 0 0.1em;
-		white-space: nowrap;
-	}
+#subheader_foot ul li {
+    border-right: 1px solid #B3C7FF;
+    display: inline-block;
+    padding: 0 1em 0 0.5em;
+    margin: 0 0.1em;
+    white-space: nowrap;
+}
 
-#subheader_foot li a {
-		color: #000080;
-		padding: 0.5em;
-		line-height: 1.8em;
-	}
+#subheader_foot ul li a {
+    display: inline-block;
+    color: #000080;
+    line-height: 1.8em;
+}
+
+#subheader_foot ul li:last-child {
+    border-right: medium none;
+}
+
+#subheader_foot li a:hover {
+    color: #043f58;
+}
+
+#subheader_foot .wehere a,
+#subheader_foot .wehere a:hover {
+    color: #666;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
 
 /*----------------------------------------------------
 - Quotes (big introductory quote at start of page)
