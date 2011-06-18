@@ -148,4 +148,9 @@ function menu_foot_why_not_windows() {
     print "</div><!-- end of submenu -->";
 }
 
+function stylesheet($url) {
+    $modified = filemtime(BASE_PATH.$url);
+    printf("<link rel='stylesheet' type='text/css' href='%s?%s' />", $url, $modified);
+}
+
 ?>

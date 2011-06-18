@@ -25,8 +25,8 @@ $locale_codes = array('ar' => array("الرئيسية",'rtl',"العربية", "
 
     <link rel="copyright" type="text/html" title="Copyright notice for this website." href="<?php base_url('legal'); ?>" hreflang="en" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="/_style/language.css" />
-    <link rel="stylesheet" type="text/css" href="/_style/maincss-ltr.css" />
+    <?php stylesheet('/_style/language.css'); ?>
+    <?php stylesheet('/_style/maincss-ltr.css'); ?>
 
     <title><?php print _("get GNU/Linux!"); ?></title>
 
@@ -37,69 +37,69 @@ $locale_codes = array('ar' => array("الرئيسية",'rtl',"العربية", "
     $p = isset($_GET['p']) ? $_GET['p'] : NULL;
     switch ($p) {
         case 'linux':
-            print '<link rel="stylesheet" type="text/css" href="/_style/linux-ltr.css" />';
+            stylesheet('/_style/linux-ltr.css');
             break;
         case 'linux.linux_faq':
-            print '<link rel="stylesheet" type="text/css" href="/_style/linux.linux_faq-ltr.css" />';
+            stylesheet('/_style/linux.linux_faq-ltr.css');
             break;
         case 'linux.misunderstanding_free_software':
-            print '<link rel="stylesheet" type="text/css" href="/_style/linux.misunderstanding_free_software-ltr.css" />';
+            stylesheet('/_style/linux.misunderstanding_free_software-ltr.css');
             print '<script type="text/javascript" src="/_style/toggleanswers.js"></script>';
             break;
         case 'linux.screenshots':
-            print '<link rel="stylesheet" type="text/css" href="/_style/linux.screenshots-ltr.css" />';
+            stylesheet('/_style/linux.screenshots-ltr.css');
             break;
         case 'windows':
-            print '<link rel="stylesheet" type="text/css" href="/_style/windows-ltr.css" />';
+            stylesheet('/_style/windows-ltr.css');
             break;
         case 'windows.restrictions':
-            print '<link rel="stylesheet" type="text/css" href="/_style/windows.css" />';
-            print '<link rel="stylesheet" type="text/css" href="/_style/windows-ltr.css" />';
-            print '<link rel="stylesheet" type="text/css" href="/_style/windows.restrictions-ltr.css" />';
+            stylesheet('/_style/windows.css');
+            stylesheet('/_style/windows-ltr.css');
+            stylesheet('/_style/windows.restrictions-ltr.css');
             break;
         case 'windows.restrictions.further_details':
-            print '<link rel="stylesheet" type="text/css" href="/_style/windows.restrictions.further_details-ltr.css" />';
+            stylesheet('/_style/windows.restrictions.further_details-ltr.css');
             break;
         case 'windows.what_about_choice':
-            print '<link rel="stylesheet" type="text/css" href="/_style/windows.what_about_choice-ltr.css" />';
+            stylesheet('/_style/windows.what_about_choice-ltr.css');
             break;
         case 'windows.what_about_source_code':
-            print '<link rel="stylesheet" type="text/css" href="/_style/windows.what_about_source_code-ltr.css" />';
+            stylesheet('/_style/windows.what_about_source_code-ltr.css');
             break;
         case 'windows.stand_for_a_free_society':
-            print '<link rel="stylesheet" type="text/css" href="/_style/windows.stand_for_a_free_society-ltr.css" />';
+            stylesheet('/_style/windows.stand_for_a_free_society-ltr.css');
             break;
         case 'switch_to_linux':
-            print '<link rel="stylesheet" type="text/css" href="/_style/switch_to_linux-ltr.css" />';
+            stylesheet('/_style/switch_to_linux-ltr.css');
             break;
         case 'switch_to_linux.choose_a_distribution':
-            print '<link rel="stylesheet" type="text/css" href="/_style/switch_to_linux.choose_a_distribution-ltr.css" />';
+            stylesheet('/_style/switch_to_linux.choose_a_distribution-ltr.css');
             break;
         case 'switch_to_linux.from_windows_to_linux':
-            print '<link rel="stylesheet" type="text/css" href="/_style/switch_to_linux.from_windows_to_linux-ltr.css" />';
+            stylesheet('/_style/switch_to_linux.from_windows_to_linux-ltr.css');
             break;
         case 'switch_to_linux.try_or_install':
-            print '<link rel="stylesheet" type="text/css" href="/_style/switch_to_linux.try_or_install-ltr.css" />';
+            stylesheet('/_style/switch_to_linux.try_or_install-ltr.css');
             break;
         case 'more':
-            print '<link rel="stylesheet" type="text/css" href="/_style/more-ltr.css" />';
+            stylesheet('/_style/more-ltr.css');
             break;
         case 'link_buttons':
             print '<script src="/_style/togglecodetext.js" type="text/javascript"></script>';
             break;
 
         default:
-            print '<link rel="stylesheet" type="text/css" href="/_style/index-ltr.css" />';
+            stylesheet('/_style/index-ltr.css');
     }
     ?>
 
     <!--[if lte IE 6]>
     <script src="/_style/ie_translation_menu.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="/_style/ie6-ltr.css" type="text/css">
+    <?php stylesheet('/_style/ie6-ltr.css'); ?>
     <![endif]-->
 
     <!--[if IE 7]>
-    <link rel="stylesheet" href="/_style/ie7-ltr.css" type="text/css">
+    <?php stylesheet('/_style/ie7-ltr.css'); ?>
     <![endif]-->
 </head>
 

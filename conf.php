@@ -3,8 +3,9 @@
 # Please edit the following settings.
 
 # The base URL of the website. Should start with http:// and end with a slash.
+# Leave blank to auto detect the base URL.
 # e.g. http://getgnulinux.org/
-$base_url = "http://getgnulinux.no-ip.info/";
+$base_url = "";
 
 # Absolute path to root html folder with trailing slash. Leave blank to auto
 # detect the absolute path.
@@ -15,7 +16,11 @@ $base_path = "";
 # Users needn't edit below this line.
 # -----------------------------------------------------------------------------
 
+# Autodetect base url and base path.
+$base_url = empty($base_url) ? 'http://'.$_SERVER['HTTP_HOST'].'/' : $base_url;
 $base_path = empty($base_path) ? realpath(dirname(__FILE__)).'/' : $base_path;
+
+# Set constants.
 define('BASE_PATH', $base_path);
 define('INCLUDE_PATH', $base_path.'_include/');
 define('BASE_URL', $base_url);
@@ -53,6 +58,6 @@ setlocale(LC_ALL, LOCALE);
 bindtextdomain($gettext_domain, "_locale/");
 # Choose domain
 textdomain($gettext_domain);
-# Translation is looking for ./_locale/xx_XX/LC_MESSAGES/getgnulinux.mo now
+# Translation is looking for ./_locale/xx_YY/LC_MESSAGES/getgnulinux.mo now
 
 ?>
