@@ -1,6 +1,6 @@
-<?php load_header(); ?>
+<?php $this->load_header(); ?>
 
-<?php menu_switch_to_linux(); ?>
+<?php $this->menu_switch_to_linux(); ?>
 
 <div id="maincontent">
 
@@ -39,7 +39,7 @@ Regular, easy software updates will keep everyone entirely safe."); ?></li>
 	<li><h3 id="support"><?php print _("Support"); ?></h3>
 	<img src="/images/switch_to_linux/switch_to_linux.from_windows_to_linux.support.png" width="100" height="69" alt="support"/>
 	<?php $p = _("Linux benefits from a great sense of community whose friendliness will surprise you. If you try to do something complicated but can't succeed, there are a lot of people around to help you out. Our \"<a href=\"%s\">More</a>\" page gives a few pointers.<br/>
-The companies behind the main GNU/Linux distributions, such as Canonical and Red Hat, also provide expert commercial support."); printf($p, base_url('more',1)); ?></li>
+The companies behind the main GNU/Linux distributions, such as Canonical and Red Hat, also provide expert commercial support."); printf($p, $this->base_url('more',1)); ?></li>
 
 </ul>
 
@@ -54,7 +54,7 @@ The companies behind the main GNU/Linux distributions, such as Canonical and Red
 	<img src="/images/switch_to_linux/switch_to_linux.from_windows_to_linux.mouse.png" width="100" height="69" alt="simple use"/>
     <?php print _("If you still believe Linux is controlled with code and command-line, you should update your views!<br />
 Just like Windows, Linux has to boot when you switch your computer on, and then you use programs in it to do different things. The taskbar and layout of applications will feel familiar to Windows or Mac OS users."); ?><br/>
-<div class="note"><?php $p = _("See more: we have <a href=\"%s\">screenshots</a>.</div>"); printf($p, base_url('linux/screenshots',1)); ?></li>
+<div class="note"><?php $p = _("See more: we have <a href=\"%s\">screenshots</a>.</div>"); printf($p, $this->base_url('linux/screenshots',1)); ?></li>
 
 
 	<li><h3><?php print _("Web browsing and common tasks"); ?></h3>
@@ -90,7 +90,7 @@ However, the vast majority of computers with standard hardware work out of the b
     <?php print _("Many multimedia formats in use are proprietary and not openly specified; this means, broadly speaking, that Linux programmers have to find out how to read them without any help from the format designers.<br/>
 This might lead you to circumvent the restrictions in some DVDs and the <acronym title=\"Digital Restrictions Management\">DRM</acronym> in some music files, even if you purchased them in full legality, to be make them work under Linux. Unfortunately, depending on where you live, <em>such circumvention processes may be illegal</em> even if you purchased your media entirely legally."); ?><br/>
 
-    <div class="note"><?php print _("Read more in our Linux FAQ:"); ?> <a href="<?php base_url('linux/linux_faq'); ?>#dvd_mp3"><?php print _("Can I play my DVDs and MP3s under GNU/Linux?"); ?></a></div>
+    <div class="note"><?php print _("Read more in our Linux FAQ:"); ?> <a href="<?php $this->base_url('linux/linux_faq'); ?>#dvd_mp3"><?php print _("Can I play my DVDs and MP3s under GNU/Linux?"); ?></a></div>
 
 	</li>
 
@@ -99,7 +99,7 @@ This might lead you to circumvent the restrictions in some DVDs and the <acronym
 	<?php print _("Hard-core computer gamers, you might find that the Linux gaming world is less professional and out-of-the-box than under Windows: the large game developing companies are only slowly getting interested in the free software world, which means that many well-known titles do not work on Linux, or need special restrictive emulators to work.<br/>
 There is a very active free software game development community though, and they have produced quite a few high-quality games, both 2D and 3D, that are free software. You can head to the <a href=\"http://ubuntuforums.org/forumdisplay.php?f=93\">Ubuntu gaming forum</a> to find more information."); ?><br/>
 
-    <div class="note"><?php print _("Read more in our Linux FAQ:"); ?> <a href="<?php base_url('linux/linux_faq'); ?>#games"><?php print _("Can I play popular 3D games under GNU/Linux?"); ?></a></div>
+    <div class="note"><?php print _("Read more in our Linux FAQ:"); ?> <a href="<?php $this->base_url('linux/linux_faq'); ?>#games"><?php print _("Can I play popular 3D games under GNU/Linux?"); ?></a></div>
 
 	</li>
 
@@ -131,7 +131,7 @@ There is a very active free software game development community though, and they
 </div><!-- end maincontent -->
 
 <div id="bottom_next_page_banner">
-<a href="<?php base_url('switch_to_linux/choose_a_distribution'); ?>"><span class="arrow"><span class="underlining"><?php print _("Choose a Linux distribution to get started!"); ?></span></span></a>
+<a href="<?php $this->base_url('switch_to_linux/choose_a_distribution'); ?>"><span class="arrow"><span class="underlining"><?php print _("Choose a Linux distribution to get started!"); ?></span></span></a>
 </div><!-- end bottom_next_page_banner-->
 
-<?php load_footer(); ?>
+<?php $this->load_footer(); ?>

@@ -1,6 +1,6 @@
-<?php load_header(); ?>
+<?php $this->load_header(); ?>
 
-<?php menu_switch_to_linux(); ?>
+<?php $this->menu_switch_to_linux(); ?>
 
 <div id="maincontent">
 
@@ -100,4 +100,4 @@ We have compiled <a title=\"linux computers\" href=\"http://linuxpreloaded.com/\
 
 </div><!-- end maincontent -->
 
-<?php load_footer(); ?>
+<?php $this->load_footer(); ?>

@@ -1,4 +1,4 @@
-<?php load_header(); ?>
+<?php $this->load_header(); ?>
 
 <div id="maincontent">
 
@@ -10,7 +10,7 @@
 <h2><?php print _("The picture"); ?></h2>
 
 <p>
-<a href="<?php base_url('linux/screenshots'); ?>" title="<?php print _("What does GNU/Linux look like? Selected screenshots"); ?>">
+<a href="<?php $this->base_url('linux/screenshots'); ?>" title="<?php print _("What does GNU/Linux look like? Selected screenshots"); ?>">
 <img src="/images/screenshots/h150px/fedora1.png" width="200" height="150" alt="<?php print _("A view of a Fedora Linux desktop"); ?>"/></a>
 <?php print _("Linux is an <em>operating system</em>, a large piece of software that manages a computer. It is similar to Microsoft Windows, but it is entirely free. The accurate name is <em>GNU/Linux</em> but \"Linux\" is used more often."); ?></p>
 
@@ -27,7 +27,7 @@
 
 <p><?php print _("If you need commercial-quality software to work with business documents, Internet/networking, or multimedia and graphics, it's there right out of the box. Want more than that? Linux can do &ndash; there are many hundreds of free, high quality applications you can find, install and uninstall neatly and easily."); ?></p>
 
-<p><?php $p = _("You shouldn't assume however, that Linux is a clone of Windows. To know what to expect when stepping into it, we suggest you read our <a href=\"%s\">Making the switch</a> page."); printf ($p, base_url('switch_to_linux',1)) ?></p>
+<p><?php $p = _("You shouldn't assume however, that Linux is a clone of Windows. To know what to expect when stepping into it, we suggest you read our <a href=\"%s\">Making the switch</a> page."); printf ($p, $this->base_url('switch_to_linux',1)) ?></p>
 
 
 <h2><?php print _("The larger picture"); ?></h2>
@@ -45,7 +45,7 @@
 <p><?php print _("In the end, individual end-users often get the software at zero cost, while corporate customers are often happy to pay for more support."); ?></p>
 
 <div id="switcher">
-<a href="<?php base_url('windows'); ?>" class="nextbutton"><span class="next"><?php print _("next:"); ?> <span class="button_title"><?php print _("Why not Windows"); ?></span></span></a>
+<a href="<?php $this->base_url('windows'); ?>" class="nextbutton"><span class="next"><?php print _("next:"); ?> <span class="button_title"><?php print _("Why not Windows"); ?></span></span></a>
 </div><!-- end of switcher -->
 
 <div id="read_more">
@@ -53,12 +53,12 @@
 
 <div class="read_more_title"><?php print _("More in this section:"); ?></div>
 <ul>
-<li><a href="<?php base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a></li>
-<li><a href="<?php base_url('linux/screenshots'); ?>"><?php print _("What Linux looks like"); ?></a></li>
-<li><a href="<?php base_url('linux/linux_faq'); ?>"><?php print _("Linux FAQ - common questions about GNU/Linux"); ?></a></li>
+<li><a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a></li>
+<li><a href="<?php $this->base_url('linux/screenshots'); ?>"><?php print _("What Linux looks like"); ?></a></li>
+<li><a href="<?php $this->base_url('linux/linux_faq'); ?>"><?php print _("Linux FAQ - common questions about GNU/Linux"); ?></a></li>
 </ul>
 </div><!-- end read_more -->
 
 </div><!-- end maincontent -->
 
-<?php load_footer(); ?>
+<?php $this->load_footer(); ?>

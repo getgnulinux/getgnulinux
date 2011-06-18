@@ -1,0 +1,162 @@
+<?php
+
+class HTML {
+    // define properties
+
+
+    // constructor
+    function __construct() {
+        //
+    }
+
+    // define methods
+    function load_content()
+    {
+        global $ggl;
+
+        if (isset($_GET['p'])) {
+            $path = BASE_PATH.'pages/'.$_GET['p'].'.php';
+            if (is_file($path)) {
+                include $path;
+                return;
+            }
+            else {
+                include BASE_PATH.'pages/not_found.php';
+                return;
+            }
+        }
+        include BASE_PATH.'pages/home.php';
+    }
+
+    function load_header()
+    {
+        global $ggl;
+
+        include INCLUDE_PATH.'header.php';
+    }
+
+    function load_footer()
+    {
+        global $ggl;
+
+        include INCLUDE_PATH.'footer.php';
+    }
+
+    function menu_switch_to_linux() {
+        print "<div id=\"subheader\">";
+        printf ("<span class=\"title\"><a href=\"%s\">Switch to Linux</a></span>", $this->base_url('switch_to_linux',1));
+
+        $items = array("switch_to_linux/from_windows_to_linux" => "From Windows to Linux",
+            "switch_to_linux/choose_a_distribution" => "Choose a distribution",
+            "switch_to_linux/try_or_install" => "Try or install",
+            );
+
+        print "<ul>";
+        foreach ($items as $key => $title) {
+            printf("<li %s><a href=\"%s\">%s</a></li>\n", $this->we_are_here($key), $this->base_url($key,1), $title);
+        }
+        print "</ul>";
+        print "</div><!-- end of submenu -->";
+    }
+
+    function menu_why_not_windows() {
+        print "<div id=\"subheader\">";
+        printf ("<span class=\"title\"><a href=\"%s\">Why not Windows</a></span>", $this->base_url('windows',1));
+
+        $items = array("windows/restrictions" => "Restrictions",
+            "windows/what_about_choice" => "What about choice?",
+            "windows/what_about_source_code" => "No source code",
+            "windows/stand_for_a_free_society" => "Stand for a free society",
+            );
+
+        print "<ul>";
+        foreach ($items as $key => $title) {
+            printf("<li %s><a href=\"%s\">%s</a></li>\n", $this->we_are_here($key), $this->base_url($key,1), $title);
+        }
+        print "</ul>";
+        print "</div><!-- end of submenu -->";
+    }
+
+    function menu_foot_why_not_windows() {
+        print "<div id=\"subheader_foot\">";
+        printf ("<span class=\"title\"><a href=\"%s\">Why not Windows</a></span>", $this->base_url('windows',1));
+
+        $items = array("windows/restrictions" => "Restrictions",
+            "windows/what_about_choice" => "What about choice?",
+            "windows/what_about_source_code" => "No source code",
+            "windows/stand_for_a_free_society" => "Stand for a free society",
+            );
+
+        print "<ul>";
+        foreach ($items as $key => $title) {
+            printf("<li %s><a href=\"%s\">%s</a></li>\n", $this->we_are_here($key), $this->base_url($key,1), $title);
+        }
+        print "</ul>";
+        print "</div><!-- end of submenu -->";
+    }
+
+    function stylesheet($url) {
+        $modified = filemtime(BASE_PATH.$url);
+        printf("<link rel='stylesheet' type='text/css' href='%s?%s' />", $url, $modified);
+    }
+
+    function is_current_language($lang_id) {
+        global $ggl;
+
+        if ($lang_id == $ggl->get('locale')) {
+            return " id='is_current_language'";
+        }
+        else {
+            return "";
+        }
+    }
+
+    function current_page() {
+        $p = isset($_GET['p']) ? $_GET['p'] : NULL;
+        $p = str_replace('.','/',$p);
+        if ($p) {
+            return $p.'/';
+        }
+        else {
+            return "";
+        }
+    }
+
+    function is_current_menu_item($page_id) {
+        $p = isset($_GET['p']) ? $_GET['p'] : NULL;
+        if ($p == $page_id) {
+            return " class='current-menu-item'";
+        }
+        else if ( startswith($p, $page_id) ) {
+            return " class='current-menu-subitem'";
+        }
+        else {
+            return "";
+        }
+    }
+
+    function we_are_here($here) {
+        $p = isset($_GET['p']) ? $_GET['p'] : NULL;
+        if ($p == str_replace('/','.',$here)) {
+            return "class='wehere'";
+        }
+    }
+
+    function base_url($p=NULL, $return=0) {
+        global $ggl;
+
+        if (isset($p)) {
+            $url = sprintf ("/%s/%s/", $ggl->get('locale'), $p);
+        } else {
+            $url = sprintf ("/%s/",$ggl->get('locale'));
+        }
+
+        if ($return) {
+            return $url;
+        } else {
+            print $url;
+        }
+    }
+}
+
+?>

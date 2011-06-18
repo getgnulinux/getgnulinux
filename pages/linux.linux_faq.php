@@ -1,10 +1,10 @@
-<?php load_header(); ?>
+<?php $this->load_header(); ?>
 
 <div id="maincontent">
 
 <h1 id="top"><?php print _("Linux Frequently Asked Questions"); ?></h1>
 
-<p><a href="<?php base_url('linux'); ?>"><?php print _("Our page about Linux</a> covers the essential information. We hope this FAQ list can help if you are more curious."); ?></p>
+<p><a href="<?php $this->base_url('linux'); ?>"><?php print _("Our page about Linux</a> covers the essential information. We hope this FAQ list can help if you are more curious."); ?></p>
 <br/>
 
 <div id="content">
@@ -93,7 +93,7 @@
 	<div class="QA">
 	<h3 id="mac" class="Q"><?php print _("Is Mac OSX a distribution of Linux?"); ?></h3>
 
-	<div class="A"><p><?php $p = _("No. There are a few <a href=\"http://www.softwareliberty.com/\">free software</a> components in Mac OSX, and it is technically similar to GNU/Linux systems. But overall, it is proprietary software: all the <a href=\"%s\">issues about Windows</a> apply to it as well."); printf($p, base_url('windows',1)); ?></p>
+	<div class="A"><p><?php $p = _("No. There are a few <a href=\"http://www.softwareliberty.com/\">free software</a> components in Mac OSX, and it is technically similar to GNU/Linux systems. But overall, it is proprietary software: all the <a href=\"%s\">issues about Windows</a> apply to it as well."); printf($p, $this->base_url('windows',1)); ?></p>
 	</div>
 
 	<span class="back_to_top"><a href="#top" title="<?php print _("jump to top of page"); ?>"><?php print _("top"); ?></a></span>
@@ -127,7 +127,7 @@
 	<div class="Q_sub"><?php print _("Some websites actually <em>sell</em> distributions of Linux. So, why do you write it is \"free as speech and available at no charge\"?"); ?></div>
 	<div class="A"><p><?php print _("The concept of <a href=\"http://www.softwareliberty.com/\">free software</a>, refers to freedom, not price. You have the freedom to copy, study, modify, and give free software away."); ?></p>
 	<p><?php print _("Most companies developing free software make money by selling <strong>services</strong> around their software, rather than the software itself. This is sometimes done by selling everything as a package: the customer buys the CD, book, and support contract at once. The software can still guarantee your freedoms."); ?></p>
-	<p><?php print _("More:"); ?> <a href="<?php base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a> | <a href="http://en.wikibooks.org/wiki/FLOSS_Concept_Booklet">FLOSS concept booklet</a>.</p>
+	<p><?php print _("More:"); ?> <a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a> | <a href="http://en.wikibooks.org/wiki/FLOSS_Concept_Booklet">FLOSS concept booklet</a>.</p>
 
 	</div>
 	<span class="back_to_top"><a href="#top" title="<?php print _("jump to top of page"); ?>"><?php print _("top"); ?></a></span>
@@ -143,7 +143,7 @@
 	<ul>
 	<li><p><?php print _("Some GNU/Linux distributors allow non-free software in order to enable hardware functionality.<br/>This happens because some hardware manufacturers such as NVidia do not care about their customers' freedoms, and only release restricting firmware and drivers (some of them don't even release anything, like Broadcom). These are available at no cost (they are freeware) but under restrictive licenses. Distributions such as <a href=\"http://www.ubuntu.com/\">Ubuntu</a> thus include such components to improve hardware compatibility."); ?></p></li>
 	 <li><p><?php print _("Some GNU/Linux distributors do not compromise on the freedom of software, and make sure their distribution are entirely free. Such is the case of <a href=\"http://www.gnewsense.org/\">gNewSense</a>, which is a Ubuntu derivative with all restricting components removed."); ?></p></li>
-	 <li><p><?php $p = _("Some GNU/Linux distributors assemble free and restrictive software without distinction. Such distributors would not like users to think of their freedom, and rather advertise only the technical capabilities of their product. Using such distributions isn't much better than <a href=\"%s\">using Windows</a>. We value your freedom and recommend you choose carefully!"); printf($p, base_url('windows',1)); ?></p></li>
+	 <li><p><?php $p = _("Some GNU/Linux distributors assemble free and restrictive software without distinction. Such distributors would not like users to think of their freedom, and rather advertise only the technical capabilities of their product. Using such distributions isn't much better than <a href=\"%s\">using Windows</a>. We value your freedom and recommend you choose carefully!"); printf($p, $this->base_url('windows',1)); ?></p></li>
 	</ul>
 	</div>
 
@@ -155,7 +155,7 @@
 	<h3 id="mac_freedom" class="Q"><?php print _("Is Mac OS also a free operating system?"); ?></h3>
 
 	<div class="Q_sub"><?php print _("Do all the reasons for avoiding Windows apply to Mac&nbsp;OS?"); ?></div>
-	<div class="A"><p><?php $p = _("It's quite common for Mac users to believe they are exempt from <a href=\"%s\">restrictions associated with Windows</a>. Unfortunately such is not the case."); printf($p, base_url('windows',1)); ?></p>
+	<div class="A"><p><?php $p = _("It's quite common for Mac users to believe they are exempt from <a href=\"%s\">restrictions associated with Windows</a>. Unfortunately such is not the case."); printf($p, $this->base_url('windows',1)); ?></p>
 	<p><?php print _("Mac OSX does have some low-level components which are <a href=\"http://www.softwareliberty.com/\">free software</a>; and Apple puts less energy into customer lock-in (with some notable efforts such as BootCamp).<br />However, the end-user is still fundamentally restricted &mdash; because of the proprietary license, he/she cannot use Mac OSX for all purposes, nor copy, study, modify, or redistribute it."); ?></p>
 	<p><?php print _("Happily, because these freedoms matter a lot, it's possible to run popular GNU/Linux distributions (such as <a href=\"http://www.ubuntu.com/\">Ubuntu</a>) on Mac computers."); ?></p>
 	</div>
@@ -171,7 +171,7 @@
 	<div class="A"><p><?php print _("No!"); ?></p>
 	<p><?php print _("Wherever you read or heard this you should update your views. Linux is completely distinct from such things. Whether you want to do them, or whether you prefer <a href=\"http://www.magnatune.com/\">intelligent</a>, <a href=\"http://www.jamendo.com/\">legal downloads</a>, Linux will work just as well as Windows. Unfortunately you can't identify gangsters by the make of their cars; the same thing goes for their operating system."); ?></p>
 	<p><?php print _("GNU/Linux was made by people who don't like the thought of all the world's computers running just one company's proprietary products. There is certainly nothing wrong with that!"); ?></p>
-	<p><?php print _("Read more in the article:"); ?> <a href="<?php base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a>.</p>
+	<p><?php print _("Read more in the article:"); ?> <a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a>.</p>
 	</div>
 
 	<span class="back_to_top"><a href="#top" title="<?php print _("jump to top of page"); ?>"><?php print _("top"); ?></a></span>
@@ -184,7 +184,7 @@
 	<div class="Q_sub"><?php print _("\"Everything has to be free\" and \"No one owns anything\" sounds somewhat frightening. Are Linux and its <acronym title=\"GNU General Public License\">GPL</acronym> License something for anarchists or communists?"); ?></div>
 	<div class="A"><p><?php
         $title = _("How to Misunderstand Free Software");
-        $link = sprintf("<a href=\"%s\">%s</a>", base_url('linux/misunderstanding_free_software',1), $title);
+        $link = sprintf("<a href=\"%s\">%s</a>", $this->base_url('linux/misunderstanding_free_software',1), $title);
         $p = _("Not at all. We have this explained simply in our article %s.");
         printf($p, $link); ?></p>
 	</div>
@@ -216,7 +216,7 @@
 	<div class="QA">
 	<h3 id="language" class="Q"><?php print _("Can I get GNU/Linux in my own language?"); ?></h3>
 
-	<div class="A"><p><?php $url = base_url('switch_to_linux/choose_a_distribution',1); $p = _("Yes. All main distributions, such as <a href=\"%s\">the ones we recommend</a>, are all available in the main languages around, and have support for many keyboard types."); printf($p, $url); ?></p>
+	<div class="A"><p><?php $url = $this->base_url('switch_to_linux/choose_a_distribution',1); $p = _("Yes. All main distributions, such as <a href=\"%s\">the ones we recommend</a>, are all available in the main languages around, and have support for many keyboard types."); printf($p, $url); ?></p>
 	<p><?php print _("Unlike Windows, all languages are included on each installation CD, so there is no need for you to download (or pay for!) another whole version to merely change the language on your computer."); ?></p>
 	</div>
 
@@ -232,7 +232,7 @@
 	<p><?php print _("The sticker on it is purely marketing, it has no legal value. We believe it is <em>one fundamental right</em> to choose which software to run on our own hardware."); ?></p>
 	<p><?php
     $title = _("Stand for a free society");
-    $link = sprintf("<a href=\"%s\">%s</a>", base_url('windows/stand_for_a_free_society',1), $title);
+    $link = sprintf("<a href=\"%s\">%s</a>", $this->base_url('windows/stand_for_a_free_society',1), $title);
     $p = _("In fact this right is threatened by the rise of things such as <a href=\"http://www.timj.co.uk/digiculture/drm-fallacy\">DRM and Trusted Computing</a>. Read our article \"%s\" article for more information.");
     printf($p, $link);
     ?></p>
@@ -246,7 +246,7 @@
 	<h3 id="new_computer" class="Q"><?php print _("Do I have to purchase a new computer to run Linux?"); ?></h3>
 
 	<div class="A"><p><?php print _("Not at all. It will run happily on your own computer."); ?></p>
-    <p><?php $p = _("The only thing you might be worried about is using very recent special hardware, such as graphics cards. Otherwise, almost all Linux distributions can run on normal PCs (often called \"i386\" or \"x86\" computers), 64-bit-processor computers and Apple Mac computers (including the G5, G4, G3 series). <a href=\"%s\">Read how you can try or install Linux on your computer</a>, be it instead of or together with Windows."); printf($p, base_url('switch_to_linux/try_or_install',1)); ?></p>
+    <p><?php $p = _("The only thing you might be worried about is using very recent special hardware, such as graphics cards. Otherwise, almost all Linux distributions can run on normal PCs (often called \"i386\" or \"x86\" computers), 64-bit-processor computers and Apple Mac computers (including the G5, G4, G3 series). <a href=\"%s\">Read how you can try or install Linux on your computer</a>, be it instead of or together with Windows."); printf($p, $this->base_url('switch_to_linux/try_or_install',1)); ?></p>
 	</div>
 
 	<span class="back_to_top"><a href="#top" title="<?php print _("jump to top of page"); ?>"><?php print _("top"); ?></a></span>
@@ -312,16 +312,16 @@
 	<p><?php
     $p = _("If you have a question that is not covered here, there are many communities to help you. Our \"<a href=\"%s\">More</a>\" section will help you find the right place to ask.<br/>
 If you can think of a frequent question that we haven't answered yet, do <a href=\"%s\">let us know</a>, or even better, <a href=\"%s\">file a new bug</a>.");
-printf($p, base_url('more',1),
+printf($p, $this->base_url('more',1),
 "https://launchpad.net/~getgnulinux/+contactuser",
 "https://bugs.launchpad.net/getgnulinux"); ?></p>
 	</div>
 
 
 <div class="upbutton_section">
-<a href="<?php base_url('linux'); ?>" class="upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("What is Linux?"); ?></span></span></a>
+<a href="<?php $this->base_url('linux'); ?>" class="upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("What is Linux?"); ?></span></span></a>
 </div>
 
 </div><!-- end maincontent -->
 
-<?php load_footer(); ?>
+<?php $this->load_footer(); ?>

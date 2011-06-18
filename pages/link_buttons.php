@@ -1,4 +1,4 @@
-<?php load_header(); ?>
+<?php $this->load_header(); ?>
 
 <div id="maincontent">
 
@@ -140,4 +140,4 @@
 
 </div><!-- end maincontent -->
 
-<?php load_footer(); ?>
+<?php $this->load_footer(); ?>

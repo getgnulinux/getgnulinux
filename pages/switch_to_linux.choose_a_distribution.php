@@ -1,6 +1,6 @@
-<?php load_header(); ?>
+<?php $this->load_header(); ?>
 
-<?php menu_switch_to_linux(); ?>
+<?php $this->menu_switch_to_linux(); ?>
 
 <div id="maincontent">
 
@@ -18,9 +18,9 @@
 <p><?php print _("We recommend this friendly and complete distribution if you are looking for an easy way to try and step into GNU/Linux."); ?></p>
 
 <div class="distro_screenshots">
-<a href="<?php base_url('linux/screenshots'); ?>"><img src="/images/screenshots/h113px/ubuntu2.png" alt="screenshot1" height="113" width="151"/></a>
-<a href="<?php base_url('linux/screenshots'); ?>"><img src="/images/screenshots/h113px/ubuntu1.png" alt="screenshot2" height="113" width="151"/></a>
-<a href="<?php base_url('linux/screenshots'); ?>"><img src="/images/screenshots/h113px/ubuntu3.png" alt="screenshot3" height="113" width="151"/></a>
+<a href="<?php $this->base_url('linux/screenshots'); ?>"><img src="/images/screenshots/h113px/ubuntu2.png" alt="screenshot1" height="113" width="151"/></a>
+<a href="<?php $this->base_url('linux/screenshots'); ?>"><img src="/images/screenshots/h113px/ubuntu1.png" alt="screenshot2" height="113" width="151"/></a>
+<a href="<?php $this->base_url('linux/screenshots'); ?>"><img src="/images/screenshots/h113px/ubuntu3.png" alt="screenshot3" height="113" width="151"/></a>
 </div><!-- end distro_screenshots -->
 
 <p><?php print _("Ubuntu also has a sister distribution, <a href=\"http://www.kubuntu.org/\">Kubuntu</a>, with a different layout and slightly more advanced graphics."); ?></p>
@@ -36,9 +36,9 @@
 <p><?php print _("We recommend this distribution if you wish to learn more about the workings of a GNU/Linux system, security configuration, or work on software development."); ?></p>
 
 <div class="distro_screenshots">
-<a href="<?php base_url('linux/screenshots'); ?>"><img src="/images/screenshots/h113px/fedora2.png" alt="screenshot1" height="113" width="151"/></a>
-<a href="<?php base_url('linux/screenshots'); ?>"><img src="/images/screenshots/h113px/fedora1.png" alt="screenshot2" height="113" width="151"/></a>
-<a href="<?php base_url('linux/screenshots'); ?>"><img src="/images/screenshots/h113px/fedora3.png" alt="screenshot3" height="113" width="151"/></a>
+<a href="<?php $this->base_url('linux/screenshots'); ?>"><img src="/images/screenshots/h113px/fedora2.png" alt="screenshot1" height="113" width="151"/></a>
+<a href="<?php $this->base_url('linux/screenshots'); ?>"><img src="/images/screenshots/h113px/fedora1.png" alt="screenshot2" height="113" width="151"/></a>
+<a href="<?php $this->base_url('linux/screenshots'); ?>"><img src="/images/screenshots/h113px/fedora3.png" alt="screenshot3" height="113" width="151"/></a>
 </div><!-- end distro_screenshots -->
 
 </div><!-- end fedora -->
@@ -46,14 +46,14 @@
 <div class="gnewsense">
 <h2 id="gnewsense" class="gnewsense_title">gNewSense</h2>
 <a href="http://www.gnewsense.org/" title="gNewsSense GNU/Linux"><img src="/images/switch_to_linux/switch_to_linux.choose_a_distribution.gnewsense.png" width="140" height="90" alt="gNewSense"/></a>
-<p><?php $p = _("Since Ubuntu contains some restricting components (<a href=\"%s#full_freedom\">why?</a>), the gNewSense developers have built an entirely free derivative, with the help of the <acronym title=\"Free Software Foundation\">FSF</acronym>. Although its community is smaller and its hardware support might be slightly inferior, gNewSense gives anyone full freedom over a complete operating system almost identical to Ubuntu."); printf($p, base_url('linux/linux_faq',1)); ?></p>
+<p><?php $p = _("Since Ubuntu contains some restricting components (<a href=\"%s#full_freedom\">why?</a>), the gNewSense developers have built an entirely free derivative, with the help of the <acronym title=\"Free Software Foundation\">FSF</acronym>. Although its community is smaller and its hardware support might be slightly inferior, gNewSense gives anyone full freedom over a complete operating system almost identical to Ubuntu."); printf($p, $this->base_url('linux/linux_faq',1)); ?></p>
 
 <p><?php print _("We recommend this distribution if you are committed to freedom in your computing."); ?></p>
 
 <div class="distro_screenshots">
-<a href="<?php base_url('linux/screenshots'); ?>"><img src="/images/screenshots/h113px/gnewsense1.png" alt="screenshot1" height="113" width="151"/></a>
-<a href="<?php base_url('linux/screenshots'); ?>"><img src="/images/screenshots/h113px/gnewsense2.png" alt="screenshot2" height="113" width="151"/></a>
-<a href="<?php base_url('linux/screenshots'); ?>"><img src="/images/screenshots/h113px/gnewsense3.png" alt="screenshot3" height="113" width="151"/></a>
+<a href="<?php $this->base_url('linux/screenshots'); ?>"><img src="/images/screenshots/h113px/gnewsense1.png" alt="screenshot1" height="113" width="151"/></a>
+<a href="<?php $this->base_url('linux/screenshots'); ?>"><img src="/images/screenshots/h113px/gnewsense2.png" alt="screenshot2" height="113" width="151"/></a>
+<a href="<?php $this->base_url('linux/screenshots'); ?>"><img src="/images/screenshots/h113px/gnewsense3.png" alt="screenshot3" height="113" width="151"/></a>
 </div><!-- end distro_screenshots -->
 
 </div><!-- end gnewsense -->
@@ -66,7 +66,7 @@ This is our selection for newcomers. These links are not commercial."); ?></p>
 </div><!-- end maincontent -->
 
 <div id="bottom_next_page_banner">
-    <a href="<?php base_url('switch_to_linux/try_or_install'); ?>"><span class="arrow"><span class="underlining"><?php print _("Now get a CD and try or install your distribution!"); ?></span></span></a>
+    <a href="<?php $this->base_url('switch_to_linux/try_or_install'); ?>"><span class="arrow"><span class="underlining"><?php print _("Now get a CD and try or install your distribution!"); ?></span></span></a>
 </div><!-- end bottom_next_page_banner-->
 
-<?php load_footer(); ?>
+<?php $this->load_footer(); ?>

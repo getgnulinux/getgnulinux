@@ -1,14 +1,14 @@
-<?php load_header(); ?>
+<?php $this->load_header(); ?>
 
 <div class="upbutton_section">
-    <a href="<?php base_url('windows/restrictions'); ?>" class="upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("Restrictions"); ?></span></span></a>
+    <a href="<?php $this->base_url('windows/restrictions'); ?>" class="upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("Restrictions"); ?></span></span></a>
 </div>
 
 <div id="maincontent">
 
 <h1 class="windows_section_style"><?php print _("More details on restrictions"); ?></h1>
 
-<p><?php $p = _("We wished to keep our \"<a href=\"%s\">Restrictions</a>\" page short, so we moved many of the license restrictions out here. Here is the fine print inside the Microsoft licenses."); printf($p, base_url('windows/restrictions',1)); ?></p>
+<p><?php $p = _("We wished to keep our \"<a href=\"%s\">Restrictions</a>\" page short, so we moved many of the license restrictions out here. Here is the fine print inside the Microsoft licenses."); printf($p, $this->base_url('windows/restrictions',1)); ?></p>
 
 <ul>
 
@@ -78,7 +78,7 @@
 </div><!-- end maincontent -->
 
 <div class="upbutton_section">
-    <a href="<?php base_url('windows/restrictions'); ?>" class="upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("Restrictions"); ?></span></span></a>
+    <a href="<?php $this->base_url('windows/restrictions'); ?>" class="upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("Restrictions"); ?></span></span></a>
 </div>
 
-<?php load_footer(); ?>
+<?php $this->load_footer(); ?>

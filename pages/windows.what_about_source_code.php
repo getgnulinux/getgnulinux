@@ -1,6 +1,6 @@
-<?php load_header(); ?>
+<?php $this->load_header(); ?>
 
-<?php menu_why_not_windows(); ?>
+<?php $this->menu_why_not_windows(); ?>
 
 <div id="maincontent">
 
@@ -86,6 +86,6 @@ package with the recipe?"); ?></p>
 
 </div><!-- end of maincontent -->
 
-<?php menu_foot_why_not_windows(); ?>
+<?php $this->menu_foot_why_not_windows(); ?>
 
-<?php load_footer(); ?>
+<?php $this->load_footer(); ?>

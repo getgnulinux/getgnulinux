@@ -14,13 +14,22 @@ LOCALES=nl_NL fr_FR
 template=$(LOCALE_DIR)/$(DOMAIN)/$(DOMAIN).pot
 
 # Phony targets.
-.PHONY : help pot po push
+.PHONY : help config pot po push
 
 help:
 	@echo "Please use \`make <target>' where <target> is one of"
+	@echo "  config     to create the settings.php file"
 	@echo "  pot        to make the PO Template file $(DOMAIN).pot"
 	@echo "  po         to create new PO files or to update existing PO files"
 	@echo "  push       to update the development branch for getgnulinux on Launchpad"
+
+# Create settings.php.
+settings.php:
+	cp include/templates/settings.php settings.php
+	@echo
+	@echo "Done. Now open settings.php in a text editor and change its settings."
+
+config: settings.php
 
 # Make the PO Template file.
 pot:

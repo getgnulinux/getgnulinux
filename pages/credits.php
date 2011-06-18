@@ -1,12 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 	<title>GNU/Linux Matters websites credits</title>
 	<meta name="description" content="Legal terms of use for the GNU/Linux Matters websites"/>
-	<link rel="stylesheet" type="text/css" href="/_style/maincss.css" />
-	<link rel="stylesheet" type="text/css" href="/_style/credits.css" />
+	<link rel="stylesheet" type="text/css" href="/style/maincss.css" />
+	<link rel="stylesheet" type="text/css" href="/style/credits.css" />
 </head>
 
 <body>
@@ -195,7 +194,7 @@ Vietnamese Free Software Translation Team</a>, and Minh Ngoc Le.</p>
 <div class="topl"></div>
 <div class="topr"></div>
 <div id="footer">
-<span class="link_button"><a href="<?php base_url(); ?>" title="Get Linux - an alternative to Windows; free as in beer and speech"><img src="/links/en/80x15_20.png" alt="Get Linux" width="80" height="15"/></a></span>
+<span class="link_button"><a href="<?php $this->base_url(); ?>" title="Get Linux - an alternative to Windows; free as in beer and speech"><img src="/links/en/80x15_20.png" alt="Get Linux" width="80" height="15"/></a></span>
 
 <span id="about"><a href="http://www.gnulinuxmatters.org/index.html" title="Learn about GLM, the non-profit behind GetGNULinux.org">GNU/Linux Matters</a> is a registered non-profit organization.</span>
 </div><!-- end footer -->

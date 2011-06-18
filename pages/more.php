@@ -1,4 +1,4 @@
-<?php load_header(); ?>
+<?php $this->load_header(); ?>
 
 <div id="maincontent">
 
@@ -74,13 +74,13 @@
 <?php print _("This website was created and maintained by a non-profit organization, <em><a href=\"http://www.gnulinuxmatters.org/\">GNU/Linux Matters</a></em>, which focuses on Internet advocacy for free software. As of 2010, GNU/Linux Matters have ceased activity. Despite their best efforts they just haven't been able to find the time to keep the project going."); ?></p>
 
 <p><?php $p = _("The &#8220;get&nbsp;GNU/Linux!&#8221; project is now being maintained at <a href=\"https://launchpad.net/getgnulinux\">Launchpad</a>. The continuity of the project now depends on the community. Please consider <a href=\"%s\">participating</a>, or simply helping us by <a href=\"%s\">making a link to this website</a>.");
-printf($p, "https://launchpad.net/getgnulinux", base_url('link_buttons',1)); ?></p>
+printf($p, "https://launchpad.net/getgnulinux", $this->base_url('link_buttons',1)); ?></p>
 
 <div id="about_us_more">
 <ul>
-	<li><a href="<?php base_url('legal'); ?>"><?php print _("Terms of Use"); ?></a></li>
+	<li><a href="<?php $this->base_url('legal'); ?>"><?php print _("Terms of Use"); ?></a></li>
 	<li><a href="https://launchpad.net/~getgnulinux/+contactuser"><?php print _("Contact"); ?></a></li>
-	<li><a href="<?php base_url('credits'); ?>"><?php print _("Credits"); ?></a></li>
+	<li><a href="<?php $this->base_url('credits'); ?>"><?php print _("Credits"); ?></a></li>
 </ul>
 </div><!-- end of sidebox -->
 
@@ -88,4 +88,4 @@ printf($p, "https://launchpad.net/getgnulinux", base_url('link_buttons',1)); ?><
 
 </div><!-- end maincontent -->
 
-<?php load_footer(); ?>
+<?php $this->load_footer(); ?>

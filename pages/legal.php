@@ -4,7 +4,7 @@
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 	<title>GNU/Linux Matters websites terms of use</title>
 	<meta name="description" content="Legal terms of use for the GNU/Linux Matters websites"/>
-	<link rel="stylesheet" type="text/css" href="/_style/legal.css" />
+	<link rel="stylesheet" type="text/css" href="/style/legal.css" />
 </head>
 
 <body>
@@ -62,7 +62,7 @@ Our websites are released under the following licenses:</p>
     redistributing, modifying for any purpose, including commercial, without
     permission, as long as you credit us for the original creation and
     redistribute the content under the same license.</li>
-	<li>Selected graphics on some pages: as described in the <a href="<?php base_url('credits'); ?>">credits</a>.</li>
+	<li>Selected graphics on some pages: as described in the <a href="<?php $this->base_url('credits'); ?>">credits</a>.</li>
 	<li>Graphics and logos of all websites, LinuxPreloaded.com website and
     translations, gnulinuxmatters.og website and translations, except where
     otherwise explicitly mentioned: all rights reserved.</li>
@@ -141,7 +141,7 @@ block access from a particular Internet address to our websites.</p>
 <div class="topl"></div>
 <div class="topr"></div>
 <div id="footer">
-    <span class="link_button"><a href="<?php base_url(); ?>" title="Linux"><img src="/links/en/80x15_20.png" alt="Get Linux" width="80" height="15"/></a></span>
+    <span class="link_button"><a href="<?php $this->base_url(); ?>" title="Linux"><img src="/links/en/80x15_20.png" alt="Get Linux" width="80" height="15"/></a></span>
     <span id="about"><a href="http://www.gnulinuxmatters.org/" title="Learn about GLM, the non-profit behind GetGNULinux.org">GNU/Linux Matters</a> is a registered non-profit organization.</span>
 </div><!-- end footer -->
 

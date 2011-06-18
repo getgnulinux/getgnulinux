@@ -1,4 +1,4 @@
-<?php load_header(); ?>
+<?php $this->load_header(); ?>
 
 <div id="maincontent">
 
@@ -47,7 +47,7 @@
 <p><?php print _("Imagine purchasing a car whose hood you are forbidden to open. It does not matter whether you know how a car works &ndash; the point is that nobody will be able to check the engine. How can you trust your car, if no one is allowed to make sure that it's reliable, that it does not leak, that it's not harmful to the society and environment?"); ?></p>
 <p><?php print _("The idea is the same with software &ndash; except that code does <strong>much more</strong> than move cars. Software runs our computers, phones, TVs, media players and more, carrying information and our culture."); ?></p>
 <p><?php print _("Free software is as important as free speech, as a free market. If software is free, users have control and liberty over it."); ?></p>
-<p><?php $p = _("The good news are: <em>free software also Just Works.</em> And in fact, it often Just Works Better. <a href=\"%s\">Pop in a GNU/Linux liveCD</a> in your computer at start-up, to try a full-featured, well-organised system, without installation, so you can judge by yourself."); printf($p, base_url('switch_to_linux/try_or_install',1)); ?></p>
+<p><?php $p = _("The good news are: <em>free software also Just Works.</em> And in fact, it often Just Works Better. <a href=\"%s\">Pop in a GNU/Linux liveCD</a> in your computer at start-up, to try a full-featured, well-organised system, without installation, so you can judge by yourself."); printf($p, $this->base_url('switch_to_linux/try_or_install',1)); ?></p>
 
 
 <h2 id="patent_protection"><?php print _("4. Free software doesn't respect authors' copyrighted and patented software."); ?></h2>
@@ -88,7 +88,7 @@
 <li><?php print _("Either give everyone the same rights you had when you obtained the original software, that is, the freedom to inspect, modify and redistribute your modified version;"); ?></li>
 <li><?php print _("Or, make the original software and your secret addition to it clearly separate (that is, your addition should contain none of the original work)."); ?></li>
 </ul>
-<p><?php $p = _("So in fact, you have more \"ownership\" over free software than over proprietary software &ndash;where the programmer decides everything you can <a href=\"%s\">and can't do</a> with the software."); printf($p, base_url('windows/restrictions/further_details',1)); ?></p>
+<p><?php $p = _("So in fact, you have more \"ownership\" over free software than over proprietary software &ndash;where the programmer decides everything you can <a href=\"%s\">and can't do</a> with the software."); printf($p, $this->base_url('windows/restrictions/further_details',1)); ?></p>
 <p><?php print _("<em>Free software has nothing to do with a political system.</em> You can run free software on top of proprietary software, just as well as the opposite. The free software license is simply a legal, ethical contract between the programmer and the end-user."); ?></p>
 
 
@@ -100,7 +100,7 @@
 <p><?php print _("The argument generally goes that since the source code of free software is available, it is less likely to be secure."); ?></p>
 <p><?php print _("Short answer: The majority of servers run free software. They are the major networked computers holding sensitive or confidential information such as your bank details or trade secrets."); ?></p>
 <p><?php print _("A more precise answer is that availability of source code is a warrant of security, not a weakness. The freedom of the software ensures it can be inspected, tested and improved by a very wide community. A good lock is secure because the technology used to design it is open, though only the key holder can open it. The same goes for software."); ?></p>
-<p><?php $p = _("Need examples? Have a look at the <a href=\"http://www.getfirefox.com/\">Firefox browser</a>, the <a href=\"http://en.wikipedia.org/wiki/Apache_HTTP_Server\">Apache HTTP Server</a>, the <a href=\"http://en.wikipedia.org/wiki/Pretty_Good_Privacy\">OpenPGP</a> encryption system, or the <a href=\"http://en.wikipedia.org/wiki/OpenBSD\">OpenBSD</a> operating system. And <a href=\"%s#security\">there are no spyware or viruses under GNU/Linux</a>."); printf($p, base_url('switch_to_linux/from_windows_to_linux',1)); ?></p>
+<p><?php $p = _("Need examples? Have a look at the <a href=\"http://www.getfirefox.com/\">Firefox browser</a>, the <a href=\"http://en.wikipedia.org/wiki/Apache_HTTP_Server\">Apache HTTP Server</a>, the <a href=\"http://en.wikipedia.org/wiki/Pretty_Good_Privacy\">OpenPGP</a> encryption system, or the <a href=\"http://en.wikipedia.org/wiki/OpenBSD\">OpenBSD</a> operating system. And <a href=\"%s#security\">there are no spyware or viruses under GNU/Linux</a>."); printf($p, $this->base_url('switch_to_linux/from_windows_to_linux',1)); ?></p>
 </div>
 
 <h2 class="toggleanswer" id="on_my_own"><?php print _("I'm on my own with free software."); ?></h2>
@@ -143,10 +143,10 @@ Each GNU/Linux distribution has its own community (for example, <a href=\"http:/
 <div class="footnotes_bottom">
 <a class="footnote" id="footnote_bottom1" href="#footnote1">1</a>,
 <a class="footnote" id="footnote_bottom2" href="#footnote2">2</a>
-<?php $p = _("What we call \"Free Software\" here is also often called \"Open Source Software\". In practice the requirements are identical, although because the term \"open\" doesn't call to mind freedom, it <a href=\"http://www.gnu.org/philosophy/open-source-misses-the-point.html\">misses the point</a>. Read our FAQ entry: <a href=\"%s#open_source\">Are \"Open Source\" and \"Free Software\" the same thing?</a>."); printf($p, base_url('linux/linux_faq',1)); ?></div>
+<?php $p = _("What we call \"Free Software\" here is also often called \"Open Source Software\". In practice the requirements are identical, although because the term \"open\" doesn't call to mind freedom, it <a href=\"http://www.gnu.org/philosophy/open-source-misses-the-point.html\">misses the point</a>. Read our FAQ entry: <a href=\"%s#open_source\">Are \"Open Source\" and \"Free Software\" the same thing?</a>."); printf($p, $this->base_url('linux/linux_faq',1)); ?></div>
 
 <div class="upbutton_section">
-<a href="<?php base_url('linux'); ?>" class="upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("What is Linux?"); ?></span></span></a>
+<a href="<?php $this->base_url('linux'); ?>" class="upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("What is Linux?"); ?></span></span></a>
 </div>
 
-<?php load_footer(); ?>
+<?php $this->load_footer(); ?>

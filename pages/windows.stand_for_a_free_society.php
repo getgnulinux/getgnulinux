@@ -1,6 +1,6 @@
-<?php load_header(); ?>
+<?php $this->load_header(); ?>
 
-<?php menu_why_not_windows(); ?>
+<?php $this->menu_why_not_windows(); ?>
 
 <div id="maincontent">
 
@@ -54,18 +54,18 @@ us look at proprietary software a little closer."); ?></p>
 issue (see <a href=\"%s\">our article on source
 code</a>): today proprietary software interferes with the spread of culture
 and information. This happens mainly through two technologies:");
-printf($p, base_url('windows/what_about_source_code',1)); ?></p>
+printf($p, $this->base_url('windows/what_about_source_code',1)); ?></p>
 
 <ul>
 	<li>
-		<h3 id="digital_rights_management">Digital Restrictions Management <a class="footnote" id="footnote1" href="<?php base_url('windows/stand_for_a_free_society'); ?>#footnote_bottom1">1</a> (DRM)</h3>
+		<h3 id="digital_rights_management">Digital Restrictions Management <a class="footnote" id="footnote1" href="<?php $this->base_url('windows/stand_for_a_free_society'); ?>#footnote_bottom1">1</a> (DRM)</h3>
 
         <p><?php $p = _("The main idea of DRM <a class=\"footnote\" href=\"%s#footnote_bottom1\">1</a>
 is to restrict access to files. Users encounter this when, for example, they
 purchase music through iTunes, and then can only play their music with one
 player, from one brand. With this method, companies fight copyright
 infringement, but they also severely restrain users' access to their files.");
-printf($p, base_url('windows/stand_for_a_free_society',1)); ?></p>
+printf($p, $this->base_url('windows/stand_for_a_free_society',1)); ?></p>
 
 
         <div class="keypart"><?php print _("DRM is control over content"); ?></div>
@@ -152,10 +152,10 @@ programs such as Windows have no transparency. A free culture and a free society
 cannot grow from such software."); ?></p>
 
 <p><?php $p = _("May we suggest you <a href=\"%s\">switch to Linux</a>?");
-printf($p, base_url('switch_to_linux',1)); ?></p>
+printf($p, $this->base_url('switch_to_linux',1)); ?></p>
 
 <div class="footnotes_bottom">
-<a class="footnote" id="footnote_bottom1" href="<?php base_url('windows/stand_for_a_free_society'); ?>#footnote1">1</a>
+<a class="footnote" id="footnote_bottom1" href="<?php $this->base_url('windows/stand_for_a_free_society'); ?>#footnote1">1</a>
 <?php print _("Note that DRM is often referred to as \"Digital Rights Management\", although it has little to do with rights &ndash; \"Digital Restrictions Management\" is a more accurate name."); ?></div>
 
 
@@ -184,7 +184,7 @@ printf($p, base_url('switch_to_linux',1)); ?></p>
 <h3><a href="http://www.gnu.org/philosophy/why-free.html">Why Software Should Not Have Owners</a></h3>
 <p><?php print _("A pivotal text for the Free Software movement by Richard Stallman. It clarifies common objections and explains a handful of important ideas."); ?></p>
 
-<h3><a href="<?php base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a></h3>
+<h3><a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a></h3>
 <p><?php print _("More on free software on this website."); ?></p>
 
 <br style="clear: both;" />
@@ -195,6 +195,6 @@ printf($p, base_url('switch_to_linux',1)); ?></p>
 
 </div><!-- end of maincontent -->
 
-<?php menu_foot_why_not_windows(); ?>
+<?php $this->menu_foot_why_not_windows(); ?>
 
-<?php load_footer(); ?>
+<?php $this->load_footer(); ?>

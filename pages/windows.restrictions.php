@@ -1,6 +1,6 @@
-<?php load_header(); ?>
+<?php $this->load_header(); ?>
 
-<?php menu_why_not_windows(); ?>
+<?php $this->menu_why_not_windows(); ?>
 
 <div id="maincontent">
 
@@ -42,7 +42,7 @@ click \"OK\" to upon install."); ?></p>
 Restrictions on who can use the software, what kind of revenue you
 may earn with it, on how you choose to install it, restrictions on your
 privacy, even on whether you can give it away: the list is long.
-<a href=\"%s\" title=\"a few more things about Mircrosoft licenses\">Reading the license and enumerating your remaining rights</a> is itself a difficult task."); printf($p, base_url('windows/restrictions/further_details',1)); ?></p>
+<a href=\"%s\" title=\"a few more things about Mircrosoft licenses\">Reading the license and enumerating your remaining rights</a> is itself a difficult task."); printf($p, $this->base_url('windows/restrictions/further_details',1)); ?></p>
 	</li>
 
 	<li>
@@ -78,11 +78,11 @@ just freeware): its <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a>
 license is designed to protect your rights."); ?></p>
 
 <div class="read_article">
-<a href="<?php base_url('windows/restrictions/further_details'); ?>"><?php print _("Read more:"); ?> <?php print _("Restrictions - further details"); ?></a>
+<a href="<?php $this->base_url('windows/restrictions/further_details'); ?>"><?php print _("Read more:"); ?> <?php print _("Restrictions - further details"); ?></a>
 </div><!-- end read_article -->
 
 </div><!-- end maincontent -->
 
-<?php menu_foot_why_not_windows(); ?>
+<?php $this->menu_foot_why_not_windows(); ?>
 
-<?php load_footer(); ?>
+<?php $this->load_footer(); ?>

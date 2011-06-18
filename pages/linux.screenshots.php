@@ -1,7 +1,7 @@
-<?php load_header(); ?>
+<?php $this->load_header(); ?>
 
 <div class="upbutton_section">
-<a href="<?php base_url('linux'); ?>" class="upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("What is Linux?"); ?></span></span></a>
+<a href="<?php $this->base_url('linux'); ?>" class="upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("What is Linux?"); ?></span></span></a>
 </div>
 
 <div id="maincontent">
@@ -51,7 +51,7 @@
 </div><!-- end maincontent -->
 
 <div class="upbutton_section">
-<a href="<?php base_url('linux'); ?>" class="upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("What is Linux?"); ?></span></span></a>
+<a href="<?php $this->base_url('linux'); ?>" class="upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("What is Linux?"); ?></span></span></a>
 </div>
 
-<?php load_footer(); ?>
+<?php $this->load_footer(); ?>
