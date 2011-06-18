@@ -8,30 +8,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: getgnulinux 0.0.1\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2011-06-07 22:55+0200\n"
+"POT-Creation-Date: 2011-06-18 18:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: _include/footer.php:28
-msgid ""
-"A project of the <a href=\"http://www.gnulinuxmatters.org/\">GNU/Linux "
-"Matters</a> non-profit"
+#: _include/footer.php:20 _pages/more.php:81
+msgid "Terms of Use"
 msgstr ""
 
-#: _include/footer.php:29
-msgid "terms of use of GNU/Linux Matters websites"
+#: _include/footer.php:21 _pages/more.php:82
+msgid "Contact"
 msgstr ""
 
-#: _include/footer.php:29
-msgid "legal"
+#: _include/footer.php:22 _pages/more.php:83
+msgid "Credits"
 msgstr ""
 
-#: _include/header.php:31 _include/header.php:143 _include/header.php:151
+#: _include/header.php:31 _include/header.php:143 _include/header.php:150
 msgid "get GNU/Linux!"
 msgstr ""
 
@@ -43,24 +41,24 @@ msgstr ""
 msgid "Alternate languages"
 msgstr ""
 
-#: _include/header.php:163 _pages/home.php:21 _pages/linux.linux_faq.php:322
+#: _include/header.php:161 _pages/home.php:21 _pages/linux.linux_faq.php:322
 #: _pages/linux.misunderstanding_free_software.php:149
 #: _pages/linux.screenshots.php:4 _pages/linux.screenshots.php:54
-#: _pages/windows.php:74
+#: _pages/windows.php:75
 msgid "What is Linux?"
 msgstr ""
 
-#: _include/header.php:164 _pages/home.php:28 _pages/linux.php:48
+#: _include/header.php:162 _pages/home.php:28 _pages/linux.php:48
 #: _pages/windows.php:5
 msgid "Why not Windows"
 msgstr ""
 
-#: _include/header.php:165 _pages/home.php:35 _pages/switch_to_linux.php:5
-#: _pages/windows.php:72
+#: _include/header.php:163 _pages/home.php:35 _pages/switch_to_linux.php:5
+#: _pages/windows.php:73
 msgid "Switch to Linux"
 msgstr ""
 
-#: _include/header.php:166 _pages/more.php:6
+#: _include/header.php:164 _pages/more.php:6
 msgid "More"
 msgstr ""
 
@@ -179,12 +177,12 @@ msgid "Will Microsoft Office run on Linux?"
 msgstr ""
 
 #: _pages/linux.linux_faq.php:39 _pages/linux.linux_faq.php:279
-#: _pages/switch_to_linux.from_windows_to_linux.php:92
+#: _pages/switch_to_linux.from_windows_to_linux.php:93
 msgid "Can I play my DVDs and MP3s under GNU/Linux?"
 msgstr ""
 
 #: _pages/linux.linux_faq.php:40 _pages/linux.linux_faq.php:298
-#: _pages/switch_to_linux.from_windows_to_linux.php:101
+#: _pages/switch_to_linux.from_windows_to_linux.php:102
 msgid "Can I play popular 3D games under GNU/Linux?"
 msgstr ""
 
@@ -365,7 +363,7 @@ msgstr ""
 #: _pages/linux.linux_faq.php:130 _pages/linux.linux_faq.php:174
 #: _pages/linux.linux_faq.php:186
 #: _pages/linux.misunderstanding_free_software.php:7 _pages/linux.php:56
-#: _pages/windows.stand_for_a_free_society.php:197
+#: _pages/windows.stand_for_a_free_society.php:187
 msgid "How to Misunderstand Free Software"
 msgstr ""
 
@@ -529,7 +527,7 @@ msgid ""
 "hardware."
 msgstr ""
 
-#: _pages/linux.linux_faq.php:234 _pages/windows.php:51 _pages/windows.php:58
+#: _pages/linux.linux_faq.php:234 _pages/windows.php:52 _pages/windows.php:59
 msgid "Stand for a free society"
 msgstr ""
 
@@ -546,14 +544,14 @@ msgid "Not at all. It will run happily on your own computer."
 msgstr ""
 
 #: _pages/linux.linux_faq.php:249
+#, php-format
 msgid ""
 "The only thing you might be worried about is using very recent special "
 "hardware, such as graphics cards. Otherwise, almost all Linux distributions "
 "can run on normal PCs (often called \"i386\" or \"x86\" computers), 64-bit-"
 "processor computers and Apple Mac computers (including the G5, G4, G3 "
-"series). <a href=\"/switch_to_linux/try_or_install/\">Read how you can try "
-"or install Linux on your computer</a>, be it instead of or together with "
-"Windows."
+"series). <a href=\"%s\">Read how you can try or install Linux on your "
+"computer</a>, be it instead of or together with Windows."
 msgstr ""
 
 #: _pages/linux.linux_faq.php:259 _pages/linux.php:22
@@ -1198,7 +1196,7 @@ msgid ""
 "corporate customers are often happy to pay for more support."
 msgstr ""
 
-#: _pages/linux.php:48 _pages/windows.php:72
+#: _pages/linux.php:48 _pages/windows.php:73
 msgid "next:"
 msgstr ""
 
@@ -1318,42 +1316,21 @@ msgstr ""
 
 #: _pages/more.php:74
 msgid ""
-"This website was initialised and maintained by a non-profit\n"
-"organization, <em><a href=\"http://www.gnulinuxmatters.org/\">GNU/Linux "
-"Matters</a></em>,\n"
-"which focuses on Internet advocacy for free software."
+"This website was created and maintained by a non-profit organization, <em><a "
+"href=\"http://www.gnulinuxmatters.org/\">GNU/Linux Matters</a></em>, which "
+"focuses on Internet advocacy for free software. As of 2010, GNU/Linux "
+"Matters have ceased activity. Despite their best efforts they just haven't "
+"been able to find the time to keep the project going."
 msgstr ""
 
-#: _pages/more.php:79
-msgid ""
-"As of 2010, GNU/Linux Matters have ceased activity. Despite\n"
-"their best efforts they just haven't been able to find the time to keep "
-"this\n"
-"project going. This mirror of getgnulinux.org is being maintained at\n"
-"<a href=\"https://launchpad.net/getgnulinux\">Launchpad</a>."
-msgstr ""
-
-#: _pages/more.php:85
+#: _pages/more.php:76
 #, php-format
 msgid ""
-"Please consider participating, or simply helping us by\n"
-"<a href=\"%s\">making a link to this website</a>."
-msgstr ""
-
-#: _pages/more.php:91
-msgid "legal terms"
-msgstr ""
-
-#: _pages/more.php:92
-msgid "contact"
-msgstr ""
-
-#: _pages/more.php:93
-msgid "credits"
-msgstr ""
-
-#: _pages/more.php:94
-msgid "FAQ"
+"The &#8220;get&nbsp;GNU/Linux!&#8221; project is now being maintained at <a "
+"href=\"https://launchpad.net/getgnulinux\">Launchpad</a>. The continuity of "
+"the project now depends on the community. Please consider <a href=\"%s"
+"\">participating</a>, or simply helping us by <a href=\"%s\">making a link "
+"to this website</a>."
 msgstr ""
 
 #: _pages/not_found.php:5
@@ -1474,14 +1451,23 @@ msgid "What is better in Linux"
 msgstr ""
 
 #: _pages/switch_to_linux.from_windows_to_linux.php:15
-msgid "It's free."
+msgid "It's free"
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:18
-msgid "Programs."
+#: _pages/switch_to_linux.from_windows_to_linux.php:17
+msgid ""
+"Unlike Windows, GNU/Linux is <a href=\"http://www.softwareliberty.com/\" "
+"title=\"What does Free Software mean?\">free software</a> &ndash; free as in "
+"freedom. Install it on all computers and make copies for your friends! You "
+"can even study it, transform it as you please, or build and sell your own "
+"distribution."
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:21
+#: _pages/switch_to_linux.from_windows_to_linux.php:19
+msgid "Programs"
+msgstr ""
+
+#: _pages/switch_to_linux.from_windows_to_linux.php:22
 msgid ""
 "There are a wealth of free applications available at no cost under Linux. To "
 "edit professional documents, burn music CDs, rework photos, design a "
@@ -1493,11 +1479,11 @@ msgid ""
 "freeware polluting the web."
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:25
-msgid "No fighting."
+#: _pages/switch_to_linux.from_windows_to_linux.php:26
+msgid "No fighting"
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:27
+#: _pages/switch_to_linux.from_windows_to_linux.php:28
 msgid ""
 "Keeping your computer in shape over time needn't be a struggle. One year on, "
 "GNU/Linux runs just as fast as the first day. And it may bring your old PC "
@@ -1507,11 +1493,11 @@ msgid ""
 "Clippit the paperclip, you'll find it refreshing."
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:31
-msgid "Security."
+#: _pages/switch_to_linux.from_windows_to_linux.php:32
+msgid "Security"
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:33
+#: _pages/switch_to_linux.from_windows_to_linux.php:34
 msgid ""
 "Forget expensive and restrictive anti-virus, anti-spyware, anti-anything and "
 "anti-everything. Linux is very, very secure.<br/>\n"
@@ -1522,11 +1508,11 @@ msgid ""
 "Regular, easy software updates will keep everyone entirely safe."
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:38
-msgid "Support."
+#: _pages/switch_to_linux.from_windows_to_linux.php:39
+msgid "Support"
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:40
+#: _pages/switch_to_linux.from_windows_to_linux.php:41
 #, php-format
 msgid ""
 "Linux benefits from a great sense of community whose friendliness will "
@@ -1537,21 +1523,21 @@ msgid ""
 "Red Hat, also provide expert commercial support."
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:49
+#: _pages/switch_to_linux.from_windows_to_linux.php:50
 msgid "What is mostly the same in Linux"
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:50
+#: _pages/switch_to_linux.from_windows_to_linux.php:51
 msgid ""
 "Fundamentally, everyday users will find GNU/Linux similar in use to Windows "
 "or Mac OSX."
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:52
-msgid "General set-up:"
+#: _pages/switch_to_linux.from_windows_to_linux.php:53
+msgid "General set-up"
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:54
+#: _pages/switch_to_linux.from_windows_to_linux.php:55
 msgid ""
 "If you still believe Linux is controlled with code and command-line, you "
 "should update your views!<br />\n"
@@ -1560,16 +1546,16 @@ msgid ""
 "of applications will feel familiar to Windows or Mac OS users."
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:56
+#: _pages/switch_to_linux.from_windows_to_linux.php:57
 #, php-format
 msgid "See more: we have <a href=\"%s\">screenshots</a>.</div>"
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:59
-msgid "Web browsing and common tasks:"
+#: _pages/switch_to_linux.from_windows_to_linux.php:60
+msgid "Web browsing and common tasks"
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:61
+#: _pages/switch_to_linux.from_windows_to_linux.php:62
 msgid ""
 "The Web looks just the same when viewed with Linux (in fact you can browse "
 "the Web with the same program if you already use <a href=\"http://www."
@@ -1578,29 +1564,29 @@ msgid ""
 "with a file manager like Windows Explorer."
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:71
+#: _pages/switch_to_linux.from_windows_to_linux.php:72
 msgid "What is not as good in Linux"
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:73
+#: _pages/switch_to_linux.from_windows_to_linux.php:74
 msgid "&quot;Never tell the truth to people who are not worthy of it.&quot;"
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:74
+#: _pages/switch_to_linux.from_windows_to_linux.php:75
 msgid "or:"
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:75
+#: _pages/switch_to_linux.from_windows_to_linux.php:76
 msgid ""
 "&quot;Tell the truth and run.&quot; <span class=\"note\">&mdash; Yugoslavian "
 "proverb."
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:79
-msgid "Driver support."
+#: _pages/switch_to_linux.from_windows_to_linux.php:80
+msgid "Driver support"
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:81
+#: _pages/switch_to_linux.from_windows_to_linux.php:82
 msgid ""
 "Manufacturers of computer hardware don't always (yet) release drivers for "
 "Linux or publicize full specifications.<br/>\n"
@@ -1614,11 +1600,11 @@ msgid ""
 "photo cameras never are a problem."
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:87
-msgid "DVDs, restricted formats."
+#: _pages/switch_to_linux.from_windows_to_linux.php:88
+msgid "DVDs, restricted formats"
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:89
+#: _pages/switch_to_linux.from_windows_to_linux.php:90
 msgid ""
 "Many multimedia formats in use are proprietary and not openly specified; "
 "this means, broadly speaking, that Linux programmers have to find out how to "
@@ -1631,16 +1617,16 @@ msgid ""
 "entirely legally."
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:92
-#: _pages/switch_to_linux.from_windows_to_linux.php:101
+#: _pages/switch_to_linux.from_windows_to_linux.php:93
+#: _pages/switch_to_linux.from_windows_to_linux.php:102
 msgid "Read more in our Linux FAQ:"
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:96
-msgid "Gaming."
+#: _pages/switch_to_linux.from_windows_to_linux.php:97
+msgid "Gaming"
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:98
+#: _pages/switch_to_linux.from_windows_to_linux.php:99
 msgid ""
 "Hard-core computer gamers, you might find that the Linux gaming world is "
 "less professional and out-of-the-box than under Windows: the large game "
@@ -1653,57 +1639,58 @@ msgid ""
 "forumdisplay.php?f=93\">Ubuntu gaming forum</a> to find more information."
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:105
-msgid "Hibernating."
+#: _pages/switch_to_linux.from_windows_to_linux.php:106
+msgid "Hibernating"
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:107
+#: _pages/switch_to_linux.from_windows_to_linux.php:108
 msgid ""
 "Because of the driver issues above, hibernating is not always reliable. The "
 "most common occurrence is the loss of WiFi connection after hibernating on "
 "laptops whose hardware drivers are not free."
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:118
+#: _pages/switch_to_linux.from_windows_to_linux.php:119
 msgid "Conclusion"
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:119
+#: _pages/switch_to_linux.from_windows_to_linux.php:120
 msgid ""
 "Whether you are going to enjoy Linux depends mostly on what you expect from "
 "it."
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:121
+#: _pages/switch_to_linux.from_windows_to_linux.php:122
 msgid ""
 "If you wish Linux to be just exactly like Windows, you will probably be "
-"disappointed. GNU/Linux is built by people who simply wish it to be "
-"different. In the free software community, members have different visions of "
-"what makes an ideal operating system. These differences lead to variety, "
-"which is what makes Linux so special and interesting."
+"disappointed. GNU/Linux is built by people who simply <a href=\"http://linux."
+"oneandoneis2.org/LNW.htm\">wish it to be different</a>. In the free software "
+"community, members have different visions of what makes an ideal operating "
+"system. These differences lead to variety, which is what makes Linux so "
+"special and interesting."
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:122
+#: _pages/switch_to_linux.from_windows_to_linux.php:123
 msgid ""
 "Your freedom matters. Thousands in communities and companies work to build "
 "software on which you may exert this freedom. Using GNU/Linux is the easiest "
 "way to do so fully."
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:123
+#: _pages/switch_to_linux.from_windows_to_linux.php:124
 msgid ""
 "It's fun! Not having to worry about spyware, viruses, program registrations, "
 "demos that expire, or finding software that is really free as in freedom, "
 "makes using a computer suddenly very enjoyable."
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:125
+#: _pages/switch_to_linux.from_windows_to_linux.php:126
 msgid ""
 "We hope you'll switch soon. There's a large community waiting, and no one in "
 "it asking you to &quot;sign up, purchase and register&quot;."
 msgstr ""
 
-#: _pages/switch_to_linux.from_windows_to_linux.php:133
+#: _pages/switch_to_linux.from_windows_to_linux.php:134
 msgid "Choose a Linux distribution to get started!"
 msgstr ""
 
@@ -1815,7 +1802,7 @@ msgid ""
 msgstr ""
 
 #: _pages/switch_to_linux.try_or_install.php:61
-msgid "Go download the Ubuntu CD"
+msgid "Download the Ubuntu CD"
 msgstr ""
 
 #: _pages/switch_to_linux.try_or_install.php:62
@@ -1826,7 +1813,7 @@ msgid ""
 msgstr ""
 
 #: _pages/switch_to_linux.try_or_install.php:71
-msgid "Go download the Fedora DVD or CD"
+msgid "Download the Fedora DVD or CD"
 msgstr ""
 
 #: _pages/switch_to_linux.try_or_install.php:72
@@ -1837,7 +1824,7 @@ msgid ""
 msgstr ""
 
 #: _pages/switch_to_linux.try_or_install.php:81
-msgid "Go download the gNewSense CD"
+msgid "Download the gNewSense CD"
 msgstr ""
 
 #: _pages/switch_to_linux.try_or_install.php:82
@@ -1891,45 +1878,45 @@ msgid ""
 "with it? The list of restrictions is long and some items are outrageous."
 msgstr ""
 
-#: _pages/windows.php:19 _pages/windows.php:32 _pages/windows.php:45
-#: _pages/windows.php:58
+#: _pages/windows.php:19 _pages/windows.php:33 _pages/windows.php:46
+#: _pages/windows.php:59
 msgid "read our full article:"
 msgstr ""
 
-#: _pages/windows.php:27 _pages/windows.php:32
+#: _pages/windows.php:27 _pages/windows.php:33
 #: _pages/windows.what_about_choice.php:8
 msgid "What about choice?"
 msgstr ""
 
-#: _pages/windows.php:28
+#: _pages/windows.php:29
 msgid "Software should come without locks in it."
 msgstr ""
 
-#: _pages/windows.php:29
+#: _pages/windows.php:30
 msgid ""
 "Why are Office documents difficult to export? Why are the formats "
 "continually changing? Why can you not even uninstall some programs? It might "
 "be that if you look for choice, Microsoft products aren't for you."
 msgstr ""
 
-#: _pages/windows.php:39 _pages/windows.php:45
+#: _pages/windows.php:40 _pages/windows.php:46
 msgid "No source code"
 msgstr ""
 
-#: _pages/windows.php:40
+#: _pages/windows.php:41
 msgid ""
 "The source codes of Windows and Office are hidden, so, <strong>no one is "
 "allowed to understand</strong> how these programs work."
 msgstr ""
 
-#: _pages/windows.php:41
+#: _pages/windows.php:42
 msgid ""
 "If you can't get a right to inspect source code (the human-readable inner "
 "workings of a program), you can't have someone correct flaws or evaluate how "
 "your privacy is protected for you."
 msgstr ""
 
-#: _pages/windows.php:42
+#: _pages/windows.php:43
 msgid ""
 "And guess what? On software that comes with source code, viruses and spyware "
 "aren't effective, and security isn't bought on extra. The antivirus software "
@@ -1937,20 +1924,20 @@ msgid ""
 "Windows."
 msgstr ""
 
-#: _pages/windows.php:52
+#: _pages/windows.php:53
 msgid ""
 "A free society requires free software. Think of &quot;free&quot; as in "
 "freedom, not price: the freedoms to inspect, learn from, modify the software "
 "you use."
 msgstr ""
 
-#: _pages/windows.php:53
+#: _pages/windows.php:54
 msgid ""
 "Computers are used to share ideas, culture and information. Without these "
 "freedoms over software, we risk losing control over what we share."
 msgstr ""
 
-#: _pages/windows.php:54
+#: _pages/windows.php:55
 msgid ""
 "This is happening today. From plain annoying technologies such as Digital "
 "Restrictions Management (<strong>DRM</strong>) to downright frightening ones "
@@ -1958,13 +1945,13 @@ msgid ""
 "in culture is threatened."
 msgstr ""
 
-#: _pages/windows.php:55
+#: _pages/windows.php:56
 msgid ""
 "If you have to give up your freedoms to use software, maybe you should not "
 "be happy with it."
 msgstr ""
 
-#: _pages/windows.php:65
+#: _pages/windows.php:66
 #, php-format
 msgid ""
 "Many people find that Windows, an otherwise decent piece of software, "
@@ -1973,7 +1960,7 @@ msgid ""
 "a>, either."
 msgstr ""
 
-#: _pages/windows.php:67
+#: _pages/windows.php:68
 #, php-format
 msgid ""
 "If you find <a href=\"http://www.softwareliberty.com/\" title=\"what is "
@@ -1981,7 +1968,7 @@ msgid ""
 "href=\"%s\" title=\"make the switch to Linux today!\">give Linux a try</a>."
 msgstr ""
 
-#: _pages/windows.php:74
+#: _pages/windows.php:75
 msgid "previous:"
 msgstr ""
 
@@ -2088,7 +2075,7 @@ msgid ""
 msgstr ""
 
 #: _pages/windows.restrictions.further_details.php:56
-#: _pages/windows.stand_for_a_free_society.php:167
+#: _pages/windows.stand_for_a_free_society.php:163
 msgid "Read more"
 msgstr ""
 
@@ -2286,11 +2273,11 @@ msgstr ""
 
 #: _pages/windows.stand_for_a_free_society.php:34
 msgid ""
-"Though no one has a proprietary lock on yoga, it is still a\n"
-"thriving $30 billion business in the United States."
+"Though no one has a proprietary lock on yoga, it is still a thriving $30 "
+"billion business in the United States."
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:40
+#: _pages/windows.stand_for_a_free_society.php:39
 msgid ""
 "No chef would ever forbid you to modify his recipe and\n"
 "make derivatives out of it. The food industry thrives despite being required "
@@ -2298,14 +2285,14 @@ msgid ""
 "law to list ingredients on product labels."
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:43
+#: _pages/windows.stand_for_a_free_society.php:42
 msgid ""
 "A fair law court system permits anyone to read through\n"
 "all the trial hearings and arguments. Not only the result (the final\n"
 "deliberations), but also the process is fully open."
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:48
+#: _pages/windows.stand_for_a_free_society.php:47
 msgid ""
 "Free software is free as in &quot;free speech&quot;, as in a\n"
 "&quot;free market&quot;: all are necessary for a free society. Unconvinced? "
@@ -2313,11 +2300,11 @@ msgid ""
 "us look at proprietary software a little closer."
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:52
+#: _pages/windows.stand_for_a_free_society.php:51
 msgid "Proprietary software going wrong"
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:54
+#: _pages/windows.stand_for_a_free_society.php:53
 #, php-format
 msgid ""
 "The limits of proprietary software go beyond the security\n"
@@ -2326,7 +2313,7 @@ msgid ""
 "and information. This happens mainly through two technologies:"
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:64
+#: _pages/windows.stand_for_a_free_society.php:63
 #, php-format
 msgid ""
 "The main idea of DRM <a class=\"footnote\" href=\"%s#footnote_bottom1\">1</"
@@ -2338,11 +2325,11 @@ msgid ""
 "infringement, but they also severely restrain users' access to their files."
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:72
+#: _pages/windows.stand_for_a_free_society.php:71
 msgid "DRM is control over content"
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:74
+#: _pages/windows.stand_for_a_free_society.php:73
 msgid ""
 "Except that the control is not in the hands of the\n"
 "end-user. The original purpose of <acronym title=\"Digital Restrictions\n"
@@ -2351,28 +2338,28 @@ msgid ""
 "of information and culture within a society are frightening."
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:80
+#: _pages/windows.stand_for_a_free_society.php:79
 msgid ""
 "Imagine a book that automatically became glued shut after you read it once."
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:81
+#: _pages/windows.stand_for_a_free_society.php:80
 msgid ""
 "Imagine documents that self-destructed if you tried to take them out of the "
 "room."
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:82
+#: _pages/windows.stand_for_a_free_society.php:81
 msgid ""
 "Imagine telephones that only worked if the person you were ringing was "
 "renting the same make and model."
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:85
+#: _pages/windows.stand_for_a_free_society.php:84
 msgid "Sounds crazy? This is where Trusted Computing comes in."
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:91
+#: _pages/windows.stand_for_a_free_society.php:90
 msgid ""
 "Trusted Computing (sometimes\n"
 "<a href=\"http://www.lafkon.net/tc/\" title=\"A very well done video on "
@@ -2385,11 +2372,11 @@ msgid ""
 "(people copying proprietary software)."
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:98
+#: _pages/windows.stand_for_a_free_society.php:97
 msgid "Trusted Computing is control over the computer"
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:100
+#: _pages/windows.stand_for_a_free_society.php:99
 msgid ""
 "The critical thing about Trusted Computing is that\n"
 "<strong>you cannot decide</strong> what is trustworthy and what is not. For\n"
@@ -2402,7 +2389,7 @@ msgid ""
 "not using the same program."
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:106
+#: _pages/windows.stand_for_a_free_society.php:105
 msgid ""
 "A whole range of possibilities opens up for companies\n"
 "that benefit from restricting your computing (such as proprietary software "
@@ -2413,16 +2400,20 @@ msgid ""
 "can\n"
 "read but can't save or copy. All of a sudden, Trusted Computing and DRM "
 "enable\n"
-"<strong>remote control</strong> over content.<br/>\n"
-"Trusted Computing, in effect, enables the publisher to write their own\n"
-"copyright law."
+"<strong>remote control</strong> over content."
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:117
+#: _pages/windows.stand_for_a_free_society.php:111
+msgid ""
+"Trusted Computing, in effect, enables the publisher to write their own "
+"copyright law.</p>"
+msgstr ""
+
+#: _pages/windows.stand_for_a_free_society.php:115
 msgid "The wider impact"
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:122
+#: _pages/windows.stand_for_a_free_society.php:120
 msgid ""
 "Many cultural products are now emerging &quot;triple protected&quot;,\n"
 "not only by copyright and code, but also by contracts or licenses for which\n"
@@ -2434,7 +2425,7 @@ msgid ""
 "that copyright laws were originally intended to deny to publishers."
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:132
+#: _pages/windows.stand_for_a_free_society.php:130
 msgid ""
 "Computing is not just about calculations anymore. We use\n"
 "software to communicate: to share information, ideas and culture. Software "
@@ -2444,7 +2435,7 @@ msgid ""
 "new device around us."
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:142
+#: _pages/windows.stand_for_a_free_society.php:140
 msgid ""
 "<strong>Software is increasingly used to enforce rules</strong>.\n"
 "Rules that may or may not be the law. Rules that may or may not be fair. If "
@@ -2453,7 +2444,7 @@ msgid ""
 "rules."
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:146
+#: _pages/windows.stand_for_a_free_society.php:144
 msgid ""
 "Trusted Computing and DRM pave the way for a society in which\n"
 "culture and information are not simply turned into products (they are right "
@@ -2461,7 +2452,7 @@ msgid ""
 "and that is fine), but into <em>consumable</em> products."
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:150
+#: _pages/windows.stand_for_a_free_society.php:148
 msgid ""
 "Code is power. Most of today's work documents are written and\n"
 "encoded with secret algorithms in proprietary software. What will be of\n"
@@ -2472,54 +2463,50 @@ msgid ""
 "cannot grow from such software."
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:156
+#: _pages/windows.stand_for_a_free_society.php:154
 #, php-format
 msgid "May we suggest you <a href=\"%s\">switch to Linux</a>?"
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:161
+#: _pages/windows.stand_for_a_free_society.php:159
 msgid ""
-"Note that DRM is often referred to as \"Digital Rights Management\",\n"
+"Note that DRM is often referred to as \"Digital Rights Management\", "
 "although it has little to do with rights &ndash; \"Digital Restrictions "
-"Management\"\n"
-"is a more accurate name."
+"Management\" is a more accurate name."
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:172
+#: _pages/windows.stand_for_a_free_society.php:168
 msgid ""
-"What is the Trusted Computing world like? This is a short\n"
-"story by Richard Stallman that describes how this can affect any of us."
+"What is the Trusted Computing world like? This is a short story by Richard "
+"Stallman that describes how this can affect any of us."
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:176
+#: _pages/windows.stand_for_a_free_society.php:171
 msgid ""
-"A very well constructed article about <acronym title=\"Digital\n"
-"Restrictions Management\">DRM</acronym> by Tim Jackson, and on which we "
-"based\n"
-"the present article."
+"A very well constructed article about <acronym title=\"Digital Restrictions "
+"Management\">DRM</acronym> by Tim Jackson, and on which we based the present "
+"article."
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:181
+#: _pages/windows.stand_for_a_free_society.php:174
 msgid ""
-"An engaged article by Jimmy Wales, who co-founded the free\n"
-"encyclopedia <a href=\"http://www.wikipedia.org/\">Wikipedia</a>."
+"An engaged article by Jimmy Wales, who co-founded the free encyclopedia <a "
+"href=\"http://www.wikipedia.org/\">Wikipedia</a>."
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:190
+#: _pages/windows.stand_for_a_free_society.php:182
 msgid ""
 "Short video animation by Benjamin Stephan and Lutz Vogel. A clear, snappy "
 "and convincing argument."
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:193
+#: _pages/windows.stand_for_a_free_society.php:185
 msgid ""
-"A pivotal text for the Free Software movement by Richard\n"
-"Stallman. It clarifies common objections and explains a handful of "
-"important\n"
-"ideas."
+"A pivotal text for the Free Software movement by Richard Stallman. It "
+"clarifies common objections and explains a handful of important ideas."
 msgstr ""
 
-#: _pages/windows.stand_for_a_free_society.php:198
+#: _pages/windows.stand_for_a_free_society.php:188
 msgid "More on free software on this website."
 msgstr ""
 
@@ -2545,7 +2532,7 @@ msgid ""
 msgstr ""
 
 #: _pages/windows.what_about_choice.php:25
-msgid "No support for open standards"
+msgid "Poor support for open standards"
 msgstr ""
 
 #: _pages/windows.what_about_choice.php:27
@@ -2560,29 +2547,32 @@ msgstr ""
 
 #: _pages/windows.what_about_choice.php:31
 msgid ""
-"<strong>Microsoft Office only reads and writes Microsoft\n"
-"formats</strong>. There are many ways to write work documents, but Office "
-"users\n"
-"are bound to Office files.<br/>\n"
-"People who opted without expensive Microsoft products cannot write and read\n"
-"<code>.doc</code> files very reliably."
+"<strong>For a long time Microsoft Office only had support\n"
+"for Microsoft formats</strong>. There are many ways to write work "
+"documents,\n"
+"but Microsoft Office users were bound to Microsoft Office files. People who\n"
+"opted without expensive Microsoft products cannot write and read <code>.doc</"
+"code>\n"
+"files very reliably."
 msgstr ""
 
 #: _pages/windows.what_about_choice.php:36
 msgid ""
 "There are of course other ways of writing and exchanging\n"
 "office files, the most well-known being <a href=\"http://www."
-"opendocumentfellowship.com/\">the ODF format</a>.\n"
+"opendocumentfellowship.com/\">the OpenDocument Format</a>.\n"
 "But Microsoft isn't keen on letting Office users exchange files anyone can "
 "read\n"
-"and edit."
+"and edit. As of Microsoft Office 2007 SP2, Microsoft finally added support "
+"for\n"
+"the ODF format after being pushed by the European Commission."
 msgstr ""
 
-#: _pages/windows.what_about_choice.php:42
+#: _pages/windows.what_about_choice.php:43
 msgid "Standards that change all the time"
 msgstr ""
 
-#: _pages/windows.what_about_choice.php:44
+#: _pages/windows.what_about_choice.php:45
 msgid ""
 "Sticking to Microsoft standards is not an easy job &ndash;\n"
 "unless you can afford to upgrade very often. Ever tried to work on the same\n"
@@ -2591,46 +2581,43 @@ msgid ""
 "know what we mean."
 msgstr ""
 
-#: _pages/windows.what_about_choice.php:48
+#: _pages/windows.what_about_choice.php:49
 msgid ""
 "Microsoft owns the Office file formats: <strong>they\n"
 "change them with every new Office version</strong> and have no obligation "
 "to\n"
-"keep them backwards-compatible.<br/>\n"
-"Saved your presentation as a <code>.ppt</code> file? If you give up using\n"
-"Microsoft Office next year, you'll have to rely on other communities to\n"
-"reverse-engineer the format, to be able to access and modify your own work."
+"keep them backwards-compatible. Saved your presentation as a <code>.ppt</"
+"code>\n"
+"file? If you give up using Microsoft Office next year, you'll have to rely "
+"on\n"
+"other communities to reverse-engineer the format, to be able to access and\n"
+"modify your own work."
 msgstr ""
 
-#: _pages/windows.what_about_choice.php:56
+#: _pages/windows.what_about_choice.php:57
 msgid "Default programs you can't uninstall"
 msgstr ""
 
-#: _pages/windows.what_about_choice.php:58
+#: _pages/windows.what_about_choice.php:59
 msgid ""
 "Don't want Windows Media Player on your computer? Don't\n"
 "use Internet Explorer anymore? <strong>You can't uninstall these programs</"
-"strong>."
+"strong>.\n"
+"They previously worked on a standalone basis, but have been intrinsically\n"
+"linked with Windows &ndash; so they come in with every PC and no one can "
+"get\n"
+"rid of them."
 msgstr ""
 
-#: _pages/windows.what_about_choice.php:60
-msgid ""
-"They previously worked on a standalone basis, but have\n"
-"been intrinsically linked with Windows &ndash; so they come in with every "
-"PC\n"
-"and no one can get rid of them."
-msgstr ""
-
-#: _pages/windows.what_about_choice.php:66
+#: _pages/windows.what_about_choice.php:67
 msgid "Monopolistic practices"
 msgstr ""
 
-#: _pages/windows.what_about_choice.php:68
+#: _pages/windows.what_about_choice.php:69
 msgid ""
 "Microsoft has a tight control over\n"
 "<acronym title=\"Original Equipment Manufacturer\">OEM</acronym>s\n"
-"(computer manufacturers) who ship their computers with Windows installed.<br/"
-">\n"
+"(computer manufacturers) who ship their computers with Windows installed.\n"
 "This means that no program competing with Microsoft products, be it\n"
 "<a href=\"http://www.videolan.org/vlc/\">multimedia player</a>,\n"
 "<a href=\"http://www.getfirefox.com/\">web browser</a>,\n"
@@ -2640,7 +2627,7 @@ msgid ""
 "come pre-installed on most computers you can buy."
 msgstr ""
 
-#: _pages/windows.what_about_choice.php:81
+#: _pages/windows.what_about_choice.php:82
 msgid ""
 "It is a good thing to propose a wide range of software and\n"
 "services like Microsoft do; however, designing and combining them to shut "
@@ -2671,30 +2658,31 @@ msgid ""
 "The source code details the way a program works (it is\n"
 "effectively what programmers write). Without it no one can understand how "
 "the\n"
-"software is built.<br/>\n"
-"It does not matter if you can't read code: whether or not it is available\n"
-"<strong>directly affects any user</strong>."
+"software is built. It does not matter if you can't read code: whether or "
+"not\n"
+"it is available <strong>directly affects any user</strong>."
 msgstr ""
 
-#: _pages/windows.what_about_source_code.php:27
+#: _pages/windows.what_about_source_code.php:26
 msgid "No one can look inside"
 msgstr ""
 
-#: _pages/windows.what_about_source_code.php:29
+#: _pages/windows.what_about_source_code.php:28
 msgid ""
 "Windows comes without its source code. More than that: all users must abide "
 "to the license term that says:"
 msgstr ""
 
-#: _pages/windows.what_about_source_code.php:31
+#: _pages/windows.what_about_source_code.php:30
 msgid "You may not reverse engineer, decompile, or disassemble the software."
 msgstr ""
 
-#: _pages/windows.what_about_source_code.php:33
+#: _pages/windows.what_about_source_code.php:32
 msgid ""
-"As such, it is illegal to work out how Windows or Microsoft Word are "
-"designed. It is even illegal to try.<br/>\n"
-"You are also forbidden to modify the program for any purpose."
+"As such, it is illegal to work out how Windows or Microsoft\n"
+"Word are designed. It is even illegal to try. You are also forbidden to "
+"modify\n"
+"the program for any purpose."
 msgstr ""
 
 #: _pages/windows.what_about_source_code.php:36
@@ -2757,21 +2745,30 @@ msgid ""
 "check\n"
 "how secure your software is. It means you can benefit from the "
 "contributions\n"
-"of a world-wide community to improve safety and reliability.<br />\n"
-"Fifteen million users run GNU/Linux without an anti-virus, in complete "
-"safety.\n"
-"And the servers behind search engines and banks run on it too."
+"of a world-wide community to improve safety and reliability. Fifteen "
+"million\n"
+"users run GNU/Linux without an anti-virus, in complete safety. And the "
+"servers\n"
+"behind search engines and banks run on it too."
 msgstr ""
 
 #: _pages/windows.what_about_source_code.php:78
 msgid ""
 "Source code is the recipe for software. How could one improve\n"
 "on a meal with too much salt, if forbidden to look at the recipe used to "
-"cook it?<br/>\n"
+"cook it?"
+msgstr ""
+
+#: _pages/windows.what_about_source_code.php:81
+msgid ""
 "Using Windows and Office requires us to <strong>not ask</strong> nor search "
 "for\n"
 "the source of the software. Only Microsoft developers can modify your "
-"program.<br />\n"
+"program."
+msgstr ""
+
+#: _pages/windows.what_about_source_code.php:84
+msgid ""
 "Which would you rather trust: the package you are forbidden to study, or "
 "the\n"
 "package with the recipe?"
