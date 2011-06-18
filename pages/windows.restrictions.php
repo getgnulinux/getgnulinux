@@ -26,7 +26,7 @@ Haven't read your license fully? We did that job for you."); ?></p>
 
 <h2 id="the_small_print"><?php print _("The small print in the contract"); ?></h2>
 
-<a href="/_style/windows.restrictions.officexp_eula.png"><img src="/images/windows/windows.restrictions.officexp_eula_small.png" alt="Office XP EULA" height="145" width="200" /></a>
+<a href="/images/windows/windows.restrictions.officexp_eula.png"><img src="/images/windows/windows.restrictions.officexp_eula_small.png" alt="Office XP EULA" height="145" width="200" /></a>
 
 <ul>
 	<li>
