@@ -81,7 +81,6 @@ printf($p, "https://launchpad.net/getgnulinux", base_url('link_buttons',1)); ?><
 	<li><a href="<?php base_url('legal'); ?>"><?php print _("legal terms"); ?></a></li>
 	<li><a href="https://launchpad.net/~getgnulinux/+contactuser"><?php print _("contact"); ?></a></li>
 	<li><a href="<?php base_url('credits'); ?>"><?php print _("credits"); ?></a></li>
-	<li><a href="http://www.gnulinuxmatters.org/about/faq/"><?php print _("FAQ"); ?></a></li>
 </ul>
 </div><!-- end of sidebox -->
 

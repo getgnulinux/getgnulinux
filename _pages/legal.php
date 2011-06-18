@@ -62,7 +62,7 @@ Our websites are released under the following licenses:</p>
     redistributing, modifying for any purpose, including commercial, without
     permission, as long as you credit us for the original creation and
     redistribute the content under the same license.</li>
-	<li>Selected graphics on some pages: as described in the <a href="/credits/">credits</a>.</li>
+	<li>Selected graphics on some pages: as described in the <a href="<?php base_url('credits'); ?>">credits</a>.</li>
 	<li>Graphics and logos of all websites, LinuxPreloaded.com website and
     translations, gnulinuxmatters.og website and translations, except where
     otherwise explicitly mentioned: all rights reserved.</li>

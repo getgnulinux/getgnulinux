@@ -6,89 +6,89 @@
 ----------------------------------------------------*/
 
 body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, th, td {
-		margin: 0;
-		padding: 0;
-	}
+    margin: 0;
+    padding: 0;
+}
 
 p {
     margin: 0 0 10px 0;
 }
 
 table {
-		border-collapse: collapse;
-		border-spacing: 0;
-	}
+    border-collapse: collapse;
+    border-spacing: 0;
+}
 
 fieldset, img, abbr, acronym {
-		border: 0;
-	}
+    border: 0;
+}
 
 address, caption, cite, code, dfn, th, var {
-		font-style: normal;
-		font-weight: normal;
-	}
+    font-style: normal;
+    font-weight: normal;
+}
 
 caption, th {
-		text-align: left;
-	}
+    text-align: left;
+}
 
 h1, h2, h3, h4, h5, h6 {
-		font-weight: normal;
-		font-family: "MgOpen Cosmetica", "Times New Roman", Georgia, FreeSerif, serif;
-		margin-bottom: 1em;
-	}
+    font-weight: normal;
+    font-family: "MgOpen Cosmetica", "Times New Roman", Georgia, FreeSerif, serif;
+    margin-bottom: 1em;
+}
 
 q:before, q:after {
-		content: '';
-	}
+    content: '';
+}
 
 /*----------------------------------------------------
 - General styles
 ----------------------------------------------------*/
 
 .accessibility a {
-		display: none; /* Link to skip all header stuff, for text-based surfers */
-	}
+    display: none; /* Link to skip all header stuff, for text-based surfers */
+}
 
 html {
-		text-align: justify;
-		font-family: Cantarell,'Droid Sans',Ubuntu,'DejaVu Sans',Arial,sans-serif;
-		color: black;
-		background-color: white;
-		line-height: 1.4;
-	}
+    text-align: justify;
+    font-family: Cantarell,'Droid Sans',Ubuntu,'DejaVu Sans',Arial,sans-serif;
+    color: black;
+    background-color: white;
+    line-height: 1.4;
+}
 
 a {
-		color: #3F568B;
-		text-decoration: none;
-	}
+    color: #3F568B;
+    text-decoration: none;
+}
 
 a:hover {
-		color: #00c;
-		text-decoration: underline;
-	}
+    color: #00c;
+    text-decoration: underline;
+}
 
 a:active {
-		color: red;
-	}
+    color: red;
+}
 
 a:visited {
-		color: #2351B9;
-	}
+    color: #2351B9;
+}
 
 a img {
-		border: none;
-	}
+    border: none;
+}
 
 .wehere a {	/* In all navigations, local page or section */
     color: #043f58;
 }
 
 #header li .wehere a {
-		color: #043f58;
-		border: 1px #043f58 solid;
-		text-decoration: none;
-	}
+    color: #043f58;
+    border: 1px #043f58 solid;
+    text-decoration: none;
+}
 
 acronym, abbr, .caps {
     text-transform: lowercase;
@@ -98,79 +98,79 @@ acronym, abbr, .caps {
 }
 
 h1 {
-		text-align: center;
-	}
+    text-align: center;
+}
 
 .windows_section_h1 { /* Applied to h1 in Win sub-section */
-		margin-top: 4.5em;
-	}
+    margin-top: 4.5em;
+}
 
 h2, h3, h4 {
-		text-align: left;
-	}
+    text-align: left;
+}
 
 h2 {
-		font-size: 1.5em;
-		font-weight: normal;
-		color: #000080;
-		margin-top: 2em;
-		margin-bottom: 0em;
-	}
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #000080;
+    margin-top: 2em;
+    margin-bottom: 0em;
+}
 
 h3 {
-		display: inline;
-		color: #630000;
-		font-size: 1em;
-	}
+    display: inline;
+    color: #630000;
+    font-size: 1em;
+}
 
 em, strong {
-		color: #630000;
-	}
+    color: #630000;
+}
 
 
 #maincontent ul {
-		list-style-image: url("blackbullet.png"); /* Icons by Mark James - famfamfam.com */
-		margin-bottom: 2em;
-	}
+    list-style-image: url("blackbullet.png"); /* Icons by Mark James - famfamfam.com */
+    margin-bottom: 2em;
+}
 
 #maincontent li {
-		margin-top: 1em;
-	}
+    margin-top: 1em;
+}
 
 code {
-		font-family: "Andale Mono", "Courier New", Courier, monospace;
-	}
+    font-family: "Andale Mono", "Courier New", Courier, monospace;
+}
 
 .keypart { /* Blue-highlighted key ideas, used in Windows sub-sections */
-		display: block;
-		font-size: 1.05em;
-		padding: 0.4em;
-		margin: 0 0 0.8em 0;
-		line-height: 1.5em;
-		background-color: #edf7ff;
-	}
+    display: block;
+    font-size: 1.05em;
+    padding: 0.4em;
+    margin: 0 0 0.8em 0;
+    line-height: 1.5em;
+    background-color: #edf7ff;
+}
 
 .note, .note_ital {
-		font-size: 0.8em;
-	}
+    font-size: 0.8em;
+}
 
 .note_ital {
-		font-style: italic;
-	}
+    font-style: italic;
+}
 
 .footnote {
-		position: relative;
-		bottom: 0.5em;
-		color: red;
-		font-size: 0.8em;
-	}
+    position: relative;
+    bottom: 0.5em;
+    color: red;
+    font-size: 0.8em;
+}
 
 .footnotes_bottom {
-		margin-top: 3em;
-		border-top: 1px #DFD9F9 solid;
-		padding: 1em 1em 0 1em;
-		font-size: 0.8em;
-	}
+    margin-top: 3em;
+    border-top: 1px #DFD9F9 solid;
+    padding: 1em 1em 0 1em;
+    font-size: 0.8em;
+}
 
 /*----------------------------------------------------
 - Translations menu on top of page
@@ -205,11 +205,11 @@ code {
 }
 
 #language_menu_text {
-		font-size: 14px;
-		min-height: 20px;
-		padding: 0 0 2px 30px;
-		background: url("alternate_languages.png") top left no-repeat;
-	}
+    font-size: 14px;
+    min-height: 20px;
+    padding: 0 0 2px 30px;
+    background: url("alternate_languages.png") top left no-repeat;
+}
 
 #translations ul {
     position: absolute; /* Absolute, within containing div #language_menu that is... */
@@ -221,7 +221,7 @@ code {
     display: none;
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 0 4px 2px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 #translations li {
@@ -232,8 +232,8 @@ code {
 }
 
 #translations:hover ul, #translations.sfhover ul {
-		display: block;
-	}
+    display: block;
+}
 
 #translations li a {
     display: block;
@@ -261,74 +261,74 @@ code {
 ----------------------------------------------------*/
 
 body {
-		margin: 0;
-		padding: 0 0 0.5em 0;
-	}
+    margin: 0;
+    padding: 0 0 0.5em 0;
+}
 
 .wrap_top {	/* "Shadows" brought by 4 divs wrapping the actual content */
-		width: 45em;
-		max-width: 90%;
-		min-width: 550px;
-		margin: 1.5em auto 0 auto;
-		clear: both;
-		background: url(bgd_top.png) top repeat-x;
-		padding-top: 8px;
-	}
+    width: 45em;
+    max-width: 90%;
+    min-width: 550px;
+    margin: 1.5em auto 0 auto;
+    clear: both;
+    background: url(bgd_top.png) top repeat-x;
+    padding-top: 8px;
+}
 
 .wrap_right {
-		background: url(bgd_right.png) right repeat-y;
-		padding-right: 8px;
-	}
+    background: url(bgd_right.png) right repeat-y;
+    padding-right: 8px;
+}
 
 .wrap_bottom {
-		background: url(bgd_bottom.png) bottom repeat-x;
-		padding-bottom: 8px;
-	}
+    background: url(bgd_bottom.png) bottom repeat-x;
+    padding-bottom: 8px;
+}
 
 .wrap_left {
-		background: url(bgd_left.png) left repeat-y;
-		padding-left: 8px;
-	}
+    background: url(bgd_left.png) left repeat-y;
+    padding-left: 8px;
+}
 
 .topl, .topr, .botl, .botr {
-		position: relative;	/*corners are floated*/
-		height: 12px;
-		width: 12px;
-	}
+    position: relative;	/*corners are floated*/
+    height: 12px;
+    width: 12px;
+}
 
 .topl {
-		background: url(bgd_topl.png) top left no-repeat;
-		float: left;
-		top: -6px;
-		left: -6px;
-	}
+    background: url(bgd_topl.png) top left no-repeat;
+    float: left;
+    top: -6px;
+    left: -6px;
+}
 
 .topr {
-		background: url(bgd_topr.png) top right no-repeat;
-		float: right;
-		top: -6px;
-		right: -6px;
-	}
+    background: url(bgd_topr.png) top right no-repeat;
+    float: right;
+    top: -6px;
+    right: -6px;
+}
 
 .botl {
-		background: url(bgd_botl.png) bottom left no-repeat;
-		float: left;
-		bottom: 6px;
-		left: -6px;
-	}
+    background: url(bgd_botl.png) bottom left no-repeat;
+    float: left;
+    bottom: 6px;
+    left: -6px;
+}
 
 .botr {
-		background: url(bgd_botr.png) bottom right no-repeat;
-		float: right;
-		bottom: 6px;
-		right: -6px;
-	}
+    background: url(bgd_botr.png) bottom right no-repeat;
+    float: right;
+    bottom: 6px;
+    right: -6px;
+}
 
 #mainbody {      /* Contains everything with header, except the footer and translation tabs */
-		padding: 0 1em 1em 1em;
-		border: 1px #DFD9F9 solid;
-		background: #fefefe;
-	}
+    padding: 0 1em 1em 1em;
+    border: 1px #DFD9F9 solid;
+    background: #fefefe;
+}
 
 /*----------------------------------------------------
 - Headers (blue part + navigation bar)
@@ -349,7 +349,7 @@ body {
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-	}
+}
 
 #header_picture h1 {
     font-family: "MgOpen Cosmetica", Times, "Times New Roman", Georgia, FreeSerif, serif;
@@ -377,7 +377,7 @@ body {
     -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-	}
+}
 
 #header_picture_homepage h1 {
     font-family: "MgOpen Cosmetica", Times, "Times New Roman", Georgia, FreeSerif, serif;
@@ -410,15 +410,18 @@ theme by Vinicius Depizzol for gnome.org.
     -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
+
 #top_bar ul {
     list-style: none;
     margin: 0;
     padding: 0 5px;
 }
+
 #top_bar ul li {
     display: inline;
     margin: 0 5px 0 0;
 }
+
 #top_bar a {
     font-size: 1.0em;
     color: #fff;
@@ -433,18 +436,22 @@ theme by Vinicius Depizzol for gnome.org.
     transition: background 100ms linear;
     text-shadow: 0 1px 0 #000;
 }
+
 #top_bar a:hover {
     background: rgba(100%, 100%, 100%, 0.2);
 }
+
 #top_bar a:focus {
     background: rgba(100%, 100%, 100%, 0.15);
 }
+
 #top_bar a:active, #top_bar li.current-menu-item a, #top_bar li.current-menu-subitem a {
     background: #203F57;
     -moz-box-shadow: inset 0 -1px 0 rgba(100%,100%,100%, 0.4), inset 0 1px 3px rgba(0,0,0,0.4);
     -webkit-box-shadow: inset 0 -1px 0 rgba(100%,100%,100%, 0.4), inset 0 1px 3px rgba(0,0,0,0.4);
     box-shadow: inset 0 -1px 0 rgba(100%,100%,100%, 0.4), inset 0 1px 3px rgba(0,0,0,0.4);
 }
+
 #top_bar li.current-menu-subitem a {
     background: #2C5473;
 }
@@ -455,19 +462,19 @@ theme by Vinicius Depizzol for gnome.org.
 ----------------------------------------------------*/
 
 #maincontent {		/* The actual (interesting!) text content, inside mainbody */
-		margin-top: 3em;
-		clear: none;
-	}
+    margin-top: 3em;
+    clear: none;
+}
 
 #maincontent img {
-		clear: right;
-		float: right;
-		margin-left: 1em;
-	}
+    clear: right;
+    float: right;
+    margin-left: 1em;
+}
 
 #intro_box {
-		margin-top: 5em;
-	}
+    margin-top: 5em;
+}
 
 /*----------------------------------------------------
 - Subheader ("contents of chapter" box)
@@ -475,39 +482,39 @@ theme by Vinicius Depizzol for gnome.org.
 ----------------------------------------------------*/
 
 #subheader {
-		clear: right;
-		float: right;
-		font-size: 0.8em;
-		margin: 3em -1em 2em 1.5em;
-		padding: 0.5em 1em 0.5em 1em;
-		border-left: 1px #DFD9F9 solid;
-		border-bottom: 1px #DFD9F9 solid;
-	}
+    clear: right;
+    float: right;
+    font-size: 0.8em;
+    margin: 3em -1em 2em 1.5em;
+    padding: 0.5em 1em 0.5em 1em;
+    border-left: 1px #DFD9F9 solid;
+    border-bottom: 1px #DFD9F9 solid;
+}
 
 #subheader .title {
-		display: block;
-		text-align: center;
-		font-style: italic;
-		margin-bottom: 0.8em;
-	}
+    display: block;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 0.8em;
+}
 
 #subheader .title a {
-		background: none;
-		text-decoration: none;
-		color: black;
-	}
+    background: none;
+    text-decoration: none;
+    color: black;
+}
 
 #subheader ul {
-		list-style-type: none;
-		list-style-image: none; /* IE bug */
-		margin: 0; /* for IE */
-		padding: 0; /* for Moz */
-	}
+    list-style-type: none;
+    list-style-image: none; /* IE bug */
+    margin: 0; /* for IE */
+    padding: 0; /* for Moz */
+}
 
 #subheader li {
-		margin: 0.5em 0;
-		white-space: nowrap;
-	}
+    margin: 0.5em 0;
+    white-space: nowrap;
+}
 
 #subheader li a {
     color: #000080;
@@ -521,20 +528,20 @@ theme by Vinicius Depizzol for gnome.org.
 }
 
 #subheader li a:hover {
-		text-decoration: none;
-		color: #043f58;
-		background: #f2f5fa;
-	}
+    text-decoration: none;
+    color: #043f58;
+    background: #f2f5fa;
+}
 
 #subheader .wehere a {
-		border: none;
-		background: #f2f5fa;
-	}
+    border: none;
+    background: #f2f5fa;
+}
 
 #subheader .wehere a:hover {
-		border: none;
-		background: #e4ebf7;
-	}
+    border: none;
+    background: #e4ebf7;
+}
 
 /*----------------------------------------------------
 - Subheader foot ("contents of chapter" box at bottom)
@@ -542,18 +549,18 @@ theme by Vinicius Depizzol for gnome.org.
 ----------------------------------------------------*/
 
 #subheader_foot {
-		clear: both;
-		width: 90%;
-		font-size: 0.8em;
-		margin: 2em auto 0 auto;
-		padding: 1em;
-		text-align: center;
-	}
+    clear: both;
+    width: 90%;
+    font-size: 0.8em;
+    margin: 2em auto 0 auto;
+    padding: 1em;
+    text-align: center;
+}
 
 #subheader_foot .title a, #subheader_foot .title a:hover {
-		color: black;
-		text-decoration: none;
-	}
+    color: black;
+    text-decoration: none;
+}
 
 #subheader_foot ul {
     background: none repeat scroll 0 0 #E4EBFF;
@@ -610,56 +617,56 @@ theme by Vinicius Depizzol for gnome.org.
 ----------------------------------------------------*/
 
 .quote1 {
-		clear: both;
-		width: 85%;
-		margin: 1em auto;
-		background: #ffffed url(leftquote.png) top left no-repeat;
-		color: #3a0000;
-		border-top: 3px #f4f4da solid;
-		border-bottom: 3px #f4f4da solid;
-	}
+    clear: both;
+    width: 85%;
+    margin: 1em auto;
+    background: #ffffed url(leftquote.png) top left no-repeat;
+    color: #3a0000;
+    border-top: 3px #f4f4da solid;
+    border-bottom: 3px #f4f4da solid;
+}
 
 .quote2 {
-		background: url(rightquote.png) bottom right no-repeat;
-	}
+    background: url(rightquote.png) bottom right no-repeat;
+}
 
 .quote3 {
-		padding: 0.5em 35px;
-	}
+    padding: 0.5em 35px;
+}
 
 .quote1 strong {
-		color: #3a0000;
-	}
+    color: #3a0000;
+}
 
 .quote1 .source, .floatquote1 .source {
-		display: block;
-		color: black;
-		font-size: 0.9em;
-		margin-top: 0.6em;
-		font-style: italic;
-		text-align: right;
-	}
+    display: block;
+    color: black;
+    font-size: 0.9em;
+    margin-top: 0.6em;
+    font-style: italic;
+    text-align: right;
+}
 
 .quote1 .source a, .floatquote1 a {
-		color: #3a0000;
-		background: none;
-	}
+    color: #3a0000;
+    background: none;
+}
 
 .floatquote1 {
-		float: right;
-		width: 35%;
-		margin-right: 0;
-		margin-left: 1em;
-		padding: 10px 5px;
-		background: #ffffed url(leftquote_light.png) top left no-repeat;
-		color: #3a0000;
-		border-top: 3px #f4f4da solid;
-		border-bottom: 3px #f4f4da solid;
-	}
+    float: right;
+    width: 35%;
+    margin-right: 0;
+    margin-left: 1em;
+    padding: 10px 5px;
+    background: #ffffed url(leftquote_light.png) top left no-repeat;
+    color: #3a0000;
+    border-top: 3px #f4f4da solid;
+    border-bottom: 3px #f4f4da solid;
+}
 
 .floatquote2 {
-		background: url(rightquote_light.png) bottom right no-repeat;
-	}
+    background: url(rightquote_light.png) bottom right no-repeat;
+}
 
 /*----------------------------------------------------
 - "Next page:" banner at bottom of page
@@ -667,32 +674,32 @@ theme by Vinicius Depizzol for gnome.org.
 ----------------------------------------------------*/
 
 #bottom_next_page_banner {
-		margin: 3em -0.8em -0.8em -0.8em;
-		text-align: center;
-	}
+    margin: 3em -0.8em -0.8em -0.8em;
+    text-align: center;
+}
 
 #bottom_next_page_banner a {
-		background: #f0f0f0;
-		padding: 0.5em 0 0.5em 0;
-		display: block;
+    background: #f0f0f0;
+    padding: 0.5em 0 0.5em 0;
+    display: block;
     border-radius: 4px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
-	}
+}
 
 #bottom_next_page_banner a:hover {
-		background: #e5e5e5;
-		text-decoration: none;
-	}
+    background: #e5e5e5;
+    text-decoration: none;
+}
 
 #bottom_next_page_banner a .arrow {
-		background: url(arrow_right.png) center right no-repeat;
-		padding-right: 50px;
-	}
+    background: url(arrow_right.png) center right no-repeat;
+    padding-right: 50px;
+}
 
 #bottom_next_page_banner a:hover .underlining {
-		text-decoration: underline;
-	}
+    text-decoration: underline;
+}
 
 /*----------------------------------------------------
 - Advertizing from nonbreakingspace
@@ -701,71 +708,82 @@ theme by Vinicius Depizzol for gnome.org.
 ----------------------------------------------------*/
 
 #ad {
-		font-size: 0.85em;
-		color: #383838;
-		min-height: 100px;
-	}
+    font-size: 0.85em;
+    color: #383838;
+    min-height: 100px;
+}
 
 #ad p {
-		padding-top: 5px;
-		text-align: left;
-		max-width: 30em;
-	}
+    padding-top: 5px;
+    text-align: left;
+    max-width: 30em;
+}
 
 #maincontent #ad_pic {
-		background: none;
-	}
+    background: none;
+}
 
 #ad_from {
-		font-size: 0.8em;
-		color: gray;
-	}
+    font-size: 0.8em;
+    color: gray;
+}
 
 #ad_from .caps {
-		font-size: 1.3em;
-	}
+    font-size: 1.3em;
+}
 
 #ad_from a {
-		background: none;
-		border-bottom: 1px #8b0000 solid;
-		color: gray;
-	}
+    background: none;
+    border-bottom: 1px #8b0000 solid;
+    color: gray;
+}
 
 #ad_from a:hover {
-		text-decoration: none;
-		color: #8b0000;
-	}
+    text-decoration: none;
+    color: #8b0000;
+}
 
 /*----------------------------------------------------
 - Footer (we're almost done!)
 ----------------------------------------------------*/
 
 #footer {
-		border: 1px #DFD9F9 solid;
-		background: #fefefe;
-		font-size: 0.9em;
-		padding: 0.8em 1em;
-	}
+    border: 1px #DFD9F9 solid;
+    background: #fefefe;
+    font-size: 0.9em;
+    padding: 0.8em 1em;
+}
 
 #about {
-		float: left;
-	}
+    font-size: 0.9em;
+    text-align: left;
+    color: #696969;
+}
 
-#legal {
-		font-size: 0.85em;
-		font-style: italic;
-	}
+#footer ul {
+    font-size: 0.85em;
+    font-style: italic;
+    text-align: center;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+#footer li {
+    display: inline;
+    margin: 0 5px;
+}
 
 .link_button {
-		float: right;
-		margin: 0.1em 0.2em 0 0.2em;
-	}
+    float: right;
+    margin: 0.1em 0.2em 0 0.2em;
+}
 
 .link_button a img {
-		border: none;
-		opacity: 0.8;
-	}
+    border: none;
+    opacity: 0.8;
+}
 
 .link_button a:hover img {
-		opacity: 1;
-	}
+    opacity: 1;
+}

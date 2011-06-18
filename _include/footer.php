@@ -10,23 +10,17 @@
 <div class="wrap_left">
 <div class="topl"></div>
 <div class="topr"></div>
+
 <div id="footer">
-<span class="link_button">
-    <a href="<?php base_url('link_buttons'); ?>"
-	title="Help spread the word: link to us!">
-		<img src="/_style/tux.png" alt="link to us"/>
-	</a>
-</span>
-<span class="link_button">
-    <a href='http://www.getfirefox.com/' title="Firefox. Made to make the Web a better place.">
-        <img src='/_style/application_firefox.gif' alt='Get Firefox' />
-    </a>
-</span>
+<p id="about">
+Except where otherwise <a href="<?php base_url('legal'); ?>">noted</a>, content on this site is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">CC BY-SA 3.0 License</a>.
+</p>
 
-
-
-<span id="about"><?php print _("A project of the <a href=\"http://www.gnulinuxmatters.org/\">GNU/Linux Matters</a> non-profit"); ?></span>
-<span id="legal">&nbsp;&ndash;&nbsp;<a href="<?php base_url('legal'); ?>" title="<?php print _("terms of use of GNU/Linux Matters websites"); ?>" hreflang="en"><?php print _("legal"); ?></a></span>
+<ul>
+	<li><a href="<?php base_url('legal'); ?>" hreflang="en"><?php print _("Terms of Use"); ?></a></li>
+	<li><a href="https://launchpad.net/~getgnulinux/+contactuser"><?php print _("Contact"); ?></a></li>
+	<li><a href="<?php base_url('credits'); ?>"><?php print _("Credits"); ?></a></li>
+</ul>
 </div><!-- end footer -->
 
 <div class="botl"></div>
