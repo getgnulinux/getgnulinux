@@ -12,7 +12,7 @@ table {
 		border-spacing: 0;
 	}
 
-fieldset, img, abbr, acronym { 
+fieldset, img, abbr, acronym {
 		border: 0;
 	}
 
@@ -21,7 +21,7 @@ address, caption, cite, code, dfn, th, var {
 		font-weight: normal;
 	}
 
-caption, th { 
+caption, th {
 		text-align: left;
 	}
 
@@ -31,19 +31,19 @@ h1, h2, h3, h4, h5, h6 {
 		margin-bottom: 1em;
 	}
 
-q:before, q:after { 
+q:before, q:after {
 		content: '';
 	}
 
 /*----------------------------------------------------
-- General styles 
+- General styles
 ----------------------------------------------------*/
 
 .accessibility a {
 		display: none; /* Link to skip all header stuff, for text-based surfers */
 	}
 
-html {	
+html {
 		text-align: justify;
 		font-family: "Nimbus Sans L", Helvetica, Arial, sans-serif;
 		color: black;
@@ -53,7 +53,7 @@ html {
 
 a {
 		color: #000080;
-		text-decoration: none;		
+		text-decoration: none;
 	}
 
 p a, li a {
@@ -64,9 +64,9 @@ a:hover {
 		color: #00c;
 		text-decoration: underline;
 	}
-	
+
 #maincontent a {
-		background: url(giflink.gif) bottom left repeat-x; /* Dotted default style for links */
+		background: url(/images/giflink.gif) bottom left repeat-x; /* Dotted default style for links */
 	}
 
 #maincontent a:hover {
@@ -74,8 +74,8 @@ a:hover {
 	}
 
 a:active {
-		color: red; 
-	} 
+		color: red;
+	}
 
 a:visited {
 		color: #66c;
@@ -84,7 +84,7 @@ a:visited {
 a img {
 		border: none;
 	}
-	
+
 .wehere a {	/* In all navigations, local page or section */
 		color: #043f58;
 		border: 1px #043f58 solid;
@@ -95,7 +95,7 @@ a img {
 		border: 1px #043f58 solid;
 		text-decoration: none;
 	}
-	
+
 acronym, abbr, .caps {
 		text-transform: lowercase;
 		font-variant: small-caps;
@@ -132,18 +132,18 @@ h3 {
 em, strong {
 		color: #630000;
 	}
-		
+
 
 #maincontent ul {
-		list-style-image: url(blackbullet.png); /* Icons by Mark James - famfamfam.com */
+		list-style-image: url(/images/blackbullet.png); /* Icons by Mark James - famfamfam.com */
 		margin-bottom: 2em;
 	}
 
-#maincontent li {	
+#maincontent li {
 		margin-top: 1em;
 	}
 
-code { 
+code {
 		font-family: "Andale Mono", "Courier New", Courier, monospace;
 	}
 
@@ -179,7 +179,7 @@ code {
 	}
 
 /*----------------------------------------------------
-- Translations menu on top of page 
+- Translations menu on top of page
 ----------------------------------------------------*/
 
 #translations {
@@ -191,7 +191,7 @@ code {
 		height: 1.5em;
 		cursor: pointer;
 		background: white;
-		z-index: 2;	
+		z-index: 2;
 	}
 
 #language_menu {
@@ -213,7 +213,7 @@ code {
 		font-size: 14px;
 		min-height: 20px;
 		padding: 0 30px 2px 0;
-		background: url(alternate_languages.png) right center no-repeat;
+		background: url(/images/alternate_languages.png) right center no-repeat;
 	}
 
 .lang_code {
@@ -285,54 +285,54 @@ body {
 		min-width: 550px;
 		margin: 1.5em auto 0 auto;
 		clear: both;
-		background: url(bgd_top.png) top repeat-x;
+		background: url(/images/bgd_top.png) top repeat-x;
 		padding-top: 8px;
 	}
 
 .wrap_right {
-		background: url(bgd_right.png) right repeat-y;
+		background: url(/images/bgd_right.png) right repeat-y;
 		padding-right: 8px;
 	}
 
 .wrap_bottom {
-		background: url(bgd_bottom.png) bottom repeat-x;
+		background: url(/images/bgd_bottom.png) bottom repeat-x;
 		padding-bottom: 8px;
 	}
 
 .wrap_left {
-		background: url(bgd_left.png) left repeat-y;
+		background: url(/images/bgd_left.png) left repeat-y;
 		padding-left: 8px;
 	}
 
-.topl, .topr, .botl, .botr {	
+.topl, .topr, .botl, .botr {
 		position: relative;	/*corners are floated*/
 		height: 12px;
 		width: 12px;
 	}
 
-.topl {	
-		background: url(bgd_topl.png) top left no-repeat;
+.topl {
+		background: url(/images/bgd_topl.png) top left no-repeat;
 		float: left;
 		top: -6px;
 		left: -6px;
 	}
-	
+
 .topr {
-		background: url(bgd_topr.png) top right no-repeat;
+		background: url(/images/bgd_topr.png) top right no-repeat;
 		float: right;
 		top: -6px;
 		right: -6px;
 	}
 
 .botl {
-		background: url(bgd_botl.png) bottom left no-repeat;
+		background: url(/images/bgd_botl.png) bottom left no-repeat;
 		float: left;
 		bottom: 6px;
 		left: -6px;
 	}
-	
+
 .botr {
-		background: url(bgd_botr.png) bottom right no-repeat;
+		background: url(/images/bgd_botr.png) bottom right no-repeat;
 		float: right;
 		bottom: 6px;
 		right: -6px;
@@ -348,13 +348,13 @@ body {
 - Headers (blue part + main menu)
 ----------------------------------------------------*/
 
-#header { 
-		padding: 1em 0; 	
+#header {
+		padding: 1em 0;
 	}
 
 #header_picture {
-		background: url(blue_background_rtl.jpg) top right no-repeat;
-		height: 60px;	
+		background: url(/images/blue_background_rtl.jpg) top right no-repeat;
+		height: 60px;
 	}
 
 #header ul {
@@ -373,12 +373,12 @@ body {
 		white-space: nowrap;  /* When very large ems are set by user */
 	}
 
-#header li a { 
+#header li a {
 
 		display: block;
 		text-align: center;
 		color: #000080;
-		
+
 		padding: 0.1em 0.5em;
 		border: 1px #DFD9F9 solid;
 		margin-left: -1px;
@@ -388,7 +388,7 @@ body {
 #header li .wehere a {
 		margin-left: 0;
 		border-color: #c9c4e0;
-		background: #fafcff; 
+		background: #fafcff;
 	}
 
 #header li a:hover {
@@ -421,7 +421,7 @@ body {
 - (only displays in level 2 pages)
 ----------------------------------------------------*/
 
-#subheader { 
+#subheader {
 		clear: right;
 		float: right;
 		font-size: 0.8em;
@@ -431,14 +431,14 @@ body {
 		border-bottom: 1px #DFD9F9 solid;
 	}
 
-		 
+
 #subheader .title {
 		display: block;
 		text-align: center;
 		font-style: italic;
 		margin-bottom: 0.8em;
 	}
-		 
+
 #subheader .title a {
 		background: none;
 		text-decoration: none;
@@ -451,7 +451,7 @@ body {
 		margin: 0; /* for IE */
 		padding: 0; /* for Moz */
 	}
-	
+
 #subheader li {
 		margin: 0.5em 0;
 		white-space: nowrap;
@@ -461,7 +461,7 @@ body {
 		color: #000080;
 		display: block;
 		padding: 0.2em 0.5em;
-		background: none; 
+		background: none;
 	}
 
 #subheader li a:hover, #subheader_foot li a:hover {
@@ -469,7 +469,7 @@ body {
 		color: #043f58;
 		background: #f2f5fa;
 	}
-		
+
 #subheader .wehere a, #subheader_foot .wehere a {
 		border: none;
 		background: #f2f5fa;
@@ -485,30 +485,30 @@ body {
 - (same html as #subheader, but different css)
 ----------------------------------------------------*/
 
-#subheader_foot { 
-		clear: both; 
-		width: 88%;	
-		font-size: 0.8em;		
+#subheader_foot {
+		clear: both;
+		width: 88%;
+		font-size: 0.8em;
 		margin: 2em auto 0 auto;
 		padding: 1em;
 		text-align: center;
 	}
 
-#subheader_foot .title a, #subheader_foot .title a:hover { 
+#subheader_foot .title a, #subheader_foot .title a:hover {
 		color: black;
 		text-decoration: none;
 	}
 
 #subheader_foot ul {
 		list-style-type: none;
-		list-style-image: none; /* IE bug */	
+		list-style-image: none; /* IE bug */
 		height: 1.85em;
 		padding: 0.2em;
 		margin: 0;
 		border: 1px #DFD9F9 solid;
 		-moz-border-radius: 3px;
 	}
-	
+
 #subheader_foot li {
 		display: inline;
 		margin: 0 0.1em;
@@ -525,7 +525,7 @@ body {
 - Quotes (big introductory quote at start of page)
 - (only displays in Windows level 2 pages)
 - quote1, quote2 and quote3 are imbricated and style
-- the center quotes; 
+- the center quotes;
 - while floatquote1 and floatquote2 style the quotes
 - on right side of page
 ----------------------------------------------------*/
@@ -534,14 +534,14 @@ body {
 		clear: both;
 		width: 85%;
 		margin: 1em auto;
-		background: #ffffed url(leftquote.png) top left no-repeat;
+		background: #ffffed url(/images/leftquote.png) top left no-repeat;
 		color: #3a0000;
 		border-top: 3px #f4f4da solid;
 		border-bottom: 3px #f4f4da solid;
 	}
 
 .quote2 {
-		background: url(rightquote.png) bottom right no-repeat;
+		background: url(/images/rightquote.png) bottom right no-repeat;
 	}
 
 .quote3 {
@@ -572,14 +572,14 @@ body {
 		margin-right: 0;
 		margin-left: 1em;
 		padding: 10px 5px;
-		background: #ffffed url(leftquote_light.png) top left no-repeat;
+		background: #ffffed url(/images/leftquote_light.png) top left no-repeat;
 		color: #3a0000;
 		border-top: 3px #f4f4da solid;
 		border-bottom: 3px #f4f4da solid;
 	}
 
 .floatquote2 {
-		background: url(rightquote_light.png) bottom right no-repeat;
+		background: url(/images/rightquote_light.png) bottom right no-repeat;
 	}
 
 /*----------------------------------------------------
@@ -601,16 +601,16 @@ body {
 #bottom_next_page_banner a:hover {
 		background: #e5e5e5;
 		text-decoration: none;
-	}		
+	}
 
 #bottom_next_page_banner a .arrow {
-		background: url(arrow_right.png) center right no-repeat;
+		background: url(/images/arrow_right.png) center right no-repeat;
 		padding-right: 50px;
 	}
 
 #bottom_next_page_banner a:hover .underlining {
 		text-decoration: underline;
-	}	
+	}
 
 /*----------------------------------------------------
 - Advertizing from nonbreakingspace
@@ -662,23 +662,23 @@ body {
 		border: 1px #DFD9F9 solid;
 		background: #fefefe;
 		font-size: 0.9em;
-		padding: 0.8em 1em; 
+		padding: 0.8em 1em;
 	}
 
 #about {
 		float: none;
 	}
-		
+
 #legal {
 		font-size: 0.85em;
 		font-style: italic;
 	}
-		
+
 .link_button {
 		float: left;
 		margin: 0.1em 0.2em 0 0.2em;
 	}
-		
+
 .link_button a img {
 		border: none;
 		opacity: 0.8;

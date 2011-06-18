@@ -266,8 +266,8 @@
 
 	<div class="A"><p><?php print _("No."); ?></p>
 	<p><?php print _("It is technically possible to adapt Microsoft Office to Linux, but Microsoft isn't keen on allowing Office users to choose their operating system. There are other issues with MS Office and openness &mdash; like Microsoft's fierce opposition to supporting <a href=\"http://opendocumentfellowship.com/\">the OpenDocument format</a>."); ?></p>
-	<p><a href="http://why.openoffice.org/"><img src="/_images/OpenOffice.org.png" alt="|| OpenOffice.org ||"/></a>
-    <br/><a href="http://www.libreoffice.org/features/"><img src="/_images/LibreOfficelogo.png" alt="|| LibreOffice.org ||"/></a>
+	<p><a href="http://why.openoffice.org/"><img src="/images/linux/linux.faq.OpenOffice.org.png" alt="|| OpenOffice.org ||"/></a>
+    <br/><a href="http://www.libreoffice.org/features/"><img src="/images/linux/linux.faq.LibreOfficelogo.png" alt="|| LibreOffice.org ||"/></a>
 	<?php print _("However, a complete, Free, reliable office suite exists: <a href=\"http://www.openoffice.org/\">OpenOffice.org</a>. Or you can choose its Open Source community-driven alternative, <a href=\"http://www.libreoffice.org/\">LibreOffice</a>, which is a fork of OpenOffice.org. They will both happily use all your existing office files in MS-Word, MS-Excel, and MS-PowerPoint format, and are really free (both as in freedom and as in price). And they run on Windows as well as on Linux."); ?></p>
 	</div>
 

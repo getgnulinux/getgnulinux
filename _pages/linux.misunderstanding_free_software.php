@@ -11,7 +11,7 @@
 
 
 <h2 id="programmers_paid"><?php print _("1. The software industry can't keep going if programmers don't get paid."); ?></h2>
-<img width="125" height="104" alt="no money" src="/_style/linux.misunderstanding_free_software.mfs1.png"/>
+<img width="125" height="104" alt="no money" src="/images/linux/linux.misunderstanding_free_software.mfs1.png"/>
 <p><?php print _("Let's begin with one simple fact: free software programmers <em>do</em> like to get paid, and all need to buy lunch at some time."); ?></p>
 <p><?php print _("When we mention free software, we refer to <strong>liberty not price</strong>. You may actually pay to get free software (or \"open source\" software <a class=\"footnote\" id=\"footnote1\" href=\"#footnote_bottom1\">1</a>), which you can then study, change and copy at will."); ?></p>
 
@@ -22,7 +22,7 @@
 
 
 <h2 id="innovation_killed"><?php print _("2. Innovation is killed in free software."); ?></h2>
-<img  width="125" height="104" alt="no innovation" src="/_style/linux.misunderstanding_free_software.mfs2.png"/>
+<img  width="125" height="104" alt="no innovation" src="/images/linux/linux.misunderstanding_free_software.mfs2.png"/>
 <p><?php print _("The common perception is that if everyone can copy ideas, innovation will be stifled."); ?></p>
 <p><?php print _("In fact, freedom is often <strong>the key to innovative and successful software</strong>."); ?></p>
 <ul>
@@ -42,7 +42,7 @@
 
 
 <h2 id="just_work"><?php print _("3. Software Should Just Work (who cares about source code?)"); ?></h2>
-<img  width="125" height="104" alt="no code?" src="/_style/linux.misunderstanding_free_software.mfs3.png"/>
+<img  width="125" height="104" alt="no code?" src="/images/linux/linux.misunderstanding_free_software.mfs3.png"/>
 <p><?php print _("Anyone should care about whether their software is free."); ?></p>
 <p><?php print _("Imagine purchasing a car whose hood you are forbidden to open. It does not matter whether you know how a car works &ndash; the point is that nobody will be able to check the engine. How can you trust your car, if no one is allowed to make sure that it's reliable, that it does not leak, that it's not harmful to the society and environment?"); ?></p>
 <p><?php print _("The idea is the same with software &ndash; except that code does <strong>much more</strong> than move cars. Software runs our computers, phones, TVs, media players and more, carrying information and our culture."); ?></p>
@@ -51,7 +51,7 @@
 
 
 <h2 id="patent_protection"><?php print _("4. Free software doesn't respect authors' copyrighted and patented software."); ?></h2>
-<img  width="125" height="104" alt="piracy" src="/_style/linux.misunderstanding_free_software.mfs4.png"/>
+<img  width="125" height="104" alt="piracy" src="/images/linux/linux.misunderstanding_free_software.mfs4.png"/>
 <p><?php print _("To answer this correctly, we must first make a clear distinction between copyright and patents. Copyright is a right granted to the author over his/her creation (for example, the text of a book, or the source code of a program). A patent, on the other hand, is a purchased, registered exclusive control over a process, the application of an idea."); ?></p>
 
 <p><?php print _("<strong>Copyright is very important in free software.</strong> It is the very mechanism, central to the <a href=\"http://www.gnu.org/copyleft/gpl.html\">GNU General Public License</a>, which ensures that free software remains free, and that authors are credited for their work. Programs are copyrighted, whether they are free or proprietary."); ?></p>
@@ -79,7 +79,7 @@
 
 
 <h2 id="competitive_advantage"><?php print _("5. Free software is like communism."); ?></h2>
-<img  width="125" height="104" alt="communism" src="/_style/linux.misunderstanding_free_software.mfs5.png"/>
+<img  width="125" height="104" alt="communism" src="/images/linux/linux.misunderstanding_free_software.mfs5.png"/>
 <p><?php print _("Supporters of this idea argue that there can be no private ownership with free (or \"open source\" <a class=\"footnote\" id=\"footnote2\" href=\"#footnote_bottom2\">2</a>) software. Let's answer this with an example."); ?></p>
 <p><?php print _("Let's imagine that you use one application that is free software, at home and within your company. You find a great way to improve it, so now with your modified version, your computer works better and your factories run twice as fast!"); ?></p>
 <p><?php print _("This modified version is <strong>your own version</strong>. You are not required to tell anyone about it, nor must you share any of the profits you made using it. You are simply exerting your freedom to use and modify free software."); ?></p>

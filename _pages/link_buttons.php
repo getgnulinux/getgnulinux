@@ -126,10 +126,10 @@
 <h2>Licensing</h2>
 <p>Some of these buttons contain material subjected to the following licensing:</p>
 <ul>
-	<li>Black and White GNU 1 <img src="/_images/bwgnu1.png" alt="GNU"/>: by Aurelio A. Heckert, available <a href="http://en.wikipedia.org/wiki/Image:Heckert_GNU_white.svg">from Wikimedia Commons</a>, licensed under the <a href="http://artlibre.org/licence/lal/en/">Free Art License</a>.</li>
-	<li>Black and White GNU 2 <img src="/_images/bwgnu2.png" alt="GNU"/>: by Sven H, available <a href="http://www.gnu.org/graphics/gnusvgart.html">from the GNU website</a>, used with permission from author.</li>
-	<li>Colored GNU <img src="/_images/colorgnu.png" alt="GNU"/>: by David Vignoni, available <a href="http://commons.wikimedia.org/wiki/Image:Nuvola_apps_emacs.png">from Wikimedia Commons</a>, presumably licensed under the <a href="http://en.wikipedia.org/wiki/GNU_Free_Documentation_License">GNU FDL license</a>.</li>
-	<li>Tux penguin image <img src="/_images/Tux_50px.png" alt="tux"/>: by Larry Ewing, available <a href="http://commons.wikimedia.org/wiki/Image:Tux.png">from Wikimedia Commons</a>, permission to copy if credit given.</li>
+	<li>Black and White GNU 1 <img src="/images/link_buttons/bwgnu1.png" alt="GNU"/>: by Aurelio A. Heckert, available <a href="http://en.wikipedia.org/wiki/Image:Heckert_GNU_white.svg">from Wikimedia Commons</a>, licensed under the <a href="http://artlibre.org/licence/lal/en/">Free Art License</a>.</li>
+	<li>Black and White GNU 2 <img src="/images/link_buttons/bwgnu2.png" alt="GNU"/>: by Sven H, available <a href="http://www.gnu.org/graphics/gnusvgart.html">from the GNU website</a>, used with permission from author.</li>
+	<li>Colored GNU <img src="/images/link_buttons/colorgnu.png" alt="GNU"/>: by David Vignoni, available <a href="http://commons.wikimedia.org/wiki/Image:Nuvola_apps_emacs.png">from Wikimedia Commons</a>, presumably licensed under the <a href="http://en.wikipedia.org/wiki/GNU_Free_Documentation_License">GNU FDL license</a>.</li>
+	<li>Tux penguin image <img src="/images/link_buttons/Tux_50px.png" alt="tux"/>: by Larry Ewing, available <a href="http://commons.wikimedia.org/wiki/Image:Tux.png">from Wikimedia Commons</a>, permission to copy if credit given.</li>
 </ul>
 </div>
 

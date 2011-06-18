@@ -133,7 +133,7 @@ in our phones, cars, media players, TVs, and gets to govern just about every
 new device around us."); ?></p>
 
 <div class="floatquote1 imagequote">
-    <a href="http://xkcd.com/c129.html" title="comic by Randall Munroe"><img src="/_style/windows.stand_for_a_free_society.content_protection.png" width="235" height="150" alt="DRM"/></a>
+    <a href="http://xkcd.com/c129.html" title="comic by Randall Munroe"><img src="/images/windows/windows.stand_for_a_free_society.content_protection.png" width="235" height="150" alt="DRM"/></a>
     <span class="source"><span class="author">Randall Munroe,</span> <a href="http://xkcd.com/">xkcd</a></span>
 </div>
 

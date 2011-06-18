@@ -12,7 +12,7 @@
 
 
 <div class="section">
-<img src="/_language/switch_to_linux.try_or_install.live_cd.png" width="170" height="207" alt="|| CD ||"/>
+<img src="/images/switch_to_linux/switch_to_linux.try_or_install.live_cd.png" width="170" height="207" alt="|| CD ||"/>
 <h2 id="live_cd"><?php print _("Try out: the live CD"); ?></h2>
 
 <h3 id="live_cd_what_is"><?php print _("Take no risk"); ?></h3>
@@ -32,7 +32,7 @@
 
 <div class="section">
 
-<img src="/_language/switch_to_linux.try_or_install.computer_screen.png" width="170" height="201" alt="|| computer screen ||"/>
+<img src="/images/switch_to_linux/switch_to_linux.try_or_install.computer_screen.png" width="170" height="201" alt="|| computer screen ||"/>
 <h2 id="install_dual_boot"><?php print _("Installing as a dual boot"); ?></h2>
 
 <h3 id="dual_boot_what_is"><?php print _("Choose at start-up"); ?></h3>
@@ -90,7 +90,7 @@
 
 
 <div class="section">
-<a href="http://linuxpreloaded.com/" title="Linux pre-installed computers"><img src="/_style/switch_to_linux.try_or_install.laptop.png" alt="|| laptop ||"/></a>
+<a href="http://linuxpreloaded.com/" title="Linux pre-installed computers"><img src="/images/switch_to_linux/switch_to_linux.try_or_install.laptop.png" alt="|| laptop ||"/></a>
 <h2 id="free_software_pre_installed"><?php print _("Free Software pre-installed"); ?></h2>
 
 <p><?php print _("Not all computers are shipped with Windows. If you do not wish to make the install yourself, or are in need of new hardware, you can get a laptop or a desktop pre-installed with GNU/Linux.<br/>

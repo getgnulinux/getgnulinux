@@ -45,7 +45,7 @@ which results in trojans, viruses, spyware and the likes. <strong>Such nuisances
 delight the Windows security industry</strong>, including Microsoft, which
 develops various anti-virus protections with subscriptions."); ?></p>
 
-<p><img src="/_style/windows.what_about_source_code.windowsonelivecare.png" height="69" width="200" alt="Windows LiveOne Care" />
+<p><img src="/images/windows/windows.what_about_source_code.windowsonelivecare.png" height="69" width="200" alt="Windows LiveOne Care" />
 <?php print _("It is a lucrative process to release flawed software <em>that
 no one is allowed to change</em>, and then selling protection services over it
 (anti-virus software doesn't correct flaws: it merely prevents viruses from

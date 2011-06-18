@@ -29,7 +29,7 @@
 
 <div id="header">
 
-<a href="http://www.gnulinuxmatters.org/index.html"><img width="250" height="50" src="/_images/credits/glm_logo.png" alt="GNU/Linux Matters"/></a>
+<a href="http://www.gnulinuxmatters.org/index.html"><img width="250" height="50" src="/images/credits/glm_logo.png" alt="GNU/Linux Matters"/></a>
 
 <h1>Credits and Licensing</h1>
 
@@ -53,23 +53,23 @@
 
 <li> Small icons: <a href="http://www.famfamfam.com/lab/icons/silk/" title="famfamfam set of icons, creative commons licensed">set of Silk icons</a> by Mark James, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution">by</acronym> license.
 <div class="img_box">
-<a href="http://www.famfamfam.com/lab/icons/silk/" title="famfamfam set of icons, creative commons licensed"><img src="/_images/credits/silk_icons.png" alt="Marc James' Silk Icons"/></a>
+<a href="http://www.famfamfam.com/lab/icons/silk/" title="famfamfam set of icons, creative commons licensed"><img src="/images/credits/silk_icons.png" alt="Marc James' Silk Icons"/></a>
 </div>
 </li>
 
 <li><a href="http://openclipart.org/">OpenClipart</a> material, released under public domain:
 <div class="img_box">
 <a href="http://openclipart.org/">
-<img src="/_images/credits/openclip1.png" alt="OpenClipart"/>
-<img src="/_images/credits/openclip2.png" alt="OpenClipart"/>
-<img src="/_images/credits/openclip3.png" alt="OpenClipart"/>
-<img src="/_images/credits/openclip4.png" alt="OpenClipart"/>
-<img src="/_images/credits/openclip5.png" alt="OpenClipart"/>
-<img src="/_images/credits/openclip6.png" alt="OpenClipart"/>
-<img src="/_images/credits/openclip7.png" alt="OpenClipart"/>
-<img src="/_images/credits/openclip8.png" alt="OpenClipart"/>
-<img src="/_images/credits/openclip9.png" alt="OpenClipart"/>
-<img src="/_images/credits/openclip10.png" alt="OpenClipart"/>
+<img src="/images/credits/openclip1.png" alt="OpenClipart"/>
+<img src="/images/credits/openclip2.png" alt="OpenClipart"/>
+<img src="/images/credits/openclip3.png" alt="OpenClipart"/>
+<img src="/images/credits/openclip4.png" alt="OpenClipart"/>
+<img src="/images/credits/openclip5.png" alt="OpenClipart"/>
+<img src="/images/credits/openclip6.png" alt="OpenClipart"/>
+<img src="/images/credits/openclip7.png" alt="OpenClipart"/>
+<img src="/images/credits/openclip8.png" alt="OpenClipart"/>
+<img src="/images/credits/openclip9.png" alt="OpenClipart"/>
+<img src="/images/credits/openclip10.png" alt="OpenClipart"/>
 </a>
 </div>
 </li>
@@ -77,14 +77,14 @@
 <li>Material from the <a href="http://tango.freedesktop.org/Tango_Icon_Gallery">Tango set of icons</a>, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution, Share Alike">by-sa</acronym> license:
 <div class="img_box">
 <a href="http://tango.freedesktop.org/Tango_Icon_Gallery">
-<img src="/_images/credits/tango1.png" alt="Tango icon"/>
-<img src="/_images/credits/tango2.png" alt="Tango icon"/>
-<img src="/_images/credits/tango3.png" alt="Tango icon"/>
-<img src="/_images/credits/tango4.png" alt="Tango icon"/>
-<img src="/_images/credits/tango5.png" alt="Tango icon"/>
-<img src="/_images/credits/tango6.png" alt="Tango icon"/>
-<img src="/_images/credits/tango7.png" alt="Tango icon"/>
-<img src="/_images/credits/tango8.png" alt="Tango icon"/>
+<img src="/images/credits/tango1.png" alt="Tango icon"/>
+<img src="/images/credits/tango2.png" alt="Tango icon"/>
+<img src="/images/credits/tango3.png" alt="Tango icon"/>
+<img src="/images/credits/tango4.png" alt="Tango icon"/>
+<img src="/images/credits/tango5.png" alt="Tango icon"/>
+<img src="/images/credits/tango6.png" alt="Tango icon"/>
+<img src="/images/credits/tango7.png" alt="Tango icon"/>
+<img src="/images/credits/tango8.png" alt="Tango icon"/>
 </a>
 </div>
 
@@ -94,9 +94,9 @@
 <li>Material from the <a href="http://packages.ubuntu.com/edgy/x11/human-theme">GNOME "Human Theme"</a>, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution, Share Alike">by-sa</acronym> license:
 <div class="img_box">
 <a href="http://packages.ubuntu.com/edgy/x11/human-theme">
-<img src="/_images/credits/human1.png" alt="human theme icon"/>
-<img src="/_images/credits/human2.png" alt="human theme icon"/>
-<img src="/_images/credits/human3.png" alt="human theme icon"/>
+<img src="/images/credits/human1.png" alt="human theme icon"/>
+<img src="/images/credits/human2.png" alt="human theme icon"/>
+<img src="/images/credits/human3.png" alt="human theme icon"/>
 </a>
 </div>
 
@@ -104,9 +104,9 @@
 
 <li>Material from other sources, such as Wikimedia Commons (each followed by its license):
 <div class="img_box">
-<a href="http://commons.wikimedia.org/wiki/Image:Incandescent_light_bulb_%28no_labels%29.svg"><img src="/_images/credits/other2.png" alt="Tango icon"/></a><acronym title="Creative Commons">CC</acronym> <acronym title="Attribution, Share Alike">by-sa</acronym>; &ndash;
-<a href="http://en.wikipedia.org/wiki/Image:Flag_of_Edward_England.svg"><img src="/_images/credits/other1.png" alt="Tango icon"/></a> <a href="http://en.wikipedia.org/wiki/GNU_Free_Documentation_License">GNU <acronym title="Free Documentation License">FDL</acronym></a>; &ndash;
-<a href="http://en.wikipedia.org/wiki/Image:Hammer_and_sickle.svg"><img src="/_images/credits/other3.png" alt="Tango icon"/></a> public domain.
+<a href="http://commons.wikimedia.org/wiki/Image:Incandescent_light_bulb_%28no_labels%29.svg"><img src="/images/credits/other2.png" alt="Tango icon"/></a><acronym title="Creative Commons">CC</acronym> <acronym title="Attribution, Share Alike">by-sa</acronym>; &ndash;
+<a href="http://en.wikipedia.org/wiki/Image:Flag_of_Edward_England.svg"><img src="/images/credits/other1.png" alt="Tango icon"/></a> <a href="http://en.wikipedia.org/wiki/GNU_Free_Documentation_License">GNU <acronym title="Free Documentation License">FDL</acronym></a>; &ndash;
+<a href="http://en.wikipedia.org/wiki/Image:Hammer_and_sickle.svg"><img src="/images/credits/other3.png" alt="Tango icon"/></a> public domain.
 </div>
 </li>
 

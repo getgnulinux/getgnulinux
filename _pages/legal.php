@@ -20,7 +20,7 @@
 <div id="mainbody">
 
 <div id="header">
-    <a href="http://www.gnulinuxmatters.org/"><img width="250" height="50" src="/_images/glm_logo_250px.png" alt="GNU/Linux Matters"/></a>
+    <a href="http://www.gnulinuxmatters.org/"><img width="250" height="50" src="/images/glm_logo_250px.png" alt="GNU/Linux Matters"/></a>
     <h1>Legal terms of the GNU/Linux Matters websites</h1>
 </div>
 

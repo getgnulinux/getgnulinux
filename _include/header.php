@@ -23,9 +23,9 @@ $locale_codes = array('ar' => array("الرئيسية",'rtl',"العربية", "
     }
     ?>
 
-    <link rel="copyright" type="text/html" title="Copyright notice for this website." href="/en/legal/" hreflang="en" />
-    <link rel="shortcut icon" type="image/x-icon" href="/_style/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="/_language/language.css" />
+    <link rel="copyright" type="text/html" title="Copyright notice for this website." href="<?php base_url('legal'); ?>" hreflang="en" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/_style/language.css" />
     <link rel="stylesheet" type="text/css" href="/_style/maincss-ltr.css" />
 
     <title><?php print _("get GNU/Linux!"); ?></title>
@@ -115,7 +115,7 @@ $locale_codes = array('ar' => array("الرئيسية",'rtl',"العربية", "
 <ul>
 <?php
 foreach ($locale_codes as $id => $items) {
-    printf("<li%s><a href=\"/%s/%s\" hreflang=\"%s\"><img src=\"/_style/flags/%s.gif\" alt=\"%s\" /> <span class=\"language\" dir=\"%s\">%s</span></a></li>\n",
+    printf("<li%s><a href=\"/%s/%s\" hreflang=\"%s\"><img src=\"/images/flags/%s.gif\" alt=\"%s\" /> <span class=\"language\" dir=\"%s\">%s</span></a></li>\n",
         is_current_language($id), $id, current_page(), $id, $items[4], $id, $items[1], $items[2]);
 }
 ?>

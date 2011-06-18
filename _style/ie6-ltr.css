@@ -9,15 +9,15 @@
 	}
 
 #header_picture_homepage, #header_picture {
-		background-color: transparent; /* IE6 does not follow "height" property here, so blue background overflows otherwise */ 
+		background-color: transparent; /* IE6 does not follow "height" property here, so blue background overflows otherwise */
 	}
 
 #header ul {
 		width:expression(
-		document.body.clientWidth > (500/12) * 
+		document.body.clientWidth > (500/12) *
 		parseInt(document.body.currentStyle.fontSize)?
         "99.9%":
-        "auto" ); /* Ugly emulation of max-width to avoid round corner display bug*/ 
+        "auto" ); /* Ugly emulation of max-width to avoid round corner display bug*/
 	}
 
 #header li, #header li a {
@@ -45,7 +45,7 @@
 	}
 
 h1 {
-		clear: right; /* If not, title sometimes plays peek-a-boo */ 
+		clear: right; /* If not, title sometimes plays peek-a-boo */
 	}
 
 #text {
@@ -65,41 +65,41 @@ h1 {
 		margin-bottom: -1em;
 	}
 
-/*---------------------------------------------------- 
+/*----------------------------------------------------
 - Using a non-transparent version of all of the small
 - icons here and there in links.
 - At the moment, this introduces a bug on rtl
-- languages, like Arabic, since the rules here 
-- over-ride rtl styling. Will be solved soon. 
+- languages, like Arabic, since the rules here
+- over-ride rtl styling. Will be solved soon.
 - The icons are CC-BY by Mark James - famfamfam.com
 ----------------------------------------------------*/
- 
+
 .previous {
-		background-image: url(left_ie.png);
+		background-image: url(/images/left_ie.png);
 	}
 
-.next {		
-		background-image: url(right_ie.png);
+.next {
+		background-image: url(/images/right_ie.png);
 	}
 
-.up {		
-		background-image: url(up_ie.png);
+.up {
+		background-image: url(/images/up_ie.png);
 	}
 
-.go_download {		
-		background-image: url(go_ltr_ie.png);
+.go_download {
+		background-image: url(/images/go_ltr_ie.png);
 	}
 
-.order {	
-		background-image: url(box_ie.png);
+.order {
+		background-image: url(/images/box_ie.png);
 	}
 
 #bottom_next_page_banner a .arrow {
-		background-image: url(arrow_right_ie.png);
+		background-image: url(/images/arrow_right_ie.png);
 	}
 
-/*---------------------------------------------------- 
-- No Javascript? Then we have do degrade the 
+/*----------------------------------------------------
+- No Javascript? Then we have do degrade the
 - translation bar menu.
 ----------------------------------------------------*/
 
@@ -166,7 +166,7 @@ h1 {
 
 #translations li a {
 		display: inline;
-		padding: 0.3em;		
+		padding: 0.3em;
 		background: none;
 		color: gray;
 		border: 1px white solid;
@@ -180,10 +180,10 @@ h1 {
 		padding: 0.3em;
 	}
 
-/*---------------------------------------------------- 
+/*----------------------------------------------------
 - Aha, so we *do* have Javascript? Then we can re-
 - build the menu and use that nifty suckerfish
-- JavaScript to emulate :hover behavior. 
+- JavaScript to emulate :hover behavior.
 ----------------------------------------------------*/
 
 /* --This is roughly the same code as real browsers--*/
@@ -217,7 +217,7 @@ body.ie6_has_js #language_menu {
 body.ie6_has_js #language_menu_text {
 		font-size: 14px;
 		padding: 0 0 2px 30px;
-		background: url(alternate_languages.png) top left no-repeat;
+		background: url(/images/alternate_languages.png) top left no-repeat;
 	}
 
 body.ie6_has_js .lang_code {

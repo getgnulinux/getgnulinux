@@ -11,7 +11,7 @@
 
 <p>
 <a href="<?php base_url('linux/screenshots'); ?>" title="<?php print _("What does GNU/Linux look like? Selected screenshots"); ?>">
-<img src="/_language/screenshots/h150px/fedora1.png" width="200" height="150" alt="<?php print _("A view of a Fedora Linux desktop"); ?>"/></a>
+<img src="/images/screenshots/h150px/fedora1.png" width="200" height="150" alt="<?php print _("A view of a Fedora Linux desktop"); ?>"/></a>
 <?php print _("Linux is an <em>operating system</em>, a large piece of software that manages a computer. It is similar to Microsoft Windows, but it is entirely free. The accurate name is <em>GNU/Linux</em> but \"Linux\" is used more often."); ?></p>
 
 <p><?php print _("Linux is not one company's product, but a number of companies and groups of people  contribute to it. In fact, the <em>GNU/Linux system</em> is a core component, which is branched off into many different products. They are called <strong>distributions</strong>."); ?></p>
@@ -22,7 +22,7 @@
 <h2><?php print _("Using Linux"); ?></h2>
 
 <p><a href="/linux/screenshots/" title="<?php print _("What does GNU/Linux look like? Selected screenshots"); ?>">
-<img src="/_language/screenshots/h150px/ubuntu1.png" width="200" height="150" alt="<?php print _("A view of a Ubuntu Linux desktop"); ?>"/></a>
+<img src="/images/screenshots/h150px/ubuntu1.png" width="200" height="150" alt="<?php print _("A view of a Ubuntu Linux desktop"); ?>"/></a>
 <?php print _("GNU/Linux is no harder to use than Windows, and has many more capabilities. It just takes a dozen minutes to get familiar with a distribution like <a href=\"http://www.ubuntu.com/\" title=\"Ubuntu, the easiest and friendliest GNU/Linux distribution around\">Ubuntu</a> or <a href=\"http://fedoraproject.org/\" title=\"Fedora, a friendly and more advanced GNU/Linux distribution\">Fedora</a>, which come in with many programs installed."); ?></p>
 
 <p><?php print _("If you need commercial-quality software to work with business documents, Internet/networking, or multimedia and graphics, it's there right out of the box. Want more than that? Linux can do &ndash; there are many hundreds of free, high quality applications you can find, install and uninstall neatly and easily."); ?></p>

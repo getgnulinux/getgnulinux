@@ -1,7 +1,7 @@
 /* previous, next and up yellow navigation "buttons" occasionally displayed at top and bottom of pages.*/
 /* The present stylesheet is only called (@import) from within page-specific stylesheets */
 
-/* Note that contrary to ltr code, it is the bow which has the background-image instead of the contained text. */ 
+/* Note that contrary to ltr code, it is the bow which has the background-image instead of the contained text. */
 
 #switcher {
 		margin-top: 3em;
@@ -29,7 +29,7 @@
 
 #mainbody a.nextbutton:active, #mainbody a.previousbutton:active, #mainbody a.upbutton:active {
 		border-color: red;
-	}	
+	}
 
 .button_title {
 		color: #000080;
@@ -42,7 +42,7 @@
 #mainbody a.previousbutton {
 		float: right;
 		text-align: center;
-		background-image: url(right.png); /* icons by Mark James - famfamfam.com */
+		background-image: url(/images/right.png); /* icons by Mark James - famfamfam.com */
 		background-position: 12.5em center;
 	}
 
@@ -54,8 +54,8 @@
 
 #mainbody a.nextbutton {
 		float: left;
-		text-align: center;		
-		background-image: url(left.png);
+		text-align: center;
+		background-image: url(/images/left.png);
 		background-position: 8px center;
 	}
 
@@ -77,8 +77,8 @@
 		padding-right: 20px;
 	}
 
-.up {		
-		background: url(up.png) center right no-repeat;
+.up {
+		background: url(/images/up.png) center right no-repeat;
 		padding-right: 20px;
 		font-size: 0.9em;
 	}
