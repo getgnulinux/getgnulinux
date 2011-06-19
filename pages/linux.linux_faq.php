@@ -4,7 +4,7 @@
 
 <h1 id="top"><?php print _("Linux Frequently Asked Questions"); ?></h1>
 
-<p><a href="<?php $this->base_url('linux'); ?>"><?php print _("Our page about Linux</a> covers the essential information. We hope this FAQ list can help if you are more curious."); ?></p>
+<p><?php $p = _("<a href=\"%s\">Our page about Linux</a> covers the essential information. We hope this FAQ list can help if you are more curious."); printf($p, $this->base_url('linux',1)); ?></p>
 <br/>
 
 <div id="content">

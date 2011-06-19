@@ -1,6 +1,6 @@
 #!/bin/bash
 
-locales=(LOCALES)
+locales=(`ls LOCALE_DIR | grep "[a-z]\{2\}_[A-Z]\{2\}"`)
 
 for i in "${locales[@]}" ; do
     echo "Processing locale: $i"

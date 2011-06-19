@@ -5,25 +5,40 @@ class GetGnuLinux {
     var $conf = array('locale' => "en_GB",
         'gettext_domain' => "getgnulinux",
         );
-    var $locale_info = array('ar' => array("الرئيسية",'rtl',"العربية", "احصل على هذه الصفحة باللغة العربية !", "sa"),
+    var $locale_info = array(
+        'ar' => array("الرئيسية",'rtl',"العربية", "احصل على هذه الصفحة باللغة العربية !", "sa"),
         'ca' => array("Inici",'ltr',"català", "Traduïu aquesta pàgina a la llengua català!", "ad"),
         'en' => array("Home",'ltr',"English", "Watch this page in English", "gb"),
+        'de' => array("Home",'ltr',"Deutsch", "Watch this page in German", "de"),
         'es' => array("Inicio",'ltr',"castellano", "¡Lee esta página en castellano!", "es"),
         'fr' => array("Accueil",'ltr',"français", "Cette page en français", "fr"),
-        'ru' => array("Домой",'ltr',"русский", "Просмотреть эту страницу на русский языке!", "ru"),
-        'uk' => array("Додому",'ltr',"українська", "Переглянути цю сторінку на українська мові!", "ua"),
-        'vi' => array("Nhà",'ltr',"Tiếng Việt", "Xem trang này bằng tiếng Tiếng Việt !", "vn"),
+        'it' => array("Home",'ltr',"italiano", "Watch this page in Italian", "it"),
+        'ml' => array("Home",'ltr',"മലയാളം", "Watch this page in Malayalam", "in"),
         'nl' => array("Hoofdpagina",'ltr',"Nederlands", "Bekijk deze pagina in het Nderlands", "nl"),
+        'pt' => array("Home",'ltr',"português", "Watch this page in Portuguese", "br"),
+        'ru' => array("Домой",'ltr',"русский", "Просмотреть эту страницу на русский языке!", "ru"),
+        'sr' => array("Home",'ltr',"српски", "Watch this page in Serbian", "rs"),
+        'uk' => array("Додому",'ltr',"українська", "Переглянути цю сторінку на українська мові!", "ua"),
+        'tr' => array("Home",'ltr',"Türkçe", "Watch this page in Turkish", "tr"),
+        'vi' => array("Nhà",'ltr',"Tiếng Việt", "Xem trang này bằng tiếng Tiếng Việt !", "vn"),
+        'zh' => array("Home",'ltr',"汉语", "Watch this page in Chinese", "cn"),
         );
-    var $supported_locales = array('ar' => 'ar_SA',
+    var $supported_locales = array(
+        'ar' => 'ar_SA',
         'ca' => 'ca_AD',
+        'de' => 'de_DE',
         'en' => 'en_GB',
         'es' => 'es_ES',
         'fr' => 'fr_FR',
-        'ru' => 'ru_RU',
-        'uk' => 'uk_UA',
-        'vi' => 'vi_VN',
+        'it' => 'it_IT',
+        'ml' => 'ml_IN',
         'nl' => 'nl_NL',
+        'pt' => 'pt_BR',
+        'ru' => 'ru_RU',
+        'sr' => 'sr_RS',
+        'tr' => 'tr_TR',
+        'vi' => 'vi_VN',
+        'zh' => 'zh_CN',
         );
 
     // constructor
@@ -39,7 +54,7 @@ class GetGnuLinux {
     // define methods
     function init_gettext() {
         # Initialize gettext. Configure gettext to look in
-        # /locale/xx_YY/LC_MESSAGES/ for getgnulinux.mo.
+        # /locale/xx_YY/LC_MESSAGES/ for gettext_domain.mo.
         $gettext_domain = $this->get('gettext_domain');
 
         # Set language.
