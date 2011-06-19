@@ -21,7 +21,7 @@
 
 <h2><?php print _("Using Linux"); ?></h2>
 
-<p><a href="/linux/screenshots/" title="<?php print _("What does GNU/Linux look like? Selected screenshots"); ?>">
+<p><a href="<?php $this->base_url('linux/screenshots'); ?>" title="<?php print _("What does GNU/Linux look like? Selected screenshots"); ?>">
 <img src="/images/screenshots/h150px/ubuntu1.png" width="200" height="150" alt="<?php print _("A view of a Ubuntu Linux desktop"); ?>"/></a>
 <?php print _("GNU/Linux is no harder to use than Windows, and has many more capabilities. It just takes a dozen minutes to get familiar with a distribution like <a href=\"http://www.ubuntu.com/\" title=\"Ubuntu, the easiest and friendliest GNU/Linux distribution around\">Ubuntu</a> or <a href=\"http://fedoraproject.org/\" title=\"Fedora, a friendly and more advanced GNU/Linux distribution\">Fedora</a>, which come in with many programs installed."); ?></p>
 
