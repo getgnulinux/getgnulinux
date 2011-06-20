@@ -8,9 +8,13 @@ PAGES_DIR=pages
 LOCALE_DIR=locale
 DOMAIN=getgnulinux
 CHARSET=UTF-8
+LOCALE_GEN=locale-gen
 
 # Internal variables.
 template=$(LOCALE_DIR)/$(DOMAIN)/$(DOMAIN).pot
+# These are locales that by default use the UTF-8 character set. For these
+# locales the ".UTF-8" suffix should not be used when compiling locale files.
+utf8_locales=ml_IN sr_RS vi_VN
 
 # Phony targets.
 .PHONY : help config pot po push localesgen
@@ -60,13 +64,34 @@ po: pot
 	@echo
 	@echo "Build finished. The PO files are in $(LOCALE_DIR)/."
 
-# Before the webserver can use the PO files for the locales, the locales in
-# question must be generated.
+# Before the webserver can use the MO files for the locales, a list of locale
+# definition files must be compiled first. See `man locale-gen' for more info.
 localesgen:
-	@if [ `id -u` != "0" ]; then echo "You must be root to generate locales."; exit 1; fi
-	ls locale | grep "[a-z]\{2\}_[A-Z]\{2\}" | xargs -L 1 locale-gen
+	@if [ `id -u` != "0" ]; \
+	then \
+		echo "You must be root to generate locales."; \
+		exit 1; \
+	fi
+
+	@for i in `ls $(LOCALE_DIR) | grep "[a-z]\{2\}_[A-Z]\{2\}"`; \
+	do \
+		switch=0; \
+		for u in $(utf8_locales); \
+		do \
+			if [ $$u == $$i ]; \
+			then \
+				$(LOCALE_GEN) $${i}; \
+				switch=1; \
+				break; \
+			fi \
+		done; \
+		if [ $$switch == 0 ]; \
+		then \
+			$(LOCALE_GEN) $${i}.UTF-8; \
+		fi \
+	done
 	@echo
-	@echo "Generating locales finished. Restart your webserver to complete."
+	@echo "Generating locale definition files finished. Restart your webserver to complete."
 
 # Push committed changes to the trunk Bazaar repository on Launchpad.
 push:
