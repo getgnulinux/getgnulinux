@@ -22,7 +22,7 @@ utf8_locales=ml_IN sr_RS vi_VN
 help:
 	@echo "Please use \`make <target>' where <target> is one of"
 	@echo "  config         to create the settings.php file"
-	@echo "  localesgen     to generate the required locales for your system"
+	@echo "  localesgen     to generate the required locale definition files for your system"
 	@echo "  pot            to make the PO Template file $(DOMAIN).pot"
 	@echo "  po             to create new PO files or to update existing PO files"
 	@echo "  push           to update the development branch for getgnulinux on Launchpad"
