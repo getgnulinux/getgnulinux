@@ -42,6 +42,13 @@ class HTML {
         include INCLUDE_PATH.'footer.php';
     }
 
+    function text($key, $default='')
+    {
+        global $ggl;
+
+		print $ggl->get($key, $default);
+    }
+
     function menu_switch_to_linux() {
         print "<div id=\"subheader\">";
         printf ("<span class=\"title\"><a href=\"%s\">Switch to Linux</a></span>", $this->base_url('switch_to_linux',1));
@@ -103,7 +110,7 @@ class HTML {
     function is_current_language($lang_id) {
         global $ggl;
 
-        if ($lang_id == $ggl->get('locale')) {
+        if ($lang_id == $ggl->get('lang')) {
             return " id='is_current_language'";
         }
         else {
@@ -146,9 +153,9 @@ class HTML {
         global $ggl;
 
         if (isset($p)) {
-            $url = sprintf ("/%s/%s/", $ggl->get('locale'), $p);
+            $url = sprintf ("/%s/%s/", $ggl->get('lang'), $p);
         } else {
-            $url = sprintf ("/%s/",$ggl->get('locale'));
+            $url = sprintf ("/%s/",$ggl->get('lang'));
         }
 
         if ($return) {

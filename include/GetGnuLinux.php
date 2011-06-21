@@ -4,6 +4,7 @@ class GetGnuLinux {
     // define properties
     var $conf = array('locale' => "en_GB",
         'gettext_domain' => "getgnulinux",
+        'dir' => "ltr",
         );
     var $locale_info = array(
         'ar' => array("الرئيسية",'rtl',"العربية", "احصل على هذه الصفحة باللغة العربية !", "sa"),
@@ -47,6 +48,10 @@ class GetGnuLinux {
         $locale = isset($_GET['l']) ? $_GET['l'] : NULL;
         $this->set('locale', $locale);
 
+        # Set the text direction.
+        $dir = $this->locale_info[$this->get('lang')][1];
+        $this->set('dir', $dir);
+
         # Initialize gettext.
         $this->init_gettext();
     }
@@ -58,8 +63,8 @@ class GetGnuLinux {
         $gettext_domain = $this->get('gettext_domain');
 
         # Set language.
-        putenv("LANG=".$this->locale());
-        setlocale(LC_ALL, $this->locale());
+        putenv("LANG=".$this->get('locale'));
+        setlocale(LC_ALL, $this->get('locale'));
 
         # Specify location of translation tables
         bindtextdomain($gettext_domain, "locale/");
@@ -86,24 +91,14 @@ class GetGnuLinux {
 
     function get($key, $default='')
     {
-		if ( isset($this->conf[$key]) ) {
-            if ($key == 'locale') {
-                return $this->get_locale();
-            }
+        if ($key == 'lang') {
+            return substr($this->conf['locale'], 0, 2);
+        }
 
+		if ( isset($this->conf[$key]) ) {
 			return $this->conf[$key];
 		}
 		return $default;
-    }
-
-    function get_locale()
-    {
-        return substr($this->conf['locale'], 0, 2);
-    }
-
-    function locale()
-    {
-        return $this->conf['locale'];
     }
 }
 

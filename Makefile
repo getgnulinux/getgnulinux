@@ -69,7 +69,7 @@ po: pot
 localesgen:
 	@if [ `id -u` != "0" ]; \
 	then \
-		echo "You must be root to generate locales."; \
+		echo "You must be root to generate locale definition files."; \
 		exit 1; \
 	fi
 
