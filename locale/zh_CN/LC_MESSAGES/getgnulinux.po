@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: getgnulinux 0.0.1\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2011-06-19 21:51+0200\n"
+"POT-Creation-Date: 2011-06-24 23:53+0200\n"
 "PO-Revision-Date: 2011-06-19 21:31+0100\n"
 "Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,14 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: include/footer.php:16
+#, php-format
+msgid ""
+"Except where otherwise <a href=\"%s\">noted</a>, content on this site is "
+"licensed under a <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" "
+"rel=\"license\">CC BY-SA 3.0 License</a>."
+msgstr ""
 
 #: include/footer.php:20 pages/more.php:81
 msgid "Terms of Use"
@@ -32,6 +40,18 @@ msgstr ""
 msgid "get GNU/Linux!"
 msgstr ""
 
+#: include/header.php:21
+msgid ""
+"Get GNU/Linux! A simple, clear website about Linux. | What is Linux? | Why "
+"not Windows? | Tips to make the switch"
+msgstr ""
+
+#: include/header.php:22
+msgid ""
+"linux, gnu/linux, free software, software freedom, open-source, windows "
+"alternative, get linux, switch to linux"
+msgstr ""
+
 #: include/header.php:95
 msgid "skip to content"
 msgstr ""
@@ -41,7 +61,7 @@ msgid "Alternate languages"
 msgstr ""
 
 #: include/header.php:148 pages/home.php:21 pages/linux.linux_faq.php:322
-#: pages/linux.misunderstanding_free_software.php:149
+#: pages/linux.misunderstanding_free_software.php:156
 #: pages/linux.screenshots.php:4 pages/linux.screenshots.php:54
 #: pages/windows.php:75
 msgid "What is Linux?"
@@ -411,7 +431,7 @@ msgstr ""
 
 #: pages/linux.linux_faq.php:130 pages/linux.linux_faq.php:174
 #: pages/linux.linux_faq.php:186
-#: pages/linux.misunderstanding_free_software.php:7 pages/linux.php:56
+#: pages/linux.misunderstanding_free_software.php:14 pages/linux.php:56
 #: pages/windows.stand_for_a_free_society.php:187
 msgid "How to Misunderstand Free Software"
 msgstr "对自由软件的误解"
@@ -775,7 +795,7 @@ msgstr ""
 "</a>，或者<a href=\"%s\">申请一新票</a>，则更好。"
 
 #: pages/linux.linux_faq.php:322
-#: pages/linux.misunderstanding_free_software.php:149
+#: pages/linux.misunderstanding_free_software.php:156
 #: pages/linux.screenshots.php:4 pages/linux.screenshots.php:54
 #: pages/windows.restrictions.further_details.php:4
 #: pages/windows.restrictions.further_details.php:81
@@ -790,19 +810,19 @@ msgstr ""
 "#-#-#-#-#  linux.screenshots.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "返回"
 
-#: pages/linux.misunderstanding_free_software.php:9
+#: pages/linux.misunderstanding_free_software.php:16
 msgid ""
 "Five misconceptions about <a href=\"http://www.softwareliberty.com/\">free "
 "software</a>, corrected."
 msgstr ""
 "纠正对<a href=\"http://www.softwareliberty.com/\">自由软件的五大误解</a>。"
 
-#: pages/linux.misunderstanding_free_software.php:13
+#: pages/linux.misunderstanding_free_software.php:20
 msgid ""
 "1. The software industry can't keep going if programmers don't get paid."
 msgstr "1. 如果程序员没有报酬的话，软件产业就无法往前发展。"
 
-#: pages/linux.misunderstanding_free_software.php:15
+#: pages/linux.misunderstanding_free_software.php:22
 msgid ""
 "Let's begin with one simple fact: free software programmers <em>do</em> like "
 "to get paid, and all need to buy lunch at some time."
@@ -810,19 +830,17 @@ msgstr ""
 "我们还是从一条简单的事实出发：自由软件程序员<em>确实</em>也想获取报酬，某个时"
 "候他们也全都需要买午餐。"
 
-#: pages/linux.misunderstanding_free_software.php:16
-#, fuzzy
+#: pages/linux.misunderstanding_free_software.php:23
+#, fuzzy, php-format
 msgid ""
 "When we mention free software, we refer to <strong>liberty not price</"
 "strong>. You may actually pay to get free software (or \"open source\" "
-"software <a class=\"footnote\" id=\"footnote1\" href="
-"\"#footnote_bottom1\">1</a>), which you can then study, change and copy at "
-"will."
+"software %s), which you can then study, change and copy at will."
 msgstr ""
 "当我们谈论自由软件，我们所指的是<strong>自由而非价钱</strong>。实际上，为获取"
 "自由软件（或者开源软件）以便研习，修改和任意拷贝，你也可能要破费。"
 
-#: pages/linux.misunderstanding_free_software.php:18
+#: pages/linux.misunderstanding_free_software.php:25
 msgid ""
 "How does it work? You can think about it the following way: software is just "
 "code, code is only math. Once you view software as <strong>useful math</"
@@ -833,7 +851,7 @@ msgstr ""
 "把软件看作是<strong>有用的数学</strong>，一门精致的语言，而非一般的财产，那就"
 "没有理由限制别人使用它。"
 
-#: pages/linux.misunderstanding_free_software.php:19
+#: pages/linux.misunderstanding_free_software.php:26
 msgid ""
 "Just like math (where nobody would claim property on an equation), software "
 "requires advanced knowledge to be adapted, improved, applied correctly. This "
@@ -845,7 +863,7 @@ msgstr ""
 "改进，提高，正确应用。这才是程序员普遍的收入来源：很多客户，尤其是公司，愿意"
 "付款以获取软件的定期安全更新和性能改进。"
 
-#: pages/linux.misunderstanding_free_software.php:20
+#: pages/linux.misunderstanding_free_software.php:27
 msgid ""
 "Free software companies benefit from a very decentralised development system "
 "with a large number of voluntary contributors. The revenues inside the free "
@@ -857,7 +875,7 @@ msgstr ""
 "业内部的收入少于与其相对的私有软件产业，但也不可小觑。最终，单个的用户一般不"
 "用花钱也能用上自由软件。"
 
-#: pages/linux.misunderstanding_free_software.php:21
+#: pages/linux.misunderstanding_free_software.php:28
 msgid ""
 "Free software is not about killing incentives for programmers. It's about "
 "seeing code as knowledge which should not be hidden from the user. It works "
@@ -866,67 +884,93 @@ msgstr ""
 "自由软件不是要灭除对程序员的奖赏。它是要把代码看作不应隐瞒用户的知识。它以一"
 "种不同的商业模式运作。很多已采取这种模式的公司都运作良好。"
 
-#: pages/linux.misunderstanding_free_software.php:24
+#: pages/linux.misunderstanding_free_software.php:31
 msgid "2. Innovation is killed in free software."
 msgstr "2. 自由软件内部创新被扼杀了。"
 
-#: pages/linux.misunderstanding_free_software.php:26
+#: pages/linux.misunderstanding_free_software.php:33
 msgid ""
 "The common perception is that if everyone can copy ideas, innovation will be "
 "stifled."
 msgstr "普遍的观念就是如果人人都可以复制想法，创新就会受到抑制。"
 
-#: pages/linux.misunderstanding_free_software.php:27
+#: pages/linux.misunderstanding_free_software.php:34
 msgid ""
 "In fact, freedom is often <strong>the key to innovative and successful "
 "software</strong>."
 msgstr "事实上，自由往往是<strong>催生富有创意的成功软件的关键</strong>。"
 
-#: pages/linux.misunderstanding_free_software.php:29
+#: pages/linux.misunderstanding_free_software.php:36
 msgid "Anyone is allowed and encouraged to work upon it;"
 msgstr "任何人都可获许且被鼓励从事其上的工作；"
 
-#: pages/linux.misunderstanding_free_software.php:30
+#: pages/linux.misunderstanding_free_software.php:37
 msgid "Many people are willing to participate;"
 msgstr "很多人都愿意参与进来；"
 
-#: pages/linux.misunderstanding_free_software.php:31
+#: pages/linux.misunderstanding_free_software.php:38
 msgid ""
 "There is no need to re-invent everything, ideas can be improved upon "
 "directly."
 msgstr "没有一切重来的必要，可以直接在其上进行改进。"
 
-#: pages/linux.misunderstanding_free_software.php:34
+#: pages/linux.misunderstanding_free_software.php:41
 msgid ""
 "Non-proprietary software stands out in many areas: consider, to name just a "
 "few:"
 msgstr "非私有软件在很多方面都很突出：稍事一想，便可举出一些例子："
 
-#: pages/linux.misunderstanding_free_software.php:36
-msgid "Applications:"
+#: pages/linux.misunderstanding_free_software.php:43
+msgid ""
+"Applications: <a href=\"http://www.getfirefox.com/\">Firefox</a> (web "
+"browser), <a href=\"http://www.inkscape.org/\">Inkscape</a> (vector drawing)."
 msgstr ""
-
-#: pages/linux.misunderstanding_free_software.php:37
-msgid "Complete systems:"
-msgstr ""
-
-#: pages/linux.misunderstanding_free_software.php:38
-msgid "Formats and protocols:"
-msgstr ""
-
-#: pages/linux.misunderstanding_free_software.php:39
-msgid "Server applications:"
-msgstr ""
+"应用程序：<a href=\"http://www.getfirefox.com/\">Firefox</a>（网页浏览器），"
+"<a href=\"http://www.inkscape.org/\">Inkscape</a>（向量绘图）。"
 
 #: pages/linux.misunderstanding_free_software.php:44
+msgid ""
+"Complete systems: <a href=\"http://en.wikipedia.org/wiki/Apache_HTTP_Server"
+"\">Apache</a> (web server), <a href=\"http://en.wikipedia.org/wiki/OpenBSD"
+"\">OpenBSD</a> (<acronym title=\"Operating System\">OS</acronym>), and of "
+"course, GNU/Linux."
+msgstr ""
+"完整的系统：<a href=\"http://en.wikipedia.org/wiki/Apache_HTTP_Server"
+"\">Apache</a>（Web服务器），<a href=\"http://en.wikipedia.org/wiki/OpenBSD"
+"\">OpenBSD</a>（<acronym title=\"Operating System\">OS</acronym>），当然，还"
+"有GNU/Linux。"
+
+#: pages/linux.misunderstanding_free_software.php:45
+msgid ""
+"Formats and protocols: <a href=\"http://en.wikipedia.org/wiki/HTML\">HTML</"
+"a> (web pages), <a href=\"http://en.wikipedia.org/wiki/BitTorrent_"
+"(protocol)\">BitTorrent</a> (file sharing), <a href=\"http://"
+"opendocumentfellowship.com/\">ODF</a> (office documents)."
+msgstr ""
+"格式和协议：<a href=\"http://en.wikipedia.org/wiki/HTML\">HTML</a>（网页），"
+"<a href=\"http://en.wikipedia.org/wiki/BitTorrent_(protocol)\">BitTorrent</a>"
+"（文件共享），<a href=\"http://opendocumentfellowship.com/\">ODF</a>（办公文"
+"档）。"
+
+#: pages/linux.misunderstanding_free_software.php:46
+#, fuzzy
+msgid ""
+"Server applications: <a href=\"http://drupal.org/\">Drupal</a> (Content "
+"Management System), <a href=\"http://www.wordpress.org/\">Wordpress</a> "
+"(blog)."
+msgstr ""
+"服务器应用程序：<a href=\"http://drupal.org/\">Drupal</a>（内容管理系统），"
+"<a href=\"http://www.wordpress.org/\">Wordpress</a>（博客）。"
+
+#: pages/linux.misunderstanding_free_software.php:51
 msgid "3. Software Should Just Work (who cares about source code?)"
 msgstr "3. 软件本该正常工作就好了（谁在乎源代码？）"
 
-#: pages/linux.misunderstanding_free_software.php:46
+#: pages/linux.misunderstanding_free_software.php:53
 msgid "Anyone should care about whether their software is free."
 msgstr "任何人都该在乎他们的软件是否自由。"
 
-#: pages/linux.misunderstanding_free_software.php:47
+#: pages/linux.misunderstanding_free_software.php:54
 msgid ""
 "Imagine purchasing a car whose hood you are forbidden to open. It does not "
 "matter whether you know how a car works &ndash; the point is that nobody "
@@ -938,7 +982,7 @@ msgstr ""
 "人能检查引擎。如果没人能确保它可靠，它不漏油，它对社会环境无害，你如何信得过"
 "你的车？"
 
-#: pages/linux.misunderstanding_free_software.php:48
+#: pages/linux.misunderstanding_free_software.php:55
 msgid ""
 "The idea is the same with software &ndash; except that code does "
 "<strong>much more</strong> than move cars. Software runs our computers, "
@@ -947,7 +991,7 @@ msgstr ""
 "对软件同样如此；除了代码比移动车辆做了<strong>更多</strong>。软件运行着我们的"
 "计算机，电话，电视，媒体播放器，还有更多，传载着信息和我们的文化。"
 
-#: pages/linux.misunderstanding_free_software.php:49
+#: pages/linux.misunderstanding_free_software.php:56
 msgid ""
 "Free software is as important as free speech, as a free market. If software "
 "is free, users have control and liberty over it."
@@ -955,7 +999,7 @@ msgstr ""
 "自由软件与自由言论，自由市场同样重要。如果软件自由，用户就拥有驾于其上的自主"
 "和自由。"
 
-#: pages/linux.misunderstanding_free_software.php:50
+#: pages/linux.misunderstanding_free_software.php:57
 #, php-format
 msgid ""
 "The good news are: <em>free software also Just Works.</em> And in fact, it "
@@ -967,12 +1011,12 @@ msgstr ""
 "你的电脑开启的时候，<a href=\"%s\">插入一张GNU/Linux liveCD</a>，不用安装，你"
 "就自己判断吧。"
 
-#: pages/linux.misunderstanding_free_software.php:53
+#: pages/linux.misunderstanding_free_software.php:60
 msgid ""
 "4. Free software doesn't respect authors' copyrighted and patented software."
 msgstr "4. 自由软件不尊重作者受版权保护和申请了专利的软件。"
 
-#: pages/linux.misunderstanding_free_software.php:55
+#: pages/linux.misunderstanding_free_software.php:62
 msgid ""
 "To answer this correctly, we must first make a clear distinction between "
 "copyright and patents. Copyright is a right granted to the author over his/"
@@ -984,7 +1028,7 @@ msgstr ""
 "一本书的文字，或者一个程序的源代码）赋予作者一种权利。另一方面，一项专利，是"
 "买断，注册了应用某种想法这一过程的独有控制权。"
 
-#: pages/linux.misunderstanding_free_software.php:57
+#: pages/linux.misunderstanding_free_software.php:64
 msgid ""
 "<strong>Copyright is very important in free software.</strong> It is the "
 "very mechanism, central to the <a href=\"http://www.gnu.org/copyleft/gpl.html"
@@ -997,7 +1041,7 @@ msgstr ""
 "者的工作得到肯定的核心机制所在。程序都是受版权保护的，不管是自由的还是私有"
 "的。"
 
-#: pages/linux.misunderstanding_free_software.php:58
+#: pages/linux.misunderstanding_free_software.php:65
 msgid ""
 "Any proprietary software author can easily check that his copyright is not "
 "violated in a free software application, since its source code is readily "
@@ -1006,7 +1050,7 @@ msgstr ""
 "任何私有软件的作者都可以很轻易地检查一个自由软件应用程序里是否有侵犯他的版权"
 "的地方，因为源代码可以轻易地获取。"
 
-#: pages/linux.misunderstanding_free_software.php:60
+#: pages/linux.misunderstanding_free_software.php:67
 msgid ""
 "Patents in software, on the other hand, are a very controversial concept. To "
 "put it shortly: there is <strong>no such thing as a \"patented software\"</"
@@ -1018,28 +1062,39 @@ msgstr ""
 "么“专利软件”</strong>。然而，通过申请专利，某人可以宣称对一个<em>过程</em>的"
 "所有权。既而凡是用到这一过程的软件，不论是私有的或自由的，都受其约束。"
 
-#: pages/linux.misunderstanding_free_software.php:61
-msgid ""
-"Software patents:</p>\n"
-"<ul>\n"
-"<li>Are expensive and are granted only several years after application;</"
-"li>\n"
-"<li>Are limited geographically (a patent granted in the US is worthless in "
-"Europe);</li>\n"
-"<li>Have long life-times (often 20 years) in a quickly-moving industry;</"
-"li>\n"
-"<li>Often apply <a href=\"http://eupat.ffii.org/patents/samples/\">entirely "
-"trivial processes</a>.</li>\n"
-"</ul>"
-msgstr ""
-
 #: pages/linux.misunderstanding_free_software.php:68
+msgid "Software patents:"
+msgstr "软件专利："
+
+#: pages/linux.misunderstanding_free_software.php:70
+msgid "Are expensive and are granted only several years after application;"
+msgstr "昂贵且申请后只在若干年里被承认；"
+
+#: pages/linux.misunderstanding_free_software.php:71
+msgid ""
+"Are limited geographically (a patent granted in the US is worthless in "
+"Europe);"
+msgstr "受地域限制（在美国被承认的专利在欧洲没有任何价值）；"
+
+#: pages/linux.misunderstanding_free_software.php:72
+msgid "Have long life-times (often 20 years) in a quickly-moving industry;"
+msgstr "在一个快速变化的产业里有较长的生命期（常常是20年）；"
+
+#: pages/linux.misunderstanding_free_software.php:73
+msgid ""
+"Often apply <a href=\"http://eupat.ffii.org/patents/samples/\">entirely "
+"trivial processes</a>."
+msgstr ""
+"往往用于<a href=\"http://eupat.ffii.org/patents/samples/\">完全琐碎的过程</"
+"a>。"
+
+#: pages/linux.misunderstanding_free_software.php:75
 msgid ""
 "As such, they are seldom used to benefit innovators (and in fact, rarely "
 "used by the innovators themselves)."
 msgstr "因此，它们很少被创造者用来获益（而且事实上，创造者们自己几乎都不用）。"
 
-#: pages/linux.misunderstanding_free_software.php:70
+#: pages/linux.misunderstanding_free_software.php:77
 msgid ""
 "It's safe to say that <strong>any medium-size piece of software violates "
 "patents</strong>, in several countries, whether it's free or not."
@@ -1047,7 +1102,7 @@ msgstr ""
 "可以很放心地说，在不少国家，<strong>任何中等大小的软件都侵犯了专利</strong>，"
 "不管软件本身是自由的还是非自由的。"
 
-#: pages/linux.misunderstanding_free_software.php:71
+#: pages/linux.misunderstanding_free_software.php:78
 msgid ""
 "Depending on the holding company's ability to cover very large legal costs, "
 "or to retaliate with other patent threats, royalties and restrictions can be "
@@ -1056,11 +1111,11 @@ msgstr ""
 "视专利持有公司承担巨额法律费用，或回击其他专利威胁的能力而定，可对这些专利征"
 "收专利权使用费，制订相关的限制措施。"
 
-#: pages/linux.misunderstanding_free_software.php:73
+#: pages/linux.misunderstanding_free_software.php:80
 msgid "Read and view more:"
 msgstr "阅读查看更多："
 
-#: pages/linux.misunderstanding_free_software.php:75
+#: pages/linux.misunderstanding_free_software.php:82
 #, fuzzy
 msgid ""
 "Frequently Asked Questions on software patents, by the <acronym title="
@@ -1070,25 +1125,24 @@ msgstr ""
 "\" hreflang=\"en\"><acronym title=\"自由信息基础架构基金会\">FFII</acronym>关"
 "于软件专利的高频提问</a>"
 
-#: pages/linux.misunderstanding_free_software.php:76
+#: pages/linux.misunderstanding_free_software.php:83
 msgid "Short and clear video on \"intellectual property\" by Red Hat"
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:81
+#: pages/linux.misunderstanding_free_software.php:88
 msgid "5. Free software is like communism."
 msgstr "5. 自由软件类似于共产主义。"
 
-#: pages/linux.misunderstanding_free_software.php:83
-#, fuzzy
+#: pages/linux.misunderstanding_free_software.php:90
+#, fuzzy, php-format
 msgid ""
 "Supporters of this idea argue that there can be no private ownership with "
-"free (or \"open source\" <a class=\"footnote\" id=\"footnote2\" href="
-"\"#footnote_bottom2\">2</a>) software. Let's answer this with an example."
+"free (or \"open source\" %s) software. Let's answer this with an example."
 msgstr ""
 "这种想法的支持者争辩说自由（或者“开源”%s）软件不能私有。我们以一个例子来回"
 "应。"
 
-#: pages/linux.misunderstanding_free_software.php:84
+#: pages/linux.misunderstanding_free_software.php:91
 msgid ""
 "Let's imagine that you use one application that is free software, at home "
 "and within your company. You find a great way to improve it, so now with "
@@ -1099,7 +1153,7 @@ msgstr ""
 "来改进它。于是，用你改进的版本，你的电脑工作得更好，你工厂的运转速度翻了一"
 "番！"
 
-#: pages/linux.misunderstanding_free_software.php:85
+#: pages/linux.misunderstanding_free_software.php:92
 msgid ""
 "This modified version is <strong>your own version</strong>. You are not "
 "required to tell anyone about it, nor must you share any of the profits you "
@@ -1109,7 +1163,7 @@ msgstr ""
 "这一改进的版本是<strong>你自己的版本</strong>。你无须把它告知任何人，也不必分"
 "享任何你从中获取的好处。你不过就在运用你的自由使用和修改自由软件。"
 
-#: pages/linux.misunderstanding_free_software.php:86
+#: pages/linux.misunderstanding_free_software.php:93
 msgid ""
 "What the free software license requires is that <strong>if you redistribute</"
 "strong> this software, then you must keep it free. Namely, if you sell CDs "
@@ -1120,7 +1174,7 @@ msgstr ""
 "证它仍是自由的。也就是说，如果你要出售含它们的CD，或者让你家或公司以外的人使"
 "用，那么你必须："
 
-#: pages/linux.misunderstanding_free_software.php:88
+#: pages/linux.misunderstanding_free_software.php:95
 msgid ""
 "Either give everyone the same rights you had when you obtained the original "
 "software, that is, the freedom to inspect, modify and redistribute your "
@@ -1129,7 +1183,7 @@ msgstr ""
 "要么给所有人你获取原软件时所获取的相同的权利，也就是，察看，修改和重发布经你"
 "修改后的版本的自由；"
 
-#: pages/linux.misunderstanding_free_software.php:89
+#: pages/linux.misunderstanding_free_software.php:96
 msgid ""
 "Or, make the original software and your secret addition to it clearly "
 "separate (that is, your addition should contain none of the original work)."
@@ -1137,7 +1191,7 @@ msgstr ""
 "要么，把你的密加部分跟原软件清楚地区分开（也就是，你加的部分不该包含原作的任"
 "何成分）。"
 
-#: pages/linux.misunderstanding_free_software.php:91
+#: pages/linux.misunderstanding_free_software.php:98
 #, php-format
 msgid ""
 "So in fact, you have more \"ownership\" over free software than over "
@@ -1147,7 +1201,7 @@ msgstr ""
 "所以事实上，相较私有软件的情形，程序员决定着你对软件所能做与<a href=\"%s\">不"
 "能做</a>的一切，对自由软件，你有更多的“所有权”。"
 
-#: pages/linux.misunderstanding_free_software.php:92
+#: pages/linux.misunderstanding_free_software.php:99
 msgid ""
 "<em>Free software has nothing to do with a political system.</em> You can "
 "run free software on top of proprietary software, just as well as the "
@@ -1158,23 +1212,23 @@ msgstr ""
 "如相反的情形一样。自由软件许可协议只是程序员与终端用户之间一款有法律效应的，"
 "也符合道德准则的协议。"
 
-#: pages/linux.misunderstanding_free_software.php:96
+#: pages/linux.misunderstanding_free_software.php:103
 #: pages/windows.restrictions.php:81
 msgid "Read more:"
 msgstr "阅读更多："
 
-#: pages/linux.misunderstanding_free_software.php:97
+#: pages/linux.misunderstanding_free_software.php:104
 #, fuzzy
-msgid "Free / &quot;open-source&quot; software can't be secure."
+msgid "Free / \"open-source\" software can't be secure."
 msgstr "自由/“开源”软件不可能安全。"
 
-#: pages/linux.misunderstanding_free_software.php:100
+#: pages/linux.misunderstanding_free_software.php:107
 msgid ""
 "The argument generally goes that since the source code of free software is "
 "available, it is less likely to be secure."
 msgstr "这种论点一般都是说由于自由软件的源代码可得，因此没多大可能安全。"
 
-#: pages/linux.misunderstanding_free_software.php:101
+#: pages/linux.misunderstanding_free_software.php:108
 msgid ""
 "Short answer: The majority of servers run free software. They are the major "
 "networked computers holding sensitive or confidential information such as "
@@ -1183,7 +1237,7 @@ msgstr ""
 "一个短而有力的回答：大部分的服务器都运行自由软件。它们可是持有敏感或机密信息"
 "比如你的银行帐户细节或贸易机密的联了网的计算机。"
 
-#: pages/linux.misunderstanding_free_software.php:102
+#: pages/linux.misunderstanding_free_software.php:109
 msgid ""
 "A more precise answer is that availability of source code is a warrant of "
 "security, not a weakness. The freedom of the software ensures it can be "
@@ -1195,7 +1249,7 @@ msgstr ""
 "广泛的社区察看，测试和改进。一把好锁就算用于设计它的技术是公开的，也是安全"
 "的，因为只有钥匙持有者才能打开它。对软件也是同样的道理。"
 
-#: pages/linux.misunderstanding_free_software.php:103
+#: pages/linux.misunderstanding_free_software.php:110
 #, php-format
 msgid ""
 "Need examples? Have a look at the <a href=\"http://www.getfirefox.com/"
@@ -1212,15 +1266,15 @@ msgstr ""
 "加密系统，或者<a href=\"http://en.wikipedia.org/wiki/OpenBSD\">OpenBSD</a>操"
 "作系统。再有<a href=\"%s#security\">在GNU/Linux下没有间谍软件或电脑病毒</a>。"
 
-#: pages/linux.misunderstanding_free_software.php:106
+#: pages/linux.misunderstanding_free_software.php:113
 msgid "I'm on my own with free software."
 msgstr "用自由软件会让我孤立无援。"
 
-#: pages/linux.misunderstanding_free_software.php:109
+#: pages/linux.misunderstanding_free_software.php:116
 msgid "Not at all."
 msgstr "完全不是。"
 
-#: pages/linux.misunderstanding_free_software.php:111
+#: pages/linux.misunderstanding_free_software.php:118
 #, fuzzy
 msgid ""
 "If you are looking for good documentation and support forums to assist you, "
@@ -1236,7 +1290,7 @@ msgstr ""
 "\">Fedora文档</a>），不过也有一般的自由软件帮助社区，像<a href=\"http://www."
 "nuxified.org/\">Nuxified.org</a>。"
 
-#: pages/linux.misunderstanding_free_software.php:113
+#: pages/linux.misunderstanding_free_software.php:120
 msgid ""
 "If you need someone you can reach on the phone anytime to assist you, the "
 "companies behind most distributions provide commercial support: see the <a "
@@ -1248,11 +1302,11 @@ msgstr ""
 "参见例如<a href=\"http://www.ubuntu.com/support/paid\">Ubuntu商业支持</a>或"
 "<a href=\"http://www.redhat.com/rhel/\">Red Hat企业版Linux</a>页面。"
 
-#: pages/linux.misunderstanding_free_software.php:117
+#: pages/linux.misunderstanding_free_software.php:124
 msgid "Further reading on the web"
 msgstr "网上进一步阅读"
 
-#: pages/linux.misunderstanding_free_software.php:122
+#: pages/linux.misunderstanding_free_software.php:129
 msgid ""
 "This is where free software all started. You will find a wealth of "
 "information about the free software philosophy, the history of the project, "
@@ -1263,13 +1317,13 @@ msgstr ""
 "<a href=\"http://www.fsf.org/\">自由软件基金会</a>（GNU背后的组织）立场的信"
 "息。"
 
-#: pages/linux.misunderstanding_free_software.php:125
+#: pages/linux.misunderstanding_free_software.php:132
 msgid ""
 "The concept of Free&nbsp;/&nbsp;Libre&nbsp;/&nbsp;Open Source Software "
 "presented in a highly readable, friendly way. A must-read."
 msgstr "自由/开源软件的概念以一种非常易读，友好的方式呈现。必读。"
 
-#: pages/linux.misunderstanding_free_software.php:128
+#: pages/linux.misunderstanding_free_software.php:135
 msgid ""
 "A simple and clear website about the free format OpenDocument, showing the "
 "importance of freedom in formats (not just in applications)."
@@ -1277,7 +1331,7 @@ msgstr ""
 "一个关于自由格式开放文档的简明网站，展示了格式（不仅仅是应用程序）中的自由的"
 "重要性。"
 
-#: pages/linux.misunderstanding_free_software.php:131
+#: pages/linux.misunderstanding_free_software.php:138
 msgid ""
 "An engaged article by co-founder of <a href=\"http://www.wikipedia.org/"
 "\">Wikipedia</a> Jimmy Wales, which shows the connections between freedom in "
@@ -1286,7 +1340,7 @@ msgstr ""
 "<a href=\"http://www.wikipedia.org/\">Wikipedia</a>的联合创始人Jimmy Wales描"
 "述软件中的自由与自由知识之间关系的一篇引人入胜的文章。"
 
-#: pages/linux.misunderstanding_free_software.php:146
+#: pages/linux.misunderstanding_free_software.php:153
 #, php-format
 msgid ""
 "What we call \"Free Software\" here is also often called \"Open Source "
@@ -3095,70 +3149,11 @@ msgstr ""
 #~ msgid "no innovation"
 #~ msgstr "没有创新"
 
-#~ msgid ""
-#~ "Applications: <a href=\"http://www.getfirefox.com/\">Firefox</a> (web "
-#~ "browser), <a href=\"http://www.inkscape.org/\">Inkscape</a> (vector "
-#~ "drawing)."
-#~ msgstr ""
-#~ "应用程序：<a href=\"http://www.getfirefox.com/\">Firefox</a>（网页浏览"
-#~ "器），<a href=\"http://www.inkscape.org/\">Inkscape</a>（向量绘图）。"
-
-#~ msgid ""
-#~ "Complete systems: <a href=\"http://en.wikipedia.org/wiki/"
-#~ "Apache_HTTP_Server\">Apache</a> (web server), <a href=\"http://en."
-#~ "wikipedia.org/wiki/OpenBSD\">OpenBSD</a> (<acronym title=\"Operating "
-#~ "System\">OS</acronym>), and of course, GNU/Linux."
-#~ msgstr ""
-#~ "完整的系统：<a href=\"http://en.wikipedia.org/wiki/Apache_HTTP_Server"
-#~ "\">Apache</a>（Web服务器），<a href=\"http://en.wikipedia.org/wiki/OpenBSD"
-#~ "\">OpenBSD</a>（<acronym title=\"Operating System\">OS</acronym>），当然，"
-#~ "还有GNU/Linux。"
-
-#~ msgid ""
-#~ "Formats and protocols: <a href=\"http://en.wikipedia.org/wiki/HTML"
-#~ "\">HTML</a> (web pages), <a href=\"http://en.wikipedia.org/wiki/"
-#~ "BitTorrent_(protocol)\">BitTorrent</a> (file sharing), <a href=\"http://"
-#~ "opendocumentfellowship.com/\">ODF</a> (office documents)."
-#~ msgstr ""
-#~ "格式和协议：<a href=\"http://en.wikipedia.org/wiki/HTML\">HTML</a>（网"
-#~ "页），<a href=\"http://en.wikipedia.org/wiki/BitTorrent_"
-#~ "(protocol)\">BitTorrent</a>（文件共享），<a href=\"http://"
-#~ "opendocumentfellowship.com/\">ODF</a>（办公文档）。"
-
-#~ msgid ""
-#~ "Server applications: <a href=\"http://drupal.org/\">Drupal</a> (Content "
-#~ "Management System), <a href=\"http://www.wordpress.org/\">Wordpress</a> "
-#~ "(blog)."
-#~ msgstr ""
-#~ "服务器应用程序：<a href=\"http://drupal.org/\">Drupal</a>（内容管理系"
-#~ "统），<a href=\"http://www.wordpress.org/\">Wordpress</a>（博客）。"
-
 #~ msgid "no code?"
 #~ msgstr "没有代码？"
 
 #~ msgid "piracy"
 #~ msgstr "剽窃"
-
-#~ msgid "Software patents:"
-#~ msgstr "软件专利："
-
-#~ msgid "Are expensive and are granted only several years after application;"
-#~ msgstr "昂贵且申请后只在若干年里被承认；"
-
-#~ msgid ""
-#~ "Are limited geographically (a patent granted in the US is worthless in "
-#~ "Europe);"
-#~ msgstr "受地域限制（在美国被承认的专利在欧洲没有任何价值）；"
-
-#~ msgid "Have long life-times (often 20 years) in a quickly-moving industry;"
-#~ msgstr "在一个快速变化的产业里有较长的生命期（常常是20年）；"
-
-#~ msgid ""
-#~ "Often apply <a href=\"http://eupat.ffii.org/patents/samples/\">entirely "
-#~ "trivial processes</a>."
-#~ msgstr ""
-#~ "往往用于<a href=\"http://eupat.ffii.org/patents/samples/\">完全琐碎的过程"
-#~ "</a>。"
 
 #~ msgid ""
 #~ "<a href=\"http://www.redhat.com/magazine/007may05/features/ip/\" hreflang="

@@ -18,8 +18,8 @@
 
     <title><?php print _("get GNU/Linux!"); ?></title>
 
-    <meta name="description" content="Get GNU/Linux! A simple, clear website about Linux. | What is Linux? | Why not Windows? | Tips to make the switch"/>
-    <meta name="keywords" content="linux, gnu/linux, free software, software freedom, open-source, windows alternative, get linux, switch to linux" />
+    <meta name="description" content="<?php print _("Get GNU/Linux! A simple, clear website about Linux. | What is Linux? | Why not Windows? | Tips to make the switch"); ?>"/>
+    <meta name="keywords" content="<?php print _("linux, gnu/linux, free software, software freedom, open-source, windows alternative, get linux, switch to linux"); ?>" />
 
     <?php
     $p = isset($_GET['p']) ? $_GET['p'] : NULL;

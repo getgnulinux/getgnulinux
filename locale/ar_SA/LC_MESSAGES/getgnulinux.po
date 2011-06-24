@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: getgnulinux 0.0.1\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2011-06-19 21:51+0200\n"
+"POT-Creation-Date: 2011-06-24 23:53+0200\n"
 "PO-Revision-Date: 2011-06-19 21:31+0100\n"
 "Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,14 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: include/footer.php:16
+#, php-format
+msgid ""
+"Except where otherwise <a href=\"%s\">noted</a>, content on this site is "
+"licensed under a <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" "
+"rel=\"license\">CC BY-SA 3.0 License</a>."
+msgstr ""
 
 #: include/footer.php:20 pages/more.php:81
 msgid "Terms of Use"
@@ -32,6 +40,18 @@ msgstr ""
 msgid "get GNU/Linux!"
 msgstr ""
 
+#: include/header.php:21
+msgid ""
+"Get GNU/Linux! A simple, clear website about Linux. | What is Linux? | Why "
+"not Windows? | Tips to make the switch"
+msgstr ""
+
+#: include/header.php:22
+msgid ""
+"linux, gnu/linux, free software, software freedom, open-source, windows "
+"alternative, get linux, switch to linux"
+msgstr ""
+
 #: include/header.php:95
 msgid "skip to content"
 msgstr ""
@@ -41,7 +61,7 @@ msgid "Alternate languages"
 msgstr ""
 
 #: include/header.php:148 pages/home.php:21 pages/linux.linux_faq.php:322
-#: pages/linux.misunderstanding_free_software.php:149
+#: pages/linux.misunderstanding_free_software.php:156
 #: pages/linux.screenshots.php:4 pages/linux.screenshots.php:54
 #: pages/windows.php:75
 #, fuzzy
@@ -424,7 +444,7 @@ msgstr ""
 
 #: pages/linux.linux_faq.php:130 pages/linux.linux_faq.php:174
 #: pages/linux.linux_faq.php:186
-#: pages/linux.misunderstanding_free_software.php:7 pages/linux.php:56
+#: pages/linux.misunderstanding_free_software.php:14 pages/linux.php:56
 #: pages/windows.stand_for_a_free_society.php:187
 msgid "How to Misunderstand Free Software"
 msgstr "كيفية فهم البرامج الحرة بشكل خاطئ"
@@ -808,7 +828,7 @@ msgstr ""
 "قسيمة جديدة</a> ."
 
 #: pages/linux.linux_faq.php:322
-#: pages/linux.misunderstanding_free_software.php:149
+#: pages/linux.misunderstanding_free_software.php:156
 #: pages/linux.screenshots.php:4 pages/linux.screenshots.php:54
 #: pages/windows.restrictions.further_details.php:4
 #: pages/windows.restrictions.further_details.php:81
@@ -823,7 +843,7 @@ msgstr ""
 "#-#-#-#-#  linux.screenshots.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "عودة للأعلى:"
 
-#: pages/linux.misunderstanding_free_software.php:9
+#: pages/linux.misunderstanding_free_software.php:16
 msgid ""
 "Five misconceptions about <a href=\"http://www.softwareliberty.com/\">free "
 "software</a>, corrected."
@@ -831,12 +851,12 @@ msgstr ""
 "تصحيح خمس مفاهيم خاطئة حول <a href=\"http://www.gnu.org/philosophy/free-sw."
 "ar.html\">البرامج الحرة</a>."
 
-#: pages/linux.misunderstanding_free_software.php:13
+#: pages/linux.misunderstanding_free_software.php:20
 msgid ""
 "1. The software industry can't keep going if programmers don't get paid."
 msgstr "1. لا يمكن لصناعة البرامج أن تستمر إذا لم يتلقى المبرمجون أجورًا."
 
-#: pages/linux.misunderstanding_free_software.php:15
+#: pages/linux.misunderstanding_free_software.php:22
 msgid ""
 "Let's begin with one simple fact: free software programmers <em>do</em> like "
 "to get paid, and all need to buy lunch at some time."
@@ -844,20 +864,18 @@ msgstr ""
 "لنبدأ بحقيقة بسيطة: مبرمجو البرامج الحرّة <em>يحبون</em> تلقي الأجور، وكلهم "
 "يحتاجون لشراء غذائهم في وقت ما."
 
-#: pages/linux.misunderstanding_free_software.php:16
-#, fuzzy
+#: pages/linux.misunderstanding_free_software.php:23
+#, fuzzy, php-format
 msgid ""
 "When we mention free software, we refer to <strong>liberty not price</"
 "strong>. You may actually pay to get free software (or \"open source\" "
-"software <a class=\"footnote\" id=\"footnote1\" href="
-"\"#footnote_bottom1\">1</a>), which you can then study, change and copy at "
-"will."
+"software %s), which you can then study, change and copy at will."
 msgstr ""
 "عندما نذكر البرامج الحرّة، فإننا نشير إلى <strong>الحرية وليس السعر</strong>. "
 "ربما في الواقع تدفع لتحصل على برمجيات حرّة (أو \"مفتوحة المصدر\" %s)، والتي "
 "يمكنك دراستها وتعديلها ونسخها كما تريد."
 
-#: pages/linux.misunderstanding_free_software.php:18
+#: pages/linux.misunderstanding_free_software.php:25
 msgid ""
 "How does it work? You can think about it the following way: software is just "
 "code, code is only math. Once you view software as <strong>useful math</"
@@ -869,7 +887,7 @@ msgstr ""
 "لغة مفصلة وليست كالممتلكات العادية، فلن يكون هناك سبب لمنع الأخرين من "
 "إستخدامها."
 
-#: pages/linux.misunderstanding_free_software.php:19
+#: pages/linux.misunderstanding_free_software.php:26
 #, fuzzy
 msgid ""
 "Just like math (where nobody would claim property on an equation), software "
@@ -883,7 +901,7 @@ msgstr ""
 "المبرمجون دخلا. عدة عملاء -خاصة الشركات- يرغبون في الدفع لتحديثات حماية "
 "دورية وتطويرات في البرامج."
 
-#: pages/linux.misunderstanding_free_software.php:20
+#: pages/linux.misunderstanding_free_software.php:27
 msgid ""
 "Free software companies benefit from a very decentralised development system "
 "with a large number of voluntary contributors. The revenues inside the free "
@@ -896,7 +914,7 @@ msgstr ""
 "البرمجيات الاحتكارية، لكنها ليست مهملة بأي شكل. في النهاية، ينتهي المستخدمون "
 "الفرديون عمومًا باستخدام البرمجيات الحرّة بدون تكلفة."
 
-#: pages/linux.misunderstanding_free_software.php:21
+#: pages/linux.misunderstanding_free_software.php:28
 msgid ""
 "Free software is not about killing incentives for programmers. It's about "
 "seeing code as knowledge which should not be hidden from the user. It works "
@@ -906,69 +924,95 @@ msgstr ""
 "البرمجية بوصفها علمًا لا يجب كتمه عن المستخدم ، و هو ينفع في نماذج تجارية "
 "مختلفة ، حيث يقوم حاليًا بتطوير البرامج الحرة العديد من الشركات ."
 
-#: pages/linux.misunderstanding_free_software.php:24
+#: pages/linux.misunderstanding_free_software.php:31
 msgid "2. Innovation is killed in free software."
 msgstr "2.البرامج الحرة تقتل الإبداع."
 
-#: pages/linux.misunderstanding_free_software.php:26
+#: pages/linux.misunderstanding_free_software.php:33
 msgid ""
 "The common perception is that if everyone can copy ideas, innovation will be "
 "stifled."
 msgstr ""
 "الفهم الشائع هو أنّه إذا أمكن كل شخص نسخ الأفكار ، فسيكون الإبداع مكبوتًا ."
 
-#: pages/linux.misunderstanding_free_software.php:27
+#: pages/linux.misunderstanding_free_software.php:34
 msgid ""
 "In fact, freedom is often <strong>the key to innovative and successful "
 "software</strong>."
 msgstr ""
 "ولكن ، الحرية غالبًا هي <strong>المفتاح للإبداع و البرامج الناجحة</strong>."
 
-#: pages/linux.misunderstanding_free_software.php:29
+#: pages/linux.misunderstanding_free_software.php:36
 msgid "Anyone is allowed and encouraged to work upon it;"
 msgstr "يسمح للجميع ويُشْجُّعون على أن يبنوا عليه ،"
 
-#: pages/linux.misunderstanding_free_software.php:30
+#: pages/linux.misunderstanding_free_software.php:37
 msgid "Many people are willing to participate;"
 msgstr "ويرغب كثيرون في المشاركة ،"
 
-#: pages/linux.misunderstanding_free_software.php:31
+#: pages/linux.misunderstanding_free_software.php:38
 msgid ""
 "There is no need to re-invent everything, ideas can be improved upon "
 "directly."
 msgstr "ليس ثَمَّ حاجة لاختراع كل شيء مجددًا ، يمكن أن تُطور الأفكار مباشرة."
 
-#: pages/linux.misunderstanding_free_software.php:34
+#: pages/linux.misunderstanding_free_software.php:41
 msgid ""
 "Non-proprietary software stands out in many areas: consider, to name just a "
 "few:"
 msgstr "توجد البرامج الحرة في عدد من الأماكن ، و هذه بعضها:"
 
-#: pages/linux.misunderstanding_free_software.php:36
-msgid "Applications:"
+#: pages/linux.misunderstanding_free_software.php:43
+msgid ""
+"Applications: <a href=\"http://www.getfirefox.com/\">Firefox</a> (web "
+"browser), <a href=\"http://www.inkscape.org/\">Inkscape</a> (vector drawing)."
 msgstr ""
-
-#: pages/linux.misunderstanding_free_software.php:37
-msgid "Complete systems:"
-msgstr ""
-
-#: pages/linux.misunderstanding_free_software.php:38
-msgid "Formats and protocols:"
-msgstr ""
-
-#: pages/linux.misunderstanding_free_software.php:39
-msgid "Server applications:"
-msgstr ""
+"تطبيقات: <a href=\"http://www.getfirefox.com/\">فايرفوكس</a> (متصفح وِب) و <a "
+"href=\"http://www.inkscape.org/\">إنك سكايب</a> (رسم متجه)."
 
 #: pages/linux.misunderstanding_free_software.php:44
+msgid ""
+"Complete systems: <a href=\"http://en.wikipedia.org/wiki/Apache_HTTP_Server"
+"\">Apache</a> (web server), <a href=\"http://en.wikipedia.org/wiki/OpenBSD"
+"\">OpenBSD</a> (<acronym title=\"Operating System\">OS</acronym>), and of "
+"course, GNU/Linux."
+msgstr ""
+"أنظمة متكاملة : <a href=\"http://en.wikipedia.org/wiki/Apache_HTTP_Server"
+"\">أباتشي</a> (خادم وِب) و <a href=\"http://en.wikipedia.org/wiki/OpenBSD"
+"\">أوبِن بي إس دي</a> (<acronym title=\"Operating System\">نظام تشغيل</"
+"acronym>) و بالتأكيد جنو/لينكس."
+
+#: pages/linux.misunderstanding_free_software.php:45
+msgid ""
+"Formats and protocols: <a href=\"http://en.wikipedia.org/wiki/HTML\">HTML</"
+"a> (web pages), <a href=\"http://en.wikipedia.org/wiki/BitTorrent_"
+"(protocol)\">BitTorrent</a> (file sharing), <a href=\"http://"
+"opendocumentfellowship.com/\">ODF</a> (office documents)."
+msgstr ""
+"صيغ و بروتوكولات : <a href=\"http://en.wikipedia.org/wiki/HTML\">إتش تي إم "
+"إل</a> (صفحات وِب) و <a href=\"http://en.wikipedia.org/wiki/BitTorrent_"
+"(protocol)\">بِت تورِنت</a> (مشاركة ملفات) و <a href=\"http://"
+"opendocumentfellowship.com/\">أو دي إف</a> (وثائق مكتبية)."
+
+#: pages/linux.misunderstanding_free_software.php:46
+#, fuzzy
+msgid ""
+"Server applications: <a href=\"http://drupal.org/\">Drupal</a> (Content "
+"Management System), <a href=\"http://www.wordpress.org/\">Wordpress</a> "
+"(blog)."
+msgstr ""
+"خوادم تطبيقات : <a href=\"http://drupal.org/\">دروبال</a> (نظام إدارة محتوى) "
+"و <a href=\"http://www.wordpress.org/\">وورد برِس</a> (مدونة)."
+
+#: pages/linux.misunderstanding_free_software.php:51
 msgid "3. Software Should Just Work (who cares about source code?)"
 msgstr "3. البرامج يجب أن تعمل فقط (من يهتم بشفرة المصدر؟)"
 
-#: pages/linux.misunderstanding_free_software.php:46
+#: pages/linux.misunderstanding_free_software.php:53
 msgid "Anyone should care about whether their software is free."
 msgstr "يجب على الجميع الإهتمام بكون برمجياتهم حرة أو لا."
 
-#: pages/linux.misunderstanding_free_software.php:47
+#: pages/linux.misunderstanding_free_software.php:54
 msgid ""
 "Imagine purchasing a car whose hood you are forbidden to open. It does not "
 "matter whether you know how a car works &ndash; the point is that nobody "
@@ -981,7 +1025,7 @@ msgstr ""
 "بسيارتك، إذا لم يكون مسموحاً لأحد أن يتأكد اذا كان بالإمكان الإعتماد عليهاوأن "
 "ليس بها أي تسربات وأنها لاتضر المجتمع أو البيئة؟"
 
-#: pages/linux.misunderstanding_free_software.php:48
+#: pages/linux.misunderstanding_free_software.php:55
 msgid ""
 "The idea is the same with software &ndash; except that code does "
 "<strong>much more</strong> than move cars. Software runs our computers, "
@@ -991,7 +1035,7 @@ msgstr ""
 "<strong> أكثر بكثير </strong> من مجرد تحريك السيارة. البرمجيات تحرك حاسباتنا "
 "وهواتفنا وتلفزيوناتنا ومشغلات الوسائط واكثر، تحمل المعلومات وحضارتنا. "
 
-#: pages/linux.misunderstanding_free_software.php:49
+#: pages/linux.misunderstanding_free_software.php:56
 msgid ""
 "Free software is as important as free speech, as a free market. If software "
 "is free, users have control and liberty over it."
@@ -999,7 +1043,7 @@ msgstr ""
 "البرامج الحرة مهمة كأهمية حرية الكلام ، و كأهمية السوق الحرة . إذا كانت "
 "البرامج حرة ، فإنّ لدى المستخدمين الحرية و التحكم عليها."
 
-#: pages/linux.misunderstanding_free_software.php:50
+#: pages/linux.misunderstanding_free_software.php:57
 #, php-format
 msgid ""
 "The good news are: <em>free software also Just Works.</em> And in fact, it "
@@ -1011,12 +1055,12 @@ msgstr ""
 "أحيانًا تعمل بشكل أفضل . <a href=\"%s\">ضع قرصًا حيًا لجنو/لينُكس </a> في حاسوبك "
 "أثناءالإقلاع ، لتجرب نظامًا مليئًا بالمميزات و منظمًا ."
 
-#: pages/linux.misunderstanding_free_software.php:53
+#: pages/linux.misunderstanding_free_software.php:60
 msgid ""
 "4. Free software doesn't respect authors' copyrighted and patented software."
 msgstr "4. البرمجيات الحرّة لا تحترم حقوق المؤلف وبراءات اختراعه."
 
-#: pages/linux.misunderstanding_free_software.php:55
+#: pages/linux.misunderstanding_free_software.php:62
 msgid ""
 "To answer this correctly, we must first make a clear distinction between "
 "copyright and patents. Copyright is a right granted to the author over his/"
@@ -1025,7 +1069,7 @@ msgid ""
 "control over a process, the application of an idea."
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:57
+#: pages/linux.misunderstanding_free_software.php:64
 msgid ""
 "<strong>Copyright is very important in free software.</strong> It is the "
 "very mechanism, central to the <a href=\"http://www.gnu.org/copyleft/gpl.html"
@@ -1038,7 +1082,7 @@ msgstr ""
 "a>، والتي تضمن بقاء البرمجيات الحرّة حرّة، وإقرار أعمال المؤلفين. البرمجيات "
 "تخضع لحقوق النسخ، سواء كانت حرّة أو احتكارية."
 
-#: pages/linux.misunderstanding_free_software.php:58
+#: pages/linux.misunderstanding_free_software.php:65
 #, fuzzy
 msgid ""
 "Any proprietary software author can easily check that his copyright is not "
@@ -1048,7 +1092,7 @@ msgstr ""
 "أي مؤلف برمجيات احتكارية يمكنه بسهولة التحقق إن كان برنامج حرّ ينتهك حقوق "
 "النسخ الخاصة به، حيث أن الشفرة المصدرية متاحة جاهزة."
 
-#: pages/linux.misunderstanding_free_software.php:60
+#: pages/linux.misunderstanding_free_software.php:67
 msgid ""
 "Patents in software, on the other hand, are a very controversial concept. To "
 "put it shortly: there is <strong>no such thing as a \"patented software\"</"
@@ -1057,45 +1101,54 @@ msgid ""
 "this process, whether proprietary or free."
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:61
-msgid ""
-"Software patents:</p>\n"
-"<ul>\n"
-"<li>Are expensive and are granted only several years after application;</"
-"li>\n"
-"<li>Are limited geographically (a patent granted in the US is worthless in "
-"Europe);</li>\n"
-"<li>Have long life-times (often 20 years) in a quickly-moving industry;</"
-"li>\n"
-"<li>Often apply <a href=\"http://eupat.ffii.org/patents/samples/\">entirely "
-"trivial processes</a>.</li>\n"
-"</ul>"
+#: pages/linux.misunderstanding_free_software.php:68
+msgid "Software patents:"
+msgstr "براءات اختراع البرمجيات:"
+
+#: pages/linux.misunderstanding_free_software.php:70
+msgid "Are expensive and are granted only several years after application;"
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:68
+#: pages/linux.misunderstanding_free_software.php:71
+msgid ""
+"Are limited geographically (a patent granted in the US is worthless in "
+"Europe);"
+msgstr ""
+
+#: pages/linux.misunderstanding_free_software.php:72
+msgid "Have long life-times (often 20 years) in a quickly-moving industry;"
+msgstr ""
+
+#: pages/linux.misunderstanding_free_software.php:73
+msgid ""
+"Often apply <a href=\"http://eupat.ffii.org/patents/samples/\">entirely "
+"trivial processes</a>."
+msgstr ""
+
+#: pages/linux.misunderstanding_free_software.php:75
 msgid ""
 "As such, they are seldom used to benefit innovators (and in fact, rarely "
 "used by the innovators themselves)."
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:70
+#: pages/linux.misunderstanding_free_software.php:77
 msgid ""
 "It's safe to say that <strong>any medium-size piece of software violates "
 "patents</strong>, in several countries, whether it's free or not."
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:71
+#: pages/linux.misunderstanding_free_software.php:78
 msgid ""
 "Depending on the holding company's ability to cover very large legal costs, "
 "or to retaliate with other patent threats, royalties and restrictions can be "
 "applied over these patents."
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:73
+#: pages/linux.misunderstanding_free_software.php:80
 msgid "Read and view more:"
 msgstr "اقرأ واعرض المزيد:"
 
-#: pages/linux.misunderstanding_free_software.php:75
+#: pages/linux.misunderstanding_free_software.php:82
 #, fuzzy
 msgid ""
 "Frequently Asked Questions on software patents, by the <acronym title="
@@ -1105,22 +1158,22 @@ msgstr ""
 "\" hreflang=\"en\">أسئلة شائعة عن براءات اختراع البرمجيات من <acronym title="
 "\"Foundation for a Free Information Infrastructure\">FFII</acronym></a>"
 
-#: pages/linux.misunderstanding_free_software.php:76
+#: pages/linux.misunderstanding_free_software.php:83
 msgid "Short and clear video on \"intellectual property\" by Red Hat"
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:81
+#: pages/linux.misunderstanding_free_software.php:88
 msgid "5. Free software is like communism."
 msgstr "5. البرمجيات الحرّة تشبه الشيوعية."
 
-#: pages/linux.misunderstanding_free_software.php:83
+#: pages/linux.misunderstanding_free_software.php:90
+#, php-format
 msgid ""
 "Supporters of this idea argue that there can be no private ownership with "
-"free (or \"open source\" <a class=\"footnote\" id=\"footnote2\" href="
-"\"#footnote_bottom2\">2</a>) software. Let's answer this with an example."
+"free (or \"open source\" %s) software. Let's answer this with an example."
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:84
+#: pages/linux.misunderstanding_free_software.php:91
 msgid ""
 "Let's imagine that you use one application that is free software, at home "
 "and within your company. You find a great way to improve it, so now with "
@@ -1128,7 +1181,7 @@ msgid ""
 "twice as fast!"
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:85
+#: pages/linux.misunderstanding_free_software.php:92
 msgid ""
 "This modified version is <strong>your own version</strong>. You are not "
 "required to tell anyone about it, nor must you share any of the profits you "
@@ -1136,7 +1189,7 @@ msgid ""
 "software."
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:86
+#: pages/linux.misunderstanding_free_software.php:93
 msgid ""
 "What the free software license requires is that <strong>if you redistribute</"
 "strong> this software, then you must keep it free. Namely, if you sell CDs "
@@ -1144,20 +1197,20 @@ msgid ""
 "company use it, then you must:"
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:88
+#: pages/linux.misunderstanding_free_software.php:95
 msgid ""
 "Either give everyone the same rights you had when you obtained the original "
 "software, that is, the freedom to inspect, modify and redistribute your "
 "modified version;"
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:89
+#: pages/linux.misunderstanding_free_software.php:96
 msgid ""
 "Or, make the original software and your secret addition to it clearly "
 "separate (that is, your addition should contain none of the original work)."
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:91
+#: pages/linux.misunderstanding_free_software.php:98
 #, php-format
 msgid ""
 "So in fact, you have more \"ownership\" over free software than over "
@@ -1165,7 +1218,7 @@ msgid ""
 "<a href=\"%s\">and can't do</a> with the software."
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:92
+#: pages/linux.misunderstanding_free_software.php:99
 msgid ""
 "<em>Free software has nothing to do with a political system.</em> You can "
 "run free software on top of proprietary software, just as well as the "
@@ -1173,29 +1226,30 @@ msgid ""
 "between the programmer and the end-user."
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:96
+#: pages/linux.misunderstanding_free_software.php:103
 #: pages/windows.restrictions.php:81
 msgid "Read more:"
 msgstr "اقرأ المزيد:"
 
-#: pages/linux.misunderstanding_free_software.php:97
-msgid "Free / &quot;open-source&quot; software can't be secure."
-msgstr ""
+#: pages/linux.misunderstanding_free_software.php:104
+#, fuzzy
+msgid "Free / \"open-source\" software can't be secure."
+msgstr "مكونات البرامج لا يجوز فصلها"
 
-#: pages/linux.misunderstanding_free_software.php:100
+#: pages/linux.misunderstanding_free_software.php:107
 msgid ""
 "The argument generally goes that since the source code of free software is "
 "available, it is less likely to be secure."
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:101
+#: pages/linux.misunderstanding_free_software.php:108
 msgid ""
 "Short answer: The majority of servers run free software. They are the major "
 "networked computers holding sensitive or confidential information such as "
 "your bank details or trade secrets."
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:102
+#: pages/linux.misunderstanding_free_software.php:109
 msgid ""
 "A more precise answer is that availability of source code is a warrant of "
 "security, not a weakness. The freedom of the software ensures it can be "
@@ -1204,7 +1258,7 @@ msgid ""
 "holder can open it. The same goes for software."
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:103
+#: pages/linux.misunderstanding_free_software.php:110
 #, php-format
 msgid ""
 "Need examples? Have a look at the <a href=\"http://www.getfirefox.com/"
@@ -1216,15 +1270,15 @@ msgid ""
 "GNU/Linux</a>."
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:106
+#: pages/linux.misunderstanding_free_software.php:113
 msgid "I'm on my own with free software."
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:109
+#: pages/linux.misunderstanding_free_software.php:116
 msgid "Not at all."
 msgstr "إطلاقا."
 
-#: pages/linux.misunderstanding_free_software.php:111
+#: pages/linux.misunderstanding_free_software.php:118
 msgid ""
 "If you are looking for good documentation and support forums to assist you, "
 "there is plenty available for free (&quot;open source&quot;) software.<br/>\n"
@@ -1235,7 +1289,7 @@ msgid ""
 "org/\">Nuxified.org</a>."
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:113
+#: pages/linux.misunderstanding_free_software.php:120
 msgid ""
 "If you need someone you can reach on the phone anytime to assist you, the "
 "companies behind most distributions provide commercial support: see the <a "
@@ -1244,11 +1298,11 @@ msgid ""
 "for example."
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:117
+#: pages/linux.misunderstanding_free_software.php:124
 msgid "Further reading on the web"
 msgstr "قراءات أكثر على الويب"
 
-#: pages/linux.misunderstanding_free_software.php:122
+#: pages/linux.misunderstanding_free_software.php:129
 msgid ""
 "This is where free software all started. You will find a wealth of "
 "information about the free software philosophy, the history of the project, "
@@ -1256,26 +1310,26 @@ msgid ""
 "Foundation</a> (the organisation behind GNU)."
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:125
+#: pages/linux.misunderstanding_free_software.php:132
 msgid ""
 "The concept of Free&nbsp;/&nbsp;Libre&nbsp;/&nbsp;Open Source Software "
 "presented in a highly readable, friendly way. A must-read."
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:128
+#: pages/linux.misunderstanding_free_software.php:135
 msgid ""
 "A simple and clear website about the free format OpenDocument, showing the "
 "importance of freedom in formats (not just in applications)."
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:131
+#: pages/linux.misunderstanding_free_software.php:138
 msgid ""
 "An engaged article by co-founder of <a href=\"http://www.wikipedia.org/"
 "\">Wikipedia</a> Jimmy Wales, which shows the connections between freedom in "
 "software and free knowledge."
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:146
+#: pages/linux.misunderstanding_free_software.php:153
 #, php-format
 msgid ""
 "What we call \"Free Software\" here is also often called \"Open Source "
@@ -3129,52 +3183,11 @@ msgstr ""
 #~ msgid "no innovation"
 #~ msgstr "لا إبداع"
 
-#~ msgid ""
-#~ "Applications: <a href=\"http://www.getfirefox.com/\">Firefox</a> (web "
-#~ "browser), <a href=\"http://www.inkscape.org/\">Inkscape</a> (vector "
-#~ "drawing)."
-#~ msgstr ""
-#~ "تطبيقات: <a href=\"http://www.getfirefox.com/\">فايرفوكس</a> (متصفح وِب) و "
-#~ "<a href=\"http://www.inkscape.org/\">إنك سكايب</a> (رسم متجه)."
-
-#~ msgid ""
-#~ "Complete systems: <a href=\"http://en.wikipedia.org/wiki/"
-#~ "Apache_HTTP_Server\">Apache</a> (web server), <a href=\"http://en."
-#~ "wikipedia.org/wiki/OpenBSD\">OpenBSD</a> (<acronym title=\"Operating "
-#~ "System\">OS</acronym>), and of course, GNU/Linux."
-#~ msgstr ""
-#~ "أنظمة متكاملة : <a href=\"http://en.wikipedia.org/wiki/Apache_HTTP_Server"
-#~ "\">أباتشي</a> (خادم وِب) و <a href=\"http://en.wikipedia.org/wiki/OpenBSD"
-#~ "\">أوبِن بي إس دي</a> (<acronym title=\"Operating System\">نظام تشغيل</"
-#~ "acronym>) و بالتأكيد جنو/لينكس."
-
-#~ msgid ""
-#~ "Formats and protocols: <a href=\"http://en.wikipedia.org/wiki/HTML"
-#~ "\">HTML</a> (web pages), <a href=\"http://en.wikipedia.org/wiki/"
-#~ "BitTorrent_(protocol)\">BitTorrent</a> (file sharing), <a href=\"http://"
-#~ "opendocumentfellowship.com/\">ODF</a> (office documents)."
-#~ msgstr ""
-#~ "صيغ و بروتوكولات : <a href=\"http://en.wikipedia.org/wiki/HTML\">إتش تي "
-#~ "إم إل</a> (صفحات وِب) و <a href=\"http://en.wikipedia.org/wiki/BitTorrent_"
-#~ "(protocol)\">بِت تورِنت</a> (مشاركة ملفات) و <a href=\"http://"
-#~ "opendocumentfellowship.com/\">أو دي إف</a> (وثائق مكتبية)."
-
-#~ msgid ""
-#~ "Server applications: <a href=\"http://drupal.org/\">Drupal</a> (Content "
-#~ "Management System), <a href=\"http://www.wordpress.org/\">Wordpress</a> "
-#~ "(blog)."
-#~ msgstr ""
-#~ "خوادم تطبيقات : <a href=\"http://drupal.org/\">دروبال</a> (نظام إدارة "
-#~ "محتوى) و <a href=\"http://www.wordpress.org/\">وورد برِس</a> (مدونة)."
-
 #~ msgid "no code?"
 #~ msgstr "لا شفرة؟"
 
 #~ msgid "piracy"
 #~ msgstr "قرصنة"
-
-#~ msgid "Software patents:"
-#~ msgstr "براءات اختراع البرمجيات:"
 
 #, fuzzy
 #~ msgid ""

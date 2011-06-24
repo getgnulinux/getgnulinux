@@ -1,4 +1,11 @@
-<?php $this->load_header(); ?>
+<?php
+
+$this->load_header();
+
+$footnote1 = '<a class="footnote" id="footnote1" href="#footnote_bottom1">1</a>';
+$footnote2 = '<a class="footnote" id="footnote2" href="#footnote_bottom2">2</a>';
+
+?>
 
 <div id="maincontent">
 
@@ -13,7 +20,7 @@
 <h2 id="programmers_paid"><?php print _("1. The software industry can't keep going if programmers don't get paid."); ?></h2>
 <img width="125" height="104" alt="no money" src="/images/linux/linux.misunderstanding_free_software.mfs1.png"/>
 <p><?php print _("Let's begin with one simple fact: free software programmers <em>do</em> like to get paid, and all need to buy lunch at some time."); ?></p>
-<p><?php print _("When we mention free software, we refer to <strong>liberty not price</strong>. You may actually pay to get free software (or \"open source\" software <a class=\"footnote\" id=\"footnote1\" href=\"#footnote_bottom1\">1</a>), which you can then study, change and copy at will."); ?></p>
+<p><?php $p = _("When we mention free software, we refer to <strong>liberty not price</strong>. You may actually pay to get free software (or \"open source\" software %s), which you can then study, change and copy at will."); printf($p, $footnote1); ?></p>
 
 <p><?php print _("How does it work? You can think about it the following way: software is just code, code is only math. Once you view software as <strong>useful math</strong>, an elaborate language, not like ordinary property, there is no reason to restrict others' use of it."); ?></p>
 <p><?php print _("Just like math (where nobody would claim property on an equation), software requires advanced knowledge to be adapted, improved, applied correctly. This is where programmers generally generate an income: many customers, especially companies, are willing to pay for regular security updates and improvements on software."); ?></p>
@@ -33,10 +40,10 @@
 <div id="applist">
 <p><?php print _("Non-proprietary software stands out in many areas: consider, to name just a few:"); ?></p>
 <ul>
-<li><?php print _("Applications:"); ?> <a href="http://www.getfirefox.com/">Firefox</a> (web browser), <a href="http://www.inkscape.org/">Inkscape</a> (vector drawing).</li>
-<li><?php print _("Complete systems:"); ?> <a href="http://en.wikipedia.org/wiki/Apache_HTTP_Server">Apache</a> (web server), <a href="http://en.wikipedia.org/wiki/OpenBSD">OpenBSD</a> (<acronym title="Operating System">OS</acronym>), and of course, GNU/Linux.</li>
-<li><?php print _("Formats and protocols:"); ?> <a href="http://en.wikipedia.org/wiki/HTML">HTML</a> (web pages), <a href="http://en.wikipedia.org/wiki/BitTorrent_(protocol)">BitTorrent</a> (file sharing), <a href="http://opendocumentfellowship.com/">ODF</a> (office documents).</li>
-<li><?php print _("Server applications:"); ?> <a href="http://drupal.org/">Drupal</a> (Content Management System), <a href="http://www.wordpress.org/">Wordpress</a> (blog).</li>
+<li><?php print _("Applications: <a href=\"http://www.getfirefox.com/\">Firefox</a> (web browser), <a href=\"http://www.inkscape.org/\">Inkscape</a> (vector drawing)."); ?></li>
+<li><?php print _("Complete systems: <a href=\"http://en.wikipedia.org/wiki/Apache_HTTP_Server\">Apache</a> (web server), <a href=\"http://en.wikipedia.org/wiki/OpenBSD\">OpenBSD</a> (<acronym title=\"Operating System\">OS</acronym>), and of course, GNU/Linux."); ?></li>
+<li><?php print _("Formats and protocols: <a href=\"http://en.wikipedia.org/wiki/HTML\">HTML</a> (web pages), <a href=\"http://en.wikipedia.org/wiki/BitTorrent_(protocol)\">BitTorrent</a> (file sharing), <a href=\"http://opendocumentfellowship.com/\">ODF</a> (office documents)."); ?></li>
+<li><?php print _("Server applications: <a href=\"http://drupal.org/\">Drupal</a> (Content Management System), <a href=\"http://www.wordpress.org/\">Wordpress</a> (blog)."); ?></li>
 </ul>
 </div>
 
@@ -58,13 +65,13 @@
 <p><?php print _("Any proprietary software author can easily check that his copyright is not violated in a free software application, since its source code is readily available."); ?></p>
 
 <p><?php print _("Patents in software, on the other hand, are a very controversial concept. To put it shortly: there is <strong>no such thing as a \"patented software\"</strong>. By registering for a patent, however, someone can claim ownership over a <em>process</em>. The patent then applies to all software that use this process, whether proprietary or free."); ?></p>
-<p><?php print _("Software patents:</p>
+<p><?php print _("Software patents:"); ?></p>
 <ul>
-<li>Are expensive and are granted only several years after application;</li>
-<li>Are limited geographically (a patent granted in the US is worthless in Europe);</li>
-<li>Have long life-times (often 20 years) in a quickly-moving industry;</li>
-<li>Often apply <a href=\"http://eupat.ffii.org/patents/samples/\">entirely trivial processes</a>.</li>
-</ul>"); ?>
+<li><?php print _("Are expensive and are granted only several years after application;"); ?></li>
+<li><?php print _("Are limited geographically (a patent granted in the US is worthless in Europe);"); ?></li>
+<li><?php print _("Have long life-times (often 20 years) in a quickly-moving industry;"); ?></li>
+<li><?php print _("Often apply <a href=\"http://eupat.ffii.org/patents/samples/\">entirely trivial processes</a>."); ?></li>
+</ul>
 <p><?php print _("As such, they are seldom used to benefit innovators (and in fact, rarely used by the innovators themselves)."); ?></p>
 
 <p><?php print _("It's safe to say that <strong>any medium-size piece of software violates patents</strong>, in several countries, whether it's free or not."); ?></p>
@@ -80,7 +87,7 @@
 
 <h2 id="competitive_advantage"><?php print _("5. Free software is like communism."); ?></h2>
 <img  width="125" height="104" alt="communism" src="/images/linux/linux.misunderstanding_free_software.mfs5.png"/>
-<p><?php print _("Supporters of this idea argue that there can be no private ownership with free (or \"open source\" <a class=\"footnote\" id=\"footnote2\" href=\"#footnote_bottom2\">2</a>) software. Let's answer this with an example."); ?></p>
+<p><?php $p = _("Supporters of this idea argue that there can be no private ownership with free (or \"open source\" %s) software. Let's answer this with an example."); printf($p, $footnote2);?></p>
 <p><?php print _("Let's imagine that you use one application that is free software, at home and within your company. You find a great way to improve it, so now with your modified version, your computer works better and your factories run twice as fast!"); ?></p>
 <p><?php print _("This modified version is <strong>your own version</strong>. You are not required to tell anyone about it, nor must you share any of the profits you made using it. You are simply exerting your freedom to use and modify free software."); ?></p>
 <p><?php print _("What the free software license requires is that <strong>if you redistribute</strong> this software, then you must keep it free. Namely, if you sell CDs with your software on them, or start letting people outside your home or company use it, then you must:"); ?></p>
@@ -94,7 +101,7 @@
 
 <div id="collapsed_box">
 <p><?php print _("Read more:"); ?></p>
-<h2 class="toggleanswer" id="security"><?php print _("Free / &quot;open-source&quot; software can't be secure."); ?></h2>
+<h2 class="toggleanswer" id="security"><?php print _("Free / \"open-source\" software can't be secure."); ?></h2>
 
 <div class="answer">
 <p><?php print _("The argument generally goes that since the source code of free software is available, it is less likely to be secure."); ?></p>
