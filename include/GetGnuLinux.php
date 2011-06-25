@@ -34,7 +34,7 @@ class GetGnuLinux {
         'it' => 'it_IT.UTF-8',
         'ml' => 'ml_IN',
         'nl' => 'nl_NL.UTF-8',
-        'pt' => 'pt_BR.UTF-8',
+        'pt' => 'pt_PT.UTF-8',
         'ru' => 'ru_RU.UTF-8',
         'sr' => 'sr_RS',
         'tr' => 'tr_TR.UTF-8',

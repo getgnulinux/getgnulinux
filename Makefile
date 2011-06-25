@@ -62,7 +62,7 @@ po: pot
 	./update.sh
 	rm update.sh
 	@echo
-	@echo "Build finished. The PO files are in $(LOCALE_DIR)/."
+	@echo "Build finished. The PO files are in $(LOCALE_DIR)/$(DOMAIN)/."
 
 # Before the webserver can use the MO files for the locales, a list of locale
 # definition files must be compiled first. See `man locale-gen' for more info.

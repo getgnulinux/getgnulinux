@@ -2,18 +2,35 @@
 
 locales=(`ls LOCALE_DIR | grep "[a-z]\{2\}_[A-Z]\{2\}"`)
 
-for locale in "${locales[@]}" ; do
+for locale in "${locales[@]}";
+do
     echo "Processing locale: $locale"
-    f=LOCALE_DIR/$locale/LC_MESSAGES/DOMAIN
-    if [ ! -d LOCALE_DIR/$locale/LC_MESSAGES ]; then
+    lang=${locale:0:2}
+    mo=LOCALE_DIR/$locale/LC_MESSAGES/DOMAIN.mo
+    po=LOCALE_DIR/DOMAIN/$lang.po
+
+    # Create missing directories.
+    if [ ! -d LOCALE_DIR/$locale/LC_MESSAGES ];
+    then
         mkdir -p LOCALE_DIR/$locale/LC_MESSAGES
     fi
 
-    if [ -e $f.po ]; then
-        msgmerge -v -U $f.po TEMPLATE
-        msgfmt -v $f.po -o $f.mo
-    else
-        cp -v TEMPLATE $f.po
+    # Handle some exceptions;
+
+    # Chinese exists in Launchpad only as three variants:
+    # Simplified Chinese (zh_CN), Traditional Chinese (zh_TW) and Hong Kong Chinese (zh_HK).
+    if [ $lang == "zh" ];
+    then
+        po=LOCALE_DIR/DOMAIN/$locale.po
     fi
-    echo ""
+
+    # Update .po files and build binary language files of .po files.
+    if [ -e $po ];
+    then
+        msgmerge -v -U $po TEMPLATE
+        msgfmt -v $po -o $mo
+    else
+        cp -v TEMPLATE $po
+    fi
+    echo
 done
