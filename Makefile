@@ -13,7 +13,8 @@ LOCALE_GEN=locale-gen
 # Internal variables.
 template=$(LOCALE_DIR)/$(DOMAIN)/$(DOMAIN).pot
 # These are locales that by default use the UTF-8 character set. For these
-# locales the ".UTF-8" suffix should not be used when compiling locale files.
+# locales the ".UTF-8" suffix should not be used when compiling locale
+# definition files.
 utf8_locales=ml_IN sr_RS vi_VN
 
 # Phony targets.
@@ -67,31 +68,16 @@ po: pot
 # Before the webserver can use the MO files for the locales, a list of locale
 # definition files must be compiled first. See `man locale-gen' for more info.
 localesgen:
-	@if [ `id -u` != "0" ]; \
-	then \
-		echo "You must be root to generate locale definition files."; \
-		exit 1; \
-	fi
-
-	@for i in `ls $(LOCALE_DIR) | grep "[a-z]\{2\}_[A-Z]\{2\}"`; \
-	do \
-		switch=0; \
-		for u in $(utf8_locales); \
-		do \
-			if [ $$u == $$i ]; \
-			then \
-				$(LOCALE_GEN) $${i}; \
-				switch=1; \
-				break; \
-			fi \
-		done; \
-		if [ $$switch == 0 ]; \
-		then \
-			$(LOCALE_GEN) $${i}.UTF-8; \
-		fi \
-	done
+	cp scripts/localesgen.sh.in localesgen.sh
+	sed --in-place localesgen.sh --expression=s/UTF8_LOCALES/"$(utf8_locales)"/
+	sed --in-place localesgen.sh --expression=s/LOCALE_DIR/$(LOCALE_DIR)/
+	sed --in-place localesgen.sh --expression=s/LOCALE_GEN/$(LOCALE_GEN)/
+	chmod +x localesgen.sh
 	@echo
-	@echo "Generating locale definition files finished. Restart your webserver to complete."
+	./localesgen.sh
+	rm localesgen.sh
+	@echo
+	@echo "Generating locale definition files finished. Restart your webserver to load the new locales."
 
 # Push committed changes to the trunk Bazaar repository on Launchpad.
 push:

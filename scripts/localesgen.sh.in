@@ -1,0 +1,31 @@
+#!/bin/bash
+
+if [ `id -u` != "0" ];
+then
+    echo "You must be root to generate locale definition files."
+    exit 1
+fi
+
+utf8_locales=(UTF8_LOCALES)
+locale_list=
+
+for i in `ls LOCALE_DIR | grep "[a-z]\{2\}_[A-Z]\{2\}"`;
+do
+    switch=0
+    for u in ${utf8_locales[@]};
+    do
+        if [ $u == $i ];
+        then
+            locale_list="${locale_list} ${i}"
+            switch=1
+            break
+        fi
+    done;
+
+    if [ $switch == 0 ];
+    then
+        locale_list="${locale_list} ${i}.UTF-8"
+    fi
+done
+
+LOCALE_GEN ${locale_list}

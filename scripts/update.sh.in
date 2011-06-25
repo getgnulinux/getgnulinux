@@ -2,7 +2,7 @@
 
 locales=(`ls LOCALE_DIR | grep "[a-z]\{2\}_[A-Z]\{2\}"`)
 
-for locale in "${locales[@]}";
+for locale in ${locales[@]};
 do
     echo "Processing locale: $locale"
     lang=${locale:0:2}
