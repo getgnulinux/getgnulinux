@@ -72,8 +72,7 @@
 <h2><?php print _("About us"); ?></h2>
 <p><a href="http://www.gnulinuxmatters.org/"><img src="/images/more/more.denfer.png" alt="|| GLM mascot ||" height="60" width="60"/></a>
 <?php print _("This website was created and maintained by a non-profit organization, <em><a href=\"http://www.gnulinuxmatters.org/\">GNU/Linux Matters</a></em>, which focuses on Internet advocacy for free software. As of 2010, GNU/Linux Matters have ceased activity. Despite their best efforts they just haven't been able to find the time to keep the project going."); ?></p>
-
-<p><?php $p = _("The &#8220;get&nbsp;GNU/Linux!&#8221; project is now being maintained at <a href=\"https://launchpad.net/getgnulinux\">Launchpad</a>. The continuity of the project now depends on the community. Please consider <a href=\"%s\">participating</a>, or simply helping us by <a href=\"%s\">making a link to this website</a>.");
+<p><?php $p = _("The &#8220;get&nbsp;GNU/Linux!&#8221; project is now being maintained at <a href=\"https://launchpad.net/getgnulinux\">Launchpad</a> and the continuity of the project now depends on the community. Please consider <a href=\"%s\">participating</a>, or simply helping by <a href=\"%s\">making a link to this website</a>.");
 printf($p, "https://launchpad.net/getgnulinux", $this->base_url('link_buttons',1)); ?></p>
 
 <div id="about_us_more">
