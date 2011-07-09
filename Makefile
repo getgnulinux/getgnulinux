@@ -38,11 +38,15 @@ config: settings.php
 
 # Make the PO Template file.
 pot:
-	xgettext --default-domain=$(DOMAIN) --copyright-holder="GNU/Linux Matters" \
-	--package-name="getgnulinux" --package-version=0.0.1 \
+	xgettext -caiF --add-comments=i18n --force-po \
+	--default-domain=$(DOMAIN) \
+	--copyright-holder="GNU/Linux Matters" \
+	--package-name="getgnulinux" \
+	--package-version=0.0.1 \
 	--msgid-bugs-address="https://bugs.launchpad.net/getgnulinux" \
 	--from-code=UTF-8 -k_ \
 	-o $(template) $(INCLUDE_DIR)/*.php $(PAGES_DIR)/*.php
+	msguniq -o $(template) $(template)
 	sed --in-place "$(template)" --expression=s/"SOME DESCRIPTIVE TITLE."/"Translation file for the GetGNULinux.org website."/
 	sed --in-place "$(template)" --expression=s/PACKAGE/getgnulinux/
 	sed --in-place "$(template)" --expression=s/"Copyright (C) YEAR"/"Copyright (C) 2006-2008"/
