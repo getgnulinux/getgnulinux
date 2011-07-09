@@ -11,7 +11,9 @@
 
 <h1><?php print _("Switch to Linux!"); ?></h1>
 
-<p><?php print _("GNU/Linux, or simply <em>Linux</em>, is an alternative to Microsoft Windows. It is easy to use and gives more freedom to users. Anyone can install it: Linux is free as in freedom, and often available free of charge."); ?></p>
+<p><?php
+# i18n: This is the very first sentence every visitor is going to read. Please pay great attention to making it sound great, we only have one try! =)
+print _("GNU/Linux, or simply <em>Linux</em>, is an alternative to Microsoft Windows. It is easy to use and gives more freedom to users. Anyone can install it: Linux is free as in freedom, and often available free of charge."); ?></p>
 </div>
 
 <div id="contentlist">

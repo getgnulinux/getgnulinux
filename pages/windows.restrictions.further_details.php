@@ -56,7 +56,9 @@
 <h2 id="further_reading"><?php print _("Read more"); ?></h2>
 
 <div id="left_column">
-<h3 id="gpl"><?php print _("<a href=\"http://www.gnu.org/copyleft/gpl.html\" title=\"The GNU General Public License\">The GPL</a>"); ?></h3>
+<h3 id="gpl"><a href="<?php
+# i18n: If it exists, please use a non-official translation of the GPL in your language, as pointed on http://www.gnu.org/licenses/translations.html
+print _("http://www.gnu.org/copyleft/gpl.html"); ?>" title="<?php print _("The GNU General Public License"); ?>"><?php print _("The GPL"); ?></a></h3>
 <p><?php print _("The GNU General Public License, under which GNU/Linux and a vast amount of free software are published."); ?></p>
 
 <h3 id="gpl_eula_comparison"><a href="/archive/comparing_the_gpl_to_eula.pdf" hreflang="en"><?php print _("Comparing the GPL to the Microsoft WinXP License"); ?></a> (pdf, 600k)</h3>
@@ -66,7 +68,7 @@
 
 <div id="right_column">
 
-<h3 id="right_to_read"><a href="http://www.gnu.org/philosophy/right-to-read.html"><?php print _("The Right to Read"); ?></a></h3>
+<h3 id="right_to_read"><a href="<?php print _("http://www.gnu.org/philosophy/right-to-read.html"); ?>"><?php print _("The Right to Read"); ?></a></h3>
 <p><?php print _("A short story by Richard Stallman that describes what influence restrictive licenses could have on our lives."); ?></p>
 
 <br style="clear: both;" />

@@ -10,7 +10,9 @@
 <a class="odd" href="<?php $this->base_url('switch_to_linux/from_windows_to_linux'); ?>">
 <img width="100" height="56" alt="Windows, Linux" src="/images/switch_to_linux/switch_to_linux.from_windows_to_linux.png"/>
 <span class="header_2"><?php print _("From Windows to Linux"); ?></span>
-<span><?php print _("Meet GNU/Linux in everyday use."); ?></span>
+<span><?php
+# i18n: please note the "affirmative" tone with the '.' at end of sentence.
+print _("Meet GNU/Linux in everyday use."); ?></span>
 </a>
 
 <a class="even" href="<?php $this->base_url('switch_to_linux/choose_a_distribution'); ?>">
