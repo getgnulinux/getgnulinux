@@ -13,7 +13,7 @@
 <a href="<?php $this->base_url('linux/screenshots'); ?>" title="<?php
 # i18n: title of link to screenshots page
 print _("What does GNU/Linux look like? Selected screenshots"); ?>">
-<img src="/images/screenshots/h150px/fedora1.png" width="200" height="150" alt="<?php
+<img src="/images/screenshots/h150px/fedora1.png" alt="<?php
 # i18n: image alt description
 print _("A view of a Fedora Linux desktop"); ?>"/></a>
 <?php print _("Linux is an <em>operating system</em>, a large piece of software that manages a computer. It is similar to Microsoft Windows, but it is entirely free. The accurate name is <em>GNU/Linux</em> but \"Linux\" is used more often."); ?></p>
@@ -30,7 +30,7 @@ print _("A prominent, complete and friendly distribution to step into GNU/Linux 
 <p><a href="<?php $this->base_url('linux/screenshots'); ?>" title="<?php
 # i18n: title of link to screenshots page
 print _("What does GNU/Linux look like? Selected screenshots"); ?>">
-<img src="/images/screenshots/h150px/ubuntu1.png" width="200" height="150" alt="<?php
+<img src="/images/screenshots/h150px/ubuntu1.png" alt="<?php
 # i18n: image alt description
 print _("A view of a Ubuntu Linux desktop"); ?>"/></a>
 <?php print _("GNU/Linux is no harder to use than Windows, and has many more capabilities. It just takes a dozen minutes to get familiar with a distribution like <a href=\"http://www.ubuntu.com/\" title=\"Ubuntu, the easiest and friendliest GNU/Linux distribution around\">Ubuntu</a> or <a href=\"http://fedoraproject.org/\" title=\"Fedora, a friendly and more advanced GNU/Linux distribution\">Fedora</a>, which come in with many programs installed."); ?></p>
