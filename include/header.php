@@ -32,10 +32,44 @@
             break;
         case 'linux.misunderstanding_free_software':
             $this->stylesheet('/style/linux.misunderstanding_free_software-ltr.css');
-            print '<script type="text/javascript" src="/style/toggleanswers.js"></script>';
+            $this->javascript('/style/toggleanswers.js');
             break;
         case 'linux.screenshots':
+            $this->javascript('http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js');
+            $this->javascript('/style/fancybox/jquery.fancybox-1.3.4.pack.js');
+            $this->stylesheet('/style/fancybox/jquery.fancybox-1.3.4.css');
             $this->stylesheet('/style/linux.screenshots-ltr.css');
+            ?>
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+			$("a[rel=screenshots_ubuntu]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+                'overlayColor'		: '#000',
+                'overlayOpacity'	: 0.8,
+				'titlePosition' 	: 'outside',
+			});
+
+			$("a[rel=screenshots_fedora]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+                'overlayColor'		: '#000',
+                'overlayOpacity'	: 0.8,
+				'titlePosition' 	: 'outside',
+			});
+
+			$("a[rel=screenshots_gnewsense]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+                'overlayColor'		: '#000',
+                'overlayOpacity'	: 0.8,
+				'titlePosition' 	: 'outside',
+			});
+
+        });
+    </script>
+            <?php
             break;
         case 'windows':
             $this->stylesheet('/style/windows-ltr.css');
@@ -72,7 +106,7 @@
             $this->stylesheet('/style/more-ltr.css');
             break;
         case 'link_buttons':
-            print '<script src="/style/togglecodetext.js" type="text/javascript"></script>';
+            $this->javascript('/style/togglecodetext.js');
             break;
 
         default:
