@@ -38,6 +38,8 @@ $gnewsense3_text = _("The system monitor showing the system resource usage.");
 <p><?php print _("Selected screenshots of distributions of GNU/Linux."); ?></p>
 <p><?php print _("Keep in mind that Linux can look as frugal or exciting as you require; here are only everyday-user snapshots to show common tasks."); ?></p>
 
+
+<a id="ubuntu" />
 <div class="even">
 <a rel="screenshots_ubuntu" title="<?php print $ubuntu1_text; ?>" href="/images/screenshots/ubuntu1.png"><img height="150" src="/images/screenshots/h150px/ubuntu1.png" alt="Ubuntu Snapshot 1"/></a>
 <p><em>Ubuntu:</em></p>
@@ -56,6 +58,8 @@ $gnewsense3_text = _("The system monitor showing the system resource usage.");
 <p><?php print $ubuntu3_text; ?></p>
 </div>
 
+
+<a id="fedora" />
 <div class="odd">
 <a rel="screenshots_fedora" title="<?php print $fedora1_text; ?>" href="/images/screenshots/fedora1.png"><img height="150" src="/images/screenshots/h150px/fedora1.png" alt="Fedora Snapshot 1"/></a>
 <p><em>Fedora:</em></p>
@@ -75,6 +79,7 @@ $gnewsense3_text = _("The system monitor showing the system resource usage.");
 </div>
 
 
+<a id="gnewsense" />
 <div class="even">
 <a rel="screenshots_gnewsense" title="<?php print $gnewsense1_text; ?>" href="/images/screenshots/gnewsense1.png"><img height="150" src="/images/screenshots/h150px/gnewsense1.png" alt="gNewSense Snapshot 1"/></a>
 <p><em>gNewSense:</em></p>
