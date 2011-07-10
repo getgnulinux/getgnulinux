@@ -108,7 +108,7 @@ class HTML {
     }
 
     function javascript($url) {
-        if ( startswith($url, "http:") ) {
+        if ( startswith($url, "http") ) {
             printf("<script type=\"text/javascript\" src=\"%s\"></script>\n", $url);
         }
         else {

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: getgnulinux 0.0.1\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2011-07-09 22:37+0200\n"
+"POT-Creation-Date: 2011-07-10 18:49+0200\n"
 "PO-Revision-Date: 2011-06-19 21:29+0100\n"
 "Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,7 +36,7 @@ msgstr ""
 msgid "Credits"
 msgstr ""
 
-#: include/header.php:19 include/header.php:130 include/header.php:137
+#: include/header.php:19 include/header.php:164 include/header.php:171
 msgid "get GNU/Linux!"
 msgstr ""
 
@@ -52,32 +52,32 @@ msgid ""
 "alternative, get linux, switch to linux"
 msgstr ""
 
-#: include/header.php:95
+#: include/header.php:129
 msgid "skip to content"
 msgstr ""
 
-#: include/header.php:100
+#: include/header.php:134
 msgid "Alternate languages"
 msgstr ""
 
-#: include/header.php:148 pages/home.php:23 pages/linux.linux_faq.php:360
+#: include/header.php:182 pages/home.php:23 pages/linux.linux_faq.php:360
 #: pages/linux.misunderstanding_free_software.php:191
-#: pages/linux.screenshots.php:4 pages/linux.screenshots.php:66
+#: pages/linux.screenshots.php:31 pages/linux.screenshots.php:99
 #: pages/windows.php:84
 msgid "What is Linux?"
 msgstr ""
 
-#: include/header.php:149 pages/home.php:30 pages/linux.php:60
+#: include/header.php:183 pages/home.php:30 pages/linux.php:60
 #: pages/windows.php:5
 msgid "Why not Windows"
 msgstr ""
 
-#: include/header.php:150 pages/home.php:37 pages/switch_to_linux.php:5
+#: include/header.php:184 pages/home.php:37 pages/switch_to_linux.php:5
 #: pages/windows.php:82
 msgid "Switch to Linux"
 msgstr ""
 
-#: include/header.php:151 pages/linux.linux_faq.php:353 pages/more.php:6
+#: include/header.php:185 pages/linux.linux_faq.php:353 pages/more.php:6
 #: pages/switch_to_linux.from_windows_to_linux.php:60
 msgid "More"
 msgstr ""
@@ -726,7 +726,7 @@ msgstr ""
 
 #: pages/linux.linux_faq.php:360
 #: pages/linux.misunderstanding_free_software.php:191
-#: pages/linux.screenshots.php:4 pages/linux.screenshots.php:66
+#: pages/linux.screenshots.php:31 pages/linux.screenshots.php:99
 #: pages/windows.restrictions.further_details.php:4
 #: pages/windows.restrictions.further_details.php:83
 msgid "back up:"
@@ -1362,49 +1362,71 @@ msgstr ""
 msgid "Linux FAQ - common questions about GNU/Linux"
 msgstr ""
 
-#: pages/linux.screenshots.php:9
-msgid "What GNU/Linux looks like"
-msgstr ""
-
-#: pages/linux.screenshots.php:11
-msgid "Six selected screenshots of distributions of GNU/Linux."
-msgstr ""
-
-#: pages/linux.screenshots.php:12
-msgid ""
-"Keep in mind that Linux can look as frugal or exciting as you require; here "
-"are only everyday-user snapshots to show common tasks."
-msgstr ""
-
 #. i18n: This is the description of the "ubuntu1.png" screenshot.
-#: pages/linux.screenshots.php:19
+#: pages/linux.screenshots.php:6
 msgid "Firefox web browser"
 msgstr ""
 
 #. i18n: This is the description of the "ubuntu2.png" screenshot.
-#: pages/linux.screenshots.php:27
+#: pages/linux.screenshots.php:8
 msgid ""
-"File manager and image browing application are open, on standard desktop."
+"File manager and image browsing application are open, on standard desktop."
+msgstr ""
+
+#. i18n: This is the description of the "ubuntu3.png" screenshot.
+#: pages/linux.screenshots.php:10
+msgid "Evolution e-mail and calendar application."
 msgstr ""
 
 #. i18n: This is the description of the "fedora1.png" screenshot.
-#: pages/linux.screenshots.php:35
-msgid "Gimp image editing application, cropping a photo."
+#: pages/linux.screenshots.php:13
+msgid "GIMP image editing application, cropping a photo."
 msgstr ""
 
 #. i18n: This is the description of the "fedora2.png" screenshot.
-#: pages/linux.screenshots.php:43
+#: pages/linux.screenshots.php:15
 msgid "OpenOffice.org Writer open, editing a standard document."
 msgstr ""
 
+#. i18n: This is the description of the "fedora3.png" screenshot.
+#: pages/linux.screenshots.php:17
+msgid ""
+"Accessing applications in the <a href=\"http://gnome3.org/\">GNOME 3</a> "
+"desktop environment."
+msgstr ""
+
+#. i18n: This is the text-only description of the "fedora3.png" screenshot.
+#: pages/linux.screenshots.php:19
+msgid "Accessing applications in the GNOME 3 desktop environment."
+msgstr ""
+
 #. i18n: This is the description of the "gnewsense1.png" screenshot.
-#: pages/linux.screenshots.php:52
+#: pages/linux.screenshots.php:22
 msgid "File browser open."
 msgstr ""
 
 #. i18n: This is the description of the "gnewsense2.png" screenshot.
-#: pages/linux.screenshots.php:60
+#: pages/linux.screenshots.php:24
 msgid "OpenOffice.org Calc open, showing an example spreadsheet."
+msgstr ""
+
+#. i18n: This is the description of the "gnewsense3.png" screenshot.
+#: pages/linux.screenshots.php:26
+msgid "The system monitor showing the system resource usage."
+msgstr ""
+
+#: pages/linux.screenshots.php:36
+msgid "What GNU/Linux looks like"
+msgstr ""
+
+#: pages/linux.screenshots.php:38
+msgid "Selected screenshots of distributions of GNU/Linux."
+msgstr ""
+
+#: pages/linux.screenshots.php:39
+msgid ""
+"Keep in mind that Linux can look as frugal or exciting as you require; here "
+"are only everyday-user snapshots to show common tasks."
 msgstr ""
 
 #: pages/more.php:7
