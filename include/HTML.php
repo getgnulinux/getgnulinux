@@ -108,8 +108,13 @@ class HTML {
     }
 
     function javascript($url) {
-        $modified = filemtime(BASE_PATH.$url);
-        printf("<script type=\"text/javascript\" src=\"%s?%s\"></script>\n", $url, $modified);
+        if ( startswith($url, "http:") ) {
+            printf("<script type=\"text/javascript\" src=\"%s\"></script>\n", $url);
+        }
+        else {
+            $modified = filemtime(BASE_PATH.$url);
+            printf("<script type=\"text/javascript\" src=\"%s?%s\"></script>\n", $url, $modified);
+        }
     }
 
     function is_current_language($lang_id) {
