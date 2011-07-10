@@ -104,11 +104,12 @@ class HTML {
 
     function stylesheet($url) {
         $modified = filemtime(BASE_PATH.$url);
-        printf("<link rel='stylesheet' type='text/css' href='%s?%s' />\n", $url, $modified);
+        printf("<link rel=\"stylesheet\" type=\"text/css\" href=\"%s?%s\" />\n", $url, $modified);
     }
 
     function javascript($url) {
-        printf("<script type=\"text/javascript\" src=\"%s\"></script>\n", $url);
+        $modified = filemtime(BASE_PATH.$url);
+        printf("<script type=\"text/javascript\" src=\"%s?%s\"></script>\n", $url, $modified);
     }
 
     function is_current_language($lang_id) {
