@@ -24,7 +24,7 @@ print _("Firefox web browser"); ?></p>
 <p><em>Ubuntu:</em></p>
 <p><?php
 # i18n: This is the description of the "ubuntu2.png" screenshot.
-print _("File manager and image browing application are open, on standard desktop."); ?></p>
+print _("File manager and image browsing application are open, on standard desktop."); ?></p>
 </div>
 
 <div class="even">
