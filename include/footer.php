@@ -20,6 +20,7 @@
 	<li><a href="<?php $this->base_url('legal'); ?>" hreflang="en"><?php print _("Terms of Use"); ?></a></li>
 	<li><a href="https://launchpad.net/~getgnulinux/+contactuser"><?php print _("Contact"); ?></a></li>
 	<li><a href="<?php $this->base_url('credits'); ?>"><?php print _("Credits"); ?></a></li>
+	<li><a href="<?php $this->base_url('link_buttons'); ?>"><?php print _("Link to Us"); ?></a></li>
 </ul>
 </div><!-- end footer -->
 
