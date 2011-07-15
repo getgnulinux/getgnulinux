@@ -23,7 +23,7 @@ $gnewsense1_text = _("File browser open.");
 # i18n: This is the description of the "gnewsense2.png" screenshot.
 $gnewsense2_text = _("OpenOffice.org Calc open, showing an example spreadsheet.");
 # i18n: This is the description of the "gnewsense3.png" screenshot.
-$gnewsense3_text = _("The system monitor showing the system resource usage.");
+$gnewsense3_text = _("Accessing applications");
 
 ?>
 
