@@ -21,6 +21,7 @@
 	<li><a href="https://launchpad.net/~getgnulinux/+contactuser"><?php print _("Contact"); ?></a></li>
 	<li><a href="<?php $this->base_url('credits'); ?>"><?php print _("Credits"); ?></a></li>
 	<li><a href="<?php $this->base_url('link_buttons'); ?>"><?php print _("Link to Us"); ?></a></li>
+	<li><a href="http://getgnulinux.wordpress.com/"><?php print _("Blog"); ?></a></li>
 </ul>
 </div><!-- end footer -->
 
