@@ -77,7 +77,7 @@ print _("simple use"); ?>"/>
 <div class="note"><?php
 # i18n: The %s placeholder will automatically point to the screenshots page
 $p = _("See more: we have <a href=\"%s\">screenshots</a></div>");
-printf($p, $this->base_url('linux/screenshots',1)); ?>.</li>
+printf($p, $this->base_url('linux/screenshots',1)); ?></li>
 
 
 	<li><h3><?php print _("Web browsing and common tasks"); ?></h3>
