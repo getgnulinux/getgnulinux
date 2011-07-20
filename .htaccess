@@ -1,8 +1,13 @@
+# Do not display file lists.
 Options -Indexes
 
-ErrorDocument 404 /en/not_found/
+# Set custom not found page.
+ErrorDocument 404 /not_found/
 
+# Enable rewrite rules for URL's.
 RewriteEngine On
+
+# Rewrite rules for URL's with a language code.
 RewriteRule ^([a-z]{2})/([a-z_]+)/([a-z_]+)/([a-z_]+)/$ /index.php?l=$1&p=$2.$3.$4 [L]
 RewriteRule ^([a-z]{2})/([a-z_]+)/([a-z_]+)/([a-z_]+)$ /index.php?l=$1&p=$2.$3.$4 [L]
 RewriteRule ^([a-z]{2})/([a-z_]+)/([a-z_]+)/$ /index.php?l=$1&p=$2.$3 [L]
@@ -12,4 +17,13 @@ RewriteRule ^([a-z]{2})/([a-z_]+)$ /index.php?l=$1&p=$2 [L]
 RewriteRule ^([a-z]{2})/$ /index.php?l=$1 [L]
 RewriteRule ^([a-z]{2})$ /index.php?l=$1 [L]
 
-php_value display_errors 1
+# Rewrite rules for URL's without a language code.
+RewriteRule ^([a-z_]+)/([a-z_]+)/([a-z_]+)/$ /index.php?p=$1.$2.$3 [L]
+RewriteRule ^([a-z_]+)/([a-z_]+)/([a-z_]+)$ /index.php?p=$1.$2.$3 [L]
+RewriteRule ^([a-z_]+)/([a-z_]+)/$ /index.php?p=$1.$2 [L]
+RewriteRule ^([a-z_]+)/([a-z_]+)$ /index.php?p=$1.$2 [L]
+RewriteRule ^([a-z_]+)/$ /index.php?p=$1 [L]
+RewriteRule ^([a-z_]+)$ /index.php?p=$1 [L]
+
+# Enable this when testing. Do not enable this on a production server.
+#php_value display_errors 1
