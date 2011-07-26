@@ -68,7 +68,7 @@ print _("The distribution by the long-time prominent GNU/Linux developer company
 
 <p class="note_ital"><?php
 # i18n: if you don't know of a clean, simple comparison website, simply remove the link.
-print _("Note: There are <a href=\"http://polishlinux.org/choose/comparison/\">plenty of distributions to choose from and compare</a>."); ?><br />
+print _("Note: There are <a href=\"http://distrowatch.com/dwres.php?resource=major\">plenty of distributions to choose from and compare</a>."); ?><br />
 <?php print _("This is our selection for newcomers. These links are not commercial."); ?></p>
 
 </div><!-- end maincontent -->
