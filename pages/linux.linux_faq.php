@@ -335,7 +335,7 @@
 	<div class="QA">
 	<h3 id="games" class="Q"><?php print _("Can I play popular 3D games under GNU/Linux?"); ?></h3>
 
-	<div class="A"><p><?php print _("Yes and No: Some games, for example some <a href=\"http://www.idsoftware.com/\">id Software</a> games like Quake III, Quake IV and Doom III, Unreal Tournament, Cold War, and many more have Linux versions.<br />Most popular games, alas, only work on Windows and occasionally on Mac OS. Some Windows games, such as Battlefield 2 or GTA Vice City, can be run on GNU/Linux with <a href=\"http://winehq.org/\">Wine</a> or its non-free variant <a href=\"http://transgaming.com/cedega\">Cedega</a>, which involves some unpleasant effort for the user. For a list of games known to work on Cedega, see <a href=\"http://transgaming.org/gamesdb\">their games database</a>."); ?></p>
+	<div class="A"><p><?php print _("Yes and No: Some games, for example some <a href=\"http://www.idsoftware.com/\">id Software</a> games like Quake III, Quake IV and Doom III, Unreal Tournament, Cold War, and many more have Linux versions.<br />Most popular games, alas, only work on Windows and occasionally on Mac OS. Some Windows games, such as Call of Duty 4 or GTA Vice City, can be run on GNU/Linux with <a href=\"http://winehq.org/\">Wine</a> or its non-free variant <a href=\"http://transgaming.com/cedega\">Cedega</a>, which involves some unpleasant effort for the user. For a list of games known to work on Wine, see <a href=\"http://appdb.winehq.org/\">their games database</a>."); ?></p>
 	</div>
 
 	<span class="back_to_top"><a href="#top" title="<?php print _("jump to top of page"); ?>"><?php print _("top"); ?></a></span>
