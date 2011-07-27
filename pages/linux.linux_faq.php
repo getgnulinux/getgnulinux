@@ -175,7 +175,8 @@
 
 	<div class="Q_sub"><?php print _("Do all the reasons for avoiding Windows apply to Mac&nbsp;OS?"); ?></div>
 	<div class="A"><p><?php $p = _("It's quite common for Mac users to believe they are exempt from <a href=\"%s\">restrictions associated with Windows</a>. Unfortunately such is not the case."); printf($p, $this->base_url('windows',1)); ?></p>
-	<p><?php print _("Mac OSX does have some low-level components which are <a href=\"http://www.softwareliberty.com/\">free software</a>; and Apple puts less energy into customer lock-in (with some notable efforts such as BootCamp).<br />However, the end-user is still fundamentally restricted &mdash; because of the proprietary license, he/she cannot use Mac OSX for all purposes, nor copy, study, modify, or redistribute it."); ?></p>
+    <p><?php print _("Mac OSX does have some low-level components which are <a href=\"http://www.softwareliberty.com/\">free software</a>; and Apple puts less energy into customer lock-in (with some notable efforts such as BootCamp)."); ?><br />
+    <?php print _("However, the end-user is still fundamentally restricted &mdash; because of the proprietary license, he/she cannot use Mac OSX for all purposes, nor copy, study, modify, or redistribute it."); ?></p>
 	<p><?php print _("Happily, because these freedoms matter a lot, it's possible to run popular GNU/Linux distributions (such as <a href=\"http://www.ubuntu.com/\">Ubuntu</a>) on Mac computers."); ?></p>
 	</div>
 
@@ -263,7 +264,7 @@
 	<p><?php print _("The sticker on it is purely marketing, it has no legal value. We believe it is <em>one fundamental right</em> to choose which software to run on our own hardware."); ?></p>
 	<p><?php
     # i18n: If you do not know of a very good resource about DRM, please link to the Wikipedia article on DRM in your language.
-    $p = _("In fact this right is threatened by the rise of things such as <a href=\"http://www.timj.co.uk/digiculture/drm-fallacy\">DRM and Trusted Computing</a>. Read our article \"<a href=\"%s\">%s</a>\" article for more information.");
+    $p = _("In fact this right is threatened by the rise of things such as <a href=\"http://www.timj.co.uk/digiculture/drm-fallacy\">DRM and Trusted Computing</a>. Read our article \"<a href=\"%s\">%s</a>\" for more information.");
     printf( $p, $this->base_url('windows/stand_for_a_free_society',1), _("Stand for a free society") );
     ?></p>
 	</div>
@@ -313,7 +314,8 @@
 	<div class="A"><p><?php print _("The simple answer to this question would be &quot;yes&quot;, however this is only half the truth."); ?></p>
 	<p><?php print _("Quite a few Linux distributions do not include MP3 playback software due to the patent situation of the MP3 format. These patent issues do not affect the user directly, so most distributions make it fairly easy to install MP3 support over the Internet after the installation, making it possible to <strong>legally play MP3 files</strong>, for non-commercial use."); ?></p>
 	<p><?php print _("DVDs, on the other hand, are a more difficult situation. Most, if not all, DVDs are encrypted using a system called \"<acronym title=\"Content Scrambling System\">CSS</acronym>\". There is a widely supported free software, called <code>libdvdcss</code>, capable of decrypting DVD videos. However, circumventing the restriction on your DVDs is illegal in many parts of the world, including the USA and the European Union."); ?></p>
-	<p><?php print _("There is currently no legal solution to play your DVDs on Linux where <code>libdvdcss</code> is illegal. The <a href=\"http://www.fluendo.com/\">Fluendo</a> company is developing an (non-free) application for that purpose, which is regularly announced to be released \"soon\".<br/>Non-encrypted DVDs, which include most home-made DVDs, play perfectly well with only free software."); ?></p>
+    <p><?php print _("There is currently no legal solution to play your DVDs on Linux where <code>libdvdcss</code> is illegal. The <a href=\"http://www.fluendo.com/\">Fluendo</a> company is developing an (non-free) application for that purpose, which is regularly announced to be released \"soon\"."); ?><br/>
+    <?php print _("Non-encrypted DVDs, which include most home-made DVDs, play perfectly well with only free software."); ?></p>
 
 		<div class="read_more">
 		<?php print _("More on the web:"); ?><br/>
@@ -346,7 +348,7 @@
 	<div id="more_q">
 	<h3 id="huh"><?php print _("More questions?"); ?></h3>
 	<p><?php
-    # i18n: The first link will automatically point to the the "more" page. Also, if gnulinuxmatters.org is not localized in your language, please leave the contact URL as such.
+    # i18n: The first link will automatically point to the "more" page.
     $p = _("If you have a question that is not covered here, there are many communities to help you. Our \"<a href=\"%s\">%s</a>\" section will help you find the right place to ask.<br/>
 If you can think of a frequent question that we haven't answered yet, do <a href=\"%s\">let us know</a>, or even better, <a href=\"%s\">file a new bug</a>.");
 printf($p, $this->base_url('more',1),
