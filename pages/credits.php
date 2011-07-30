@@ -5,13 +5,13 @@
 	<title>GNU/Linux Matters websites credits</title>
 	<meta name="description" content="Legal terms of use for the GNU/Linux Matters websites"/>
 	<link rel="stylesheet" type="text/css" href="/style/maincss.css" />
-	<link rel="stylesheet" type="text/css" href="/style/credits.css" />
+	<link rel="stylesheet" type="text/css" href="/style/maincss-ltr.css" />
+    <link rel="stylesheet" type="text/css" href="/style/credits.css" />
+    <link rel="stylesheet" type="text/css" href="/style/previous_next_up-ltr.css" />
 </head>
 
 <body>
 <div class="accessibility"><a href="#maincontent">skip to content</a></div>
-
-
 
 <div class="wrap_top">
 <div class="wrap_right">
@@ -22,35 +22,29 @@
 
 <div id="mainbody">
 
-
-
-
-
 <div id="header">
-
-<a href="http://www.gnulinuxmatters.org/index.html"><img width="250" height="50" src="/images/credits/glm_logo.png" alt="GNU/Linux Matters"/></a>
-
-<h1>Credits and Licensing</h1>
-
+    <h1>Credits and Licensing</h1>
 </div>
 
 <div id="maincontent">
 
 <h2>Thank you</h2>
-
-<p>We are grateful and endebted towards many kind individuals, who contributed or let us use their work for our purposes.</p>
-
+<p>We are grateful and endebted towards many kind individuals, who contributed
+or let us use their work for our purposes.</p>
 
 <h2>Licensing</h2>
+<p>Except for the material listed below, all of the text content is published under a
+<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0 license</a>,<br/>
+&copy; 2006-2010, <a href="http://www.gnulinuxmatters.org/">GNU/Linux Matters</a><br/>
+&copy; 2011, <a href="https://launchpad.net/~getgnulinux">Launchpad getgnulinux Team</a></p>
 
-<p>Except for the material listed below, all of the text content published by the GNU/Linux Matters non-profit organization is published under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC by-sa license</a>, &copy;GNU/Linux Matters 2006-2009.</p>
 
-
-<h2>Graphics:</h2>
-<p>Most graphics on this website are either copied from or derived from the following sources, according to their respective copyright licenses:</p>
+<h2>Graphics</h2>
+<p>Most graphics on this website are either copied from or derived from the
+following sources, according to their respective copyright licenses:</p>
 <ul>
 
-<li> Small icons: <a href="http://www.famfamfam.com/lab/icons/silk/" title="famfamfam set of icons, creative commons licensed">set of Silk icons</a> by Mark James, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution">by</acronym> license.
+<li>Small icons: <a href="http://www.famfamfam.com/lab/icons/silk/" title="famfamfam set of icons, creative commons licensed">set of Silk icons</a> by Mark James, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution">by</acronym> license.
 <div class="img_box">
 <a href="http://www.famfamfam.com/lab/icons/silk/" title="famfamfam set of icons, creative commons licensed"><img src="/images/credits/silk_icons.png" alt="Marc James' Silk Icons"/></a>
 </div>
@@ -86,9 +80,7 @@
 <img src="/images/credits/tango8.png" alt="Tango icon"/>
 </a>
 </div>
-
 </li>
-
 
 <li>Material from the <a href="http://packages.ubuntu.com/edgy/x11/human-theme">GNOME "Human Theme"</a>, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution, Share Alike">by-sa</acronym> license:
 <div class="img_box">
@@ -98,7 +90,6 @@
 <img src="/images/credits/human3.png" alt="human theme icon"/>
 </a>
 </div>
-
 </li>
 
 <li>Material from other sources, such as Wikimedia Commons (each followed by its license):
@@ -146,7 +137,7 @@ Vietnamese Free Software Translation Team</a>, and Minh Ngoc Le.</p>
 
 <ul>
 <li>A fair amount came from the <a href="http://www.fsf.org/">Free Software Foundation</a>. Verbatim copying or most FSF articles is allowed if notice is preserved.<br />
-<span class="note">Note that GNU/Linux Matters bears no affiliation with the FSF - views expressed on our websites might not represent those of the FSF.</span></li>
+<span class="note">Note that we bear no affiliation with the FSF - views expressed on our websites might not represent those of the FSF.</span></li>
 
 <li><a href="http://www.timj.co.uk/digiculture/drm-fallacy">The fallacy of DRM</a>, an article by Tim Jackson (derivative use with permission);</li>
 
@@ -172,50 +163,11 @@ Vietnamese Free Software Translation Team</a>, and Minh Ngoc Le.</p>
 
 </ul>
 
-
+<div id="switcher">
+    <a href="<?php $this->base_url('home'); ?>" class="previousbutton"><span class="previous"><span class="button_title"><?php print _("Return to the Homepage"); ?></span></span></a>
+</div><!-- end of switcher -->
 
 </div><!-- end maincontent -->
 
 
-
-</div><!-- end mainbody -->
-
-<div class="botl"></div>
-<div class="botr"></div>
-
-</div></div></div></div>
-<!-- end wrappings -->
-
-
-<div class="wrap_top">
-<div class="wrap_right">
-<div class="wrap_bottom">
-<div class="wrap_left">
-<div class="topl"></div>
-<div class="topr"></div>
-<div id="footer">
-<span class="link_button"><a href="<?php $this->base_url(); ?>" title="Get Linux - an alternative to Windows; free as in beer and speech"><img src="/links/en/80x15_20.png" alt="Get Linux" width="80" height="15"/></a></span>
-
-<span id="about"><a href="http://www.gnulinuxmatters.org/index.html" title="Learn about GLM, the non-profit behind GetGNULinux.org">GNU/Linux Matters</a> is a registered non-profit organization.</span>
-</div><!-- end footer -->
-
-<div class="botl"></div>
-<div class="botr"></div>
-
-</div></div></div></div><!-- end wrappings -->
-
-<!-- Piwik -->
-<script type="text/javascript">
-var pkBaseURL = (("https:" == document.location.protocol) ? "https://saibot.no-ip.info/piwik/" : "http://saibot.no-ip.info/piwik/");
-document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-</script><script type="text/javascript">
-try {
-var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
-piwikTracker.trackPageView();
-piwikTracker.enableLinkTracking();
-} catch( err ) {}
-</script><noscript><p><img src="http://saibot.no-ip.info/piwik/piwik.php?idsite=3" style="border:0" alt="" /></p></noscript>
-<!-- End Piwik Tracking Code -->
-
-</body>
-</html>
+<?php $this->load_footer('alt1'); ?>

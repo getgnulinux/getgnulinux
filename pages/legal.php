@@ -2,9 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-	<title>GNU/Linux Matters websites terms of use</title>
+	<title>get GNU/Linux! websites terms of use</title>
 	<meta name="description" content="Legal terms of use for the GNU/Linux Matters websites"/>
-	<link rel="stylesheet" type="text/css" href="/style/legal.css" />
+	<link rel="stylesheet" type="text/css" href="/style/maincss.css" />
+    <link rel="stylesheet" type="text/css" href="/style/maincss-ltr.css" />
+    <link rel="stylesheet" type="text/css" href="/style/previous_next_up-ltr.css" />
 </head>
 
 <body>
@@ -20,33 +22,22 @@
 <div id="mainbody">
 
 <div id="header">
-    <a href="http://www.gnulinuxmatters.org/"><img width="250" height="50" src="/images/glm_logo_250px.png" alt="GNU/Linux Matters"/></a>
-    <h1>Legal terms of the GNU/Linux Matters websites</h1>
+    <h1>Legal terms of the &ldquo;get GNU/Linux!&rdquo; websites</h1>
 </div>
 
 <div id="maincontent">
 
-<p>By accessing, browsing or using any of the GNU/Linux Matters websites, any
+<p>By accessing, browsing or using any of the &ldquo;get GNU/Linux!&rdquo; websites, any
 of their content or information, you have to understand and accept the terms on
 the present page.<br/>
-These websites include <a href="http://www.getgnulinux.org/">GetGNULinux.org</a>,
-<a href="http://www.gnulinux.cat/">GnuLinux.cat</a>,
-<a href="http://www.gnulinuxmatters.org/">gnulinuxmatters.org</a>,
-<a href="http://www.linuxfueralle.de/">Linuxfueralle.de</a>,
-<a href="http://linuxpreinstalado.com/">LinuxPreinstalado.com</a>,
-<a href="http://linuxpreinstalle.com/">LinuxPreinstalle.com</a>,
-<a href="http://linuxpreloaded.com">LinuxPreloaded.com</a>,
-<a href="http://www.obtengalinux.org/">Obtengalinux.org</a>,
-<a href="http://www.passeralinux.fr/">Passeralinux.fr</a>,
-<a href="http://www.softwareliberty.com/">SoftwareLiberty.com</a>,
-<a href="http://www.3dollarsoftware.org/">3dollarsoftware.org</a>,
-<a href="http://getgnulinux.no-ip.info/">GetGNULinux.no-ip.info</a>
+These websites include <a href="http://www.getgnulinux.org/">getgnulinux.org</a>,
+<a href="http://getgnulinux.no-ip.info/">getgnulinux.no-ip.info</a>
 and all their sub-domains.</p>
 
 <h2 id="content">1. Content</h2>
 
-<p>All content is provided by us (the authors of the GNU/Linux Matters websites)
-<strong>on an "as is" basis only</strong>. We believe the content on our
+<p>All content is provided by us (the authors of the &ldquo;get GNU/Linux!&rdquo; websites)
+<em>on an "as is" basis only</em>. We believe the content on our
 websites to be correct and accurate; we provide it in good faith, however it
 may contain technical inaccuracies or typographical errors. <em>We provide no
 warranties</em> on it, express or implied, including but not limited to, implied
@@ -55,17 +46,16 @@ Our websites are released under the following licenses:</p>
 
 <ul>
 	<li><a href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="|| Creative Commons License ||" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png"/></a>
-	Text content of SoftwareLiberty.com, GetGNULinux.org, 3dollarsoftware.org,
+	Text content of getgnulinux.org, getgnulinux.no-ip.info,
     and all their translations: <strong><a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative
     Commons Attribution Share-Alike 3.0 License</a></strong>. This means we hold
     the copyright upon it, but grant some rights, including copying,
     redistributing, modifying for any purpose, including commercial, without
     permission, as long as you credit us for the original creation and
-    redistribute the content under the same license.</li>
+    redistribute the content under the same or similar license.</li>
 	<li>Selected graphics on some pages: as described in the <a href="<?php $this->base_url('credits'); ?>">credits</a>.</li>
-	<li>Graphics and logos of all websites, LinuxPreloaded.com website and
-    translations, gnulinuxmatters.og website and translations, except where
-    otherwise explicitly mentioned: all rights reserved.</li>
+	<li>Graphics and logos of all &ldquo;get GNU/Linux!&rdquo; websites and
+    translations, except where otherwise explicitly mentioned: all rights reserved.</li>
 </ul>
 
 <h2 id="microsoft_trademarks">2. Microsoft trademarks</h2>
@@ -90,8 +80,8 @@ are expressly advised or aware of the possibility of such damages or losses.</p>
 
 <h2 id="confidentiality_of_information">4. Confidentiality of information sent by you</h2>
 
-<p><strong>We do not want to receive confidential information from you through
-our websites</strong>. Any information or material sent to these websites will
+<p><em>We do not want to receive confidential information from you through
+our websites</em>. Any information or material sent to these websites will
 be deemed not to be confidential and may be made public by us. You acknowledge
 that you are fully responsible for the content (in particular its legality,
 reliability, appropriateness, originality, patent and copyright attributions)
@@ -124,44 +114,10 @@ We reserve the right to seek all remedies available at law and in equity for
 violations of these terms of use, including, but not limited to, the right to
 block access from a particular Internet address to our websites.</p>
 
+<div id="switcher">
+    <a href="<?php $this->base_url('home'); ?>" class="previousbutton"><span class="previous"><span class="button_title"><?php print _("Return to the Homepage"); ?></span></span></a>
+</div><!-- end of switcher -->
+
 </div><!-- end maincontent -->
-</div><!-- end mainbody -->
 
-<div class="botl"></div>
-<div class="botr"></div>
-
-</div></div></div></div>
-<!-- end wrappings -->
-
-
-<div class="wrap_top">
-<div class="wrap_right">
-<div class="wrap_bottom">
-<div class="wrap_left">
-<div class="topl"></div>
-<div class="topr"></div>
-<div id="footer">
-    <span class="link_button"><a href="<?php $this->base_url(); ?>" title="Linux"><img src="/links/en/80x15_20.png" alt="Get Linux" width="80" height="15"/></a></span>
-    <span id="about"><a href="http://www.gnulinuxmatters.org/" title="Learn about GLM, the non-profit behind GetGNULinux.org">GNU/Linux Matters</a> is a registered non-profit organization.</span>
-</div><!-- end footer -->
-
-<div class="botl"></div>
-<div class="botr"></div>
-
-</div></div></div></div><!-- end wrappings -->
-
-<!-- Piwik -->
-<script type="text/javascript">
-var pkBaseURL = (("https:" == document.location.protocol) ? "https://saibot.no-ip.info/piwik/" : "http://saibot.no-ip.info/piwik/");
-document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-</script><script type="text/javascript">
-try {
-var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
-piwikTracker.trackPageView();
-piwikTracker.enableLinkTracking();
-} catch( err ) {}
-</script><noscript><p><img src="http://saibot.no-ip.info/piwik/piwik.php?idsite=3" style="border:0" alt="" /></p></noscript>
-<!-- End Piwik Tracking Code -->
-
-</body>
-</html>
+<?php $this->load_footer('alt1'); ?>
