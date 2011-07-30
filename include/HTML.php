@@ -35,11 +35,17 @@ class HTML {
         include INCLUDE_PATH.'header.php';
     }
 
-    function load_footer()
+    function load_footer($alt=null)
     {
         global $ggl;
 
-        include INCLUDE_PATH.'footer.php';
+        if ($alt) {
+            $file = sprintf('footer_%s.php', $alt);
+            include INCLUDE_PATH.$file;
+        }
+        else {
+            include INCLUDE_PATH.'footer.php';
+        }
     }
 
     function text($key, $default='')
