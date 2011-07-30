@@ -1,6 +1,6 @@
 <?php $this->load_header(); ?>
 
-<div id="maincontent">
+<div id="maincontent" class="windows">
 
 <h1><?php print _("Why not Windows"); ?></h1>
 

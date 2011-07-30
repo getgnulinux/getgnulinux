@@ -1,5 +1,4 @@
 @import url("fonts.css");
-@import url("specials.css");
 
 /*----------------------------------------------------
 - First, resetting some of the heterogenous UA styling
@@ -161,7 +160,7 @@ code {
 .footnote {
     position: relative;
     bottom: 0.5em;
-    color: red;
+    color: red !important;
     font-size: 0.8em;
 }
 
@@ -171,6 +170,64 @@ code {
     padding: 1em 1em 0 1em;
     font-size: 0.8em;
 }
+
+.paragraph {
+    margin-bottom: 4em;
+}
+
+.ul_clear_right ul {
+    clear: right;
+}
+
+.small_list ul {
+    padding-left: 0;
+    margin-left: 0;
+    margin-bottom: 1em;
+}
+
+.small_list li {
+    margin: 0.1em 0 0 1.2em;
+    padding: 0;
+}
+
+.imagequote {
+    min-width: 235px;
+}
+
+.toggleanswer {
+    cursor: pointer;
+}
+
+/*----------------------------------------------------
+ * Header styles
+ *----------------------------------------------------*/
+
+/* the classics */
+
+#header_picture {
+		background-color: #3e58b8;
+	}
+
+#header_picture_homepage {
+		background-color: #6378c7;
+	}
+
+/* main menu dimensioning */
+
+#header #menu_more {
+		width: 12%;
+		min-width: 3.4em;
+	}
+
+#header #menu_switch_to_linux, #header #menu_windows {
+		width: 31%;
+		min-width: 9.75em;
+	}
+
+#header #menu_linux {
+		width: 26%;
+		min-width: 7.8em;
+	}
 
 /*----------------------------------------------------
 - Translations menu on top of page
@@ -271,22 +328,22 @@ body {
     min-width: 550px;
     margin: 1.5em auto 0 auto;
     clear: both;
-    background: url(/images/bgd_top.png) top repeat-x;
+    background: url("/images/bgd_top.png") top repeat-x;
     padding-top: 8px;
 }
 
 .wrap_right {
-    background: url(/images/bgd_right.png) right repeat-y;
+    background: url("/images/bgd_right.png") right repeat-y;
     padding-right: 8px;
 }
 
 .wrap_bottom {
-    background: url(/images/bgd_bottom.png) bottom repeat-x;
+    background: url("/images/bgd_bottom.png") bottom repeat-x;
     padding-bottom: 8px;
 }
 
 .wrap_left {
-    background: url(/images/bgd_left.png) left repeat-y;
+    background: url("/images/bgd_left.png") left repeat-y;
     padding-left: 8px;
 }
 
@@ -297,28 +354,28 @@ body {
 }
 
 .topl {
-    background: url(/images/bgd_topl.png) top left no-repeat;
+    background: url("/images/bgd_topl.png") top left no-repeat;
     float: left;
     top: -6px;
     left: -6px;
 }
 
 .topr {
-    background: url(/images/bgd_topr.png) top right no-repeat;
+    background: url("/images/bgd_topr.png") top right no-repeat;
     float: right;
     top: -6px;
     right: -6px;
 }
 
 .botl {
-    background: url(/images/bgd_botl.png) bottom left no-repeat;
+    background: url("/images/bgd_botl.png") bottom left no-repeat;
     float: left;
     bottom: 6px;
     left: -6px;
 }
 
 .botr {
-    background: url(/images/bgd_botr.png) bottom right no-repeat;
+    background: url("/images/bgd_botr.png") bottom right no-repeat;
     float: right;
     bottom: 6px;
     right: -6px;
@@ -328,6 +385,136 @@ body {
     padding: 0 1em 1em 1em;
     border: 1px #DFD9F9 solid;
     background: #fefefe;
+}
+
+/*----------------------------------------------------
+ * Page specific styles
+ *----------------------------------------------------*/
+
+.windows h2 {
+    font-size: 1.6em;
+}
+
+.windows_sub h2 {
+    font-size: 1.8em;
+}
+
+.what_about_source_code img {
+    margin-top: 0.5em;
+}
+
+.stand_for_a_free_society h3 {
+    color: #000080;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+.linux li {
+    margin-top: 0.4em !important;
+}
+
+.linux_faq code {
+    font-size: 1.2em;
+}
+
+.mfs h2 {
+    text-indent: -1.5em;
+    padding-left: 1.5em;
+}
+
+.mfs h3 {
+    display: block;
+    margin: 0.5em 0;
+}
+
+.mfs_answer {
+    margin-bottom: 2em;
+    padding-left: 1.5em;
+}
+
+/*----------------------------------------------------
+ * "Read more" section on the "More details on restrictions" page.
+ *----------------------------------------------------*/
+
+.further_reading {
+    background: none repeat scroll 0 0 #E4EBFF;
+    font-size: 0.95em;
+    margin-top: 4.5em;
+    padding: 1em;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0 1px 0 #B3C7FF;
+    -moz-box-shadow: 0 1px 0 #B3C7FF;
+    -webkit-box-shadow: 0 1px 0 #B3C7FF;
+}
+
+.further_reading a {
+    background: none;
+}
+
+.further_reading h2 {
+    font-weight: normal;
+    color: #630000;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+    font-size: 1.3em;
+ }
+
+.further_reading h3 {
+    display: block;
+    margin: 0.5em 0;
+ }
+
+.further_reading p {
+    margin-top: 0.2em;
+}
+
+#left_column {
+    width: 47%;
+    float: left;
+    border-right: 1px #B3C7FF solid;
+    padding-right: 1em;
+    margin-right: 1em;
+}
+
+#right_column {
+    padding: 0 1em;
+    margin-left: 49%;
+}
+
+/*----------------------------------------------------
+ * "More in this section" section on the "Linux" page.
+ *----------------------------------------------------*/
+
+#read_more {
+    text-align: left;
+    margin-top: 2em;
+    padding: 1em 0 1em 1em;
+    border-top: 1px solid #e7e3f9;
+    min-height: 12em;
+}
+
+.read_more_title {
+    font-size: 0.9em;
+    color: #630000;
+}
+
+#read_more ul {
+    list-style: square;
+    padding-left: 1em;
+    margin: 0.8em 0 0.2em 0;
+}
+
+#read_more ul li {
+    margin: 1em 0;
+    padding: 0;
+}
+
+#read_more ul a {
+    color: #000080;
+    font-size: 1.1em;
+    background: none;
 }
 
 /*----------------------------------------------------
@@ -360,6 +547,7 @@ body {
     text-align: left;
     text-shadow: 0px 0px 5px #fff;
 }
+
 #header_picture a {
     color: #FFFFFF;
     text-decoration: none;
@@ -699,50 +887,358 @@ theme by Vinicius Depizzol for gnome.org.
 }
 
 /*----------------------------------------------------
-- Advertizing from nonbreakingspace
-- this is some general styling; specific pages with
-- ads have additional styling.
+ * "Link buttons" page.
 ----------------------------------------------------*/
 
-#ad {
-    font-size: 0.85em;
-    color: #383838;
-    min-height: 100px;
-}
+.hidden { display: block; }
+.unhidden { display: block; }
 
-#ad p {
-    padding-top: 5px;
+.copycode {
+    font-family: "Andale Mono", "Courier New", Courier, monospace;
     text-align: left;
-    max-width: 30em;
+    background-color: #EFE0CD;
+    font-size: 0.7em;
+    padding: 5px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
 }
 
-#maincontent #ad_pic {
-    background: none;
+#link_buttons img {
+    float: left !important;
+    margin: 1.0em 0 0.5em 0 !important;
+    padding: 0 10px;
 }
 
-#ad_from {
-    font-size: 0.8em;
-    color: gray;
+
+#link_buttons hr {
+    margin: 1.5em 0;
+    color: #807D74;
+    background-color: #807D74;
+    height: 1px;
+    border: 0;
+    clear: both;
 }
 
-#ad_from .caps {
-    font-size: 1.3em;
-}
-
-#ad_from a {
-    background: none;
-    border-bottom: 1px #8b0000 solid;
-    color: gray;
-}
-
-#ad_from a:hover {
-    text-decoration: none;
-    color: #8b0000;
+#link_buttons br {
+    clear: both;
 }
 
 /*----------------------------------------------------
-- Footer (we're almost done!)
+ * Conclusion boxes
 ----------------------------------------------------*/
+
+.conclusion {
+    background: none repeat scroll 0 0 #E4EBFF;
+    font-size: 0.95em;
+    margin-top: 5em;
+    padding: 1em;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0 1px 0 #B3C7FF;
+    -moz-box-shadow: 0 1px 0 #B3C7FF;
+    -webkit-box-shadow: 0 1px 0 #B3C7FF;
+	}
+
+.conclusion p {
+    margin: 5px 0;
+}
+
+/*----------------------------------------------------
+ * Previous, next and up navigation "buttons" occasionally displayed at top
+ * and bottom of pages.
+ * ----------------------------------------------------*/
+
+#switcher {
+    margin: 3em 0 1em 0;
+    padding-bottom: 1.5em;
+}
+
+/* ------------------------- General style --------------*/
+
+#mainbody a.previousbutton, #mainbody a.nextbutton, #mainbody a.upbutton {
+    width: 13.5em;
+    display: block;
+    padding: 0.3em 0.2em;
+    color: black;
+    background: url("/images/button-bg.png") repeat-x scroll center center #ECECEC;
+    border: 1px #CCCCCC solid;
+    text-shadow: 0 1px 0 #FFFFFF;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 1px 0 #FFFFFF inset;
+    -moz-box-shadow: 0 1px 0 #FFFFFF inset;
+    -webkit-box-shadow: 0 1px 0 #FFFFFF inset;
+    transition: background-position 100ms linear;
+    -webkit-transition: background-position 100ms linear;
+    -moz-transition: background-position 100ms linear;
+}
+
+#mainbody a.previousbutton:hover, #mainbody a.nextbutton:hover, #mainbody a.upbutton:hover {
+    text-decoration: none;
+    background-position: center bottom;
+}
+
+#mainbody a.nextbutton:active, #mainbody a.previousbutton:active, #mainbody a.upbutton:active {
+    background: #EEEBE6;
+}
+
+.button_title {
+    color: #000080;
+    font-size: 1.11em;
+}
+
+/* ------------------------- Previous button --------------*/
+
+#mainbody a.previousbutton {
+    float: left;
+    text-align: center;
+}
+
+.previous {
+    background: url("/images/left.png") center left no-repeat; /* icons by Mark James - famfamfam.com */
+    padding-left: 20px;
+    font-size: 0.9em;
+}
+
+/* ------------------------- Next button --------------*/
+
+#mainbody a.nextbutton {
+    float: right;
+    text-align: center;
+}
+
+.next {
+    background: url("/images/right.png") center right no-repeat;
+    padding-right: 20px;
+    font-size: 0.9em;
+}
+
+/* ------------------------- Up button --------------*/
+
+.upbutton_section {
+    margin: 3em 0 0 0;
+    height: 2em;
+}
+
+#mainbody a.upbutton {
+    width: 17em;
+    float: right;
+    padding-left: 20px;
+}
+
+.up {
+    background: url("/images/up.png") center left no-repeat;
+    padding-left: 20px;
+    font-size: 0.9em;
+}
+
+/*----------------------------------------------------
+ * Style for the "read our article: XY" links in some Windows pages
+ *----------------------------------------------------*/
+
+.read_article {
+    font-size: 0.9em;
+    float: right;
+    clear: right;
+    margin: 0.8em 0 2em 0;
+}
+
+#mainbody .read_article a {
+    color: #000;
+    font-style: italic;
+    background: #F5F5F5;
+    padding: 0.4em 0.8em;
+    line-height: 1.5em; /* special for IE*/
+    border-bottom: 1px solid #999;
+}
+
+#mainbody .read_article a:hover {
+    text-decoration: none;
+    background: #E4EBFF;
+    border-bottom: 1px solid #B3C7FF;
+}
+
+/*----------------------------------------------------
+ * Linux FAQ
+ *----------------------------------------------------*/
+
+#faq_content {
+    font-size: 0.9em;
+    padding-left: 0.5em;
+}
+
+#faq_content ul {
+    margin: 0 0 1em 0;
+    padding-left: 1em;
+    list-style-image: none;
+    list-style-type: none;
+}
+
+#faq_content li {
+    margin-top: 0.4em;
+    padding-left: 0; /*for IE*/
+    margin-left: 0; /*for moz*/
+}
+
+#maincontent #faq_content a, #maincontent #faq_content a:hover {
+    padding-left: 16px;
+    background: white url("/images/bullet_arrow_down.png") no-repeat center left; /* icons by Mark James - famfamfam.com */
+}
+
+
+.back_to_top {
+    float: right;
+    font-size: 0.6em;
+    margin-right: -3px;
+}
+
+#maincontent .back_to_top a {
+    padding: 1px 3px 2px 16px;
+    background: white url("/images/bullet_arrow_up.png") no-repeat top left;
+    border: 1px white solid;
+}
+
+#maincontent .back_to_top a:hover {
+    border: 1px #000080 solid;
+    text-decoration: none;
+}
+
+.qa_series { /*Set of questions*/
+    margin-top: 2em;
+}
+
+.question_answer { /*Set of one Q+Q_sub+Answer*/
+    padding-left: 2em;
+    background: white url("/images/blackbullet_faq.png") no-repeat top left;
+}
+
+.question  { /*Question, is also h3*/
+    font-size: 1.2em;
+    margin: 2em 0 0.8em 0;
+    display: block;
+    font-weight: normal;
+    color: #000080;
+}
+
+.question_sub, .answer {
+    font-size: 0.9em;
+}
+
+.question_sub {
+    color: #000080;
+}
+
+.answer {
+    margin-top: 0.8em;
+    border-left: 1px #000080 solid;
+    padding-left: 0.5em;
+}
+
+.read_more {
+    margin-left: 60%;
+    font-size: 0.9em;
+}
+
+#more_q {
+    margin-top: 3em;
+}
+
+#more_q h3 {
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #000080;
+}
+
+/*----------------------------------------------------
+ * "Read and view more" box on "How to Misunderstand Free Software" page.
+ *----------------------------------------------------*/
+
+#morebox {
+    width: 60%;
+    margin: 1em auto;
+    font-size: 0.8em;
+    border: 1px #DFD9F9 solid;
+    padding: 0.5em;
+}
+
+#morebox ul {
+    list-style-type: none;
+    list-style-image: none; /* IE bug */
+    margin: 0; /* for IE */
+    padding: 0; /* for Moz */
+}
+
+#morebox li {
+    margin: 0.5em 0;
+    white-space: nowrap;
+}
+
+#morebox li a {
+    padding: 0.2em 0.5em;
+    background: none;
+}
+
+/*----------------------------------------------------
+ * "Read more" box on "How to Misunderstand Free Software" page.
+ *----------------------------------------------------*/
+
+#collapsed_box {
+    font-size: 0.95em;
+    margin-top: 3em;
+    padding: 2em;
+    border: 1px #e8e8dc solid;
+    background: #ffffef;
+}
+
+#collapsed_box h2 {
+    margin-top: 0;
+    text-indent: 0;
+    padding-left: 20px;
+    background: url(/images/plus.png) center left no-repeat;
+}
+
+/*----------------------------------------------------
+ * "Screenshots" page.
+ *----------------------------------------------------*/
+
+.screenshots img {
+    float: none;
+}
+
+.screenshot_even, .screenshot_odd {
+    margin-top: 0.5em;
+    height: 150px;
+    padding: 0.5em;
+    border: 1px #d8e5e5 solid;
+    background: white;
+}
+
+.screenshot_even {
+    text-align: left;
+}
+
+#maincontent .screenshot_even img {
+    float: right;
+    margin-right: 0em;
+    margin-left: 1em;
+}
+
+.screenshot_odd {
+    text-align: right;
+}
+
+#maincontent .screenshot_odd img {
+    float: left;
+    margin-right: 1em;
+    margin-left: 0em;
+}
+
+/*----------------------------------------------------
+ * Footer (we're almost done!)
+ *----------------------------------------------------*/
 
 #footer {
     border: 1px #DFD9F9 solid;

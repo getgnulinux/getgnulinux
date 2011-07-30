@@ -7,7 +7,7 @@ $footnote2 = '<a class="footnote" id="footnote2" href="#footnote_bottom2">2</a>'
 
 ?>
 
-<div id="maincontent">
+<div id="maincontent" class="mfs">
 
 
 
@@ -131,7 +131,7 @@ $p = _("So in fact, you have more \"ownership\" over free software than over pro
 <p><?php print _("Read more:"); ?></p>
 <h2 class="toggleanswer" id="security"><?php print _("Free / \"open-source\" software can't be secure."); ?></h2>
 
-<div class="answer">
+<div class="mfs_answer">
 <p><?php print _("The argument generally goes that since the source code of free software is available, it is less likely to be secure."); ?></p>
 <p><?php print _("Short answer: The majority of servers run free software. They are the major networked computers holding sensitive or confidential information such as your bank details or trade secrets."); ?></p>
 <p><?php print _("A more precise answer is that availability of source code is a warrant of security, not a weakness. The freedom of the software ensures it can be inspected, tested and improved by a very wide community. A good lock is secure because the technology used to design it is open, though only the key holder can open it. The same goes for software."); ?></p>
@@ -142,7 +142,7 @@ $p = _("So in fact, you have more \"ownership\" over free software than over pro
 #i18n: this can be translated loosely, ex "Free software isolates me" or else.
 print _("I'm on my own with free software."); ?></h2>
 
-<div class="answer">
+<div class="mfs_answer">
 <p><?php print _("Not at all."); ?></p>
 <ul>
 <li><?php print _("If you are looking for good documentation and support forums to assist you, there is plenty available for free (\"open source\") software."); ?><br/>
@@ -155,7 +155,7 @@ print _("Each GNU/Linux distribution has its own community (for example, <a href
 
 <h2 class="toggleanswer" id="further_reading"><?php print _("Further reading on the web"); ?></h2>
 
-<div class="answer">
+<div class="mfs_answer">
 <ul>
 <li><h3><a href="http://www.gnu.org">The GNU project</a></h3>
 <p><?php print _("This is where free software all started. You will find a wealth of information about the free software philosophy, the history of the project, and the stands taken by the <a href=\"http://www.fsf.org/\">Free Software Foundation</a> (the organisation behind GNU)."); ?></p></li>

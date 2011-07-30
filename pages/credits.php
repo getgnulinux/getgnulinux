@@ -2,12 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-	<title>GNU/Linux Matters websites credits</title>
+	<title>get GNU/Linux! websites credits</title>
 	<meta name="description" content="Legal terms of use for the GNU/Linux Matters websites"/>
-	<link rel="stylesheet" type="text/css" href="/style/maincss.css" />
-	<link rel="stylesheet" type="text/css" href="/style/maincss-ltr.css" />
-    <link rel="stylesheet" type="text/css" href="/style/credits.css" />
-    <link rel="stylesheet" type="text/css" href="/style/previous_next_up-ltr.css" />
+    <?php $this->stylesheet('/style/maincss-ltr.css'); ?>
+    <?php $this->stylesheet('/style/credits.css'); ?>
 </head>
 
 <body>
@@ -164,7 +162,7 @@ Vietnamese Free Software Translation Team</a>, and Minh Ngoc Le.</p>
 </ul>
 
 <div id="switcher">
-    <a href="<?php $this->base_url('home'); ?>" class="previousbutton"><span class="previous"><span class="button_title"><?php print _("Return to the Homepage"); ?></span></span></a>
+    <a href="<?php $this->base_url(); ?>" class="previousbutton"><span class="previous"><span class="button_title"><?php print _("Return to the Homepage"); ?></span></span></a>
 </div><!-- end of switcher -->
 
 </div><!-- end maincontent -->

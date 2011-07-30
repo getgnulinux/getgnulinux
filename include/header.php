@@ -8,37 +8,23 @@
     foreach ($ggl->locale_info as $id => $items) {
         printf("<link rel=\"alternate\" type=\"text/html\" dir=\"%s\" hreflang=\"%s\" href=\"/%s/\" title=\"%s\" />\n",
             $items[2], $id, $id, $items[4]);
-    }
-    ?>
-
+    } ?>
+    <title><?php print _("get GNU/Linux!"); ?></title>
     <link rel="copyright" type="text/html" title="Copyright notice for this website." href="<?php $this->base_url('legal'); ?>" hreflang="en" />
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
-    <?php $this->stylesheet('/style/language.css'); ?>
-    <?php $this->stylesheet('/style/maincss-ltr.css'); ?>
-
-    <title><?php print _("get GNU/Linux!"); ?></title>
-
     <meta name="description" content="<?php print _("Get GNU/Linux! A simple, clear website about Linux. | What is Linux? | Why not Windows? | Tips to make the switch"); ?>"/>
     <meta name="keywords" content="<?php print _("linux, gnu/linux, free software, software freedom, open-source, windows alternative, get linux, switch to linux"); ?>" />
-
+    <?php $this->stylesheet('/style/maincss-ltr.css'); ?>
     <?php
     $p = isset($_GET['p']) ? $_GET['p'] : NULL;
     switch ($p) {
-        case 'linux':
-            $this->stylesheet('/style/linux-ltr.css');
-            break;
-        case 'linux.linux_faq':
-            $this->stylesheet('/style/linux.linux_faq-ltr.css');
-            break;
         case 'linux.misunderstanding_free_software':
-            $this->stylesheet('/style/linux.misunderstanding_free_software-ltr.css');
             $this->javascript('/style/toggleanswers.js');
             break;
         case 'linux.screenshots':
             $this->javascript('http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js');
             $this->javascript('/style/fancybox/jquery.fancybox-1.3.4.pack.js');
             $this->stylesheet('/style/fancybox/jquery.fancybox-1.3.4.css');
-            $this->stylesheet('/style/linux.screenshots-ltr.css');
             ?>
     <script type="text/javascript">
         $(document).ready(function() {
@@ -71,25 +57,6 @@
     </script>
             <?php
             break;
-        case 'windows':
-            $this->stylesheet('/style/windows-ltr.css');
-            break;
-        case 'windows.restrictions':
-            $this->stylesheet('/style/windows-ltr.css');
-            $this->stylesheet('/style/windows.restrictions-ltr.css');
-            break;
-        case 'windows.restrictions.further_details':
-            $this->stylesheet('/style/windows.restrictions.further_details-ltr.css');
-            break;
-        case 'windows.what_about_choice':
-            $this->stylesheet('/style/windows.what_about_choice-ltr.css');
-            break;
-        case 'windows.what_about_source_code':
-            $this->stylesheet('/style/windows.what_about_source_code-ltr.css');
-            break;
-        case 'windows.stand_for_a_free_society':
-            $this->stylesheet('/style/windows.stand_for_a_free_society-ltr.css');
-            break;
         case 'switch_to_linux':
             $this->stylesheet('/style/switch_to_linux-ltr.css');
             break;
@@ -108,14 +75,13 @@
         case 'link_buttons':
             $this->javascript('/style/togglecodetext.js');
             break;
-
-        default:
+        case NULL:
             $this->stylesheet('/style/index-ltr.css');
     }
     ?>
 
     <!--[if lte IE 6]>
-    <script src="/style/ie_translation_menu.js" type="text/javascript"></script>
+    <?php $this->javascript('/style/ie_translation_menu.js'); ?>
     <?php $this->stylesheet('/style/ie6-ltr.css'); ?>
     <![endif]-->
 

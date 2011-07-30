@@ -4,7 +4,7 @@
     <a href="<?php $this->base_url('windows/restrictions'); ?>" class="upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("Restrictions"); ?></span></span></a>
 </div>
 
-<div id="maincontent">
+<div id="maincontent" class="windows_sub">
 
 <h1 class="windows_section_style"><?php print _("More details on restrictions"); ?></h1>
 

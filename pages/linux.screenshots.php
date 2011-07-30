@@ -31,7 +31,7 @@ $gnewsense3_text = _("Accessing applications");
 <a href="<?php $this->base_url('linux'); ?>" class="upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("What is Linux?"); ?></span></span></a>
 </div>
 
-<div id="maincontent">
+<div id="maincontent" class="screenshots">
 
 <h1><?php print _("What GNU/Linux looks like"); ?></h1>
 
@@ -40,19 +40,19 @@ $gnewsense3_text = _("Accessing applications");
 
 
 <a id="ubuntu" />
-<div class="even">
+<div class="screenshot_even">
 <a rel="screenshots_ubuntu" title="<?php print $ubuntu1_text; ?>" href="/images/screenshots/ubuntu1.png"><img height="150" src="/images/screenshots/h150px/ubuntu1.png" alt="Ubuntu Snapshot 1"/></a>
 <p><em>Ubuntu:</em></p>
 <p><?php print $ubuntu1_text; ?></p>
 </div>
 
-<div class="even">
+<div class="screenshot_even">
 <a rel="screenshots_ubuntu" title="<?php print $ubuntu2_text; ?>" href="/images/screenshots/ubuntu2.png"><img height="150" src="/images/screenshots/h150px/ubuntu2.png" alt="Ubuntu Snapshot 2"/></a>
 <p><em>Ubuntu:</em></p>
 <p><?php print $ubuntu2_text; ?></p>
 </div>
 
-<div class="even">
+<div class="screenshot_even">
 <a rel="screenshots_ubuntu" title="<?php print $ubuntu3_text; ?>" href="/images/screenshots/ubuntu3.png"><img height="150" src="/images/screenshots/h150px/ubuntu3.png" alt="Ubuntu Snapshot 3"/></a>
 <p><em>Ubuntu:</em></p>
 <p><?php print $ubuntu3_text; ?></p>
@@ -60,19 +60,19 @@ $gnewsense3_text = _("Accessing applications");
 
 
 <a id="fedora" />
-<div class="odd">
+<div class="screenshot_odd">
 <a rel="screenshots_fedora" title="<?php print $fedora1_text; ?>" href="/images/screenshots/fedora1.png"><img height="150" src="/images/screenshots/h150px/fedora1.png" alt="Fedora Snapshot 1"/></a>
 <p><em>Fedora:</em></p>
 <p><?php print $fedora1_text; ?></p>
 </div>
 
-<div class="odd">
+<div class="screenshot_odd">
 <a rel="screenshots_fedora" title="<?php print $fedora2_text; ?>" href="/images/screenshots/fedora2.png"><img height="150" src="/images/screenshots/h150px/fedora2.png" alt="Fedora Snapshot 2"/></a>
 <p><em>Fedora:</em></p>
 <p><?php print $fedora2_text; ?></p>
 </div>
 
-<div class="odd">
+<div class="screenshot_odd">
 <a rel="screenshots_fedora" title="<?php print $fedora3_text2; ?>" href="/images/screenshots/fedora3.png"><img height="150" src="/images/screenshots/h150px/fedora3.png" alt="Fedora Snapshot 3"/></a>
 <p><em>Fedora:</em></p>
 <p><?php print $fedora3_text; ?></p>
@@ -80,19 +80,19 @@ $gnewsense3_text = _("Accessing applications");
 
 
 <a id="gnewsense" />
-<div class="even">
+<div class="screenshot_even">
 <a rel="screenshots_gnewsense" title="<?php print $gnewsense1_text; ?>" href="/images/screenshots/gnewsense1.png"><img height="150" src="/images/screenshots/h150px/gnewsense1.png" alt="gNewSense Snapshot 1"/></a>
 <p><em>gNewSense:</em></p>
 <p><?php print $gnewsense1_text; ?></p>
 </div>
 
-<div class="even">
+<div class="screenshot_even">
 <a rel="screenshots_gnewsense" title="<?php print $gnewsense2_text; ?>" href="/images/screenshots/gnewsense2.png"><img height="150" src="/images/screenshots/h150px/gnewsense2.png" alt="gNewSense Snapshot 2"/></a>
 <p><em>gNewSense:</em></p>
 <p><?php print $gnewsense2_text; ?></p>
 </div>
 
-<div class="even">
+<div class="screenshot_even">
 <a rel="screenshots_gnewsense" title="<?php print $gnewsense3_text; ?>" href="/images/screenshots/gnewsense3.png"><img height="150" src="/images/screenshots/h150px/gnewsense3.png" alt="gNewSense Snapshot 3"/></a>
 <p><em>gNewSense:</em></p>
 <p><?php print $gnewsense3_text; ?></p>

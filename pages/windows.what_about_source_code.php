@@ -6,7 +6,7 @@ $this->menu_why_not_windows();
 
 ?>
 
-<div id="maincontent">
+<div id="maincontent" class="windows_sub ul_clear_right what_about_source_code">
 
 
 <h1 class="windows_section_h1"><?php

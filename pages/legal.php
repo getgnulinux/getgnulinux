@@ -4,9 +4,7 @@
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 	<title>get GNU/Linux! websites terms of use</title>
 	<meta name="description" content="Legal terms of use for the GNU/Linux Matters websites"/>
-	<link rel="stylesheet" type="text/css" href="/style/maincss.css" />
-    <link rel="stylesheet" type="text/css" href="/style/maincss-ltr.css" />
-    <link rel="stylesheet" type="text/css" href="/style/previous_next_up-ltr.css" />
+    <?php $this->stylesheet('/style/maincss-ltr.css'); ?>
 </head>
 
 <body>
@@ -115,7 +113,7 @@ violations of these terms of use, including, but not limited to, the right to
 block access from a particular Internet address to our websites.</p>
 
 <div id="switcher">
-    <a href="<?php $this->base_url('home'); ?>" class="previousbutton"><span class="previous"><span class="button_title"><?php print _("Return to the Homepage"); ?></span></span></a>
+    <a href="<?php $this->base_url(); ?>" class="previousbutton"><span class="previous"><span class="button_title"><?php print _("Return to the Homepage"); ?></span></span></a>
 </div><!-- end of switcher -->
 
 </div><!-- end maincontent -->

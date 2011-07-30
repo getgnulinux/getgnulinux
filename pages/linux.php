@@ -1,6 +1,6 @@
 <?php $this->load_header(); ?>
 
-<div id="maincontent">
+<div id="maincontent" class="linux">
 
 <h1><?php print _("What is GNU/Linux?"); ?></h1>
 

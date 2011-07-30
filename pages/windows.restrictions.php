@@ -2,7 +2,7 @@
 
 <?php $this->menu_why_not_windows(); ?>
 
-<div id="maincontent">
+<div id="maincontent" class="windows_sub">
 
 <h1 class="windows_section_h1"><?php print _("Restrictions"); ?></h1>
 <div class="quote1"><div class="quote2"><div class="quote3">

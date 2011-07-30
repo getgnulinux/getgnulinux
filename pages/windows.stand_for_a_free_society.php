@@ -9,7 +9,7 @@ $this->menu_why_not_windows();
 
 ?>
 
-<div id="maincontent">
+<div id="maincontent" class="windows_sub stand_for_a_free_society">
 
 
 <h1 class="windows_section_h1"><?php print _("Stand for a Free Society"); ?></h1>
