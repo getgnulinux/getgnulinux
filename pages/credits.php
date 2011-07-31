@@ -4,7 +4,7 @@
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 	<title>get GNU/Linux! websites credits</title>
 	<meta name="description" content="Legal terms of use for the GNU/Linux Matters websites"/>
-    <?php $this->stylesheet('/style/maincss-ltr.css'); ?>
+    <?php $this->stylesheet('/style/main-ltr.css'); ?>
 </head>
 
 <body>
