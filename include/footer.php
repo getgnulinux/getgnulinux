@@ -13,7 +13,7 @@
 
 <div id="footer">
 <p id="about">
-<?php $p = _("Except where otherwise <a href=\"%s\">noted</a>, content on this site is licensed under a <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" rel=\"license\">CC BY-SA 3.0 License</a>."); printf($p, $this->base_url('legal',1)); ?>
+<?php $p = _("Except where otherwise <a href=\"%s\">noted</a>, content on this site is licensed under a <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" rel=\"license\"><aronym title=\"Creative Commons Attribution-ShareAlike 3.0 Unported License\">CC BY-SA 3.0 License</aronym></a>."); printf($p, $this->base_url('legal',1)); ?>
 </p>
 
 <ul>
