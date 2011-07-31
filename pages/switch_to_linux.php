@@ -1,6 +1,6 @@
 <?php $this->load_header(); ?>
 
-<div id="maincontent">
+<div id="maincontent" class="switch_to_linux">
 
 <h1><?php print _("Switch to Linux"); ?></h1>
 

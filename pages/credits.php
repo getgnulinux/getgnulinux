@@ -5,7 +5,6 @@
 	<title>get GNU/Linux! websites credits</title>
 	<meta name="description" content="Legal terms of use for the GNU/Linux Matters websites"/>
     <?php $this->stylesheet('/style/maincss-ltr.css'); ?>
-    <?php $this->stylesheet('/style/credits.css'); ?>
 </head>
 
 <body>
@@ -24,7 +23,7 @@
     <h1>Credits and Licensing</h1>
 </div>
 
-<div id="maincontent">
+<div id="maincontent" class="credits">
 
 <h2>Thank you</h2>
 <p>We are grateful and endebted towards many kind individuals, who contributed

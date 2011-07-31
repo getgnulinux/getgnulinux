@@ -1,8 +1,8 @@
 @import url("fonts.css");
 
 /*----------------------------------------------------
-- First, resetting some of the heterogenous UA styling
-----------------------------------------------------*/
+ * First, resetting some of the heterogenous UA styling
+ *----------------------------------------------------*/
 
 body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, th, td {
     margin: 0;
@@ -42,8 +42,8 @@ q:before, q:after {
 }
 
 /*----------------------------------------------------
-- General styles
-----------------------------------------------------*/
+ * General styles
+ *----------------------------------------------------*/
 
 .accessibility a {
     display: none; /* Link to skip all header stuff, for text-based surfers */
@@ -157,6 +157,10 @@ code {
     font-style: italic;
 }
 
+.centered {
+    text-align: center;
+}
+
 .footnote {
     position: relative;
     bottom: 0.5em;
@@ -198,6 +202,13 @@ code {
     cursor: pointer;
 }
 
+.header_2 { /*emulating h2 style (we can't use h2 inside links)*/
+    display: block;
+    font-size: 1.5em;
+    margin: 0 0 0.5em 0;
+    padding: 0;
+}
+
 /*----------------------------------------------------
  * Header styles
  *----------------------------------------------------*/
@@ -230,8 +241,8 @@ code {
 	}
 
 /*----------------------------------------------------
-- Translations menu on top of page
-----------------------------------------------------*/
+ * Translations menu on top of page
+ *----------------------------------------------------*/
 
 #translations {
     position: absolute;
@@ -314,8 +325,8 @@ code {
 }
 
 /*----------------------------------------------------
-- Main body
-----------------------------------------------------*/
+ * Main body
+ *----------------------------------------------------*/
 
 body {
     margin: 0;
@@ -388,6 +399,594 @@ body {
 }
 
 /*----------------------------------------------------
+ * Headers (blue part + navigation bar)
+ *----------------------------------------------------*/
+
+#header {
+    padding: 1em 0;
+}
+
+#header_picture {
+    background: #ffffff url("/images/homepage_header_background.jpg") top repeat-x;
+    padding: 8px 0;
+    margin-top: 0px;
+    height: 50px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+#header_picture h1 {
+    font-family: "MgOpen Cosmetica", Times, "Times New Roman", Georgia, FreeSerif, serif;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 4px 15px;
+    outline: 0;
+    text-align: left;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+#header_picture a {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+}
+
+#header_picture_homepage {
+    background: url("/images/homepage_header_background.jpg") top left no-repeat;
+    margin-top: 0px;
+    height: 130px;
+    position: relative;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+#header_picture_homepage h1 {
+    font-family: "MgOpen Cosmetica", Times, "Times New Roman", Georgia, FreeSerif, serif;
+    font-size: 3.0em;
+    color: #ffffff;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+/*----------------------------------------------------
+ * Navigation bar
+ *
+ * The naviagtion bar style is based the `GNOME Grass`
+ * theme by Vinicius Depizzol for gnome.org.
+ *----------------------------------------------------*/
+
+#top_bar {
+    background: #fff url("/images/menu_bar_bg.png") top repeat-x;
+    padding: 8px 0;
+    margin-top: 0px;
+    font-size: 16px;
+    line-height: normal;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+#top_bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 5px;
+}
+
+#top_bar ul li {
+    display: inline;
+    margin: 0 5px 0 0;
+}
+
+#top_bar a {
+    font-size: 1.0em;
+    color: #fff;
+    text-decoration: none;
+    padding: 4px 8px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    outline: 0;
+    -webkit-transition: background 100ms linear;
+    -moz-transition: background 100ms linear;
+    transition: background 100ms linear;
+    text-shadow: 0 1px 0 #000;
+}
+
+#top_bar a:hover {
+    background: rgba(100%, 100%, 100%, 0.2);
+}
+
+#top_bar a:focus {
+    background: rgba(100%, 100%, 100%, 0.15);
+}
+
+#top_bar a:active, #top_bar li.current-menu-item a, #top_bar li.current-menu-subitem a {
+    background: #203F57;
+    -moz-box-shadow: inset 0 -1px 0 rgba(100%,100%,100%, 0.4), inset 0 1px 3px rgba(0,0,0,0.4);
+    -webkit-box-shadow: inset 0 -1px 0 rgba(100%,100%,100%, 0.4), inset 0 1px 3px rgba(0,0,0,0.4);
+    box-shadow: inset 0 -1px 0 rgba(100%,100%,100%, 0.4), inset 0 1px 3px rgba(0,0,0,0.4);
+}
+
+#top_bar li.current-menu-subitem a {
+    background: #2C5473;
+}
+
+
+/*----------------------------------------------------
+ * Main contents
+ *----------------------------------------------------*/
+
+#maincontent {		/* The actual (interesting!) text content, inside mainbody */
+    margin-top: 3em;
+    clear: none;
+}
+
+#maincontent img {
+    clear: right;
+    float: right;
+    margin-left: 1em;
+}
+
+#intro_box {
+    margin-top: 5em;
+}
+
+/*----------------------------------------------------
+ * Subheader ("contents of chapter" box)
+ * (only displays in level 2 pages)
+ *----------------------------------------------------*/
+
+#subheader {
+    clear: right;
+    float: right;
+    font-size: 0.8em;
+    margin: 3em -1em 2em 1.5em;
+    padding: 0.5em 1em 0.5em 1em;
+    border-left: 1px #DFD9F9 solid;
+    border-bottom: 1px #DFD9F9 solid;
+}
+
+#subheader .title {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 0.8em;
+}
+
+#subheader .title a {
+    background: none;
+    text-decoration: none;
+    color: black;
+}
+
+#subheader ul {
+    list-style-type: none;
+    list-style-image: none; /* IE bug */
+    margin: 0; /* for IE */
+    padding: 0; /* for Moz */
+}
+
+#subheader li {
+    margin: 0.5em 0;
+    white-space: nowrap;
+}
+
+#subheader li a {
+    color: #000080;
+    display: block;
+    padding: 0.2em 0.5em;
+    background: none;
+    outline: 0;
+    border-bottom: 1px solid #fff;
+}
+
+#subheader li a:hover {
+    text-decoration: none;
+    color: #043f58;
+    background: #f2f5fa;
+}
+
+#subheader .wehere a {
+    border-bottom: 1px solid #B3C7FF;
+    background: #f2f5fa;
+}
+
+#subheader .wehere a:hover {
+    background: #e4ebf7;
+}
+
+/*----------------------------------------------------
+ * Styles for the main page.
+ *----------------------------------------------------*/
+
+.main_pic {
+    margin: -20px 0 0 0;  /* Pixel margin because of IE bugs */
+    clear: none;
+}
+
+#text {
+    min-height: 185px; /* Higher than main_pic to avoid IE peekaboo bug */
+}
+
+#contentlist {
+    padding: 0;
+    margin: 0 2em;
+    clear: both;
+}
+
+#contentlist a {
+    display: block;
+    padding: 0.8em 0.5em;
+    margin: 0.5em 0;
+    background: #fafcff;
+    border: 1px #ebf2ff solid;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+#contentlist a:hover {
+    text-decoration: none;
+    background: #f5f9ff;
+    border: 1px #e0ecff solid;
+}
+
+#contentlist a img {
+    clear: none;
+    opacity: 0.8; /* Validates as CSS3 */
+}
+
+#contentlist a:hover img {
+    opacity: 1;
+}
+
+#contentlist .title {
+    display: block;
+    color: #000080;
+    margin: 0 0 0.5em 0;
+    padding: 0;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+#contentlist a .subtitle {
+    color: black;
+}
+
+#contentlist a:hover span, #contentlist a:hover h2 {
+    color: #000080;
+}
+
+/*----------------------------------------------------
+ * Styles for the "Switch to Linux" pages.
+ *----------------------------------------------------*/
+
+.section {
+    clear: both;
+    border-top: 2px #ddddef solid;
+    padding: 1em 0 3em 0;
+}
+
+div .note {
+    margin-top: 1em;
+    text-align: right;
+}
+
+/*----------------main content list----------------*/
+
+.switch_to_linux #contentlist {
+    padding: 0;
+    margin: 0 0 3em 0;
+}
+
+.switch_to_linux #contentlist img {
+    margin: 0;
+    padding: 0;
+}
+
+.switch_to_linux #contentlist a {
+    clear: both;
+    display: block;
+    padding: 1em;
+    margin: 1em 0;
+    height: 3.5em;
+    min-height: 55px;
+    background: none;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.switch_to_linux #contentlist a img {
+    opacity: 0.85;
+}
+
+.switch_to_linux #contentlist a:hover img {
+    opacity: 1;
+}
+
+.switch_to_linux #contentlist a:hover {
+    text-decoration: none;
+}
+
+.switch_to_linux #contentlist a:hover span {
+    color: #00c;
+    text-decoration: underline;
+    background: transparent; /* no dotting but no color either */
+}
+
+.switch_to_linux #contentlist a:hover .header_2 {
+    text-decoration: none;
+    color: #000080;
+}
+
+/*----------------color of boxes----------------*/
+
+.switch_to_linux #contentlist .odd {
+    background: #f5f9ff;
+    border: 1px #e0ecff solid;
+}
+
+.switch_to_linux #contentlist .odd:hover {
+    background: #f2f7ff;
+    border: 1px #DFD9F9 solid;
+}
+
+.switch_to_linux #contentlist .even {
+    background: #f8fff5;
+    border: 1px #e0ffe4 solid;
+}
+
+.switch_to_linux #contentlist .even:hover {
+    background: #f4fff0;
+    border: 1px #DFD9F9 solid;
+}
+
+/*----------------------------------------------------
+ * Styles for "Choose a distribution" page.
+ *----------------------------------------------------*/
+
+.ubuntu, .gnewsense, .fedora {
+    clear: both;
+    padding: 1em;
+    margin: 1em;
+    background: white;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.ubuntu img, .gnewsense img, .fedora img {
+    margin-bottom: 0.5em;
+}
+
+.ubuntu {
+    border: 1px #DD4814 solid;
+}
+
+.fedora {
+    border: 1px #08517a solid;
+}
+
+.gnewsense {
+    border: 1px #8f5902 solid;
+}
+
+.ubuntu_title, .fedora_title, .gnewsense_title {
+    font-family: Helvetica, Arial, sans-serif;
+    padding-left: 20px;
+    font-size: 1.2em;
+}
+
+.ubuntu_title {
+    color: #000000;
+    background: url("/images/switch_to_linux/switch_to_linux.choose_a_distribution.ubuntu_icon.png") center left no-repeat;
+}
+
+.fedora_title {
+    color: #0a57a4;
+    background: url("/images/switch_to_linux/switch_to_linux.choose_a_distribution.fedora_icon.png") center left no-repeat;
+}
+
+.gnewsense_title {
+    color: #563100;
+    background: url("/images/switch_to_linux/switch_to_linux.choose_a_distribution.gnewsense_icon.png") center left no-repeat;
+}
+
+.distro_screenshots {
+    margin-top: 3em;
+    text-align: center;
+}
+
+#maincontent .distro_screenshots img {
+    float: none;
+    margin: 0 1em 0.5em 0;
+}
+
+#maincontent .distro_screenshots a {
+    background: none;
+}
+
+/*----------------------------------------------------
+ * Styles for the "Try or install" page.
+ *----------------------------------------------------*/
+
+#mainbody a.get_it_button {
+    float: right;
+    clear: both;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+    padding: 0.4em;
+    background-color: #dbffbf;
+    background-image: none;
+    border: 1px #adcd94 solid;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+#mainbody a.get_it_button:hover {
+    color: black;
+    background: #d0fcae;
+    border-color: #79bf42;
+    text-decoration: none;
+}
+
+#mainbody a.get_it_button:active {
+    border-color: red;
+}
+
+.go_download {
+    background: url("/images/go_ltr.png") center left no-repeat;
+    padding-left: 22px;
+}
+
+.order {
+    background: url("/images/box.png") center left no-repeat;
+    padding-left: 22px;
+}
+
+#mainbody .go_download a, #mainbody .order a {
+    background: none;
+}
+
+.ubuntu_light, .fedora_light, .gnewsense_light {
+    margin: 0 0.5em 0.5em 0;
+    padding: 0.5em;
+    background: white;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.ubuntu_light {
+    border: 1px #DD4814 solid;
+}
+
+.fedora_light {
+    border: 1px #6c94c9 solid;
+}
+
+.gnewsense_light {
+    border: 1px #c59292 solid;
+}
+
+/*----------------------------------------------------
+ * Styles for the "More" page.
+ *----------------------------------------------------*/
+
+.more_section { /*separating the 3 categories for external links */
+    clear: both;
+    border-top: 2px #ddddef solid;
+    padding: 1em 0 3em 0;
+}
+
+.more_section a {
+    background: none;
+}
+
+.button_link {
+    float: none;
+    text-align: center;
+    width: 180px;
+    margin: 0 auto 1em auto;
+}
+
+.button_link a img {
+    opacity: 0.8;
+}
+
+.button_link a:hover img {
+    opacity: 1;
+}
+
+.column1_2 {
+    float: right;
+    width: 45%;
+    padding: 0 2%;
+}
+
+.column2_2 {
+    width: 45%;
+    padding: 0 2%;
+}
+
+/*-------------------- About box --------------------*/
+
+#about_us {
+    background: none repeat scroll 0 0 #EDF2FF;
+    font-size: 0.95em;
+    margin-top: 4.5em;
+    padding: 1em;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0 1px 0 #B3C7FF;
+    -moz-box-shadow: 0 1px 0 #B3C7FF;
+    -webkit-box-shadow: 0 1px 0 #B3C7FF;
+}
+
+#about_us h2 {
+    font-size: 1.5em;
+    margin: 0;
+    font-style: italic;
+}
+
+#about_us img {
+    float: right;
+    margin: 0 0 1em 1em
+}
+
+/*-------------------- Links in About box --------------------*/
+
+#about_us_more {
+    text-align: center;
+    width: 80%;
+    margin: 1em auto;
+    font-size: 0.8em;
+}
+
+#about_us_more li {
+    display: inline;
+}
+
+#about_us_more ul {
+    list-style-type: none;
+    list-style-image: none; /* IE bug */
+    margin: 0; /* for IE */
+    padding: 0; /* for Moz */
+}
+
+#about_us_more li {
+    margin: 1em 0;
+    white-space: nowrap;
+}
+
+#about_us_more li a {
+    color: #000080;
+    padding: 0.2em 0.5em;
+    background: none;
+}
+
+#about_us_more li a:hover {
+    text-decoration: underline;
+}
+
+/*----------------------------------------------------
  * Page specific styles
  *----------------------------------------------------*/
 
@@ -430,6 +1029,89 @@ body {
 .mfs_answer {
     margin-bottom: 2em;
     padding-left: 1.5em;
+}
+
+.main_page {
+    margin-top: 4em;
+}
+
+.main_page h1 {
+    text-align: left;
+}
+
+.from_windows_to_linux ul {
+    padding-left: 1.2em;
+}
+
+.from_windows_to_linux li {
+    clear: right;  /*see #317*/
+}
+
+.from_windows_to_linux h2 {
+    margin: 0.5em 0 1.5em 0;
+    font-weight: normal;
+    font-size: 2em;
+    text-align: center;
+}
+
+.from_windows_to_linux h3 {
+    display: block;
+    margin-bottom: 0.2em;
+    color: #000080;
+    font-size: 1.2em;
+}
+
+.choose_a_distribution h2 {
+    margin: 0 0 0.5em 0;
+}
+
+.try_or_install h2 {
+    margin: 0.5em 0 1.5em 0;
+    font-size: 1.8em;
+}
+
+.try_or_install h3 {
+    display: block;
+    font-size: 1.2em;
+    margin: 1em 1em 0.5em 0;
+    color: #000080;
+}
+
+.try_or_install h4 {
+    margin: 0 0 0.5em 0;
+}
+
+.more h2 {
+    text-align: center;
+    clear: both;
+    margin: 0.5em 0 1.5em 0;
+    font-weight: normal;
+    font-size: 2em;
+}
+
+.more_section img {
+    clear: none !important;
+    float: none !important;
+    display: block;
+    margin: 0 !important;
+}
+
+.more_note {
+    clear: both;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.more_intro_box {
+    text-align: center;
+    margin-bottom: 2em
+}
+
+.credits h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    padding-top: 1em;
+    border-top: 1px #DFD9F9 solid;
 }
 
 /*----------------------------------------------------
@@ -518,220 +1200,9 @@ body {
 }
 
 /*----------------------------------------------------
-- Headers (blue part + navigation bar)
-----------------------------------------------------*/
-
-#header {
-    padding: 1em 0;
-}
-
-#header_picture {
-    background: #ffffff url("/images/homepage_header_background.jpg") top repeat-x;
-    padding: 8px 0;
-    margin-top: 0px;
-    height: 50px;
-    border-radius: 6px;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-}
-
-#header_picture h1 {
-    font-family: "MgOpen Cosmetica", Times, "Times New Roman", Georgia, FreeSerif, serif;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 4px 15px;
-    outline: 0;
-    text-align: left;
-    text-shadow: 0px 0px 5px #fff;
-}
-
-#header_picture a {
-    color: #FFFFFF;
-    text-decoration: none;
-    display: block;
-}
-
-#header_picture_homepage {
-    background: url("/images/homepage_header_background.jpg") top left no-repeat;
-    margin-top: 0px;
-    height: 130px;
-    position: relative;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
-    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-}
-
-#header_picture_homepage h1 {
-    font-family: "MgOpen Cosmetica", Times, "Times New Roman", Georgia, FreeSerif, serif;
-    font-size: 3.0em;
-    color: #ffffff;
-    margin-bottom: 10px;
-    position: absolute;
-    bottom: 0px;
-    left: 15px;
-    text-shadow: 0px 0px 5px #fff;
-}
-
-/*----------------------------------------------------
-- Navigation bar
-
-The naviagtion bar style is based the `GNOME Grass`
-theme by Vinicius Depizzol for gnome.org.
-----------------------------------------------------*/
-
-#top_bar {
-    background: #fff url("/images/menu_bar_bg.png") top repeat-x;
-    padding: 8px 0;
-    margin-top: 0px;
-    font-size: 16px;
-    line-height: normal;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
-    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-}
-
-#top_bar ul {
-    list-style: none;
-    margin: 0;
-    padding: 0 5px;
-}
-
-#top_bar ul li {
-    display: inline;
-    margin: 0 5px 0 0;
-}
-
-#top_bar a {
-    font-size: 1.0em;
-    color: #fff;
-    text-decoration: none;
-    padding: 4px 8px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
-    outline: 0;
-    -webkit-transition: background 100ms linear;
-    -moz-transition: background 100ms linear;
-    transition: background 100ms linear;
-    text-shadow: 0 1px 0 #000;
-}
-
-#top_bar a:hover {
-    background: rgba(100%, 100%, 100%, 0.2);
-}
-
-#top_bar a:focus {
-    background: rgba(100%, 100%, 100%, 0.15);
-}
-
-#top_bar a:active, #top_bar li.current-menu-item a, #top_bar li.current-menu-subitem a {
-    background: #203F57;
-    -moz-box-shadow: inset 0 -1px 0 rgba(100%,100%,100%, 0.4), inset 0 1px 3px rgba(0,0,0,0.4);
-    -webkit-box-shadow: inset 0 -1px 0 rgba(100%,100%,100%, 0.4), inset 0 1px 3px rgba(0,0,0,0.4);
-    box-shadow: inset 0 -1px 0 rgba(100%,100%,100%, 0.4), inset 0 1px 3px rgba(0,0,0,0.4);
-}
-
-#top_bar li.current-menu-subitem a {
-    background: #2C5473;
-}
-
-
-/*----------------------------------------------------
-- Main contents
-----------------------------------------------------*/
-
-#maincontent {		/* The actual (interesting!) text content, inside mainbody */
-    margin-top: 3em;
-    clear: none;
-}
-
-#maincontent img {
-    clear: right;
-    float: right;
-    margin-left: 1em;
-}
-
-#intro_box {
-    margin-top: 5em;
-}
-
-/*----------------------------------------------------
-- Subheader ("contents of chapter" box)
-- (only displays in level 2 pages)
-----------------------------------------------------*/
-
-#subheader {
-    clear: right;
-    float: right;
-    font-size: 0.8em;
-    margin: 3em -1em 2em 1.5em;
-    padding: 0.5em 1em 0.5em 1em;
-    border-left: 1px #DFD9F9 solid;
-    border-bottom: 1px #DFD9F9 solid;
-}
-
-#subheader .title {
-    display: block;
-    text-align: center;
-    font-style: italic;
-    margin-bottom: 0.8em;
-}
-
-#subheader .title a {
-    background: none;
-    text-decoration: none;
-    color: black;
-}
-
-#subheader ul {
-    list-style-type: none;
-    list-style-image: none; /* IE bug */
-    margin: 0; /* for IE */
-    padding: 0; /* for Moz */
-}
-
-#subheader li {
-    margin: 0.5em 0;
-    white-space: nowrap;
-}
-
-#subheader li a {
-    color: #000080;
-    display: block;
-    padding: 0.2em 0.5em;
-    background: none;
-    outline: 0;
-    border-bottom: 1px solid #fff;
-}
-
-#subheader li a:hover {
-    text-decoration: none;
-    color: #043f58;
-    background: #f2f5fa;
-}
-
-#subheader .wehere a {
-    border-bottom: 1px solid #B3C7FF;
-    background: #f2f5fa;
-}
-
-#subheader .wehere a:hover {
-    background: #e4ebf7;
-}
-
-/*----------------------------------------------------
-- Subheader foot ("contents of chapter" box at bottom)
-- (same html as #subheader, but different css)
-----------------------------------------------------*/
+ * Subheader foot ("contents of chapter" box at bottom)
+ * (same html as #subheader, but different css)
+ *----------------------------------------------------*/
 
 #subheader_foot {
     clear: both;
@@ -793,13 +1264,23 @@ theme by Vinicius Depizzol for gnome.org.
 }
 
 /*----------------------------------------------------
-- Quotes (big introductory quote at start of page)
-- (only displays in Windows level 2 pages)
-- quote1, quote2 and quote3 are imbricated and style
-- the center quotes;
-- while floatquote1 and floatquote2 style the quotes
-- on right side of page
-----------------------------------------------------*/
+ * Quotes (big introductory quote at start of page)
+ * (only displays in Windows level 2 pages)
+ * quote1, quote2 and quote3 are imbricated and style
+ * the center quotes;
+ * while floatquote1 and floatquote2 style the quotes
+ * on right side of page
+ *----------------------------------------------------*/
+
+.quote {
+    text-align: center;
+    border: 1px #d8e5e5 solid;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin: 1em 3em;
+    background: white;
+}
 
 .quote1 {
     clear: both;
@@ -854,9 +1335,9 @@ theme by Vinicius Depizzol for gnome.org.
 }
 
 /*----------------------------------------------------
-- "Next page:" banner at bottom of page
-- used only on switch_to_linux.* (level 2) pages
-----------------------------------------------------*/
+ * "Next page:" banner at bottom of page
+ * used only on switch_to_linux.* (level 2) pages
+ *----------------------------------------------------*/
 
 #bottom_next_page_banner {
     margin: 3em -0.8em -0.8em -0.8em;
@@ -888,7 +1369,7 @@ theme by Vinicius Depizzol for gnome.org.
 
 /*----------------------------------------------------
  * "Link buttons" page.
-----------------------------------------------------*/
+ *----------------------------------------------------*/
 
 .hidden { display: block; }
 .unhidden { display: block; }
@@ -926,7 +1407,7 @@ theme by Vinicius Depizzol for gnome.org.
 
 /*----------------------------------------------------
  * Conclusion boxes
-----------------------------------------------------*/
+ *----------------------------------------------------*/
 
 .conclusion {
     background: none repeat scroll 0 0 #E4EBFF;
@@ -948,7 +1429,7 @@ theme by Vinicius Depizzol for gnome.org.
 /*----------------------------------------------------
  * Previous, next and up navigation "buttons" occasionally displayed at top
  * and bottom of pages.
- * ----------------------------------------------------*/
+ *----------------------------------------------------*/
 
 #switcher {
     margin: 3em 0 1em 0;
@@ -1234,6 +1715,40 @@ theme by Vinicius Depizzol for gnome.org.
     float: left;
     margin-right: 1em;
     margin-left: 0em;
+}
+
+/*----------------------------------------------------
+ * "Credits" page.
+ *----------------------------------------------------*/
+
+.tab {
+    padding-left: 2em;
+}
+
+.img_box {
+    border: 1px #e0a668 solid;
+    padding: 10px;
+    margin-top: 0.8em;
+}
+
+#maincontent .img_box img {
+    float: none;
+    display: inline;
+}
+
+#maincontent .img_box a {
+    background: none;
+}
+
+.credits ul {
+    padding: 0 0 0 2em;
+    margin: 0;
+    text-align: left;
+}
+
+.credits ul li {
+    margin: 0.2em 0;
+    padding: 0;
 }
 
 /*----------------------------------------------------

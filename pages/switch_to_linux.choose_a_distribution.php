@@ -2,7 +2,7 @@
 
 <?php $this->menu_switch_to_linux(); ?>
 
-<div id="maincontent">
+<div id="maincontent" class="choose_a_distribution">
 
 <div id="intro_box">
 <h1><?php print _("Choose a distribution"); ?></h1>
@@ -66,7 +66,7 @@ print _("The distribution by the long-time prominent GNU/Linux developer company
 
 
 
-<p class="note_ital"><?php
+<p class="note_ital centered"><?php
 # i18n: if you don't know of a clean, simple comparison website, simply remove the link.
 print _("Note: There are <a href=\"http://distrowatch.com/dwres.php?resource=major\">plenty of distributions to choose from and compare</a>."); ?><br />
 <?php print _("This is our selection for newcomers. These links are not commercial."); ?></p>

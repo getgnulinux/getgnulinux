@@ -1,13 +1,13 @@
 <?php $this->load_header(); ?>
 
-<div id="maincontent">
+<div id="maincontent" class="more">
 
-<div id="intro_box">
+<div id="intro_box" class="more_intro_box">
 <h1><?php print _("More"); ?></h1>
 <p><?php print _("Selected reading on the Internet."); ?></p>
 </div><!-- end intro_box -->
 
-<div class="section">
+<div class="more_section">
 <h2><?php print _("The main players"); ?></h2>
 
 	<div class="column1_2">
@@ -31,7 +31,7 @@ print _("http://www.ubuntu.com/"); ?>" title="<?php print _("Ubuntu Linux"); ?>"
 </div><!-- end section -->
 
 
-<div class="section">
+<div class="more_section">
 <h2><?php print _("Questions, help, and equipment"); ?></h2>
 
 	<div class="column1_2">
@@ -57,7 +57,7 @@ print _("LinuxQuestions.org"); ?>"/></a>
 	</div>
 
 </div><!-- end section -->
-<div class="section">
+<div class="more_section">
 <h2><?php print _("Learn and read more"); ?></h2>
 
 	<div class="column1_2">
@@ -85,7 +85,7 @@ print _("FLOSS Booklet"); ?>"/></a>
 
 </div><!-- end section -->
 
-<p class="note_ital"><?php print _("Note: these links are proposed as a recommendation. They are not commercial."); ?></p>
+<p class="note_ital more_note"><?php print _("Note: these links are proposed as a recommendation. They are not commercial."); ?></p>
 
 
 <div id="about_us">

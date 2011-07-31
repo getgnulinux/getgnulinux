@@ -2,7 +2,7 @@
 
 <?php $this->menu_switch_to_linux(); ?>
 
-<div id="maincontent">
+<div id="maincontent" class="from_windows_to_linux">
 
 <div id="intro_box">
 <h1><?php print _("From Windows to Linux"); ?></h1>

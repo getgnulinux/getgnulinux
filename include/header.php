@@ -14,7 +14,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
     <meta name="description" content="<?php print _("Get GNU/Linux! A simple, clear website about Linux. | What is Linux? | Why not Windows? | Tips to make the switch"); ?>"/>
     <meta name="keywords" content="<?php print _("linux, gnu/linux, free software, software freedom, open-source, windows alternative, get linux, switch to linux"); ?>" />
-    <?php $this->stylesheet('/style/maincss-ltr.css'); ?>
+    <?php $this->stylesheet('/style/main-ltr.css'); ?>
     <?php
     $p = isset($_GET['p']) ? $_GET['p'] : NULL;
     switch ($p) {
@@ -57,26 +57,9 @@
     </script>
             <?php
             break;
-        case 'switch_to_linux':
-            $this->stylesheet('/style/switch_to_linux-ltr.css');
-            break;
-        case 'switch_to_linux.choose_a_distribution':
-            $this->stylesheet('/style/switch_to_linux.choose_a_distribution-ltr.css');
-            break;
-        case 'switch_to_linux.from_windows_to_linux':
-            $this->stylesheet('/style/switch_to_linux.from_windows_to_linux-ltr.css');
-            break;
-        case 'switch_to_linux.try_or_install':
-            $this->stylesheet('/style/switch_to_linux.try_or_install-ltr.css');
-            break;
-        case 'more':
-            $this->stylesheet('/style/more-ltr.css');
-            break;
         case 'link_buttons':
             $this->javascript('/style/togglecodetext.js');
             break;
-        case NULL:
-            $this->stylesheet('/style/index-ltr.css');
     }
     ?>
 

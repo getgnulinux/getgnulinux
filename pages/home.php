@@ -1,6 +1,6 @@
 <?php $this->load_header(); ?>
 
-<div id="maincontent">
+<div id="maincontent" class="main_page">
 
 <a href="<?php $this->base_url('linux'); ?>" title="What is Linux?">
 <img class="main_pic" width="200" height="202"

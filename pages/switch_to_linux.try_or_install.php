@@ -2,7 +2,7 @@
 
 <?php $this->menu_switch_to_linux(); ?>
 
-<div id="maincontent">
+<div id="maincontent" class="try_or_install">
 
 <div id="intro_box">
 <h1><?php print _("Try or install"); ?></h1>
