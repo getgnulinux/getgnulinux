@@ -69,6 +69,7 @@
     <![endif]-->
 
     <!--[if IE 7]>
+    <?php $this->javascript('/style/ie_translation_menu.js'); ?>
     <?php $this->stylesheet('/style/ie7-ltr.css'); ?>
     <![endif]-->
 </head>
