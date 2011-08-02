@@ -56,8 +56,10 @@ print _("security"); ?>"/>
 print _("support"); ?>"/>
     <?php
     # i18n: The first %s represents the URL to the "More" page and seconds %s represents the title of the page "More" in your language
-    $p = _("Linux benefits from a great sense of community whose friendliness will surprise you. If you try to do something complicated but can't succeed, there are a lot of people around to help you out. Our \"<a href=\"%s\">%s</a>\" page gives a few pointers."); ?><br/>
-    <?php print _("The companies behind the main GNU/Linux distributions, such as Canonical and Red Hat, also provide expert commercial support."); printf($p, $this->base_url('more',1), _("More")); ?></li>
+    $p = _("Linux benefits from a great sense of community whose friendliness will surprise you. If you try to do something complicated but can't succeed, there are a lot of people around to help you out. Our \"<a href=\"%s\">%s</a>\" page gives a few pointers.");
+    printf($p, $this->base_url('more',1), _("More")); ?><br/>
+    <?php print _("The companies behind the main GNU/Linux distributions, such as <a href=\"http://www.canonical.com/\">Canonical</a> and <a href=\"http://www.redhat.com/\">Red Hat</a>, also provide expert commercial support."); ?>
+    </li>
 
 </ul>
 
