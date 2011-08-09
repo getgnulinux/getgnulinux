@@ -31,7 +31,7 @@ or let us use their work for our purposes.</p>
 
 <h2>Licensing</h2>
 <p>Except for the material listed below, all of the text content is published under a
-<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0 license</a>,<br/>
+<a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>,<br/>
 &copy; 2006-2010, <a href="http://www.gnulinuxmatters.org/">GNU/Linux Matters</a><br/>
 &copy; 2011, <a href="https://launchpad.net/~getgnulinux">Launchpad getgnulinux Team</a></p>
 
