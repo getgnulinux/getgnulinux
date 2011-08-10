@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: getgnulinux 0.0.1\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2011-07-27 21:49+0200\n"
+"POT-Creation-Date: 2011-08-10 21:33+0200\n"
 "PO-Revision-Date: 2011-06-19 21:28+0100\n"
 "Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,8 @@ msgstr ""
 msgid ""
 "Except where otherwise <a href=\"%s\">noted</a>, content on this site is "
 "licensed under a <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" "
-"rel=\"license\">CC BY-SA 3.0 License</a>."
+"rel=\"license\"><acronym title=\"Creative Commons Attribution-ShareAlike 3.0 "
+"Unported License\">CC BY-SA 3.0 License</acronym></a>."
 msgstr ""
 
 #: include/footer.php:20 pages/more.php:100
@@ -44,32 +45,32 @@ msgstr ""
 msgid "Blog"
 msgstr ""
 
-#: include/header.php:19 include/header.php:164 include/header.php:171
+#: include/header.php:12 include/header.php:121 include/header.php:128
 #, fuzzy
 msgid "get GNU/Linux!"
 msgstr "Что такое GNU/Linux?"
 
-#: include/header.php:21
+#: include/header.php:15
 msgid ""
 "Get GNU/Linux! A simple, clear website about Linux. | What is Linux? | Why "
 "not Windows? | Tips to make the switch"
 msgstr ""
 
-#: include/header.php:22
+#: include/header.php:16
 msgid ""
 "linux, gnu/linux, free software, software freedom, open-source, windows "
 "alternative, get linux, switch to linux"
 msgstr ""
 
-#: include/header.php:129
+#: include/header.php:79
 msgid "skip to content"
 msgstr ""
 
-#: include/header.php:134
+#: include/header.php:84
 msgid "Alternate languages"
 msgstr ""
 
-#: include/header.php:182 pages/home.php:23 pages/linux.linux_faq.php:362
+#: include/header.php:139 pages/home.php:23 pages/linux.linux_faq.php:364
 #: pages/linux.misunderstanding_free_software.php:191
 #: pages/linux.screenshots.php:31 pages/linux.screenshots.php:104
 #: pages/windows.php:84
@@ -77,21 +78,26 @@ msgstr ""
 msgid "What is Linux?"
 msgstr "Что такое GNU/Linux?"
 
-#: include/header.php:183 pages/home.php:30 pages/linux.php:60
+#: include/header.php:140 pages/home.php:30 pages/linux.php:60
 #: pages/windows.php:5
 msgid "Why not Windows"
 msgstr ""
 
-#: include/header.php:184 pages/home.php:37 pages/switch_to_linux.php:5
+#: include/header.php:141 pages/home.php:37 pages/switch_to_linux.php:5
 #: pages/windows.php:82
 #, fuzzy
 msgid "Switch to Linux"
 msgstr "Переходя на Linux"
 
-#: include/header.php:185 pages/linux.linux_faq.php:355 pages/more.php:6
+#: include/header.php:142 pages/linux.linux_faq.php:357 pages/more.php:6
 #: pages/switch_to_linux.from_windows_to_linux.php:60
 msgid "More"
 msgstr ""
+
+#: pages/credits.php:164 pages/legal.php:116
+#, fuzzy
+msgid "Return to the Homepage"
+msgstr "перепрыгнуть на начало страницы"
 
 #: pages/home.php:12
 #, fuzzy
@@ -137,25 +143,25 @@ msgstr ""
 msgid "General questions:"
 msgstr "Общие вопросы:"
 
-#: pages/linux.linux_faq.php:14 pages/linux.linux_faq.php:49
+#: pages/linux.linux_faq.php:14 pages/linux.linux_faq.php:51
 #, fuzzy
 msgid "Are &quot;GNU/Linux&quot; and &quot;Linux&quot; any different?"
 msgstr "Чем отличается \"Linux\" от \"GNU/Linux\"?"
 
-#: pages/linux.linux_faq.php:15 pages/linux.linux_faq.php:70
+#: pages/linux.linux_faq.php:15 pages/linux.linux_faq.php:72
 msgid "And what has that software to do with a gnu?"
 msgstr "Какое отношение имеет программное обеспечение к антилопе гну?"
 
-#: pages/linux.linux_faq.php:16 pages/linux.linux_faq.php:82
+#: pages/linux.linux_faq.php:16 pages/linux.linux_faq.php:84
 msgid "Is Linux a registered trademark?"
 msgstr "Является ли Linux зарегистрированной торговой маркой?"
 
-#: pages/linux.linux_faq.php:17 pages/linux.linux_faq.php:92
+#: pages/linux.linux_faq.php:17 pages/linux.linux_faq.php:94
 msgid "Is GNU/Linux the only free operating system available?"
 msgstr ""
 "Является ли GNU/Linux единственной свободно доступной операционной системой?"
 
-#: pages/linux.linux_faq.php:18 pages/linux.linux_faq.php:102
+#: pages/linux.linux_faq.php:18 pages/linux.linux_faq.php:104
 msgid "Is Mac OSX a distribution of Linux?"
 msgstr "Mac OS X это дистрибутив Linux?"
 
@@ -163,7 +169,7 @@ msgstr "Mac OS X это дистрибутив Linux?"
 msgid "Understanding free software:"
 msgstr "Как понять Свободное ПО:"
 
-#: pages/linux.linux_faq.php:22 pages/linux.linux_faq.php:121
+#: pages/linux.linux_faq.php:22 pages/linux.linux_faq.php:123
 #, fuzzy
 msgid ""
 "Are &quot;Open Source&quot; and &quot;Free Software&quot; the same thing?"
@@ -171,27 +177,27 @@ msgstr ""
 "Программы с открытым исходным кодом (\"Open Source\") и Свободные программы "
 "(\"Free Software\") &ndash; это одно и то же?"
 
-#: pages/linux.linux_faq.php:23 pages/linux.linux_faq.php:135
+#: pages/linux.linux_faq.php:23 pages/linux.linux_faq.php:137
 msgid "Why are some Linux distributions sold, not given away?"
 msgstr ""
 "Почему некоторые из дистрибутивов Linux продаются, а не свободно "
 "распространяются?"
 
-#: pages/linux.linux_faq.php:24 pages/linux.linux_faq.php:153
+#: pages/linux.linux_faq.php:24 pages/linux.linux_faq.php:155
 msgid "Why are some Linux distributions not fully free?"
 msgstr "По какой причине некоторые дистрибутивы Linux не полностью свободны?"
 
-#: pages/linux.linux_faq.php:25 pages/linux.linux_faq.php:174
+#: pages/linux.linux_faq.php:25 pages/linux.linux_faq.php:176
 msgid "Is Mac OS also a free operating system?"
 msgstr "Mac OS &ndash; тоже свободная операционная система?"
 
-#: pages/linux.linux_faq.php:26 pages/linux.linux_faq.php:188
+#: pages/linux.linux_faq.php:26 pages/linux.linux_faq.php:190
 msgid "Aren't Linux users the ones who make illegal downloads?"
 msgstr ""
 "Разве пользователи Linux это не те самые люди, которые занимаются "
 "нелегальными закачками из Интернета?"
 
-#: pages/linux.linux_faq.php:27 pages/linux.linux_faq.php:206
+#: pages/linux.linux_faq.php:27 pages/linux.linux_faq.php:208
 msgid "Is Linux a form of communism?"
 msgstr "Linux это разновидность коммунизма?"
 
@@ -199,19 +205,19 @@ msgstr "Linux это разновидность коммунизма?"
 msgid "Installing Linux:"
 msgstr "Установка Linux:"
 
-#: pages/linux.linux_faq.php:31 pages/linux.linux_faq.php:231
+#: pages/linux.linux_faq.php:31 pages/linux.linux_faq.php:233
 msgid "Does Linux come pre-installed on computers?"
 msgstr "Бывает ли Linux предустановлен на компьютеры?"
 
-#: pages/linux.linux_faq.php:32 pages/linux.linux_faq.php:247
+#: pages/linux.linux_faq.php:32 pages/linux.linux_faq.php:249
 msgid "Can I get GNU/Linux in my own language?"
 msgstr "Могу ли я получить GNU/Linux на моем родном языке?"
 
-#: pages/linux.linux_faq.php:33 pages/linux.linux_faq.php:258
+#: pages/linux.linux_faq.php:33 pages/linux.linux_faq.php:260
 msgid "Is it legal to install Linux on my computer?"
 msgstr "Легальна ли установка Linux на моем компьютере?"
 
-#: pages/linux.linux_faq.php:34 pages/linux.linux_faq.php:277
+#: pages/linux.linux_faq.php:34 pages/linux.linux_faq.php:279
 msgid "Do I have to purchase a new computer to run Linux?"
 msgstr "Нужно ли мне приобрести новый компьютер для запуска Linux?"
 
@@ -219,36 +225,36 @@ msgstr "Нужно ли мне приобрести новый компьюте�
 msgid "Using Linux:"
 msgstr "Использование Linux:"
 
-#: pages/linux.linux_faq.php:38 pages/linux.linux_faq.php:296
+#: pages/linux.linux_faq.php:38 pages/linux.linux_faq.php:298
 msgid "Will Microsoft Office run on Linux?"
 msgstr "Будет ли Microsoft Office работать на Linux?"
 
-#: pages/linux.linux_faq.php:39 pages/linux.linux_faq.php:312
-#: pages/switch_to_linux.from_windows_to_linux.php:127
+#: pages/linux.linux_faq.php:39 pages/linux.linux_faq.php:314
+#: pages/switch_to_linux.from_windows_to_linux.php:129
 msgid "Can I play my DVDs and MP3s under GNU/Linux?"
 msgstr "Смогу ли я проигрывать DVD-диски и MP3-файлы под GNU/Linux?"
 
-#: pages/linux.linux_faq.php:40 pages/linux.linux_faq.php:336
-#: pages/switch_to_linux.from_windows_to_linux.php:139
+#: pages/linux.linux_faq.php:40 pages/linux.linux_faq.php:338
+#: pages/switch_to_linux.from_windows_to_linux.php:141
 msgid "Can I play popular 3D games under GNU/Linux?"
 msgstr "Могу ли я играть в популярные 3D игры под GNU/Linux?"
 
-#: pages/linux.linux_faq.php:42 pages/linux.linux_faq.php:349
+#: pages/linux.linux_faq.php:42 pages/linux.linux_faq.php:351
 msgid "More questions?"
 msgstr "Есть другие вопросы?"
 
-#: pages/linux.linux_faq.php:45
+#: pages/linux.linux_faq.php:47
 msgid "General Questions"
 msgstr "Общие Вопросы"
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
-#: pages/linux.linux_faq.php:53
+#: pages/linux.linux_faq.php:55
 msgid ""
 "You keep referring to one and the other alternatively. What is this all "
 "about?"
 msgstr "Вы постоянно упоминаете то одно то другое. Что это все означает?"
 
-#: pages/linux.linux_faq.php:54
+#: pages/linux.linux_faq.php:56
 msgid ""
 "Originally, <strong>Linux</strong> refers to a core component (called the "
 "kernel) that fits within the <strong>GNU</strong> system. What users run "
@@ -259,7 +265,7 @@ msgstr ""
 "<strong>GNU</strong>. То, что пользователи эксплуатируют в настоящее время, "
 "имеет точное название \"<em>дистрибутивы системы GNU/Linux</em>\"."
 
-#: pages/linux.linux_faq.php:55
+#: pages/linux.linux_faq.php:57
 msgid ""
 "In practice, the word \"Linux\" caught on much better (unsurprisingly), and "
 "today people refer to the whole system as simply \"Linux\". This causes a "
@@ -270,7 +276,7 @@ msgstr ""
 "значительные противоречия."
 
 #. i18n: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
-#: pages/linux.linux_faq.php:58
+#: pages/linux.linux_faq.php:60
 msgid ""
 "Calling the system <em>GNU/Linux</em> is much more meaningful, technically "
 "(end-users use a lot of \"GNU\" and a little of \"Linux\") but also "
@@ -285,7 +291,7 @@ msgstr ""
 "начата и до сих пор сосредоточена в <a href=\"http://www.gnu.org/\">проекте "
 "GNU</a>."
 
-#: pages/linux.linux_faq.php:59
+#: pages/linux.linux_faq.php:61
 msgid ""
 "Calling the system <em>Linux</em> is more practical and appealing for "
 "computer users that often believe Windows is the only thing on earth."
@@ -295,7 +301,7 @@ msgstr ""
 "Windows ничего другого не существует."
 
 #. i18n: If the gnulinuxmatters.org FAQ is not localized in your language, please leave URL as such.
-#: pages/linux.linux_faq.php:62
+#: pages/linux.linux_faq.php:64
 msgid ""
 "<a href=\"http://www.gnulinuxmatters.org/about/faq/#taxonomy\">We use both "
 "denominations</a> and hope you will not be offended by that."
@@ -303,32 +309,32 @@ msgstr ""
 "<a href=\"http://www.gnulinuxmatters.org/about/faq/#taxonomy\">Мы используем "
 "оба названия</a> и надеемся, что Вас это не оскорбит."
 
-#: pages/linux.linux_faq.php:65 pages/linux.linux_faq.php:77
-#: pages/linux.linux_faq.php:87 pages/linux.linux_faq.php:98
-#: pages/linux.linux_faq.php:109 pages/linux.linux_faq.php:130
-#: pages/linux.linux_faq.php:147 pages/linux.linux_faq.php:169
-#: pages/linux.linux_faq.php:183 pages/linux.linux_faq.php:201
-#: pages/linux.linux_faq.php:218 pages/linux.linux_faq.php:242
-#: pages/linux.linux_faq.php:253 pages/linux.linux_faq.php:272
-#: pages/linux.linux_faq.php:283 pages/linux.linux_faq.php:307
-#: pages/linux.linux_faq.php:331 pages/linux.linux_faq.php:341
+#: pages/linux.linux_faq.php:67 pages/linux.linux_faq.php:79
+#: pages/linux.linux_faq.php:89 pages/linux.linux_faq.php:100
+#: pages/linux.linux_faq.php:111 pages/linux.linux_faq.php:132
+#: pages/linux.linux_faq.php:149 pages/linux.linux_faq.php:171
+#: pages/linux.linux_faq.php:185 pages/linux.linux_faq.php:203
+#: pages/linux.linux_faq.php:220 pages/linux.linux_faq.php:244
+#: pages/linux.linux_faq.php:255 pages/linux.linux_faq.php:274
+#: pages/linux.linux_faq.php:285 pages/linux.linux_faq.php:309
+#: pages/linux.linux_faq.php:333 pages/linux.linux_faq.php:343
 msgid "jump to top of page"
 msgstr "перепрыгнуть на начало страницы"
 
-#: pages/linux.linux_faq.php:65 pages/linux.linux_faq.php:77
-#: pages/linux.linux_faq.php:87 pages/linux.linux_faq.php:98
-#: pages/linux.linux_faq.php:109 pages/linux.linux_faq.php:130
-#: pages/linux.linux_faq.php:147 pages/linux.linux_faq.php:169
-#: pages/linux.linux_faq.php:183 pages/linux.linux_faq.php:201
-#: pages/linux.linux_faq.php:218 pages/linux.linux_faq.php:242
-#: pages/linux.linux_faq.php:253 pages/linux.linux_faq.php:272
-#: pages/linux.linux_faq.php:283 pages/linux.linux_faq.php:307
-#: pages/linux.linux_faq.php:331 pages/linux.linux_faq.php:341
+#: pages/linux.linux_faq.php:67 pages/linux.linux_faq.php:79
+#: pages/linux.linux_faq.php:89 pages/linux.linux_faq.php:100
+#: pages/linux.linux_faq.php:111 pages/linux.linux_faq.php:132
+#: pages/linux.linux_faq.php:149 pages/linux.linux_faq.php:171
+#: pages/linux.linux_faq.php:185 pages/linux.linux_faq.php:203
+#: pages/linux.linux_faq.php:220 pages/linux.linux_faq.php:244
+#: pages/linux.linux_faq.php:255 pages/linux.linux_faq.php:274
+#: pages/linux.linux_faq.php:285 pages/linux.linux_faq.php:309
+#: pages/linux.linux_faq.php:333 pages/linux.linux_faq.php:343
 msgid "top"
 msgstr "вверх"
 
 #. i18n: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
-#: pages/linux.linux_faq.php:74
+#: pages/linux.linux_faq.php:76
 msgid ""
 "When Richard Stallman started to design GNU, the main system in use was "
 "Unix, which is proprietary. Because GNU is similar in function to (and "
@@ -348,7 +354,7 @@ msgstr ""
 "нравится такой юмор, посмотрите, что означает <a href=\"http://www.gnu.org/"
 "software/hurd/hurd.html\">GNU Hurd</a>)."
 
-#: pages/linux.linux_faq.php:84
+#: pages/linux.linux_faq.php:86
 msgid ""
 "Yes. You cannot sell any random software under the name of Linux&reg;. The "
 "trademark is held by <a href=\"http://www.linuxmark.org/\">the Linux Mark "
@@ -358,7 +364,7 @@ msgstr ""
 "программное обеспечение. Торговая марка зарегистрирована на организацию <a "
 "href=\"http://www.linuxmark.org/\">Linux Mark Institute</a>."
 
-#: pages/linux.linux_faq.php:94
+#: pages/linux.linux_faq.php:96
 msgid ""
 "No. GNU/Linux is by far the most widely used free system; however a number "
 "of other systems exist."
@@ -366,7 +372,7 @@ msgstr ""
 "Нет. GNU/Linux это наиболее широко используемая система; однако существуют и "
 "другие."
 
-#: pages/linux.linux_faq.php:95
+#: pages/linux.linux_faq.php:97
 msgid ""
 "These include the UNIX derivatives <a href=\"http://freebsd.org/\">FreeBSD</"
 "a>, <a href=\"http://netbsd.org/\">NetBSD</a>, <a href=\"http://openbsd.org/"
@@ -387,7 +393,7 @@ msgstr ""
 "<a href=\"http://www.syllable.org/\">Syllable</a>."
 
 #. i18n: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
-#: pages/linux.linux_faq.php:106
+#: pages/linux.linux_faq.php:108
 #, php-format
 msgid ""
 "No. There are a few <a href=\"http://www.softwareliberty.com/\">free "
@@ -400,11 +406,11 @@ msgstr ""
 "плане эта система похожа на GNU/Linux. Но в целом, она является коммерческим "
 "ПО: все <a href=\"%s\">проблемы Windows</a> также относятся и к ней."
 
-#: pages/linux.linux_faq.php:123
+#: pages/linux.linux_faq.php:125
 msgid "Yes and no."
 msgstr "И да и нет."
 
-#: pages/linux.linux_faq.php:124
+#: pages/linux.linux_faq.php:126
 msgid ""
 "Technically, the great majority of open source programs are free software "
 "and vice-versa."
@@ -412,7 +418,7 @@ msgstr ""
 "Формально, преобладающая часть программ с открытым кодом является Свободным "
 "ПО, и наоборот."
 
-#: pages/linux.linux_faq.php:125
+#: pages/linux.linux_faq.php:127
 #, fuzzy
 msgid ""
 "In terms of philosophy, things are quite different. The term &quot;open "
@@ -424,7 +430,7 @@ msgstr ""
 "его приверженцы воспринимают программное обеспечение с открытым кодом, как "
 "лучший способ создания программ."
 
-#: pages/linux.linux_faq.php:126
+#: pages/linux.linux_faq.php:128
 msgid ""
 "Supporters of the \"free software\" term value the freedom, not merely the "
 "way software is made, and thus argue that the term \"open source\" <a href="
@@ -436,14 +442,14 @@ msgstr ""
 "подчеркивая, что \"Open Source\" <a href=\"http://www.gnu.org/philosophy/"
 "open-source-misses-the-point.html\">не соответствует изначальной идее</a>."
 
-#: pages/linux.linux_faq.php:127
+#: pages/linux.linux_faq.php:129
 msgid "Which term you employ simply depends on your vision of software."
 msgstr ""
 "То, какой из двух терминов Вы используете, зависит от Вашей точки зрения на "
 "программное обеспечение."
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
-#: pages/linux.linux_faq.php:139
+#: pages/linux.linux_faq.php:141
 msgid ""
 "Some websites actually <em>sell</em> distributions of Linux. So, why do you "
 "write it is \"free as speech and available at no charge\"?"
@@ -452,7 +458,7 @@ msgstr ""
 "зачем же Вы пишете, что он \"свободен и доступен бесплатно\"?"
 
 #. i18n: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
-#: pages/linux.linux_faq.php:142
+#: pages/linux.linux_faq.php:144
 msgid ""
 "The concept of <a href=\"http://www.softwareliberty.com/\">free software</"
 "a>, refers to freedom, not price. You have the freedom to copy, study, "
@@ -463,7 +469,7 @@ msgstr ""
 "копировать, изучать, изменять и передавать это программное обеспечение "
 "другим."
 
-#: pages/linux.linux_faq.php:143
+#: pages/linux.linux_faq.php:145
 msgid ""
 "Most companies developing free software make money by selling "
 "<strong>services</strong> around their software, rather than the software "
@@ -477,19 +483,19 @@ msgstr ""
 "единого пакета: пользователь покупает диск, книгу и контракт на поддержку. В "
 "этом случае программное обеспечение также будет отстаивать Вашу свободу."
 
-#: pages/linux.linux_faq.php:144
+#: pages/linux.linux_faq.php:146
 msgid "More:"
 msgstr ""
 
-#: pages/linux.linux_faq.php:144 pages/linux.linux_faq.php:198
-#: pages/linux.linux_faq.php:212
+#: pages/linux.linux_faq.php:146 pages/linux.linux_faq.php:200
+#: pages/linux.linux_faq.php:214
 #: pages/linux.misunderstanding_free_software.php:14 pages/linux.php:68
 #: pages/windows.stand_for_a_free_society.php:155
 msgid "How to Misunderstand Free Software"
 msgstr "Как Неправильно понять Свободное ПО"
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
-#: pages/linux.linux_faq.php:157
+#: pages/linux.linux_faq.php:159
 msgid ""
 "Some Linux distributions are available at no charge, but include restrictive "
 "software. Why is it so?"
@@ -497,13 +503,13 @@ msgstr ""
 "Некоторые дистрибутивы доступны бесплатно, но включают в свой состав "
 "несвободные компоненты. Почему так?"
 
-#: pages/linux.linux_faq.php:158
+#: pages/linux.linux_faq.php:160
 msgid ""
 "There are typically three types of policies regarding the inclusion of non-"
 "free software:"
 msgstr "Обычно бывает три причины включения несвободного ПО:"
 
-#: pages/linux.linux_faq.php:160
+#: pages/linux.linux_faq.php:162
 msgid ""
 "Some GNU/Linux distributors allow non-free software in order to enable "
 "hardware functionality."
@@ -512,7 +518,7 @@ msgstr ""
 "обеспечения работы аппаратного обеспечения."
 
 #. i18n: If it exits, please use the URL of the official Ubuntu homepage localized in your language.
-#: pages/linux.linux_faq.php:163
+#: pages/linux.linux_faq.php:165
 #, fuzzy
 msgid ""
 "This happens because some hardware manufacturers such as NVidia do not care "
@@ -531,7 +537,7 @@ msgstr ""
 "вынуждены включать такие компоненты в поставку, тем самым улучшая "
 "совместимость с устройствами."
 
-#: pages/linux.linux_faq.php:164
+#: pages/linux.linux_faq.php:166
 msgid ""
 "Some GNU/Linux distributors do not compromise on the freedom of software, "
 "and make sure their distribution are entirely free. Such is the case of <a "
@@ -543,7 +549,7 @@ msgstr ""
 "href=\"http://www.gnewsense.org/\">gNewSense</a>, одна из производных от "
 "Ubuntu, в котором убраны все несвободные компоненты."
 
-#: pages/linux.linux_faq.php:165
+#: pages/linux.linux_faq.php:167
 #, php-format
 msgid ""
 "Some GNU/Linux distributors assemble free and restrictive software without "
@@ -560,12 +566,12 @@ msgstr ""
 "ненамного лучше, чем <a href=\"%s\">пользование Windows</a>. Мы ценим Вашу "
 "свободу и рекомендуем выбирать аккуратно!"
 
-#: pages/linux.linux_faq.php:176
+#: pages/linux.linux_faq.php:178
 msgid "Do all the reasons for avoiding Windows apply to Mac&nbsp;OS?"
 msgstr ""
 "Касаются ли Mac&nbsp;OS все те причины, из-за которых нужно избегать Windows?"
 
-#: pages/linux.linux_faq.php:177
+#: pages/linux.linux_faq.php:179
 #, php-format
 msgid ""
 "It's quite common for Mac users to believe they are exempt from <a href=\"%s"
@@ -575,7 +581,7 @@ msgstr ""
 "Для пользователей Мака характерно заблуждение, что они не имеют никакого "
 "отношения к <a href=\"%s\">ограничениям, связанным с Windows</a>."
 
-#: pages/linux.linux_faq.php:178
+#: pages/linux.linux_faq.php:180
 #, fuzzy
 msgid ""
 "Mac OSX does have some low-level components which are <a href=\"http://www."
@@ -587,7 +593,7 @@ msgstr ""
 "кроме того Apple тратит меньше энергии на привязывание к себе пользователей "
 "(с несколькими значительными начинаниями, вроде BootCamp)."
 
-#: pages/linux.linux_faq.php:179
+#: pages/linux.linux_faq.php:181
 msgid ""
 "However, the end-user is still fundamentally restricted &mdash; because of "
 "the proprietary license, he/she cannot use Mac OSX for all purposes, nor "
@@ -598,7 +604,7 @@ msgstr ""
 "OSX для всех желаемых целей, а также не имеет права копировать, изучать, "
 "изменять или распространять ее."
 
-#: pages/linux.linux_faq.php:180
+#: pages/linux.linux_faq.php:182
 msgid ""
 "Happily, because these freedoms matter a lot, it's possible to run popular "
 "GNU/Linux distributions (such as <a href=\"http://www.ubuntu.com/\">Ubuntu</"
@@ -609,18 +615,18 @@ msgstr ""
 "www.ubuntu.ru/\">Ubuntu</a>) на компьютерах Mac."
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
-#: pages/linux.linux_faq.php:192
+#: pages/linux.linux_faq.php:194
 #, fuzzy
 msgid ""
 "Isn't Linux about cracking, &quot;piracy&quot; and illegal download websites?"
 msgstr ""
 "Разве Linux не синоним взломов, пиратства и сайтов с нелегальным содержимым?"
 
-#: pages/linux.linux_faq.php:193
+#: pages/linux.linux_faq.php:195
 msgid "No!"
 msgstr "Нет!"
 
-#: pages/linux.linux_faq.php:194
+#: pages/linux.linux_faq.php:196
 msgid ""
 "Wherever you read or heard this you should update your views. Linux is "
 "completely distinct from such things. Whether you want to do them, or "
@@ -637,7 +643,7 @@ msgstr ""
 "определить бандитов по маркам их машин; то же самое касается их операционной "
 "системы."
 
-#: pages/linux.linux_faq.php:195
+#: pages/linux.linux_faq.php:197
 msgid ""
 "GNU/Linux was made by people who don't like the thought of all the world's "
 "computers running just one company's proprietary products. There is "
@@ -648,13 +654,13 @@ msgstr ""
 "В этом, конечно же, нет ничего предосудительного!"
 
 #. i18n: The link here points to the "misunderstanding_free_software" article.
-#: pages/linux.linux_faq.php:198
+#: pages/linux.linux_faq.php:200
 #, fuzzy, php-format
 msgid "Read more in the article: <a href=\"%s\">%s</a>."
 msgstr "Прочтите больше в статье: <a href=\"%s\">%s</a>."
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
-#: pages/linux.linux_faq.php:210
+#: pages/linux.linux_faq.php:212
 msgid ""
 "\"Everything has to be free\" and \"No one owns anything\" sounds somewhat "
 "frightening. Are Linux and its <acronym title=\"GNU General Public License"
@@ -665,7 +671,7 @@ msgstr ""
 "\"Стандартная Общественная Лицензия GNU\">GPL</acronym> это что-то для "
 "анархистов или коммунистов?"
 
-#: pages/linux.linux_faq.php:214
+#: pages/linux.linux_faq.php:216
 #, fuzzy, php-format
 msgid "Not at all. We have this explained simply in our article %s."
 msgstr ""
@@ -673,7 +679,7 @@ msgstr ""
 "%s</a>."
 
 #. i18n: If LinuxPreloaded has not been localized to your language, please leave the URL to linuxpreloaded.com.
-#: pages/linux.linux_faq.php:236
+#: pages/linux.linux_faq.php:238
 msgid ""
 "Yes it does! We have built a website specially for that purpose, <a href="
 "\"http://linuxpreloaded.com/\" title=\"Linux laptops\">LinuxPreloaded.com</"
@@ -684,7 +690,7 @@ msgstr ""
 "котором перечислены производители, продающие компьютеры и ноутбуки с Linux."
 
 #. i18n: please leave the "#new_computer" element as such. It is an internal link.
-#: pages/linux.linux_faq.php:239
+#: pages/linux.linux_faq.php:241
 msgid ""
 "Note that <a href=\"#new_computer\">buying new hardware is not necessary</a> "
 "to use GNU/Linux!"
@@ -692,7 +698,7 @@ msgstr ""
 "Обратите внимание, что <a href=\"#new_computer\">покупка нового компьютера "
 "не обязательна</a> для использования GNU/Linux!"
 
-#: pages/linux.linux_faq.php:249
+#: pages/linux.linux_faq.php:251
 #, php-format
 msgid ""
 "Yes. All main distributions, such as <a href=\"%s\">the ones we recommend</"
@@ -703,7 +709,7 @@ msgstr ""
 "\">рекомендуем</a>, доступны на всех распространенных языках и поддерживают "
 "множество типов клавиатур."
 
-#: pages/linux.linux_faq.php:250
+#: pages/linux.linux_faq.php:252
 msgid ""
 "Unlike Windows, all languages are included on each installation CD, so there "
 "is no need for you to download (or pay for!) another whole version to merely "
@@ -715,7 +721,7 @@ msgstr ""
 "системы на вашем компьютере."
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
-#: pages/linux.linux_faq.php:262
+#: pages/linux.linux_faq.php:264
 msgid ""
 "There is a shiny Windows sticker on it! Am I allowed to erase Windows or use "
 "it together with Linux?"
@@ -723,7 +729,7 @@ msgstr ""
 "На нем наклеена блестящая наклейка Windows! Позволено ли мне стереть Windows "
 "или использовать Linux параллельно?"
 
-#: pages/linux.linux_faq.php:263
+#: pages/linux.linux_faq.php:265
 msgid ""
 "<strong>Yes.</strong> It is absolutely, completely legal (providing of "
 "course it's your computer!)."
@@ -731,7 +737,7 @@ msgstr ""
 "<strong>Да.</strong> Это абсолютно, полностью легально (при условии, "
 "конечно, что это Ваш компьютер!)."
 
-#: pages/linux.linux_faq.php:264
+#: pages/linux.linux_faq.php:266
 msgid ""
 "The sticker on it is purely marketing, it has no legal value. We believe it "
 "is <em>one fundamental right</em> to choose which software to run on our own "
@@ -742,7 +748,7 @@ msgstr ""
 "программы запускать на своем личном компьютере."
 
 #. i18n: If you do not know of a very good resource about DRM, please link to the Wikipedia article on DRM in your language.
-#: pages/linux.linux_faq.php:267
+#: pages/linux.linux_faq.php:269
 #, fuzzy, php-format
 msgid ""
 "In fact this right is threatened by the rise of things such as <a href="
@@ -755,19 +761,19 @@ msgstr ""
 "Прочтите нашу полную статью \"<a href=\"%s\">%s</a>\", чтобы получить больше "
 "информации."
 
-#: pages/linux.linux_faq.php:268 pages/windows.php:56 pages/windows.php:57
+#: pages/linux.linux_faq.php:270 pages/windows.php:56 pages/windows.php:57
 #: pages/windows.php:66
 #, fuzzy
 msgid "Stand for a free society"
 msgstr "Встань за Свободное Общество"
 
-#: pages/linux.linux_faq.php:279
+#: pages/linux.linux_faq.php:281
 msgid "Not at all. It will run happily on your own computer."
 msgstr ""
 "Совсем нет. Он будет замечательно работать и на Вашем существующем "
 "компьютере."
 
-#: pages/linux.linux_faq.php:280
+#: pages/linux.linux_faq.php:282
 #, php-format
 msgid ""
 "The only thing you might be worried about is using very recent special "
@@ -785,15 +791,15 @@ msgstr ""
 "\"%s\">Прочитайте о том, как Вы можете попробовать Linux или установить его "
 "на Ваш компьютер</a>, будь то взамен или вместе с Windows."
 
-#: pages/linux.linux_faq.php:290 pages/linux.php:28
+#: pages/linux.linux_faq.php:292 pages/linux.php:28
 msgid "Using Linux"
 msgstr "Использование Linux"
 
-#: pages/linux.linux_faq.php:298
+#: pages/linux.linux_faq.php:300
 msgid "No."
 msgstr "Нет."
 
-#: pages/linux.linux_faq.php:299
+#: pages/linux.linux_faq.php:301
 msgid ""
 "It is technically possible to adapt Microsoft Office to Linux, but Microsoft "
 "isn't keen on allowing Office users to choose their operating system. There "
@@ -809,11 +815,11 @@ msgstr ""
 "\">OpenDocument</a>."
 
 #. i18n: If it exists, please use the localized URL of OpenOffice.org . Else, please switch the URL to http://www.openoffice.org/
-#: pages/linux.linux_faq.php:302
+#: pages/linux.linux_faq.php:304
 msgid "http://why.openoffice.org/"
 msgstr "http://ru.openoffice.org/"
 
-#: pages/linux.linux_faq.php:304
+#: pages/linux.linux_faq.php:306
 #, fuzzy
 msgid ""
 "However, a complete, Free, reliable office suite exists: <a href=\"http://"
@@ -830,7 +836,7 @@ msgstr ""
 "PowerPoint, и является действительно свободным и бесплатным. И он работает "
 "на Windows, также как и на Linux."
 
-#: pages/linux.linux_faq.php:314
+#: pages/linux.linux_faq.php:316
 #, fuzzy
 msgid ""
 "The simple answer to this question would be &quot;yes&quot;, however this is "
@@ -839,7 +845,7 @@ msgstr ""
 "Простым ответом на этот вопрос будет \"да\", однако это только половина "
 "правды."
 
-#: pages/linux.linux_faq.php:315
+#: pages/linux.linux_faq.php:317
 msgid ""
 "Quite a few Linux distributions do not include MP3 playback software due to "
 "the patent situation of the MP3 format. These patent issues do not affect "
@@ -855,7 +861,7 @@ msgstr ""
 "образом дается возможноть <strong>легально проигрывать MP3-файлы</strong>, "
 "для некоммерческого использования."
 
-#: pages/linux.linux_faq.php:316
+#: pages/linux.linux_faq.php:318
 msgid ""
 "DVDs, on the other hand, are a more difficult situation. Most, if not all, "
 "DVDs are encrypted using a system called \"<acronym title=\"Content "
@@ -872,7 +878,7 @@ msgstr ""
 "дисков является нелегальным во многих странах мира, включая США и "
 "Европейский Союз."
 
-#: pages/linux.linux_faq.php:317
+#: pages/linux.linux_faq.php:319
 #, fuzzy
 msgid ""
 "There is currently no legal solution to play your DVDs on Linux where "
@@ -885,7 +891,7 @@ msgstr ""
 "\"http://www.fluendo.com/\">Fluendo</a> разрабатывает (несвободное) "
 "приложение для этой цели, регулярно делая анонсы о его \"скором\" выпуске."
 
-#: pages/linux.linux_faq.php:318
+#: pages/linux.linux_faq.php:320
 msgid ""
 "Non-encrypted DVDs, which include most home-made DVDs, play perfectly well "
 "with only free software."
@@ -894,40 +900,40 @@ msgstr ""
 "в домашних условиях, превосходно воспроизводятся, используя только свободное "
 "программное обеспечение."
 
-#: pages/linux.linux_faq.php:321
+#: pages/linux.linux_faq.php:323
 msgid "More on the web:"
 msgstr "Узнать больше в Интернете:"
 
 #. i18n: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
-#: pages/linux.linux_faq.php:324
+#: pages/linux.linux_faq.php:326
 msgid "https://wiki.ubuntu.com/RestrictedFormats"
 msgstr "https://help.ubuntu.com/community/RestrictedFormatsRu"
 
-#: pages/linux.linux_faq.php:324
+#: pages/linux.linux_faq.php:326
 msgid "Ubuntu Restricted Formats"
 msgstr "Закрытые форматы в Ubuntu"
 
 #. i18n: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
-#: pages/linux.linux_faq.php:327
+#: pages/linux.linux_faq.php:329
 msgid "http://www.fedoraproject.org/wiki/ForbiddenItems"
 msgstr "http://www.fedoraproject.org/wiki/ForbiddenItems"
 
-#: pages/linux.linux_faq.php:327
+#: pages/linux.linux_faq.php:329
 msgid "Fedora Forbidden Items"
 msgstr "Запрещенные Компоненты в Fedora (англ.)"
 
-#: pages/linux.linux_faq.php:338
+#: pages/linux.linux_faq.php:340
 #, fuzzy
 msgid ""
 "Yes and No: Some games, for example some <a href=\"http://www.idsoftware.com/"
 "\">id Software</a> games like Quake III, Quake IV and Doom III, Unreal "
 "Tournament, Cold War, and many more have Linux versions.<br />Most popular "
 "games, alas, only work on Windows and occasionally on Mac OS. Some Windows "
-"games, such as Battlefield 2 or GTA Vice City, can be run on GNU/Linux with "
+"games, such as Call of Duty 4 or GTA Vice City, can be run on GNU/Linux with "
 "<a href=\"http://winehq.org/\">Wine</a> or its non-free variant <a href="
 "\"http://transgaming.com/cedega\">Cedega</a>, which involves some unpleasant "
-"effort for the user. For a list of games known to work on Cedega, see <a "
-"href=\"http://transgaming.org/gamesdb\">their games database</a>."
+"effort for the user. For a list of games known to work on Wine, see <a href="
+"\"http://appdb.winehq.org/\">their games database</a>."
 msgstr ""
 "Печально, но преобладающее большинство популярных игр работает только на "
 "Windows и, от случая к случаю, на Mac OS. Некоторые Windows-игры, такие как "
@@ -939,7 +945,7 @@ msgstr ""
 "org/gamesdb\">их базу игр</a>."
 
 #. i18n: The first link will automatically point to the "more" page.
-#: pages/linux.linux_faq.php:352
+#: pages/linux.linux_faq.php:354
 #, fuzzy, php-format
 msgid ""
 "If you have a question that is not covered here, there are many communities "
@@ -956,7 +962,7 @@ msgstr ""
 "contact/\">сообщите нам</a>, а еще лучше <a href=\"%s\">заведите новый "
 "билет</a>."
 
-#: pages/linux.linux_faq.php:362
+#: pages/linux.linux_faq.php:364
 #: pages/linux.misunderstanding_free_software.php:191
 #: pages/linux.screenshots.php:31 pages/linux.screenshots.php:104
 #: pages/windows.restrictions.further_details.php:4
@@ -2075,16 +2081,15 @@ msgstr ""
 #: pages/more.php:94
 msgid ""
 "This website was created by a non-profit organization, <em><a href=\"http://"
-"www.gnulinuxmatters.org/\">GNU/Linux Matters</a></em>, which focuses on "
+"www.gnulinuxmatters.org/\">GNU/Linux Matters</a></em>, which focused on "
 "Internet advocacy for free software. As of 2010, GNU/Linux Matters have "
-"ceased activity. Despite their best efforts they just haven't been able to "
-"find the time to keep the project going."
+"ceased activity."
 msgstr ""
 
 #: pages/more.php:95
 #, php-format
 msgid ""
-"The &#8220;get&nbsp;GNU/Linux!&#8221; project is now being maintained at <a "
+"The &ldquo;get&nbsp;GNU/Linux!&rdquo; project is now being maintained at <a "
 "href=\"https://launchpad.net/getgnulinux\">Launchpad</a> and the continuity "
 "of the project now depends on the community. Please consider <a href=\"%s"
 "\">participating</a>, or simply helping by <a href=\"%s\">making a link to "
@@ -2403,19 +2408,21 @@ msgstr ""
 "удовольствием окажут Вам помощь. На нашей странице \"<a href=\"@url_more"
 "\">@title_more</a>\" собрано несколько ссылок по теме."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:60
+#: pages/switch_to_linux.from_windows_to_linux.php:61
+#, fuzzy
 msgid ""
-"The companies behind the main GNU/Linux distributions, such as Canonical and "
-"Red Hat, also provide expert commercial support."
+"The companies behind the main GNU/Linux distributions, such as <a href="
+"\"http://www.canonical.com/\">Canonical</a> and <a href=\"http://www.redhat."
+"com/\">Red Hat</a>, also provide expert commercial support."
 msgstr ""
 "Компании, стоящие за ведущими дистрибутивами GNU/Linux, такие как Canonical "
 "и Red Hat, также оказывают экспертную коммерческую поддержку."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:68
+#: pages/switch_to_linux.from_windows_to_linux.php:70
 msgid "What is mostly the same in Linux"
 msgstr "Что в Linux почти такое же"
 
-#: pages/switch_to_linux.from_windows_to_linux.php:69
+#: pages/switch_to_linux.from_windows_to_linux.php:71
 msgid ""
 "Fundamentally, everyday users will find GNU/Linux similar in use to Windows "
 "or Mac OSX."
@@ -2423,17 +2430,17 @@ msgstr ""
 "В общем плане, обычные пользователи найдут GNU/Linux похожим в использовании "
 "на Windows или Mac OSX."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:71
+#: pages/switch_to_linux.from_windows_to_linux.php:73
 #, fuzzy
 msgid "General set-up"
 msgstr "Общий вид:"
 
 #. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:74
+#: pages/switch_to_linux.from_windows_to_linux.php:76
 msgid "simple use"
 msgstr "простота использования"
 
-#: pages/switch_to_linux.from_windows_to_linux.php:75
+#: pages/switch_to_linux.from_windows_to_linux.php:77
 msgid ""
 "If you still believe Linux is controlled with code and command-line, you "
 "should update your views!"
@@ -2441,7 +2448,7 @@ msgstr ""
 "Если Вы все еще верите, что Linux управляется через командную строку и "
 "программирование, Вам следует изменить свою точку зрения!"
 
-#: pages/switch_to_linux.from_windows_to_linux.php:76
+#: pages/switch_to_linux.from_windows_to_linux.php:78
 #, fuzzy
 msgid ""
 "Just like Windows, Linux has to boot when you switch your computer on, and "
@@ -2454,23 +2461,23 @@ msgstr ""
 "так и Mac OS."
 
 #. i18n: The %s placeholder will automatically point to the screenshots page
-#: pages/switch_to_linux.from_windows_to_linux.php:79
+#: pages/switch_to_linux.from_windows_to_linux.php:81
 #, fuzzy, php-format
 msgid "See more: we have <a href=\"%s\">screenshots</a></div>"
 msgstr "Посмотрите ближе: у нас есть <a href=\"%s\">скриншоты</a>"
 
-#: pages/switch_to_linux.from_windows_to_linux.php:83
+#: pages/switch_to_linux.from_windows_to_linux.php:85
 #, fuzzy
 msgid "Web browsing and common tasks"
 msgstr "Интернет и частые задачи:"
 
 #. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:86
+#: pages/switch_to_linux.from_windows_to_linux.php:88
 msgid "Firefox browser"
 msgstr "браузер Firefox"
 
 #. i18n: use localized Firefox landing page if possible
-#: pages/switch_to_linux.from_windows_to_linux.php:89
+#: pages/switch_to_linux.from_windows_to_linux.php:91
 msgid ""
 "The Web looks just the same when viewed with Linux (in fact you can browse "
 "the Web with the same program if you already use <a href=\"http://www."
@@ -2485,40 +2492,40 @@ msgstr ""
 "музыки. Перемещение по файлам и папкам осуществляется файл-менеджером, "
 "похожим на Windows Explorer."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:99
+#: pages/switch_to_linux.from_windows_to_linux.php:101
 msgid "What is not as good in Linux"
 msgstr "Что не настолько хорошо в Linux"
 
 #. i18n: translate "widely": the idea is more important than precision/exactitude here
-#: pages/switch_to_linux.from_windows_to_linux.php:103
+#: pages/switch_to_linux.from_windows_to_linux.php:105
 #, fuzzy
 msgid "&quot;Never tell the truth to people who are not worthy of it.&quot;"
 msgstr "\"Никогда не говорите правду людям, которые этого недостойны.\""
 
-#: pages/switch_to_linux.from_windows_to_linux.php:104
+#: pages/switch_to_linux.from_windows_to_linux.php:106
 msgid "or:"
 msgstr "или:"
 
-#: pages/switch_to_linux.from_windows_to_linux.php:105
+#: pages/switch_to_linux.from_windows_to_linux.php:107
 #, fuzzy
 msgid "&quot;Tell the truth and run.&quot;"
 msgstr "\"Скажите правду и убегайте.\""
 
-#: pages/switch_to_linux.from_windows_to_linux.php:105
+#: pages/switch_to_linux.from_windows_to_linux.php:107
 msgid "&mdash; Yugoslavian proverb."
 msgstr "&mdash; Югославская пословица."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:109
+#: pages/switch_to_linux.from_windows_to_linux.php:111
 #, fuzzy
 msgid "Driver support"
 msgstr "Поддержка драйверов."
 
 #. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:112
+#: pages/switch_to_linux.from_windows_to_linux.php:114
 msgid "some hardware problems"
 msgstr "некоторые проблемы с оборудованием"
 
-#: pages/switch_to_linux.from_windows_to_linux.php:113
+#: pages/switch_to_linux.from_windows_to_linux.php:115
 msgid ""
 "Manufacturers of computer hardware don't always (yet) release drivers for "
 "Linux or publicize full specifications."
@@ -2526,7 +2533,7 @@ msgstr ""
 "Производители компьютерного оборудования не всегда (пока) выпускают драйверы "
 "для Linux или публикуют полные спецификации."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:114
+#: pages/switch_to_linux.from_windows_to_linux.php:116
 msgid ""
 "So, drivers are sometimes unavailable for the most recent high-end graphics "
 "cards &mdash; some are reverse-engineered from Windows drivers by "
@@ -2538,12 +2545,12 @@ msgstr ""
 "добровольцев путем разбирания Windows-драйверов. Другие выпускаются "
 "бесплатно, но под ограничивающими лицензиями."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:115
+#: pages/switch_to_linux.from_windows_to_linux.php:117
 msgid "Sadly, the same problem occurs with many low-end WiFi cards."
 msgstr ""
 "Печально, но та же проблема существует и с многими бюджетными картами WiFi."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:116
+#: pages/switch_to_linux.from_windows_to_linux.php:118
 msgid ""
 "However, the vast majority of computers with standard hardware work out of "
 "the box with main Linux distributions. Common hardware such as USB keys or "
@@ -2554,17 +2561,17 @@ msgstr ""
 "из коробки. С распространенными устройствами, такими как USB-флешки или "
 "фотокамеры, никогда не возникает проблем."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:119
+#: pages/switch_to_linux.from_windows_to_linux.php:121
 #, fuzzy
 msgid "DVDs, restricted formats"
 msgstr "DVD-диски, закрытые форматы."
 
 #. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:122
+#: pages/switch_to_linux.from_windows_to_linux.php:124
 msgid "DVDs and restricted media"
 msgstr "DVD и закрытые носители"
 
-#: pages/switch_to_linux.from_windows_to_linux.php:123
+#: pages/switch_to_linux.from_windows_to_linux.php:125
 msgid ""
 "Many multimedia formats in use are proprietary and not openly specified; "
 "this means, broadly speaking, that Linux programmers have to find out how to "
@@ -2576,7 +2583,7 @@ msgstr ""
 "стороны разработчиков форматов."
 
 #. i18n: Please choose the wording of the DRM acronym according to the FSF terminology
-#: pages/switch_to_linux.from_windows_to_linux.php:126
+#: pages/switch_to_linux.from_windows_to_linux.php:128
 #, fuzzy
 msgid ""
 "This might lead you to circumvent the restrictions in some DVDs and the "
@@ -2593,22 +2600,22 @@ msgstr ""
 "того, где Вы живете, <em>такие процессы обхода могут быть нелегальными</em>, "
 "даже если Вы купили Ваши носители легально."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:127
-#: pages/switch_to_linux.from_windows_to_linux.php:139
+#: pages/switch_to_linux.from_windows_to_linux.php:129
+#: pages/switch_to_linux.from_windows_to_linux.php:141
 msgid "Read more in our Linux FAQ:"
 msgstr ""
 
-#: pages/switch_to_linux.from_windows_to_linux.php:131
+#: pages/switch_to_linux.from_windows_to_linux.php:133
 #, fuzzy
 msgid "Gaming"
 msgstr "Игры."
 
 #. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:134
+#: pages/switch_to_linux.from_windows_to_linux.php:136
 msgid "gaming"
 msgstr "игры"
 
-#: pages/switch_to_linux.from_windows_to_linux.php:135
+#: pages/switch_to_linux.from_windows_to_linux.php:137
 #, fuzzy
 msgid ""
 "Hard-core computer gamers, you might find that the Linux gaming world is "
@@ -2624,7 +2631,7 @@ msgstr ""
 "на Linux, либо им для работы требуются специальные коммерческие эмуляторы."
 
 #. i18n: use localised link if possible, and contact us if you know better resources
-#: pages/switch_to_linux.from_windows_to_linux.php:138
+#: pages/switch_to_linux.from_windows_to_linux.php:140
 msgid ""
 "There is a very active free software game development community though, and "
 "they have produced quite a few high-quality games, both 2D and 3D, that are "
@@ -2637,17 +2644,17 @@ msgstr ""
 "f=93\">игровой форум Ubuntu (англ)</a> или <a href=\"http://lg.ip4.ru/"
 "\">сайт \"Игры для Linux\"</a> чтобы узнать больше."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:143
+#: pages/switch_to_linux.from_windows_to_linux.php:145
 #, fuzzy
 msgid "Hibernating"
 msgstr "Спящий режим."
 
 #. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:146
+#: pages/switch_to_linux.from_windows_to_linux.php:148
 msgid "hibernation problems"
 msgstr "проблемы с засыпанием"
 
-#: pages/switch_to_linux.from_windows_to_linux.php:147
+#: pages/switch_to_linux.from_windows_to_linux.php:149
 msgid ""
 "Because of the driver issues above, hibernating is not always reliable. The "
 "most common occurrence is the loss of WiFi connection after hibernating on "
@@ -2657,11 +2664,11 @@ msgstr ""
 "работает. Чаще всего, в результате засыпания происходит потеря беспроводного "
 "соединения WiFi на ноутбуках, использующих несвободные драйвера."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:158
+#: pages/switch_to_linux.from_windows_to_linux.php:160
 msgid "Conclusion"
 msgstr "В качестве заключения"
 
-#: pages/switch_to_linux.from_windows_to_linux.php:159
+#: pages/switch_to_linux.from_windows_to_linux.php:161
 msgid ""
 "Whether you are going to enjoy Linux depends mostly on what you expect from "
 "it."
@@ -2669,7 +2676,7 @@ msgstr ""
 "То, понравится Вам Linux или нет, в основном зависит от того, чего Вы от "
 "него ожидаете."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:161
+#: pages/switch_to_linux.from_windows_to_linux.php:163
 #, fuzzy
 msgid ""
 "If you wish Linux to be just exactly like Windows, you will probably be "
@@ -2686,7 +2693,7 @@ msgstr ""
 "системы, что приводит к разнообразию. А именно разнообразие делает Linux "
 "таким особенным и интересным."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:162
+#: pages/switch_to_linux.from_windows_to_linux.php:164
 msgid ""
 "Your freedom matters. Thousands in communities and companies work to build "
 "software on which you may exert this freedom. Using GNU/Linux is the easiest "
@@ -2697,7 +2704,7 @@ msgstr ""
 "распространить эту свободу. Использование GNU/Linux &mdash; это самый "
 "простой путь сделать это сполна."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:163
+#: pages/switch_to_linux.from_windows_to_linux.php:165
 msgid ""
 "It's fun! Not having to worry about spyware, viruses, program registrations, "
 "demos that expire, or finding software that is really free as in freedom, "
@@ -2708,7 +2715,7 @@ msgstr ""
 "или нахождении программ, которые действительно свободны и бесплатны, "
 "пользование компьютером вдруг становится очень приятным."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:165
+#: pages/switch_to_linux.from_windows_to_linux.php:167
 #, fuzzy
 msgid ""
 "We hope you'll switch soon. There's a large community waiting, and no one in "
@@ -2718,7 +2725,7 @@ msgstr ""
 "и никто в нем не просит Вас \"зарегистрироваться, купить и активировать\"."
 
 #. i18n: We try to be friendly and inviting here. This does not have to be translated very precisely.
-#: pages/switch_to_linux.from_windows_to_linux.php:175
+#: pages/switch_to_linux.from_windows_to_linux.php:177
 msgid "Choose a Linux distribution to get started!"
 msgstr "Выберите дистрибутив Linux, чтобы начать!"
 
