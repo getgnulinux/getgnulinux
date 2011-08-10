@@ -87,7 +87,14 @@
 <?php
 foreach ($ggl->locale_info as $id => $items) {
     printf("<li%s><a href=\"/%s/%s\" hreflang=\"%s\"><img src=\"/images/flags/%s.gif\" alt=\"%s\" /> <span class=\"language\" dir=\"%s\">%s</span></a></li>\n",
-        $this->is_current_language($id), $id, $this->current_page(), $id, strtolower(substr($items[0], 3, 2)), $id, $items[2], $items[3]);
+        $this->is_current_language($id),
+        $id,
+        $this->current_page(),
+        $id,
+        strtolower(substr($items[0], 3, 2)),
+        $id,
+        $items[2],
+        $items[3]);
 }
 ?>
 </ul>
