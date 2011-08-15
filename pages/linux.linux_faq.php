@@ -213,7 +213,7 @@
 	<div class="answer"><p><?php
         $title = _("How to Misunderstand Free Software");
         $link = sprintf("<a href=\"%s\">%s</a>", $this->base_url('linux/misunderstanding_free_software',1), $title);
-        $p = _("Not at all. We have this explained simply in our article %s.");
+        $p = _("Linux has nothing to do with a political system and anyone &mdash; regardless of their political views &mdash; can use it. We have this explained simply in our article %s.");
         printf($p, $link); ?></p>
 	</div>
 
