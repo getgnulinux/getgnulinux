@@ -10,12 +10,7 @@
 <body>
 <div class="accessibility"><a href="#maincontent">skip to content</a></div>
 
-<div class="wrap_top">
-<div class="wrap_right">
-<div class="wrap_bottom">
-<div class="wrap_left">
-<div class="topl"></div>
-<div class="topr"></div>
+<div id="wrapper">
 
 <div id="mainbody">
 

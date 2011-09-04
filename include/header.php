@@ -79,6 +79,8 @@
     <a href="#maincontent"><?php print _("skip to content"); ?></a>
 </div>
 
+<div id="wrapper">
+
 <div id="just_for_ie7">
 <div id="translations">
 <div id="language_menu"><span id="language_menu_text"><?php print _("Alternate languages"); ?></span></div>
@@ -102,15 +104,7 @@ foreach ($ggl->locale_info as $id => $items) {
 </div><!-- end translations -->
 </div><!-- end just_for_ie7 -->
 
-<div class="wrap_top">
-<div class="wrap_right">
-<div class="wrap_bottom">
-<div class="wrap_left">
-<div class="topl"></div>
-<div class="topr"></div>
-
 <div id="mainbody">
-
 <div id="header">
 
 <?php

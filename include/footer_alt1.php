@@ -1,8 +1,6 @@
 
 </div><!-- end mainbody -->
-<div class="botl"></div>
-<div class="botr"></div>
-</div></div></div></div><!-- end wrappings -->
+</div><!-- end wrapper -->
 
 <?php
 if ( $ggl->get('piwik') ) {

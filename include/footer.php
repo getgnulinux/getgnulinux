@@ -1,15 +1,5 @@
 
 </div><!-- end mainbody -->
-<div class="botl"></div>
-<div class="botr"></div>
-</div></div></div></div><!-- end wrappings -->
-
-<div class="wrap_top">
-<div class="wrap_right">
-<div class="wrap_bottom">
-<div class="wrap_left">
-<div class="topl"></div>
-<div class="topr"></div>
 
 <div id="footer">
 <p id="about">
@@ -23,12 +13,9 @@
 	<li><a href="<?php $this->base_url('link_buttons'); ?>"><?php print _("Link to Us"); ?></a></li>
 	<li><a href="http://getgnulinux.wordpress.com/"><?php print _("Blog"); ?></a></li>
 </ul>
+
 </div><!-- end footer -->
-
-<div class="botl"></div>
-<div class="botr"></div>
-
-</div></div></div></div><!-- end wrappings -->
+</div><!-- end wrapper -->
 
 <?php
 if ( $ggl->get('piwik') ) {

@@ -246,9 +246,8 @@ code {
 
 #translations {
     position: absolute;
-    left: 60%;
+    left: 61%;
     top: 0;
-    margin-left: 10px;
     padding: 0;
     height: 1.5em;
     width: 13em;
@@ -333,6 +332,14 @@ body {
     padding: 0 0 0.5em 0;
 }
 
+#wrapper {
+    padding: 0;
+    width: 710px;
+    max-width: 90%;
+    min-width: 550px;
+    margin: 2em auto 1em auto;
+}
+
 .wrap_top {	/* "Shadows" brought by 4 divs wrapping the actual content */
     width: 45em;
     max-width: 90%;
@@ -393,9 +400,17 @@ body {
 }
 
 #mainbody {      /* Contains everything with header, except the footer and translation tabs */
-    padding: 0 1em 1em 1em;
+    padding: 0 15px 15px 15px;
     border: 1px #DFD9F9 solid;
     background: #fefefe;
+    margin-bottom: 2em;
+
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 0px 1px #DFD9F9;
+    -moz-box-shadow: 0 0px 1px #DFD9F9;
+    -webkit-box-shadow: 0 0px 1px #DFD9F9;
 }
 
 /*----------------------------------------------------
@@ -1759,7 +1774,14 @@ div .note {
     border: 1px #DFD9F9 solid;
     background: #fefefe;
     font-size: 0.9em;
-    padding: 0.8em 1em;
+    padding: 15px 15px 15px 15px;
+
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 0px 1px #DFD9F9;
+    -moz-box-shadow: 0 0px 1px #DFD9F9;
+    -webkit-box-shadow: 0 0px 1px #DFD9F9;
 }
 
 #about {
