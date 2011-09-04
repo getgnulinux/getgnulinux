@@ -15,7 +15,9 @@ print _("Sorry, but we couldn't find the page you were looking for. Either that 
 # i18n: Here, the %s placeholder simply puts a link to the bug tracker
 $p = _("If you found a broken link, please <a href=\"%s\">report it</a> so we can repair it. Thank you!"); printf($p, 'https://bugs.launchpad.net/getgnulinux'); ?></p>
 
-<br/><a href="<?php $this->base_url(); ?>"><?php print _("Return to the home page"); ?></a>
+<div id="switcher">
+    <a href="<?php $this->base_url(); ?>" class="previousbutton"><span class="previous"><span class="button_title"><?php print _("Return to the Homepage"); ?></span></span></a>
+</div><!-- end of switcher -->
 
 </div><!-- end maincontent -->
 
