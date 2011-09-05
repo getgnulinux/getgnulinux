@@ -1773,8 +1773,9 @@ div .note {
 #footer {
     border: 1px #DFD9F9 solid;
     background: #fefefe;
-    font-size: 0.9em;
-    padding: 15px 15px 15px 15px;
+    float: left;
+    margin-bottom: 2em;
+    width: 100%;
 
     border-radius: 4px;
     -moz-border-radius: 4px;
@@ -1784,24 +1785,60 @@ div .note {
     -webkit-box-shadow: 0 0px 1px #DFD9F9;
 }
 
-#about {
+#footer-container {
+    font-size: 0.9em;
+    padding: 15px;
+    float: left;
+    width: 95%;
+}
+
+.footer-note {
     font-size: 0.9em;
     text-align: left;
     color: #696969;
 }
 
+.footer-block {
+    display: block;
+    float: left;
+    margin-right: 2em;
+}
+
+.footer-text a:link,
+.footer-text a:visited {
+    color: #356A7B;
+}
+
+.footer-text a:hover,
+.footer-text a:active {
+    color: #333;
+}
+
+.footer-block h1 {
+    font-family: Cantarell,'Droid Sans',Ubuntu,'DejaVu Sans',Arial,sans-serif;
+    color: #5A5A5A;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 12px;
+    text-align: left;
+    display: block;
+    border-bottom: 1px dotted #333333;
+    margin-bottom: 5px;
+    padding-bottom: 3px;
+}
+
 #footer ul {
     font-size: 0.85em;
-    font-style: italic;
-    text-align: center;
+    font-style: normal;
+    text-align: left;
     list-style: none outside none;
     margin: 0;
     padding: 0;
 }
 
 #footer li {
-    display: inline;
-    margin: 0 5px;
+    display: block;
+    margin: 0;
 }
 
 .link_button {
