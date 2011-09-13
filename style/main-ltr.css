@@ -246,7 +246,7 @@ code {
 
 #translations {
     position: absolute;
-    left: 61%;
+    right: 0%;
     top: 0;
     padding: 0;
     height: 1.5em;
@@ -274,7 +274,7 @@ code {
 #language_menu_text {
     font-size: 14px;
     min-height: 20px;
-    padding: 0 0 2px 30px;
+    padding: 0 0 0 30px;
     background: url("/images/alternate_languages.png") top left no-repeat;
 }
 
@@ -1775,7 +1775,7 @@ div .note {
     background: #fefefe;
     float: left;
     margin-bottom: 2em;
-    width: 100%;
+    width: 708px; /* 710 - 2 to compensate for the 2px border */
 
     border-radius: 4px;
     -moz-border-radius: 4px;

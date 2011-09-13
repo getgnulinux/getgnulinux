@@ -16,7 +16,7 @@ class GetGnuLinux {
         'it' => array('it_IT.UTF-8',"Home",'ltr',"italiano", "Watch this page in Italian"),
         'ml' => array('ml_IN',"Home",'ltr',"മലയാളം", "Watch this page in Malayalam"),
         'nl' => array('nl_NL.UTF-8',"Hoofdpagina",'ltr',"Nederlands", "Bekijk deze pagina in het Nederlands"),
-        'pt' => array('pt_PT.UTF-8',"Home",'ltr',"português", "Watch this page in Portuguese"),
+        #'pt' => array('pt_PT.UTF-8',"Home",'ltr',"português", "Watch this page in Portuguese"),
         'ru' => array('ru_RU.UTF-8',"Домой",'ltr',"русский", "Просмотреть эту страницу на русский языке!"),
         'sr' => array('sr_RS',"Home",'ltr',"српски", "Watch this page in Serbian"),
         #'uk' => array('uk_UA.UTF-8',"Додому",'ltr',"українська", "Переглянути цю сторінку на українська мові!"),
@@ -28,7 +28,7 @@ class GetGnuLinux {
     // constructor
     function __construct() {
         # Set the locale.
-        $locale = isset($_GET['l']) ? $_GET['l'] : NULL;
+        $locale = isset($_GET['l']) ? $_GET['l'] : "en_GB";
         $this->set('locale', $locale);
 
         # Set the text direction.

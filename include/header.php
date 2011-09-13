@@ -63,6 +63,12 @@
     }
     ?>
 
+    <style type="text/css">
+    #language_menu_text {
+        background: url("/images/flags/<?php print $ggl->get('country_code'); ?>.gif") center left no-repeat;
+    }
+    </style>
+
     <!--[if lte IE 6]>
     <?php $this->javascript('/style/ie_translation_menu.js'); ?>
     <?php $this->stylesheet('/style/ie6-ltr.css'); ?>
