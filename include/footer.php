@@ -19,9 +19,10 @@
     </ul>
 </div>
 <div class="footer-block">
-    <h1><?php print _("More"); ?></h1>
+    <h1><?php print _("Participate"); ?></h1>
     <ul class="footer-text">
         <li><a href="<?php $this->base_url('link_buttons'); ?>"><?php print _("Link to Us"); ?></a></li>
+        <li><a href="https://launchpad.net/getgnulinux">Launchpad</a></li>
     </ul>
 </div>
 <div class="footer-block">
