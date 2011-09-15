@@ -8,6 +8,15 @@ do
     lang=${locale:0:2}
     mo=LOCALE_DIR/$locale/LC_MESSAGES/DOMAIN.mo
     po=LOCALE_DIR/DOMAIN/$lang.po
+    po_updated=LOCALE_DIR/DOMAIN/merge/$lang.po
+
+    # Chinese exists in Launchpad only as three variants:
+    # Simplified Chinese (zh_CN), Traditional Chinese (zh_TW) and Hong Kong Chinese (zh_HK).
+    if [ $lang == "zh" ];
+    then
+        po=LOCALE_DIR/DOMAIN/$locale.po
+        po_updated=LOCALE_DIR/DOMAIN/merge/$locale.po
+    fi
 
     # Create missing directories.
     if [ ! -d LOCALE_DIR/$locale/LC_MESSAGES ];
@@ -15,17 +24,12 @@ do
         mkdir -p LOCALE_DIR/$locale/LC_MESSAGES
     fi
 
-    # Chinese exists in Launchpad only as three variants:
-    # Simplified Chinese (zh_CN), Traditional Chinese (zh_TW) and Hong Kong Chinese (zh_HK).
-    if [ $lang == "zh" ];
-    then
-        po=LOCALE_DIR/DOMAIN/$locale.po
-    fi
-
-    # Update .po files and build binary language files of .po files.
+    # Update PO files with template and build binary language files of PO files.
     if [ -e $po ];
     then
+        # Update the source references with the template file.
         msgmerge -v -U $po TEMPLATE
+        # Build binary MO file from the PO file.
         msgfmt -v $po -o $mo
     else
         cp -v TEMPLATE $po
