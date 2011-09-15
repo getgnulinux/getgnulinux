@@ -58,28 +58,28 @@ pot:
 
 # Build PO file for each locale. Requires that the PO Template file is present.
 po: pot
-	cp scripts/update.sh.in update.sh
-	sed --in-place update.sh --expression=s/LOCALE_DIR/$(LOCALE_DIR)/
-	sed --in-place update.sh --expression=s/TEMPLATE/$(LOCALE_DIR)\\/$(DOMAIN)\\/$(DOMAIN).pot/
-	sed --in-place update.sh --expression=s/DOMAIN/$(DOMAIN)/
-	chmod +x update.sh
+	cp scripts/make-po.sh.in make-po.sh
+	sed --in-place make-po.sh --expression=s/LOCALE_DIR/$(LOCALE_DIR)/
+	sed --in-place make-po.sh --expression=s/TEMPLATE/$(LOCALE_DIR)\\/$(DOMAIN)\\/$(DOMAIN).pot/
+	sed --in-place make-po.sh --expression=s/DOMAIN/$(DOMAIN)/
+	chmod +x make-po.sh
 	@echo
-	./update.sh
-	rm update.sh
+	./make-po.sh
+	rm make-po.sh
 	@echo
 	@echo "Build finished. The PO files are in $(LOCALE_DIR)/$(DOMAIN)/."
 
 # Before the webserver can use the MO files for the locales, a list of locale
 # definition files must be compiled first. See `man locale-gen' for more info.
 localesgen:
-	cp scripts/localesgen.sh.in localesgen.sh
-	sed --in-place localesgen.sh --expression=s/UTF8_LOCALES/"$(utf8_locales)"/
-	sed --in-place localesgen.sh --expression=s/LOCALE_DIR/$(LOCALE_DIR)/
-	sed --in-place localesgen.sh --expression=s/LOCALE_GEN/$(LOCALE_GEN)/
-	chmod +x localesgen.sh
+	cp scripts/make-locales.sh.in make-locales.sh
+	sed --in-place make-locales.sh --expression=s/UTF8_LOCALES/"$(utf8_locales)"/
+	sed --in-place make-locales.sh --expression=s/LOCALE_DIR/$(LOCALE_DIR)/
+	sed --in-place make-locales.sh --expression=s/LOCALE_GEN/$(LOCALE_GEN)/
+	chmod +x make-locales.sh
 	@echo
-	./localesgen.sh
-	rm localesgen.sh
+	./make-locales.sh
+	rm make-locales.sh
 	@echo
 	@echo "Generating locale definition files finished. Restart your webserver to load the new locales."
 

@@ -15,8 +15,6 @@ do
         mkdir -p LOCALE_DIR/$locale/LC_MESSAGES
     fi
 
-    # Handle some exceptions;
-
     # Chinese exists in Launchpad only as three variants:
     # Simplified Chinese (zh_CN), Traditional Chinese (zh_TW) and Hong Kong Chinese (zh_HK).
     if [ $lang == "zh" ];
