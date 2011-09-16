@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: getgnulinux 0.0.1\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2011-08-10 21:33+0200\n"
+"POT-Creation-Date: 2011-09-16 23:52+0200\n"
 "PO-Revision-Date: 2011-06-19 21:31+0100\n"
 "Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,33 +16,55 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: include/footer.php:16
-#, php-format
-msgid ""
-"Except where otherwise <a href=\"%s\">noted</a>, content on this site is "
-"licensed under a <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" "
-"rel=\"license\"><acronym title=\"Creative Commons Attribution-ShareAlike 3.0 "
-"Unported License\">CC BY-SA 3.0 License</acronym></a>."
+#: include/footer.php:8
+msgid "About"
 msgstr ""
 
-#: include/footer.php:20 pages/more.php:100
-msgid "Terms of Use"
-msgstr ""
-
-#: include/footer.php:21 pages/more.php:101
+#: include/footer.php:10 pages/more.php:101
 msgid "Contact"
 msgstr ""
 
-#: include/footer.php:22 pages/more.php:102
+#: include/footer.php:11
+msgid "Our Blog"
+msgstr ""
+
+#: include/footer.php:15
+msgid "Information"
+msgstr ""
+
+#: include/footer.php:17 pages/more.php:100
+msgid "Terms of Use"
+msgstr ""
+
+#: include/footer.php:18 pages/more.php:102
 msgid "Credits"
 msgstr ""
 
-#: include/footer.php:23
-msgid "Link to Us"
+#: include/footer.php:22
+msgid "Participate"
 msgstr ""
 
 #: include/footer.php:24
-msgid "Blog"
+msgid "Link to Us"
+msgstr ""
+
+#: include/footer.php:29
+msgid "Other"
+msgstr ""
+
+#: include/footer.php:31
+msgid ""
+"This website won't look as intended on an outdated browser. Upgrade your "
+"browser today!"
+msgstr ""
+
+#: include/footer.php:35
+#, php-format
+msgid ""
+"Except where otherwise <a href=\"%s\">noted</a>, content on this site is "
+"licensed under a <acronym title=\"Creative Commons Attribution-ShareAlike "
+"3.0 License\"><a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" rel="
+"\"license\">CC BY-SA 3.0 License</a></acronym>."
 msgstr ""
 
 #: include/header.php:12 include/header.php:121 include/header.php:128
@@ -61,11 +83,11 @@ msgid ""
 "alternative, get linux, switch to linux"
 msgstr ""
 
-#: include/header.php:79
+#: include/header.php:85
 msgid "skip to content"
 msgstr ""
 
-#: include/header.php:84
+#: include/header.php:92
 msgid "Alternate languages"
 msgstr ""
 
@@ -92,7 +114,7 @@ msgstr ""
 msgid "More"
 msgstr ""
 
-#: pages/credits.php:164 pages/legal.php:116
+#: pages/credits.php:159 pages/legal.php:111 pages/not_found.php:19
 #, fuzzy
 msgid "Return to the Homepage"
 msgstr "Tornar al cap damunt de la pàgina"
@@ -662,12 +684,13 @@ msgstr ""
 "por. Linux i la seva llicència <acronym title=\"General Public License"
 "\">GPL</acronym> és algun tipus de programari comunista?"
 
-# No entenc molt be a quin article es refereix...
 #: pages/linux.linux_faq.php:216
-#, fuzzy, php-format
-msgid "Not at all. We have this explained simply in our article %s."
+#, php-format
+msgid ""
+"Linux has nothing to do with a political system and anyone &mdash; "
+"regardless of their political views &mdash; can use it. We have this "
+"explained simply in our article %s."
 msgstr ""
-"Gens. Us expliquem coses com aquestes al nostre article <a href=\"%s\">%s</a>"
 
 # Si treia la referència a la web (com recomanen els desenvolupadors), la resposta quedava una mica coixa.
 #. i18n: If LinuxPreloaded has not been localized to your language, please leave the URL to linuxpreloaded.com.
@@ -2038,11 +2061,6 @@ msgid ""
 "If you found a broken link, please <a href=\"%s\">report it</a> so we can "
 "repair it. Thank you!"
 msgstr ""
-
-#: pages/not_found.php:18
-#, fuzzy
-msgid "Return to the home page"
-msgstr "Tornar al cap damunt de la pàgina"
 
 #: pages/switch_to_linux.choose_a_distribution.php:8
 #: pages/switch_to_linux.php:20
@@ -4198,6 +4216,17 @@ msgid ""
 msgstr ""
 "En qui confiaríeu més? En el paquet prohibit d'estudiar o el paquet amb "
 "recepta?"
+
+# No entenc molt be a quin article es refereix...
+#, fuzzy
+#~ msgid "Not at all. We have this explained simply in our article %s."
+#~ msgstr ""
+#~ "Gens. Us expliquem coses com aquestes al nostre article <a href=\"%s\">"
+#~ "%s</a>"
+
+#, fuzzy
+#~ msgid "Return to the home page"
+#~ msgstr "Tornar al cap damunt de la pàgina"
 
 #~ msgid "Understanding free software"
 #~ msgstr "Entenent el programari lliure"

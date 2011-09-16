@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: getgnulinux 0.0.1\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2011-08-10 21:33+0200\n"
+"POT-Creation-Date: 2011-09-16 23:52+0200\n"
 "PO-Revision-Date: 2011-08-10 21:37+0200\n"
 "Last-Translator: zeugma <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,38 +19,62 @@ msgstr ""
 "X-Launchpad-Export-Date: 2011-08-10 19:04+0000\n"
 "X-Generator: Launchpad (build 13636)\n"
 
-#: include/footer.php:16
-#, php-format
+#: include/footer.php:8
+#, fuzzy
+msgid "About"
+msgstr "Hakkımızda"
+
+#: include/footer.php:10 pages/more.php:101
+msgid "Contact"
+msgstr "İletişim"
+
+#: include/footer.php:11
+#, fuzzy
+msgid "Our Blog"
+msgstr "Günlük"
+
+#: include/footer.php:15
+msgid "Information"
+msgstr ""
+
+#: include/footer.php:17 pages/more.php:100
+msgid "Terms of Use"
+msgstr "Kullanım Koşulları"
+
+#: include/footer.php:18 pages/more.php:102
+msgid "Credits"
+msgstr "Hazırlayanlar"
+
+#: include/footer.php:22
+msgid "Participate"
+msgstr ""
+
+#: include/footer.php:24
+msgid "Link to Us"
+msgstr ""
+
+#: include/footer.php:29
+msgid "Other"
+msgstr ""
+
+#: include/footer.php:31
+msgid ""
+"This website won't look as intended on an outdated browser. Upgrade your "
+"browser today!"
+msgstr ""
+
+#: include/footer.php:35
+#, fuzzy, php-format
 msgid ""
 "Except where otherwise <a href=\"%s\">noted</a>, content on this site is "
-"licensed under a <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" "
-"rel=\"license\"><acronym title=\"Creative Commons Attribution-ShareAlike 3.0 "
-"Unported License\">CC BY-SA 3.0 License</acronym></a>."
+"licensed under a <acronym title=\"Creative Commons Attribution-ShareAlike "
+"3.0 License\"><a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" rel="
+"\"license\">CC BY-SA 3.0 License</a></acronym>."
 msgstr ""
 "Aksi <a href=\"%s\">belirtilmedikçe</a>, bu sitede içerik <a href=\"http://"
 "creativecommons.org/licenses/by-sa/3.0/\" rel=\"license\"><acronym title="
 "\"Creative Commons Attribution-ShareAlike 3.0 Unported License\">CC BY-SA "
 "3.0 Lisans</acronym></a> tarafından lisanslıdır."
-
-#: include/footer.php:20 pages/more.php:100
-msgid "Terms of Use"
-msgstr "Kullanım Koşulları"
-
-#: include/footer.php:21 pages/more.php:101
-msgid "Contact"
-msgstr "İletişim"
-
-#: include/footer.php:22 pages/more.php:102
-msgid "Credits"
-msgstr "Hazırlayanlar"
-
-#: include/footer.php:23
-msgid "Link to Us"
-msgstr ""
-
-#: include/footer.php:24
-msgid "Blog"
-msgstr "Günlük"
 
 #: include/header.php:12 include/header.php:121 include/header.php:128
 msgid "get GNU/Linux!"
@@ -68,11 +92,11 @@ msgid ""
 "alternative, get linux, switch to linux"
 msgstr ""
 
-#: include/header.php:79
+#: include/header.php:85
 msgid "skip to content"
 msgstr ""
 
-#: include/header.php:84
+#: include/header.php:92
 msgid "Alternate languages"
 msgstr "Alternatif diller"
 
@@ -98,7 +122,7 @@ msgstr "Linux'a geçiş"
 msgid "More"
 msgstr "Daha fazla"
 
-#: pages/credits.php:164 pages/legal.php:116
+#: pages/credits.php:159 pages/legal.php:111 pages/not_found.php:19
 msgid "Return to the Homepage"
 msgstr ""
 
@@ -549,7 +573,10 @@ msgstr ""
 
 #: pages/linux.linux_faq.php:216
 #, php-format
-msgid "Not at all. We have this explained simply in our article %s."
+msgid ""
+"Linux has nothing to do with a political system and anyone &mdash; "
+"regardless of their political views &mdash; can use it. We have this "
+"explained simply in our article %s."
 msgstr ""
 
 #. i18n: If LinuxPreloaded has not been localized to your language, please leave the URL to linuxpreloaded.com.
@@ -1633,10 +1660,6 @@ msgstr "Bozuk bağlantı bildir"
 msgid ""
 "If you found a broken link, please <a href=\"%s\">report it</a> so we can "
 "repair it. Thank you!"
-msgstr ""
-
-#: pages/not_found.php:18
-msgid "Return to the home page"
 msgstr ""
 
 #: pages/switch_to_linux.choose_a_distribution.php:8
