@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: getgnulinux 0.0.1\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2011-09-16 23:52+0200\n"
+"POT-Creation-Date: 2011-09-17 01:35+0200\n"
 "PO-Revision-Date: 2011-06-19 21:31+0100\n"
 "Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,9 +21,9 @@ msgstr ""
 msgid "About"
 msgstr "Acerca de nosotros"
 
-#: include/footer.php:10 pages/more.php:101
+#: include/footer.php:10
 #, fuzzy
-msgid "Contact"
+msgid "Contact Us"
 msgstr "contacto"
 
 #: include/footer.php:11
@@ -52,17 +52,35 @@ msgstr ""
 msgid "Link to Us"
 msgstr "enlázanos"
 
-#: include/footer.php:29
+#: include/footer.php:25
+#, fuzzy
+msgid ""
+"Help translate the &quot;get GNU/Linux!&quot; website into your own language!"
+msgstr "¿GNU/Linux está disponible en mi idioma?"
+
+#: include/footer.php:25
+msgid "Translate"
+msgstr ""
+
+#: include/footer.php:26
+msgid "Starting point for developers."
+msgstr ""
+
+#: include/footer.php:26
+msgid "Project Page"
+msgstr ""
+
+#: include/footer.php:30
 msgid "Other"
 msgstr ""
 
-#: include/footer.php:31
+#: include/footer.php:32
 msgid ""
 "This website won't look as intended on an outdated browser. Upgrade your "
 "browser today!"
 msgstr ""
 
-#: include/footer.php:35
+#: include/footer.php:36
 #, php-format
 msgid ""
 "Except where otherwise <a href=\"%s\">noted</a>, content on this site is "
@@ -2162,6 +2180,11 @@ msgid ""
 "\">participating</a>, or simply helping by <a href=\"%s\">making a link to "
 "this website</a>."
 msgstr ""
+
+#: pages/more.php:101
+#, fuzzy
+msgid "Contact"
+msgstr "contacto"
 
 #. i18n: Title for the Page Not Found page. We like to add a bit of humour to this title :P
 #: pages/not_found.php:7
@@ -4426,153 +4449,157 @@ msgstr ""
 "viene con su receta? "
 
 #, fuzzy
-msgid "Not at all. We have this explained simply in our article %s."
-msgstr ""
-"No, para nada. Eso <a href=\"%s\" title=\"%s\">ya lo hemos explicado</a> en "
-"otro artículo."
+#~ msgid "Not at all. We have this explained simply in our article %s."
+#~ msgstr ""
+#~ "No, para nada. Eso <a href=\"%s\" title=\"%s\">ya lo hemos explicado</a> "
+#~ "en otro artículo."
 
 #, fuzzy
-msgid "Return to the home page"
-msgstr "ir al principio de la página"
+#~ msgid "Return to the home page"
+#~ msgstr "ir al principio de la página"
 
-msgid ""
-"Yes and No: Some games, for example some <a href=\"http://www.idsoftware.com/"
-"\">id Software</a> games like Quake III, Quake IV and Doom III, Unreal "
-"Tournament, Cold War, and many more have Linux versions."
-msgstr ""
-"Sí y no: Hay juegos, como algunos de <a href=\"http://www.idsoftware.com/\" "
-"xml:lang=\"en\">id Software</a> (Quake III, Quake IV y Doom III), Unreal "
-"Tournament, Cold War, y muchos más, que sí tienen versiones para Linux."
+#~ msgid ""
+#~ "Yes and No: Some games, for example some <a href=\"http://www.idsoftware."
+#~ "com/\">id Software</a> games like Quake III, Quake IV and Doom III, "
+#~ "Unreal Tournament, Cold War, and many more have Linux versions."
+#~ msgstr ""
+#~ "Sí y no: Hay juegos, como algunos de <a href=\"http://www.idsoftware.com/"
+#~ "\" xml:lang=\"en\">id Software</a> (Quake III, Quake IV y Doom III), "
+#~ "Unreal Tournament, Cold War, y muchos más, que sí tienen versiones para "
+#~ "Linux."
 
-msgid "The GNU project"
-msgstr "El proyecto GNU"
+#~ msgid "The GNU project"
+#~ msgstr "El proyecto GNU"
 
-msgid "http://opendocumentfellowship.com/"
-msgstr "http://opendocumentfellowship.com/"
+#~ msgid "http://opendocumentfellowship.com/"
+#~ msgstr "http://opendocumentfellowship.com/"
 
-msgid "The OpenDocument Fellowship"
-msgstr "La hermandad del OpenDocument (en inglés)"
+#~ msgid "The OpenDocument Fellowship"
+#~ msgstr "La hermandad del OpenDocument (en inglés)"
 
-msgid "gNewSense:"
-msgstr "gNewSense:"
+#~ msgid "gNewSense:"
+#~ msgstr "gNewSense:"
 
-msgid ""
-"Read more in our Linux FAQ: <a href=\"%s#dvd_mp3\">Can I play my DVDs and "
-"MP3s under GNU/Linux?</a>"
-msgstr ""
-"Puedes conocer más en nuestra repuesta a la pregunta frecuente <a href="
-"\"%s#dvd_mp3\">¿Puedo reproducir mis MP3s y DVDs bajo GNU/Linux?</a>."
+#~ msgid ""
+#~ "Read more in our Linux FAQ: <a href=\"%s#dvd_mp3\">Can I play my DVDs and "
+#~ "MP3s under GNU/Linux?</a>"
+#~ msgstr ""
+#~ "Puedes conocer más en nuestra repuesta a la pregunta frecuente <a href="
+#~ "\"%s#dvd_mp3\">¿Puedo reproducir mis MP3s y DVDs bajo GNU/Linux?</a>."
 
-msgid ""
-"Read more in our Linux FAQ: <a href=\"%s#games\">Can I play popular 3D games "
-"under GNU/Linux?</a>"
-msgstr ""
-"Encontrarás más información en nuestra respuesta a la pregunta frecuente "
-"\"<a href=\"%s#games\">¿Podré jugar famosos juegos 3D bajo GNU/Linux?</a>\"."
+#~ msgid ""
+#~ "Read more in our Linux FAQ: <a href=\"%s#games\">Can I play popular 3D "
+#~ "games under GNU/Linux?</a>"
+#~ msgstr ""
+#~ "Encontrarás más información en nuestra respuesta a la pregunta frecuente "
+#~ "\"<a href=\"%s#games\">¿Podré jugar famosos juegos 3D bajo GNU/Linux?</a>"
+#~ "\"."
 
-msgid "Order an Ubuntu CD"
-msgstr "Pide un CD de Ubuntu"
+#~ msgid "Order an Ubuntu CD"
+#~ msgstr "Pide un CD de Ubuntu"
 
-msgid ""
-"You can also order a CD that will be shipped to your home at no cost. Note "
-"that delivery can take up to ten weeks."
-msgstr ""
-"También puedes ordenar un CD que será enviado a tu hogar sin costo. Ten en "
-"cuenta que la entrega puede llevar más de diez semanas."
+#~ msgid ""
+#~ "You can also order a CD that will be shipped to your home at no cost. "
+#~ "Note that delivery can take up to ten weeks."
+#~ msgstr ""
+#~ "También puedes ordenar un CD que será enviado a tu hogar sin costo. Ten "
+#~ "en cuenta que la entrega puede llevar más de diez semanas."
 
-msgid "Linux pre-installed computers"
-msgstr "Computadores con GNU/Linux preinstalado"
+#~ msgid "Linux pre-installed computers"
+#~ msgstr "Computadores con GNU/Linux preinstalado"
 
-msgid "laptop"
-msgstr "computador portátil"
+#~ msgid "laptop"
+#~ msgstr "computador portátil"
 
-msgid ""
-"We have compiled <a title=\"linux computers\" href=\"http://linuxpreloaded."
-"com/\">a list of vendors pre-installing Linux at LinuxPreloaded.com</a> just "
-"for that reason."
-msgstr ""
-"Hemos compilado <a title=\"Computadores con GNU/Linux\" href=\"http://"
-"linuxpreinstalado.com/\">una lista de fabricantes que preinstalan GNU/Linux "
-"en LinuxPreinstalado.com</a> sólo por esa razón."
+#~ msgid ""
+#~ "We have compiled <a title=\"linux computers\" href=\"http://"
+#~ "linuxpreloaded.com/\">a list of vendors pre-installing Linux at "
+#~ "LinuxPreloaded.com</a> just for that reason."
+#~ msgstr ""
+#~ "Hemos compilado <a title=\"Computadores con GNU/Linux\" href=\"http://"
+#~ "linuxpreinstalado.com/\">una lista de fabricantes que preinstalan GNU/"
+#~ "Linux en LinuxPreinstalado.com</a> sólo por esa razón."
 
-msgid ""
-"People who opted without expensive Microsoft products cannot write and read "
-"<code>.doc</code> files very reliably."
-msgstr ""
-"Las personas que no eligieron los privativos productos de Microsoft no "
-"pueden guardar ni abrir archivos <code>.doc</code> de forma fiable."
+#~ msgid ""
+#~ "People who opted without expensive Microsoft products cannot write and "
+#~ "read <code>.doc</code> files very reliably."
+#~ msgstr ""
+#~ "Las personas que no eligieron los privativos productos de Microsoft no "
+#~ "pueden guardar ni abrir archivos <code>.doc</code> de forma fiable."
 
-msgid ""
-"Microsoft owns the Office file formats: <strong>they change them with every "
-"new Office version</strong> and have no obligation to keep them backwards-"
-"compatible."
-msgstr ""
-"Microsoft es el propietario de los formatos de archivo de Office: "
-"<strong>pueden cambiarlos con cada nueva versión</strong> y no tiene la "
-"obligación de mantenerlos compatibles con versiones anteriores."
+#~ msgid ""
+#~ "Microsoft owns the Office file formats: <strong>they change them with "
+#~ "every new Office version</strong> and have no obligation to keep them "
+#~ "backwards-compatible."
+#~ msgstr ""
+#~ "Microsoft es el propietario de los formatos de archivo de Office: "
+#~ "<strong>pueden cambiarlos con cada nueva versión</strong> y no tiene la "
+#~ "obligación de mantenerlos compatibles con versiones anteriores."
 
-msgid ""
-"Don't want Windows Media Player on your computer? Don't use Internet "
-"Explorer anymore? <strong>You can't uninstall these programs</strong>."
-msgstr ""
-"¿No quieres tener reproductor multimedia de Windows en su computador? ¿Ya no "
-"usa Internet Explorer? <strong>Tú no puede desinstalar estos programas</"
-"strong>."
+#~ msgid ""
+#~ "Don't want Windows Media Player on your computer? Don't use Internet "
+#~ "Explorer anymore? <strong>You can't uninstall these programs</strong>."
+#~ msgstr ""
+#~ "¿No quieres tener reproductor multimedia de Windows en su computador? ¿Ya "
+#~ "no usa Internet Explorer? <strong>Tú no puede desinstalar estos "
+#~ "programas</strong>."
 
-msgid "You are also forbidden to modify the program for any purpose."
-msgstr "También te prohibe modificar el programa para cualquier propósito."
+#~ msgid "You are also forbidden to modify the program for any purpose."
+#~ msgstr "También te prohibe modificar el programa para cualquier propósito."
 
-msgid ""
-"Fifteen million users run GNU/Linux without an anti-virus, in complete "
-"safety. And the servers behind search engines and banks run on it too."
-msgstr ""
-"Quince millones de usuarios usan GNU/Linux sin antivirus, y están a salvo. "
-"Así como los servidores de los motores de búsqueda (como Google o Yahoo!) y "
-"los bancos usan GNU/Linux también."
+#~ msgid ""
+#~ "Fifteen million users run GNU/Linux without an anti-virus, in complete "
+#~ "safety. And the servers behind search engines and banks run on it too."
+#~ msgstr ""
+#~ "Quince millones de usuarios usan GNU/Linux sin antivirus, y están a "
+#~ "salvo. Así como los servidores de los motores de búsqueda (como Google o "
+#~ "Yahoo!) y los bancos usan GNU/Linux también."
 
 #, fuzzy
-msgid "Are \"Open Source\" and \"Free Software\" the same thing"
-msgstr ""
-"¿\"Software Libre\" y \"Software de Código Abierto\" se refieren a lo mismo?"
+#~ msgid "Are \"Open Source\" and \"Free Software\" the same thing"
+#~ msgstr ""
+#~ "¿\"Software Libre\" y \"Software de Código Abierto\" se refieren a lo "
+#~ "mismo?"
 
-msgid "OpenOffice.org document open; calendar applet visible in corner."
-msgstr ""
-"El menú del sistema desplegado, mostrando lo fácil que resulta administrar "
-"el sistema."
+#~ msgid "OpenOffice.org document open; calendar applet visible in corner."
+#~ msgstr ""
+#~ "El menú del sistema desplegado, mostrando lo fácil que resulta "
+#~ "administrar el sistema."
 
-msgid "File manager and Applications menu open."
-msgstr "Un vistazo a la agradable imagen del escritorio de Ubuntu."
-
-# the images in fedora are the inverse that the text says
-msgid "Firefox open."
-msgstr "El gestor de archivos Nautilus, mostrando algunos lugares del sistema."
+#~ msgid "File manager and Applications menu open."
+#~ msgstr "Un vistazo a la agradable imagen del escritorio de Ubuntu."
 
 # the images in fedora are the inverse that the text says
-msgid "1-click software update running."
-msgstr ""
-"Demostración del procesador de texto de OpenOffice.org, la alternativa libre "
-"a Microsoft Word."
+#~ msgid "Firefox open."
+#~ msgstr ""
+#~ "El gestor de archivos Nautilus, mostrando algunos lugares del sistema."
 
-msgid "Firefox, referred to as BurningDog in gNewSense, open."
-msgstr "El navegador Firefox abierto."
+# the images in fedora are the inverse that the text says
+#~ msgid "1-click software update running."
+#~ msgstr ""
+#~ "Demostración del procesador de texto de OpenOffice.org, la alternativa "
+#~ "libre a Microsoft Word."
+
+#~ msgid "Firefox, referred to as BurningDog in gNewSense, open."
+#~ msgstr "El navegador Firefox abierto."
 
 # this text fits the image shown
-msgid "File manager and Gimp (image editing program) are open."
-msgstr ""
-"Edición de una hoja de cálculo con OpenOffice.org, la alternativa libre a "
-"Microsoft Excel."
+#~ msgid "File manager and Gimp (image editing program) are open."
+#~ msgstr ""
+#~ "Edición de una hoja de cálculo con OpenOffice.org, la alternativa libre a "
+#~ "Microsoft Excel."
 
 # the gnewsense2.png image is not well directed on http://www.getgnulinux.org/linux/screenshots/ must be checked
-msgid "OpenOffice.org presentation open."
-msgstr ""
-"Administrador de archivos y Gimp (programa de edición de imagen) estan "
-"abiertos"
+#~ msgid "OpenOffice.org presentation open."
+#~ msgstr ""
+#~ "Administrador de archivos y Gimp (programa de edición de imagen) estan "
+#~ "abiertos"
 
-msgid "Ubuntu Linux, a very user-friendly distribution"
-msgstr "Ubuntu Linux, una distribución bastante fácil de usar"
+#~ msgid "Ubuntu Linux, a very user-friendly distribution"
+#~ msgstr "Ubuntu Linux, una distribución bastante fácil de usar"
 
-msgid "gNewsSense, a fully free GNU/Linux distribution"
-msgstr "gNewSense, una distribución de GNU/Linux completamente libre"
+#~ msgid "gNewsSense, a fully free GNU/Linux distribution"
+#~ msgstr "gNewSense, una distribución de GNU/Linux completamente libre"
 
 #, fuzzy
 #~ msgid "Understanding free software"
