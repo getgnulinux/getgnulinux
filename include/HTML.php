@@ -57,11 +57,11 @@ class HTML {
 
     function menu_switch_to_linux() {
         print "<div id=\"subheader\">";
-        printf ("<span class=\"title\"><a href=\"%s\">Switch to Linux</a></span>", $this->base_url('switch_to_linux',1));
+        printf ("<span class=\"title\"><a href=\"%s\">%s</a></span>", $this->base_url('switch_to_linux',1), _("Switch to Linux"));
 
-        $items = array("switch_to_linux/from_windows_to_linux" => "From Windows to Linux",
-            "switch_to_linux/choose_a_distribution" => "Choose a distribution",
-            "switch_to_linux/try_or_install" => "Try or install",
+        $items = array("switch_to_linux/from_windows_to_linux" => _("From Windows to Linux"),
+            "switch_to_linux/choose_a_distribution" => _("Choose a distribution"),
+            "switch_to_linux/try_or_install" => _("Try or install"),
             );
 
         print "<ul>";
@@ -74,12 +74,12 @@ class HTML {
 
     function menu_why_not_windows() {
         print "<div id=\"subheader\">";
-        printf ("<span class=\"title\"><a href=\"%s\">Why not Windows</a></span>", $this->base_url('windows',1));
+        printf ("<span class=\"title\"><a href=\"%s\">%s</a></span>", $this->base_url('windows',1), _("Why not Windows"));
 
-        $items = array("windows/restrictions" => "Restrictions",
-            "windows/what_about_choice" => "What about choice?",
-            "windows/what_about_source_code" => "No source code",
-            "windows/stand_for_a_free_society" => "Stand for a free society",
+        $items = array("windows/restrictions" => _("Restrictions"),
+            "windows/what_about_choice" => _("What about choice?"),
+            "windows/what_about_source_code" => _("No source code"),
+            "windows/stand_for_a_free_society" => _("Stand for a free society"),
             );
 
         print "<ul>";
@@ -92,12 +92,12 @@ class HTML {
 
     function menu_foot_why_not_windows() {
         print "<div id=\"subheader_foot\">";
-        printf ("<span class=\"title\"><a href=\"%s\">Why not Windows</a></span>", $this->base_url('windows',1));
+        printf ("<span class=\"title\"><a href=\"%s\">%s</a></span>", $this->base_url('windows',1), _("Why not Windows"));
 
-        $items = array("windows/restrictions" => "Restrictions",
-            "windows/what_about_choice" => "What about choice?",
-            "windows/what_about_source_code" => "No source code",
-            "windows/stand_for_a_free_society" => "Stand for a free society",
+        $items = array("windows/restrictions" => _("Restrictions"),
+            "windows/what_about_choice" => _("What about choice?"),
+            "windows/what_about_source_code" => _("No source code"),
+            "windows/stand_for_a_free_society" => _("Stand for a free society"),
             );
 
         print "<ul>";
