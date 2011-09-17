@@ -49,7 +49,7 @@ pot:
 	msguniq -o $(template) $(template)
 	sed --in-place "$(template)" --expression=s/"SOME DESCRIPTIVE TITLE."/"Translation file for the GetGNULinux.org website."/
 	sed --in-place "$(template)" --expression=s/PACKAGE/getgnulinux/
-	sed --in-place "$(template)" --expression=s/"Copyright (C) YEAR"/"Copyright (C) 2006-2008"/
+	sed --in-place "$(template)" --expression=s/"Copyright (C) YEAR"/"Copyright (C) 2006-2010"/
 	sed --in-place "$(template)" --expression=s/"FIRST AUTHOR <EMAIL@ADDRESS>, YEAR"/"GLM Websites Edition Team <websites@gnulinuxmatters.org>, 2008"/
 	sed --in-place "$(template)" --expression=s/CHARSET/$(CHARSET)/
 	sed --in-place "$(template)" --expression=s/"Language: "/"Language: en"/
