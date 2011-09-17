@@ -12,7 +12,7 @@
 
 
 <div class="section">
-<img src="/images/switch_to_linux/switch_to_linux.try_or_install.live_cd.png" width="170" height="207" alt="|| CD ||"/>
+<img src="<?php print $this->language_file("switch_to_linux.try_or_install.live_cd.png"); ?>" width="170" height="207" alt="|| CD ||"/>
 <h2 id="live_cd"><?php print _("Try out: the live CD"); ?></h2>
 
 <h3 id="live_cd_what_is"><?php print _("Take no risk"); ?></h3>
@@ -32,7 +32,7 @@
 
 <div class="section">
 
-<img src="/images/switch_to_linux/switch_to_linux.try_or_install.computer_screen.png" width="170" height="201" alt="|| computer screen ||"/>
+<img src="<?php print $this->language_file("switch_to_linux.try_or_install.computer_screen.png"); ?>" width="170" height="201" alt="|| computer screen ||"/>
 <h2 id="install_dual_boot"><?php print _("Installing as a dual boot"); ?></h2>
 
 <h3 id="dual_boot_what_is"><?php print _("Choose at start-up"); ?></h3>

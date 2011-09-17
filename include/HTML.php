@@ -180,6 +180,23 @@ class HTML {
             print $url;
         }
     }
+
+    /**
+     * Returns the path to a language-specific file named $fileName.
+     *
+     * @param string $fileName
+     * @return string
+     */
+    function language_file($filename)
+    {
+        global $ggl;
+
+        $path = sprintf("/images/locale/%s/%s", $ggl->get('lang'), $filename);
+        if (!file_exists(BASE_PATH.$path)) {
+            $path = sprintf("/images/locale/en/%s", $filename);
+        }
+        return $path;
+    }
 }
 
 ?>

@@ -37,7 +37,7 @@ print _("http://www.ubuntu.com/"); ?>" title="<?php print _("Ubuntu Linux"); ?>"
 	<div class="column1_2">
         <div class="button_link"><a href="<?php
 # i18n: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-print _("http://linuxpreloaded.com/"); ?>" title="<?php print _("Computers pre-installed with Linux"); ?>" ><img src="/images/more/more.ext.link2.png" width="180" height="58" alt="<?php
+print _("http://linuxpreloaded.com/"); ?>" title="<?php print _("Computers pre-installed with Linux"); ?>" ><img src="<?php print $this->language_file("more.ext.link2.png"); ?>" width="180" height="58" alt="<?php
 # i18n: image alt description
 print _("Linux Pre-Loaded"); ?>"/></a>
 		</div>
@@ -48,7 +48,7 @@ print _("Linux Pre-Loaded"); ?>"/></a>
 	<div class="column2_2">
         <div class="button_link"><a href="<?php
 # i18n: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-print _("http://www.linuxquestions.org/"); ?>" title="<?php print _("LinuxQuestions.org"); ?>" ><img src="/images/more/more.ext.link1.png" width="180" height="58" alt="<?php
+print _("http://www.linuxquestions.org/"); ?>" title="<?php print _("LinuxQuestions.org"); ?>" ><img src="<?php print $this->language_file("more.ext.link1.png"); ?>" width="180" height="58" alt="<?php
 # i18n: image alt description
 print _("LinuxQuestions.org"); ?>"/></a>
 		</div>
@@ -63,7 +63,7 @@ print _("LinuxQuestions.org"); ?>"/></a>
 	<div class="column1_2">
         <div class="button_link"><a href="<?php
 # i18n: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-print _("http://www.fsf.org/"); ?>" title="Free Software Foundation" ><img src="/images/more/more.ext.link4.png" width="180" height="58" alt="<?php
+print _("http://www.fsf.org/"); ?>" title="<?php print _("Free Software Foundation"); ?>" ><img src="<?php print $this->language_file("more.ext.link4.png"); ?>" width="180" height="58" alt="<?php
 # i18n: image alt description
 print _("FSF"); ?>"/></a>
 		</div>
@@ -74,7 +74,7 @@ print _("FSF"); ?>"/></a>
 	<div class="column2_2">
         <div class="button_link"><a href="<?php
 # i18n: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-print _("http://en.wikibooks.org/wiki/FLOSS_Concept_Booklet"); ?>" title="<?php print _("the FLOSS concept booklet"); ?>" ><img src="/images/more/more.ext.link3.png" width="180" height="58" alt="<?php
+print _("http://en.wikibooks.org/wiki/FLOSS_Concept_Booklet"); ?>" title="<?php print _("the FLOSS concept booklet"); ?>" ><img src="<?php print $this->language_file("more.ext.link3.png"); ?>" width="180" height="58" alt="<?php
 # i18n: image alt description
 print _("FLOSS Booklet"); ?>"/></a>
 		</div>
