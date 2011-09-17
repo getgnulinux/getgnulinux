@@ -1,5 +1,5 @@
 # Translation file for the GetGNULinux.org website.
-# Copyright (C) 2006-2008 GNU/Linux Matters
+# Copyright (C) 2006-2010 GNU/Linux Matters
 # This file is distributed under the same license as the getgnulinux package.
 # GLM Websites Edition Team <websites@gnulinuxmatters.org>, 2008.
 #
@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: getgnulinux 0.0.1\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2011-09-17 01:35+0200\n"
+"POT-Creation-Date: 2011-09-17 10:33+0200\n"
 "PO-Revision-Date: 2011-06-19 21:31+0100\n"
 "Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -124,14 +124,14 @@ msgstr "Alternate languages"
 msgid "What is Linux?"
 msgstr "Què és Linux?"
 
-#: include/header.php:140 pages/home.php:30 pages/linux.php:60
-#: pages/windows.php:5
+#: include/header.php:140 include/HTML.php:77 include/HTML.php:95
+#: pages/home.php:30 pages/linux.php:60 pages/windows.php:5
 msgid "Why not Windows"
 msgstr "Per què no Windows?"
 
 # Migreu?
-#: include/header.php:141 pages/home.php:37 pages/switch_to_linux.php:5
-#: pages/windows.php:82
+#: include/header.php:141 include/HTML.php:60 pages/home.php:37
+#: pages/switch_to_linux.php:5 pages/windows.php:82
 msgid "Switch to Linux"
 msgstr "Canvieu a Linux"
 
@@ -139,6 +139,50 @@ msgstr "Canvieu a Linux"
 #: pages/switch_to_linux.from_windows_to_linux.php:60
 msgid "More"
 msgstr "Més"
+
+#: include/HTML.php:62 pages/switch_to_linux.from_windows_to_linux.php:8
+#: pages/switch_to_linux.php:12
+msgid "From Windows to Linux"
+msgstr "De Windows a Linux"
+
+#: include/HTML.php:63 pages/switch_to_linux.choose_a_distribution.php:8
+#: pages/switch_to_linux.php:20
+#, fuzzy
+msgid "Choose a distribution"
+msgstr ""
+"#-#-#-#-#  switch_to_linux-trimmed.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Esculliu una distribució\n"
+"#-#-#-#-#  _webpages.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Trieu una distribució"
+
+#: include/HTML.php:64 pages/switch_to_linux.php:26
+#: pages/switch_to_linux.try_or_install.php:8
+msgid "Try or install"
+msgstr "Proveu o instal·leu"
+
+#: include/HTML.php:79 include/HTML.php:97 pages/windows.php:14
+#: pages/windows.php:16 pages/windows.php:23
+#: pages/windows.restrictions.further_details.php:4
+#: pages/windows.restrictions.further_details.php:83
+#: pages/windows.restrictions.php:7
+msgid "Restrictions"
+msgstr "Restriccions"
+
+#: include/HTML.php:80 include/HTML.php:98 pages/windows.php:31
+#: pages/windows.php:32 pages/windows.php:37
+#: pages/windows.what_about_choice.php:12
+msgid "What about choice?"
+msgstr "Que me'n dius de l'elecció?"
+
+#: include/HTML.php:81 include/HTML.php:99 pages/windows.php:44
+#: pages/windows.php:45 pages/windows.php:50
+msgid "No source code"
+msgstr "Sense codi font"
+
+#: include/HTML.php:82 include/HTML.php:100 pages/linux.linux_faq.php:270
+#: pages/windows.php:56 pages/windows.php:57 pages/windows.php:66
+msgid "Stand for a free society"
+msgstr "Treballeu per a una societat lliure"
 
 #: pages/credits.php:159 pages/legal.php:111 pages/not_found.php:19
 #, fuzzy
@@ -824,11 +868,6 @@ msgstr ""
 "href=\"http://ca.wikipedia.org/wiki/DRM\">DRM i la Computació de confiança</"
 "a>. Llegiu el nostre article \"<a href=\"%s\">%s</a>\", si esteu interessat "
 "en aquest tema. "
-
-#: pages/linux.linux_faq.php:270 pages/windows.php:56 pages/windows.php:57
-#: pages/windows.php:66
-msgid "Stand for a free society"
-msgstr "Treballeu per a una societat lliure"
 
 #: pages/linux.linux_faq.php:281
 msgid "Not at all. It will run happily on your own computer."
@@ -2177,16 +2216,6 @@ msgid ""
 "repair it. Thank you!"
 msgstr ""
 
-#: pages/switch_to_linux.choose_a_distribution.php:8
-#: pages/switch_to_linux.php:20
-#, fuzzy
-msgid "Choose a distribution"
-msgstr ""
-"#-#-#-#-#  switch_to_linux-trimmed.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Esculliu una distribució\n"
-"#-#-#-#-#  _webpages.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Trieu una distribució"
-
 #: pages/switch_to_linux.choose_a_distribution.php:10
 #, fuzzy
 msgid ""
@@ -2302,11 +2331,6 @@ msgstr ""
 msgid "Now get a CD and try or install your distribution!"
 msgstr ""
 "Endavant, baixeu-vos un CD i proveu o instal·leu la vostra distribució!"
-
-#: pages/switch_to_linux.from_windows_to_linux.php:8
-#: pages/switch_to_linux.php:12
-msgid "From Windows to Linux"
-msgstr "De Windows a Linux"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:9
 #, fuzzy
@@ -2823,10 +2847,6 @@ msgstr "Coneix el dia a dia de GNU/Linux."
 msgid "Our selection for an easy choice."
 msgstr "La nostra selecció per facilitar-vos la tria."
 
-#: pages/switch_to_linux.php:26 pages/switch_to_linux.try_or_install.php:8
-msgid "Try or install"
-msgstr "Proveu o instal·leu"
-
 #: pages/switch_to_linux.php:27
 #, fuzzy
 msgid "Install it! (it's easier than you think)"
@@ -3037,13 +3057,6 @@ msgstr ""
 msgid "Windows and Office work fine &mdash; Why worry about it?"
 msgstr "Windows i Office funcionen bé. Per què preocupar-me'n?"
 
-#: pages/windows.php:14 pages/windows.php:16 pages/windows.php:23
-#: pages/windows.restrictions.further_details.php:4
-#: pages/windows.restrictions.further_details.php:83
-#: pages/windows.restrictions.php:7
-msgid "Restrictions"
-msgstr "Restriccions"
-
 #: pages/windows.php:19
 msgid ""
 "A legal copy of Windows is expensive, but what do you get? Windows and "
@@ -3073,11 +3086,6 @@ msgstr ""
 msgid "read our full article:"
 msgstr "Llegiu el nostre article complet."
 
-#: pages/windows.php:31 pages/windows.php:32 pages/windows.php:37
-#: pages/windows.what_about_choice.php:12
-msgid "What about choice?"
-msgstr "Que me'n dius de l'elecció?"
-
 #: pages/windows.php:33
 msgid "Software should come without locks in it."
 msgstr "El programari hauria de venir sense panys pel mig."
@@ -3092,10 +3100,6 @@ msgstr ""
 "formats canvien constantment? Per què hi ha programes que no podeu "
 "desinstal·lar? Probablement, si cerqueu la llibertat d'elecció, els "
 "productes Microsoft no estan fets per a vosaltres."
-
-#: pages/windows.php:44 pages/windows.php:45 pages/windows.php:50
-msgid "No source code"
-msgstr "Sense codi font"
 
 #: pages/windows.php:45
 msgid ""

@@ -1,5 +1,5 @@
 # Translation file for the GetGNULinux.org website.
-# Copyright (C) 2006-2008 GNU/Linux Matters
+# Copyright (C) 2006-2010 GNU/Linux Matters
 # This file is distributed under the same license as the getgnulinux package.
 # GLM Websites Edition Team <websites@gnulinuxmatters.org>, 2008.
 #
@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: getgnulinux 0.0.1\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2011-09-17 01:35+0200\n"
+"POT-Creation-Date: 2011-09-17 10:33+0200\n"
 "PO-Revision-Date: 2011-06-19 21:33+0100\n"
 "Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -120,13 +120,13 @@ msgstr "ബദല്‍ ഭാഷകള്‍"
 msgid "What is Linux?"
 msgstr "എന്താണ് ഗ്നു/ലിനക്സ്?"
 
-#: include/header.php:140 pages/home.php:30 pages/linux.php:60
-#: pages/windows.php:5
+#: include/header.php:140 include/HTML.php:77 include/HTML.php:95
+#: pages/home.php:30 pages/linux.php:60 pages/windows.php:5
 msgid "Why not Windows"
 msgstr "എന്ത് കൊണ്ട് വിന്‍ഡോസ് വേണ്ട"
 
-#: include/header.php:141 pages/home.php:37 pages/switch_to_linux.php:5
-#: pages/windows.php:82
+#: include/header.php:141 include/HTML.php:60 pages/home.php:37
+#: pages/switch_to_linux.php:5 pages/windows.php:82
 msgid "Switch to Linux"
 msgstr "ഗ്നു/ലിനക്സിലേക്ക് മാറൂ"
 
@@ -134,6 +134,45 @@ msgstr "ഗ്നു/ലിനക്സിലേക്ക് മാറൂ"
 #: pages/switch_to_linux.from_windows_to_linux.php:60
 msgid "More"
 msgstr "ഇനിയുമേറെ"
+
+#: include/HTML.php:62 pages/switch_to_linux.from_windows_to_linux.php:8
+#: pages/switch_to_linux.php:12
+msgid "From Windows to Linux"
+msgstr "വിന്‍ഡോസില്‍ നിന്നും ഗ്നു/ലിനക്സിലേക്ക്"
+
+#: include/HTML.php:63 pages/switch_to_linux.choose_a_distribution.php:8
+#: pages/switch_to_linux.php:20
+msgid "Choose a distribution"
+msgstr "ഒരു ഡിസ്ട്രിബ്യൂഷന്‍ തിരഞ്ഞെടുക്കൂ"
+
+#: include/HTML.php:64 pages/switch_to_linux.php:26
+#: pages/switch_to_linux.try_or_install.php:8
+msgid "Try or install"
+msgstr "ഇന്‍സ്റ്റോള്‍ ചെയ്യുകയോ ഉപയോഗീക്കുവാന്‍ ശ്രമിക്കുകയോ ചെയ്യൂ"
+
+#: include/HTML.php:79 include/HTML.php:97 pages/windows.php:14
+#: pages/windows.php:16 pages/windows.php:23
+#: pages/windows.restrictions.further_details.php:4
+#: pages/windows.restrictions.further_details.php:83
+#: pages/windows.restrictions.php:7
+msgid "Restrictions"
+msgstr "നിയന്ത്രണങ്ങള്‍"
+
+#: include/HTML.php:80 include/HTML.php:98 pages/windows.php:31
+#: pages/windows.php:32 pages/windows.php:37
+#: pages/windows.what_about_choice.php:12
+msgid "What about choice?"
+msgstr "എന്താണ് നിങ്ങളുടെ തീരുമാനം?"
+
+#: include/HTML.php:81 include/HTML.php:99 pages/windows.php:44
+#: pages/windows.php:45 pages/windows.php:50
+msgid "No source code"
+msgstr "സോഴ്സ് കോഡ് ലഭ്യമല്ല"
+
+#: include/HTML.php:82 include/HTML.php:100 pages/linux.linux_faq.php:270
+#: pages/windows.php:56 pages/windows.php:57 pages/windows.php:66
+msgid "Stand for a free society"
+msgstr "സ്വതന്ത്ര സമൂഹത്തിന് വേണ്ടി നിലകൊള്ളുന്നു"
 
 #: pages/credits.php:159 pages/legal.php:111 pages/not_found.php:19
 #, fuzzy
@@ -681,11 +720,6 @@ msgid ""
 "\"http://www.timj.co.uk/digiculture/drm-fallacy\">DRM and Trusted Computing</"
 "a>. Read our article \"<a href=\"%s\">%s</a>\" for more information."
 msgstr ""
-
-#: pages/linux.linux_faq.php:270 pages/windows.php:56 pages/windows.php:57
-#: pages/windows.php:66
-msgid "Stand for a free society"
-msgstr "സ്വതന്ത്ര സമൂഹത്തിന് വേണ്ടി നിലകൊള്ളുന്നു"
 
 #: pages/linux.linux_faq.php:281
 msgid "Not at all. It will run happily on your own computer."
@@ -1775,11 +1809,6 @@ msgid ""
 "repair it. Thank you!"
 msgstr ""
 
-#: pages/switch_to_linux.choose_a_distribution.php:8
-#: pages/switch_to_linux.php:20
-msgid "Choose a distribution"
-msgstr "ഒരു ഡിസ്ട്രിബ്യൂഷന്‍ തിരഞ്ഞെടുക്കൂ"
-
 #: pages/switch_to_linux.choose_a_distribution.php:10
 msgid ""
 "Because there is no &quot;one Linux&quot;, finding what you need can be "
@@ -1863,11 +1892,6 @@ msgstr "കുറിപ്പ്: ഈ കണ്ണികള്‍ ഞങ്ങ�
 #: pages/switch_to_linux.choose_a_distribution.php:79
 msgid "Now get a CD and try or install your distribution!"
 msgstr ""
-
-#: pages/switch_to_linux.from_windows_to_linux.php:8
-#: pages/switch_to_linux.php:12
-msgid "From Windows to Linux"
-msgstr "വിന്‍ഡോസില്‍ നിന്നും ഗ്നു/ലിനക്സിലേക്ക്"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:9
 msgid ""
@@ -2267,10 +2291,6 @@ msgstr "ഗ്നു/ലിനക്സിന്റെ ദൈനംദിന ഉ
 msgid "Our selection for an easy choice."
 msgstr "എളുപ്പം തിരഞ്ഞെടുക്കുവാന്‍ ഞങ്ങള്‍ സഹായിക്കാം."
 
-#: pages/switch_to_linux.php:26 pages/switch_to_linux.try_or_install.php:8
-msgid "Try or install"
-msgstr "ഇന്‍സ്റ്റോള്‍ ചെയ്യുകയോ ഉപയോഗീക്കുവാന്‍ ശ്രമിക്കുകയോ ചെയ്യൂ"
-
 #: pages/switch_to_linux.php:27
 msgid "Install it! (it's easier than you think)"
 msgstr "ഇന്‍സ്റ്റോള്‍ ചെയ്യൂ! (നിങ്ങളിതിനെ പറ്റി ചിന്തിക്കുന്നതിനേക്കാള്‍ എളുപ്പമാണത്)"
@@ -2429,13 +2449,6 @@ msgstr ""
 msgid "Windows and Office work fine &mdash; Why worry about it?"
 msgstr "വിന്‍ഡോസും ഓഫീസും നന്നായി ഓടുന്നുണ്ടല്ലോ &mdash; അതിനെന്താണ് പ്രശ്നം?"
 
-#: pages/windows.php:14 pages/windows.php:16 pages/windows.php:23
-#: pages/windows.restrictions.further_details.php:4
-#: pages/windows.restrictions.further_details.php:83
-#: pages/windows.restrictions.php:7
-msgid "Restrictions"
-msgstr "നിയന്ത്രണങ്ങള്‍"
-
 #: pages/windows.php:19
 msgid ""
 "A legal copy of Windows is expensive, but what do you get? Windows and "
@@ -2466,11 +2479,6 @@ msgstr ""
 msgid "read our full article:"
 msgstr "മുഴുവന്‍ ലേഖനവും വായിക്കൂ"
 
-#: pages/windows.php:31 pages/windows.php:32 pages/windows.php:37
-#: pages/windows.what_about_choice.php:12
-msgid "What about choice?"
-msgstr "എന്താണ് നിങ്ങളുടെ തീരുമാനം?"
-
 #: pages/windows.php:33
 msgid "Software should come without locks in it."
 msgstr "സോഫ്റ്റ്‌വെയറുകള്‍ ഇത്തരം കൂച്ചുവിലങ്ങുകള്‍ ഇല്ലാതെ വേണം വരേണ്ടത്."
@@ -2485,10 +2493,6 @@ msgstr ""
 "തുടര്‍ച്ചയായി മാറിക്കൊണ്ടിരിക്കുന്നത്? എന്ത് കൊണ്ടാണ് ചില പ്രോഗ്രാമ്മുകള്‍ നീക്കം ചെയ്യുവാന്‍ "
 "പറ്റാത്തത്? തിരഞ്ഞെടുക്കുവാനുള്ള അവകാശമാണ് നിങ്ങള്‍ നോക്കുന്നതെങ്കില്‍, മൈക്രോസോഫ്റ്റ് ഉല്പന്നങ്ങള്‍ "
 "നിങ്ങള്‍ക്കുള്ളതല്ല."
-
-#: pages/windows.php:44 pages/windows.php:45 pages/windows.php:50
-msgid "No source code"
-msgstr "സോഴ്സ് കോഡ് ലഭ്യമല്ല"
 
 #: pages/windows.php:45
 msgid ""

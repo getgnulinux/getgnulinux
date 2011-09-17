@@ -1,5 +1,5 @@
 # Translation file for the GetGNULinux.org website.
-# Copyright (C) 2006-2008 GNU/Linux Matters
+# Copyright (C) 2006-2010 GNU/Linux Matters
 # This file is distributed under the same license as the getgnulinux package.
 # GLM Websites Edition Team <websites@gnulinuxmatters.org>, 2008.
 #
@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: getgnulinux 0.0.1\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2011-09-17 01:35+0200\n"
+"POT-Creation-Date: 2011-09-17 10:33+0200\n"
 "PO-Revision-Date: 2011-06-19 21:31+0100\n"
 "Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -118,19 +118,58 @@ msgstr ""
 msgid "What is Linux?"
 msgstr "Linuxとは？"
 
-#: include/header.php:140 pages/home.php:30 pages/linux.php:60
-#: pages/windows.php:5
+#: include/header.php:140 include/HTML.php:77 include/HTML.php:95
+#: pages/home.php:30 pages/linux.php:60 pages/windows.php:5
 msgid "Why not Windows"
 msgstr "なぜWindowsが良くないか？"
 
-#: include/header.php:141 pages/home.php:37 pages/switch_to_linux.php:5
-#: pages/windows.php:82
+#: include/header.php:141 include/HTML.php:60 pages/home.php:37
+#: pages/switch_to_linux.php:5 pages/windows.php:82
 msgid "Switch to Linux"
 msgstr ""
 
 #: include/header.php:142 pages/linux.linux_faq.php:357 pages/more.php:6
 #: pages/switch_to_linux.from_windows_to_linux.php:60
 msgid "More"
+msgstr ""
+
+#: include/HTML.php:62 pages/switch_to_linux.from_windows_to_linux.php:8
+#: pages/switch_to_linux.php:12
+msgid "From Windows to Linux"
+msgstr ""
+
+#: include/HTML.php:63 pages/switch_to_linux.choose_a_distribution.php:8
+#: pages/switch_to_linux.php:20
+msgid "Choose a distribution"
+msgstr ""
+
+#: include/HTML.php:64 pages/switch_to_linux.php:26
+#: pages/switch_to_linux.try_or_install.php:8
+msgid "Try or install"
+msgstr ""
+
+#: include/HTML.php:79 include/HTML.php:97 pages/windows.php:14
+#: pages/windows.php:16 pages/windows.php:23
+#: pages/windows.restrictions.further_details.php:4
+#: pages/windows.restrictions.further_details.php:83
+#: pages/windows.restrictions.php:7
+msgid "Restrictions"
+msgstr "使用規制"
+
+#: include/HTML.php:80 include/HTML.php:98 pages/windows.php:31
+#: pages/windows.php:32 pages/windows.php:37
+#: pages/windows.what_about_choice.php:12
+msgid "What about choice?"
+msgstr ""
+
+#: include/HTML.php:81 include/HTML.php:99 pages/windows.php:44
+#: pages/windows.php:45 pages/windows.php:50
+msgid "No source code"
+msgstr ""
+
+#: include/HTML.php:82 include/HTML.php:100 pages/linux.linux_faq.php:270
+#: pages/windows.php:56 pages/windows.php:57 pages/windows.php:66
+msgid "Stand for a free society"
 msgstr ""
 
 #: pages/credits.php:159 pages/legal.php:111 pages/not_found.php:19
@@ -639,11 +678,6 @@ msgid ""
 "In fact this right is threatened by the rise of things such as <a href="
 "\"http://www.timj.co.uk/digiculture/drm-fallacy\">DRM and Trusted Computing</"
 "a>. Read our article \"<a href=\"%s\">%s</a>\" for more information."
-msgstr ""
-
-#: pages/linux.linux_faq.php:270 pages/windows.php:56 pages/windows.php:57
-#: pages/windows.php:66
-msgid "Stand for a free society"
 msgstr ""
 
 #: pages/linux.linux_faq.php:281
@@ -1665,11 +1699,6 @@ msgid ""
 "repair it. Thank you!"
 msgstr ""
 
-#: pages/switch_to_linux.choose_a_distribution.php:8
-#: pages/switch_to_linux.php:20
-msgid "Choose a distribution"
-msgstr ""
-
 #: pages/switch_to_linux.choose_a_distribution.php:10
 msgid ""
 "Because there is no &quot;one Linux&quot;, finding what you need can be "
@@ -1746,11 +1775,6 @@ msgstr ""
 #. i18n: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
 #: pages/switch_to_linux.choose_a_distribution.php:79
 msgid "Now get a CD and try or install your distribution!"
-msgstr ""
-
-#: pages/switch_to_linux.from_windows_to_linux.php:8
-#: pages/switch_to_linux.php:12
-msgid "From Windows to Linux"
 msgstr ""
 
 #: pages/switch_to_linux.from_windows_to_linux.php:9
@@ -2132,10 +2156,6 @@ msgstr ""
 msgid "Our selection for an easy choice."
 msgstr ""
 
-#: pages/switch_to_linux.php:26 pages/switch_to_linux.try_or_install.php:8
-msgid "Try or install"
-msgstr ""
-
 #: pages/switch_to_linux.php:27
 msgid "Install it! (it's easier than you think)"
 msgstr ""
@@ -2286,13 +2306,6 @@ msgstr ""
 msgid "Windows and Office work fine &mdash; Why worry about it?"
 msgstr ""
 
-#: pages/windows.php:14 pages/windows.php:16 pages/windows.php:23
-#: pages/windows.restrictions.further_details.php:4
-#: pages/windows.restrictions.further_details.php:83
-#: pages/windows.restrictions.php:7
-msgid "Restrictions"
-msgstr "使用規制"
-
 #: pages/windows.php:19
 msgid ""
 "A legal copy of Windows is expensive, but what do you get? Windows and "
@@ -2313,11 +2326,6 @@ msgstr ""
 msgid "read our full article:"
 msgstr ""
 
-#: pages/windows.php:31 pages/windows.php:32 pages/windows.php:37
-#: pages/windows.what_about_choice.php:12
-msgid "What about choice?"
-msgstr ""
-
 #: pages/windows.php:33
 msgid "Software should come without locks in it."
 msgstr ""
@@ -2327,10 +2335,6 @@ msgid ""
 "Why are Office documents difficult to export? Why are the formats "
 "continually changing? Why can you not even uninstall some programs? It might "
 "be that if you look for choice, Microsoft products aren't for you."
-msgstr ""
-
-#: pages/windows.php:44 pages/windows.php:45 pages/windows.php:50
-msgid "No source code"
 msgstr ""
 
 #: pages/windows.php:45
