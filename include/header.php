@@ -70,14 +70,24 @@
     }
     </style>
 
+    <?php
+    if ($ggl->get('dir') == 'rtl') {
+        $this->stylesheet('/style/main-rtl.css');
+    }
+    ?>
+
     <!--[if lte IE 6]>
-    <?php $this->javascript('/style/ie_translation_menu.js'); ?>
-    <?php $this->stylesheet('/style/ie6-ltr.css'); ?>
+    <?php
+    $this->javascript('/style/ie_translation_menu.js');
+    $this->stylesheet('/style/ie6-ltr.css');
+    ?>
     <![endif]-->
 
     <!--[if IE 7]>
-    <?php $this->javascript('/style/ie_translation_menu.js'); ?>
-    <?php $this->stylesheet('/style/ie7-ltr.css'); ?>
+    <?php
+    $this->javascript('/style/ie_translation_menu.js');
+    $this->stylesheet('/style/ie7-ltr.css');
+    ?>
     <![endif]-->
 </head>
 
@@ -126,7 +136,7 @@ if ($p == "home" || !$p) {
 else {
 ?>
     <div id="header_picture">
-        <h1><a href="<?php $this->base_url(); ?>" title="home page"><?php print _("get GNU/Linux!"); ?></a></h1>
+        <h1><a href="<?php $this->base_url(); ?>" title="<?php print _("home page"); ?>"><?php print _("get GNU/Linux!"); ?></a></h1>
     </div>
 <?php } ?>
 

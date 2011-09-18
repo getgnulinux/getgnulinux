@@ -4,7 +4,7 @@
 
 <a href="<?php $this->base_url('linux'); ?>" title="What is Linux?">
 <img class="main_pic" width="200" height="202"
-     src="/images/index/index.applications-ltr.jpg"
+     src="<?php print $this->language_file("index.applications.jpg"); ?>"
      alt="GNU/Linux applications"/></a>
 
 <div id="text">
