@@ -19,10 +19,10 @@
     </ul>
 </div>
 <div class="footer-block">
-    <h1><?php print _("Participate"); ?></h1>
+    <h1><a href="<?php $this->text('participate_url'); ?>"><?php print _("Participate"); ?></a></h1>
     <ul class="footer-text">
         <li><a href="<?php $this->base_url('link_buttons'); ?>"><?php print _("Link to Us"); ?></a></li>
-        <li><a href="<?php $this->text('l10n_url'); ?>" title="<?php print _("Help translate the &quot;get GNU/Linux!&quot; website into your own language!"); ?>"><?php print _("Translate"); ?></a></li>
+        <li><a href="<?php $this->text('l10n_url'); ?>" title="<?php print _("Help translate the &quot;get GNU/Linux!&quot; website into your own language!"); ?>"><?php print _("Translation"); ?></a></li>
         <li><a href="<?php $this->text('project_url'); ?>" title="<?php print _("Starting point for developers."); ?>"><?php print _("Project Page"); ?></a></li>
     </ul>
 </div>
