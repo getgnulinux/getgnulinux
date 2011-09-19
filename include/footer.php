@@ -7,8 +7,8 @@
 <div class="footer-block">
     <h1><?php print _("About"); ?></h1>
     <ul class="footer-text">
-        <li><a href="https://launchpad.net/~getgnulinux/+contactuser"><?php print _("Contact Us"); ?></a></li>
-        <li><a href="http://getgnulinux.wordpress.com/"><?php print _("Our Blog"); ?></a></li>
+        <li><a href="<?php $this->text('contact_url'); ?>"><?php print _("Contact Us"); ?></a></li>
+        <li><a href="<?php $this->text('blog_url'); ?>"><?php print _("Our Blog"); ?></a></li>
     </ul>
 </div>
 <div class="footer-block">
@@ -22,8 +22,8 @@
     <h1><?php print _("Participate"); ?></h1>
     <ul class="footer-text">
         <li><a href="<?php $this->base_url('link_buttons'); ?>"><?php print _("Link to Us"); ?></a></li>
-        <li><a href="https://www.transifex.net/projects/p/getgnulinux/" title="<?php print _("Help translate the &quot;get GNU/Linux!&quot; website into your own language!"); ?>"><?php print _("Translate"); ?></a></li>
-        <li><a href="https://launchpad.net/getgnulinux" title="<?php print _("Starting point for developers."); ?>"><?php print _("Project Page"); ?></a></li>
+        <li><a href="<?php $this->text('l10n_url'); ?>" title="<?php print _("Help translate the &quot;get GNU/Linux!&quot; website into your own language!"); ?>"><?php print _("Translate"); ?></a></li>
+        <li><a href="<?php $this->text('project_url'); ?>" title="<?php print _("Starting point for developers."); ?>"><?php print _("Project Page"); ?></a></li>
     </ul>
 </div>
 <div class="footer-block">
