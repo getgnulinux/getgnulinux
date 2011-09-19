@@ -15,9 +15,13 @@ $ggl->conf['blog_url'] = "http://blog.getgnulinux.org/";
 # Default: "http://blog.getgnulinux.org/contact/"
 $ggl->conf['contact_url'] = "http://blog.getgnulinux.org/contact/";
 
-# The URL to the translation service.
-# Default: "https://www.transifex.net/projects/p/getgnulinux/"
-$ggl->conf['l10n_url'] = "https://www.transifex.net/projects/p/getgnulinux/";
+# The URL of the translation service.
+# Default: "http://blog.getgnulinux.org/participate/"
+$ggl->conf['participate_url'] = "http://blog.getgnulinux.org/participate/";
+
+# The URL of the translation service.
+# Default: "http://blog.getgnulinux.org/participate/translation/"
+$ggl->conf['l10n_url'] = "http://blog.getgnulinux.org/participate/translation/";
 
 # The URL where the getgnulinux project is maintained.
 # Default: "https://launchpad.net/getgnulinux"
