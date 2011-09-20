@@ -4,6 +4,7 @@
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 	<title>get GNU/Linux! websites terms of use</title>
 	<meta name="description" content="Legal terms of use for the GNU/Linux Matters websites"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
     <?php $this->stylesheet('/style/main-ltr.css'); ?>
 </head>
 
@@ -102,7 +103,7 @@ of, such website.</p>
 <p>We do not intend to infringe others' copyrights, and we ask our readers to
 do the same. If you believe that your work has been copied in a way that
 constitutes infringement on our websites, please
-<a href="https://launchpad.net/~getgnulinux/+contactuser">contact us</a>.
+<a href="<?php $this->text('contact_url'); ?>">contact us</a>.
 We reserve the right to seek all remedies available at law and in equity for
 violations of these terms of use, including, but not limited to, the right to
 block access from a particular Internet address to our websites.</p>

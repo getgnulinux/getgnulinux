@@ -4,6 +4,7 @@
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 	<title>get GNU/Linux! websites credits</title>
 	<meta name="description" content="Legal terms of use for the GNU/Linux Matters websites"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
     <?php $this->stylesheet('/style/main-ltr.css'); ?>
 </head>
 
@@ -26,7 +27,7 @@ or let us use their work for our purposes.</p>
 
 <h2>Licensing</h2>
 <p>Except for the material listed below, all of the text content is published under a
-<a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>,<br/>
+<a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 License</a>,<br/>
 &copy; 2006-2010, <a href="http://www.gnulinuxmatters.org/">GNU/Linux Matters</a><br/>
 &copy; 2011, <a href="https://launchpad.net/~getgnulinux">Launchpad getgnulinux Team</a></p>
 
@@ -102,27 +103,27 @@ following sources, according to their respective copyright licenses:</p>
 
 <h2 id="translators">Translation</h2>
 
-<h3><a href="http://www.honalinux.org/index.html" hreflang="ar" title="Linux">Honalinux.org</a> (Arabic):</h3>
+<h3>Arabic:</h3>
 <p class="tab">Hassan Ibraheem.</p>
 
-<h3><a href="http://www.pereidinalinux.org/index.html" hreflang="ru" title="Linux">PereidiNaLinux.org</a> (Russian):</h3>
+<h3>Russian:</h3>
 <p class="tab">V'yacheslav Stetskevych.</p>
 
-<h3><a href="http://www.otrymaylinux.org/index.html" hreflang="uk" title="Linux">OtrymayLinux.org</a> (Ukrainian):</h3>
+<h3>Ukrainian:</h3>
 <p class="tab">V'yacheslav Stetskevych (again!).</p>
 
-<h3><a href="http://www.dunglinux.org/index.html" hreflang="vi" title="Linux">DungLinux.org</a> (Vietnamese):</h3>
+<h3>Vietnamese:</h3>
 <p class="tab">Clytie Siddall from the <a href="http://vnoss.net/dokuwiki/doku.php?id=projects:l10n">
 Vietnamese Free Software Translation Team</a>, and Minh Ngoc Le.</p>
 
-<h3><a href="http://www.gnulinux.cat/" hreflang="cat" title="Linux">GNULinux.cat</a> (Catalan):</h3>
+<h3>Catalan:</h3>
 <p class="tab"><a href="http://cortsenc.bloc.cat/">Oriol Piera</a> and <a href="http://rcarreras.blogspot.com/">Rafael Carreras</a>.</p>
 
 
-<h3><a href="http://www.obtengalinux.org/index.html" hreflang="es" title="Linux">ObtengaLinux.org</a> (Castilian):</h3>
+<h3>Castilian:</h3>
 <p class="tab"><a href="http://gustavonarea.name/">Gustavo Narea</a>, Jonathan H. Fernández, Martín Carr and Miguel L. García.</p>
 
-<h3><a href="http://www.passeralinux.fr/index.html" title="Linux" hreflang="en">PasseraLinux.fr</a> (French):</h3>
+<h3>French:</h3>
 <p class="tab"><a href="http://www.ariadacapo.net/">Olivier Cleynen</a>, Bruno Bord, Loïs Di Qual, Bruno Ethvignot, Thiébaut Hillenweck, Joseph Maillardert, Laurent Richard, Fabian Rodriguez, and Anthony Verez.</p>
 
 <h2>Inspiration &amp; reading</h2>
@@ -151,7 +152,7 @@ Vietnamese Free Software Translation Team</a>, and Minh Ngoc Le.</p>
 
 <li>The following <a href="http://www.nuxified.org/" title="friendly free software support forum">Nuxified</a> members for their kind continuous support: a_thing, AndrewB, Bjwebb, dylunio, guyjohnston, kuan, nwrman, reptiler, tbuitenh and more.</li>
 
-<li>And we haven't introduced ourselves: <a href="http://www.gnulinuxmatters.org/about/who_s_who/index.html">here we are</a>. Blame us.</li>
+<li>And we haven't introduced ourselves: <a href="http://blog.getgnulinux.org/about/us/">here we are</a>. Blame us.</li>
 
 </ul>
 
