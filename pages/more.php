@@ -93,12 +93,12 @@ print _("FLOSS Booklet"); ?>"/></a>
 <p><a href="http://www.gnulinuxmatters.org/"><img src="/images/more/more.denfer.png" alt="|| GLM mascot ||" height="60" width="60"/></a>
 <?php print _("This website was created by a non-profit organization, <em><a href=\"http://www.gnulinuxmatters.org/\">GNU/Linux Matters</a></em>, which focused on Internet advocacy for free software. As of 2010, GNU/Linux Matters have ceased activity."); ?></p>
 <p><?php $p = _("The &ldquo;get&nbsp;GNU/Linux!&rdquo; project is now being maintained at <a href=\"https://launchpad.net/getgnulinux\">Launchpad</a> and the continuity of the project now depends on the community. Please consider <a href=\"%s\">participating</a>, or simply helping by <a href=\"%s\">making a link to this website</a>.");
-printf($p, "https://launchpad.net/getgnulinux", $this->base_url('link_buttons',1)); ?></p>
+printf($p, $ggl->get('participate_url'), $this->base_url('link_buttons',1)); ?></p>
 
 <div id="about_us_more">
 <ul>
 	<li><a href="<?php $this->base_url('legal'); ?>"><?php print _("Terms of Use"); ?></a></li>
-	<li><a href="https://launchpad.net/~getgnulinux/+contactuser"><?php print _("Contact"); ?></a></li>
+	<li><a href="<?php $this->text('contact_url'); ?>"><?php print _("Contact"); ?></a></li>
 	<li><a href="<?php $this->base_url('credits'); ?>"><?php print _("Credits"); ?></a></li>
 </ul>
 </div><!-- end of sidebox -->
