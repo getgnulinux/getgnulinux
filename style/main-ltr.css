@@ -286,9 +286,9 @@ code {
     list-style: none;
     z-index: 3;
     display: none;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    box-shadow: -1px 2px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: -1px 2px 1px rgba(0,0,0,0.1);
+    -webkit-box-shadow: -1px 2px 1px rgba(0,0,0,0.1);
 }
 
 #translations li {
@@ -567,20 +567,22 @@ body {
  *----------------------------------------------------*/
 
 #subheader {
+    background-color: #E8F2FF;
+    border-top: 2px solid #A2B5CD;
     clear: right;
     float: right;
     font-size: 0.8em;
-    margin: 3em -1em 2em 1.5em;
+    margin: 3em 0 2em 1.5em;
     padding: 0.5em 1em 0.5em 1em;
-    border-left: 1px #DFD9F9 solid;
-    border-bottom: 1px #DFD9F9 solid;
+    min-width: 150px;
 }
 
 #subheader .title {
     display: block;
     text-align: center;
-    font-style: italic;
+    font-style: normal;
     margin-bottom: 0.8em;
+    text-transform: capitalize;
 }
 
 #subheader .title a {
@@ -607,22 +609,16 @@ body {
     padding: 0.2em 0.5em;
     background: none;
     outline: 0;
-    border-bottom: 1px solid #fff;
 }
 
 #subheader li a:hover {
     text-decoration: none;
     color: #043f58;
-    background: #f2f5fa;
+    text-decoration: underline;
 }
 
 #subheader .wehere a {
-    border-bottom: 1px solid #B3C7FF;
-    background: #f2f5fa;
-}
-
-#subheader .wehere a:hover {
-    background: #e4ebf7;
+    background-color: #D1DEF3;
 }
 
 /*----------------------------------------------------
@@ -1221,8 +1217,7 @@ div .note {
 
 #subheader_foot {
     clear: both;
-    width: 90%;
-    font-size: 0.8em;
+    font-size: 0.75em;
     margin: 2em auto 0 auto;
     padding: 1em;
     text-align: center;

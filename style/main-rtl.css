@@ -56,6 +56,17 @@ html {
 }
 
 /*----------------------------------------------------
+ * Subheader ("contents of chapter" box)
+ * (only displays in level 2 pages)
+ *----------------------------------------------------*/
+
+#subheader {
+    clear: left;
+    float: left;
+    margin: 3em 1.5em 2em 0;
+}
+
+/*----------------------------------------------------
  * Subheader foot ("contents of chapter" box at bottom)
  * (same html as #subheader, but different css)
  *----------------------------------------------------*/
@@ -138,19 +149,6 @@ html {
 }
 
 /*----------------------------------------------------
- * Subheader ("contents of chapter" box)
- * (only displays in level 2 pages)
- *----------------------------------------------------*/
-
-#subheader {
-    border-right: 1px solid #DFD9F9;
-    border-left: none;
-    clear: left;
-    float: left;
-    margin: 3em 1.5em 2em -1em;
-}
-
-/*----------------------------------------------------
  * "Read more" box on "How to Misunderstand Free Software" page.
  *----------------------------------------------------*/
 
@@ -224,6 +222,10 @@ html {
     left: 0;
 }
 
+#language_menu {
+    background-position: left center;
+}
+
 #language_menu_text {
     background-position: center right;
     padding: 0 30px 0 0;
@@ -231,6 +233,9 @@ html {
 
 #translations ul {
     margin: -1px 0;
+    box-shadow: 1px 2px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: 1px 2px 1px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 1px 2px 1px rgba(0,0,0,0.1);
 }
 
 #translations li a {
