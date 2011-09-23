@@ -355,8 +355,8 @@
 If you can think of a frequent question that we haven't answered yet, do <a href=\"%s\">let us know</a>, or even better, <a href=\"%s\">file a new bug</a>.");
 printf($p, $this->base_url('more',1),
 _("More"),
-"https://launchpad.net/~getgnulinux/+contactuser",
-"https://bugs.launchpad.net/getgnulinux"); ?></p>
+$ggl->get('contact_url'),
+$ggl->get('tracker_url')); ?></p>
 	</div>
 
 

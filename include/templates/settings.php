@@ -27,6 +27,10 @@ $ggl->conf['l10n_url'] = "http://blog.getgnulinux.org/participate/translation/";
 # Default: "https://launchpad.net/getgnulinux"
 $ggl->conf['project_url'] = "https://launchpad.net/getgnulinux";
 
+# The URL of the bug tracker.
+# Default: "https://bugs.launchpad.net/getgnulinux"
+$ggl->conf['tracker_url'] = "https://bugs.launchpad.net/getgnulinux";
+
 # Absolute path to root html folder with trailing slash. Leave blank to auto
 # detect the absolute path.
 # Example: "/home/john/public_html/getgnulinux/"
