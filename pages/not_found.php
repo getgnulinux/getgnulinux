@@ -1,6 +1,6 @@
 <?php $this->load_header(); ?>
 
-<div id="maincontent">
+<div id="maincontent" class="not_found">
 
 <h1><?php
 # i18n: Title for the Page Not Found page. We like to add a bit of humour to this title :P
@@ -13,7 +13,7 @@ print _("Sorry, but we couldn't find the page you were looking for. Either that 
 <h2><?php print _("Report broken link"); ?></h2>
 <p><?php
 # i18n: Here, the %s placeholder simply puts a link to the bug tracker
-$p = _("If you found a broken link, please <a href=\"%s\">report it</a> so we can repair it. Thank you!"); printf($p, 'https://bugs.launchpad.net/getgnulinux'); ?></p>
+$p = _("If you found a broken link, please <a href=\"%s\">report it</a> so we can repair it. Thank you!"); printf($p, $ggl->get('tracker_url')); ?></p>
 
 <div id="switcher">
     <a href="<?php $this->base_url(); ?>" class="previousbutton"><span class="previous"><span class="button_title"><?php print _("Return to the Homepage"); ?></span></span></a>
