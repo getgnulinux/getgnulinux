@@ -29,8 +29,8 @@ Finally, reload this page.",
 }
 
 # Autodetect base url and base path.
-$ggl->conf['base_url'] = empty($ggl->conf['base_url']) ? 'http://'.$_SERVER['HTTP_HOST'].'/' : $ggl->conf['base_url'];
-$ggl->conf['base_path'] = empty($ggl->conf['base_path']) ? realpath($root).'/' : $ggl->conf['base_path'];
+$ggl->config['base_url'] = empty($ggl->config['base_url']) ? 'http://'.$_SERVER['HTTP_HOST'].'/' : $ggl->config['base_url'];
+$ggl->config['base_path'] = empty($ggl->config['base_path']) ? realpath($root).'/' : $ggl->config['base_path'];
 
 # Set some useful constants.
 define('BASE_PATH', $ggl->get('base_path'));

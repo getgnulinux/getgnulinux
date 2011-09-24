@@ -6,14 +6,14 @@
 
     <!-- Alternate languages: -->
     <?php
-    foreach ($ggl->locale_info as $id => $items) {
+    foreach ($ggl->config['locales'] as $id => $items) {
         printf("<link rel=\"alternate\" type=\"text/html\" dir=\"%s\" hreflang=\"%s\" href=\"/%s/\" title=\"%s\" />\n",
             $items[2], $id, $id, $items[4]);
     } ?>
-    <title><?php print _("get GNU/Linux!"); ?></title>
+    <title><?php $this->page_title(); ?></title>
     <link rel="copyright" type="text/html" title="Copyright notice for this website." href="<?php $this->base_url('legal'); ?>" hreflang="en" />
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
-    <meta name="description" content="<?php print _("Get GNU/Linux! A simple, clear website about Linux. | What is Linux? | Why not Windows? | Tips to make the switch"); ?>"/>
+    <meta name="description" content="<?php $this->page_description(); ?>"/>
     <meta name="keywords" content="<?php print _("linux, gnu/linux, free software, software freedom, open-source, windows alternative, get linux, switch to linux"); ?>" />
     <?php $this->stylesheet('/style/main-ltr.css'); ?>
     <?php
@@ -104,7 +104,7 @@
 
 <ul>
 <?php
-foreach ($ggl->locale_info as $id => $items) {
+foreach ($ggl->config['locales'] as $id => $items) {
     printf("<li%s><a href=\"/%s/%s\" hreflang=\"%s\"><img src=\"/images/flags/%s.gif\" alt=\"%s\" /> <span class=\"language\" dir=\"%s\">%s</span></a></li>\n",
         $this->is_current_language($id),
         $id,
@@ -155,7 +155,9 @@ else {
 
     foreach ($menu_items as $id => $title) {
         printf("<li%s><a href=\"%s\">%s</a></li>\n",
-            $this->is_current_menu_item($id), $this->base_url($id,1), $title);
+            $this->is_current_menu_item($id),
+            $this->base_url($id,1),
+            $title);
     }
     ?>
     </ul>

@@ -51,8 +51,25 @@ class HTML {
     function text($key, $default='')
     {
         global $ggl;
-
 		print $ggl->get($key, $default);
+    }
+
+    function page_title()
+    {
+        global $ggl;
+        if ( empty($_GET['p']) ) {
+            print _("get GNU/Linux!");
+        }
+        else {
+            print $ggl->config['page_titles'][$_GET['p']] . " | " . _("get GNU/Linux!");
+        }
+    }
+
+    function page_description()
+    {
+        global $ggl;
+        $p = empty($_GET['p']) ? 'default' : $_GET['p'];
+        print $ggl->config['page_descriptions'][$p];
     }
 
     function menu_switch_to_linux() {
