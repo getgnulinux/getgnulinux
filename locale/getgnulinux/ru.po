@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: getgnulinux 0.0.1\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2011-09-17 12:24+0200\n"
+"POT-Creation-Date: 2011-09-24 14:36+0200\n"
 "PO-Revision-Date: 2011-06-19 21:28+0100\n"
 "Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,7 +59,7 @@ msgid ""
 msgstr "Могу ли я получить GNU/Linux на моем родном языке?"
 
 #: include/footer.php:25
-msgid "Translate"
+msgid "Translation"
 msgstr ""
 
 #: include/footer.php:26
@@ -89,11 +89,113 @@ msgid ""
 "\"license\">CC BY-SA 3.0 License</a></acronym>."
 msgstr ""
 
-#: include/header.php:12 include/header.php:121 include/header.php:128
-msgid "get GNU/Linux!"
-msgstr "перейди на GNU/Linux!"
+#. i18n: The way you refer to a website's main page in your language.
+#: include/GetGnuLinux.php:49
+msgid "Home"
+msgstr "Домой"
 
-#: include/header.php:15
+#. i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
+#: include/GetGnuLinux.php:51 include/header.php:153
+#: pages/linux.linux_faq.php:357 pages/more.php:6
+#: pages/switch_to_linux.from_windows_to_linux.php:60
+msgid "More"
+msgstr "Больше"
+
+#. i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
+#: include/GetGnuLinux.php:53 include/header.php:150 pages/home.php:23
+#: pages/linux.linux_faq.php:364
+#: pages/linux.misunderstanding_free_software.php:191
+#: pages/linux.screenshots.php:31 pages/linux.screenshots.php:104
+#: pages/windows.php:84
+msgid "What is Linux?"
+msgstr "Что такое Linux?"
+
+#. i18n: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
+#: include/GetGnuLinux.php:55 pages/linux.php:70
+msgid "Linux FAQ - common questions about GNU/Linux"
+msgstr "Linux FAQ - часто задаваемые вопросы о GNU/Linux"
+
+#. i18n: Here the intent is to be a little provocative. Exact translation is not required.
+#: include/GetGnuLinux.php:57 pages/linux.linux_faq.php:146
+#: pages/linux.linux_faq.php:200 pages/linux.linux_faq.php:214
+#: pages/linux.misunderstanding_free_software.php:14 pages/linux.php:68
+#: pages/windows.stand_for_a_free_society.php:155
+msgid "How to Misunderstand Free Software"
+msgstr "Как Неправильно понять Свободное ПО"
+
+#. i18n: This is the title of the 'Screenshots' page.
+#: include/GetGnuLinux.php:59 pages/linux.screenshots.php:36
+#, fuzzy
+msgid "What GNU/Linux looks like"
+msgstr "Как выглядит Linux"
+
+#. i18n: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
+#: include/GetGnuLinux.php:61 include/header.php:151 include/HTML.php:94
+#: include/HTML.php:112 pages/home.php:30 pages/linux.php:60
+#: pages/windows.php:5
+msgid "Why not Windows"
+msgstr "Почему не Windows"
+
+#. i18n: This title can be translated loosely
+#: include/GetGnuLinux.php:63 include/HTML.php:96 include/HTML.php:114
+#: pages/windows.php:14 pages/windows.php:16 pages/windows.php:23
+#: pages/windows.restrictions.further_details.php:4
+#: pages/windows.restrictions.further_details.php:83
+#: pages/windows.restrictions.php:7
+msgid "Restrictions"
+msgstr "Ограничения"
+
+#. i18n: This title can be translated loosely
+#: include/GetGnuLinux.php:65 pages/windows.restrictions.further_details.php:9
+msgid "More details on restrictions"
+msgstr "Больше про ограничения"
+
+#. i18n: This title can be translated loosely
+#: include/GetGnuLinux.php:67 include/HTML.php:99 include/HTML.php:117
+#: pages/linux.linux_faq.php:270 pages/windows.php:56 pages/windows.php:57
+#: pages/windows.php:66
+msgid "Stand for a free society"
+msgstr "Встань за свободное общество"
+
+#. i18n: This title can be translated loosely
+#: include/GetGnuLinux.php:69 include/HTML.php:97 include/HTML.php:115
+#: pages/windows.php:31 pages/windows.php:32 pages/windows.php:37
+#: pages/windows.what_about_choice.php:12
+msgid "What about choice?"
+msgstr "Как насчет выбора?"
+
+#. i18n: This title can be translated loosely
+#: include/GetGnuLinux.php:71 include/HTML.php:98 include/HTML.php:116
+#: pages/windows.php:44 pages/windows.php:45 pages/windows.php:50
+msgid "No source code"
+msgstr "Отсутствие исходного кода"
+
+#. i18n: This appears in the top header menu and should be as short and concise as possible.
+#: include/GetGnuLinux.php:73 include/header.php:152 include/HTML.php:77
+#: pages/home.php:37 pages/switch_to_linux.php:5 pages/windows.php:82
+msgid "Switch to Linux"
+msgstr "Перейти на Linux"
+
+#: include/GetGnuLinux.php:74 include/HTML.php:80
+#: pages/switch_to_linux.choose_a_distribution.php:8
+#: pages/switch_to_linux.php:20
+msgid "Choose a distribution"
+msgstr "Выбор дистрибутива"
+
+#: include/GetGnuLinux.php:75 include/HTML.php:79
+#: pages/switch_to_linux.from_windows_to_linux.php:8
+#: pages/switch_to_linux.php:12
+msgid "From Windows to Linux"
+msgstr "С Windows на Linux"
+
+#. i18n: This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
+#: include/GetGnuLinux.php:77 include/HTML.php:81 pages/switch_to_linux.php:26
+#: pages/switch_to_linux.try_or_install.php:8
+msgid "Try or install"
+msgstr "Попробуйте или установите"
+
+#. i18n: This is the description of the homepage, and it appears in Google results! Please pay particular attention to this one =)
+#: include/GetGnuLinux.php:83
 msgid ""
 "Get GNU/Linux! A simple, clear website about Linux. | What is Linux? | Why "
 "not Windows? | Tips to make the switch"
@@ -101,7 +203,90 @@ msgstr ""
 "Перейди на GNU/Linux! Простой, чистый сайт о Linux. | Что такое Linux? | "
 "Почему не Windows? | Советы для перехода"
 
-#: include/header.php:16
+#. i18n: This is the description of the 'More' page
+#: include/GetGnuLinux.php:85
+msgid "Read and discover more about Linux."
+msgstr "Прочитайте и откройте для себя больше про Linux."
+
+#. i18n: This is the description of the 'Linux' page
+#: include/GetGnuLinux.php:87
+msgid "What is Linux? A clear explanation."
+msgstr "Что такое Linux? Понятное объяснение."
+
+#. i18n: This is the description of the 'Linux FAQ' page
+#: include/GetGnuLinux.php:89
+#, fuzzy
+msgid "Frequently Asked Questions about GNU/Linux."
+msgstr "Часто Задаваемые Вопросы про GNU/Linux."
+
+#. i18n: This is the description of the 'Misunderstanding Free Software' page
+#: include/GetGnuLinux.php:91
+#, fuzzy
+msgid "An unconventional way to (re)discover free software."
+msgstr ""
+"Нетрадиционный способ открыть для себя свободное программное обеспечение."
+
+#. i18n: This is the description of the 'Screenshots' page
+#: include/GetGnuLinux.php:93
+#, fuzzy
+msgid "A brief look at Linux in everyday use."
+msgstr "Беглый взгляд на Linux в ежедневном пользовании."
+
+#. i18n: This is the description of the 'Why not Windows' page
+#: include/GetGnuLinux.php:95
+msgid "Four good reasons to avoid proprietary software."
+msgstr "Четыре хороших причины отказаться от коммерческого ПО."
+
+#. i18n: This is the description of the 'Restrictions' page
+#: include/GetGnuLinux.php:97
+msgid "Restrictions in a proprietary software license."
+msgstr "Ограничения лицензии коммерческого программного обеспечения."
+
+#. i18n: This is the description of the 'Restrictions further details' page
+#: include/GetGnuLinux.php:99
+msgid "Restrictions in a proprietary software license - more details."
+msgstr ""
+"Ограничения лицензии коммерческого программного обеспечения -- детально."
+
+#. i18n: This is the description of the 'Stand for a free society' page
+#: include/GetGnuLinux.php:101 pages/windows.php:57
+msgid "How software affects freedom in society."
+msgstr "Как свобода программного обеспечения влияет на свободу общества."
+
+#. i18n: This is the description of the 'What about choice' page
+#: include/GetGnuLinux.php:103
+msgid "How Microsoft lock customers in."
+msgstr "Как Microsoft привязывает к себе пользователей."
+
+#. i18n: This is the description of the 'What about source code' page
+#: include/GetGnuLinux.php:105
+msgid "No source code means no trust and no security."
+msgstr "Отсутствие исходного кода означает отсутствие доверия и безопасности."
+
+#. i18n: This is the description of the 'Switch to Linux' page
+#: include/GetGnuLinux.php:107
+msgid "Switch to Linux: Good tips and advice."
+msgstr "Переход на Linux: Полезные замечания и советы."
+
+#. i18n: This is the description of the 'Choose a distribution' page
+#: include/GetGnuLinux.php:109
+#, fuzzy
+msgid "Recommended Linux distributions for everyday users."
+msgstr "Беглый взгляд на Linux в ежедневном пользовании."
+
+#. i18n: This is the description of the 'From Windows to Linux' page
+#: include/GetGnuLinux.php:111
+msgid "The advantages and disadvantages of Linux over Windows."
+msgstr "Преимущества и недостатки Linux по сравнению с Windows."
+
+#. i18n: This is the description of the 'Try or Install' page. i18n note: this should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
+#: include/GetGnuLinux.php:113
+#, fuzzy
+msgid "Try or install Linux on your computer, very easily."
+msgstr ""
+"Попробуйте Linux или установите его на свой компьютер, это очень просто."
+
+#: include/header.php:17
 msgid ""
 "linux, gnu/linux, free software, software freedom, open-source, windows "
 "alternative, get linux, switch to linux"
@@ -109,76 +294,24 @@ msgstr ""
 "linux, gnu/linux, свободное ПО, свобода ПО, open-source, альтернатива "
 "windows, получить linux, переход на linux"
 
-#: include/header.php:85
+#: include/header.php:96
 msgid "skip to content"
 msgstr "перейти к содержимому"
 
-#: include/header.php:92
+#: include/header.php:103
 msgid "Alternate languages"
 msgstr "Другие языки"
 
-#: include/header.php:139 pages/home.php:23 pages/linux.linux_faq.php:364
-#: pages/linux.misunderstanding_free_software.php:191
-#: pages/linux.screenshots.php:31 pages/linux.screenshots.php:104
-#: pages/windows.php:84
-msgid "What is Linux?"
-msgstr "Что такое Linux?"
+#: include/header.php:132 include/header.php:139 include/HTML.php:61
+#: include/HTML.php:64
+msgid "get GNU/Linux!"
+msgstr "перейди на GNU/Linux!"
 
-#: include/header.php:140 include/HTML.php:77 include/HTML.php:95
-#: pages/home.php:30 pages/linux.php:60 pages/windows.php:5
-msgid "Why not Windows"
-msgstr "Почему не Windows"
+#: include/header.php:139
+msgid "home page"
+msgstr "домашняя страница"
 
-#: include/header.php:141 include/HTML.php:60 pages/home.php:37
-#: pages/switch_to_linux.php:5 pages/windows.php:82
-msgid "Switch to Linux"
-msgstr "Перейти на Linux"
-
-#: include/header.php:142 pages/linux.linux_faq.php:357 pages/more.php:6
-#: pages/switch_to_linux.from_windows_to_linux.php:60
-msgid "More"
-msgstr "Больше"
-
-#: include/HTML.php:62 pages/switch_to_linux.from_windows_to_linux.php:8
-#: pages/switch_to_linux.php:12
-msgid "From Windows to Linux"
-msgstr "С Windows на Linux"
-
-#: include/HTML.php:63 pages/switch_to_linux.choose_a_distribution.php:8
-#: pages/switch_to_linux.php:20
-msgid "Choose a distribution"
-msgstr "Выбор дистрибутива"
-
-#: include/HTML.php:64 pages/switch_to_linux.php:26
-#: pages/switch_to_linux.try_or_install.php:8
-msgid "Try or install"
-msgstr "Попробуйте или установите"
-
-#: include/HTML.php:79 include/HTML.php:97 pages/windows.php:14
-#: pages/windows.php:16 pages/windows.php:23
-#: pages/windows.restrictions.further_details.php:4
-#: pages/windows.restrictions.further_details.php:83
-#: pages/windows.restrictions.php:7
-msgid "Restrictions"
-msgstr "Ограничения"
-
-#: include/HTML.php:80 include/HTML.php:98 pages/windows.php:31
-#: pages/windows.php:32 pages/windows.php:37
-#: pages/windows.what_about_choice.php:12
-msgid "What about choice?"
-msgstr "Как насчет выбора?"
-
-#: include/HTML.php:81 include/HTML.php:99 pages/windows.php:44
-#: pages/windows.php:45 pages/windows.php:50
-msgid "No source code"
-msgstr "Отсутствие исходного кода"
-
-#: include/HTML.php:82 include/HTML.php:100 pages/linux.linux_faq.php:270
-#: pages/windows.php:56 pages/windows.php:57 pages/windows.php:66
-msgid "Stand for a free society"
-msgstr "Встань за свободное общество"
-
-#: pages/credits.php:159 pages/legal.php:111 pages/not_found.php:19
+#: pages/credits.php:160 pages/legal.php:112 pages/not_found.php:19
 #, fuzzy
 msgid "Return to the Homepage"
 msgstr "перепрыгнуть на начало страницы"
@@ -581,13 +714,6 @@ msgstr ""
 #, fuzzy
 msgid "More:"
 msgstr "Больше"
-
-#: pages/linux.linux_faq.php:146 pages/linux.linux_faq.php:200
-#: pages/linux.linux_faq.php:214
-#: pages/linux.misunderstanding_free_software.php:14 pages/linux.php:68
-#: pages/windows.stand_for_a_free_society.php:155
-msgid "How to Misunderstand Free Software"
-msgstr "Как Неправильно понять Свободное ПО"
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
 #: pages/linux.linux_faq.php:159
@@ -1963,10 +2089,6 @@ msgstr "Еще в этом разделе:"
 msgid "What Linux looks like"
 msgstr "Как выглядит Linux"
 
-#: pages/linux.php:70
-msgid "Linux FAQ - common questions about GNU/Linux"
-msgstr "Linux FAQ - часто задаваемые вопросы о GNU/Linux"
-
 #. i18n: This is the description of the "ubuntu1.png" screenshot.
 #: pages/linux.screenshots.php:6
 msgid "Firefox web browser"
@@ -2011,8 +2133,8 @@ msgstr ""
 
 #. i18n: This is the description of the "gnewsense1.png" screenshot.
 #: pages/linux.screenshots.php:22
-msgid "File browser open."
-msgstr "Открыт менеджер файлов."
+msgid "Update manager open."
+msgstr ""
 
 #. i18n: This is the description of the "gnewsense2.png" screenshot.
 #: pages/linux.screenshots.php:24
@@ -2024,11 +2146,6 @@ msgstr "Запущен OpenOffice.org Calc, на экране пример та�
 #, fuzzy
 msgid "Accessing applications"
 msgstr "Приложения GNU/Linux"
-
-#: pages/linux.screenshots.php:36
-#, fuzzy
-msgid "What GNU/Linux looks like"
-msgstr "Как выглядит Linux"
 
 #: pages/linux.screenshots.php:38
 #, fuzzy
@@ -3152,10 +3269,6 @@ msgstr ""
 "дополнительно. Антивирусная индустрия, в которой Microsoft с недавних пор "
 "является влиятельным игроком, предпочитает, чтобы Вы использовали Windows."
 
-#: pages/windows.php:57
-msgid "How software affects freedom in society."
-msgstr "Как свобода программного обеспечения влияет на свободу общества."
-
 #: pages/windows.php:60
 #, fuzzy
 msgid ""
@@ -3231,10 +3344,6 @@ msgstr ""
 "предыдущая:\n"
 "#-#-#-#-#  windows-trimmed.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "назад:"
-
-#: pages/windows.restrictions.further_details.php:9
-msgid "More details on restrictions"
-msgstr "Больше про ограничения"
 
 #: pages/windows.restrictions.further_details.php:11
 #, php-format
@@ -4443,6 +4552,9 @@ msgstr ""
 "Чему бы Вы скорее доверились: упаковке с продукцией, состав которой Вы не "
 "имеете права посмотреть, или упаковке с рецептом изготовления?"
 
+#~ msgid "File browser open."
+#~ msgstr "Открыт менеджер файлов."
+
 #, fuzzy
 #~ msgid "Not at all. We have this explained simply in our article %s."
 #~ msgstr ""
@@ -4615,9 +4727,6 @@ msgstr ""
 #~ msgid "Get GNU/Linux"
 #~ msgstr "Перейди на GNU/Linux"
 
-#~ msgid "home page"
-#~ msgstr "домашняя страница"
-
 #~ msgid "GetGNULinux.org"
 #~ msgstr "PereidiNaLinux.org"
 
@@ -4698,38 +4807,6 @@ msgstr ""
 
 #~ msgid "Discover more"
 #~ msgstr "Узнать больше"
-
-#~ msgid "Home"
-#~ msgstr "Домой"
-
-#~ msgid "Read and discover more about Linux."
-#~ msgstr "Прочитайте и откройте для себя больше про Linux."
-
-#~ msgid "What is Linux? A clear explanation."
-#~ msgstr "Что такое Linux? Понятное объяснение."
-
-#~ msgid "Four good reasons to avoid proprietary software."
-#~ msgstr "Четыре хороших причины отказаться от коммерческого ПО."
-
-#~ msgid "Restrictions in a proprietary software license."
-#~ msgstr "Ограничения лицензии коммерческого программного обеспечения."
-
-#~ msgid "Restrictions in a proprietary software license - more details."
-#~ msgstr ""
-#~ "Ограничения лицензии коммерческого программного обеспечения -- детально."
-
-#~ msgid "How Microsoft lock customers in."
-#~ msgstr "Как Microsoft привязывает к себе пользователей."
-
-#~ msgid "No source code means no trust and no security."
-#~ msgstr ""
-#~ "Отсутствие исходного кода означает отсутствие доверия и безопасности."
-
-#~ msgid "Switch to Linux: Good tips and advice."
-#~ msgstr "Переход на Linux: Полезные замечания и советы."
-
-#~ msgid "The advantages and disadvantages of Linux over Windows."
-#~ msgstr "Преимущества и недостатки Linux по сравнению с Windows."
 
 #~ msgid "Why not Windows?"
 #~ msgstr "Почему не Windows?"

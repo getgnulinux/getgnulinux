@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: getgnulinux 0.0.1\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2011-09-17 12:24+0200\n"
+"POT-Creation-Date: 2011-09-24 14:36+0200\n"
 "PO-Revision-Date: 2011-06-19 21:31+0100\n"
 "Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,7 +59,7 @@ msgid ""
 msgstr "Puc tenir GNU/Linux en el meu idioma?"
 
 #: include/footer.php:25
-msgid "Translate"
+msgid "Translation"
 msgstr ""
 
 #: include/footer.php:26
@@ -89,63 +89,97 @@ msgid ""
 "\"license\">CC BY-SA 3.0 License</a></acronym>."
 msgstr ""
 
-#: include/header.php:12 include/header.php:121 include/header.php:128
-msgid "get GNU/Linux!"
-msgstr "Canvieu a GNU/Linux!"
+#. i18n: The way you refer to a website's main page in your language.
+#: include/GetGnuLinux.php:49
+msgid "Home"
+msgstr "Inici"
 
-#: include/header.php:15
-msgid ""
-"Get GNU/Linux! A simple, clear website about Linux. | What is Linux? | Why "
-"not Windows? | Tips to make the switch"
-msgstr ""
-"Canvieu a GNU/Linux! Una senzilla i clara web sobre Linux. | Què és Linux? | "
-"Per què no Windows?| Consells per fer el canvi."
+#. i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
+#: include/GetGnuLinux.php:51 include/header.php:153
+#: pages/linux.linux_faq.php:357 pages/more.php:6
+#: pages/switch_to_linux.from_windows_to_linux.php:60
+msgid "More"
+msgstr "Més"
 
-#: include/header.php:16
-msgid ""
-"linux, gnu/linux, free software, software freedom, open-source, windows "
-"alternative, get linux, switch to linux"
-msgstr ""
-"linux, gnu/linux, programari lliure, llibertat de programari, codi obert, "
-"windows, alternativa, aconsegueix linux, canvia a linux"
-
-#: include/header.php:85
-msgid "skip to content"
-msgstr "vés al contingut"
-
-#: include/header.php:92
-msgid "Alternate languages"
-msgstr "Alternate languages"
-
-#: include/header.php:139 pages/home.php:23 pages/linux.linux_faq.php:364
+#. i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
+#: include/GetGnuLinux.php:53 include/header.php:150 pages/home.php:23
+#: pages/linux.linux_faq.php:364
 #: pages/linux.misunderstanding_free_software.php:191
 #: pages/linux.screenshots.php:31 pages/linux.screenshots.php:104
 #: pages/windows.php:84
 msgid "What is Linux?"
 msgstr "Què és Linux?"
 
-#: include/header.php:140 include/HTML.php:77 include/HTML.php:95
-#: pages/home.php:30 pages/linux.php:60 pages/windows.php:5
+#. i18n: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
+#: include/GetGnuLinux.php:55 pages/linux.php:70
+msgid "Linux FAQ - common questions about GNU/Linux"
+msgstr "PMF Linux - Preguntes més freqüents sobre GNU/Linux"
+
+# No crec que sigui la millor forma, però és que "malentesos" no ho he vist mai escrit enlloc. Però potser "Mites" és massa informal. Tu tries.
+#. i18n: Here the intent is to be a little provocative. Exact translation is not required.
+#: include/GetGnuLinux.php:57 pages/linux.linux_faq.php:146
+#: pages/linux.linux_faq.php:200 pages/linux.linux_faq.php:214
+#: pages/linux.misunderstanding_free_software.php:14 pages/linux.php:68
+#: pages/windows.stand_for_a_free_society.php:155
+msgid "How to Misunderstand Free Software"
+msgstr "Mites del Programari Lliure"
+
+#. i18n: This is the title of the 'Screenshots' page.
+#: include/GetGnuLinux.php:59 pages/linux.screenshots.php:36
+#, fuzzy
+msgid "What GNU/Linux looks like"
+msgstr "Quina aparença té Linux?"
+
+#. i18n: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
+#: include/GetGnuLinux.php:61 include/header.php:151 include/HTML.php:94
+#: include/HTML.php:112 pages/home.php:30 pages/linux.php:60
+#: pages/windows.php:5
 msgid "Why not Windows"
 msgstr "Per què no Windows?"
 
+#. i18n: This title can be translated loosely
+#: include/GetGnuLinux.php:63 include/HTML.php:96 include/HTML.php:114
+#: pages/windows.php:14 pages/windows.php:16 pages/windows.php:23
+#: pages/windows.restrictions.further_details.php:4
+#: pages/windows.restrictions.further_details.php:83
+#: pages/windows.restrictions.php:7
+msgid "Restrictions"
+msgstr "Restriccions"
+
+#. i18n: This title can be translated loosely
+#: include/GetGnuLinux.php:65 pages/windows.restrictions.further_details.php:9
+msgid "More details on restrictions"
+msgstr "Més detalls sobre restriccions"
+
+#. i18n: This title can be translated loosely
+#: include/GetGnuLinux.php:67 include/HTML.php:99 include/HTML.php:117
+#: pages/linux.linux_faq.php:270 pages/windows.php:56 pages/windows.php:57
+#: pages/windows.php:66
+msgid "Stand for a free society"
+msgstr "Treballeu per a una societat lliure"
+
+#. i18n: This title can be translated loosely
+#: include/GetGnuLinux.php:69 include/HTML.php:97 include/HTML.php:115
+#: pages/windows.php:31 pages/windows.php:32 pages/windows.php:37
+#: pages/windows.what_about_choice.php:12
+msgid "What about choice?"
+msgstr "Que me'n dius de l'elecció?"
+
+#. i18n: This title can be translated loosely
+#: include/GetGnuLinux.php:71 include/HTML.php:98 include/HTML.php:116
+#: pages/windows.php:44 pages/windows.php:45 pages/windows.php:50
+msgid "No source code"
+msgstr "Sense codi font"
+
 # Migreu?
-#: include/header.php:141 include/HTML.php:60 pages/home.php:37
-#: pages/switch_to_linux.php:5 pages/windows.php:82
+#. i18n: This appears in the top header menu and should be as short and concise as possible.
+#: include/GetGnuLinux.php:73 include/header.php:152 include/HTML.php:77
+#: pages/home.php:37 pages/switch_to_linux.php:5 pages/windows.php:82
 msgid "Switch to Linux"
 msgstr "Canvieu a Linux"
 
-#: include/header.php:142 pages/linux.linux_faq.php:357 pages/more.php:6
-#: pages/switch_to_linux.from_windows_to_linux.php:60
-msgid "More"
-msgstr "Més"
-
-#: include/HTML.php:62 pages/switch_to_linux.from_windows_to_linux.php:8
-#: pages/switch_to_linux.php:12
-msgid "From Windows to Linux"
-msgstr "De Windows a Linux"
-
-#: include/HTML.php:63 pages/switch_to_linux.choose_a_distribution.php:8
+#: include/GetGnuLinux.php:74 include/HTML.php:80
+#: pages/switch_to_linux.choose_a_distribution.php:8
 #: pages/switch_to_linux.php:20
 #, fuzzy
 msgid "Choose a distribution"
@@ -155,36 +189,132 @@ msgstr ""
 "#-#-#-#-#  _webpages.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "Trieu una distribució"
 
-#: include/HTML.php:64 pages/switch_to_linux.php:26
+#: include/GetGnuLinux.php:75 include/HTML.php:79
+#: pages/switch_to_linux.from_windows_to_linux.php:8
+#: pages/switch_to_linux.php:12
+msgid "From Windows to Linux"
+msgstr "De Windows a Linux"
+
+#. i18n: This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
+#: include/GetGnuLinux.php:77 include/HTML.php:81 pages/switch_to_linux.php:26
 #: pages/switch_to_linux.try_or_install.php:8
 msgid "Try or install"
 msgstr "Proveu o instal·leu"
 
-#: include/HTML.php:79 include/HTML.php:97 pages/windows.php:14
-#: pages/windows.php:16 pages/windows.php:23
-#: pages/windows.restrictions.further_details.php:4
-#: pages/windows.restrictions.further_details.php:83
-#: pages/windows.restrictions.php:7
-msgid "Restrictions"
-msgstr "Restriccions"
+#. i18n: This is the description of the homepage, and it appears in Google results! Please pay particular attention to this one =)
+#: include/GetGnuLinux.php:83
+msgid ""
+"Get GNU/Linux! A simple, clear website about Linux. | What is Linux? | Why "
+"not Windows? | Tips to make the switch"
+msgstr ""
+"Canvieu a GNU/Linux! Una senzilla i clara web sobre Linux. | Què és Linux? | "
+"Per què no Windows?| Consells per fer el canvi."
 
-#: include/HTML.php:80 include/HTML.php:98 pages/windows.php:31
-#: pages/windows.php:32 pages/windows.php:37
-#: pages/windows.what_about_choice.php:12
-msgid "What about choice?"
-msgstr "Que me'n dius de l'elecció?"
+#. i18n: This is the description of the 'More' page
+#: include/GetGnuLinux.php:85
+msgid "Read and discover more about Linux."
+msgstr "Llegiu i descobriu més sobre Linux."
 
-#: include/HTML.php:81 include/HTML.php:99 pages/windows.php:44
-#: pages/windows.php:45 pages/windows.php:50
-msgid "No source code"
-msgstr "Sense codi font"
+# L'altre cop ho vam traduïr així perquè era una petita introducció a tota una pàgina
+#. i18n: This is the description of the 'Linux' page
+#: include/GetGnuLinux.php:87
+msgid "What is Linux? A clear explanation."
+msgstr "Què és Linux? Una explicació clara."
 
-#: include/HTML.php:82 include/HTML.php:100 pages/linux.linux_faq.php:270
-#: pages/windows.php:56 pages/windows.php:57 pages/windows.php:66
-msgid "Stand for a free society"
-msgstr "Treballeu per a una societat lliure"
+#. i18n: This is the description of the 'Linux FAQ' page
+#: include/GetGnuLinux.php:89
+#, fuzzy
+msgid "Frequently Asked Questions about GNU/Linux."
+msgstr "Preguntes Més Freqüents sobre GNU/Linux"
 
-#: pages/credits.php:159 pages/legal.php:111 pages/not_found.php:19
+#. i18n: This is the description of the 'Misunderstanding Free Software' page
+#: include/GetGnuLinux.php:91
+#, fuzzy
+msgid "An unconventional way to (re)discover free software."
+msgstr "Una manera original de (re)descobrir el programari lliure"
+
+#. i18n: This is the description of the 'Screenshots' page
+#: include/GetGnuLinux.php:93
+msgid "A brief look at Linux in everyday use."
+msgstr "Una breu mirada a Linux en l'ús diari."
+
+#. i18n: This is the description of the 'Why not Windows' page
+#: include/GetGnuLinux.php:95
+msgid "Four good reasons to avoid proprietary software."
+msgstr "Quatre bones raons per evitar el programari privatiu."
+
+#. i18n: This is the description of the 'Restrictions' page
+#: include/GetGnuLinux.php:97
+msgid "Restrictions in a proprietary software license."
+msgstr "Restriccions de les llicències de programari privatiu."
+
+#. i18n: This is the description of the 'Restrictions further details' page
+#: include/GetGnuLinux.php:99
+msgid "Restrictions in a proprietary software license - more details."
+msgstr "Restriccions de les llicències de programari privatiu - més detalls."
+
+#. i18n: This is the description of the 'Stand for a free society' page
+#: include/GetGnuLinux.php:101 pages/windows.php:57
+msgid "How software affects freedom in society."
+msgstr "Com el programari afecta la llibertat en la societat."
+
+#. i18n: This is the description of the 'What about choice' page
+#: include/GetGnuLinux.php:103
+msgid "How Microsoft lock customers in."
+msgstr "Com Microsoft lliga els seus clients."
+
+#. i18n: This is the description of the 'What about source code' page
+#: include/GetGnuLinux.php:105
+msgid "No source code means no trust and no security."
+msgstr "Sense codi font no hi ha confiança ni seguretat."
+
+#. i18n: This is the description of the 'Switch to Linux' page
+#: include/GetGnuLinux.php:107
+msgid "Switch to Linux: Good tips and advice."
+msgstr "Canvieu a Linux: Bones propostes i consells."
+
+#. i18n: This is the description of the 'Choose a distribution' page
+#: include/GetGnuLinux.php:109
+msgid "Recommended Linux distributions for everyday users."
+msgstr "Distribucions de Linux recomanades per a l'ús diari."
+
+#. i18n: This is the description of the 'From Windows to Linux' page
+#: include/GetGnuLinux.php:111
+msgid "The advantages and disadvantages of Linux over Windows."
+msgstr "Els avantatges i desavantatges de Linux respecte de Windows."
+
+#. i18n: This is the description of the 'Try or Install' page. i18n note: this should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
+#: include/GetGnuLinux.php:113
+#, fuzzy
+msgid "Try or install Linux on your computer, very easily."
+msgstr "Provar o instalar Linux al vostre ordinador és molt fàcil."
+
+#: include/header.php:17
+msgid ""
+"linux, gnu/linux, free software, software freedom, open-source, windows "
+"alternative, get linux, switch to linux"
+msgstr ""
+"linux, gnu/linux, programari lliure, llibertat de programari, codi obert, "
+"windows, alternativa, aconsegueix linux, canvia a linux"
+
+#: include/header.php:96
+msgid "skip to content"
+msgstr "vés al contingut"
+
+#: include/header.php:103
+msgid "Alternate languages"
+msgstr "Alternate languages"
+
+#: include/header.php:132 include/header.php:139 include/HTML.php:61
+#: include/HTML.php:64
+msgid "get GNU/Linux!"
+msgstr "Canvieu a GNU/Linux!"
+
+#: include/header.php:139
+msgid "home page"
+msgstr "pàgina d'inici"
+
+#: pages/credits.php:160 pages/legal.php:112 pages/not_found.php:19
 #, fuzzy
 msgid "Return to the Homepage"
 msgstr "Tornar al cap damunt de la pàgina"
@@ -593,14 +723,6 @@ msgstr ""
 #, fuzzy
 msgid "More:"
 msgstr "Més"
-
-# No crec que sigui la millor forma, però és que "malentesos" no ho he vist mai escrit enlloc. Però potser "Mites" és massa informal. Tu tries.
-#: pages/linux.linux_faq.php:146 pages/linux.linux_faq.php:200
-#: pages/linux.linux_faq.php:214
-#: pages/linux.misunderstanding_free_software.php:14 pages/linux.php:68
-#: pages/windows.stand_for_a_free_society.php:155
-msgid "How to Misunderstand Free Software"
-msgstr "Mites del Programari Lliure"
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
 #: pages/linux.linux_faq.php:159
@@ -1937,10 +2059,6 @@ msgstr "Més en aquesta secció:"
 msgid "What Linux looks like"
 msgstr "Quina aparença té Linux?"
 
-#: pages/linux.php:70
-msgid "Linux FAQ - common questions about GNU/Linux"
-msgstr "PMF Linux - Preguntes més freqüents sobre GNU/Linux"
-
 #. i18n: This is the description of the "ubuntu1.png" screenshot.
 #: pages/linux.screenshots.php:6
 #, fuzzy
@@ -1985,9 +2103,8 @@ msgstr ""
 
 #. i18n: This is the description of the "gnewsense1.png" screenshot.
 #: pages/linux.screenshots.php:22
-#, fuzzy
-msgid "File browser open."
-msgstr "Navegador Firefox"
+msgid "Update manager open."
+msgstr ""
 
 #. i18n: This is the description of the "gnewsense2.png" screenshot.
 #: pages/linux.screenshots.php:24
@@ -1999,11 +2116,6 @@ msgstr "L'OpenOffice.org Calc obert, veient una taula d'exemple."
 #, fuzzy
 msgid "Accessing applications"
 msgstr "Programes GNU/Linux"
-
-#: pages/linux.screenshots.php:36
-#, fuzzy
-msgid "What GNU/Linux looks like"
-msgstr "Quina aparença té Linux?"
 
 #: pages/linux.screenshots.php:38
 #, fuzzy
@@ -3136,10 +3248,6 @@ msgstr ""
 "la qual Microsoft és ara un jugador important, prefereixen que utilitzeu "
 "Windows."
 
-#: pages/windows.php:57
-msgid "How software affects freedom in society."
-msgstr "Com el programari afecta la llibertat en la societat."
-
 #: pages/windows.php:60
 #, fuzzy
 msgid ""
@@ -3212,10 +3320,6 @@ msgstr ""
 "previ:\n"
 "#-#-#-#-#  windows-trimmed.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "anterior:"
-
-#: pages/windows.restrictions.further_details.php:9
-msgid "More details on restrictions"
-msgstr "Més detalls sobre restriccions"
 
 #: pages/windows.restrictions.further_details.php:11
 #, php-format
@@ -4427,6 +4531,10 @@ msgstr ""
 "En qui confiaríeu més? En el paquet prohibit d'estudiar o el paquet amb "
 "recepta?"
 
+#, fuzzy
+#~ msgid "File browser open."
+#~ msgstr "Navegador Firefox"
+
 # No entenc molt be a quin article es refereix...
 #, fuzzy
 #~ msgid "Not at all. We have this explained simply in our article %s."
@@ -4611,9 +4719,6 @@ msgstr ""
 #~ msgid "Get GNU/Linux"
 #~ msgstr "Canvieu a GNU/Linux"
 
-#~ msgid "home page"
-#~ msgstr "pàgina d'inici"
-
 #~ msgid "GetGNULinux.org"
 #~ msgstr "GNULinux.cat"
 
@@ -4743,44 +4848,6 @@ msgstr ""
 
 #~ msgid "Discover more"
 #~ msgstr "Quelcom més"
-
-#~ msgid "Home"
-#~ msgstr "Inici"
-
-#~ msgid "Read and discover more about Linux."
-#~ msgstr "Llegiu i descobriu més sobre Linux."
-
-# L'altre cop ho vam traduïr així perquè era una petita introducció a tota una pàgina
-#~ msgid "What is Linux? A clear explanation."
-#~ msgstr "Què és Linux? Una explicació clara."
-
-#~ msgid "A brief look at Linux in everyday use."
-#~ msgstr "Una breu mirada a Linux en l'ús diari."
-
-#~ msgid "Four good reasons to avoid proprietary software."
-#~ msgstr "Quatre bones raons per evitar el programari privatiu."
-
-#~ msgid "Restrictions in a proprietary software license."
-#~ msgstr "Restriccions de les llicències de programari privatiu."
-
-#~ msgid "Restrictions in a proprietary software license - more details."
-#~ msgstr ""
-#~ "Restriccions de les llicències de programari privatiu - més detalls."
-
-#~ msgid "How Microsoft lock customers in."
-#~ msgstr "Com Microsoft lliga els seus clients."
-
-#~ msgid "No source code means no trust and no security."
-#~ msgstr "Sense codi font no hi ha confiança ni seguretat."
-
-#~ msgid "Switch to Linux: Good tips and advice."
-#~ msgstr "Canvieu a Linux: Bones propostes i consells."
-
-#~ msgid "Recommended Linux distributions for everyday users."
-#~ msgstr "Distribucions de Linux recomanades per a l'ús diari."
-
-#~ msgid "The advantages and disadvantages of Linux over Windows."
-#~ msgstr "Els avantatges i desavantatges de Linux respecte de Windows."
 
 #, fuzzy
 #~ msgid ""
