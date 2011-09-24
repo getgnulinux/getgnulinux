@@ -12,7 +12,7 @@
     } ?>
     <title><?php $this->page_title(); ?></title>
     <link rel="copyright" type="text/html" title="Copyright notice for this website." href="<?php $this->base_url('legal'); ?>" hreflang="en" />
-    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="<?php $this->url('favicon.ico'); ?>" />
     <meta name="description" content="<?php $this->page_description(); ?>"/>
     <meta name="keywords" content="<?php print _("linux, gnu/linux, free software, software freedom, open-source, windows alternative, get linux, switch to linux"); ?>" />
     <?php $this->stylesheet('/style/main-ltr.css'); ?>

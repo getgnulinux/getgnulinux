@@ -72,6 +72,12 @@ class HTML {
         print $ggl->config['page_descriptions'][$p];
     }
 
+    function url($file)
+    {
+        global $ggl;
+        print $ggl->config['base_url'].$file;
+    }
+
     function menu_switch_to_linux() {
         print "<div id=\"subheader\">";
         printf ("<span class=\"title\"><a href=\"%s\">%s</a></span>", $this->base_url('switch_to_linux',1), _("Switch to Linux"));
