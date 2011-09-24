@@ -25,6 +25,13 @@ $gnewsense2_text = _("OpenOffice.org Calc open, showing an example spreadsheet."
 # i18n: This is the description of the "gnewsense3.png" screenshot.
 $gnewsense3_text = _("Accessing applications");
 
+# i18n: This is the description of the "trisquel1.png" screenshot.
+$trisquel1_text = _("Appearance preferences open.");
+# i18n: This is the description of the "trisquel2.png" screenshot.
+$trisquel2_text = _("LibreOffice Calc open, showing an example spreadsheet.");
+# i18n: This is the description of the "trisquel3.png" screenshot.
+$trisquel3_text = _("Accessing applications.");
+
 ?>
 
 <div class="upbutton_section">
@@ -79,23 +86,23 @@ $gnewsense3_text = _("Accessing applications");
 </div>
 
 
-<a id="gnewsense" />
+<a id="trisquel" />
 <div class="screenshot_even">
-<a rel="screenshots_gnewsense" title="<?php print $gnewsense1_text; ?>" href="/images/screenshots/gnewsense1.png"><img height="150" src="/images/screenshots/h150px/gnewsense1.png" alt="gNewSense Snapshot 1"/></a>
-<p><em>gNewSense:</em></p>
-<p><?php print $gnewsense1_text; ?></p>
+<a rel="screenshots_trisquel" title="<?php print $trisquel1_text; ?>" href="/images/screenshots/trisquel1.png"><img height="150" src="/images/screenshots/h150px/trisquel1.png" alt="Trisquel Snapshot 1"/></a>
+<p><em>Trisquel:</em></p>
+<p><?php print $trisquel1_text; ?></p>
 </div>
 
 <div class="screenshot_even">
-<a rel="screenshots_gnewsense" title="<?php print $gnewsense2_text; ?>" href="/images/screenshots/gnewsense2.png"><img height="150" src="/images/screenshots/h150px/gnewsense2.png" alt="gNewSense Snapshot 2"/></a>
-<p><em>gNewSense:</em></p>
-<p><?php print $gnewsense2_text; ?></p>
+<a rel="screenshots_trisquel" title="<?php print $trisquel2_text; ?>" href="/images/screenshots/trisquel2.png"><img height="150" src="/images/screenshots/h150px/trisquel2.png" alt="Trisquel Snapshot 2"/></a>
+<p><em>Trisquel:</em></p>
+<p><?php print $trisquel2_text; ?></p>
 </div>
 
 <div class="screenshot_even">
-<a rel="screenshots_gnewsense" title="<?php print $gnewsense3_text; ?>" href="/images/screenshots/gnewsense3.png"><img height="150" src="/images/screenshots/h150px/gnewsense3.png" alt="gNewSense Snapshot 3"/></a>
-<p><em>gNewSense:</em></p>
-<p><?php print $gnewsense3_text; ?></p>
+<a rel="screenshots_trisquel" title="<?php print $trisquel3_text; ?>" href="/images/screenshots/trisquel3.png"><img height="150" src="/images/screenshots/h150px/trisquel3.png" alt="Trisquel Snapshot 3"/></a>
+<p><em>Trisquel:</em></p>
+<p><?php print $trisquel3_text; ?></p>
 </div>
 
 </div><!-- end maincontent -->

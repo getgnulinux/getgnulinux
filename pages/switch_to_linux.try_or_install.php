@@ -74,13 +74,13 @@
 </div><!-- end fedora_light -->
 
 
-<div class="gnewsense_light">
-<h4 class="gnewsense_title">gNewSense</h4>
+<div class="trisquel_light">
+<h4 class="trisquel_title">Trisquel</h4>
 
 <p>
-	<a href="http://www.gnewsense.org/" class="get_it_button"><span class="go_download"><span class="download"><?php print _("Download the gNewSense CD"); ?></span></span></a>
-	<?php print _("The gNewSense installation is very similar to that of Ubuntu."); ?></p>
-</div><!-- end gnewsense_light -->
+	<a href="http://trisquel.info/" class="get_it_button"><span class="go_download"><span class="download"><?php print _("Download the Trisquel CD"); ?></span></span></a>
+	<?php print _("The Trisquel installation is very similar to that of Ubuntu."); ?></p>
+</div><!-- end trisquel_light -->
 
 
 <span class="note">

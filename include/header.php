@@ -46,7 +46,7 @@
 				'titlePosition' 	: 'outside',
 			});
 
-			$("a[rel=screenshots_gnewsense]").fancybox({
+			$("a[rel=screenshots_trisquel]").fancybox({
 				'transitionIn'		: 'none',
 				'transitionOut'		: 'none',
                 'overlayColor'		: '#000',

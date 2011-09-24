@@ -49,20 +49,21 @@ print _("The distribution by the long-time prominent GNU/Linux developer company
 
 </div><!-- end fedora -->
 
-<div class="gnewsense">
-<h2 id="gnewsense" class="gnewsense_title">gNewSense</h2>
-<a href="http://www.gnewsense.org/" title="gNewsSense GNU/Linux"><img src="/images/switch_to_linux/switch_to_linux.choose_a_distribution.gnewsense.png" width="140" height="90" alt="gNewSense"/></a>
-<p><?php $p = _("Since Ubuntu contains some restricting components (<a href=\"%s#full_freedom\">why?</a>), the gNewSense developers have built an entirely free derivative, with the help of the <acronym title=\"Free Software Foundation\">FSF</acronym>. Although its community is smaller and its hardware support might be slightly inferior, gNewSense gives anyone full freedom over a complete operating system almost identical to Ubuntu."); printf($p, $this->base_url('linux/linux_faq',1)); ?></p>
+<div class="trisquel">
+<h2 id="trisquel" class="trisquel_title">Trisquel</h2>
+<a href="http://trisquel.info/" title="Trisquel GNU/Linux"><img src="/images/switch_to_linux/switch_to_linux.choose_a_distribution.trisquel.png" width="90" height="90" alt="Trisquel"/></a>
+<p><?php $p = _("While Ubuntu contains some restricting components (<a href=\"%s#full_freedom\">why?</a>), the Trisquel developers have built an entirely free derivative. Although its community is smaller and its hardware support might be slightly inferior, Trisquel gives anyone full freedom over a complete operating system similar to Ubuntu."); printf($p, $this->base_url('linux/linux_faq',1)); ?></p>
+<?php #$p = _("Since Ubuntu contains some restricting components (<a href=\"%s#full_freedom\">why?</a>), the gNewSense developers have built an entirely free derivative, with the help of the <acronym title=\"Free Software Foundation\">FSF</acronym>. Although its community is smaller and its hardware support might be slightly inferior, gNewSense gives anyone full freedom over a complete operating system almost identical to Ubuntu."); ?>
 
 <p><?php print _("We recommend this distribution if you are committed to freedom in your computing."); ?></p>
 
 <div class="distro_screenshots">
-<a href="<?php $this->base_url('linux/screenshots'); ?>#gnewsense"><img src="/images/screenshots/h113px/gnewsense1.png" alt="screenshot1"/></a>
-<a href="<?php $this->base_url('linux/screenshots'); ?>#gnewsense"><img src="/images/screenshots/h113px/gnewsense2.png" alt="screenshot2"/></a>
-<a href="<?php $this->base_url('linux/screenshots'); ?>#gnewsense"><img src="/images/screenshots/h113px/gnewsense3.png" alt="screenshot3"/></a>
+<a href="<?php $this->base_url('linux/screenshots'); ?>#trisquel"><img src="/images/screenshots/h113px/trisquel1.png" alt="screenshot1"/></a>
+<a href="<?php $this->base_url('linux/screenshots'); ?>#trisquel"><img src="/images/screenshots/h113px/trisquel2.png" alt="screenshot2"/></a>
+<a href="<?php $this->base_url('linux/screenshots'); ?>#trisquel"><img src="/images/screenshots/h113px/trisquel3.png" alt="screenshot3"/></a>
 </div><!-- end distro_screenshots -->
 
-</div><!-- end gnewsense -->
+</div><!-- end trisquel -->
 
 
 

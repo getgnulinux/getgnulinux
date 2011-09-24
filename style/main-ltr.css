@@ -772,7 +772,7 @@ div .note {
  * Styles for "Choose a distribution" page.
  *----------------------------------------------------*/
 
-.ubuntu, .gnewsense, .fedora {
+.ubuntu, .gnewsense, .fedora, .trisquel {
     clear: both;
     padding: 1em;
     margin: 1em;
@@ -782,7 +782,7 @@ div .note {
     -webkit-border-radius: 4px;
 }
 
-.ubuntu img, .gnewsense img, .fedora img {
+.ubuntu img, .gnewsense img, .fedora img, .trisquel img {
     margin-bottom: 0.5em;
 }
 
@@ -798,7 +798,11 @@ div .note {
     border: 1px #8f5902 solid;
 }
 
-.ubuntu_title, .fedora_title, .gnewsense_title {
+.trisquel {
+    border: 1px #004DB1 solid;
+}
+
+.ubuntu_title, .fedora_title, .gnewsense_title, .trisquel_title {
     font-family: Helvetica, Arial, sans-serif;
     padding-left: 20px;
     font-size: 1.2em;
@@ -817,6 +821,11 @@ div .note {
 .gnewsense_title {
     color: #563100;
     background: url("/images/switch_to_linux/switch_to_linux.choose_a_distribution.gnewsense_icon.png") center left no-repeat;
+}
+
+.trisquel_title {
+    color: #000000;
+    background: url("/images/switch_to_linux/switch_to_linux.choose_a_distribution.trisquel_icon.png") center left no-repeat;
 }
 
 .distro_screenshots {
@@ -876,7 +885,7 @@ div .note {
     background: none;
 }
 
-.ubuntu_light, .fedora_light, .gnewsense_light {
+.ubuntu_light, .fedora_light, .gnewsense_light, .trisquel_light {
     margin: 0 0 0.5em 0;
     padding: 0.5em;
     background: white;
@@ -895,6 +904,10 @@ div .note {
 
 .gnewsense_light {
     border: 1px #c59292 solid;
+}
+
+.trisquel_light {
+    border: 1px #004DB1 solid;
 }
 
 /*----------------------------------------------------
