@@ -18,13 +18,6 @@ $fedora3_text = _("Accessing applications in the <a href=\"http://gnome3.org/\">
 # i18n: This is the text-only description of the "fedora3.png" screenshot.
 $fedora3_text2 = _("Accessing applications in the GNOME 3 desktop environment.");
 
-# i18n: This is the description of the "gnewsense1.png" screenshot.
-$gnewsense1_text = _("Update manager open.");
-# i18n: This is the description of the "gnewsense2.png" screenshot.
-$gnewsense2_text = _("OpenOffice.org Calc open, showing an example spreadsheet.");
-# i18n: This is the description of the "gnewsense3.png" screenshot.
-$gnewsense3_text = _("Accessing applications");
-
 # i18n: This is the description of the "trisquel1.png" screenshot.
 $trisquel1_text = _("Appearance preferences open.");
 # i18n: This is the description of the "trisquel2.png" screenshot.
