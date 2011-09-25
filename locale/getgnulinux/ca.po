@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: getgnulinux 0.0.1\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2011-09-24 14:36+0200\n"
+"POT-Creation-Date: 2011-09-25 18:43+0200\n"
 "PO-Revision-Date: 2011-06-19 21:31+0100\n"
 "Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -131,14 +131,14 @@ msgid "What GNU/Linux looks like"
 msgstr "Quina aparença té Linux?"
 
 #. i18n: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
-#: include/GetGnuLinux.php:61 include/header.php:151 include/HTML.php:94
-#: include/HTML.php:112 pages/home.php:30 pages/linux.php:60
+#: include/GetGnuLinux.php:61 include/header.php:151 include/HTML.php:100
+#: include/HTML.php:118 pages/home.php:30 pages/linux.php:60
 #: pages/windows.php:5
 msgid "Why not Windows"
 msgstr "Per què no Windows?"
 
 #. i18n: This title can be translated loosely
-#: include/GetGnuLinux.php:63 include/HTML.php:96 include/HTML.php:114
+#: include/GetGnuLinux.php:63 include/HTML.php:102 include/HTML.php:120
 #: pages/windows.php:14 pages/windows.php:16 pages/windows.php:23
 #: pages/windows.restrictions.further_details.php:4
 #: pages/windows.restrictions.further_details.php:83
@@ -152,33 +152,33 @@ msgid "More details on restrictions"
 msgstr "Més detalls sobre restriccions"
 
 #. i18n: This title can be translated loosely
-#: include/GetGnuLinux.php:67 include/HTML.php:99 include/HTML.php:117
+#: include/GetGnuLinux.php:67 include/HTML.php:105 include/HTML.php:123
 #: pages/linux.linux_faq.php:270 pages/windows.php:56 pages/windows.php:57
 #: pages/windows.php:66
 msgid "Stand for a free society"
 msgstr "Treballeu per a una societat lliure"
 
 #. i18n: This title can be translated loosely
-#: include/GetGnuLinux.php:69 include/HTML.php:97 include/HTML.php:115
+#: include/GetGnuLinux.php:69 include/HTML.php:103 include/HTML.php:121
 #: pages/windows.php:31 pages/windows.php:32 pages/windows.php:37
 #: pages/windows.what_about_choice.php:12
 msgid "What about choice?"
 msgstr "Que me'n dius de l'elecció?"
 
 #. i18n: This title can be translated loosely
-#: include/GetGnuLinux.php:71 include/HTML.php:98 include/HTML.php:116
+#: include/GetGnuLinux.php:71 include/HTML.php:104 include/HTML.php:122
 #: pages/windows.php:44 pages/windows.php:45 pages/windows.php:50
 msgid "No source code"
 msgstr "Sense codi font"
 
 # Migreu?
 #. i18n: This appears in the top header menu and should be as short and concise as possible.
-#: include/GetGnuLinux.php:73 include/header.php:152 include/HTML.php:77
+#: include/GetGnuLinux.php:73 include/header.php:152 include/HTML.php:83
 #: pages/home.php:37 pages/switch_to_linux.php:5 pages/windows.php:82
 msgid "Switch to Linux"
 msgstr "Canvieu a Linux"
 
-#: include/GetGnuLinux.php:74 include/HTML.php:80
+#: include/GetGnuLinux.php:74 include/HTML.php:86
 #: pages/switch_to_linux.choose_a_distribution.php:8
 #: pages/switch_to_linux.php:20
 #, fuzzy
@@ -189,14 +189,14 @@ msgstr ""
 "#-#-#-#-#  _webpages.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "Trieu una distribució"
 
-#: include/GetGnuLinux.php:75 include/HTML.php:79
+#: include/GetGnuLinux.php:75 include/HTML.php:85
 #: pages/switch_to_linux.from_windows_to_linux.php:8
 #: pages/switch_to_linux.php:12
 msgid "From Windows to Linux"
 msgstr "De Windows a Linux"
 
 #. i18n: This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
-#: include/GetGnuLinux.php:77 include/HTML.php:81 pages/switch_to_linux.php:26
+#: include/GetGnuLinux.php:77 include/HTML.php:87 pages/switch_to_linux.php:26
 #: pages/switch_to_linux.try_or_install.php:8
 msgid "Try or install"
 msgstr "Proveu o instal·leu"
@@ -2101,20 +2101,21 @@ msgstr ""
 msgid "Accessing applications in the GNOME 3 desktop environment."
 msgstr ""
 
-#. i18n: This is the description of the "gnewsense1.png" screenshot.
+#. i18n: This is the description of the "trisquel1.png" screenshot.
 #: pages/linux.screenshots.php:22
-msgid "Update manager open."
+msgid "Appearance preferences open."
 msgstr ""
 
-#. i18n: This is the description of the "gnewsense2.png" screenshot.
+#. i18n: This is the description of the "trisquel2.png" screenshot.
 #: pages/linux.screenshots.php:24
-msgid "OpenOffice.org Calc open, showing an example spreadsheet."
+#, fuzzy
+msgid "LibreOffice Calc open, showing an example spreadsheet."
 msgstr "L'OpenOffice.org Calc obert, veient una taula d'exemple."
 
-#. i18n: This is the description of the "gnewsense3.png" screenshot.
+#. i18n: This is the description of the "trisquel3.png" screenshot.
 #: pages/linux.screenshots.php:26
 #, fuzzy
-msgid "Accessing applications"
+msgid "Accessing applications."
 msgstr "Programes GNU/Linux"
 
 #: pages/linux.screenshots.php:38
@@ -2398,12 +2399,11 @@ msgstr ""
 #: pages/switch_to_linux.choose_a_distribution.php:55
 #, fuzzy, php-format
 msgid ""
-"Since Ubuntu contains some restricting components (<a href=\"%s#full_freedom"
-"\">why?</a>), the gNewSense developers have built an entirely free "
-"derivative, with the help of the <acronym title=\"Free Software Foundation"
-"\">FSF</acronym>. Although its community is smaller and its hardware support "
-"might be slightly inferior, gNewSense gives anyone full freedom over a "
-"complete operating system almost identical to Ubuntu."
+"While Ubuntu contains some restricting components (<a href=\"%s#full_freedom"
+"\">why?</a>), the Trisquel developers have built an entirely free "
+"derivative. Although its community is smaller and its hardware support might "
+"be slightly inferior, Trisquel gives anyone full freedom over a complete "
+"operating system similar to Ubuntu."
 msgstr ""
 "Degut a que Ubuntu inclou alguns components privatius (Per què?), els "
 "desenvolupadors de gNewSense van decidir fer un clon lliure d'Ubuntu, amb "
@@ -2412,7 +2412,7 @@ msgstr ""
 "inferior, gNewSense us dona un sistema operatiu complet, plenament lliure, "
 "idèntic a Ubuntu."
 
-#: pages/switch_to_linux.choose_a_distribution.php:57
+#: pages/switch_to_linux.choose_a_distribution.php:58
 #, fuzzy
 msgid ""
 "We recommend this distribution if you are committed to freedom in your "
@@ -2423,7 +2423,7 @@ msgstr ""
 
 # M'he inspirat en la versió espanyola, que han posat el que els hi ha donat la gana.
 #. i18n: if you don't know of a clean, simple comparison website, simply remove the link.
-#: pages/switch_to_linux.choose_a_distribution.php:71
+#: pages/switch_to_linux.choose_a_distribution.php:72
 #, fuzzy
 msgid ""
 "Note: There are <a href=\"http://distrowatch.com/dwres.php?resource=major"
@@ -2432,7 +2432,7 @@ msgstr ""
 "Nota: Hi ha milers de distribucions al món, aquí només us en citem tres que "
 "creiem adequades per la gent que comença."
 
-#: pages/switch_to_linux.choose_a_distribution.php:72
+#: pages/switch_to_linux.choose_a_distribution.php:73
 #, fuzzy
 msgid "This is our selection for newcomers. These links are not commercial."
 msgstr ""
@@ -2441,7 +2441,7 @@ msgstr ""
 "enllaços no són comercials."
 
 #. i18n: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
-#: pages/switch_to_linux.choose_a_distribution.php:79
+#: pages/switch_to_linux.choose_a_distribution.php:80
 #, fuzzy
 msgid "Now get a CD and try or install your distribution!"
 msgstr ""
@@ -3130,12 +3130,12 @@ msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:81
 #, fuzzy
-msgid "Download the gNewSense CD"
-msgstr "Descarregar el CD de gNewSense"
+msgid "Download the Trisquel CD"
+msgstr "Baixeu-vos el CD d'Ubuntu"
 
 #: pages/switch_to_linux.try_or_install.php:82
 #, fuzzy
-msgid "The gNewSense installation is very similar to that of Ubuntu."
+msgid "The Trisquel installation is very similar to that of Ubuntu."
 msgstr "La instal·lació de gNewSense és força similar a la d'Ubuntu."
 
 #: pages/switch_to_linux.try_or_install.php:87
@@ -4530,6 +4530,17 @@ msgid ""
 msgstr ""
 "En qui confiaríeu més? En el paquet prohibit d'estudiar o el paquet amb "
 "recepta?"
+
+#~ msgid "OpenOffice.org Calc open, showing an example spreadsheet."
+#~ msgstr "L'OpenOffice.org Calc obert, veient una taula d'exemple."
+
+#, fuzzy
+#~ msgid "Accessing applications"
+#~ msgstr "Programes GNU/Linux"
+
+#, fuzzy
+#~ msgid "Download the gNewSense CD"
+#~ msgstr "Descarregar el CD de gNewSense"
 
 #, fuzzy
 #~ msgid "File browser open."
