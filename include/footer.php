@@ -9,23 +9,23 @@
     <div class="footer-block">
         <h1><?php print _("About"); ?></h1>
         <ul class="footer-text">
-            <li><a href="<?php $this->text('contact_url'); ?>"><?php print _("Contact Us"); ?></a></li>
-            <li><a href="<?php $this->text('blog_url'); ?>"><?php print _("Our Blog"); ?></a></li>
+            <li><a href="<?php $this->text('contact_url'); ?>" title="<?php print _("Contact the team."); ?>"><?php print _("Contact us"); ?></a></li>
+            <li><a href="<?php $this->text('blog_url'); ?>" title="<?php print _("Read about news and updates."); ?>"><?php print _("Our blog"); ?></a></li>
         </ul>
     </div>
     <div class="footer-block">
         <h1><?php print _("Information"); ?></h1>
         <ul class="footer-text">
-            <li><a href="<?php $this->base_url('legal'); ?>" hreflang="en"><?php print _("Terms of Use"); ?></a></li>
+            <li><a href="<?php $this->base_url('legal'); ?>" hreflang="en"><?php print _("Terms of use"); ?></a></li>
             <li><a href="<?php $this->base_url('credits'); ?>"><?php print _("Credits"); ?></a></li>
         </ul>
     </div>
     <div class="footer-block">
-        <h1><a href="<?php $this->text('participate_url'); ?>"><?php print _("Participate"); ?></a></h1>
+        <h1><a href="<?php $this->text('participate_url'); ?>" title="<?php print _("More ways to help."); ?>"><?php print _("Participate"); ?></a></h1>
         <ul class="footer-text">
-            <li><a href="<?php $this->base_url('link_buttons'); ?>"><?php print _("Link to Us"); ?></a></li>
-            <li><a href="<?php $this->text('l10n_url'); ?>" title="<?php print _("Help translate the &quot;get GNU/Linux!&quot; website into your own language!"); ?>"><?php print _("Translation"); ?></a></li>
-            <li><a href="<?php $this->text('project_url'); ?>" title="<?php print _("Starting point for developers."); ?>"><?php print _("Project Page"); ?></a></li>
+            <li><a href="<?php $this->base_url('link_buttons'); ?>" title="<?php print _("Help us spread free software!"); ?>"><?php print _("Link to us"); ?></a></li>
+            <li><a href="<?php $this->text('l10n_url'); ?>" title="<?php print _("Help us reach an audience in your language!"); ?>"><?php print _("Translation"); ?></a></li>
+            <li><a href="<?php $this->text('project_url'); ?>" title="<?php print _("Starting point for developers."); ?>"><?php print _("Project page"); ?></a></li>
         </ul>
     </div>
     <div class="footer-block">
