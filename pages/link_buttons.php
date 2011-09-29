@@ -10,15 +10,26 @@
 
 <div id="link_buttons">
 
+    <img src="/links/en/80x15_20.png" alt="Get Linux" width="80" height="15" />
+    <div class="hidden copycode">&lt;a href=&quot;<?php $this->text('base_url'); ?>&quot; title=&quot;Get Linux - an alternative to Windows; free as in beer and speech&quot;&gt;&lt;img src=&quot;<?php $this->text('base_url'); ?>links/en/80x15_20.png&quot; alt=&quot;Get Linux&quot; width=&quot;80&quot; height=&quot;15&quot; border=&quot;0&quot;/&gt;&lt;/a&gt;</div>
+    <br/>
+
+    <img src="/links/en/80x15_28.png" alt="Get Linux" width="80" height="15" />
+    <div class="hidden copycode">&lt;a href=&quot;<?php $this->text('base_url'); ?>&quot; title=&quot;Get Linux - an alternative to Windows; free as in beer and speech&quot;&gt;&lt;img src=&quot;<?php $this->text('base_url'); ?>links/en/80x15_28.png&quot; alt=&quot;Get Linux&quot; width=&quot;80&quot; height=&quot;15&quot; border=&quot;0&quot;/&gt;&lt;/a&gt;</div>
+    <br/>
+
+    <img src="/links/en/80x15_25.png" alt="Get Linux" width="80" height="15" />
+    <div class="hidden copycode">&lt;a href=&quot;<?php $this->text('base_url'); ?>&quot; title=&quot;Get Linux - an alternative to Windows; free as in beer and speech&quot;&gt;&lt;img src=&quot;<?php $this->text('base_url'); ?>links/en/80x15_25.png&quot; alt=&quot;Get Linux&quot; width=&quot;80&quot; height=&quot;15&quot; border=&quot;0&quot;/&gt;&lt;/a&gt;</div>
+
+    <hr/>
+
     <img src="/links/en/horn_125x50_2.png" alt="Get Linux" width="125" height="50" />
     <div class="hidden copycode">&lt;a href=&quot;<?php $this->text('base_url'); ?>&quot; title=&quot;Get Linux - an alternative to Windows; free as in beer and speech&quot;&gt;&lt;img src=&quot;<?php $this->text('base_url'); ?>links/en/horn_125x50_2.png&quot; alt=&quot;Get Linux&quot; width=&quot;125&quot; height=&quot;50&quot; border=&quot;0&quot;/&gt;&lt;/a&gt;</div>
     <br/>
 
-
     <img src="/links/en/horn_125x50_3.png" alt="Get Linux" width="125" height="50" />
     <div class="hidden copycode">&lt;a href=&quot;<?php $this->text('base_url'); ?>&quot; title=&quot;Get Linux - an alternative to Windows; free as in beer and speech&quot;&gt;&lt;img src=&quot;<?php $this->text('base_url'); ?>links/en/horn_125x50_3.png&quot; alt=&quot;Get Linux&quot; width=&quot;125&quot; height=&quot;50&quot; border=&quot;0&quot;/&gt;&lt;/a&gt;</div>
     <br/>
-
 
     <img src="/links/en/horn_125x50_4.png" alt="Get Linux" width="125" height="50" />
     <div class="hidden copycode">&lt;a href=&quot;<?php $this->text('base_url'); ?>&quot; title=&quot;Get Linux - an alternative to Windows; free as in beer and speech&quot;&gt;&lt;img src=&quot;<?php $this->text('base_url'); ?>links/en/horn_125x50_4.png&quot; alt=&quot;Get Linux&quot; width=&quot;125&quot; height=&quot;50&quot; border=&quot;0&quot;/&gt;&lt;/a&gt;</div>
@@ -83,7 +94,7 @@
 
 <div id="usage">
 <h2>Usage</h2>
-<p>We kindly ask that these buttons be used only to point to <em>GNU/Linux Matters</em> websites.</p>
+<p>We kindly ask that these buttons be used only to point to <em>get GNU/Linux!</em> websites.</p>
 </div>
 
 <div id="license">
