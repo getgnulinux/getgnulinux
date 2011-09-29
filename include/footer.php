@@ -9,7 +9,7 @@
     <div class="footer-block">
         <h1><?php print _("About"); ?></h1>
         <ul class="footer-text">
-            <li><a href="<?php $this->text('contact_url'); ?>" title="<?php print _("Contact the team."); ?>"><?php print _("Contact us"); ?></a></li>
+            <li><a href="<?php $this->text('contact_url'); ?>" title="<?php print _("Contact the authors."); ?>"><?php print _("Contact us"); ?></a></li>
             <li><a href="<?php $this->text('blog_url'); ?>" title="<?php print _("Read about news and updates."); ?>"><?php print _("Our blog"); ?></a></li>
         </ul>
     </div>
@@ -21,7 +21,7 @@
         </ul>
     </div>
     <div class="footer-block">
-        <h1><a href="<?php $this->text('participate_url'); ?>" title="<?php print _("More ways to help."); ?>"><?php print _("Participate"); ?></a></h1>
+        <h1><a href="<?php $this->text('participate_url'); ?>" title="<?php print _("Ways to help."); ?>"><?php print _("Participate"); ?></a></h1>
         <ul class="footer-text">
             <li><a href="<?php $this->base_url('link_buttons'); ?>" title="<?php print _("Help us spread free software!"); ?>"><?php print _("Link to us"); ?></a></li>
             <li><a href="<?php $this->text('l10n_url'); ?>" title="<?php print _("Help us reach an audience in your language!"); ?>"><?php print _("Translation"); ?></a></li>
