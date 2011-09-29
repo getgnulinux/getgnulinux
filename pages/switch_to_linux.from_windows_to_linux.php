@@ -88,7 +88,7 @@ printf($p, $this->base_url('linux/screenshots',1)); ?></li>
 print _("Firefox browser"); ?>"/>
     <?php
 # i18n: use localized Firefox landing page if possible
-print _("The Web looks just the same when viewed with Linux (in fact you can browse the Web with the same program if you already use <a href=\"http://www.getfirefox.com/\">Firefox</a>). And of course, you can go through your picture and music collection all the same. Files and folders are navigated with a file manager like Windows Explorer."); ?></li>
+print _("The Web looks just the same when viewed with Linux (in fact you can browse the Web with the same program if you already use <a href=\"http://www.getfirefox.com/\">Firefox</a> or <a href=\"http://www.google.com/chrome/\">Google Chrome</a>). And of course, you can go through your picture and music collection all the same. Files and folders are navigated with a file manager like Windows Explorer."); ?></li>
 </ul>
 
 </div><!-- end section -->
