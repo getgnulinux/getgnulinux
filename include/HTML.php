@@ -57,18 +57,20 @@ class HTML {
     function page_title()
     {
         global $ggl;
-        if ( empty($_GET['p']) ) {
+        $p = isset($_GET['p']) ? $_GET['p'] : NULL;
+        if ( !array_key_exists($p, $ggl->config['page_titles']) ) {
             print _("get GNU/Linux!");
         }
         else {
-            print $ggl->config['page_titles'][$_GET['p']] . " | " . _("get GNU/Linux!");
+            print $ggl->config['page_titles'][$p] . " | " . _("get GNU/Linux!");
         }
     }
 
     function page_description()
     {
         global $ggl;
-        $p = empty($_GET['p']) ? 'default' : $_GET['p'];
+        $p = isset($_GET['p']) ? $_GET['p'] : NULL;
+        $p = !array_key_exists($p, $ggl->config['page_titles']) ? 'default' : $p;
         print $ggl->config['page_descriptions'][$p];
     }
 
