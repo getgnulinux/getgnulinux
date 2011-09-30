@@ -24,8 +24,7 @@
 <p>By accessing, browsing or using any of the &ldquo;get GNU/Linux!&rdquo; websites, any
 of their content or information, you have to understand and accept the terms on
 the present page.<br/>
-These websites include <a href="http://www.getgnulinux.org/">getgnulinux.org</a>,
-<a href="http://getgnulinux.no-ip.info/">getgnulinux.no-ip.info</a>
+These websites include <a href="http://getgnulinux.org/">getgnulinux.org</a>
 and all their sub-domains.</p>
 
 <h2 id="content">1. Content</h2>
@@ -40,9 +39,9 @@ Our websites are released under the following licenses:</p>
 
 <ul>
 	<li><a href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="|| Creative Commons License ||" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png"/></a>
-	Text content of getgnulinux.org, getgnulinux.no-ip.info,
-    and all their translations: <strong><a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative
-    Commons Attribution Share-Alike 3.0 License</a></strong>. This means we hold
+	Text content of getgnulinux.org
+    and all their translations: <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative
+    Commons Attribution Share-Alike 3.0 License</a>. This means we hold
     the copyright upon it, but grant some rights, including copying,
     redistributing, modifying for any purpose, including commercial, without
     permission, as long as you credit us for the original creation and
