@@ -1395,38 +1395,29 @@ div .note {
  * "Link buttons" page.
  *----------------------------------------------------*/
 
-.hidden { display: block; }
-.unhidden { display: block; }
-
 .copycode {
+    background-color: #F1F1F1;
+    border: 1px solid #4D4D4D;
+    color: black;
     font-family: "Andale Mono", "Courier New", Courier, monospace;
-    text-align: left;
-    background-color: #EFE0CD;
     font-size: 0.7em;
+    text-align: left;
     padding: 5px;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
+
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2) inset;
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2) inset;
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2) inset;
 }
 
 #link_buttons img {
-    float: left !important;
-    margin: 1.0em 0 0.5em 0 !important;
-    padding: 0 10px;
+    float: none;
+    margin: 0 1em 0 0;
+    padding-bottom: 5px;
+    vertical-align: top;
 }
 
-
-#link_buttons hr {
-    margin: 1.5em 0;
-    color: #807D74;
-    background-color: #807D74;
-    height: 1px;
-    border: 0;
-    clear: both;
-}
-
-#link_buttons br {
-    clear: both;
+.button {
+    margin-bottom: 25px;
 }
 
 /*----------------------------------------------------
@@ -1855,20 +1846,6 @@ div .note {
 #footer li {
     display: block;
     margin: 0;
-}
-
-.link_button {
-    float: right;
-    margin: 0.1em 0.2em 0 0.2em;
-}
-
-.link_button a img {
-    border: none;
-    opacity: 0.8;
-}
-
-.link_button a:hover img {
-    opacity: 1;
 }
 
 .clearfix:after {
