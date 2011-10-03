@@ -148,7 +148,7 @@ print _("I'm on my own with free software."); ?></h2>
 <li><?php print _("If you are looking for good documentation and support forums to assist you, there is plenty available for free (\"open source\") software."); ?><br/>
 <?php
 # i18n: use your best knowledge of the community to propose localized links ;-)
-print _("Each GNU/Linux distribution has its own community (for example, <a href=\"http://www.ubuntu.com/support/free\">Ubuntu support</a> or <a href=\"http://fedora.redhat.com/docs/\">Fedora docs</a>), but there are also general free software help communities, like <a href=\"http://www.nuxified.org/\">Nuxified.org</a>."); ?></li>
+print _("Each GNU/Linux distribution has its own community (for example, <a href=\"http://www.ubuntu.com/support/free\">Ubuntu support</a> or <a href=\"http://fedora.redhat.com/docs/\">Fedora docs</a>), but there are also general free software help communities, like <a href=\"http://www.linuxquestions.org/\">LinuxQuestions.org</a>."); ?></li>
 <li><?php print _("If you need someone you can reach on the phone anytime to assist you, the companies behind most distributions provide commercial support: see the <a href=\"http://www.ubuntu.com/support/paid\">Ubuntu Commercial Support</a> or <a href=\"http://www.redhat.com/rhel/\">Red Hat Enterprise Linux</a> pages for example."); ?></li>
 </ul>
 </div>
