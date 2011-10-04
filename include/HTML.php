@@ -59,10 +59,10 @@ class HTML {
         global $ggl;
         $p = isset($_GET['p']) ? $_GET['p'] : NULL;
         if ( !array_key_exists($p, $ggl->config['page_titles']) ) {
-            print _("get GNU/Linux!");
+            print $ggl->get('website_title');
         }
         else {
-            print $ggl->config['page_titles'][$p] . " | " . _("get GNU/Linux!");
+            print $ggl->config['page_titles'][$p] . " | " . $ggl->get('website_title');
         }
     }
 

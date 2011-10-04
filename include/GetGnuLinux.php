@@ -40,8 +40,33 @@ class GetGnuLinux {
         $dir = $this->config['locales'][$this->get('lang')][2];
         $this->set('dir', $dir);
 
-        # Initialize gettext.
+        # Initialize gettext. From here, gettext is enabled.
         $this->init_gettext();
+
+        # Set initial configuration values.
+        $this->init_config();
+    }
+
+    // define methods
+    function init_gettext() {
+        # Initialize gettext. Configure gettext to look in
+        # /locale/xx_YY/LC_MESSAGES/ for gettext_domain.mo.
+        $gettext_domain = $this->get('gettext_domain');
+
+        # Set language.
+        putenv("LANG=".$this->get('locale'));
+        setlocale(LC_ALL, $this->get('locale'));
+
+        # Specify location of translation tables
+        bindtextdomain($gettext_domain, "locale/");
+
+        # Choose domain
+        textdomain($gettext_domain);
+    }
+
+    function init_config() {
+        # i18n: The name of the website. It is displayed in the header of each page.
+        $this->config['website_title'] = _("get GNU/Linux!");
 
         # Set page titles for <title> tags.
         $this->config['page_titles'] = array(
@@ -112,23 +137,6 @@ class GetGnuLinux {
             # i18n: This is the description of the 'Try or Install' page. i18n note: this should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
             'switch_to_linux.try_or_install' => _("Try or install Linux on your computer, very easily."),
         );
-    }
-
-    // define methods
-    function init_gettext() {
-        # Initialize gettext. Configure gettext to look in
-        # /locale/xx_YY/LC_MESSAGES/ for gettext_domain.mo.
-        $gettext_domain = $this->get('gettext_domain');
-
-        # Set language.
-        putenv("LANG=".$this->get('locale'));
-        setlocale(LC_ALL, $this->get('locale'));
-
-        # Specify location of translation tables
-        bindtextdomain($gettext_domain, "locale/");
-
-        # Choose domain
-        textdomain($gettext_domain);
     }
 
 	function set($key, &$value)

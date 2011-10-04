@@ -129,14 +129,14 @@ $p = isset($_GET['p']) ? $_GET['p'] : NULL;
 if ($p == "home" || !$p) {
 ?>
     <div id="header_picture_homepage">
-	    <h1><?php print _("get GNU/Linux!"); ?></h1>
+	    <h1><?php print $this->text('website_title'); ?></h1>
     </div>
 <?php
 }
 else {
 ?>
     <div id="header_picture">
-        <h1><a href="<?php $this->base_url(); ?>" title="<?php print _("home page"); ?>"><?php print _("get GNU/Linux!"); ?></a></h1>
+        <h1><a href="<?php $this->base_url(); ?>" title="<?php print _("home page"); ?>"><?php $this->text('website_title'); ?></a></h1>
     </div>
 <?php } ?>
 
