@@ -97,8 +97,8 @@ printf($p, $ggl->get('participate_url'), $this->base_url('link_buttons',1)); ?><
 
 <div id="about_us_more">
 <ul>
-	<li><a href="<?php $this->base_url('legal'); ?>"><?php print _("Terms of Use"); ?></a></li>
-	<li><a href="<?php $this->text('contact_url'); ?>"><?php print _("Contact"); ?></a></li>
+	<li><a href="<?php $this->base_url('legal'); ?>"><?php print _("Terms of use"); ?></a></li>
+	<li><a href="<?php $this->text('contact_url'); ?>"><?php print _("Contact us"); ?></a></li>
 	<li><a href="<?php $this->base_url('credits'); ?>"><?php print _("Credits"); ?></a></li>
 </ul>
 </div><!-- end of sidebox -->
