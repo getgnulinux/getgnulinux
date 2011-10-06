@@ -277,7 +277,7 @@ code {
 
 #translations {
     position: absolute;
-    right: 0%;
+    right: 0;
     top: 0;
     padding: 0;
     width: 13em;
@@ -317,9 +317,9 @@ code {
     list-style: none;
     z-index: 3;
     display: none;
-    box-shadow: -1px 1px 1px rgba(0,0,0,0.1);
-    -moz-box-shadow: -1px 1px 1px rgba(0,0,0,0.1);
-    -webkit-box-shadow: -1px 1px 1px rgba(0,0,0,0.1);
+    box-shadow: -1px 1px 2px rgba(0,0,0,0.1);
+    -moz-box-shadow: -1px 1px 2px rgba(0,0,0,0.1);
+    -webkit-box-shadow: -1px 1px 2px rgba(0,0,0,0.1);
 }
 
 #translations li {
@@ -352,6 +352,15 @@ code {
 #translations #is_current_language a {
     font-style: italic;
     color: gray;
+}
+
+#translations span.percent {
+    color: gray;
+    font-size: 0.6em;
+    font-style: italic;
+    padding-right: 1em;
+    position: absolute;
+    right: 0;
 }
 
 /*----------------------------------------------------

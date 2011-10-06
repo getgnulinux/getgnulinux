@@ -221,6 +221,7 @@ html {
 
 #translations {
     left: 0;
+    right: auto;
 }
 
 #language_menu {
@@ -234,14 +235,21 @@ html {
 
 #translations ul {
     margin: -1px 0;
-    box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
-    -moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
-    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
 }
 
 #translations li a {
     text-align: right;
     padding: 0.3em 0.5em 0.3em 0.3em;
+}
+
+#translations span.percent {
+    padding-right: 0;
+    padding-left: 1em;
+    left: 0;
+    right: auto;
 }
 
 /*----------------------------------------------------
@@ -265,6 +273,7 @@ html {
 }
 
 #header_picture_homepage h1 {
+    left: auto;
     right: 15px;
 }
 
