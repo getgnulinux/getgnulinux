@@ -1,4 +1,28 @@
-@import url("fonts.css");
+/*----------------------------------------------------
+ * Load some custom fonts.
+ * Cantarell: SIL Open Font License, 1.1
+ *----------------------------------------------------*/
+
+@font-face {
+    font-family: 'Cantarell';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Cantarell Bold'), local('Cantarell-Bold'), url('fonts/Cantarell-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Cantarell';
+    font-style: italic;
+    font-weight: normal;
+    src: local('Cantarell Oblique'), local('Cantarell-Oblique'), url('fonts/Cantarell-Oblique.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Cantarell';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Cantarell Regular'), local('Cantarell-Regular'), url('fonts/Cantarell-Regular.ttf') format('truetype');
+}
 
 /*----------------------------------------------------
  * First, resetting some of the heterogenous UA styling
@@ -55,6 +79,13 @@ html {
     color: black;
     background-color: #F8F8F8;
     line-height: 1.4;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -128,7 +159,7 @@ em, strong {
 
 
 #maincontent ul {
-    list-style-image: url("/images/blackbullet.png"); /* Icons by Mark James - famfamfam.com */
+    list-style-image: url(/images/blackbullet.png); /* Icons by Mark James - famfamfam.com */
     margin-bottom: 2em;
 }
 
@@ -265,7 +296,7 @@ code {
     border-bottom: 1px #dfd9f9 solid;
     border-right: 1px #dfd9f9 solid;
     border-left: 1px #dfd9f9 solid;
-    background-image: url("/images/arrow_down.png");
+    background-image: url(/images/arrow_down.png);
     background-position: right center;
     background-repeat: no-repeat;
     vertical-align: middle;
@@ -275,7 +306,7 @@ code {
     font-size: 14px;
     min-height: 24px;
     padding: 0 0 0 30px;
-    background: url("/images/alternate_languages.png") top left no-repeat;
+    background: url(/images/alternate_languages.png) top left no-repeat;
 }
 
 #translations ul {
@@ -327,76 +358,18 @@ code {
  * Main body
  *----------------------------------------------------*/
 
-body {
-    margin: 0;
-    padding: 0;
+#global-container {
+    min-height: 100%;
+    position: relative;
 }
 
 #wrapper {
-    padding: 0;
+    max-width: 90%;
+    min-width: 550px;
+    margin: 0 auto;
+    padding-top: 2em;
+    padding-bottom: 7em; /* Height of the footer */
     width: 720px;
-    max-width: 90%;
-    min-width: 550px;
-    margin: 2em auto 0 auto;
-}
-
-.wrap_top {	/* "Shadows" brought by 4 divs wrapping the actual content */
-    width: 45em;
-    max-width: 90%;
-    min-width: 550px;
-    margin: 1.5em auto 0 auto;
-    clear: both;
-    background: url("/images/bgd_top.png") top repeat-x;
-    padding-top: 8px;
-}
-
-.wrap_right {
-    background: url("/images/bgd_right.png") right repeat-y;
-    padding-right: 8px;
-}
-
-.wrap_bottom {
-    background: url("/images/bgd_bottom.png") bottom repeat-x;
-    padding-bottom: 8px;
-}
-
-.wrap_left {
-    background: url("/images/bgd_left.png") left repeat-y;
-    padding-left: 8px;
-}
-
-.topl, .topr, .botl, .botr {
-    position: relative;	/*corners are floated*/
-    height: 12px;
-    width: 12px;
-}
-
-.topl {
-    background: url("/images/bgd_topl.png") top left no-repeat;
-    float: left;
-    top: -6px;
-    left: -6px;
-}
-
-.topr {
-    background: url("/images/bgd_topr.png") top right no-repeat;
-    float: right;
-    top: -6px;
-    right: -6px;
-}
-
-.botl {
-    background: url("/images/bgd_botl.png") bottom left no-repeat;
-    float: left;
-    bottom: 6px;
-    left: -6px;
-}
-
-.botr {
-    background: url("/images/bgd_botr.png") bottom right no-repeat;
-    float: right;
-    bottom: 6px;
-    right: -6px;
 }
 
 #mainbody {
@@ -477,12 +450,12 @@ body {
 /*----------------------------------------------------
  * Navigation bar
  *
- * The naviagtion bar style is based the `GNOME Grass`
+ * The naviagtion bar style is based on the `GNOME Grass`
  * theme by Vinicius Depizzol for gnome.org.
  *----------------------------------------------------*/
 
 #top_bar {
-    background: #fff url("/images/menu_bar_bg.png") top repeat-x;
+    background: #fff url(/images/menu_bar_bg.png) top repeat-x;
     padding: 8px 0;
     margin-top: 0px;
     font-size: 16px;
@@ -546,7 +519,7 @@ body {
  * Main contents
  *----------------------------------------------------*/
 
-#maincontent {		/* The actual (interesting!) text content, inside mainbody */
+#maincontent { /* The actual (interesting!) text content, inside mainbody */
     margin-top: 3em;
     clear: none;
 }
@@ -811,22 +784,22 @@ div .note {
 
 .ubuntu_title {
     color: #000000;
-    background: url("/images/switch_to_linux/switch_to_linux.choose_a_distribution.ubuntu_icon.png") center left no-repeat;
+    background: url(/images/switch_to_linux/switch_to_linux.choose_a_distribution.ubuntu_icon.png) center left no-repeat;
 }
 
 .fedora_title {
     color: #0a57a4;
-    background: url("/images/switch_to_linux/switch_to_linux.choose_a_distribution.fedora_icon.png") center left no-repeat;
+    background: url(/images/switch_to_linux/switch_to_linux.choose_a_distribution.fedora_icon.png) center left no-repeat;
 }
 
 .gnewsense_title {
     color: #563100;
-    background: url("/images/switch_to_linux/switch_to_linux.choose_a_distribution.gnewsense_icon.png") center left no-repeat;
+    background: url(/images/switch_to_linux/switch_to_linux.choose_a_distribution.gnewsense_icon.png) center left no-repeat;
 }
 
 .trisquel_title {
     color: #000000;
-    background: url("/images/switch_to_linux/switch_to_linux.choose_a_distribution.trisquel_icon.png") center left no-repeat;
+    background: url(/images/switch_to_linux/switch_to_linux.choose_a_distribution.trisquel_icon.png) center left no-repeat;
 }
 
 .distro_screenshots {
@@ -873,12 +846,12 @@ div .note {
 }
 
 .go_download {
-    background: url("/images/go_ltr.png") center left no-repeat;
+    background: url(/images/go_ltr.png) center left no-repeat;
     padding-left: 22px;
 }
 
 .order {
-    background: url("/images/box.png") center left no-repeat;
+    background: url(/images/box.png) center left no-repeat;
     padding-left: 22px;
 }
 
@@ -1458,7 +1431,7 @@ div .note {
     display: block;
     padding: 0.3em 0.2em;
     color: black;
-    background: url("/images/button-bg.png") repeat-x scroll center center #ECECEC;
+    background: url(/images/button-bg.png) repeat-x scroll center center #ECECEC;
     border: 1px #CCCCCC solid;
     text-shadow: 0 1px 0 #FFFFFF;
     border-radius: 4px;
@@ -1494,7 +1467,7 @@ div .note {
 }
 
 .previous {
-    background: url("/images/left.png") center left no-repeat; /* icons by Mark James - famfamfam.com */
+    background: url(/images/left.png) center left no-repeat; /* icons by Mark James - famfamfam.com */
     padding-left: 20px;
     font-size: 0.9em;
 }
@@ -1507,7 +1480,7 @@ div .note {
 }
 
 .next {
-    background: url("/images/right.png") center right no-repeat;
+    background: url(/images/right.png) center right no-repeat;
     padding-right: 20px;
     font-size: 0.9em;
 }
@@ -1526,7 +1499,7 @@ div .note {
 }
 
 .up {
-    background: url("/images/up.png") center left no-repeat;
+    background: url(/images/up.png) center left no-repeat;
     padding-left: 20px;
     font-size: 0.9em;
 }
@@ -1581,7 +1554,7 @@ div .note {
 
 #maincontent #faq_content a, #maincontent #faq_content a:hover {
     padding-left: 16px;
-    background: white url("/images/bullet_arrow_down.png") no-repeat center left; /* icons by Mark James - famfamfam.com */
+    background: white url(/images/bullet_arrow_down.png) no-repeat center left; /* icons by Mark James - famfamfam.com */
 }
 
 
@@ -1593,7 +1566,7 @@ div .note {
 
 #maincontent .back_to_top a {
     padding: 1px 3px 2px 16px;
-    background: white url("/images/bullet_arrow_up.png") no-repeat top left;
+    background: white url(/images/bullet_arrow_up.png) no-repeat top left;
     border: 1px white solid;
 }
 
@@ -1608,7 +1581,7 @@ div .note {
 
 .question_answer { /*Set of one Q+Q_sub+Answer*/
     padding-left: 2em;
-    background: white url("/images/blackbullet_faq.png") no-repeat top left;
+    background: white url(/images/blackbullet_faq.png) no-repeat top left;
 }
 
 .question  { /*Question, is also h3*/
@@ -1773,7 +1746,11 @@ div .note {
 #footer {
     background: url(/images/footer_bg.png) repeat-x scroll 0 0 #F0F0F0;
     border-top: 1px #DFD9F9 solid;
+    bottom: 0;
+    height: 7em; /* Height of the footer */
     margin-bottom: 0;
+    position: absolute;
+    width: 100%;
 }
 
 #footer-container {

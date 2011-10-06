@@ -58,9 +58,6 @@
     </script>
             <?php
             break;
-        case 'link_buttons':
-            $this->javascript('/style/togglecodetext.js');
-            break;
     }
     ?>
 
@@ -92,6 +89,7 @@
 </head>
 
 <body>
+<div id="global-container">
 <div class="accessibility">
     <a href="#maincontent"><?php print _("skip to content"); ?></a>
 </div>
