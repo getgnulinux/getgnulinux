@@ -53,7 +53,6 @@ print _("The distribution by the long-time prominent GNU/Linux developer company
 <h2 id="trisquel" class="trisquel_title">Trisquel</h2>
 <a href="http://trisquel.info/" title="Trisquel GNU/Linux"><img src="/images/switch_to_linux/switch_to_linux.choose_a_distribution.trisquel.png" width="90" height="90" alt="Trisquel"/></a>
 <p><?php $p = _("While Ubuntu contains some restricting components (<a href=\"%s#full_freedom\">why?</a>), the Trisquel developers have built an entirely free derivative. Although its community is smaller and its hardware support might be slightly inferior, Trisquel gives anyone full freedom over a complete operating system similar to Ubuntu."); printf($p, $this->base_url('linux/linux_faq',1)); ?></p>
-<?php #$p = _("Since Ubuntu contains some restricting components (<a href=\"%s#full_freedom\">why?</a>), the gNewSense developers have built an entirely free derivative, with the help of the <acronym title=\"Free Software Foundation\">FSF</acronym>. Although its community is smaller and its hardware support might be slightly inferior, gNewSense gives anyone full freedom over a complete operating system almost identical to Ubuntu."); ?>
 
 <p><?php print _("We recommend this distribution if you are committed to freedom in your computing."); ?></p>
 
