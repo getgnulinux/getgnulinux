@@ -9,6 +9,7 @@ LOCALE_DIR=locale
 DOMAIN=getgnulinux
 CHARSET=UTF-8
 LOCALE_GEN=locale-gen
+LOCALES=ar_SA ca_AD da_DK de_DE es_ES fr_FR hr_HR it_IT ja_JP ml_IN nl_NL pt_BR pt_PT ru_RU sr_RS tr_TR uk_UA vi_VN zh_CN
 
 # Internal variables.
 template=$(LOCALE_DIR)/$(DOMAIN)/$(DOMAIN).pot
@@ -59,6 +60,7 @@ pot:
 # Build PO file for each locale. Requires that the PO Template file is present.
 po: pot
 	cp scripts/make-po.sh.in make-po.sh
+	sed --in-place make-po.sh --expression=s/LOCALES/"$(LOCALES)"/
 	sed --in-place make-po.sh --expression=s/LOCALE_DIR/$(LOCALE_DIR)/
 	sed --in-place make-po.sh --expression=s/TEMPLATE/$(LOCALE_DIR)\\/$(DOMAIN)\\/$(DOMAIN).pot/
 	sed --in-place make-po.sh --expression=s/DOMAIN/$(DOMAIN)/

@@ -1,6 +1,7 @@
 #!/bin/bash
 
-locales=(`ls LOCALE_DIR | grep "[a-z]\{2\}_[A-Z]\{2\}"`)
+#locales=(`ls LOCALE_DIR | grep "[a-z]\{2\}_[A-Z]\{2\}"`)
+locales=(LOCALES)
 
 for locale in ${locales[@]};
 do
