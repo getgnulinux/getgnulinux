@@ -6,10 +6,11 @@ then
     exit 1
 fi
 
+locales=(LOCALES)
 utf8_locales=(UTF8_LOCALES)
 locale_list=
 
-for i in `ls LOCALE_DIR | grep "[a-z]\{2\}_[A-Z]\{2\}"`;
+for i in ${locales[@]};
 do
     switch=0
     for u in ${utf8_locales[@]};
