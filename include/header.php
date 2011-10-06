@@ -6,9 +6,9 @@
 
     <!-- Alternate languages: -->
     <?php
-    foreach ($ggl->config['locales'] as $id => $items) {
+    foreach ($ggl->get('locales') as $id => $items) {
         printf("<link rel=\"alternate\" type=\"text/html\" dir=\"%s\" hreflang=\"%s\" href=\"/%s/\" title=\"%s\" />\n",
-            $items[2], $id, $id, $items[4]);
+            $items[3], $id, $id, $items[5]);
     } ?>
     <title><?php $this->page_title(); ?></title>
     <link rel="copyright" type="text/html" title="Copyright notice for this website." href="<?php $this->base_url('legal'); ?>" hreflang="en" />
@@ -63,7 +63,7 @@
 
     <style type="text/css">
     #language_menu_text {
-        background: url("/images/flags/<?php print $ggl->get('country_code'); ?>.gif") center left no-repeat;
+        background: url(/images/flags/<?php print $ggl->get('country_code'); ?>.gif) center left no-repeat;
     }
     </style>
 
@@ -102,16 +102,16 @@
 
 <ul>
 <?php
-foreach ($ggl->config['locales'] as $id => $items) {
+foreach ($ggl->get('locales') as $id => $items) {
     printf("<li%s><a href=\"/%s/%s\" hreflang=\"%s\"><img src=\"/images/flags/%s.gif\" alt=\"%s\" /> <span class=\"language\" dir=\"%s\">%s</span></a></li>\n",
         $this->is_current_language($id),
         $id,
         $this->current_page(),
         $id,
-        strtolower(substr($items[0], 3, 2)),
+        $items[1],
         $id,
-        $items[2],
-        $items[3]);
+        $items[3],
+        $items[4]);
 }
 ?>
 </ul>

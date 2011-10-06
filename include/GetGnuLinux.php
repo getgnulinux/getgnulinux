@@ -7,37 +7,37 @@ class GetGnuLinux {
         'gettext_domain' => "getgnulinux",
         'dir' => "ltr",
         'locales' => array(
-            'ar' => array('ar_SA.UTF-8',"الرئيسية",'rtl',"العربية", "احصل على هذه الصفحة باللغة العربية !"),
-            'ca' => array('ca_AD.UTF-8',"Inici",'ltr',"català", "Traduïu aquesta pàgina a la llengua català!"),
-            'da' => array('da_DK.UTF-8',"Home",'ltr',"dansk sprog", "Watch this page in Danish"),
-            'en' => array('en_GB.UTF-8',"Home",'ltr',"English", "Watch this page in English"),
-            'de' => array('de_DE.UTF-8',"Home",'ltr',"Deutsch", "Watch this page in German"),
-            'es' => array('es_ES.UTF-8',"Inicio",'ltr',"castellano", "¡Lee esta página en castellano!"),
-            'fr' => array('fr_FR.UTF-8',"Accueil",'ltr',"français", "Cette page en français"),
-            'hr' => array('hr_HR.UTF-8',"Home",'ltr',"hrvatski jezik", "Watch this page in Croatian"),
-            #'id' => array('id_ID.UTF-8',"Home",'ltr',"Bahasa Indonesia", "Watch this page in Indonesian"),
-            'it' => array('it_IT.UTF-8',"Home",'ltr',"italiano", "Watch this page in Italian"),
-            'ja' => array('ja_JP.UTF-8',"Home",'ltr',"日本語", "Watch this page in Japanese"),
-            'ml' => array('ml_IN',"Home",'ltr',"മലയാളം", "Watch this page in Malayalam"),
-            'nl' => array('nl_NL.UTF-8',"Hoofdpagina",'ltr',"Nederlands", "Bekijk deze pagina in het Nederlands"),
-            'pt' => array('pt_PT.UTF-8',"Home",'ltr',"português", "Watch this page in Portuguese"),
-            'ru' => array('ru_RU.UTF-8',"Домой",'ltr',"русский", "Просмотреть эту страницу на русский языке!"),
-            'sr' => array('sr_RS',"Home",'ltr',"српски", "Watch this page in Serbian"),
-            'uk' => array('uk_UA.UTF-8',"Додому",'ltr',"українська", "Переглянути цю сторінку на українська мові!"),
-            'tr' => array('tr_TR.UTF-8',"Home",'ltr',"Türkçe", "Watch this page in Turkish"),
-            'vi' => array('vi_VN',"Nhà",'ltr',"Tiếng Việt", "Xem trang này bằng tiếng Tiếng Việt !"),
-            'zh' => array('zh_CN.UTF-8',"Home",'ltr',"汉语", "Watch this page in Chinese"),
+            'ar' => array('ar_SA.UTF-8','sa',"الرئيسية",'rtl',"العربية", "احصل على هذه الصفحة باللغة العربية !"),
+            'ca' => array('ca_AD.UTF-8','ad',"Inici",'ltr',"català", "Traduïu aquesta pàgina a la llengua català!"),
+            'da' => array('da_DK.UTF-8','dk',"Home",'ltr',"dansk sprog", "Watch this page in Danish"),
+            'en' => array('en_GB.UTF-8','gb',"Home",'ltr',"English", "Watch this page in English"),
+            'de' => array('de_DE.UTF-8','de',"Home",'ltr',"Deutsch", "Watch this page in German"),
+            'es' => array('es_ES.UTF-8','es',"Inicio",'ltr',"castellano", "¡Lee esta página en castellano!"),
+            'fr' => array('fr_FR.UTF-8','fr',"Accueil",'ltr',"français", "Cette page en français"),
+            'hr' => array('hr_HR.UTF-8','hr',"Home",'ltr',"hrvatski jezik", "Watch this page in Croatian"),
+            'it' => array('it_IT.UTF-8','it',"Home",'ltr',"italiano", "Watch this page in Italian"),
+            'ja' => array('ja_JP.UTF-8','jp',"Home",'ltr',"日本語", "Watch this page in Japanese"),
+            'ml' => array('ml_IN',      'in',"Home",'ltr',"മലയാളം", "Watch this page in Malayalam"),
+            'nl' => array('nl_NL.UTF-8','nl',"Hoofdpagina",'ltr',"Nederlands", "Bekijk deze pagina in het Nederlands"),
+            'pt' => array('pt_PT.UTF-8','pt',"Home",'ltr',"português", "Watch this page in Portuguese"),
+            'ru' => array('ru_RU.UTF-8','ru',"Домой",'ltr',"русский", "Просмотреть эту страницу на русский языке!"),
+            'sr' => array('sr_RS',      'rs',"Home",'ltr',"српски", "Watch this page in Serbian"),
+            'uk' => array('uk_UA.UTF-8','ua',"Додому",'ltr',"українська", "Переглянути цю сторінку на українська мові!"),
+            'tr' => array('tr_TR.UTF-8','tr',"Home",'ltr',"Türkçe", "Watch this page in Turkish"),
+            'vi' => array('vi_VN',      'vn',"Nhà",'ltr',"Tiếng Việt", "Xem trang này bằng tiếng Tiếng Việt !"),
+            'zh' => array('zh_CN.UTF-8','cn',"Home",'ltr',"汉语", "Watch this page in Chinese"),
+            'eo' => array('eo.UTF-8',   'eo',"Home",'ltr',"Esperanto", "Watch this page in Esperanto"),
             )
         );
 
     // constructor
     function __construct() {
         # Set the locale.
-        $locale = isset($_GET['l']) ? $_GET['l'] : "en_GB";
+        $locale = isset($_GET['l']) ? $_GET['l'] : 'en';
         $this->set('locale', $locale);
 
         # Set the text direction.
-        $dir = $this->config['locales'][$this->get('lang')][2];
+        $dir = $this->config['locales'][$this->get('lang')][3];
         $this->set('dir', $dir);
 
         # Initialize gettext. From here, gettext is enabled.
@@ -150,20 +150,15 @@ class GetGnuLinux {
 
     function set_locale($locale)
     {
-        if ( array_key_exists($locale, $this->config['locales']) ) {
+        if ( isset($this->config['locales'][$locale]) ) {
             $this->config['locale'] = $this->config['locales'][$locale][0];
+            $this->config['country_code'] = $this->config['locales'][$locale][1];
+            $this->config['lang'] = $locale;
         }
     }
 
     function get($key, $default='')
     {
-        if ($key == 'lang') {
-            return substr($this->config['locale'], 0, 2);
-        }
-        else if ($key == 'country_code') {
-            return strtolower(substr($this->config['locale'], 3, 2));
-        }
-
 		if ( isset($this->config[$key]) ) {
 			return $this->config[$key];
 		}
