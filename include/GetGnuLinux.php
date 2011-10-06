@@ -10,8 +10,9 @@ class GetGnuLinux {
             'ar' => array('ar_SA.UTF-8','sa',"الرئيسية",'rtl',"العربية", "احصل على هذه الصفحة باللغة العربية !"),
             'ca' => array('ca_AD.UTF-8','ad',"Inici",'ltr',"català", "Traduïu aquesta pàgina a la llengua català!"),
             'da' => array('da_DK.UTF-8','dk',"Home",'ltr',"dansk sprog", "Watch this page in Danish"),
-            'en' => array('en_GB.UTF-8','gb',"Home",'ltr',"English", "Watch this page in English"),
             'de' => array('de_DE.UTF-8','de',"Home",'ltr',"Deutsch", "Watch this page in German"),
+            'en' => array('en_GB.UTF-8','gb',"Home",'ltr',"English", "Watch this page in English"),
+            'eo' => array('eo.UTF-8',   'eo',"Home",'ltr',"Esperanto", "Watch this page in Esperanto"),
             'es' => array('es_ES.UTF-8','es',"Inicio",'ltr',"castellano", "¡Lee esta página en castellano!"),
             'fr' => array('fr_FR.UTF-8','fr',"Accueil",'ltr',"français", "Cette page en français"),
             'hr' => array('hr_HR.UTF-8','hr',"Home",'ltr',"hrvatski jezik", "Watch this page in Croatian"),
@@ -22,11 +23,10 @@ class GetGnuLinux {
             'pt' => array('pt_PT.UTF-8','pt',"Home",'ltr',"português", "Watch this page in Portuguese"),
             'ru' => array('ru_RU.UTF-8','ru',"Домой",'ltr',"русский", "Просмотреть эту страницу на русский языке!"),
             'sr' => array('sr_RS',      'rs',"Home",'ltr',"српски", "Watch this page in Serbian"),
-            'uk' => array('uk_UA.UTF-8','ua',"Додому",'ltr',"українська", "Переглянути цю сторінку на українська мові!"),
             'tr' => array('tr_TR.UTF-8','tr',"Home",'ltr',"Türkçe", "Watch this page in Turkish"),
+            'uk' => array('uk_UA.UTF-8','ua',"Додому",'ltr',"українська", "Переглянути цю сторінку на українська мові!"),
             'vi' => array('vi_VN',      'vn',"Nhà",'ltr',"Tiếng Việt", "Xem trang này bằng tiếng Tiếng Việt !"),
             'zh' => array('zh_CN.UTF-8','cn',"Home",'ltr',"汉语", "Watch this page in Chinese"),
-            'eo' => array('eo.UTF-8',   'eo',"Home",'ltr',"Esperanto", "Watch this page in Esperanto"),
             )
         );
 
