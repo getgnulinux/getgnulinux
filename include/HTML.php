@@ -74,12 +74,6 @@ class HTML {
         print $ggl->config['page_descriptions'][$p];
     }
 
-    function url($file)
-    {
-        global $ggl;
-        print $ggl->config['base_url'].$file;
-    }
-
     function menu_switch_to_linux() {
         print "<div id=\"subheader\">";
         printf ("<span class=\"title\"><a href=\"%s\">%s</a></span>", $this->base_url('switch_to_linux',1), _("Switch to Linux"));
@@ -190,13 +184,19 @@ class HTML {
         }
     }
 
-    function base_url($p=NULL, $return=0) {
+    function base_url($p=NULL, $return=0, $root=0) {
         global $ggl;
 
         if (isset($p)) {
-            $url = sprintf ("/%s/%s/", $ggl->get('lang'), $p);
+            $url = sprintf("%s/%s/", $ggl->get('lang'), $p);
         } else {
-            $url = sprintf ("/%s/",$ggl->get('lang'));
+            $url = sprintf("%s/", $ggl->get('lang'));
+        }
+
+        if ($root) {
+            $url = $ggl->get('base_url').$url;
+        } else {
+            $url = "/".$url;
         }
 
         if ($return) {
@@ -204,6 +204,12 @@ class HTML {
         } else {
             print $url;
         }
+    }
+
+    function url($file)
+    {
+        global $ggl;
+        print $ggl->get('base_url').$file;
     }
 
     /**
