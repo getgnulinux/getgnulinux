@@ -153,14 +153,22 @@ class HTML {
         }
     }
 
-    function current_page() {
+    function current_page($lang=NULL) {
+        global $ggl;
+
+        if ($lang) {
+            $l = $lang;
+        } else {
+            $l = $ggl->get('lang');
+        }
+
         $p = isset($_GET['p']) ? $_GET['p'] : NULL;
         $p = str_replace('.','/',$p);
+
         if ($p) {
-            return $p.'/';
-        }
-        else {
-            return "";
+            return sprintf("%s/%s/", $l, $p);
+        } else {
+            return sprintf("%s/", $l);
         }
     }
 

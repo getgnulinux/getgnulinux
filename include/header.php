@@ -7,12 +7,12 @@
     <!-- alternate languages -->
     <?php
     $base_url = $ggl->get('base_url');
-    foreach ($ggl->get('locales') as $id => $items) {
-        printf("<link rel=\"alternate\" type=\"text/html\" dir=\"%s\" hreflang=\"%s\" href=\"%s%s/\" title=\"%s\" />\n",
+    foreach ($ggl->get('locales') as $lang => $items) {
+        printf("<link rel=\"alternate\" type=\"text/html\" dir=\"%s\" hreflang=\"%s\" href=\"%s%s\" title=\"%s\" />\n",
             $items[3],
-            $id,
+            $lang,
             $base_url,
-            $id,
+            $this->current_page($lang),
             $items[5]);
     } ?>
     <!-- end alternate languages -->
@@ -108,14 +108,13 @@
 
 <ul>
 <?php
-foreach ($ggl->get('locales') as $id => $items) {
-    printf("<li%s><a href=\"/%s/%s\" hreflang=\"%s\"><img src=\"/images/flags/%s.gif\" alt=\"%s\" /> <span dir=\"%s\">%s</span> <span class=\"percent\">%s&#37;</span></a></li>\n",
-        $this->is_current_language($id),
-        $id,
-        $this->current_page(),
-        $id,
+foreach ($ggl->get('locales') as $lang => $items) {
+    printf("<li%s><a href=\"/%s\" hreflang=\"%s\"><img src=\"/images/flags/%s.gif\" alt=\"%s\" /> <span dir=\"%s\">%s</span> <span class=\"percent\">%s&#37;</span></a></li>\n",
+        $this->is_current_language($lang),
+        $this->current_page($lang),
+        $lang,
         $items[1],
-        $id,
+        $lang,
         $items[3],
         $items[4],
         $items[6]*100);
