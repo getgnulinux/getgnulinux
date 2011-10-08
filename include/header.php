@@ -4,14 +4,20 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 
-    <!-- Alternate languages: -->
+    <!-- alternate languages -->
     <?php
+    $base_url = $ggl->get('base_url');
     foreach ($ggl->get('locales') as $id => $items) {
-        printf("<link rel=\"alternate\" type=\"text/html\" dir=\"%s\" hreflang=\"%s\" href=\"/%s/\" title=\"%s\" />\n",
-            $items[3], $id, $id, $items[5]);
+        printf("<link rel=\"alternate\" type=\"text/html\" dir=\"%s\" hreflang=\"%s\" href=\"%s%s/\" title=\"%s\" />\n",
+            $items[3],
+            $id,
+            $base_url,
+            $id,
+            $items[5]);
     } ?>
+    <!-- end alternate languages -->
     <title><?php $this->page_title(); ?></title>
-    <link rel="copyright" type="text/html" title="Copyright notice for this website." href="<?php $this->base_url('legal'); ?>" hreflang="en" />
+    <link rel="copyright" type="text/html" title="Copyright notice for this website." href="<?php $this->url('legal/'); ?>" hreflang="en" />
     <link rel="shortcut icon" type="image/x-icon" href="<?php $this->url('favicon.ico'); ?>" />
     <meta name="description" content="<?php $this->page_description(); ?>"/>
     <meta name="keywords" content="<?php print _("linux, gnu/linux, free software, software freedom, open-source, windows alternative, get linux, switch to linux"); ?>" />
