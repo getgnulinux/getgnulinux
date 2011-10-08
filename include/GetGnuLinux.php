@@ -26,7 +26,7 @@ class GetGnuLinux {
             'tr' => array('tr_TR.UTF-8','tr',"Home",'ltr',"Türkçe", "Watch this page in Turkish", 0.13),
             'uk' => array('uk_UA.UTF-8','ua',"Додому",'ltr',"Українська", "Переглянути цю сторінку на українська мові!", 0.18),
             'vi' => array('vi_VN',      'vn',"Nhà",'ltr',"Tiếng Việt", "Xem trang này bằng tiếng Tiếng Việt !", 0.50),
-            'zh' => array('zh_CN.UTF-8','cn',"Home",'ltr',"中文 (中国大陆)", "Watch this page in Chinese", 0.42),
+            'zh' => array('zh_CN.UTF-8','cn',"Home",'ltr',"中文", "Watch this page in Chinese", 0.42),
             )
         );
 
