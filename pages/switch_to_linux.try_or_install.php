@@ -78,7 +78,7 @@
 <h4 class="trisquel_title">Trisquel</h4>
 
 <p>
-	<a href="http://trisquel.info/" class="get_it_button"><span class="go_download"><span class="download"><?php print _("Download the Trisquel CD"); ?></span></span></a>
+	<a href="http://trisquel.info/download" class="get_it_button"><span class="go_download"><span class="download"><?php print _("Download the Trisquel CD"); ?></span></span></a>
 	<?php print _("The Trisquel installation is very similar to that of Ubuntu."); ?></p>
 </div><!-- end trisquel_light -->
 
