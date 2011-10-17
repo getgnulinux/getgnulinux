@@ -627,17 +627,20 @@ code {
     display: block;
     padding: 0.8em 0.5em;
     margin: 0.5em 0;
-    background: #fafcff;
-    border: 1px #ebf2ff solid;
+    background: #f5f9ff;
+    border: 1px #e0ecff solid;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
+    transition: background 200ms linear;
+    -webkit-transition: background 200ms linear;
+    -moz-transition: background 200ms linear;
 }
 
 #contentlist a:hover {
     text-decoration: none;
-    background: #f5f9ff;
-    border: 1px #e0ecff solid;
+    background: #ebf3ff;
+    border: 1px #cde0ff solid;
 }
 
 #contentlist a img {
@@ -737,18 +740,18 @@ div .note {
 }
 
 .switch_to_linux #contentlist .odd:hover {
-    background: #f2f7ff;
-    border: 1px #DFD9F9 solid;
+    background: #ebf3ff;
+    border: 1px #cde0ff solid;
 }
 
 .switch_to_linux #contentlist .even {
-    background: #f8fff5;
-    border: 1px #e0ffe4 solid;
+    background: #f3ffeb;
+    border: 1px #e0f0dc solid;
 }
 
 .switch_to_linux #contentlist .even:hover {
-    background: #f4fff0;
-    border: 1px #DFD9F9 solid;
+    background: #e7ffd7;
+    border: 1px #bcdeb2 solid;
 }
 
 /*----------------------------------------------------
