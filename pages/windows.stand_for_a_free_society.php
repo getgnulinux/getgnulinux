@@ -131,14 +131,14 @@ printf($p, $this->base_url('switch_to_linux',1)); ?></p>
 
 <h3><a href="<?php
 # i18n: Unless you know of a very good resource about DRM, please point to the Wikipedia article about DRM in your language, if it exists
-print _("http://www.timj.co.uk/digiculture/drm-fallacy"); ?>"><?php
+print _("http://www.timj.co.uk/computing/politics-policy/drm/fallacy/"); ?>"><?php
 # i18n: Title of external link
 print _("The fallacy of DRM"); ?></a></h3>
 <p><?php print _("A very well constructed article about <acronym title=\"Digital Restrictions Management\">DRM</acronym> by Tim Jackson, and on which we based the present article."); ?></p>
 
 <h3><a href="<?php
 # i18n: If you don't know of a localized version of this article, please leave the URL in English
-print _("http://blog.jimmywales.com/index.php/archives/2004/10/21/free-knowledge-requires-free-software-and-free-file-formats/"); ?>"><?php print _("Free Knowledge requires Free Software and Free File Formats"); ?></a></h3>
+print _("http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-free-file-formats/"); ?>"><?php print _("Free Knowledge requires Free Software and Free File Formats"); ?></a></h3>
 <p><?php print _("An engaged article by Jimmy Wales, who co-founded the free encyclopedia <a href=\"http://www.wikipedia.org/\">Wikipedia</a>."); ?></p>
 
 
