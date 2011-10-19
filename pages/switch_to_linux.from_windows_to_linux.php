@@ -160,7 +160,9 @@ print _("hibernation problems"); ?>"/>
 <h2 id="conclusion"><?php print _("Conclusion"); ?></h2>
 <p><?php print _("Whether you are going to enjoy Linux depends mostly on what you expect from it."); ?></p>
 <ul>
-    <li><?php print _("If you wish Linux to be just exactly like Windows, you will probably be disappointed. GNU/Linux is built by people who simply <a href=\"http://linux.oneandoneis2.org/LNW.htm\">wish it to be different</a>. In the free software community, members have different visions of what makes an ideal operating system. These differences lead to variety, which is what makes Linux so special and interesting."); ?></li>
+    <li><?php
+# i18n: Use a localised version of the "Linux is Not Windows" article if possible. The following page contains links to localised versions: http://geekblog.oneandoneis2.org/index.php/2005/12/31/derived_works_aamp_translations
+print _("If you wish Linux to be just exactly like Windows, you will probably be disappointed. GNU/Linux is built by people who simply <a href=\"http://linux.oneandoneis2.org/LNW.htm\">wish it to be different</a>. In the free software community, members have different visions of what makes an ideal operating system. These differences lead to variety, which is what makes Linux so special and interesting."); ?></li>
     <li><?php print _("Your freedom matters. Thousands in communities and companies work to build software on which you may exert this freedom. Using GNU/Linux is the easiest way to do so fully."); ?></li>
     <li><?php print _("It's fun! Not having to worry about spyware, viruses, program registrations, demos that expire, or finding software that is really free as in freedom, makes using a computer suddenly very enjoyable."); ?></li>
 </ul>
