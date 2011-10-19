@@ -59,9 +59,7 @@
     # i18n: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
     print _("Calling the system <em>GNU/Linux</em> is much more meaningful, technically (end-users use a lot of \"GNU\" and a little of \"Linux\") but also philosophically: the strength and momentum of the <a href=\"http://www.softwareliberty.com/\">Free Software</a> movement started with and are still carried by <a href=\"http://www.gnu.org/\">the GNU project</a>."); ?></p>
 	<p><?php print _("Calling the system <em>Linux</em> is more practical and appealing for computer users that often believe Windows is the only thing on earth."); ?></p>
-	<p><?php
-    # i18n: If the gnulinuxmatters.org FAQ is not localized in your language, please leave URL as such.
-    print _("<a href=\"http://www.gnulinuxmatters.org/about/faq/#taxonomy\">We use both denominations</a> and hope you will not be offended by that."); ?></p>
+	<p><?php print _("<a href=\"http://blog.getgnulinux.org/about/faq/#taxonomy\">We use both denominations</a> and hope you will not be offended by that."); ?></p>
 	</div>
 
 	<span class="back_to_top"><a href="#top" title="<?php print _("jump to top of page"); ?>"><?php print _("top"); ?></a></span>
