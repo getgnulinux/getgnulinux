@@ -75,8 +75,8 @@ po: pot
 # definition files must be compiled first. See `man locale-gen' for more info.
 localesgen:
 	cp scripts/make-locales.sh.in make-locales.sh
-	sed --in-place make-locales.sh --expression=s/LOCALES/"$(LOCALES)"/
 	sed --in-place make-locales.sh --expression=s/UTF8_LOCALES/"$(utf8_locales)"/
+	sed --in-place make-locales.sh --expression=s/LOCALES/"$(LOCALES)"/
 	sed --in-place make-locales.sh --expression=s/LOCALE_DIR/$(LOCALE_DIR)/
 	sed --in-place make-locales.sh --expression=s/LOCALE_GEN/$(LOCALE_GEN)/
 	chmod +x make-locales.sh
