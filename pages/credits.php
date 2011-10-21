@@ -106,25 +106,39 @@ following sources, according to their respective copyright licenses:</p>
 <h3>Arabic:</h3>
 <p class="tab">Hassan Ibraheem.</p>
 
-<h3>Russian:</h3>
-<p class="tab">V'yacheslav Stetskevych.</p>
-
-<h3>Ukrainian:</h3>
-<p class="tab">V'yacheslav Stetskevych (again!).</p>
-
-<h3>Vietnamese:</h3>
-<p class="tab">Clytie Siddall from the <a href="http://vnoss.net/dokuwiki/doku.php?id=projects:l10n">
-Vietnamese Free Software Translation Team</a>, and Minh Ngoc Le.</p>
+<h3>Spanish:</h3>
+<p class="tab"><a href="http://gustavonarea.name/">Gustavo Narea</a>, Jonathan H. Fernández, Martín Carr, Miguel L. García and Emilio Sepúlveda.</p>
 
 <h3>Catalan:</h3>
 <p class="tab"><a href="http://cortsenc.bloc.cat/">Oriol Piera</a> and <a href="http://rcarreras.blogspot.com/">Rafael Carreras</a>.</p>
 
-
-<h3>Castilian:</h3>
-<p class="tab"><a href="http://gustavonarea.name/">Gustavo Narea</a>, Jonathan H. Fernández, Martín Carr and Miguel L. García.</p>
+<h3>Esperanto:</h3>
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a>.</p>
 
 <h3>French:</h3>
-<p class="tab"><a href="http://www.ariadacapo.net/">Olivier Cleynen</a>, Bruno Bord, Loïs Di Qual, Bruno Ethvignot, Thiébaut Hillenweck, Joseph Maillardert, Laurent Richard, Fabian Rodriguez, and Anthony Verez.</p>
+<p class="tab"><a href="http://www.ariadacapo.net/">Olivier Cleynen</a>, Bruno Bord, Loïs Di Qual, Bruno Ethvignot, Thiébaut Hillenweck, Joseph Maillardert, Laurent Richard, Fabian Rodriguez, Anthony Verez, <a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a> and <a href="https://www.transifex.net/accounts/profile/clement44/">Clement</a>.</p>
+
+<h3>German:</h3>
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a> and others.</p>
+
+<h3>Interlingua:</h3>
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/Funkin/">Emilio Sepúlveda</a>.</p>
+
+<h3>Italian:</h3>
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/xseris/">Simone Sandri</a>, <a href="https://www.transifex.net/accounts/profile/jeckodevelopment/">Luca Marzo</a> and others.</p>
+
+<h3>Russian:</h3>
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/vst/">V'yacheslav Stetskevych</a>.</p>
+
+<h3>Turkish:</h3>
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/zeugma/">zeugma</a>.</p>
+
+<h3>Ukrainian:</h3>
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/vst/">V'yacheslav Stetskevych</a>.</p>
+
+<h3>Vietnamese:</h3>
+<p class="tab">Clytie Siddall from the <a href="http://vnoss.net/dokuwiki/doku.php?id=projects:l10n">Vietnamese Free Software Translation Team</a>, and Minh Ngoc Le.</p>
+
 
 <h2>Inspiration &amp; reading</h2>
 
