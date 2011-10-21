@@ -9,14 +9,14 @@ LOCALE_DIR=locale
 DOMAIN=getgnulinux
 CHARSET=UTF-8
 LOCALE_GEN=locale-gen
-LOCALES=ar_SA ca_AD da_DK de_DE eo es_ES fr_FR hr_HR it_IT ja_JP ml_IN nl_NL pt_BR pt_PT ru_RU sr_RS tr_TR uk_UA vi_VN zh_CN
+LOCALES=ar_SA ca_AD da_DK de_DE eo es_ES fr_FR hr_HR ia it_IT ja_JP ml_IN nl_NL pt_BR pt_PT ru_RU sr_RS tr_TR uk_UA vi_VN zh_CN
 
 # Internal variables.
 template=$(LOCALE_DIR)/$(DOMAIN)/$(DOMAIN).pot
 # These are locales that by default use the UTF-8 character set. For these
 # locales the ".UTF-8" suffix should not be used when compiling locale
 # definition files.
-utf8_locales=ml_IN sr_RS vi_VN
+utf8_locales=ia ml_IN sr_RS vi_VN
 
 # Phony targets.
 .PHONY : help config pot po push localesgen

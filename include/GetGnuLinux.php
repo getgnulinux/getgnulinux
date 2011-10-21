@@ -16,6 +16,7 @@ class GetGnuLinux {
             'es' => array('es_ES.UTF-8','es',"Inicio",'ltr',"Español", "¡Lee esta página en español!", 0.62),
             'fr' => array('fr_FR.UTF-8','fr',"Accueil",'ltr',"Français", "Cette page en français", 0.64),
             'hr' => array('hr_HR.UTF-8','hr',"Home",'ltr',"Hrvatski", "Watch this page in Croatian", 0.13),
+            'ia' => array('ia','ia',"Home",'ltr',"Interlingua", "Watch this page in Interlingua", 0.05),
             'it' => array('it_IT.UTF-8','it',"Home",'ltr',"Italiano", "Watch this page in Italian", 0.36),
             'ja' => array('ja_JP.UTF-8','jp',"Home",'ltr',"日本語", "Watch this page in Japanese", 0),
             'ml' => array('ml_IN',      'in',"Home",'ltr',"മലയാളം", "Watch this page in Malayalam", 0.16),
@@ -23,8 +24,8 @@ class GetGnuLinux {
             'pt' => array('pt_PT.UTF-8','pt',"Home",'ltr',"Português", "Watch this page in Portuguese", 0.18),
             'ru' => array('ru_RU.UTF-8','ru',"Домой",'ltr',"Pусский", "Просмотреть эту страницу на русский языке!", 0.62),
             'sr' => array('sr_RS',      'rs',"Home",'ltr',"српски", "Watch this page in Serbian", 0.06),
-            'tr' => array('tr_TR.UTF-8','tr',"Home",'ltr',"Türkçe", "Watch this page in Turkish", 0.13),
-            'uk' => array('uk_UA.UTF-8','ua',"Додому",'ltr',"Українська", "Переглянути цю сторінку на українська мові!", 0.18),
+            'tr' => array('tr_TR.UTF-8','tr',"Home",'ltr',"Türkçe", "Watch this page in Turkish", 0.15),
+            'uk' => array('uk_UA.UTF-8','ua',"Додому",'ltr',"Українська", "Переглянути цю сторінку на українська мові!", 0.25),
             'vi' => array('vi_VN',      'vn',"Nhà",'ltr',"Tiếng Việt", "Xem trang này bằng tiếng Tiếng Việt !", 0.50),
             'zh' => array('zh_CN.UTF-8','cn',"Home",'ltr',"中文", "Watch this page in Chinese", 0.42),
             )
