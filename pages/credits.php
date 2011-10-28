@@ -106,14 +106,11 @@ following sources, according to their respective copyright licenses:</p>
 <h3>Arabic:</h3>
 <p class="tab">Hassan Ibraheem.</p>
 
-<h3>Spanish:</h3>
-<p class="tab"><a href="http://gustavonarea.name/">Gustavo Narea</a>, Jonathan H. Fernández, Martín Carr, Miguel L. García and Emilio Sepúlveda.</p>
-
 <h3>Catalan:</h3>
 <p class="tab"><a href="http://cortsenc.bloc.cat/">Oriol Piera</a> and <a href="http://rcarreras.blogspot.com/">Rafael Carreras</a>.</p>
 
 <h3>Esperanto:</h3>
-<p class="tab"><a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a>.</p>
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a>, <a href="https://www.transifex.net/accounts/profile/dominiko/">Dominique Pellé</a> and <a href="https://www.transifex.net/accounts/profile/damirmf/">Damir</a>.</p>
 
 <h3>French:</h3>
 <p class="tab"><a href="http://www.ariadacapo.net/">Olivier Cleynen</a>, Bruno Bord, Loïs Di Qual, Bruno Ethvignot, Thiébaut Hillenweck, Joseph Maillardert, Laurent Richard, Fabian Rodriguez, Anthony Verez, <a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a> and <a href="https://www.transifex.net/accounts/profile/clement44/">Clement</a>.</p>
@@ -129,6 +126,9 @@ following sources, according to their respective copyright licenses:</p>
 
 <h3>Russian:</h3>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/vst/">V'yacheslav Stetskevych</a>.</p>
+
+<h3>Spanish:</h3>
+<p class="tab"><a href="http://gustavonarea.name/">Gustavo Narea</a>, Jonathan H. Fernández, Martín Carr, Miguel L. García and <a href="https://www.transifex.net/accounts/profile/Funkin/">Emilio Sepúlveda</a>.</p>
 
 <h3>Turkish:</h3>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/zeugma/">zeugma</a>.</p>
