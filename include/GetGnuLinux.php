@@ -16,7 +16,7 @@ class GetGnuLinux {
             'es' => array('es_ES.UTF-8','es',"Inicio",'ltr',"Español", "¡Lee esta página en español!", 0.62),
             'fr' => array('fr_FR.UTF-8','fr',"Accueil",'ltr',"Français", "Cette page en français", 0.64),
             'hr' => array('hr_HR.UTF-8','hr',"Home",'ltr',"Hrvatski", "Watch this page in Croatian", 0.13),
-            'ia' => array('ia','ia',"Home",'ltr',"Interlingua", "Watch this page in Interlingua", 0.05),
+            'ia' => array('ia',         'ia',"Home",'ltr',"Interlingua", "Watch this page in Interlingua", 0.05),
             'it' => array('it_IT.UTF-8','it',"Home",'ltr',"Italiano", "Watch this page in Italian", 0.36),
             'ja' => array('ja_JP.UTF-8','jp',"Home",'ltr',"日本語", "Watch this page in Japanese", 0),
             'ml' => array('ml_IN',      'in',"Home",'ltr',"മലയാളം", "Watch this page in Malayalam", 0.16),
