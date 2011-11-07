@@ -12,7 +12,7 @@ $ubuntu3_text = _("Evolution e-mail and calendar application.");
 # i18n: This is the description of the "fedora1.png" screenshot.
 $fedora1_text = _("GIMP image editing application, cropping a photo.");
 # i18n: This is the description of the "fedora2.png" screenshot.
-$fedora2_text = _("OpenOffice.org Writer open, editing a standard document.");
+$fedora2_text = _("LibreOffice Writer open, editing a standard document.");
 # i18n: This is the description of the "fedora3.png" screenshot.
 $fedora3_text = _("Accessing applications in the <a href=\"http://gnome3.org/\">GNOME 3</a> desktop environment.");
 # i18n: This is the text-only description of the "fedora3.png" screenshot.
