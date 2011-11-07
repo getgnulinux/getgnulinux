@@ -3,7 +3,9 @@
 class GetGnuLinux {
     // define properties
     var $config = array(
+        'lang' => "en",
         'locale' => "en_GB",
+        'country_code' => "gb",
         'gettext_domain' => "getgnulinux",
         'dir' => "ltr",
         'locales' => array(
@@ -36,10 +38,6 @@ class GetGnuLinux {
         # Set the locale.
         $locale = isset($_GET['l']) ? $_GET['l'] : 'en';
         $this->set('locale', $locale);
-
-        # Set the text direction.
-        $dir = $this->config['locales'][$this->get('lang')][3];
-        $this->set('dir', $dir);
 
         # Initialize gettext. From here, gettext is enabled.
         $this->init_gettext();
@@ -149,12 +147,17 @@ class GetGnuLinux {
 		$this->config[$key] =& $value;
 	}
 
-    function set_locale($locale)
+    function set_locale($lang)
     {
-        if ( isset($this->config['locales'][$locale]) ) {
-            $this->config['locale'] = $this->config['locales'][$locale][0];
-            $this->config['country_code'] = $this->config['locales'][$locale][1];
-            $this->config['lang'] = $locale;
+        if ( isset($this->config['locales'][$lang]) ) {
+            // Set the language code.
+            $this->config['lang'] = $lang;
+            // Set the locale.
+            $this->config['locale'] = $this->config['locales'][$lang][0];
+            // Set the country code.
+            $this->config['country_code'] = $this->config['locales'][$lang][1];
+            // Set the text direction for this language.
+            $this->config['dir'] = $this->config['locales'][$lang][3];
         }
     }
 
