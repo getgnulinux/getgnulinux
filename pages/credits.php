@@ -113,7 +113,7 @@ following sources, according to their respective copyright licenses:</p>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a>, <a href="https://www.transifex.net/accounts/profile/dominiko/">Dominique Pellé</a> and <a href="https://www.transifex.net/accounts/profile/damirmf/">Damir</a>.</p>
 
 <h3>French:</h3>
-<p class="tab"><a href="http://www.ariadacapo.net/">Olivier Cleynen</a>, Bruno Bord, Loïs Di Qual, Bruno Ethvignot, Thiébaut Hillenweck, Joseph Maillardert, Laurent Richard, Fabian Rodriguez, Anthony Verez, <a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a> and <a href="https://www.transifex.net/accounts/profile/clement44/">Clement</a>.</p>
+<p class="tab"><a href="http://www.ariadacapo.net/">Olivier Cleynen</a>, Bruno Bord, Loïs Di Qual, Bruno Ethvignot, Thiébaut Hillenweck, Joseph Maillardert, Laurent Richard, <a href="https://www.transifex.net/accounts/profile/MagicFab/">Fabián Rodríguez</a>, Anthony Verez, <a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a> and <a href="https://www.transifex.net/accounts/profile/clement44/">Clement</a>.</p>
 
 <h3>German:</h3>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a> and others.</p>
