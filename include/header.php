@@ -1,4 +1,33 @@
-<?php header("Content-Type: text/html; charset=utf-8"); ?>
+<?php
+/******************************************************************************
+ *  Copyright 2006-2008, GNU/Linux Matters <http://www.gnulinuxmatters.org/>
+ *  Copyright 2011, Launchpad getgnulinux Team
+ *
+ *  This file is part of Get GNU/Linux! <https://launchpad.net/getgnulinux>
+ *
+ *  GGL is free software: you can redistribute it and/or modify it under
+ *  the terms of the GNU Affero General Public License as published by the
+ *  Free Software Foundation, either version 3 of the License, or any later
+ *  version.
+ *
+ *  GGL is distributed in the hope that it will be useful, but WITHOUT
+ *  ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ *  FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public
+ *  License for more details.
+ *
+ *  You should have received a copy of the GNU Affero General Public License
+ *  along with GGL. If not, see <http://www.gnu.org/licenses/>.
+ *
+ ******************************************************************************
+ *  The text content is published under a Creative Commons
+ *  Attribution-ShareAlike 3.0 License,
+ *  Copyright 2006-2010, GNU/Linux Matters <http://www.gnulinuxmatters.org/>
+ *  Copyright 2011, Launchpad getgnulinux Team
+ *
+ *****************************************************************************/
+
+header("Content-Type: text/html; charset=utf-8");
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php $this->text('lang'); ?>" lang="<?php $this->text('lang') ?>" dir="<?php $this->text('dir'); ?>">
 <head>
@@ -9,11 +38,11 @@
     $base_url = $ggl->get('base_url');
     foreach ($ggl->get('locales') as $lang => $items) {
         printf("<link rel=\"alternate\" type=\"text/html\" dir=\"%s\" hreflang=\"%s\" href=\"%s%s\" title=\"%s\" />\n",
-            $items[3],
+            $ggl->get_lang_directionality($lang),
             $lang,
             $base_url,
             $this->current_page($lang),
-            $items[5]);
+            $items[4]);
     } ?>
     <!-- end alternate languages -->
     <title><?php $this->page_title(); ?></title>
@@ -115,9 +144,9 @@ foreach ($ggl->get('locales') as $lang => $items) {
         $lang,
         $items[1],
         $lang,
+        $ggl->get_lang_directionality($lang),
         $items[3],
-        $items[4],
-        $items[6]*100);
+        $items[5]*100);
 }
 ?>
 </ul>
