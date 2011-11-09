@@ -36,15 +36,10 @@
             <div class="footer-block">
                 <h1><?php print _("About"); ?></h1>
                 <ul class="footer-text">
-                    <li><a href="<?php $this->text('contact_url'); ?>" title="<?php print _("Contact the authors."); ?>"><?php print _("Contact us"); ?></a></li>
                     <li><a href="<?php $this->text('blog_url'); ?>" title="<?php print _("Read about news and updates."); ?>"><?php print _("Our blog"); ?></a></li>
-                </ul>
-            </div>
-            <div class="footer-block">
-                <h1><?php print _("Information"); ?></h1>
-                <ul class="footer-text">
                     <li><a href="<?php $this->base_url('legal'); ?>" hreflang="en"><?php print _("Terms of use"); ?></a></li>
                     <li><a href="<?php $this->base_url('credits'); ?>"><?php print _("Credits"); ?></a></li>
+                    <li><a href="<?php $this->text('contact_url'); ?>" title="<?php print _("Contact the authors."); ?>"><?php print _("Contact us"); ?></a></li>
                 </ul>
             </div>
             <div class="footer-block">
@@ -70,7 +65,7 @@
 
                 <?php if ( $ggl->get('flattr') ) { ?>
                 <p>
-                Like this site?<br/><a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="<?php $this->text('base_url'); ?>"></a>
+                <?php print _("Like this site?"); ?><br/><a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="<?php $this->text('base_url'); ?>"></a>
                 <noscript><a href="<?php $this->text('flattr_url'); ?>" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
                 </p>
                 <?php } ?>
