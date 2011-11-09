@@ -48,4 +48,10 @@ $ggl->config['piwik'] = false;
 $ggl->config['piwik_url'] = "";
 $ggl->config['piwik_idsite'] = 1;
 
+# Flattr is the worlds first social micro-payment system. Set this option to
+# true if you want to place a Flattr button on the site. You also need to
+# set the Flattr URL.
+$ggl->config['flattr'] = false;
+$ggl->config['flattr_url'] = "http://flattr.com/thing/433154/get-GNULinux";
+
 ?>

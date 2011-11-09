@@ -30,7 +30,7 @@
 </div><!-- end mainbody -->
 </div><!-- end wrapper -->
 
-<div id="footer">
+<div id="footer" class="footer_height">
     <div id="footer-container">
         <div class="clearfix">
             <div class="footer-block">
@@ -63,9 +63,18 @@
                 </ul>
             </div>
             <div class="footer-block footer-block-last-child">
+
                 <p class="footer-note footer-text">
                     <?php $p = _("Except where otherwise <a href=\"%s\">noted</a>, content on this site is licensed under a <acronym title=\"Creative Commons Attribution-ShareAlike 3.0 License\"><a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" rel=\"license\">CC BY-SA 3.0 License</a></acronym>."); printf($p, $this->base_url('legal',1)); ?>
                 </p>
+
+                <?php if ( $ggl->get('flattr') ) { ?>
+                <p>
+                Like this site?<br/><a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="<?php $this->text('base_url'); ?>"></a>
+                <noscript><a href="<?php $this->text('flattr_url'); ?>" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
+                </p>
+                <?php } ?>
+
             </div>
         </div><!-- end clearfix -->
     </div><!-- end footer container -->
@@ -73,6 +82,7 @@
 </div><!-- end global container -->
 
 <?php
+// Load the Piwik javascript?
 if ( $ggl->get('piwik') ) {
     require_once(INCLUDE_PATH."Piwik.php");
 }

@@ -94,6 +94,11 @@ header("Content-Type: text/html; charset=utf-8");
             <?php
             break;
     }
+
+    // Load the Flattr javascript?
+    if ( $ggl->get('flattr') ) {
+        require_once(INCLUDE_PATH."Flattr.php");
+    }
     ?>
 
     <style type="text/css">

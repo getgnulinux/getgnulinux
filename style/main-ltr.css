@@ -381,7 +381,7 @@ code {
     min-width: 550px;
     margin: 0 auto;
     padding-top: 2em;
-    padding-bottom: 8.5em; /* Height of the footer */
+    padding-bottom: 10em; /* Height of the footer */
     width: 720px;
 }
 
@@ -1763,7 +1763,7 @@ div .note {
     background: url(/images/footer_bg.png) repeat-x scroll 0 0 #F0F0F0;
     border-top: 1px #DFD9F9 solid;
     bottom: 0;
-    height: 8.5em; /* Height of the footer */
+    height: 10em; /* Height of the footer */
     margin-bottom: 0;
     position: absolute;
     width: 100%;
@@ -1775,11 +1775,6 @@ div .note {
     font-size: 0.9em;
     padding: 15px 0;
     width: 720px;
-}
-
-.footer-note {
-    font-size: 0.9em;
-    color: #696969;
 }
 
 .footer-block {
@@ -1800,13 +1795,18 @@ div .note {
     margin: 0;
 }
 
-.footer-text a:link,
-.footer-text a:visited {
+div.footer-block p {
+    font-size: 0.9em;
+    color: #696969;
+}
+
+div.footer-block a:link,
+div.footer-block a:visited {
     color: #4F6A73;
 }
 
-.footer-text a:hover,
-.footer-text a:active {
+div.footer-block a:hover,
+div.footer-block a:active {
     color: #333;
 }
 
