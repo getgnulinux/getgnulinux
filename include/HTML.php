@@ -413,6 +413,19 @@ class HTML {
         }
         return $path;
     }
+
+    /**
+     * Print the Flattr button.
+     *
+     * @uses GetGnuLinux $ggl
+     */
+    function flattr_button()
+    {
+        global $ggl;
+        $rev = $ggl->get('flattr_button_style') == "compact" ? "rev=\"flattr;button:compact;\"" : "";
+        print "<a class=\"FlattrButton\" style=\"display:none;\" " . $rev . " href=\"" . $ggl->get('base_url') . "\"></a>";
+        print "<noscript><a href=\"" . $ggl->get('flattr_url') . "\" target=\"_blank\"><img src=\"http://api.flattr.com/button/flattr-badge-large.png\" alt=\"Flattr this\" title=\"Flattr this\" border=\"0\" /></a></noscript>";
+    }
 }
 
 ?>
