@@ -65,7 +65,7 @@
 
                 <?php if ( $ggl->get('flattr') ) { ?>
                 <p>
-                <?php print _("Like this site?"); ?><br/><a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="<?php $this->text('base_url'); ?>"></a>
+                <?php print _("Support this site:"); ?><br/><a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="<?php $this->text('base_url'); ?>"></a>
                 <noscript><a href="<?php $this->text('flattr_url'); ?>" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
                 </p>
                 <?php } ?>
