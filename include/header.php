@@ -105,6 +105,19 @@ header("Content-Type: text/html; charset=utf-8");
     #language_menu_text {
         background: url(/images/flags/<?php print $ggl->get('country_code'); ?>.gif) center left no-repeat;
     }
+    <?php
+    // Italic Arabic text is not displayed properly in Google Chrome.
+    if ($ggl->get('lang') == 'ar') {
+        print "em,
+        #mainbody .read_article a,
+        .quote1 .source,
+        .floatquote1 .source,
+        .note_ital,
+        #about_us h2 {
+            font-style: normal;
+        }";
+    }
+    ?>
     </style>
 
     <?php
