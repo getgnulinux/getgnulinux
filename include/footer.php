@@ -61,11 +61,10 @@
                 <p>
                     <?php $p = _("Except where otherwise <a href=\"%s\">noted</a>, content on this site is licensed under a <acronym title=\"Creative Commons Attribution-ShareAlike 3.0 License\"><a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" rel=\"license\">CC BY-SA 3.0 License</a></acronym>."); printf($p, $this->base_url('legal',1)); ?>
                 </p>
-                <?php if ( $ggl->get('flattr') ) { ?>
-                <p>
-                    <?php $this->flattr_button(); ?>
-                </p>
-                <?php } ?>
+                <?php
+                // Show Flattr button?
+                if ( $ggl->get('flattr') ) { $this->flattr_button(); }
+                ?>
             </div>
         </div><!-- end clearfix -->
     </div><!-- end footer container -->
