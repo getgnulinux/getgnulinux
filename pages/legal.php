@@ -3,8 +3,8 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 	<title>get GNU/Linux! websites terms of use</title>
-	<meta name="description" content="Legal terms of use for the GNU/Linux Matters websites"/>
-    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+	<meta name="description" content="Legal terms of use for the Get GNU/Linux! websites"/>
+    <link rel="shortcut icon" type="image/x-icon" href="<?php $this->url('favicon.ico'); ?>" />
     <?php $this->stylesheet('/style/main-ltr.css'); ?>
 </head>
 
