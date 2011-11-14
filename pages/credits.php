@@ -22,7 +22,7 @@
 <div id="maincontent" class="credits">
 
 <h2>Thank you</h2>
-<p>We are grateful and endebted towards many kind individuals, who contributed
+<p>We are grateful and indebted towards many kind individuals, who contributed
 or let us use their work for our purposes.</p>
 
 <h2>Licensing</h2>
@@ -97,6 +97,8 @@ following sources, according to their respective copyright licenses:</p>
 
 <li>gNewSense artwork: based on work <a href="http://www.flickr.com/photos/davelab6/sets/72157594509090768/">by Dave Crossland</a>, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution, Share Alike">by-sa</acronym>, with special thanks.</li>
 
+<li>Trisquel logo: "Trisquel" and the <a href="http://trisquel.info/en/wiki/logo">Trisquel logo</a> are registered trademarks owned by Rubén Rodríguez Pérez, <a href="http://en.wikipedia.org/wiki/GNU_General_Public_License">GNU <acronym title="General Public License">GPL</acronym></a>.</li>
+
 <li>Page "favicon": <a href="http://commons.wikimedia.org/wiki/Image:Nuvola_apps_emacs.png">From David Vignoni</a>, <a href="http://en.wikipedia.org/wiki/GNU_Free_Documentation_License">GNU <acronym title="Free Documentation License">FDL</acronym></a> license.</li>
 </ul>
 
@@ -108,6 +110,9 @@ following sources, according to their respective copyright licenses:</p>
 
 <h3>Catalan:</h3>
 <p class="tab"><a href="http://cortsenc.bloc.cat/">Oriol Piera</a> and <a href="http://rcarreras.blogspot.com/">Rafael Carreras</a>.</p>
+
+<h3>Chinese:</h3>
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/Pxseudoprime/">Sayson Peng</a> and others.</p>
 
 <h3>Esperanto:</h3>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a>, <a href="https://www.transifex.net/accounts/profile/dominiko/">Dominique Pellé</a> and <a href="https://www.transifex.net/accounts/profile/damirmf/">Damir</a>.</p>
@@ -165,8 +170,6 @@ following sources, according to their respective copyright licenses:</p>
 <li>Danijel Orsolic and the <a href="http://www.nuxified.org/" title="friendly free software support forum">Nuxified.org</a> site for hosting our forum;</li>
 
 <li>The following <a href="http://www.nuxified.org/" title="friendly free software support forum">Nuxified</a> members for their kind continuous support: a_thing, AndrewB, Bjwebb, dylunio, guyjohnston, kuan, nwrman, reptiler, tbuitenh and more.</li>
-
-<li>And we haven't introduced ourselves: <a href="http://blog.getgnulinux.org/about/us/">here we are</a>. Blame us.</li>
 
 </ul>
 
