@@ -61,6 +61,15 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1em;
 }
 
+hr {
+    border-color: #CCCCCC;
+    border-right: 0 solid #CCCCCC;
+    border-style: solid;
+    border-width: 1px 0 0;
+    clear: both;
+    height: 0;
+}
+
 q:before, q:after {
     content: '';
 }
@@ -1689,36 +1698,34 @@ div .note {
  * "Screenshots" page.
  *----------------------------------------------------*/
 
-.screenshots img {
-    float: none;
+.screenshots h2 {
+    text-align: center;
 }
 
-.screenshot_even, .screenshot_odd {
-    margin-top: 0.5em;
-    height: 150px;
+.screenshots .screenshots-section {
+    display: block;
+    margin: 1em 0 1em;
     padding: 0.5em;
-    border: 1px #d8e5e5 solid;
-    background: white;
+    overflow: hidden;
 }
 
-.screenshot_even {
-    text-align: left;
+.screenshots .screenshots-section .text {
+    float: left;
+    width: 400px;
 }
 
-#maincontent .screenshot_even img {
-    float: right;
-    margin-right: 0em;
-    margin-left: 1em;
-}
-
-.screenshot_odd {
-    text-align: right;
-}
-
-#maincontent .screenshot_odd img {
+.screenshots .screenshots-section.image-left .image {
     float: left;
     margin-right: 1em;
-    margin-left: 0em;
+    margin-left: 0;
+    width: 230px;
+}
+
+.screenshot .screenshots-section.image-right .image {
+    float: right;
+    margin-right: 0;
+    margin-left: 1em;
+    width: 230px;
 }
 
 /*----------------------------------------------------

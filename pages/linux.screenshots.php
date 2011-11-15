@@ -39,63 +39,71 @@ $trisquel3_text = _("Accessing applications.");
 <p><?php print _("Keep in mind that Linux can look as frugal or exciting as you require; here are only everyday-user snapshots to show common tasks."); ?></p>
 
 
-<a id="ubuntu" />
-<div class="screenshot_even">
-<a rel="screenshots_ubuntu" title="<?php print $ubuntu1_text; ?>" href="/images/screenshots/ubuntu1.png"><img height="150" src="/images/screenshots/h150px/ubuntu1.png" alt="Ubuntu Snapshot 1"/></a>
-<p><em>Ubuntu:</em></p>
-<p><?php print $ubuntu1_text; ?></p>
+<h2 id="ubuntu">Ubuntu</h2>
+
+<div class="screenshots-section image-right">
+    <div class="image"><a rel="screenshots_ubuntu" title="<?php print $ubuntu1_text; ?>" href="/images/screenshots/ubuntu1.png"><img height="150" src="/images/screenshots/h150px/ubuntu1.png" alt="Ubuntu Snapshot 1"/></a></div>
+    <div class="text"><?php print $ubuntu1_text; ?></div>
 </div>
 
-<div class="screenshot_even">
-<a rel="screenshots_ubuntu" title="<?php print $ubuntu2_text; ?>" href="/images/screenshots/ubuntu2.png"><img height="150" src="/images/screenshots/h150px/ubuntu2.png" alt="Ubuntu Snapshot 2"/></a>
-<p><em>Ubuntu:</em></p>
-<p><?php print $ubuntu2_text; ?></p>
+<hr/>
+
+<div class="screenshots-section image-right">
+    <div class="image"><a rel="screenshots_ubuntu" title="<?php print $ubuntu2_text; ?>" href="/images/screenshots/ubuntu2.png"><img height="150" src="/images/screenshots/h150px/ubuntu2.png" alt="Ubuntu Snapshot 2"/></a></div>
+    <div class="text"><?php print $ubuntu2_text; ?></div>
 </div>
 
-<div class="screenshot_even">
-<a rel="screenshots_ubuntu" title="<?php print $ubuntu3_text; ?>" href="/images/screenshots/ubuntu3.png"><img height="150" src="/images/screenshots/h150px/ubuntu3.png" alt="Ubuntu Snapshot 3"/></a>
-<p><em>Ubuntu:</em></p>
-<p><?php print $ubuntu3_text; ?></p>
+<hr/>
+
+<div class="screenshots-section image-right">
+    <div class="image"><a rel="screenshots_ubuntu" title="<?php print $ubuntu3_text; ?>" href="/images/screenshots/ubuntu3.png"><img height="150" src="/images/screenshots/h150px/ubuntu3.png" alt="Ubuntu Snapshot 3"/></a></div>
+    <div class="text"><?php print $ubuntu3_text; ?></div>
 </div>
 
+<hr/>
 
-<a id="fedora" />
-<div class="screenshot_odd">
-<a rel="screenshots_fedora" title="<?php print $fedora1_text; ?>" href="/images/screenshots/fedora1.png"><img height="150" src="/images/screenshots/h150px/fedora1.png" alt="Fedora Snapshot 1"/></a>
-<p><em>Fedora:</em></p>
-<p><?php print $fedora1_text; ?></p>
+<h2 id="fedora">Fedora</h2>
+
+<div class="screenshots-section image-left">
+    <div class="image"><a rel="screenshots_fedora" title="<?php print $fedora1_text; ?>" href="/images/screenshots/fedora1.png"><img height="150" src="/images/screenshots/h150px/fedora1.png" alt="Fedora Snapshot 1"/></a></div>
+    <div class="text"><?php print $fedora1_text; ?></div>
 </div>
 
-<div class="screenshot_odd">
-<a rel="screenshots_fedora" title="<?php print $fedora2_text; ?>" href="/images/screenshots/fedora2.png"><img height="150" src="/images/screenshots/h150px/fedora2.png" alt="Fedora Snapshot 2"/></a>
-<p><em>Fedora:</em></p>
-<p><?php print $fedora2_text; ?></p>
+<hr/>
+
+<div class="screenshots-section image-left">
+    <div class="image"><a rel="screenshots_fedora" title="<?php print $fedora2_text; ?>" href="/images/screenshots/fedora2.png"><img height="150" src="/images/screenshots/h150px/fedora2.png" alt="Fedora Snapshot 2"/></a></div>
+    <div class="text"><?php print $fedora2_text; ?></div>
 </div>
 
-<div class="screenshot_odd">
-<a rel="screenshots_fedora" title="<?php print $fedora3_text2; ?>" href="/images/screenshots/fedora3.png"><img height="150" src="/images/screenshots/h150px/fedora3.png" alt="Fedora Snapshot 3"/></a>
-<p><em>Fedora:</em></p>
-<p><?php print $fedora3_text; ?></p>
+<hr/>
+
+<div class="screenshots-section image-left">
+    <div class="image"><a rel="screenshots_fedora" title="<?php print $fedora3_text2; ?>" href="/images/screenshots/fedora3.png"><img height="150" src="/images/screenshots/h150px/fedora3.png" alt="Fedora Snapshot 3"/></a></div>
+    <div class="text"><?php print $fedora3_text; ?></div>
 </div>
 
+<hr/>
 
-<a id="trisquel" />
-<div class="screenshot_even">
-<a rel="screenshots_trisquel" title="<?php print $trisquel1_text; ?>" href="/images/screenshots/trisquel1.png"><img height="150" src="/images/screenshots/h150px/trisquel1.png" alt="Trisquel Snapshot 1"/></a>
-<p><em>Trisquel:</em></p>
-<p><?php print $trisquel1_text; ?></p>
+<h2 id="trisquel">Trisquel</h2>
+
+<div class="screenshots-section image-right">
+    <div class="image"><a rel="screenshots_trisquel" title="<?php print $trisquel1_text; ?>" href="/images/screenshots/trisquel1.png"><img height="150" src="/images/screenshots/h150px/trisquel1.png" alt="Trisquel Snapshot 1"/></a></div>
+    <div class="text"><?php print $trisquel1_text; ?></div>
 </div>
 
-<div class="screenshot_even">
-<a rel="screenshots_trisquel" title="<?php print $trisquel2_text; ?>" href="/images/screenshots/trisquel2.png"><img height="150" src="/images/screenshots/h150px/trisquel2.png" alt="Trisquel Snapshot 2"/></a>
-<p><em>Trisquel:</em></p>
-<p><?php print $trisquel2_text; ?></p>
+<hr/>
+
+<div class="screenshots-section image-right">
+    <div class="image"><a rel="screenshots_trisquel" title="<?php print $trisquel2_text; ?>" href="/images/screenshots/trisquel2.png"><img height="150" src="/images/screenshots/h150px/trisquel2.png" alt="Trisquel Snapshot 2"/></a></div>
+    <div class="text"><?php print $trisquel2_text; ?></div>
 </div>
 
-<div class="screenshot_even">
-<a rel="screenshots_trisquel" title="<?php print $trisquel3_text; ?>" href="/images/screenshots/trisquel3.png"><img height="150" src="/images/screenshots/h150px/trisquel3.png" alt="Trisquel Snapshot 3"/></a>
-<p><em>Trisquel:</em></p>
-<p><?php print $trisquel3_text; ?></p>
+<hr/>
+
+<div class="screenshots-section image-right">
+    <div class="image"><a rel="screenshots_trisquel" title="<?php print $trisquel3_text; ?>" href="/images/screenshots/trisquel3.png"><img height="150" src="/images/screenshots/h150px/trisquel3.png" alt="Trisquel Snapshot 3"/></a></div>
+    <div class="text"><?php print $trisquel3_text; ?></div>
 </div>
 
 </div><!-- end maincontent -->

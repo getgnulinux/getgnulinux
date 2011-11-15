@@ -106,7 +106,7 @@ html {
 }
 
 #maincontent .back_to_top a {
-    background: url("/images/bullet_arrow_up.png") no-repeat scroll right top white;
+    background: url(/images/bullet_arrow_up.png) no-repeat scroll right top white;
     padding: 1px 16px 2px 3px;
 }
 
@@ -144,6 +144,26 @@ html {
  *----------------------------------------------------*/
 
 #mainbody a.get_it_button {
+    float: left;
+    margin-right: 1em;
+    margin-left: 0;
+}
+
+/*----------------------------------------------------
+ * "Screenshots" page.
+ *----------------------------------------------------*/
+
+.screenshots .screenshots-section .text {
+    float: right;
+}
+
+.screenshots .screenshots-section.image-left .image {
+    float: right;
+    margin-right: 0;
+    margin-left: 1em;
+}
+
+.screenshot .screenshots-section.image-right .image {
     float: left;
     margin-right: 1em;
     margin-left: 0;
