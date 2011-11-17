@@ -111,6 +111,7 @@ header("Content-Type: text/html; charset=utf-8");
     if ($ggl->no_italics()) {
         print "em,
         #mainbody .read_article a,
+        #translations #is_current_language a,
         .quote1 .source,
         .floatquote1 .source,
         .note_ital,
