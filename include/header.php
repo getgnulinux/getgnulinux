@@ -106,8 +106,9 @@ header("Content-Type: text/html; charset=utf-8");
         background: url(/images/flags/<?php print $ggl->get('country_code'); ?>.gif) center left no-repeat;
     }
     <?php
-    // Italic Arabic text is not displayed properly in Google Chrome.
-    if ($ggl->get('lang') == 'ar') {
+    // For some languages italic text is not displayed properly. Disable
+    // italics for selected languages.
+    if ($ggl->no_italics()) {
         print "em,
         #mainbody .read_article a,
         .quote1 .source,

@@ -25,15 +25,13 @@ print _("GNU/Linux, or simply <em>Linux</em>, is an alternative to Microsoft Win
 </a>
 
 <a href="<?php $this->base_url('windows'); ?>">
-<img src="/images/index/windows.png" alt="windows" width="35"
-     height="35"/>
+<img src="/images/index/windows.png" alt="windows" width="35" height="35"/>
 <span class="title"><?php print _("Why not Windows"); ?></span>
 <span class="subtitle"><?php print _("Why we should avoid using Microsoft Windows"); ?></span>
 </a>
 
 <a href="<?php $this->base_url('switch_to_linux'); ?>">
-<img src="/images/index/switch.png" alt="switch" width="35"
-     height="35"/>
+<img src="/images/index/switch.png" alt="switch" width="35" height="35"/>
 <span class="title"><?php print _("Switch to Linux"); ?></span>
 <span class="subtitle"><?php print _("Where to download and how to step into Linux"); ?></span>
 </a>

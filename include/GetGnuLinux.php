@@ -47,6 +47,14 @@ class GetGnuLinux {
         "ur", "yi");
 
     /**
+     * Set of ISO language codes for languages for which italics should be
+     * disabled.
+     *
+     * @var array
+     */
+    private static $no_italics_languages = array("ar", "he");
+
+    /**
      * Configuration items.
      *
      * This is an associative, multidimensional array made up of the following
@@ -84,6 +92,7 @@ class GetGnuLinux {
             'eo' => array('eo.UTF-8',   'eo',"Home","Esperanto", "Watch this page in Esperanto", 0.23),
             'es' => array('es_ES.UTF-8','es',"Inicio","Español", "¡Lee esta página en español!", 0.66),
             'fr' => array('fr_FR.UTF-8','fr',"Accueil","Français", "Cette page en français", 0.71),
+            'he' => array('he_IL.UTF-8','il',"Home","עִבְרִית", "Watch this page in Hebrew", 0.78),
             'hr' => array('hr_HR.UTF-8','hr',"Home","Hrvatski", "Watch this page in Croatian", 0.13),
             'ia' => array('ia',         'ia',"Home","Interlingua", "Watch this page in Interlingua", 0.06),
             'it' => array('it_IT.UTF-8','it',"Home","Italiano", "Watch this page in Italian", 0.37),
@@ -282,6 +291,18 @@ class GetGnuLinux {
     public function get_lang_directionality($lang)
     {
         return in_array($lang, self::$rtl_languages) ? "rtl" : "ltr";
+    }
+
+    /**
+     * Returns TRUE if italics should be disabled for the current language.
+     *
+     * @uses string $this->config['lang']
+     * @uses array self::$no_italics_languages
+     * @return bool TRUE|FALSE
+     */
+    public function no_italics()
+    {
+        return in_array($this->config['lang'], self::$no_italics_languages);
     }
 }
 
