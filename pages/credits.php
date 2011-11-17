@@ -123,6 +123,9 @@ following sources, according to their respective copyright licenses:</p>
 <h3>German:</h3>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a> and others.</p>
 
+<h3>Hebrew:</h3>
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/Yaron/">Yaron Shahrabani</a>.</p>
+
 <h3>Interlingua:</h3>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/Funkin/">Emilio Sepúlveda</a>.</p>
 
