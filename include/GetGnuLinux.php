@@ -105,7 +105,7 @@ class GetGnuLinux {
             'tr' => array('tr_TR.UTF-8','tr',"Home","Türkçe", "Watch this page in Turkish", 0.15),
             'uk' => array('uk_UA.UTF-8','ua',"Додому","Українська", "Переглянути цю сторінку на українська мові!", 0.26),
             'vi' => array('vi_VN',      'vn',"Nhà","Tiếng Việt", "Xem trang này bằng tiếng Tiếng Việt !", 0.50),
-            'zh' => array('zh_CN.UTF-8','cn',"Home","中文", "Watch this page in Chinese", 0.42),
+            'zh' => array('zh_CN.UTF-8','cn',"Home","中文", "Watch this page in Chinese", 0.48),
             )
         );
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: getgnulinux 0.0.1\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2011-11-17 10:36+0100\n"
+"POT-Creation-Date: 2011-11-19 18:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,34 +95,39 @@ msgid ""
 "browser today!"
 msgstr ""
 
-#: include/footer.php:62
+#. i18n: The link in the footer that links to browsehappy.com. You may choose to leave this untranslated.
+#: include/footer.php:59
+msgid "Browse Happy"
+msgstr ""
+
+#: include/footer.php:64
 #, php-format
 msgid ""
 "Except where otherwise <a href=\"%s\">noted</a>, content on this site is "
-"licensed under a <acronym title=\"Creative Commons Attribution-ShareAlike "
-"3.0 License\"><a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" rel="
-"\"license\">CC BY-SA 3.0 License</a></acronym>."
+"licensed under a <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" "
+"rel=\"license\"><acronym title=\"Creative Commons Attribution-ShareAlike"
+"\">CC BY-SA</acronym> 3.0 License</a>."
 msgstr ""
 
 #. i18n: The name of the website. It is displayed in the header of each page.
-#: include/GetGnuLinux.php:148
+#: include/GetGnuLinux.php:156
 msgid "get GNU/Linux!"
 msgstr ""
 
 #. i18n: The way you refer to a website's main page in your language.
-#: include/GetGnuLinux.php:153
+#: include/GetGnuLinux.php:161
 msgid "Home"
 msgstr ""
 
 #. i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
-#: include/GetGnuLinux.php:155 include/header.php:204
+#: include/GetGnuLinux.php:163 include/header.php:206
 #: pages/linux.linux_faq.php:355 pages/more.php:6
 #: pages/switch_to_linux.from_windows_to_linux.php:60
 msgid "More"
 msgstr ""
 
 #. i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
-#: include/GetGnuLinux.php:157 include/header.php:201 pages/home.php:23
+#: include/GetGnuLinux.php:165 include/header.php:203 pages/home.php:23
 #: pages/linux.linux_faq.php:362
 #: pages/linux.misunderstanding_free_software.php:191
 #: pages/linux.screenshots.php:31 pages/linux.screenshots.php:112
@@ -131,12 +136,12 @@ msgid "What is Linux?"
 msgstr ""
 
 #. i18n: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
-#: include/GetGnuLinux.php:159 pages/linux.php:70
+#: include/GetGnuLinux.php:167 pages/linux.php:70
 msgid "Linux FAQ - common questions about GNU/Linux"
 msgstr ""
 
 #. i18n: Here the intent is to be a little provocative. Exact translation is not required.
-#: include/GetGnuLinux.php:161 pages/linux.linux_faq.php:144
+#: include/GetGnuLinux.php:169 pages/linux.linux_faq.php:144
 #: pages/linux.linux_faq.php:198 pages/linux.linux_faq.php:212
 #: pages/linux.misunderstanding_free_software.php:14 pages/linux.php:68
 #: pages/windows.stand_for_a_free_society.php:155
@@ -144,19 +149,19 @@ msgid "How to Misunderstand Free Software"
 msgstr ""
 
 #. i18n: This is the title of the 'Screenshots' page.
-#: include/GetGnuLinux.php:163 pages/linux.screenshots.php:36
+#: include/GetGnuLinux.php:171 pages/linux.screenshots.php:36
 msgid "What GNU/Linux looks like"
 msgstr ""
 
 #. i18n: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
-#: include/GetGnuLinux.php:165 include/header.php:202 include/HTML.php:177
+#: include/GetGnuLinux.php:173 include/header.php:204 include/HTML.php:177
 #: include/HTML.php:198 pages/home.php:29 pages/linux.php:60
 #: pages/windows.php:5
 msgid "Why not Windows"
 msgstr ""
 
 #. i18n: This title can be translated loosely
-#: include/GetGnuLinux.php:167 include/HTML.php:179 include/HTML.php:200
+#: include/GetGnuLinux.php:175 include/HTML.php:179 include/HTML.php:200
 #: pages/windows.php:14 pages/windows.php:16 pages/windows.php:23
 #: pages/windows.restrictions.further_details.php:4
 #: pages/windows.restrictions.further_details.php:83
@@ -165,134 +170,134 @@ msgid "Restrictions"
 msgstr ""
 
 #. i18n: This title can be translated loosely
-#: include/GetGnuLinux.php:169
+#: include/GetGnuLinux.php:177
 #: pages/windows.restrictions.further_details.php:9
 msgid "More details on restrictions"
 msgstr ""
 
 #. i18n: This title can be translated loosely
-#: include/GetGnuLinux.php:171 include/HTML.php:182 include/HTML.php:203
+#: include/GetGnuLinux.php:179 include/HTML.php:182 include/HTML.php:203
 #: pages/linux.linux_faq.php:268 pages/windows.php:56 pages/windows.php:57
 #: pages/windows.php:66
 msgid "Stand for a free society"
 msgstr ""
 
 #. i18n: This title can be translated loosely
-#: include/GetGnuLinux.php:173 include/HTML.php:180 include/HTML.php:201
+#: include/GetGnuLinux.php:181 include/HTML.php:180 include/HTML.php:201
 #: pages/windows.php:31 pages/windows.php:32 pages/windows.php:37
 #: pages/windows.what_about_choice.php:12
 msgid "What about choice?"
 msgstr ""
 
 #. i18n: This title can be translated loosely
-#: include/GetGnuLinux.php:175 include/HTML.php:181 include/HTML.php:202
+#: include/GetGnuLinux.php:183 include/HTML.php:181 include/HTML.php:202
 #: pages/windows.php:44 pages/windows.php:45 pages/windows.php:50
 msgid "No source code"
 msgstr ""
 
 #. i18n: This appears in the top header menu and should be as short and concise as possible.
-#: include/GetGnuLinux.php:177 include/header.php:203 include/HTML.php:157
+#: include/GetGnuLinux.php:185 include/header.php:205 include/HTML.php:157
 #: pages/home.php:35 pages/switch_to_linux.php:5 pages/windows.php:82
 msgid "Switch to Linux"
 msgstr ""
 
-#: include/GetGnuLinux.php:178 include/HTML.php:160
+#: include/GetGnuLinux.php:186 include/HTML.php:160
 #: pages/switch_to_linux.choose_a_distribution.php:8
 #: pages/switch_to_linux.php:20
 msgid "Choose a distribution"
 msgstr ""
 
-#: include/GetGnuLinux.php:179 include/HTML.php:159
+#: include/GetGnuLinux.php:187 include/HTML.php:159
 #: pages/switch_to_linux.from_windows_to_linux.php:8
 #: pages/switch_to_linux.php:12
 msgid "From Windows to Linux"
 msgstr ""
 
 #. i18n: This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
-#: include/GetGnuLinux.php:181 include/HTML.php:161
+#: include/GetGnuLinux.php:189 include/HTML.php:161
 #: pages/switch_to_linux.php:26 pages/switch_to_linux.try_or_install.php:8
 msgid "Try or install"
 msgstr ""
 
 #. i18n: This is the description of the homepage, and it appears in Google results! Please pay particular attention to this one =)
-#: include/GetGnuLinux.php:187
+#: include/GetGnuLinux.php:195
 msgid ""
 "Get GNU/Linux! A simple, clear website about Linux. | What is Linux? | Why "
 "not Windows? | Tips to make the switch"
 msgstr ""
 
 #. i18n: This is the description of the 'More' page
-#: include/GetGnuLinux.php:189
+#: include/GetGnuLinux.php:197
 msgid "Read and discover more about Linux."
 msgstr ""
 
 #. i18n: This is the description of the 'Linux' page
-#: include/GetGnuLinux.php:191
+#: include/GetGnuLinux.php:199
 msgid "What is Linux? A clear explanation."
 msgstr ""
 
 #. i18n: This is the description of the 'Linux FAQ' page
-#: include/GetGnuLinux.php:193
+#: include/GetGnuLinux.php:201
 msgid "Frequently Asked Questions about GNU/Linux."
 msgstr ""
 
 #. i18n: This is the description of the 'Misunderstanding Free Software' page
-#: include/GetGnuLinux.php:195
+#: include/GetGnuLinux.php:203
 msgid "An unconventional way to (re)discover free software."
 msgstr ""
 
 #. i18n: This is the description of the 'Screenshots' page
-#: include/GetGnuLinux.php:197
+#: include/GetGnuLinux.php:205
 msgid "A brief look at Linux in everyday use."
 msgstr ""
 
 #. i18n: This is the description of the 'Why not Windows' page
-#: include/GetGnuLinux.php:199
+#: include/GetGnuLinux.php:207
 msgid "Four good reasons to avoid proprietary software."
 msgstr ""
 
 #. i18n: This is the description of the 'Restrictions' page
-#: include/GetGnuLinux.php:201
+#: include/GetGnuLinux.php:209
 msgid "Restrictions in a proprietary software license."
 msgstr ""
 
 #. i18n: This is the description of the 'Restrictions further details' page
-#: include/GetGnuLinux.php:203
+#: include/GetGnuLinux.php:211
 msgid "Restrictions in a proprietary software license - more details."
 msgstr ""
 
 #. i18n: This is the description of the 'Stand for a free society' page
-#: include/GetGnuLinux.php:205 pages/windows.php:57
+#: include/GetGnuLinux.php:213 pages/windows.php:57
 msgid "How software affects freedom in society."
 msgstr ""
 
 #. i18n: This is the description of the 'What about choice' page
-#: include/GetGnuLinux.php:207
+#: include/GetGnuLinux.php:215
 msgid "How Microsoft lock customers in."
 msgstr ""
 
 #. i18n: This is the description of the 'What about source code' page
-#: include/GetGnuLinux.php:209
+#: include/GetGnuLinux.php:217
 msgid "No source code means no trust and no security."
 msgstr ""
 
 #. i18n: This is the description of the 'Switch to Linux' page
-#: include/GetGnuLinux.php:211
+#: include/GetGnuLinux.php:219
 msgid "Switch to Linux: Good tips and advice."
 msgstr ""
 
 #. i18n: This is the description of the 'Choose a distribution' page
-#: include/GetGnuLinux.php:213
+#: include/GetGnuLinux.php:221
 msgid "Recommended Linux distributions for everyday users."
 msgstr ""
 
 #. i18n: This is the description of the 'From Windows to Linux' page
-#: include/GetGnuLinux.php:215
+#: include/GetGnuLinux.php:223
 msgid "The advantages and disadvantages of Linux over Windows."
 msgstr ""
 
 #. i18n: This is the description of the 'Try or Install' page. i18n note: this should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
-#: include/GetGnuLinux.php:217
+#: include/GetGnuLinux.php:225
 msgid "Try or install Linux on your computer, very easily."
 msgstr ""
 
@@ -302,19 +307,19 @@ msgid ""
 "alternative, get linux, switch to linux"
 msgstr ""
 
-#: include/header.php:147
+#: include/header.php:149
 msgid "skip to content"
 msgstr ""
 
-#: include/header.php:154
+#: include/header.php:156
 msgid "Alternate languages"
 msgstr ""
 
-#: include/header.php:190
+#: include/header.php:192
 msgid "home page"
 msgstr ""
 
-#: pages/credits.php:177 pages/legal.php:111 pages/not_found.php:19
+#: pages/credits.php:180 pages/legal.php:111 pages/not_found.php:19
 msgid "Return to the Homepage"
 msgstr ""
 
@@ -2371,7 +2376,7 @@ msgid ""
 msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:61
-msgid "Download the Ubuntu CD"
+msgid "Download Ubuntu"
 msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:62
@@ -2382,7 +2387,7 @@ msgid ""
 msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:71
-msgid "Download the Fedora DVD or CD"
+msgid "Download Fedora"
 msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:72
@@ -2393,7 +2398,7 @@ msgid ""
 msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:81
-msgid "Download the Trisquel CD"
+msgid "Download Trisquel"
 msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:82
