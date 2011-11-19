@@ -58,7 +58,7 @@
 <h4 class="ubuntu_title">Ubuntu</h4>
 
 <p>
-    <a href="http://www.ubuntu.com/download/" class="get_it_button"><span class="go_download"><span class="download"><?php print _("Download the Ubuntu CD"); ?></span></span></a>
+    <a href="http://www.ubuntu.com/download/" class="get_it_button"><span class="go_download"><span class="download"><?php print _("Download Ubuntu"); ?></span></span></a>
 	<?php print _("You can download an <code>iso</code> image (rather large file) and then <a href=\"https://help.ubuntu.com/community/BurningIsoHowto\">burn it to a CD</a>."); ?>
 </p>
 </div><!-- end ubuntu_light -->
@@ -68,7 +68,7 @@
 <h4 class="fedora_title">Fedora</h4>
 
 <p>
-	<a href="http://fedoraproject.org/get-fedora" class="get_it_button"><span class="go_download"><span class="download"><?php print _("Download the Fedora DVD or CD"); ?></span></span></a>
+	<a href="http://fedoraproject.org/get-fedora" class="get_it_button"><span class="go_download"><span class="download"><?php print _("Download Fedora"); ?></span></span></a>
 	<?php print _("The Fedora live CD also enables installation. Alternatively, you can download the DVD, which cannot act as live CD but permits speedier installation."); ?>
 </p>
 </div><!-- end fedora_light -->
@@ -78,7 +78,7 @@
 <h4 class="trisquel_title">Trisquel</h4>
 
 <p>
-	<a href="http://trisquel.info/download" class="get_it_button"><span class="go_download"><span class="download"><?php print _("Download the Trisquel CD"); ?></span></span></a>
+	<a href="http://trisquel.info/download" class="get_it_button"><span class="go_download"><span class="download"><?php print _("Download Trisquel"); ?></span></span></a>
 	<?php print _("The Trisquel installation is very similar to that of Ubuntu."); ?></p>
 </div><!-- end trisquel_light -->
 
