@@ -211,6 +211,23 @@ class HTML {
         print "</div><!-- end of submenu -->";
     }
 
+
+    /**
+     * Print "-rtl" if the text direction of the current language is right to
+     * left.
+     *
+     * This method is used to add a suffix "-rtl" to the file name of an image
+     * file.
+     *
+     * @uses GetGnuLinux $ggl
+     */
+    function rtl_suffix() {
+        global $ggl;
+        if ($ggl->get('dir') == 'rtl') {
+            print '-rtl';
+        }
+    }
+
     /**
      * Print the versioned path for a stylesheet.
      *

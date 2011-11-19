@@ -12,7 +12,7 @@
 
 
 <div class="section">
-<img src="<?php print $this->language_file("switch_to_linux.try_or_install.live_cd.png"); ?>" width="170" height="207" alt="|| CD ||"/>
+<img src="<?php print $this->language_file("switch_to_linux.try_or_install.live_cd.png"); ?>" width="201" height="170" alt="|| CD ||"/>
 <h2 id="live_cd"><?php print _("Try out: the live CD"); ?></h2>
 
 <h3 id="live_cd_what_is"><?php print _("Take no risk"); ?></h3>

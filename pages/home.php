@@ -4,7 +4,7 @@
 
 <a href="<?php $this->base_url('linux'); ?>" title="What is Linux?">
 <img class="main_pic" width="200" height="202"
-     src="<?php print $this->language_file("index.applications.jpg"); ?>"
+     src="/images/index/index.applications<?php $this->rtl_suffix(); ?>.jpg"
      alt="GNU/Linux applications"/></a>
 
 <div id="text">
@@ -31,7 +31,7 @@ print _("GNU/Linux, or simply <em>Linux</em>, is an alternative to Microsoft Win
 </a>
 
 <a href="<?php $this->base_url('switch_to_linux'); ?>">
-<img src="/images/index/switch.png" alt="switch" width="35" height="35"/>
+<img src="/images/index/switch<?php $this->rtl_suffix(); ?>.png" alt="switch" width="35" height="35"/>
 <span class="title"><?php print _("Switch to Linux"); ?></span>
 <span class="subtitle"><?php print _("Where to download and how to step into Linux"); ?></span>
 </a>
