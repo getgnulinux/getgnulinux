@@ -54,7 +54,9 @@
             <div class="footer-block">
                 <h1><?php print _("Other"); ?></h1>
                 <ul class="footer-text">
-                    <li><a href="http://browsehappy.com/" title="<?php print _("This website won't look as intended on an outdated browser. Upgrade your browser today!"); ?>">Browse Happy</a></li>
+                    <li><a href="http://browsehappy.com/" title="<?php print _("This website won't look as intended on an outdated browser. Upgrade your browser today!"); ?>"><?php
+                    # i18n: The link in the footer that links to browsehappy.com. You may choose to leave this untranslated.
+                    print _("Browse Happy"); ?></a></li>
                 </ul>
             </div>
             <div class="footer-block footer-block-last-child">
