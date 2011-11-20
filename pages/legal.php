@@ -107,6 +107,19 @@ We reserve the right to seek all remedies available at law and in equity for
 violations of these terms of use, including, but not limited to, the right to
 block access from a particular Internet address to our websites.</p>
 
+<?php if ( $ggl->get('addthis') ) { ?>
+<h2 id="copyright">8. Anonymous data collection</h2>
+
+<p>We allow third-party companies, including AddThis, to collect certain
+anonymous information when you visit our website. These companies may use
+non-personally identifiable information during your visits to this and other
+websites in order to provide advertisements about goods and services likely
+to be of greater interest to you. These companies typically use a cookie or a
+third party web beacon to collect this information. To learn more about this
+behavioral advertising practice, you can visit
+<a href="http://www.networkadvertising.org/">www.networkadvertising.org</a>.</p>
+<?php } ?>
+
 <div id="switcher">
     <a href="<?php $this->base_url(); ?>" class="previousbutton"><span class="previous"><span class="button_title"><?php print _("Return to the Homepage"); ?></span></span></a>
 </div><!-- end of switcher -->

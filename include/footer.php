@@ -66,6 +66,8 @@
                 <?php
                 // Show Flattr button?
                 if ( $ggl->get('flattr') ) { $this->flattr_button(); }
+                // Show AddThis widget?
+                if ( $ggl->get('addthis') ) { $this->addthis_widget(); }
                 ?>
             </div>
         </div><!-- end clearfix -->

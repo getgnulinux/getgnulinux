@@ -36,24 +36,32 @@ $ggl->config['tracker_url'] = "https://bugs.launchpad.net/getgnulinux";
 # Example: "/home/john/public_html/getgnulinux/"
 $ggl->config['base_path'] = "";
 
-# Settings for Piwik - real time web analytics. Enable this if you have Piwik
-# installed on your web server (set 'piwik' to true). Set 'piwik_url' to your
-# Piwik URL and set 'piwik_idsite' to the idsite of the website you are
-# tracking in Piwik.
+# Settings for Piwik - real time web analytics.
+# Set 'piwik' to TRUE to track visits with Piwik. You need to have Piwik
+# installed.
+# piwik_url: Your Piwik URL
+# piwik_idsite: The site ID of the website you are tracking in Piwik.
 # Example:
-# $ggl->config['piwik'] = true;
+# $ggl->config['piwik'] = TRUE;
 # $ggl->config['piwik_url'] = "getgnulinux.org/piwik/";
 # $ggl->config['piwik_idsite'] = 1;
-$ggl->config['piwik'] = false;
+$ggl->config['piwik'] = FALSE;
 $ggl->config['piwik_url'] = "";
 $ggl->config['piwik_idsite'] = 1;
 
-# Flattr is the worlds first social micro-payment system. Set this option to
-# true if you want to place a Flattr button on the site.
-# flattr_url: The Flattr button URL for your thing.
+# Flattr is the worlds first social micro-payment system.
+# Set 'flattr' to TRUE to add a Flattr button to the site.
+# flattr_url: The Flattr button URL for your thing (check button code for URL).
 # flattr_button_style: large | compact
-$ggl->config['flattr'] = false;
-$ggl->config['flattr_url'] = "http://flattr.com/thing/433154/get-GNULinux";
+$ggl->config['flattr'] = FALSE;
+$ggl->config['flattr_url'] = "";
 $ggl->config['flattr_button_style'] = "compact";
+
+# AddThis helps you integrate sharing tools into your site, spread your
+# content, and drive social traffic.
+# Set 'addthis' to TRUE to add an AddThis widget to the site.
+# addthis_code: Path to a file containing the code snippet from addthis.com.
+$ggl->config['addthis'] = FALSE;
+$ggl->config['addthis_code'] = "addthis.php";
 
 ?>

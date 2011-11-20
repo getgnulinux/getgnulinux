@@ -432,7 +432,7 @@ class HTML {
     }
 
     /**
-     * Print the Flattr button.
+     * Shows the Flattr button.
      *
      * @uses GetGnuLinux $ggl
      */
@@ -442,6 +442,21 @@ class HTML {
         $rev = $ggl->get('flattr_button_style') == "compact" ? "rev=\"flattr button:compact\"" : "";
         print "<p><a class=\"FlattrButton\" style=\"display:none;\" " . $rev . " href=\"" . $ggl->get('base_url') . "\"></a></p>\n";
         print "<noscript><p><a href=\"" . $ggl->get('flattr_url') . "\"><img src=\"http://api.flattr.com/button/flattr-badge-large.png\" alt=\"Flattr this\" title=\"Flattr this\" style=\"border:none;\" /></a></p></noscript>\n";
+    }
+
+    /**
+     * Shows the AddThis widget.
+     *
+     * @uses GetGnuLinux $ggl
+     */
+    function addthis_widget()
+    {
+        global $ggl;
+        if (file_exists($ggl->get('addthis_code'))) {
+            include($ggl->get('addthis_code'));
+        } else {
+            print "File ".$ggl->get('addthis_code')." doesn't exist.";
+        }
     }
 }
 
