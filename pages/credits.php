@@ -100,6 +100,8 @@ following sources, according to their respective copyright licenses:</p>
 <li>Trisquel logo: "Trisquel" and the <a href="http://trisquel.info/en/wiki/logo">Trisquel logo</a> are registered trademarks owned by Rubén Rodríguez Pérez, <a href="http://en.wikipedia.org/wiki/GNU_General_Public_License">GNU <acronym title="General Public License">GPL</acronym></a>.</li>
 
 <li>Page "favicon": <a href="http://commons.wikimedia.org/wiki/Image:Nuvola_apps_emacs.png">From David Vignoni</a>, <a href="http://en.wikipedia.org/wiki/GNU_Free_Documentation_License">GNU <acronym title="Free Documentation License">FDL</acronym></a> license.</li>
+
+<li>The laptop image on the "Try or install" page used with permission from <a href="http://www.system76.com/">system76.com</a>.</li>
 </ul>
 
 
