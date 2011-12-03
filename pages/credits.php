@@ -117,10 +117,17 @@ following sources, according to their respective copyright licenses:</p>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/Pxseudoprime/">Sayson Peng</a> and others.</p>
 
 <h3>Esperanto:</h3>
-<p class="tab"><a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a>, <a href="https://www.transifex.net/accounts/profile/dominiko/">Dominique Pellé</a> and <a href="https://www.transifex.net/accounts/profile/damirmf/">Damir</a>.</p>
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a>,
+<a href="https://www.transifex.net/accounts/profile/dominiko/">Dominique Pellé</a>,
+<a href="https://www.transifex.net/accounts/profile/damirmf/">Damir</a> and
+<a href="https://www.transifex.net/accounts/profile/fenris/">fenris</a>.</p>
 
 <h3>French:</h3>
-<p class="tab"><a href="http://www.ariadacapo.net/">Olivier Cleynen</a>, Bruno Bord, Loïs Di Qual, Bruno Ethvignot, Thiébaut Hillenweck, Joseph Maillardert, Laurent Richard, <a href="https://www.transifex.net/accounts/profile/MagicFab/">Fabián Rodríguez</a>, Anthony Verez, <a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a> and <a href="https://www.transifex.net/accounts/profile/clement44/">Clement</a>.</p>
+<p class="tab"><a href="http://www.ariadacapo.net/">Olivier Cleynen</a>,
+Bruno Bord, Loïs Di Qual, Bruno Ethvignot, Thiébaut Hillenweck,
+Joseph Maillardert, Laurent Richard,
+<a href="https://www.transifex.net/accounts/profile/MagicFab/">Fabián Rodríguez</a>,
+Anthony Verez, <a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a>.</p>
 
 <h3>German:</h3>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a> and others.</p>
@@ -132,13 +139,16 @@ following sources, according to their respective copyright licenses:</p>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/Funkin/">Emilio Sepúlveda</a>.</p>
 
 <h3>Italian:</h3>
-<p class="tab"><a href="https://www.transifex.net/accounts/profile/xseris/">Simone Sandri</a>, <a href="https://www.transifex.net/accounts/profile/jeckodevelopment/">Luca Marzo</a> and others.</p>
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/xseris/">Simone Sandri</a>,
+<a href="https://www.transifex.net/accounts/profile/jeckodevelopment/">Luca Marzo</a> and others.</p>
 
 <h3>Russian:</h3>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/vst/">V'yacheslav Stetskevych</a>.</p>
 
 <h3>Spanish:</h3>
-<p class="tab"><a href="http://gustavonarea.name/">Gustavo Narea</a>, Jonathan H. Fernández, Martín Carr, Miguel L. García and <a href="https://www.transifex.net/accounts/profile/Funkin/">Emilio Sepúlveda</a>.</p>
+<p class="tab"><a href="http://gustavonarea.name/">Gustavo Narea</a>,
+Jonathan H. Fernández, Martín Carr, Miguel L. García and
+<a href="https://www.transifex.net/accounts/profile/Funkin/">Emilio Sepúlveda</a>.</p>
 
 <h3>Turkish:</h3>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/zeugma/">zeugma</a>.</p>
