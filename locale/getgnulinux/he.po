@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2011-11-19 18:34+0100\n"
-"PO-Revision-Date: 2011-11-19 17:31+0000\n"
-"Last-Translator: serrano <serrano.pereira@gmail.com>\n"
+"POT-Creation-Date: 2011-12-05 11:10+0100\n"
+"PO-Revision-Date: 2011-12-05 07:28+0000\n"
+"Last-Translator: Yaron <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (Israel) (http://www.transifex.net/projects/p/"
 "getgnulinux/team/he_IL/)\n"
 "Language: he_IL\n"
@@ -102,7 +102,7 @@ msgstr ""
 #. i18n: The link in the footer that links to browsehappy.com. You may choose to leave this untranslated.
 #: include/footer.php:59
 msgid "Browse Happy"
-msgstr ""
+msgstr "עיון בשמחה"
 
 #: include/footer.php:64
 #, php-format
@@ -112,6 +112,10 @@ msgid ""
 "rel=\"license\"><acronym title=\"Creative Commons Attribution-ShareAlike"
 "\">CC BY-SA</acronym> 3.0 License</a>."
 msgstr ""
+"למעט המקומות בהם <a href=\"%s\">צוין אחרת</a>, התוכן באתר זה מעוגן תחת "
+"הרישיון <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" rel="
+"\"license\"><acronym title=\"Creative Commons Attribution-ShareAlike\">CC BY-"
+"SA</acronym> 3.0</a>."
 
 #. i18n: The name of the website. It is displayed in the header of each page.
 #: include/GetGnuLinux.php:156
@@ -328,7 +332,7 @@ msgstr "שפות חלופיות"
 msgid "home page"
 msgstr "דף הבית"
 
-#: pages/credits.php:180 pages/legal.php:111 pages/not_found.php:19
+#: pages/credits.php:192 pages/legal.php:124 pages/not_found.php:19
 msgid "Return to the Homepage"
 msgstr "חזרה לדף הבית"
 
@@ -2863,7 +2867,7 @@ msgstr "להפצות אנו ממליצים על התקליטור החי שהוא
 
 #: pages/switch_to_linux.try_or_install.php:61
 msgid "Download Ubuntu"
-msgstr ""
+msgstr "הורדת אובונטו"
 
 #: pages/switch_to_linux.try_or_install.php:62
 msgid ""
@@ -2876,7 +2880,7 @@ msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:71
 msgid "Download Fedora"
-msgstr ""
+msgstr "הורדת פדורה"
 
 #: pages/switch_to_linux.try_or_install.php:72
 msgid ""
@@ -2889,7 +2893,7 @@ msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:81
 msgid "Download Trisquel"
-msgstr ""
+msgstr "הורדת Trisquel"
 
 #: pages/switch_to_linux.try_or_install.php:82
 msgid "The Trisquel installation is very similar to that of Ubuntu."
@@ -3251,6 +3255,10 @@ msgid ""
 "whichever terms and conditions you have to accept in order to use that "
 "software."
 msgstr ""
+"אם תיגשו לרוב אתרי התכנה החופשית  ותכנסו לכמה רמות של קישורים ותמצאו את ה־"
+"[גנו] <acronym title=\"הרישיון הציבורי הכללי, הרישיון העיקרי של התכנה החופשית"
+"\">GPL</acronym>, רישיון ה־X, הרישיון Apache שאת תנאיהם עליכם לקבל כדי "
+"להשתמש באותה התכנית."
 
 #: pages/windows.restrictions.php:10
 msgid ""
@@ -3260,6 +3268,10 @@ msgid ""
 "off part of your ability to work with other people and to do business, when "
 "you use their software."
 msgstr ""
+"כעת, באתר של חברת תכנה מסחרית, הרישיון קבור כדי שלא תהיה לך אפשרות לקרוא "
+"אותו עד אשר שילמת על המוצר ואז הם מבקשים ממך <strong>לכבות חלק מהמוח שלך</"
+"strong>, הם מבקשים ממך לכבות חלק מהיכולת שלך לעבוד עם אנשים אחרים ולעשות "
+"עסקים בעזרת התכנה שלהם."
 
 #: pages/windows.restrictions.php:11
 msgid "Don Marti interview"
@@ -3276,6 +3288,8 @@ msgid ""
 "own their software. In fact, there are a number of <strong>legal bindings</"
 "strong> applied to it."
 msgstr ""
+"טעות נפוצה היא של משתמשי Windows ו־Office היא לחשוב שהם הבעלים של התכנה "
+"שלהם. למעשה, ישנם מספר <strong>קשרים משפטיים</strong> החלים עליהן."
 
 #: pages/windows.restrictions.php:15
 msgid "Haven't read your license fully? We did that job for you."
@@ -3296,6 +3310,9 @@ msgid ""
 "permission. It is the restrictive legal text you have to click \"OK\" to "
 "upon install."
 msgstr ""
+"אף אחד לא יכול לקנות Windows או Office מבית Microsoft: במקום זאת, המשתמשים "
+"<strong>רוכשים הרשאה להשתמש בהן</strong>. הרישיון מתאר את תנאי הרישיון. זהו "
+"הטקסט המגביל שעליו יש ללחוץ „OK“ במהלך ההתקנה."
 
 #: pages/windows.restrictions.php:27
 msgid "You must abandon many rights to use the software."
@@ -3303,7 +3320,7 @@ msgstr "עליך להתעלם מחוקים רבים כדי להשתמש בתכנ
 
 #: pages/windows.restrictions.php:28
 msgid "There are a number of restrictions that you must accept by law."
-msgstr ""
+msgstr "ישנן מספר מגבלות שעליך לקבל על פי חוק."
 
 #: pages/windows.restrictions.php:29
 #, php-format
@@ -3314,6 +3331,11 @@ msgid ""
 "few more things about Mircrosoft licenses\">Reading the license and "
 "enumerating your remaining rights</a> is itself a difficult task."
 msgstr ""
+"מגבלות החלות על מי יוכל להשתמש בתכנה, איזה סוג של רווח מותר להרוויח "
+"באמצעותה, על הדרך בה יש לך אפשרות להתקין אותה, מגבלות על הפרטיות שלך אפילו "
+"על האם מותר לך למסור אותה: הרשימה ארוכה. <a href=\"%s\" title=\"מספר פרטים "
+"נוספים על הרישיונות של Microsoft\">קריאת הרישיון ומניית הזכויות שנותרו לך</"
+"a> היא כשלעצמה משימה מסובכת."
 
 #. i18n: Don't bother with the 'acronym' code. You can tranlsate as 'OEM [pre-installed]'
 #: pages/windows.restrictions.php:36
@@ -3322,6 +3344,9 @@ msgid ""
 "seller)\">OEM</acronym>-distributed software cannot be transferred to "
 "another computer."
 msgstr ""
+"תכנה שסופקה לך על ידי החנות שמכרה לך את המחשב (<acronym title=\"Original "
+"Equipment Manufacturer – יצרן הציוד המקורי (זה שמכר לך את החומרה)\">OEM</"
+"acronym>) אינה ניתנת להעברה למחשב אחר."
 
 #. i18n: Don't bother with the 'shrink-wrap' expression. You can skip that bit if you wish.
 #: pages/windows.restrictions.php:40
@@ -3330,6 +3355,9 @@ msgid ""
 "called OEM licenses, or the \"shrink wrap\" Windows discs), <strong>if you "
 "change computers you must buy software again.</strong>"
 msgstr ""
+"אם רכשת מחשב שבו הותקנו Windows או Office מראש, (מה שנקרא: רישיונות OEM, או "
+"הדיסקים של Windows שארוזים בניילון צמוד), <strong>אם החלפת מחשב עליך לרכוש "
+"את התכנה שוב.</strong>"
 
 #: pages/windows.restrictions.php:41
 msgid ""
@@ -3352,6 +3380,10 @@ msgid ""
 "is very different because of the restrictive license -such restrictions "
 "would be unthinkable on a car or bicycle, for example."
 msgstr ""
+"חברות כגון Microsoft נוהגות לדמות את מוצריהן למוצרים פיזיים, <a href="
+"\"http://www.microsoft.com/piracy/\" rel=\"nofollow\">כאשר מציינים הפרת "
+"זכויות יוצרים בתכנה</a> למשל. ובכל זאת, תכנה קניינית היא שונה מאוד עקב "
+"הרישיון המגביל, הגבלות כאלה מעולם לא היו חלות על רכב או אופניים, לדוגמה."
 
 #: pages/windows.restrictions.php:51
 msgid ""
@@ -3361,6 +3393,11 @@ msgid ""
 "their version of Windows when they throw their PC away. Other people give "
 "away their second-hand Windows software when they stop using it."
 msgstr ""
+"הגבלות על השימוש ב־Windows או ב־Office הן כל כך חמורות, עד כי חריגות רבות "
+"מתרחשות סביבנו מדי יום. אנשים מתפתים לקנות גרסה אחת בלבד של Office מבית "
+"Microsoft ומתקינים אותה על שני מחשבים. אחרים משאירים את גרסת ה־Windows שלהם "
+"כאשר הם משליכים את המחשב שלהם לאשפה. אחרים נותנים לחבריהם את ה־Windows מיד "
+"שנייה שלהם בו הפסיקו להשתמש."
 
 #. i18n: use the definition of "free software" on GNU.org in place of softwareliberty.com ; also, if you can, use a translation of the GPL as found on http://www.gnu.org/licenses/translations.html
 #: pages/windows.restrictions.php:54
@@ -3371,6 +3408,10 @@ msgid ""
 "its <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a> license is "
 "designed to protect your rights."
 msgstr ""
+"<strong>יש חלופה לשבירת חוקים אלה,</strong> או להרגיש מוגבלים במיוחד "
+"כשמצייתים לכללים. גנו/לינוקס הנה <a href=\"http://www.softwareliberty.com/"
+"\">תכנה חופשית</a> (עדיף בהרבה על תכנה בחינם): רישיון ה־<a href=\"http://www."
+"gnu.org/copyleft/gpl.html\">GPL</a> שלה תוכנן כדי להגן על זכויותיך."
 
 #: pages/windows.restrictions.php:57
 msgid "Restrictions - further details"
@@ -3387,6 +3428,8 @@ msgid ""
 "English language and people paraphrase what I had to say and make money "
 "talking about some of the same things that I did."
 msgstr ""
+"המצאתי מילים חדשות, פתגמים, הקשים וכל מיני דברים נחמדים בשפה העברית ואנשים "
+"מצטטים את מה שהיה לי לומר והם עושים כסף על אותם הדברים שאני אמרתי."
 
 #: pages/windows.stand_for_a_free_society.php:21
 msgid ""
@@ -3395,6 +3438,9 @@ msgid ""
 "of speaking, writing, media, would be overly litigious, and transaction "
 "costs would be prohibitive."
 msgstr ""
+"<strong>אם אנסה לנעול</strong> את מה שאני מדבר או כותב עליו, באותה הדרך בה "
+"נוהגות חברות התכנה הקניינית, אז כל תעשיית הדיבור, הכתיבה והמדיה יהפכו "
+"לכפופות לזכויות יוצרים, ועלויות ההעברה יהוו מכשול."
 
 #: pages/windows.stand_for_a_free_society.php:25
 msgid ""
@@ -3403,10 +3449,14 @@ msgid ""
 "Can you learn from it? Can you build upon it? Can you distribute it? That's "
 "what we refer to as \"free software\"."
 msgstr ""
+"יש בתכנה הרבה מעבר למהימנות (להיות „קוד פתוח“): מה שבאמת נחשב היא "
+"<strong>החירויות שמקבלים</strong> משתמשי התכנה. האם ניתן ללמוד ממנה? האם "
+"ניתן לבנות דברים על גביה? האם ניתן להפיץ אותה? על נושאים אלו אנו שמים דגש "
+"כשמדובר על „תכנה חופשית“."
 
 #: pages/windows.stand_for_a_free_society.php:27
 msgid "Not a crazy concept"
-msgstr ""
+msgstr "לא מדובר ברעיון מופרע"
 
 #: pages/windows.stand_for_a_free_society.php:28
 msgid ""
@@ -3414,6 +3464,9 @@ msgid ""
 "since none of Microsoft's products are. Yet our society works with many free "
 "things in it, for example:"
 msgstr ""
+"חלק מהמשתמשים חושבים שזה מוזר שתכנה אמורה להיות חופשית כמו בחירות, מאחר שאף "
+"אחד מהמוצרים של Microsoft אינו כזה. ובכל זאת החברה שסביבנו עובדת עם וסביב "
+"הרבה דברים חופשיים, לדוגמה:"
 
 #. i18n : This is the short quote on the side of the article.
 #: pages/windows.stand_for_a_free_society.php:35
@@ -3421,6 +3474,8 @@ msgid ""
 "Though no one has a proprietary lock on yoga, it is still a thriving $30 "
 "billion business in the United States."
 msgstr ""
+"למרות שאף אחד לא דרש נעילה קניינית על יוגה, זהו עדיין עסק משגשג המגלגל 30 "
+"מיליארד דולר בארה״ב בלבד."
 
 #: pages/windows.stand_for_a_free_society.php:40
 msgid ""
@@ -3428,6 +3483,8 @@ msgid ""
 "of it. The food industry thrives despite being required by law to list "
 "ingredients on product labels."
 msgstr ""
+"אף שף לא יכול לאסור עליך לשנות את המתכון שלו וליצור נגזרות שלו. תעשיית המזון "
+"משגשגת על אף שהיא מחויבת על פי חוק למנות את מרכיביה על גבי תוויות המוצרים."
 
 #: pages/windows.stand_for_a_free_society.php:41
 msgid ""
@@ -3435,6 +3492,8 @@ msgid ""
 "hearings and arguments. Not only the result (the final deliberations), but "
 "also the process is fully open."
 msgstr ""
+"מערכת משפטית מסודרת מרשה לכל אחד לקרוא את כל בקשות השימוע ומהלכי המשפט. לא "
+"רק את התוצאה (פסקי הדין), אך גם התהליך עצמו פתוח לחלוטין."
 
 #: pages/windows.stand_for_a_free_society.php:44
 msgid ""
@@ -3442,10 +3501,12 @@ msgid ""
 "market&quot;: all are necessary for a free society. Unconvinced? Let us look "
 "at proprietary software a little closer."
 msgstr ""
+"תכנה חופשית כמו ב־„חופש דיבור“, כמו ב„שוק חופשי“: כל אלה נחוצים לחברה "
+"חופשית. לא משוכנעים? בואו נציץ קצת יותר מקרוב על תכנה קניינית."
 
 #: pages/windows.stand_for_a_free_society.php:46
 msgid "Proprietary software going wrong"
-msgstr ""
+msgstr "תכנה קניינית תועה בדרך"
 
 #: pages/windows.stand_for_a_free_society.php:48
 #, php-format
@@ -3455,12 +3516,15 @@ msgid ""
 "interferes with the spread of culture and information. This happens mainly "
 "through two technologies:"
 msgstr ""
+"גבולות התכנה הקניינים חורגים מעבר לנושא האבטחה (לעיונך: <a href=\"%s\">הכתבה "
+"שלנו על קוד מקור</a>): התכנה הקניינית של ימינו פוגעת בהפצת התרבות ומידע. מצב "
+"זה נגרם בעיקר בעקבות שתי טכנולוגיות:"
 
 #. i18n: This is sometimes only known as "DRM" in some languages. Please choose the vocabulary carefully. The %s placeholder links to a footnote which explains why we use the term "Digital Restrictions Management": http://www.getgnulinux.org/windows/stand_for_a_free_society/#footnote_bottom1
 #: pages/windows.stand_for_a_free_society.php:55
 #, php-format
 msgid "Digital Restrictions Management %s (DRM)"
-msgstr ""
+msgstr "ניהול זכויות קנייני %s (נז״ק)"
 
 #. i18n: The %s placeholder will automatically point to the footnote on bottom of page
 #: pages/windows.stand_for_a_free_society.php:59
@@ -3472,10 +3536,15 @@ msgid ""
 "companies fight copyright infringement, but they also severely restrain "
 "users' access to their files."
 msgstr ""
+"הרעיון העיקרי העומד מאחורי נז״ק %s הוא להגביל גישה לקבצים. המשתמשים נתקלים "
+"בזה כאשר הם מנסים לרכוש מוזיקה דרך iTuned לדוגמה, ואז הם יכולים להאזין "
+"למוזיקה שלהם דרך נגן אחד בלבד, של יצרן אחד בלבד. בשיטה זו, נלחמות החברות "
+"בהפרת זכויות יוצרים אך הן גם מגבילות באופן חמור את הגישה של המשתמשים לקבצים "
+"שלהם."
 
 #: pages/windows.stand_for_a_free_society.php:63
 msgid "DRM is control over content"
-msgstr ""
+msgstr "נז״ק (DRM) מספק שליטה על התוכן"
 
 #: pages/windows.stand_for_a_free_society.php:65
 msgid ""
@@ -3484,32 +3553,37 @@ msgid ""
 "is understandable, but the implications over the flow of information and "
 "culture within a society are frightening."
 msgstr ""
+"למעט העובדה שהשליטה היא לא בידי משתמש הקצה. המטרה העיקרית של <acronym title="
+"\"ניהול זכויות קנייני/Digital Rights Management\">נז״ק/DRM</acronym> אינו "
+"ברור כל כך, אך ההשלכות על שטף המידע והתרבות בתוך החברה הן מפחידות."
 
 #: pages/windows.stand_for_a_free_society.php:68
 msgid ""
 "Imagine a book that automatically became glued shut after you read it once."
-msgstr ""
+msgstr "דמיינו ספר שנדבק לעצמו לכדי סגירה מיד לאחר שקראתם אותו פעם אחת."
 
 #: pages/windows.stand_for_a_free_society.php:69
 msgid ""
 "Imagine documents that self-destructed if you tried to take them out of the "
 "room."
-msgstr ""
+msgstr "דמיינו לעצמם שמסמכים ישמידו את עצמם ברגע שתנסו להוציא אותם מהחדר."
 
 #: pages/windows.stand_for_a_free_society.php:70
 msgid ""
 "Imagine telephones that only worked if the person you were ringing was "
 "renting the same make and model."
 msgstr ""
+"דמיינו לעצמכם טלפונים שיעבדו רק בתנאי שהצד השני רכש את אותו הדגם מאותו היצרן "
+"כמוכם."
 
 #: pages/windows.stand_for_a_free_society.php:73
 msgid "Sounds crazy? This is where Trusted Computing comes in."
-msgstr ""
+msgstr "נשמע מופרך? כאן נכנס למשחק מחשוב מהימן (TC)."
 
 #. i18n: This is sometimes only known as "Trusted Computing", not TC, in some languages. Please choose the vocabulary carefully.
 #: pages/windows.stand_for_a_free_society.php:79
 msgid "Trusted Computing (TC)"
-msgstr ""
+msgstr "מחשוב מהימן (TC)"
 
 #: pages/windows.stand_for_a_free_society.php:81
 msgid ""
@@ -3520,10 +3594,15 @@ msgid ""
 "(like viruses or spyware) and copyright violations (people copying "
 "proprietary software)."
 msgstr ""
+"מחשוב מהימן (לעתים נקרא<a href=\"http://www.lafkon.net/tc/\" title=\"סרטון "
+"מקצועי ביותר על מחשוב מהימן\">בצורה מדויקת יותר</a> „מחשוב בוגדני“) משמעותו "
+"שהמחשב יכול להריץ אך ורק תכנה „מהימנה“. מטרתה להיות מערכת שאינה ניתנת למעקף "
+"נגד מטרדים כאלה ואחרים (כגון וירוסים או רוגלות) והפרת זכויות יוצרים (אנשים "
+"שמעתיקים תכנה קניינית זה לזה)."
 
 #: pages/windows.stand_for_a_free_society.php:83
 msgid "Trusted Computing is control over the computer"
-msgstr ""
+msgstr "מחשוב מהימן מאפשר שליטה על המחשב"
 
 #: pages/windows.stand_for_a_free_society.php:85
 msgid ""
@@ -3550,10 +3629,11 @@ msgid ""
 "Trusted Computing, in effect, enables the publisher to write their own "
 "copyright law.</p>"
 msgstr ""
+"מחשוב מהימן, למעשה, מאפשר למוציאים לאור להכתיב חוקי זכויות יוצרים משלהם.</p>"
 
 #: pages/windows.stand_for_a_free_society.php:91
 msgid "The wider impact"
-msgstr ""
+msgstr "ההשפעה רחבת ההיקף"
 
 #. i18n: This is the quote by Rosemary Bechler in the middle of the article.
 #: pages/windows.stand_for_a_free_society.php:98
@@ -3631,7 +3711,7 @@ msgstr "http://www.timj.co.uk/computing/politics-policy/drm/fallacy/"
 #. i18n: Title of external link
 #: pages/windows.stand_for_a_free_society.php:136
 msgid "The fallacy of DRM"
-msgstr ""
+msgstr "בדיית ה־DRM"
 
 #: pages/windows.stand_for_a_free_society.php:137
 msgid ""
@@ -3639,6 +3719,8 @@ msgid ""
 "Management\">DRM</acronym> by Tim Jackson, and on which we based the present "
 "article."
 msgstr ""
+"כתבה של טים ג׳קסון שכתובה היטב על אודות <acronym title=\"Digital "
+"Restrictions Management\">DRM</acronym>/נז״ק, שעליה ביססנו את הכתבה הנוכחית."
 
 #. i18n: If you don't know of a localized version of this article, please leave the URL in English
 #: pages/windows.stand_for_a_free_society.php:141
@@ -3651,13 +3733,15 @@ msgstr ""
 
 #: pages/windows.stand_for_a_free_society.php:141
 msgid "Free Knowledge requires Free Software and Free File Formats"
-msgstr ""
+msgstr "ידע חופשי דורש תכנה חופשית ומבני קבצים חופשיים"
 
 #: pages/windows.stand_for_a_free_society.php:142
 msgid ""
 "An engaged article by Jimmy Wales, who co-founded the free encyclopedia <a "
 "href=\"http://www.wikipedia.org/\">Wikipedia</a>."
 msgstr ""
+"כתבה מנקודת מבט אישית של ג׳ימי ויילס, אחד ממייסדי האנציקלופדיה החופשית – <a "
+"href=\"http://www.wikipedia.org/\">ויקיפדיה</a>."
 
 #: pages/windows.stand_for_a_free_society.php:149
 msgid "http://www.lafkon.net/tc/"
@@ -3672,6 +3756,7 @@ msgid ""
 "Short video animation by Benjamin Stephan and Lutz Vogel. A clear, snappy "
 "and convincing argument."
 msgstr ""
+"אנימציית וידאו קצרה שהכינו בנג׳מין סטיבן ולוץ ווגל. טיעון ברור, חד ומשכנע."
 
 #: pages/windows.stand_for_a_free_society.php:152
 #: pages/windows.what_about_source_code.php:20
@@ -3699,6 +3784,7 @@ msgid ""
 "About 3 million computers get sold every year in China, but people don't pay "
 "for the software."
 msgstr ""
+"בכל שנה נמכרים בסין בערך 3 מיליון מחשבים, אך אנשים אינם משלמים על התכנה."
 
 #: pages/windows.what_about_choice.php:18
 msgid ""
@@ -3706,16 +3792,19 @@ msgid ""
 "want them to steal ours. They'll get sort of addicted, and then we'll "
 "somehow figure out how to collect sometime in the next decade."
 msgstr ""
+"יום יבוא והם עוד ישלמו. כל עוד הם מתכוונים לגנוב את התכנה, אנו רוצים שהם "
+"יגנבו את התכנה שלנו. הם יחלו להתמכר ואז אנו נמצא את הדרך לגבות מהם מתישהו "
+"בעשור הבא."
 
 #: pages/windows.what_about_choice.php:19
 msgid "1998 interview"
-msgstr ""
+msgstr "ריאיון משנת 1998"
 
 #: pages/windows.what_about_choice.php:24
 msgid ""
 "Microsoft works hard to make sure their users stay locked into their "
 "products."
-msgstr ""
+msgstr "Microsoft עובדת קשה כדי לוודא שהמשתמשים שלה יהיו כבולים למוצרים שלה."
 
 #: pages/windows.what_about_choice.php:28
 msgid "Poor support for open standards"
@@ -3751,7 +3840,7 @@ msgstr ""
 
 #: pages/windows.what_about_choice.php:37
 msgid "Standards that change all the time"
-msgstr ""
+msgstr "תקנים שמשתנים כל הזמן"
 
 #: pages/windows.what_about_choice.php:39
 msgid ""
