@@ -89,7 +89,7 @@ class GetGnuLinux {
             'da' => array('da_DK.UTF-8','dk',"Home","Dansk", "Watch this page in Danish", 0.05),
             'de' => array('de_DE.UTF-8','de',"Home","Deutsch", "Watch this page in German", 0.47),
             'en' => array('en_GB.UTF-8','gb',"Home","English", "Watch this page in English", 1),
-            'eo' => array('eo.UTF-8',   'eo',"Home","Esperanto", "Watch this page in Esperanto", 0.23),
+            'eo' => array('eo.UTF-8',   'eo',"Home","Esperanto", "Watch this page in Esperanto", 0.24),
             'es' => array('es_ES.UTF-8','es',"Inicio","Español", "¡Lee esta página en español!", 0.66),
             'fr' => array('fr_FR.UTF-8','fr',"Accueil","Français", "Cette page en français", 0.71),
             'he' => array('he_IL.UTF-8','il',"Home","עִבְרִית", "Watch this page in Hebrew", 1.0),
@@ -105,7 +105,7 @@ class GetGnuLinux {
             'tr' => array('tr_TR.UTF-8','tr',"Home","Türkçe", "Watch this page in Turkish", 0.15),
             'uk' => array('uk_UA.UTF-8','ua',"Додому","Українська", "Переглянути цю сторінку на українська мові!", 0.26),
             'vi' => array('vi_VN',      'vn',"Nhà","Tiếng Việt", "Xem trang này bằng tiếng Tiếng Việt !", 0.50),
-            'zh' => array('zh_CN.UTF-8','cn',"Home","中文", "Watch this page in Chinese", 0.48),
+            'zh' => array('zh_CN.UTF-8','cn',"Home","中文", "Watch this page in Chinese", 0.51),
             )
         );
 

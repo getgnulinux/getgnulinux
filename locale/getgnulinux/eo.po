@@ -5,15 +5,17 @@
 # Translators:
 # Damir  <damirmf@gmail.com>, 2011.
 # Dominique Pellé <dominique.pelle@gmail.com>, 2011.
+#   <fenris.kcf@gmail.com>, 2011.
+# Ignacio Carrera <icg837@gmail.com>, 2011.
 # Serrano Pereira <serrano.pereira@gmail.com>, 2011.
 #   <zohn.joidberg@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2011-11-07 11:55+0100\n"
-"PO-Revision-Date: 2011-11-03 07:43+0000\n"
-"Last-Translator: KIAaze <zohn.joidberg@gmail.com>\n"
+"POT-Creation-Date: 2011-12-17 18:21+0100\n"
+"PO-Revision-Date: 2011-11-27 12:41+0000\n"
+"Last-Translator: fenris <fenris.kcf@gmail.com>\n"
 "Language-Team: Esperanto (http://www.transifex.net/projects/p/getgnulinux/"
 "team/eo/)\n"
 "Language: eo\n"
@@ -22,130 +24,131 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: include/footer.php:9
+#: include/footer.php:37
 msgid "About"
 msgstr "Pri"
 
-#: include/footer.php:11
-msgid "Contact the authors."
-msgstr ""
-
-#: include/footer.php:11 pages/more.php:101
-msgid "Contact us"
-msgstr "Kontaktu nin"
-
-#: include/footer.php:12
+#: include/footer.php:39
 msgid "Read about news and updates."
 msgstr "Legu pri novaĵoj kaj ĝisdatigoj. "
 
-#: include/footer.php:12
+#: include/footer.php:39
 msgid "Our blog"
 msgstr "Nia blogo"
 
-#: include/footer.php:16
-msgid "Information"
-msgstr "Informoj"
-
-#: include/footer.php:18 pages/more.php:100
+#: include/footer.php:40 pages/more.php:100
 msgid "Terms of use"
 msgstr ""
 
-#: include/footer.php:19 pages/more.php:102
+#: include/footer.php:41 pages/more.php:102
 msgid "Credits"
 msgstr "Dankoj"
 
-#: include/footer.php:23
+#: include/footer.php:42
+msgid "Contact the authors."
+msgstr ""
+
+#: include/footer.php:42 pages/more.php:101
+msgid "Contact us"
+msgstr "Kontaktu nin"
+
+#: include/footer.php:46
 msgid "Ways to help."
 msgstr "Eblecoj helpi."
 
-#: include/footer.php:23
+#: include/footer.php:46
 msgid "Participate"
 msgstr ""
 
-#: include/footer.php:25
+#: include/footer.php:48 pages/link_buttons.php:6
 msgid "Help us spread free software!"
 msgstr ""
 
-#: include/footer.php:25
+#: include/footer.php:48
 msgid "Link to us"
 msgstr ""
 
-#: include/footer.php:26
+#: include/footer.php:49
 msgid "Found something awkward? Report it!"
 msgstr ""
 
-#: include/footer.php:26
+#: include/footer.php:49
 msgid "Report a bug"
 msgstr ""
 
-#: include/footer.php:27
+#: include/footer.php:50
 msgid "Help us reach an audience in your language!"
 msgstr ""
 
-#: include/footer.php:27
+#: include/footer.php:50
 msgid "Translation"
 msgstr "Traduko"
 
-#: include/footer.php:28
+#: include/footer.php:51
 msgid "Starting point for developers."
 msgstr ""
 
-#: include/footer.php:28
+#: include/footer.php:51
 msgid "Project page"
 msgstr ""
 
-#: include/footer.php:32
+#: include/footer.php:55
 msgid "Other"
 msgstr "Aliaj"
 
-#: include/footer.php:34
+#: include/footer.php:57
 msgid ""
 "This website won't look as intended on an outdated browser. Upgrade your "
 "browser today!"
 msgstr ""
 
-#: include/footer.php:39
+#. i18n: The link in the footer that links to browsehappy.com. You may choose to leave this untranslated.
+#: include/footer.php:59
+msgid "Browse Happy"
+msgstr ""
+
+#: include/footer.php:64
 #, php-format
 msgid ""
 "Except where otherwise <a href=\"%s\">noted</a>, content on this site is "
-"licensed under a <acronym title=\"Creative Commons Attribution-ShareAlike "
-"3.0 License\"><a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" rel="
-"\"license\">CC BY-SA 3.0 License</a></acronym>."
+"licensed under a <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" "
+"rel=\"license\"><acronym title=\"Creative Commons Attribution-ShareAlike"
+"\">CC BY-SA</acronym> 3.0 License</a>."
 msgstr ""
 
 #. i18n: The name of the website. It is displayed in the header of each page.
-#: include/GetGnuLinux.php:70
+#: include/GetGnuLinux.php:156
 msgid "get GNU/Linux!"
 msgstr "Provu GNU/Linukson!"
 
 #. i18n: The way you refer to a website's main page in your language.
-#: include/GetGnuLinux.php:75
+#: include/GetGnuLinux.php:161
 msgid "Home"
 msgstr "Hejmo"
 
 #. i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
-#: include/GetGnuLinux.php:77 include/header.php:157
+#: include/GetGnuLinux.php:163 include/header.php:206
 #: pages/linux.linux_faq.php:355 pages/more.php:6
 #: pages/switch_to_linux.from_windows_to_linux.php:60
 msgid "More"
 msgstr "Pli"
 
 #. i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
-#: include/GetGnuLinux.php:79 include/header.php:154 pages/home.php:23
+#: include/GetGnuLinux.php:165 include/header.php:203 pages/home.php:23
 #: pages/linux.linux_faq.php:362
 #: pages/linux.misunderstanding_free_software.php:191
-#: pages/linux.screenshots.php:31 pages/linux.screenshots.php:104
+#: pages/linux.screenshots.php:31 pages/linux.screenshots.php:112
 #: pages/windows.php:84
 msgid "What is Linux?"
 msgstr "Kio estas Linukso?"
 
 #. i18n: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
-#: include/GetGnuLinux.php:81 pages/linux.php:70
+#: include/GetGnuLinux.php:167 pages/linux.php:70
 msgid "Linux FAQ - common questions about GNU/Linux"
 msgstr "Linukso ODD - oftaj demandoj pri GNU/Linukso"
 
 #. i18n: Here the intent is to be a little provocative. Exact translation is not required.
-#: include/GetGnuLinux.php:83 pages/linux.linux_faq.php:144
+#: include/GetGnuLinux.php:169 pages/linux.linux_faq.php:144
 #: pages/linux.linux_faq.php:198 pages/linux.linux_faq.php:212
 #: pages/linux.misunderstanding_free_software.php:14 pages/linux.php:68
 #: pages/windows.stand_for_a_free_society.php:155
@@ -153,19 +156,19 @@ msgid "How to Misunderstand Free Software"
 msgstr "Kiel miskompreni libera programaro"
 
 #. i18n: This is the title of the 'Screenshots' page.
-#: include/GetGnuLinux.php:85 pages/linux.screenshots.php:36
+#: include/GetGnuLinux.php:171 pages/linux.screenshots.php:36
 msgid "What GNU/Linux looks like"
 msgstr "Kiel aspektas GNU/Linukso"
 
 #. i18n: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
-#: include/GetGnuLinux.php:87 include/header.php:155 include/HTML.php:96
-#: include/HTML.php:114 pages/home.php:30 pages/linux.php:60
+#: include/GetGnuLinux.php:173 include/header.php:204 include/HTML.php:177
+#: include/HTML.php:198 pages/home.php:29 pages/linux.php:60
 #: pages/windows.php:5
 msgid "Why not Windows"
 msgstr "Kial ne Vindozo"
 
 #. i18n: This title can be translated loosely
-#: include/GetGnuLinux.php:89 include/HTML.php:98 include/HTML.php:116
+#: include/GetGnuLinux.php:175 include/HTML.php:179 include/HTML.php:200
 #: pages/windows.php:14 pages/windows.php:16 pages/windows.php:23
 #: pages/windows.restrictions.further_details.php:4
 #: pages/windows.restrictions.further_details.php:83
@@ -174,56 +177,57 @@ msgid "Restrictions"
 msgstr ""
 
 #. i18n: This title can be translated loosely
-#: include/GetGnuLinux.php:91 pages/windows.restrictions.further_details.php:9
+#: include/GetGnuLinux.php:177
+#: pages/windows.restrictions.further_details.php:9
 msgid "More details on restrictions"
 msgstr ""
 
 #. i18n: This title can be translated loosely
-#: include/GetGnuLinux.php:93 include/HTML.php:101 include/HTML.php:119
+#: include/GetGnuLinux.php:179 include/HTML.php:182 include/HTML.php:203
 #: pages/linux.linux_faq.php:268 pages/windows.php:56 pages/windows.php:57
 #: pages/windows.php:66
 msgid "Stand for a free society"
 msgstr ""
 
 #. i18n: This title can be translated loosely
-#: include/GetGnuLinux.php:95 include/HTML.php:99 include/HTML.php:117
+#: include/GetGnuLinux.php:181 include/HTML.php:180 include/HTML.php:201
 #: pages/windows.php:31 pages/windows.php:32 pages/windows.php:37
 #: pages/windows.what_about_choice.php:12
 msgid "What about choice?"
 msgstr "Kio pri eblecoj?"
 
 #. i18n: This title can be translated loosely
-#: include/GetGnuLinux.php:97 include/HTML.php:100 include/HTML.php:118
+#: include/GetGnuLinux.php:183 include/HTML.php:181 include/HTML.php:202
 #: pages/windows.php:44 pages/windows.php:45 pages/windows.php:50
 msgid "No source code"
 msgstr ""
 
 #. i18n: This appears in the top header menu and should be as short and concise as possible.
-#: include/GetGnuLinux.php:99 include/header.php:156 include/HTML.php:79
-#: pages/home.php:37 pages/switch_to_linux.php:5 pages/windows.php:82
+#: include/GetGnuLinux.php:185 include/header.php:205 include/HTML.php:157
+#: pages/home.php:35 pages/switch_to_linux.php:5 pages/windows.php:82
 msgid "Switch to Linux"
 msgstr "Ŝanĝu al Linukso"
 
-#: include/GetGnuLinux.php:100 include/HTML.php:82
+#: include/GetGnuLinux.php:186 include/HTML.php:160
 #: pages/switch_to_linux.choose_a_distribution.php:8
 #: pages/switch_to_linux.php:20
 msgid "Choose a distribution"
 msgstr "Elektu distribuaĵon"
 
-#: include/GetGnuLinux.php:101 include/HTML.php:81
+#: include/GetGnuLinux.php:187 include/HTML.php:159
 #: pages/switch_to_linux.from_windows_to_linux.php:8
 #: pages/switch_to_linux.php:12
 msgid "From Windows to Linux"
 msgstr ""
 
 #. i18n: This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
-#: include/GetGnuLinux.php:103 include/HTML.php:83
+#: include/GetGnuLinux.php:189 include/HTML.php:161
 #: pages/switch_to_linux.php:26 pages/switch_to_linux.try_or_install.php:8
 msgid "Try or install"
 msgstr "Provu aû instalu"
 
 #. i18n: This is the description of the homepage, and it appears in Google results! Please pay particular attention to this one =)
-#: include/GetGnuLinux.php:109
+#: include/GetGnuLinux.php:195
 msgid ""
 "Get GNU/Linux! A simple, clear website about Linux. | What is Linux? | Why "
 "not Windows? | Tips to make the switch"
@@ -232,99 +236,101 @@ msgstr ""
 "Kial ne Vindozo? | Konsiletoj por ŝanĝi"
 
 #. i18n: This is the description of the 'More' page
-#: include/GetGnuLinux.php:111
+#: include/GetGnuLinux.php:197
 msgid "Read and discover more about Linux."
 msgstr ""
 
 #. i18n: This is the description of the 'Linux' page
-#: include/GetGnuLinux.php:113
+#: include/GetGnuLinux.php:199
 msgid "What is Linux? A clear explanation."
 msgstr "Kio estas Linukso ? Klara klarigo."
 
 #. i18n: This is the description of the 'Linux FAQ' page
-#: include/GetGnuLinux.php:115
+#: include/GetGnuLinux.php:201
 msgid "Frequently Asked Questions about GNU/Linux."
 msgstr "Ofte Demanditaj Demandoj pri GNU/Linukso."
 
 #. i18n: This is the description of the 'Misunderstanding Free Software' page
-#: include/GetGnuLinux.php:117
+#: include/GetGnuLinux.php:203
 msgid "An unconventional way to (re)discover free software."
 msgstr ""
 
 #. i18n: This is the description of the 'Screenshots' page
-#: include/GetGnuLinux.php:119
+#: include/GetGnuLinux.php:205
 msgid "A brief look at Linux in everyday use."
 msgstr "Rapida rigardo al Linukso en ĉiutaga uzo."
 
 #. i18n: This is the description of the 'Why not Windows' page
-#: include/GetGnuLinux.php:121
+#: include/GetGnuLinux.php:207
 msgid "Four good reasons to avoid proprietary software."
 msgstr ""
 
 #. i18n: This is the description of the 'Restrictions' page
-#: include/GetGnuLinux.php:123
+#: include/GetGnuLinux.php:209
 msgid "Restrictions in a proprietary software license."
 msgstr ""
 
 #. i18n: This is the description of the 'Restrictions further details' page
-#: include/GetGnuLinux.php:125
+#: include/GetGnuLinux.php:211
 msgid "Restrictions in a proprietary software license - more details."
 msgstr ""
 
 #. i18n: This is the description of the 'Stand for a free society' page
-#: include/GetGnuLinux.php:127 pages/windows.php:57
+#: include/GetGnuLinux.php:213 pages/windows.php:57
 msgid "How software affects freedom in society."
 msgstr ""
 
 #. i18n: This is the description of the 'What about choice' page
-#: include/GetGnuLinux.php:129
+#: include/GetGnuLinux.php:215
 msgid "How Microsoft lock customers in."
 msgstr ""
 
 #. i18n: This is the description of the 'What about source code' page
-#: include/GetGnuLinux.php:131
+#: include/GetGnuLinux.php:217
 msgid "No source code means no trust and no security."
 msgstr ""
 
 #. i18n: This is the description of the 'Switch to Linux' page
-#: include/GetGnuLinux.php:133
+#: include/GetGnuLinux.php:219
 msgid "Switch to Linux: Good tips and advice."
 msgstr ""
 
 #. i18n: This is the description of the 'Choose a distribution' page
-#: include/GetGnuLinux.php:135
+#: include/GetGnuLinux.php:221
 msgid "Recommended Linux distributions for everyday users."
 msgstr ""
 
 #. i18n: This is the description of the 'From Windows to Linux' page
-#: include/GetGnuLinux.php:137
+#: include/GetGnuLinux.php:223
 msgid "The advantages and disadvantages of Linux over Windows."
 msgstr ""
 
 #. i18n: This is the description of the 'Try or Install' page. i18n note: this should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
-#: include/GetGnuLinux.php:139
+#: include/GetGnuLinux.php:225
 msgid "Try or install Linux on your computer, very easily."
 msgstr ""
 
-#: include/header.php:23
+#: include/header.php:52
 msgid ""
 "linux, gnu/linux, free software, software freedom, open-source, windows "
 "alternative, get linux, switch to linux"
 msgstr ""
+"linux, gnu/linux, libera programaro, programara libereco, malfermitkodo, "
+"alternativo al windows, provu linux, ŝanĝu al linux"
 
-#: include/header.php:100
+#: include/header.php:149
 msgid "skip to content"
 msgstr "Pasu rekte al la enhavo"
 
-#: include/header.php:107
+#: include/header.php:156
 msgid "Alternate languages"
 msgstr "Alternativaj lingvoj"
 
-#: include/header.php:143
+#: include/header.php:192
 msgid "home page"
 msgstr "Hejmpaĝo"
 
-#: pages/credits.php:174 pages/legal.php:111 pages/not_found.php:19
+#: pages/credits.php:192 pages/legal.php:124 pages/not_found.php:19
 msgid "Return to the Homepage"
 msgstr "Revenu al la hejmpaĝo"
 
@@ -348,13 +354,53 @@ msgstr ""
 msgid "Learn more about the free operating system"
 msgstr "Lernu pli pri la libera operaciumo"
 
-#: pages/home.php:31
+#: pages/home.php:30
 msgid "Why we should avoid using Microsoft Windows"
 msgstr "Kial ni devus eviti uzi Microsoft Vindozon"
 
-#: pages/home.php:38
+#: pages/home.php:36
 msgid "Where to download and how to step into Linux"
 msgstr "Kie elŝuti kaj kiel ekuzi Linukson"
+
+#: pages/link_buttons.php:5
+msgid "Link buttons"
+msgstr ""
+
+#: pages/link_buttons.php:7
+msgid ""
+"Simply copy/paste the code next to your favorite button into your website."
+msgstr ""
+
+#: pages/link_buttons.php:101
+msgid "Usage"
+msgstr ""
+
+#: pages/link_buttons.php:102
+msgid ""
+"We kindly ask that these buttons be used only to point to <em>get GNU/Linux!"
+"</em> websites."
+msgstr ""
+
+#: pages/link_buttons.php:106
+msgid "Licensing"
+msgstr ""
+
+#: pages/link_buttons.php:107
+msgid ""
+"Some of these buttons contain material subjected to the following licensing:"
+msgstr ""
+
+#: pages/link_buttons.php:117
+msgid "Make your own!"
+msgstr ""
+
+#: pages/link_buttons.php:118
+#, php-format
+msgid ""
+"Make your own buttons and maybe we can host them along ours! Our <a href=\"%s"
+"\">source files</a> (GIMP and Inkscape formats) might be a good starting "
+"point."
+msgstr ""
 
 #: pages/linux.linux_faq.php:5
 msgid "Linux Frequently Asked Questions"
@@ -401,6 +447,8 @@ msgstr "Kompreni liberan programaron:"
 msgid ""
 "Are &quot;Open Source&quot; and &quot;Free Software&quot; the same thing?"
 msgstr ""
+"Ĉu &quot;malfermitkodo&quot; kaj &quot;libera programaro&quot; estas la "
+"samaj aferoj?"
 
 #: pages/linux.linux_faq.php:23 pages/linux.linux_faq.php:135
 msgid "Why are some Linux distributions sold, not given away?"
@@ -481,6 +529,9 @@ msgid ""
 "kernel) that fits within the <strong>GNU</strong> system. What users run "
 "today are, to be precise, \"<em>distributions of the GNU/Linux system</em>\"."
 msgstr ""
+"Komence, <strong>Linux</strong> rilatas al la ĉefa parto (nomata la kerno) "
+"kiu situas ene de la sistemo <strong>GNU</strong>. Kion la uzantoj nuntempe "
+"uzas estas, ĝuste, \"<em>distribuaĵoj de la sistemo GNU/Linux</em>\"."
 
 #: pages/linux.linux_faq.php:57
 msgid ""
@@ -488,6 +539,9 @@ msgid ""
 "today people refer to the whole system as simply \"Linux\". This causes a "
 "great deal of controversy."
 msgstr ""
+"En praktiko la vorto \"Linux\" atingis pli grandan popularecon (nesurprize) "
+"kaj nuntempe oni nomas la tutan sistemon simple \"Linux\". Tio kaŭzas multe "
+"da disputoj."
 
 #. i18n: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
 #: pages/linux.linux_faq.php:60
@@ -498,12 +552,19 @@ msgid ""
 "softwareliberty.com/\">Free Software</a> movement started with and are still "
 "carried by <a href=\"http://www.gnu.org/\">the GNU project</a>."
 msgstr ""
+"Nomi la sistemon <em>GNU/Linux</em> estas ege pli signifoplena, teĥnike (la "
+"uzantoj uzas multe da \"GNU\" kaj malmulte da \"Linux\") sed ankaŭ "
+"filozofie: la forteco kaj impeto de la <a href=\"http://www.softwareliberty."
+"com/\">Libera programaro</a> movado estis lanĉita kaj ankoraŭ estas tenita "
+"de <a href=\"http://www.gnu.org/\">la GNU projekto</a>."
 
 #: pages/linux.linux_faq.php:61
 msgid ""
 "Calling the system <em>Linux</em> is more practical and appealing for "
 "computer users that often believe Windows is the only thing on earth."
 msgstr ""
+"Nomi la sistemon <em>Linux</em> estas pli alvokanta por komputilo-uzantoj, "
+"kiuj ofte kredas, ke Windows estas la sola aĵo sur tero."
 
 #: pages/linux.linux_faq.php:62
 msgid ""
@@ -547,6 +608,13 @@ msgid ""
 "check out what <a href=\"http://www.gnu.org/software/hurd/hurd.html\">GNU "
 "Hurd</a> means)."
 msgstr ""
+"Kiam Richard Stallman komencis projekti GNU, la plej uzata sistemo estis "
+"Unix, kio estas mallibera. Ĉar GNU funkcie similas (kaj kongruas kun) Unix, "
+"sed estas <a href=\"http://www.softwareliberty.com/\">libera programaro</a>, "
+"li enstampis la mallongigaĵon GNU, kiu signifas <strong>GNU's Not Unix</"
+"strong>. Ĝi estas <a href=\"http://eo.wikipedia.org/wiki/Rikura_akronimo\">. "
+"(se vi ĝuas tion specon de humoro, rigardu kion <a href=\"http://www.gnu.org/"
+"software/hurd/hurd.html\">GNU Hurd</a> signifas)."
 
 #: pages/linux.linux_faq.php:84
 msgid ""
@@ -554,6 +622,9 @@ msgid ""
 "trademark is held by <a href=\"http://www.linuxmark.org/\">the Linux Mark "
 "Institute</a>."
 msgstr ""
+"Jes. Oni ne rajtas vendi ajn hazardan programaron kun la nomo Linux&reg:. La "
+"fabrika marko estas okupita de <a href=\"http://www.linuxmark.org/\">la "
+"Linux Mark Institute</a>."
 
 #: pages/linux.linux_faq.php:94
 msgid ""
@@ -574,6 +645,14 @@ msgid ""
 "com/plan9/\">Plan 9</a> from Bell Labs and <a href=\"http://www.syllable.org/"
 "\">Syllable</a>, just to name a few."
 msgstr ""
+"Tioj inkludas la UNIX-versiojn <a href=\"http://freebsd.org/\">FreeBSD</a>, "
+"<a href=\"http://netbsd.org/\">NetBSD</a>, <a href=\"http://openbsd.org/"
+"\">OpenBSD</a> kaj <a href=\"http://opensolaris.org/\">OpenSolaris</a>, la "
+"BeOS-klono <a href=\"http://haiku-os.org/\">Haiku OS</a>, la Windows NT-"
+"klono <a href=\"http://reactos.sf.net/\">ReactOS</a>, la DOS-klono <a href="
+"\"http://www.freedos.org/\">FreeDOS</a>, <a href=\"http://plan9.bell-labs."
+"com/plan9/\">Plan 9</a> de Bell Labs kaj <a href=\"http://www.syllable.org/"
+"\">Syllable</a>, nombrante nur kelkajn."
 
 #. i18n: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
 #: pages/linux.linux_faq.php:106
@@ -584,6 +663,10 @@ msgid ""
 "Linux systems. But overall, it is proprietary software: all the <a href=\"%s"
 "\">issues about Windows</a> apply to it as well."
 msgstr ""
+"Ne. Ekzistas iom da <a href=\"http://www.softwareliberty.com/\">liberaj "
+"programaraj</a> eroj en Mac OSX kaj ĝi teĥnike similas GNU/Linux-sistemojn. "
+"Sed totale ĝi estas mallibera programaro: ĉiujn <a href=\"%s\">problemojn "
+"pri Windows</a> ĝi havas ankaŭ."
 
 #: pages/linux.linux_faq.php:123
 msgid "Yes and no."
@@ -594,6 +677,8 @@ msgid ""
 "Technically, the great majority of open source programs are free software "
 "and vice-versa."
 msgstr ""
+"Teĥnike la klara plimulto da malfermaj kodaj programoj estas libera "
+"programaro kaj inverse."
 
 #: pages/linux.linux_faq.php:125
 msgid ""
@@ -970,7 +1055,7 @@ msgstr ""
 
 #: pages/linux.linux_faq.php:362
 #: pages/linux.misunderstanding_free_software.php:191
-#: pages/linux.screenshots.php:31 pages/linux.screenshots.php:104
+#: pages/linux.screenshots.php:31 pages/linux.screenshots.php:112
 #: pages/windows.restrictions.further_details.php:4
 #: pages/windows.restrictions.further_details.php:83
 msgid "back up:"
@@ -2394,7 +2479,7 @@ msgid ""
 msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:61
-msgid "Download the Ubuntu CD"
+msgid "Download Ubuntu"
 msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:62
@@ -2405,7 +2490,7 @@ msgid ""
 msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:71
-msgid "Download the Fedora DVD or CD"
+msgid "Download Fedora"
 msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:72
@@ -2416,7 +2501,7 @@ msgid ""
 msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:81
-msgid "Download the Trisquel CD"
+msgid "Download Trisquel"
 msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:82

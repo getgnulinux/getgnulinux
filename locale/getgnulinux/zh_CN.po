@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2011-11-19 18:17+0100\n"
-"PO-Revision-Date: 2011-11-12 03:56+0000\n"
-"Last-Translator: Pxseudoprime <saysonpeng@gmail.com>\n"
+"POT-Creation-Date: 2011-12-17 18:21+0100\n"
+"PO-Revision-Date: 2011-11-30 07:26+0000\n"
+"Last-Translator: Sayson Peng <saysonpeng@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.net/projects/p/"
 "getgnulinux/team/zh_CN/)\n"
 "Language: zh_CN\n"
@@ -56,7 +56,7 @@ msgstr ""
 msgid "Participate"
 msgstr ""
 
-#: include/footer.php:48
+#: include/footer.php:48 pages/link_buttons.php:6
 msgid "Help us spread free software!"
 msgstr ""
 
@@ -320,13 +320,13 @@ msgstr "跳至目录"
 
 #: include/header.php:156
 msgid "Alternate languages"
-msgstr "其他语种"
+msgstr "其他语言"
 
 #: include/header.php:192
 msgid "home page"
 msgstr ""
 
-#: pages/credits.php:180 pages/legal.php:111 pages/not_found.php:19
+#: pages/credits.php:192 pages/legal.php:124 pages/not_found.php:19
 msgid "Return to the Homepage"
 msgstr "返回主页"
 
@@ -355,6 +355,46 @@ msgstr "为什么我们应该避免使用Microsoft Windows"
 #: pages/home.php:36
 msgid "Where to download and how to step into Linux"
 msgstr "从哪里下载又如何迈向Linux？"
+
+#: pages/link_buttons.php:5
+msgid "Link buttons"
+msgstr ""
+
+#: pages/link_buttons.php:7
+msgid ""
+"Simply copy/paste the code next to your favorite button into your website."
+msgstr ""
+
+#: pages/link_buttons.php:101
+msgid "Usage"
+msgstr ""
+
+#: pages/link_buttons.php:102
+msgid ""
+"We kindly ask that these buttons be used only to point to <em>get GNU/Linux!"
+"</em> websites."
+msgstr ""
+
+#: pages/link_buttons.php:106
+msgid "Licensing"
+msgstr ""
+
+#: pages/link_buttons.php:107
+msgid ""
+"Some of these buttons contain material subjected to the following licensing:"
+msgstr ""
+
+#: pages/link_buttons.php:117
+msgid "Make your own!"
+msgstr ""
+
+#: pages/link_buttons.php:118
+#, php-format
+msgid ""
+"Make your own buttons and maybe we can host them along ours! Our <a href=\"%s"
+"\">source files</a> (GIMP and Inkscape formats) might be a good starting "
+"point."
+msgstr ""
 
 #: pages/linux.linux_faq.php:5
 msgid "Linux Frequently Asked Questions"
@@ -408,7 +448,7 @@ msgstr "为什么有些Linux发行版要出售，而不是派送呢？"
 
 #: pages/linux.linux_faq.php:24 pages/linux.linux_faq.php:153
 msgid "Why are some Linux distributions not fully free?"
-msgstr ""
+msgstr "为什么有的 Linux 发行版并不完全免费？"
 
 #: pages/linux.linux_faq.php:25 pages/linux.linux_faq.php:174
 msgid "Is Mac OS also a free operating system?"
@@ -608,6 +648,9 @@ msgid ""
 "Linux systems. But overall, it is proprietary software: all the <a href=\"%s"
 "\">issues about Windows</a> apply to it as well."
 msgstr ""
+"不是。Mac OSX里面含有一小部分<a href=\"http://www.softwareliberty.com/\">自由"
+"软件</a>，从技术上讲与 GNU/Linux 系统也相似。但是总的来说，它是私有软件：所有"
+"</a href=\"%s\">关于 Windows 的问题</a>也是如此。"
 
 #: pages/linux.linux_faq.php:123
 msgid "Yes and no."
@@ -771,7 +814,7 @@ msgstr ""
 #: pages/linux.linux_faq.php:192
 msgid ""
 "Isn't Linux about cracking, &quot;piracy&quot; and illegal download websites?"
-msgstr ""
+msgstr "Linux 不是与破坏，“盗版”以及非法下载网站挂钩吗？"
 
 #: pages/linux.linux_faq.php:193
 msgid "No!"
@@ -1009,12 +1052,12 @@ msgstr "https://wiki.ubuntu.com/RestrictedFormats"
 
 #: pages/linux.linux_faq.php:324
 msgid "Ubuntu Restricted Formats"
-msgstr ""
+msgstr "Ubuntu 受限格式"
 
 #. i18n: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
 #: pages/linux.linux_faq.php:327
 msgid "http://www.fedoraproject.org/wiki/ForbiddenItems"
-msgstr ""
+msgstr "http://www.fedoraproject.org/wiki/ForbiddenItems"
 
 #: pages/linux.linux_faq.php:327
 msgid "Fedora Forbidden Items"
@@ -1660,7 +1703,7 @@ msgstr "GNU/Linux是什么样的？精选截屏"
 #. i18n: image alt description
 #: pages/linux.php:18
 msgid "A view of a Fedora Linux desktop"
-msgstr ""
+msgstr "Fedora Linux 桌面一览"
 
 #: pages/linux.php:19
 msgid ""
@@ -1707,7 +1750,7 @@ msgstr ""
 #. i18n: image alt description
 #: pages/linux.php:35
 msgid "A view of a Ubuntu Linux desktop"
-msgstr ""
+msgstr "Ubuntu Linux 桌面一览"
 
 #: pages/linux.php:36
 msgid ""
@@ -1807,7 +1850,7 @@ msgstr ""
 
 #: pages/linux.php:60 pages/windows.php:82
 msgid "next:"
-msgstr ""
+msgstr "下一页："
 
 #: pages/linux.php:66
 msgid "More in this section:"
@@ -2038,7 +2081,7 @@ msgstr ""
 #. i18n: Title for the Page Not Found page. We like to add a bit of humour to this title :P
 #: pages/not_found.php:7
 msgid "Doh! Page Not Found"
-msgstr ""
+msgstr "噢！页面未找到！"
 
 #. i18n: The "AWOL" part is supposed to add some humour to the error message. Use your creativity to add some humour that's more suitable for your language.
 #: pages/not_found.php:11
@@ -2050,7 +2093,7 @@ msgstr ""
 
 #: pages/not_found.php:13
 msgid "Report broken link"
-msgstr ""
+msgstr "报告失效链接"
 
 #. i18n: Here, the %s placeholder simply puts a link to the bug tracker
 #: pages/not_found.php:16
@@ -2059,6 +2102,8 @@ msgid ""
 "If you found a broken link, please <a href=\"%s\">report it</a> so we can "
 "repair it. Thank you!"
 msgstr ""
+"如果你发现了失效链接，请点<a href=\"%s\">这里</a>报告给我们，以便于尽快修复。"
+"谢谢！"
 
 #: pages/switch_to_linux.choose_a_distribution.php:10
 msgid ""
@@ -2066,6 +2111,8 @@ msgid ""
 "difficult. Here are our choice of three beginner-friendly, widely used "
 "distributions."
 msgstr ""
+"由于没有一个“统一的 Linux”，找一款你需要的可能比较困难。这是我们挑选的三个让"
+"新手易产生好感，而又被广泛使用的发行版。"
 
 #: pages/switch_to_linux.choose_a_distribution.php:19
 msgid ""
@@ -2158,12 +2205,12 @@ msgstr ""
 
 #: pages/switch_to_linux.from_windows_to_linux.php:13
 msgid "What is better in Linux"
-msgstr ""
+msgstr "Linux 好在哪里"
 
 #. i18n: please note the punctuation should be consistent
 #: pages/switch_to_linux.from_windows_to_linux.php:17
 msgid "It's free"
-msgstr ""
+msgstr "它是免费的"
 
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:20
@@ -2186,7 +2233,7 @@ msgstr ""
 
 #: pages/switch_to_linux.from_windows_to_linux.php:25
 msgid "Programs"
-msgstr ""
+msgstr "程序"
 
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:28
@@ -2268,12 +2315,12 @@ msgstr ""
 
 #: pages/switch_to_linux.from_windows_to_linux.php:53
 msgid "Support"
-msgstr ""
+msgstr "支持"
 
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:56
 msgid "support"
-msgstr ""
+msgstr "支持"
 
 #. i18n: The first %s represents the URL to the "More" page and seconds %s represents the title of the page "More" in your language
 #: pages/switch_to_linux.from_windows_to_linux.php:59
@@ -2301,6 +2348,7 @@ msgid ""
 "Fundamentally, everyday users will find GNU/Linux similar in use to Windows "
 "or Mac OSX."
 msgstr ""
+"基本上，普通用户会发现 GNU/Linux 在使用上与 Windows 或者 Mac OSX 近似。"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:73
 msgid "General set-up"
@@ -2337,7 +2385,7 @@ msgstr ""
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:88
 msgid "Firefox browser"
-msgstr ""
+msgstr "Firefox 浏览器"
 
 #. i18n: use localized Firefox landing page if possible
 #: pages/switch_to_linux.from_windows_to_linux.php:91
@@ -2378,7 +2426,7 @@ msgstr ""
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:114
 msgid "some hardware problems"
-msgstr ""
+msgstr "一些硬件问题"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:115
 msgid ""
