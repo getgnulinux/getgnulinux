@@ -1,10 +1,10 @@
 <?php $this->load_header(); ?>
 
-<div id="maincontent">
+<div id="maincontent" class="link_buttons">
 
-<h1>Link buttons</h1>
-<p>Help us spread free software!</p>
-<p>Simply copy/paste the code next to your favorite button into your website.</p>
+<h1><?php print _("Link buttons"); ?></h1>
+<p><?php print _("Help us spread free software!"); ?></p>
+<p><?php print _("Simply copy/paste the code next to your favorite button into your website."); ?></p>
 
 <br/>
 
@@ -98,13 +98,13 @@
 </div> <!-- end linkbuttons -->
 
 <div id="usage">
-<h2>Usage</h2>
-<p>We kindly ask that these buttons be used only to point to <em>get GNU/Linux!</em> websites.</p>
+<h2><?php print _("Usage"); ?></h2>
+<p><?php print _("We kindly ask that these buttons be used only to point to <em>get GNU/Linux!</em> websites."); ?></p>
 </div>
 
 <div id="license">
-<h2>Licensing</h2>
-<p>Some of these buttons contain material subjected to the following licensing:</p>
+<h2><?php print _("Licensing"); ?></h2>
+<p><?php print _("Some of these buttons contain material subjected to the following licensing:"); ?></p>
 <ul>
 	<li>Black and White GNU 1 <img src="/images/link_buttons/bwgnu1.png" alt="GNU"/>: by Aurelio A. Heckert, available <a href="http://en.wikipedia.org/wiki/Image:Heckert_GNU_white.svg">from Wikimedia Commons</a>, licensed under the <a href="http://artlibre.org/licence/lal/en/">Free Art License</a>.</li>
 	<li>Black and White GNU 2 <img src="/images/link_buttons/bwgnu2.png" alt="GNU"/>: by Sven H, available <a href="http://www.gnu.org/graphics/gnusvgart.html">from the GNU website</a>, used with permission from author.</li>
@@ -114,8 +114,9 @@
 </div>
 
 <div id="make_yours">
-<h2>Make your own!</h2>
-<p>Make your own buttons and maybe we can host them along ours! Our <a href="/links/shared_source_files.tar.gz">source files</a> (GIMP and Inkscape formats) might be a good starting point.</p>
+<h2><?php print _("Make your own!"); ?></h2>
+<p><?php $p = _("Make your own buttons and maybe we can host them along ours! Our <a href=\"%s\">source files</a> (GIMP and Inkscape formats) might be a good starting point.");
+printf($p, "/links/shared_source_files.tar.gz"); ?></p>
 </div>
 
 </div><!-- end maincontent -->

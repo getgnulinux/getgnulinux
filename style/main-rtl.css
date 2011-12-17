@@ -18,7 +18,8 @@ h1, h2, h3, h4 {
 .choose_a_distribution h2,
 .try_or_install h2, .try_or_install h3, .try_or_install h4,
 .mfs h2, .mfs h3,
-.not_found h2 {
+.not_found h2,
+.link_buttons h2 {
     text-align: right !important;
 }
 
@@ -238,6 +239,19 @@ html {
 
 .column1_2 {
     float: left;
+}
+
+/*----------------------------------------------------
+ * "Link buttons" page.
+ *----------------------------------------------------*/
+
+.copycode {
+    text-align: right;
+}
+
+#link_buttons img {
+    float: none;
+    margin: 0 0 0 1em;
 }
 
 /*----------------------------------------------------
