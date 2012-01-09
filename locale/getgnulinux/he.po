@@ -4,14 +4,14 @@
 #
 # Translators:
 # Serrano Pereira <serrano.pereira@gmail.com>, 2011.
-# Yaron Shahrabani <sh.yaron@gmail.com>, 2011.
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2011-12-14 11:46+0100\n"
-"PO-Revision-Date: 2011-12-14 09:57+0000\n"
-"Last-Translator: Yaron <sh.yaron@gmail.com>\n"
+"POT-Creation-Date: 2012-01-09 16:54+0100\n"
+"PO-Revision-Date: 2012-01-09 14:39+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (Israel) (http://www.transifex.net/projects/p/"
 "getgnulinux/team/he_IL/)\n"
 "Language: he_IL\n"
@@ -56,7 +56,7 @@ msgstr "דרכים לסיוע."
 msgid "Participate"
 msgstr "התנדבות"
 
-#: include/footer.php:48
+#: include/footer.php:48 pages/link_buttons.php:6
 msgid "Help us spread free software!"
 msgstr "עזרו לנו להפיץ את התכנה החופשית!"
 
@@ -102,7 +102,7 @@ msgstr ""
 #. i18n: The link in the footer that links to browsehappy.com. You may choose to leave this untranslated.
 #: include/footer.php:59
 msgid "Browse Happy"
-msgstr "עיון בשמחה"
+msgstr "לגלוש בפנאן"
 
 #: include/footer.php:64
 #, php-format
@@ -154,7 +154,7 @@ msgstr "מאגר שאלות על לינוקס - שאלות נפוצות על ג�
 #: pages/linux.misunderstanding_free_software.php:14 pages/linux.php:68
 #: pages/windows.stand_for_a_free_society.php:155
 msgid "How to Misunderstand Free Software"
-msgstr "איך לתפוס את רעיון התכנה החופשית בצורה מוטעית"
+msgstr "תפיסות מוטעות של רעיון התכנה החופשית"
 
 #. i18n: This is the title of the 'Screenshots' page.
 #: include/GetGnuLinux.php:171 pages/linux.screenshots.php:36
@@ -363,6 +363,51 @@ msgstr "למה עלינו להימנע משימוש ב־Windows"
 msgid "Where to download and how to step into Linux"
 msgstr "איפה להוריד וכיצד להיכנס לקטע של הלינוקס"
 
+#: pages/link_buttons.php:5
+msgid "Link buttons"
+msgstr "לחצני קישור"
+
+#: pages/link_buttons.php:7
+msgid ""
+"Simply copy/paste the code next to your favorite button into your website."
+msgstr "עליך פשוט להעתיק/להדביק את הקוד שליד הלחצן המועדף עליך אל האתר שלך."
+
+#: pages/link_buttons.php:101
+msgid "Usage"
+msgstr "שימוש"
+
+#: pages/link_buttons.php:102
+msgid ""
+"We kindly ask that these buttons be used only to point to <em>get GNU/Linux!"
+"</em> websites."
+msgstr ""
+"אנו מבקשים בכל לשון של בקשה שהלחצנים האלו יובילו אך ורק לאתרים בנושאי "
+"<em>אני רוצה גנו/לינוקס!</em>."
+
+#: pages/link_buttons.php:106
+msgid "Licensing"
+msgstr "רישוי"
+
+#: pages/link_buttons.php:107
+msgid ""
+"Some of these buttons contain material subjected to the following licensing:"
+msgstr "חלק מהלחצנים הנ״ל מכילים חומרים הכפופים לרישיונות הבאים:"
+
+#: pages/link_buttons.php:117
+msgid "Make your own!"
+msgstr "צרו לחצנים משלכם!"
+
+#: pages/link_buttons.php:118
+#, php-format
+msgid ""
+"Make your own buttons and maybe we can host them along ours! Our <a href=\"%s"
+"\">source files</a> (GIMP and Inkscape formats) might be a good starting "
+"point."
+msgstr ""
+"ציירו לחצנים משלכם ואולי נוכל לארח אותם לצד הלחצנים שלנו! <a href=\"%s"
+"\">קובצי המקור</a> (סוגי הקבצים תאומים ל־GIMP ול־Inkscape) יכולים להיות "
+"נקודה טובה לפתוח בה."
+
 #: pages/linux.linux_faq.php:5
 msgid "Linux Frequently Asked Questions"
 msgstr "שאלות נפוצות על לינוקס"
@@ -386,7 +431,7 @@ msgstr "האם יש הבדל בין „גנו/לינוקס“ לבין „לינ
 
 #: pages/linux.linux_faq.php:15 pages/linux.linux_faq.php:70
 msgid "And what has that software to do with a gnu?"
-msgstr "מה הקשר שיש לתכנה הזאת עם גנו?"
+msgstr "מה הקשר שיש לתכנה הזו עם גנו?"
 
 #: pages/linux.linux_faq.php:16 pages/linux.linux_faq.php:82
 msgid "Is Linux a registered trademark?"
@@ -658,8 +703,8 @@ msgid ""
 "the point</a>."
 msgstr ""
 "תומכי המונח „תכנה חופשית“ מעריכים את החופש, לא את הדרך בה נוצרה התכנה. ולכן "
-"עלה הוויכוח שהמונח „קוד פתוח“ <a href=\"http://www.gnu.org/philosophy/open-"
-"source-misses-the-point.html\">מחטיא את המטרה</a>."
+"עלה הוויכוח שמא המונח „קוד פתוח“ <a href=\"http://www.gnu.org/philosophy/"
+"open-source-misses-the-point.html\">מחטיא את המטרה</a>."
 
 #: pages/linux.linux_faq.php:127
 msgid "Which term you employ simply depends on your vision of software."
@@ -671,8 +716,8 @@ msgid ""
 "Some websites actually <em>sell</em> distributions of Linux. So, why do you "
 "write it is \"free as speech and available at no charge\"?"
 msgstr ""
-"ישנם אתרים שאכן <em>מוכרים</em> הפצות לינוקס. לכן, למה אתם כותבים שזאת מערכת "
-"„חופשית כמו בחופש הדיבור ושהיא זמינה ללא עלות“?"
+"ישנם אתרים שאכן <em>מוכרים</em> הפצות לינוקס. מדוע אם כך, אתם כותבים שזו "
+"מערכת „חופשית כמו בחופש הדיבור ושהיא זמינה ללא עלות“?"
 
 #. i18n: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
 #: pages/linux.linux_faq.php:142
@@ -829,7 +874,7 @@ msgid ""
 "of their cars; the same thing goes for their operating system."
 msgstr ""
 "לא משנה היכן שמעת על זה או קראת את זה עליך לעדכן את עמדותיך. לינוקס שונה "
-"במהותה מדברים שכאלה. בין אם זאת מטרתך או שדווקא עדיף לך להוריד בצורה<a href="
+"במהותה מדברים שכאלה. בין אם זו מטרתך או שדווקא עדיף לך להוריד בצורה <a href="
 "\"http://www.magnatune.com/\">מתוחכמת</a> <a href=\"http://www.jamendo.com/"
 "\">וחוקית</a>, לינוקס מעניקה את אותן האפשרויות כמו Windows. לרוע המזל אין לך "
 "את האפשרות לזהות עבריינים לפי דגם הרכב שלהם; אותו הדבר תקף גם על מערכות "
@@ -879,7 +924,7 @@ msgid ""
 "\"http://linuxpreloaded.com/\" title=\"Linux laptops\">LinuxPreloaded.com</"
 "a>, listing vendors that sell Linux desktops and laptops."
 msgstr ""
-"אכן כן! בנינו אתר במיוחד למטרה הזאת, <a href=\"http://linuxpreloaded.com/\" "
+"אכן כן! בנינו אתר במיוחד למטרה הזו, <a href=\"http://linuxpreloaded.com/\" "
 "title=\"Linux laptops\">LinuxPreloaded.com</a>, המציג מפיצים שמוכרים מחשבים "
 "שולחניים וניידים עם לינוקס."
 
@@ -1109,7 +1154,7 @@ msgstr ""
 "OS. חלק מהמשחקים המיועדים ל־Windows כדוגמת Call of Duty 4 או GTA Vice City "
 "ניתן להריץ על גבי גנו/לינוקס באמצעות <a href=\"http://winehq.org/\">Wine</a> "
 "או הגרסה הבלתי חופשית שלו בשם <a href=\"http://transgaming.com/cedega"
-"\">Cedega</a>, המצריכות מאמצים המטרידים את מנחות המשתמשים. לקבלת רשימה של "
+"\">Cedega</a>, המצריכות מאמצים המטרידים את מנוחת המשתמשים. לקבלת רשימה של "
 "משחקים שנבדקה פעולתם באמצעות Wine, ניתן לעיין <a href=\"http://appdb.winehq."
 "org/\">במסד נתוני המשחקים שלהם</a>."
 
@@ -1220,7 +1265,7 @@ msgid ""
 "seeing code as knowledge which should not be hidden from the user. It works "
 "with a different business model, in which many companies already do well."
 msgstr ""
-"תכנה חופשית לא מיועדת לחסל את תמריצי המתכנתים. מטרתה היא לראות בקוד כמקור "
+"תכנה חופשית לא מיועדת לחסל את תמריצי המתכנתים. מטרתה היא לראות את הקוד כמקור "
 "מידע שאין להסתיר מהמשתמש. הדגם המסחרי הוא מעט שונה, מה שכבר תופס תאוצה "
 "בחברות רבות."
 
@@ -1460,8 +1505,8 @@ msgid ""
 "As such, they are seldom used to benefit innovators (and in fact, rarely "
 "used by the innovators themselves)."
 msgstr ""
-"כיוון שהם כאלה, הם מנוצלים לעתים נדירות לטובת הממציאים שלהן (ולמעשה, כמעט "
-"נעשה בעם שימוש על ידי הממציאים עצמם)."
+"כיוון שהם כאלה, הם מנוצלים לעתים נדירות לטובת הממציאים שלהן (ולמעשה, אפילו "
+"הממציאים בקושי משתמשים בהם)."
 
 #: pages/linux.misunderstanding_free_software.php:95
 msgid ""
@@ -1767,7 +1812,8 @@ msgid ""
 "typing obscure code on a black screen. Good news! things have changed."
 msgstr ""
 "כאשר אתם שומעים את המילה לינוקס, יתכן שעולה לכם בראש תמונה של מתכנתים עם זקן "
-"מקלידים קוד מעורפל על מסך שחור. חדשות טובות! פני הדברים השתנו."
+"מקלידים קוד מעורפל על מסך שחור. חדשות טובות! אין להם זקן יותר! טוב. לא ממש – "
+"אבל נכון לומר שפני הדברים השתנו."
 
 #: pages/linux.php:10
 msgid "The picture"
@@ -1776,7 +1822,7 @@ msgstr "התמונה"
 #. i18n: title of link to screenshots page
 #: pages/linux.php:15 pages/linux.php:32
 msgid "What does GNU/Linux look like? Selected screenshots"
-msgstr "מה המראה של גנו/לינוקס? תמונות נבחרות"
+msgstr "איך נראה גנו/לינוקס? תמונות נבחרות"
 
 #. i18n: image alt description
 #: pages/linux.php:18
@@ -1814,8 +1860,8 @@ msgid ""
 msgstr ""
 "הפצות משנות את המראה שלהן ואת התכונות של לינוקס לחלוטין. הן נעות בין מערכות "
 "גדולות בעלות תמיכה מלאה (בשימוש על ידי חברות) עד להפצות קלילות שעולות על "
-"התקן USB או לפעול על מחשבים ממש ישנים (לרוב ישנם מתנדבים המתכנתים דברים "
-"כאלה)."
+"התקן USB לכדי כאלה שפועלות על מחשבים ממש ישנים (לרוב יש מתנדבים שמתכננים "
+"מערכות כאלו)."
 
 #. i18n: use an official localised Ubuntu homepage if possible
 #: pages/linux.php:26
@@ -1866,9 +1912,9 @@ msgid ""
 "to expect when stepping into it, we suggest you read our <a href=\"%s"
 "\">Making the switch</a> page."
 msgstr ""
-"מוטב שלא להניח עם זאת, שלינוקס היא שיבוט של Windows. כדי להבין למה לצפות "
-"כאשר נכנסים לעולם הזה, נמליץ לקרוא את העמוד שלנו בשם  <a href=\"%s\">ביצוע "
-"המעבר</a>"
+"עם זאת, מוטב שלא להניח שלינוקס היא שיבוט של Windows. כדי להבין למה לצפות "
+"כאשר נכנסים לעולם הזה, אנו ממליצים לקרוא את העמוד שלנו בשם <a href=\"%s"
+"\">ביצוע המעבר</a>"
 
 #: pages/linux.php:43
 msgid "The larger picture"
@@ -1883,7 +1929,7 @@ msgid ""
 "is freedom in software?\">free software</a>."
 msgstr ""
 "בעת קבלה של הפצת גנו/לינוקס, <strong>ניתן לך גם החופש ללמוד, להעתיק, לשנות "
-"ולהפיץ אותה מחדש</strong> – זה מה שהופך אותן ל<a href=\"http://www."
+"ולהפיץ אותה מחדש</strong> – זה מה שהופך אותה ל<a href=\"http://www."
 "softwareliberty.com/\" title=\"מהו חופש בתכנה?\">תכנה חופשית</a>."
 
 #: pages/linux.php:49
@@ -2314,7 +2360,7 @@ msgid ""
 "This is what everyday users usually find better, mostly the same, or not as "
 "good, when switching from Windows to Linux."
 msgstr ""
-"משתמשים יומיומיים בדרך כלל סבורים שזאת ההפצה הטובה ביותר, היא פחות או יותר "
+"משתמשים יומיומיים בדרך כלל סבורים שזו ההפצה הטובה ביותר, היא פחות או יותר "
 "אותו הדבר או לא טובה מספיק בעת המעבר מ־Windows ללינוקס."
 
 #: pages/switch_to_linux.from_windows_to_linux.php:13
@@ -2963,8 +3009,8 @@ msgid ""
 "A legal copy of Windows is expensive, but what do you get? Windows and "
 "Office are licensed, not sold."
 msgstr ""
-"עותק חוקי של Windows הוא יקר, אבל מה ערך המוסף שלו? Windows ו־Office הן "
-"מעוגנות ברישיון, לא נמכרות."
+"עותק חוקי של Windows הוא יקר, אבל מה ערך המוסף שלו? Windows ו־Office מופצות "
+"עם מגבלות רישוי, לא נמכרות."
 
 #: pages/windows.php:20
 msgid ""
@@ -3022,9 +3068,9 @@ msgid ""
 "industry, in which Microsoft is now a significant player, prefers you to use "
 "Windows."
 msgstr ""
-"ונחשו מה? התכנה שמגיעה עם קוד מקור, אין כל השפעה לווירוסים ורוגלות ואין "
-"לרכוש אבטחה נוסף. תעשיית תוכנות האנטיווירוס, בה Microsoft משחקת כעת תפקיד "
-"מרכזי, מעדיפה שתשתמשו ב־Windows."
+"ונחשו מה? וירוסים ורוגלות אינם משפיעים על תכנה שמופצת יחד עם קוד המקור ואין "
+"צורך לרכוש עבורה תוספי אבטחה. תעשיית תוכנות האנטיווירוס, בה Microsoft משחקת "
+"כעת תפקיד מרכזי, מעדיפה שתשתמשו ב־Windows."
 
 #: pages/windows.php:60
 msgid ""
@@ -3211,8 +3257,8 @@ msgid ""
 "much anything."
 msgstr ""
 "על מנת להפעיל את רוב המוצרים של Microsoft, כחלק מהסכם הרישוי, המחשב שלך "
-"מתחבר לשרתים של Microsoft ושולח נתונים „טכניים“. ניתן להשתמש בתכונה הזאת "
-"„רק“ כדי לעשות כל שעולה על רוחם."
+"מתחבר לשרתים של Microsoft ושולח נתונים „טכניים“. ניתן להשתמש בתכונה הזו „רק“ "
+"כדי לעשות כל שעולה על רוחם."
 
 #: pages/windows.restrictions.further_details.php:56
 #: pages/windows.stand_for_a_free_society.php:126
@@ -3436,8 +3482,8 @@ msgid ""
 msgstr ""
 "<strong>יש חלופה לשבירת חוקים אלה,</strong> או להרגיש מוגבלים במיוחד "
 "כשמצייתים לכללים. גנו/לינוקס הנה <a href=\"http://www.softwareliberty.com/"
-"\">תכנה חופשית</a> (עדיף בהרבה על תכנה בחינם): רישיון ה־<a href=\"http://www."
-"gnu.org/copyleft/gpl.html\">GPL</a> שלה תוכנן כדי להגן על זכויותיך."
+"\">תכנה חופשית</a> (עדיפה בהרבה על תכנה בחינם): רישיון ה־<a href=\"http://"
+"www.gnu.org/copyleft/gpl.html\">GPL</a> שלה תוכנן כדי להגן על זכויותיך."
 
 #: pages/windows.restrictions.php:57
 msgid "Restrictions - further details"
@@ -3475,9 +3521,9 @@ msgid ""
 "Can you learn from it? Can you build upon it? Can you distribute it? That's "
 "what we refer to as \"free software\"."
 msgstr ""
-"יש בתכנה הרבה מעבר למהימנות (להיות „קוד פתוח“): מה שבאמת נחשב היא "
+"יש בתכנה הרבה מעבר למהימנות (להיות „קוד פתוח“): מה שבאמת נחשב הן "
 "<strong>החירויות שמקבלים</strong> משתמשי התכנה. האם ניתן ללמוד ממנה? האם "
-"ניתן לבנות דברים על גביה? האם ניתן להפיץ אותה? על נושאים אלו אנו שמים דגש "
+"ניתן לבנות על גבה לגביה? האם ניתן להפיץ אותה? על נושאים אלו אנו שמים דגש "
 "כשמדובר על „תכנה חופשית“."
 
 #: pages/windows.stand_for_a_free_society.php:27
@@ -3620,7 +3666,7 @@ msgid ""
 "(like viruses or spyware) and copyright violations (people copying "
 "proprietary software)."
 msgstr ""
-"מחשוב מהימן (לעתים נקרא<a href=\"http://www.lafkon.net/tc/\" title=\"סרטון "
+"מחשוב מהימן (לעתים נקרא <a href=\"http://www.lafkon.net/tc/\" title=\"סרטון "
 "מקצועי ביותר על מחשוב מהימן\">בצורה מדויקת יותר</a> „מחשוב בוגדני“) משמעותו "
 "שהמחשב יכול להריץ אך ורק תכנה „מהימנה“. מטרתה להיות מערכת שאינה ניתנת למעקף "
 "נגד מטרדים כאלה ואחרים (כגון וירוסים או רוגלות) והפרת זכויות יוצרים (אנשים "
@@ -3910,7 +3956,7 @@ msgstr ""
 "ישנן כמובן דרכים אחרות לכתיבה ולהעברה של קבצים משרדיים, הדרך הידועה ביותר "
 "היא <a href=\"http://www.opendocumentfellowship.com/\">תבנית הקבצים "
 "OpenDocument</a>. אך Microsoft אינה נלהבת במיוחד לאפשר למשתמשי Office להחליף "
-"קבצים שכל אחד יכול לקרוע ולערוך. נכון לגרסת 2007 SP2 של Microsoft Office, "
+"קבצים שכל אחד יכול לקרוא ולערוך. נכון לגרסת 2007 SP2 של Microsoft Office, "
 "סוף סוף הוסיפה Microsoft תמיכה בתבנית הקובץ ODF לאחר שנדחקה לפינה על ידי "
 "האיחוד האירופי."
 
