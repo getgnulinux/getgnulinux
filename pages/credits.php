@@ -29,7 +29,7 @@ or let us use their work for our purposes.</p>
 <p>Except for the material listed below, all of the text content is published under a
 <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 License</a>,<br/>
 &copy; 2006-2010, <a href="http://www.gnulinuxmatters.org/">GNU/Linux Matters</a><br/>
-&copy; 2011, <a href="https://launchpad.net/~getgnulinux">Launchpad getgnulinux Team</a></p>
+&copy; 2011-2012, <a href="https://launchpad.net/~getgnulinux">Launchpad getgnulinux Team</a></p>
 
 
 <h2>Graphics</h2>
@@ -127,7 +127,8 @@ following sources, according to their respective copyright licenses:</p>
 Bruno Bord, Loïs Di Qual, Bruno Ethvignot, Thiébaut Hillenweck,
 Joseph Maillardert, Laurent Richard,
 <a href="https://www.transifex.net/accounts/profile/MagicFab/">Fabián Rodríguez</a>,
-Anthony Verez, <a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a>.</p>
+Anthony Verez, <a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a>,
+<a href="https://www.transifex.net/accounts/profile/nh2amine/">nh2amine</a>.</p>
 
 <h3>German:</h3>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a> and others.</p>
@@ -136,7 +137,7 @@ Anthony Verez, <a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAa
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/Yaron/">Yaron Shahrabani</a>.</p>
 
 <h3>Interlingua:</h3>
-<p class="tab"><a href="https://www.transifex.net/accounts/profile/Funkin/">Emilio Sepúlveda</a>.</p>
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/Funkin/">Emilio Sepúlveda</a> and <a href="https://www.transifex.net/accounts/profile/McDutchie/">McDutchie</a>.</p>
 
 <h3>Italian:</h3>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/xseris/">Simone Sandri</a>,
