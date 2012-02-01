@@ -7,7 +7,7 @@ $ubuntu1_text = _("Firefox web browser");
 # i18n: This is the description of the "ubuntu2.png" screenshot.
 $ubuntu2_text = _("File manager and image browsing application are open, on standard desktop.");
 # i18n: This is the description of the "ubuntu3.png" screenshot.
-$ubuntu3_text = _("Evolution e-mail and calendar application.");
+$ubuntu3_text = _("Thunderbird e-mail and calendar application.");
 
 # i18n: This is the description of the "fedora1.png" screenshot.
 $fedora1_text = _("GIMP image editing application, cropping a photo.");
