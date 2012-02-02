@@ -20,8 +20,8 @@ print _("http://www.ubuntu.com/"); ?>" title="Ubuntu Linux"><img src="/images/sw
 <p><?php print _("We recommend this friendly and complete distribution if you are looking for an easy way to try and step into GNU/Linux."); ?></p>
 
 <div class="distro_screenshots">
-<a href="<?php $this->base_url('linux/screenshots'); ?>#ubuntu"><img src="/images/screenshots/h113px/ubuntu2.png" alt="screenshot1"/></a>
-<a href="<?php $this->base_url('linux/screenshots'); ?>#ubuntu"><img src="/images/screenshots/h113px/ubuntu1.png" alt="screenshot2"/></a>
+<a href="<?php $this->base_url('linux/screenshots'); ?>#ubuntu"><img src="/images/screenshots/h113px/ubuntu1.png" alt="screenshot1"/></a>
+<a href="<?php $this->base_url('linux/screenshots'); ?>#ubuntu"><img src="/images/screenshots/h113px/ubuntu2.png" alt="screenshot2"/></a>
 <a href="<?php $this->base_url('linux/screenshots'); ?>#ubuntu"><img src="/images/screenshots/h113px/ubuntu3.png" alt="screenshot3"/></a>
 </div><!-- end distro_screenshots -->
 
@@ -42,8 +42,8 @@ print _("The distribution by the long-time prominent GNU/Linux developer company
 <p><?php print _("We recommend this distribution if you wish to learn more about the workings of a GNU/Linux system, security configuration, or work on software development."); ?></p>
 
 <div class="distro_screenshots">
-<a href="<?php $this->base_url('linux/screenshots'); ?>#fedora"><img src="/images/screenshots/h113px/fedora2.png" alt="screenshot1"/></a>
-<a href="<?php $this->base_url('linux/screenshots'); ?>#fedora"><img src="/images/screenshots/h113px/fedora1.png" alt="screenshot2"/></a>
+<a href="<?php $this->base_url('linux/screenshots'); ?>#fedora"><img src="/images/screenshots/h113px/fedora1.png" alt="screenshot1"/></a>
+<a href="<?php $this->base_url('linux/screenshots'); ?>#fedora"><img src="/images/screenshots/h113px/fedora2.png" alt="screenshot2"/></a>
 <a href="<?php $this->base_url('linux/screenshots'); ?>#fedora"><img src="/images/screenshots/h113px/fedora3.png" alt="screenshot3"/></a>
 </div><!-- end distro_screenshots -->
 
