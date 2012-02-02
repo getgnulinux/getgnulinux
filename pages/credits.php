@@ -131,7 +131,7 @@ Anthony Verez, <a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAa
 <a href="https://www.transifex.net/accounts/profile/nh2amine/">nh2amine</a>.</p>
 
 <h3>German:</h3>
-<p class="tab"><a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a> and others.</p>
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a>, <a href="https://www.transifex.net/accounts/profile/monoto/">monoto</a> and others.</p>
 
 <h3>Hebrew:</h3>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/Yaron/">Yaron Shahrabani</a>.</p>
