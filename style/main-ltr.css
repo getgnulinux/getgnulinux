@@ -6,22 +6,17 @@
 @font-face {
     font-family: 'Cantarell';
     font-style: normal;
-    font-weight: bold;
-    src: local('Cantarell Bold'), local('Cantarell-Bold'), url('fonts/Cantarell-Bold.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Cantarell';
-    font-style: italic;
     font-weight: normal;
-    src: local('Cantarell Oblique'), local('Cantarell-Oblique'), url('fonts/Cantarell-Oblique.ttf') format('truetype');
+    src: local('Cantarell'), local('Cantarell Regular'),
+    url('fonts/Cantarell-Regular.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Cantarell';
     font-style: normal;
-    font-weight: normal;
-    src: local('Cantarell Regular'), local('Cantarell-Regular'), url('fonts/Cantarell-Regular.ttf') format('truetype');
+    font-weight: bold;
+    src: local('Cantarell'), local('Cantarell Bold'), local('Cantarell-Bold'),
+    url('fonts/Cantarell-Bold.otf') format('opentype');
 }
 
 /*----------------------------------------------------
