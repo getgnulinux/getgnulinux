@@ -1151,16 +1151,18 @@ div .note {
  *----------------------------------------------------*/
 
 .further_reading {
-    background: none repeat scroll 0 0 #E4EBFF;
     font-size: 0.95em;
     margin-top: 4.5em;
     padding: 1em;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    box-shadow: 0 1px 0 #B3C7FF;
-    -moz-box-shadow: 0 1px 0 #B3C7FF;
-    -webkit-box-shadow: 0 1px 0 #B3C7FF;
+    background-color: #F6DF57;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F6DF57), to(#F9EDA6));
+    background-image: -moz-linear-gradient(#F6DF57, #F9EDA6);
+    background-image: -o-linear-gradient(#F6DF57, #F9EDA6);
+    background-image: linear-gradient(#F6DF57, #F9EDA6);
+    border: 1px #E6C813 solid;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }
 
 .further_reading a {
@@ -1187,7 +1189,7 @@ div .note {
 #left_column {
     width: 47%;
     float: left;
-    border-right: 1px #B3C7FF solid;
+    border-right: 1px #D7B41A solid;
     padding-right: 1em;
     margin-right: 1em;
 }
@@ -1249,7 +1251,7 @@ div .note {
 }
 
 #subheader_foot ul {
-    background: none repeat scroll 0 0 #E4EBFF;
+    background: none repeat scroll 0 0 #D9E5EB;
     list-style-type: none;
     list-style-image: none; /* IE bug */
     height: 1.85em;
@@ -1258,9 +1260,9 @@ div .note {
     border-radius: 4px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
-    box-shadow: 0 1px 0 #B3C7FF;
-    -moz-box-shadow: 0 1px 0 #B3C7FF;
-    -webkit-box-shadow: 0 1px 0 #B3C7FF;
+    box-shadow: 0 1px 0 #9DBBCB;
+    -moz-box-shadow: 0 1px 0 #9DBBCB;
+    -webkit-box-shadow: 0 1px 0 #9DBBCB;
 }
 
 #subheader_foot ul li {
@@ -1431,16 +1433,18 @@ div .note {
  *----------------------------------------------------*/
 
 .conclusion {
-    background: none repeat scroll 0 0 #E4EBFF;
     font-size: 0.95em;
     margin-top: 5em;
     padding: 1em;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    box-shadow: 0 1px 0 #B3C7FF;
-    -moz-box-shadow: 0 1px 0 #B3C7FF;
-    -webkit-box-shadow: 0 1px 0 #B3C7FF;
+    background-color: #F6DF57;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F6DF57), to(#F9EDA6));
+    background-image: -moz-linear-gradient(#F6DF57, #F9EDA6);
+    background-image: -o-linear-gradient(#F6DF57, #F9EDA6);
+    background-image: linear-gradient(#F6DF57, #F9EDA6);
+    border: 1px #E6C813 solid;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 	}
 
 .conclusion p {
@@ -1460,35 +1464,47 @@ div .note {
 /* ------------------------- General style --------------*/
 
 #mainbody a.previousbutton, #mainbody a.nextbutton, #mainbody a.upbutton {
-    width: 13.5em;
-    display: block;
-    padding: 0.3em 0.2em;
-    color: black;
-    background: url(/images/button-bg.png) repeat-x scroll center center #ECECEC;
+    background-color: #E2E4D7;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F4F4F4), to(#E2E4D7));
+    background-image: -moz-linear-gradient(#F4F4F4, #E2E4D7);
+    background-image: -o-linear-gradient(#F4F4F4, #E2E4D7);
+    background-image: linear-gradient(#F4F4F4, #E2E4D7);
     border: 1px #CCCCCC solid;
-    text-shadow: 0 1px 0 #FFFFFF;
     border-radius: 4px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
-    box-shadow: 0 1px 0 #FFFFFF inset;
-    -moz-box-shadow: 0 1px 0 #FFFFFF inset;
-    -webkit-box-shadow: 0 1px 0 #FFFFFF inset;
-    transition: background-position 100ms linear;
-    -webkit-transition: background-position 100ms linear;
-    -moz-transition: background-position 100ms linear;
+    color: black;
+    display: block;
+    min-width: 13.5em;
+    padding: 0.3em 0.5em;
+    text-shadow: 0 1px 0 #EFEFEF;
+    white-space: nowrap;
+    width: auto;
 }
 
 #mainbody a.previousbutton:hover, #mainbody a.nextbutton:hover, #mainbody a.upbutton:hover {
+    background-color: #B7CFDC;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#D9E5EB), to(#B7CFDC));
+    background-image: -moz-linear-gradient(#D9E5EB, #B7CFDC);
+    background-image: -o-linear-gradient(#D9E5EB, #B7CFDC);
+    background-image: linear-gradient(#D9E5EB, #B7CFDC);
+    border: 1px #9DBBCB solid;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: black;
     text-decoration: none;
-    background-position: center bottom;
 }
 
 #mainbody a.nextbutton:active, #mainbody a.previousbutton:active, #mainbody a.upbutton:active {
-    background: #EEEBE6;
+    background-color: #D9E5EB;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#B7CFDC), to(#D9E5EB));
+    background-image: -moz-linear-gradient(#B7CFDC, #D9E5EB);
+    background-image: -o-linear-gradient(#B7CFDC, #D9E5EB);
+    background-image: linear-gradient(#B7CFDC, #D9E5EB);
 }
 
 .button_title {
-    color: #000080;
     font-size: 1.11em;
 }
 
@@ -1555,12 +1571,13 @@ div .note {
     padding: 0.4em 0.8em;
     line-height: 1.5em; /* special for IE*/
     border-bottom: 1px solid #999;
+    text-shadow: 0 1px 0 #EFEFEF;
 }
 
 #mainbody .read_article a:hover {
     text-decoration: none;
-    background: #E4EBFF;
-    border-bottom: 1px solid #B3C7FF;
+    background: #D9E5EB;
+    border-bottom: 1px solid #9DBBCB;
 }
 
 /*----------------------------------------------------
@@ -1691,8 +1708,15 @@ div .note {
     font-size: 0.95em;
     margin-top: 3em;
     padding: 2em;
-    border: 1px #e8e8dc solid;
-    background: #ffffef;
+    background-color: #F6DF57;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F6DF57), to(#F9EDA6));
+    background-image: -moz-linear-gradient(#F6DF57, #F9EDA6);
+    background-image: -o-linear-gradient(#F6DF57, #F9EDA6);
+    background-image: linear-gradient(#F6DF57, #F9EDA6);
+    border: 1px #E6C813 solid;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }
 
 #collapsed_box h2 {
