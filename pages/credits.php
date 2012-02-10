@@ -110,6 +110,9 @@ following sources, according to their respective copyright licenses:</p>
 <h3>Arabic:</h3>
 <p class="tab">Hassan Ibraheem.</p>
 
+<h3>Asturian:</h3>
+<p class="tab"><a href="http://blogs.altuxa.com/tapaponga/">Iñigo Varela</a> and the <a href="http://softastur.org/">Softastur translators team</a>.</p>
+
 <h3>Catalan:</h3>
 <p class="tab"><a href="http://cortsenc.bloc.cat/">Oriol Piera</a> and <a href="http://rcarreras.blogspot.com/">Rafael Carreras</a>.</p>
 
