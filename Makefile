@@ -9,7 +9,7 @@ LOCALE_DIR=locale
 DOMAIN=getgnulinux
 CHARSET=UTF-8
 LOCALE_GEN=locale-gen
-LOCALES=ar_SA ca_AD da_DK de_DE eo es_ES fr_FR he_IL hr_HR ia it_IT ja_JP ml_IN nl_NL pt_BR pt_PT ru_RU sr_RS tr_TR uk_UA vi_VN zh_CN
+LOCALES=ar_SA ast_ES ca_AD da_DK de_DE eo es_ES fr_FR he_IL hr_HR ia it_IT ja_JP ml_IN nl_NL pt_BR pt_PT ru_RU sr_RS tr_TR uk_UA vi_VN zh_CN
 
 # Internal variables.
 template=$(LOCALE_DIR)/$(DOMAIN)/$(DOMAIN).pot
