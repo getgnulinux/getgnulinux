@@ -122,7 +122,7 @@ printf($p, $this->base_url('switch_to_linux',1)); ?></p>
 <?php print _("Note that DRM is often referred to as \"Digital Rights Management\", although it has little to do with rights &ndash; \"Digital Restrictions Management\" is a more accurate name."); ?></div>
 
 
-<div class="further_reading">
+<div class="further_reading post-it">
 <h2 id="further_reading"><?php print _("Read more"); ?></h2>
 
 <div id="left_column">

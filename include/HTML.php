@@ -153,7 +153,7 @@ class HTML {
      * Print the sub menu for the "Swith to Linux" pages.
      */
     function menu_switch_to_linux() {
-        print "<div id=\"subheader\">";
+        print "<div id=\"subheader\" class=\"post-it\">";
         printf ("<span class=\"title\"><a href=\"%s\">%s</a></span>", $this->base_url('switch_to_linux',1), _("Switch to Linux"));
 
         $items = array("switch_to_linux/from_windows_to_linux" => _("From Windows to Linux"),
@@ -173,7 +173,7 @@ class HTML {
      * Print the sub menu for the "Why not Windows" pages.
      */
     function menu_why_not_windows() {
-        print "<div id=\"subheader\">";
+        print "<div id=\"subheader\" class=\"post-it\">";
         printf ("<span class=\"title\"><a href=\"%s\">%s</a></span>", $this->base_url('windows',1), _("Why not Windows"));
 
         $items = array("windows/restrictions" => _("Restrictions"),

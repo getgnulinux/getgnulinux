@@ -1,7 +1,7 @@
 <?php $this->load_header(); ?>
 
 <div class="upbutton_section">
-    <a href="<?php $this->base_url('windows/restrictions'); ?>" class="upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("Restrictions"); ?></span></span></a>
+    <a href="<?php $this->base_url('windows/restrictions'); ?>" class="button upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("Restrictions"); ?></span></span></a>
 </div>
 
 <div id="maincontent" class="windows_sub">
@@ -52,7 +52,7 @@
 
 </ul>
 
-<div class="further_reading">
+<div class="further_reading post-it">
 <h2 id="further_reading"><?php print _("Read more"); ?></h2>
 
 <div id="left_column">
@@ -80,7 +80,7 @@ print _("http://www.gnu.org/copyleft/gpl.html"); ?>" title="<?php print _("The G
 </div><!-- end maincontent -->
 
 <div class="upbutton_section">
-    <a href="<?php $this->base_url('windows/restrictions'); ?>" class="upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("Restrictions"); ?></span></span></a>
+    <a href="<?php $this->base_url('windows/restrictions'); ?>" class="button upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("Restrictions"); ?></span></span></a>
 </div>
 
 <?php $this->load_footer(); ?>

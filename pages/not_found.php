@@ -16,7 +16,7 @@ print _("Sorry, but we couldn't find the page you were looking for. Either that 
 $p = _("If you found a broken link, please <a href=\"%s\">report it</a> so we can repair it. Thank you!"); printf($p, $ggl->get('tracker_url')); ?></p>
 
 <div id="switcher">
-    <a href="<?php $this->base_url(); ?>" class="previousbutton"><span class="previous"><span class="button_title"><?php print _("Return to the Homepage"); ?></span></span></a>
+    <a href="<?php $this->base_url(); ?>" class="button previousbutton"><span class="previous"><span class="button_title"><?php print _("Return to the Homepage"); ?></span></span></a>
 </div><!-- end of switcher -->
 
 </div><!-- end maincontent -->

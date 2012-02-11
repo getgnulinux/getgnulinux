@@ -127,7 +127,7 @@ $p = _("So in fact, you have more \"ownership\" over free software than over pro
 <p><?php print _("<em>Free software has nothing to do with a political system.</em> You can run free software on top of proprietary software, just as well as the opposite. The free software license is simply a legal, ethical contract between the programmer and the end-user."); ?></p>
 
 
-<div id="collapsed_box">
+<div id="collapsed_box" class="post-it">
 <p><?php print _("Read more:"); ?></p>
 <h2 class="toggleanswer" id="security"><?php print _("Free / \"open-source\" software can't be secure."); ?></h2>
 
@@ -188,7 +188,7 @@ $p = _("What we call \"Free Software\" here is also often called \"Open Source S
 printf($p, $this->base_url('linux/linux_faq',1)); ?></div>
 
 <div class="upbutton_section">
-<a href="<?php $this->base_url('linux'); ?>" class="upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("What is Linux?"); ?></span></span></a>
+<a href="<?php $this->base_url('linux'); ?>" class="button upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("What is Linux?"); ?></span></span></a>
 </div>
 
 <?php $this->load_footer(); ?>

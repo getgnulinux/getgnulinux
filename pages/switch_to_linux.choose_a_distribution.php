@@ -74,7 +74,7 @@ print _("Note: There are <a href=\"http://distrowatch.com/dwres.php?resource=maj
 </div><!-- end maincontent -->
 
 <div id="bottom_next_page_banner">
-    <a href="<?php $this->base_url('switch_to_linux/try_or_install'); ?>"><span class="arrow"><span class="underlining"><?php
+    <a href="<?php $this->base_url('switch_to_linux/try_or_install'); ?>" class="button"><span class="arrow"><span class="underlining"><?php
 # i18n: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
 print _("Now get a CD and try or install your distribution!"); ?></span></span></a>
 </div><!-- end bottom_next_page_banner-->

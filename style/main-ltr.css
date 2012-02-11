@@ -565,8 +565,6 @@ code {
  *----------------------------------------------------*/
 
 #subheader {
-    background-color: #E8F2FF;
-    border-top: 2px solid #A2B5CD;
     clear: right;
     float: right;
     font-size: 0.8em;
@@ -611,13 +609,12 @@ code {
 }
 
 #subheader li a:hover {
-    text-decoration: none;
-    color: #043f58;
+    color: #000000;
     text-decoration: underline;
 }
 
 #subheader .wehere a {
-    background-color: #D1DEF3;
+    text-decoration: underline;
 }
 
 /*----------------------------------------------------
@@ -849,28 +846,48 @@ div .note {
  *----------------------------------------------------*/
 
 #mainbody a.get_it_button {
-    float: right;
-    clear: both;
-    margin-top: -40px;
-    margin-left: 1em;
-    margin-bottom: 0.5em;
-    padding: 0.4em;
-    background-color: #dbffbf;
-    background-image: none;
-    border: 1px #adcd94 solid;
+    background-color: #DFF0B6;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#DFF0B6), to(#A8D96E));
+    background-image: -moz-linear-gradient(#EFF7DB, #D1EFAD);
+    background-image: -o-linear-gradient(#DFF0B6, #B0DD7B);
+    background-image: linear-gradient(#DFF0B6, #B0DD7B);
+    border: 1px #C5E2A1 solid;
     border-radius: 4px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
+    clear: both;
+    color: black;
+    display: block;
+    float: right;
+    margin-top: -36px;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+    padding: 0.4em;
+    text-shadow: 0 1px 0 #EFEFEF;
+    white-space: nowrap;
+    width: auto;
 }
 
 #mainbody a.get_it_button:hover {
+    background-color: #CDE496;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#CDE496), to(#A2DC5D));
+    background-image: -moz-linear-gradient(#CDE496, #A2DC5D);
+    background-image: -o-linear-gradient(#CDE496, #A2DC5D);
+    background-image: linear-gradient(#CDE496, #A2DC5D);
+    border: 1px #96C85A solid;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     color: black;
-    background: #d0fcae;
-    border-color: #79bf42;
     text-decoration: none;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+#mainbody a.get_it_button:active {
+    background-color: #A2DC5D;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#A2DC5D), to(#CDE496));
+    background-image: -moz-linear-gradient(#A2DC5D, #CDE496);
+    background-image: -o-linear-gradient(#A2DC5D, #CDE496);
+    background-image: linear-gradient(#A2DC5D, #CDE496);
 }
 
 .go_download {
@@ -1149,15 +1166,6 @@ div .note {
     font-size: 0.95em;
     margin-top: 4.5em;
     padding: 1em;
-    background-color: #F6DF57;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F6DF57), to(#F9EDA6));
-    background-image: -moz-linear-gradient(#F6DF57, #F9EDA6);
-    background-image: -o-linear-gradient(#F6DF57, #F9EDA6);
-    background-image: linear-gradient(#F6DF57, #F9EDA6);
-    border: 1px #E6C813 solid;
-    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0 2px 3px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }
 
 .further_reading a {
@@ -1301,12 +1309,8 @@ div .note {
 
 .quote {
     text-align: center;
-    border: 1px #d8e5e5 solid;
-    border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
     margin: 1em 3em;
-    background: white;
+    padding: 10px;
 }
 
 .quote1 {
@@ -1371,46 +1375,6 @@ div .note {
     text-align: center;
 }
 
-#bottom_next_page_banner a {
-    background-color: #E2E4D7;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F4F4F4), to(#E2E4D7));
-    background-image: -moz-linear-gradient(#F4F4F4, #E2E4D7);
-    background-image: -o-linear-gradient(#F4F4F4, #E2E4D7);
-    background-image: linear-gradient(#F4F4F4, #E2E4D7);
-    border: 1px #CCCCCC solid;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    color: black;
-    display: block;
-    padding: 0.3em 0.5em;
-    text-shadow: 0 1px 0 #EFEFEF;
-    white-space: nowrap;
-    width: auto;
-}
-
-#bottom_next_page_banner a:hover {
-    background-color: #B7CFDC;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#D9E5EB), to(#B7CFDC));
-    background-image: -moz-linear-gradient(#D9E5EB, #B7CFDC);
-    background-image: -o-linear-gradient(#D9E5EB, #B7CFDC);
-    background-image: linear-gradient(#D9E5EB, #B7CFDC);
-    border: 1px #9DBBCB solid;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-    color: black;
-    text-decoration: none;
-}
-
-#bottom_next_page_banner a:active {
-    background-color: #D9E5EB;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#B7CFDC), to(#D9E5EB));
-    background-image: -moz-linear-gradient(#B7CFDC, #D9E5EB);
-    background-image: -o-linear-gradient(#B7CFDC, #D9E5EB);
-    background-image: linear-gradient(#B7CFDC, #D9E5EB);
-}
-
 #bottom_next_page_banner a .arrow {
     background: url(/images/arrow_right.png) center right no-repeat;
     padding-right: 50px;
@@ -1441,7 +1405,7 @@ div .note {
     vertical-align: top;
 }
 
-.button {
+.link_button {
     margin-bottom: 25px;
 }
 
@@ -1453,15 +1417,6 @@ div .note {
     font-size: 0.95em;
     margin-top: 5em;
     padding: 1em;
-    background-color: #F6DF57;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F6DF57), to(#F9EDA6));
-    background-image: -moz-linear-gradient(#F6DF57, #F9EDA6);
-    background-image: -o-linear-gradient(#F6DF57, #F9EDA6);
-    background-image: linear-gradient(#F6DF57, #F9EDA6);
-    border: 1px #E6C813 solid;
-    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0 2px 3px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 	}
 
 .conclusion p {
@@ -1480,7 +1435,19 @@ div .note {
 
 /* ------------------------- General style --------------*/
 
-#mainbody a.previousbutton, #mainbody a.nextbutton, #mainbody a.upbutton {
+#mainbody .post-it {
+    background-color: #F6DF57;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F6DF57), to(#F9EDA6));
+    background-image: -moz-linear-gradient(#F6DF57, #F9EDA6);
+    background-image: -o-linear-gradient(#F6DF57, #F9EDA6);
+    background-image: linear-gradient(#F6DF57, #F9EDA6);
+    border: 1px #E6C813 solid;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+#mainbody a.button {
     background-color: #E2E4D7;
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F4F4F4), to(#E2E4D7));
     background-image: -moz-linear-gradient(#F4F4F4, #E2E4D7);
@@ -1499,7 +1466,7 @@ div .note {
     width: auto;
 }
 
-#mainbody a.previousbutton:hover, #mainbody a.nextbutton:hover, #mainbody a.upbutton:hover {
+#mainbody a.button:hover {
     background-color: #B7CFDC;
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#D9E5EB), to(#B7CFDC));
     background-image: -moz-linear-gradient(#D9E5EB, #B7CFDC);
@@ -1513,7 +1480,7 @@ div .note {
     text-decoration: none;
 }
 
-#mainbody a.nextbutton:active, #mainbody a.previousbutton:active, #mainbody a.upbutton:active {
+#mainbody a.button:active {
     background-color: #D9E5EB;
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#B7CFDC), to(#D9E5EB));
     background-image: -moz-linear-gradient(#B7CFDC, #D9E5EB);
@@ -1725,15 +1692,6 @@ div .note {
     font-size: 0.95em;
     margin-top: 3em;
     padding: 2em;
-    background-color: #F6DF57;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F6DF57), to(#F9EDA6));
-    background-image: -moz-linear-gradient(#F6DF57, #F9EDA6);
-    background-image: -o-linear-gradient(#F6DF57, #F9EDA6);
-    background-image: linear-gradient(#F6DF57, #F9EDA6);
-    border: 1px #E6C813 solid;
-    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0 2px 3px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }
 
 #collapsed_box h2 {

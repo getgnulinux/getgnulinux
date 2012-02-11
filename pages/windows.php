@@ -69,7 +69,7 @@ print _("A free society requires free software. Think of &quot;free&quot; as in 
 </div><!-- end paragraph -->
 
 
-<div class="conclusion">
+<div class="conclusion post-it">
 <p><?php
 # i18: This is the conclusion of the article.
 $p = _("Many people find that Windows, an otherwise decent piece of software, <strong>withdraws so many rights</strong> from them, that it is not worth them using it. Mac&nbsp;OS is <a href=\"%s#mac_freedom\">not much better</a>, either."); printf($p, $this->base_url('linux/linux_faq',1)); ?></p>
@@ -79,9 +79,9 @@ $p = _("Many people find that Windows, an otherwise decent piece of software, <s
 
 
 <div id="switcher">
-<a href="<?php $this->base_url('switch_to_linux'); ?>" class="nextbutton"><span class="next"><?php print _("next:"); ?> <span class="button_title"><?php print _("Switch to Linux"); ?></span></span></a>
+<a href="<?php $this->base_url('switch_to_linux'); ?>" class="button nextbutton"><span class="next"><?php print _("next:"); ?> <span class="button_title"><?php print _("Switch to Linux"); ?></span></span></a>
 
-<a href="<?php $this->base_url('linux'); ?>" class="previousbutton"><span class="previous"><?php print _("previous:"); ?> <span class="button_title"><?php print _("What is Linux?"); ?></span></span></a>
+<a href="<?php $this->base_url('linux'); ?>" class="button previousbutton"><span class="previous"><?php print _("previous:"); ?> <span class="button_title"><?php print _("What is Linux?"); ?></span></span></a>
 </div><!-- end of switcher -->
 
 </div><!-- end maincontent -->

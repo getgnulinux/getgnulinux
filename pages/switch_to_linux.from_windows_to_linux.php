@@ -99,7 +99,7 @@ print _("The Web looks just the same when viewed with Linux (in fact you can bro
 
 
 <h2 id="whats_not_as_good"><?php print _("What is not as good in Linux"); ?></h2>
-<div class="quote">
+<div class="quote post-it">
 <p><?php
 # i18n: translate "widely": the idea is more important than precision/exactitude here
 print _("&quot;Never tell the truth to people who are not worthy of it.&quot;"); ?> <span class="note">&mdash; Mark Twain;</span></p>
@@ -174,7 +174,7 @@ print _("If you wish Linux to be just exactly like Windows, you will probably be
 </div><!-- end maincontent -->
 
 <div id="bottom_next_page_banner">
-<a href="<?php $this->base_url('switch_to_linux/choose_a_distribution'); ?>"><span class="arrow"><span class="underlining"><?php
+<a href="<?php $this->base_url('switch_to_linux/choose_a_distribution'); ?>" class="button"><span class="arrow"><span class="underlining"><?php
 # i18n: We try to be friendly and inviting here. This does not have to be translated very precisely.
 print _("Choose a Linux distribution to get started!"); ?></span></span></a>
 </div><!-- end bottom_next_page_banner-->

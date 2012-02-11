@@ -28,7 +28,7 @@ $trisquel3_text = _("Accessing applications.");
 ?>
 
 <div class="upbutton_section">
-<a href="<?php $this->base_url('linux'); ?>" class="upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("What is Linux?"); ?></span></span></a>
+<a href="<?php $this->base_url('linux'); ?>" class="button upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("What is Linux?"); ?></span></span></a>
 </div>
 
 <div id="maincontent" class="screenshots">
@@ -109,7 +109,7 @@ $trisquel3_text = _("Accessing applications.");
 </div><!-- end maincontent -->
 
 <div class="upbutton_section">
-<a href="<?php $this->base_url('linux'); ?>" class="upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("What is Linux?"); ?></span></span></a>
+<a href="<?php $this->base_url('linux'); ?>" class="button upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("What is Linux?"); ?></span></span></a>
 </div>
 
 <?php $this->load_footer(); ?>
