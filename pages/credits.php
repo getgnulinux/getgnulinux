@@ -137,7 +137,7 @@ Anthony Verez, <a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAa
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a>, <a href="https://www.transifex.net/accounts/profile/monoto/">monoto</a> and others.</p>
 
 <h3>Hebrew:</h3>
-<p class="tab"><a href="https://www.transifex.net/accounts/profile/Yaron/">Yaron Shahrabani</a>.</p>
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/Yaron/">Yaron Shahrabani</a> and proofreading by Oren B.</p>
 
 <h3>Interlingua:</h3>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/Funkin/">Emilio Sepúlveda</a> and <a href="https://www.transifex.net/accounts/profile/McDutchie/">McDutchie</a>.</p>
