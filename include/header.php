@@ -42,7 +42,7 @@ header("Content-Type: text/html; charset=utf-8");
             $lang,
             $base_url,
             $this->current_page($lang),
-            $items[4]);
+            $items[3]);
     } ?>
     <!-- end alternate languages -->
     <title><?php $this->page_title(); ?></title>
@@ -165,8 +165,8 @@ foreach ($ggl->get('locales') as $lang => $items) {
         $items[1],
         $lang,
         $ggl->get_lang_directionality($lang),
-        $items[3],
-        $items[5]*100);
+        $items[2],
+        $items[4]*100);
 }
 ?>
 </ul>
