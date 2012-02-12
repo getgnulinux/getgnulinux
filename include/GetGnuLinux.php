@@ -78,8 +78,8 @@ class GetGnuLinux {
      */
     public $config = array(
         'lang' => "en",
-        'locale' => "en_GB",
-        'country_code' => "gb",
+        'locale' => "en_US",
+        'country_code' => "us",
         'dir' => "ltr",
         'gettext_domain' => "getgnulinux",
         'locales' => array(
@@ -88,7 +88,7 @@ class GetGnuLinux {
             'ca' => array('ca_AD.UTF-8','ad',"Català", "Traduïu aquesta pàgina a la llengua català!", 0.57),
             'da' => array('da_DK.UTF-8','dk',"Dansk", "Watch this page in Danish", 0.05),
             'de' => array('de_DE.UTF-8','de',"Deutsch", "Watch this page in German", 0.47),
-            'en' => array('en_GB.UTF-8','gb',"English", "Watch this page in English", 1),
+            'en' => array('en_US.UTF-8','us',"English", "Watch this page in English", 1),
             'eo' => array('eo.UTF-8',   'eo',"Esperanto", "Watch this page in Esperanto", 0.24),
             'es' => array('es_ES.UTF-8','es',"Español", "¡Lee esta página en español!", 0.66),
             'fr' => array('fr_FR.UTF-8','fr',"Français", "Cette page en français", 0.71),
