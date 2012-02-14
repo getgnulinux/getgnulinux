@@ -85,7 +85,7 @@ class GetGnuLinux {
         'locales' => array(
             'ar' => array('ar_SA.UTF-8','sa',"العربية", "احصل على هذه الصفحة باللغة العربية !", 0.42),
             'ast' => array('ast_ES.UTF-8','ast',"Asturianu", "Watch this page in Asturian", 1.0),
-            'ca' => array('ca_AD.UTF-8','ad',"Català", "Traduïu aquesta pàgina a la llengua català!", 0.57),
+            'ca' => array('ca_AD.UTF-8','catalonia',"Català", "Traduïu aquesta pàgina a la llengua català!", 0.57),
             'da' => array('da_DK.UTF-8','dk',"Dansk", "Watch this page in Danish", 0.05),
             'de' => array('de_DE.UTF-8','de',"Deutsch", "Watch this page in German", 0.47),
             'en' => array('en_US.UTF-8','us',"English", "Watch this page in English", 1),
