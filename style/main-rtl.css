@@ -24,14 +24,6 @@ h1, h2, h3, h4 {
 }
 
 /*----------------------------------------------------
- * General styles
- *----------------------------------------------------*/
-
-html {
-    font-family: Cantarell,'Droid Sans',Ubuntu,'DejaVu Sans',Arial,sans-serif;
-}
-
-/*----------------------------------------------------
  * Main contents
  *----------------------------------------------------*/
 
@@ -282,7 +274,15 @@ html {
 
 #translations li a {
     text-align: right;
-    padding: 0.3em 0.5em 0.3em 0.3em;
+    padding-right: 1.9em;
+    padding-left: 0.3em;
+}
+
+#translations span.language_code {
+    padding-right: 0.6em;
+    padding-left: 0em;
+    left: auto;
+    right: 0;
 }
 
 #translations span.percent {

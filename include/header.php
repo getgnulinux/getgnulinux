@@ -102,9 +102,6 @@ header("Content-Type: text/html; charset=utf-8");
     ?>
 
     <style type="text/css">
-    #language_menu_text {
-        background: url(/images/flags/<?php print $ggl->get('country_code'); ?>.gif) center left no-repeat;
-    }
     <?php
     // For some languages italic text is not displayed properly. Disable
     // italics for selected languages.
@@ -150,30 +147,6 @@ header("Content-Type: text/html; charset=utf-8");
 </div>
 
 <div id="wrapper">
-
-<div id="just_for_ie7">
-<div id="translations">
-<div id="language_menu"><span id="language_menu_text"><?php print _("Alternate languages"); ?></span></div>
-
-<ul>
-<?php
-foreach ($ggl->get('locales') as $lang => $items) {
-    printf("<li%s><a href=\"/%s\" hreflang=\"%s\"><img src=\"/images/flags/%s.gif\" alt=\"%s\" /> <span dir=\"%s\">%s</span> <span class=\"percent\">%s&#37;</span></a></li>\n",
-        $this->is_current_language($lang),
-        $this->current_page($lang),
-        $lang,
-        $items[1],
-        $lang,
-        $ggl->get_lang_directionality($lang),
-        $items[2],
-        $items[4]*100);
-}
-?>
-</ul>
-
-</div><!-- end translations -->
-</div><!-- end just_for_ie7 -->
-
 <div id="mainbody">
 <div id="header">
 
