@@ -3,6 +3,7 @@
  * Cantarell: SIL Open Font License, 1.1
  *----------------------------------------------------*/
 
+/*
 @font-face {
     font-family: 'Cantarell';
     font-style: normal;
@@ -18,6 +19,9 @@
     src: local('Cantarell'), local('Cantarell Bold'), local('Cantarell-Bold'),
     url('fonts/Cantarell-Bold.otf') format('opentype');
 }
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
 /*----------------------------------------------------
  * First, resetting some of the heterogenous UA styling
@@ -52,7 +56,7 @@ caption, th {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
-    font-family: Georgia, "Times New Roman", FreeSerif, serif;
+    font-family: Palatino,"Palatino Linotype",Georgia,"Book Antiqua",Times,"Times New Roman",serif;
     margin-bottom: 1em;
 }
 
@@ -79,7 +83,8 @@ q:before, q:after {
 
 html {
     text-align: justify;
-    font-family: Cantarell,'Droid Sans',Ubuntu,'DejaVu Sans',Arial,sans-serif;
+    font-family: 'Open Sans',Cantarell,'Droid Sans',Arial,sans-serif;
+    font-size: 0.95em;
     color: black;
     background-color: #F8F8F8;
     line-height: 1.4;
@@ -290,7 +295,7 @@ code {
 #translations {
     position: absolute;
     left: 50%;
-    margin-left: 9.5em;
+    margin-left: 163px;
     top: 0;
     padding: 0;
     width: 13em;
@@ -339,10 +344,10 @@ code {
 }
 
 #language_menu_text {
+    background: url(/images/alternate_languages.png) top left no-repeat;
     font-size: 14px;
     min-height: 24px;
     padding: 0 0 0 30px;
-    background: url(/images/alternate_languages.png) top left no-repeat;
 }
 
 #translations ul {
@@ -457,7 +462,6 @@ code {
 }
 
 #header_picture_homepage h1 {
-    font-family: "MgOpen Cosmetica", Georgia, Times, "Times New Roman", FreeSerif, serif;
     font-size: 2.8em;
     color: #ffffff;
     margin-bottom: 10px;
@@ -468,7 +472,6 @@ code {
 }
 
 #header_picture h1 {
-    font-family: "MgOpen Cosmetica", Georgia, Times, "Times New Roman", FreeSerif, serif;
     color: #ffffff;
     text-decoration: none;
     padding: 4px 15px;
