@@ -82,12 +82,11 @@
 <ul>
 <?php
 foreach ($ggl->get('locales') as $lang => $items) {
-    printf("<li%s><a href=\"/%s\" hreflang=\"%s\" title=\"%s\"><span class=\"language_code\">%s</span> <span dir=\"%s\">%s</span> <span class=\"percent\">%s&#37;</span></a></li>\n",
+    printf("<li%s><a href=\"/%s\" hreflang=\"%s\" title=\"%s\"><span dir=\"%s\">%s</span> <span class=\"percent\">%s&#37;</span></a></li>\n",
         $this->is_current_language($lang),
         $this->current_page($lang),
         $lang,
         $items[3],
-        $lang,
         $ggl->get_lang_directionality($lang),
         $items[2],
         $items[4]*100);
