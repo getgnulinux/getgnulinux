@@ -5,15 +5,16 @@
 # Translators:
 # GLM Websites Edition Team <websites@gnulinuxmatters.org>, 2008.
 # Vyacheslav Stetskevych <slava18@gmail.com>, 2011.
+# Ростислав  <biert@mail.ru>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2011-11-07 11:55+0100\n"
-"PO-Revision-Date: 2011-11-04 13:41+0000\n"
-"Last-Translator: vst <slava18@gmail.com>\n"
+"POT-Creation-Date: 2012-02-20 20:01+0100\n"
+"PO-Revision-Date: 2012-02-20 13:06+0000\n"
+"Last-Translator: Ростислав <biert@mail.ru>\n"
 "Language-Team: Ukrainian (Ukraine) (http://www.transifex.net/projects/p/"
-"getgnulinux/team/uk_UA/)\n"
+"getgnulinux/language/uk_UA/)\n"
 "Language: uk_UA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,150 +22,155 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
-#: include/footer.php:9
+#: include/footer.php:37
 msgid "About"
 msgstr ""
 
-#: include/footer.php:11
-msgid "Contact the authors."
-msgstr ""
-
-#: include/footer.php:11 pages/more.php:101
-msgid "Contact us"
-msgstr ""
-
-#: include/footer.php:12
+#: include/footer.php:39
 msgid "Read about news and updates."
-msgstr ""
+msgstr "Читати про новини та оновлення."
 
-#: include/footer.php:12
+#: include/footer.php:39
 msgid "Our blog"
-msgstr ""
+msgstr "Наш блог"
 
-#: include/footer.php:16
-msgid "Information"
-msgstr ""
-
-#: include/footer.php:18 pages/more.php:100
+#: include/footer.php:40 pages/more.php:100
 msgid "Terms of use"
-msgstr ""
+msgstr "Правила користування"
 
-#: include/footer.php:19 pages/more.php:102
+#: include/footer.php:41 pages/more.php:102
 msgid "Credits"
 msgstr "Про нас"
 
-#: include/footer.php:23
-msgid "Ways to help."
-msgstr ""
+#: include/footer.php:42
+msgid "Contact the authors."
+msgstr "Зв'язок з авторами."
 
-#: include/footer.php:23
+#: include/footer.php:42 pages/more.php:101
+msgid "Contact us"
+msgstr "Зв’язок з нами"
+
+#: include/footer.php:46
+msgid "Ways to help."
+msgstr "Способи допомогти."
+
+#: include/footer.php:46
 msgid "Participate"
 msgstr ""
 
-#: include/footer.php:25
+#: include/footer.php:48 pages/link_buttons.php:6
 msgid "Help us spread free software!"
-msgstr ""
+msgstr "Допоможіть нам розповсюджувати вільне програмне забезпечення!"
 
-#: include/footer.php:25
+#: include/footer.php:48
 msgid "Link to us"
-msgstr ""
+msgstr "Лінк на нас"
 
-#: include/footer.php:26
+#: include/footer.php:49
 msgid "Found something awkward? Report it!"
 msgstr ""
 
-#: include/footer.php:26
+#: include/footer.php:49
 msgid "Report a bug"
-msgstr ""
+msgstr "Повідомити про баг"
 
-#: include/footer.php:27
+#: include/footer.php:50
 msgid "Help us reach an audience in your language!"
 msgstr ""
 
-#: include/footer.php:27
+#: include/footer.php:50
 msgid "Translation"
-msgstr ""
+msgstr "Переклад"
 
-#: include/footer.php:28
+#: include/footer.php:51
 msgid "Starting point for developers."
-msgstr ""
+msgstr "Початкова точка для розробників"
 
-#: include/footer.php:28
+#: include/footer.php:51
 msgid "Project page"
-msgstr ""
+msgstr "Сторінка проекту"
 
-#: include/footer.php:32
+#: include/footer.php:55
 msgid "Other"
-msgstr ""
+msgstr "Інше"
 
-#: include/footer.php:34
+#: include/footer.php:57
 msgid ""
 "This website won't look as intended on an outdated browser. Upgrade your "
 "browser today!"
 msgstr ""
 
-#: include/footer.php:39
+#. i18n: The link in the footer that links to browsehappy.com. You may choose to leave this untranslated.
+#: include/footer.php:59
+msgid "Browse Happy"
+msgstr ""
+
+#: include/footer.php:64
 #, php-format
 msgid ""
 "Except where otherwise <a href=\"%s\">noted</a>, content on this site is "
-"licensed under a <acronym title=\"Creative Commons Attribution-ShareAlike "
-"3.0 License\"><a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" rel="
-"\"license\">CC BY-SA 3.0 License</a></acronym>."
+"licensed under a <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" "
+"rel=\"license\"><acronym title=\"Creative Commons Attribution-ShareAlike"
+"\">CC BY-SA</acronym> 3.0 License</a>."
 msgstr ""
 
+#: include/footer.php:81
+msgid "Alternate languages"
+msgstr "Інші мови"
+
 #. i18n: The name of the website. It is displayed in the header of each page.
-#: include/GetGnuLinux.php:70
+#: include/GetGnuLinux.php:156
 msgid "get GNU/Linux!"
 msgstr "отримай GNU/Linux!"
 
 #. i18n: The way you refer to a website's main page in your language.
-#: include/GetGnuLinux.php:75
+#: include/GetGnuLinux.php:161
 msgid "Home"
-msgstr ""
+msgstr "Дім"
 
 #. i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
-#: include/GetGnuLinux.php:77 include/header.php:157
+#: include/GetGnuLinux.php:163 include/header.php:179
 #: pages/linux.linux_faq.php:355 pages/more.php:6
 #: pages/switch_to_linux.from_windows_to_linux.php:60
 msgid "More"
 msgstr "Більше"
 
 #. i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
-#: include/GetGnuLinux.php:79 include/header.php:154 pages/home.php:23
+#: include/GetGnuLinux.php:165 include/header.php:176 pages/home.php:23
 #: pages/linux.linux_faq.php:362
 #: pages/linux.misunderstanding_free_software.php:191
-#: pages/linux.screenshots.php:31 pages/linux.screenshots.php:104
+#: pages/linux.screenshots.php:31 pages/linux.screenshots.php:112
 #: pages/windows.php:84
 msgid "What is Linux?"
 msgstr "Що таке Linux?"
 
 #. i18n: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
-#: include/GetGnuLinux.php:81 pages/linux.php:70
+#: include/GetGnuLinux.php:167 pages/linux.php:70
 msgid "Linux FAQ - common questions about GNU/Linux"
 msgstr "Linux FAQ - найчастіші питання про GNU/Linux"
 
 #. i18n: Here the intent is to be a little provocative. Exact translation is not required.
-#: include/GetGnuLinux.php:83 pages/linux.linux_faq.php:144
+#: include/GetGnuLinux.php:169 pages/linux.linux_faq.php:144
 #: pages/linux.linux_faq.php:198 pages/linux.linux_faq.php:212
 #: pages/linux.misunderstanding_free_software.php:14 pages/linux.php:68
 #: pages/windows.stand_for_a_free_society.php:155
 msgid "How to Misunderstand Free Software"
-msgstr "Як Невірно зрозуміти Вільне ПЗ"
+msgstr "Як Невірно Зрозуміти Вільне ПЗ"
 
 #. i18n: This is the title of the 'Screenshots' page.
-#: include/GetGnuLinux.php:85 pages/linux.screenshots.php:36
+#: include/GetGnuLinux.php:171 pages/linux.screenshots.php:36
 msgid "What GNU/Linux looks like"
 msgstr ""
 
 #. i18n: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
-#: include/GetGnuLinux.php:87 include/header.php:155 include/HTML.php:96
-#: include/HTML.php:114 pages/home.php:30 pages/linux.php:60
+#: include/GetGnuLinux.php:173 include/header.php:177 include/HTML.php:177
+#: include/HTML.php:198 pages/home.php:29 pages/linux.php:60
 #: pages/windows.php:5
 msgid "Why not Windows"
 msgstr "Чому не Windows"
 
 #. i18n: This title can be translated loosely
-#: include/GetGnuLinux.php:89 include/HTML.php:98 include/HTML.php:116
+#: include/GetGnuLinux.php:175 include/HTML.php:179 include/HTML.php:200
 #: pages/windows.php:14 pages/windows.php:16 pages/windows.php:23
 #: pages/windows.restrictions.further_details.php:4
 #: pages/windows.restrictions.further_details.php:83
@@ -173,56 +179,57 @@ msgid "Restrictions"
 msgstr "Обмеження"
 
 #. i18n: This title can be translated loosely
-#: include/GetGnuLinux.php:91 pages/windows.restrictions.further_details.php:9
+#: include/GetGnuLinux.php:177
+#: pages/windows.restrictions.further_details.php:9
 msgid "More details on restrictions"
 msgstr ""
 
 #. i18n: This title can be translated loosely
-#: include/GetGnuLinux.php:93 include/HTML.php:101 include/HTML.php:119
+#: include/GetGnuLinux.php:179 include/HTML.php:182 include/HTML.php:203
 #: pages/linux.linux_faq.php:268 pages/windows.php:56 pages/windows.php:57
 #: pages/windows.php:66
 msgid "Stand for a free society"
 msgstr "Постань за вільне суспільство"
 
 #. i18n: This title can be translated loosely
-#: include/GetGnuLinux.php:95 include/HTML.php:99 include/HTML.php:117
+#: include/GetGnuLinux.php:181 include/HTML.php:180 include/HTML.php:201
 #: pages/windows.php:31 pages/windows.php:32 pages/windows.php:37
 #: pages/windows.what_about_choice.php:12
 msgid "What about choice?"
 msgstr "Як щодо вибору?"
 
 #. i18n: This title can be translated loosely
-#: include/GetGnuLinux.php:97 include/HTML.php:100 include/HTML.php:118
+#: include/GetGnuLinux.php:183 include/HTML.php:181 include/HTML.php:202
 #: pages/windows.php:44 pages/windows.php:45 pages/windows.php:50
 msgid "No source code"
 msgstr "Відсутність вихідного коду"
 
 #. i18n: This appears in the top header menu and should be as short and concise as possible.
-#: include/GetGnuLinux.php:99 include/header.php:156 include/HTML.php:79
-#: pages/home.php:37 pages/switch_to_linux.php:5 pages/windows.php:82
+#: include/GetGnuLinux.php:185 include/header.php:178 include/HTML.php:157
+#: pages/home.php:35 pages/switch_to_linux.php:5 pages/windows.php:82
 msgid "Switch to Linux"
 msgstr "Перейти на Linux"
 
-#: include/GetGnuLinux.php:100 include/HTML.php:82
+#: include/GetGnuLinux.php:186 include/HTML.php:160
 #: pages/switch_to_linux.choose_a_distribution.php:8
 #: pages/switch_to_linux.php:20
 msgid "Choose a distribution"
 msgstr "Обрати дистрибутив"
 
-#: include/GetGnuLinux.php:101 include/HTML.php:81
+#: include/GetGnuLinux.php:187 include/HTML.php:159
 #: pages/switch_to_linux.from_windows_to_linux.php:8
 #: pages/switch_to_linux.php:12
 msgid "From Windows to Linux"
 msgstr "З Windows на Linux"
 
 #. i18n: This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
-#: include/GetGnuLinux.php:103 include/HTML.php:83
+#: include/GetGnuLinux.php:189 include/HTML.php:161
 #: pages/switch_to_linux.php:26 pages/switch_to_linux.try_or_install.php:8
 msgid "Try or install"
 msgstr "Спробуйте або встановіть"
 
 #. i18n: This is the description of the homepage, and it appears in Google results! Please pay particular attention to this one =)
-#: include/GetGnuLinux.php:109
+#: include/GetGnuLinux.php:195
 msgid ""
 "Get GNU/Linux! A simple, clear website about Linux. | What is Linux? | Why "
 "not Windows? | Tips to make the switch"
@@ -231,81 +238,81 @@ msgstr ""
 "Чому не Windows? | Поради для переходу"
 
 #. i18n: This is the description of the 'More' page
-#: include/GetGnuLinux.php:111
+#: include/GetGnuLinux.php:197
 msgid "Read and discover more about Linux."
 msgstr ""
 
 #. i18n: This is the description of the 'Linux' page
-#: include/GetGnuLinux.php:113
+#: include/GetGnuLinux.php:199
 msgid "What is Linux? A clear explanation."
-msgstr ""
+msgstr "Що таке Лінукс? Доступне визначення."
 
 #. i18n: This is the description of the 'Linux FAQ' page
-#: include/GetGnuLinux.php:115
+#: include/GetGnuLinux.php:201
 msgid "Frequently Asked Questions about GNU/Linux."
 msgstr ""
 
 #. i18n: This is the description of the 'Misunderstanding Free Software' page
-#: include/GetGnuLinux.php:117
+#: include/GetGnuLinux.php:203
 msgid "An unconventional way to (re)discover free software."
 msgstr ""
 
 #. i18n: This is the description of the 'Screenshots' page
-#: include/GetGnuLinux.php:119
+#: include/GetGnuLinux.php:205
 msgid "A brief look at Linux in everyday use."
-msgstr ""
+msgstr "Короткий перегляд Linux в повсякденній роботі."
 
 #. i18n: This is the description of the 'Why not Windows' page
-#: include/GetGnuLinux.php:121
+#: include/GetGnuLinux.php:207
 msgid "Four good reasons to avoid proprietary software."
 msgstr ""
 
 #. i18n: This is the description of the 'Restrictions' page
-#: include/GetGnuLinux.php:123
+#: include/GetGnuLinux.php:209
 msgid "Restrictions in a proprietary software license."
 msgstr ""
 
 #. i18n: This is the description of the 'Restrictions further details' page
-#: include/GetGnuLinux.php:125
+#: include/GetGnuLinux.php:211
 msgid "Restrictions in a proprietary software license - more details."
 msgstr ""
 
 #. i18n: This is the description of the 'Stand for a free society' page
-#: include/GetGnuLinux.php:127 pages/windows.php:57
+#: include/GetGnuLinux.php:213 pages/windows.php:57
 msgid "How software affects freedom in society."
 msgstr "Як свобода програмного забезпечення впливає на свободу суспільства."
 
 #. i18n: This is the description of the 'What about choice' page
-#: include/GetGnuLinux.php:129
+#: include/GetGnuLinux.php:215
 msgid "How Microsoft lock customers in."
 msgstr ""
 
 #. i18n: This is the description of the 'What about source code' page
-#: include/GetGnuLinux.php:131
+#: include/GetGnuLinux.php:217
 msgid "No source code means no trust and no security."
 msgstr ""
 
 #. i18n: This is the description of the 'Switch to Linux' page
-#: include/GetGnuLinux.php:133
+#: include/GetGnuLinux.php:219
 msgid "Switch to Linux: Good tips and advice."
 msgstr ""
 
 #. i18n: This is the description of the 'Choose a distribution' page
-#: include/GetGnuLinux.php:135
+#: include/GetGnuLinux.php:221
 msgid "Recommended Linux distributions for everyday users."
 msgstr ""
 
 #. i18n: This is the description of the 'From Windows to Linux' page
-#: include/GetGnuLinux.php:137
+#: include/GetGnuLinux.php:223
 msgid "The advantages and disadvantages of Linux over Windows."
 msgstr ""
 
 #. i18n: This is the description of the 'Try or Install' page. i18n note: this should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
-#: include/GetGnuLinux.php:139
+#: include/GetGnuLinux.php:225
 msgid "Try or install Linux on your computer, very easily."
 msgstr ""
 
-#: include/header.php:23
+#: include/header.php:52
 msgid ""
 "linux, gnu/linux, free software, software freedom, open-source, windows "
 "alternative, get linux, switch to linux"
@@ -313,19 +320,15 @@ msgstr ""
 "linux, gnu/linux, вільні програми, свобода програм, open-source, "
 "альтернатива windows, отримати linux, перейти на linux"
 
-#: include/header.php:100
+#: include/header.php:146
 msgid "skip to content"
 msgstr "перейти до вмісту"
 
-#: include/header.php:107
-msgid "Alternate languages"
-msgstr "Інші мови"
-
-#: include/header.php:143
+#: include/header.php:165
 msgid "home page"
-msgstr ""
+msgstr "домашня сторінка"
 
-#: pages/credits.php:174 pages/legal.php:111 pages/not_found.php:19
+#: pages/credits.php:196 pages/legal.php:124 pages/not_found.php:19
 msgid "Return to the Homepage"
 msgstr "Повернутися на головну"
 
@@ -348,13 +351,53 @@ msgstr ""
 msgid "Learn more about the free operating system"
 msgstr "Узнайте більше про вільну операційну систему"
 
-#: pages/home.php:31
+#: pages/home.php:30
 msgid "Why we should avoid using Microsoft Windows"
 msgstr "Чому ми маємо уникати використання Microsoft Windows"
 
-#: pages/home.php:38
+#: pages/home.php:36
 msgid "Where to download and how to step into Linux"
 msgstr "Де завантажити та як почати роботу з Linux"
+
+#: pages/link_buttons.php:5
+msgid "Link buttons"
+msgstr ""
+
+#: pages/link_buttons.php:7
+msgid ""
+"Simply copy/paste the code next to your favorite button into your website."
+msgstr ""
+
+#: pages/link_buttons.php:101
+msgid "Usage"
+msgstr "Використання"
+
+#: pages/link_buttons.php:102
+msgid ""
+"We kindly ask that these buttons be used only to point to <em>get GNU/Linux!"
+"</em> websites."
+msgstr ""
+
+#: pages/link_buttons.php:106
+msgid "Licensing"
+msgstr "Ліцензія"
+
+#: pages/link_buttons.php:107
+msgid ""
+"Some of these buttons contain material subjected to the following licensing:"
+msgstr ""
+
+#: pages/link_buttons.php:117
+msgid "Make your own!"
+msgstr "Зробіть самі!"
+
+#: pages/link_buttons.php:118
+#, php-format
+msgid ""
+"Make your own buttons and maybe we can host them along ours! Our <a href=\"%s"
+"\">source files</a> (GIMP and Inkscape formats) might be a good starting "
+"point."
+msgstr ""
 
 #: pages/linux.linux_faq.php:5
 msgid "Linux Frequently Asked Questions"
@@ -794,7 +837,7 @@ msgstr ""
 
 #: pages/linux.linux_faq.php:193
 msgid "No!"
-msgstr ""
+msgstr "Ні!"
 
 #: pages/linux.linux_faq.php:194
 msgid ""
@@ -817,7 +860,7 @@ msgstr ""
 #: pages/linux.linux_faq.php:198
 #, php-format
 msgid "Read more in the article: <a href=\"%s\">%s</a>."
-msgstr ""
+msgstr "Прочитайте більше в статті:<a href=\"%s\">%s</a>."
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
 #: pages/linux.linux_faq.php:210
@@ -857,6 +900,9 @@ msgid ""
 "a>, are all available in the main languages around, and have support for "
 "many keyboard types."
 msgstr ""
+"Так.Всі основні дистрибутиви, такі як <a href=\"%s\">які ми рекомендуємо</"
+"a>, є доступні на основних мовах, і мають підтримку багатьох розкладок "
+"клавіатури."
 
 #: pages/linux.linux_faq.php:250
 msgid ""
@@ -871,6 +917,8 @@ msgid ""
 "There is a shiny Windows sticker on it! Am I allowed to erase Windows or use "
 "it together with Linux?"
 msgstr ""
+"Там є сяюча наліпка Windows! Я маю право стерти Windows або використовувати "
+"разом з Linux?"
 
 #: pages/linux.linux_faq.php:263
 msgid ""
@@ -896,7 +944,7 @@ msgstr ""
 
 #: pages/linux.linux_faq.php:279
 msgid "Not at all. It will run happily on your own computer."
-msgstr ""
+msgstr "Не зовсім. Це буде запущено на вашому власному комп’ютері."
 
 #: pages/linux.linux_faq.php:280
 #, php-format
@@ -908,6 +956,13 @@ msgid ""
 "series). <a href=\"%s\">Read how you can try or install Linux on your "
 "computer</a>, be it instead of or together with Windows."
 msgstr ""
+"Одн річ яка може вас турбувати це використання дуже сучасного "
+"спеціалізованого апратного забезпечення, такого як відеокарти. В інших "
+"випадках, майже всі Linux дистрибутиви можуть запускатись на звичайних ПК "
+"(їх також часто називають \"i386\" або \"x86\" копмп’ютери), комп’ютери з 64-"
+"бітними процесорами та комп’ютери від Apple Mac (включаючи серії G5, G4, G3)."
+"<a href=\"%s\">Прочитайте як ви можете спробувати встановити Linux на ваш "
+"комп’ютер</a>,  який може бути встановлений разом або замість Windows."
 
 #: pages/linux.linux_faq.php:290 pages/linux.php:28
 msgid "Using Linux"
@@ -915,7 +970,7 @@ msgstr "Користування Linux"
 
 #: pages/linux.linux_faq.php:298
 msgid "No."
-msgstr ""
+msgstr "Ні."
 
 #: pages/linux.linux_faq.php:299
 msgid ""
@@ -929,7 +984,7 @@ msgstr ""
 #. i18n: If it exists, please use the localized URL of OpenOffice.org . Else, please switch the URL to http://www.openoffice.org/
 #: pages/linux.linux_faq.php:302
 msgid "http://why.openoffice.org/"
-msgstr ""
+msgstr "http://why.openoffice.org/"
 
 #: pages/linux.linux_faq.php:304
 msgid ""
@@ -947,6 +1002,8 @@ msgid ""
 "The simple answer to this question would be &quot;yes&quot;, however this is "
 "only half the truth."
 msgstr ""
+"Простою відповіддю на це питання буде &quot;так&quot;, однак це буде лише "
+"частиною правди."
 
 #: pages/linux.linux_faq.php:315
 msgid ""
@@ -983,12 +1040,12 @@ msgstr ""
 
 #: pages/linux.linux_faq.php:321
 msgid "More on the web:"
-msgstr ""
+msgstr "Більше в інтернеті:"
 
 #. i18n: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
 #: pages/linux.linux_faq.php:324
 msgid "https://wiki.ubuntu.com/RestrictedFormats"
-msgstr ""
+msgstr "https://wiki.ubuntu.com/RestrictedFormats"
 
 #: pages/linux.linux_faq.php:324
 msgid "Ubuntu Restricted Formats"
@@ -1030,7 +1087,7 @@ msgstr ""
 
 #: pages/linux.linux_faq.php:362
 #: pages/linux.misunderstanding_free_software.php:191
-#: pages/linux.screenshots.php:31 pages/linux.screenshots.php:104
+#: pages/linux.screenshots.php:31 pages/linux.screenshots.php:112
 #: pages/windows.restrictions.further_details.php:4
 #: pages/windows.restrictions.further_details.php:83
 msgid "back up:"
@@ -1051,13 +1108,15 @@ msgstr ""
 #. i18n: image alt description
 #: pages/linux.misunderstanding_free_software.php:25
 msgid "no money"
-msgstr ""
+msgstr "немає грошей"
 
 #: pages/linux.misunderstanding_free_software.php:26
 msgid ""
 "Let's begin with one simple fact: free software programmers <em>do</em> like "
 "to get paid, and all need to buy lunch at some time."
 msgstr ""
+"Давайте почнемо з одного простого факту: програмісти вільного програмного "
+"забезпечення <em>люблять</em> коли їм платять, і всі вони мають інколи їсти."
 
 #. i18n: Here, the %s placeholder simply puts a link to a footnote in this page
 #: pages/linux.misunderstanding_free_software.php:29
@@ -1067,6 +1126,10 @@ msgid ""
 "strong>. You may actually pay to get free software (or \"open source\" "
 "software %s), which you can then study, change and copy at will."
 msgstr ""
+"Коли ми згадуєм вільне програмне забезпечення, ми звертаємось до "
+"<strong>свободи а не ціни</strong>. Ви фактично можете платити за вільне "
+"програмне забезпечення (або програмне забезпечення з відкритим кодом %s), "
+"яке ви можете вивчати згодом, змінювати і копіювати в майбутньому."
 
 #: pages/linux.misunderstanding_free_software.php:31
 msgid ""
@@ -1075,6 +1138,10 @@ msgid ""
 "strong>, an elaborate language, not like ordinary property, there is no "
 "reason to restrict others' use of it."
 msgstr ""
+"Як це працює? Ви можете уявити це наступним чином: програми це просто код, "
+"код це тільки математика. Досить подивитись на програми як на "
+"<strong>корисну математику</strong>, як на складну мову, просту власність, "
+"немає причин щоб обмежувати користування ними."
 
 #: pages/linux.misunderstanding_free_software.php:32
 msgid ""
@@ -1183,7 +1250,7 @@ msgstr ""
 
 #: pages/linux.misunderstanding_free_software.php:65
 msgid "Anyone should care about whether their software is free."
-msgstr ""
+msgstr "Кожен повинен пам’ятати про те що його програмне забезпечення вільне."
 
 #: pages/linux.misunderstanding_free_software.php:66
 msgid ""
@@ -1206,6 +1273,8 @@ msgid ""
 "Free software is as important as free speech, as a free market. If software "
 "is free, users have control and liberty over it."
 msgstr ""
+"Вільне програмне забезпечення є важливе як вільна промова, як вільний ринок. "
+"Якщо ПЗ є вільним, користувачі мають контроль та свободу."
 
 #. i18n: The %s placeholder will automatically point to the 'try and install' page
 #: pages/linux.misunderstanding_free_software.php:71
@@ -1225,7 +1294,7 @@ msgstr ""
 #. i18n: image alt description
 #: pages/linux.misunderstanding_free_software.php:77
 msgid "piracy"
-msgstr ""
+msgstr "піратство"
 
 #: pages/linux.misunderstanding_free_software.php:78
 msgid ""
@@ -1264,17 +1333,18 @@ msgstr ""
 
 #: pages/linux.misunderstanding_free_software.php:86
 msgid "Software patents:"
-msgstr ""
+msgstr "Патенти програмного забезпечення:"
 
 #: pages/linux.misunderstanding_free_software.php:88
 msgid "Are expensive and are granted only several years after application;"
-msgstr ""
+msgstr "Є дорогі і надаються тільки через кілька років після застосування;"
 
 #: pages/linux.misunderstanding_free_software.php:89
 msgid ""
 "Are limited geographically (a patent granted in the US is worthless in "
 "Europe);"
 msgstr ""
+"Лімітвані географічно (патент зареєстрований в США не має сили в Європі)"
 
 #: pages/linux.misunderstanding_free_software.php:90
 msgid "Have long life-times (often 20 years) in a quickly-moving industry;"
@@ -1307,7 +1377,7 @@ msgstr ""
 
 #: pages/linux.misunderstanding_free_software.php:98
 msgid "Read and view more:"
-msgstr ""
+msgstr "Переглянути та почитати ще:"
 
 #. i18n: Unless you know of a good localized resource, please leave the URL as such.
 #: pages/linux.misunderstanding_free_software.php:102
@@ -1327,12 +1397,12 @@ msgstr ""
 
 #: pages/linux.misunderstanding_free_software.php:110
 msgid "5. Free software is like communism."
-msgstr ""
+msgstr "5. Вільний програмне забезпечення схоже на комунізм."
 
 #. i18n: image alt description
 #: pages/linux.misunderstanding_free_software.php:113
 msgid "communism"
-msgstr ""
+msgstr "комунізм"
 
 #. i18n: Here, the %s placeholder simply puts a link to a footnote in this page
 #: pages/linux.misunderstanding_free_software.php:116
@@ -1349,6 +1419,10 @@ msgid ""
 "your modified version, your computer works better and your factories run "
 "twice as fast!"
 msgstr ""
+"Уявімо що ви використовуєте одну програму яка є вільним програмним "
+"забезпеченням. Ви користуєтесь нею вдома та у вашій компанії. Ви розробили "
+"нову версію цієї програми з якою ваш комп’ютер працює краще і фабрики "
+"працюють вдвічі швидше ніж раніше!"
 
 #: pages/linux.misunderstanding_free_software.php:118
 msgid ""
@@ -1399,7 +1473,7 @@ msgstr ""
 #: pages/linux.misunderstanding_free_software.php:131
 #: pages/windows.restrictions.php:57
 msgid "Read more:"
-msgstr ""
+msgstr "Читать більше:"
 
 #: pages/linux.misunderstanding_free_software.php:132
 msgid "Free / \"open-source\" software can't be secure."
@@ -1417,6 +1491,9 @@ msgid ""
 "networked computers holding sensitive or confidential information such as "
 "your bank details or trade secrets."
 msgstr ""
+"Якшо коротко то:  Більшість серверів працюють під управлінням вільного "
+"програмного забезпечення. Є основні мережеві комп’ютери які зберігають "
+"секретну або конфіденційну інформацію таку як ваші банківські рахунки."
 
 #: pages/linux.misunderstanding_free_software.php:137
 msgid ""
@@ -1442,17 +1519,19 @@ msgstr ""
 #. i18n: this can be translated loosely, ex "Free software isolates me" or else.
 #: pages/linux.misunderstanding_free_software.php:143
 msgid "I'm on my own with free software."
-msgstr ""
+msgstr "Я один на один з вільним програмним забезпеченням."
 
 #: pages/linux.misunderstanding_free_software.php:146
 msgid "Not at all."
-msgstr ""
+msgstr "Не зовсім."
 
 #: pages/linux.misunderstanding_free_software.php:148
 msgid ""
 "If you are looking for good documentation and support forums to assist you, "
 "there is plenty available for free (\"open source\") software."
 msgstr ""
+"Якшо ви шукаєте хорошу документацію і форуми підтримки для допомоги вам, є "
+"багато доступних вільних програм."
 
 #. i18n: use your best knowledge of the community to propose localized links ;-)
 #: pages/linux.misunderstanding_free_software.php:151
@@ -1475,7 +1554,7 @@ msgstr ""
 
 #: pages/linux.misunderstanding_free_software.php:156
 msgid "Further reading on the web"
-msgstr ""
+msgstr "Подальше читання в інтернеті"
 
 #: pages/linux.misunderstanding_free_software.php:161
 msgid ""
@@ -1496,6 +1575,8 @@ msgid ""
 "A simple and clear website about the free format OpenDocument, showing the "
 "importance of freedom in formats (not just in applications)."
 msgstr ""
+"Простий та зрозумілий веб-сайт про вільний формат OpenDocument, показує "
+"важливість вільних форматів (не тільки в програмах)"
 
 #: pages/linux.misunderstanding_free_software.php:170
 msgid ""
@@ -1536,12 +1617,12 @@ msgstr "Загальна картина"
 #. i18n: title of link to screenshots page
 #: pages/linux.php:15 pages/linux.php:32
 msgid "What does GNU/Linux look like? Selected screenshots"
-msgstr ""
+msgstr "Як виглядає GNU/Linux? Деякі скріншоти"
 
 #. i18n: image alt description
 #: pages/linux.php:18
 msgid "A view of a Fedora Linux desktop"
-msgstr ""
+msgstr "Вигляд Fedora Linux "
 
 #: pages/linux.php:19
 msgid ""
@@ -1555,17 +1636,12 @@ msgstr ""
 "точна назва це <em>GNU/Linux</em>, але \"Linux\" вживається набагато частіше."
 
 #: pages/linux.php:21
-#, fuzzy
 msgid ""
 "Linux is not one company's product, but a number of companies and groups of "
 "people contribute to it. In fact, the <em>GNU/Linux system</em> is a core "
 "component, which is branched off into many different products. They are "
 "called <strong>distributions</strong>."
 msgstr ""
-"Linux - це не продукт однієї компанії. Над ним працює безліч компаній та "
-"груп людей. Система <em>GNU/Linux</em> фактично є головним компонентом, який "
-"розгалужується на різноманітні кінцеві продукти. Вони звуться "
-"<strong>дистрибутивами</strong>."
 
 #: pages/linux.php:23
 msgid ""
@@ -1727,7 +1803,7 @@ msgstr ""
 
 #. i18n: This is the description of the "ubuntu3.png" screenshot.
 #: pages/linux.screenshots.php:10
-msgid "Evolution e-mail and calendar application."
+msgid "Thunderbird e-mail and calendar application."
 msgstr ""
 
 #. i18n: This is the description of the "fedora1.png" screenshot.
@@ -1876,7 +1952,7 @@ msgstr "http://www.fsf.org/"
 
 #: pages/more.php:66
 msgid "Free Software Foundation"
-msgstr ""
+msgstr "Рух Вільного Програмного Забезпечення"
 
 #. i18n: image alt description
 #: pages/more.php:68
@@ -2066,12 +2142,12 @@ msgstr ""
 
 #: pages/switch_to_linux.from_windows_to_linux.php:13
 msgid "What is better in Linux"
-msgstr ""
+msgstr "Що в Linux краще"
 
 #. i18n: please note the punctuation should be consistent
 #: pages/switch_to_linux.from_windows_to_linux.php:17
 msgid "It's free"
-msgstr ""
+msgstr "Це безкоштовно"
 
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:20
@@ -2095,7 +2171,7 @@ msgstr ""
 
 #: pages/switch_to_linux.from_windows_to_linux.php:25
 msgid "Programs"
-msgstr ""
+msgstr "Програми"
 
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:28
@@ -2124,7 +2200,7 @@ msgstr ""
 
 #: pages/switch_to_linux.from_windows_to_linux.php:34
 msgid "No fighting"
-msgstr ""
+msgstr "Нема боротьби"
 
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:37
@@ -2150,12 +2226,12 @@ msgstr ""
 
 #: pages/switch_to_linux.from_windows_to_linux.php:42
 msgid "Security"
-msgstr ""
+msgstr "Безпека"
 
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:45
 msgid "security"
-msgstr ""
+msgstr "безпека"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:46
 msgid ""
@@ -2178,12 +2254,12 @@ msgstr ""
 
 #: pages/switch_to_linux.from_windows_to_linux.php:53
 msgid "Support"
-msgstr ""
+msgstr "Підтримка"
 
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:56
 msgid "support"
-msgstr ""
+msgstr "підтримка"
 
 #. i18n: The first %s represents the URL to the "More" page and seconds %s represents the title of the page "More" in your language
 #: pages/switch_to_linux.from_windows_to_linux.php:59
@@ -2204,7 +2280,7 @@ msgstr ""
 
 #: pages/switch_to_linux.from_windows_to_linux.php:70
 msgid "What is mostly the same in Linux"
-msgstr ""
+msgstr "Що є набільш схожим в Linux"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:71
 msgid ""
@@ -2219,7 +2295,7 @@ msgstr ""
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:76
 msgid "simple use"
-msgstr ""
+msgstr "просте використання"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:77
 msgid ""
@@ -2242,12 +2318,12 @@ msgstr ""
 
 #: pages/switch_to_linux.from_windows_to_linux.php:85
 msgid "Web browsing and common tasks"
-msgstr ""
+msgstr "Веб серфінг та основні задачі"
 
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:88
 msgid "Firefox browser"
-msgstr ""
+msgstr "Браузер Firefox"
 
 #. i18n: use localized Firefox landing page if possible
 #: pages/switch_to_linux.from_windows_to_linux.php:91
@@ -2283,12 +2359,12 @@ msgstr ""
 
 #: pages/switch_to_linux.from_windows_to_linux.php:111
 msgid "Driver support"
-msgstr ""
+msgstr "Підтримка драйверів"
 
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:114
 msgid "some hardware problems"
-msgstr ""
+msgstr "деякі проблеми з апаратним забезпеченням"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:115
 msgid ""
@@ -2307,6 +2383,7 @@ msgstr ""
 #: pages/switch_to_linux.from_windows_to_linux.php:117
 msgid "Sadly, the same problem occurs with many low-end WiFi cards."
 msgstr ""
+"Нажаль одинакова проблема виникає з більшістю WiFi адаптерів low-end класу."
 
 #: pages/switch_to_linux.from_windows_to_linux.php:118
 msgid ""
@@ -2345,7 +2422,7 @@ msgstr ""
 #: pages/switch_to_linux.from_windows_to_linux.php:129
 #: pages/switch_to_linux.from_windows_to_linux.php:141
 msgid "Read more in our Linux FAQ:"
-msgstr ""
+msgstr "Читайте більше в нашому Linux FAQ:"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:133
 msgid "Gaming"
@@ -2491,7 +2568,7 @@ msgstr ""
 #: pages/switch_to_linux.try_or_install.php:25
 #: pages/switch_to_linux.try_or_install.php:42
 msgid "What you need"
-msgstr ""
+msgstr "Що вам потрібно"
 
 #: pages/switch_to_linux.try_or_install.php:27
 msgid ""
@@ -2507,7 +2584,7 @@ msgstr "Встановлення із подвійним завантаженн�
 
 #: pages/switch_to_linux.try_or_install.php:38
 msgid "Choose at start-up"
-msgstr ""
+msgstr "Вибрати при завантаженні"
 
 #: pages/switch_to_linux.try_or_install.php:39
 msgid ""
@@ -2557,8 +2634,8 @@ msgid ""
 msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:61
-msgid "Download the Ubuntu CD"
-msgstr ""
+msgid "Download Ubuntu"
+msgstr "Завантажити Ubuntu"
 
 #: pages/switch_to_linux.try_or_install.php:62
 msgid ""
@@ -2568,8 +2645,8 @@ msgid ""
 msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:71
-msgid "Download the Fedora DVD or CD"
-msgstr ""
+msgid "Download Fedora"
+msgstr "Завантажити Fedora"
 
 #: pages/switch_to_linux.try_or_install.php:72
 msgid ""
@@ -2579,8 +2656,8 @@ msgid ""
 msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:81
-msgid "Download the Trisquel CD"
-msgstr ""
+msgid "Download Trisquel"
+msgstr "Завантажити Trisquel"
 
 #: pages/switch_to_linux.try_or_install.php:82
 msgid "The Trisquel installation is very similar to that of Ubuntu."
@@ -2637,7 +2714,7 @@ msgstr ""
 #: pages/windows.php:23 pages/windows.php:37 pages/windows.php:50
 #: pages/windows.php:66
 msgid "read our full article:"
-msgstr ""
+msgstr "прочитати нашу повну статтю:"
 
 #: pages/windows.php:33
 msgid "Software should come without locks in it."
@@ -2741,7 +2818,7 @@ msgstr ""
 
 #: pages/windows.php:84
 msgid "previous:"
-msgstr ""
+msgstr "попередні:"
 
 #: pages/windows.restrictions.further_details.php:11
 #, php-format
@@ -2844,7 +2921,7 @@ msgstr ""
 #: pages/windows.restrictions.further_details.php:56
 #: pages/windows.stand_for_a_free_society.php:126
 msgid "Read more"
-msgstr ""
+msgstr "Читати більше"
 
 #. i18n: If it exists, please use a non-official translation of the GPL in your language, as pointed on http://www.gnu.org/licenses/translations.html
 #: pages/windows.restrictions.further_details.php:61
@@ -2857,7 +2934,7 @@ msgstr ""
 
 #: pages/windows.restrictions.further_details.php:61
 msgid "The GPL"
-msgstr ""
+msgstr " GPL"
 
 #: pages/windows.restrictions.further_details.php:62
 msgid ""
@@ -2885,7 +2962,7 @@ msgstr ""
 #: pages/windows.restrictions.further_details.php:71
 #: pages/windows.stand_for_a_free_society.php:129
 msgid "The Right to Read"
-msgstr ""
+msgstr "Право на читання"
 
 #: pages/windows.restrictions.further_details.php:72
 msgid ""
@@ -3054,7 +3131,7 @@ msgstr ""
 
 #: pages/windows.stand_for_a_free_society.php:27
 msgid "Not a crazy concept"
-msgstr ""
+msgstr "Не божевільний концепт"
 
 #: pages/windows.stand_for_a_free_society.php:28
 msgid ""
@@ -3271,7 +3348,7 @@ msgstr ""
 #. i18n: Unless you know of a very good resource about DRM, please point to the Wikipedia article about DRM in your language, if it exists
 #: pages/windows.stand_for_a_free_society.php:134
 msgid "http://www.timj.co.uk/computing/politics-policy/drm/fallacy/"
-msgstr ""
+msgstr "http://www.timj.co.uk/computing/politics-policy/drm/fallacy/"
 
 #. i18n: Title of external link
 #: pages/windows.stand_for_a_free_society.php:136
@@ -3304,7 +3381,7 @@ msgstr ""
 
 #: pages/windows.stand_for_a_free_society.php:149
 msgid "http://www.lafkon.net/tc/"
-msgstr ""
+msgstr "http://www.lafkon.net/tc/"
 
 #: pages/windows.stand_for_a_free_society.php:149
 msgid "Trusted Computing"
@@ -3416,7 +3493,7 @@ msgstr ""
 
 #: pages/windows.what_about_choice.php:43
 msgid "Default programs you can't uninstall"
-msgstr ""
+msgstr "Ви не можете видалити стандартні програми"
 
 #: pages/windows.what_about_choice.php:45
 msgid ""
@@ -3460,7 +3537,7 @@ msgstr ""
 #. i18n: the '<br/>' character is only here for paging purposes. It's probably safer to skip it.
 #: pages/windows.what_about_source_code.php:14
 msgid "What about<br/>source code?"
-msgstr ""
+msgstr "Що на рахунок<br/>початково коду?"
 
 #. i18n: This is the quote from Stallman at the start of the article.
 #: pages/windows.what_about_source_code.php:19
@@ -3473,7 +3550,7 @@ msgstr ""
 
 #: pages/windows.what_about_source_code.php:20
 msgid "Why Software Should Be Free"
-msgstr ""
+msgstr "Чому програмне забезпечення має бути вільним"
 
 #: pages/windows.what_about_source_code.php:23
 msgid ""
@@ -3490,7 +3567,7 @@ msgstr ""
 
 #: pages/windows.what_about_source_code.php:29
 msgid "No one can look inside"
-msgstr ""
+msgstr "Ніхто не може заглянути в середину"
 
 #: pages/windows.what_about_source_code.php:31
 msgid ""
@@ -3548,7 +3625,7 @@ msgstr ""
 
 #: pages/windows.what_about_source_code.php:53
 msgid "You can trust free software"
-msgstr ""
+msgstr "Ви можете довіряти вільному програмному забезпеченню"
 
 #: pages/windows.what_about_source_code.php:55
 msgid ""

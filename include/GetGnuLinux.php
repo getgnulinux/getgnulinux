@@ -103,7 +103,7 @@ class GetGnuLinux {
             'ru' => array('ru_RU.UTF-8','ru',"Русский", "Просмотреть эту страницу на русский языке!", 0.62),
             'sr' => array('sr_RS',      'rs',"Српски", "Watch this page in Serbian", 0.06),
             'tr' => array('tr_TR.UTF-8','tr',"Türkçe", "Watch this page in Turkish", 0.15),
-            'uk' => array('uk_UA.UTF-8','ua',"Українська", "Переглянути цю сторінку на українська мові!", 0.26),
+            'uk' => array('uk_UA.UTF-8','ua',"Українська", "Переглянути цю сторінку на українська мові!", 0.42),
             'vi' => array('vi_VN',      'vn',"Tiếng Việt", "Xem trang này bằng tiếng Tiếng Việt !", 0.50),
             'zh' => array('zh_CN.UTF-8','cn',"中文", "Watch this page in Chinese", 0.51),
             )
