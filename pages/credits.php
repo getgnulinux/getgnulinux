@@ -158,7 +158,7 @@ Jonathan H. Fernández, Martín Carr, Miguel L. García and
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/zeugma/">zeugma</a>.</p>
 
 <h3>Ukrainian:</h3>
-<p class="tab"><a href="https://www.transifex.net/accounts/profile/vst/">V'yacheslav Stetskevych</a>.</p>
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/vst/">V'yacheslav Stetskevych</a> and <a href="https://www.transifex.net/accounts/profile/Rostyslav/">Ростислав</a></p>
 
 <h3>Vietnamese:</h3>
 <p class="tab">Clytie Siddall from the <a href="http://vnoss.net/dokuwiki/doku.php?id=projects:l10n">Vietnamese Free Software Translation Team</a>, and Minh Ngoc Le.</p>
