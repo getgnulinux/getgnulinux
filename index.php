@@ -32,12 +32,13 @@ require_once("$root/include/HTML.php");
 $html = new HTML();
 
 if (is_file($root."/settings.php")) {
+    # Load user settings.
     require_once($root."/settings.php");
 }
 else {
     printf("The settings file (%s) is missing. Follow these steps to create one:
 <ol>
-    <li>Open a terminal (e.g. gnome-terminal or konsole);</li>
+    <li>Open a terminal window;</li>
     <li>Change to the root folder with `<code>cd %s</code>'</li>
     <li>Run `<code>make config</code>' to create the settings file;</li>
     <li>Open settings.php in a text editor and change the settings where necessary;</li>
@@ -47,6 +48,9 @@ Finally, reload this page.",
         $root);
     die();
 }
+
+# Initialyze GGL.
+$ggl->init();
 
 # Autodetect base url and base path.
 $ggl->config['base_url'] = empty($ggl->config['base_url']) ? 'http://'.$_SERVER['HTTP_HOST'].'/' : $ggl->config['base_url'];

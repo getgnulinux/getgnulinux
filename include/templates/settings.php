@@ -2,6 +2,9 @@
 
 # Please edit the following settings.
 
+# Language code of the default language.
+$ggl->config['default_lang'] = "en";
+
 # The base URL of the website. Should start with http:// and end with a slash.
 # Leave blank to auto detect the base URL.
 # Example: "http://getgnulinux.org/"

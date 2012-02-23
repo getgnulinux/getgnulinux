@@ -59,6 +59,7 @@ class GetGnuLinux {
      *
      * This is an associative, multidimensional array made up of the following
      * items (key => value):
+     *  - default_lang: ISO language code of the default language.
      *  - lang: ISO language code of the current language.
      *  - locale: ISO locale code of the current language.
      *  - country_code: ISO country code of the current language.
@@ -77,6 +78,7 @@ class GetGnuLinux {
      * @var array
      */
     public $config = array(
+        'default_lang' => "en",
         'lang' => "en",
         'locale' => "en_US",
         'country_code' => "us",
@@ -110,14 +112,15 @@ class GetGnuLinux {
         );
 
     /**
-     * The constructor
+     * Initialise GGL. Needs to be called manually after the user settings
+     * are loaded.
      *
      * Sets locale information (like language code, country code, text
      * direction), initialises gettext, and sets some main configurations.
      */
-    function __construct() {
+    function init() {
         # Set the locale.
-        $locale = isset($_GET['l']) ? $_GET['l'] : 'en';
+        $locale = isset($_GET['l']) ? $_GET['l'] : $this->config['default_lang'];
         $this->set('locale', $locale);
 
         # Initialize gettext. From here, gettext is enabled.
