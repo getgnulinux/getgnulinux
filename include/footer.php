@@ -86,10 +86,10 @@ foreach ($ggl->get('locales') as $lang => $items) {
         $this->is_current_language($lang),
         $this->current_page($lang),
         $lang,
-        $items[3],
-        $ggl->get_lang_directionality($lang),
         $items[2],
-        $items[4]*100);
+        $ggl->get_lang_directionality($lang),
+        $items[1],
+        $items[3]*100);
 }
 ?>
 </ul>

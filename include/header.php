@@ -42,7 +42,7 @@ header("Content-Type: text/html; charset=utf-8");
             $lang,
             $base_url,
             $this->current_page($lang),
-            $items[3]);
+            $items[2]);
     } ?>
     <!-- end alternate languages -->
     <title><?php $this->page_title(); ?></title>

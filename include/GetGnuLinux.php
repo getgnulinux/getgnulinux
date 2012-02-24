@@ -33,6 +33,8 @@
  * @license http://www.gnu.org/licenses/agpl-3.0.html GNU AGPL v3
  */
 
+# Import methods for language negotiation.
+require(ROOT."/include/locale.php");
 
 /**
  * Management utilities for the website's configuration.
@@ -62,7 +64,6 @@ class GetGnuLinux {
      *  - default_lang: ISO language code of the default language.
      *  - lang: ISO language code of the current language.
      *  - locale: ISO locale code of the current language.
-     *  - country_code: ISO country code of the current language.
      *  - dir: Text direction of the current language.
      *  - gettext_domain: The gettext domain which tells gettext where to look
      *      for PO files.
@@ -70,7 +71,6 @@ class GetGnuLinux {
      *      ISO language code. Each value is an array containing the following
      *      items:
      *      - Locale code for gettext.
-     *      - ISO 639-1 / ISO 639-2 country code.
      *      - Localised text for the language name.
      *      - Localised text for "Watch this page in <language>".
      *      - Completed translation fraction for this language (1.0 = 100%).
@@ -81,33 +81,32 @@ class GetGnuLinux {
         'default_lang' => "en",
         'lang' => "en",
         'locale' => "en_US",
-        'country_code' => "us",
         'dir' => "ltr",
         'gettext_domain' => "getgnulinux",
         'locales' => array(
-            'ar' => array('ar_SA.UTF-8','sa',"العربية", "احصل على هذه الصفحة باللغة العربية !", 0.42),
-            'ast' => array('ast_ES.UTF-8','ast',"Asturianu", "Watch this page in Asturian", 1.0),
-            'ca' => array('ca_AD.UTF-8','catalonia',"Català", "Traduïu aquesta pàgina a la llengua català!", 0.57),
-            'da' => array('da_DK.UTF-8','dk',"Dansk", "Watch this page in Danish", 0.05),
-            'de' => array('de_DE.UTF-8','de',"Deutsch", "Watch this page in German", 0.47),
-            'en' => array('en_US.UTF-8','us',"English", "Watch this page in English", 1),
-            'eo' => array('eo.UTF-8',   'eo',"Esperanto", "Watch this page in Esperanto", 0.24),
-            'es' => array('es_ES.UTF-8','es',"Español", "¡Lee esta página en español!", 0.66),
-            'fr' => array('fr_FR.UTF-8','fr',"Français", "Cette page en français", 0.71),
-            'he' => array('he_IL.UTF-8','il',"עִבְרִית", "Watch this page in Hebrew", 1.0),
-            'hr' => array('hr_HR.UTF-8','hr',"Hrvatski", "Watch this page in Croatian", 0.13),
-            'ia' => array('ia',         'ia',"Interlingua", "Watch this page in Interlingua", 0.24),
-            'it' => array('it_IT.UTF-8','it',"Italiano", "Watch this page in Italian", 0.37),
-            'ja' => array('ja_JP.UTF-8','jp',"日本語", "Watch this page in Japanese", 0),
-            'ml' => array('ml_IN',      'in',"മലയാളം", "Watch this page in Malayalam", 0.16),
-            'nl' => array('nl_NL.UTF-8','nl',"Nederlands", "Bekijk deze pagina in het Nederlands", 0.32),
-            'pt' => array('pt_PT.UTF-8','pt',"Português", "Watch this page in Portuguese", 0.18),
-            'ru' => array('ru_RU.UTF-8','ru',"Русский", "Просмотреть эту страницу на русский языке!", 0.62),
-            'sr' => array('sr_RS',      'rs',"Српски", "Watch this page in Serbian", 0.06),
-            'tr' => array('tr_TR.UTF-8','tr',"Türkçe", "Watch this page in Turkish", 0.15),
-            'uk' => array('uk_UA.UTF-8','ua',"Українська", "Переглянути цю сторінку на українська мові!", 0.42),
-            'vi' => array('vi_VN',      'vn',"Tiếng Việt", "Xem trang này bằng tiếng Tiếng Việt !", 0.50),
-            'zh' => array('zh_CN.UTF-8','cn',"中文", "Watch this page in Chinese", 0.51),
+            'ar' => array('ar_SA.UTF-8',"العربية", "احصل على هذه الصفحة باللغة العربية !", 0.42),
+            'ast' => array('ast_ES.UTF-8',"Asturianu", "Watch this page in Asturian", 1),
+            'ca' => array('ca_AD.UTF-8',"Català", "Traduïu aquesta pàgina a la llengua català!", 0.57),
+            'da' => array('da_DK.UTF-8',"Dansk", "Watch this page in Danish", 0.05),
+            'de' => array('de_DE.UTF-8',"Deutsch", "Watch this page in German", 0.47),
+            'en' => array('en_US.UTF-8',"English", "Watch this page in English", 1),
+            'eo' => array('eo.UTF-8'   ,"Esperanto", "Watch this page in Esperanto", 0.24),
+            'es' => array('es_ES.UTF-8',"Español", "¡Lee esta página en español!", 0.66),
+            'fr' => array('fr_FR.UTF-8',"Français", "Cette page en français", 0.71),
+            'he' => array('he_IL.UTF-8',"עִבְרִית", "Watch this page in Hebrew", 1),
+            'hr' => array('hr_HR.UTF-8',"Hrvatski", "Watch this page in Croatian", 0.13),
+            'ia' => array('ia'         ,"Interlingua", "Watch this page in Interlingua", 0.24),
+            'it' => array('it_IT.UTF-8',"Italiano", "Watch this page in Italian", 0.37),
+            'ja' => array('ja_JP.UTF-8',"日本語", "Watch this page in Japanese", 0),
+            'ml' => array('ml_IN'      ,"മലയാളം", "Watch this page in Malayalam", 0.16),
+            'nl' => array('nl_NL.UTF-8',"Nederlands", "Bekijk deze pagina in het Nederlands", 0.32),
+            'pt' => array('pt_PT.UTF-8',"Português", "Watch this page in Portuguese", 0.18),
+            'ru' => array('ru_RU.UTF-8',"Русский", "Просмотреть эту страницу на русский языке!", 0.62),
+            'sr' => array('sr_RS'      ,"Српски", "Watch this page in Serbian", 0.06),
+            'tr' => array('tr_TR.UTF-8',"Türkçe", "Watch this page in Turkish", 0.15),
+            'uk' => array('uk_UA.UTF-8',"Українська", "Переглянути цю сторінку на українська мові!", 0.42),
+            'vi' => array('vi_VN'      ,"Tiếng Việt", "Xem trang này bằng tiếng Tiếng Việt !", 0.50),
+            'zh' => array('zh_CN.UTF-8',"中文", "Watch this page in Chinese", 0.51),
             )
         );
 
@@ -119,9 +118,17 @@ class GetGnuLinux {
      * direction), initialises gettext, and sets some main configurations.
      */
     function init() {
-        # Set the locale.
-        $locale = isset($_GET['l']) ? $_GET['l'] : $this->config['default_lang'];
-        $this->set('locale', $locale);
+        global $lang;
+
+        # Get the locale provided in the URL. Defaults to NULL if no locale
+        # provided.
+        $override = isset($_GET['l']) ? $_GET['l'] : NULL;
+
+        # Set global variable $lang to negotiated language.
+        locale_negotiate_language($this->config['locales'], $override, $this->config['default_lang']);
+
+        # Set the negotiated language.
+        $this->set('locale', $lang);
 
         # Initialize gettext. From here, gettext is enabled.
         $this->init_gettext();
@@ -263,8 +270,6 @@ class GetGnuLinux {
             $this->config['lang'] = $lang;
             // Set the locale.
             $this->config['locale'] = $this->config['locales'][$lang][0];
-            // Set the country code.
-            $this->config['country_code'] = $this->config['locales'][$lang][1];
             // Set the text direction for this language.
             $this->config['dir'] = $this->get_lang_directionality($lang);
         }

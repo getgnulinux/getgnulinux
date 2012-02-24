@@ -370,31 +370,37 @@ class HTML {
     }
 
     /**
-     * Print or return the localised path or URL of a page.
+     * Print or return the path or URL for a page. If $path is omitted, the
+     * path to the website root is returned (e.g. '/' or 'http://getgnulinux.org/').
      *
      * @uses GetGnuLinux $ggl
-     * @param string $p The path of the page to check against. If not defined,
-     *      the localised path to the website root is returned.
+     * @uses string $lang, set by locale_negotiate_language()
+     * @param string $path The path for the page (e.g. 'linux/screenshots').
      * @param bool $return If true, the path is returned instead of printed.
-     * @param bool $root If true, the URL is returned instead of the relative
-     *      path.
-     * @return string The localised path or URL of a page.
+     * @param bool $base If true, the URL is returned instead of the relative
+     *      path (e.g. 'http://getgnulinux.org/linux/screenshots/').
+     * @return string The path or URL of a page.
      */
-    function base_url($p=NULL, $return=0, $root=0) {
-        global $ggl;
+    function base_url($path=NULL, $return=0, $base=0) {
+        global $ggl, $lang;
 
-        if (isset($p)) {
-            $url = sprintf("%s/%s/", $ggl->get('lang'), $p);
-        } else {
-            $url = sprintf("%s/", $ggl->get('lang'));
+        $url = "";
+        # If the language is overridden in the URL, keep using it in links.
+        $override = isset($_GET['l']) ? $_GET['l'] : NULL;
+        if ($override && $override == $lang) {
+            $url .= $lang.'/';
         }
-
-        if ($root) {
+        # If a page string is provided, add it to the URL.
+        if ($path) {
+            $url .= $path.'/';
+        }
+        # Add the base URL to the URL if required.
+        if ($base) {
             $url = $ggl->get('base_url').$url;
         } else {
             $url = "/".$url;
         }
-
+        # Return or print the URL.
         if ($return) {
             return $url;
         }

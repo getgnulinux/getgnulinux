@@ -19,22 +19,23 @@
  *  along with GGL. If not, see <http://www.gnu.org/licenses/>.
  *
  *****************************************************************************/
+define('ROOT', dirname( __FILE__ ));
 
-$root = dirname( __FILE__ );
+# Include methods and instantiate some classes.
+require_once(ROOT."/include/Methods.php");
 
-# Include some stuff.
-require_once("$root/include/Methods.php");
-
-require_once("$root/include/GetGnuLinux.php");
+require_once(ROOT."/include/GetGnuLinux.php");
 $ggl = new GetGnuLinux();
 
-require_once("$root/include/HTML.php");
+require_once(ROOT."/include/HTML.php");
 $html = new HTML();
 
-if (is_file($root."/settings.php")) {
+# Check if the settings file is present.
+if (is_file(ROOT."/settings.php")) {
     # Load user settings.
-    require_once($root."/settings.php");
+    require_once(ROOT."/settings.php");
 }
+# If not, give the directions to create one.
 else {
     printf("The settings file (%s) is missing. Follow these steps to create one:
 <ol>
@@ -44,8 +45,8 @@ else {
     <li>Open settings.php in a text editor and change the settings where necessary;</li>
 </ol>
 Finally, reload this page.",
-        $root."/settings.php",
-        $root);
+        ROOT."/settings.php",
+        ROOT);
     die();
 }
 
@@ -54,7 +55,7 @@ $ggl->init();
 
 # Autodetect base url and base path.
 $ggl->config['base_url'] = empty($ggl->config['base_url']) ? 'http://'.$_SERVER['HTTP_HOST'].'/' : $ggl->config['base_url'];
-$ggl->config['base_path'] = empty($ggl->config['base_path']) ? realpath($root).'/' : $ggl->config['base_path'];
+$ggl->config['base_path'] = empty($ggl->config['base_path']) ? realpath(ROOT).'/' : $ggl->config['base_path'];
 
 # Set some useful constants.
 define('BASE_PATH', $ggl->get('base_path'));
