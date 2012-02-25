@@ -7,8 +7,6 @@ $footnote1 = '<a class="footnote" id="footnote1" href="#footnote_bottom1">1</a>'
 $footnote2 = '<a class="footnote" href="#footnote_bottom1">1</a>';
 ?>
 
-?>
-
 <div id="maincontent" class="windows_sub stand_for_a_free_society">
 
 
