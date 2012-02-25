@@ -1,6 +1,8 @@
-<?php $this->load_header(); ?>
-
-<?php $this->menu_why_not_windows(); ?>
+<?php
+$this->load_header();
+$this->load_top_bar();
+$this->menu_why_not_windows();
+?>
 
 <div id="maincontent" class="windows_sub">
 

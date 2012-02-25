@@ -128,7 +128,9 @@ class GetGnuLinux {
         locale_negotiate_language($this->config['locales'], $override, $this->config['default_lang']);
 
         # Set the negotiated language.
-        $this->set('locale', $lang);
+        if ($lang) {
+            $this->set('locale', $lang);
+        }
 
         # Initialize gettext. From here, gettext is enabled.
         $this->init_gettext();
@@ -167,6 +169,7 @@ class GetGnuLinux {
 
         # Set page titles for <title> tags.
         $this->config['page_titles'] = array(
+            'select_language' => _("Select a language"),
             # i18n: The way you refer to a website's main page in your language.
             'home' => _("Home"),
             # i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.

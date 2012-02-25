@@ -1,6 +1,7 @@
 <?php
 
 $this->load_header();
+$this->load_top_bar();
 
 # i18n: This is the description of the "ubuntu1.png" screenshot.
 $ubuntu1_text = _("Firefox web browser");

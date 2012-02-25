@@ -47,9 +47,13 @@ class HTML {
      */
     function load_content()
     {
-        global $ggl;
+        global $ggl, $lang;
 
-        if (isset($_GET['p'])) {
+        if (!$lang) {
+            include BASE_PATH.'pages/select_language.php';
+            return;
+        }
+        else if (isset($_GET['p'])) {
             $path = BASE_PATH.'pages/'.$_GET['p'].'.php';
             if (is_file($path)) {
                 include $path;
@@ -74,6 +78,39 @@ class HTML {
         global $ggl;
 
         include INCLUDE_PATH.'header.php';
+    }
+
+    /**
+     * Load the top bar.
+     */
+    function load_top_bar()
+    {
+    ?>
+<!-- top bar -->
+<div id="top_bar" class="grid_9">
+<div class="left">
+<div class="menu-globalnav-container">
+    <ul>
+    <?php
+    $menu_items = array('linux' => _("What is Linux?"),
+        'windows' => _("Why not Windows"),
+        'switch_to_linux' => _("Switch to Linux"),
+        'more' => _("More"),
+        );
+
+    foreach ($menu_items as $id => $title) {
+        printf("<li%s><a href=\"%s\">%s</a></li>\n",
+            $this->is_current_menu_item($id),
+            $this->base_url($id,1),
+            $title);
+    }
+    ?>
+    </ul>
+</div>
+</div>
+</div>
+<!-- end top bar -->
+    <?php
     }
 
     /**
@@ -122,7 +159,15 @@ class HTML {
      */
     function page_title()
     {
-        global $ggl;
+        global $ggl, $lang;
+
+        # If language negotiation failed, display a proper title for the
+        # language selection page.
+        if (!$lang) {
+            print $ggl->config['page_titles']['select_language'] . " | " . $ggl->get('website_title');
+            return;
+        }
+        # Display the page title for the corresponding page.
         $p = isset($_GET['p']) ? $_GET['p'] : NULL;
         if ( !array_key_exists($p, $ggl->config['page_titles']) ) {
             print $ggl->get('website_title');
@@ -291,10 +336,11 @@ class HTML {
     }
 
     /**
-     * Return the path for the current page.
+     * Return the localized path for the current page. If the current page is
+     * 'select_language', return the path for the home page instead.
      *
-     * This is used in the language menu to mark the currently selected
-     * language.
+     * This is used in language menu's to link to the same page in different
+     * languages.
      *
      * @uses GetGnuLinux $ggl
      * @uses string $_GET['p']
@@ -314,7 +360,7 @@ class HTML {
         $p = isset($_GET['p']) ? $_GET['p'] : NULL;
         $p = str_replace('.','/',$p);
 
-        if ($p) {
+        if ($p && $p != 'select_language') {
             return sprintf("%s/%s/", $l, $p);
         } else {
             return sprintf("%s/", $l);
@@ -384,7 +430,11 @@ class HTML {
     function base_url($path=NULL, $return=0, $base=0) {
         global $ggl, $lang;
 
-        $url = "";
+        if ($base) {
+            $url = $ggl->get('base_url');
+        } else {
+            $url = "/";
+        }
         # If the language is overridden in the URL, keep using it in links.
         $override = isset($_GET['l']) ? $_GET['l'] : NULL;
         if ($override && $override == $lang) {
@@ -393,12 +443,6 @@ class HTML {
         # If a page string is provided, add it to the URL.
         if ($path) {
             $url .= $path.'/';
-        }
-        # Add the base URL to the URL if required.
-        if ($base) {
-            $url = $ggl->get('base_url').$url;
-        } else {
-            $url = "/".$url;
         }
         # Return or print the URL.
         if ($return) {

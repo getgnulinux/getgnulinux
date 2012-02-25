@@ -173,11 +173,12 @@ em, strong {
 }
 
 #maincontent li {
-    margin-top: 1em;
+    margin: 0 0 1em 0;
 }
 
 code {
     font-family: "Andale Mono", "Courier New", Courier, monospace;
+    color: #8B6914;
 }
 
 .keypart { /* Blue-highlighted key ideas, used in Windows sub-sections */
@@ -289,7 +290,7 @@ code {
 	}
 
 /*----------------------------------------------------
- * Translations menu on top of page
+ * Language menu on top of page
  *----------------------------------------------------*/
 
 #translations {
@@ -366,7 +367,7 @@ code {
 #translations li a {
     display: block;
     margin: -1px 0 0 0;
-    padding: 0.2em 0.3em 0.2em 0.5em;
+    padding: 0.2em 0.3em 0.3em 0.5em;
     line-height: 1.0em;
     background-color: #FEFEFE;
     border: 1px #dfd9f9 solid;
@@ -383,6 +384,54 @@ code {
     color: gray;
 }
 
+/*----------------------------------------------------
+ * Language menu's on the "Select a language" page
+ *----------------------------------------------------*/
+
+.three_columns {
+    -moz-column-count: 3; /* Firefox */
+    -webkit-column-count: 3; /* Safari and Chrome */
+    column-count: 3; /* Doesn't look good in Opera */
+}
+
+div.list_select_language ul {
+    list-style: none outside none !important;
+    margin: 0 !important; /* Safari and Chrome workaround */
+    padding: 0;
+}
+
+div.list_select_language span.percent {
+    background-color: #F0EBB9;
+    border: 1px #B2B2B2 solid;
+    color: #333333;
+    font-size: 0.6em;
+    font-style: italic;
+    margin: 0 1em 0 1em;
+    padding: 1px 4px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+div.list_select_language li {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    max-width: 13em;
+}
+
+div.list_select_language li a {
+    display: block;
+    padding: 0.3em;
+    line-height: 1.0em;
+    border-bottom: 1px #dfd9f9 solid;
+}
+
+div.list_select_language li a:hover {
+    background: #EEEEEE;
+    text-decoration: none;
+    color: black;
+}
 
 /*----------------------------------------------------
  * Main body

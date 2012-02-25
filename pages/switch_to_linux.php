@@ -1,4 +1,7 @@
-<?php $this->load_header(); ?>
+<?php
+$this->load_header();
+$this->load_top_bar();
+?>
 
 <div id="maincontent" class="switch_to_linux">
 

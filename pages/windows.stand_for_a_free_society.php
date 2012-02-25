@@ -1,11 +1,11 @@
 <?php
+$this->load_header();
+$this->load_top_bar();
+$this->menu_why_not_windows();
 
 $footnote1 = '<a class="footnote" id="footnote1" href="#footnote_bottom1">1</a>';
 $footnote2 = '<a class="footnote" href="#footnote_bottom1">1</a>';
-
-$this->load_header();
-
-$this->menu_why_not_windows();
+?>
 
 ?>
 

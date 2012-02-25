@@ -1,4 +1,7 @@
-<?php $this->load_header(); ?>
+<?php
+$this->load_header();
+$this->load_top_bar();
+?>
 
 <div class="upbutton_section">
     <a href="<?php $this->base_url('windows/restrictions'); ?>" class="button upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("Restrictions"); ?></span></span></a>

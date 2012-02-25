@@ -1,6 +1,8 @@
-<?php $this->load_header(); ?>
-
-<?php $this->menu_switch_to_linux(); ?>
+<?php
+$this->load_header();
+$this->load_top_bar();
+$this->menu_switch_to_linux();
+?>
 
 <div id="maincontent" class="choose_a_distribution">
 

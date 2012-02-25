@@ -81,17 +81,20 @@
 <div id="language_menu"><span id="language_menu_text"><?php print _("Alternate languages"); ?></span></div>
 <ul>
 <?php
-foreach ($ggl->get('locales') as $lang => $items) {
-    printf("<li%s><a href=\"/%s\" hreflang=\"%s\" title=\"%s\"><span dir=\"%s\">%s</span> <span class=\"percent\">%s&#37;</span></a></li>\n",
-        $this->is_current_language($lang),
-        $this->current_page($lang),
-        $lang,
-        $items[2],
-        $ggl->get_lang_directionality($lang),
-        $items[1],
-        $items[3]*100);
+foreach ($ggl->get('locales') as $code => $items) {
+    list($locale, $verbose, $verbose_long, $percent) = $items;
+    if ($percent == 1) {
+        printf("<li%s><a href=\"/%s\" hreflang=\"%s\" title=\"%s\"><span dir=\"%s\">%s</span></a></li>\n",
+            $this->is_current_language($code),
+            $this->current_page($code),
+            $code,
+            $verbose_long,
+            $ggl->get_lang_directionality($code),
+            $verbose);
+    }
 }
 ?>
+<li><a href="<?php $this->base_url('select_language'); ?>"><?php print _("More languages"); ?></a></li>
 </ul>
 </div><!-- end translations -->
 </div><!-- end just_for_ie7 -->

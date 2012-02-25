@@ -9,7 +9,9 @@
  *
  * $Id: locale.php,v 1.7 2007/08/17 10:33:24 matthew Exp $
  *
- * Edited 2012/02/24 by Serrano Pereira <serrano.pereira@gmail.com> for getgnulinux.org.
+ * Modified 2012/02/24 by Serrano Pereira <serrano.pereira@gmail.com> for
+ * http://getgnulinux.org/
+ * Downloaded from http://www.dracos.co.uk/code/php/language-negotiation/
  *
  */
 
@@ -47,8 +49,8 @@ function locale_negotiate_language($available_language_config, $override_langage
         $lang = $override_langage;
     } else {
         $lang = negotiateLanguage($langs); # local copy, see further down this file
-        if ($lang=='en-US' || !$lang || !array_key_exists($lang, $langmap)) {
-            $lang = $default; # Default override
+        if (!$lang || !array_key_exists($lang, $langmap)) {
+            $lang = NULL;
         }
     }
 }

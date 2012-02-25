@@ -36,13 +36,16 @@ header("Content-Type: text/html; charset=utf-8");
     <!-- alternate languages -->
     <?php
     $base_url = $ggl->get('base_url');
-    foreach ($ggl->get('locales') as $lang => $items) {
-        printf("<link rel=\"alternate\" type=\"text/html\" dir=\"%s\" hreflang=\"%s\" href=\"%s%s\" title=\"%s\" />\n",
-            $ggl->get_lang_directionality($lang),
-            $lang,
-            $base_url,
-            $this->current_page($lang),
-            $items[2]);
+    foreach ($ggl->get('locales') as $code => $items) {
+        list($locale, $verbose, $verbose_long, $percent) = $items;
+        if ($percent == 1) {
+            printf("<link rel=\"alternate\" type=\"text/html\" dir=\"%s\" hreflang=\"%s\" href=\"%s%s\" title=\"%s\" />\n",
+                $ggl->get_lang_directionality($code),
+                $code,
+                $base_url,
+                $this->current_page($code),
+                $verbose_long);
+        }
     } ?>
     <!-- end alternate languages -->
     <title><?php $this->page_title(); ?></title>
@@ -152,7 +155,7 @@ header("Content-Type: text/html; charset=utf-8");
 
 <?php
 $p = isset($_GET['p']) ? $_GET['p'] : NULL;
-if ($p == "home" || !$p) {
+if (($p == "home" || !$p) && $lang) {
 ?>
     <div id="header_picture_homepage">
 	    <h1><?php print $this->text('website_title'); ?></h1>
@@ -168,25 +171,3 @@ else {
 
 </div><!-- end header -->
 
-<div id="top_bar" class="grid_9">
-<div class="left">
-<div class="menu-globalnav-container">
-    <ul>
-    <?php
-    $menu_items = array('linux' => _("What is Linux?"),
-        'windows' => _("Why not Windows"),
-        'switch_to_linux' => _("Switch to Linux"),
-        'more' => _("More"),
-        );
-
-    foreach ($menu_items as $id => $title) {
-        printf("<li%s><a href=\"%s\">%s</a></li>\n",
-            $this->is_current_menu_item($id),
-            $this->base_url($id,1),
-            $title);
-    }
-    ?>
-    </ul>
-</div>
-</div>
-</div>

@@ -19,7 +19,8 @@ h1, h2, h3, h4 {
 .try_or_install h2, .try_or_install h3, .try_or_install h4,
 .mfs h2, .mfs h3,
 .not_found h2,
-.link_buttons h2 {
+.link_buttons h2,
+.select_language h2 {
     text-align: right !important;
 }
 
@@ -290,6 +291,14 @@ h1, h2, h3, h4 {
     padding-left: 1em;
     left: 0;
     right: auto;
+}
+
+/*----------------------------------------------------
+ * Language menu on the "Select a language" page
+ *----------------------------------------------------*/
+
+div.list_select_language li {
+    text-align: right;
 }
 
 /*----------------------------------------------------
