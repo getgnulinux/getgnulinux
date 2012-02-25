@@ -33,7 +33,7 @@ body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, texta
 }
 
 p {
-    margin: 0 0 10px 0;
+    margin: 0 0 0.8em 0;
 }
 
 table {
@@ -98,7 +98,7 @@ body {
 }
 
 a {
-    color: #3F568B;
+    color: #2A5886;
     text-decoration: none;
 }
 
@@ -153,7 +153,7 @@ h2 {
     font-weight: normal;
     color: #000080;
     margin-top: 2em;
-    margin-bottom: 0em;
+    margin-bottom: 0.2em;
 }
 
 h3 {
@@ -296,7 +296,7 @@ code {
 #translations {
     position: absolute;
     left: 50%;
-    margin-left: 163px;
+    margin-left: 178px;
     top: 0;
     padding: 0;
     width: 13em;
@@ -448,7 +448,7 @@ div.list_select_language li a:hover {
     margin: 0 auto;
     padding-top: 2em;
     padding-bottom: 10em; /* Height of the footer */
-    width: 720px;
+    width: 750px;
 }
 
 #mainbody {
@@ -903,7 +903,7 @@ div .note {
     background-image: -moz-linear-gradient(#EFF7DB, #D1EFAD);
     background-image: -o-linear-gradient(#DFF0B6, #B0DD7B);
     background-image: linear-gradient(#DFF0B6, #B0DD7B);
-    border: 1px #C5E2A1 solid;
+    border: 1px #B1D18A solid;
     border-radius: 4px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -1840,7 +1840,7 @@ div .note {
     margin-right: auto;
     font-size: 0.9em;
     padding: 15px 0;
-    width: 720px;
+    width: 750px;
 }
 
 .footer-block {
@@ -1864,16 +1864,6 @@ div .note {
 div.footer-block p {
     font-size: 0.9em;
     color: #696969;
-}
-
-div.footer-block a:link,
-div.footer-block a:visited {
-    color: #3F568B;
-}
-
-div.footer-block a:hover,
-div.footer-block a:active {
-    color: #333;
 }
 
 .footer-block h1 {
