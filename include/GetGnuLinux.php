@@ -79,6 +79,7 @@ class GetGnuLinux {
      */
     public $config = array(
         'default_lang' => "en",
+        'negotiated_lang' => NULL,
         'lang' => "en",
         'locale' => "en_US",
         'dir' => "ltr",
@@ -127,8 +128,9 @@ class GetGnuLinux {
         # Set global variable $lang to negotiated language.
         locale_negotiate_language($this->config['locales'], $override, $this->config['default_lang']);
 
-        # Set the negotiated language.
+        # Set the negotiated language and locale variables.
         if ($lang) {
+            $this->set('negotiated_lang', $lang);
             $this->set('locale', $lang);
         }
 

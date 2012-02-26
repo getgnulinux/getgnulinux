@@ -155,7 +155,8 @@ header("Content-Type: text/html; charset=utf-8");
 
 <?php
 $p = isset($_GET['p']) ? $_GET['p'] : NULL;
-if (($p == "home" || !$p) && $lang) {
+
+if (($p == "home" || !$p) && $ggl->get('negotiated_lang')) {
 ?>
     <div id="header_picture_homepage">
 	    <h1><?php print $this->text('website_title'); ?></h1>
