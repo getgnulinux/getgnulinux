@@ -36,13 +36,13 @@ function locale_negotiate_language($available_language_config, $override_langage
     $opt_langs = $available_language_config;
     $langs = array(); $langmap = array();
     foreach ($opt_langs as $code => $items) {
-        list($locale, $verbose, $verbose_long, $percent) = $items;
+        list($locale, $native, $percent) = $items;
         # Skip languages that are not completed, except if it's an override
         # language.
         if ($code != $override_langage && $percent < 1) {
             continue;
         }
-        $langs[$code] = $verbose;
+        $langs[$code] = $native;
         $langmap[$code] = $locale;
     }
     if ($override_langage && array_key_exists($override_langage, $langs)) {
