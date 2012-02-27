@@ -37,16 +37,17 @@ if (is_file(ROOT."/settings.php")) {
 }
 # If not, give the directions to create one.
 else {
-    printf("The settings file (%s) is missing. Follow these steps to create one:
+?>
+The settings file (<code><?php print ROOT."/settings.php"; ?></code>) is missing. Follow these steps to create one:
 <ol>
     <li>Open a terminal window;</li>
-    <li>Change to the root folder with `<code>cd %s</code>'</li>
-    <li>Run `<code>make config</code>' to create the settings file;</li>
-    <li>Open settings.php in a text editor and change the settings where necessary;</li>
+    <li>Change to the root folder (<code>cd <?php print ROOT; ?></code>);</li>
+    <li>Run <code>make config</code> to create the settings file (or manually copy it from <code><?php print ROOT; ?>/include/templates/settings.php</code>);</li>
+    <li>Open settings.php in a text editor and change the settings where necessary.</li>
 </ol>
-Finally, reload this page.",
-        ROOT."/settings.php",
-        ROOT);
+
+Finally, make sure that Apache module <code>mod_rewrite</code> is enabled. Then reload this page.
+<?php
     die();
 }
 
