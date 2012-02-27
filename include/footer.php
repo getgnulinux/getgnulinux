@@ -82,15 +82,14 @@
 <ul>
 <?php
 foreach ($ggl->get('locales') as $code => $items) {
-    list($locale, $verbose, $verbose_long, $percent) = $items;
+    list($locale, $native, $percent) = $items;
     if ($percent == 1) {
-        printf("<li%s><a href=\"/%s\" hreflang=\"%s\" title=\"%s\"><span dir=\"%s\">%s</span></a></li>\n",
+        printf("<li%s><a href=\"/%s\" hreflang=\"%s\"><span dir=\"%s\">%s</span></a></li>\n",
             $this->is_current_language($code),
             $this->current_page($code),
             $code,
-            $verbose_long,
             $ggl->get_lang_directionality($code),
-            $verbose);
+            $native);
     }
 }
 ?>

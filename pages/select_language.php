@@ -12,14 +12,13 @@ $this->load_header();
 <ul>
 <?php
 foreach ($ggl->get('locales') as $code => $items) {
-    list($locale, $verbose, $verbose_long, $percent) = $items;
+    list($locale, $native, $percent) = $items;
     if ($percent == 1) {
-        printf("<li><a href=\"/%s\" hreflang=\"%s\" title=\"%s\"><span dir=\"%s\">%s</span></a></li>\n",
+        printf("<li><a href=\"/%s\" hreflang=\"%s\"><span dir=\"%s\">%s</span></a></li>\n",
             $this->current_page($code),
             $code,
-            $verbose_long,
             $ggl->get_lang_directionality($code),
-            $verbose);
+            $native);
     }
 }
 ?>
@@ -45,15 +44,14 @@ if (!$ggl->get('negotiated_lang')) {
 <ul>
 <?php
 foreach ($ggl->get('locales') as $code => $items) {
-    list($locale, $verbose, $verbose_long, $percent) = $items;
+    list($locale, $native, $percent) = $items;
     if ($percent < 1) {
-        printf("<li id=\"lang-%s\"><a href=\"/%s\" hreflang=\"%s\" title=\"%s\"><span dir=\"%s\">%s</span> <span class=\"percent\">%s&#37;</span></a></li>\n",
+        printf("<li id=\"lang-%s\"><a href=\"/%s\" hreflang=\"%s\"><span dir=\"%s\">%s</span> <span class=\"percent\">%s&#37;</span></a></li>\n",
             $code,
             $this->current_page($code),
             $code,
-            $verbose_long,
             $ggl->get_lang_directionality($code),
-            $verbose,
+            $native,
             $percent*100);
     }
 }

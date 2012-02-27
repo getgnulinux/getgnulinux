@@ -37,14 +37,13 @@ header("Content-Type: text/html; charset=utf-8");
     <?php
     $base_url = $ggl->get('base_url');
     foreach ($ggl->get('locales') as $code => $items) {
-        list($locale, $verbose, $verbose_long, $percent) = $items;
+        list($locale, $native, $percent) = $items;
         if ($percent == 1) {
-            printf("<link rel=\"alternate\" type=\"text/html\" dir=\"%s\" hreflang=\"%s\" href=\"%s%s\" title=\"%s\" />\n",
+            printf("<link rel=\"alternate\" type=\"text/html\" dir=\"%s\" hreflang=\"%s\" href=\"%s%s\" />\n",
                 $ggl->get_lang_directionality($code),
                 $code,
                 $base_url,
-                $this->current_page($code),
-                $verbose_long);
+                $this->current_page($code));
         }
     } ?>
     <!-- end alternate languages -->
