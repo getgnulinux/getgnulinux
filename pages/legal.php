@@ -27,7 +27,7 @@ the present page.<br/>
 These websites include <a href="http://getgnulinux.org/">getgnulinux.org</a>
 and all their sub-domains.</p>
 
-<h2 id="content">1. Content</h2>
+<h2 id="content">Content</h2>
 
 <p>All content is provided by us (the authors of the &ldquo;get GNU/Linux!&rdquo; websites)
 <em>on an "as is" basis only</em>. We believe the content on our
@@ -51,7 +51,7 @@ Our websites are released under the following licenses:</p>
     translations, except where otherwise explicitly mentioned: all rights reserved.</li>
 </ul>
 
-<h2 id="microsoft_trademarks">2. Microsoft trademarks</h2>
+<h2 id="microsoft_trademarks">Microsoft trademarks</h2>
 
 <p>Microsoft Windows&reg;, Microsoft Windows Vista&trade;, Microsoft Excel&reg;,
 Microsoft PowerPoint&reg;, Microsoft Internet Explorer&reg;, Microsoft Windows
@@ -62,7 +62,7 @@ All other trademarks not owned by Microsoft or its affiliates that may appear
 on these sites are the property of their respective owners, who may or may not
 be affiliated with, connected to, or sponsored by Microsoft or its affiliates.</p>
 
-<h2 id="liability">3. Liability</h2>
+<h2 id="liability">Liability</h2>
 
 <p><em>In no event will we be liable to you or any other individual or entity
 for any direct, indirect, incidental, punitive, special or consequential damages
@@ -71,7 +71,7 @@ hyperlinked website, including but not limited to, any lost profits, lost sales,
 lost revenue, business interruption, loss of programs or other data even if we
 are expressly advised or aware of the possibility of such damages or losses.</p>
 
-<h2 id="confidentiality_of_information">4. Confidentiality of information sent by you</h2>
+<h2 id="confidentiality_of_information">Confidentiality of information sent by you</h2>
 
 <p><em>We do not want to receive confidential information from you through
 our websites</em>. Any information or material sent to these websites will
@@ -80,7 +80,7 @@ that you are fully responsible for the content (in particular its legality,
 reliability, appropriateness, originality, patent and copyright attributions)
 that you submit to us.</p>
 
-<h2 id="content_access_change">5. Content access and content change</h2>
+<h2 id="content_access_change">Content access and content change</h2>
 
 <p>Downloading or obtaining content from these websites is done at your own
 risk. We provide no assurances that any problems with, or bugs in, the content
@@ -88,7 +88,7 @@ will be resolved.<br/>
 You acknowledge that we can change, update or delete content at any time for
 any reason, without notice. </p>
 
-<h2 id="links">6. Links to external websites</h2>
+<h2 id="links">Links to external websites</h2>
 
 <p>We make <em>no representations whatsoever about any other website</em> that
 you may access through our websites or through a link from our websites. When
@@ -97,7 +97,7 @@ marks, you must acknowledge that linking does not mean that we have control
 over, or endorse or accept any responsibility for, the content on, or the use
 of, such website.</p>
 
-<h2 id="copyright">7. Copyright and terms of use infringements</h2>
+<h2 id="copyright">Copyright and terms of use infringements</h2>
 
 <p>We do not intend to infringe others' copyrights, and we ask our readers to
 do the same. If you believe that your work has been copied in a way that
@@ -108,7 +108,7 @@ violations of these terms of use, including, but not limited to, the right to
 block access from a particular Internet address to our websites.</p>
 
 <?php if ( $ggl->get('addthis') ) { ?>
-<h2 id="copyright">8. Anonymous data collection</h2>
+<h2 id="anonymous_data_collection">Anonymous data collection</h2>
 
 <p>We allow third-party companies, including AddThis, to collect certain
 anonymous information when you visit our website. These companies may use
