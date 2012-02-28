@@ -30,7 +30,7 @@
  *      or domain name. Set to null to force negotiation of language from
  *      browser, using HTTP headers.
  */
-function locale_negotiate_language($available_languages, $override_langage=null) {
+function locale_negotiate_language($available_languages, $override_langage=NULL) {
     global $langs, $langmap, $lang;
 
     $langs = array(); $langmap = array();
@@ -47,7 +47,7 @@ function locale_negotiate_language($available_languages, $override_langage=null)
     } else {
         $lang = negotiateLanguage($langs); # local copy, see further down this file
         if (!$lang || !array_key_exists($lang, $langmap)) {
-            $lang = null;
+            $lang = NULL;
         }
     }
 }

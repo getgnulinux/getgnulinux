@@ -72,7 +72,7 @@ class GetGNULinux {
         'default_lang' => "en", /* not used at this moment */
         'negotiated_lang' => null,
         'lang' => "en",
-        'locale' => "en_US",
+        'locale' => "en_US.UTF-8",
         'dir' => "ltr",
         'gettext_domain' => "getgnulinux",
         'locales' => array(

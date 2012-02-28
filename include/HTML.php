@@ -43,17 +43,17 @@ class HTML {
     {
         global $ggl, $lang;
 
+        /* Disabled, because search engines don't have language preferences set.
         if (!$lang) {
             include ROOT.'/pages/select_language.php';
             return;
-        }
-        else if (isset($_GET['p'])) {
+        }*/
+        if ( isset($_GET['p']) ) {
             $path = ROOT.'/pages/'.$_GET['p'].'.php';
-            if (is_file($path)) {
+            if ( is_file($path) ) {
                 include $path;
                 return;
-            }
-            else {
+            } else {
                 include ROOT.'/pages/not_found.php';
                 return;
             }
