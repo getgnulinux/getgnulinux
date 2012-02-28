@@ -152,20 +152,19 @@ class HTML {
      */
     function page_title()
     {
-        global $ggl, $lang;
+        global $ggl;
 
         # If language negotiation failed, display a proper title for the
         # language selection page.
-        if (!$lang) {
+        /*if (!$lang) {
             print $ggl->config['page_titles']['select_language'] . " | " . $ggl->get('website_title');
             return;
-        }
+        }*/
         # Display the page title for the corresponding page.
         $p = isset($_GET['p']) ? $_GET['p'] : null;
         if ( !array_key_exists($p, $ggl->config['page_titles']) ) {
             print $ggl->get('website_title');
-        }
-        else {
+        } else {
             print $ggl->config['page_titles'][$p] . " | " . $ggl->get('website_title');
         }
     }
