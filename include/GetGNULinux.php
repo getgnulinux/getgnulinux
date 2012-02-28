@@ -208,6 +208,8 @@ class GetGNULinux {
             'switch_to_linux.from_windows_to_linux' => _("From Windows to Linux"),
             # i18n: This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
             'switch_to_linux.try_or_install' => _("Try or install"),
+            # i18n: The title for the link buttons page. Can be translated loosely.
+            'link_buttons' => _("Link buttons"),
         );
 
         # Set page descriptions.
