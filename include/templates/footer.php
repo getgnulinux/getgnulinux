@@ -1,32 +1,3 @@
-<?php
-/******************************************************************************
- *  Copyright 2006-2008, GNU/Linux Matters <http://www.gnulinuxmatters.org/>
- *  Copyright 2011, Launchpad getgnulinux Team
- *
- *  This file is part of Get GNU/Linux! <https://launchpad.net/getgnulinux>
- *
- *  GGL is free software: you can redistribute it and/or modify it under
- *  the terms of the GNU Affero General Public License as published by the
- *  Free Software Foundation, either version 3 of the License, or any later
- *  version.
- *
- *  GGL is distributed in the hope that it will be useful, but WITHOUT
- *  ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
- *  FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public
- *  License for more details.
- *
- *  You should have received a copy of the GNU Affero General Public License
- *  along with GGL. If not, see <http://www.gnu.org/licenses/>.
- *
- ******************************************************************************
- *  The text content is published under a Creative Commons
- *  Attribution-ShareAlike 3.0 License,
- *  Copyright 2006-2010, GNU/Linux Matters <http://www.gnulinuxmatters.org/>
- *  Copyright 2011, Launchpad getgnulinux Team
- *
- *****************************************************************************/
-?>
-
 </div><!-- end mainbody -->
 </div><!-- end wrapper -->
 
@@ -65,9 +36,13 @@
                 </p>
                 <?php
                 // Show Flattr button?
-                if ( $ggl->get('flattr') ) { $this->flattr_button(); }
+                if ( $ggl->get('flattr') ) {
+                    $this->flattr_widget();
+                }
                 // Show AddThis widget?
-                if ( $ggl->get('addthis') ) { $this->addthis_widget(); }
+                if ( $ggl->get('addthis') ) {
+                    require_once(ROOT.'/include/widgets/AddThis.php');
+                }
                 ?>
             </div>
         </div><!-- end clearfix -->
@@ -102,7 +77,7 @@ foreach ($ggl->get('locales') as $code => $items) {
 <?php
 // Load the Piwik javascript?
 if ( $ggl->get('piwik') ) {
-    require_once(INCLUDE_PATH."Piwik.php");
+    require_once(ROOT.'/include/widgets/Piwik.php');
 }
 ?>
 

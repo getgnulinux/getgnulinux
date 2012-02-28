@@ -1,4 +1,4 @@
-<!-- Flattr -->
+<!-- Flattr widget -->
 <script type="text/javascript">
 /* <![CDATA[ */
     (function() {
@@ -10,4 +10,4 @@
     })();
 /* ]]> */
 </script>
-<!-- End Flattr -->
+<!-- End Flattr widget -->

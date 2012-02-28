@@ -1,6 +1,13 @@
 <?php
+
+# This file is not a valid entry point; stop processing unless GGL is defined.
+if ( !defined('GGL') ) {
+    exit(1);
+}
+
 $this->load_header();
 $this->load_top_bar();
+
 ?>
 
 <div id="maincontent" class="windows">

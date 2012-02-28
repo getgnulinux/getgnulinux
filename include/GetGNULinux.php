@@ -1,7 +1,7 @@
 <?php
-/******************************************************************************
+/*
  *  Copyright 2006-2008, GNU/Linux Matters <http://www.gnulinuxmatters.org/>
- *  Copyright 2011, Launchpad getgnulinux Team
+ *  Copyright 2011-2012 Launchpad getgnulinux Team <https://launchpad.net/~getgnulinux>
  *
  *  This file is part of Get GNU/Linux! <https://launchpad.net/getgnulinux>
  *
@@ -18,13 +18,7 @@
  *  You should have received a copy of the GNU Affero General Public License
  *  along with GGL. If not, see <http://www.gnu.org/licenses/>.
  *
- ******************************************************************************
- *  The text content is published under a Creative Commons
- *  Attribution-ShareAlike 3.0 License,
- *  Copyright 2006-2010, GNU/Linux Matters <http://www.gnulinuxmatters.org/>
- *  Copyright 2011, Launchpad getgnulinux Team
- *
- *****************************************************************************/
+ */
 
 /**
  * This is the configuration module for Get GNU/Linux!
@@ -33,13 +27,10 @@
  * @license http://www.gnu.org/licenses/agpl-3.0.html GNU AGPL v3
  */
 
-# Import methods for language negotiation.
-require(ROOT."/include/locale.php");
-
 /**
  * Management utilities for the website's configuration.
  */
-class GetGnuLinux {
+class GetGNULinux {
     /**
      * Set of ISO language codes for right-to-left languages.
      *
@@ -62,24 +53,24 @@ class GetGnuLinux {
      * This is an associative, multidimensional array made up of the following
      * items (key => value):
      *  - default_lang: ISO language code of the default language.
+     *  - negotiated_lang: Language set through language negotiation.
      *  - lang: ISO language code of the current language.
-     *  - locale: ISO locale code of the current language.
+     *  - locale: Locale code of the current language.
      *  - dir: Text direction of the current language.
      *  - gettext_domain: The gettext domain which tells gettext where to look
      *      for PO files.
      *  - locales: An associative, multidimensional array where each key is an
      *      ISO language code. Each value is an array containing the following
      *      items:
-     *      - Locale code for gettext.
-     *      - Localised text for the language name.
-     *      - Localised text for "Watch this page in <language>".
-     *      - Completed translation fraction for this language (1.0 = 100%).
+     *      0. Locale code for gettext.
+     *      1. Native name for the language name.
+     *      2. Completed translation fraction for this language (1.0 = 100%).
      *
      * @var array
      */
     public $config = array(
-        'default_lang' => "en",
-        'negotiated_lang' => NULL,
+        'default_lang' => "en", /* not used at this moment */
+        'negotiated_lang' => null,
         'lang' => "en",
         'locale' => "en_US",
         'dir' => "ltr",
@@ -112,6 +103,13 @@ class GetGnuLinux {
         );
 
     /**
+     * Constructor.
+
+    function __construct() {
+
+    }*/
+
+    /**
      * Initialise GGL. Needs to be called manually after the user settings
      * are loaded.
      *
@@ -121,14 +119,21 @@ class GetGnuLinux {
     function init() {
         global $lang;
 
-        # Get the locale provided in the URL. Defaults to NULL if no locale
+        # Set the base URL.
+        if ( empty($this->config['base_url']) ) {
+            $this->config['base_url'] = 'http://'.$_SERVER['HTTP_HOST'].'/';
+        }
+
+        # Get the locale provided in the URL. Defaults to null if no locale
         # provided.
-        $override = isset($_GET['l']) ? $_GET['l'] : NULL;
+        $override = isset($_GET['l']) ? $_GET['l'] : null;
 
         # Set global variable $lang to negotiated language.
-        locale_negotiate_language($this->config['locales'], $override, $this->config['default_lang']);
+        locale_negotiate_language($this->config['locales'], $override);
 
-        # Set the negotiated language and locale variables.
+        # Set the negotiated language and locale variables. If no language
+        # was found, negotiated_lang and the locale variables keep their
+        # default values.
         if ($lang) {
             $this->set('negotiated_lang', $lang);
             $this->set('locale', $lang);
@@ -171,6 +176,7 @@ class GetGnuLinux {
 
         # Set page titles for <title> tags.
         $this->config['page_titles'] = array(
+            # i18n: The title for the language selection page.
             'select_language' => _("Select a language"),
             # i18n: The way you refer to a website's main page in your language.
             'home' => _("Home"),
@@ -318,5 +324,3 @@ class GetGnuLinux {
         return in_array($this->config['lang'], self::$no_italics_languages);
     }
 }
-
-?>

@@ -17,29 +17,26 @@
 
 /**
  * Sets global variable $lang to negotiated language.
+ * Languages for which the translation is not completed ($percent=1) are not
+ * selected, except if it's an override language.
  *
- * @param array $available_language_config: contains information for locales,
+ * @param array $available_languages Contains information for locales,
  *      for example:
  *      array(
- *          'en' => array('en_US',"English", "Watch this page in English", 1),
- *          'eo' => array('eo'   ,"Esperanto", "Watch this page in Esperanto", 0.24),
+ *          'en' => array('en_US',"English", 1),
+ *          'eo' => array('eo'   ,"Esperanto", 0.24),
  *      )
- * @param string $override_langage: is override language, such as from cookie
- *      or domain name. Set to NULL to force negotiation of language from
+ * @param string $override_langage Override language, such as from cookie
+ *      or domain name. Set to null to force negotiation of language from
  *      browser, using HTTP headers.
- * @param string $default: is the fallback language if none of the preferred
- *      languages can be set.
  */
-function locale_negotiate_language($available_language_config, $override_langage, $default='en-gb') {
+function locale_negotiate_language($available_languages, $override_langage=null) {
     global $langs, $langmap, $lang;
 
-    $opt_langs = $available_language_config;
     $langs = array(); $langmap = array();
-    foreach ($opt_langs as $code => $items) {
+    foreach ($available_languages as $code => $items) {
         list($locale, $native, $percent) = $items;
-        # Skip languages that are not completed, except if it's an override
-        # language.
-        if ($code != $override_langage && $percent < 1) {
+        if ($percent < 1 && $code != $override_langage) {
             continue;
         }
         $langs[$code] = $native;
@@ -50,7 +47,7 @@ function locale_negotiate_language($available_language_config, $override_langage
     } else {
         $lang = negotiateLanguage($langs); # local copy, see further down this file
         if (!$lang || !array_key_exists($lang, $langmap)) {
-            $lang = NULL;
+            $lang = null;
         }
     }
 }

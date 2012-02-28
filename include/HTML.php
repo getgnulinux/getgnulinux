@@ -1,7 +1,7 @@
 <?php
-/******************************************************************************
+/*
  *  Copyright 2006-2008, GNU/Linux Matters <http://www.gnulinuxmatters.org/>
- *  Copyright 2011, Launchpad getgnulinux Team
+ *  Copyright 2011-2012 Launchpad getgnulinux Team <https://launchpad.net/~getgnulinux>
  *
  *  This file is part of Get GNU/Linux! <https://launchpad.net/getgnulinux>
  *
@@ -18,13 +18,7 @@
  *  You should have received a copy of the GNU Affero General Public License
  *  along with GGL. If not, see <http://www.gnu.org/licenses/>.
  *
- ******************************************************************************
- *  The text content is published under a Creative Commons
- *  Attribution-ShareAlike 3.0 License,
- *  Copyright 2006-2010, GNU/Linux Matters <http://www.gnulinuxmatters.org/>
- *  Copyright 2011, Launchpad getgnulinux Team
- *
- *****************************************************************************/
+ */
 
 /**
  * This is the HTML module for Get GNU/Linux!
@@ -43,41 +37,41 @@ class HTML {
      *
      * @uses GetGnuLinux $ggl
      * @uses string $_GET['p']
-     * @uses BASE_PATH
+     * @uses string ROOT
      */
     function load_content()
     {
         global $ggl, $lang;
 
         if (!$lang) {
-            include BASE_PATH.'pages/select_language.php';
+            include ROOT.'/pages/select_language.php';
             return;
         }
         else if (isset($_GET['p'])) {
-            $path = BASE_PATH.'pages/'.$_GET['p'].'.php';
+            $path = ROOT.'/pages/'.$_GET['p'].'.php';
             if (is_file($path)) {
                 include $path;
                 return;
             }
             else {
-                include BASE_PATH.'pages/not_found.php';
+                include ROOT.'/pages/not_found.php';
                 return;
             }
         }
-        include BASE_PATH.'pages/home.php';
+        include ROOT.'/pages/home.php';
     }
 
     /**
      * Load the page header.
      *
      * @uses GetGnuLinux $ggl
-     * @uses INCLUDE_PATH
+     * @uses string ROOT
      */
     function load_header()
     {
         global $ggl;
 
-        include INCLUDE_PATH.'header.php';
+        include ROOT.'/include/templates/header.php';
     }
 
     /**
@@ -119,18 +113,17 @@ class HTML {
      * @param string $alt Loads footer_{$alt}.php instead of the default
      *      footer.php.
      * @uses GetGnuLinux $ggl
-     * @uses INCLUDE_PATH
+     * @uses string ROOT
      */
-    function load_footer($alt=NULL)
+    function load_footer($alt=null)
     {
         global $ggl;
 
         if ($alt) {
             $file = sprintf('footer_%s.php', $alt);
-            include INCLUDE_PATH.$file;
-        }
-        else {
-            include INCLUDE_PATH.'footer.php';
+            include ROOT.'/include/templates/'.$file;
+        } else {
+            include ROOT.'/include/templates/footer.php';
         }
     }
 
@@ -168,7 +161,7 @@ class HTML {
             return;
         }
         # Display the page title for the corresponding page.
-        $p = isset($_GET['p']) ? $_GET['p'] : NULL;
+        $p = isset($_GET['p']) ? $_GET['p'] : null;
         if ( !array_key_exists($p, $ggl->config['page_titles']) ) {
             print $ggl->get('website_title');
         }
@@ -189,8 +182,8 @@ class HTML {
     function page_description()
     {
         global $ggl;
-        $p = isset($_GET['p']) ? $_GET['p'] : NULL;
-        $p = !array_key_exists($p, $ggl->config['page_titles']) ? 'default' : $p;
+        $p = isset($_GET['p']) ? $_GET['p'] : null;
+        $p = !array_key_exists($p, $ggl->config['page_descriptions']) ? 'default' : $p;
         print $ggl->config['page_descriptions'][$p];
     }
 
@@ -282,11 +275,11 @@ class HTML {
      * at the end (?1319824075) is basically the last modification date of the
      * file.
      *
-     * @uses BASE_PATH
+     * @uses string ROOT
      * @param string $url The path/URL to the CSS file.
      */
     function stylesheet($url) {
-        $modified = filemtime(BASE_PATH.$url);
+        $modified = filemtime(ROOT.$url);
         printf("<link rel=\"stylesheet\" type=\"text/css\" href=\"%s?%s\" />\n", $url, $modified);
     }
 
@@ -299,7 +292,7 @@ class HTML {
      * at the end (?1319824075) is basically the last modification date of the
      * file.
      *
-     * @uses BASE_PATH
+     * @uses string ROOT
      * @param string $url The path/URL to the Javascript file.
      */
     function javascript($url) {
@@ -307,7 +300,7 @@ class HTML {
             printf("<script type=\"text/javascript\" src=\"%s\"></script>\n", $url);
         }
         else {
-            $modified = filemtime(BASE_PATH.$url);
+            $modified = filemtime(ROOT.$url);
             printf("<script type=\"text/javascript\" src=\"%s?%s\"></script>\n", $url, $modified);
         }
     }
@@ -348,7 +341,7 @@ class HTML {
      *      is returned instead.
      * @return string The path to the current page.
      */
-    function current_page($lang=NULL) {
+    function current_page($lang=null) {
         global $ggl;
 
         if ($lang) {
@@ -357,7 +350,7 @@ class HTML {
             $l = $ggl->get('lang');
         }
 
-        $p = isset($_GET['p']) ? $_GET['p'] : NULL;
+        $p = isset($_GET['p']) ? $_GET['p'] : null;
         $p = str_replace('.','/',$p);
 
         if ($p && $p != 'select_language') {
@@ -384,7 +377,7 @@ class HTML {
      *      string is returned.
      */
     function is_current_menu_item($page_id) {
-        $p = isset($_GET['p']) ? $_GET['p'] : NULL;
+        $p = isset($_GET['p']) ? $_GET['p'] : null;
         if ($p == $page_id) {
             return " class='current-menu-item'";
         }
@@ -408,7 +401,7 @@ class HTML {
      *      If not, an empty string is returned.
      */
     function we_are_here($here) {
-        $p = isset($_GET['p']) ? $_GET['p'] : NULL;
+        $p = isset($_GET['p']) ? $_GET['p'] : null;
         if ($p == str_replace('/','.',$here)) {
             return "class='wehere'";
         }
@@ -427,7 +420,7 @@ class HTML {
      *      path (e.g. 'http://getgnulinux.org/linux/screenshots/').
      * @return string The path or URL of a page.
      */
-    function base_url($path=NULL, $return=0, $base=0) {
+    function base_url($path=null, $return=0, $base=0) {
         global $ggl, $lang;
 
         if ($base) {
@@ -436,7 +429,7 @@ class HTML {
             $url = "/";
         }
         # If the language is overridden in the URL, keep using it in links.
-        $override = isset($_GET['l']) ? $_GET['l'] : NULL;
+        $override = isset($_GET['l']) ? $_GET['l'] : null;
         if ($override && $override == $lang) {
             $url .= $lang.'/';
         }
@@ -475,7 +468,7 @@ class HTML {
     {
         global $ggl;
         $path = sprintf("/images/locale/%s/%s", $ggl->get('lang'), $filename);
-        if (!file_exists(BASE_PATH.$path)) {
+        if (!file_exists(ROOT.$path)) {
             $path = sprintf("/images/locale/en/%s", $filename);
         }
         return $path;
@@ -486,28 +479,12 @@ class HTML {
      *
      * @uses GetGnuLinux $ggl
      */
-    function flattr_button()
+    function flattr_widget()
     {
         global $ggl;
         $rev = $ggl->get('flattr_button_style') == "compact" ? "rev=\"flattr button:compact\"" : "";
         print "<p><a class=\"FlattrButton\" style=\"display:none;\" " . $rev . " href=\"" . $ggl->get('base_url') . "\"></a></p>\n";
         print "<noscript><p><a href=\"" . $ggl->get('flattr_url') . "\"><img src=\"http://api.flattr.com/button/flattr-badge-large.png\" alt=\"Flattr this\" title=\"Flattr this\" style=\"border:none;\" /></a></p></noscript>\n";
     }
-
-    /**
-     * Shows the AddThis widget.
-     *
-     * @uses GetGnuLinux $ggl
-     */
-    function addthis_widget()
-    {
-        global $ggl;
-        if (file_exists($ggl->get('addthis_code'))) {
-            include($ggl->get('addthis_code'));
-        } else {
-            print "File ".$ggl->get('addthis_code')." doesn't exist.";
-        }
-    }
 }
 
-?>

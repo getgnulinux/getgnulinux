@@ -1,70 +1,53 @@
 <?php
 
-# Please edit the following settings.
+/*
+ * Configurable settings file.
+ */
 
-# Language code of the default language.
-$ggl->config['default_lang'] = "en";
-
-# The base URL of the website. Should start with http:// and end with a slash.
-# Leave blank to auto detect the base URL.
+## The base URL of the website. Should start with http:// and end with a slash.
+## Leave blank to auto detect the base URL.
 # Example: "http://getgnulinux.org/"
 $ggl->config['base_url'] = "";
 
-# The URL of the getgnulinux.org blog.
-# Default: "http://blog.getgnulinux.org/"
+## The URL of the getgnulinux.org blog.
 $ggl->config['blog_url'] = "http://blog.getgnulinux.org/";
 
-# The URL where people can contact the getgnulinux team.
-# Default: "http://blog.getgnulinux.org/contact/"
+## The URL that can be used to contact the getgnulinux team.
 $ggl->config['contact_url'] = "http://blog.getgnulinux.org/contact/";
 
-# The URL of the translation service.
-# Default: "http://blog.getgnulinux.org/participate/"
+## The URL for participation guidelines.
 $ggl->config['participate_url'] = "http://blog.getgnulinux.org/participate/";
 
-# The URL of the translation service.
-# Default: "http://blog.getgnulinux.org/participate/translation/"
+## The URL for the translation guidelines.
 $ggl->config['l10n_url'] = "http://blog.getgnulinux.org/participate/translation/";
 
-# The URL where the getgnulinux project is maintained.
-# Default: "https://launchpad.net/getgnulinux"
+## The URL where the getgnulinux project is maintained.
 $ggl->config['project_url'] = "https://launchpad.net/getgnulinux";
 
-# The URL of the bug tracker.
-# Default: "https://bugs.launchpad.net/getgnulinux"
+## The URL of the bug tracker.
 $ggl->config['tracker_url'] = "https://bugs.launchpad.net/getgnulinux";
 
-# Absolute path to root html folder with trailing slash. Leave blank to auto
-# detect the absolute path.
-# Example: "/home/john/public_html/getgnulinux/"
-$ggl->config['base_path'] = "";
-
-# Settings for Piwik - real time web analytics.
-# Set 'piwik' to TRUE to track visits with Piwik. You need to have Piwik
-# installed.
-# piwik_url: Your Piwik URL
+## Settings for Piwik - real time web analytics.
+# piwik: Set to to true to track visits with Piwik.
+# piwik_url: URL to your Piwik installation (with trailing slash).
 # piwik_idsite: The site ID of the website you are tracking in Piwik.
-# Example:
-# $ggl->config['piwik'] = TRUE;
-# $ggl->config['piwik_url'] = "getgnulinux.org/piwik/";
-# $ggl->config['piwik_idsite'] = 1;
-$ggl->config['piwik'] = FALSE;
+$ggl->config['piwik'] = false;
 $ggl->config['piwik_url'] = "";
 $ggl->config['piwik_idsite'] = 1;
 
-# Flattr is the worlds first social micro-payment system.
-# Set 'flattr' to TRUE to add a Flattr button to the site.
+## Flattr is the worlds first social micro-payment system.
+# flattr: Set to true to display a Flattr button at the bottom of pages.
 # flattr_url: The Flattr button URL for your thing (check button code for URL).
-# flattr_button_style: large | compact
-$ggl->config['flattr'] = FALSE;
-$ggl->config['flattr_url'] = "";
+# flattr_button_style: 'large' | 'compact'
+$ggl->config['flattr'] = false;
+$ggl->config['flattr_url'] = "http://flattr.com/thing/433154/get-GNULinux";
 $ggl->config['flattr_button_style'] = "compact";
 
-# AddThis helps you integrate sharing tools into your site, spread your
-# content, and drive social traffic.
-# Set 'addthis' to TRUE to add an AddThis widget to the site.
-# addthis_code: Path to a file containing the code snippet from addthis.com.
-$ggl->config['addthis'] = FALSE;
-$ggl->config['addthis_code'] = "addthis.php";
+## AddThis helps you integrate sharing tools into your site, spread your
+## content, and drive social traffic. Enabling this widget adds a section
+## "Anonymous data collection" to the Terms of Use page.
+# addthis: Set to true to add an AddThis widget to the site.
+# addthis_url: The AddThis javascript URL from the AddThis widget code.
+$ggl->config['addthis'] = false;
+$ggl->config['addthis_url'] = "http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4ec841691275ca5c";
 
-?>

@@ -20,36 +20,23 @@
  *
  */
 
-# Set the base path. This is used as a base path to locate files.
-$root = dirname( __FILE__ );
-define('ROOT', $root);
-
-# Mark valid web server entry point.
-define('GGL', true);
-
-# Load required classes and methods.
-require_once("$root/include/Initialize.php");
-
-# Instantiate the base class.
-$ggl = new GetGNULinux();
-
-# Instantiate the HTML generator.
-$html = new HTML();
-
-# Load user settings from the settings file. If the settings file is not
-# present, give the directions to create one.
-if ( is_file("$root/settings.php") ) {
-    require_once("$root/settings.php");
-} else {
-    include("$root/include/Setup.php");
+# This file is not a valid entry point; stop processing unless GGL is defined.
+if ( !defined('GGL') ) {
     exit(1);
 }
 
-# Initialyze the base class.
-$ggl->init();
+# Set path to current directory.
+$pwd = dirname( __FILE__ );
 
-# Generate the page.
-$html->load_content();
+# Load global methods.
+require_once("$pwd/Methods.php");
 
-# Succesful termination.
-exit(0);
+# Load methods for language negotiation.
+require_once("$pwd/Locale.php");
+
+# Load the base class.
+require_once("$pwd/GetGNULinux.php");
+
+# Load the HTML generator.
+require_once("$pwd/HTML.php");
+
