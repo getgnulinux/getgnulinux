@@ -344,7 +344,8 @@ $this->load_top_bar();
 	<div class="question_answer">
 	<h3 id="games" class="question"><?php print _("Can I play popular 3D games under GNU/Linux?"); ?></h3>
 	<div class="answer">
-        <p><?php print _("Yes and No: Some games, for example some <a href=\"http://www.idsoftware.com/\">id Software</a> games like Quake III, Quake IV and Doom III, Unreal Tournament, Cold War, and many more have Linux versions.<br />Most popular games, alas, only work on Windows and occasionally on Mac OS. Some Windows games, such as Call of Duty 4 or GTA Vice City, can be run on GNU/Linux with <a href=\"http://winehq.org/\">Wine</a> or its non-free variant <a href=\"http://transgaming.com/cedega\">Cedega</a>, which involves some unpleasant effort for the user. For a list of games known to work on Wine, see <a href=\"http://appdb.winehq.org/\">their games database</a>."); ?></p>
+        <p><?php print _("Yes and No: Some games, for example some <a href=\"http://www.idsoftware.com/\">id Software</a> games like the Quake series and Doom 3, Unreal Tournament, Cold War, and many more have Linux versions."); ?></p>
+        <p><?php print _("Most popular games, alas, only work on Windows and occasionally on Mac OS. Some Windows games, such as Call of Duty 4 or GTA Vice City, can be run on GNU/Linux with <a href=\"http://winehq.org/\">Wine</a> or its non-free variant <a href=\"http://www.codeweavers.com/products/crossover/\">CrossOver</a>, which involves some unpleasant effort for the user. For a list of games known to work on Wine, see <a href=\"http://appdb.winehq.org/\">their games database</a>."); ?></p>
 
         <span class="back_to_top"><a href="#top" title="<?php print _("jump to top of page"); ?>"><?php print _("top"); ?></a></span>
     </div><!-- end answer -->
