@@ -359,10 +359,12 @@ $this->load_top_bar();
 <h2 id="huh"><?php print _("More questions?"); ?></h2>
 <p><?php
 # i18n: The first link will automatically point to the "more" page.
-$p = _("If you have a question that is not covered here, there are many communities to help you. Our \"<a href=\"%s\">%s</a>\" section will help you find the right place to ask.<br/>
-If you can think of a frequent question that we haven't answered yet, do <a href=\"%s\">let us know</a>, or even better, <a href=\"%s\">file a new bug</a>.");
-printf($p, $this->base_url('more',1),
-_("More"), $ggl->get('contact_url'), $ggl->get('tracker_url')); ?></p>
+$p = _("If you have a question that is not covered here, there are many communities to help you. Our \"<a href=\"%s\">%s</a>\" section will help you find the right place to ask.");
+printf( $p, $this->base_url('more',1), _("More") ); ?></p>
+<p><?php
+# i18n: The first link will automatically point to the contact page, the second to the bug tracker.
+$p = _("If you can think of a frequent question that we haven't answered yet, do <a href=\"%s\">let us know</a>, or even better, <a href=\"%s\">file a new bug</a>.");
+printf($p, $ggl->get('contact_url'), $ggl->get('tracker_url')); ?></p>
 </div>
 
 
