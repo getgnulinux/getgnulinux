@@ -173,8 +173,14 @@ h2 {
 
 h3 {
     display: inline;
+    font-size: 1.3em;
+}
+
+h4 {
+    display: inline;
     color: #630000;
-    font-size: 1em;
+    font-size: 1.2em;
+    font-style: italic;
 }
 
 em, strong {
@@ -1123,10 +1129,6 @@ div .note {
     margin-top: 0.4em !important;
 }
 
-.linux_faq code {
-    font-size: 1.2em;
-}
-
 .mfs h2 {
     text-indent: -1.5em;
     padding-left: 1.5em;
@@ -1653,9 +1655,8 @@ div .note {
     margin-left: 0; /*for moz*/
 }
 
-#maincontent #faq_content a, #maincontent #faq_content a:hover {
+#maincontent #faq_content li a, #maincontent #faq_content li a:hover {
     padding-left: 16px;
-    background: white url(/images/bullet_arrow_down.png) no-repeat center left; /* icons by Mark James - famfamfam.com */
 }
 
 
@@ -1680,11 +1681,6 @@ div .note {
     margin-top: 2em;
 }
 
-.question_answer { /*Set of one Q+Q_sub+Answer*/
-    padding-left: 2em;
-    background: white url(/images/blackbullet_faq.png) no-repeat top left;
-}
-
 .question  { /*Question, is also h3*/
     font-size: 1.2em;
     margin: 2em 0 0.8em 0;
@@ -1693,18 +1689,15 @@ div .note {
     color: #000080;
 }
 
-.question_sub, .answer {
-    font-size: 0.9em;
-}
-
 .question_sub {
     color: #000080;
 }
 
 .answer {
     margin-top: 0.8em;
-    border-left: 1px #000080 solid;
-    padding-left: 0.5em;
+    margin-bottom: 4em;
+    /*padding-left: 1em;
+    border-left: 3px #E5E5E5 solid;*/
 }
 
 .read_more {
@@ -1714,12 +1707,6 @@ div .note {
 
 #more_q {
     margin-top: 3em;
-}
-
-#more_q h3 {
-    font-size: 1.2em;
-    font-weight: normal;
-    color: #000080;
 }
 
 /*----------------------------------------------------

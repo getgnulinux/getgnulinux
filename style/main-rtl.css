@@ -44,9 +44,8 @@ h1, h2, h3, h4 {
     padding-right: 1em;
 }
 
-#maincontent #faq_content a,
-#maincontent #faq_content a:hover {
-    background: url(/images/bullet_arrow_down.png) no-repeat scroll right center white;
+#maincontent #faq_content li a,
+#maincontent #faq_content li a:hover {
     padding-right: 16px;
 }
 
@@ -94,11 +93,6 @@ h1, h2, h3, h4 {
     padding-right: 1em;
 }
 
-.question_answer {
-    background: url(/images/blackbullet_faq.png) no-repeat scroll right top white;
-    padding-right: 2em;
-}
-
 #maincontent .back_to_top a {
     background: url(/images/bullet_arrow_up.png) no-repeat scroll right top white;
     padding: 1px 16px 2px 3px;
@@ -107,12 +101,6 @@ h1, h2, h3, h4 {
 .back_to_top {
     float: left;
     margin-left: -3px;
-}
-
-.answer {
-    border-right: 1px solid #000080;
-    border-left: none;
-    padding-right: 0.5em;
 }
 
 /*----------------------------------------------------

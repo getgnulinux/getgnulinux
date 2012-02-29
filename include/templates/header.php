@@ -85,7 +85,8 @@
         .quote1 .source,
         .floatquote1 .source,
         .note_ital,
-        #about_us h2 {
+        #about_us h2,
+        h4 {
             font-style: normal;
         }";
     }
