@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: getgnulinux 0.0.1\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2012-02-29 15:39+0100\n"
+"POT-Creation-Date: 2012-02-29 19:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,14 +34,14 @@ msgstr ""
 
 #. i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
 #: include/GetGNULinux.php:184 include/HTML.php:92
-#: pages/linux.linux_faq.php:364 pages/more.php:16
+#: pages/linux.linux_faq.php:363 pages/more.php:16
 #: pages/switch_to_linux.from_windows_to_linux.php:69
 msgid "More"
 msgstr ""
 
 #. i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
 #: include/GetGNULinux.php:186 include/HTML.php:89 pages/home.php:32
-#: pages/linux.linux_faq.php:369
+#: pages/linux.linux_faq.php:372
 #: pages/linux.misunderstanding_free_software.php:197
 #: pages/linux.screenshots.php:37 pages/linux.screenshots.php:118
 #: pages/windows.php:94
@@ -389,7 +389,7 @@ msgstr ""
 msgid "Can I play popular 3D games under GNU/Linux?"
 msgstr ""
 
-#: pages/linux.linux_faq.php:52 pages/linux.linux_faq.php:358
+#: pages/linux.linux_faq.php:52 pages/linux.linux_faq.php:359
 msgid "More questions?"
 msgstr ""
 
@@ -448,7 +448,7 @@ msgstr ""
 #: pages/linux.linux_faq.php:228 pages/linux.linux_faq.php:250
 #: pages/linux.linux_faq.php:261 pages/linux.linux_faq.php:280
 #: pages/linux.linux_faq.php:291 pages/linux.linux_faq.php:316
-#: pages/linux.linux_faq.php:339 pages/linux.linux_faq.php:349
+#: pages/linux.linux_faq.php:339 pages/linux.linux_faq.php:350
 msgid "jump to top of page"
 msgstr ""
 
@@ -460,7 +460,7 @@ msgstr ""
 #: pages/linux.linux_faq.php:228 pages/linux.linux_faq.php:250
 #: pages/linux.linux_faq.php:261 pages/linux.linux_faq.php:280
 #: pages/linux.linux_faq.php:291 pages/linux.linux_faq.php:316
-#: pages/linux.linux_faq.php:339 pages/linux.linux_faq.php:349
+#: pages/linux.linux_faq.php:339 pages/linux.linux_faq.php:350
 msgid "top"
 msgstr ""
 
@@ -847,10 +847,10 @@ msgstr ""
 
 #: pages/linux.linux_faq.php:327
 msgid ""
-"There is currently no legal solution to play your DVDs on Linux where "
-"<code>libdvdcss</code> is illegal. The <a href=\"http://www.fluendo.com/"
-"\">Fluendo</a> company is developing an (non-free) application for that "
-"purpose, which is regularly announced to be released \"soon\"."
+"There is a legal solution to play your DVDs on Linux where <code>libdvdcss</"
+"code> is illegal. The <a href=\"http://www.fluendo.com/\">Fluendo</a> "
+"company has developed an (non-free) application for that purpose which can "
+"be purchased from their website."
 msgstr ""
 
 #: pages/linux.linux_faq.php:328
@@ -884,29 +884,40 @@ msgstr ""
 #: pages/linux.linux_faq.php:347
 msgid ""
 "Yes and No: Some games, for example some <a href=\"http://www.idsoftware.com/"
-"\">id Software</a> games like Quake III, Quake IV and Doom III, Unreal "
-"Tournament, Cold War, and many more have Linux versions.<br />Most popular "
-"games, alas, only work on Windows and occasionally on Mac OS. Some Windows "
-"games, such as Call of Duty 4 or GTA Vice City, can be run on GNU/Linux with "
-"<a href=\"http://winehq.org/\">Wine</a> or its non-free variant <a href="
-"\"http://transgaming.com/cedega\">Cedega</a>, which involves some unpleasant "
-"effort for the user. For a list of games known to work on Wine, see <a href="
-"\"http://appdb.winehq.org/\">their games database</a>."
+"\">id Software</a> games like the Quake series and Doom 3, Unreal "
+"Tournament, Cold War, and many more have Linux versions."
+msgstr ""
+
+#: pages/linux.linux_faq.php:348
+msgid ""
+"Most popular games, alas, only work on Windows and occasionally on Mac OS. "
+"Some Windows games, such as Call of Duty 4 or GTA Vice City, can be run on "
+"GNU/Linux with <a href=\"http://winehq.org/\">Wine</a> or its non-free "
+"variant <a href=\"http://www.codeweavers.com/products/crossover/"
+"\">CrossOver</a>, which involves some unpleasant effort for the user. For a "
+"list of games known to work on Wine, see <a href=\"http://appdb.winehq.org/"
+"\">their games database</a>."
 msgstr ""
 
 #. i18n: The first link will automatically point to the "more" page.
-#: pages/linux.linux_faq.php:361
+#: pages/linux.linux_faq.php:362
 #, php-format
 msgid ""
 "If you have a question that is not covered here, there are many communities "
 "to help you. Our \"<a href=\"%s\">%s</a>\" section will help you find the "
-"right place to ask.<br/>\n"
+"right place to ask."
+msgstr ""
+
+#. i18n: The first link will automatically point to the contact page, the second to the bug tracker.
+#: pages/linux.linux_faq.php:366
+#, php-format
+msgid ""
 "If you can think of a frequent question that we haven't answered yet, do <a "
 "href=\"%s\">let us know</a>, or even better, <a href=\"%s\">file a new bug</"
 "a>."
 msgstr ""
 
-#: pages/linux.linux_faq.php:369
+#: pages/linux.linux_faq.php:372
 #: pages/linux.misunderstanding_free_software.php:197
 #: pages/linux.screenshots.php:37 pages/linux.screenshots.php:118
 #: pages/windows.restrictions.further_details.php:14
