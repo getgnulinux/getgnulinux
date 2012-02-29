@@ -46,7 +46,7 @@ pot:
 	--package-version=0.0.1 \
 	--msgid-bugs-address="https://bugs.launchpad.net/getgnulinux" \
 	--from-code=UTF-8 -k_ \
-	-o $(template) $(INCLUDE_DIR)/*.php $(PAGES_DIR)/*.php
+	-o $(template) $(INCLUDE_DIR)/*.php $(INCLUDE_DIR)/templates/*.php $(PAGES_DIR)/*.php
 	msguniq -o $(template) $(template)
 	sed --in-place "$(template)" --expression=s/"SOME DESCRIPTIVE TITLE."/"Translation file for the GetGNULinux.org website."/
 	sed --in-place "$(template)" --expression=s/PACKAGE/getgnulinux/
