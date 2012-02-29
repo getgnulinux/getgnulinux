@@ -875,9 +875,8 @@ div .note {
 }
 
 .ubuntu_title, .fedora_title, .gnewsense_title, .trisquel_title {
-    font-family: Helvetica, Arial, sans-serif;
     padding-left: 20px;
-    font-size: 1.2em;
+    font-style: normal;
 }
 
 .ubuntu_title {
@@ -920,10 +919,10 @@ div .note {
 
 #mainbody a.get_it_button {
     background-color: #DFF0B6;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#DFF0B6), to(#A8D96E));
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EFF7DB), to(#D1EFAD));
     background-image: -moz-linear-gradient(#EFF7DB, #D1EFAD);
-    background-image: -o-linear-gradient(#DFF0B6, #B0DD7B);
-    background-image: linear-gradient(#DFF0B6, #B0DD7B);
+    background-image: -o-linear-gradient(#EFF7DB, #D1EFAD);
+    background-image: linear-gradient(#EFF7DB, #D1EFAD);
     border: 1px #B1D18A solid;
     border-radius: 4px;
     -moz-border-radius: 4px;
@@ -932,7 +931,7 @@ div .note {
     color: black;
     display: block;
     float: right;
-    margin-top: -36px;
+    margin-top: -1.8em;
     margin-left: 1em;
     margin-bottom: 0.5em;
     padding: 0.4em;
@@ -1191,7 +1190,7 @@ div .note {
 }
 
 .try_or_install h4 {
-    margin: 0 0 0.5em 0;
+    margin: 0 0 1.5em 0;
 }
 
 .more h2 {
