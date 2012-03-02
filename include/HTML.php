@@ -161,7 +161,11 @@ class HTML {
             return;
         }*/
         # Display the page title for the corresponding page.
-        $p = isset($_GET['p']) ? $_GET['p'] : null;
+        if ( defined('GGL_PAGE') ) {
+            $p = GGL_PAGE;
+        } else {
+            $p = isset($_GET['p']) ? $_GET['p'] : null;
+        }
         if ( !array_key_exists($p, $ggl->config['page_titles']) ) {
             print $ggl->get('website_title');
         } else {

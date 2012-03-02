@@ -210,6 +210,8 @@ class GetGNULinux {
             'switch_to_linux.try_or_install' => _("Try or install"),
             # i18n: The title for the link buttons page. Can be translated loosely.
             'link_buttons' => _("Link buttons"),
+            # i18n: The title for the custom "Page Not Found" page.
+            'not_found' => _("Page Not Found"),
         );
 
         # Set page descriptions.

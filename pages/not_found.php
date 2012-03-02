@@ -5,6 +5,8 @@ if ( !defined('GGL') ) {
     exit(1);
 }
 
+define('GGL_PAGE', "not_found");
+
 $this->load_header();
 $this->load_top_bar();
 
