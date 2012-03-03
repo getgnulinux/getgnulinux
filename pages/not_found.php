@@ -5,7 +5,8 @@ if ( !defined('GGL') ) {
     exit(1);
 }
 
-define('GGL_PAGE', "not_found");
+# Override the Unix name of the current page.
+$this->page_name = "not_found";
 
 $this->load_header();
 $this->load_top_bar();

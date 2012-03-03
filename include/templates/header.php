@@ -25,8 +25,7 @@
     <meta name="keywords" content="<?php print _("linux, gnu/linux, free software, software freedom, open-source, windows alternative, get linux, switch to linux"); ?>" />
     <?php $this->stylesheet('/style/main-ltr.css'); ?>
     <?php
-    $p = isset($_GET['p']) ? $_GET['p'] : NULL;
-    switch ($p) {
+    switch ($this->page_name) {
         case 'linux.misunderstanding_free_software':
             $this->javascript('/style/toggleanswers.js');
             break;
@@ -125,8 +124,7 @@
 <div id="header">
 
 <?php
-$p = isset($_GET['p']) ? $_GET['p'] : NULL;
-if ( $p == "home" || !$p ) {
+if ( $this->page_name == "home" || !$this->page_name ) {
 ?>
     <div id="header_picture_homepage">
 	    <h1><?php print $this->text('website_title'); ?></h1>

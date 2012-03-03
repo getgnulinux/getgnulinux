@@ -33,23 +33,31 @@
 class HTML {
 
     /**
+     * Constructor.
+     *
+     * Sets variables:
+     * - $this->page_name, The Unix name of the current page.
+     */
+    function __construct() {
+        # Get the Unix name of the current page.
+        # Note: The superglobal $_GET is already decoded. Using urldecode()
+        # on an element in $_GET could have unexpected and dangerous results.
+        $this->page_name = isset($_GET['p']) ? $_GET['p'] : NULL;
+    }
+
+    /**
      * Load the requested page.
      *
      * @uses GetGnuLinux $ggl
-     * @uses string $_GET['p']
+     * @uses string $this->page_name
      * @uses string ROOT
      */
     function load_content()
     {
-        global $ggl, $lang;
+        global $ggl;
 
-        /* Disabled, because search engines don't have language preferences set.
-        if (!$lang) {
-            include ROOT.'/pages/select_language.php';
-            return;
-        }*/
-        if ( isset($_GET['p']) ) {
-            $path = ROOT.'/pages/'.$_GET['p'].'.php';
+        if ( isset($this->page_name) ) {
+            $path = ROOT.'/pages/'.$this->page_name.'.php';
             if ( is_file($path) ) {
                 include $path;
                 return;
@@ -148,28 +156,17 @@ class HTML {
      * @param unknown $default The value to print if the configuration key
      *      does not exist.
      * @uses GetGnuLinux $ggl
-     * @uses string $_GET['p']
+     * @uses string $this->page_name
      */
     function page_title()
     {
         global $ggl;
 
-        # If language negotiation failed, display a proper title for the
-        # language selection page.
-        /*if (!$lang) {
-            print $ggl->config['page_titles']['select_language'] . " | " . $ggl->get('website_title');
-            return;
-        }*/
         # Display the page title for the corresponding page.
-        if ( defined('GGL_PAGE') ) {
-            $p = GGL_PAGE;
+        if ( array_key_exists($this->page_name, $ggl->config['page_titles']) ) {
+            print $ggl->config['page_titles'][$this->page_name] . " | " . $ggl->get('website_title');
         } else {
-            $p = isset($_GET['p']) ? $_GET['p'] : null;
-        }
-        if ( !array_key_exists($p, $ggl->config['page_titles']) ) {
             print $ggl->get('website_title');
-        } else {
-            print $ggl->config['page_titles'][$p] . " | " . $ggl->get('website_title');
         }
     }
 
@@ -180,13 +177,12 @@ class HTML {
      * each page's <head> tag.
      *
      * @uses GetGnuLinux $ggl
-     * @uses string $_GET['p']
+     * @uses string $this->page_name
      */
     function page_description()
     {
         global $ggl;
-        $p = isset($_GET['p']) ? $_GET['p'] : null;
-        $p = !array_key_exists($p, $ggl->config['page_descriptions']) ? 'default' : $p;
+        $p = !array_key_exists($this->page_name, $ggl->config['page_descriptions']) ? 'default' : $this->page_name;
         print $ggl->config['page_descriptions'][$p];
     }
 
@@ -339,7 +335,7 @@ class HTML {
      * languages.
      *
      * @uses GetGnuLinux $ggl
-     * @uses string $_GET['p']
+     * @uses string $this->page_name
      * @param string $lang If the ISO language is provided, a localised path
      *      is returned instead.
      * @return string The path to the current page.
@@ -353,8 +349,7 @@ class HTML {
             $l = $ggl->get('lang');
         }
 
-        $p = isset($_GET['p']) ? $_GET['p'] : null;
-        $p = str_replace('.','/',$p);
+        $p = str_replace('.', '/', $this->page_name);
 
         if ($p && $p != 'select_language') {
             return sprintf("%s/%s/", $l, $p);
@@ -372,7 +367,7 @@ class HTML {
      * current page in the menu.
      *
      * @uses GetGnuLinux $ggl
-     * @uses string $_GET['p']
+     * @uses string $this->page_name
      * @param string $lang_id The ISO language code to check against.
      * @return string " class='current-menu-item'" if $page_id is equal to the
      *      current page. Return " class='current-menu-subitem'" if $page_id
@@ -380,11 +375,10 @@ class HTML {
      *      string is returned.
      */
     function is_current_menu_item($page_id) {
-        $p = isset($_GET['p']) ? $_GET['p'] : null;
-        if ($p == $page_id) {
+        if ($this->page_name == $page_id) {
             return " class='current-menu-item'";
         }
-        else if ( startswith($p, $page_id) ) {
+        else if ( startswith($this->page_name, $page_id) ) {
             return " class='current-menu-subitem'";
         }
         else {
@@ -398,14 +392,13 @@ class HTML {
      * This is used for the menu in pages. It can be used to mark the
      * current page in the menu.
      *
-     * @uses string $_GET['p']
+     * @uses string $this->page_name
      * @param string $here The path of the page to check against.
      * @return string "class='wehere'" if $here is equal to the current page.
      *      If not, an empty string is returned.
      */
     function we_are_here($here) {
-        $p = isset($_GET['p']) ? $_GET['p'] : null;
-        if ($p == str_replace('/','.',$here)) {
+        if ($this->page_name == str_replace('/', '.', $here)) {
             return "class='wehere'";
         }
         return "";
