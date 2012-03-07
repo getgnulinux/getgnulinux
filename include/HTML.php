@@ -62,6 +62,7 @@ class HTML {
                 include $path;
                 return;
             } else {
+                header('HTTP/1.x 404 Not Found');
                 include ROOT.'/pages/not_found.php';
                 return;
             }
