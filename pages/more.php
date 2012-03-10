@@ -17,29 +17,6 @@ $this->load_top_bar();
 <p><?php print _("Selected reading on the Internet."); ?></p>
 </div><!-- end intro_box -->
 
-<div class="more_section">
-<h2><?php print _("The main players"); ?></h2>
-
-	<div class="column1_2">
-        <div class="button_link"><a href="<?php
-# i18n: use url of official localised Fedora homepage, if existing
-print _("http://fedoraproject.org/"); ?>" title="<?php print _("Fedora Linux"); ?>"><img src="/images/more/more.fedora.png" width="180" height="58" alt="Fedora"/></a>
-		</div>
-
-		<p><?php print _("Prominent and perhaps more advanced distribution, featuring extensive documentation and multiple ways to participate."); ?></p>
-	</div>
-
-	<div class="column2_2">
-        <div class="button_link"><a href="<?php
-# i18n: use url of official localised Ubuntu homepage, if existing
-print _("http://www.ubuntu.com/"); ?>" title="<?php print _("Ubuntu Linux"); ?>"><img src="/images/more/more.ubuntu.png" width="180" height="58" alt="Ubuntu"/></a>
-		</div>
-
-		<p><?php print _("Homepage of the friendliest distribution around, with links to documentation, community-based and commercial support."); ?></p>
-	</div>
-
-</div><!-- end section -->
-
 
 <div class="more_section">
 <h2><?php print _("Questions, help, and equipment"); ?></h2>
