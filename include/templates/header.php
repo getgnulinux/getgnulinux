@@ -25,6 +25,7 @@
     <meta name="keywords" content="<?php print _("linux, gnu/linux, free software, software freedom, open-source, windows alternative, get linux, switch to linux"); ?>" />
     <?php $this->stylesheet('/style/main-ltr.css'); ?>
     <?php
+    // Load page specific stylesheets and javascripts.
     switch ($this->page_name) {
         case 'linux.misunderstanding_free_software':
             $this->javascript('/style/toggleanswers.js');
@@ -71,44 +72,24 @@
     if ( $ggl->get('flattr') ) {
         require_once(ROOT.'/include/widgets/Flattr.php');
     }
-    ?>
-
-    <style type="text/css">
-    <?php
-    // For some languages italic text is not displayed properly. Disable
-    // italics for selected languages.
-    if ($ggl->no_italics()) {
-        print "em,
-        #mainbody .read_article a,
-        #translations #is_current_language a,
-        .quote1 .source,
-        .floatquote1 .source,
-        .note_ital,
-        #about_us h2,
-        h4 {
-            font-style: normal;
-        }";
-    }
-    ?>
-    </style>
-
-    <?php
-    if ($ggl->get('dir') == 'rtl') {
+    // Show right-to-left specific styles?
+    if ( $ggl->get('dir') == 'rtl' ) {
         $this->stylesheet('/style/main-rtl.css');
     }
+    // For some languages italic text is not displayed properly. Disable
+    // italics for selected languages.
+    if ( $ggl->no_italics() ) {
+        $this->stylesheet('/style/no-italics.css');
+    }
     ?>
-
-    <!--[if lte IE 6]>
-    <?php
-    $this->javascript('/style/ie_translation_menu.js');
-    $this->stylesheet('/style/ie6-ltr.css');
-    ?>
-    <![endif]-->
 
     <!--[if IE 7]>
     <?php
     $this->javascript('/style/ie_translation_menu.js');
     $this->stylesheet('/style/ie7-ltr.css');
+    if ( $ggl->get('dir') == 'rtl' ) {
+        $this->stylesheet('/style/ie7-rtl.css');
+    }
     ?>
     <![endif]-->
 </head>
