@@ -4,16 +4,17 @@
 #
 # Translators:
 # GLM Websites Edition Team <websites@gnulinuxmatters.org>, 2008.
+#   <rainofchaos@gmail.com>, 2012.
 # Sayson Peng <saysonpeng@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2012-03-01 00:03+0100\n"
-"PO-Revision-Date: 2011-11-30 07:26+0000\n"
-"Last-Translator: Sayson Peng <saysonpeng@gmail.com>\n"
+"POT-Creation-Date: 2012-03-19 15:34+0100\n"
+"PO-Revision-Date: 2012-03-19 14:26+0000\n"
+"Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.net/projects/p/"
-"getgnulinux/team/zh_CN/)\n"
+"getgnulinux/language/zh_CN/)\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,24 +28,23 @@ msgstr "获取GNU/Linux！"
 
 #. i18n: The title for the language selection page.
 #: include/GetGNULinux.php:180 pages/select_language.php:15
-#, fuzzy
 msgid "Select a language"
-msgstr "其他语言"
+msgstr "选择语言"
 
 #. i18n: The way you refer to a website's main page in your language.
 #: include/GetGNULinux.php:182
 msgid "Home"
-msgstr ""
+msgstr "主页"
 
 #. i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
-#: include/GetGNULinux.php:184 include/HTML.php:92
+#: include/GetGNULinux.php:184 include/HTML.php:101
 #: pages/linux.linux_faq.php:363 pages/more.php:16
 #: pages/switch_to_linux.from_windows_to_linux.php:69
 msgid "More"
 msgstr "更多"
 
 #. i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
-#: include/GetGNULinux.php:186 include/HTML.php:89 pages/home.php:32
+#: include/GetGNULinux.php:186 include/HTML.php:98 pages/home.php:32
 #: pages/linux.linux_faq.php:372
 #: pages/linux.misunderstanding_free_software.php:197
 #: pages/linux.screenshots.php:37 pages/linux.screenshots.php:118
@@ -55,7 +55,7 @@ msgstr "什么是Linux？"
 #. i18n: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
 #: include/GetGNULinux.php:188 pages/linux.php:80
 msgid "Linux FAQ - common questions about GNU/Linux"
-msgstr "Linux FAQ — 关于GNU/Linux的常见问题"
+msgstr "Linux FAQ — GNU/Linux 的常见问题"
 
 #. i18n: Here the intent is to be a little provocative. Exact translation is not required.
 #: include/GetGNULinux.php:190 pages/linux.linux_faq.php:155
@@ -63,7 +63,7 @@ msgstr "Linux FAQ — 关于GNU/Linux的常见问题"
 #: pages/linux.misunderstanding_free_software.php:20 pages/linux.php:78
 #: pages/windows.stand_for_a_free_society.php:160
 msgid "How to Misunderstand Free Software"
-msgstr "如何误解自由软件的"
+msgstr "人们对自由软件有哪些误解"
 
 #. i18n: This is the title of the 'Screenshots' page.
 #: include/GetGNULinux.php:192 pages/linux.screenshots.php:42
@@ -71,14 +71,14 @@ msgid "What GNU/Linux looks like"
 msgstr "GNU/Linux 是什么样的"
 
 #. i18n: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
-#: include/GetGNULinux.php:194 include/HTML.php:90 include/HTML.php:214
-#: include/HTML.php:235 pages/home.php:38 pages/linux.php:70
+#: include/GetGNULinux.php:194 include/HTML.php:99 include/HTML.php:215
+#: include/HTML.php:236 pages/home.php:39 pages/linux.php:70
 #: pages/windows.php:15
 msgid "Why not Windows"
 msgstr "为什么不要Windows?"
 
 #. i18n: This title can be translated loosely
-#: include/GetGNULinux.php:196 include/HTML.php:216 include/HTML.php:237
+#: include/GetGNULinux.php:196 include/HTML.php:217 include/HTML.php:238
 #: pages/windows.php:24 pages/windows.php:26 pages/windows.php:33
 #: pages/windows.restrictions.further_details.php:14
 #: pages/windows.restrictions.further_details.php:93
@@ -93,220 +93,225 @@ msgid "More details on restrictions"
 msgstr ""
 
 #. i18n: This title can be translated loosely
-#: include/GetGNULinux.php:200 include/HTML.php:219 include/HTML.php:240
+#: include/GetGNULinux.php:200 include/HTML.php:220 include/HTML.php:241
 #: pages/linux.linux_faq.php:277 pages/windows.php:66 pages/windows.php:67
 #: pages/windows.php:76
 msgid "Stand for a free society"
 msgstr "代表自由社会"
 
 #. i18n: This title can be translated loosely
-#: include/GetGNULinux.php:202 include/HTML.php:217 include/HTML.php:238
+#: include/GetGNULinux.php:202 include/HTML.php:218 include/HTML.php:239
 #: pages/windows.php:41 pages/windows.php:42 pages/windows.php:47
 #: pages/windows.what_about_choice.php:17
 msgid "What about choice?"
 msgstr "选择又如何？"
 
 #. i18n: This title can be translated loosely
-#: include/GetGNULinux.php:204 include/HTML.php:218 include/HTML.php:239
+#: include/GetGNULinux.php:204 include/HTML.php:219 include/HTML.php:240
 #: pages/windows.php:54 pages/windows.php:55 pages/windows.php:60
 msgid "No source code"
 msgstr "无源代码"
 
 #. i18n: This appears in the top header menu and should be as short and concise as possible.
-#: include/GetGNULinux.php:206 include/HTML.php:91 include/HTML.php:194
-#: pages/home.php:44 pages/switch_to_linux.php:15 pages/windows.php:92
+#: include/GetGNULinux.php:206 include/HTML.php:100 include/HTML.php:195
+#: pages/home.php:46 pages/switch_to_linux.php:15 pages/windows.php:92
 msgid "Switch to Linux"
 msgstr "转向Linux"
 
-#: include/GetGNULinux.php:207 include/HTML.php:197
+#: include/GetGNULinux.php:207 include/HTML.php:198
 #: pages/switch_to_linux.choose_a_distribution.php:17
-#: pages/switch_to_linux.php:30
+#: pages/switch_to_linux.php:31
 msgid "Choose a distribution"
 msgstr "选择一个发行版"
 
-#: include/GetGNULinux.php:208 include/HTML.php:196
+#: include/GetGNULinux.php:208 include/HTML.php:197
 #: pages/switch_to_linux.from_windows_to_linux.php:17
 #: pages/switch_to_linux.php:22
 msgid "From Windows to Linux"
 msgstr "从Windows到Linux"
 
 #. i18n: This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
-#: include/GetGNULinux.php:210 include/HTML.php:198
-#: pages/switch_to_linux.php:36 pages/switch_to_linux.try_or_install.php:17
+#: include/GetGNULinux.php:210 include/HTML.php:199
+#: pages/switch_to_linux.php:38 pages/switch_to_linux.try_or_install.php:17
 msgid "Try or install"
 msgstr "试用或安装"
 
 #. i18n: The title for the link buttons page. Can be translated loosely.
 #: include/GetGNULinux.php:212 pages/link_buttons.php:15
 msgid "Link buttons"
-msgstr ""
+msgstr "链接按钮"
+
+#. i18n: The title for the custom "Page Not Found" page.
+#: include/GetGNULinux.php:214
+msgid "Page Not Found"
+msgstr "页面未找到"
 
 #. i18n: This is the description of the homepage, and it appears in Google results! Please pay particular attention to this one =)
-#: include/GetGNULinux.php:218
+#: include/GetGNULinux.php:220
 msgid ""
 "Get GNU/Linux! A simple, clear website about Linux. | What is Linux? | Why "
 "not Windows? | Tips to make the switch"
 msgstr ""
 "获取GNU/Linux！一个简明的关于Linux的网站。| 什么是Linux？| 为什么不要"
-"Windows? | 转向的提示"
+"Windows? | 切换帮助"
 
 #. i18n: This is the description of the 'More' page
-#: include/GetGNULinux.php:220
+#: include/GetGNULinux.php:222
 msgid "Read and discover more about Linux."
 msgstr ""
 
 #. i18n: This is the description of the 'Linux' page
-#: include/GetGNULinux.php:222
+#: include/GetGNULinux.php:224
 msgid "What is Linux? A clear explanation."
-msgstr ""
+msgstr "什么是 Linux? 一个清晰的解释."
 
 #. i18n: This is the description of the 'Linux FAQ' page
-#: include/GetGNULinux.php:224
+#: include/GetGNULinux.php:226
 msgid "Frequently Asked Questions about GNU/Linux."
 msgstr "关于GNU/Linux的高频提问。"
 
 #. i18n: This is the description of the 'Misunderstanding Free Software' page
-#: include/GetGNULinux.php:226
+#: include/GetGNULinux.php:228
 msgid "An unconventional way to (re)discover free software."
 msgstr ""
 
 #. i18n: This is the description of the 'Screenshots' page
-#: include/GetGNULinux.php:228
+#: include/GetGNULinux.php:230
 msgid "A brief look at Linux in everyday use."
-msgstr ""
+msgstr "Linux 日常使用简介"
 
 #. i18n: This is the description of the 'Why not Windows' page
-#: include/GetGNULinux.php:230
+#: include/GetGNULinux.php:232
 msgid "Four good reasons to avoid proprietary software."
 msgstr ""
 
 #. i18n: This is the description of the 'Restrictions' page
-#: include/GetGNULinux.php:232
+#: include/GetGNULinux.php:234
 msgid "Restrictions in a proprietary software license."
 msgstr ""
 
 #. i18n: This is the description of the 'Restrictions further details' page
-#: include/GetGNULinux.php:234
+#: include/GetGNULinux.php:236
 msgid "Restrictions in a proprietary software license - more details."
 msgstr ""
 
 #. i18n: This is the description of the 'Stand for a free society' page
-#: include/GetGNULinux.php:236 pages/windows.php:67
+#: include/GetGNULinux.php:238 pages/windows.php:67
 msgid "How software affects freedom in society."
 msgstr "软件如何影响社会中的自由。"
 
 #. i18n: This is the description of the 'What about choice' page
-#: include/GetGNULinux.php:238
+#: include/GetGNULinux.php:240
 msgid "How Microsoft lock customers in."
-msgstr ""
+msgstr "微软是如何禁锢用户的。"
 
 #. i18n: This is the description of the 'What about source code' page
-#: include/GetGNULinux.php:240
+#: include/GetGNULinux.php:242
 msgid "No source code means no trust and no security."
-msgstr ""
+msgstr "没有源代码意味着没有信任和安全。"
 
 #. i18n: This is the description of the 'Switch to Linux' page
-#: include/GetGNULinux.php:242
+#: include/GetGNULinux.php:244
 msgid "Switch to Linux: Good tips and advice."
-msgstr ""
+msgstr "切换到 Linux: 技巧和建议."
 
 #. i18n: This is the description of the 'Choose a distribution' page
-#: include/GetGNULinux.php:244
+#: include/GetGNULinux.php:246
 msgid "Recommended Linux distributions for everyday users."
-msgstr ""
+msgstr "为日常用户推荐的发行版"
 
 #. i18n: This is the description of the 'From Windows to Linux' page
-#: include/GetGNULinux.php:246
+#: include/GetGNULinux.php:248
 msgid "The advantages and disadvantages of Linux over Windows."
 msgstr ""
 
 #. i18n: This is the description of the 'Try or Install' page. i18n note: this should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
-#: include/GetGNULinux.php:248
+#: include/GetGNULinux.php:250
 msgid "Try or install Linux on your computer, very easily."
-msgstr ""
+msgstr "试着在电脑上安装 Linux,非常简单."
 
 #: include/templates/footer.php:8
 msgid "About"
-msgstr ""
+msgstr "关于"
 
 #: include/templates/footer.php:10
 msgid "Read about news and updates."
-msgstr ""
+msgstr "阅读新闻和更新"
 
 #: include/templates/footer.php:10
 msgid "Our blog"
-msgstr ""
+msgstr "我们的博客"
 
-#: include/templates/footer.php:11 pages/more.php:110
+#: include/templates/footer.php:11 pages/more.php:87
 msgid "Terms of use"
 msgstr ""
 
-#: include/templates/footer.php:12 pages/more.php:112
+#: include/templates/footer.php:12 pages/more.php:89
 msgid "Credits"
 msgstr "鸣谢"
 
 #: include/templates/footer.php:13
 msgid "Contact the authors."
-msgstr ""
+msgstr "联系作者."
 
-#: include/templates/footer.php:13 pages/more.php:111
+#: include/templates/footer.php:13 pages/more.php:88
 msgid "Contact us"
-msgstr ""
+msgstr "联系我们"
 
 #: include/templates/footer.php:17
 msgid "Ways to help."
-msgstr ""
+msgstr "帮助方式。"
 
 #: include/templates/footer.php:17
 msgid "Participate"
-msgstr ""
+msgstr "参与"
 
 #: include/templates/footer.php:19 pages/link_buttons.php:16
 msgid "Help us spread free software!"
-msgstr ""
+msgstr "帮我们传播自由软件!"
 
 #: include/templates/footer.php:19
 msgid "Link to us"
-msgstr ""
+msgstr "链接到我们"
 
 #: include/templates/footer.php:20
 msgid "Found something awkward? Report it!"
-msgstr ""
+msgstr "发现不正常？请报告！"
 
 #: include/templates/footer.php:20
 msgid "Report a bug"
-msgstr ""
+msgstr "报告 bug"
 
 #: include/templates/footer.php:21
 msgid "Help us reach an audience in your language!"
-msgstr ""
+msgstr "让页面可以被使用您母语的用户阅读！"
 
 #: include/templates/footer.php:21
 msgid "Translation"
-msgstr ""
+msgstr "翻译"
 
 #: include/templates/footer.php:22
 msgid "Starting point for developers."
-msgstr ""
+msgstr "开发者的起点。"
 
 #: include/templates/footer.php:22
 msgid "Project page"
-msgstr ""
+msgstr "项目页面"
 
 #: include/templates/footer.php:26
 msgid "Other"
-msgstr ""
+msgstr "其它"
 
 #: include/templates/footer.php:28
 msgid ""
 "This website won't look as intended on an outdated browser. Upgrade your "
 "browser today!"
-msgstr ""
+msgstr "在旧浏览器中显示有问题。请更新浏览器!"
 
 #. i18n: The link in the footer that links to browsehappy.com. You may choose to leave this untranslated.
 #: include/templates/footer.php:30
 msgid "Browse Happy"
-msgstr ""
+msgstr "阅读快乐"
 
 #: include/templates/footer.php:35
 #, php-format
@@ -322,9 +327,8 @@ msgid "Alternate languages"
 msgstr "其他语言"
 
 #: include/templates/footer.php:71 pages/select_language.php:48
-#, fuzzy
 msgid "More languages"
-msgstr "其他语言"
+msgstr "更多语言"
 
 #: include/templates/header.php:25
 msgid ""
@@ -334,15 +338,15 @@ msgstr ""
 "Linux， GNU/Linux，自由软件，软件自由，开源，Windows替代品，获取Linux，转向"
 "Linux"
 
-#: include/templates/header.php:120
+#: include/templates/header.php:100
 msgid "skip to content"
 msgstr "跳至目录"
 
-#: include/templates/header.php:138
+#: include/templates/header.php:117
 msgid "home page"
-msgstr ""
+msgstr "主页"
 
-#: pages/credits.php:204 pages/legal.php:132 pages/not_found.php:29
+#: pages/credits.php:204 pages/legal.php:132 pages/not_found.php:32
 msgid "Return to the Homepage"
 msgstr "返回主页"
 
@@ -357,18 +361,18 @@ msgid ""
 "It is easy to use and gives more freedom to users. Anyone can install it: "
 "Linux is free as in freedom, and often available free of charge."
 msgstr ""
-"GNU/Linux，或者简称<em>Linux</em>，是Microsoft Windows的一个替代品。它简单易"
-"用而且给予用户更多的自由。任何人都可以安装：Linux是自由的通常亦是免费的。"
+"GNU/Linux，或者简称<em>Linux</em>，是 Microsoft Windows 的一个替代品。简单易"
+"用、用户有更多自由。任何人都可以安装：Linux 是自由的通常亦是免费的。"
 
 #: pages/home.php:33
 msgid "Learn more about the free operating system"
 msgstr "了解自由操作系统的更多方面"
 
-#: pages/home.php:39
+#: pages/home.php:40
 msgid "Why we should avoid using Microsoft Windows"
-msgstr "为什么我们应该避免使用Microsoft Windows"
+msgstr "避免使用 Microsoft Windows 的原因"
 
-#: pages/home.php:45
+#: pages/home.php:47
 msgid "Where to download and how to step into Linux"
 msgstr "从哪里下载又如何迈向Linux？"
 
@@ -379,7 +383,7 @@ msgstr ""
 
 #: pages/link_buttons.php:87
 msgid "Usage"
-msgstr ""
+msgstr "用法"
 
 #: pages/link_buttons.php:88
 msgid ""
@@ -389,7 +393,7 @@ msgstr ""
 
 #: pages/link_buttons.php:92
 msgid "Licensing"
-msgstr ""
+msgstr "许可协议"
 
 #: pages/link_buttons.php:93
 msgid ""
@@ -410,7 +414,7 @@ msgstr ""
 
 #: pages/linux.linux_faq.php:15
 msgid "Linux Frequently Asked Questions"
-msgstr "关于GNU/Linux的高频提问。"
+msgstr "关于 GNU/Linux 的常问问题"
 
 #: pages/linux.linux_faq.php:17
 #, php-format
@@ -418,8 +422,8 @@ msgid ""
 "<a href=\"%s\">Our page about Linux</a> covers the essential information. We "
 "hope this FAQ list can help if you are more curious."
 msgstr ""
-"<a href=\"%s\">我们关于Linux的页面</a> 涵盖了最基本的信息。如果你想知道更多，"
-"希望这篇FAQ对你有所帮助。"
+"<a href=\"%s\">我们关于Linux的页面</a> 涵盖了最基本的信息。希望这篇 FAQ 可以"
+"帮你了解更多。"
 
 #: pages/linux.linux_faq.php:22
 msgid "General questions:"
@@ -435,15 +439,15 @@ msgstr "那软件跟GNU又有什么关系呢？"
 
 #: pages/linux.linux_faq.php:26 pages/linux.linux_faq.php:93
 msgid "Is Linux a registered trademark?"
-msgstr "Linux是一个注册商标吗？"
+msgstr "Linux 是一个注册商标吗？"
 
 #: pages/linux.linux_faq.php:27 pages/linux.linux_faq.php:103
 msgid "Is GNU/Linux the only free operating system available?"
-msgstr ""
+msgstr "GNU/Linux 是唯一的自由操作系统吗?"
 
 #: pages/linux.linux_faq.php:28 pages/linux.linux_faq.php:113
 msgid "Is Mac OSX a distribution of Linux?"
-msgstr "Mac OSX是Linux的一个发行版吗？"
+msgstr "Mac OSX 是 Linux 的一个发行版吗？"
 
 #: pages/linux.linux_faq.php:30
 msgid "Understanding free software:"
@@ -452,7 +456,7 @@ msgstr "了解自由软件："
 #: pages/linux.linux_faq.php:32 pages/linux.linux_faq.php:132
 msgid ""
 "Are &quot;Open Source&quot; and &quot;Free Software&quot; the same thing?"
-msgstr "“开源”与“自由软件”是同一回事吗？"
+msgstr "“开源”与“自由软件”是一回事吗？"
 
 #: pages/linux.linux_faq.php:33 pages/linux.linux_faq.php:146
 msgid "Why are some Linux distributions sold, not given away?"
@@ -464,7 +468,7 @@ msgstr "为什么有的 Linux 发行版并不完全免费？"
 
 #: pages/linux.linux_faq.php:35 pages/linux.linux_faq.php:185
 msgid "Is Mac OS also a free operating system?"
-msgstr ""
+msgstr "Mac OS 也是自由操作系统吗?"
 
 #: pages/linux.linux_faq.php:36 pages/linux.linux_faq.php:199
 msgid "Aren't Linux users the ones who make illegal downloads?"
@@ -472,7 +476,7 @@ msgstr "Linux 用户不是在进行非法下载吗？"
 
 #: pages/linux.linux_faq.php:37 pages/linux.linux_faq.php:217
 msgid "Is Linux a form of communism?"
-msgstr "Linux是共产主义的一种形式吗？"
+msgstr "Linux 是共产主义的一种形式吗？"
 
 #: pages/linux.linux_faq.php:39
 msgid "Installing Linux:"
@@ -488,7 +492,7 @@ msgstr "我能得到支持我自己语言的GNU/Linux吗？"
 
 #: pages/linux.linux_faq.php:43 pages/linux.linux_faq.php:267
 msgid "Is it legal to install Linux on my computer?"
-msgstr "在我的电脑上安装Linux系统是否合法？"
+msgstr "在我的电脑上安装 Linux 系统是否合法？"
 
 #: pages/linux.linux_faq.php:44 pages/linux.linux_faq.php:286
 msgid "Do I have to purchase a new computer to run Linux?"
@@ -500,12 +504,12 @@ msgstr "使用Linux："
 
 #: pages/linux.linux_faq.php:48 pages/linux.linux_faq.php:304
 msgid "Will Microsoft Office run on Linux?"
-msgstr "Microsoft Office可以在Linux上运行吗？"
+msgstr "Microsoft Office 可以在 Linux 上运行吗？"
 
 #: pages/linux.linux_faq.php:49 pages/linux.linux_faq.php:322
 #: pages/switch_to_linux.from_windows_to_linux.php:138
 msgid "Can I play my DVDs and MP3s under GNU/Linux?"
-msgstr "在GNU/Linux下能播放我的DVD和MP3吗？"
+msgstr "在 GNU/Linux 中能播放DVD和MP3吗？"
 
 #: pages/linux.linux_faq.php:50 pages/linux.linux_faq.php:345
 #: pages/switch_to_linux.from_windows_to_linux.php:150
@@ -518,7 +522,7 @@ msgstr "更多问题？"
 
 #: pages/linux.linux_faq.php:57
 msgid "General Questions"
-msgstr "普遍问题"
+msgstr "常规问题"
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
 #: pages/linux.linux_faq.php:65
@@ -534,7 +538,7 @@ msgid ""
 "today are, to be precise, \"<em>distributions of the GNU/Linux system</em>\"."
 msgstr ""
 "<strong>Linux</strong>原本指代的是<strong>GNU</strong>系统内部的一个核心部件"
-"（称为内核）。今日用户运行的，准确地说，是<em>GNU/Linux</em>系统的发行版。"
+"（称为内核）。准确地说，现在用户运行的是<em>GNU/Linux</em>系统的发行版。"
 
 #: pages/linux.linux_faq.php:68
 msgid ""
@@ -554,7 +558,7 @@ msgid ""
 "softwareliberty.com/\">Free Software</a> movement started with and are still "
 "carried by <a href=\"http://www.gnu.org/\">the GNU project</a>."
 msgstr ""
-"技术上（终端用户大量使用的是“GNU”，“Linux”只占少许），再有，哲学上：<a href="
+"技术上（终端用户大量使用的是“GNU”，“Linux”只占少许），哲学上：<a href="
 "\"http://www.softwareliberty.com/\">自由软件</a>运动的强势和动力都始自<a "
 "href=\"http://www.gnu.org/\">GNU项目</a>，且一直为其所承载。因此称系统为"
 "<em>GNU/Linux</em>更加意味深长。"
@@ -595,7 +599,7 @@ msgstr "跳转到页面顶部"
 #: pages/linux.linux_faq.php:291 pages/linux.linux_faq.php:316
 #: pages/linux.linux_faq.php:339 pages/linux.linux_faq.php:350
 msgid "top"
-msgstr "顶层"
+msgstr "顶部"
 
 #. i18n: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
 #: pages/linux.linux_faq.php:85
@@ -609,12 +613,12 @@ msgid ""
 "check out what <a href=\"http://www.gnu.org/software/hurd/hurd.html\">GNU "
 "Hurd</a> means)."
 msgstr ""
-"当Richard Stallman开始设计GNU的时候，在用的主流系统还是私有化的Unix。由于GNU"
-"在功能上与Unix类似（且兼容），但是<a href=\"http://www.softwareliberty.com/"
-"\">自由软件</a>，他便生造了GNU这个术语，意为<strong>GNU's Not Unix</strong>。"
-"它是个<a href=\"http://en.wikipedia.org/wiki/Recursive_acronym\">递归的字头语"
-"</a>. （如果你觉得好玩的话，不妨看看<a href=\"http://www.gnu.org/software/"
-"hurd/hurd.html\">GNU Hurd</a>是什么意思）。"
+"当Richard Stallman开始设计GNU的时候，在用的主流系统还是私有化的Unix。GNU在功"
+"能上与Unix类似（且兼容），是<a href=\"http://www.softwareliberty.com/\">自由"
+"软件</a>，他便创造了 GNU 这个术语，意为<strong>GNU's Not Unix</strong>。它是"
+"个<a href=\"http://en.wikipedia.org/wiki/Recursive_acronym\">递归的字头语</"
+"a>. （如果你觉得好玩的话，不妨看看<a href=\"http://www.gnu.org/software/hurd/"
+"hurd.html\">GNU Hurd</a>是什么意思）。"
 
 #: pages/linux.linux_faq.php:95
 msgid ""
@@ -665,9 +669,8 @@ msgstr ""
 "</a href=\"%s\">关于 Windows 的问题</a>也是如此。"
 
 #: pages/linux.linux_faq.php:127
-#, fuzzy
 msgid "Understanding free software"
-msgstr "了解自由软件："
+msgstr "理解自由软件"
 
 #: pages/linux.linux_faq.php:133
 msgid "Yes and no."
@@ -677,7 +680,7 @@ msgstr "是也不是。"
 msgid ""
 "Technically, the great majority of open source programs are free software "
 "and vice-versa."
-msgstr "技术上，绝大多数都四的开源程序都是自由软件，反过来也一样。"
+msgstr "技术上，绝大多数开源程序都是自由软件，反过来也一样。"
 
 #: pages/linux.linux_faq.php:136
 msgid ""
@@ -685,6 +688,8 @@ msgid ""
 "source&quot; was coined to make &quot;free software&quot; more attractive, "
 "its supporters see open source software as a better way to make software."
 msgstr ""
+"从哲学上说，它们有很大区别。“开源”是为了让“自由软件”更能吸引用户而创造的，其"
+"支持者认为开源是软件开发的更好方式。"
 
 #: pages/linux.linux_faq.php:137
 msgid ""
@@ -693,9 +698,9 @@ msgid ""
 "\"http://www.gnu.org/philosophy/open-source-misses-the-point.html\">misses "
 "the point</a>."
 msgstr ""
-"“自由软件”这一术语的支持者看重的则是自由，不仅仅是软件制造的方式，因此争辩"
-"说“开源”这一术语<a href=\"http://www.gnu.org/philosophy/open-source-misses-"
-"the-point.html\">不得要领</a>。"
+"“自由软件”这一术语的支持者看重的不仅看重软件制作方式，更关注自由，认为“开"
+"源”这一术语<a href=\"http://www.gnu.org/philosophy/open-source-misses-the-"
+"point.html\">不得要领</a>。"
 
 #: pages/linux.linux_faq.php:138
 msgid "Which term you employ simply depends on your vision of software."
@@ -729,8 +734,8 @@ msgid ""
 "still guarantee your freedoms."
 msgstr ""
 "大多数开发自由软件的公司靠推销围绕其软件的<strong>服务</strong>来赚钱，而不是"
-"软件本身。这有时是通过所有的东西打包出售做到的：客户一次性购买了CD，书，以及"
-"支持协议。软件仍然能保证你的自由。"
+"软件本身。有时通过打包所有内容进行出售：客户一次性购买CD、书以及支持。软件仍"
+"然是自由使用的。"
 
 #: pages/linux.linux_faq.php:155
 msgid "More:"
@@ -765,6 +770,9 @@ msgid ""
 "Distributions such as <a href=\"http://www.ubuntu.com/\">Ubuntu</a> thus "
 "include such components to improve hardware compatibility."
 msgstr ""
+"因为有些硬件厂商，如 NVidia，并不关心用户的自由，仅发布受限的固件和驱动。这些"
+"程序免费，但使用限制协议。 <a href=\"http://www.ubuntu.com/\">Ubuntu</a> 等发"
+"行版包含这些程序以提高硬件兼容性。"
 
 #: pages/linux.linux_faq.php:175
 msgid ""
@@ -808,6 +816,8 @@ msgid ""
 "softwareliberty.com/\">free software</a>; and Apple puts less energy into "
 "customer lock-in (with some notable efforts such as BootCamp)."
 msgstr ""
+"Mac OSX 底层的一些组件确实是 <a href=\"http://www.softwareliberty.com/\">自由"
+"软件</a>; 而且苹果在锁定用户上并不少不余遗力(BootCamp是一些行动)."
 
 #: pages/linux.linux_faq.php:190
 msgid ""
@@ -858,14 +868,14 @@ msgid ""
 "computers running just one company's proprietary products. There is "
 "certainly nothing wrong with that!"
 msgstr ""
-"GNU/Linux由一群人推出。他们讨厌全世界的电脑都只运行一家公司的私有产品这种思"
-"想。那当然没有错！"
+"一群不满全世界的电脑只运行一家公司私有产品的人创造了 GNU/Linux 。这当然没有"
+"错！"
 
 #. i18n: The link here points to the "misunderstanding_free_software" article.
 #: pages/linux.linux_faq.php:209
 #, php-format
 msgid "Read more in the article: <a href=\"%s\">%s</a>."
-msgstr "在这篇文章中阅读更多： <a href=\"%s\">%s</a> 。"
+msgstr "继续阅读： <a href=\"%s\">%s</a> 。"
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
 #: pages/linux.linux_faq.php:220
@@ -876,7 +886,7 @@ msgid ""
 msgstr ""
 "“每一样东西都必须是自由的”，“没有一个人拥有任何东西”听起来有点不可思议。Linux"
 "以及<acronym title=\"GNU General Public License\">GPL</acronym>许可协议是不是"
-"属于无政府主义者或者共产主义者？"
+"属于无政府主义或者共产主义？"
 
 #: pages/linux.linux_faq.php:225
 #, php-format
@@ -887,9 +897,8 @@ msgid ""
 msgstr ""
 
 #: pages/linux.linux_faq.php:236
-#, fuzzy
 msgid "Installing Linux"
-msgstr "安装Linux："
+msgstr "安装 Linux"
 
 #. i18n: If LinuxPreloaded has not been localized to your language, please leave the URL to linuxpreloaded.com.
 #: pages/linux.linux_faq.php:245
@@ -899,15 +908,15 @@ msgid ""
 "a>, listing vendors that sell Linux desktops and laptops."
 msgstr ""
 "当然有！我们为此还专门创建了一个网站<a href=\"http://linuxpreloaded.com/\" "
-"title=\"Linux laptops\">LinuxPreloaded.com</a>，列出了有售Linux台式机和笔记本"
-"的商家。"
+"title=\"Linux laptops\">LinuxPreloaded.com</a>，列出了预装 Linux 的台式机和笔"
+"记本商家。"
 
 #. i18n: please leave the "#new_computer" element as such. It is an internal link.
 #: pages/linux.linux_faq.php:248
 msgid ""
 "Note that <a href=\"#new_computer\">buying new hardware is not necessary</a> "
 "to use GNU/Linux!"
-msgstr "注意用GNU/Linux，你<a href=\"#new_computer\">无须购买新的硬件</a>！"
+msgstr "注意用 GNU/Linux，您<a href=\"#new_computer\">无须购买新的硬件</a>！"
 
 #: pages/linux.linux_faq.php:258
 #, php-format
@@ -917,7 +926,7 @@ msgid ""
 "many keyboard types."
 msgstr ""
 "可以。所有主流的发行版，比如<a href=\"%s\">我们推荐的</a>，都支持多种主要的语"
-"言，和很多键盘类型。"
+"言和很多键盘类型。"
 
 #: pages/linux.linux_faq.php:259
 msgid ""
@@ -959,6 +968,8 @@ msgid ""
 "\"http://www.timj.co.uk/digiculture/drm-fallacy\">DRM and Trusted Computing</"
 "a>. Read our article \"<a href=\"%s\">%s</a>\" for more information."
 msgstr ""
+"事实上这项权利正遭受<a href=\"http://www.timj.co.uk/digiculture/drm-fallacy"
+"\">DRM 和安全计算</a>的威胁。详情请阅读\"<a href=\"%s\">%s</a>\"。"
 
 #: pages/linux.linux_faq.php:288
 msgid "Not at all. It will run happily on your own computer."
@@ -981,7 +992,7 @@ msgstr ""
 
 #: pages/linux.linux_faq.php:299 pages/linux.php:38
 msgid "Using Linux"
-msgstr "使用GNU/Linux"
+msgstr "使用 Linux"
 
 #: pages/linux.linux_faq.php:306
 msgid "No."
@@ -995,22 +1006,20 @@ msgid ""
 "opposition to supporting <a href=\"http://opendocumentfellowship.com/\">the "
 "OpenDocument format</a>."
 msgstr ""
-"从技术上来讲，让Microsoft Office适用于Linux是可能的，但是Microsoft并不想让"
-"Office用户选择他们的操作系统。MS Office与开放之间还存在其他的芥蒂&mdash;比如"
-"Microsoft在支持<a href=\"http://opendocumentfellowship.com/\">开放文档格式</"
-"a>上所采取的极端猛烈的反对立场。"
+"从技术上来讲，让 Microsoft Office 支持 Linux 是可能的，但是 Microsoft 并不想"
+"让 Office 用户选择他们的操作系统。MS Office 与开放之间还存在其他的芥蒂&mdash;"
+"比如Microsoft 在支持<a href=\"http://opendocumentfellowship.com/\">开放文档格"
+"式</a>上所采取的强烈反对立场。"
 
 #. i18n: If it exists, please use the localized URL of openoffice.org. You can find localized URLs here: http://www.openoffice.org/projects/native-lang.html
 #: pages/linux.linux_faq.php:310
-#, fuzzy
 msgid "http://www.openoffice.org/"
-msgstr "http://why.openoffice.org/"
+msgstr "http://www.openoffice.org/"
 
 #. i18n: If it exists, please use the localized URL of libreoffice.org. You can find localized URLs here: http://www.libreoffice.org/international-sites/
 #: pages/linux.linux_faq.php:313
-#, fuzzy
 msgid "http://www.libreoffice.org/features/"
-msgstr "http://why.openoffice.org/"
+msgstr "http://www.libreoffice.org/features/"
 
 #: pages/linux.linux_faq.php:314
 msgid ""
@@ -1142,13 +1151,13 @@ msgid ""
 "Five misconceptions about <a href=\"http://www.softwareliberty.com/\">free "
 "software</a>, corrected."
 msgstr ""
-"五个对<a href=\"http://www.softwareliberty.com/\">自由软件</a>常见的误解及更"
+"对<a href=\"http://www.softwareliberty.com/\">自由软件</a>的五个常见误解及更"
 "正。"
 
 #: pages/linux.misunderstanding_free_software.php:28
 msgid ""
 "1. The software industry can't keep going if programmers don't get paid."
-msgstr "1. 如果程序员没有报酬的话，软件产业就无法往前发展。"
+msgstr "1. 程序员没有报酬软件产业就无法往前发展。"
 
 #. i18n: image alt description
 #: pages/linux.misunderstanding_free_software.php:31
@@ -1171,9 +1180,8 @@ msgid ""
 "strong>. You may actually pay to get free software (or \"open source\" "
 "software %s), which you can then study, change and copy at will."
 msgstr ""
-"当我们谈论自由 (free) 软件，指的是<strong>自由 (liberty) 而非价钱</strong>。"
-"实际上，为获取自由软件 (或者开源软件%s) 以便研习，修改和任意拷贝，你也可能要"
-"破费。"
+"当我们谈论自由软件，指的是<strong>自由而非免费</strong>。实际上，为获取自由软"
+"件 (或者开源软件%s) 以便研习，修改和任意拷贝，你也可能要破费。"
 
 #: pages/linux.misunderstanding_free_software.php:37
 msgid ""
@@ -1252,7 +1260,7 @@ msgstr "很多人都愿意参与进来；"
 msgid ""
 "There is no need to re-invent everything, ideas can be improved upon "
 "directly."
-msgstr "没有一切重来的必要，可以直接在其上进行改进。"
+msgstr "没有重复开发的必要，可以直接在其上进行改进。"
 
 #: pages/linux.misunderstanding_free_software.php:55
 msgid ""
@@ -1475,6 +1483,9 @@ msgid ""
 "<acronym title=\"Foundation for a Free Information Infrastructure\">FFII</"
 "acronym>"
 msgstr ""
+"<a href=\"http://ffii.org/Frequently_Asked_Questions_about_software_patents"
+"\" hreflang=\"en\">软件专利常问问题<acronym title=\"Foundation for a Free "
+"Information Infrastructure\">FFII</acronym>"
 
 #. i18n: Unless you know of a good localized resource, please leave the URL as such.
 #: pages/linux.misunderstanding_free_software.php:111
@@ -1482,6 +1493,8 @@ msgid ""
 "<a href=\"http://www.redhat.com/magazine/007may05/features/ip/\" hreflang="
 "\"en\">Short and clear video on \"intellectual property\" by Red Hat"
 msgstr ""
+"<a href=\"http://www.redhat.com/magazine/007may05/features/ip/\" hreflang="
+"\"en\">红帽公司出品的\"知识产权\"简短介绍视频。"
 
 #: pages/linux.misunderstanding_free_software.php:116
 msgid "5. Free software is like communism."
@@ -1509,9 +1522,8 @@ msgid ""
 "your modified version, your computer works better and your factories run "
 "twice as fast!"
 msgstr ""
-"让我们假设你在家里和你的公司使用的某一应用程序是自由软件。你有一个妙极的方法"
-"来改进它。于是，用你改进的版本，你的电脑工作得更好，你工厂的运转速度翻了一"
-"番！"
+"假设您在家里和公司使用某一自由软件程序。产生了一个妙极的改进灵感。使用改进的"
+"版本电脑工作得更好，工厂的运转速度翻了一番！"
 
 #: pages/linux.misunderstanding_free_software.php:124
 msgid ""
@@ -1520,8 +1532,8 @@ msgid ""
 "made using it. You are simply exerting your freedom to use and modify free "
 "software."
 msgstr ""
-"这一改进的版本是<strong>你自己的版本</strong>。你无须把它告知任何人，也不必分"
-"享任何你从中获取的好处。你不过就在运用你的自由使用和修改自由软件。"
+"这一改进的版本是<strong>你自己的版本</strong>。无须把它告知任何人，也不必分享"
+"从中获取的好处。你就是在运用使用和修改自由软件的权力。"
 
 #: pages/linux.misunderstanding_free_software.php:125
 msgid ""
@@ -1530,9 +1542,9 @@ msgid ""
 "with your software on them, or start letting people outside your home or "
 "company use it, then you must:"
 msgstr ""
-"自由软件许可协议要求的却是<strong>如果你重发布</strong>这款软件，那么你必须保"
-"证它仍是自由的。也就是说，如果你要出售含它们的CD，或者让你家或公司以外的人使"
-"用，那么你必须："
+"自由软件许可协议要求是：<strong>如果你重发布</strong>这款软件，那么必须保证它"
+"仍是自由的。也就是说，如果你要出售含它们的CD，或者让自家或公司以外的人使用，"
+"必须："
 
 #: pages/linux.misunderstanding_free_software.php:127
 msgid ""
@@ -1548,7 +1560,7 @@ msgid ""
 "Or, make the original software and your secret addition to it clearly "
 "separate (that is, your addition should contain none of the original work)."
 msgstr ""
-"要么，把你的密加部分跟原软件清楚地区分开（也就是，你加的部分不该包含原作的任"
+"要么，把你的保密部分跟原软件清楚地区分开（也就是，你加的部分不该包含原作的任"
 "何成分）。"
 
 #. i18n: The %s placeholder here will automatically point to the page "Windows Restrictions, further details"
@@ -1752,9 +1764,9 @@ msgid ""
 "free. The accurate name is <em>GNU/Linux</em> but \"Linux\" is used more "
 "often."
 msgstr ""
-"Linux是一个<em>操作系统</em>，管理计算机的一个大块头软件。 它与Microsoft "
-"Windows类似，但完全免费。 准确的名称是<em>GNU/Linux</em>，然而\"Linux\"更常用"
-"一些。"
+"Linux 是一个<em>操作系统</em>，管理计算机的一个大块头软件。 它与 Microsoft "
+"Windows 类似，但完全免费。 准确的名称是<em>GNU/Linux</em>，然而\"Linux\"更常"
+"用一些。"
 
 #: pages/linux.php:31
 msgid ""
@@ -1784,8 +1796,8 @@ msgid ""
 "A prominent, complete and friendly distribution to step into GNU/Linux is <a "
 "href=\"http://www.ubuntu.com\">Ubuntu</a>."
 msgstr ""
-"可供步入GNU/Linux的一个优秀，完整且友善的发行版为<a href=\"http://www.ubuntu."
-"com\">Ubuntu</a>。"
+"<a href=\"http://www.ubuntu.com\">Ubuntu</a> 是优秀、功能齐全且用户友好的入门"
+"发行版。"
 
 #. i18n: image alt description
 #: pages/linux.php:45
@@ -1801,11 +1813,11 @@ msgid ""
 "org/\" title=\"Fedora, a friendly and more advanced GNU/Linux distribution"
 "\">Fedora</a>, which come in with many programs installed."
 msgstr ""
-"GNU/Linux的使用并不难于Windows，且功能更多样化。熟悉<a href=\"http://www."
-"ubuntu.com/\" title=\"Ubuntu, the easiest and friendliest GNU/Linux "
-"distribution around\">Ubuntu</a> 或<a href=\"http://fedoraproject.org/\" "
-"title=\"Fedora, a friendly and more advanced GNU/Linux distribution"
-"\">Fedora</a>之类预装了大量程序的发行版仅需要十多分钟。"
+"GNU/Linux 并不比 Windows 难用，且具有更多功能。<a href=\"http://www.ubuntu."
+"com/\" title=\"Ubuntu, the easiest and friendliest GNU/Linux distribution "
+"around\">Ubuntu</a> 或 <a href=\"http://fedoraproject.org/\" title=\"Fedora, "
+"a friendly and more advanced GNU/Linux distribution\">Fedora</a>是预装了大量"
+"程序的发行版，仅需十多分钟就能熟悉使用。"
 
 #: pages/linux.php:48
 msgid ""
@@ -1894,7 +1906,7 @@ msgstr "下一页："
 
 #: pages/linux.php:76
 msgid "More in this section:"
-msgstr "本节内更多"
+msgstr "本节更多内容："
 
 #: pages/linux.php:79
 msgid "What Linux looks like"
@@ -1903,7 +1915,7 @@ msgstr "Linux什么样？"
 #. i18n: This is the description of the "ubuntu1.png" screenshot.
 #: pages/linux.screenshots.php:12
 msgid "Firefox web browser"
-msgstr "Firefox网页浏览器"
+msgstr "Firefox 网页浏览器"
 
 #. i18n: This is the description of the "ubuntu2.png" screenshot.
 #: pages/linux.screenshots.php:14
@@ -1913,9 +1925,8 @@ msgstr "标准桌面上打开的是文件管理器和图片浏览程序。"
 
 #. i18n: This is the description of the "ubuntu3.png" screenshot.
 #: pages/linux.screenshots.php:16
-#, fuzzy
 msgid "Thunderbird e-mail and calendar application."
-msgstr "Evolution e-mail 和日历程序"
+msgstr "Thunderbird 电子邮件和日历程序。"
 
 #. i18n: This is the description of the "fedora1.png" screenshot.
 #: pages/linux.screenshots.php:19
@@ -1941,8 +1952,8 @@ msgstr "在 GNOME 3 桌面环境下选择应用程序。"
 
 #. i18n: This is the description of the "trisquel1.png" screenshot.
 #: pages/linux.screenshots.php:28
-msgid "Appearance preferences open."
-msgstr "外观偏好设置。"
+msgid "Update manager open."
+msgstr ""
 
 #. i18n: This is the description of the "trisquel2.png" screenshot.
 #: pages/linux.screenshots.php:30
@@ -1968,77 +1979,43 @@ msgstr ""
 
 #: pages/more.php:17
 msgid "Selected reading on the Internet."
-msgstr "因特网上选读。"
+msgstr "外部网站选读。"
 
-#: pages/more.php:21
-msgid "The main players"
-msgstr "主打角色"
-
-#. i18n: use url of official localised Fedora homepage, if existing
-#: pages/more.php:26 pages/switch_to_linux.choose_a_distribution.php:46
-msgid "http://fedoraproject.org/"
-msgstr "http://fedoraproject.org/"
-
-#: pages/more.php:26
-msgid "Fedora Linux"
-msgstr "Fedora Linux"
-
-#: pages/more.php:29
-msgid ""
-"Prominent and perhaps more advanced distribution, featuring extensive "
-"documentation and multiple ways to participate."
-msgstr "很不错的兴许也更高级一点的发行版，特别在有大量的文档和众多的参与方式。"
-
-#. i18n: use url of official localised Ubuntu homepage, if existing
-#: pages/more.php:35 pages/switch_to_linux.choose_a_distribution.php:27
-msgid "http://www.ubuntu.com/"
-msgstr "http://www.ubuntu.com/"
-
-#: pages/more.php:35
-msgid "Ubuntu Linux"
-msgstr "Ubuntu Linux"
-
-#: pages/more.php:38
-msgid ""
-"Homepage of the friendliest distribution around, with links to "
-"documentation, community-based and commercial support."
-msgstr "最友好发行版的主页，含文档链接，基于社区的及商业的支持。"
-
-#: pages/more.php:45
+#: pages/more.php:22
 msgid "Questions, help, and equipment"
 msgstr "问题，帮助，和设备"
 
 #. i18n: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-#: pages/more.php:50
+#: pages/more.php:27
 msgid "http://linuxpreloaded.com/"
 msgstr "http://linuxpreloaded.com/"
 
-#: pages/more.php:50
+#: pages/more.php:27
 msgid "Computers pre-installed with Linux"
 msgstr "预装了Linux的电脑"
 
 #. i18n: image alt description
-#: pages/more.php:52
+#: pages/more.php:29
 msgid "Linux Pre-Loaded"
 msgstr "Linux预载"
 
-#: pages/more.php:55
+#: pages/more.php:32
 msgid ""
 "A simple and clear selection of vendors selling computers pre-installed with "
 "Linux."
 msgstr "遴选出的销售预装Linux电脑的厂商。"
 
 #. i18n: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-#: pages/more.php:61
+#: pages/more.php:38
 msgid "http://www.linuxquestions.org/"
 msgstr "http://www.linuxquestions.org/"
 
 #. i18n: image alt description
-#: pages/more.php:61 pages/more.php:63
+#: pages/more.php:38 pages/more.php:40
 msgid "LinuxQuestions.org"
-msgstr ""
+msgstr "LinuxQuestions.org"
 
-#: pages/more.php:66
+#: pages/more.php:43
 msgid ""
 "Friendly free software support forums, for newcomers and advanced users "
 "alike.<br/> If you have a question that we haven't covered, it's a good "
@@ -2047,25 +2024,25 @@ msgstr ""
 "为新手及高级用户之流提供自由软件支持的论坛。<br/>如果你有我们没有涵盖到的问"
 "题，这是个提问的好地方！"
 
-#: pages/more.php:71
+#: pages/more.php:48
 msgid "Learn and read more"
 msgstr "阅读了解更多"
 
 #. i18n: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-#: pages/more.php:76
+#: pages/more.php:53
 msgid "http://www.fsf.org/"
 msgstr "http://www.fsf.org/"
 
-#: pages/more.php:76
+#: pages/more.php:53
 msgid "Free Software Foundation"
-msgstr ""
+msgstr "自由软件基金会"
 
 #. i18n: image alt description
-#: pages/more.php:78
+#: pages/more.php:55
 msgid "FSF"
 msgstr "FSF"
 
-#: pages/more.php:81
+#: pages/more.php:58
 msgid ""
 "The Free Software Foundation defends and advocates the very concept of <a "
 "href=\"http://www.softwareliberty.com/\">free software</a> that gave birth "
@@ -2075,35 +2052,35 @@ msgstr ""
 "</a>这一观念，是它催生了GNU/Linux。"
 
 #. i18n: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-#: pages/more.php:87
+#: pages/more.php:64
 msgid "http://en.wikibooks.org/wiki/FLOSS_Concept_Booklet"
 msgstr "http://en.wikibooks.org/wiki/FLOSS_Concept_Booklet"
 
-#: pages/more.php:87
+#: pages/more.php:64
 msgid "the FLOSS concept booklet"
 msgstr "FLOSS概念小册"
 
 #. i18n: image alt description
-#: pages/more.php:89
+#: pages/more.php:66
 msgid "FLOSS Booklet"
 msgstr "FLOSS小册"
 
-#: pages/more.php:92
+#: pages/more.php:69
 msgid ""
 "A short, entertaining way to clarify thoughts about free, libre, \"open-"
 "source\" software."
 msgstr "阐明free，libre，“open-source”软件思想的一种言简又打趣的方式。"
 
-#: pages/more.php:98
+#: pages/more.php:75
 msgid ""
 "Note: these links are proposed as a recommendation. They are not commercial."
-msgstr "注意：这些链接意为推荐。并非商业用途。"
+msgstr "注意：这些链接仅是推荐阅读，非商业用途。"
 
-#: pages/more.php:102
+#: pages/more.php:79
 msgid "About us"
 msgstr "关于我们"
 
-#: pages/more.php:104
+#: pages/more.php:81
 msgid ""
 "This website was a project of the late <em><a href=\"http://www."
 "gnulinuxmatters.org/\">GNU/Linux Matters</a></em> non-profit organization, "
@@ -2111,7 +2088,7 @@ msgid ""
 "Matters have ceased activity."
 msgstr ""
 
-#: pages/more.php:105
+#: pages/more.php:82
 #, php-format
 msgid ""
 "This website is maintained and driven by the community. Please consider <a "
@@ -2120,24 +2097,26 @@ msgid ""
 msgstr ""
 
 #. i18n: Title for the Page Not Found page. We like to add a bit of humour to this title :P
-#: pages/not_found.php:17
+#: pages/not_found.php:20
 msgid "Doh! Page Not Found"
 msgstr "噢！页面未找到！"
 
 #. i18n: The "AWOL" part is supposed to add some humour to the error message. Use your creativity to add some humour that's more suitable for your language.
-#: pages/not_found.php:21
+#: pages/not_found.php:24
 msgid ""
 "Sorry, but we couldn't find the page you were looking for. Either that page "
 "doesn't exist or the web page went <acronym title=\"away without leave"
 "\">AWOL</acronym>."
 msgstr ""
+"对不起，无法找到要访问的页面，页面不存在或<acronym title=\"away without leave"
+"\">过期</acronym>."
 
-#: pages/not_found.php:23
+#: pages/not_found.php:26
 msgid "Report broken link"
 msgstr "报告失效链接"
 
 #. i18n: Here, the %s placeholder simply puts a link to the bug tracker
-#: pages/not_found.php:26
+#: pages/not_found.php:29
 #, php-format
 msgid ""
 "If you found a broken link, please <a href=\"%s\">report it</a> so we can "
@@ -2148,7 +2127,7 @@ msgstr ""
 
 #: pages/select_language.php:17
 msgid "<em>GetGNULinux.org</em> is available in the following languages:"
-msgstr ""
+msgstr "<em>GetGNULinux.org</em> 提供如下语言:"
 
 #: pages/select_language.php:49
 #, php-format
@@ -2164,8 +2143,13 @@ msgid ""
 "difficult. Here are our choice of three beginner-friendly, widely used "
 "distributions."
 msgstr ""
-"由于没有一个“统一的 Linux”，找一款你需要的可能比较困难。这是我们挑选的三个让"
-"新手易产生好感，而又被广泛使用的发行版。"
+"由于没有一个“统一的 Linux”，找一款你需要的可能比较困难。这是我们挑选三个适合"
+"新手，使用广泛的发行版。"
+
+#. i18n: use url of official localised Ubuntu homepage, if existing
+#: pages/switch_to_linux.choose_a_distribution.php:27
+msgid "http://www.ubuntu.com/"
+msgstr "http://www.ubuntu.com/"
 
 #: pages/switch_to_linux.choose_a_distribution.php:28
 msgid ""
@@ -2180,9 +2164,7 @@ msgstr ""
 msgid ""
 "We recommend this friendly and complete distribution if you are looking for "
 "an easy way to try and step into GNU/Linux."
-msgstr ""
-"如果你寻求一种简易的方式对GNU/Linux进行入门尝试，我们推荐这款友好而又完满的发"
-"行版。"
+msgstr "如果您正在尝试进入 GNU/Linux，我们推荐这款友好、功能齐全的发行版。"
 
 #: pages/switch_to_linux.choose_a_distribution.php:37
 msgid ""
@@ -2191,6 +2173,11 @@ msgid ""
 msgstr ""
 "Ubuntu还有一个具不同层次感和更高级图形的姐妹发行版，<a href=\"http://www."
 "kubuntu.org/\">Kubuntu</a>"
+
+#. i18n: use url of official localised Fedora homepage, if existing
+#: pages/switch_to_linux.choose_a_distribution.php:46
+msgid "http://fedoraproject.org/"
+msgstr "http://fedoraproject.org/"
 
 #. i18n: if you don't know of a clean, simple comparison website, simply remove the link.
 #: pages/switch_to_linux.choose_a_distribution.php:49
@@ -2232,7 +2219,7 @@ msgstr ""
 msgid ""
 "We recommend this distribution if you are committed to freedom in your "
 "computing."
-msgstr "如果你非常看重你计算的自由的话，我们推荐这款发行版本。"
+msgstr "如果您非常看重计算自由，我们推荐这款发行版本。"
 
 #. i18n: if you don't know of a clean, simple comparison website, simply remove the link.
 #: pages/switch_to_linux.choose_a_distribution.php:80
@@ -2240,10 +2227,12 @@ msgid ""
 "Note: There are <a href=\"http://distrowatch.com/dwres.php?resource=major"
 "\">plenty of distributions to choose from and compare</a>."
 msgstr ""
+"提示: 这里有<a href=\"http://distrowatch.com/dwres.php?resource=major\">大量"
+"的发行版供选择和比较</a>。"
 
 #: pages/switch_to_linux.choose_a_distribution.php:81
 msgid "This is our selection for newcomers. These links are not commercial."
-msgstr ""
+msgstr "这些是我们为新手进行的选择，非商业推广。"
 
 #. i18n: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
 #: pages/switch_to_linux.choose_a_distribution.php:88
@@ -2254,7 +2243,7 @@ msgstr "那现在就获取一张CD，体验一下或者直接安装吧！"
 msgid ""
 "This is what everyday users usually find better, mostly the same, or not as "
 "good, when switching from Windows to Linux."
-msgstr ""
+msgstr "这些是用户从 Windows 转到 Linux 后日常使用软件的比较。"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:22
 msgid "What is better in Linux"
@@ -2263,7 +2252,7 @@ msgstr "Linux 好在哪里"
 #. i18n: please note the punctuation should be consistent
 #: pages/switch_to_linux.from_windows_to_linux.php:26
 msgid "It's free"
-msgstr "它是免费的"
+msgstr "自由"
 
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:29
@@ -2279,10 +2268,10 @@ msgid ""
 "can even study it, transform it as you please, or build and sell your own "
 "distribution."
 msgstr ""
-"不像Windows，GNU/Linux是<a href=\"http://www.softwareliberty.com/\" title="
-"\"What does Free Software mean?\">自由软件</a> — free源自freedom。在所有的电"
-"脑上安装它，为你的朋友们制作副本！只要你高兴，你可以研习，转换，或者构建及出"
-"售你自己的发行版。"
+"与 Windows 不同，GNU/Linux 是<a href=\"http://www.softwareliberty.com/\" "
+"title=\"What does Free Software mean?\">自由软件(free software)</a> — 在所有"
+"的电脑上安装它，为你的朋友们制作副本！你可以学习它，定制它，或者构建及出售自"
+"己的发行版。"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:34
 msgid "Programs"
@@ -2291,7 +2280,7 @@ msgstr "程序"
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:37
 msgid "add/remove programs easily"
-msgstr "简便地添加／移除程序"
+msgstr "程序添加／移除非常简单"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:39
 msgid ""
@@ -2340,12 +2329,12 @@ msgstr ""
 
 #: pages/switch_to_linux.from_windows_to_linux.php:51
 msgid "Security"
-msgstr ""
+msgstr "安全"
 
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:54
 msgid "security"
-msgstr ""
+msgstr "安全"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:55
 msgid ""
@@ -2394,7 +2383,7 @@ msgstr ""
 
 #: pages/switch_to_linux.from_windows_to_linux.php:79
 msgid "What is mostly the same in Linux"
-msgstr ""
+msgstr "在 Linux 中基本无差别"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:80
 msgid ""
@@ -2405,18 +2394,18 @@ msgstr ""
 
 #: pages/switch_to_linux.from_windows_to_linux.php:82
 msgid "General set-up"
-msgstr ""
+msgstr "常规设置"
 
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:85
 msgid "simple use"
-msgstr ""
+msgstr "使用简单"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:86
 msgid ""
 "If you still believe Linux is controlled with code and command-line, you "
 "should update your views!"
-msgstr ""
+msgstr "如果仍然认为 Linux 是通过代码和命令控制的，请赶紧更新挂念。"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:87
 msgid ""
@@ -2429,11 +2418,11 @@ msgstr ""
 #: pages/switch_to_linux.from_windows_to_linux.php:90
 #, php-format
 msgid "See more: we have <a href=\"%s\">screenshots</a></div>"
-msgstr ""
+msgstr "更多: 这里有<a href=\"%s\">截屏</a></div>"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:94
 msgid "Web browsing and common tasks"
-msgstr ""
+msgstr "网页浏览和一般任务"
 
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:97
@@ -2453,7 +2442,7 @@ msgstr ""
 
 #: pages/switch_to_linux.from_windows_to_linux.php:110
 msgid "What is not as good in Linux"
-msgstr ""
+msgstr "Linux 做得还不够好"
 
 #. i18n: translate "widely": the idea is more important than precision/exactitude here
 #: pages/switch_to_linux.from_windows_to_linux.php:114
@@ -2462,7 +2451,7 @@ msgstr ""
 
 #: pages/switch_to_linux.from_windows_to_linux.php:115
 msgid "or:"
-msgstr ""
+msgstr "或："
 
 #: pages/switch_to_linux.from_windows_to_linux.php:116
 msgid "&quot;Tell the truth and run.&quot;"
@@ -2474,7 +2463,7 @@ msgstr ""
 
 #: pages/switch_to_linux.from_windows_to_linux.php:120
 msgid "Driver support"
-msgstr ""
+msgstr "驱动支持"
 
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:123
@@ -2540,12 +2529,12 @@ msgstr ""
 
 #: pages/switch_to_linux.from_windows_to_linux.php:142
 msgid "Gaming"
-msgstr ""
+msgstr "游戏"
 
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:145
 msgid "gaming"
-msgstr ""
+msgstr "游戏"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:146
 msgid ""
@@ -2567,12 +2556,12 @@ msgstr ""
 
 #: pages/switch_to_linux.from_windows_to_linux.php:154
 msgid "Hibernating"
-msgstr ""
+msgstr "休眠"
 
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:157
 msgid "hibernation problems"
-msgstr ""
+msgstr "休眠问题"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:158
 msgid ""
@@ -2583,7 +2572,7 @@ msgstr ""
 
 #: pages/switch_to_linux.from_windows_to_linux.php:169
 msgid "Conclusion"
-msgstr ""
+msgstr "结论"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:170
 msgid ""
@@ -2625,18 +2614,18 @@ msgstr ""
 #. i18n: We try to be friendly and inviting here. This does not have to be translated very precisely.
 #: pages/switch_to_linux.from_windows_to_linux.php:188
 msgid "Choose a Linux distribution to get started!"
-msgstr ""
+msgstr "选择一个 Linux 发行版！"
 
 #. i18n: please note the "affirmative" tone with the '.' at end of sentence.
 #: pages/switch_to_linux.php:25
 msgid "Meet GNU/Linux in everyday use."
-msgstr ""
+msgstr "日常使用 GNU/Linux"
 
-#: pages/switch_to_linux.php:31
+#: pages/switch_to_linux.php:32
 msgid "Our selection for an easy choice."
 msgstr "我们提供的一个简单选择。"
 
-#: pages/switch_to_linux.php:37
+#: pages/switch_to_linux.php:39
 msgid "Install it! (it's easier than you think)"
 msgstr "安装吧！（远比你想象的容易）"
 
@@ -2653,7 +2642,7 @@ msgstr "试用：live CD"
 
 #: pages/switch_to_linux.try_or_install.php:27
 msgid "Take no risk"
-msgstr ""
+msgstr "无需冒险"
 
 #: pages/switch_to_linux.try_or_install.php:29
 msgid ""
@@ -2681,7 +2670,7 @@ msgstr ""
 #: pages/switch_to_linux.try_or_install.php:34
 #: pages/switch_to_linux.try_or_install.php:51
 msgid "What you need"
-msgstr ""
+msgstr "需要什么"
 
 #: pages/switch_to_linux.try_or_install.php:36
 msgid ""
@@ -2697,7 +2686,7 @@ msgstr "安装成双启动"
 
 #: pages/switch_to_linux.try_or_install.php:47
 msgid "Choose at start-up"
-msgstr ""
+msgstr "开始时选择"
 
 #: pages/switch_to_linux.try_or_install.php:48
 msgid ""
@@ -2733,7 +2722,7 @@ msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:62
 msgid "Get the CD you need"
-msgstr ""
+msgstr "获取需要的 CD"
 
 #: pages/switch_to_linux.try_or_install.php:64
 msgid ""
@@ -2743,7 +2732,7 @@ msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:70
 msgid "Download Ubuntu"
-msgstr ""
+msgstr "下载 Ubuntu"
 
 #: pages/switch_to_linux.try_or_install.php:71
 msgid ""
@@ -2754,7 +2743,7 @@ msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:80
 msgid "Download Fedora"
-msgstr ""
+msgstr "下载 Fedora"
 
 #: pages/switch_to_linux.try_or_install.php:81
 msgid ""
@@ -2765,11 +2754,11 @@ msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:90
 msgid "Download Trisquel"
-msgstr ""
+msgstr "下载 Trisque!"
 
 #: pages/switch_to_linux.try_or_install.php:91
 msgid "The Trisquel installation is very similar to that of Ubuntu."
-msgstr ""
+msgstr "Trisquel 的安装于 Ubuntu 非常类似。"
 
 #: pages/switch_to_linux.try_or_install.php:96
 msgid ""
@@ -2780,7 +2769,7 @@ msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:103
 msgid "Free Software pre-installed"
-msgstr ""
+msgstr "预装的自由软件"
 
 #: pages/switch_to_linux.try_or_install.php:105
 msgid ""
@@ -2820,7 +2809,7 @@ msgstr ""
 #: pages/windows.php:33 pages/windows.php:47 pages/windows.php:60
 #: pages/windows.php:76
 msgid "read our full article:"
-msgstr ""
+msgstr "请阅读全文："
 
 #: pages/windows.php:43
 msgid "Software should come without locks in it."
@@ -2832,8 +2821,8 @@ msgid ""
 "continually changing? Why can you not even uninstall some programs? It might "
 "be that if you look for choice, Microsoft products aren't for you."
 msgstr ""
-"为什么Office文档难于导出呢？为什么它的格式持续变更呢？更有甚者，为什么你无法"
-"卸载一些程序呢？那可能是你在寻找选择，而Microsoft的产品并不适合你。"
+"为什么 Office 文档难于导出呢？为什么它的格式持续变更呢？更有甚者，为什么你无"
+"法卸载一些程序呢？那可能是你在寻找选择，而 Microsoft 的产品并不适合你。"
 
 #: pages/windows.php:55
 msgid ""
@@ -2860,7 +2849,7 @@ msgid ""
 "Windows."
 msgstr ""
 "猜怎么着？病毒对那些与源代码一同发布的软件失效了，要安全不用再额外破费。反病"
-"毒产业，Microsoft在这里面可是一个重要角色，是特别青睐你用Windows的。"
+"毒产业，Microsoft 在这里面可是一个重要角色，是特别青睐你用Windows的。"
 
 #: pages/windows.php:70
 msgid ""
@@ -2902,6 +2891,9 @@ msgid ""
 "them using it. Mac&nbsp;OS is <a href=\"%s#mac_freedom\">not much better</"
 "a>, either."
 msgstr ""
+"许多人都发现，视窗操作系统虽然是非常优秀的软件，却<strong>剥夺了用户太多的权"
+"利</strong> 所以不值得使用。Mac&nbsp;OS 也 <a href=\"%s#mac_freedom\">没有好"
+"到哪里</a>。"
 
 #: pages/windows.php:87
 #, php-format
@@ -2916,7 +2908,7 @@ msgstr ""
 
 #: pages/windows.php:94
 msgid "previous:"
-msgstr ""
+msgstr "上一页:"
 
 #: pages/windows.restrictions.further_details.php:21
 #, php-format
@@ -2998,7 +2990,7 @@ msgstr ""
 
 #: pages/windows.restrictions.further_details.php:57
 msgid "Private information is collected"
-msgstr ""
+msgstr "收集隐私信息"
 
 #: pages/windows.restrictions.further_details.php:59
 msgid ""
@@ -3019,12 +3011,12 @@ msgstr ""
 #: pages/windows.restrictions.further_details.php:66
 #: pages/windows.stand_for_a_free_society.php:131
 msgid "Read more"
-msgstr ""
+msgstr "继续阅读"
 
 #. i18n: If it exists, please use a non-official translation of the GPL in your language, as pointed on http://www.gnu.org/licenses/translations.html
 #: pages/windows.restrictions.further_details.php:71
 msgid "http://www.gnu.org/copyleft/gpl.html"
-msgstr ""
+msgstr "http://www.gnu.org/copyleft/gpl.html"
 
 #: pages/windows.restrictions.further_details.php:71
 msgid "The GNU General Public License"
@@ -3032,7 +3024,7 @@ msgstr ""
 
 #: pages/windows.restrictions.further_details.php:71
 msgid "The GPL"
-msgstr ""
+msgstr "GPL"
 
 #: pages/windows.restrictions.further_details.php:72
 msgid ""
@@ -3055,12 +3047,12 @@ msgstr ""
 #: pages/windows.restrictions.further_details.php:81
 #: pages/windows.stand_for_a_free_society.php:134
 msgid "http://www.gnu.org/philosophy/right-to-read.html"
-msgstr ""
+msgstr "http://www.gnu.org/philosophy/right-to-read.html"
 
 #: pages/windows.restrictions.further_details.php:81
 #: pages/windows.stand_for_a_free_society.php:134
 msgid "The Right to Read"
-msgstr ""
+msgstr "阅读的权力"
 
 #: pages/windows.restrictions.further_details.php:82
 msgid ""
@@ -3088,7 +3080,7 @@ msgstr ""
 
 #: pages/windows.restrictions.php:20
 msgid "Don Marti interview"
-msgstr ""
+msgstr "Don Marti 访谈"
 
 #: pages/windows.restrictions.php:20
 #: pages/windows.stand_for_a_free_society.php:27
@@ -3164,7 +3156,7 @@ msgstr ""
 
 #: pages/windows.restrictions.php:55
 msgid "The meaning behind"
-msgstr ""
+msgstr "背后的意义"
 
 #. i18n: Please don't forget the rel=nofollow element in the link - it makes sure we don't increase MS PR.
 #: pages/windows.restrictions.php:59
@@ -3197,7 +3189,7 @@ msgstr ""
 
 #: pages/windows.restrictions.php:66
 msgid "Restrictions - further details"
-msgstr "限制 — 进一步的详情"
+msgstr "限制 — 详情信息"
 
 #: pages/windows.stand_for_a_free_society.php:20
 msgid "Stand for a Free Society"
@@ -3229,7 +3221,7 @@ msgstr ""
 
 #: pages/windows.stand_for_a_free_society.php:32
 msgid "Not a crazy concept"
-msgstr ""
+msgstr "并不是疯狂的概念"
 
 #: pages/windows.stand_for_a_free_society.php:33
 msgid ""
@@ -3268,7 +3260,7 @@ msgstr ""
 
 #: pages/windows.stand_for_a_free_society.php:51
 msgid "Proprietary software going wrong"
-msgstr ""
+msgstr "私有软件错了"
 
 #: pages/windows.stand_for_a_free_society.php:53
 #, php-format
@@ -3298,7 +3290,7 @@ msgstr ""
 
 #: pages/windows.stand_for_a_free_society.php:68
 msgid "DRM is control over content"
-msgstr ""
+msgstr "DRM 是对内容的控制"
 
 #: pages/windows.stand_for_a_free_society.php:70
 msgid ""
@@ -3376,7 +3368,7 @@ msgstr ""
 
 #: pages/windows.stand_for_a_free_society.php:96
 msgid "The wider impact"
-msgstr ""
+msgstr "更广的影响"
 
 #. i18n: This is the quote by Rosemary Bechler in the middle of the article.
 #: pages/windows.stand_for_a_free_society.php:103
@@ -3446,7 +3438,7 @@ msgstr ""
 #. i18n: Unless you know of a very good resource about DRM, please point to the Wikipedia article about DRM in your language, if it exists
 #: pages/windows.stand_for_a_free_society.php:139
 msgid "http://www.timj.co.uk/computing/politics-policy/drm/fallacy/"
-msgstr ""
+msgstr "http://www.timj.co.uk/computing/politics-policy/drm/fallacy/"
 
 #. i18n: Title of external link
 #: pages/windows.stand_for_a_free_society.php:141
@@ -3466,6 +3458,8 @@ msgid ""
 "http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-"
 "free-file-formats/"
 msgstr ""
+"http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-"
+"free-file-formats/"
 
 #: pages/windows.stand_for_a_free_society.php:146
 msgid "Free Knowledge requires Free Software and Free File Formats"
@@ -3479,11 +3473,11 @@ msgstr ""
 
 #: pages/windows.stand_for_a_free_society.php:154
 msgid "http://www.lafkon.net/tc/"
-msgstr ""
+msgstr "http://www.lafkon.net/tc/"
 
 #: pages/windows.stand_for_a_free_society.php:154
 msgid "Trusted Computing"
-msgstr ""
+msgstr "授信计算"
 
 #: pages/windows.stand_for_a_free_society.php:155
 msgid ""
@@ -3494,11 +3488,11 @@ msgstr ""
 #: pages/windows.stand_for_a_free_society.php:157
 #: pages/windows.what_about_source_code.php:25
 msgid "http://www.gnu.org/philosophy/why-free.html"
-msgstr ""
+msgstr "http://www.gnu.org/philosophy/why-free.html"
 
 #: pages/windows.stand_for_a_free_society.php:157
 msgid "Why Software Should Not Have Owners"
-msgstr ""
+msgstr "为什么软件不应该被占有"
 
 #: pages/windows.stand_for_a_free_society.php:158
 msgid ""
@@ -3516,7 +3510,7 @@ msgstr ""
 msgid ""
 "About 3 million computers get sold every year in China, but people don't pay "
 "for the software."
-msgstr ""
+msgstr "中国每年卖出 3 千万计算机，但人们并不付钱。"
 
 #: pages/windows.what_about_choice.php:23
 msgid ""
@@ -3524,10 +3518,12 @@ msgid ""
 "want them to steal ours. They'll get sort of addicted, and then we'll "
 "somehow figure out how to collect sometime in the next decade."
 msgstr ""
+"总有一天他们会付钱。只要他们想用盗版[sic]，我们就希望他们盗版我们的程序。他们"
+"会上瘾，然后我们就能在十年后找到收钱的方法。"
 
 #: pages/windows.what_about_choice.php:24
 msgid "1998 interview"
-msgstr ""
+msgstr "1998 采访"
 
 #: pages/windows.what_about_choice.php:29
 msgid ""
@@ -3537,7 +3533,7 @@ msgstr ""
 
 #: pages/windows.what_about_choice.php:33
 msgid "Poor support for open standards"
-msgstr ""
+msgstr "对开放标准的支持非常差"
 
 #: pages/windows.what_about_choice.php:35
 msgid ""
@@ -3604,7 +3600,7 @@ msgstr ""
 
 #: pages/windows.what_about_choice.php:54
 msgid "Monopolistic practices"
-msgstr ""
+msgstr "垄断实践"
 
 #: pages/windows.what_about_choice.php:56
 msgid ""
@@ -3648,7 +3644,7 @@ msgstr ""
 
 #: pages/windows.what_about_source_code.php:25
 msgid "Why Software Should Be Free"
-msgstr ""
+msgstr "为什么软件应该是自由的"
 
 #: pages/windows.what_about_source_code.php:28
 msgid ""
@@ -3665,7 +3661,7 @@ msgstr ""
 
 #: pages/windows.what_about_source_code.php:34
 msgid "No one can look inside"
-msgstr ""
+msgstr "没有人能了解内部"
 
 #: pages/windows.what_about_source_code.php:36
 msgid ""
@@ -3694,7 +3690,7 @@ msgstr ""
 
 #: pages/windows.what_about_source_code.php:44
 msgid "Insecurity means business"
-msgstr ""
+msgstr "不安全意味着商机"
 
 #: pages/windows.what_about_source_code.php:46
 msgid ""
@@ -3702,7 +3698,7 @@ msgid ""
 "trojans, viruses, spyware and the likes. <strong>Such nuisances delight the "
 "Windows security industry</strong>, including Microsoft, which develops "
 "various anti-virus protections with subscriptions."
-msgstr ""
+msgstr "DRM 是对内容的控制"
 
 #: pages/windows.what_about_source_code.php:49
 msgid ""
@@ -3723,7 +3719,7 @@ msgstr ""
 
 #: pages/windows.what_about_source_code.php:58
 msgid "You can trust free software"
-msgstr ""
+msgstr "您可以信任自由软件"
 
 #: pages/windows.what_about_source_code.php:60
 msgid ""
