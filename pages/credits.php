@@ -125,7 +125,7 @@ following sources, according to their respective copyright licenses:</p>
 <p class="tab"><a href="http://cortsenc.bloc.cat/">Oriol Piera</a> and <a href="http://rcarreras.blogspot.com/">Rafael Carreras</a>.</p>
 
 <h3>Chinese:</h3>
-<p class="tab"><a href="https://www.transifex.net/accounts/profile/Pxseudoprime/">Sayson Peng</a> and others.</p>
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/Pxseudoprime/">Sayson Peng</a>, <a href="https://www.transifex.net/accounts/profile/leonfeng/">leonfeng</a> and others.</p>
 
 <h3>Esperanto:</h3>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a>,
