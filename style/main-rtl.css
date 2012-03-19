@@ -140,17 +140,13 @@ h1, h2, h3, h4 {
  * "Screenshots" page.
  *----------------------------------------------------*/
 
-.screenshots .screenshots-section .text {
-    float: right;
-}
-
-.screenshots .screenshots-section.image-left .image {
+.screenshots div.image-left div.image {
     float: right;
     margin-right: 0;
     margin-left: 1em;
 }
 
-.screenshot .screenshots-section.image-right .image {
+.screenshots div.image-right div.image {
     float: left;
     margin-right: 1em;
     margin-left: 0;
@@ -242,7 +238,7 @@ h1, h2, h3, h4 {
 #translations {
     left: auto;
     right: 50%;
-    margin-right: 177px;
+    margin-right: 220px;
 }
 
 #language_menu {

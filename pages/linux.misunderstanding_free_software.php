@@ -100,7 +100,7 @@ print _("<strong>Copyright is very important in free software.</strong> It is th
 
 <p><?php print _("It's safe to say that <strong>any medium-size piece of software violates patents</strong>, in several countries, whether it's free or not."); ?></p>
 <p><?php print _("Depending on the holding company's ability to cover very large legal costs, or to retaliate with other patent threats, royalties and restrictions can be applied over these patents."); ?></p>
-<div id="morebox">
+<div id="morebox" class="post-it">
 <?php print _("Read and view more:"); ?>
 <ul>
     <li><?php

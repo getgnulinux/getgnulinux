@@ -317,7 +317,7 @@ code {
 #translations {
     position: absolute;
     left: 50%;
-    margin-left: 178px;
+    margin-left: 220px;
     top: 0;
     padding: 0;
     width: 13em;
@@ -469,7 +469,7 @@ div.list_select_language li a:hover {
     margin: 0 auto;
     padding-top: 2em;
     padding-bottom: 10em; /* Height of the footer */
-    width: 750px;
+    width: 835px;
 }
 
 #mainbody {
@@ -704,12 +704,18 @@ div.list_select_language li a:hover {
 }
 
 #contentlist {
+    list-style-type: none;
+    list-style-image: none; /* IE bug */
+    margin: 2em 2em;
     padding: 0;
-    margin: 0 2em;
-    clear: both;
 }
 
-#contentlist a {
+#contentlist li {
+    display: inline;
+    padding: 0;
+}
+
+#contentlist li a {
     display: block;
     padding: 0.8em 0.5em;
     margin: 0.5em 0;
@@ -771,11 +777,6 @@ div .note {
 }
 
 /*----------------main content list----------------*/
-
-.switch_to_linux #contentlist {
-    padding: 0;
-    margin: 0 0 3em 0;
-}
 
 .switch_to_linux #contentlist img {
     margin: 0;
@@ -1657,7 +1658,7 @@ div .note {
 
 .back_to_top {
     float: right;
-    font-size: 0.6em;
+    font-size: 0.65em;
     margin-right: -3px;
 }
 
@@ -1668,7 +1669,11 @@ div .note {
 }
 
 #maincontent .back_to_top a:hover {
-    border: 1px #000080 solid;
+    background-color: #E5E5E5;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -1677,7 +1682,6 @@ div .note {
 }
 
 .question  { /*Question, is also h3*/
-    font-size: 1.2em;
     margin: 2em 0 0.8em 0;
     display: block;
     font-weight: normal;
@@ -1766,18 +1770,17 @@ div .note {
 }
 
 .screenshots .screenshots-section .text {
-    float: left;
-    width: 400px;
+    width: 100%;
 }
 
-.screenshots .screenshots-section.image-left .image {
+.screenshots div.image-left div.image {
     float: left;
     margin-right: 1em;
     margin-left: 0;
     width: 230px;
 }
 
-.screenshot .screenshots-section.image-right .image {
+.screenshots div.image-right div.image {
     float: right;
     margin-right: 0;
     margin-left: 1em;
@@ -1833,28 +1836,26 @@ div .note {
 }
 
 #footer-container {
+    max-width: 90%;
+    min-width: 550px;
     margin-left: auto;
     margin-right: auto;
     font-size: 0.9em;
     padding: 15px 0;
-    width: 750px;
+    width: 835px;
 }
 
 .footer-block {
     display: inline;
     float: left;
     margin-right: 2em;
-    width: 110px;
+    width: 15%;
 }
 
-.footer-block:last-child {
-    width: 330px; /* Also results in automatic line breaks for paragraphs */
-    margin: 0;
-}
-
-/* For IE */
-.footer-block-last-child {
-    width: 330px; /* Also results in automatic line breaks for paragraphs */
+.footer-block:last-child,
+.footer-block-last-child /* For IE */ {
+    float: right;
+    width: 40%; /* Also results in automatic line breaks for paragraphs */
     margin: 0;
 }
 
