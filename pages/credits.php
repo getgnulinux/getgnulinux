@@ -101,6 +101,15 @@ following sources, according to their respective copyright licenses:</p>
 </div>
 </li>
 
+<li id="link_buttons">Some of the <a href="<?php $this->base_url('link_buttons'); ?>">link buttons</a> contain material subjected to the following licensing:
+<div class="img_box">
+    <a href="http://en.wikipedia.org/wiki/File:Heckert_GNU_white.svg"><img src="/images/link_buttons/bwgnu1.png" alt="GNU"/></a> by Aurelio A. Heckert, <a href="http://artlibre.org/licence/lal/en/">Free Art License</a>;<br/>
+    <a href="http://www.gnu.org/graphics/gnusvgart.html"><img src="/images/link_buttons/bwgnu2.png" alt="GNU"/></a> by Sven H, used with permission from author;<br/>
+    <a href="http://commons.wikimedia.org/wiki/File:Nuvola_apps_emacs.png"><img src="/images/link_buttons/colorgnu.png" alt="GNU"/></a> by David Vignoni, presumably <a href="http://en.wikipedia.org/wiki/GNU_Free_Documentation_License">GNU FDL license</a>;<br/>
+    <a href="http://commons.wikimedia.org/wiki/File:Tux.png"><img src="/images/link_buttons/Tux_50px.png" alt="tux"/></a> by Larry Ewing, permission to copy if credit given.
+</div>
+</li>
+
 <li>Ubuntu and Fedora logos: in accordance with the respective trademark guidelines (<a href="http://fedoraproject.org/wiki/Legal/TrademarkGuidelines">Fedora</a>, <a href="http://www.ubuntu.com/aboutus/trademarkpolicy">Ubuntu</a>)</li>
 
 <li>gNewSense artwork: based on work <a href="http://www.flickr.com/photos/davelab6/sets/72157594509090768/">by Dave Crossland</a>, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution, Share Alike">by-sa</acronym>, with special thanks.</li>
