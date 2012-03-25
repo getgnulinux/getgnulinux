@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: getgnulinux 0.0.1\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2012-03-19 15:34+0100\n"
+"POT-Creation-Date: 2012-03-25 16:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -240,7 +240,7 @@ msgstr ""
 msgid "Terms of use"
 msgstr ""
 
-#: include/templates/footer.php:12 pages/more.php:89
+#: include/templates/footer.php:12 pages/link_buttons.php:96 pages/more.php:89
 msgid "Credits"
 msgstr ""
 
@@ -338,7 +338,7 @@ msgstr ""
 msgid "home page"
 msgstr ""
 
-#: pages/credits.php:204 pages/legal.php:132 pages/not_found.php:32
+#: pages/credits.php:215 pages/legal.php:132 pages/not_found.php:32
 msgid "Return to the Homepage"
 msgstr ""
 
@@ -385,16 +385,19 @@ msgstr ""
 msgid "Licensing"
 msgstr ""
 
-#: pages/link_buttons.php:93
+#. i18n: The link will automatically point to the "credits" page. Please leave the "#link_buttons" part as such; it is an internal link.
+#: pages/link_buttons.php:95
+#, php-format
 msgid ""
-"Some of these buttons contain material subjected to the following licensing:"
+"Some of these buttons contain material subjected to specific licenses. See "
+"the \"<a href=\"%s#link_buttons\">%s</a>\" page for details."
 msgstr ""
 
-#: pages/link_buttons.php:103
+#: pages/link_buttons.php:100
 msgid "Make your own!"
 msgstr ""
 
-#: pages/link_buttons.php:104
+#: pages/link_buttons.php:101
 #, php-format
 msgid ""
 "Make your own buttons and maybe we can host them along ours! Our <a href=\"%s"

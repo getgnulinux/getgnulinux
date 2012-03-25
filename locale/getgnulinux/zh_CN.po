@@ -6,13 +6,14 @@
 # GLM Websites Edition Team <websites@gnulinuxmatters.org>, 2008.
 #   <rainofchaos@gmail.com>, 2012.
 # Sayson Peng <saysonpeng@gmail.com>, 2011.
+# 家昌(Jason) 刘(Lau) <dotkrnl@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2012-03-19 15:34+0100\n"
-"PO-Revision-Date: 2012-03-19 14:26+0000\n"
-"Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
+"POT-Creation-Date: 2012-03-25 16:34+0200\n"
+"PO-Revision-Date: 2012-03-25 13:20+0000\n"
+"Last-Translator: Jason Lau <dotkrnl@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.net/projects/p/"
 "getgnulinux/language/zh_CN/)\n"
 "Language: zh_CN\n"
@@ -90,7 +91,7 @@ msgstr "限制"
 #: include/GetGNULinux.php:198
 #: pages/windows.restrictions.further_details.php:19
 msgid "More details on restrictions"
-msgstr ""
+msgstr "关于限制的更多细节"
 
 #. i18n: This title can be translated loosely
 #: include/GetGNULinux.php:200 include/HTML.php:220 include/HTML.php:241
@@ -246,7 +247,7 @@ msgstr "我们的博客"
 msgid "Terms of use"
 msgstr ""
 
-#: include/templates/footer.php:12 pages/more.php:89
+#: include/templates/footer.php:12 pages/link_buttons.php:96 pages/more.php:89
 msgid "Credits"
 msgstr "鸣谢"
 
@@ -346,7 +347,7 @@ msgstr "跳至目录"
 msgid "home page"
 msgstr "主页"
 
-#: pages/credits.php:204 pages/legal.php:132 pages/not_found.php:32
+#: pages/credits.php:215 pages/legal.php:132 pages/not_found.php:32
 msgid "Return to the Homepage"
 msgstr "返回主页"
 
@@ -395,16 +396,19 @@ msgstr ""
 msgid "Licensing"
 msgstr "许可协议"
 
-#: pages/link_buttons.php:93
+#. i18n: The link will automatically point to the "credits" page. Please leave the "#link_buttons" part as such; it is an internal link.
+#: pages/link_buttons.php:95
+#, php-format
 msgid ""
-"Some of these buttons contain material subjected to the following licensing:"
+"Some of these buttons contain material subjected to specific licenses. See "
+"the \"<a href=\"%s#link_buttons\">%s</a>\" page for details."
 msgstr ""
 
-#: pages/link_buttons.php:103
+#: pages/link_buttons.php:100
 msgid "Make your own!"
 msgstr ""
 
-#: pages/link_buttons.php:104
+#: pages/link_buttons.php:101
 #, php-format
 msgid ""
 "Make your own buttons and maybe we can host them along ours! Our <a href=\"%s"
@@ -1031,6 +1035,12 @@ msgid ""
 "PowerPoint format, and are really free (both as in freedom and as in price). "
 "And they run on Windows as well as on Linux."
 msgstr ""
+"可是，我们还有一套完整的、免费的、可靠的办公软件<a href=\"http://www."
+"openoffice.org/\">OpenOffice.org</a>！你也可以选择开源社区维护的<a href="
+"\"http://www.libreoffice.org/\">LibreOffice</a>——一个OpenOffice.org的分支——作"
+"为替代。它们可以轻易地打开你所有的Microsoft Word、Microsoft Excel和Microsoft "
+"PowerPoint文件，并且都FREE(在英语里面free双关免费和自由)。这两个软件都同时拥"
+"有Windows和Linux版本。"
 
 #: pages/linux.linux_faq.php:324
 msgid ""
@@ -2289,22 +2299,26 @@ msgid ""
 "website, or organise music; there's no need for $200 software with "
 "restrictive licenses."
 msgstr ""
+"在Linux下有丰富的免费软件可供您使用！比如编写论文、刻录音乐光盘、修整照片、设"
+"计网站或者整理音乐。您不需要购买一个价格高达200美元的、受限制的商业软件。"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:40
 msgid ""
 "The internal installer makes it incredibly easy to find, install and remove "
 "programs."
-msgstr ""
+msgstr "内置的软件安装工具使得寻找、安装或移除程序变得异常简便。"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:41
 msgid ""
 "It's also safe: you can forget the demo/trial crippled software, or harmful "
 "freeware polluting the web."
 msgstr ""
+"并且这很安全：你可以永远忘记那些残废的试用版软件，和泛滥于网络上的那些有害的"
+"免费软件。"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:43
 msgid "No fighting"
-msgstr ""
+msgstr "不再挣扎"
 
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:46
@@ -2326,6 +2340,8 @@ msgid ""
 "hard time getting rid of MSN Messenger, Windows Update notifications, or "
 "Clippit the paperclip, you'll find it refreshing."
 msgstr ""
+"并且Linux给予您选择是否使用一个软件的权力。如果您曾经被MSN、Windows Update通"
+"知或者Office大眼夹助手烦扰过，您会在Linux中找到属于您的清新。"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:51
 msgid "Security"
@@ -2341,6 +2357,8 @@ msgid ""
 "Forget expensive and restrictive anti-virus, anti-spyware, anti-anything and "
 "anti-everything. Linux is very, very secure."
 msgstr ""
+"永远忘记一切昂贵的、受束缚的杀毒软件、安全助手和平时使用Windows的小心翼翼吧。"
+"Linux将会给您一个安全的世界。"
 
 #. i18n: If you don't know of a link replacement in your languge, just leave the link as it is
 #: pages/switch_to_linux.from_windows_to_linux.php:58
@@ -2350,10 +2368,12 @@ msgid ""
 "~rick/faq/index.php?page=virus#virus\">but it's true</a>. Malicious programs "
 "have a hard time doing anything at all in a well-built system."
 msgstr ""
+"通常Windows用户都难以相信在Linux下<em>没有任何恶意软件和病毒</em>&mdash; <a "
+"href=\"http://linuxmafia.com/~rick/faq/index.php?page=virus#virus\">"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:59
 msgid "Regular, easy software updates will keep everyone entirely safe."
-msgstr ""
+msgstr "通常情况下，轻松完成的软件更新会让每个人都处于安全的保障下。"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:62
 msgid "Support"
@@ -2373,6 +2393,9 @@ msgid ""
 "there are a lot of people around to help you out. Our \"<a href=\"%s\">%s</a>"
 "\" page gives a few pointers."
 msgstr ""
+"Linux的优势来自于一群热心友善的社区成员，他们的亲切会让您感到无限的惊奇。如果"
+"您希望做一些复杂的事情却发现自己无能为力，在您身后，将会有无数的人愿意帮助"
+"您。我们的“<a href=\"%s\">%s</a>”页面举出了几个例子。"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:70
 msgid ""
@@ -2380,6 +2403,9 @@ msgid ""
 "\"http://www.canonical.com/\">Canonical</a> and <a href=\"http://www.redhat."
 "com/\">Red Hat</a>, also provide expert commercial support."
 msgstr ""
+"在GNU/Linux发行版背后的那些公司——比如<a href=\"http://www.canonical.com/"
+"\">Canonical</a>和<a href=\"http://www.redhat.com/\">Red Hat</a>——将会给您专"
+"家级的社区支持。"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:79
 msgid "What is mostly the same in Linux"
@@ -2413,6 +2439,8 @@ msgid ""
 "then you use programs in it to do different things. The taskbar and layout "
 "of applications will feel familiar to Windows or Mac OS users."
 msgstr ""
+"就像Windows一样，Linux在您打开您的计算机时需要引导启动，之后您就可以使用程序"
+"来做不同的事情。Linux的任务栏和布局会让Windows和Mac OS用户感到无比亲切。"
 
 #. i18n: The %s placeholder will automatically point to the screenshots page
 #: pages/switch_to_linux.from_windows_to_linux.php:90
@@ -2447,7 +2475,7 @@ msgstr "Linux 做得还不够好"
 #. i18n: translate "widely": the idea is more important than precision/exactitude here
 #: pages/switch_to_linux.from_windows_to_linux.php:114
 msgid "&quot;Never tell the truth to people who are not worthy of it.&quot;"
-msgstr ""
+msgstr "&quot;Never tell the truth to people who are not worthy of it.&quot;"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:115
 msgid "or:"
@@ -2455,11 +2483,11 @@ msgstr "或："
 
 #: pages/switch_to_linux.from_windows_to_linux.php:116
 msgid "&quot;Tell the truth and run.&quot;"
-msgstr ""
+msgstr "&quot;Tell the truth and run.&quot;"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:116
 msgid "&mdash; Yugoslavian proverb."
-msgstr ""
+msgstr "南斯拉夫谚语"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:120
 msgid "Driver support"
@@ -2475,6 +2503,7 @@ msgid ""
 "Manufacturers of computer hardware don't always (yet) release drivers for "
 "Linux or publicize full specifications."
 msgstr ""
+"计算机硬件制造商并不总(至少现在)放出Linux的驱动或者公开所有的技术规格，"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:125
 msgid ""
@@ -2483,10 +2512,12 @@ msgid ""
 "volunteers. Some are also released free of charge, but under restrictive "
 "licenses."
 msgstr ""
+"所以有时您可能无法找到高端显卡的最新驱动&mdash;有些驱动是由志愿者们从Windows"
+"驱动反编译得来的，而有些驱动是免费，但不自由的。"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:126
 msgid "Sadly, the same problem occurs with many low-end WiFi cards."
-msgstr ""
+msgstr "很不幸的，这个问题在一些低端无线网卡上也会出现。"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:127
 msgid ""
@@ -2494,15 +2525,17 @@ msgid ""
 "the box with main Linux distributions. Common hardware such as USB keys or "
 "photo cameras never are a problem."
 msgstr ""
+"不过，Linxu发行版可以在多数使用常见硬件的计算机下运行，通用硬件如U盘或者相机"
+"的使用在Linux下从无问题。"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:130
 msgid "DVDs, restricted formats"
-msgstr ""
+msgstr "受限制的DVD光盘"
 
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:133
 msgid "DVDs and restricted media"
-msgstr ""
+msgstr "DVD和受限制的多媒体文件"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:134
 msgid ""
@@ -2510,6 +2543,8 @@ msgid ""
 "this means, broadly speaking, that Linux programmers have to find out how to "
 "read them without any help from the format designers."
 msgstr ""
+"不少多媒体格式是受版权限制的，没有完全公开，而原作者也不愿意帮助Linux开发者解"
+"决这些问题。也就是说，通常Linux开发者需要独立找出读取它们的方法。"
 
 #. i18n: Please choose the wording of the DRM acronym according to the FSF terminology
 #: pages/switch_to_linux.from_windows_to_linux.php:137
@@ -2521,11 +2556,15 @@ msgid ""
 "circumvention processes may be illegal</em> even if you purchased your media "
 "entirely legally."
 msgstr ""
+"这可能导致您尽管可能已经合法地购买了它们，却不得不绕开一些DVD的限制和一些音乐"
+"文件的<acronym title=\"Digital Restrictions Management\">DRM</acronym>保护。"
+"很不幸，在一些地区<em>这种规避的行为可能是不合法的</em>，尽管您已经为它们付了"
+"钱。"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:138
 #: pages/switch_to_linux.from_windows_to_linux.php:150
 msgid "Read more in our Linux FAQ:"
-msgstr ""
+msgstr "在Linux FAQ中了解更多："
 
 #: pages/switch_to_linux.from_windows_to_linux.php:142
 msgid "Gaming"
@@ -2544,6 +2583,9 @@ msgid ""
 "world, which means that many well-known titles do not work on Linux, or need "
 "special restrictive emulators to work."
 msgstr ""
+"死忠的计算机游戏者们，可能要让您们失望了——在Linux下您会发现这个操作系统下的游"
+"戏有些不够专业或者过时了。游戏公司还没有对自由软件世界提起兴趣，许多知名的游"
+"戏或不能在Linux下运行，或者需要受限制的模拟器。"
 
 #. i18n: use localised link if possible, and contact us if you know better resources
 #: pages/switch_to_linux.from_windows_to_linux.php:149
@@ -2553,6 +2595,10 @@ msgid ""
 "free software. You can head to the <a href=\"http://ubuntuforums.org/"
 "forumdisplay.php?f=93\">Ubuntu gaming forum</a> to find more information."
 msgstr ""
+"但是在这个自由的世界，有一群向往自由的游戏开发者为自己的梦想奋斗着，他们开发"
+"了一些高质量的游戏，除了2D外也不乏3D的作品，并且都是自由的！你可以在<a href="
+"\"http://ubuntuforums.org/forumdisplay.php?f=93\">Ubuntu游戏论坛</a>了解更多"
+"的信息。"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:154
 msgid "Hibernating"
@@ -2569,6 +2615,8 @@ msgid ""
 "most common occurrence is the loss of WiFi connection after hibernating on "
 "laptops whose hardware drivers are not free."
 msgstr ""
+"因为上面所述的问题，休眠并不总是稳定的。如果您笔记本的驱动不是自由的，在休眠"
+"后您可能会断开与无线网络的连接。"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:169
 msgid "Conclusion"
@@ -2579,6 +2627,7 @@ msgid ""
 "Whether you are going to enjoy Linux depends mostly on what you expect from "
 "it."
 msgstr ""
+"如果Linux的特性正好能满足您的需求，恭喜您，您将在这个自由的世界里找到乐趣："
 
 #. i18n: Use a localised version of the "Linux is Not Windows" article if possible. The following page contains links to localised versions: http://geekblog.oneandoneis2.org/index.php/2005/12/31/derived_works_aamp_translations
 #: pages/switch_to_linux.from_windows_to_linux.php:174
@@ -2590,6 +2639,10 @@ msgid ""
 "system. These differences lead to variety, which is what makes Linux so "
 "special and interesting."
 msgstr ""
+"如果您希望Linux于Windows完全相同，您可能会失望了。GNU/Linux是由一群<a href="
+"\"http://linux.oneandoneis2.org/LNW.htm\">希望有所个性</a>的人建立的。在开源"
+"社区中，每个人都有对理想操作系统的不同的向往，也正是因为这样，才有了五彩斑斓"
+"的Linux世界。"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:175
 msgid ""
@@ -2597,6 +2650,8 @@ msgid ""
 "software on which you may exert this freedom. Using GNU/Linux is the easiest "
 "way to do so fully."
 msgstr ""
+"您的自由是我们最大的希望。千千万万的社区和公司为了您对自由的需求不懈奋斗着。"
+"使用GNU/Linux会让您感受到真正的自由。"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:176
 msgid ""
@@ -2604,12 +2659,16 @@ msgid ""
 "demos that expire, or finding software that is really free as in freedom, "
 "makes using a computer suddenly very enjoyable."
 msgstr ""
+"这太有趣了！希望拥有这样一个操作系统吗？——没有任何恶意软件，没有任何病毒，没"
+"有注册，没有试用！自由地寻找自由的软件吧，让使用计算机突然充满乐趣！"
 
 #: pages/switch_to_linux.from_windows_to_linux.php:178
 msgid ""
 "We hope you'll switch soon. There's a large community waiting, and no one in "
 "it asking you to &quot;sign up, purchase and register&quot;."
 msgstr ""
+"我们期待着您来到Linux阵营中，这里广大的社区在等待着您。没有人会要求您购买，没"
+"有人会强迫您注册！"
 
 #. i18n: We try to be friendly and inviting here. This does not have to be translated very precisely.
 #: pages/switch_to_linux.from_windows_to_linux.php:188
@@ -2635,6 +2694,9 @@ msgid ""
 "\" title=\"Linux Desktops and Laptops\">purchase a PC with Linux pre-"
 "installed</a>, you can see what freedom looks like on your computer."
 msgstr ""
+"按照下面的步骤&ndash;除非您希望<a href=\"http://linuxpreloaded.com/\" title="
+"\"Linux台式机和笔记本\">购买一台预装了Linux的计算机</a>&ndash;您会感受到您的"
+"计算机给您带来的自由的乐趣。"
 
 #: pages/switch_to_linux.try_or_install.php:25
 msgid "Try out: the live CD"
@@ -2659,6 +2721,8 @@ msgid ""
 "(without accessing the hard drive inside). You can launch all of the default "
 "programs, edit documents, and browse the web."
 msgstr ""
+"当您运行在一个live CD上时，并不会修改您硬盘上的任何东西(仅仅使用您的光驱)。您"
+"可以运行所有的默认软件、编辑文档或者浏览网页。"
 
 #: pages/switch_to_linux.try_or_install.php:31
 msgid ""
@@ -2666,6 +2730,8 @@ msgid ""
 "you five minutes to boot up, and programs launch somewhat slowly). If you "
 "proceed to install, the system will go much faster."
 msgstr ""
+"因为这被设计为试用模式，所以可能有一点点慢(您可能需要几分钟的时间来启动操作系"
+"统，并且运行软件会有点慢)。如果您安装在您的计算机上会快很多。"
 
 #: pages/switch_to_linux.try_or_install.php:34
 #: pages/switch_to_linux.try_or_install.php:51
@@ -2679,6 +2745,9 @@ msgid ""
 "feel confident simply using Windows from time to time, then this is within "
 "your reach."
 msgstr ""
+"使用一个live CD只需要您有一点点的好奇心和几十分钟的空闲时间， <strong>并不需"
+"要您对计算机有专业了解</strong>。如果您在日常生活中能够简单地使用Windows操作"
+"系统，那么这对您来说也是简单至极。"
 
 #: pages/switch_to_linux.try_or_install.php:45
 msgid "Installing as a dual boot"
@@ -2728,7 +2797,7 @@ msgstr "获取需要的 CD"
 msgid ""
 "For the distributions we recommend, the live CD is the same as the "
 "installation CD."
-msgstr ""
+msgstr "我们举例的这几个发行版，live CD和安装光盘没有被分开。"
 
 #: pages/switch_to_linux.try_or_install.php:70
 msgid "Download Ubuntu"
@@ -2740,6 +2809,8 @@ msgid ""
 "href=\"https://help.ubuntu.com/community/BurningIsoHowto\">burn it to a CD</"
 "a>."
 msgstr ""
+"您可以下载一个<code>ISO</code>镜像(有点大)然后<a href=\"https://help.ubuntu."
+"com/community/BurningIsoHowto\">刻录到CD中</a>"
 
 #: pages/switch_to_linux.try_or_install.php:80
 msgid "Download Fedora"
@@ -2751,6 +2822,8 @@ msgid ""
 "download the DVD, which cannot act as live CD but permits speedier "
 "installation."
 msgstr ""
+"Fedora live CD可以用来完成安装，但如果您希望能够更快地完成，您也可以选择下载"
+"一个DVD。"
 
 #: pages/switch_to_linux.try_or_install.php:90
 msgid "Download Trisquel"
@@ -2766,6 +2839,9 @@ msgid ""
 "\"http://www.softwareliberty.com/\" title=\"What do you mean, free?\">free "
 "software</a>. You are simply paying a handling/shipping fee."
 msgstr ""
+"注: 购买一个光盘和下载一个镜像是一样的！GNU/Linux是<a href=\"http://www."
+"softwareliberty.com/\" title=\"什么？自由免费？\">免费的自由软件</a>——当然如"
+"果您需要一张光盘，我们只收取邮寄的费用。"
 
 #: pages/switch_to_linux.try_or_install.php:103
 msgid "Free Software pre-installed"
@@ -2780,6 +2856,10 @@ msgid ""
 "com/\">a list of vendors pre-installing Linux at LinuxPreloaded.com</a> just "
 "for that reason."
 msgstr ""
+"并不是所有的计算机都是附带着Windows销售的。如果您并不想自己安装，或者您正好需"
+"要购买新的计算机，您可以选择购买一台预装着GNU/Linux的台式机或者笔记本。我们为"
+"您列出了<a title=\"linux computers\" href=\"http://linuxpreloaded.com/\">一个"
+"预装Linux操作系统的计算机厂商列表</a>。"
 
 #: pages/windows.php:19
 msgid "Windows and Office work fine &mdash; Why worry about it?"
@@ -2857,6 +2937,8 @@ msgid ""
 "freedom, not price: the freedoms to inspect, learn from, modify the software "
 "you use."
 msgstr ""
+"一个自由的社区需要自由的软件。想想这样一个自由的世界吧——您可以自由地查看软件"
+"的每个细节、从中学习甚至自由修改您使用的软件。"
 
 #: pages/windows.php:71
 msgid ""
@@ -2917,10 +2999,12 @@ msgid ""
 "moved many of the license restrictions out here. Here is the fine print "
 "inside the Microsoft licenses."
 msgstr ""
+"我们希望我们的\"<a href=\"%s\">限制</a>\"页面尽量简短，所以我们把许多的许可证"
+"限制移到了这里。这些是微软许可证内的细节："
 
 #: pages/windows.restrictions.further_details.php:26
 msgid "It is unclear who can use, receive or buy your software."
-msgstr ""
+msgstr "谁可以使用、接收或者购买您拥有的软件由微软说的算"
 
 #: pages/windows.restrictions.further_details.php:28
 msgid ""
@@ -2929,6 +3013,9 @@ msgid ""
 "license suggest it would be illegal to let your neighbour type a letter with "
 "your version of Word on your computer."
 msgstr ""
+"这份许可证在谁可以或者谁不可以使用您的Windows或者Office的问题上含糊不清。在"
+"Microsoft Office许可证中的几个句子表明了您的邻居使用您计算机上的Word程序来打"
+"一封信是非法行为。"
 
 #: pages/windows.restrictions.further_details.php:29
 msgid ""
@@ -2940,12 +3027,15 @@ msgid ""
 "it anymore, even if you buy the latest software version with your new "
 "computer."
 msgstr ""
+"非常明显的，根据Microsoft Windows许可证，您<em>只</em>可以在您<strong>从微软"
+"处获得此拷贝的情况下</strong>将其出售。也就意味着，如果您的操作系统是二手的或"
+"者您的操作系统被预装于计算机中，您就不能将其转售，即使您再也不使用它。"
 
 #: pages/windows.restrictions.further_details.php:35
 msgid ""
 "You may not lease, lend or provide commercial hosting services with the "
 "software"
-msgstr ""
+msgstr "您不能将这个软件租借出去或者用其提供商业服务"
 
 #: pages/windows.restrictions.further_details.php:36
 msgid ""
@@ -2953,10 +3043,12 @@ msgid ""
 "the service or not, and whether you use a &quot;Professional&quot; license "
 "or not."
 msgstr ""
+"您不能让专业人士使用您的软件：无论他们是否购买过，也无论您是否拥有一个&quot;"
+"专业&quot;授权。"
 
 #: pages/windows.restrictions.further_details.php:41
 msgid "The upgrade is only valid for the first license you use it on"
-msgstr ""
+msgstr "您只能在您第一台授权的计算机上享受更新"
 
 #: pages/windows.restrictions.further_details.php:42
 msgid ""
@@ -2964,10 +3056,12 @@ msgid ""
 "on stops working), so does the upgrade. If you purchase an upgrade, you are "
 "not allowed to use the original software version anymore."
 msgstr ""
+"如果最初的授权过期了(比如因为您的计算机坏了)，那么您也将永久失去您的更新。如"
+"果您为升级付了款，原有的旧软件您也无法再使用。"
 
 #: pages/windows.restrictions.further_details.php:46
 msgid "Educational versions are crippled"
-msgstr ""
+msgstr "教育版是残废的"
 
 #: pages/windows.restrictions.further_details.php:47
 msgid ""
