@@ -98,7 +98,7 @@ class GetGNULinux {
             'tr' => array('tr_TR.UTF-8',"Türkçe", 0.13),
             'uk' => array('uk_UA.UTF-8',"Українська", 0.41),
             'vi' => array('vi_VN'      ,"Tiếng Việt", 0.49),
-            'zh' => array('zh_CN.UTF-8',"中文", 1),
+            'zh' => array('zh_CN.UTF-8',"中文(简)", 1),
             )
         );
 
