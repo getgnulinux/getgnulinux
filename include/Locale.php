@@ -16,6 +16,12 @@
  */
 
 /**
+ * Load PEAR's HTTP module which provides HTTP::negotiateLanguage.
+ */
+#require_once 'HTTP.php';
+#$http = new HTTP();
+
+/**
  * Sets global variable $lang to negotiated language.
  * Languages for which the translation is not completed ($percent=1) are not
  * selected, except if it's an override language.
@@ -32,6 +38,7 @@
  */
 function locale_negotiate_language($available_languages, $override_langage=NULL) {
     global $langs, $langmap, $lang;
+    #global $http;
 
     $langs = array(); $langmap = array();
     foreach ($available_languages as $code => $items) {
@@ -39,12 +46,15 @@ function locale_negotiate_language($available_languages, $override_langage=NULL)
         if ($percent < 1 && $code != $override_langage) {
             continue;
         }
+        #preg_match('/^([a-zA-Z_]+)./', $locale, $matches);
+        #$code = strtolower(str_replace('_','-',$matches[1]));
         $langs[$code] = $native;
         $langmap[$code] = $locale;
     }
     if ($override_langage && array_key_exists($override_langage, $langs)) {
         $lang = $override_langage;
     } else {
+        #$lang = $http->negotiateLanguage($langs); # PEAR's HTTP::negotiateLanguage
         $lang = negotiateLanguage($langs); # local copy, see further down this file
         if (!$lang || !array_key_exists($lang, $langmap)) {
             $lang = NULL;
