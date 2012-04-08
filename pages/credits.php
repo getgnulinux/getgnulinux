@@ -165,6 +165,10 @@ Anthony Verez, <a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAa
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/xseris/">Simone Sandri</a>,
 <a href="https://www.transifex.net/accounts/profile/jeckodevelopment/">Luca Marzo</a> and others.</p>
 
+<h3>Polish:</h3>
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/poczciwiec/">poczciwiec</a> and
+<a href="https://www.transifex.net/accounts/profile/penknife/">Bogusław</a>.</p>
+
 <h3>Russian:</h3>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/vst/">V'yacheslav Stetskevych</a>.</p>
 
