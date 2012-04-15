@@ -12,20 +12,11 @@ do
 
     echo "Processing locale: $locale"
     # Get the language code (part before the _) from the locale code.
-    lang=`echo ${locale} | awk -F_ '{print $1}'`
+    #lang=`echo ${locale} | awk -F_ '{print $1}'`
     # Set the locations of the files.
     mo=LOCALE_DIR/$locale/LC_MESSAGES/DOMAIN.mo
-    po=LOCALE_DIR/DOMAIN/$lang.po
-    po_updated=LOCALE_DIR/DOMAIN/merge/$lang.po
-
-    # Chinese exists in Launchpad only as three variants:
-    # Simplified Chinese (zh_CN), Traditional Chinese (zh_TW) and Hong Kong Chinese (zh_HK).
-    # So we use the full locale code instead of just the language code.
-    if [ $lang == "zh" ];
-    then
-        po=LOCALE_DIR/DOMAIN/$locale.po
-        po_updated=LOCALE_DIR/DOMAIN/merge/$locale.po
-    fi
+    po=LOCALE_DIR/DOMAIN/$locale.po
+    po_updated=LOCALE_DIR/DOMAIN/merge/$locale.po
 
     # Create missing directories.
     if [ ! -d LOCALE_DIR/$locale/LC_MESSAGES ];

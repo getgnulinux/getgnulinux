@@ -13,6 +13,12 @@ ErrorDocument 404 /not_found/
     RewriteRule ^([a-z]{2,3})/([a-z_]+)/?$ /index.php?l=$1&p=$2 [L]
     RewriteRule ^([a-z]{2,3})/?$ /index.php?l=$1 [L]
 
+    # Rewrite rules for URL's with a dialect specific language code.
+    RewriteRule ^([a-z]{2,3}-[a-z]{2})/([a-z_]+)/([a-z_]+)/([a-z_]+)/?$ /index.php?l=$1&p=$2.$3.$4 [L]
+    RewriteRule ^([a-z]{2,3}-[a-z]{2})/([a-z_]+)/([a-z_]+)/?$ /index.php?l=$1&p=$2.$3 [L]
+    RewriteRule ^([a-z]{2,3}-[a-z]{2})/([a-z_]+)/?$ /index.php?l=$1&p=$2 [L]
+    RewriteRule ^([a-z]{2,3}-[a-z]{2})/?$ /index.php?l=$1 [L]
+
     # Rewrite rules for URL's without a language code.
     RewriteRule ^([a-z_]+)/([a-z_]+)/([a-z_]+)/?$ /index.php?p=$1.$2.$3 [L]
     RewriteRule ^([a-z_]+)/([a-z_]+)/?$ /index.php?p=$1.$2 [L]
