@@ -58,7 +58,7 @@ pot:
 	@echo "Build finished. The PO Template File: $(template)"
 
 # Build PO file for each locale. Requires that the PO Template file is present.
-po: pot
+po:
 	cp scripts/make-po.sh.in make-po.sh
 	sed --in-place make-po.sh --expression=s/LOCALES/"$(LOCALES)"/
 	sed --in-place make-po.sh --expression=s/LOCALE_DIR/$(LOCALE_DIR)/
