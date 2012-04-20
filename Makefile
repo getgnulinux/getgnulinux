@@ -28,17 +28,17 @@ help:
 	@echo "  pot            to make the PO Template file $(DOMAIN).pot"
 	@echo "  po             to create new PO files or to update existing PO files"
 	@echo "  push           to update the development branch for getgnulinux on Launchpad"
+	@echo "  rmpot          to remove the PO Template file $(DOMAIN).pot"
 
-# Create settings.php.
+# Make settings.php.
 settings.php:
 	cp include/templates/settings.php settings.php
 	@echo
 	@echo "Done. Now open settings.php in a text editor and change its settings."
 
-config: settings.php
-
-# Make the PO Template file.
-pot:
+# Make the PO Template file. In order to update the POT file, the file needs
+# to be removed with `make rmpot' first.
+$(template):
 	xgettext -caiF --add-comments=i18n --force-po \
 	--default-domain=$(DOMAIN) \
 	--copyright-holder="GNU/Linux Matters" \
@@ -57,8 +57,18 @@ pot:
 	@echo
 	@echo "Build finished. The PO Template File: $(template)"
 
+# Make settings file.
+config: settings.php
+
+# Make POT file.
+pot: $(template)
+
+# Remove POT file.
+rmpot:
+	@rm -i $(template)
+
 # Build PO file for each locale. Requires that the PO Template file is present.
-po:
+po: $(template)
 	cp scripts/make-po.sh.in make-po.sh
 	sed --in-place make-po.sh --expression=s/LOCALES/"$(LOCALES)"/
 	sed --in-place make-po.sh --expression=s/LOCALE_DIR/$(LOCALE_DIR)/
