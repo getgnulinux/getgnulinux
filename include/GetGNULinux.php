@@ -84,6 +84,7 @@ class GetGNULinux {
             'en' => array('en_US.UTF-8',"English", 1),
             'eo' => array('eo.UTF-8'   ,"Esperanto", 0.26),
             'es' => array('es_ES.UTF-8',"Español", 0.66),
+            'fi' => array('fi_FI.UTF-8',"Suomi", 0.11),
             'fr' => array('fr_FR.UTF-8',"Français", 0.69),
             'gl' => array('gl_ES.UTF-8',"Galego", 0.02),
             'he' => array('he_IL.UTF-8',"עִבְרִית", 1),

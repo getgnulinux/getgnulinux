@@ -148,6 +148,9 @@ and others.</p>
 <a href="https://www.transifex.net/accounts/profile/damirmf/">Damir</a>,
 and <a href="https://www.transifex.net/accounts/profile/fenris/">fenris</a>.</p>
 
+<h3>Finnish:</h3>
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/jsonic/">Juhani Numminen</a>.
+
 <h3>French:</h3>
 <p class="tab"><a href="http://www.ariadacapo.net/">Olivier Cleynen</a>,
 Bruno Bord, Loïs Di Qual, Bruno Ethvignot, Thiébaut Hillenweck,
