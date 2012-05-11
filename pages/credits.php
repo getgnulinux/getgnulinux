@@ -133,7 +133,7 @@ following sources, according to their respective copyright licenses:</p>
 and the <a href="http://softastur.org/">Softastur translators team</a>.</p>
 
 <h3>Catalan:</h3>
-<p class="tab"><a href="http://cortsenc.bloc.cat/">Oriol Piera</a>,
+<p class="tab"><a href="http://cortsenc.bloc.cat/">Oriol Piera</a>
 and <a href="http://rcarreras.blogspot.com/">Rafael Carreras</a>.</p>
 
 <h3>Chinese:</h3>
@@ -156,11 +156,12 @@ and <a href="https://www.transifex.net/accounts/profile/fenris/">fenris</a>.</p>
 Bruno Bord, Loïs Di Qual, Bruno Ethvignot, Thiébaut Hillenweck,
 Joseph Maillardert, Laurent Richard,
 <a href="https://www.transifex.net/accounts/profile/MagicFab/">Fabián Rodríguez</a>,
-Anthony Verez,<a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a>,
+Anthony Verez,
+<a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a>,
 and <a href="https://www.transifex.net/accounts/profile/nh2amine/">nh2amine</a>.</p>
 
 <h3>Galician:</h3>
-<p class="tab"><a href="https://www.transifex.net/accounts/profile/mmeixide/">manuel meixide</a>,
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/mmeixide/">manuel meixide</a>
 and <a href="https://www.transifex.net/accounts/profile/oisempreceibes/">Iago Oi</a>.
 
 <h3>German:</h3>
@@ -169,31 +170,37 @@ and <a href="https://www.transifex.net/accounts/profile/oisempreceibes/">Iago Oi
 and others.</p>
 
 <h3>Hebrew:</h3>
-<p class="tab"><a href="https://www.transifex.net/accounts/profile/Yaron/">Yaron Shahrabani</a>,
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/Yaron/">Yaron Shahrabani</a>
 and proofreading by Oren B.</p>
 
 <h3>Interlingua:</h3>
-<p class="tab"><a href="https://www.transifex.net/accounts/profile/Funkin/">Emilio Sepúlveda</a>,
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/Funkin/">Emilio Sepúlveda</a>
 and <a href="https://www.transifex.net/accounts/profile/McDutchie/">McDutchie</a>.</p>
 
 <h3>Italian:</h3>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/xseris/">Simone Sandri</a>,
 <a href="https://www.transifex.net/accounts/profile/jeckodevelopment/">Luca Marzo</a>,
+<a href="https://www.transifex.net/accounts/profile/OpenCode/">Francesco Apruzzese</a>
 and others.</p>
 
 <h3>Polish:</h3>
-<p class="tab"><a href="https://www.transifex.net/accounts/profile/poczciwiec/">poczciwiec</a>,
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/poczciwiec/">poczciwiec</a>
 and <a href="https://www.transifex.net/accounts/profile/penknife/">Bogusław</a>.</p>
 
 <h3>Portuguese (Brazil):</h3>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/slackhideo/">Tiago</a>,
 <a href="https://www.transifex.net/accounts/profile/heuripedes/">Higor</a>,
 <a href="https://www.transifex.net/accounts/profile/nadiastabile/">Nadia Stabile</a>,
-and <a href="https://www.transifex.net/accounts/profile/bruno_b/">Bruno Bacelar</a>.
+<a href="https://www.transifex.net/accounts/profile/bruno_b/">Bruno Bacelar</a>,
+<a href="https://www.transifex.net/accounts/profile/JulioMario/">Julio Mario Jr.</a>,
+and <a href="https://www.transifex.net/accounts/profile/ezequiel.ezb/">Ezequiel Santos</a>.
 </p>
 
 <h3>Russian:</h3>
-<p class="tab"><a href="https://www.transifex.net/accounts/profile/vst/">V'yacheslav Stetskevych</a>.</p>
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/vst/">V'yacheslav Stetskevych</a>,
+<a href="https://www.transifex.net/accounts/profile/Alissa/">Alissa</a>,
+and <a href="https://www.transifex.net/accounts/profile/player1_76/">Фёдор Ходьков</a>.
+</p>
 
 <h3>Spanish:</h3>
 <p class="tab"><a href="http://gustavonarea.name/">Gustavo Narea</a>,
@@ -201,10 +208,12 @@ Jonathan H. Fernández, Martín Carr, Miguel L. García,
 and <a href="https://www.transifex.net/accounts/profile/Funkin/">Emilio Sepúlveda</a>.</p>
 
 <h3>Turkish:</h3>
-<p class="tab"><a href="https://www.transifex.net/accounts/profile/zeugma/">zeugma</a>.</p>
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/zeugma/">zeugma</a>
+and <a href="https://www.transifex.net/accounts/profile/necdetyucel/">Necdet Yücel</a>.
+</p>
 
 <h3>Ukrainian:</h3>
-<p class="tab"><a href="https://www.transifex.net/accounts/profile/vst/">V'yacheslav Stetskevych</a>,
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/vst/">V'yacheslav Stetskevych</a>
 and <a href="https://www.transifex.net/accounts/profile/Rostyslav/">Ростислав</a>.</p>
 
 <h3>Vietnamese:</h3>
