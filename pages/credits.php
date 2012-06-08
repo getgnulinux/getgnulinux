@@ -158,7 +158,8 @@ Joseph Maillardert, Laurent Richard,
 <a href="https://www.transifex.net/accounts/profile/MagicFab/">Fabián Rodríguez</a>,
 Anthony Verez,
 <a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a>,
-and <a href="https://www.transifex.net/accounts/profile/nh2amine/">nh2amine</a>.</p>
+<a href="https://www.transifex.net/accounts/profile/nh2amine/">nh2amine</a>,
+and <a href="https://www.transifex.net/accounts/profile/lkppo/">Stéphane Aulery</a>.</p>
 
 <h3>Galician:</h3>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/mmeixide/">manuel meixide</a>
