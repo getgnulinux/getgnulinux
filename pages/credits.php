@@ -125,7 +125,8 @@ following sources, according to their respective copyright licenses:</p>
 <h2 id="translators">Translation</h2>
 
 <h3>Arabic:</h3>
-<p class="tab">Hassan Ibraheem.</p>
+<p class="tab">Hassan Ibraheem
+and <a href="https://www.transifex.net/accounts/profile/malhargan/">Mohammad Alhargan</a>.</p>
 
 <h3>Asturian:</h3>
 <p class="tab"><a href="http://blogs.altuxa.com/tapaponga/">Iñigo Varela</a>,
