@@ -76,7 +76,7 @@ class GetGNULinux {
         'dir' => "ltr",
         'gettext_domain' => "getgnulinux",
         'locales' => array(
-            'ar' => array('ar_SA.UTF-8',"العربية", 0.42),
+            'ar' => array('ar_SA.UTF-8',"العربية", 0.50),
             'ast' => array('ast_ES.UTF-8',"Asturianu", 1),
             'ca' => array('ca_AD.UTF-8',"Català", 0.56),
             'da' => array('da_DK.UTF-8',"Dansk", 0.07),
@@ -96,7 +96,7 @@ class GetGNULinux {
             'nl' => array('nl_NL.UTF-8',"Nederlands", 0.32),
             'pl' => array('pl_PL.UTF-8',"Polski", 0.11),
             'pt' => array('pt_PT.UTF-8',"Português", 0.19),
-            'pt-br' => array('pt_BR.UTF-8',"Português Brasileiro", 0.86),
+            'pt-br' => array('pt_BR.UTF-8',"Português Brasileiro", 0.87),
             'ru' => array('ru_RU.UTF-8',"Русский", 0.84),
             'sr' => array('sr_RS'      ,"Српски", 0.06),
             'tr' => array('tr_TR.UTF-8',"Türkçe", 0.16),
