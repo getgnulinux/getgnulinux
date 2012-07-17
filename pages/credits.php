@@ -195,7 +195,8 @@ and <a href="https://www.transifex.net/accounts/profile/penknife/">Bogusław</a>
 <a href="https://www.transifex.net/accounts/profile/nadiastabile/">Nadia Stabile</a>,
 <a href="https://www.transifex.net/accounts/profile/bruno_b/">Bruno Bacelar</a>,
 <a href="https://www.transifex.net/accounts/profile/JulioMario/">Julio Mario Jr.</a>,
-and <a href="https://www.transifex.net/accounts/profile/ezequiel.ezb/">Ezequiel Santos</a>.
+<a href="https://www.transifex.net/accounts/profile/ezequiel.ezb/">Ezequiel Santos</a>,
+and <a href="https://www.transifex.com/accounts/profile/rafaelff1/">Rafael Ferreira</a>.
 </p>
 
 <h3>Russian:</h3>
