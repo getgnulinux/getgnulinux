@@ -96,7 +96,7 @@ class GetGNULinux {
             'nl' => array('nl_NL.UTF-8',"Nederlands", 0.32),
             'pl' => array('pl_PL.UTF-8',"Polski", 0.11),
             'pt' => array('pt_PT.UTF-8',"Português", 0.19),
-            'pt-br' => array('pt_BR.UTF-8',"Português Brasileiro", 0.87),
+            'pt-br' => array('pt_BR.UTF-8',"Português Brasileiro", 1),
             'ru' => array('ru_RU.UTF-8',"Русский", 0.84),
             'sr' => array('sr_RS'      ,"Српски", 0.06),
             'tr' => array('tr_TR.UTF-8',"Türkçe", 0.16),
