@@ -163,12 +163,13 @@ Anthony Verez,
 and <a href="https://www.transifex.net/accounts/profile/lkppo/">Stéphane Aulery</a>.</p>
 
 <h3>Galician:</h3>
-<p class="tab"><a href="https://www.transifex.net/accounts/profile/mmeixide/">manuel meixide</a>
+<p class="tab"><a href="https://www.transifex.net/accounts/profile/mmeixide/">Manuel Meixide</a>
 and <a href="https://www.transifex.net/accounts/profile/oisempreceibes/">Iago Oi</a>.
 
 <h3>German:</h3>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a>,
 <a href="https://www.transifex.net/accounts/profile/monoto/">monoto</a>,
+<a href="https://www.transifex.com/accounts/profile/ToBeFree/">Tobias Frei</a>,
 and others.</p>
 
 <h3>Hebrew:</h3>
@@ -182,8 +183,12 @@ and <a href="https://www.transifex.net/accounts/profile/McDutchie/">McDutchie</a
 <h3>Italian:</h3>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/xseris/">Simone Sandri</a>,
 <a href="https://www.transifex.net/accounts/profile/jeckodevelopment/">Luca Marzo</a>,
-<a href="https://www.transifex.net/accounts/profile/OpenCode/">Francesco Apruzzese</a>
+<a href="https://www.transifex.net/accounts/profile/OpenCode/">Francesco Apruzzese</a>,
+<a href="https://www.transifex.com/accounts/profile/pappi_/">Giuseppe Pappalardo</a>,
 and others.</p>
+
+<h3>Lithuanian:</h3>
+<p class="tab"><a href="https://www.transifex.com/accounts/profile/noTime/">Tadas Domarkas</a>.</p>
 
 <h3>Polish:</h3>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/poczciwiec/">poczciwiec</a>
@@ -208,7 +213,8 @@ and <a href="https://www.transifex.net/accounts/profile/player1_76/">Фёдор 
 <h3>Spanish:</h3>
 <p class="tab"><a href="http://gustavonarea.name/">Gustavo Narea</a>,
 Jonathan H. Fernández, Martín Carr, Miguel L. García,
-and <a href="https://www.transifex.net/accounts/profile/Funkin/">Emilio Sepúlveda</a>.</p>
+<a href="https://www.transifex.net/accounts/profile/Funkin/">Emilio Sepúlveda</a>,
+and <a href="https://www.transifex.com/accounts/profile/technoguyx/">Bastián Núñez</a>.</p>
 
 <h3>Turkish:</h3>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/zeugma/">zeugma</a>
