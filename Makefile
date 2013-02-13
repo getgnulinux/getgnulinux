@@ -26,7 +26,7 @@ help:
 	@echo "  config         to create the settings.php file"
 	@echo "  localesgen     to generate the required locale definition files for your system"
 	@echo "  pot            to make the PO Template file $(DOMAIN).pot"
-	@echo "  po             to create new PO files or to update existing PO files"
+	@echo "  mo             to update the PO files from the template and build binary MO files"
 	@echo "  push           to update the development branch for getgnulinux on Launchpad"
 	@echo "  rmpot          to remove the PO Template file $(DOMAIN).pot"
 
@@ -67,8 +67,8 @@ pot: $(template)
 rmpot:
 	@rm -i $(template)
 
-# Build PO file for each locale. Requires that the PO Template file is present.
-po: $(template)
+# Update the PO files from the template and build binary MO file for each locale.
+mo: $(template)
 	cp scripts/make-po.sh.in make-po.sh
 	sed --in-place make-po.sh --expression=s/LOCALES/"$(LOCALES)"/
 	sed --in-place make-po.sh --expression=s/LOCALE_DIR/$(LOCALE_DIR)/

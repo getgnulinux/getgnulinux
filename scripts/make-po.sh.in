@@ -16,7 +16,6 @@ do
     # Set the locations of the files.
     mo=LOCALE_DIR/$locale/LC_MESSAGES/DOMAIN.mo
     po=LOCALE_DIR/DOMAIN/$locale.po
-    po_updated=LOCALE_DIR/DOMAIN/merge/$locale.po
 
     # Create missing directories.
     if [ ! -d LOCALE_DIR/$locale/LC_MESSAGES ];
