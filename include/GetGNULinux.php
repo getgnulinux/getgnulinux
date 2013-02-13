@@ -92,6 +92,7 @@ class GetGNULinux {
             'ia' => array('ia'         ,"Interlingua", 0.30),
             'it' => array('it_IT.UTF-8',"Italiano", 0.74),
             'ja' => array('ja_JP.UTF-8',"日本語", 0.01),
+            'lt' => array('lt_LT.UTF-8',"Lietuvių", 0.28),
             'ml' => array('ml_IN'      ,"മലയാളം", 0.17),
             'nl' => array('nl_NL.UTF-8',"Nederlands", 0.32),
             'pl' => array('pl_PL.UTF-8',"Polski", 0.11),
