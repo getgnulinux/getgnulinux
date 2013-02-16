@@ -211,7 +211,7 @@ and <a href="https://www.transifex.net/accounts/profile/player1_76/">Фёдор 
 </p>
 
 <h3>Spanish:</h3>
-<p class="tab"><a href="http://gustavonarea.name/">Gustavo Narea</a>,
+<p class="tab"><a href="http://gustavonarea.net/">Gustavo Narea</a>,
 Jonathan H. Fernández, Martín Carr, Miguel L. García,
 <a href="https://www.transifex.net/accounts/profile/Funkin/">Emilio Sepúlveda</a>,
 and <a href="https://www.transifex.com/accounts/profile/technoguyx/">Bastián Núñez</a>.</p>
