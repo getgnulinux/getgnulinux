@@ -19,7 +19,7 @@ template=$(LOCALE_DIR)/$(DOMAIN)/$(DOMAIN).pot
 utf8_locales=ia ml_IN sr_RS vi_VN
 
 # Phony targets.
-.PHONY : help config pot po push localesgen
+.PHONY : help config pot rmpot mo localesgen
 
 help:
 	@echo "Please use \`make <target>' where <target> is one of"
@@ -27,7 +27,6 @@ help:
 	@echo "  localesgen     to generate the required locale definition files for your system"
 	@echo "  pot            to make the PO Template file $(DOMAIN).pot"
 	@echo "  mo             to update the PO files from the template and build binary MO files"
-	@echo "  push           to update the development branch for getgnulinux on Launchpad"
 	@echo "  rmpot          to remove the PO Template file $(DOMAIN).pot"
 
 # Make settings.php.
@@ -44,18 +43,18 @@ $(template):
 	--copyright-holder="GNU/Linux Matters" \
 	--package-name="getgnulinux" \
 	--package-version=0.0.1 \
-	--msgid-bugs-address="https://bugs.launchpad.net/getgnulinux" \
+	--msgid-bugs-address="https://github.com/figure002/getgnulinux/issues" \
 	--from-code=UTF-8 -k_ \
 	-o $(template) $(INCLUDE_DIR)/*.php $(INCLUDE_DIR)/templates/*.php $(PAGES_DIR)/*.php
 	msguniq -o $(template) $(template)
-	sed --in-place "$(template)" --expression=s/"SOME DESCRIPTIVE TITLE."/"Translation file for the GetGNULinux.org website."/
+	sed --in-place "$(template)" --expression=s/"SOME DESCRIPTIVE TITLE."/"Translation file for the getgnulinux.org website."/
 	sed --in-place "$(template)" --expression=s/PACKAGE/getgnulinux/
 	sed --in-place "$(template)" --expression=s/"Copyright (C) YEAR"/"Copyright (C) 2006-2010"/
 	sed --in-place "$(template)" --expression=s/"FIRST AUTHOR <EMAIL@ADDRESS>, YEAR"/"GLM Websites Edition Team <websites@gnulinuxmatters.org>, 2008"/
 	sed --in-place "$(template)" --expression=s/CHARSET/$(CHARSET)/
 	sed --in-place "$(template)" --expression=s/"Language: "/"Language: en"/
 	@echo
-	@echo "Build finished. The PO Template File: $(template)"
+	@echo "Build finished. The PO Template file: $(template)"
 
 # Make settings file.
 config: settings.php
@@ -68,34 +67,32 @@ rmpot:
 	@rm -i $(template)
 
 # Update the PO files from the template and build binary MO file for each locale.
-mo: $(template)
+mo: $(template) make-po.sh
+	./make-po.sh
+	rm make-po.sh
+	@echo
+	@echo "Build finished. The PO files are in $(LOCALE_DIR)/$(DOMAIN)/."
+
+make-po.sh:
 	cp scripts/make-po.sh.in make-po.sh
 	sed --in-place make-po.sh --expression=s/LOCALES/"$(LOCALES)"/
 	sed --in-place make-po.sh --expression=s/LOCALE_DIR/$(LOCALE_DIR)/
 	sed --in-place make-po.sh --expression=s/TEMPLATE/$(LOCALE_DIR)\\/$(DOMAIN)\\/$(DOMAIN).pot/
 	sed --in-place make-po.sh --expression=s/DOMAIN/$(DOMAIN)/
 	chmod +x make-po.sh
-	@echo
-	./make-po.sh
-	rm make-po.sh
-	@echo
-	@echo "Build finished. The PO files are in $(LOCALE_DIR)/$(DOMAIN)/."
 
 # Before the webserver can use the MO files for the locales, a list of locale
 # definition files must be compiled first. See `man locale-gen' for more info.
-localesgen:
+localesgen: make-locales.sh
+	./make-locales.sh
+	rm make-locales.sh
+	@echo
+	@echo "Generating locale definition files finished. Restart your webserver to load the new locales."
+
+make-locales.sh:
 	cp scripts/make-locales.sh.in make-locales.sh
 	sed --in-place make-locales.sh --expression=s/UTF8_LOCALES/"$(utf8_locales)"/
 	sed --in-place make-locales.sh --expression=s/LOCALES/"$(LOCALES)"/
 	sed --in-place make-locales.sh --expression=s/LOCALE_DIR/$(LOCALE_DIR)/
 	sed --in-place make-locales.sh --expression=s/LOCALE_GEN/$(LOCALE_GEN)/
 	chmod +x make-locales.sh
-	@echo
-	./make-locales.sh
-	rm make-locales.sh
-	@echo
-	@echo "Generating locale definition files finished. Restart your webserver to load the new locales."
-
-# Push committed changes to the trunk Bazaar repository on Launchpad.
-push:
-	bzr push lp:getgnulinux
