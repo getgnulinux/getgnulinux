@@ -483,5 +483,64 @@ class HTML {
         print "<p><a class=\"FlattrButton\" style=\"display:none;\" " . $rev . " href=\"" . $ggl->get('base_url') . "\"></a></p>\n";
         print "<noscript><p><a href=\"" . $ggl->get('flattr_url') . "\"><img src=\"http://api.flattr.com/button/flattr-badge-large.png\" alt=\"Flattr this\" title=\"Flattr this\" style=\"border:none;\" /></a></p></noscript>\n";
     }
+
+    /**
+     * Print links to the translations.
+     *
+     * The links are printed as an inline summation list.
+     *
+     * @param integer $mode If set to 1, all translations are printed, 2 means
+     *      only incomplete translations are printed, 3 means only complete
+     *      languages are printed.
+     * @uses GetGnuLinux $ggl
+     */
+    function links_to_translations($mode=1)
+    {
+        global $ggl;
+
+        // Compose a list of links for completed translations.
+        $complete = array();
+        foreach ($ggl->get('locales') as $code => $items) {
+            list($locale, $native, $percent) = $items;
+            $bool = true;
+            if ($mode == 3) {
+                $bool = $percent == 1;
+            }
+            else if ($mode == 2) {
+                $bool = $percent < 1;
+            }
+            if ($bool) {
+                if ($mode == 1 or $mode == 2) {
+                    $link = "<a href=\"/%s\" title=\"%s&#37; complete\" hreflang=\"%s\"><span dir=\"%s\">%s</span></a>";
+                    $complete[] = sprintf($link,
+                        $this->current_page($code),
+                        $percent*100,
+                        $code,
+                        $ggl->get_lang_directionality($code),
+                        $native);
+                }
+                else {
+                    $link = "<a href=\"/%s\" hreflang=\"%s\"><span dir=\"%s\">%s</span></a>";
+                    $complete[] = sprintf($link,
+                        $this->current_page($code),
+                        $code,
+                        $ggl->get_lang_directionality($code),
+                        $native);
+                }
+            }
+        }
+        // Print the links for completed translations.
+        for ($i=0; $i < count($complete); $i++) {
+            if ($i < count($complete) - 2) {
+                print $complete[$i] . ", ";
+            }
+            else if ($i == count($complete) - 2) {
+                print $complete[$i] . " and ";
+            }
+            else {
+                print $complete[$i];
+            }
+        }
+    }
 }
 

@@ -53,7 +53,7 @@
 <!-- language menu -->
 <div id="just_for_ie7">
 <div id="translations">
-<div id="language_menu"><span id="language_menu_text"><?php print _("Alternate languages"); ?></span></div>
+<div id="language_menu"><span id="language_menu_text">Alternate languages</span></div>
 <ul>
 <?php
 foreach ($ggl->get('locales') as $code => $items) {
@@ -68,7 +68,7 @@ foreach ($ggl->get('locales') as $code => $items) {
     }
 }
 ?>
-<li><a href="<?php $this->base_url('select_language'); ?>"><?php print _("More languages"); ?></a></li>
+<li><a href="<?php $this->base_url('select_language'); ?>">More languages</a></li>
 </ul>
 </div><!-- end translations -->
 </div><!-- end just_for_ie7 -->
