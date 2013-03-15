@@ -134,8 +134,11 @@ and <a href="https://www.transifex.net/accounts/profile/malhargan/">Mohammad Alh
 and the <a href="http://softastur.org/">Softastur translators team</a>.</p>
 
 <h3>Catalan:</h3>
-<p class="tab"><a href="http://cortsenc.bloc.cat/">Oriol Piera</a>
-and <a href="http://rcarreras.blogspot.com/">Rafael Carreras</a>.</p>
+<p class="tab">
+    <a href="https://www.transifex.com/accounts/profile/papapep/">Josep Sànchez</a>,
+    <a href="http://cortsenc.bloc.cat/">Oriol Piera</a> and
+    <a href="http://rcarreras.blogspot.com/">Rafael Carreras</a>.
+</p>
 
 <h3>Chinese:</h3>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/Pxseudoprime/">Sayson Peng</a>,
@@ -191,8 +194,10 @@ and others.</p>
 <p class="tab"><a href="https://www.transifex.com/accounts/profile/noTime/">Tadas Domarkas</a>.</p>
 
 <h3>Polish:</h3>
-<p class="tab"><a href="https://www.transifex.net/accounts/profile/poczciwiec/">poczciwiec</a>
-and <a href="https://www.transifex.net/accounts/profile/penknife/">Bogusław</a>.</p>
+<p class="tab">
+    <a href="https://www.transifex.net/accounts/profile/penknife/">Bogusław B.</a> and
+    <a href="https://www.transifex.net/accounts/profile/poczciwiec/">poczciwiec</a>.
+</p>
 
 <h3>Portuguese (Brazil):</h3>
 <p class="tab"><a href="https://www.transifex.net/accounts/profile/slackhideo/">Tiago</a>,
