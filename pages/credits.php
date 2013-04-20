@@ -140,6 +140,11 @@ if ( !defined('GGL') ) {
     and others.
 </p>
 
+<h3>Croatian:</h3>
+<p class="tab">
+    <a href="https://www.transifex.com/accounts/profile/CroatianFan/">Mislav E.L.</a>.
+</p>
+
 <h3>Esperanto:</h3>
 <p class="tab">
     <a href="https://www.transifex.net/accounts/profile/damirmf/">Damir</a>,
@@ -163,6 +168,7 @@ if ( !defined('GGL') ) {
     <a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a>,
     Laurent Richard,
     Loïs Di Qual,
+    <a href="https://www.transifex.com/accounts/profile/mauron/">mauron</a>,
     <a href="https://www.transifex.net/accounts/profile/nh2amine/">nh2amine</a>,
     <a href="http://www.ariadacapo.net/">Olivier Cleynen</a>,
     <a href="https://www.transifex.net/accounts/profile/lkppo/">Stéphane Aulery</a>, and
@@ -192,7 +198,7 @@ if ( !defined('GGL') ) {
 <h3>Interlingua:</h3>
 <p class="tab">
     <a href="https://www.transifex.net/accounts/profile/Funkin/">Emilio Sepúlveda</a> and
-    <a href="https://www.transifex.net/accounts/profile/McDutchie/">McDutchie</a>.
+    <a href="https://www.transifex.net/accounts/profile/McDutchie/">Martijn Dekker</a>.
 </p>
 
 <h3>Italian:</h3>
@@ -245,6 +251,8 @@ if ( !defined('GGL') ) {
 
 <h3>Turkish:</h3>
 <p class="tab">
+    <a href="https://www.transifex.com/accounts/profile/basarancaner/">Caner Başaran</a>,
+    <a href="https://www.transifex.com/accounts/profile/drstrangelove/">drstrangelove</a>,
     <a href="https://www.transifex.net/accounts/profile/necdetyucel/">Necdet Yücel</a> and
     <a href="https://www.transifex.net/accounts/profile/zeugma/">zeugma</a>.
 </p>
