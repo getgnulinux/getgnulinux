@@ -11,7 +11,7 @@ $this->load_top_bar();
 
 <div id="maincontent" class="main_page">
 
-<a href="<?php $this->base_url('linux'); ?>" title="What is Linux?">
+<a href="<?php $this->base_url('linux'); ?>" title="<?php print _("What is Linux?"); ?>">
 <img class="main_pic" width="200" height="202"
      src="/images/index/index.applications<?php $this->rtl_suffix(); ?>.jpg"
      alt="GNU/Linux applications"/></a>
