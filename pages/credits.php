@@ -114,14 +114,15 @@ if ( !defined('GGL') ) {
 
 <h3>Arabic:</h3>
 <p class="tab">
-    Hassan Ibraheem and
-    <a href="https://www.transifex.net/accounts/profile/malhargan/">Mohammad Alhargan</a>.
+    Hassan Ibraheem,
+    <a href="https://www.transifex.com/accounts/profile/kraim/">kraim</a> and
+    <a href="https://www.transifex.com/accounts/profile/malhargan/">Mohammad Alhargan</a>.
 </p>
 
 <h3>Asturian:</h3>
 <p class="tab">
     <a href="http://blogs.altuxa.com/tapaponga/">Iñigo Varela</a>,
-    <a href="https://www.transifex.net/accounts/profile/Xuacu/">Xuacu Saturio</a>, and the
+    <a href="https://www.transifex.com/accounts/profile/Xuacu/">Xuacu Saturio</a>, and the
     <a href="http://softastur.org/">Softastur translators team</a>.
 </p>
 
@@ -134,9 +135,9 @@ if ( !defined('GGL') ) {
 
 <h3>Chinese:</h3>
 <p class="tab">
-    <a href="https://www.transifex.net/accounts/profile/dotkrnl/">Jason Lau</a>,
-    <a href="https://www.transifex.net/accounts/profile/leonfeng/">leonfeng</a>,
-    <a href="https://www.transifex.net/accounts/profile/Pxseudoprime/">Sayson Peng</a>,
+    <a href="https://www.transifex.com/accounts/profile/dotkrnl/">Jason Lau</a>,
+    <a href="https://www.transifex.com/accounts/profile/leonfeng/">leonfeng</a>,
+    <a href="https://www.transifex.com/accounts/profile/Pxseudoprime/">Sayson Peng</a>,
     and others.
 </p>
 
@@ -145,17 +146,23 @@ if ( !defined('GGL') ) {
     <a href="https://www.transifex.com/accounts/profile/CroatianFan/">Mislav E.L.</a>.
 </p>
 
+<h3>Dutch:</h3>
+<p class="tab">
+    <a href="https://www.transifex.com/accounts/profile/AstroFloyd/">AstroFloyd</a>
+    and others.
+</p>
+
 <h3>Esperanto:</h3>
 <p class="tab">
-    <a href="https://www.transifex.net/accounts/profile/damirmf/">Damir</a>,
-    <a href="https://www.transifex.net/accounts/profile/dominiko/">Dominique Pellé</a>,
-    <a href="https://www.transifex.net/accounts/profile/fenris/">fenris</a>, and
-    <a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a>.
+    <a href="https://www.transifex.com/accounts/profile/damirmf/">Damir</a>,
+    <a href="https://www.transifex.com/accounts/profile/dominiko/">Dominique Pellé</a>,
+    <a href="https://www.transifex.com/accounts/profile/fenris/">fenris</a>, and
+    <a href="https://www.transifex.com/accounts/profile/KIAaze/">KIAaze</a>.
 </p>
 
 <h3>Finnish:</h3>
 <p class="tab">
-    <a href="https://www.transifex.net/accounts/profile/jsonic/">Juhani Numminen</a>.
+    <a href="https://www.transifex.com/accounts/profile/jsonic/">Juhani Numminen</a>.
 </p>
 
 <h3>French:</h3>
@@ -163,50 +170,51 @@ if ( !defined('GGL') ) {
     Anthony Verez,
     Bruno Bord,
     Bruno Ethvignot,
-    <a href="https://www.transifex.net/accounts/profile/MagicFab/">Fabián Rodríguez</a>,
+    <a href="https://www.transifex.com/accounts/profile/MagicFab/">Fabián Rodríguez</a>,
     Joseph Maillardert,
-    <a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a>,
+    <a href="https://www.transifex.com/accounts/profile/KIAaze/">KIAaze</a>,
     Laurent Richard,
     Loïs Di Qual,
     <a href="https://www.transifex.com/accounts/profile/mauron/">mauron</a>,
-    <a href="https://www.transifex.net/accounts/profile/nh2amine/">nh2amine</a>,
+    <a href="https://www.transifex.com/accounts/profile/nh2amine/">nh2amine</a>,
     <a href="http://www.ariadacapo.net/">Olivier Cleynen</a>,
-    <a href="https://www.transifex.net/accounts/profile/lkppo/">Stéphane Aulery</a>, and
+    <a href="https://www.transifex.com/accounts/profile/lkppo/">Stéphane Aulery</a>, and
     Thiébaut Hillenweck.
 </p>
 
 <h3>Galician:</h3>
 <p class="tab">
-    <a href="https://www.transifex.net/accounts/profile/oisempreceibes/">Iago Oi</a> and
-    <a href="https://www.transifex.net/accounts/profile/mmeixide/">Manuel Meixide</a>.
+    <a href="https://www.transifex.com/accounts/profile/oisempreceibes/">Iago Oi</a> and
+    <a href="https://www.transifex.com/accounts/profile/mmeixide/">Manuel Meixide</a>.
 </p>
 
 <h3>German:</h3>
 <p class="tab">
-    <a href="https://www.transifex.net/accounts/profile/KIAaze/">KIAaze</a>,
-    <a href="https://www.transifex.net/accounts/profile/monoto/">monoto</a>,
+    <a href="https://www.transifex.com/accounts/profile/KIAaze/">KIAaze</a>,
+    <a href="https://www.transifex.com/accounts/profile/monoto/">monoto</a>,
     <a href="https://www.transifex.com/accounts/profile/ToBeFree/">Tobias Frei</a>,
     and others.
 </p>
 
 <h3>Hebrew:</h3>
 <p class="tab">
-    <a href="https://www.transifex.net/accounts/profile/Yaron/">Yaron Shahrabani</a>
+    <a href="https://www.transifex.com/accounts/profile/Yaron/">Yaron Shahrabani</a>
     and proofreading by Oren B.
 </p>
 
 <h3>Interlingua:</h3>
 <p class="tab">
-    <a href="https://www.transifex.net/accounts/profile/Funkin/">Emilio Sepúlveda</a> and
-    <a href="https://www.transifex.net/accounts/profile/McDutchie/">Martijn Dekker</a>.
+    <a href="https://www.transifex.com/accounts/profile/Funkin/">Emilio Sepúlveda</a>,
+    <a href="https://www.transifex.com/accounts/profile/McDutchie/">Martijn Dekker</a> and
+    <a href="https://www.transifex.com/accounts/profile/softinterlingua/">SoftInterlingua</a>.
 </p>
 
 <h3>Italian:</h3>
 <p class="tab">
-    <a href="https://www.transifex.net/accounts/profile/OpenCode/">Francesco Apruzzese</a>,
+    <a href="https://www.transifex.com/accounts/profile/OpenCode/">Francesco Apruzzese</a>,
     <a href="https://www.transifex.com/accounts/profile/pappi_/">Giuseppe Pappalardo</a>,
-    <a href="https://www.transifex.net/accounts/profile/jeckodevelopment/">Luca Marzo</a>,
-    <a href="https://www.transifex.net/accounts/profile/xseris/">Simone Sandri</a>,
+    <a href="https://www.transifex.com/accounts/profile/jeckodevelopment/">Luca Marzo</a>,
+    <a href="https://www.transifex.com/accounts/profile/xseris/">Simone Sandri</a>,
     and others.
 </p>
 
@@ -217,32 +225,32 @@ if ( !defined('GGL') ) {
 
 <h3>Polish:</h3>
 <p class="tab">
-    <a href="https://www.transifex.net/accounts/profile/penknife/">Bogusław B.</a> and
-    <a href="https://www.transifex.net/accounts/profile/poczciwiec/">poczciwiec</a>.
+    <a href="https://www.transifex.com/accounts/profile/penknife/">Bogusław B.</a> and
+    <a href="https://www.transifex.com/accounts/profile/poczciwiec/">poczciwiec</a>.
 </p>
 
 <h3>Portuguese (Brazil):</h3>
 <p class="tab">
-    <a href="https://www.transifex.net/accounts/profile/bruno_b/">Bruno Bacelar</a>,
-    <a href="https://www.transifex.net/accounts/profile/ezequiel.ezb/">Ezequiel Santos</a>,
-    <a href="https://www.transifex.net/accounts/profile/heuripedes/">Higor</a>,
-    <a href="https://www.transifex.net/accounts/profile/JulioMario/">Julio Mario Jr.</a>,
-    <a href="https://www.transifex.net/accounts/profile/nadiastabile/">Nadia Stabile</a>,
+    <a href="https://www.transifex.com/accounts/profile/bruno_b/">Bruno Bacelar</a>,
+    <a href="https://www.transifex.com/accounts/profile/ezequiel.ezb/">Ezequiel Santos</a>,
+    <a href="https://www.transifex.com/accounts/profile/heuripedes/">Higor</a>,
+    <a href="https://www.transifex.com/accounts/profile/JulioMario/">Julio Mario Jr.</a>,
+    <a href="https://www.transifex.com/accounts/profile/nadiastabile/">Nadia Stabile</a>,
     <a href="https://www.transifex.com/accounts/profile/rafaelff1/">Rafael Ferreira</a>, and
-    <a href="https://www.transifex.net/accounts/profile/slackhideo/">Tiago</a>.
+    <a href="https://www.transifex.com/accounts/profile/slackhideo/">Tiago</a>.
 </p>
 
 <h3>Russian:</h3>
 <p class="tab">
-    <a href="https://www.transifex.net/accounts/profile/Alissa/">Alissa</a>,
-    <a href="https://www.transifex.net/accounts/profile/player1_76/">Фёдор Ходьков</a>, and
-    <a href="https://www.transifex.net/accounts/profile/vst/">V'yacheslav Stetskevych</a>.
+    <a href="https://www.transifex.com/accounts/profile/Alissa/">Alissa</a>,
+    <a href="https://www.transifex.com/accounts/profile/player1_76/">Фёдор Ходьков</a>, and
+    <a href="https://www.transifex.com/accounts/profile/vst/">V'yacheslav Stetskevych</a>.
 </p>
 
 <h3>Spanish:</h3>
 <p class="tab">
     <a href="https://www.transifex.com/accounts/profile/technoguyx/">Bastián Núñez</a>,
-    <a href="https://www.transifex.net/accounts/profile/Funkin/">Emilio Sepúlveda</a>,
+    <a href="https://www.transifex.com/accounts/profile/Funkin/">Emilio Sepúlveda</a>,
     <a href="http://gustavonarea.net/">Gustavo Narea</a>,
     Jonathan H. Fernández,
     Martín Carr, and
@@ -253,14 +261,14 @@ if ( !defined('GGL') ) {
 <p class="tab">
     <a href="https://www.transifex.com/accounts/profile/basarancaner/">Caner Başaran</a>,
     <a href="https://www.transifex.com/accounts/profile/drstrangelove/">drstrangelove</a>,
-    <a href="https://www.transifex.net/accounts/profile/necdetyucel/">Necdet Yücel</a> and
-    <a href="https://www.transifex.net/accounts/profile/zeugma/">zeugma</a>.
+    <a href="https://www.transifex.com/accounts/profile/necdetyucel/">Necdet Yücel</a> and
+    <a href="https://www.transifex.com/accounts/profile/zeugma/">zeugma</a>.
 </p>
 
 <h3>Ukrainian:</h3>
 <p class="tab">
-    <a href="https://www.transifex.net/accounts/profile/Rostyslav/">Ростислав</a> and
-    <a href="https://www.transifex.net/accounts/profile/vst/">V'yacheslav Stetskevych</a>.
+    <a href="https://www.transifex.com/accounts/profile/Rostyslav/">Ростислав</a> and
+    <a href="https://www.transifex.com/accounts/profile/vst/">V'yacheslav Stetskevych</a>.
 </p>
 
 <h3>Vietnamese:</h3>
