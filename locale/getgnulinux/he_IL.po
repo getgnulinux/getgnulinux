@@ -1,50 +1,50 @@
-# Translation file for the GetGNULinux.org website.
+# Translation file for the getgnulinux.org website.
 # Copyright (C) 2006-2010 GNU/Linux Matters
 # This file is distributed under the same license as the getgnulinux package.
 #
 # Translators:
-# Serrano Pereira <serrano.pereira@gmail.com>, 2011.
-# Yaron Shahrabani <sh.yaron@gmail.com>, 2011, 2012.
+# Serrano Pereira <serrano.pereira@gmail.com>, 2011,2013
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2011, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
-"Report-Msgid-Bugs-To: https://bugs.launchpad.net/getgnulinux\n"
-"POT-Creation-Date: 2012-03-06 14:26+0100\n"
-"PO-Revision-Date: 2012-03-05 13:25+0000\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew (Israel) (http://www.transifex.net/projects/p/"
+"Report-Msgid-Bugs-To: https://github.com/figure002/getgnulinux/issues\n"
+"POT-Creation-Date: 2013-05-21 14:42+0200\n"
+"PO-Revision-Date: 2013-05-21 13:03+0000\n"
+"Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
+"Language-Team: Hebrew (Israel) (http://www.transifex.com/projects/p/"
 "getgnulinux/language/he_IL/)\n"
 "Language: he_IL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. i18n: The name of the website. It is displayed in the header of each page.
-#: include/GetGNULinux.php:175
+#: include/GetGNULinux.php:180
 msgid "get GNU/Linux!"
 msgstr "אני רוצה גנו/לינוקס!‏"
 
 #. i18n: The title for the language selection page.
-#: include/GetGNULinux.php:180 pages/select_language.php:15
+#: include/GetGNULinux.php:185
 msgid "Select a language"
 msgstr "נא לבחור בשפה"
 
 #. i18n: The way you refer to a website's main page in your language.
-#: include/GetGNULinux.php:182
+#: include/GetGNULinux.php:187
 msgid "Home"
 msgstr "דף הבית"
 
 #. i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
-#: include/GetGNULinux.php:184 include/HTML.php:100
+#: include/GetGNULinux.php:189 include/HTML.php:101
 #: pages/linux.linux_faq.php:363 pages/more.php:16
 #: pages/switch_to_linux.from_windows_to_linux.php:69
 msgid "More"
 msgstr "עוד"
 
 #. i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
-#: include/GetGNULinux.php:186 include/HTML.php:97 pages/home.php:32
-#: pages/linux.linux_faq.php:372
+#: include/GetGNULinux.php:191 include/HTML.php:98 pages/home.php:14
+#: pages/home.php:32 pages/linux.linux_faq.php:372
 #: pages/linux.misunderstanding_free_software.php:197
 #: pages/linux.screenshots.php:37 pages/linux.screenshots.php:118
 #: pages/windows.php:94
@@ -52,12 +52,12 @@ msgid "What is Linux?"
 msgstr "מה זה לינוקס?"
 
 #. i18n: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
-#: include/GetGNULinux.php:188 pages/linux.php:80
+#: include/GetGNULinux.php:193 pages/linux.php:80
 msgid "Linux FAQ - common questions about GNU/Linux"
 msgstr "מאגר שאלות על לינוקס - שאלות נפוצות על גנו/לינוקס"
 
 #. i18n: Here the intent is to be a little provocative. Exact translation is not required.
-#: include/GetGNULinux.php:190 pages/linux.linux_faq.php:155
+#: include/GetGNULinux.php:195 pages/linux.linux_faq.php:155
 #: pages/linux.linux_faq.php:209 pages/linux.linux_faq.php:223
 #: pages/linux.misunderstanding_free_software.php:20 pages/linux.php:78
 #: pages/windows.stand_for_a_free_society.php:160
@@ -65,19 +65,19 @@ msgid "How to Misunderstand Free Software"
 msgstr "תפיסות מוטעות של רעיון התכנה החופשית"
 
 #. i18n: This is the title of the 'Screenshots' page.
-#: include/GetGNULinux.php:192 pages/linux.screenshots.php:42
+#: include/GetGNULinux.php:197 pages/linux.screenshots.php:42
 msgid "What GNU/Linux looks like"
 msgstr "כיצד נראה גנו/לינוקס"
 
 #. i18n: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
-#: include/GetGNULinux.php:194 include/HTML.php:98 include/HTML.php:214
-#: include/HTML.php:235 pages/home.php:38 pages/linux.php:70
+#: include/GetGNULinux.php:199 include/HTML.php:99 include/HTML.php:215
+#: include/HTML.php:236 pages/home.php:39 pages/linux.php:70
 #: pages/windows.php:15
 msgid "Why not Windows"
 msgstr "למה לא Windows"
 
 #. i18n: This title can be translated loosely
-#: include/GetGNULinux.php:196 include/HTML.php:216 include/HTML.php:237
+#: include/GetGNULinux.php:201 include/HTML.php:217 include/HTML.php:238
 #: pages/windows.php:24 pages/windows.php:26 pages/windows.php:33
 #: pages/windows.restrictions.further_details.php:14
 #: pages/windows.restrictions.further_details.php:93
@@ -86,68 +86,67 @@ msgid "Restrictions"
 msgstr "מגבלות"
 
 #. i18n: This title can be translated loosely
-#: include/GetGNULinux.php:198
+#: include/GetGNULinux.php:203
 #: pages/windows.restrictions.further_details.php:19
 msgid "More details on restrictions"
 msgstr "פרטים נוספים על מגבלות"
 
 #. i18n: This title can be translated loosely
-#: include/GetGNULinux.php:200 include/HTML.php:219 include/HTML.php:240
+#: include/GetGNULinux.php:205 include/HTML.php:220 include/HTML.php:241
 #: pages/linux.linux_faq.php:277 pages/windows.php:66 pages/windows.php:67
 #: pages/windows.php:76
 msgid "Stand for a free society"
 msgstr "עמדו על זכויותיכם לחברה חופשית"
 
 #. i18n: This title can be translated loosely
-#: include/GetGNULinux.php:202 include/HTML.php:217 include/HTML.php:238
+#: include/GetGNULinux.php:207 include/HTML.php:218 include/HTML.php:239
 #: pages/windows.php:41 pages/windows.php:42 pages/windows.php:47
 #: pages/windows.what_about_choice.php:17
 msgid "What about choice?"
 msgstr "מה בנוגע לחופש הבחירה?"
 
 #. i18n: This title can be translated loosely
-#: include/GetGNULinux.php:204 include/HTML.php:218 include/HTML.php:239
+#: include/GetGNULinux.php:209 include/HTML.php:219 include/HTML.php:240
 #: pages/windows.php:54 pages/windows.php:55 pages/windows.php:60
 msgid "No source code"
 msgstr "אין קוד מקור"
 
 #. i18n: This appears in the top header menu and should be as short and concise as possible.
-#: include/GetGNULinux.php:206 include/HTML.php:99 include/HTML.php:194
-#: pages/home.php:44 pages/switch_to_linux.php:15 pages/windows.php:92
+#: include/GetGNULinux.php:211 include/HTML.php:100 include/HTML.php:195
+#: pages/home.php:46 pages/switch_to_linux.php:15 pages/windows.php:92
 msgid "Switch to Linux"
 msgstr "מעבר ללינוקס"
 
-#: include/GetGNULinux.php:207 include/HTML.php:197
+#: include/GetGNULinux.php:212 include/HTML.php:198
 #: pages/switch_to_linux.choose_a_distribution.php:17
-#: pages/switch_to_linux.php:30
+#: pages/switch_to_linux.php:31
 msgid "Choose a distribution"
 msgstr "בחירה בהפצה"
 
-#: include/GetGNULinux.php:208 include/HTML.php:196
+#: include/GetGNULinux.php:213 include/HTML.php:197
 #: pages/switch_to_linux.from_windows_to_linux.php:17
 #: pages/switch_to_linux.php:22
 msgid "From Windows to Linux"
 msgstr "מ־Windows ללינוקס"
 
 #. i18n: This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
-#: include/GetGNULinux.php:210 include/HTML.php:198
-#: pages/switch_to_linux.php:36 pages/switch_to_linux.try_or_install.php:17
+#: include/GetGNULinux.php:215 include/HTML.php:199
+#: pages/switch_to_linux.php:38 pages/switch_to_linux.try_or_install.php:17
 msgid "Try or install"
 msgstr "התנסות או התקנה"
 
 #. i18n: The title for the link buttons page. Can be translated loosely.
-#: include/GetGNULinux.php:212 pages/link_buttons.php:15
+#: include/GetGNULinux.php:217 pages/link_buttons.php:15
 msgid "Link buttons"
 msgstr "לחצני קישור"
 
 #. i18n: The title for the custom "Page Not Found" page.
-#: include/GetGNULinux.php:214
-#, fuzzy
+#: include/GetGNULinux.php:219
 msgid "Page Not Found"
-msgstr "געוואלד! הדף לא נמצא"
+msgstr "העמוד לא נמצא"
 
 #. i18n: This is the description of the homepage, and it appears in Google results! Please pay particular attention to this one =)
-#: include/GetGNULinux.php:220
+#: include/GetGNULinux.php:225
 msgid ""
 "Get GNU/Linux! A simple, clear website about Linux. | What is Linux? | Why "
 "not Windows? | Tips to make the switch"
@@ -156,77 +155,77 @@ msgstr ""
 "לא Windows? | עצות לביצוע המעבר"
 
 #. i18n: This is the description of the 'More' page
-#: include/GetGNULinux.php:222
+#: include/GetGNULinux.php:227
 msgid "Read and discover more about Linux."
 msgstr "לקרוא ולגלות עוד על לינוקס."
 
 #. i18n: This is the description of the 'Linux' page
-#: include/GetGNULinux.php:224
+#: include/GetGNULinux.php:229
 msgid "What is Linux? A clear explanation."
 msgstr "מה זה לינוקס? הסבר ברור."
 
 #. i18n: This is the description of the 'Linux FAQ' page
-#: include/GetGNULinux.php:226
+#: include/GetGNULinux.php:231
 msgid "Frequently Asked Questions about GNU/Linux."
 msgstr "שאלות נפוצות על גנו/לינוקס."
 
 #. i18n: This is the description of the 'Misunderstanding Free Software' page
-#: include/GetGNULinux.php:228
+#: include/GetGNULinux.php:233
 msgid "An unconventional way to (re)discover free software."
 msgstr "דרך בלתי שגרתית לגלות (מחדש) את התכנה החופשית."
 
 #. i18n: This is the description of the 'Screenshots' page
-#: include/GetGNULinux.php:230
+#: include/GetGNULinux.php:235
 msgid "A brief look at Linux in everyday use."
 msgstr "מבט חטוף על השימוש היומיומי בלינוקס."
 
 #. i18n: This is the description of the 'Why not Windows' page
-#: include/GetGNULinux.php:232
+#: include/GetGNULinux.php:237
 msgid "Four good reasons to avoid proprietary software."
 msgstr "ארבע סיבות טובות להימנע משימוש בתכנה קניינית."
 
 #. i18n: This is the description of the 'Restrictions' page
-#: include/GetGNULinux.php:234
+#: include/GetGNULinux.php:239
 msgid "Restrictions in a proprietary software license."
 msgstr "הגבלות ברישיונות של תכנה קניינית."
 
 #. i18n: This is the description of the 'Restrictions further details' page
-#: include/GetGNULinux.php:236
+#: include/GetGNULinux.php:241
 msgid "Restrictions in a proprietary software license - more details."
 msgstr "הגבלות ברישיונות של תכנה קניינית – פרטים נוספים."
 
 #. i18n: This is the description of the 'Stand for a free society' page
-#: include/GetGNULinux.php:238 pages/windows.php:67
+#: include/GetGNULinux.php:243 pages/windows.php:67
 msgid "How software affects freedom in society."
 msgstr "כיצד תכנה משפיעה על חופש החברה."
 
 #. i18n: This is the description of the 'What about choice' page
-#: include/GetGNULinux.php:240
+#: include/GetGNULinux.php:245
 msgid "How Microsoft lock customers in."
 msgstr "כיצד Microsoft שובה את לקוחותיה."
 
 #. i18n: This is the description of the 'What about source code' page
-#: include/GetGNULinux.php:242
+#: include/GetGNULinux.php:247
 msgid "No source code means no trust and no security."
 msgstr "העדר קוד מקור משמעו העדר אמינות והעדר בטיחות."
 
 #. i18n: This is the description of the 'Switch to Linux' page
-#: include/GetGNULinux.php:244
+#: include/GetGNULinux.php:249
 msgid "Switch to Linux: Good tips and advice."
 msgstr "מעבר ללינוקס: עצות והמלצות שימושיות."
 
 #. i18n: This is the description of the 'Choose a distribution' page
-#: include/GetGNULinux.php:246
+#: include/GetGNULinux.php:251
 msgid "Recommended Linux distributions for everyday users."
 msgstr "הפצות לינוקס המומלצות למשתמשים יומיומיים."
 
 #. i18n: This is the description of the 'From Windows to Linux' page
-#: include/GetGNULinux.php:248
+#: include/GetGNULinux.php:253
 msgid "The advantages and disadvantages of Linux over Windows."
 msgstr "היתרונות והחסרונות של לינוקס על פני Windows."
 
 #. i18n: This is the description of the 'Try or Install' page. i18n note: this should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
-#: include/GetGNULinux.php:250
+#: include/GetGNULinux.php:255
 msgid "Try or install Linux on your computer, very easily."
 msgstr "התנסות או התקנה של לינוקס על המחשב שלך, בקלות רבה."
 
@@ -242,11 +241,11 @@ msgstr "מידע נוסף על חדשות ועדכונים."
 msgid "Our blog"
 msgstr "הבלוג שלנו"
 
-#: include/templates/footer.php:11 pages/more.php:110
+#: include/templates/footer.php:11 pages/more.php:87
 msgid "Terms of use"
 msgstr "תנאי השימוש"
 
-#: include/templates/footer.php:12 pages/more.php:112
+#: include/templates/footer.php:12 pages/link_buttons.php:96 pages/more.php:89
 msgid "Credits"
 msgstr "תודות"
 
@@ -254,7 +253,7 @@ msgstr "תודות"
 msgid "Contact the authors."
 msgstr "יצירת קשר עם העורכים."
 
-#: include/templates/footer.php:13 pages/more.php:111
+#: include/templates/footer.php:13 pages/more.php:88
 msgid "Contact us"
 msgstr "יצירת קשר"
 
@@ -327,14 +326,6 @@ msgstr ""
 "\"license\"><acronym title=\"Creative Commons Attribution-ShareAlike\">CC BY-"
 "SA</acronym> 3.0</a>."
 
-#: include/templates/footer.php:56
-msgid "Alternate languages"
-msgstr "שפות חלופיות"
-
-#: include/templates/footer.php:71 pages/select_language.php:48
-msgid "More languages"
-msgstr "שפות נוספות"
-
 #: include/templates/header.php:25
 msgid ""
 "linux, gnu/linux, free software, software freedom, open-source, windows "
@@ -344,15 +335,15 @@ msgstr ""
 "alternative, get linux, switch to linux, לינוקס, גנו/לינוקס, תכנה חופשית, "
 "חלופות ל־windows, חופש התכנה, קוד פתוח, להתארגן על לינוקס, מעבר ללינוקס"
 
-#: include/templates/header.php:119
+#: include/templates/header.php:100
 msgid "skip to content"
 msgstr "מעבר לתוכן"
 
-#: include/templates/header.php:136
+#: include/templates/header.php:117
 msgid "home page"
 msgstr "דף הבית"
 
-#: pages/credits.php:204 pages/legal.php:132 pages/not_found.php:32
+#: pages/credits.php:298 pages/legal.php:132 pages/not_found.php:32
 msgid "Return to the Homepage"
 msgstr "חזרה לדף הבית"
 
@@ -375,11 +366,11 @@ msgstr ""
 msgid "Learn more about the free operating system"
 msgstr "למידע נוסף על מערכת ההפעלה החופשית"
 
-#: pages/home.php:39
+#: pages/home.php:40
 msgid "Why we should avoid using Microsoft Windows"
 msgstr "למה עלינו להימנע משימוש ב־Windows"
 
-#: pages/home.php:45
+#: pages/home.php:47
 msgid "Where to download and how to step into Linux"
 msgstr "איפה להוריד וכיצד להיכנס לקטע של הלינוקס"
 
@@ -404,16 +395,21 @@ msgstr ""
 msgid "Licensing"
 msgstr "רישוי"
 
-#: pages/link_buttons.php:93
+#. i18n: The link will automatically point to the "credits" page. Please leave the "#link_buttons" part as such; it is an internal link.
+#: pages/link_buttons.php:95
+#, php-format
 msgid ""
-"Some of these buttons contain material subjected to the following licensing:"
-msgstr "חלק מהלחצנים הנ״ל מכילים חומרים הכפופים לרישיונות הבאים:"
+"Some of these buttons contain material subjected to specific licenses. See "
+"the \"<a href=\"%s#link_buttons\">%s</a>\" page for details."
+msgstr ""
+"חלק מהלחצנים האלה מכילים תוכן שכפוך לרישיון מסוים. ניתן לעיין בעמוד „<a href="
+"\"%s#link_buttons\">%s</a>“ לקבלת פרטים נוספים."
 
-#: pages/link_buttons.php:103
+#: pages/link_buttons.php:100
 msgid "Make your own!"
 msgstr "צרו לחצנים משלכם!"
 
-#: pages/link_buttons.php:104
+#: pages/link_buttons.php:101
 #, php-format
 msgid ""
 "Make your own buttons and maybe we can host them along ours! Our <a href=\"%s"
@@ -2069,8 +2065,8 @@ msgstr "גישה ליישומים בסביבת שולחן העבודה GNOME 3."
 
 #. i18n: This is the description of the "trisquel1.png" screenshot.
 #: pages/linux.screenshots.php:28
-msgid "Appearance preferences open."
-msgstr "העדפות התצוגה פתוחות."
+msgid "Update manager open."
+msgstr "מנהל העדכונים פתוח."
 
 #. i18n: This is the description of the "trisquel2.png" screenshot.
 #: pages/linux.screenshots.php:30
@@ -2098,63 +2094,25 @@ msgstr ""
 msgid "Selected reading on the Internet."
 msgstr "קריאה במקורות נוספים באינטרנט."
 
-#: pages/more.php:21
-msgid "The main players"
-msgstr "השחקניות הראשיות"
-
-#. i18n: use url of official localised Fedora homepage, if existing
-#: pages/more.php:26 pages/switch_to_linux.choose_a_distribution.php:46
-msgid "http://fedoraproject.org/"
-msgstr "http://fedoraproject.org/"
-
-#: pages/more.php:26
-msgid "Fedora Linux"
-msgstr "לינוקס פדורה"
-
-#: pages/more.php:29
-msgid ""
-"Prominent and perhaps more advanced distribution, featuring extensive "
-"documentation and multiple ways to participate."
-msgstr ""
-"הפצה בולטת ויתכן שגם מתקדמת יותר, המציעה תיעוד נרחב ומספר דרכים לקחת חלק "
-"בהפקתה."
-
-#. i18n: use url of official localised Ubuntu homepage, if existing
-#: pages/more.php:35 pages/switch_to_linux.choose_a_distribution.php:27
-msgid "http://www.ubuntu.com/"
-msgstr "http://www.ubuntu.com/"
-
-#: pages/more.php:35
-msgid "Ubuntu Linux"
-msgstr "לינוקס אובונטו"
-
-#: pages/more.php:38
-msgid ""
-"Homepage of the friendliest distribution around, with links to "
-"documentation, community-based and commercial support."
-msgstr ""
-"דף הבית של ההפצה הידידותית ביותר באזור, עם קישורים לתיעוד ולתמיכה על ידי "
-"הקהילה או בתשלום."
-
-#: pages/more.php:45
+#: pages/more.php:22
 msgid "Questions, help, and equipment"
 msgstr "שאלות, עזרה וציוד"
 
 #. i18n: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-#: pages/more.php:50
+#: pages/more.php:27
 msgid "http://linuxpreloaded.com/"
 msgstr "http://linuxpreloaded.com/"
 
-#: pages/more.php:50
+#: pages/more.php:27
 msgid "Computers pre-installed with Linux"
 msgstr "מחשבים המגיעים עם לינוקס מותקן מראש"
 
 #. i18n: image alt description
-#: pages/more.php:52
+#: pages/more.php:29
 msgid "Linux Pre-Loaded"
 msgstr "לינוקס מותקן מראש"
 
-#: pages/more.php:55
+#: pages/more.php:32
 msgid ""
 "A simple and clear selection of vendors selling computers pre-installed with "
 "Linux."
@@ -2162,16 +2120,16 @@ msgstr ""
 "בחירה פשוטה וברורה של יצרנים המוכרים מחשבים המגיעים עם התקנה מראש של לינוקס."
 
 #. i18n: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-#: pages/more.php:61
+#: pages/more.php:38
 msgid "http://www.linuxquestions.org/"
 msgstr "http://www.linuxquestions.org/"
 
 #. i18n: image alt description
-#: pages/more.php:61 pages/more.php:63
+#: pages/more.php:38 pages/more.php:40
 msgid "LinuxQuestions.org"
 msgstr "LinuxQuestions.org"
 
-#: pages/more.php:66
+#: pages/more.php:43
 msgid ""
 "Friendly free software support forums, for newcomers and advanced users "
 "alike.<br/> If you have a question that we haven't covered, it's a good "
@@ -2181,25 +2139,25 @@ msgstr ""
 "למשתמשים מתקדמים כאחד.<br/> אם עולה לך שאלה שעדיין לא נתקלת בה, זהו מקום "
 "מצוין לשאול בו!"
 
-#: pages/more.php:71
+#: pages/more.php:48
 msgid "Learn and read more"
 msgstr "למידע נוסף"
 
 #. i18n: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-#: pages/more.php:76
+#: pages/more.php:53
 msgid "http://www.fsf.org/"
 msgstr "http://www.fsf.org/"
 
-#: pages/more.php:76
+#: pages/more.php:53
 msgid "Free Software Foundation"
 msgstr "המוסד לתכנה חופשית"
 
 #. i18n: image alt description
-#: pages/more.php:78
+#: pages/more.php:55
 msgid "FSF"
 msgstr "FSF (המוסד לתכנה חופשית)"
 
-#: pages/more.php:81
+#: pages/more.php:58
 msgid ""
 "The Free Software Foundation defends and advocates the very concept of <a "
 "href=\"http://www.softwareliberty.com/\">free software</a> that gave birth "
@@ -2210,20 +2168,20 @@ msgstr ""
 "המוסד גם העניק חיים לגנו/לינוקס."
 
 #. i18n: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-#: pages/more.php:87
+#: pages/more.php:64
 msgid "http://en.wikibooks.org/wiki/FLOSS_Concept_Booklet"
 msgstr "http://en.wikibooks.org/wiki/FLOSS_Concept_Booklet"
 
-#: pages/more.php:87
+#: pages/more.php:64
 msgid "the FLOSS concept booklet"
 msgstr "ספרון העקרונות של FLOSS (תכנה חופשית ובקוד פתוח)"
 
 #. i18n: image alt description
-#: pages/more.php:89
+#: pages/more.php:66
 msgid "FLOSS Booklet"
 msgstr "ספרון בנושא FLOSS"
 
-#: pages/more.php:92
+#: pages/more.php:69
 msgid ""
 "A short, entertaining way to clarify thoughts about free, libre, \"open-"
 "source\" software."
@@ -2231,18 +2189,18 @@ msgstr ""
 "דרך משעשעת וקצרה להבהיר את העקרונות העומדים מאחורי תכנה, חופשית, חינמית "
 "ובקוד פתוח."
 
-#: pages/more.php:98
+#: pages/more.php:75
 msgid ""
 "Note: these links are proposed as a recommendation. They are not commercial."
 msgstr ""
 "לתשומת לבך: קישורים אלו מוגשים לך כהצעה בלבד. אלו אינם קישורים למטרות שיווק "
 "או מסחר."
 
-#: pages/more.php:102
+#: pages/more.php:79
 msgid "About us"
 msgstr "על אודותינו"
 
-#: pages/more.php:104
+#: pages/more.php:81
 msgid ""
 "This website was a project of the late <em><a href=\"http://www."
 "gnulinuxmatters.org/\">GNU/Linux Matters</a></em> non-profit organization, "
@@ -2253,7 +2211,7 @@ msgstr ""
 "gnulinuxmatters.org/\">GNU/Linux Matters</a></em> שהתמקד בהסברה נכונה על "
 "תכנה חופשית. נכון לשנת 2010, הארגון GNU/Linux Matters הפסיק את פעילותו."
 
-#: pages/more.php:105
+#: pages/more.php:82
 #, php-format
 msgid ""
 "This website is maintained and driven by the community. Please consider <a "
@@ -2293,20 +2251,6 @@ msgstr ""
 "אם מצאת קישור פגום, נא <a href=\"%s\">לדווח עליו</a> כדי שנוכל לתקן אותו. "
 "תודה לך!"
 
-#: pages/select_language.php:17
-msgid "<em>GetGNULinux.org</em> is available in the following languages:"
-msgstr "האתר <em>GetGNULinux.org</em> זמין גם בשפות הבאות:"
-
-#: pages/select_language.php:49
-#, php-format
-msgid ""
-"The translations for the following languages are currently incomplete. You "
-"can <a href=\"%s\" title=\"Translation\">help us</a> reach an audience in "
-"your language by helping out with the translations."
-msgstr ""
-"התרגום בשפות הבאות אינם מושלמים עדיין. באפשרותך <a href=\"%s\" title=\"תרגום"
-"\">לסייע לנו</a> להגיע לקהל היעד בשפה שלך על ידי סיוע בהשלמת התרגומים."
-
 #: pages/switch_to_linux.choose_a_distribution.php:19
 msgid ""
 "Because there is no &quot;one Linux&quot;, finding what you need can be "
@@ -2315,6 +2259,11 @@ msgid ""
 msgstr ""
 "בגלל שאין רק „מערכת לינוקס אחת“, החיפוש אחר הצרכים המסוימים שלך עלול להיות "
 "מסובך. להלן הבחירות שלנו לשלוש הפצות נפוצות וידידותיות למתחילים."
+
+#. i18n: use url of official localised Ubuntu homepage, if existing
+#: pages/switch_to_linux.choose_a_distribution.php:27
+msgid "http://www.ubuntu.com/"
+msgstr "http://www.ubuntu.com/"
 
 #: pages/switch_to_linux.choose_a_distribution.php:28
 msgid ""
@@ -2341,6 +2290,11 @@ msgid ""
 msgstr ""
 "לאובונטו יש גם הפצה מקבילה, <a href=\"http://www.kubuntu.org/\">קובונטו</a>, "
 "בעלת פריסה שונה ועם הצגה גרפית מעט מתקדמת יותר."
+
+#. i18n: use url of official localised Fedora homepage, if existing
+#: pages/switch_to_linux.choose_a_distribution.php:46
+msgid "http://fedoraproject.org/"
+msgstr "http://fedoraproject.org/"
 
 #. i18n: if you don't know of a clean, simple comparison website, simply remove the link.
 #: pages/switch_to_linux.choose_a_distribution.php:49
@@ -2866,11 +2820,11 @@ msgstr "בחרו בהפצת לינוקס כדי להתחיל!"
 msgid "Meet GNU/Linux in everyday use."
 msgstr "הכירו את גנו/לינוקס בשימוש יומיומי."
 
-#: pages/switch_to_linux.php:31
+#: pages/switch_to_linux.php:32
 msgid "Our selection for an easy choice."
 msgstr "הבחירה שלנו לאפשרות נוחה."
 
-#: pages/switch_to_linux.php:37
+#: pages/switch_to_linux.php:39
 msgid "Install it! (it's easier than you think)"
 msgstr "התקינו את זה! (יותר פשוט ממה שחשבתם)"
 
@@ -3452,7 +3406,7 @@ msgid ""
 "Restrictions on who can use the software, what kind of revenue you may earn "
 "with it, on how you choose to install it, restrictions on your privacy, even "
 "on whether you can give it away: the list is long. <a href=\"%s\" title=\"a "
-"few more things about Mircrosoft licenses\">Reading the license and "
+"few more things about Microsoft licenses\">Reading the license and "
 "enumerating your remaining rights</a> is itself a difficult task."
 msgstr ""
 "מגבלות החלות על מי יוכל להשתמש בתכנה, איזה סוג של רווח מותר להרוויח "
@@ -3673,7 +3627,7 @@ msgstr "נז״ק (DRM) מספק שליטה על התוכן"
 #: pages/windows.stand_for_a_free_society.php:70
 msgid ""
 "Except that the control is not in the hands of the end-user. The original "
-"purpose of <acronym title=\"Digital Restrictions Managment\">DRM</acronym> "
+"purpose of <acronym title=\"Digital Restrictions Management\">DRM</acronym> "
 "is understandable, but the implications over the flow of information and "
 "culture within a society are frightening."
 msgstr ""
