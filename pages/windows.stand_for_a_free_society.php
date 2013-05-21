@@ -67,7 +67,7 @@ printf($p, $footnote2); ?></p>
 
         <div class="keypart"><?php print _("DRM is control over content"); ?></div>
 
-        <p><?php print _("Except that the control is not in the hands of the end-user. The original purpose of <acronym title=\"Digital Restrictions Managment\">DRM</acronym> is understandable, but the implications over the flow of information and culture within a society are frightening."); ?></p>
+        <p><?php print _("Except that the control is not in the hands of the end-user. The original purpose of <acronym title=\"Digital Restrictions Management\">DRM</acronym> is understandable, but the implications over the flow of information and culture within a society are frightening."); ?></p>
 		<div class="small_list">
 			<ul>
                 <li><?php print _("Imagine a book that automatically became glued shut after you read it once."); ?></li>

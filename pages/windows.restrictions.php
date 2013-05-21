@@ -35,7 +35,7 @@ $this->menu_why_not_windows();
 	<li>
 		<div class="keypart"><?php print _("You must abandon many rights to use the software."); ?></div>
         <p><?php print _("There are a number of restrictions that you must accept by law."); ?><br/>
-        <?php $p = _("Restrictions on who can use the software, what kind of revenue you may earn with it, on how you choose to install it, restrictions on your privacy, even on whether you can give it away: the list is long. <a href=\"%s\" title=\"a few more things about Mircrosoft licenses\">Reading the license and enumerating your remaining rights</a> is itself a difficult task.");
+        <?php $p = _("Restrictions on who can use the software, what kind of revenue you may earn with it, on how you choose to install it, restrictions on your privacy, even on whether you can give it away: the list is long. <a href=\"%s\" title=\"a few more things about Microsoft licenses\">Reading the license and enumerating your remaining rights</a> is itself a difficult task.");
         printf($p, $this->base_url('windows/restrictions/further_details',1)); ?></p>
 	</li>
 
