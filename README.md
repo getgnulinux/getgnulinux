@@ -7,7 +7,7 @@ The website is written in PHP and JavaScript, and uses GNU gettext for internati
 
 ## Setup
 
-This section explains the basic steps needed to setup the website on your web server. Before you continue, there a few things that you need:
+This section explains the basic steps needed to setup the website on your web server. Before you continue, there are a few things that you need:
 
 * Shell or FTP access to your Apache web server with PHP and gettext installed
 * [Git](http://git-scm.com/)
@@ -16,7 +16,11 @@ This section explains the basic steps needed to setup the website on your web se
 * A text editor
 * And your web browser of choice
 
-First step is to download the source code from GitHub:
+On a Debian or Debian-based system, you can easily install git, gettext and make with:
+
+    $ sudo apt-get install git gettext make
+
+First step is to download getgnulinux' source code from GitHub:
 
     $ git clone https://github.com/figure002/getgnulinux.git
 
