@@ -41,7 +41,6 @@ $this->menu_switch_to_linux();
 
 <div class="section">
 
-<img src="<?php print $this->language_file("switch_to_linux.try_or_install.computer_screen.png"); ?>" width="170" height="201" alt="|| computer screen ||"/>
 <h2 id="install_dual_boot"><?php print _("Installing as a dual boot"); ?></h2>
 
 <h3 id="dual_boot_what_is"><?php print _("Choose at start-up"); ?></h3>
@@ -64,31 +63,45 @@ $this->menu_switch_to_linux();
 <p><?php print _("For the distributions we recommend, the live CD is the same as the installation CD."); ?></p>
 
 <div class="ubuntu_light">
-<h4 class="ubuntu_title">Ubuntu</h4>
-
-<p>
-    <a href="http://www.ubuntu.com/download/" class="get_it_button"><span class="go_download"><span class="download"><?php print _("Download Ubuntu"); ?></span></span></a>
-	<?php print _("You can download an <code>iso</code> image (rather large file) and then <a href=\"https://help.ubuntu.com/community/BurningIsoHowto\">burn it to a CD</a>."); ?>
-</p>
+    <div class="getit_box_left">
+        <div class="getit_box_logo"><img src="/images/switch_to_linux/switch_to_linux.try_or_install.ubuntu.png" height="60" alt="Ubuntu"/></div>
+        <div class="getit_box_text">
+            <p><?php print _("You can download an <code>iso</code> image (rather large file) and then <a href=\"https://help.ubuntu.com/community/BurningIsoHowto\">burn it to a CD</a>."); ?></p>
+        </div>
+    </div>
+    <div class="getit_box_right">
+        <a href="http://www.ubuntu.com/download/" class="green_button"><span class="link_download"><?php print _("Download Ubuntu"); ?></span></a>
+        <a href="http://www.osdisc.com/products/linux/ubuntu" class="blue_button"><span class="link_disc"><?php print _("Order a CD/DVD"); ?></span></a>
+    </div>
+    <div style="clear: both;"></div>
 </div><!-- end ubuntu_light -->
 
-
 <div class="fedora_light">
-<h4 class="fedora_title">Fedora</h4>
-
-<p>
-	<a href="http://fedoraproject.org/get-fedora" class="get_it_button"><span class="go_download"><span class="download"><?php print _("Download Fedora"); ?></span></span></a>
-	<?php print _("The Fedora live CD also enables installation. Alternatively, you can download the DVD, which cannot act as live CD but permits speedier installation."); ?>
-</p>
+    <div class="getit_box_left">
+        <div class="getit_box_logo"><img src="/images/switch_to_linux/switch_to_linux.try_or_install.fedora.png" height="60" alt="Fedora"/></div>
+        <div class="getit_box_text">
+            <p><?php print _("The Fedora live CD also enables installation. Alternatively, you can download the DVD, which cannot act as live CD but permits speedier installation."); ?></p>
+        </div>
+    </div>
+    <div class="getit_box_right">
+        <a href="http://fedoraproject.org/get-fedora" class="green_button"><span class="link_download"><?php print _("Download Fedora"); ?></span></a>
+        <a href="http://www.osdisc.com/products/linux/fedora" class="blue_button"><span class="link_disc"><?php print _("Order a CD/DVD"); ?></span></a>
+    </div>
+    <div style="clear: both;"></div>
 </div><!-- end fedora_light -->
 
-
 <div class="trisquel_light">
-<h4 class="trisquel_title">Trisquel</h4>
-
-<p>
-	<a href="http://trisquel.info/download" class="get_it_button"><span class="go_download"><span class="download"><?php print _("Download Trisquel"); ?></span></span></a>
-	<?php print _("The Trisquel installation is very similar to that of Ubuntu."); ?></p>
+    <div class="getit_box_left">
+        <div class="getit_box_logo"><img src="/images/switch_to_linux/switch_to_linux.try_or_install.trisquel.png" height="60" alt="Trisquel"/></div>
+        <div class="getit_box_text">
+            <p><?php print _("The Trisquel installation is very similar to that of Ubuntu."); ?></p></p>
+        </div>
+    </div>
+    <div class="getit_box_right">
+        <a href="http://trisquel.info/download" class="green_button"><span class="link_download"><?php print _("Download Trisquel"); ?></span></a>
+        <a href="http://www.osdisc.com/products/linux/trisquel" class="blue_button"><span class="link_disc"><?php print _("Order a CD/DVD"); ?></span></a>
+    </div>
+    <div style="clear: both;"></div>
 </div><!-- end trisquel_light -->
 
 
