@@ -148,7 +148,7 @@ if ( !defined('GGL') ) {
 
 <h3>Dutch:</h3>
 <p class="tab">
-    <a href="https://www.transifex.com/accounts/profile/AstroFloyd/">AstroFloyd</a>
+    <a href="http://astrofloyd.org/">AstroFloyd</a>
     and others.
 </p>
 
