@@ -40,7 +40,7 @@ settings.php:
 $(template):
 	xgettext -caiF --add-comments=i18n --force-po \
 	--default-domain=$(DOMAIN) \
-	--copyright-holder="GNU/Linux Matters" \
+	--copyright-holder="Get GNU/Linux!" \
 	--package-name="getgnulinux" \
 	--package-version=0.0.1 \
 	--msgid-bugs-address="https://github.com/figure002/getgnulinux/issues" \
@@ -49,8 +49,8 @@ $(template):
 	msguniq -o $(template) $(template)
 	sed --in-place "$(template)" --expression=s/"SOME DESCRIPTIVE TITLE."/"Translation file for the getgnulinux.org website."/
 	sed --in-place "$(template)" --expression=s/PACKAGE/getgnulinux/
-	sed --in-place "$(template)" --expression=s/"Copyright (C) YEAR"/"Copyright (C) 2006-2010"/
-	sed --in-place "$(template)" --expression=s/"FIRST AUTHOR <EMAIL@ADDRESS>, YEAR"/"GLM Websites Edition Team <websites@gnulinuxmatters.org>, 2008"/
+	sed --in-place "$(template)" --expression=s/"Copyright (C) YEAR"/"Copyright (C) 2013"/
+	sed --in-place "$(template)" --expression=s/"FIRST AUTHOR <EMAIL@ADDRESS>, YEAR"/"Get GNU\/Linux! <getgnulinux.org@proxy.dreamhost.com>, 2013"/
 	sed --in-place "$(template)" --expression=s/CHARSET/$(CHARSET)/
 	sed --in-place "$(template)" --expression=s/"Language: "/"Language: en"/
 	@echo
