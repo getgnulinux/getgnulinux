@@ -33,8 +33,7 @@ if ( !defined('GGL') ) {
 <p>
     Except for the material listed below, all of the text content is published under a
     <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 License</a>,<br/>
-    &copy; 2006-2010, <a href="http://www.gnulinuxmatters.org/">GNU/Linux Matters</a><br/>
-    &copy; 2011-2012, <a href="https://launchpad.net/~getgnulinux">Launchpad getgnulinux Team</a>
+    Copyright <?php echo date("Y"); ?> <a href="http://getgnulinux.org/">get GNU/Linux!</a>
 </p>
 
 <h2>Graphics</h2>
