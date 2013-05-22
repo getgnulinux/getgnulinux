@@ -176,7 +176,7 @@ if ( !defined('GGL') ) {
     Laurent Richard,
     Loïs Di Qual,
     <a href="https://www.transifex.com/accounts/profile/mauron/">mauron</a>,
-    <a href="https://www.transifex.com/accounts/profile/nh2amine/">nh2amine</a>,
+    <a href="https://www.transifex.com/accounts/profile/nh2amine/">Amine Brikci-Nigassa</a>,
     <a href="http://www.ariadacapo.net/">Olivier Cleynen</a>,
     <a href="https://www.transifex.com/accounts/profile/lkppo/">Stéphane Aulery</a>, and
     Thiébaut Hillenweck.
