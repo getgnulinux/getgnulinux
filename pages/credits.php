@@ -147,8 +147,9 @@ if ( !defined('GGL') ) {
 
 <h3>Dutch:</h3>
 <p class="tab">
-    <a href="http://astrofloyd.org/">AstroFloyd</a>
-    and others.
+    <a href="http://astrofloyd.org/">AstroFloyd</a>,
+    Johan Vervloet, and
+    Tim Speetjens.
 </p>
 
 <h3>Esperanto:</h3>
