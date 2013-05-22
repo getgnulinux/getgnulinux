@@ -66,7 +66,7 @@ $this->menu_switch_to_linux();
     <div class="getit_box_left">
         <div class="getit_box_logo"><img src="/images/switch_to_linux/switch_to_linux.try_or_install.ubuntu.png" height="60" alt="Ubuntu"/></div>
         <div class="getit_box_text">
-            <p><?php print _("You can download an <code>iso</code> image (rather large file) and then <a href=\"https://help.ubuntu.com/community/BurningIsoHowto\">burn it to a CD</a>."); ?></p>
+            <p><?php print _("You can download an <code>iso</code> image (rather large file) and then <a href=\"http://www.ubuntu.com/download/desktop/burn-a-dvd-on-windows\">burn it to a CD or DVD</a>."); ?></p>
         </div>
     </div>
     <div class="getit_box_right">
