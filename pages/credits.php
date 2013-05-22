@@ -283,13 +283,14 @@ if ( !defined('GGL') ) {
         <span class="note">Note that we bear no affiliation with the FSF - views expressed on our websites might not represent those of the FSF.</span></li>
     <li><a href="http://www.timj.co.uk/digiculture/drm-fallacy">The fallacy of DRM</a>, an article by Tim Jackson (derivative use with permission);</li>
     <li><a href="http://www.lafkon.net/tc/">Trusted Computing</a>, a video by Benjamin Stephan and Lutz Vogel, <acronym title="Creative Commons">CC</acronym> sampling plus license;</li>
-    <li><a href="http://free-culture.cc/">Free Culture</a>, a book by Lawrence Lessig, CC <acronym title="Attribution, Non Commercial">by-nc</acronym> license</li>
+    <li><a href="http://free-culture.cc/">Free Culture</a>, a book by Lawrence Lessig, CC <acronym title="Attribution, Non Commercial">by-nc</acronym> license;</li>
     <li><a href="http://www.counterpoint-online.org/cgi-bin/item.cgi?id=618">Unbounded Freedom</a>, a book by Rosemary Bechler, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution, Non Commercial, Share Alike">by-nc-sa</acronym> license;</li>
 </ul>
 
 <h2>And also</h2>
 <p>Thank you to:</p>
 <ul>
+    <li><a href="http://www.tuxfamily.org/">TuxFamily</a> for providing excellent hosting service;</li>
     <li>Danijel Orsolic and the <a href="http://www.nuxified.org/" title="friendly free software support forum">Nuxified.org</a> site for hosting our forum;</li>
     <li>The following <a href="http://www.nuxified.org/" title="friendly free software support forum">Nuxified</a> members for their kind continuous support: a_thing, AndrewB, Bjwebb, dylunio, guyjohnston, kuan, nwrman, reptiler, tbuitenh and more.</li>
 </ul>
