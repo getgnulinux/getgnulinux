@@ -67,7 +67,7 @@ print _("When you get a distribution of GNU/Linux, <strong>you also get the free
 <p><?php print _("In the end, individual end-users often get the software at zero cost, while corporate customers are often happy to pay for more support."); ?></p>
 
 <div id="switcher">
-<a href="<?php $this->base_url('windows'); ?>" class="button nextbutton"><span class="next"><?php print _("next:"); ?> <span class="button_title"><?php print _("Why not Windows"); ?></span></span></a>
+<a href="<?php $this->base_url('windows'); ?>" class="button wide nextbutton"><span class="next"><?php print _("next:"); ?> <span class="button_title"><?php print _("Why not Windows"); ?></span></span></a>
 </div><!-- end of switcher -->
 
 <div id="read_more">

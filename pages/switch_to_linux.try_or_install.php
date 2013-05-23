@@ -70,8 +70,8 @@ $this->menu_switch_to_linux();
         </div>
     </div>
     <div class="getit_box_right">
-        <a href="http://www.ubuntu.com/download/" class="green_button"><span class="link_download"><?php print _("Download Ubuntu"); ?></span></a>
-        <a href="http://www.osdisc.com/products/linux/ubuntu" class="blue_button"><span class="link_disc"><?php print _("Order a CD/DVD"); ?></span></a>
+        <a href="http://www.ubuntu.com/download/" class="button green"><span class="link_download"><?php print _("Download Ubuntu"); ?></span></a>
+        <a href="http://www.osdisc.com/products/linux/ubuntu" class="button blue"><span class="link_disc"><?php print _("Order a CD/DVD"); ?></span></a>
     </div>
     <div style="clear: both;"></div>
 </div><!-- end ubuntu_light -->
@@ -84,8 +84,8 @@ $this->menu_switch_to_linux();
         </div>
     </div>
     <div class="getit_box_right">
-        <a href="http://fedoraproject.org/get-fedora" class="green_button"><span class="link_download"><?php print _("Download Fedora"); ?></span></a>
-        <a href="http://www.osdisc.com/products/linux/fedora" class="blue_button"><span class="link_disc"><?php print _("Order a CD/DVD"); ?></span></a>
+        <a href="http://fedoraproject.org/get-fedora" class="button green"><span class="link_download"><?php print _("Download Fedora"); ?></span></a>
+        <a href="http://www.osdisc.com/products/linux/fedora" class="button blue"><span class="link_disc"><?php print _("Order a CD/DVD"); ?></span></a>
     </div>
     <div style="clear: both;"></div>
 </div><!-- end fedora_light -->
@@ -98,8 +98,8 @@ $this->menu_switch_to_linux();
         </div>
     </div>
     <div class="getit_box_right">
-        <a href="http://trisquel.info/download" class="green_button"><span class="link_download"><?php print _("Download Trisquel"); ?></span></a>
-        <a href="http://www.osdisc.com/products/linux/trisquel" class="blue_button"><span class="link_disc"><?php print _("Order a CD/DVD"); ?></span></a>
+        <a href="http://trisquel.info/download" class="button green"><span class="link_download"><?php print _("Download Trisquel"); ?></span></a>
+        <a href="http://www.osdisc.com/products/linux/trisquel" class="button blue"><span class="link_disc"><?php print _("Order a CD/DVD"); ?></span></a>
     </div>
     <div style="clear: both;"></div>
 </div><!-- end trisquel_light -->
