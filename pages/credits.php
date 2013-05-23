@@ -42,7 +42,8 @@ if ( !defined('GGL') ) {
     following sources, according to their respective copyright licenses:
 </p>
 <ul>
-    <li>Small icons: <a href="http://www.famfamfam.com/lab/icons/silk/" title="famfamfam set of icons, creative commons licensed">set of Silk icons</a> by Mark James, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution">by</acronym> license.
+    <li>Background patterns by <a href="http://subtlepatterns.com/">Subtle Patterns</a>, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution, Share Alike">BY-SA</acronym> license.</li>
+    <li>Small icons: <a href="http://www.famfamfam.com/lab/icons/silk/" title="famfamfam set of icons, creative commons licensed">set of Silk icons</a> by Mark James, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution">BY</acronym> license.
         <div class="img_box">
             <a href="http://www.famfamfam.com/lab/icons/silk/" title="famfamfam set of icons, creative commons licensed"><img src="/images/credits/silk_icons.png" alt="Marc James' Silk Icons"/></a>
         </div>
@@ -63,7 +64,7 @@ if ( !defined('GGL') ) {
             </a>
         </div>
     </li>
-    <li>Material from the <a href="http://tango.freedesktop.org/Tango_Icon_Gallery">Tango set of icons</a>, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution, Share Alike">by-sa</acronym> license:
+    <li>Material from the <a href="http://tango.freedesktop.org/Tango_Icon_Gallery">Tango set of icons</a>, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution, Share Alike">BY-SA</acronym> license:
         <div class="img_box">
             <a href="http://tango.freedesktop.org/Tango_Icon_Gallery">
             <img src="/images/credits/tango1.png" alt="Tango icon"/>
@@ -77,7 +78,7 @@ if ( !defined('GGL') ) {
             </a>
         </div>
     </li>
-    <li>Material from the <a href="http://packages.ubuntu.com/edgy/x11/human-theme">GNOME "Human Theme"</a>, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution, Share Alike">by-sa</acronym> license:
+    <li>Material from the <a href="http://packages.ubuntu.com/edgy/x11/human-theme">GNOME "Human Theme"</a>, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution, Share Alike">BY-SA</acronym> license:
         <div class="img_box">
             <a href="http://packages.ubuntu.com/edgy/x11/human-theme">
             <img src="/images/credits/human1.png" alt="human theme icon"/>
@@ -88,7 +89,7 @@ if ( !defined('GGL') ) {
     </li>
     <li>Material from other sources, such as Wikimedia Commons (each followed by its license):
         <div class="img_box">
-            <a href="http://commons.wikimedia.org/wiki/Image:Incandescent_light_bulb_%28no_labels%29.svg"><img src="/images/credits/other2.png" alt="Tango icon"/></a><acronym title="Creative Commons">CC</acronym> <acronym title="Attribution, Share Alike">by-sa</acronym>; &ndash;
+            <a href="http://commons.wikimedia.org/wiki/Image:Incandescent_light_bulb_%28no_labels%29.svg"><img src="/images/credits/other2.png" alt="Tango icon"/></a><acronym title="Creative Commons">CC</acronym> <acronym title="Attribution, Share Alike">BY-SA</acronym>; &ndash;
             <a href="http://en.wikipedia.org/wiki/Image:Flag_of_Edward_England.svg"><img src="/images/credits/other1.png" alt="Tango icon"/></a> <a href="http://en.wikipedia.org/wiki/GNU_Free_Documentation_License">GNU <acronym title="Free Documentation License">FDL</acronym></a>; &ndash;
             <a href="http://en.wikipedia.org/wiki/Image:Hammer_and_sickle.svg"><img src="/images/credits/other3.png" alt="Tango icon"/></a> public domain.
         </div>
@@ -102,7 +103,7 @@ if ( !defined('GGL') ) {
         </div>
     </li>
     <li>Ubuntu and Fedora logos: in accordance with the respective trademark guidelines (<a href="http://fedoraproject.org/wiki/Legal/TrademarkGuidelines">Fedora</a>, <a href="http://www.ubuntu.com/aboutus/trademarkpolicy">Ubuntu</a>)</li>
-    <li>gNewSense artwork: based on work <a href="http://www.flickr.com/photos/davelab6/sets/72157594509090768/">by Dave Crossland</a>, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution, Share Alike">by-sa</acronym>, with special thanks.</li>
+    <li>gNewSense artwork: based on work <a href="http://www.flickr.com/photos/davelab6/sets/72157594509090768/">by Dave Crossland</a>, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution, Share Alike">BY-SA</acronym>, with special thanks.</li>
     <li>Trisquel logo: "Trisquel" and the <a href="http://trisquel.info/en/wiki/logo">Trisquel logo</a> are registered trademarks owned by Rubén Rodríguez Pérez, <a href="http://en.wikipedia.org/wiki/GNU_General_Public_License">GNU <acronym title="General Public License">GPL</acronym></a>.</li>
     <li>Page "favicon": <a href="http://commons.wikimedia.org/wiki/Image:Nuvola_apps_emacs.png">From David Vignoni</a>, <a href="http://en.wikipedia.org/wiki/GNU_Free_Documentation_License">GNU <acronym title="Free Documentation License">FDL</acronym></a> license.</li>
     <li>The laptop image on the "Try or install" page used with permission from <a href="http://www.system76.com/">system76.com</a>.</li>
@@ -283,8 +284,8 @@ if ( !defined('GGL') ) {
         <span class="note">Note that we bear no affiliation with the FSF - views expressed on our websites might not represent those of the FSF.</span></li>
     <li><a href="http://www.timj.co.uk/digiculture/drm-fallacy">The fallacy of DRM</a>, an article by Tim Jackson (derivative use with permission);</li>
     <li><a href="http://www.lafkon.net/tc/">Trusted Computing</a>, a video by Benjamin Stephan and Lutz Vogel, <acronym title="Creative Commons">CC</acronym> sampling plus license;</li>
-    <li><a href="http://free-culture.cc/">Free Culture</a>, a book by Lawrence Lessig, CC <acronym title="Attribution, Non Commercial">by-nc</acronym> license;</li>
-    <li><a href="http://www.counterpoint-online.org/cgi-bin/item.cgi?id=618">Unbounded Freedom</a>, a book by Rosemary Bechler, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution, Non Commercial, Share Alike">by-nc-sa</acronym> license;</li>
+    <li><a href="http://free-culture.cc/">Free Culture</a>, a book by Lawrence Lessig, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution, Non Commercial">BY-NC</acronym> license;</li>
+    <li><a href="http://www.counterpoint-online.org/cgi-bin/item.cgi?id=618">Unbounded Freedom</a>, a book by Rosemary Bechler, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution, Non Commercial, Share Alike">BY-NC-SA</acronym> license;</li>
 </ul>
 
 <h2>And also</h2>
