@@ -89,9 +89,9 @@ $p = _("Many people find that Windows, an otherwise decent piece of software, <s
 
 
 <div id="switcher">
-<a href="<?php $this->base_url('switch_to_linux'); ?>" class="button nextbutton"><span class="next"><?php print _("next:"); ?> <span class="button_title"><?php print _("Switch to Linux"); ?></span></span></a>
+<a href="<?php $this->base_url('switch_to_linux'); ?>" class="button wide nextbutton"><span class="next"><?php print _("next:"); ?> <span class="button_title"><?php print _("Switch to Linux"); ?></span></span></a>
 
-<a href="<?php $this->base_url('linux'); ?>" class="button previousbutton"><span class="previous"><?php print _("previous:"); ?> <span class="button_title"><?php print _("What is Linux?"); ?></span></span></a>
+<a href="<?php $this->base_url('linux'); ?>" class="button wide previousbutton"><span class="previous"><?php print _("previous:"); ?> <span class="button_title"><?php print _("What is Linux?"); ?></span></span></a>
 </div><!-- end of switcher -->
 
 </div><!-- end maincontent -->

@@ -297,7 +297,7 @@ if ( !defined('GGL') ) {
 </ul>
 
 <div id="switcher">
-    <a href="<?php $this->base_url(); ?>" class="button previousbutton"><span class="previous"><span class="button_title"><?php print _("Return to the Homepage"); ?></span></span></a>
+    <a href="<?php $this->base_url(); ?>" class="button wide previousbutton"><span class="previous button_title"><?php print _("Return to the Homepage"); ?></span></a>
 </div><!-- end of switcher -->
 </div><!-- end maincontent -->
 

@@ -11,7 +11,7 @@ $this->load_top_bar();
 ?>
 
 <div class="upbutton_section">
-    <a href="<?php $this->base_url('windows/restrictions'); ?>" class="button upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("Restrictions"); ?></span></span></a>
+    <a href="<?php $this->base_url('windows/restrictions'); ?>" class="button wide upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("Restrictions"); ?></span></span></a>
 </div>
 
 <div id="maincontent" class="windows_sub">
@@ -90,7 +90,7 @@ print _("http://www.gnu.org/copyleft/gpl.html"); ?>" title="<?php print _("The G
 </div><!-- end maincontent -->
 
 <div class="upbutton_section">
-    <a href="<?php $this->base_url('windows/restrictions'); ?>" class="button upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("Restrictions"); ?></span></span></a>
+    <a href="<?php $this->base_url('windows/restrictions'); ?>" class="button wide upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("Restrictions"); ?></span></span></a>
 </div>
 
 <?php $this->load_footer(); ?>

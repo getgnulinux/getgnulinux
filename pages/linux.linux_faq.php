@@ -369,7 +369,7 @@ printf($p, $ggl->get('contact_url'), $ggl->get('tracker_url')); ?></p>
 
 
 <div class="upbutton_section">
-<a href="<?php $this->base_url('linux'); ?>" class="button upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("What is Linux?"); ?></span></span></a>
+<a href="<?php $this->base_url('linux'); ?>" class="button wide upbutton"><span class="up"><?php print _("back up:"); ?> <span class="button_title"><?php print _("What is Linux?"); ?></span></span></a>
 </div>
 
 </div><!-- end maincontent -->

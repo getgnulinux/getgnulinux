@@ -181,7 +181,7 @@ em, strong {
 
 code {
     font-family: "Andale Mono", "Courier New", Courier, monospace;
-    color: #8B6914;
+    color: #4D4D4D;
 }
 
 .keypart { /* Blue-highlighted key ideas, used in Windows sub-sections */
@@ -898,62 +898,22 @@ div .note {
  * Styles for the "Try or install" page.
  *----------------------------------------------------*/
 
-#mainbody a.get_it_button {
-    background-color: #DFF0B6;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EFF7DB), to(#D1EFAD));
-    background-image: -moz-linear-gradient(#EFF7DB, #D1EFAD);
-    background-image: -o-linear-gradient(#EFF7DB, #D1EFAD);
-    background-image: linear-gradient(#EFF7DB, #D1EFAD);
-    border: 1px #B1D18A solid;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    clear: both;
-    color: black;
-    display: block;
-    float: right;
-    margin-top: -1.8em;
-    margin-left: 1em;
-    margin-bottom: 0.5em;
-    padding: 0.4em;
-    text-shadow: 0 1px 0 #EFEFEF;
-    white-space: nowrap;
-    width: auto;
-}
-
-#mainbody a.get_it_button:hover {
-    background-color: #CDE496;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#CDE496), to(#A2DC5D));
-    background-image: -moz-linear-gradient(#CDE496, #A2DC5D);
-    background-image: -o-linear-gradient(#CDE496, #A2DC5D);
-    background-image: linear-gradient(#CDE496, #A2DC5D);
-    border: 1px #96C85A solid;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-    color: black;
-    text-decoration: none;
-}
-
-#mainbody a.get_it_button:active {
-    background-color: #A2DC5D;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#A2DC5D), to(#CDE496));
-    background-image: -moz-linear-gradient(#A2DC5D, #CDE496);
-    background-image: -o-linear-gradient(#A2DC5D, #CDE496);
-    background-image: linear-gradient(#A2DC5D, #CDE496);
-}
-
-.go_download {
+.link_download {
     background: url(/images/go_down.png) center left no-repeat;
     padding-left: 22px;
 }
 
-#mainbody .go_download a {
+.link_disc {
+    background: url(/images/cd.png) center left no-repeat;
+    padding-left: 22px;
+}
+
+#mainbody .link_download a, #mainbody .link_disc a {
     background: none;
 }
 
 .ubuntu_light, .fedora_light, .gnewsense_light, .trisquel_light {
-    margin: 0 0 0.5em 0;
+    margin: 1em 0;
     padding: 0.5em;
     background: white;
     border-radius: 2px;
@@ -962,19 +922,38 @@ div .note {
 }
 
 .ubuntu_light {
-    border: 1px #DD4814 solid;
+    border: 2px #DD4814 solid;
 }
 
 .fedora_light {
-    border: 1px #6c94c9 solid;
+    border: 2px #6c94c9 solid;
 }
 
 .gnewsense_light {
-    border: 1px #c59292 solid;
+    border: 2px #c59292 solid;
 }
 
 .trisquel_light {
-    border: 1px #004DB1 solid;
+    border: 2px #004DB1 solid;
+}
+
+.getit_box_left {
+    float: left;
+}
+
+.getit_box_right {
+    float: right;
+}
+
+.getit_box_logo {
+    float: left;
+    width: 70px;
+    padding: 10px;
+}
+
+.getit_box_text {
+    float: left;
+    width: 450px;
 }
 
 /*----------------------------------------------------
@@ -1503,13 +1482,12 @@ div .note {
     -webkit-border-radius: 4px;
     color: black;
     display: block;
-    min-width: 13.5em;
+    margin: 0.5em;
     padding: 0.3em 0.5em;
     text-shadow: 0 1px 0 #EFEFEF;
     white-space: nowrap;
     width: auto;
 }
-
 #mainbody a.button:hover {
     background-color: #B7CFDC;
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#D9E5EB), to(#B7CFDC));
@@ -1523,13 +1501,64 @@ div .note {
     color: black;
     text-decoration: none;
 }
-
 #mainbody a.button:active {
     background-color: #D9E5EB;
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#B7CFDC), to(#D9E5EB));
     background-image: -moz-linear-gradient(#B7CFDC, #D9E5EB);
     background-image: -o-linear-gradient(#B7CFDC, #D9E5EB);
     background-image: linear-gradient(#B7CFDC, #D9E5EB);
+}
+
+#mainbody a.button.green {
+    background-color: #DFF0B6;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EFF7DB), to(#D1EFAD));
+    background-image: -moz-linear-gradient(#EFF7DB, #D1EFAD);
+    background-image: -o-linear-gradient(#EFF7DB, #D1EFAD);
+    background-image: linear-gradient(#EFF7DB, #D1EFAD);
+    border: 1px #B1D18A solid;
+}
+#mainbody a.button.green:hover {
+    background-color: #CDE496;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#CDE496), to(#A2DC5D));
+    background-image: -moz-linear-gradient(#CDE496, #A2DC5D);
+    background-image: -o-linear-gradient(#CDE496, #A2DC5D);
+    background-image: linear-gradient(#CDE496, #A2DC5D);
+    border: 1px #96C85A solid;
+}
+#mainbody a.button.green:active {
+    background-color: #A2DC5D;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#A2DC5D), to(#CDE496));
+    background-image: -moz-linear-gradient(#A2DC5D, #CDE496);
+    background-image: -o-linear-gradient(#A2DC5D, #CDE496);
+    background-image: linear-gradient(#A2DC5D, #CDE496);
+}
+
+#mainbody a.button.blue {
+    background-color: #B6D7F0;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#DBEAF7), to(#ADCEEF));
+    background-image: -moz-linear-gradient(#DBEAF7, #ADCEEF);
+    background-image: -o-linear-gradient(#DBEAF7, #ADCEEF);
+    background-image: linear-gradient(#DBEAF7, #ADCEEF);
+    border: 1px #95B1D4 solid;
+}
+#mainbody a.button.blue:hover {
+    background-color: #96C2E4;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#CBE2F6), to(#9AC0E7));
+    background-image: -moz-linear-gradient(#CBE2F6, #9AC0E7);
+    background-image: -o-linear-gradient(#CBE2F6, #9AC0E7);
+    background-image: linear-gradient(#CBE2F6, #9AC0E7);
+    border: 1px #7697BF solid;
+}
+#mainbody a.button.blue:active {
+    background-color: #96C2E4;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#9AC0E7), to(#CBE2F6));
+    background-image: -moz-linear-gradient(#9AC0E7, #CBE2F6);
+    background-image: -o-linear-gradient(#9AC0E7, #CBE2F6);
+    background-image: linear-gradient(#9AC0E7, #CBE2F6);
+}
+
+#mainbody a.button.wide {
+    min-width: 13.5em;
 }
 
 .button_title {
@@ -1570,9 +1599,8 @@ div .note {
 }
 
 #mainbody a.upbutton {
-    width: 17em;
     float: right;
-    padding-left: 20px;
+    text-align: center;
 }
 
 .up {
