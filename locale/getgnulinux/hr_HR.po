@@ -1,17 +1,18 @@
 # Translation file for the getgnulinux.org website.
-# Copyright (C) 2006-2010 GNU/Linux Matters
+# Copyright (C) 2013 Get GNU/Linux!
 # This file is distributed under the same license as the getgnulinux package.
 #
 # Translators:
 # CroatianFan <meluksic@yahoo.com>, 2013
 # GLM Websites Edition Team <websites@gnulinuxmatters.org>, 2008
 # CroatianFan <meluksic@yahoo.com>, 2013
+# CroatianFan <meluksic@yahoo.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/figure002/getgnulinux/issues\n"
-"POT-Creation-Date: 2013-03-15 15:46+0100\n"
-"PO-Revision-Date: 2013-04-12 12:36+0000\n"
+"POT-Creation-Date: 2013-05-25 11:56+0200\n"
+"PO-Revision-Date: 2013-05-25 18:30+0000\n"
 "Last-Translator: CroatianFan <meluksic@yahoo.com>\n"
 "Language-Team: Croatian (Croatia) (http://www.transifex.com/projects/p/"
 "getgnulinux/language/hr_HR/)\n"
@@ -45,8 +46,8 @@ msgid "More"
 msgstr "Više"
 
 #. i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
-#: include/GetGNULinux.php:191 include/HTML.php:98 pages/home.php:32
-#: pages/linux.linux_faq.php:372
+#: include/GetGNULinux.php:191 include/HTML.php:98 pages/home.php:14
+#: pages/home.php:30 pages/linux.linux_faq.php:372
 #: pages/linux.misunderstanding_free_software.php:197
 #: pages/linux.screenshots.php:37 pages/linux.screenshots.php:118
 #: pages/windows.php:94
@@ -73,7 +74,7 @@ msgstr ""
 
 #. i18n: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
 #: include/GetGNULinux.php:199 include/HTML.php:99 include/HTML.php:215
-#: include/HTML.php:236 pages/home.php:39 pages/linux.php:70
+#: include/HTML.php:236 pages/home.php:37 pages/linux.php:70
 #: pages/windows.php:15
 msgid "Why not Windows"
 msgstr "Zašto ne Windowsi?"
@@ -115,7 +116,7 @@ msgstr "Bez izvornog koda"
 
 #. i18n: This appears in the top header menu and should be as short and concise as possible.
 #: include/GetGNULinux.php:211 include/HTML.php:100 include/HTML.php:195
-#: pages/home.php:46 pages/switch_to_linux.php:15 pages/windows.php:92
+#: pages/home.php:44 pages/switch_to_linux.php:15 pages/windows.php:92
 msgid "Switch to Linux"
 msgstr "Prijeđi na Linux"
 
@@ -340,16 +341,16 @@ msgstr "preskočite na sadržaj"
 msgid "home page"
 msgstr "glavna stranica"
 
-#: pages/credits.php:282 pages/legal.php:132 pages/not_found.php:32
+#: pages/credits.php:300 pages/legal.php:132 pages/not_found.php:32
 msgid "Return to the Homepage"
 msgstr "Povratak na početnu stranicu"
 
-#: pages/home.php:21
+#: pages/home.php:19
 msgid "Switch to Linux!"
 msgstr "Prijeđi na Linux!"
 
 #. i18n: This is the very first sentence every visitor is going to read. Please pay great attention to making it sound great, we only have one try! =)
-#: pages/home.php:25
+#: pages/home.php:23
 msgid ""
 "GNU/Linux, or simply <em>Linux</em>, is an alternative to Microsoft Windows. "
 "It is easy to use and gives more freedom to users. Anyone can install it: "
@@ -360,15 +361,15 @@ msgstr ""
 "Svatko ga može ugraditi: Linux je slobodan poput slobode i često dostupan "
 "potpuno besplatno."
 
-#: pages/home.php:33
+#: pages/home.php:31
 msgid "Learn more about the free operating system"
 msgstr "Nauči više o slobodnom operativnom sustavu"
 
-#: pages/home.php:40
+#: pages/home.php:38
 msgid "Why we should avoid using Microsoft Windows"
 msgstr "Zašto bismo trebali izbjegavati korištenje Microsoftovih Windowsa?"
 
-#: pages/home.php:47
+#: pages/home.php:45
 msgid "Where to download and how to step into Linux"
 msgstr "Gdje preuzeti i kako zakoračiti u Linux?"
 
@@ -782,7 +783,7 @@ msgid ""
 "hardware functionality."
 msgstr ""
 "Neke distribucije GNU/Linuxa dozvoljavaju neslobodni softver kako bi "
-"omogućile djelotvornost hardvera."
+"omogućile djelotvornost računalnog sklopovlja."
 
 #. i18n: If it exits, please use the URL of the official Ubuntu homepage localized in your language.
 #: pages/linux.linux_faq.php:174
@@ -794,6 +795,14 @@ msgid ""
 "Distributions such as <a href=\"http://www.ubuntu.com/\">Ubuntu</a> thus "
 "include such components to improve hardware compatibility."
 msgstr ""
+"Ova se zbiva jer pojedini proizvođači računalnog sklopovlja, npr. NVidia, ne "
+"vode računa o slobodama vlastitih kupaca, te jedino objavljuju "
+"ograničavajuću programsku opremu i upravljačke programe (a neki od njih, "
+"poput Broadcoma, uopće ništa i ne objavljuju). Oni su dostupni besplatno "
+"(pripadaju slobodnoj programskoj opremi), ali pod ograničavajućim dozvolama. "
+"Distribucije kao što je <a href=\"http://www.ubuntu.com/\">Ubuntu</a> stoga "
+"uključuju takve programske sastavnice kako bi poboljšale radnu usklađenost "
+"računalnog sklopovlja."
 
 #: pages/linux.linux_faq.php:175
 msgid ""
@@ -813,10 +822,17 @@ msgid ""
 "\">using Windows</a>. We value your freedom and recommend you choose "
 "carefully!"
 msgstr ""
+"Pojedini distributeri GNU/Linuxa spajaju slobodne i ograničavajuće računalne "
+"programe bez razlike. Takvi distributeri ne žele da korisnici razmišljaju o "
+"vlastitoj slobodi, već radije govore o tehničkim mogućnostima svoga "
+"proizvoda. Korištenje takvih distribucija nije puno bolje od <a href=\"%s"
+"\">korištenja Windowsa</a>. Mi cijenimo tvoju slobodu i preporučamo ti da "
+"pažljivo biraš!"
 
 #: pages/linux.linux_faq.php:186
 msgid "Do all the reasons for avoiding Windows apply to Mac&nbsp;OS?"
 msgstr ""
+"Mogu li se svi razlozi za izbjegavanje Windowsa primijeniti i na Mac OS?"
 
 #: pages/linux.linux_faq.php:188
 #, php-format
@@ -2488,7 +2504,7 @@ msgid ""
 msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:34
-#: pages/switch_to_linux.try_or_install.php:51
+#: pages/switch_to_linux.try_or_install.php:50
 msgid "What you need"
 msgstr ""
 
@@ -2500,30 +2516,30 @@ msgid ""
 "your reach."
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:45
+#: pages/switch_to_linux.try_or_install.php:44
 msgid "Installing as a dual boot"
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:47
+#: pages/switch_to_linux.try_or_install.php:46
 msgid "Choose at start-up"
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:48
+#: pages/switch_to_linux.try_or_install.php:47
 msgid ""
 "It is possible to install GNU/Linux along with Windows. This means that upon "
 "start-up, you will be greeted with a screen allowing you to boot into the "
 "operating system you prefer."
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:49
+#: pages/switch_to_linux.try_or_install.php:48
 msgid ""
 "Setting up a dual-boot can be helpful if you need time to abandon "
-"restrictive software. It is <a href=\"http://www.psychocats.net/ubuntu/"
-"installing\" title=\"a tutorial on dual-booting Windows and Ubuntu\">not "
+"restrictive software. It is <a href=\"http://www.ubuntu.com/download/desktop/"
+"install-desktop-latest\" title=\"a tutorial on installing Ubuntu\">not "
 "difficult to set-up</a>, though erasing Windows altogether is even easier."
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:52
+#: pages/switch_to_linux.try_or_install.php:51
 msgid ""
 "Installing Linux on your computer will take you less than 30 minutes. It is "
 "not an obvious step for complete beginners, but if you use computers on a "
@@ -2532,58 +2548,70 @@ msgid ""
 "harder."
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:62
-msgid "Get the CD you need"
+#: pages/switch_to_linux.try_or_install.php:61
+msgid "Get the CD or DVD you need"
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:64
+#: pages/switch_to_linux.try_or_install.php:63
 msgid ""
-"For the distributions we recommend, the live CD is the same as the "
-"installation CD."
+"For the distributions we recommend, the live CD/DVD is the same as the "
+"installation CD/DVD. You can either download and burn a CD/DVD yourself, or "
+"order a CD/DVD from a trusted vendor."
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:70
+#: pages/switch_to_linux.try_or_install.php:69
+msgid ""
+"You can download an <code>iso</code> image (rather large file) and then <a "
+"href=\"http://www.ubuntu.com/download/desktop/burn-a-dvd-on-windows\">burn "
+"it to a CD or DVD</a>. Once the CD/DVD is burned, you can use it to <a href="
+"\"http://www.ubuntu.com/download/desktop/install-desktop-latest\">install "
+"Ubuntu</a> onto your computer."
+msgstr ""
+
+#: pages/switch_to_linux.try_or_install.php:73
 msgid "Download Ubuntu"
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:71
-msgid ""
-"You can download an <code>iso</code> image (rather large file) and then <a "
-"href=\"https://help.ubuntu.com/community/BurningIsoHowto\">burn it to a CD</"
-"a>."
+#: pages/switch_to_linux.try_or_install.php:74
+#: pages/switch_to_linux.try_or_install.php:88
+#: pages/switch_to_linux.try_or_install.php:102
+msgid "Order a CD/DVD"
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:80
+#: pages/switch_to_linux.try_or_install.php:83
+msgid ""
+"The Fedora live CD/DVD also enables installation. Follow the <a href="
+"\"http://docs.fedoraproject.org/en-US/Fedora/18/html/"
+"Installation_Quick_Start_Guide/index.html\">installation quick start guide</"
+"a> to get started with Fedora."
+msgstr ""
+
+#: pages/switch_to_linux.try_or_install.php:87
 msgid "Download Fedora"
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:81
+#: pages/switch_to_linux.try_or_install.php:97
 msgid ""
-"The Fedora live CD also enables installation. Alternatively, you can "
-"download the DVD, which cannot act as live CD but permits speedier "
-"installation."
+"The <a href=\"http://trisquel.info/en/wiki/installation-guide\">Trisquel "
+"installation</a> is very similar to that of Ubuntu."
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:90
+#: pages/switch_to_linux.try_or_install.php:101
 msgid "Download Trisquel"
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:91
-msgid "The Trisquel installation is very similar to that of Ubuntu."
-msgstr ""
-
-#: pages/switch_to_linux.try_or_install.php:96
+#: pages/switch_to_linux.try_or_install.php:109
 msgid ""
 "Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href="
 "\"http://www.softwareliberty.com/\" title=\"What do you mean, free?\">free "
 "software</a>. You are simply paying a handling/shipping fee."
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:103
+#: pages/switch_to_linux.try_or_install.php:116
 msgid "Free Software pre-installed"
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:105
+#: pages/switch_to_linux.try_or_install.php:118
 msgid ""
 "Not all computers are shipped with Windows. If you do not wish to make the "
 "install yourself, or are in need of new hardware, you can get a laptop or a "
@@ -2942,7 +2970,7 @@ msgid ""
 "Restrictions on who can use the software, what kind of revenue you may earn "
 "with it, on how you choose to install it, restrictions on your privacy, even "
 "on whether you can give it away: the list is long. <a href=\"%s\" title=\"a "
-"few more things about Mircrosoft licenses\">Reading the license and "
+"few more things about Microsoft licenses\">Reading the license and "
 "enumerating your remaining rights</a> is itself a difficult task."
 msgstr ""
 
@@ -3109,7 +3137,7 @@ msgstr ""
 #: pages/windows.stand_for_a_free_society.php:70
 msgid ""
 "Except that the control is not in the hands of the end-user. The original "
-"purpose of <acronym title=\"Digital Restrictions Managment\">DRM</acronym> "
+"purpose of <acronym title=\"Digital Restrictions Management\">DRM</acronym> "
 "is understandable, but the implications over the flow of information and "
 "culture within a society are frightening."
 msgstr ""
