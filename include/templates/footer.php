@@ -56,9 +56,9 @@
 <div id="language_menu"><span id="language_menu_text">Alternate languages</span></div>
 <ul>
 <?php
-foreach ($ggl->get('locales') as $code => $items) {
-    list($locale, $native, $percent) = $items;
-    if ($percent == 1) {
+foreach ($ggl->get_locales() as $code => $items) {
+    list($locale, $native) = $items;
+    if ( $ggl->lang_is_complete($code) ) {
         printf("<li%s><a href=\"/%s\" hreflang=\"%s\"><span dir=\"%s\">%s</span></a></li>\n",
             $this->is_current_language($code),
             $this->current_page($code),

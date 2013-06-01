@@ -7,9 +7,9 @@
     <!-- alternate languages -->
     <?php
     $base_url = $ggl->get('base_url');
-    foreach ($ggl->get('locales') as $code => $items) {
-        list($locale, $native, $percent) = $items;
-        if ($percent == 1) {
+    foreach ($ggl->get_locales() as $code => $items) {
+        list($locale, $native) = $items;
+        if ( $ggl->lang_is_complete($code) ) {
             printf("<link rel=\"alternate\" type=\"text/html\" dir=\"%s\" hreflang=\"%s\" href=\"%s%s\" />\n",
                 $ggl->get_lang_directionality($code),
                 $code,

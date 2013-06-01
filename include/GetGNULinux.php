@@ -32,12 +32,60 @@
  */
 class GetGNULinux {
     /**
+     * An associative, multidimensional array where each key is an
+     * ISO language code. Each value is an array containing the following
+     * items:
+     *   0 - Locale code for gettext.
+     *   1 - Native name for the language name.
+     *
+     * @var array
+     */
+    private static $locales = array(
+        'ar' => array('ar_SA.UTF-8',"العربية"),
+        'ast' => array('ast_ES.UTF-8',"Asturianu"),
+        'ca' => array('ca_AD.UTF-8',"Català"),
+        'da' => array('da_DK.UTF-8',"Dansk"),
+        'de' => array('de_DE.UTF-8',"Deutsch"),
+        'en' => array('en_US.UTF-8',"English"),
+        'eo' => array('eo.UTF-8'   ,"Esperanto"),
+        'es' => array('es_ES.UTF-8',"Español"),
+        'fi' => array('fi_FI.UTF-8',"Suomi"),
+        'fr' => array('fr_FR.UTF-8',"Français"),
+        'gl' => array('gl_ES.UTF-8',"Galego"),
+        'he' => array('he_IL.UTF-8',"עִבְרִית"),
+        'hr' => array('hr_HR.UTF-8',"Hrvatski"),
+        'ia' => array('ia'         ,"Interlingua"),
+        'it' => array('it_IT.UTF-8',"Italiano"),
+        'ja' => array('ja_JP.UTF-8',"日本語"),
+        'lt' => array('lt_LT.UTF-8',"Lietuvių"),
+        'ml' => array('ml_IN'      ,"മലയാളം"),
+        'nl' => array('nl_NL.UTF-8',"Nederlands"),
+        'pl' => array('pl_PL.UTF-8',"Polski"),
+        'pt' => array('pt_PT.UTF-8',"Português"),
+        'pt-br' => array('pt_BR.UTF-8',"Português Brasileiro"),
+        'ru' => array('ru_RU.UTF-8',"Русский"),
+        'sr' => array('sr_RS'      ,"Српски"),
+        'tr' => array('tr_TR.UTF-8',"Türkçe"),
+        'uk' => array('uk_UA.UTF-8',"Українська"),
+        'vi' => array('vi_VN'      ,"Tiếng Việt"),
+        'zh' => array('zh_CN.UTF-8',"中文(简)"),
+    );
+
+    /**
+     * Set of ISO language codes for translations that are completed.
+     *
+     * @var array
+     */
+    private static $locales_complete = array('ast','en','es','fr','he','nl',
+        'pt-br','zh');
+
+    /**
      * Set of ISO language codes for right-to-left languages.
      *
      * @var array
      */
-    private static $rtl_languages = array("ar", "dv", "fa", "ha", "he", "ps",
-        "ur", "yi");
+    private static $rtl_languages = array('ar','dv','fa','ha','he','ps','ur',
+        'yi');
 
     /**
      * Set of ISO language codes for languages for which italics should be
@@ -45,7 +93,7 @@ class GetGNULinux {
      *
      * @var array
      */
-    private static $no_italics_languages = array("ar", "he");
+    private static $no_italics_languages = array('ar','he');
 
     /**
      * Configuration items.
@@ -59,60 +107,17 @@ class GetGNULinux {
      *  - dir: Text direction of the current language.
      *  - gettext_domain: The gettext domain which tells gettext where to look
      *      for PO files.
-     *  - locales: An associative, multidimensional array where each key is an
-     *      ISO language code. Each value is an array containing the following
-     *      items:
-     *      0. Locale code for gettext.
-     *      1. Native name for the language name.
-     *      2. Completed translation fraction for this language (1.0 = 100%).
      *
      * @var array
      */
     public $config = array(
-        'default_lang' => "en", /* not used at this moment */
+        'default_lang' => 'en', /* not used at this moment */
         'negotiated_lang' => null,
-        'lang' => "en",
+        'lang' => 'en',
         'locale' => "en_US.UTF-8",
         'dir' => "ltr",
         'gettext_domain' => "getgnulinux",
-        'locales' => array(
-            'ar' => array('ar_SA.UTF-8',"العربية", 0.56),
-            'ast' => array('ast_ES.UTF-8',"Asturianu", 1),
-            'ca' => array('ca_AD.UTF-8',"Català", 0.70),
-            'da' => array('da_DK.UTF-8',"Dansk", 0.07),
-            'de' => array('de_DE.UTF-8',"Deutsch", 0.53),
-            'en' => array('en_US.UTF-8',"English", 1),
-            'eo' => array('eo.UTF-8'   ,"Esperanto", 0.26),
-            'es' => array('es_ES.UTF-8',"Español", 1),
-            'fi' => array('fi_FI.UTF-8',"Suomi", 0.13),
-            'fr' => array('fr_FR.UTF-8',"Français", 1),
-            'gl' => array('gl_ES.UTF-8',"Galego", 0.24),
-            'he' => array('he_IL.UTF-8',"עִבְרִית", 1),
-            'hr' => array('hr_HR.UTF-8',"Hrvatski", 0.26),
-            'ia' => array('ia'         ,"Interlingua", 0.60),
-            'it' => array('it_IT.UTF-8',"Italiano", 0.74),
-            'ja' => array('ja_JP.UTF-8',"日本語", 0.01),
-            'lt' => array('lt_LT.UTF-8',"Lietuvių", 0.28),
-            'ml' => array('ml_IN'      ,"മലയാളം", 0.17),
-            'nl' => array('nl_NL.UTF-8',"Nederlands", 1),
-            'pl' => array('pl_PL.UTF-8',"Polski", 0.13),
-            'pt' => array('pt_PT.UTF-8',"Português", 0.19),
-            'pt-br' => array('pt_BR.UTF-8',"Português Brasileiro", 1),
-            'ru' => array('ru_RU.UTF-8',"Русский", 0.85),
-            'sr' => array('sr_RS'      ,"Српски", 0.06),
-            'tr' => array('tr_TR.UTF-8',"Türkçe", 0.18),
-            'uk' => array('uk_UA.UTF-8',"Українська", 0.41),
-            'vi' => array('vi_VN'      ,"Tiếng Việt", 0.49),
-            'zh' => array('zh_CN.UTF-8',"中文(简)", 1),
-            )
-        );
-
-    /**
-     * Constructor.
-
-    function __construct() {
-
-    }*/
+    );
 
     /**
      * Initialise GGL. Needs to be called manually after the user settings
@@ -121,7 +126,7 @@ class GetGNULinux {
      * Sets locale information (like language code, country code, text
      * direction), initialises gettext, and sets some main configurations.
      */
-    function init() {
+    public function init() {
         global $lang;
 
         # Set the base URL.
@@ -134,7 +139,7 @@ class GetGNULinux {
         $override = isset($_GET['l']) ? $_GET['l'] : null;
 
         # Set global variable $lang to negotiated language.
-        locale_negotiate_language($this->config['locales'], $override);
+        locale_negotiate_language(self::$locales, self::$locales_complete, $override);
 
         # Set the negotiated language and locale variables. If no language
         # was found, negotiated_lang and the locale variables keep their
@@ -156,7 +161,7 @@ class GetGNULinux {
      *
      * This method sets where gettext should obtain the localised content.
      */
-    function init_gettext() {
+    private function init_gettext() {
         # Initialize gettext. Configure gettext to look in
         # /locale/xx_YY/LC_MESSAGES/ for gettext_domain.mo.
         $gettext_domain = $this->get('gettext_domain');
@@ -175,7 +180,7 @@ class GetGNULinux {
     /**
      * Sets global configurations.
      */
-    function init_config() {
+    private function init_config() {
         # i18n: The name of the website. It is displayed in the header of each page.
         $this->config['website_title'] = _("get GNU/Linux!");
 
@@ -262,7 +267,7 @@ class GetGNULinux {
      * @param string $key The configuration key to set.
      * @param $value The configuration value for $key.
      */
-	function set($key, &$value)
+	public function set($key, &$value)
     {
         if ($key == 'locale') {
             $this->set_locale($value);
@@ -283,13 +288,13 @@ class GetGNULinux {
      * @param string $lang The language code. This must be one of the keys of
      *      the array $config['locale'].
      */
-    function set_locale($lang)
+    public function set_locale($lang)
     {
-        if ( isset($this->config['locales'][$lang]) ) {
+        if ( isset(self::$locales[$lang]) ) {
             // Set the language code.
             $this->config['lang'] = $lang;
             // Set the locale.
-            $this->config['locale'] = $this->config['locales'][$lang][0];
+            $this->config['locale'] = self::$locales[$lang][0];
             // Set the text direction for this language.
             $this->config['dir'] = $this->get_lang_directionality($lang);
         }
@@ -302,7 +307,7 @@ class GetGNULinux {
      * @param $default The value to be returned if $key is not set.
      * @return unknown
      */
-    function get($key, $default='')
+    public function get($key, $default='')
     {
 		if ( isset($this->config[$key]) ) {
 			return $this->config[$key];
@@ -311,9 +316,19 @@ class GetGNULinux {
     }
 
     /**
+     * Returns the locales array.
+     *
+     * @return array self::$locales
+     */
+    public function get_locales()
+    {
+		return self::$locales;
+    }
+
+    /**
      * Returns the directionality of the requested language.
      *
-     * @param string $languageCode The ISO 639-1 code of the language.
+     * @param string $lang The ISO 639-1 code of the language.
      * @return string rtl|ltf
      */
     public function get_lang_directionality($lang)
@@ -331,5 +346,17 @@ class GetGNULinux {
     public function no_italics()
     {
         return in_array($this->config['lang'], self::$no_italics_languages);
+    }
+
+    /**
+     * Returns TRUE if the translation for provided language code is complete.
+     *
+     * @param string $lang The ISO 639-1 code of the language.
+     * @uses array self::$locales_complete
+     * @return bool TRUE|FALSE
+     */
+    public function lang_is_complete($lang)
+    {
+        return in_array($lang, self::$locales_complete);
     }
 }

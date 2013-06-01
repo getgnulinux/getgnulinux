@@ -500,21 +500,20 @@ class HTML {
 
         // Compose a list of links for completed translations.
         $complete = array();
-        foreach ($ggl->get('locales') as $code => $items) {
-            list($locale, $native, $percent) = $items;
+        foreach ($ggl->get_locales() as $code => $items) {
+            list($locale, $native) = $items;
             $bool = true;
             if ($mode == 3) {
-                $bool = $percent == 1;
+                $bool = $ggl->lang_is_complete($code);
             }
             else if ($mode == 2) {
-                $bool = $percent < 1;
+                $bool = !$ggl->lang_is_complete($code);
             }
             if ($bool) {
                 if ($mode == 1 or $mode == 2) {
-                    $link = "<a href=\"/%s\" title=\"%s&#37; complete\" hreflang=\"%s\"><span dir=\"%s\">%s</span></a>";
+                    $link = "<a href=\"/%s\" hreflang=\"%s\"><span dir=\"%s\">%s</span></a>";
                     $complete[] = sprintf($link,
                         $this->current_page($code),
-                        $percent*100,
                         $code,
                         $ggl->get_lang_directionality($code),
                         $native);

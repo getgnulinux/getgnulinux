@@ -23,27 +23,28 @@
 
 /**
  * Sets global variable $lang to negotiated language.
- * Languages for which the translation is not completed ($percent=1) are not
- * selected, except if it's an override language.
+ * Languages for which the translation is not completed are not selected,
+ * except if it's an override language.
  *
  * @param array $available_languages Contains information for locales,
  *      for example:
  *      array(
- *          'en' => array('en_US',"English", 1),
- *          'eo' => array('eo'   ,"Esperanto", 0.24),
+ *          'en' => array('en_US',"English"),
+ *          'eo' => array('eo'   ,"Esperanto"),
  *      )
+ * @param array $complete Contains language codes for completed translations.
  * @param string $override_langage Override language, such as from cookie
  *      or domain name. Set to null to force negotiation of language from
  *      browser, using HTTP headers.
  */
-function locale_negotiate_language($available_languages, $override_langage=NULL) {
+function locale_negotiate_language($available_languages, $complete, $override_langage=NULL) {
     global $langs, $langmap, $lang;
     #global $http;
 
     $langs = array(); $langmap = array();
     foreach ($available_languages as $code => $items) {
-        list($locale, $native, $percent) = $items;
-        if ($percent < 1 && $code != $override_langage) {
+        list($locale, $native) = $items;
+        if ( !in_array($code, $complete) && $code != $override_langage ) {
             continue;
         }
         #preg_match('/^([a-zA-Z_]+)./', $locale, $matches);
