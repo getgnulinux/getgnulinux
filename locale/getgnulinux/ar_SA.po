@@ -1,5 +1,5 @@
 # Translation file for the getgnulinux.org website.
-# Copyright (C) 2006-2010 GNU/Linux Matters
+# Copyright (C) 2013 Get GNU/Linux!
 # This file is distributed under the same license as the getgnulinux package.
 #
 # Translators:
@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/figure002/getgnulinux/issues\n"
-"POT-Creation-Date: 2013-03-15 15:46+0100\n"
-"PO-Revision-Date: 2013-04-27 05:40+0000\n"
+"POT-Creation-Date: 2013-05-25 11:56+0200\n"
+"PO-Revision-Date: 2013-06-08 05:40+0000\n"
 "Last-Translator: kraim <7kraim@gmail.com>\n"
 "Language-Team: Arabic (Saudi Arabia) (http://www.transifex.com/projects/p/"
 "getgnulinux/language/ar_SA/)\n"
@@ -46,8 +46,8 @@ msgid "More"
 msgstr "المزيد"
 
 #. i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
-#: include/GetGNULinux.php:191 include/HTML.php:98 pages/home.php:32
-#: pages/linux.linux_faq.php:372
+#: include/GetGNULinux.php:191 include/HTML.php:98 pages/home.php:14
+#: pages/home.php:30 pages/linux.linux_faq.php:372
 #: pages/linux.misunderstanding_free_software.php:197
 #: pages/linux.screenshots.php:37 pages/linux.screenshots.php:118
 #: pages/windows.php:94
@@ -74,7 +74,7 @@ msgstr "ماذا يشبه جنو/لينكس"
 
 #. i18n: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
 #: include/GetGNULinux.php:199 include/HTML.php:99 include/HTML.php:215
-#: include/HTML.php:236 pages/home.php:39 pages/linux.php:70
+#: include/HTML.php:236 pages/home.php:37 pages/linux.php:70
 #: pages/windows.php:15
 msgid "Why not Windows"
 msgstr "لمَ ليس ويندوز"
@@ -116,7 +116,7 @@ msgstr "لا شفرة مصدرية"
 
 #. i18n: This appears in the top header menu and should be as short and concise as possible.
 #: include/GetGNULinux.php:211 include/HTML.php:100 include/HTML.php:195
-#: pages/home.php:46 pages/switch_to_linux.php:15 pages/windows.php:92
+#: pages/home.php:44 pages/switch_to_linux.php:15 pages/windows.php:92
 msgid "Switch to Linux"
 msgstr "تحول إلى لينكس"
 
@@ -346,16 +346,16 @@ msgstr "تخطى إلى المحتوى"
 msgid "home page"
 msgstr "الصفحة الرئيسية"
 
-#: pages/credits.php:282 pages/legal.php:132 pages/not_found.php:32
+#: pages/credits.php:300 pages/legal.php:132 pages/not_found.php:32
 msgid "Return to the Homepage"
 msgstr "العودة إلى الصفحة الرئيسية"
 
-#: pages/home.php:21
+#: pages/home.php:19
 msgid "Switch to Linux!"
 msgstr "انتقل إلى لينكس!"
 
 #. i18n: This is the very first sentence every visitor is going to read. Please pay great attention to making it sound great, we only have one try! =)
-#: pages/home.php:25
+#: pages/home.php:23
 msgid ""
 "GNU/Linux, or simply <em>Linux</em>, is an alternative to Microsoft Windows. "
 "It is easy to use and gives more freedom to users. Anyone can install it: "
@@ -365,15 +365,15 @@ msgstr ""
 "الاستخدام ويمنح المستخدمين المزيد من الحرية. يمكن لأي شخص تثبيته: يمتاز "
 "لينكس بالحرية، و متاح مجانا في الغالب."
 
-#: pages/home.php:33
+#: pages/home.php:31
 msgid "Learn more about the free operating system"
 msgstr "تعلم المزيد حول نظام التشغيل الحرّ"
 
-#: pages/home.php:40
+#: pages/home.php:38
 msgid "Why we should avoid using Microsoft Windows"
 msgstr "لماذا يجب تجنب استخدام مايكروسوفت ويندوز"
 
-#: pages/home.php:47
+#: pages/home.php:45
 msgid "Where to download and how to step into Linux"
 msgstr "أين يمكن تنزيله، وكيف تصل إلى لينكس"
 
@@ -806,6 +806,9 @@ msgid ""
 "href=\"http://trisquel.info/\">Trisquel</a>, which is a Ubuntu derivative "
 "with all restricting components removed."
 msgstr ""
+"بعض موزعي جنو/لينكس لا يساومون على حرية البرنامج، ويتأكدون من أنّ توزيعاتهم "
+"حرة بالكامل. مثل <a href=\"http://trisquel.info/\">Trisquel</a>، والذي اشتق "
+"من أوبنتو بعد إزالة كل المكونات المحتكرة."
 
 #: pages/linux.linux_faq.php:176
 #, php-format
@@ -1538,6 +1541,9 @@ msgid ""
 "your modified version, your computer works better and your factories run "
 "twice as fast!"
 msgstr ""
+"دعونا نتصور أنك تستخدم تطبيق واحد من البرمجيات الحرة، في منزلك وداخل شركتك. "
+"ستجد وسيلة رائعة لتحسينه، مع إصدارك المعدل الآن، جهاز الكمبيوتر الخاص بك "
+"سيعمل بشكل أفضل وأيضا المصانع الخاصة بك سيتم العمل أسرع بمرتين!"
 
 #: pages/linux.misunderstanding_free_software.php:124
 msgid ""
@@ -1592,7 +1598,7 @@ msgstr "اقرأ المزيد:"
 
 #: pages/linux.misunderstanding_free_software.php:138
 msgid "Free / \"open-source\" software can't be secure."
-msgstr ""
+msgstr "البرمجيات الحرة \\ \"مفتوحة المصدر\" لا يمكن أن تكون آمنة."
 
 #: pages/linux.misunderstanding_free_software.php:141
 msgid ""
@@ -2232,7 +2238,7 @@ msgstr ""
 
 #: pages/switch_to_linux.from_windows_to_linux.php:34
 msgid "Programs"
-msgstr ""
+msgstr "برامج"
 
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:37
@@ -2315,7 +2321,7 @@ msgstr "تحديثات البرامج السهلة والمستمرة ستؤَم
 
 #: pages/switch_to_linux.from_windows_to_linux.php:62
 msgid "Support"
-msgstr ""
+msgstr "دعم"
 
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:65
@@ -2422,7 +2428,7 @@ msgstr ""
 
 #: pages/switch_to_linux.from_windows_to_linux.php:120
 msgid "Driver support"
-msgstr ""
+msgstr "دعم التعاريف"
 
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:123
@@ -2488,7 +2494,7 @@ msgstr ""
 
 #: pages/switch_to_linux.from_windows_to_linux.php:142
 msgid "Gaming"
-msgstr ""
+msgstr "اللعب"
 
 #. i18n: image alt description
 #: pages/switch_to_linux.from_windows_to_linux.php:145
@@ -2573,7 +2579,7 @@ msgstr ""
 #. i18n: We try to be friendly and inviting here. This does not have to be translated very precisely.
 #: pages/switch_to_linux.from_windows_to_linux.php:188
 msgid "Choose a Linux distribution to get started!"
-msgstr ""
+msgstr "اختر توزيعة لينكس لتبدأ!"
 
 #. i18n: please note the "affirmative" tone with the '.' at end of sentence.
 #: pages/switch_to_linux.php:25
@@ -2627,7 +2633,7 @@ msgid ""
 msgstr ""
 
 #: pages/switch_to_linux.try_or_install.php:34
-#: pages/switch_to_linux.try_or_install.php:51
+#: pages/switch_to_linux.try_or_install.php:50
 msgid "What you need"
 msgstr "ما تحتاجه"
 
@@ -2639,15 +2645,15 @@ msgid ""
 "your reach."
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:45
+#: pages/switch_to_linux.try_or_install.php:44
 msgid "Installing as a dual boot"
 msgstr "التثبيت كإقلاع مزدوج"
 
-#: pages/switch_to_linux.try_or_install.php:47
+#: pages/switch_to_linux.try_or_install.php:46
 msgid "Choose at start-up"
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:48
+#: pages/switch_to_linux.try_or_install.php:47
 msgid ""
 "It is possible to install GNU/Linux along with Windows. This means that upon "
 "start-up, you will be greeted with a screen allowing you to boot into the "
@@ -2656,19 +2662,15 @@ msgstr ""
 "من الممكن تثبيت جنو/لينكس بجانب ويندوز. هذا يعني أن عند التشغيل، ستبادرك "
 "شاشة تسمح لك بتشغيل نظام التشغيل الذي تريده."
 
-#: pages/switch_to_linux.try_or_install.php:49
+#: pages/switch_to_linux.try_or_install.php:48
 msgid ""
 "Setting up a dual-boot can be helpful if you need time to abandon "
-"restrictive software. It is <a href=\"http://www.psychocats.net/ubuntu/"
-"installing\" title=\"a tutorial on dual-booting Windows and Ubuntu\">not "
+"restrictive software. It is <a href=\"http://www.ubuntu.com/download/desktop/"
+"install-desktop-latest\" title=\"a tutorial on installing Ubuntu\">not "
 "difficult to set-up</a>, though erasing Windows altogether is even easier."
 msgstr ""
-"التثبيت كخيار إقلاع إضافي يمكن أن يكون مفيدا إن كنت تحتاج وقتا لترك "
-"البرمجيات المقيدة. وإعداده <a href=\"http://www.psychocats.net/ubuntu/"
-"installing\" title=\"a tutorial on dual-booting Windows and Ubuntu\">ليس "
-"صعبا</a>، لكن إزالة ويندوز بالكامل مازالت أسهل."
 
-#: pages/switch_to_linux.try_or_install.php:52
+#: pages/switch_to_linux.try_or_install.php:51
 msgid ""
 "Installing Linux on your computer will take you less than 30 minutes. It is "
 "not an obvious step for complete beginners, but if you use computers on a "
@@ -2680,58 +2682,70 @@ msgstr ""
 "تماما، لكن إن كنت تستعمل الجهاز بصفة يومية فهذا في متناول يديك. إن قمت "
 "بإعادة تثبيت ويندوز على جهازك، فلتثق بأن تثبيت لينكس ليس أصعب."
 
-#: pages/switch_to_linux.try_or_install.php:62
-msgid "Get the CD you need"
-msgstr "احصل على السي.دي التي تحتاجها"
+#: pages/switch_to_linux.try_or_install.php:61
+msgid "Get the CD or DVD you need"
+msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:64
+#: pages/switch_to_linux.try_or_install.php:63
 msgid ""
-"For the distributions we recommend, the live CD is the same as the "
-"installation CD."
+"For the distributions we recommend, the live CD/DVD is the same as the "
+"installation CD/DVD. You can either download and burn a CD/DVD yourself, or "
+"order a CD/DVD from a trusted vendor."
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:70
-msgid "Download Ubuntu"
-msgstr ""
-
-#: pages/switch_to_linux.try_or_install.php:71
+#: pages/switch_to_linux.try_or_install.php:69
 msgid ""
 "You can download an <code>iso</code> image (rather large file) and then <a "
-"href=\"https://help.ubuntu.com/community/BurningIsoHowto\">burn it to a CD</"
-"a>."
+"href=\"http://www.ubuntu.com/download/desktop/burn-a-dvd-on-windows\">burn "
+"it to a CD or DVD</a>. Once the CD/DVD is burned, you can use it to <a href="
+"\"http://www.ubuntu.com/download/desktop/install-desktop-latest\">install "
+"Ubuntu</a> onto your computer."
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:80
-msgid "Download Fedora"
+#: pages/switch_to_linux.try_or_install.php:73
+msgid "Download Ubuntu"
+msgstr "حمل أوبونتو"
+
+#: pages/switch_to_linux.try_or_install.php:74
+#: pages/switch_to_linux.try_or_install.php:88
+#: pages/switch_to_linux.try_or_install.php:102
+msgid "Order a CD/DVD"
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:81
+#: pages/switch_to_linux.try_or_install.php:83
 msgid ""
-"The Fedora live CD also enables installation. Alternatively, you can "
-"download the DVD, which cannot act as live CD but permits speedier "
-"installation."
+"The Fedora live CD/DVD also enables installation. Follow the <a href="
+"\"http://docs.fedoraproject.org/en-US/Fedora/18/html/"
+"Installation_Quick_Start_Guide/index.html\">installation quick start guide</"
+"a> to get started with Fedora."
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:90
+#: pages/switch_to_linux.try_or_install.php:87
+msgid "Download Fedora"
+msgstr "حمل فيدورا"
+
+#: pages/switch_to_linux.try_or_install.php:97
+msgid ""
+"The <a href=\"http://trisquel.info/en/wiki/installation-guide\">Trisquel "
+"installation</a> is very similar to that of Ubuntu."
+msgstr ""
+
+#: pages/switch_to_linux.try_or_install.php:101
 msgid "Download Trisquel"
-msgstr ""
+msgstr "حمل ترسكل"
 
-#: pages/switch_to_linux.try_or_install.php:91
-msgid "The Trisquel installation is very similar to that of Ubuntu."
-msgstr ""
-
-#: pages/switch_to_linux.try_or_install.php:96
+#: pages/switch_to_linux.try_or_install.php:109
 msgid ""
 "Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href="
 "\"http://www.softwareliberty.com/\" title=\"What do you mean, free?\">free "
 "software</a>. You are simply paying a handling/shipping fee."
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:103
+#: pages/switch_to_linux.try_or_install.php:116
 msgid "Free Software pre-installed"
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:105
+#: pages/switch_to_linux.try_or_install.php:118
 msgid ""
 "Not all computers are shipped with Windows. If you do not wish to make the "
 "install yourself, or are in need of new hardware, you can get a laptop or a "
@@ -2769,7 +2783,7 @@ msgstr ""
 #: pages/windows.php:33 pages/windows.php:47 pages/windows.php:60
 #: pages/windows.php:76
 msgid "read our full article:"
-msgstr ""
+msgstr "اقرأ مقالتنا كاملة"
 
 #: pages/windows.php:43
 msgid "Software should come without locks in it."
@@ -2820,6 +2834,8 @@ msgid ""
 "freedom, not price: the freedoms to inspect, learn from, modify the software "
 "you use."
 msgstr ""
+"المجتمع الحر يحتاج برمجيات حرّة. فكّر في كلمة \"free\" على أنها الحرّية، وليس "
+"السعر: حرّيات اكتشاف، تعلّم وتعديل البرمجيات التي تستخدمها."
 
 #: pages/windows.php:71
 msgid ""
@@ -2950,6 +2966,8 @@ msgid ""
 "It is illegal to buy Microsoft Office, then install only Word on one "
 "computer, and only Excel on another. The Office suite is one single product."
 msgstr ""
+"فمن غير القانوني شراء مايكروسوفت أوفيس، ثم تثبيت الـ Word فقط على جهاز "
+"كمبيوتر واحد، و الـ Excel فقط على آخر. مجموعة Office هو منتج واحد ووحيد."
 
 #: pages/windows.restrictions.further_details.php:57
 msgid "Private information is collected"
@@ -3067,7 +3085,7 @@ msgstr ""
 
 #: pages/windows.restrictions.php:32
 msgid "Windows and Office are licensed, not sold."
-msgstr ""
+msgstr "يتم ترخيص Windows و Office، وليس بيعها."
 
 #: pages/windows.restrictions.php:33
 msgid ""
@@ -3091,7 +3109,7 @@ msgid ""
 "Restrictions on who can use the software, what kind of revenue you may earn "
 "with it, on how you choose to install it, restrictions on your privacy, even "
 "on whether you can give it away: the list is long. <a href=\"%s\" title=\"a "
-"few more things about Mircrosoft licenses\">Reading the license and "
+"few more things about Microsoft licenses\">Reading the license and "
 "enumerating your remaining rights</a> is itself a difficult task."
 msgstr ""
 
@@ -3225,7 +3243,7 @@ msgstr ""
 
 #: pages/windows.stand_for_a_free_society.php:51
 msgid "Proprietary software going wrong"
-msgstr ""
+msgstr "البرمجيات الاحتكارية تسير بشكل خاطئ"
 
 #: pages/windows.stand_for_a_free_society.php:53
 #, php-format
@@ -3260,7 +3278,7 @@ msgstr "DRM هي تحكم في المحتوى"
 #: pages/windows.stand_for_a_free_society.php:70
 msgid ""
 "Except that the control is not in the hands of the end-user. The original "
-"purpose of <acronym title=\"Digital Restrictions Managment\">DRM</acronym> "
+"purpose of <acronym title=\"Digital Restrictions Management\">DRM</acronym> "
 "is understandable, but the implications over the flow of information and "
 "culture within a society are frightening."
 msgstr ""
@@ -3440,7 +3458,7 @@ msgstr ""
 
 #: pages/windows.stand_for_a_free_society.php:154
 msgid "Trusted Computing"
-msgstr ""
+msgstr "الحوسبة الموثوقة"
 
 #: pages/windows.stand_for_a_free_society.php:155
 msgid ""
@@ -3613,6 +3631,8 @@ msgid ""
 "programmers write). Without it no one can understand how the software is "
 "built."
 msgstr ""
+"توضح الشفرةُ المصدريةُ الطريقةَ التي يعمل بها البرنامج (عمليًّا الشفرة المصدرية "
+"هي ما يكتبه المبرمجون). بدونها لا يمكن لأحد أن يفهم كيف بُنِي البرنامج."
 
 #: pages/windows.what_about_source_code.php:29
 msgid ""
@@ -3652,6 +3672,9 @@ msgid ""
 "is very much like a car that only the original manufacturer is allowed to "
 "service."
 msgstr ""
+"هذا القيد في الترخيص يحرص على أن <strong>تبقى ميكروسوفت الجهة الوحيدة التي "
+"تفهم كيفية تعمل منتجاتها</strong>. ويندوز يشبه كثيرا السيارة التي يسمح "
+"للصانع الأصلي فقط خدمتها وصيانتها."
 
 #: pages/windows.what_about_source_code.php:44
 msgid "Insecurity means business"
@@ -3692,6 +3715,8 @@ msgid ""
 "terms of security, compared to software whose source code is freely "
 "available (including GNU/Linux)."
 msgstr ""
+"ليس مفاجئا أن البرمجيات الاحتكارية لديها نقصا حادا من الناحية الأمنية، "
+"مقارنة بالبرامج التي تتوفر شفرتها المصدرية بحرية (ومنها جنو/لينكس)."
 
 #: pages/windows.what_about_source_code.php:62
 msgid ""
