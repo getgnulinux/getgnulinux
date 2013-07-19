@@ -214,6 +214,7 @@ if ( !defined('GGL') ) {
 <p class="tab">
     <a href="https://www.transifex.com/accounts/profile/OpenCode/">Francesco Apruzzese</a>,
     <a href="https://www.transifex.com/accounts/profile/pappi_/">Giuseppe Pappalardo</a>,
+    <a href="https://www.transifex.com/accounts/profile/novalore/">Lorenzo Novaro</a>,
     <a href="https://www.transifex.com/accounts/profile/jeckodevelopment/">Luca Marzo</a>,
     <a href="https://www.transifex.com/accounts/profile/xseris/">Simone Sandri</a>,
     and others.
@@ -274,8 +275,9 @@ if ( !defined('GGL') ) {
 
 <h3>Vietnamese:</h3>
 <p class="tab">
-    Clytie Siddall from the <a href="http://vnoss.net/dokuwiki/doku.php?id=projects:l10n">Vietnamese Free Software Translation Team</a> and
-    Minh Ngoc Le.
+    Clytie Siddall from the <a href="http://vnoss.net/dokuwiki/doku.php?id=projects:l10n">Vietnamese Free Software Translation Team</a>,
+    Minh Ngoc Le, and
+    <a href="https://www.transifex.com/accounts/profile/ppanhh/">Phan Anh</a>.
 </p>
 
 <h2>Inspiration &amp; reading</h2>
