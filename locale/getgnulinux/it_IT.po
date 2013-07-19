@@ -1,11 +1,12 @@
 # Translation file for the getgnulinux.org website.
-# Copyright (C) 2006-2010 GNU/Linux Matters
+# Copyright (C) 2013 Get GNU/Linux!
 # This file is distributed under the same license as the getgnulinux package.
 #
 # Translators:
 # Francesco Apruzzese <cescoap@gmail.com>, 2012
 # giuseppe pappalardo <giuseppe_pappalardo@live.it>, 2012
 # GLM Websites Edition Team <websites@gnulinuxmatters.org>, 2008
+# Lorenzo Novaro <novalore@gmail.com>, 2013
 # Luca Marzo <luca@jeckodevelopment.it>, 2011
 # Luca Marzo <luca@jeckodevelopment.it>, 2011
 # Serrano Pereira <serrano.pereira@gmail.com>, 2013
@@ -14,9 +15,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/figure002/getgnulinux/issues\n"
-"POT-Creation-Date: 2013-05-21 14:42+0200\n"
-"PO-Revision-Date: 2013-05-21 13:20+0000\n"
-"Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
+"POT-Creation-Date: 2013-05-25 11:56+0200\n"
+"PO-Revision-Date: 2013-07-01 06:40+0000\n"
+"Last-Translator: Lorenzo Novaro <novalore@gmail.com>\n"
 "Language-Team: Italian (Italy) (http://www.transifex.com/projects/p/"
 "getgnulinux/language/it_IT/)\n"
 "Language: it_IT\n"
@@ -49,7 +50,7 @@ msgstr "Approfondisci"
 
 #. i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
 #: include/GetGNULinux.php:191 include/HTML.php:98 pages/home.php:14
-#: pages/home.php:32 pages/linux.linux_faq.php:372
+#: pages/home.php:30 pages/linux.linux_faq.php:372
 #: pages/linux.misunderstanding_free_software.php:197
 #: pages/linux.screenshots.php:37 pages/linux.screenshots.php:118
 #: pages/windows.php:94
@@ -76,7 +77,7 @@ msgstr "Come si presenta GNU/Linux"
 
 #. i18n: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
 #: include/GetGNULinux.php:199 include/HTML.php:99 include/HTML.php:215
-#: include/HTML.php:236 pages/home.php:39 pages/linux.php:70
+#: include/HTML.php:236 pages/home.php:37 pages/linux.php:70
 #: pages/windows.php:15
 msgid "Why not Windows"
 msgstr "Perché abbandonare Windows"
@@ -118,7 +119,7 @@ msgstr "Niente codice sorgente"
 
 #. i18n: This appears in the top header menu and should be as short and concise as possible.
 #: include/GetGNULinux.php:211 include/HTML.php:100 include/HTML.php:195
-#: pages/home.php:46 pages/switch_to_linux.php:15 pages/windows.php:92
+#: pages/home.php:44 pages/switch_to_linux.php:15 pages/windows.php:92
 msgid "Switch to Linux"
 msgstr "Passa a Linux"
 
@@ -219,7 +220,7 @@ msgstr ""
 #. i18n: This is the description of the 'Switch to Linux' page
 #: include/GetGNULinux.php:249
 msgid "Switch to Linux: Good tips and advice."
-msgstr ""
+msgstr "Passare a Linux: Suggerimenti e consigli."
 
 #. i18n: This is the description of the 'Choose a distribution' page
 #: include/GetGNULinux.php:251
@@ -238,7 +239,7 @@ msgstr "Prova o installa Linux sul tuo computer, molto semplicemente."
 
 #: include/templates/footer.php:8
 msgid "About"
-msgstr ""
+msgstr "Info"
 
 #: include/templates/footer.php:10
 msgid "Read about news and updates."
@@ -254,7 +255,7 @@ msgstr "Termini di uso"
 
 #: include/templates/footer.php:12 pages/link_buttons.php:96 pages/more.php:89
 msgid "Credits"
-msgstr "Crediti"
+msgstr "Autori"
 
 #: include/templates/footer.php:13
 msgid "Contact the authors."
@@ -344,16 +345,16 @@ msgstr "salta al contenuto"
 msgid "home page"
 msgstr "home page"
 
-#: pages/credits.php:298 pages/legal.php:132 pages/not_found.php:32
+#: pages/credits.php:300 pages/legal.php:132 pages/not_found.php:32
 msgid "Return to the Homepage"
 msgstr "Ritorna alla Homepage"
 
-#: pages/home.php:21
+#: pages/home.php:19
 msgid "Switch to Linux!"
 msgstr "Passa a Linux!"
 
 #. i18n: This is the very first sentence every visitor is going to read. Please pay great attention to making it sound great, we only have one try! =)
-#: pages/home.php:25
+#: pages/home.php:23
 msgid ""
 "GNU/Linux, or simply <em>Linux</em>, is an alternative to Microsoft Windows. "
 "It is easy to use and gives more freedom to users. Anyone can install it: "
@@ -364,15 +365,15 @@ msgstr ""
 "installarlo: Linux è \"libero\" come la libertà di espressione, e spesso è "
 "disponibile gratuitamente."
 
-#: pages/home.php:33
+#: pages/home.php:31
 msgid "Learn more about the free operating system"
 msgstr "Scopri di più sul sistema operativo libero"
 
-#: pages/home.php:40
+#: pages/home.php:38
 msgid "Why we should avoid using Microsoft Windows"
 msgstr "Perché dovremmo evitare di utilizzare Microsoft Windows"
 
-#: pages/home.php:47
+#: pages/home.php:45
 msgid "Where to download and how to step into Linux"
 msgstr "Dove scaricare e come iniziare ad usare Linux"
 
@@ -407,7 +408,7 @@ msgstr ""
 
 #: pages/link_buttons.php:100
 msgid "Make your own!"
-msgstr ""
+msgstr "Crea il tuo!"
 
 #: pages/link_buttons.php:101
 #, php-format
@@ -1585,6 +1586,9 @@ msgid ""
 "<acronym title=\"Foundation for a Free Information Infrastructure\">FFII</"
 "acronym>"
 msgstr ""
+"<a href=\"http://ffii.org/Frequently_Asked_Questions_about_software_patents"
+"\" hreflang=\"it\">Domande frequenti sui brevetti software, della <acronym "
+"title=\"Foundation for a Free Information Infrastructure\">FFII</acronym>"
 
 #. i18n: Unless you know of a good localized resource, please leave the URL as such.
 #: pages/linux.misunderstanding_free_software.php:111
@@ -1592,6 +1596,9 @@ msgid ""
 "<a href=\"http://www.redhat.com/magazine/007may05/features/ip/\" hreflang="
 "\"en\">Short and clear video on \"intellectual property\" by Red Hat"
 msgstr ""
+"<a href=\"http://www.redhat.com/magazine/007may05/features/ip/\" hreflang="
+"\"en\">Un video breve e chiaro prodotto da Red Hat sulla \"propriet&agrave; "
+"intellettuale\""
 
 #: pages/linux.misunderstanding_free_software.php:116
 msgid "5. Free software is like communism."
@@ -2055,7 +2062,7 @@ msgstr "Il programma di fotoritocco GIMP, durante il ritaglio di una foto"
 #. i18n: This is the description of the "fedora2.png" screenshot.
 #: pages/linux.screenshots.php:21
 msgid "LibreOffice Writer open, editing a standard document."
-msgstr ""
+msgstr "Un esempio di documento aperto con LibreOffice Writer."
 
 #. i18n: This is the description of the "fedora3.png" screenshot.
 #: pages/linux.screenshots.php:23
@@ -2081,12 +2088,12 @@ msgstr "Gestore degli aggiornamenti aperto."
 #. i18n: This is the description of the "trisquel2.png" screenshot.
 #: pages/linux.screenshots.php:30
 msgid "LibreOffice Calc open, showing an example spreadsheet."
-msgstr ""
+msgstr "Un esempio di foglio elettronico aperto con LibreOffice Calc."
 
 #. i18n: This is the description of the "trisquel3.png" screenshot.
 #: pages/linux.screenshots.php:32
 msgid "Accessing applications."
-msgstr ""
+msgstr "Accedere alle applicazioni."
 
 #: pages/linux.screenshots.php:44
 msgid "Selected screenshots of distributions of GNU/Linux."
@@ -2889,7 +2896,7 @@ msgstr ""
 "velocemente."
 
 #: pages/switch_to_linux.try_or_install.php:34
-#: pages/switch_to_linux.try_or_install.php:51
+#: pages/switch_to_linux.try_or_install.php:50
 msgid "What you need"
 msgstr "Di cosa hai bisogno"
 
@@ -2905,15 +2912,15 @@ msgstr ""
 "nessuna conoscenza tecnica</strong>. Anche se sei tra coloro che usano "
 "Windows saltuariamente, questa attività è alla tua portata."
 
-#: pages/switch_to_linux.try_or_install.php:45
+#: pages/switch_to_linux.try_or_install.php:44
 msgid "Installing as a dual boot"
 msgstr "Installazione con doppia partenza"
 
-#: pages/switch_to_linux.try_or_install.php:47
+#: pages/switch_to_linux.try_or_install.php:46
 msgid "Choose at start-up"
 msgstr "Scelta all'avvio"
 
-#: pages/switch_to_linux.try_or_install.php:48
+#: pages/switch_to_linux.try_or_install.php:47
 msgid ""
 "It is possible to install GNU/Linux along with Windows. This means that upon "
 "start-up, you will be greeted with a screen allowing you to boot into the "
@@ -2923,18 +2930,15 @@ msgstr ""
 "all'accensione del computer appare una scelta che permette di far partire il "
 "proprio sistema operativo preferito."
 
-#: pages/switch_to_linux.try_or_install.php:49
+#: pages/switch_to_linux.try_or_install.php:48
 msgid ""
 "Setting up a dual-boot can be helpful if you need time to abandon "
-"restrictive software. It is <a href=\"http://www.psychocats.net/ubuntu/"
-"installing\" title=\"a tutorial on dual-booting Windows and Ubuntu\">not "
+"restrictive software. It is <a href=\"http://www.ubuntu.com/download/desktop/"
+"install-desktop-latest\" title=\"a tutorial on installing Ubuntu\">not "
 "difficult to set-up</a>, though erasing Windows altogether is even easier."
 msgstr ""
-"Impostare una doppia partenza può essere utile ad effettuare un abbandono "
-"graduale dei software restrittivi. Non è complicato da fare, sebbene "
-"cancellare Windows sia anche più semplice."
 
-#: pages/switch_to_linux.try_or_install.php:52
+#: pages/switch_to_linux.try_or_install.php:51
 msgid ""
 "Installing Linux on your computer will take you less than 30 minutes. It is "
 "not an obvious step for complete beginners, but if you use computers on a "
@@ -2947,55 +2951,65 @@ msgstr ""
 "quotidianamente il computer può riuscirci senza grandi sforzi. Se hai già "
 "reinstallato Windows, allora riuscirai sicuramente ad installare Linux."
 
-#: pages/switch_to_linux.try_or_install.php:62
-msgid "Get the CD you need"
-msgstr "Ottieni il CD di cui ai bisogno"
+#: pages/switch_to_linux.try_or_install.php:61
+msgid "Get the CD or DVD you need"
+msgstr "Procurati il CD o DVD che ti serve"
 
-#: pages/switch_to_linux.try_or_install.php:64
+#: pages/switch_to_linux.try_or_install.php:63
 msgid ""
-"For the distributions we recommend, the live CD is the same as the "
-"installation CD."
+"For the distributions we recommend, the live CD/DVD is the same as the "
+"installation CD/DVD. You can either download and burn a CD/DVD yourself, or "
+"order a CD/DVD from a trusted vendor."
 msgstr ""
-"Per le distribuzioni che raccomandiamo, il live CD coincide con il CD di "
-"installazione."
 
-#: pages/switch_to_linux.try_or_install.php:70
+#: pages/switch_to_linux.try_or_install.php:69
+msgid ""
+"You can download an <code>iso</code> image (rather large file) and then <a "
+"href=\"http://www.ubuntu.com/download/desktop/burn-a-dvd-on-windows\">burn "
+"it to a CD or DVD</a>. Once the CD/DVD is burned, you can use it to <a href="
+"\"http://www.ubuntu.com/download/desktop/install-desktop-latest\">install "
+"Ubuntu</a> onto your computer."
+msgstr ""
+
+#: pages/switch_to_linux.try_or_install.php:73
 msgid "Download Ubuntu"
 msgstr "Scarica Ubuntu"
 
-#: pages/switch_to_linux.try_or_install.php:71
-msgid ""
-"You can download an <code>iso</code> image (rather large file) and then <a "
-"href=\"https://help.ubuntu.com/community/BurningIsoHowto\">burn it to a CD</"
-"a>."
-msgstr ""
-"Puoi scaricare un'immagine <code>iso</code> (un file piuttosto grande) per "
-"poi <a href=\"https://help.ubuntu.com/community/BurningIsoHowto"
-"\">masterizzarla su un CD</a>."
+#: pages/switch_to_linux.try_or_install.php:74
+#: pages/switch_to_linux.try_or_install.php:88
+#: pages/switch_to_linux.try_or_install.php:102
+msgid "Order a CD/DVD"
+msgstr "Ordina un CD/DVD"
 
-#: pages/switch_to_linux.try_or_install.php:80
+#: pages/switch_to_linux.try_or_install.php:83
+msgid ""
+"The Fedora live CD/DVD also enables installation. Follow the <a href="
+"\"http://docs.fedoraproject.org/en-US/Fedora/18/html/"
+"Installation_Quick_Start_Guide/index.html\">installation quick start guide</"
+"a> to get started with Fedora."
+msgstr ""
+"Il CD/DVD live di Fedora permette anche l'installazione. Segui la <a href="
+"\"http://docs.fedoraproject.org/en-US/Fedora/18/html/"
+"Installation_Quick_Start_Guide/index.html\">guida rapida all'installazione</"
+"a> per iniziare ad usare Fedora."
+
+#: pages/switch_to_linux.try_or_install.php:87
 msgid "Download Fedora"
 msgstr "Scarica Fedora"
 
-#: pages/switch_to_linux.try_or_install.php:81
+#: pages/switch_to_linux.try_or_install.php:97
 msgid ""
-"The Fedora live CD also enables installation. Alternatively, you can "
-"download the DVD, which cannot act as live CD but permits speedier "
-"installation."
+"The <a href=\"http://trisquel.info/en/wiki/installation-guide\">Trisquel "
+"installation</a> is very similar to that of Ubuntu."
 msgstr ""
-"Il live CD di Fedora include anch'esso l'installazione. In alternativa, puoi "
-"scaricare il DVD, che non ha la funzione di live CD ma permette "
-"un'installazione più veloce."
+"L' <a href=\"http://trisquel.info/en/wiki/installation-guide\">installazione "
+"di Trisquel</a> &egrave; molto simile a quella di Ubuntu."
 
-#: pages/switch_to_linux.try_or_install.php:90
+#: pages/switch_to_linux.try_or_install.php:101
 msgid "Download Trisquel"
 msgstr "Scarica Trisquel"
 
-#: pages/switch_to_linux.try_or_install.php:91
-msgid "The Trisquel installation is very similar to that of Ubuntu."
-msgstr "L'installazione di Trisquel è molto simile a quella di Ubuntu."
-
-#: pages/switch_to_linux.try_or_install.php:96
+#: pages/switch_to_linux.try_or_install.php:109
 msgid ""
 "Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href="
 "\"http://www.softwareliberty.com/\" title=\"What do you mean, free?\">free "
@@ -3006,11 +3020,11 @@ msgstr ""
 "\">software libero</a>. Stai solo pagando le spese fisiche del cd e di "
 "spedizione."
 
-#: pages/switch_to_linux.try_or_install.php:103
+#: pages/switch_to_linux.try_or_install.php:116
 msgid "Free Software pre-installed"
 msgstr "Software libero preinstallato"
 
-#: pages/switch_to_linux.try_or_install.php:105
+#: pages/switch_to_linux.try_or_install.php:118
 msgid ""
 "Not all computers are shipped with Windows. If you do not wish to make the "
 "install yourself, or are in need of new hardware, you can get a laptop or a "
@@ -3272,7 +3286,7 @@ msgstr "Leggi altro"
 #. i18n: If it exists, please use a non-official translation of the GPL in your language, as pointed on http://www.gnu.org/licenses/translations.html
 #: pages/windows.restrictions.further_details.php:71
 msgid "http://www.gnu.org/copyleft/gpl.html"
-msgstr ""
+msgstr "http://www.gnu.org/copyleft/gpl.html"
 
 #: pages/windows.restrictions.further_details.php:71
 msgid "The GNU General Public License"
@@ -3354,7 +3368,7 @@ msgstr ""
 
 #: pages/windows.restrictions.php:24
 msgid "Haven't read your license fully? We did that job for you."
-msgstr ""
+msgstr "Non hai letto per bene la licenza? L'abbiamo fatto noi per te."
 
 #: pages/windows.restrictions.php:26
 msgid "The small print in the contract"
@@ -3551,7 +3565,7 @@ msgstr ""
 #: pages/windows.stand_for_a_free_society.php:60
 #, php-format
 msgid "Digital Restrictions Management %s (DRM)"
-msgstr ""
+msgstr "Gestione dei diritti digitali %s (DRM)"
 
 #. i18n: The %s placeholder will automatically point to the footnote on bottom of page
 #: pages/windows.stand_for_a_free_society.php:64
@@ -3566,7 +3580,7 @@ msgstr ""
 
 #: pages/windows.stand_for_a_free_society.php:68
 msgid "DRM is control over content"
-msgstr ""
+msgstr "Il DRm &egrave; un controllo sui contenuti"
 
 #: pages/windows.stand_for_a_free_society.php:70
 msgid ""
@@ -3580,6 +3594,8 @@ msgstr ""
 msgid ""
 "Imagine a book that automatically became glued shut after you read it once."
 msgstr ""
+"Immagina un libro che, dopo essere stato letto una volta, non si pu&ograve; "
+"pi&ugrave; aprire."
 
 #: pages/windows.stand_for_a_free_society.php:74
 msgid ""
@@ -3701,7 +3717,7 @@ msgstr ""
 #: pages/windows.stand_for_a_free_society.php:122
 #, php-format
 msgid "May we suggest you <a href=\"%s\">switch to Linux</a>?"
-msgstr ""
+msgstr "Possiamo suggerirti di <a href=\"%s\">passare a Linux</a>?"
 
 #: pages/windows.stand_for_a_free_society.php:127
 msgid ""
@@ -3719,7 +3735,7 @@ msgstr ""
 #. i18n: Unless you know of a very good resource about DRM, please point to the Wikipedia article about DRM in your language, if it exists
 #: pages/windows.stand_for_a_free_society.php:139
 msgid "http://www.timj.co.uk/computing/politics-policy/drm/fallacy/"
-msgstr ""
+msgstr "http://www.timj.co.uk/computing/politics-policy/drm/fallacy/"
 
 #. i18n: Title of external link
 #: pages/windows.stand_for_a_free_society.php:141
@@ -3741,6 +3757,8 @@ msgid ""
 "http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-"
 "free-file-formats/"
 msgstr ""
+"http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-"
+"free-file-formats/"
 
 #: pages/windows.stand_for_a_free_society.php:146
 msgid "Free Knowledge requires Free Software and Free File Formats"
@@ -3755,7 +3773,7 @@ msgstr ""
 
 #: pages/windows.stand_for_a_free_society.php:154
 msgid "http://www.lafkon.net/tc/"
-msgstr ""
+msgstr "http://www.lafkon.net/tc/"
 
 #: pages/windows.stand_for_a_free_society.php:154
 msgid "Trusted Computing"
@@ -3770,7 +3788,7 @@ msgstr ""
 #: pages/windows.stand_for_a_free_society.php:157
 #: pages/windows.what_about_source_code.php:25
 msgid "http://www.gnu.org/philosophy/why-free.html"
-msgstr ""
+msgstr "http://www.gnu.org/philosophy/why-free.html"
 
 #: pages/windows.stand_for_a_free_society.php:157
 msgid "Why Software Should Not Have Owners"
@@ -3915,7 +3933,7 @@ msgstr ""
 #. i18n: the '<br/>' character is only here for paging purposes. It's probably safer to skip it.
 #: pages/windows.what_about_source_code.php:19
 msgid "What about<br/>source code?"
-msgstr ""
+msgstr "E il codice sorgente?"
 
 #. i18n: This is the quote from Stallman at the start of the article.
 #: pages/windows.what_about_source_code.php:24

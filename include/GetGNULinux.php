@@ -77,7 +77,7 @@ class GetGNULinux {
      * @var array
      */
     private static $locales_complete = array('ast','en','es','fr','he','nl',
-        'pt-br','zh');
+        'pt-br','ru','zh');
 
     /**
      * Set of ISO language codes for right-to-left languages.
