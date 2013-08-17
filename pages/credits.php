@@ -161,6 +161,11 @@ if ( !defined('GGL') ) {
     <a href="https://www.transifex.com/accounts/profile/KIAaze/">KIAaze</a>.
 </p>
 
+<h3>Estonian:</h3>
+<p class="tab">
+    <a href="https://www.transifex.com/accounts/profile/poet/">poet</a>.
+</p>
+
 <h3>Finnish:</h3>
 <p class="tab">
     <a href="https://www.transifex.com/accounts/profile/jsonic/">Juhani Numminen</a>.
