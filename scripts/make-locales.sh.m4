@@ -1,4 +1,5 @@
 #!/bin/bash
+changequote(`'', `'')
 
 if [ `id -u` != "0" ];
 then
@@ -8,16 +9,16 @@ fi
 
 locales=(LOCALES)
 utf8_locales=(UTF8_LOCALES)
-locale_list=
+locale_list=""
 
-for i in ${locales[@]};
+for locale in ${locales[@]};
 do
     switch=0
     for u in ${utf8_locales[@]};
     do
-        if [ $u == $i ];
+        if [ $u == $locale ];
         then
-            locale_list="${locale_list} ${i}"
+            locale_list="${locale_list} ${locale}"
             switch=1
             break
         fi
@@ -25,7 +26,7 @@ do
 
     if [ $switch == 0 ];
     then
-        locale_list="${locale_list} ${i}.UTF-8"
+        locale_list="${locale_list} ${locale}.UTF-8"
     fi
 done
 
