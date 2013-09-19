@@ -70,6 +70,7 @@ class GetGNULinux {
         'uk' => array('uk_UA.UTF-8',"Українська"),
         'vi' => array('vi_VN'      ,"Tiếng Việt"),
         'zh' => array('zh_CN.UTF-8',"中文(简)"),
+        'zh-tw' => array('zh_TW.UTF-8',"中文(繁)"),
     );
 
     /**
