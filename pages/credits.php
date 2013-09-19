@@ -141,6 +141,14 @@ if ( !defined('GGL') ) {
     and others.
 </p>
 
+<h3>Chinese (Taiwan):</h3>
+<p class="tab">
+    <a href="https://www.transifex.com/accounts/profile/s8321414/">冥王歐西里斯</a>,
+    <a href="https://www.transifex.com/accounts/profile/brli7848/">BrLi</a>,
+    <a href="https://www.transifex.com/accounts/profile/maxwux/">Max Wu</a>, and
+    <a href="https://www.transifex.com/accounts/profile/Vdragon/">Ｖ字龍</a>.
+</p>
+
 <h3>Croatian:</h3>
 <p class="tab">
     <a href="https://www.transifex.com/accounts/profile/CroatianFan/">Mislav E.L.</a>.
@@ -221,6 +229,7 @@ if ( !defined('GGL') ) {
     <a href="https://www.transifex.com/accounts/profile/pappi_/">Giuseppe Pappalardo</a>,
     <a href="https://www.transifex.com/accounts/profile/novalore/">Lorenzo Novaro</a>,
     <a href="https://www.transifex.com/accounts/profile/jeckodevelopment/">Luca Marzo</a>,
+    <a href="https://www.transifex.com/accounts/profile/Marco91/">Marco Mangiacavalli</a>,
     <a href="https://www.transifex.com/accounts/profile/xseris/">Simone Sandri</a>,
     and others.
 </p>
