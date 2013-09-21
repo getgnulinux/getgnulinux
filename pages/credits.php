@@ -144,8 +144,10 @@ if ( !defined('GGL') ) {
 <h3>Chinese (Taiwan):</h3>
 <p class="tab">
     <a href="https://www.transifex.com/accounts/profile/s8321414/">冥王歐西里斯</a>,
+    <a href="https://www.transifex.com/accounts/profile/Hapsburg/">Agustín Wu</a>.
     <a href="https://www.transifex.com/accounts/profile/brli7848/">BrLi</a>,
-    <a href="https://www.transifex.com/accounts/profile/maxwux/">Max Wu</a>, and
+    <a href="https://www.transifex.com/accounts/profile/maxwux/">Max Wu</a>,
+    <a href="https://www.transifex.com/accounts/profile/aphroteus/">Po-Chun Huang</a>, and
     <a href="https://www.transifex.com/accounts/profile/Vdragon/">Ｖ字龍</a>.
 </p>
 
