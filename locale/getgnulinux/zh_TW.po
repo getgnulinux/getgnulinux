@@ -3,9 +3,11 @@
 # This file is distributed under the same license as the getgnulinux package.
 #
 # Translators:
+# Hapsburg <losangwuyts@gmail.com>, 2013
 # brli7848 <rainman59118@gmail.com>, 2013
 # brli7848 <rainman59118@gmail.com>, 2013
 # 柏諺 黃 <s8321414@gmail.com>, 2013
+# aphroteus, 2013
 # 柏諺 黃 <s8321414@gmail.com>, 2013
 # 柏諺 黃 <s8321414@gmail.com>, 2013
 # 博仁 林 <pika1021@gmail.com>, 2013
@@ -16,9 +18,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/figure002/getgnulinux/issues\n"
-"POT-Creation-Date: 2013-09-19 14:18+0200\n"
-"PO-Revision-Date: 2013-09-19 04:20+0000\n"
-"Last-Translator: 柏諺 黃 <s8321414@gmail.com>\n"
+"POT-Creation-Date: 2013-09-22 00:53+0200\n"
+"PO-Revision-Date: 2013-09-21 21:30+0000\n"
+"Last-Translator: Hapsburg <losangwuyts@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/"
 "getgnulinux/language/zh_TW/)\n"
 "Language: zh_TW\n"
@@ -81,7 +83,7 @@ msgstr "揭開 GNU/Linux 的神祕面紗"
 #: include/HTML.php:236 pages/home.php:37 pages/linux.php:70
 #: pages/windows.php:15
 msgid "Why not Windows"
-msgstr "何不用 Windows"
+msgstr "為什麼不使用 Windows"
 
 #. i18n: This title can be translated loosely
 #: include/GetGNULinux.php:208 include/HTML.php:217 include/HTML.php:238
@@ -282,7 +284,7 @@ msgstr "連結便利貼"
 
 #: include/templates/footer.php:20
 msgid "Found something awkward? Report it!"
-msgstr ""
+msgstr "發現有哪裡不太對勁?回報它!"
 
 #: include/templates/footer.php:20
 msgid "Report a bug"
@@ -342,7 +344,7 @@ msgstr ""
 msgid "home page"
 msgstr "首頁"
 
-#: pages/credits.php:307 pages/legal.php:132 pages/not_found.php:32
+#: pages/credits.php:316 pages/legal.php:132 pages/not_found.php:32
 msgid "Return to the Homepage"
 msgstr "回到本站首頁"
 
@@ -357,10 +359,10 @@ msgid ""
 "It is easy to use and gives more freedom to users. Anyone can install it: "
 "Linux is free as in freedom, and often available free of charge."
 msgstr ""
-"GNU/Linux，或者簡稱 <em>Linux</em>，是微軟公司所開發的 Windows 作業系統之外的"
-"另外一個選擇。他簡單易用，卻給了使用者更多的自由。任何人都能安裝 Linux：因為 "
-"Linux 身為自由軟體(free software)其 free 雖僅代表著「自由(freedom)」而非「免"
-"費(free)」，但大部份情況下都還是能免費取得使用。"
+"GNU/Linux，簡稱 <em>Linux</em>，是 Microsoft Windows 作業系統之外的另一個選"
+"擇。它簡單易用，給使用者更多的自由。任何人都能安裝 Linux：因為 Linux 身為自由"
+"軟體 (free software)，其 free 僅代表著「自由 (freedom)」而非「免費 (free)」，"
+"且大部份情況下都能免費取得使用。"
 
 #: pages/home.php:31
 msgid "Learn more about the free operating system"
@@ -448,7 +450,7 @@ msgstr "GNU/Linux 是市面上唯一一個自由的作業系統嗎？"
 
 #: pages/linux.linux_faq.php:28 pages/linux.linux_faq.php:113
 msgid "Is Mac OSX a distribution of Linux?"
-msgstr "Mac OSX 是 Linux 的一個散佈版本嗎？"
+msgstr "Mac OSX 是 Linux 的一個發行版嗎？"
 
 #: pages/linux.linux_faq.php:30
 msgid "Understanding free software:"
@@ -461,11 +463,11 @@ msgstr "&quot;開放原始碼軟體&quot; 與 &quot;自由軟體&quot; 是相同
 
 #: pages/linux.linux_faq.php:33 pages/linux.linux_faq.php:146
 msgid "Why are some Linux distributions sold, not given away?"
-msgstr "為什麼有些 Linux 作業系統散佈版本是放在架上販賣而非免費贈送？"
+msgstr "為什麼有些 Linux 作業系統發行版是放在架上販賣而非免費贈送？"
 
 #: pages/linux.linux_faq.php:34 pages/linux.linux_faq.php:164
 msgid "Why are some Linux distributions not fully free?"
-msgstr "為什麼有些 Linux 散佈版本並非完全自由？"
+msgstr "為什麼有些 Linux 發行版並非完全自由？"
 
 #: pages/linux.linux_faq.php:35 pages/linux.linux_faq.php:185
 msgid "Is Mac OS also a free operating system?"
@@ -716,7 +718,7 @@ msgid ""
 "Some websites actually <em>sell</em> distributions of Linux. So, why do you "
 "write it is \"free as speech and available at no charge\"?"
 msgstr ""
-"有些網站事實上是在<em>販賣</em>Linux發行版。既然如此，為什麼你還要寫說那是"
+"有些網站事實上是在<em>販賣</em> Linux 發行版。既然如此，為什麼你還要寫說那是"
 "「自由且免費」呢?"
 
 #. i18n: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
@@ -726,6 +728,8 @@ msgid ""
 "a>, refers to freedom, not price. You have the freedom to copy, study, "
 "modify, and give free software away."
 msgstr ""
+"<a href=\"http://www.softwareliberty.com/\">自由軟體</a>的概念，指的是自由，"
+"而不是價格。您可以自由複製、研究、修改，並分享自由軟體。"
 
 #: pages/linux.linux_faq.php:154
 msgid ""
@@ -758,6 +762,7 @@ msgid ""
 "Some GNU/Linux distributors allow non-free software in order to enable "
 "hardware functionality."
 msgstr ""
+"有些 GNU/Linux 的發行版本允許在系統中使用非自由軟體以便提供較完整的硬體支援。"
 
 #. i18n: If it exits, please use the URL of the official Ubuntu homepage localized in your language.
 #: pages/linux.linux_faq.php:174
@@ -769,6 +774,11 @@ msgid ""
 "Distributions such as <a href=\"http://www.ubuntu.com/\">Ubuntu</a> thus "
 "include such components to improve hardware compatibility."
 msgstr ""
+"這是因為有些硬體研發廠商並不在乎其使用者的自由權，所以只提供有所限制的軔體與"
+"驅動程式(有些廠商則完全不提供任何支援，例如說 Broadcom 公司)。雖然說這類軟體"
+"可以免費使用(屬於免費軟體)，但是其授權條款上會有所限制。因此在某些像是<a "
+"href=\"http://www.ubuntu.com/\">Ubuntu</a>發行版中，還是會提供這類軟體以增進"
+"硬體的相容性。"
 
 #: pages/linux.linux_faq.php:175
 msgid ""
@@ -788,6 +798,10 @@ msgid ""
 "\">using Windows</a>. We value your freedom and recommend you choose "
 "carefully!"
 msgstr ""
+"某些 GNU/Linux 發行版本將自由軟體與有版權限制軟體整合在一起，這類的發行版基本"
+"上並不希望其使用者去思考他們自身的自由權，而只是希望他們自家產品的功能性能獲"
+"得更好的宣傳效果。使用這類型的軟體與<a href=\"%s\">使用微軟視窗作業系統</a>比"
+"較起來並無差異，我們非常重視您的自由權，因此建議您應當要謹慎選擇！"
 
 #: pages/linux.linux_faq.php:186
 msgid "Do all the reasons for avoiding Windows apply to Mac&nbsp;OS?"
@@ -800,6 +814,8 @@ msgid ""
 "\">restrictions associated with Windows</a>. Unfortunately such is not the "
 "case."
 msgstr ""
+"大多數蘋果電腦的使用者都會認為<a href=\"%s\">微軟視窗系統的授權限制</a>與他們"
+"無關，但是很不幸地事實並非如此。"
 
 #: pages/linux.linux_faq.php:189
 msgid ""
@@ -807,6 +823,9 @@ msgid ""
 "softwareliberty.com/\">free software</a>; and Apple puts less energy into "
 "customer lock-in (with some notable efforts such as BootCamp)."
 msgstr ""
+"Mac OSX 確實有一些低階層的組件是屬於 <a href=\"http://www.softwareliberty."
+"com/\">自由軟體</a>；Apple 投入較少的精力去作客戶鎖定 (和一些顯著的努力，如"
+"BootCamp)。"
 
 #: pages/linux.linux_faq.php:190
 msgid ""
@@ -814,6 +833,9 @@ msgid ""
 "the proprietary license, he/she cannot use Mac OSX for all purposes, nor "
 "copy, study, modify, or redistribute it."
 msgstr ""
+"然而，末端使用者仍然受到某些功能上的限制 &mdash; 由於其私有軟體授權條款之因"
+"素，他們不能夠隨心所欲地使用蘋果公司的 Mac OSX 系統，所有的複製、修改、散佈、"
+"研究等都是不被允許的。"
 
 #: pages/linux.linux_faq.php:191
 msgid ""
@@ -821,6 +843,9 @@ msgid ""
 "GNU/Linux distributions (such as <a href=\"http://www.ubuntu.com/\">Ubuntu</"
 "a>) on Mac computers."
 msgstr ""
+"值得慶幸的是，因為這些自由權至關重要，想要在蘋果公司的 Mac 電腦上安裝執行一些"
+"常見的 GNU/Linux 發行版是可以做到的(像是<a href=\"http://www.ubuntu.com/"
+"\">Ubuntu</a>)"
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
 #: pages/linux.linux_faq.php:202
@@ -830,7 +855,7 @@ msgstr "Linux 不是跟破解、盜版以及違法下載網站有關嗎？"
 
 #: pages/linux.linux_faq.php:204
 msgid "No!"
-msgstr ""
+msgstr "不！"
 
 #: pages/linux.linux_faq.php:205
 msgid ""
@@ -848,12 +873,14 @@ msgid ""
 "computers running just one company's proprietary products. There is "
 "certainly nothing wrong with that!"
 msgstr ""
+"GNU/Linux 系統開發維護者的理念，是不希望看到全世界的電腦都使用來自同一家公司"
+"的私有軟體產品，這個信念基本上是完全合理的。"
 
 #. i18n: The link here points to the "misunderstanding_free_software" article.
 #: pages/linux.linux_faq.php:209
 #, php-format
 msgid "Read more in the article: <a href=\"%s\">%s</a>."
-msgstr ""
+msgstr "閱讀更多的文章：<a href=\"%s\">%s</a>."
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
 #: pages/linux.linux_faq.php:220
@@ -862,6 +889,9 @@ msgid ""
 "frightening. Are Linux and its <acronym title=\"GNU General Public License"
 "\">GPL</acronym> License something for anarchists or communists?"
 msgstr ""
+"「全都必須是免費的」以及「沒有人可以佔有任何東西」，這些概念聽起來挺嚇人的，"
+"所以 Linux 和它的<acronym title=\"GNU General Public License\">GNU 公眾授權條"
+"款(GPL)</acronym>是否是為無政府主義者或共產主義者所設計的？"
 
 #: pages/linux.linux_faq.php:225
 #, php-format
@@ -882,6 +912,9 @@ msgid ""
 "\"http://linuxpreloaded.com/\" title=\"Linux laptops\">LinuxPreloaded.com</"
 "a>, listing vendors that sell Linux desktops and laptops."
 msgstr ""
+"確實是如此沒錯！為了這個目的我們設立了一個專門的網站：<a href=\"http://"
+"linuxpreloaded.com/\" title=\"Linux laptops\">LinuxPreloaded.com</a>。該站上"
+"羅列一些有販售預裝 Linux 系統的桌上型與筆記型電腦之廠商。"
 
 #. i18n: please leave the "#new_computer" element as such. It is an internal link.
 #: pages/linux.linux_faq.php:248
@@ -889,6 +922,8 @@ msgid ""
 "Note that <a href=\"#new_computer\">buying new hardware is not necessary</a> "
 "to use GNU/Linux!"
 msgstr ""
+"請注意，<a href=\"#new_computer\">購買新的硬體產品</a>並非意味著必須使用 GNU/"
+"Linux 系統。"
 
 #: pages/linux.linux_faq.php:258
 #, php-format
@@ -897,6 +932,8 @@ msgid ""
 "a>, are all available in the main languages around, and have support for "
 "many keyboard types."
 msgstr ""
+"是的，所有主流的發行版(像是<a href=\"%s\">我們推薦的那個版本</a>)都有各種語言"
+"的支援，對於各種不同配置的鍵盤也都有支援。"
 
 #: pages/linux.linux_faq.php:259
 msgid ""
@@ -904,6 +941,9 @@ msgid ""
 "is no need for you to download (or pay for!) another whole version to merely "
 "change the language on your computer."
 msgstr ""
+"這和微軟的視窗作業系統不太一樣，所有被支援的語言都已經被包裝在安裝光碟裡了，"
+"所以若想要變更系統的語言介面時，完全不須要大費周張地(甚至另外花錢！)去下載另"
+"一個版本的系統。"
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
 #: pages/linux.linux_faq.php:270
@@ -911,12 +951,16 @@ msgid ""
 "There is a shiny Windows sticker on it! Am I allowed to erase Windows or use "
 "it together with Linux?"
 msgstr ""
+"這上面貼有一張亮晶晶的視窗作業系統貼紙！這樣的話我還是能夠將視窗系統刪除掉或"
+"是讓它與 Linux 系統並存嗎？"
 
 #: pages/linux.linux_faq.php:272
 msgid ""
 "<strong>Yes.</strong> It is absolutely, completely legal (providing of "
 "course it's your computer!)."
 msgstr ""
+"<strong>可以的</strong>這絕對是完全合法的行為(前題是你必須要是該電腦的擁有"
+"者)。"
 
 #: pages/linux.linux_faq.php:273
 msgid ""
@@ -924,6 +968,8 @@ msgid ""
 "is <em>one fundamental right</em> to choose which software to run on our own "
 "hardware."
 msgstr ""
+"那貼紙只是單純的市場行銷的宣傳手段而已，沒有任何法律上的效力。我們相信自由選"
+"擇要在自己機器上執行的軟體是<em>基本的權利</em>。"
 
 #. i18n: If you do not know of a very good resource about DRM, please link to the Wikipedia article on DRM in your language.
 #: pages/linux.linux_faq.php:276
@@ -933,10 +979,14 @@ msgid ""
 "\"http://www.timj.co.uk/digiculture/drm-fallacy\">DRM and Trusted Computing</"
 "a>. Read our article \"<a href=\"%s\">%s</a>\" for more information."
 msgstr ""
+"事實上這項權利目前正受到某些威脅，像是<a href=\"http://www.timj.co.uk/"
+"digiculture/drm-fallacy\">數位內容權利管理(DRM)以及信任式運算(Trusted "
+"Computing)</a>。更多關於此部份的資訊請參閱我們的另一篇文章<a href=\"%s\">%s</"
+"a>。"
 
 #: pages/linux.linux_faq.php:288
 msgid "Not at all. It will run happily on your own computer."
-msgstr ""
+msgstr "完全不會，它可以快樂地在你的電腦上執行。"
 
 #: pages/linux.linux_faq.php:289
 #, php-format
@@ -948,6 +998,11 @@ msgid ""
 "series). <a href=\"%s\">Read how you can try or install Linux on your "
 "computer</a>, be it instead of or together with Windows."
 msgstr ""
+"唯一你必須要擔心的情況，是如果你想用一些非常新款式的硬體配備(例如顯示卡)，否"
+"則的話所有的 Linux 發行版都可以在普通個人電腦(通常稱為 i386 或 x86 電腦)、六"
+"十四位元處理器電腦、蘋果 Mac 電腦(包括 G5、G4、G3 系列)上正常運行。關於如何在"
+"你的電腦上試用或安裝 Linux 系統，<a href=\"%s\">請參閱此文章</a>，可以用 "
+"Linux 完全取代掉視窗系統，也可以讓它與視窗系統並存。"
 
 #: pages/linux.linux_faq.php:299 pages/linux.php:38
 msgid "Using Linux"
@@ -955,7 +1010,7 @@ msgstr "使用 Linux"
 
 #: pages/linux.linux_faq.php:306
 msgid "No."
-msgstr ""
+msgstr "不。"
 
 #: pages/linux.linux_faq.php:307
 msgid ""
@@ -1033,7 +1088,7 @@ msgstr ""
 #. i18n: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
 #: pages/linux.linux_faq.php:333
 msgid "https://wiki.ubuntu.com/RestrictedFormats"
-msgstr ""
+msgstr "https://wiki.ubuntu.com/RestrictedFormats"
 
 #: pages/linux.linux_faq.php:333
 msgid "Ubuntu Restricted Formats"
@@ -1042,7 +1097,7 @@ msgstr ""
 #. i18n: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
 #: pages/linux.linux_faq.php:336
 msgid "http://www.fedoraproject.org/wiki/ForbiddenItems"
-msgstr ""
+msgstr "http://www.fedoraproject.org/wiki/ForbiddenItems"
 
 #: pages/linux.linux_faq.php:336
 msgid "Fedora Forbidden Items"
@@ -1114,6 +1169,8 @@ msgid ""
 "Let's begin with one simple fact: free software programmers <em>do</em> like "
 "to get paid, and all need to buy lunch at some time."
 msgstr ""
+"咱們講句實在話：自由軟體開發者們<em>樂意</em>收到金錢酬勞，畢竟大家都必須要餬"
+"口飯吃。"
 
 #. i18n: Here, the %s placeholder simply puts a link to a footnote in this page
 #: pages/linux.misunderstanding_free_software.php:35
@@ -1123,6 +1180,8 @@ msgid ""
 "strong>. You may actually pay to get free software (or \"open source\" "
 "software %s), which you can then study, change and copy at will."
 msgstr ""
+"當我們提到自由軟體時，我們的重點是在於<strong>自由而不是免費</strong>。事實上"
+"你也可以花錢買自由軟體(或是「開放原始碼」軟體 %s)，也可以研究、修改和複製。"
 
 #: pages/linux.misunderstanding_free_software.php:37
 msgid ""
@@ -1131,6 +1190,9 @@ msgid ""
 "strong>, an elaborate language, not like ordinary property, there is no "
 "reason to restrict others' use of it."
 msgstr ""
+"此話怎說呢？基本上你可以這麼想：軟體就是程式碼，程式碼就像是數學式，像是"
+"<strong>具有實用性的數學式</strong>，它是一種精心設計的語言，而不像是普通的私"
+"有財產，所以沒有理由去限制人們使用它的權利。"
 
 #: pages/linux.misunderstanding_free_software.php:38
 msgid ""
@@ -1140,6 +1202,10 @@ msgid ""
 "especially companies, are willing to pay for regular security updates and "
 "improvements on software."
 msgstr ""
+"就像是數學一樣，沒有人能夠對一個數學公式註冊專利，而軟體需要相當進階的專業知"
+"識才能夠正確地調適、改進與使用，這就是程式設計師可以藉以謀取利潤的空間，有許"
+"多客戶(尤其是企業級客戶)都相當樂意花錢請人來對軟體進行安全性更新以及功能改"
+"良。"
 
 #: pages/linux.misunderstanding_free_software.php:39
 msgid ""
@@ -1149,6 +1215,10 @@ msgid ""
 "are by no means negligible. In the end, individual users generally end up "
 "using free software at no cost."
 msgstr ""
+"自由軟體公司接收了非常大量且分散的自願性貢獻者之心血結晶，在自由軟體產業裡的"
+"經濟利潤或許比不上版權私有軟體，但是這絕對不表示此等獲利可以被忽略，這樣的結"
+"果就是致使普通的軟體使用者在絕大部分的情況下，可以不花費任何分文地盡情使用自"
+"由軟體。"
 
 #: pages/linux.misunderstanding_free_software.php:40
 msgid ""
@@ -1156,53 +1226,62 @@ msgid ""
 "seeing code as knowledge which should not be hidden from the user. It works "
 "with a different business model, in which many companies already do well."
 msgstr ""
+"自由軟體的宗旨並非在扼殺軟體開發者貢獻的誘因，而是在於將程式碼視為一種知識，"
+"不應該被隱藏與封鎖於使用者之外。此種架構可以在多種不同的商業模式中予以應用，"
+"實際上已經有許多公司企業在此等模式的經營下蓬勃發展。"
 
 #: pages/linux.misunderstanding_free_software.php:43
 msgid "2. Innovation is killed in free software."
-msgstr "2. 自由軟體會扼殺創意"
+msgstr "2. 創意被自由軟體扼殺。"
 
 #. i18n: image alt description
 #: pages/linux.misunderstanding_free_software.php:46
 msgid "no innovation"
-msgstr ""
+msgstr "沒有創新"
 
 #: pages/linux.misunderstanding_free_software.php:47
 msgid ""
 "The common perception is that if everyone can copy ideas, innovation will be "
 "stifled."
 msgstr ""
+"很多普遍的觀點都認為，如果任何人都可以任意複製他人的創作，創新將會被封殺。"
 
 #: pages/linux.misunderstanding_free_software.php:48
 msgid ""
 "In fact, freedom is often <strong>the key to innovative and successful "
 "software</strong>."
-msgstr ""
+msgstr "但事實上，自由通常都是<strong>通往創新與成功軟體的關鍵</strong>。"
 
 #: pages/linux.misunderstanding_free_software.php:50
 msgid "Anyone is allowed and encouraged to work upon it;"
-msgstr ""
+msgstr "任何人都可以甚至歡迎參與它的創作；"
 
 #: pages/linux.misunderstanding_free_software.php:51
 msgid "Many people are willing to participate;"
-msgstr ""
+msgstr "有許多人都很樂意去參與其中；"
 
 #: pages/linux.misunderstanding_free_software.php:52
 msgid ""
 "There is no need to re-invent everything, ideas can be improved upon "
 "directly."
 msgstr ""
+"完全沒有必要去重複發明已經存在的東西，而是能夠以創意去直接改良這些已經存在的"
+"東西。"
 
 #: pages/linux.misunderstanding_free_software.php:55
 msgid ""
 "Non-proprietary software stands out in many areas: consider, to name just a "
 "few:"
 msgstr ""
+"目前非版權私有的軟體在許多方面已經有許多傑出的代表，底下就簡單列舉幾個："
 
 #: pages/linux.misunderstanding_free_software.php:57
 msgid ""
 "Applications: <a href=\"http://www.getfirefox.com/\">Firefox</a> (web "
 "browser), <a href=\"http://www.inkscape.org/\">Inkscape</a> (vector drawing)."
 msgstr ""
+"應用軟體：<a href=\"http://www.getfirefox.com/\">火狐狸(Firefox)</a>網頁瀏覽"
+"器、<a href=\"http://www.inkscape.org/\">Inkscape</a>(向量繪圖軟體)。"
 
 #: pages/linux.misunderstanding_free_software.php:58
 msgid ""
@@ -1211,6 +1290,10 @@ msgid ""
 "\">OpenBSD</a> (<acronym title=\"Operating System\">OS</acronym>), and of "
 "course, GNU/Linux."
 msgstr ""
+"成套軟體系統：<a href=\"http://en.wikipedia.org/wiki/Apache_HTTP_Server"
+"\">Apache</a> (網頁伺服器軟體)、<a href=\"http://en.wikipedia.org/wiki/"
+"OpenBSD\">OpenBSD</a> (<acronym title=\"Operating System\">作業系統</"
+"acronym>)、以及顯而易見的 GNU/Linux。"
 
 #. i18n: use URL to localized Wikipedia article for ODF, instead of opendocumentfellowship
 #: pages/linux.misunderstanding_free_software.php:61
@@ -1220,6 +1303,11 @@ msgid ""
 "(protocol)\">BitTorrent</a> (file sharing), <a href=\"http://"
 "opendocumentfellowship.com/\">ODF</a> (office documents)."
 msgstr ""
+"檔案格式以及通訊協定：<a href=\"http://en.wikipedia.org/wiki/HTML\">超文件標"
+"記語言(HTML)</a>、<a href=\"http://en.wikipedia.org/wiki/BitTorrent_"
+"(protocol)\">BitTorrent</a>(點對點檔案傳輸)、<a href=\"http://zh.wikipedia."
+"org/wiki/%E5%BC%80%E6%94%BE%E6%96%87%E6%A1%A3%E6%A0%BC%E5%BC%8F\">開放式文件"
+"格式(ODF)</a>。"
 
 #: pages/linux.misunderstanding_free_software.php:62
 msgid ""
@@ -1227,6 +1315,8 @@ msgid ""
 "Management System), <a href=\"http://www.wordpress.org/\">Wordpress</a> "
 "(blog)."
 msgstr ""
+"伺服器端應用軟體：<a href=\"http://drupal.org/\">Drupal</a> (內容管理系統)、"
+"<a href=\"http://www.wordpress.org/\">Wordpress</a> (部落格系統)。"
 
 #: pages/linux.misunderstanding_free_software.php:67
 msgid "3. Software Should Just Work (who cares about source code?)"
@@ -1239,7 +1329,7 @@ msgstr "沒有原始碼?"
 
 #: pages/linux.misunderstanding_free_software.php:71
 msgid "Anyone should care about whether their software is free."
-msgstr ""
+msgstr "任何人都應該關心他們所用的軟體是否自由。"
 
 #: pages/linux.misunderstanding_free_software.php:72
 msgid ""
@@ -1249,6 +1339,10 @@ msgid ""
 "allowed to make sure that it's reliable, that it does not leak, that it's "
 "not harmful to the society and environment?"
 msgstr ""
+"試著假想一下如果你買了一輛車，但是廠商卻禁止你掀起引擎蓋，估且不論你是否了解"
+"車輛的機械原理 &ndash; 重點是在於如此一來沒有人可以檢查你車上的引擎，如果沒有"
+"人能夠去檢查確認它的情況是否正常，你如何能相信這輛車沒有漏油、安全性疑慮？也"
+"不會對環境與社會造成危害？"
 
 #: pages/linux.misunderstanding_free_software.php:73
 msgid ""
@@ -1256,12 +1350,17 @@ msgid ""
 "<strong>much more</strong> than move cars. Software runs our computers, "
 "phones, TVs, media players and more, carrying information and our culture."
 msgstr ""
+"這對於軟體來說是同樣的道理 &ndash; 差別在於軟體的程式碼所做的事，並不只是單純"
+"地推動車輛行使而已。在電腦、手機、電視、多媒體播放機上所運行的軟體，承載著許"
+"多資訊。"
 
 #: pages/linux.misunderstanding_free_software.php:74
 msgid ""
 "Free software is as important as free speech, as a free market. If software "
 "is free, users have control and liberty over it."
 msgstr ""
+"軟體的自由和言論的自由是同等重要的，就像是自由市場一般，如果軟體是自由的，其"
+"使用者就可以對其控制並且善加利用。"
 
 #. i18n: The %s placeholder will automatically point to the 'try and install' page
 #: pages/linux.misunderstanding_free_software.php:77
@@ -1272,6 +1371,10 @@ msgid ""
 "your computer at start-up, to try a full-featured, well-organised system, "
 "without installation, so you can judge by yourself."
 msgstr ""
+"有個好消息是：<em>自由軟體是可以正常被使用的</em>，而且還更為好用。在你電腦開"
+"機之際<a href=\"%s\">放進一片 GNU/Linux Live CD 光碟片</a>，就可以在不用進行"
+"任何安裝程序的情況下，盡情地體驗這個功能完整且強大的作業系統，之後你便可自行"
+"評估是否要正式地使用它。"
 
 #: pages/linux.misunderstanding_free_software.php:80
 msgid ""
@@ -1281,7 +1384,7 @@ msgstr "4. 自由軟體不尊重軟體開發者受版權與專利保護的軟體
 #. i18n: image alt description
 #: pages/linux.misunderstanding_free_software.php:83
 msgid "piracy"
-msgstr ""
+msgstr "盜版"
 
 #: pages/linux.misunderstanding_free_software.php:84
 msgid ""
@@ -1383,7 +1486,7 @@ msgstr ""
 
 #: pages/linux.misunderstanding_free_software.php:116
 msgid "5. Free software is like communism."
-msgstr ""
+msgstr "5. 自由軟體就像共產主義。"
 
 #. i18n: image alt description
 #: pages/linux.misunderstanding_free_software.php:119
@@ -1615,7 +1718,7 @@ msgstr "GNU/Linux看起來是什麼樣子?我們精選了一些螢幕截圖"
 #. i18n: image alt description
 #: pages/linux.php:28
 msgid "A view of a Fedora Linux desktop"
-msgstr ""
+msgstr "Fedora Linux 桌面一隅"
 
 #: pages/linux.php:29
 msgid ""
@@ -1624,6 +1727,9 @@ msgid ""
 "free. The accurate name is <em>GNU/Linux</em> but \"Linux\" is used more "
 "often."
 msgstr ""
+"Linux 是一個 <em>作業系統</em>，一個管理電腦的軟體。它類似於 Microsoft "
+"Windows，但它是完全免費的。準確的名稱是 <em>GNU/Linux</em>，但「Linux」更常被"
+"使用。"
 
 #: pages/linux.php:31
 msgid ""
@@ -1647,6 +1753,8 @@ msgid ""
 "A prominent, complete and friendly distribution to step into GNU/Linux is <a "
 "href=\"http://www.ubuntu.com\">Ubuntu</a>."
 msgstr ""
+"一個突出、完整且友善的發佈版，踏入GNU/Linux 的世界，就是 <a href=\"http://"
+"www.ubuntu.com\">Ubuntu</a>。"
 
 #. i18n: image alt description
 #: pages/linux.php:45
@@ -1817,7 +1925,7 @@ msgstr ""
 
 #: pages/more.php:27
 msgid "Computers pre-installed with Linux"
-msgstr "預裝Linux的電腦"
+msgstr "預裝 Linux 的電腦"
 
 #. i18n: image alt description
 #: pages/more.php:29
@@ -2399,7 +2507,7 @@ msgstr ""
 #. i18n: We try to be friendly and inviting here. This does not have to be translated very precisely.
 #: pages/switch_to_linux.from_windows_to_linux.php:188
 msgid "Choose a Linux distribution to get started!"
-msgstr ""
+msgstr "選擇一個 Linux 發行版以開始！"
 
 #. i18n: please note the "affirmative" tone with the '.' at end of sentence.
 #: pages/switch_to_linux.php:25
@@ -3200,7 +3308,7 @@ msgstr ""
 #. i18n: Unless you know of a very good resource about DRM, please point to the Wikipedia article about DRM in your language, if it exists
 #: pages/windows.stand_for_a_free_society.php:139
 msgid "http://www.timj.co.uk/computing/politics-policy/drm/fallacy/"
-msgstr ""
+msgstr "https://zh.wikipedia.org/wiki/DRM"
 
 #. i18n: Title of external link
 #: pages/windows.stand_for_a_free_society.php:141
