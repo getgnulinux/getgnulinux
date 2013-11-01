@@ -207,6 +207,7 @@ if ( !defined('GGL') ) {
 <h3>German:</h3>
 <p class="tab">
     <a href="https://www.transifex.com/accounts/profile/KIAaze/">KIAaze</a>,
+    <a href="https://www.transifex.com/accounts/profile/emukis/">Marcel</a>,
     <a href="https://www.transifex.com/accounts/profile/monoto/">monoto</a>,
     <a href="https://www.transifex.com/accounts/profile/ToBeFree/">Tobias Frei</a>,
     and others.
