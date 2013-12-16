@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/figure002/getgnulinux/issues\n"
-"POT-Creation-Date: 2013-09-19 14:18+0200\n"
-"PO-Revision-Date: 2013-09-02 11:50+0000\n"
+"POT-Creation-Date: 2013-11-24 01:02+0100\n"
+"PO-Revision-Date: 2013-12-12 21:00+0000\n"
 "Last-Translator: gaioso <rrgaioso@gmail.com>\n"
 "Language-Team: Galician (http://www.transifex.com/projects/p/getgnulinux/"
 "language/gl/)\n"
@@ -336,7 +336,7 @@ msgstr ""
 msgid "home page"
 msgstr ""
 
-#: pages/credits.php:307 pages/legal.php:132 pages/not_found.php:32
+#: pages/credits.php:319 pages/legal.php:132 pages/not_found.php:32
 msgid "Return to the Homepage"
 msgstr "Volver ao Inicio"
 
@@ -1391,6 +1391,9 @@ msgid ""
 "Management System), <a href=\"http://www.wordpress.org/\">Wordpress</a> "
 "(blog)."
 msgstr ""
+"Aplicativos para servidor: <a href=\"http://drupal.org/\">Drupal</a> "
+"(Sistema de Xestión de Contidos), <a href=\"http://www.wordpress.org/"
+"\">Wordpress</a> (blog)."
 
 #: pages/linux.misunderstanding_free_software.php:67
 msgid "3. Software Should Just Work (who cares about source code?)"
@@ -1403,7 +1406,7 @@ msgstr "sen código?"
 
 #: pages/linux.misunderstanding_free_software.php:71
 msgid "Anyone should care about whether their software is free."
-msgstr "Calquera persoa debería preocuparse de se o teu software é libre."
+msgstr "Calquera persoa debería preocuparse de se o seu software é libre."
 
 #: pages/linux.misunderstanding_free_software.php:72
 msgid ""
@@ -1463,7 +1466,7 @@ msgstr ""
 #. i18n: image alt description
 #: pages/linux.misunderstanding_free_software.php:83
 msgid "piracy"
-msgstr "piratería"
+msgstr "pirataría"
 
 #: pages/linux.misunderstanding_free_software.php:84
 msgid ""
@@ -1513,42 +1516,59 @@ msgid ""
 "over a <em>process</em>. The patent then applies to all software that use "
 "this process, whether proprietary or free."
 msgstr ""
+"Por outro lado, as patentes no software, son un tema controvertido. "
+"Resumindo: non existe o concepto de <strong>\"software patentado\"</strong>. "
+"Mediante o rexistro dunha patente, alguén pode reclamar a propiedade sobre "
+"un <em>procedemento, ou algoritmo</em>. A patente aplícase a todo aquel "
+"software que fai uso de dito proceso, sexa privativo ou libre."
 
 #: pages/linux.misunderstanding_free_software.php:92
 msgid "Software patents:"
-msgstr ""
+msgstr "Patentes de software:"
 
 #: pages/linux.misunderstanding_free_software.php:94
 msgid "Are expensive and are granted only several years after application;"
 msgstr ""
+"Son caras e son concedidas transcurridos varios anos despois da súa "
+"solicitude;"
 
 #: pages/linux.misunderstanding_free_software.php:95
 msgid ""
 "Are limited geographically (a patent granted in the US is worthless in "
 "Europe);"
 msgstr ""
+"Están limitadas xeográficamente (unha patente concedida nos EUA, non ten "
+"vixencia en Europa);"
 
 #: pages/linux.misunderstanding_free_software.php:96
 msgid "Have long life-times (often 20 years) in a quickly-moving industry;"
 msgstr ""
+"Teñen longos periodos de vixencia (xeralmente, 20 anos) nun sector que "
+"avanza de xeito moi rápido;"
 
 #: pages/linux.misunderstanding_free_software.php:97
 msgid ""
 "Often apply <a href=\"http://eupat.ffii.org/patents/samples/\">entirely "
 "trivial processes</a>."
 msgstr ""
+"Adoitan ser <a href=\"http://eupat.ffii.org/patents/samples/\">procesos "
+"totalmente triviais</a>."
 
 #: pages/linux.misunderstanding_free_software.php:99
 msgid ""
 "As such, they are seldom used to benefit innovators (and in fact, rarely "
 "used by the innovators themselves)."
 msgstr ""
+"Como tales, non se soen utilizar en beneficio das persoas que innovan (de "
+"feito, en raras ocasións son utilizadas polos propios innovadores)."
 
 #: pages/linux.misunderstanding_free_software.php:101
 msgid ""
 "It's safe to say that <strong>any medium-size piece of software violates "
 "patents</strong>, in several countries, whether it's free or not."
 msgstr ""
+"Pode dicirse, que <strong>calquera peza de software de tamaño medio viola as "
+"patentes</strong>, en varios países, sen importar que sexa libre ou non."
 
 #: pages/linux.misunderstanding_free_software.php:102
 msgid ""
@@ -1556,10 +1576,13 @@ msgid ""
 "or to retaliate with other patent threats, royalties and restrictions can be "
 "applied over these patents."
 msgstr ""
+"Dependendo da capacidade que teña a compañía titular da patente para cubrir "
+"os altos custos legais, poderá aplicar restriccións e regalías sobre ditas "
+"patentes."
 
 #: pages/linux.misunderstanding_free_software.php:104
 msgid "Read and view more:"
-msgstr ""
+msgstr "Ler e ver máis:"
 
 #. i18n: Unless you know of a good localized resource, please leave the URL as such.
 #: pages/linux.misunderstanding_free_software.php:108
@@ -1569,6 +1592,10 @@ msgid ""
 "<acronym title=\"Foundation for a Free Information Infrastructure\">FFII</"
 "acronym>"
 msgstr ""
+"<a href=\"http://ffii.org/Frequently_Asked_Questions_about_software_patents"
+"\" hreflang=\"en\">Preguntas Frecuentes sobre as patentes no software, pola "
+"<acronym title=\"Foundation for a Free Information Infrastructure\">FFII</"
+"acronym>"
 
 #. i18n: Unless you know of a good localized resource, please leave the URL as such.
 #: pages/linux.misunderstanding_free_software.php:111
@@ -1576,15 +1603,18 @@ msgid ""
 "<a href=\"http://www.redhat.com/magazine/007may05/features/ip/\" hreflang="
 "\"en\">Short and clear video on \"intellectual property\" by Red Hat"
 msgstr ""
+"<a href=\"http://www.redhat.com/magazine/007may05/features/ip/\" hreflang="
+"\"en\">Vídeo curto e explicativo sobre a \"propiedade intelectual\" segundo "
+"Red Hat."
 
 #: pages/linux.misunderstanding_free_software.php:116
 msgid "5. Free software is like communism."
-msgstr ""
+msgstr "5. O softwre libre é coma o comunismo."
 
 #. i18n: image alt description
 #: pages/linux.misunderstanding_free_software.php:119
 msgid "communism"
-msgstr ""
+msgstr "comunismo"
 
 #. i18n: Here, the %s placeholder simply puts a link to a footnote in this page
 #: pages/linux.misunderstanding_free_software.php:122
@@ -1593,6 +1623,9 @@ msgid ""
 "Supporters of this idea argue that there can be no private ownership with "
 "free (or \"open source\" %s) software. Let's answer this with an example."
 msgstr ""
+"Os defensores desta idea sosteñen que non pode haber propiedade privada "
+"sobre o software libre (ou \"código aberto\" %s). Imos responder a isto cun "
+"exemplo."
 
 #: pages/linux.misunderstanding_free_software.php:123
 msgid ""
@@ -1601,6 +1634,10 @@ msgid ""
 "your modified version, your computer works better and your factories run "
 "twice as fast!"
 msgstr ""
+"Imaxiemos que utilizas un aplicativo que é software libre, na túa casa e no "
+"traballo. Atopas un xeito de mellorar o seu rendemento, polo que coa nova "
+"versión modificada, o teu ordenador funciona mellor e executa as tarefas o "
+"dobre de rápido!"
 
 #: pages/linux.misunderstanding_free_software.php:124
 msgid ""
@@ -1609,6 +1646,10 @@ msgid ""
 "made using it. You are simply exerting your freedom to use and modify free "
 "software."
 msgstr ""
+"Esta versión modificada é <strong>a túa versión</strong>. Non estás obrigado "
+"a contarllo a ninguén, nin compartir os beneficios que obtiveches mentres a "
+"utilizabas. Simplemente, estás exercendo o teu dereito a utilizar e "
+"modificar o software libre."
 
 #: pages/linux.misunderstanding_free_software.php:125
 msgid ""
@@ -1617,6 +1658,10 @@ msgid ""
 "with your software on them, or start letting people outside your home or "
 "company use it, then you must:"
 msgstr ""
+"A licenza de software libre obrígate a que <strong>se distribúes</strong> "
+"este software, debes mantelo libre. Por exemplo, se vendes CD's co teu "
+"software, ou permites que xente allea á túa casa ou traballo comece a "
+"utilizalo, entón debes:"
 
 #: pages/linux.misunderstanding_free_software.php:127
 msgid ""
@@ -1624,12 +1669,18 @@ msgid ""
 "software, that is, the freedom to inspect, modify and redistribute your "
 "modified version;"
 msgstr ""
+"Concederlles a todos eles os mesmos dereitos que obtiveches do software "
+"orixinal, isto é, a liberdade para estudalo, modificalo e distribuír a "
+"versión modificada;"
 
 #: pages/linux.misunderstanding_free_software.php:128
 msgid ""
 "Or, make the original software and your secret addition to it clearly "
 "separate (that is, your addition should contain none of the original work)."
 msgstr ""
+"Ou senón, separar de xeito claro o código orixinal das túas modificacións "
+"(ou sexa, que os teus cambios non conteñan ningunha peza do traballo "
+"orixinal)."
 
 #. i18n: The %s placeholder here will automatically point to the page "Windows Restrictions, further details"
 #: pages/linux.misunderstanding_free_software.php:132
@@ -1639,6 +1690,9 @@ msgid ""
 "proprietary software &ndash;where the programmer decides everything you can "
 "<a href=\"%s\">and can't do</a> with the software."
 msgstr ""
+"Así que, en realidade, ti tes máis \"propiedade\" sobre o software libre que "
+"sobre o privativo &ndash;onde o programador decide todo o que podes <a href="
+"\"%s\">e non podes facer</a> co software."
 
 #: pages/linux.misunderstanding_free_software.php:133
 msgid ""
@@ -1647,21 +1701,27 @@ msgid ""
 "opposite. The free software license is simply a legal, ethical contract "
 "between the programmer and the end-user."
 msgstr ""
+"<em>O software libre non ten nada que ver con ningún sistema político.</em> "
+"Podes executalo sobre software privativo, ou viceversa. A licenza de "
+"software libre é tan só un contrato ético, e legal, entre o programador e o "
+"usuario final."
 
 #: pages/linux.misunderstanding_free_software.php:137
 #: pages/windows.restrictions.php:66
 msgid "Read more:"
-msgstr ""
+msgstr "Ler máis:"
 
 #: pages/linux.misunderstanding_free_software.php:138
 msgid "Free / \"open-source\" software can't be secure."
-msgstr ""
+msgstr "O Software libre / \"open-source\" non pode ser seguro."
 
 #: pages/linux.misunderstanding_free_software.php:141
 msgid ""
 "The argument generally goes that since the source code of free software is "
 "available, it is less likely to be secure."
 msgstr ""
+"O argumento soe ser que debido a que o código fonte do software libre está "
+"dispoñible, é menos probable que sexa seguro."
 
 #: pages/linux.misunderstanding_free_software.php:142
 msgid ""
@@ -1669,6 +1729,9 @@ msgid ""
 "networked computers holding sensitive or confidential information such as "
 "your bank details or trade secrets."
 msgstr ""
+"Resposta curta: A maioría de servidores executan software libre. Son os "
+"equipos máis importantes das redes, e soportan información sensible e "
+"confidencial, tales como contas bancarias ou segredos industriais."
 
 #: pages/linux.misunderstanding_free_software.php:143
 msgid ""
