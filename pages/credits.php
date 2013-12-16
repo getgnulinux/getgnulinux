@@ -200,8 +200,9 @@ if ( !defined('GGL') ) {
 
 <h3>Galician:</h3>
 <p class="tab">
-    <a href="https://www.transifex.com/accounts/profile/oisempreceibes/">Iago Oi</a> and
-    <a href="https://www.transifex.com/accounts/profile/mmeixide/">Manuel Meixide</a>.
+    <a href="https://www.transifex.com/accounts/profile/oisempreceibes/">Iago Oi</a>,
+    <a href="https://www.transifex.com/accounts/profile/mmeixide/">Manuel Meixide</a>, and
+    <a href="https://www.transifex.com/accounts/profile/gaioso/">Rafael Rodríguez Gaioso</a>.
 </p>
 
 <h3>German:</h3>
