@@ -9,7 +9,6 @@ if ( !defined('GGL') ) {
 $this->page_name = "not_found";
 
 $this->load_header();
-$this->load_top_bar();
 
 ?>
 

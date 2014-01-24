@@ -84,35 +84,33 @@ class HTML {
     }
 
     /**
-     * Load the top bar.
+     * Load the navigation bar.
      */
-    function load_top_bar()
+    function load_navigation()
     {
     ?>
-<!-- top bar -->
-<div id="top_bar" class="grid_9">
-<div class="left">
-<div class="menu-globalnav-container">
-    <ul>
-    <?php
-    $menu_items = array('linux' => _("What is Linux?"),
-        'windows' => _("Why not Windows"),
-        'switch_to_linux' => _("Switch to Linux"),
-        'more' => _("More"),
-        );
+<div id="navigation">
+    <div class="left">
+        <div class="menu-globalnav-container">
+            <ul>
+<?php
+$menu_items = array('#what-is-gnu-linux' => _("What is Linux?"),
+'#why-not-windows' => _("Why not Windows"),
+'#switch-to-gnu-linux' => _("Switch to Linux"),
+'more' => _("More"),
+);
 
-    foreach ($menu_items as $id => $title) {
-        printf("<li%s><a href=\"%s\">%s</a></li>\n",
-            $this->is_current_menu_item($id),
-            $this->base_url($id,1),
-            $title);
-    }
-    ?>
-    </ul>
+foreach ($menu_items as $id => $title) {
+printf("<li%s><a href=\"%s\">%s</a></li>\n",
+    $this->is_current_menu_item($id),
+    $this->base_url($id,1),
+    $title);
+}
+?>
+            </ul>
+        </div>
+    </div>
 </div>
-</div>
-</div>
-<!-- end top bar -->
     <?php
     }
 
@@ -425,15 +423,26 @@ class HTML {
         } else {
             $url = "/";
         }
-        # If the language is overridden in the URL, keep using it in links.
-        $override = isset($_GET['l']) ? $_GET['l'] : null;
-        if ($override && $override == $lang) {
+
+        # If the language is set in the URL, keep using it in links.
+        $lang_id = isset($_GET['l']) ? $_GET['l'] : null;
+        if ($lang_id && $lang_id == $lang) {
             $url .= $lang.'/';
         }
-        # If a page string is provided, add it to the URL.
+
+        # Construct the URL.
         if ($path) {
-            $url .= $path.'/';
+            $elements = explode('#', $path);
+
+            if ( !empty($elements[0]) ) {
+                $url .= $elements[0].'/';
+            }
+
+            if ( count($elements) == 2 ) {
+                $url .= '#'.$elements[1];
+            }
         }
+
         # Return or print the URL.
         if ($return) {
             return $url;

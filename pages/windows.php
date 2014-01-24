@@ -6,7 +6,6 @@ if ( !defined('GGL') ) {
 }
 
 $this->load_header();
-$this->load_top_bar();
 
 ?>
 

@@ -1,6 +1,6 @@
 <?php header("Content-Type: text/html; charset=utf-8"); ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php $this->text('lang'); ?>" lang="<?php $this->text('lang') ?>" dir="<?php $this->text('dir'); ?>">
+<!DOCTYPE html>
+<html lang="en-US" lang="<?php $this->text('lang') ?>" dir="<?php $this->text('dir'); ?>">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 
@@ -23,18 +23,33 @@
     <link rel="shortcut icon" type="image/x-icon" href="<?php $this->url('favicon.ico'); ?>" />
     <meta name="description" content="<?php $this->page_description(); ?>"/>
     <meta name="keywords" content="<?php print _("linux, gnu/linux, free software, software freedom, open-source, windows alternative, get linux, switch to linux"); ?>" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:700,400,300"/>
     <?php $this->stylesheet('/style/main-ltr.css'); ?>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <?php
     // Load page specific stylesheets and javascripts.
     switch ($this->page_name) {
+        case '':
+        case null:
+            $this->javascript('/js/jquery.flexslider-min.js');
+            $this->stylesheet('/style/flexslider.css');
+        ?>
+    <script type="text/javascript" charset="utf-8">
+      $(window).load(function() {
+        $('.flexslider').flexslider({
+            animation: "fade",
+        });
+      });
+    </script>
+        <?php
+            break;
         case 'linux.misunderstanding_free_software':
-            $this->javascript('/style/toggleanswers.js');
+            $this->javascript('/js/toggleanswers.js');
             break;
         case 'linux.screenshots':
-            $this->javascript('http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js');
-            $this->javascript('/style/fancybox/jquery.fancybox-1.3.4.pack.js');
-            $this->stylesheet('/style/fancybox/jquery.fancybox-1.3.4.css');
-            ?>
+            $this->javascript('/js/fancybox/jquery.fancybox-1.3.4.pack.js');
+            $this->stylesheet('/js/fancybox/jquery.fancybox-1.3.4.css');
+        ?>
     <script type="text/javascript">
         $(document).ready(function() {
 
@@ -64,7 +79,7 @@
 
         });
     </script>
-            <?php
+        <?php
             break;
     }
 
@@ -82,41 +97,12 @@
         $this->stylesheet('/style/no-italics.css');
     }
     ?>
-
-    <!--[if IE 7]>
-    <?php
-    $this->javascript('/style/ie_translation_menu.js');
-    $this->stylesheet('/style/ie7-ltr.css');
-    if ( $ggl->get('dir') == 'rtl' ) {
-        $this->stylesheet('/style/ie7-rtl.css');
-    }
-    ?>
-    <![endif]-->
 </head>
 
 <body>
-<div id="global-container">
-<div class="accessibility">
-    <a href="#maincontent"><?php print _("skip to content"); ?></a>
-</div>
 
-<div id="wrapper">
-<div id="mainbody">
-<div id="header">
-
-<?php
-if ( $this->page_name == "home" || !$this->page_name ) {
-?>
-    <div id="header_picture_homepage">
-	    <h1><?php print $this->text('website_title'); ?></h1>
-    </div>
-<?php
-} else {
-?>
-    <div id="header_picture">
-        <h1><a href="<?php $this->base_url(); ?>" title="<?php print _("home page"); ?>"><?php $this->text('website_title'); ?></a></h1>
-    </div>
-<?php } ?>
-
-</div><!-- end header -->
-
+<header id="header">
+    <nav role="navigation">
+        <?php $this->load_navigation(); ?>
+    </nav>
+</header>

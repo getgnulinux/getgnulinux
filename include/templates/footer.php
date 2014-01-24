@@ -1,8 +1,25 @@
-</div><!-- end mainbody -->
-</div><!-- end wrapper -->
+<footer id="footer" class="footer_height">
+    <div id="footer-container" class="maxwidth">
 
-<div id="footer" class="footer_height">
-    <div id="footer-container">
+        <div id="translations">
+            <ul>
+                <?php foreach ($ggl->get_locales() as $code => $items) {
+                    list($locale, $native) = $items;
+                    if ( $ggl->lang_is_complete($code) ) {
+                        printf("<li%s><a href=\"/%s\" hreflang=\"%s\"><span dir=\"%s\">%s</span></a></li>\n",
+                            $this->is_current_language($code),
+                            $this->current_page($code),
+                            $code,
+                            $ggl->get_lang_directionality($code),
+                            $native);
+                    }
+                } ?>
+                <li><a class="more" href="<?php $this->base_url('select_language'); ?>" title="More languages">…</a></li>
+            </ul>
+        </div>
+
+        <hr/>
+
         <div class="clearfix">
             <div class="footer-block">
                 <h1><?php print _("About"); ?></h1>
@@ -26,53 +43,33 @@
                 <h1><?php print _("Other"); ?></h1>
                 <ul class="footer-text">
                     <li><a href="http://browsehappy.com/" title="<?php print _("This website won't look as intended on an outdated browser. Upgrade your browser today!"); ?>"><?php
-                    # i18n: The link in the footer that links to browsehappy.com. You may choose to leave this untranslated.
+                    # translators: The link in the footer that links to browsehappy.com.
                     print _("Browse Happy"); ?></a></li>
                 </ul>
             </div>
-            <div class="footer-block footer-block-last-child">
-                <p>
-                    <?php $p = _("Except where otherwise <a href=\"%s\">noted</a>, content on this site is licensed under a <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" rel=\"license\"><acronym title=\"Creative Commons Attribution-ShareAlike\">CC BY-SA</acronym> 3.0 License</a>."); printf($p, $this->base_url('legal',1)); ?>
-                </p>
-                <?php
-                // Show Flattr button?
-                if ( $ggl->get('flattr') ) {
-                    $this->flattr_widget();
-                }
-                // Show AddThis widget?
-                if ( $ggl->get('addthis') ) {
-                    require_once(ROOT.'/include/widgets/AddThis.php');
-                }
-                ?>
-            </div>
         </div><!-- end clearfix -->
-    </div><!-- end footer container -->
-</div><!-- end footer -->
-</div><!-- end global container -->
 
-<!-- language menu -->
-<div id="just_for_ie7">
-<div id="translations">
-<div id="language_menu"><span id="language_menu_text">Alternate languages</span></div>
-<ul>
-<?php
-foreach ($ggl->get_locales() as $code => $items) {
-    list($locale, $native) = $items;
-    if ( $ggl->lang_is_complete($code) ) {
-        printf("<li%s><a href=\"/%s\" hreflang=\"%s\"><span dir=\"%s\">%s</span></a></li>\n",
-            $this->is_current_language($code),
-            $this->current_page($code),
-            $code,
-            $ggl->get_lang_directionality($code),
-            $native);
-    }
-}
-?>
-<li><a href="<?php $this->base_url('select_language'); ?>">More languages</a></li>
-</ul>
-</div><!-- end translations -->
-</div><!-- end just_for_ie7 -->
-<!-- end language menu -->
+        <hr/>
+
+        <div>
+            <p><?php $p = _("Except where otherwise <a href=\"%s\">noted</a>, content on this site is licensed under a <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" rel=\"license\"><acronym title=\"Creative Commons Attribution-ShareAlike\">CC BY-SA</acronym> 3.0 License</a>."); printf($p, $this->base_url('legal',1)); ?></p>
+        </div>
+
+        <div>
+            <?php
+            // Show Flattr button?
+            if ( $ggl->get('flattr') ) {
+                $this->flattr_widget();
+            }
+            // Show AddThis widget?
+            if ( $ggl->get('addthis') ) {
+                require_once(ROOT.'/include/widgets/AddThis.php');
+            }
+            ?>
+        </div>
+
+    </div><!-- end footer container -->
+</footer><!-- end footer -->
 
 <?php
 // Load the Piwik javascript?
