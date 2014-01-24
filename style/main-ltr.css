@@ -329,7 +329,7 @@ div.list_select_language li a:hover {
 }
 
 /*----------------------------------------------------
- * Main body
+ * Main content
  *----------------------------------------------------*/
 
  .maxwidth {
@@ -338,8 +338,16 @@ div.list_select_language li a:hover {
     padding: 0 2em;
 }
 
+/*----------------------------------------------------
+ * Front page: Slider
+ *----------------------------------------------------*/
+
 .slider-bg {
     background-color: #333333;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333333), to(#666666));
+    background-image: -moz-linear-gradient(#333333, #666666);
+    background-image: -o-linear-gradient(#333333, #666666);
+    background-image: linear-gradient(#333333, #666666);
     color: #FFFFFF;
     text-align: center;
 }

@@ -95,19 +95,6 @@ $trisquel3_text = _("Accessing applications.");
         <div class="flexslider">
             <ul class="slides">
                 <li>
-                    <img src="/images/screenshots/fedora1.png" />
-                    <p class="flex-caption">Fedora: <?php print $fedora1_text; ?></p>
-                </li>
-                <li>
-                    <img src="/images/screenshots/fedora2.png" />
-                    <p class="flex-caption">Fedora: <?php print $fedora2_text; ?></p>
-                </li>
-                <li>
-                    <img src="/images/screenshots/fedora3.png" />
-                    <p class="flex-caption">Fedora: <?php print $fedora3_text; ?></p>
-                </li>
-
-                <li>
                     <img src="/images/screenshots/ubuntu1.png" />
                     <p class="flex-caption">Ubuntu: <?php print $ubuntu1_text; ?></p>
                 </li>
@@ -118,6 +105,19 @@ $trisquel3_text = _("Accessing applications.");
                 <li>
                     <img src="/images/screenshots/ubuntu3.png" />
                     <p class="flex-caption">Ubuntu: <?php print $ubuntu3_text; ?></p>
+                </li>
+
+                <li>
+                    <img src="/images/screenshots/fedora1.png" />
+                    <p class="flex-caption">Fedora: <?php print $fedora1_text; ?></p>
+                </li>
+                <li>
+                    <img src="/images/screenshots/fedora2.png" />
+                    <p class="flex-caption">Fedora: <?php print $fedora2_text; ?></p>
+                </li>
+                <li>
+                    <img src="/images/screenshots/fedora3.png" />
+                    <p class="flex-caption">Fedora: <?php print $fedora3_text; ?></p>
                 </li>
 
                 <li>

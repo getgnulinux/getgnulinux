@@ -113,13 +113,20 @@ html[xmlns] .slides {display: block;}
 
 /* Captions */
 .flex-caption {
-   color: #FFFFFF;
+   width: 98%;
+   padding: 1%;
+   position: relative;
    text-align: center;
    text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
    font-size: 14px;
-   line-height: 30px;
-   margin: 0;
-}*/
+   line-height: 18px;
+   margin:0;
+}
+
+/* Add space between slider and caption */
+.flexslider .slides img {
+    margin-bottom: 10px;
+}
 
 /* Get rid of the white space below the slider */
 .flexslider li {
