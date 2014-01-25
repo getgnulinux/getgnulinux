@@ -50,6 +50,19 @@ h1, h2, h3, h4 {
 }
 
 /*----------------------------------------------------
+ * Sliders
+ *----------------------------------------------------*/
+
+.flex-viewport {
+    direction: ltr;
+}
+
+.flexslider .slides > li {
+    direction: rtl;
+    text-align: right;
+}
+
+/*----------------------------------------------------
  * Subheader ("contents of chapter" box)
  * (only displays in level 2 pages)
  *----------------------------------------------------*/
@@ -129,7 +142,7 @@ h1, h2, h3, h4 {
  * Styles for the "Try or install" page.
  *----------------------------------------------------*/
 
-#mainbody a.get_it_button {
+a.get_it_button {
     float: left;
     margin-right: 1em;
     margin-left: 0;
@@ -194,7 +207,7 @@ h1, h2, h3, h4 {
 
 /* ------------------------- Previous button --------------*/
 
-#mainbody a.previousbutton {
+a.previousbutton {
     float: right;
 }
 
@@ -205,7 +218,7 @@ h1, h2, h3, h4 {
 
 /* ------------------------- Next button --------------*/
 
-#mainbody a.nextbutton {
+a.nextbutton {
     float: left;
 }
 
@@ -216,7 +229,7 @@ h1, h2, h3, h4 {
 
 /* ------------------------- Up button --------------*/
 
-#mainbody a.upbutton {
+a.upbutton {
     float: left;
     padding-right: 20px;
 }
@@ -259,86 +272,21 @@ h1, h2, h3, h4 {
 }
 
 /*----------------------------------------------------
- * Translations menu on top of page
+ * Translations
  *----------------------------------------------------*/
-
-#translations {
-    left: auto;
-    right: 50%;
-    margin-right: 220px;
-}
-
-#language_menu {
-    background-position: left center;
-}
-
-#language_menu_text {
-    background-position: center right;
-    padding: 0 30px 0 0;
-}
 
 #translations ul {
     margin: -1px 0;
-    box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
 }
 
-#translations li a {
-    text-align: right;
-    padding-right: 0.5em;
-    padding-left: 0.3em;
-}
-
-#translations span.language_code {
-    padding-right: 0.6em;
-    padding-left: 0em;
-    left: auto;
-    right: 0;
-}
-
-#translations span.percent {
+#translations li {
+    padding-left: 10px;
     padding-right: 0;
-    padding-left: 1em;
-    left: 0;
-    right: auto;
-}
-
-/*----------------------------------------------------
- * Language menu on the "Select a language" page
- *----------------------------------------------------*/
-
-div.list_select_language li {
     text-align: right;
 }
 
 /*----------------------------------------------------
- * Navigation bar
- *----------------------------------------------------*/
-
-#top_bar {
-    text-align: right;
-}
-
-/*----------------------------------------------------
- * Headers (blue part + navigation bar)
- *----------------------------------------------------*/
-
-#header_picture_homepage {
-    background: url(/images/header-rtl.jpg) top right no-repeat;
-}
-
-#header_picture {
-    background: #ffffff url(/images/header-rtl.jpg) top right no-repeat;
-}
-
-#header_picture_homepage h1 {
-    left: auto;
-    right: 15px;
-}
-
-/*----------------------------------------------------
- * Footer (we're almost done!)
+ * Footer
  *----------------------------------------------------*/
 
 .footer-note {
@@ -346,14 +294,16 @@ div.list_select_language li {
 }
 
 .footer-block {
-    float: left;
+    float: right;
+    margin-left: 2em;
+    margin-right: 0;
 }
 
 .footer-block h1 {
     text-align: right;
 }
 
-#footer ul {
+footer ul {
     text-align: right;
 }
 

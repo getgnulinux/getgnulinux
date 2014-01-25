@@ -94,10 +94,12 @@ class HTML {
         <div class="menu-globalnav-container">
             <ul>
 <?php
-$menu_items = array('#what-is-gnu-linux' => _("What is Linux?"),
-'#why-not-windows' => _("Why not Windows"),
-'#switch-to-gnu-linux' => _("Switch to Linux"),
-'more' => _("More"),
+$menu_items = array(
+    '' => _("Home"),
+    'linux' => _("What is Linux?"),
+    'windows' => _("Why not Windows"),
+    'switch_to_linux' => _("Switch to Linux"),
+    'more' => _("More"),
 );
 
 foreach ($menu_items as $id => $title) {
@@ -374,6 +376,8 @@ printf("<li%s><a href=\"%s\">%s</a></li>\n",
      *      string is returned.
      */
     function is_current_menu_item($page_id) {
+        $page_id = empty($page_id) ? 'home': $page_id;
+
         if ($this->page_name == $page_id) {
             return " class='current-menu-item'";
         }

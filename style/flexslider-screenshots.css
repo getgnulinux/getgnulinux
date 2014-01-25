@@ -95,10 +95,32 @@ html[xmlns] .slides {display: block;}
   .flex-direction-nav .flex-next { opacity: 1; right: 10px;}
 }
 
-/* Put the navigation controls on the slide */
-.flex-control-nav {
-    bottom: 0;
-    z-index: 2;
+/* Captions
+.flex-caption {
+   width: 96%;
+   padding: 2%;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   background: rgba(0,0,0,0.6);
+   color: #fff;
+   text-align: center;
+   text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+   font-size: 14px;
+   line-height: 18px;
+   margin:0;
+}*/
+
+/* Captions */
+.flex-caption {
+   width: 98%;
+   padding: 1%;
+   position: relative;
+   text-align: center;
+   text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+   font-size: 14px;
+   line-height: 18px;
+   margin:0;
 }
 
 /* Add space between slider and caption */
@@ -119,7 +141,6 @@ html[xmlns] .slides {display: block;}
 /* Override some default values */
 .flexslider {
     margin: 0;
-    overflow: hidden;
     position: relative;
     zoom: 1;
 }
