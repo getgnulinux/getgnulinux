@@ -53,6 +53,7 @@ h2 {
 h3 {
     font-size: 2em;
     font-weight: 400;
+    margin-bottom: 0.5em;
 }
 
 h4 {
@@ -74,8 +75,6 @@ section {
     padding: 1rem 0;
 }
 
-/* Override text selection colors */
-
 ::selection {
   background: #009ACD;
   color: #FFFFFF;
@@ -90,8 +89,6 @@ section {
   background: #009ACD;
   color: #FFFFFF;
 }
-
-/* Set link colors */
 
 a {
     color: #2A5886;
@@ -115,16 +112,6 @@ a img {
     border: none;
 }
 
-.wehere a {	/* In all navigations, local page or section */
-    color: #043f58;
-}
-
-header li .wehere a {
-    color: #043f58;
-    border: 1px #043f58 solid;
-    text-decoration: none;
-}
-
 acronym, abbr, .caps {
     letter-spacing: 0.05em;
 }
@@ -135,81 +122,6 @@ ul {
 
 li {
     margin: 0 0 1em 0;
-}
-
-.keypart { /* Blue-highlighted key ideas, used in Windows sub-sections */
-    display: block;
-    font-size: 1.05em;
-    padding: 0.4em;
-    margin: 0 0 0.8em 0;
-    line-height: 1.5em;
-    background-color: #edf7ff;
-}
-
-.note, .note_ital {
-    font-size: 0.85em;
-}
-
-.note_ital {
-    font-style: italic;
-}
-
-.centered {
-    text-align: center;
-}
-
-.footnote {
-    position: relative;
-    bottom: 0.5em;
-    color: red !important;
-    font-size: 0.8em;
-}
-
-.footnotes_bottom {
-    margin-top: 3em;
-    border-top: 1px #DFD9F9 solid;
-    padding: 1em 1em 0 1em;
-    font-size: 0.8em;
-}
-
-.paragraph {
-    margin-bottom: 4em;
-}
-
-.ul_clear_right ul {
-    clear: right;
-}
-
-.small_list ul {
-    margin-bottom: 1em;
-}
-
-.small_list li {
-    margin: 0.1em 0 0 1.2em;
-    padding: 0;
-}
-
-.imagequote {
-    min-width: 235px;
-}
-
-.toggleanswer {
-    cursor: pointer;
-}
-
-.header_2 { /*emulating h2 style (we can't use h2 inside links)*/
-    display: block;
-    font-size: 1.5em;
-    margin: 0 0 0.5em 0;
-    padding: 0;
-}
-
-.linux img,
-.screenshots img,
-.distro_screenshots img {
-    border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
 }
 
 /*----------------------------------------------------
@@ -225,8 +137,8 @@ li {
 .page-intro {
     font-size: 1.2rem;
     margin: 0 auto;
-    max-width: 600px;
-
+    max-width: 650px;
+    padding-bottom: 0.5em;
     text-align: center;
 }
 
@@ -248,26 +160,131 @@ li {
     padding: 0;
 }
 
-/*----------------------------------------------------
- * Front page: Slider
- *----------------------------------------------------*/
+.button-section h1 {
+    font-weight: 300;
+}
 
-.slider-bg {
-    background-color: #333333;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333333), to(#666666));
-    background-image: -moz-linear-gradient(#333333, #666666);
-    background-image: -o-linear-gradient(#333333, #666666);
-    background-image: linear-gradient(#333333, #666666);
-    color: #FFFFFF;
-    margin: 4em 0;
+.highlight {
+    background-color: #EEECE9;
+    display: block;
+    padding: 0.4em;
+}
+
+.note {
+    font-size: 0.85em;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.centered {
     text-align: center;
 }
 
-.slider-bg a,
-.slider-bg a:hover,
-.slider-bg a:visited {
-    color: #B0C4DE;
+.footnotes {
+    border-top: 1px solid #EDECE4;
+    font-size: 85%;
+    margin-top: 3em;
 }
+
+.paragraph {
+    margin-bottom: 4em;
+}
+
+.small_list ul {
+    margin-bottom: 1em;
+}
+
+.small_list li {
+    margin: 0.1em 0 0 1.2em;
+    padding: 0;
+}
+
+.toggleanswer {
+    cursor: pointer;
+}
+
+.linux img,
+.screenshots img,
+.distro_screenshots img {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+/*----------------------------------------------------
+ * Image Slider: General
+ *----------------------------------------------------*/
+
+.flexslider {
+    position: relative;
+    zoom: 1;
+}
+
+/* Navigation icons bug workaround */
+.flex-direction-nav a  {
+    line-height: 40px;
+}
+
+/* Get rid of the white space below the slider */
+.flexslider li {
+    margin-bottom: 0;
+}
+
+/*----------------------------------------------------
+ * Image Slider: Front Page
+ *----------------------------------------------------*/
+
+/* Make sure the navigation arrows don't overflow the page */
+.flexslider.home {
+    overflow: hidden;
+}
+
+/* Put the navigation bullets on the slide */
+.flexslider.home .flex-control-nav {
+    bottom: 5px;
+    z-index: 2;
+}
+
+/*----------------------------------------------------
+ * Image Slider: Screenshots
+ *----------------------------------------------------*/
+
+/* Override some default values */
+.flexslider.screenshots {
+    margin-bottom: 3em;
+}
+
+/* Put the navigation bullets on the slide */
+.flexslider.screenshots .flex-control-nav {
+    bottom: 5px;
+    z-index: 2;
+}
+
+/* Captions */
+.flexslider.screenshots .flex-caption {
+    background-color: #EEECE9;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+    padding: 1%;
+    position: absolute;
+    text-align: center;
+    width: 98%;
+}
+
+/* Add space between slider and caption */
+.flexslider.screenshots .slides img {
+    margin-bottom: 10px;
+}
+
+/*----------------------------------------------------
+ * Image Slider: Front Page Slides
+ *----------------------------------------------------*/
 
 .fp-slide {
     color: #FFFFFF;
@@ -277,6 +294,14 @@ li {
 }
 .fp-slide h1 {
     color: #FFFFFF;
+}
+
+.slide-text {
+    font-size: 1.3rem;
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 0 1em 1em 1em;
+    text-align: center;
 }
 
 .slide-ggl {
@@ -314,73 +339,15 @@ li {
     margin: 150px 0 0;
 }
 
-.slide-other {
+.slide-switch {
     background-color: #C54D1C;
     background-image: url("/images/Slide_Switch.png");
     background-position: center top;
     background-repeat: no-repeat;
 }
-.slide-other h1 {
+.slide-switch h1 {
     font-weight: 300;
     margin: 150px 0 0;
-}
-
-.slide-text {
-    font-size: 1.3rem;
-    margin: 0 auto;
-    max-width: 700px;
-    padding: 0 1em 1em 1em;
-    text-align: center;
-}
-
-
-/*----------------------------------------------------
- * Header
- *----------------------------------------------------*/
-
-#header_picture_homepage {
-    background-color: #002759;
-    margin-top: 0px;
-    height: 130px;
-    position: relative;
-}
-
-#header_picture {
-    background: #ffffff url(/images/header-ltr.jpg) top left no-repeat;
-    margin-top: 0px;
-    padding: 8px 0;
-    height: 50px;
-    border-radius: 6px;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-}
-
-#header_picture_homepage h1 {
-    font-size: 2.8em;
-    color: #ffffff;
-    margin-bottom: 10px;
-    position: absolute;
-    bottom: 0px;
-    left: 15px;
-    text-shadow: 0px 0px 5px #fff;
-}
-
-#header_picture h1 {
-    color: #ffffff;
-    text-decoration: none;
-    padding: 4px 15px;
-    outline: 0;
-    text-align: left;
-    text-shadow: 0px 0px 5px #fff;
-}
-
-#header_picture a {
-    color: #FFFFFF;
-    text-decoration: none;
-    display: block;
 }
 
 /*----------------------------------------------------
@@ -408,8 +375,9 @@ li {
 
 #navigation a {
     font-size: 1.0em;
-    text-decoration: none;
+    line-height: 2em;
     padding: 4px 8px;
+    text-decoration: none;
 
     transition: ease 200ms linear;
     -webkit-transition: ease 200ms linear;
@@ -441,10 +409,10 @@ li {
  * Main contents
  *----------------------------------------------------*/
 
-img.float-right {
+.float-right {
     clear: right;
     float: right;
-    margin-left: 1em;
+    margin: 0 0 2em 2em !important;
 }
 
 #intro_box {
@@ -510,77 +478,6 @@ img.float-right {
 }
 
 /*----------------------------------------------------
- * Styles for the main page.
- *----------------------------------------------------*/
-
-.main_pic {
-    margin: -20px 0 0 0;  /* Pixel margin because of IE bugs */
-    clear: none;
-}
-
-#text {
-    min-height: 185px; /* Higher than main_pic to avoid IE peekaboo bug */
-}
-
-#contentlist {
-    list-style-type: none;
-    list-style-image: none; /* IE bug */
-    margin: 2em 2em;
-    padding: 0;
-}
-
-#contentlist li {
-    display: inline;
-    padding: 0;
-}
-
-#contentlist li a {
-    display: block;
-    padding: 0.8em 0.5em;
-    margin: 0.5em 0;
-    background: #f5f9ff;
-    border: 1px #e0ecff solid;
-    border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    transition: background 200ms linear;
-    -webkit-transition: background 200ms linear;
-    -moz-transition: background 200ms linear;
-}
-
-#contentlist a:hover {
-    text-decoration: none;
-    background: #ebf3ff;
-    border: 1px #cde0ff solid;
-}
-
-#contentlist a img {
-    clear: none;
-    opacity: 0.8; /* Validates as CSS3 */
-}
-
-#contentlist a:hover img {
-    opacity: 1;
-}
-
-#contentlist .title {
-    display: block;
-    color: #000080;
-    margin: 0 0 0.5em 0;
-    padding: 0;
-    font-size: 1.2em;
-    font-weight: normal;
-}
-
-#contentlist a .subtitle {
-    color: black;
-}
-
-#contentlist a:hover span, #contentlist a:hover h2 {
-    color: #000080;
-}
-
-/*----------------------------------------------------
  * Styles for the "Switch to Linux" pages.
  *----------------------------------------------------*/
 
@@ -595,129 +492,24 @@ div .note {
     text-align: right;
 }
 
-/*----------------main content list----------------*/
-
-.switch_to_linux #contentlist img {
-    margin: 0;
-    padding: 0;
-}
-
-.switch_to_linux #contentlist a {
-    clear: both;
-    display: block;
-    padding: 1em;
-    margin: 1em 0;
-    height: 3.5em;
-    min-height: 55px;
-    background: none;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-}
-
-.switch_to_linux #contentlist a img {
-    opacity: 0.85;
-}
-
-.switch_to_linux #contentlist a:hover img {
-    opacity: 1;
-}
-
-.switch_to_linux #contentlist a:hover {
-    text-decoration: none;
-}
-
-.switch_to_linux #contentlist a:hover span {
-    color: #00c;
-    text-decoration: underline;
-    background: transparent; /* no dotting but no color either */
-}
-
-.switch_to_linux #contentlist a:hover .header_2 {
-    text-decoration: none;
-    color: #000080;
-}
-
-/*----------------color of boxes----------------*/
-
-.switch_to_linux #contentlist .odd {
-    background: #f5f9ff;
-    border: 1px #e0ecff solid;
-}
-
-.switch_to_linux #contentlist .odd:hover {
-    background: #ebf3ff;
-    border: 1px #cde0ff solid;
-}
-
-.switch_to_linux #contentlist .even {
-    background: #f3ffeb;
-    border: 1px #e0f0dc solid;
-}
-
-.switch_to_linux #contentlist .even:hover {
-    background: #e7ffd7;
-    border: 1px #bcdeb2 solid;
-}
-
 /*----------------------------------------------------
  * Styles for "Choose a distribution" page.
  *----------------------------------------------------*/
 
-.ubuntu, .gnewsense, .fedora, .trisquel {
-    clear: both;
-    padding: 1em;
-    margin: 1em;
-    background: white;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
+section.ubuntu {
+    border-top: medium solid #DD4814;
 }
 
-.ubuntu img, .gnewsense img, .fedora img, .trisquel img {
-    margin-bottom: 0.5em;
+section.fedora {
+    border-top: medium solid #08517A;
 }
 
-.ubuntu {
-    border: 1px #DD4814 solid;
+section.gnewsense {
+    border-top: medium solid #8F5902;
 }
 
-.fedora {
-    border: 1px #08517a solid;
-}
-
-.gnewsense {
-    border: 1px #8f5902 solid;
-}
-
-.trisquel {
-    border: 1px #004DB1 solid;
-}
-
-.ubuntu_title, .fedora_title, .gnewsense_title, .trisquel_title {
-    font-family: 'Open Sans',Cantarell,'Droid Sans',Arial,sans-serif;
-    padding-left: 20px;
-    font-style: normal;
-}
-
-.ubuntu_title {
-    color: #000000;
-    background: url(/images/switch_to_linux/switch_to_linux.choose_a_distribution.ubuntu_icon.png) center left no-repeat;
-}
-
-.fedora_title {
-    color: #0a57a4;
-    background: url(/images/switch_to_linux/switch_to_linux.choose_a_distribution.fedora_icon.png) center left no-repeat;
-}
-
-.gnewsense_title {
-    color: #563100;
-    background: url(/images/switch_to_linux/switch_to_linux.choose_a_distribution.gnewsense_icon.png) center left no-repeat;
-}
-
-.trisquel_title {
-    color: #000000;
-    background: url(/images/switch_to_linux/switch_to_linux.choose_a_distribution.trisquel_icon.png) center left no-repeat;
+section.trisquel {
+    border-top: medium solid #004DB1;
 }
 
 .distro_screenshots {
@@ -994,17 +786,6 @@ div .note {
     margin: 0 !important;
 }
 
-.more_note {
-    clear: both;
-    margin-top: 2em;
-    text-align: center;
-}
-
-.more_intro_box {
-    text-align: center;
-    margin-bottom: 2em
-}
-
 .credits h2 {
     font-size: 1.5em;
     font-weight: normal;
@@ -1016,43 +797,39 @@ div .note {
  * "Read more" section on the "More details on restrictions" page.
  *----------------------------------------------------*/
 
-.further_reading {
+.further-reading {
     font-size: 0.95em;
     margin-top: 4.5em;
     padding: 1em;
 }
 
-.further_reading a {
+.further-reading a {
     background: none;
 }
 
-.further_reading h2 {
-    font-weight: normal;
-    color: #630000;
-    margin-top: 0.2em;
-    margin-bottom: 1em;
-    font-size: 1.3em;
- }
+.further-reading h2 {
+    border: medium none;
+    margin: 0 0 0.5em;
+    padding: 0;
+}
 
-.further_reading h3 {
+.further-reading h3 {
     display: block;
-    margin: 0.5em 0;
- }
+    font-size: 1.4em;
+    margin: 0 0 0.5em;
+    text-align: left;
+}
 
-.further_reading p {
+.further-reading p {
     margin-top: 0.2em;
 }
 
-#left_column {
+.left-column {
     width: 47%;
     float: left;
     border-right: 1px #D7B41A solid;
     padding-right: 1em;
     margin-right: 1em;
-}
-
-#right_column {
-    margin-left: 49%;
 }
 
 /*----------------------------------------------------
@@ -1067,133 +844,90 @@ div .note {
 }
 
 /*----------------------------------------------------
- * Subheader foot ("contents of chapter" box at bottom)
- * (same html as #subheader, but different css)
+ * Chapters list
  *----------------------------------------------------*/
 
-#subheader_foot {
-    clear: both;
-    font-size: 0.75em;
-    margin: 2em auto 0 auto;
-    padding: 1em;
+.chapters {
+    margin: 2em auto 0;
     text-align: center;
 }
 
-#subheader_foot .title a, #subheader_foot .title a:hover {
-    color: black;
-    text-decoration: none;
-}
-
-#subheader_foot ul {
-    background: none repeat scroll 0 0 #D9E5EB;
-    list-style-type: none;
-    list-style-image: none; /* IE bug */
-    height: 1.85em;
-    padding: 0.2em;
-    margin: 0.2em;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    box-shadow: 0 1px 0 #9DBBCB;
-    -moz-box-shadow: 0 1px 0 #9DBBCB;
-    -webkit-box-shadow: 0 1px 0 #9DBBCB;
-}
-
-#subheader_foot ul li {
-    border-right: 1px solid #B3C7FF;
+.chapters .title a {
+    color: #3C4043;
     display: inline-block;
-    padding: 0 1em 0 0.5em;
-    margin: 0 0.1em;
+    line-height: 2em;
+    margin: 0.5em;
+}
+
+.chapters ul {
+    background-color: #EEECE9;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0.4em 0;
+}
+
+.chapters ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0 1em;
     white-space: nowrap;
 }
 
-#subheader_foot ul li a {
+.chapters ul li a,
+.chapters ul li a:visited {
+    color: #3C4043;
     display: inline-block;
-    color: #000080;
     line-height: 1.8em;
 }
 
-#subheader_foot ul li:last-child {
-    border-right: medium none;
-}
-
-#subheader_foot li a:hover {
-    color: #043f58;
-}
-
-#subheader_foot .wehere a,
-#subheader_foot .wehere a:hover {
-    color: #666;
+.chapters .active a,
+.chapters .active a:hover {
+    color: #666666 !important;
     text-decoration: none;
     font-weight: bold;
     text-shadow: 0 1px 0 #FFFFFF;
 }
 
+.chapters ul li:last-child {
+    border-right: medium none;
+}
+
+.chapters li a:hover {
+    color: #043f58;
+}
+
 /*----------------------------------------------------
- * Quotes (big introductory quote at start of page)
- * (only displays in Windows level 2 pages)
- * quote1, quote2 and quote3 are imbricated and style
- * the center quotes;
- * while floatquote1 and floatquote2 style the quotes
- * on right side of page
+ * Quotes
  *----------------------------------------------------*/
 
 .quote {
-    text-align: center;
-    margin: 1em 3em;
-    padding: 10px;
-}
-
-.quote1 {
-    clear: both;
-    width: 85%;
+    background-color: #FFFFED;
+    border-bottom: 2px dashed #EAEAD2;
+    border-top: 2px dashed #EAEAD2;
     margin: 1em auto;
-    background: #ffffed url(/images/leftquote.png) top left no-repeat;
-    color: #3a0000;
-    border-top: 3px #f4f4da solid;
-    border-bottom: 3px #f4f4da solid;
+    padding: 0.5em 2em;
+    width: 85%;
 }
 
-.quote2 {
-    background: url(/images/rightquote.png) bottom right no-repeat;
+.quote p {
+    font-style: italic;
 }
 
-.quote3 {
-    padding: 0.5em 35px;
-}
-
-.quote1 strong {
-    color: #3a0000;
-}
-
-.quote1 .source, .floatquote1 .source {
+.quote .source {
     display: block;
-    color: black;
     font-size: 0.9em;
     margin-top: 0.6em;
-    font-style: italic;
     text-align: right;
 }
 
-.quote1 .source a, .floatquote1 a {
-    color: #3a0000;
-    background: none;
-}
-
-.floatquote1 {
-    float: right;
+.quote.small {
+    margin: 0;
+    padding: 0.5em 1em;
     width: 35%;
-    margin-right: 0;
-    margin-left: 1em;
-    padding: 10px 5px;
-    background: #ffffed url(/images/leftquote_light.png) top left no-repeat;
-    color: #3a0000;
-    border-top: 3px #f4f4da solid;
-    border-bottom: 3px #f4f4da solid;
 }
 
-.floatquote2 {
-    background: url(/images/rightquote_light.png) bottom right no-repeat;
+.quote.image {
+    width: auto;
 }
 
 /*----------------------------------------------------
@@ -1264,7 +998,50 @@ div .note {
     padding-bottom: 1.5em;
 }
 
-/* ------------------------- General style --------------*/
+.morebox {
+    width: 60%;
+    margin: 1em auto;
+    font-size: 0.8em;
+    border: 1px #DFD9F9 solid;
+    padding: 0.5em;
+}
+.morebox ul {
+    list-style-type: none;
+    list-style-image: none; /* IE bug */
+    margin: 0; /* for IE */
+    padding: 0; /* for Moz */
+}
+.morebox li {
+    margin: 0.5em 0;
+    white-space: nowrap;
+}
+.morebox li a {
+    padding: 0.2em 0.5em;
+    background: none;
+}
+
+#collapsed_box {
+    font-size: 0.95em;
+    margin-top: 3em;
+    padding: 2em;
+}
+#collapsed_box h1 {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 0 0 0.5em;
+    text-align: left;
+}
+#collapsed_box h2 {
+    border: medium none;
+    font-size: 1.8em;
+    margin-top: 0;
+    padding: 0 0 0 20px;
+    background: url(/images/plus.png) center left no-repeat;
+}
+#collapsed_box h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
 
 .post-it {
     background-color: #F9EDA6;
@@ -1309,7 +1086,7 @@ div.button.wide {
 }
 .button.green a:hover,
 .button.green a:active {
-    background-color: #91BF71;
+    background-color: #96C017;
 }
 
 .button.orange a {
@@ -1317,7 +1094,7 @@ div.button.wide {
 }
 .button.orange a:hover,
 .button.orange a:active {
-    background-color: #DE7B59;
+    background-color: #DC7654;
 }
 
 .button.blue a {
@@ -1370,33 +1147,6 @@ a.upbutton {
     background: url(/images/up.png) center left no-repeat;
     padding-left: 20px;
     font-size: 0.9em;
-}
-
-/*----------------------------------------------------
- * Style for the "read our article: XY" links in some Windows pages
- *----------------------------------------------------*/
-
-.read_article {
-    font-size: 0.9em;
-    float: right;
-    clear: right;
-    margin: 0.8em 0 2em 0;
-}
-
-.read_article a {
-    color: #000;
-    font-style: italic;
-    background: #F5F5F5;
-    padding: 0.4em 0.8em;
-    line-height: 1.5em; /* special for IE*/
-    border-bottom: 1px solid #999;
-    text-shadow: 0 1px 0 #EFEFEF;
-}
-
-.read_article a:hover {
-    text-decoration: none;
-    background: #D9E5EB;
-    border-bottom: 1px solid #9DBBCB;
 }
 
 /*----------------------------------------------------
@@ -1470,52 +1220,6 @@ a.upbutton {
 
 #more_q {
     margin-top: 3em;
-}
-
-/*----------------------------------------------------
- * "Read and view more" box on "How to Misunderstand Free Software" page.
- *----------------------------------------------------*/
-
-#morebox {
-    width: 60%;
-    margin: 1em auto;
-    font-size: 0.8em;
-    border: 1px #DFD9F9 solid;
-    padding: 0.5em;
-}
-
-#morebox ul {
-    list-style-type: none;
-    list-style-image: none; /* IE bug */
-    margin: 0; /* for IE */
-    padding: 0; /* for Moz */
-}
-
-#morebox li {
-    margin: 0.5em 0;
-    white-space: nowrap;
-}
-
-#morebox li a {
-    padding: 0.2em 0.5em;
-    background: none;
-}
-
-/*----------------------------------------------------
- * "Read more" box on "How to Misunderstand Free Software" page.
- *----------------------------------------------------*/
-
-#collapsed_box {
-    font-size: 0.95em;
-    margin-top: 3em;
-    padding: 2em;
-}
-
-#collapsed_box h2 {
-    margin-top: 0;
-    text-indent: 0;
-    padding-left: 20px;
-    background: url(/images/plus.png) center left no-repeat;
 }
 
 /*----------------------------------------------------
@@ -1602,7 +1306,7 @@ a.upbutton {
     line-height: 1.0em;
 }
 
-#translations #is_current_language a {
+#translations .active a {
     font-weight: bold;
 }
 
@@ -1632,7 +1336,6 @@ footer hr {
 }
 
 #footer-container {
-    min-width: 550px;
     font-size: 0.9em;
     padding: 2em;
 }

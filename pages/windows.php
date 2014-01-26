@@ -10,7 +10,7 @@ $this->load_header();
 ?>
 
 <main role="main">
-  <section class="fp-windows">
+  <section>
     <div class="maxwidth">
 
       <h1><?php print _("Why not Windows"); ?></h1>
@@ -30,7 +30,7 @@ $this->load_header();
 
         <p><?php print _("By using these products, we have to agree to <strong>a number of harsh restrictions</strong>. For most Windows licenses, you can't keep the software when you change the hardware. You sometimes can't even give your software away. Who can run the software? On which computer? What can you do with it? The list of restrictions is long and some items are outrageous."); ?></p>
 
-        <p><a href="<?php $this->base_url('windows/restrictions'); ?>" title="Restrictions in a proprietary software license."><?php print _("Read more…"); ?></a></p>
+        <p><a href="<?php $this->base_url('windows/restrictions'); ?>" title="<?php print _("Restrictions in a proprietary software license."); ?>"><?php print _("Read more…"); ?></a></p>
       </article>
 
       <article>
@@ -40,7 +40,7 @@ $this->load_header();
 
         <p><?php print _("Why are Office documents difficult to export? Why are the formats continually changing? Why can you not even uninstall some programs? It might be that if you look for choice, Microsoft products aren't for you."); ?></p>
 
-        <p><a href="<?php $this->base_url('windows/what_about_choice'); ?>" title="How Microsoft lock customers in."><?php print _("Read more…"); ?></a></p>
+        <p><a href="<?php $this->base_url('windows/what_about_choice'); ?>" title="<?php print _("How Microsoft lock customers in."); ?>"><?php print _("Read more…"); ?></a></p>
       </article>
 
       <article>
@@ -52,7 +52,7 @@ $this->load_header();
 
         <p><?php print _("And guess what? On software that comes with source code, viruses and spyware aren't effective, and security isn't bought on extra. The antivirus software industry, in which Microsoft is now a significant player, prefers you to use Windows."); ?></p>
 
-        <p><a href="<?php $this->base_url('windows/what_about_source_code'); ?>" title="No source code means no trust and no security."><?php print _("Read more…"); ?></a></p>
+        <p><a href="<?php $this->base_url('windows/what_about_source_code'); ?>" title="<?php print _("No source code means no trust and no security."); ?>"><?php print _("Read more…"); ?></a></p>
       </article>
 
       <article>
@@ -68,7 +68,7 @@ $this->load_header();
 
         <p><?php print _("If you have to give up your freedoms to use software, maybe you should not be happy with it."); ?></p>
 
-        <p><a href="<?php $this->base_url('windows/stand_for_a_free_society'); ?>" title="How software affects freedom in society."><?php print _("Read more…"); ?></a></p>
+        <p><a href="<?php $this->base_url('windows/stand_for_a_free_society'); ?>" title="<?php print _("How software affects freedom in society."); ?>"><?php print _("Read more…"); ?></a></p>
       </article>
 
       <div class="conclusion post-it">
@@ -85,12 +85,12 @@ $this->load_header();
   <!-- SWITCH TO GNU/LINUX -->
 
   <section class="bg-even">
-    <div class="maxwidth">
+    <div class="maxwidth button-section">
 
       <h1><?php print _("Switch to GNU/Linux"); ?></h1>
 
       <div class="page-intro">
-        <p><p><?php print _("Where to download and how to step into Linux"); ?></p></p>
+        <p><?php print _("Where to download and how to step into Linux"); ?></p>
 
         <div class="button green">
           <a href="<?php $this->base_url('switch_to_linux'); ?>"><?php print _("Learn more…"); ?></a>

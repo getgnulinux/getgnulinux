@@ -15,9 +15,9 @@ $this->load_header();
 
         <h1>Select a language</h1>
 
-        <p>This website is translated into <?php $this->links_to_translations(3); ?>.</p>
+        <p>This website is translated into <?php $this->language_links(3); ?>.</p>
 
-        <p>Partial translations are available in <?php $this->links_to_translations(2); ?>.</p>
+        <p>Partial translations are available in <?php $this->language_links(2); ?>.</p>
 
         <p>You can <a href="<?php print $ggl->get('l10n_url'); ?>" title="Translation">help with the translations</a> so we can reach an audience in your language.</p>
 

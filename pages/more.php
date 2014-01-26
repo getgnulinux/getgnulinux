@@ -13,8 +13,9 @@ $this->load_header();
   <section>
     <div class="maxwidth">
 
-    <div id="intro_box" class="more_intro_box">
       <h1><?php print _("More"); ?></h1>
+
+    <div class="page-intro">
       <p><?php print _("Selected reading on the Internet."); ?></p>
     </div>
 
@@ -70,7 +71,7 @@ $this->load_header();
       </div>
     </div>
 
-    <p class="note_ital more_note"><?php print _("Note: these links are proposed as a recommendation. They are not commercial."); ?></p>
+    <p class="note italic"><?php print _("Note: these links are proposed as a recommendation. They are not commercial."); ?></p>
 
     <div id="about_us">
       <h2><?php print _("About us"); ?></h2>

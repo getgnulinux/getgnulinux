@@ -94,32 +94,3 @@ html[xmlns] .slides {display: block;}
   .flex-direction-nav .flex-prev { opacity: 1; left: 10px;}
   .flex-direction-nav .flex-next { opacity: 1; right: 10px;}
 }
-
-/* Put the navigation controls on the slide */
-.flex-control-nav {
-    bottom: 0;
-    z-index: 2;
-}
-
-/* Add space between slider and caption */
-.flexslider .slides img {
-    margin-bottom: 10px;
-}
-
-/* Get rid of the white space below the slider */
-.flexslider li {
-    margin-bottom: 0;
-}
-
-/* Navigation icons bug workaround */
-.flex-direction-nav a  {
-    line-height: 40px;
-}
-
-/* Override some default values */
-.flexslider {
-    margin: 0;
-    overflow: hidden;
-    position: relative;
-    zoom: 1;
-}

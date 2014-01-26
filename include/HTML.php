@@ -89,31 +89,58 @@ class HTML {
     function load_navigation()
     {
     ?>
-<div id="navigation">
-    <div class="left">
-        <div class="menu-globalnav-container">
-            <ul>
-<?php
-$menu_items = array(
-    '' => _("Home"),
-    'linux' => _("What is Linux?"),
-    'windows' => _("Why not Windows"),
-    'switch_to_linux' => _("Switch to Linux"),
-    'more' => _("More"),
-);
+        <div id="navigation">
+        <ul>
+        <?php
+        $menu_items = array(
+            '' => _("Home"),
+            'linux' => _("What is Linux?"),
+            'windows' => _("Why not Windows"),
+            'switch_to_linux' => _("Switch to Linux"),
+            'more' => _("More"),
+        );
 
-foreach ($menu_items as $id => $title) {
-printf("<li%s><a href=\"%s\">%s</a></li>\n",
-    $this->is_current_menu_item($id),
-    $this->base_url($id,1),
-    $title);
-}
-?>
-            </ul>
+        foreach ($menu_items as $id => $title)
+        {
+            printf("<li%s><a href=\"%s\">%s</a></li>\n",
+                $this->is_current_menu_item($id),
+                $this->base_url($id,1),
+                $title);
+        }
+        ?>
+        </ul>
         </div>
-    </div>
-</div>
     <?php
+    }
+
+    /**
+     * Return " class='current-menu-item'" if $page_id is equal to the current
+     * page. Return " class='current-menu-subitem'" if $page_id is a subpage
+     * of the current page.
+     *
+     * This is used for the sub menu's of pages. It can be used to mark the
+     * current page in the menu.
+     *
+     * @uses GetGnuLinux $ggl
+     * @uses string $this->page_name
+     * @param string $lang_id The ISO language code to check against.
+     * @return string " class='current-menu-item'" if $page_id is equal to the
+     *      current page. Return " class='current-menu-subitem'" if $page_id
+     *      is a subpage of the current page. If neither of those, an empty
+     *      string is returned.
+     */
+    function is_current_menu_item($page_id) {
+        $page_id = empty($page_id) ? 'home': $page_id;
+
+        if ($this->page_name == $page_id) {
+            return " class='current-menu-item'";
+        }
+        else if ( startswith($this->page_name, $page_id) ) {
+            return " class='current-menu-subitem'";
+        }
+        else {
+            return "";
+        }
     }
 
     /**
@@ -183,70 +210,55 @@ printf("<li%s><a href=\"%s\">%s</a></li>\n",
     function page_description()
     {
         global $ggl;
-        $p = !array_key_exists($this->page_name, $ggl->config['page_descriptions']) ? 'default' : $this->page_name;
+        $p = array_key_exists($this->page_name, $ggl->config['page_descriptions']) ? $this->page_name : 'default';
         print $ggl->config['page_descriptions'][$p];
     }
 
     /**
-     * Print the sub menu for the "Swith to Linux" pages.
+     * Print the chapter list for the "Swith to Linux" pages.
      */
-    function menu_switch_to_linux() {
-        print "<div id=\"subheader\" class=\"post-it\">";
-        printf ("<span class=\"title\"><a href=\"%s\">%s</a></span>", $this->base_url('switch_to_linux',1), _("Switch to Linux"));
-
-        $items = array("switch_to_linux/from_windows_to_linux" => _("From Windows to Linux"),
+    function switch_to_linux_chapters()
+    {
+        $items = array(
+            "switch_to_linux/from_windows_to_linux" => _("From Windows to Linux"),
             "switch_to_linux/choose_a_distribution" => _("Choose a distribution"),
             "switch_to_linux/try_or_install" => _("Try or install"),
             );
 
         print "<ul>";
-        foreach ($items as $key => $title) {
-            printf("<li %s><a href=\"%s\">%s</a></li>\n", $this->we_are_here($key), $this->base_url($key,1), $title);
+        foreach ($items as $path => $title)
+        {
+            printf("<li%s><a href=\"%s\">%s</a></li>\n",
+                $this->we_are_here($path) ? ' class="active"' : '',
+                $this->base_url($path,1),
+                $title
+            );
         }
         print "</ul>";
-        print "</div><!-- end of submenu -->";
     }
 
     /**
-     * Print the sub menu for the "Why not Windows" pages.
+     * Print the chapter list for the "Why not Windows" pages.
      */
-    function menu_why_not_windows() {
-        print "<div id=\"subheader\" class=\"post-it\">";
-        printf ("<span class=\"title\"><a href=\"%s\">%s</a></span>", $this->base_url('windows',1), _("Why not Windows"));
-
-        $items = array("windows/restrictions" => _("Restrictions"),
+    function why_not_windows_chapters()
+    {
+        $items = array(
+            "windows/restrictions" => _("Restrictions"),
             "windows/what_about_choice" => _("What about choice?"),
             "windows/what_about_source_code" => _("No source code"),
             "windows/stand_for_a_free_society" => _("Stand for a free society"),
-            );
+        );
 
         print "<ul>";
-        foreach ($items as $key => $title) {
-            printf("<li %s><a href=\"%s\">%s</a></li>\n", $this->we_are_here($key), $this->base_url($key,1), $title);
-        }
-        print "</ul>";
-        print "</div><!-- end of submenu -->";
-    }
-
-    /**
-     * Print the footer menu for the "Why not Windows" pages.
-     */
-    function menu_foot_why_not_windows() {
-        print "<div id=\"subheader_foot\">";
-        printf ("<span class=\"title\"><a href=\"%s\">%s</a></span>", $this->base_url('windows',1), _("Why not Windows"));
-
-        $items = array("windows/restrictions" => _("Restrictions"),
-            "windows/what_about_choice" => _("What about choice?"),
-            "windows/what_about_source_code" => _("No source code"),
-            "windows/stand_for_a_free_society" => _("Stand for a free society"),
+        foreach ($items as $path => $title)
+        {
+            printf("<li%s><a href=\"%s\">%s</a></li>\n",
+                $this->we_are_here($path) ? ' class="active"' : '',
+                $this->base_url($path,1),
+                $title
             );
-
-        print "<ul>";
-        foreach ($items as $key => $title) {
-            printf("<li %s><a href=\"%s\">%s</a></li>\n", $this->we_are_here($key), $this->base_url($key,1), $title);
         }
         print "</ul>";
-        print "</div><!-- end of submenu -->";
     }
 
 
@@ -306,26 +318,16 @@ printf("<li%s><a href=\"%s\">%s</a></li>\n",
     }
 
     /**
-     * Return " id='is_current_language'" if $lang_id is equal to the current
-     * language.
-     *
-     * This is used in the language menu to mark the currently selected
-     * language.
+     * Return TRUE if the language ID matches the current page language.
      *
      * @uses GetGnuLinux $ggl
-     * @param string $lang_id The ISO language code to check against.
-     * @return string " id='is_current_language'" if $lang_id is equal
-     *      to the current language. If not, it returns an empty string.
+     * @param string $lang The ISO language code to check against.
+     * @return bool Returns TRUE if the language ID matches the current page
+     *      language, FALSE otherwise.
      */
-    function is_current_language($lang_id) {
+    function is_current_language($lang) {
         global $ggl;
-
-        if ($lang_id == $ggl->get('lang')) {
-            return " id='is_current_language'";
-        }
-        else {
-            return "";
-        }
+        return ($lang == $ggl->get('lang'));
     }
 
     /**
@@ -341,7 +343,7 @@ printf("<li%s><a href=\"%s\">%s</a></li>\n",
      *      is returned instead.
      * @return string The path to the current page.
      */
-    function current_page($lang=null) {
+    function current_page_url($lang=null) {
         global $ggl;
 
         if ($lang) {
@@ -360,51 +362,18 @@ printf("<li%s><a href=\"%s\">%s</a></li>\n",
     }
 
     /**
-     * Return " class='current-menu-item'" if $page_id is equal to the current
-     * page. Return " class='current-menu-subitem'" if $page_id is a subpage
-     * of the current page.
+     * Return TRUE if the page path is of the current page.
      *
-     * This is used for the sub menu's of pages. It can be used to mark the
-     * current page in the menu.
-     *
-     * @uses GetGnuLinux $ggl
-     * @uses string $this->page_name
-     * @param string $lang_id The ISO language code to check against.
-     * @return string " class='current-menu-item'" if $page_id is equal to the
-     *      current page. Return " class='current-menu-subitem'" if $page_id
-     *      is a subpage of the current page. If neither of those, an empty
-     *      string is returned.
-     */
-    function is_current_menu_item($page_id) {
-        $page_id = empty($page_id) ? 'home': $page_id;
-
-        if ($this->page_name == $page_id) {
-            return " class='current-menu-item'";
-        }
-        else if ( startswith($this->page_name, $page_id) ) {
-            return " class='current-menu-subitem'";
-        }
-        else {
-            return "";
-        }
-    }
-
-    /**
-     * Return "class='wehere'" if $here is equal to the current page.
-     *
-     * This is used for the menu in pages. It can be used to mark the
+     * This is used for navigation links. It can be used to mark the
      * current page in the menu.
      *
      * @uses string $this->page_name
-     * @param string $here The path of the page to check against.
-     * @return string "class='wehere'" if $here is equal to the current page.
-     *      If not, an empty string is returned.
+     * @param string $path The path of the page to check against.
+     * @return Returns TRUE if the path matches the current page,
+     *         FALSE otherwise.
      */
-    function we_are_here($here) {
-        if ($this->page_name == str_replace('/', '.', $here)) {
-            return "class='wehere'";
-        }
-        return "";
+    function we_are_here($path) {
+        return ($this->page_name == str_replace('/','.',$path));
     }
 
     /**
@@ -498,7 +467,7 @@ printf("<li%s><a href=\"%s\">%s</a></li>\n",
     }
 
     /**
-     * Print links to the translations.
+     * Print links to other languages.
      *
      * The links are printed as an inline summation list.
      *
@@ -507,42 +476,35 @@ printf("<li%s><a href=\"%s\">%s</a></li>\n",
      *      languages are printed.
      * @uses GetGnuLinux $ggl
      */
-    function links_to_translations($mode=1)
+    function language_links($mode=1)
     {
         global $ggl;
-
-        // Compose a list of links for completed translations.
         $complete = array();
-        foreach ($ggl->get_locales() as $code => $items) {
+
+        foreach ($ggl->get_locales() as $lang => $items)
+        {
             list($locale, $native) = $items;
-            $bool = true;
-            if ($mode == 3) {
-                $bool = $ggl->lang_is_complete($code);
+            $pass = true;
+
+            if ($mode == 2) {
+                $pass = !$ggl->lang_is_complete($lang);
             }
-            else if ($mode == 2) {
-                $bool = !$ggl->lang_is_complete($code);
+            else if ($mode == 3) {
+                $pass = $ggl->lang_is_complete($lang);
             }
-            if ($bool) {
-                if ($mode == 1 or $mode == 2) {
-                    $link = "<a href=\"/%s\" hreflang=\"%s\"><span dir=\"%s\">%s</span></a>";
-                    $complete[] = sprintf($link,
-                        $this->current_page($code),
-                        $code,
-                        $ggl->get_lang_directionality($code),
-                        $native);
-                }
-                else {
-                    $link = "<a href=\"/%s\" hreflang=\"%s\"><span dir=\"%s\">%s</span></a>";
-                    $complete[] = sprintf($link,
-                        $this->current_page($code),
-                        $code,
-                        $ggl->get_lang_directionality($code),
-                        $native);
-                }
+
+            if ($pass) {
+                $link = "<a href=\"/%s\" hreflang=\"%s\"><span dir=\"%s\">%s</span></a>";
+                $complete[] = sprintf($link,
+                    $this->current_page_url($lang),
+                    $lang,
+                    $ggl->get_lang_directionality($lang),
+                    $native);
             }
         }
-        // Print the links for completed translations.
-        for ($i=0; $i < count($complete); $i++) {
+
+        for ($i=0; $i < count($complete); $i++)
+        {
             if ($i < count($complete) - 2) {
                 print $complete[$i] . ", ";
             }
@@ -555,4 +517,3 @@ printf("<li%s><a href=\"%s\">%s</a></li>\n",
         }
     }
 }
-

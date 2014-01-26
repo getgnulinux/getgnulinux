@@ -7,8 +7,8 @@ if ( !defined('GGL') ) {
 
 $this->load_header();
 
-$footnote1 = '<a class="footnote" id="footnote1" href="#footnote_bottom1">1</a>';
-$footnote2 = '<a class="footnote" id="footnote2" href="#footnote_bottom2">2</a>';
+$footnote1 = '<sup><a class="footnote" id="footnote-ref-1a" href="#footnote-1">1</a></sup>';
+$footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1</a></sup>';
 
 ?>
 
@@ -91,17 +91,18 @@ $footnote2 = '<a class="footnote" id="footnote2" href="#footnote_bottom2">2</a>'
 
     <p><?php print _("It's safe to say that <strong>any medium-size piece of software violates patents</strong>, in several countries, whether it's free or not."); ?></p>
     <p><?php print _("Depending on the holding company's ability to cover very large legal costs, or to retaliate with other patent threats, royalties and restrictions can be applied over these patents."); ?></p>
-    <div id="morebox" class="post-it">
-    <?php print _("Read and view more:"); ?>
-    <ul>
-        <li><?php
-    # i18n: Unless you know of a good localized resource, please leave the URL as such.
-    print _("<a href=\"http://ffii.org/Frequently_Asked_Questions_about_software_patents\" hreflang=\"en\">Frequently Asked Questions on software patents, by the <acronym title=\"Foundation for a Free Information Infrastructure\">FFII</acronym>"); ?></a></li>
-        <li><?php
-    # i18n: Unless you know of a good localized resource, please leave the URL as such.
-    print _("<a href=\"http://www.redhat.com/magazine/007may05/features/ip/\" hreflang=\"en\">Short and clear video on \"intellectual property\" by Red Hat"); ?></a></li>
-    </ul>
-    </div><!-- end of morebox -->
+
+    <div class="morebox post-it">
+      <?php print _("Read and view more:"); ?>
+      <ul>
+          <li><?php
+          # i18n: Unless you know of a good localized resource, please leave the URL as such.
+          print _("<a href=\"http://ffii.org/Frequently_Asked_Questions_about_software_patents\" hreflang=\"en\">Frequently Asked Questions on software patents, by the <acronym title=\"Foundation for a Free Information Infrastructure\">FFII</acronym>"); ?></a></li>
+          <li><?php
+          # i18n: Unless you know of a good localized resource, please leave the URL as such.
+          print _("<a href=\"http://www.redhat.com/magazine/007may05/features/ip/\" hreflang=\"en\">Short and clear video on \"intellectual property\" by Red Hat"); ?></a></li>
+      </ul>
+    </div>
 
 
     <h2 id="competitive_advantage"><?php print _("5. Free software is like communism."); ?></h2>
@@ -123,7 +124,8 @@ $footnote2 = '<a class="footnote" id="footnote2" href="#footnote_bottom2">2</a>'
 
 
     <div id="collapsed_box" class="post-it">
-      <p><?php print _("Read more:"); ?></p>
+      <h1><?php print _("Read more:"); ?></h1>
+
       <h2 class="toggleanswer" id="security"><?php print _("Free / \"open-source\" software can't be secure."); ?></h2>
 
       <div class="mfs_answer">
@@ -165,15 +167,17 @@ $footnote2 = '<a class="footnote" id="footnote2" href="#footnote_bottom2">2</a>'
           <p><?php print _("An engaged article by co-founder of <a href=\"http://www.wikipedia.org/\">Wikipedia</a> Jimmy Wales, which shows the connections between freedom in software and free knowledge."); ?></p></li>
         </ul>
       </div>
-    </div>
+    </div> <!-- collapsed_box -->
 
-    <div class="footnotes_bottom">
-      <a class="footnote" id="footnote_bottom1" href="#footnote1">1</a>,
-      <a class="footnote" id="footnote_bottom2" href="#footnote2">2</a>
-      <?php
-      #i18n: This is the content of the footnote, at the bottom of the page
-      $p = _("What we call \"Free Software\" here is also often called \"Open Source Software\". In practice the requirements are identical, although because the term \"open\" doesn't call to mind freedom, it <a href=\"http://www.gnu.org/philosophy/open-source-misses-the-point.html\">misses the point</a>. Read our FAQ entry: <a href=\"%s#open_source\">Are \"Open Source\" and \"Free Software\" the same thing?</a>.");
-      printf($p, $this->base_url('linux/linux_faq',1)); ?>
+    <div class="footnotes">
+      <ol>
+        <li id="footnote-1"><sup>^ <a href="#footnote-ref-1a">a</a> <a href="#footnote-ref-1b">b</a></sup>
+          <?php
+          #i18n: This is the content of the footnote, at the bottom of the page
+          $p = _("What we call \"Free Software\" here is also often called \"Open Source Software\". In practice the requirements are identical, although because the term \"open\" doesn't call to mind freedom, it <a href=\"http://www.gnu.org/philosophy/open-source-misses-the-point.html\">misses the point</a>. Read our FAQ entry: <a href=\"%s#open_source\">Are \"Open Source\" and \"Free Software\" the same thing?</a>.");
+          printf($p, $this->base_url('linux/linux_faq',1)); ?>
+        </li>
+      </ol>
     </div>
 
     <div class="button green">

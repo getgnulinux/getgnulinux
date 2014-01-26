@@ -13,14 +13,12 @@ $this->load_header();
   <!-- INTRODUCTION -->
 
   <section class="no-padding">
-    <div class="flexslider">
+    <div class="flexslider home">
       <ul class="slides">
-
         <li>
           <div class="fp-slide slide-ggl">
 
             <h1><?php print _("get GNU/Linux!"); ?></h1>
-
             <div class="slide-text">
               <p><?php # translatorsn: This is the very first sentence every visitor is going to read. Please pay great attention to making it sound great, we only have one try! =)
               print _("GNU/Linux, or simply <em>Linux</em>, is an alternative to Microsoft Windows. It is easy to use and gives more freedom to users. Anyone can install it: Linux is free as in freedom, and often available free of charge."); ?></p>
@@ -28,15 +26,12 @@ $this->load_header();
 
           </div>
         </li>
-
         <li>
           <div class="fp-slide slide-linux">
 
             <h1 id="why-not-windows"><?php print _("What is GNU/Linux?"); ?></h1>
-
             <div class="slide-text">
               <p><?php print _("Learn more about the free operating system"); ?></p>
-
               <div class="button orange">
                 <a href="<?php $this->base_url('linux'); ?>"><?php print _("Learn more…"); ?></a>
               </div>
@@ -44,15 +39,12 @@ $this->load_header();
 
           </div>
         </li>
-
         <li>
           <div class="fp-slide slide-windows">
 
             <h1 id="why-not-windows"><?php print _("Why not Windows"); ?></h1>
-
             <div class="slide-text">
               <p><?php print _("Why we should avoid using Microsoft Windows"); ?></p>
-
               <div class="button blue">
                 <a href="<?php $this->base_url('windows'); ?>"><?php print _("Learn more…"); ?></a>
               </div>
@@ -60,15 +52,12 @@ $this->load_header();
 
           </div>
         </li>
-
         <li>
-          <div class="fp-slide slide-other">
+          <div class="fp-slide slide-switch">
 
             <h1 id="switch-to-gnu-linux"><?php print _("Switch to GNU/Linux"); ?></h1>
-
             <div class="slide-text">
               <p><?php print _("Where to download and how to step into Linux"); ?></p>
-
               <div class="button green">
                 <a href="<?php $this->base_url('switch_to_linux'); ?>"><?php print _("Learn more…"); ?></a>
               </div>
@@ -76,7 +65,6 @@ $this->load_header();
 
           </div>
         </li>
-
       </ul>
     </div>
   </section>

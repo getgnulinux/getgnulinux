@@ -14,7 +14,7 @@
                 $ggl->get_lang_directionality($code),
                 $code,
                 $base_url,
-                $this->current_page($code));
+                $this->current_page_url($code));
         }
     } ?>
     <!-- end alternate languages -->
@@ -30,73 +30,33 @@
     // Load page specific stylesheets and javascripts.
     switch ($this->page_name) {
         case null:
-        case '':
             $this->javascript('/js/jquery.flexslider-min.js');
-            $this->stylesheet('/style/flexslider.css');
-        ?>
-            <script type="text/javascript" charset="utf-8">
-              $(window).load(function() {
-                $('.flexslider').flexslider({
-                    slideshow: false,
-                    animation: "slide",
-                });
-              });
-            </script>
-        <?php
-            break;
+            $this->stylesheet('/style/flexslider.css'); ?>
+    <script type="text/javascript" charset="utf-8">
+      $(window).load(function() {
+        $('.flexslider').flexslider({
+            slideshow: false,
+            animation: "slide",
+        });
+      });
+    </script>
+        <?php break;
 
         case 'linux':
+        case 'switch_to_linux.choose_a_distribution':
             $this->javascript('/js/jquery.flexslider-min.js');
-            $this->stylesheet('/style/flexslider-screenshots.css');
-        ?>
-            <script type="text/javascript" charset="utf-8">
-              $(window).load(function() {
-                $('.flexslider').flexslider({
-                    animation: "fade",
-                });
-              });
-            </script>
-        <?php
-            break;
+            $this->stylesheet('/style/flexslider.css'); ?>
+    <script type="text/javascript" charset="utf-8">
+      $(window).load(function() {
+        $('.flexslider').flexslider({
+            animation: "fade",
+        });
+      });
+    </script>
+        <?php break;
 
         case 'linux.misunderstanding_free_software':
             $this->javascript('/js/toggleanswers.js');
-            break;
-
-        case 'linux.screenshots':
-            $this->javascript('/js/fancybox/jquery.fancybox-1.3.4.pack.js');
-            $this->stylesheet('/js/fancybox/jquery.fancybox-1.3.4.css');
-        ?>
-    <script type="text/javascript">
-        $(document).ready(function() {
-
-			$("a[rel=screenshots_ubuntu]").fancybox({
-				'transitionIn'		: 'none',
-				'transitionOut'		: 'none',
-                'overlayColor'		: '#000',
-                'overlayOpacity'	: 0.8,
-				'titlePosition' 	: 'outside',
-			});
-
-			$("a[rel=screenshots_fedora]").fancybox({
-				'transitionIn'		: 'none',
-				'transitionOut'		: 'none',
-                'overlayColor'		: '#000',
-                'overlayOpacity'	: 0.8,
-				'titlePosition' 	: 'outside',
-			});
-
-			$("a[rel=screenshots_trisquel]").fancybox({
-				'transitionIn'		: 'none',
-				'transitionOut'		: 'none',
-                'overlayColor'		: '#000',
-                'overlayOpacity'	: 0.8,
-				'titlePosition' 	: 'outside',
-			});
-
-        });
-    </script>
-        <?php
             break;
     }
 

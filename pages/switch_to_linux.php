@@ -13,36 +13,54 @@ $this->load_header();
   <section>
     <div class="maxwidth">
 
-      <h1 id="switch-to-gnu-linux"><?php print _("Switch to Linux"); ?></h1>
-
-      <ul id="contentlist">
-        <li>
-          <a class="odd" href="<?php $this->base_url('switch_to_linux/from_windows_to_linux'); ?>">
-          <img width="100" height="56" alt="Windows, Linux" src="/images/switch_to_linux/switch_to_linux.from_windows_to_linux.png"/>
-          <span class="header_2"><?php print _("From Windows to Linux"); ?></span>
-          <span><?php
-          # translatorsn: please note the "affirmative" tone with the '.' at end of sentence.
-          print _("Meet GNU/Linux in everyday use."); ?></span>
-          </a>
-        </li>
-        <li>
-          <a class="even" href="<?php $this->base_url('switch_to_linux/choose_a_distribution'); ?>">
-          <img width="100" height="56" alt="Distributions" src="/images/switch_to_linux/switch_to_linux.choose_a_distribution.png"/>
-          <span class="header_2"><?php print _("Choose a distribution"); ?></span>
-          <span><?php print _("Our selection for an easy choice."); ?></span>
-          </a>
-        </li>
-        <li>
-          <a class="odd" href="<?php $this->base_url('switch_to_linux/try_or_install'); ?>">
-          <img width="100" height="56" alt="Install" src="/images/switch_to_linux/switch_to_linux.try_or_install.png"/>
-          <span class="header_2"><?php print _("Try or install"); ?></span>
-          <span><?php print _("Install it! (it's easier than you think)"); ?></span>
-          </a>
-        </li>
-      </ul><!-- contentlist -->
+      <h1><?php print _("Switch to Linux"); ?></h1>
 
     </div>
   </section>
+
+  <section class="bg-even">
+    <div class="maxwidth button-section">
+      <h1><?php print _("From Windows to Linux"); ?></h1>
+
+      <div class="page-intro">
+        <p><?php # translatorsn: please note the "affirmative" tone with the '.' at end of sentence.
+        print _("Meet GNU/Linux in everyday use."); ?></p>
+
+        <div class="button green">
+          <a href="<?php $this->base_url('switch_to_linux/from_windows_to_linux'); ?>"><?php print _("Read on…"); ?></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="maxwidth button-section">
+      <h1><?php print _("Choose a distribution"); ?></h1>
+
+      <div class="page-intro">
+        <p><?php print _("Our selection for an easy choice."); ?></p>
+
+        <div class="button green">
+          <a href="<?php $this->base_url('switch_to_linux/choose_a_distribution'); ?>"><?php print _("Read on…"); ?></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-even">
+    <div class="maxwidth button-section">
+      <h1><?php print _("Try or install"); ?></h1>
+
+      <div class="page-intro">
+        <p><?php print _("Install it! (it's easier than you think)"); ?></p>
+
+        <div class="button green">
+          <a href="<?php $this->base_url('switch_to_linux/try_or_install'); ?>"><?php print _("Read on…"); ?></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </main>
 
 <?php $this->load_footer(); ?>

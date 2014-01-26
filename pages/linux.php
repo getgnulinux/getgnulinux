@@ -24,83 +24,24 @@ $this->load_header();
 
       <p><?php print _("Linux is not one company's product, but a number of companies and groups of people contribute to it. In fact, the <em>GNU/Linux system</em> is a core component, which is branched off into many different products. They are called <strong>distributions</strong>."); ?></p>
 
-      <p><?php print _("Distributions change the appearance and function of Linux completely. They range from large, fully supported complete systems (endorsed by companies) to lightweight ones that fit on a USB memory stick or run on old computers (often developed by volunteers)."); ?><br/>
-      <?php # translatorsn: use an official localised Ubuntu homepage if possible
+      <p><?php print _("Distributions change the appearance and function of Linux completely. They range from large, fully supported complete systems (endorsed by companies) to lightweight ones that fit on a USB memory stick or run on old computers (often developed by volunteers)."); ?><p/>
+
+      <p><?php # translatorsn: use an official localised Ubuntu homepage if possible
       print _("A prominent, complete and friendly distribution to step into GNU/Linux is <a href=\"http://www.ubuntu.com\">Ubuntu</a>."); ?></p>
-    </div>
 
-    <?php
-    # i18n: This is the description of the "ubuntu1.png" screenshot.
-    $ubuntu1_text = _("Firefox web browser");
-    # i18n: This is the description of the "ubuntu2.png" screenshot.
-    $ubuntu2_text = _("File manager and image browsing application are open, on standard desktop.");
-    # i18n: This is the description of the "ubuntu3.png" screenshot.
-    $ubuntu3_text = _("Thunderbird e-mail and calendar application.");
-
-    # i18n: This is the description of the "fedora1.png" screenshot.
-    $fedora1_text = _("GIMP image editing application, cropping a photo.");
-    # i18n: This is the description of the "fedora2.png" screenshot.
-    $fedora2_text = _("LibreOffice Writer open, editing a standard document.");
-    # i18n: This is the description of the "fedora3.png" screenshot.
-    $fedora3_text = _("Accessing applications in the <a href=\"http://gnome3.org/\">GNOME 3</a> desktop environment.");
-
-    # i18n: This is the description of the "trisquel1.png" screenshot.
-    $trisquel1_text = _("Update manager open.");
-    # i18n: This is the description of the "trisquel2.png" screenshot.
-    $trisquel2_text = _("LibreOffice Calc open, showing an example spreadsheet.");
-    # i18n: This is the description of the "trisquel3.png" screenshot.
-    $trisquel3_text = _("Accessing applications.");
-    ?>
-
-    <!-- flexslider -->
-    <div class="slider-bg">
-      <div class="maxwidth">
-        <div class="flexslider">
+        <div class="flexslider screenshots">
           <ul class="slides">
             <li>
               <img src="/images/screenshots/ubuntu1.png" />
-              <p class="flex-caption">Ubuntu: <?php print $ubuntu1_text; ?></p>
             </li>
-            <li>
-              <img src="/images/screenshots/ubuntu2.png" />
-              <p class="flex-caption">Ubuntu: <?php print $ubuntu2_text; ?></p>
-            </li>
-            <li>
-              <img src="/images/screenshots/ubuntu3.png" />
-              <p class="flex-caption">Ubuntu: <?php print $ubuntu3_text; ?></p>
-            </li>
-
             <li>
               <img src="/images/screenshots/fedora1.png" />
-              <p class="flex-caption">Fedora: <?php print $fedora1_text; ?></p>
-            </li>
-            <li>
-              <img src="/images/screenshots/fedora2.png" />
-              <p class="flex-caption">Fedora: <?php print $fedora2_text; ?></p>
-            </li>
-            <li>
-              <img src="/images/screenshots/fedora3.png" />
-              <p class="flex-caption">Fedora: <?php print $fedora3_text; ?></p>
-            </li>
-
-            <li>
-              <img src="/images/screenshots/trisquel1.png" />
-              <p class="flex-caption">Trisquel: <?php print $trisquel1_text; ?></p>
             </li>
             <li>
               <img src="/images/screenshots/trisquel2.png" />
-              <p class="flex-caption">Trisquel: <?php print $trisquel2_text; ?></p>
-            </li>
-            <li>
-              <img src="/images/screenshots/trisquel3.png" />
-              <p class="flex-caption">Trisquel: <?php print $trisquel3_text; ?></p>
             </li>
           </ul>
         </div>
-      </div>
-    </div>
-
-    <div class="maxwidth">
 
       <h2><?php print _("Using Linux"); ?></h2>
 
@@ -140,7 +81,7 @@ $this->load_header();
   <!-- WHY NOT WINDOWS -->
 
   <section class="bg-even">
-    <div class="maxwidth">
+    <div class="maxwidth button-section">
       <h1><?php print _("Why not Windows"); ?></h1>
 
       <div class="page-intro">
@@ -156,7 +97,7 @@ $this->load_header();
   <!-- SWITCH TO GNU/LINUX -->
 
   <section>
-    <div class="maxwidth">
+    <div class="maxwidth button-section">
       <h1><?php print _("Switch to GNU/Linux"); ?></h1>
 
       <div class="page-intro">
