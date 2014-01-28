@@ -1,20 +1,24 @@
-<html>
-<head>
-<title>Setup - get GNU/Linux!</title>
+<!DOCTYPE html>
+<head lang="en">
+  <title>get GNU/Linux!</title>
+  <link rel="stylesheet" type="text/css" href="/style/main-ltr.css" media="all" />
 </head>
 <body>
+<main>
+  <section>
+    <div class="maxwidth">
+      <h1>get GNU/Linux!</h1>
 
-<h1>get GNU/Linux!</h1>
-
-settings.php not found. Follow these steps to create one:
-<ol>
-    <li>Open a terminal window;</li>
-    <li>Change to the root folder (<code>cd <?php print $root; ?></code>);</li>
-    <li>Run <code>make config</code> to create the settings file (or manually copy it from <code><?php print $root; ?>/include/templates/settings.php</code>);</li>
-    <li>Open settings.php in a text editor and change the settings where necessary.</li>
-</ol>
-
-Finally, make sure that Apache module <code>mod_rewrite</code> is enabled. Then reload this page.
-
+      <p>Almost there! Please follow these steps.</p>
+      <ol>
+        <li>Open a terminal and change to the root folder;</li>
+        <li>Run `<code>make config</code>' to create the settings.php file (or manually copy it from <code>include/templates/settings.php</code>);</li>
+        <li>Open settings.php in a text editor and change the settings where necessary;</li>
+        <li>Make sure that Apache module <code>mod_rewrite</code> is enabled.</li>
+      </ol>
+      <p>Finally, reload this page.</p>
+    </div>
+  </section>
+</main>
 </body>
 </html>
