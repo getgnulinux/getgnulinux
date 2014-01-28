@@ -15,7 +15,9 @@
         <li>Open a terminal and change to the root folder;</li>
         <li>Run `<code>make config</code>' to create the settings.php file (or manually copy it from <code>include/templates/settings.php</code>);</li>
         <li>Open settings.php in a text editor and change the settings where necessary;</li>
-        <li>Make sure that Apache module <code>mod_rewrite</code> is enabled.</li>
+        <li>Run `<code>make mo</code>' to generate the binary locale files (requires `gettext');</li>
+        <li>Make sure that Apache module <code>mod_rewrite</code> is enabled;</li>
+        <li>To make translations work, you need to generate locale definition files on the server. On commercial web hosting servers, there is no need to do this manually. If you are on a Debian based system, you may run `<code>make localesgen</code>' as root to generate them.</li>
       </ol>
       <p>Finally, reload this page.</p>
     </div>
