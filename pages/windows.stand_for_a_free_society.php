@@ -27,10 +27,10 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
     </div>
 
     <div class="quote">
-      <p>&ldquo;<?php
+      <p><?php
       # i18n : This is the quote by Don Marti at the start of the article.
       print _("I come up with new words, phrases, analogies, all kinds of fun stuff in the English language and people paraphrase what I had to say and make money talking about some of the same things that I did."); ?></p>
-      <p><?php print _("<strong>If I try to lock down</strong> what I talk about and write about, the same way as a proprietary software company does, then the whole industry of speaking, writing, media, would be overly litigious, and transaction costs would be prohibitive."); ?>&rdquo;</p>
+      <p><?php print _("<strong>If I try to lock down</strong> what I talk about and write about, the same way as a proprietary software company does, then the whole industry of speaking, writing, media, would be overly litigious, and transaction costs would be prohibitive."); ?></p>
       <span class="source">Don Marti, <a href="http://www.go-opensource.org/go_open/episode_2/big_guns/"><?php print _("2005 interview"); ?></a></span>
     </div>
 
@@ -39,9 +39,9 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
     <p><?php print _("It sounds peculiar to many users that software should be free as in freedom, since none of Microsoft's products are. Yet our society works with many free things in it, for example:"); ?></p>
 
     <div class="quote small float-right">
-      <p>&ldquo;<?php
+      <p><?php
       # i18n : This is the short quote on the side of the article.
-      print _("Though no one has a proprietary lock on yoga, it is still a thriving $30 billion business in the United States."); ?>&rdquo;</p>
+      print _("Though no one has a proprietary lock on yoga, it is still a thriving $30 billion business in the United States."); ?></p>
       <span class="source">Venkatesh Hariharan <a href="http://www.redhat.com/magazine/025nov06/features/intellectual_india/?sc_cid=bcm_edmsept_007">[1]</a></span>
     </div>
 

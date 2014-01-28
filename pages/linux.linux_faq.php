@@ -132,7 +132,7 @@ $this->load_header();
         # i18n: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
         print _("The concept of <a href=\"http://www.softwareliberty.com/\">free software</a>, refers to freedom, not price. You have the freedom to copy, study, modify, and give free software away."); ?></p>
         <p><?php print _("Most companies developing free software make money by selling <strong>services</strong> around their software, rather than the software itself. This is sometimes done by selling everything as a package: the customer buys the CD, book, and support contract at once. The software can still guarantee your freedoms."); ?></p>
-        <p><?php print _("More:"); ?> <a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a> | <a href="http://en.wikibooks.org/wiki/FLOSS_Concept_Booklet">FLOSS concept booklet</a>.</p>
+        <p><?php print _("More:"); ?> <a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a> | <a href="http://en.wikibooks.org/wiki/FLOSS_Concept_Booklet"><?php print _("FLOSS concept booklet"); ?></a>.</p>
     </div><!-- end answer -->
     </div><!-- end QA -->
 
