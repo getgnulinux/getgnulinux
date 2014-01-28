@@ -66,7 +66,7 @@ $this->load_header();
     # i18n: use the definition of "free software" on GNU.org in place of softwareliberty.com ; also, if you can, use a translation of the GPL as found on http://www.gnu.org/licenses/translations.html
     print _("<strong>You have an alternative to breaking this law,</strong> or feeling very restrained when you abide to it. GNU/Linux is <a href=\"http://www.softwareliberty.com/\">Free Software</a> (much better than just freeware): its <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a> license is designed to protect your rights."); ?></p>
 
-    <p><a href="<?php $this->base_url('windows/restrictions/further_details'); ?>" title="<?php print _("Restrictions - further details"); ?>"><?php print _("Read more…"); ?></a></p>
+    <p><a href="<?php $this->base_url('windows/restrictions/further_details'); ?>" title="<?php print _("Restrictions - further details"); ?>"><?php print _("Read more"); ?></a></p>
 
     </div>
   </section>

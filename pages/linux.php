@@ -88,7 +88,7 @@ $this->load_header();
         <p><?php print _("Why we should avoid using Microsoft Windows"); ?></p>
 
         <div class="button green">
-          <a href="<?php $this->base_url('windows'); ?>"><?php print _("Learn more…"); ?></a>
+          <a href="<?php $this->base_url('windows'); ?>"><?php print _("Read more"); ?></a>
         </div>
       </div>
     </div>
@@ -98,13 +98,13 @@ $this->load_header();
 
   <section>
     <div class="maxwidth button-section">
-      <h1><?php print _("Switch to GNU/Linux"); ?></h1>
+      <h1><?php print _("Switch to Linux"); ?></h1>
 
       <div class="page-intro">
         <p><?php print _("Where to download and how to step into Linux"); ?></p>
 
         <div class="button green">
-          <a href="<?php $this->base_url('switch_to_linux'); ?>"><?php print _("Learn more…"); ?></a>
+          <a href="<?php $this->base_url('switch_to_linux'); ?>"><?php print _("Read more"); ?></a>
         </div>
       </div>
     </div>

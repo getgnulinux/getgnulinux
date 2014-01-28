@@ -174,7 +174,7 @@ $this->load_header();
         <p><?php print _("Our selection for an easy choice."); ?></p>
 
         <div class="button green">
-          <a href="<?php $this->base_url('switch_to_linux/choose_a_distribution'); ?>"><?php print _("Read on…"); ?></a>
+          <a href="<?php $this->base_url('switch_to_linux/choose_a_distribution'); ?>"><?php print _("Read more"); ?></a>
         </div>
       </div>
     </div>

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/figure002/getgnulinux/issues\n"
-"POT-Creation-Date: 2013-05-25 11:56+0200\n"
+"POT-Creation-Date: 2014-01-28 23:02+0100\n"
 "PO-Revision-Date: 2013-07-13 19:00+0000\n"
 "Last-Translator: Josep Sànchez <papapep@gmx.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/getgnulinux/"
@@ -22,132 +22,132 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. i18n: The name of the website. It is displayed in the header of each page.
-#: include/GetGNULinux.php:180
+#: include/GetGNULinux.php:188 pages/home.php:21
 msgid "get GNU/Linux!"
 msgstr "Canvieu a GNU/Linux!"
 
 #. i18n: The title for the language selection page.
-#: include/GetGNULinux.php:185
+#: include/GetGNULinux.php:193
 msgid "Select a language"
 msgstr "Trieu un idioma"
 
 #. i18n: The way you refer to a website's main page in your language.
-#: include/GetGNULinux.php:187
+#: include/GetGNULinux.php:195
 msgid "Home"
 msgstr "Inici"
 
 #. i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
-#: include/GetGNULinux.php:189 include/HTML.php:101
-#: pages/linux.linux_faq.php:363 pages/more.php:16
-#: pages/switch_to_linux.from_windows_to_linux.php:69
+#: include/GetGNULinux.php:197 include/templates/footer.php:42
+#: include/templates/header.php:52 pages/linux.linux_faq.php:294
+#: pages/more.php:16 pages/switch_to_linux.from_windows_to_linux.php:72
 msgid "More"
 msgstr "Més"
 
 #. i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
-#: include/GetGNULinux.php:191 include/HTML.php:98 pages/home.php:14
-#: pages/home.php:30 pages/linux.linux_faq.php:372
-#: pages/linux.misunderstanding_free_software.php:197
-#: pages/linux.screenshots.php:37 pages/linux.screenshots.php:118
-#: pages/windows.php:94
+#: include/GetGNULinux.php:199 include/templates/header.php:49
+#: pages/linux.linux_faq.php:301
+#: pages/linux.misunderstanding_free_software.php:186
 msgid "What is Linux?"
 msgstr "Què és Linux?"
 
 #. i18n: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
-#: include/GetGNULinux.php:193 pages/linux.php:80
+#: include/GetGNULinux.php:201 pages/linux.php:74
 msgid "Linux FAQ - common questions about GNU/Linux"
 msgstr "PMF Linux - Preguntes més freqüents sobre GNU/Linux"
 
 #. i18n: Here the intent is to be a little provocative. Exact translation is not required.
-#: include/GetGNULinux.php:195 pages/linux.linux_faq.php:155
-#: pages/linux.linux_faq.php:209 pages/linux.linux_faq.php:223
-#: pages/linux.misunderstanding_free_software.php:20 pages/linux.php:78
-#: pages/windows.stand_for_a_free_society.php:160
+#: include/GetGNULinux.php:203 pages/linux.linux_faq.php:135
+#: pages/linux.linux_faq.php:179 pages/linux.linux_faq.php:190
+#: pages/linux.misunderstanding_free_software.php:19 pages/linux.php:73
+#: pages/windows.stand_for_a_free_society.php:159
 msgid "How to Misunderstand Free Software"
 msgstr "Com no entendre el Programari Lliure"
 
 #. i18n: This is the title of the 'Screenshots' page.
-#: include/GetGNULinux.php:197 pages/linux.screenshots.php:42
+#: include/GetGNULinux.php:205
 msgid "What GNU/Linux looks like"
 msgstr "Quin aspecte té el GNU/Linux"
 
 #. i18n: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
-#: include/GetGNULinux.php:199 include/HTML.php:99 include/HTML.php:215
-#: include/HTML.php:236 pages/home.php:37 pages/linux.php:70
-#: pages/windows.php:15
+#: include/GetGNULinux.php:207 include/templates/header.php:50
+#: pages/home.php:45 pages/linux.php:85 pages/windows.php:16
+#: pages/windows.restrictions.further_details.php:96
+#: pages/windows.restrictions.php:76
+#: pages/windows.stand_for_a_free_society.php:170
+#: pages/windows.what_about_choice.php:66
+#: pages/windows.what_about_source_code.php:92
 msgid "Why not Windows"
 msgstr "Per què no Windows?"
 
 #. i18n: This title can be translated loosely
-#: include/GetGNULinux.php:201 include/HTML.php:217 include/HTML.php:238
-#: pages/windows.php:24 pages/windows.php:26 pages/windows.php:33
-#: pages/windows.restrictions.further_details.php:14
-#: pages/windows.restrictions.further_details.php:93
-#: pages/windows.restrictions.php:16
+#: include/GetGNULinux.php:209 include/HTML.php:186 pages/windows.php:25
+#: pages/windows.restrictions.further_details.php:88
+#: pages/windows.restrictions.php:20
 msgid "Restrictions"
 msgstr "Restriccions"
 
 #. i18n: This title can be translated loosely
-#: include/GetGNULinux.php:203
-#: pages/windows.restrictions.further_details.php:19
+#: include/GetGNULinux.php:211
+#: pages/windows.restrictions.further_details.php:20
 msgid "More details on restrictions"
 msgstr "Més detalls sobre restriccions"
 
 #. i18n: This title can be translated loosely
-#: include/GetGNULinux.php:205 include/HTML.php:220 include/HTML.php:241
-#: pages/linux.linux_faq.php:277 pages/windows.php:66 pages/windows.php:67
-#: pages/windows.php:76
+#: include/GetGNULinux.php:213 include/HTML.php:189
+#: pages/linux.linux_faq.php:231 pages/windows.php:59
 msgid "Stand for a free society"
 msgstr "Treballeu per a una societat lliure"
 
 #. i18n: This title can be translated loosely
-#: include/GetGNULinux.php:207 include/HTML.php:218 include/HTML.php:239
-#: pages/windows.php:41 pages/windows.php:42 pages/windows.php:47
-#: pages/windows.what_about_choice.php:17
+#: include/GetGNULinux.php:215 include/HTML.php:187 pages/windows.php:37
+#: pages/windows.what_about_choice.php:21
 msgid "What about choice?"
 msgstr "Que me'n dius de l'elecció?"
 
 #. i18n: This title can be translated loosely
-#: include/GetGNULinux.php:209 include/HTML.php:219 include/HTML.php:240
-#: pages/windows.php:54 pages/windows.php:55 pages/windows.php:60
+#: include/GetGNULinux.php:217 include/HTML.php:188 pages/windows.php:47
 msgid "No source code"
 msgstr "Sense codi font"
 
 #. i18n: This appears in the top header menu and should be as short and concise as possible.
-#: include/GetGNULinux.php:211 include/HTML.php:100 include/HTML.php:195
-#: pages/home.php:44 pages/switch_to_linux.php:15 pages/windows.php:92
+#: include/GetGNULinux.php:219 include/templates/header.php:51
+#: pages/home.php:58 pages/linux.php:101 pages/switch_to_linux.php:16
+#: pages/windows.php:90
 msgid "Switch to Linux"
 msgstr "Canvieu a Linux"
 
-#: include/GetGNULinux.php:212 include/HTML.php:198
-#: pages/switch_to_linux.choose_a_distribution.php:17
-#: pages/switch_to_linux.php:31
+#: include/GetGNULinux.php:220 include/HTML.php:164
+#: pages/switch_to_linux.choose_a_distribution.php:42
+#: pages/switch_to_linux.from_windows_to_linux.php:171
+#: pages/switch_to_linux.php:38
 msgid "Choose a distribution"
 msgstr "Esculliu una distribució"
 
-#: include/GetGNULinux.php:213 include/HTML.php:197
-#: pages/switch_to_linux.from_windows_to_linux.php:17
-#: pages/switch_to_linux.php:22
+#: include/GetGNULinux.php:221 include/HTML.php:163
+#: pages/switch_to_linux.from_windows_to_linux.php:20
+#: pages/switch_to_linux.php:23
 msgid "From Windows to Linux"
 msgstr "De Windows a Linux"
 
 #. i18n: This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
-#: include/GetGNULinux.php:215 include/HTML.php:199
-#: pages/switch_to_linux.php:38 pages/switch_to_linux.try_or_install.php:17
+#: include/GetGNULinux.php:223 include/HTML.php:165
+#: pages/switch_to_linux.choose_a_distribution.php:149
+#: pages/switch_to_linux.php:52 pages/switch_to_linux.try_or_install.php:20
 msgid "Try or install"
 msgstr "Proveu o instal·leu"
 
 #. i18n: The title for the link buttons page. Can be translated loosely.
-#: include/GetGNULinux.php:217 pages/link_buttons.php:15
+#: include/GetGNULinux.php:225 pages/link_buttons.php:14
 msgid "Link buttons"
 msgstr "Botons d'enllaços"
 
 #. i18n: The title for the custom "Page Not Found" page.
-#: include/GetGNULinux.php:219
+#: include/GetGNULinux.php:227
 msgid "Page Not Found"
 msgstr ""
 
 #. i18n: This is the description of the homepage, and it appears in Google results! Please pay particular attention to this one =)
-#: include/GetGNULinux.php:225
+#: include/GetGNULinux.php:233
 msgid ""
 "Get GNU/Linux! A simple, clear website about Linux. | What is Linux? | Why "
 "not Windows? | Tips to make the switch"
@@ -156,170 +156,165 @@ msgstr ""
 "| Per què no Windows?| Consells per fer el canvi."
 
 #. i18n: This is the description of the 'More' page
-#: include/GetGNULinux.php:227
+#: include/GetGNULinux.php:235
 msgid "Read and discover more about Linux."
 msgstr "Llegiu i descobriu més sobre Linux."
 
 #. i18n: This is the description of the 'Linux' page
-#: include/GetGNULinux.php:229
+#: include/GetGNULinux.php:237
 msgid "What is Linux? A clear explanation."
 msgstr "Què és Linux? Una explicació clara."
 
 #. i18n: This is the description of the 'Linux FAQ' page
-#: include/GetGNULinux.php:231
+#: include/GetGNULinux.php:239
 msgid "Frequently Asked Questions about GNU/Linux."
 msgstr "Preguntes més freqüents sobre GNU/Linux."
 
 #. i18n: This is the description of the 'Misunderstanding Free Software' page
-#: include/GetGNULinux.php:233
+#: include/GetGNULinux.php:241
 msgid "An unconventional way to (re)discover free software."
 msgstr "Una forma no convencional de (re)descobrir el programari lliure."
 
 #. i18n: This is the description of the 'Screenshots' page
-#: include/GetGNULinux.php:235
+#: include/GetGNULinux.php:243
 msgid "A brief look at Linux in everyday use."
 msgstr "Una breu mirada a Linux en l'ús diari."
 
 #. i18n: This is the description of the 'Why not Windows' page
-#: include/GetGNULinux.php:237
+#: include/GetGNULinux.php:245
 msgid "Four good reasons to avoid proprietary software."
 msgstr "Quatre bones raons per evitar el programari privatiu."
 
 #. i18n: This is the description of the 'Restrictions' page
-#: include/GetGNULinux.php:239
+#: include/GetGNULinux.php:247 pages/windows.php:33
 msgid "Restrictions in a proprietary software license."
 msgstr "Restriccions de les llicències de programari privatiu."
 
 #. i18n: This is the description of the 'Restrictions further details' page
-#: include/GetGNULinux.php:241
+#: include/GetGNULinux.php:249
 msgid "Restrictions in a proprietary software license - more details."
 msgstr "Restriccions de les llicències de programari privatiu - més detalls."
 
 #. i18n: This is the description of the 'Stand for a free society' page
-#: include/GetGNULinux.php:243 pages/windows.php:67
+#: include/GetGNULinux.php:251 pages/windows.php:71
 msgid "How software affects freedom in society."
 msgstr "Com el programari afecta la llibertat en la societat."
 
 #. i18n: This is the description of the 'What about choice' page
-#: include/GetGNULinux.php:245
+#: include/GetGNULinux.php:253 pages/windows.php:43
 msgid "How Microsoft lock customers in."
 msgstr "Com Microsoft lliga els seus clients."
 
 #. i18n: This is the description of the 'What about source code' page
-#: include/GetGNULinux.php:247
+#: include/GetGNULinux.php:255 pages/windows.php:55
 msgid "No source code means no trust and no security."
 msgstr "Sense codi font no hi ha confiança ni seguretat."
 
 #. i18n: This is the description of the 'Switch to Linux' page
-#: include/GetGNULinux.php:249
+#: include/GetGNULinux.php:257
 msgid "Switch to Linux: Good tips and advice."
 msgstr "Canvieu a Linux: Bones propostes i consells."
 
 #. i18n: This is the description of the 'Choose a distribution' page
-#: include/GetGNULinux.php:251
+#: include/GetGNULinux.php:259
 msgid "Recommended Linux distributions for everyday users."
 msgstr "Distribucions de Linux recomanades per a l'ús diari."
 
 #. i18n: This is the description of the 'From Windows to Linux' page
-#: include/GetGNULinux.php:253
+#: include/GetGNULinux.php:261
 msgid "The advantages and disadvantages of Linux over Windows."
 msgstr "Els avantatges i desavantatges de Linux respecte de Windows."
 
 #. i18n: This is the description of the 'Try or Install' page. i18n note: this should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
-#: include/GetGNULinux.php:255
+#: include/GetGNULinux.php:263
 msgid "Try or install Linux on your computer, very easily."
 msgstr "Proveu a instal·lar Linux al vostre ordinador, de forma molt senzilla."
 
-#: include/templates/footer.php:8
+#: include/templates/footer.php:28
 msgid "About"
 msgstr ""
 
-#: include/templates/footer.php:10
+#: include/templates/footer.php:30
 msgid "Read about news and updates."
 msgstr ""
 
-#: include/templates/footer.php:10
+#: include/templates/footer.php:30
 msgid "Our blog"
 msgstr ""
 
-#: include/templates/footer.php:11 pages/more.php:87
+#: include/templates/footer.php:31 pages/more.php:87
 msgid "Terms of use"
 msgstr "Termes d'ús"
 
-#: include/templates/footer.php:12 pages/link_buttons.php:96 pages/more.php:89
+#: include/templates/footer.php:32 pages/link_buttons.php:95 pages/more.php:89
 msgid "Credits"
 msgstr "Crèdits"
 
-#: include/templates/footer.php:13
+#: include/templates/footer.php:33
 msgid "Contact the authors."
 msgstr ""
 
-#: include/templates/footer.php:13 pages/more.php:88
+#: include/templates/footer.php:33 pages/more.php:88
 msgid "Contact us"
 msgstr "Contacteu-nos"
 
-#: include/templates/footer.php:17
-msgid "Ways to help."
-msgstr ""
-
-#: include/templates/footer.php:17
+#: include/templates/footer.php:37
 msgid "Participate"
 msgstr ""
 
-#: include/templates/footer.php:19 pages/link_buttons.php:16
+#: include/templates/footer.php:39 pages/link_buttons.php:15
 msgid "Help us spread free software!"
 msgstr "Ajudeu-nos a fer conéixer el programari lliure!"
 
-#: include/templates/footer.php:19
+#: include/templates/footer.php:39
 msgid "Link to us"
 msgstr ""
 
-#: include/templates/footer.php:20
+#: include/templates/footer.php:40
 msgid "Found something awkward? Report it!"
 msgstr ""
 
-#: include/templates/footer.php:20
+#: include/templates/footer.php:40 include/templates/footer.php:63
 msgid "Report a bug"
 msgstr ""
 
-#: include/templates/footer.php:21
+#: include/templates/footer.php:41
 msgid "Help us reach an audience in your language!"
 msgstr ""
 
-#: include/templates/footer.php:21
+#: include/templates/footer.php:41
 msgid "Translation"
 msgstr ""
 
-#: include/templates/footer.php:22
-msgid "Starting point for developers."
+#: include/templates/footer.php:42
+msgid "Ways to help."
 msgstr ""
 
-#: include/templates/footer.php:22
-msgid "Project page"
-msgstr ""
-
-#: include/templates/footer.php:26
+#: include/templates/footer.php:46
 msgid "Other"
 msgstr ""
 
-#: include/templates/footer.php:28
+#: include/templates/footer.php:48
 msgid ""
 "This website won't look as intended on an outdated browser. Upgrade your "
 "browser today!"
 msgstr ""
 
-#. i18n: The link in the footer that links to browsehappy.com. You may choose to leave this untranslated.
-#: include/templates/footer.php:30
+#: include/templates/footer.php:50
 msgid "Browse Happy"
 msgstr ""
 
-#: include/templates/footer.php:35
+#: include/templates/footer.php:58
 #, php-format
 msgid ""
 "Except where otherwise <a href=\"%s\">noted</a>, content on this site is "
 "licensed under a <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" "
-"rel=\"license\"><acronym title=\"Creative Commons Attribution-ShareAlike"
-"\">CC BY-SA</acronym> 3.0 License</a>."
+"rel=\"license\"><abbr title=\"Creative Commons Attribution-ShareAlike\">CC "
+"BY-SA</abbr> 3.0 License</a>."
+msgstr ""
+
+#: include/templates/footer.php:62 pages/credits.php:25
+msgid "GitHub Project"
 msgstr ""
 
 #: include/templates/header.php:25
@@ -330,24 +325,11 @@ msgstr ""
 "linux, gnu/linux, programari lliure, llibertat de programari, codi obert, "
 "windows, alternativa, aconsegueix linux, canvia a linux"
 
-#: include/templates/header.php:100
-msgid "skip to content"
-msgstr "vés al contingut"
+#: pages/credits.php:17
+msgid "Thank you"
+msgstr ""
 
-#: include/templates/header.php:117
-msgid "home page"
-msgstr "pàgina d'inici"
-
-#: pages/credits.php:300 pages/legal.php:132 pages/not_found.php:32
-msgid "Return to the Homepage"
-msgstr "Torna a l'inici"
-
-#: pages/home.php:19
-msgid "Switch to Linux!"
-msgstr "Canvieu a Linux!"
-
-#. i18n: This is the very first sentence every visitor is going to read. Please pay great attention to making it sound great, we only have one try! =)
-#: pages/home.php:23
+#: pages/home.php:24
 msgid ""
 "GNU/Linux, or simply <em>Linux</em>, is an alternative to Microsoft Windows. "
 "It is easy to use and gives more freedom to users. Anyone can install it: "
@@ -357,30 +339,50 @@ msgstr ""
 "Windows. És fàcil de fer servir i dóna més llibertat als usuaris. Qualsevol "
 "se'l pot instal·lar: Linux és lliure, i sovint gratuït."
 
-#: pages/home.php:31
+#: pages/home.php:32 pages/linux.php:15
+msgid "What is GNU/Linux?"
+msgstr "Què és GNU/Linux?"
+
+#: pages/home.php:34
 msgid "Learn more about the free operating system"
 msgstr "Descobriu més coses sobre el sistema operatiu lliure."
 
-#: pages/home.php:38
+#: pages/home.php:36 pages/home.php:49 pages/home.php:62 pages/linux.php:91
+#: pages/linux.php:107 pages/switch_to_linux.choose_a_distribution.php:156
+#: pages/switch_to_linux.from_windows_to_linux.php:177
+#: pages/switch_to_linux.php:30 pages/switch_to_linux.php:44
+#: pages/switch_to_linux.php:58 pages/windows.php:33 pages/windows.php:43
+#: pages/windows.php:55 pages/windows.php:71 pages/windows.php:96
+#: pages/windows.restrictions.further_details.php:67
+#: pages/windows.restrictions.php:69
+#: pages/windows.stand_for_a_free_society.php:134
+msgid "Read more"
+msgstr "Llegiu-ne més"
+
+#: pages/home.php:47 pages/linux.php:88
 msgid "Why we should avoid using Microsoft Windows"
 msgstr "Per què hauríeu d'evitar utilitzar Microsoft Windows"
 
-#: pages/home.php:45
+#: pages/home.php:60 pages/linux.php:104 pages/windows.php:93
 msgid "Where to download and how to step into Linux"
 msgstr "On descarregar i com començar amb Linux"
 
-#: pages/link_buttons.php:17
+#: pages/legal.php:132 pages/not_found.php:33
+msgid "Return to the Homepage"
+msgstr "Torna a l'inici"
+
+#: pages/link_buttons.php:16
 msgid ""
 "Simply copy/paste the code next to your favorite button into your website."
 msgstr ""
 "Només us cal copier i enganxar el codi al costat del vostre botó preferit al "
 "vostre lloc web."
 
-#: pages/link_buttons.php:87
+#: pages/link_buttons.php:86
 msgid "Usage"
 msgstr "Ús"
 
-#: pages/link_buttons.php:88
+#: pages/link_buttons.php:87
 msgid ""
 "We kindly ask that these buttons be used only to point to <em>get GNU/Linux!"
 "</em> websites."
@@ -388,23 +390,23 @@ msgstr ""
 "Us preguem que només empreu aquests botons per enllaçar als llocs web de "
 "<em>get GNU/Linux!</em>"
 
-#: pages/link_buttons.php:92
+#: pages/link_buttons.php:91
 msgid "Licensing"
 msgstr "Llicència"
 
 #. i18n: The link will automatically point to the "credits" page. Please leave the "#link_buttons" part as such; it is an internal link.
-#: pages/link_buttons.php:95
+#: pages/link_buttons.php:94
 #, php-format
 msgid ""
 "Some of these buttons contain material subjected to specific licenses. See "
 "the \"<a href=\"%s#link_buttons\">%s</a>\" page for details."
 msgstr ""
 
-#: pages/link_buttons.php:100
+#: pages/link_buttons.php:99
 msgid "Make your own!"
 msgstr "Feu el vostre!"
 
-#: pages/link_buttons.php:101
+#: pages/link_buttons.php:100
 #, php-format
 msgid ""
 "Make your own buttons and maybe we can host them along ours! Our <a href=\"%s"
@@ -412,11 +414,11 @@ msgid ""
 "point."
 msgstr ""
 
-#: pages/linux.linux_faq.php:15
+#: pages/linux.linux_faq.php:16
 msgid "Linux Frequently Asked Questions"
 msgstr "Preguntes més freqüents sobre Linux"
 
-#: pages/linux.linux_faq.php:17
+#: pages/linux.linux_faq.php:19
 #, php-format
 msgid ""
 "<a href=\"%s\">Our page about Linux</a> covers the essential information. We "
@@ -425,118 +427,118 @@ msgstr ""
 "La nostra <a href=\"%s\">pàgina sobre Linux</a> conté la informació "
 "essencial. Aquestes PMF ajudaran als més curiosos."
 
-#: pages/linux.linux_faq.php:22
+#: pages/linux.linux_faq.php:25
 msgid "General questions:"
 msgstr "Preguntes generals:"
 
-#: pages/linux.linux_faq.php:24 pages/linux.linux_faq.php:61
+#: pages/linux.linux_faq.php:27 pages/linux.linux_faq.php:62
 msgid "Are &quot;GNU/Linux&quot; and &quot;Linux&quot; any different?"
 msgstr "És el mateix &quot;GNU/Linux&quot; que &quot;Linux&quot;?"
 
-#: pages/linux.linux_faq.php:25 pages/linux.linux_faq.php:81
+#: pages/linux.linux_faq.php:28 pages/linux.linux_faq.php:79
 msgid "And what has that software to do with a gnu?"
 msgstr ""
 "I que té a veure aquest programari amb un nyu? (GNU és el nom en anglès "
 "d'aquest animal)"
 
-#: pages/linux.linux_faq.php:26 pages/linux.linux_faq.php:93
+#: pages/linux.linux_faq.php:29 pages/linux.linux_faq.php:88
 msgid "Is Linux a registered trademark?"
 msgstr "Linux és una marca registrada?"
 
-#: pages/linux.linux_faq.php:27 pages/linux.linux_faq.php:103
+#: pages/linux.linux_faq.php:30 pages/linux.linux_faq.php:95
 msgid "Is GNU/Linux the only free operating system available?"
 msgstr "GNU/Linux és l'únic sistema operatiu lliure que existeix?"
 
-#: pages/linux.linux_faq.php:28 pages/linux.linux_faq.php:113
+#: pages/linux.linux_faq.php:31 pages/linux.linux_faq.php:103
 msgid "Is Mac OSX a distribution of Linux?"
 msgstr "Mac OSX és una distribució de Linux?"
 
-#: pages/linux.linux_faq.php:30
+#: pages/linux.linux_faq.php:33
 msgid "Understanding free software:"
 msgstr "Entenent el programari lliure:"
 
-#: pages/linux.linux_faq.php:32 pages/linux.linux_faq.php:132
+#: pages/linux.linux_faq.php:35 pages/linux.linux_faq.php:115
 msgid ""
 "Are &quot;Open Source&quot; and &quot;Free Software&quot; the same thing?"
 msgstr "\"Programari lliure\" i \"Codi obert\" és el mateix?"
 
-#: pages/linux.linux_faq.php:33 pages/linux.linux_faq.php:146
+#: pages/linux.linux_faq.php:36 pages/linux.linux_faq.php:126
 msgid "Why are some Linux distributions sold, not given away?"
 msgstr ""
 "Per què hi ha distribucions Linux que es venen, en comptes de regalar-les?"
 
-#: pages/linux.linux_faq.php:34 pages/linux.linux_faq.php:164
+#: pages/linux.linux_faq.php:37 pages/linux.linux_faq.php:140
 msgid "Why are some Linux distributions not fully free?"
 msgstr ""
 "Per què hi ha algunes distribucions Linux que no són totalment lliures?"
 
-#: pages/linux.linux_faq.php:35 pages/linux.linux_faq.php:185
+#: pages/linux.linux_faq.php:38 pages/linux.linux_faq.php:158
 msgid "Is Mac OS also a free operating system?"
 msgstr "I Mac OS també és un sistema operatiu lliure?"
 
-#: pages/linux.linux_faq.php:36 pages/linux.linux_faq.php:199
+#: pages/linux.linux_faq.php:39 pages/linux.linux_faq.php:169
 msgid "Aren't Linux users the ones who make illegal downloads?"
 msgstr "No són els usuaris de Linux els que fan descàrregues il·legals?"
 
-#: pages/linux.linux_faq.php:37 pages/linux.linux_faq.php:217
+#: pages/linux.linux_faq.php:40 pages/linux.linux_faq.php:184
 msgid "Is Linux a form of communism?"
 msgstr "Linux és una forma de Comunisme?"
 
-#: pages/linux.linux_faq.php:39
+#: pages/linux.linux_faq.php:42
 msgid "Installing Linux:"
 msgstr "Instal·lant Linux:"
 
-#: pages/linux.linux_faq.php:41 pages/linux.linux_faq.php:241
+#: pages/linux.linux_faq.php:44 pages/linux.linux_faq.php:201
 msgid "Does Linux come pre-installed on computers?"
 msgstr "Linux ve preinstal·lat en ordinadors?"
 
-#: pages/linux.linux_faq.php:42 pages/linux.linux_faq.php:256
+#: pages/linux.linux_faq.php:45 pages/linux.linux_faq.php:213
 msgid "Can I get GNU/Linux in my own language?"
 msgstr "Puc tenir GNU/Linux en el meu idioma?"
 
-#: pages/linux.linux_faq.php:43 pages/linux.linux_faq.php:267
+#: pages/linux.linux_faq.php:46 pages/linux.linux_faq.php:221
 msgid "Is it legal to install Linux on my computer?"
 msgstr "Es legal instal·lar Linux en el meu ordinador?"
 
-#: pages/linux.linux_faq.php:44 pages/linux.linux_faq.php:286
+#: pages/linux.linux_faq.php:47 pages/linux.linux_faq.php:237
 msgid "Do I have to purchase a new computer to run Linux?"
 msgstr "Haig de comprar un nou ordinador per tal d'utilitzar Linux?"
 
-#: pages/linux.linux_faq.php:46
+#: pages/linux.linux_faq.php:49
 msgid "Using Linux:"
 msgstr "Utilitzant Linux:"
 
-#: pages/linux.linux_faq.php:48 pages/linux.linux_faq.php:304
+#: pages/linux.linux_faq.php:51 pages/linux.linux_faq.php:248
 msgid "Will Microsoft Office run on Linux?"
 msgstr "Microsoft Office funcionarà amb Linux?"
 
-#: pages/linux.linux_faq.php:49 pages/linux.linux_faq.php:322
-#: pages/switch_to_linux.from_windows_to_linux.php:138
+#: pages/linux.linux_faq.php:52 pages/linux.linux_faq.php:263
+#: pages/switch_to_linux.from_windows_to_linux.php:123
 msgid "Can I play my DVDs and MP3s under GNU/Linux?"
 msgstr "Puc reproduir els meus DVD i MP3 amb GNU/Linux?"
 
-#: pages/linux.linux_faq.php:50 pages/linux.linux_faq.php:345
-#: pages/switch_to_linux.from_windows_to_linux.php:150
+#: pages/linux.linux_faq.php:53 pages/linux.linux_faq.php:283
+#: pages/switch_to_linux.from_windows_to_linux.php:132
 msgid "Can I play popular 3D games under GNU/Linux?"
 msgstr "Puc jugar als jocs famosos en 3D amb GNU/Linux?"
 
-#: pages/linux.linux_faq.php:52 pages/linux.linux_faq.php:359
+#: pages/linux.linux_faq.php:55 pages/linux.linux_faq.php:290
 msgid "More questions?"
 msgstr "Més preguntes?"
 
-#: pages/linux.linux_faq.php:57
+#: pages/linux.linux_faq.php:59
 msgid "General Questions"
 msgstr "Preguntes generals:"
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
-#: pages/linux.linux_faq.php:65
+#: pages/linux.linux_faq.php:66
 msgid ""
 "You keep referring to one and the other alternatively. What is this all "
 "about?"
 msgstr ""
 "Us referiu a l'un i a l'altre alternativament, hi ha alguna diferència?"
 
-#: pages/linux.linux_faq.php:67
+#: pages/linux.linux_faq.php:68
 msgid ""
 "Originally, <strong>Linux</strong> refers to a core component (called the "
 "kernel) that fits within the <strong>GNU</strong> system. What users run "
@@ -547,7 +549,7 @@ msgstr ""
 "operatiu <strong>GNU</strong>. Tècnicament, els usuaris d'avui en dia, el "
 "que utilitzen són \"<em>distribucions del sistema GNU/Linux</em>\". "
 
-#: pages/linux.linux_faq.php:68
+#: pages/linux.linux_faq.php:69
 msgid ""
 "In practice, the word \"Linux\" caught on much better (unsurprisingly), and "
 "today people refer to the whole system as simply \"Linux\". This causes a "
@@ -558,7 +560,7 @@ msgstr ""
 "us creuríeu les discussions que provoca aquest tema. "
 
 #. i18n: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
-#: pages/linux.linux_faq.php:71
+#: pages/linux.linux_faq.php:72
 msgid ""
 "Calling the system <em>GNU/Linux</em> is much more meaningful, technically "
 "(end-users use a lot of \"GNU\" and a little of \"Linux\") but also "
@@ -573,7 +575,7 @@ msgstr ""
 "\">Programari Lliure</a> començava, i encara continua avui, amb <a href="
 "\"http://www.gnu.org/\">el projecte GNU</a>."
 
-#: pages/linux.linux_faq.php:72
+#: pages/linux.linux_faq.php:73
 msgid ""
 "Calling the system <em>Linux</em> is more practical and appealing for "
 "computer users that often believe Windows is the only thing on earth."
@@ -581,38 +583,14 @@ msgstr ""
 "Anomenar el sistema <em>Linux</em> és més pràctic per els usuaris que creuen "
 "que Windows és l'única cosa que hi ha sobre la capa de la Terra. "
 
-#: pages/linux.linux_faq.php:73
+#: pages/linux.linux_faq.php:74
 msgid ""
 "<a href=\"http://blog.getgnulinux.org/about/faq/#taxonomy\">We use both "
 "denominations</a> and hope you will not be offended by that."
 msgstr ""
 
-#: pages/linux.linux_faq.php:75 pages/linux.linux_faq.php:87
-#: pages/linux.linux_faq.php:97 pages/linux.linux_faq.php:108
-#: pages/linux.linux_faq.php:119 pages/linux.linux_faq.php:140
-#: pages/linux.linux_faq.php:157 pages/linux.linux_faq.php:179
-#: pages/linux.linux_faq.php:193 pages/linux.linux_faq.php:211
-#: pages/linux.linux_faq.php:228 pages/linux.linux_faq.php:250
-#: pages/linux.linux_faq.php:261 pages/linux.linux_faq.php:280
-#: pages/linux.linux_faq.php:291 pages/linux.linux_faq.php:316
-#: pages/linux.linux_faq.php:339 pages/linux.linux_faq.php:350
-msgid "jump to top of page"
-msgstr "torna al capdamunt de la pàgina"
-
-#: pages/linux.linux_faq.php:75 pages/linux.linux_faq.php:87
-#: pages/linux.linux_faq.php:97 pages/linux.linux_faq.php:108
-#: pages/linux.linux_faq.php:119 pages/linux.linux_faq.php:140
-#: pages/linux.linux_faq.php:157 pages/linux.linux_faq.php:179
-#: pages/linux.linux_faq.php:193 pages/linux.linux_faq.php:211
-#: pages/linux.linux_faq.php:228 pages/linux.linux_faq.php:250
-#: pages/linux.linux_faq.php:261 pages/linux.linux_faq.php:280
-#: pages/linux.linux_faq.php:291 pages/linux.linux_faq.php:316
-#: pages/linux.linux_faq.php:339 pages/linux.linux_faq.php:350
-msgid "top"
-msgstr "amunt"
-
 #. i18n: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
-#: pages/linux.linux_faq.php:85
+#: pages/linux.linux_faq.php:83
 msgid ""
 "When Richard Stallman started to design GNU, the main system in use was "
 "Unix, which is proprietary. Because GNU is similar in function to (and "
@@ -632,7 +610,7 @@ msgstr ""
 "d'humor, comproveu el que significa <a href=\"http://www.gnu.org/software/"
 "hurd/hurd.html#name\">GNU Hurd</a>). "
 
-#: pages/linux.linux_faq.php:95
+#: pages/linux.linux_faq.php:90
 msgid ""
 "Yes. You cannot sell any random software under the name of Linux&reg;. The "
 "trademark is held by <a href=\"http://www.linuxmark.org/\">the Linux Mark "
@@ -642,7 +620,7 @@ msgstr ""
 "Linux. La marca registrada pertany a l'<a href=\"http://www.linuxmark.org/"
 "\">Institut Linux Mark</a>."
 
-#: pages/linux.linux_faq.php:105
+#: pages/linux.linux_faq.php:97
 msgid ""
 "No. GNU/Linux is by far the most widely used free system; however a number "
 "of other systems exist."
@@ -650,7 +628,7 @@ msgstr ""
 "No. GNU/Linux és de bon tros els sistema operatiu lliure més utilitzat. "
 "Tanmateix, existeixen altres sistemes operatius lliures."
 
-#: pages/linux.linux_faq.php:106
+#: pages/linux.linux_faq.php:98
 msgid ""
 "These include the UNIX derivatives <a href=\"http://freebsd.org/\">FreeBSD</"
 "a>, <a href=\"http://netbsd.org/\">NetBSD</a>, <a href=\"http://openbsd.org/"
@@ -671,7 +649,7 @@ msgstr ""
 "\">Syllable</a>, només per anomenar-ne uns quants."
 
 #. i18n: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
-#: pages/linux.linux_faq.php:117
+#: pages/linux.linux_faq.php:107
 #, php-format
 msgid ""
 "No. There are a few <a href=\"http://www.softwareliberty.com/\">free "
@@ -684,15 +662,15 @@ msgstr ""
 "GNU/Linux. Tot i això, és programari privatiu: tot el que <a href=\"%s\">hem "
 "dit sobre Windows</a> és aplicable a Mac OSX."
 
-#: pages/linux.linux_faq.php:127
+#: pages/linux.linux_faq.php:112
 msgid "Understanding free software"
 msgstr "Entenent el programari lliure"
 
-#: pages/linux.linux_faq.php:133
+#: pages/linux.linux_faq.php:116
 msgid "Yes and no."
 msgstr "Sí i no."
 
-#: pages/linux.linux_faq.php:135
+#: pages/linux.linux_faq.php:118
 msgid ""
 "Technically, the great majority of open source programs are free software "
 "and vice-versa."
@@ -700,7 +678,7 @@ msgstr ""
 "Tècnicament, la majoria de programes de codi obert són programari lliure i a "
 "la inversa."
 
-#: pages/linux.linux_faq.php:136
+#: pages/linux.linux_faq.php:119
 msgid ""
 "In terms of philosophy, things are quite different. The term &quot;open "
 "source&quot; was coined to make &quot;free software&quot; more attractive, "
@@ -711,7 +689,7 @@ msgstr ""
 "defensors pensen que el codi obert és una forma de millorar el "
 "desenvolupament del programari."
 
-#: pages/linux.linux_faq.php:137
+#: pages/linux.linux_faq.php:120
 msgid ""
 "Supporters of the \"free software\" term value the freedom, not merely the "
 "way software is made, and thus argue that the term \"open source\" <a href="
@@ -723,14 +701,14 @@ msgstr ""
 "obert\" <a href=\"http://www.gnu.org/philosophy/open-source-misses-the-point."
 "html\">perd el seu esperit</a>."
 
-#: pages/linux.linux_faq.php:138
+#: pages/linux.linux_faq.php:121
 msgid "Which term you employ simply depends on your vision of software."
 msgstr ""
 "La denominació que utilitzeu només dependrà de la visió que tingueu sobre el "
 "programari."
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
-#: pages/linux.linux_faq.php:149
+#: pages/linux.linux_faq.php:129
 msgid ""
 "Some websites actually <em>sell</em> distributions of Linux. So, why do you "
 "write it is \"free as speech and available at no charge\"?"
@@ -739,7 +717,7 @@ msgstr ""
 "escriviu que és \"lliure com l'expressió i disponible sense cost\"?"
 
 #. i18n: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
-#: pages/linux.linux_faq.php:153
+#: pages/linux.linux_faq.php:133
 msgid ""
 "The concept of <a href=\"http://www.softwareliberty.com/\">free software</"
 "a>, refers to freedom, not price. You have the freedom to copy, study, "
@@ -750,7 +728,7 @@ msgstr ""
 "Vosaltres teniu la llibertat de copiar, estudiar, modificar i regalar al "
 "programari lliure."
 
-#: pages/linux.linux_faq.php:154
+#: pages/linux.linux_faq.php:134
 msgid ""
 "Most companies developing free software make money by selling "
 "<strong>services</strong> around their software, rather than the software "
@@ -764,12 +742,12 @@ msgstr ""
 "compren el CD, el llibre i el suport contractat per un temps determinat. Tot "
 "això no us treu cap dret sobre el programari."
 
-#: pages/linux.linux_faq.php:155
+#: pages/linux.linux_faq.php:135
 msgid "More:"
 msgstr "Més:"
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
-#: pages/linux.linux_faq.php:167
+#: pages/linux.linux_faq.php:143
 msgid ""
 "Some Linux distributions are available at no charge, but include restrictive "
 "software. Why is it so?"
@@ -777,7 +755,7 @@ msgstr ""
 "Algunes distribucions Linux estan disponibles gratuïtament però inclouen "
 "programari privatiu. Per què passa això?"
 
-#: pages/linux.linux_faq.php:169
+#: pages/linux.linux_faq.php:145
 msgid ""
 "There are typically three types of policies regarding the inclusion of non-"
 "free software:"
@@ -785,7 +763,7 @@ msgstr ""
 "Hi ha tres menes de polítiques respecte de la inclusió o no de programari "
 "privatiu."
 
-#: pages/linux.linux_faq.php:171
+#: pages/linux.linux_faq.php:147
 msgid ""
 "Some GNU/Linux distributors allow non-free software in order to enable "
 "hardware functionality."
@@ -794,7 +772,7 @@ msgstr ""
 "maquinari que el necessita per funcionar correctament."
 
 #. i18n: If it exits, please use the URL of the official Ubuntu homepage localized in your language.
-#: pages/linux.linux_faq.php:174
+#: pages/linux.linux_faq.php:150
 msgid ""
 "This happens because some hardware manufacturers such as NVidia do not care "
 "about their customers' freedoms, and only release restricting firmware and "
@@ -811,7 +789,7 @@ msgstr ""
 "com <a href=\"http://www.ubuntu.cat\">Ubuntu</a> inclouen aquests components "
 "per tal de millorar la compatibilitat amb el maquinari."
 
-#: pages/linux.linux_faq.php:175
+#: pages/linux.linux_faq.php:151
 msgid ""
 "Some GNU/Linux distributors do not compromise on the freedom of software, "
 "and make sure their distribution are entirely free. Such is the case of <a "
@@ -819,7 +797,7 @@ msgid ""
 "with all restricting components removed."
 msgstr ""
 
-#: pages/linux.linux_faq.php:176
+#: pages/linux.linux_faq.php:152
 #, php-format
 msgid ""
 "Some GNU/Linux distributors assemble free and restrictive software without "
@@ -836,11 +814,11 @@ msgstr ""
 "és molt millor que <a href=\"%s\">utilitzar Windows</a>. Nosaltres valorem "
 "la nostra llibertat i recomanem que trieu amb compte."
 
-#: pages/linux.linux_faq.php:186
+#: pages/linux.linux_faq.php:159
 msgid "Do all the reasons for avoiding Windows apply to Mac&nbsp;OS?"
 msgstr "Totes les raons per no fer servir Windows són aplicables a Mac OS?"
 
-#: pages/linux.linux_faq.php:188
+#: pages/linux.linux_faq.php:161
 #, php-format
 msgid ""
 "It's quite common for Mac users to believe they are exempt from <a href=\"%s"
@@ -850,7 +828,7 @@ msgstr ""
 "Molts usuaris de Mac creuen que les <a href=\"%s\">restriccions associades a "
 "Windows</a> no els afecten. Desafortunadament, això no és així."
 
-#: pages/linux.linux_faq.php:189
+#: pages/linux.linux_faq.php:162
 msgid ""
 "Mac OSX does have some low-level components which are <a href=\"http://www."
 "softwareliberty.com/\">free software</a>; and Apple puts less energy into "
@@ -861,7 +839,7 @@ msgstr ""
 "tanta energia per lligar els seus clients (amb esforços notables com el "
 "BootCamp)."
 
-#: pages/linux.linux_faq.php:190
+#: pages/linux.linux_faq.php:163
 msgid ""
 "However, the end-user is still fundamentally restricted &mdash; because of "
 "the proprietary license, he/she cannot use Mac OSX for all purposes, nor "
@@ -871,7 +849,7 @@ msgstr ""
 "privativa, no pot utilitzar Mac OSX per a qualsevol utilitat, ni copiar-lo, "
 "ni estudiar-lo, ni modificar-lo, ni redistribuir-lo."
 
-#: pages/linux.linux_faq.php:191
+#: pages/linux.linux_faq.php:164
 msgid ""
 "Happily, because these freedoms matter a lot, it's possible to run popular "
 "GNU/Linux distributions (such as <a href=\"http://www.ubuntu.com/\">Ubuntu</"
@@ -882,18 +860,18 @@ msgstr ""
 "en un ordinador Mac."
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
-#: pages/linux.linux_faq.php:202
+#: pages/linux.linux_faq.php:172
 msgid ""
 "Isn't Linux about cracking, &quot;piracy&quot; and illegal download websites?"
 msgstr ""
 "Linux no és allò de craquejar, piratejar i les descàrregues il·legals "
 "d'internet?"
 
-#: pages/linux.linux_faq.php:204
+#: pages/linux.linux_faq.php:174
 msgid "No!"
 msgstr "No!"
 
-#: pages/linux.linux_faq.php:205
+#: pages/linux.linux_faq.php:175
 msgid ""
 "Wherever you read or heard this you should update your views. Linux is "
 "completely distinct from such things. Whether you want to do them, or "
@@ -909,7 +887,7 @@ msgstr ""
 "identificar els lladres pel model de cotxe que utilitzen; doncs el mateix "
 "passa amb el sistema operatiu."
 
-#: pages/linux.linux_faq.php:206
+#: pages/linux.linux_faq.php:176
 msgid ""
 "GNU/Linux was made by people who don't like the thought of all the world's "
 "computers running just one company's proprietary products. There is "
@@ -920,23 +898,23 @@ msgstr ""
 "ha cap mal!"
 
 #. i18n: The link here points to the "misunderstanding_free_software" article.
-#: pages/linux.linux_faq.php:209
+#: pages/linux.linux_faq.php:179
 #, php-format
 msgid "Read more in the article: <a href=\"%s\">%s</a>."
 msgstr "Més informació sobre aquest tema: <a href=\"%s\">%s</a>."
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
-#: pages/linux.linux_faq.php:220
+#: pages/linux.linux_faq.php:187
 msgid ""
 "\"Everything has to be free\" and \"No one owns anything\" sounds somewhat "
-"frightening. Are Linux and its <acronym title=\"GNU General Public License"
-"\">GPL</acronym> License something for anarchists or communists?"
+"frightening. Are Linux and its <abbr title=\"GNU General Public License"
+"\">GPL</abbr> License something for anarchists or communists?"
 msgstr ""
 "\"Tot ha de ser gratuït/lliure\" i \"Ningú és amo de res\" fa una mica de "
-"por. Linux i la seva llicència <acronym title=\"General Public License"
-"\">GPL</acronym> és algun tipus de programari comunista?"
+"por. Linux i la seva llicència <abbr title=\"General Public License\">GPL</"
+"abbr> és algun tipus de programari comunista?"
 
-#: pages/linux.linux_faq.php:225
+#: pages/linux.linux_faq.php:192
 #, php-format
 msgid ""
 "Linux has nothing to do with a political system and anyone &mdash; "
@@ -944,12 +922,12 @@ msgid ""
 "explained simply in our article %s."
 msgstr ""
 
-#: pages/linux.linux_faq.php:236
+#: pages/linux.linux_faq.php:198
 msgid "Installing Linux"
 msgstr "Instal·lant Linux"
 
 #. i18n: If LinuxPreloaded has not been localized to your language, please leave the URL to linuxpreloaded.com.
-#: pages/linux.linux_faq.php:245
+#: pages/linux.linux_faq.php:205
 msgid ""
 "Yes it does! We have built a website specially for that purpose, <a href="
 "\"http://linuxpreloaded.com/\" title=\"Linux laptops\">LinuxPreloaded.com</"
@@ -960,7 +938,7 @@ msgstr ""
 "recull uns quants venedors d'ordinadors de sobretaula i portàtils amb Linux."
 
 #. i18n: please leave the "#new_computer" element as such. It is an internal link.
-#: pages/linux.linux_faq.php:248
+#: pages/linux.linux_faq.php:208
 msgid ""
 "Note that <a href=\"#new_computer\">buying new hardware is not necessary</a> "
 "to use GNU/Linux!"
@@ -968,7 +946,7 @@ msgstr ""
 "Veieu com, <a href=\"#new_computer\">no cal comprar nou maquinari</a>, per "
 "utilitzar GNU/Linux!"
 
-#: pages/linux.linux_faq.php:258
+#: pages/linux.linux_faq.php:215
 #, php-format
 msgid ""
 "Yes. All main distributions, such as <a href=\"%s\">the ones we recommend</"
@@ -979,7 +957,7 @@ msgstr ""
 "recomanem aquí</a>, estan disponibles en moltes llengües, i tenen suport per "
 "a molts tipus de teclats."
 
-#: pages/linux.linux_faq.php:259
+#: pages/linux.linux_faq.php:216
 msgid ""
 "Unlike Windows, all languages are included on each installation CD, so there "
 "is no need for you to download (or pay for!) another whole version to merely "
@@ -990,7 +968,7 @@ msgstr ""
 "versió totalment diferent per canviar la llengua del vostre ordinador. "
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
-#: pages/linux.linux_faq.php:270
+#: pages/linux.linux_faq.php:224
 msgid ""
 "There is a shiny Windows sticker on it! Am I allowed to erase Windows or use "
 "it together with Linux?"
@@ -998,7 +976,7 @@ msgstr ""
 "Hi ha un brillant adhesiu de Windows sobre l'ordinador. És legal eliminar "
 "Windows o utilitzar-lo conjuntament amb Linux?"
 
-#: pages/linux.linux_faq.php:272
+#: pages/linux.linux_faq.php:226
 msgid ""
 "<strong>Yes.</strong> It is absolutely, completely legal (providing of "
 "course it's your computer!)."
@@ -1006,7 +984,7 @@ msgstr ""
 "<strong>Sí</strong>. és completament i absolutament legal (evidentment, "
 "suposant que l'ordinador sigui vostre!). "
 
-#: pages/linux.linux_faq.php:273
+#: pages/linux.linux_faq.php:227
 msgid ""
 "The sticker on it is purely marketing, it has no legal value. We believe it "
 "is <em>one fundamental right</em> to choose which software to run on our own "
@@ -1017,7 +995,7 @@ msgstr ""
 "nostre ordinador. "
 
 #. i18n: If you do not know of a very good resource about DRM, please link to the Wikipedia article on DRM in your language.
-#: pages/linux.linux_faq.php:276
+#: pages/linux.linux_faq.php:230
 #, php-format
 msgid ""
 "In fact this right is threatened by the rise of things such as <a href="
@@ -1029,11 +1007,11 @@ msgstr ""
 "a>. Llegiu el nostre article \"<a href=\"%s\">%s</a>\", si esteu interessat "
 "en aquest tema. "
 
-#: pages/linux.linux_faq.php:288
+#: pages/linux.linux_faq.php:239
 msgid "Not at all. It will run happily on your own computer."
 msgstr "No. Funcionarà perfectament en el vostre propi ordinador."
 
-#: pages/linux.linux_faq.php:289
+#: pages/linux.linux_faq.php:240
 #, php-format
 msgid ""
 "The only thing you might be worried about is using very recent special "
@@ -1051,15 +1029,15 @@ msgstr ""
 "provar i instal·lar Linux</a> al vostre ordinador, ja sigui en solitari o "
 "amb Windows."
 
-#: pages/linux.linux_faq.php:299 pages/linux.php:38
+#: pages/linux.linux_faq.php:245 pages/linux.php:46
 msgid "Using Linux"
 msgstr "Fent servir Linux"
 
-#: pages/linux.linux_faq.php:306
+#: pages/linux.linux_faq.php:250
 msgid "No."
 msgstr "No."
 
-#: pages/linux.linux_faq.php:307
+#: pages/linux.linux_faq.php:251
 msgid ""
 "It is technically possible to adapt Microsoft Office to Linux, but Microsoft "
 "isn't keen on allowing Office users to choose their operating system. There "
@@ -1073,17 +1051,7 @@ msgstr ""
 "exemple, la forta oposició de Microsoft a fer servir el format <a href="
 "\"http://ca.wikipedia.org/wiki/OpenDocument\">OpenDocument</a>."
 
-#. i18n: If it exists, please use the localized URL of openoffice.org. You can find localized URLs here: http://www.openoffice.org/projects/native-lang.html
-#: pages/linux.linux_faq.php:310
-msgid "http://www.openoffice.org/"
-msgstr ""
-
-#. i18n: If it exists, please use the localized URL of libreoffice.org. You can find localized URLs here: http://www.libreoffice.org/international-sites/
-#: pages/linux.linux_faq.php:313
-msgid "http://www.libreoffice.org/features/"
-msgstr ""
-
-#: pages/linux.linux_faq.php:314
+#: pages/linux.linux_faq.php:252
 msgid ""
 "However, a complete, Free, reliable office suite exists: <a href=\"http://"
 "www.openoffice.org/\">OpenOffice.org</a>. Or you can choose its Open Source "
@@ -1098,7 +1066,18 @@ msgstr ""
 "de MS-Word, MS-Excel, MS-PowerPoint, i el millor de tot; és programari "
 "lliure i gratuït. I a més a més, podeu fer-lo servir amb Windows i amb Linux."
 
-#: pages/linux.linux_faq.php:324
+#. i18n: If it exists, please use the localized URL of openoffice.org. You can find localized URLs here: http://www.openoffice.org/projects/native-lang.html
+#: pages/linux.linux_faq.php:255
+msgid "http://www.openoffice.org/"
+msgstr ""
+
+#. i18n: If it exists, please use the localized URL of libreoffice.org. You can find localized URLs here: http://www.libreoffice.org/international-sites/
+#: pages/linux.linux_faq.php:258
+#, fuzzy
+msgid "http://www.libreoffice.org/"
+msgstr "http://www.fsfeurope.org/index.ca.html"
+
+#: pages/linux.linux_faq.php:265
 msgid ""
 "The simple answer to this question would be &quot;yes&quot;, however this is "
 "only half the truth."
@@ -1106,7 +1085,7 @@ msgstr ""
 "La resposta ràpida a aquesta pregunta és \"sí\". Tanmateix, aquesta només "
 "seria una resposta parcial."
 
-#: pages/linux.linux_faq.php:325
+#: pages/linux.linux_faq.php:266
 msgid ""
 "Quite a few Linux distributions do not include MP3 playback software due to "
 "the patent situation of the MP3 format. These patent issues do not affect "
@@ -1121,23 +1100,23 @@ msgstr ""
 "després de fer la instal·lació, fent possible la <strong>reproducció legal "
 "d'arxius MP3</strong> per a un ús no comercial."
 
-#: pages/linux.linux_faq.php:326
+#: pages/linux.linux_faq.php:267
 msgid ""
 "DVDs, on the other hand, are a more difficult situation. Most, if not all, "
-"DVDs are encrypted using a system called \"<acronym title=\"Content "
-"Scrambling System\">CSS</acronym>\". There is a widely supported free "
-"software, called <code>libdvdcss</code>, capable of decrypting DVD videos. "
-"However, circumventing the restriction on your DVDs is illegal in many parts "
-"of the world, including the USA and the European Union."
+"DVDs are encrypted using a system called \"<abbr title=\"Content Scrambling "
+"System\">CSS</abbr>\". There is a widely supported free software, called "
+"<code>libdvdcss</code>, capable of decrypting DVD videos. However, "
+"circumventing the restriction on your DVDs is illegal in many parts of the "
+"world, including the USA and the European Union."
 msgstr ""
 "Els DVD, d'altra banda, estan en una situació un pèl delicada. La majoria de "
-"DVD estan xifrats amb un sistema anomenat <acronym title=\"Content "
-"Scrambling System\">CSS</acronym>. Hi ha un programa lliure que dóna suport "
-"a aquest format, anomenat <code>libdvdcss</code>, capaç de desxifrar DVD. "
-"Tanmateix, esquivar les restriccions dels vostres DVD és il·legal en molts "
-"llocs del món, inclosos els EUA i la Unió Europea."
+"DVD estan xifrats amb un sistema anomenat <abbr title=\"Content Scrambling "
+"System\">CSS</abbr>. Hi ha un programa lliure que dóna suport a aquest "
+"format, anomenat <code>libdvdcss</code>, capaç de desxifrar DVD. Tanmateix, "
+"esquivar les restriccions dels vostres DVD és il·legal en molts llocs del "
+"món, inclosos els EUA i la Unió Europea."
 
-#: pages/linux.linux_faq.php:327
+#: pages/linux.linux_faq.php:268
 msgid ""
 "There is a legal solution to play your DVDs on Linux where <code>libdvdcss</"
 "code> is illegal. The <a href=\"http://www.fluendo.com/\">Fluendo</a> "
@@ -1145,7 +1124,7 @@ msgid ""
 "be purchased from their website."
 msgstr ""
 
-#: pages/linux.linux_faq.php:328
+#: pages/linux.linux_faq.php:269
 msgid ""
 "Non-encrypted DVDs, which include most home-made DVDs, play perfectly well "
 "with only free software."
@@ -1153,36 +1132,36 @@ msgstr ""
 "Els DVD no xifrats, com la majoria de DVD que feu a casa, es poden reproduir "
 "perfectament utilitzant només programari lliure."
 
-#: pages/linux.linux_faq.php:330
+#: pages/linux.linux_faq.php:271
 msgid "More on the web:"
 msgstr "Més als webs:"
 
 #. i18n: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
-#: pages/linux.linux_faq.php:333
+#: pages/linux.linux_faq.php:274
 msgid "https://wiki.ubuntu.com/RestrictedFormats"
 msgstr "https://wiki.ubuntu.com/RestrictedFormats"
 
-#: pages/linux.linux_faq.php:333
+#: pages/linux.linux_faq.php:274
 msgid "Ubuntu Restricted Formats"
 msgstr "Formats restringits a l'Ubuntu"
 
 #. i18n: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
-#: pages/linux.linux_faq.php:336
+#: pages/linux.linux_faq.php:276
 msgid "http://www.fedoraproject.org/wiki/ForbiddenItems"
 msgstr "http://www.fedoraproject.org/wiki/ForbiddenItems"
 
-#: pages/linux.linux_faq.php:336
+#: pages/linux.linux_faq.php:276
 msgid "Fedora Forbidden Items"
 msgstr "Elements prohibits a Fedora"
 
-#: pages/linux.linux_faq.php:347
+#: pages/linux.linux_faq.php:285
 msgid ""
 "Yes and No: Some games, for example some <a href=\"http://www.idsoftware.com/"
 "\">id Software</a> games like the Quake series and Doom 3, Unreal "
 "Tournament, Cold War, and many more have Linux versions."
 msgstr ""
 
-#: pages/linux.linux_faq.php:348
+#: pages/linux.linux_faq.php:286
 msgid ""
 "Most popular games, alas, only work on Windows and occasionally on Mac OS. "
 "Some Windows games, such as Call of Duty 4 or GTA Vice City, can be run on "
@@ -1194,7 +1173,7 @@ msgid ""
 msgstr ""
 
 #. i18n: The first link will automatically point to the "more" page.
-#: pages/linux.linux_faq.php:362
+#: pages/linux.linux_faq.php:293
 #, php-format
 msgid ""
 "If you have a question that is not covered here, there are many communities "
@@ -1203,21 +1182,13 @@ msgid ""
 msgstr ""
 
 #. i18n: The first link will automatically point to the contact page, the second to the bug tracker.
-#: pages/linux.linux_faq.php:366
+#: pages/linux.linux_faq.php:297
 #, php-format
 msgid ""
 "If you can think of a frequent question that we haven't answered yet, do <a "
 "href=\"%s\">let us know</a>, or even better, <a href=\"%s\">file a new bug</"
 "a>."
 msgstr ""
-
-#: pages/linux.linux_faq.php:372
-#: pages/linux.misunderstanding_free_software.php:197
-#: pages/linux.screenshots.php:37 pages/linux.screenshots.php:118
-#: pages/windows.restrictions.further_details.php:14
-#: pages/windows.restrictions.further_details.php:93
-msgid "back up:"
-msgstr "torna a dalt:"
 
 #. i18n: use the definition of "free software" on GNU.org in place of softwareliberty.com
 #: pages/linux.misunderstanding_free_software.php:24
@@ -1228,19 +1199,14 @@ msgstr ""
 "Cinc malentesos sobre la <a href=\"http://www.gnu.org/philosophy/free-sw.ca."
 "html\">llibertat de programari</a>, corregits."
 
-#: pages/linux.misunderstanding_free_software.php:28
+#: pages/linux.misunderstanding_free_software.php:27
 msgid ""
 "1. The software industry can't keep going if programmers don't get paid."
 msgstr ""
 "1. La indústria del programari no pot funcionar si no es paga als "
 "programadors/es."
 
-#. i18n: image alt description
-#: pages/linux.misunderstanding_free_software.php:31
-msgid "no money"
-msgstr "sense diners"
-
-#: pages/linux.misunderstanding_free_software.php:32
+#: pages/linux.misunderstanding_free_software.php:29
 msgid ""
 "Let's begin with one simple fact: free software programmers <em>do</em> like "
 "to get paid, and all need to buy lunch at some time."
@@ -1249,7 +1215,7 @@ msgstr ""
 "els paguin, i en algun moment han de comprar menjar."
 
 #. i18n: Here, the %s placeholder simply puts a link to a footnote in this page
-#: pages/linux.misunderstanding_free_software.php:35
+#: pages/linux.misunderstanding_free_software.php:32
 #, php-format
 msgid ""
 "When we mention free software, we refer to <strong>liberty not price</"
@@ -1261,7 +1227,7 @@ msgstr ""
 "\"codi obert\" %s), i després podeu estudiar-lo, canviar-lo i copiar-lo a "
 "voluntat."
 
-#: pages/linux.misunderstanding_free_software.php:37
+#: pages/linux.misunderstanding_free_software.php:34
 msgid ""
 "How does it work? You can think about it the following way: software is just "
 "code, code is only math. Once you view software as <strong>useful math</"
@@ -1274,7 +1240,7 @@ msgstr ""
 "elaborat, no una propietat privada qualsevol, veureu que no hi ha raó per "
 "restringir-ho als altres per utilitzar-lo."
 
-#: pages/linux.misunderstanding_free_software.php:38
+#: pages/linux.misunderstanding_free_software.php:35
 msgid ""
 "Just like math (where nobody would claim property on an equation), software "
 "requires advanced knowledge to be adapted, improved, applied correctly. This "
@@ -1288,7 +1254,7 @@ msgstr ""
 "molts clients, normalment empreses, estan disposades a pagar diners per "
 "actualitzacions de seguretat o millores en el programari."
 
-#: pages/linux.misunderstanding_free_software.php:39
+#: pages/linux.misunderstanding_free_software.php:36
 msgid ""
 "Free software companies benefit from a very decentralised development system "
 "with a large number of voluntary contributors. The revenues inside the free "
@@ -1302,7 +1268,7 @@ msgstr ""
 "alts com els del programari privatiu, però de cap manera són menyspreables. "
 "Al final, hi ha molts usuaris que utilitzen el programari sense cap cost."
 
-#: pages/linux.misunderstanding_free_software.php:40
+#: pages/linux.misunderstanding_free_software.php:37
 msgid ""
 "Free software is not about killing incentives for programmers. It's about "
 "seeing code as knowledge which should not be hidden from the user. It works "
@@ -1313,22 +1279,17 @@ msgstr ""
 "ocultar a l'usuari. Funciona amb un model de negoci diferent, que moltes "
 "empreses estan aprofitant."
 
-#: pages/linux.misunderstanding_free_software.php:43
+#: pages/linux.misunderstanding_free_software.php:40
 msgid "2. Innovation is killed in free software."
 msgstr "2. El programari lliure acaba amb la innovació."
 
-#. i18n: image alt description
-#: pages/linux.misunderstanding_free_software.php:46
-msgid "no innovation"
-msgstr "sense innovació"
-
-#: pages/linux.misunderstanding_free_software.php:47
+#: pages/linux.misunderstanding_free_software.php:42
 msgid ""
 "The common perception is that if everyone can copy ideas, innovation will be "
 "stifled."
 msgstr "És habitual pensar que si tothom pot copiar les idees, ningú innovarà."
 
-#: pages/linux.misunderstanding_free_software.php:48
+#: pages/linux.misunderstanding_free_software.php:43
 msgid ""
 "In fact, freedom is often <strong>the key to innovative and successful "
 "software</strong>."
@@ -1336,28 +1297,28 @@ msgstr ""
 "Però en realitat, la llibertat sovint <strong>és la clau per a un programari "
 "innovador i d'èxit</strong>."
 
-#: pages/linux.misunderstanding_free_software.php:50
+#: pages/linux.misunderstanding_free_software.php:45
 msgid "Anyone is allowed and encouraged to work upon it;"
 msgstr "A tothom se'l permet i se l'anima a treballar-hi;"
 
-#: pages/linux.misunderstanding_free_software.php:51
+#: pages/linux.misunderstanding_free_software.php:46
 msgid "Many people are willing to participate;"
 msgstr "Moltes persones estan disposades a participar;"
 
-#: pages/linux.misunderstanding_free_software.php:52
+#: pages/linux.misunderstanding_free_software.php:47
 msgid ""
 "There is no need to re-invent everything, ideas can be improved upon "
 "directly."
 msgstr "No cal reinventar res, les idees es poden millorar directament."
 
-#: pages/linux.misunderstanding_free_software.php:55
+#: pages/linux.misunderstanding_free_software.php:50
 msgid ""
 "Non-proprietary software stands out in many areas: consider, to name just a "
 "few:"
 msgstr ""
 "El programari lliure destaca en moltes àrees; us n'esmentem unes quantes:"
 
-#: pages/linux.misunderstanding_free_software.php:57
+#: pages/linux.misunderstanding_free_software.php:52
 msgid ""
 "Applications: <a href=\"http://www.getfirefox.com/\">Firefox</a> (web "
 "browser), <a href=\"http://www.inkscape.org/\">Inkscape</a> (vector drawing)."
@@ -1366,20 +1327,20 @@ msgstr ""
 "\">Firefox</a> (navegador web), <a href=\"http://softcatala.cat/wiki/Inkscape"
 "\">Inkscape</a> (editor de gràfics vectorials)."
 
-#: pages/linux.misunderstanding_free_software.php:58
+#: pages/linux.misunderstanding_free_software.php:53
 msgid ""
 "Complete systems: <a href=\"http://en.wikipedia.org/wiki/Apache_HTTP_Server"
 "\">Apache</a> (web server), <a href=\"http://en.wikipedia.org/wiki/OpenBSD"
-"\">OpenBSD</a> (<acronym title=\"Operating System\">OS</acronym>), and of "
-"course, GNU/Linux."
+"\">OpenBSD</a> (<abbr title=\"Operating System\">OS</abbr>), and of course, "
+"GNU/Linux."
 msgstr ""
 "Sistemes complets: <a href=\"http://ca.wikipedia.org/wiki/"
 "Servidor_HTTP_Apache\">Apache</a> (servidor web), <a href=\"http://ca."
-"wikipedia.org/wiki/OpenBSD\">OpenBSD</a>(<acronym title=\"Sistema Operatiu"
-"\">OS</acronym>, i evidentment, GNU/Linux."
+"wikipedia.org/wiki/OpenBSD\">OpenBSD</a>(<abbr title=\"Sistema Operatiu"
+"\">OS</abbr>, i evidentment, GNU/Linux."
 
 #. i18n: use URL to localized Wikipedia article for ODF, instead of opendocumentfellowship
-#: pages/linux.misunderstanding_free_software.php:61
+#: pages/linux.misunderstanding_free_software.php:56
 msgid ""
 "Formats and protocols: <a href=\"http://en.wikipedia.org/wiki/HTML\">HTML</"
 "a> (web pages), <a href=\"http://en.wikipedia.org/wiki/BitTorrent_"
@@ -1391,7 +1352,7 @@ msgstr ""
 "\">BitTorrent</a> (compartició de fitxers), <a href=\"http://es.wikipedia."
 "org/wiki/ODF\">ODF</a> (documents d'oficina)."
 
-#: pages/linux.misunderstanding_free_software.php:62
+#: pages/linux.misunderstanding_free_software.php:57
 msgid ""
 "Server applications: <a href=\"http://drupal.org/\">Drupal</a> (Content "
 "Management System), <a href=\"http://www.wordpress.org/\">Wordpress</a> "
@@ -1401,21 +1362,16 @@ msgstr ""
 "gestió de contingut), <a href=\"http://ca.wordpress.org/\">Wordpress</a> "
 "(blog)."
 
-#: pages/linux.misunderstanding_free_software.php:67
+#: pages/linux.misunderstanding_free_software.php:62
 msgid "3. Software Should Just Work (who cares about source code?)"
 msgstr ""
 "3. El programari només ha de funcionar (a qui li importa el codi font?)"
 
-#. i18n: image alt description
-#: pages/linux.misunderstanding_free_software.php:70
-msgid "no code?"
-msgstr "sense codi?"
-
-#: pages/linux.misunderstanding_free_software.php:71
+#: pages/linux.misunderstanding_free_software.php:64
 msgid "Anyone should care about whether their software is free."
 msgstr "Tothom s'hauria de preocupar de si el seu programari és lliure."
 
-#: pages/linux.misunderstanding_free_software.php:72
+#: pages/linux.misunderstanding_free_software.php:65
 msgid ""
 "Imagine purchasing a car whose hood you are forbidden to open. It does not "
 "matter whether you know how a car works &ndash; the point is that nobody "
@@ -1429,7 +1385,7 @@ msgstr ""
 "permeten que ningú comprovi que és fiable, que no perd, que no contamina i "
 "que no és perjudicial per a la societat ni el medi ambient?"
 
-#: pages/linux.misunderstanding_free_software.php:73
+#: pages/linux.misunderstanding_free_software.php:66
 msgid ""
 "The idea is the same with software &ndash; except that code does "
 "<strong>much more</strong> than move cars. Software runs our computers, "
@@ -1440,7 +1396,7 @@ msgstr ""
 "ordinadors, telèfons, televisors, reproductors multimèdia, etc... "
 "Transporten informació i la nostra cultura."
 
-#: pages/linux.misunderstanding_free_software.php:74
+#: pages/linux.misunderstanding_free_software.php:67
 msgid ""
 "Free software is as important as free speech, as a free market. If software "
 "is free, users have control and liberty over it."
@@ -1449,7 +1405,7 @@ msgstr ""
 "programari és lliure, els usuaris en tenen el control i la llibertat."
 
 #. i18n: The %s placeholder will automatically point to the 'try and install' page
-#: pages/linux.misunderstanding_free_software.php:77
+#: pages/linux.misunderstanding_free_software.php:70
 #, php-format
 msgid ""
 "The good news are: <em>free software also Just Works.</em> And in fact, it "
@@ -1463,19 +1419,14 @@ msgstr ""
 "complet i ben organitzat, sense instal·lar-lo, i jutgeu per vosaltres "
 "mateixos."
 
-#: pages/linux.misunderstanding_free_software.php:80
+#: pages/linux.misunderstanding_free_software.php:73
 msgid ""
 "4. Free software doesn't respect authors' copyrighted and patented software."
 msgstr ""
 "4. El programari lliure no respecta els drets d'autor ni les patents de "
 "programari."
 
-#. i18n: image alt description
-#: pages/linux.misunderstanding_free_software.php:83
-msgid "piracy"
-msgstr "pirateig"
-
-#: pages/linux.misunderstanding_free_software.php:84
+#: pages/linux.misunderstanding_free_software.php:75
 msgid ""
 "To answer this correctly, we must first make a clear distinction between "
 "copyright and patents. Copyright is a right granted to the author over his/"
@@ -1490,7 +1441,7 @@ msgstr ""
 "procés, l'aplicació d'una idea."
 
 #. i18n: If you can, please use a non-official translation of the GPL, as found at http://www.gnu.org/licenses/translations.html
-#: pages/linux.misunderstanding_free_software.php:88
+#: pages/linux.misunderstanding_free_software.php:79
 msgid ""
 "<strong>Copyright is very important in free software.</strong> It is the "
 "very mechanism, central to the <a href=\"http://www.gnu.org/copyleft/gpl.html"
@@ -1504,7 +1455,7 @@ msgstr ""
 "programari segueix sent lliure, i els autors acrediten les seves feines. Els "
 "programes tenen drets d'autor, ja siguin lliures o privatius."
 
-#: pages/linux.misunderstanding_free_software.php:89
+#: pages/linux.misunderstanding_free_software.php:80
 msgid ""
 "Any proprietary software author can easily check that his copyright is not "
 "violated in a free software application, since its source code is readily "
@@ -1514,7 +1465,7 @@ msgstr ""
 "drets d'autor no han estat violats, ja que amb el programari lliure és pot "
 "accedir al codi font sense problemes."
 
-#: pages/linux.misunderstanding_free_software.php:91
+#: pages/linux.misunderstanding_free_software.php:82
 msgid ""
 "Patents in software, on the other hand, are a very controversial concept. To "
 "put it shortly: there is <strong>no such thing as a \"patented software\"</"
@@ -1529,28 +1480,28 @@ msgstr ""
 "aquesta patent s'aplica a tot el programari que utilitza aquest procés, ja "
 "sigui lliure o privatiu."
 
-#: pages/linux.misunderstanding_free_software.php:92
+#: pages/linux.misunderstanding_free_software.php:83
 msgid "Software patents:"
 msgstr "Patents de programari:"
 
-#: pages/linux.misunderstanding_free_software.php:94
+#: pages/linux.misunderstanding_free_software.php:85
 msgid "Are expensive and are granted only several years after application;"
 msgstr "Són cares i s'aconsegueixen uns anys després de la sol·licitud;"
 
-#: pages/linux.misunderstanding_free_software.php:95
+#: pages/linux.misunderstanding_free_software.php:86
 msgid ""
 "Are limited geographically (a patent granted in the US is worthless in "
 "Europe);"
 msgstr ""
 "Tenen una limitació geogràfica (una patent dels EUA no és vàlida a Europa);"
 
-#: pages/linux.misunderstanding_free_software.php:96
+#: pages/linux.misunderstanding_free_software.php:87
 msgid "Have long life-times (often 20 years) in a quickly-moving industry;"
 msgstr ""
 "Tenen una vigència llarga (20 anys), en una indústria que avança molt "
 "ràpidament;"
 
-#: pages/linux.misunderstanding_free_software.php:97
+#: pages/linux.misunderstanding_free_software.php:88
 msgid ""
 "Often apply <a href=\"http://eupat.ffii.org/patents/samples/\">entirely "
 "trivial processes</a>."
@@ -1558,7 +1509,7 @@ msgstr ""
 "Acostumen a ser <a href=\"http://eupat.ffii.org/patents/samples/index.ca.html"
 "\">processos trivials</a>."
 
-#: pages/linux.misunderstanding_free_software.php:99
+#: pages/linux.misunderstanding_free_software.php:90
 msgid ""
 "As such, they are seldom used to benefit innovators (and in fact, rarely "
 "used by the innovators themselves)."
@@ -1566,7 +1517,7 @@ msgstr ""
 "Total, que normalment no s'utilitzen en benefici dels innovadors (de fet, "
 "els mateixos innovadors no acostumen a utilitzar-les)."
 
-#: pages/linux.misunderstanding_free_software.php:101
+#: pages/linux.misunderstanding_free_software.php:92
 msgid ""
 "It's safe to say that <strong>any medium-size piece of software violates "
 "patents</strong>, in several countries, whether it's free or not."
@@ -1574,7 +1525,7 @@ msgstr ""
 "Podem dir del cert que <strong>qualsevol programa mig viola patents de "
 "programari</strong>, en uns quants països, tant si és lliure com si no."
 
-#: pages/linux.misunderstanding_free_software.php:102
+#: pages/linux.misunderstanding_free_software.php:93
 msgid ""
 "Depending on the holding company's ability to cover very large legal costs, "
 "or to retaliate with other patent threats, royalties and restrictions can be "
@@ -1584,25 +1535,25 @@ msgstr ""
 "grans despeses legals, es poden aplicar restriccions o royalties sobre "
 "aquestes patents."
 
-#: pages/linux.misunderstanding_free_software.php:104
+#: pages/linux.misunderstanding_free_software.php:96
 msgid "Read and view more:"
 msgstr "Més informació:"
 
 #. i18n: Unless you know of a good localized resource, please leave the URL as such.
-#: pages/linux.misunderstanding_free_software.php:108
+#: pages/linux.misunderstanding_free_software.php:100
+#, fuzzy
 msgid ""
 "<a href=\"http://ffii.org/Frequently_Asked_Questions_about_software_patents"
 "\" hreflang=\"en\">Frequently Asked Questions on software patents, by the "
-"<acronym title=\"Foundation for a Free Information Infrastructure\">FFII</"
-"acronym>"
+"<abbr title=\"Foundation for a Free Information Infrastructure\">FFII</abbr>"
 msgstr ""
 "<a href=\"http://ffii.org/Frequently_Asked_Questions_about_software_patents"
 "\" hreflang=\"en\">Preguntes més freqüents sobre les patents de programari, "
-"per la <acronym title=\"Fundació per a l'infraestructura de lliure informació"
-"\">FFII</acronym>"
+"per la <abbr title=\"Fundació per a l'infraestructura de lliure informació"
+"\">FFII</abbr>"
 
 #. i18n: Unless you know of a good localized resource, please leave the URL as such.
-#: pages/linux.misunderstanding_free_software.php:111
+#: pages/linux.misunderstanding_free_software.php:103
 msgid ""
 "<a href=\"http://www.redhat.com/magazine/007may05/features/ip/\" hreflang="
 "\"en\">Short and clear video on \"intellectual property\" by Red Hat"
@@ -1610,17 +1561,12 @@ msgstr ""
 "<a href=\"http://www.redhat.com/magazine/007may05/features/ip/\" hreflang="
 "\"en\">Un breu i clar vídeo sobre la \"propietat intel·leectual\", de Red Hat"
 
-#: pages/linux.misunderstanding_free_software.php:116
+#: pages/linux.misunderstanding_free_software.php:108
 msgid "5. Free software is like communism."
 msgstr "5. El programari lliure és com el comunisme."
 
-#. i18n: image alt description
-#: pages/linux.misunderstanding_free_software.php:119
-msgid "communism"
-msgstr "Comunisme"
-
 #. i18n: Here, the %s placeholder simply puts a link to a footnote in this page
-#: pages/linux.misunderstanding_free_software.php:122
+#: pages/linux.misunderstanding_free_software.php:112
 #, php-format
 msgid ""
 "Supporters of this idea argue that there can be no private ownership with "
@@ -1630,7 +1576,7 @@ msgstr ""
 "privada amb el programari lliure (o de codi obert %s). Respondrem amb un "
 "exemple."
 
-#: pages/linux.misunderstanding_free_software.php:123
+#: pages/linux.misunderstanding_free_software.php:113
 msgid ""
 "Let's imagine that you use one application that is free software, at home "
 "and within your company. You find a great way to improve it, so now with "
@@ -1641,7 +1587,7 @@ msgstr ""
 "feina, i trobeu una manera de millorar-lo i la vostra versió modificada fa "
 "que el vostre ordinador vagi el doble de ràpid."
 
-#: pages/linux.misunderstanding_free_software.php:124
+#: pages/linux.misunderstanding_free_software.php:114
 msgid ""
 "This modified version is <strong>your own version</strong>. You are not "
 "required to tell anyone about it, nor must you share any of the profits you "
@@ -1652,7 +1598,7 @@ msgstr ""
 "a dir-ho a ningú, ni a compartir els avantatges que heu aconseguit. Només "
 "heu exercit el vostre dret d'utilitzar i modificar el programari lliure."
 
-#: pages/linux.misunderstanding_free_software.php:125
+#: pages/linux.misunderstanding_free_software.php:115
 msgid ""
 "What the free software license requires is that <strong>if you redistribute</"
 "strong> this software, then you must keep it free. Namely, if you sell CDs "
@@ -1664,7 +1610,7 @@ msgstr ""
 "vostre programa, o permeteu que persones de fora l'empresa o casa el puguin "
 "utilitzar, haureu de:"
 
-#: pages/linux.misunderstanding_free_software.php:127
+#: pages/linux.misunderstanding_free_software.php:117
 msgid ""
 "Either give everyone the same rights you had when you obtained the original "
 "software, that is, the freedom to inspect, modify and redistribute your "
@@ -1674,7 +1620,7 @@ msgstr ""
 "programa original, com són: la llibertat d'estudiar, modificar i "
 "redistribuir la versió modificada."
 
-#: pages/linux.misunderstanding_free_software.php:128
+#: pages/linux.misunderstanding_free_software.php:118
 msgid ""
 "Or, make the original software and your secret addition to it clearly "
 "separate (that is, your addition should contain none of the original work)."
@@ -1683,7 +1629,7 @@ msgstr ""
 "forma, la vostra feina no ha d'incloure codi del programa original)."
 
 #. i18n: The %s placeholder here will automatically point to the page "Windows Restrictions, further details"
-#: pages/linux.misunderstanding_free_software.php:132
+#: pages/linux.misunderstanding_free_software.php:122
 #, php-format
 msgid ""
 "So in fact, you have more \"ownership\" over free software than over "
@@ -1694,7 +1640,7 @@ msgstr ""
 "lliure, que no si fos programari privatiu (on és el programador qui decideix "
 "què pots fer <a href=\"%s\">i què no</a> amb el programari."
 
-#: pages/linux.misunderstanding_free_software.php:133
+#: pages/linux.misunderstanding_free_software.php:123
 msgid ""
 "<em>Free software has nothing to do with a political system.</em> You can "
 "run free software on top of proprietary software, just as well as the "
@@ -1706,16 +1652,15 @@ msgstr ""
 "programari lliure només és un contracte legal i ètic entre el programador i "
 "l'usuari final."
 
-#: pages/linux.misunderstanding_free_software.php:137
-#: pages/windows.restrictions.php:66
+#: pages/linux.misunderstanding_free_software.php:127
 msgid "Read more:"
 msgstr "Llegiu-ne més:"
 
-#: pages/linux.misunderstanding_free_software.php:138
+#: pages/linux.misunderstanding_free_software.php:130
 msgid "Free / \"open-source\" software can't be secure."
 msgstr "El programari lliure, o de codi obert, no pot ser segur."
 
-#: pages/linux.misunderstanding_free_software.php:141
+#: pages/linux.misunderstanding_free_software.php:133
 msgid ""
 "The argument generally goes that since the source code of free software is "
 "available, it is less likely to be secure."
@@ -1723,7 +1668,7 @@ msgstr ""
 "L'argument acostuma a ser que al estar disponible el codi font del programa, "
 "és menys segur."
 
-#: pages/linux.misunderstanding_free_software.php:142
+#: pages/linux.misunderstanding_free_software.php:134
 msgid ""
 "Short answer: The majority of servers run free software. They are the major "
 "networked computers holding sensitive or confidential information such as "
@@ -1733,7 +1678,7 @@ msgstr ""
 "ordinadors importants per on circula informació sensible i confidencial com "
 "dades bancàries o secrets comercials."
 
-#: pages/linux.misunderstanding_free_software.php:143
+#: pages/linux.misunderstanding_free_software.php:135
 msgid ""
 "A more precise answer is that availability of source code is a warrant of "
 "security, not a weakness. The freedom of the software ensures it can be "
@@ -1748,7 +1693,7 @@ msgstr ""
 "que no només qui té la clau pugui obrir-lo; el mateix passa amb el "
 "programari."
 
-#: pages/linux.misunderstanding_free_software.php:144
+#: pages/linux.misunderstanding_free_software.php:136
 #, php-format
 msgid ""
 "Need examples? Have a look at the <a href=\"http://www.getfirefox.com/"
@@ -1767,15 +1712,15 @@ msgstr ""
 "virus ni programari espia a GNU/Linux</a>."
 
 #. i18n: this can be translated loosely, ex "Free software isolates me" or else.
-#: pages/linux.misunderstanding_free_software.php:149
+#: pages/linux.misunderstanding_free_software.php:143
 msgid "I'm on my own with free software."
 msgstr "Estaré tot sol amb el programari lliure."
 
-#: pages/linux.misunderstanding_free_software.php:152
+#: pages/linux.misunderstanding_free_software.php:146
 msgid "Not at all."
 msgstr "Gens."
 
-#: pages/linux.misunderstanding_free_software.php:154
+#: pages/linux.misunderstanding_free_software.php:148
 msgid ""
 "If you are looking for good documentation and support forums to assist you, "
 "there is plenty available for free (\"open source\") software."
@@ -1784,7 +1729,7 @@ msgstr ""
 "programari lliure."
 
 #. i18n: use your best knowledge of the community to propose localized links ;-)
-#: pages/linux.misunderstanding_free_software.php:157
+#: pages/linux.misunderstanding_free_software.php:150
 msgid ""
 "Each GNU/Linux distribution has its own community (for example, <a href="
 "\"http://www.ubuntu.com/support/free\">Ubuntu support</a> or <a href="
@@ -1793,7 +1738,7 @@ msgid ""
 "linuxquestions.org/\">LinuxQuestions.org</a>."
 msgstr ""
 
-#: pages/linux.misunderstanding_free_software.php:158
+#: pages/linux.misunderstanding_free_software.php:151
 msgid ""
 "If you need someone you can reach on the phone anytime to assist you, the "
 "companies behind most distributions provide commercial support: see the <a "
@@ -1807,11 +1752,11 @@ msgstr ""
 "<a href=\"http://www.redhat.com/rhel/\">Red Hat Enterprise Linux</a>, per "
 "exemple."
 
-#: pages/linux.misunderstanding_free_software.php:162
+#: pages/linux.misunderstanding_free_software.php:157
 msgid "Further reading on the web"
 msgstr "Llocs web amb informació complementària"
 
-#: pages/linux.misunderstanding_free_software.php:167
+#: pages/linux.misunderstanding_free_software.php:161
 msgid ""
 "This is where free software all started. You will find a wealth of "
 "information about the free software philosophy, the history of the project, "
@@ -1824,7 +1769,7 @@ msgstr ""
 "Foundation</a> (Fundació per al Programari Lliure) que és l'organització que "
 "hi ha darrera el projecte GNU."
 
-#: pages/linux.misunderstanding_free_software.php:170
+#: pages/linux.misunderstanding_free_software.php:164
 msgid ""
 "The concept of Free&nbsp;/&nbsp;Libre&nbsp;/&nbsp;Open Source Software "
 "presented in a highly readable, friendly way. A must-read."
@@ -1832,7 +1777,7 @@ msgstr ""
 "Els conceptes del Programari Lliure i el de Codi Obert, explicats de forma "
 "planera. De lectura obligada."
 
-#: pages/linux.misunderstanding_free_software.php:173
+#: pages/linux.misunderstanding_free_software.php:167
 msgid ""
 "A simple and clear website about the free format OpenDocument, showing the "
 "importance of freedom in formats (not just in applications)."
@@ -1840,7 +1785,7 @@ msgstr ""
 "Un web simple i clar sobre el format lliure OpenDocument, la llibertat "
 "aplicada als formats (no només als programes)."
 
-#: pages/linux.misunderstanding_free_software.php:176
+#: pages/linux.misunderstanding_free_software.php:170
 msgid ""
 "An engaged article by co-founder of <a href=\"http://www.wikipedia.org/"
 "\">Wikipedia</a> Jimmy Wales, which shows the connections between freedom in "
@@ -1851,7 +1796,7 @@ msgstr ""
 "del programari i la llibertat de coneixement."
 
 #. i18n: This is the content of the footnote, at the bottom of the page
-#: pages/linux.misunderstanding_free_software.php:193
+#: pages/linux.misunderstanding_free_software.php:179
 #, php-format
 msgid ""
 "What we call \"Free Software\" here is also often called \"Open Source "
@@ -1868,11 +1813,7 @@ msgstr ""
 "nostre entrada a les PMF: <a href=%s/#open_source\">\"Programari lliure\" i "
 "\"Codi obert\" és el mateix?</a>."
 
-#: pages/linux.php:15
-msgid "What is GNU/Linux?"
-msgstr "Què és GNU/Linux?"
-
-#: pages/linux.php:17
+#: pages/linux.php:18
 msgid ""
 "When you hear the word Linux, you may think of programmers with a beard "
 "typing obscure code on a black screen. Good news! things have changed."
@@ -1881,21 +1822,11 @@ msgstr ""
 "escrivint codi fosc en una pantalla negra. Bones notícies, les coses han "
 "canviat! "
 
-#: pages/linux.php:20
+#: pages/linux.php:21
 msgid "The picture"
 msgstr "En poques paraules"
 
-#. i18n: title of link to screenshots page
-#: pages/linux.php:25 pages/linux.php:42
-msgid "What does GNU/Linux look like? Selected screenshots"
-msgstr "Quina aparença te GNU/Linux? Captures de pantalla seleccionades."
-
-#. i18n: image alt description
-#: pages/linux.php:28
-msgid "A view of a Fedora Linux desktop"
-msgstr "Una imatge de l'escriptori de Fedora Linux"
-
-#: pages/linux.php:29
+#: pages/linux.php:23
 msgid ""
 "Linux is an <em>operating system</em>, a large piece of software that "
 "manages a computer. It is similar to Microsoft Windows, but it is entirely "
@@ -1906,7 +1837,7 @@ msgstr ""
 "maneja un ordinador. és similar a Microsoft Windows, però és completament "
 "lliure. El nom correcte és <em>GNU/Linux</em> però \"Linux\" també serveix. "
 
-#: pages/linux.php:31
+#: pages/linux.php:25
 msgid ""
 "Linux is not one company's product, but a number of companies and groups of "
 "people contribute to it. In fact, the <em>GNU/Linux system</em> is a core "
@@ -1914,7 +1845,7 @@ msgid ""
 "called <strong>distributions</strong>."
 msgstr ""
 
-#: pages/linux.php:33
+#: pages/linux.php:27
 msgid ""
 "Distributions change the appearance and function of Linux completely. They "
 "range from large, fully supported complete systems (endorsed by companies) "
@@ -1927,8 +1858,7 @@ msgstr ""
 "USB o funcionen en computadores antigues (sovint desenvolupades per "
 "voluntaris)."
 
-#. i18n: use an official localised Ubuntu homepage if possible
-#: pages/linux.php:36
+#: pages/linux.php:30
 msgid ""
 "A prominent, complete and friendly distribution to step into GNU/Linux is <a "
 "href=\"http://www.ubuntu.com\">Ubuntu</a>."
@@ -1936,12 +1866,7 @@ msgstr ""
 "Una distribució destacada, completa i fàcil d'usar al iniciar-se a GNU/Linux "
 "és <a href=\"http://www.ubuntu.cat\">Ubuntu</a>. "
 
-#. i18n: image alt description
-#: pages/linux.php:45
-msgid "A view of a Ubuntu Linux desktop"
-msgstr "Una imatge de l'escriptori d'Ubuntu Linux"
-
-#: pages/linux.php:46
+#: pages/linux.php:48
 msgid ""
 "GNU/Linux is no harder to use than Windows, and has many more capabilities. "
 "It just takes a dozen minutes to get familiar with a distribution like <a "
@@ -1957,7 +1882,7 @@ msgstr ""
 "title=\"Fedora, una distribució amigable per a usuaris un poc més avançats"
 "\">Fedora</a>, la qual vé amb molts programes instal·lats."
 
-#: pages/linux.php:48
+#: pages/linux.php:50
 msgid ""
 "If you need commercial-quality software to work with business documents, "
 "Internet/networking, or multimedia and graphics, it's there right out of the "
@@ -1971,7 +1896,7 @@ msgstr ""
 "programes que podeu trobar, instal·lar i desinstal·lar intuïtivament i "
 "fàcilment. "
 
-#: pages/linux.php:50
+#: pages/linux.php:52
 #, php-format
 msgid ""
 "You shouldn't assume however, that Linux is a clone of Windows. To know what "
@@ -1982,12 +1907,11 @@ msgstr ""
 "us espera en endinsar-vos en Linux, us suggerim llegir la nostra pàgina "
 "relacionada amb <a href=\"%s\">el procés de canvi</a>. "
 
-#: pages/linux.php:53
+#: pages/linux.php:55
 msgid "The larger picture"
 msgstr "La resposta completa"
 
-#. i18n: use the definition of "free software" on GNU.org in place of softwareliberty.com
-#: pages/linux.php:57
+#: pages/linux.php:58
 msgid ""
 "When you get a distribution of GNU/Linux, <strong>you also get the freedom "
 "to study, copy, change, and redistribute it</strong> &ndash;&nbsp;that's "
@@ -2000,7 +1924,7 @@ msgstr ""
 "philosophy/free-sw.ca.html\" title=\"Que és el programri lliure?\">lliure</"
 "a>."
 
-#: pages/linux.php:59
+#: pages/linux.php:60
 msgid ""
 "Many companies develop their own operating system based on the core <a href="
 "\"http://www.gnu.org\" title=\"the GNU project: at the source of all Linux "
@@ -2012,7 +1936,7 @@ msgstr ""
 "Linux\">GNU</a> tot i no tenir els drets exclusius del producte. Llavors, "
 "com funciona tot plegat?"
 
-#: pages/linux.php:62
+#: pages/linux.php:63
 msgid ""
 "Most companies make a profit by <em>selling support and services</em> around "
 "their GNU/Linux distribution. Corporate customers buy guaranteed security "
@@ -2024,7 +1948,7 @@ msgstr ""
 "actualitzacions segures i l'assistència. Altres serveis inclouen formació i "
 "millores a mida del programari."
 
-#: pages/linux.php:63
+#: pages/linux.php:64
 msgid ""
 "Some companies, such as HP or IBM, contribute to Linux because they pre-"
 "install it on servers they sell."
@@ -2032,7 +1956,7 @@ msgstr ""
 "Algunes empreses, com HP i IBM, contribueixen amb Linux perquè el "
 "preinstal·len en els servidors que venen."
 
-#: pages/linux.php:64
+#: pages/linux.php:65
 msgid ""
 "An extremely wide community participates in the development and improvement "
 "of software, decreasing costs and improving efficiency."
@@ -2040,7 +1964,7 @@ msgstr ""
 "El fet que una comunitat àmplia participi en el desenvolupament i millora "
 "del programari, disminueix costos i millora l'eficiència."
 
-#: pages/linux.php:67
+#: pages/linux.php:68
 msgid ""
 "In the end, individual end-users often get the software at zero cost, while "
 "corporate customers are often happy to pay for more support."
@@ -2048,111 +1972,33 @@ msgstr ""
 "En última instància, l'usuari final acostuma a tenir els programes a cost "
 "zero, mentre que les empreses acostumen a preferir pagar per més suport."
 
-#: pages/linux.php:70 pages/windows.php:92
-msgid "next:"
-msgstr "següent:"
-
-#: pages/linux.php:76
+#: pages/linux.php:71
 msgid "More in this section:"
 msgstr "Més en aquesta secció:"
 
-#: pages/linux.php:79
-msgid "What Linux looks like"
-msgstr "Quina aparença té Linux?"
-
-#. i18n: This is the description of the "ubuntu1.png" screenshot.
-#: pages/linux.screenshots.php:12
-msgid "Firefox web browser"
-msgstr "El navegador Firefox"
-
-#. i18n: This is the description of the "ubuntu2.png" screenshot.
-#: pages/linux.screenshots.php:14
-msgid ""
-"File manager and image browsing application are open, on standard desktop."
-msgstr ""
-"El gestor de fitxers i el visualitzador d'imatges oberts, a l'escriptori "
-"estàndard."
-
-#. i18n: This is the description of the "ubuntu3.png" screenshot.
-#: pages/linux.screenshots.php:16
-msgid "Thunderbird e-mail and calendar application."
-msgstr "El programari de correu i agenda Thunderbird."
-
-#. i18n: This is the description of the "fedora1.png" screenshot.
-#: pages/linux.screenshots.php:19
-msgid "GIMP image editing application, cropping a photo."
-msgstr "L'editor d'imatges GIMP, escapçant una fotografia."
-
-#. i18n: This is the description of the "fedora2.png" screenshot.
-#: pages/linux.screenshots.php:21
-msgid "LibreOffice Writer open, editing a standard document."
-msgstr "El LibreOffice Wrieter editant un document."
-
-#. i18n: This is the description of the "fedora3.png" screenshot.
-#: pages/linux.screenshots.php:23
-msgid ""
-"Accessing applications in the <a href=\"http://gnome3.org/\">GNOME 3</a> "
-"desktop environment."
-msgstr ""
-"Accedint a programes a l'entorn d'escriptori <a href=\"http://gnome3.org/"
-"\">GNOME 3</a>."
-
-#. i18n: This is the text-only description of the "fedora3.png" screenshot.
-#: pages/linux.screenshots.php:25
-msgid "Accessing applications in the GNOME 3 desktop environment."
-msgstr "Accedint a programes a l'entorn d'escriptori GNOME 3."
-
-#. i18n: This is the description of the "trisquel1.png" screenshot.
-#: pages/linux.screenshots.php:28
-msgid "Update manager open."
-msgstr ""
-
-#. i18n: This is the description of the "trisquel2.png" screenshot.
-#: pages/linux.screenshots.php:30
-msgid "LibreOffice Calc open, showing an example spreadsheet."
-msgstr "El LibreOffice Calc mostrant un full de càlcul d'exemple."
-
-#. i18n: This is the description of the "trisquel3.png" screenshot.
-#: pages/linux.screenshots.php:32
-msgid "Accessing applications."
-msgstr "Accedint a les aplicacions."
-
-#: pages/linux.screenshots.php:44
-msgid "Selected screenshots of distributions of GNU/Linux."
-msgstr "Captures de pantalla de distribucions GNU/Linux."
-
-#: pages/linux.screenshots.php:45
-msgid ""
-"Keep in mind that Linux can look as frugal or exciting as you require; here "
-"are only everyday-user snapshots to show common tasks."
-msgstr ""
-"Teniu en compte que Linux pot semblar tant senzill o cridaner com vulgueu. "
-"Aquí només us mostrem captures realitzades per mostrar escriptoris i tasques "
-"comunes."
-
-#: pages/more.php:17
+#: pages/more.php:19
 msgid "Selected reading on the Internet."
 msgstr "Lectures seleccionades a Internet."
 
-#: pages/more.php:22
+#: pages/more.php:23
 msgid "Questions, help, and equipment"
 msgstr "Preguntes, ajuda i equipaments"
 
 #. i18n: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-#: pages/more.php:27
+#: pages/more.php:28
 msgid "http://linuxpreloaded.com/"
 msgstr "http://linuxpreloaded.com/"
 
-#: pages/more.php:27
+#: pages/more.php:28
 msgid "Computers pre-installed with Linux"
 msgstr "Ordinadors amb Linux preinstal·lat"
 
 #. i18n: image alt description
-#: pages/more.php:29
+#: pages/more.php:30
 msgid "Linux Pre-Loaded"
 msgstr "Linux preinstal·lat"
 
-#: pages/more.php:32
+#: pages/more.php:33
 msgid ""
 "A simple and clear selection of vendors selling computers pre-installed with "
 "Linux."
@@ -2160,16 +2006,16 @@ msgstr ""
 "Una simple relació de botigues que venen ordinadors amb Linux preinstal·lat."
 
 #. i18n: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-#: pages/more.php:38
+#: pages/more.php:39
 msgid "http://www.linuxquestions.org/"
 msgstr "http://forum.somgnu.cat/"
 
 #. i18n: image alt description
-#: pages/more.php:38 pages/more.php:40
+#: pages/more.php:39 pages/more.php:41
 msgid "LinuxQuestions.org"
 msgstr "Fòrums de SomGNU"
 
-#: pages/more.php:43
+#: pages/more.php:44
 msgid ""
 "Friendly free software support forums, for newcomers and advanced users "
 "alike.<br/> If you have a question that we haven't covered, it's a good "
@@ -2179,25 +2025,25 @@ msgstr ""
 "programari, xarxes, edició multimèdia, notícies, etc... Un bon lloc per "
 "preguntar."
 
-#: pages/more.php:48
+#: pages/more.php:49
 msgid "Learn and read more"
 msgstr "Per aprendre'n més"
 
 #. i18n: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-#: pages/more.php:53
+#: pages/more.php:54
 msgid "http://www.fsf.org/"
 msgstr "http://www.fsfeurope.org/index.ca.html"
 
-#: pages/more.php:53
+#: pages/more.php:54
 msgid "Free Software Foundation"
 msgstr "Free Software Foundation Europe"
 
 #. i18n: image alt description
-#: pages/more.php:55
+#: pages/more.php:56
 msgid "FSF"
 msgstr "FSFE"
 
-#: pages/more.php:58
+#: pages/more.php:59
 msgid ""
 "The Free Software Foundation defends and advocates the very concept of <a "
 "href=\"http://www.softwareliberty.com/\">free software</a> that gave birth "
@@ -2208,20 +2054,20 @@ msgstr ""
 "GNU/Linux."
 
 #. i18n: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-#: pages/more.php:64
+#: pages/more.php:65
 msgid "http://en.wikibooks.org/wiki/FLOSS_Concept_Booklet"
 msgstr "http://www.culturalliure.cat/"
 
-#: pages/more.php:64
+#: pages/more.php:65
 msgid "the FLOSS concept booklet"
 msgstr "Cultura Lliure"
 
 #. i18n: image alt description
-#: pages/more.php:66
+#: pages/more.php:67
 msgid "FLOSS Booklet"
 msgstr "Cultura Lliure"
 
-#: pages/more.php:69
+#: pages/more.php:70
 msgid ""
 "A short, entertaining way to clarify thoughts about free, libre, \"open-"
 "source\" software."
@@ -2229,16 +2075,16 @@ msgstr ""
 "Recull de llibres traduïts al català, relacionats amb el Programari Lliure i "
 "la cultura lliure en general."
 
-#: pages/more.php:75
+#: pages/more.php:74
 msgid ""
 "Note: these links are proposed as a recommendation. They are not commercial."
 msgstr "Nota: aquests enllaços són només una recomanació. No són comercials."
 
-#: pages/more.php:79
+#: pages/more.php:77
 msgid "About us"
 msgstr "Quant a nosaltres"
 
-#: pages/more.php:81
+#: pages/more.php:80
 msgid ""
 "This website was a project of the late <em><a href=\"http://www."
 "gnulinuxmatters.org/\">GNU/Linux Matters</a></em> non-profit organization, "
@@ -2255,26 +2101,26 @@ msgid ""
 msgstr ""
 
 #. i18n: Title for the Page Not Found page. We like to add a bit of humour to this title :P
-#: pages/not_found.php:20
+#: pages/not_found.php:21
 msgid "Doh! Page Not Found"
 msgstr "No s'ha pogut trobar la pàgina"
 
 #. i18n: The "AWOL" part is supposed to add some humour to the error message. Use your creativity to add some humour that's more suitable for your language.
-#: pages/not_found.php:24
+#: pages/not_found.php:25
 msgid ""
 "Sorry, but we couldn't find the page you were looking for. Either that page "
-"doesn't exist or the web page went <acronym title=\"away without leave"
-"\">AWOL</acronym>."
+"doesn't exist or the web page went <abbr title=\"away without leave\">AWOL</"
+"abbr>."
 msgstr ""
-"No hem trobat la pàgina que cerqueu. O no existeix, o ha <acronym title="
-"\"tocat el pirandó\">tocat el pirandó</acronim>."
+"No hem trobat la pàgina que cerqueu. O no existeix, o ha <abbr title=\"tocat "
+"el pirandó\">tocat el pirandó</acronim>."
 
-#: pages/not_found.php:26
+#: pages/not_found.php:27
 msgid "Report broken link"
 msgstr "Informeu d'un enllaç trencat"
 
 #. i18n: Here, the %s placeholder simply puts a link to the bug tracker
-#: pages/not_found.php:29
+#: pages/not_found.php:30
 #, php-format
 msgid ""
 "If you found a broken link, please <a href=\"%s\">report it</a> so we can "
@@ -2283,7 +2129,59 @@ msgstr ""
 "Si trobeu un enllaç trencat, <a href=\"%s\">informeu-ne</a> i ho podrem "
 "arreglar. Moltes gràcies!"
 
-#: pages/switch_to_linux.choose_a_distribution.php:19
+#. i18n: This is the description of the "ubuntu1.png" screenshot.
+#: pages/switch_to_linux.choose_a_distribution.php:11
+msgid "Firefox web browser"
+msgstr "El navegador Firefox"
+
+#. i18n: This is the description of the "ubuntu2.png" screenshot.
+#: pages/switch_to_linux.choose_a_distribution.php:13
+msgid ""
+"File manager and image browsing application are open, on standard desktop."
+msgstr ""
+"El gestor de fitxers i el visualitzador d'imatges oberts, a l'escriptori "
+"estàndard."
+
+#. i18n: This is the description of the "ubuntu3.png" screenshot.
+#: pages/switch_to_linux.choose_a_distribution.php:15
+msgid "Thunderbird e-mail and calendar application."
+msgstr "El programari de correu i agenda Thunderbird."
+
+#. i18n: This is the description of the "fedora1.png" screenshot.
+#: pages/switch_to_linux.choose_a_distribution.php:18
+msgid "GIMP image editing application, cropping a photo."
+msgstr "L'editor d'imatges GIMP, escapçant una fotografia."
+
+#. i18n: This is the description of the "fedora2.png" screenshot.
+#: pages/switch_to_linux.choose_a_distribution.php:20
+msgid "LibreOffice Writer open, editing a standard document."
+msgstr "El LibreOffice Wrieter editant un document."
+
+#. i18n: This is the description of the "fedora3.png" screenshot.
+#: pages/switch_to_linux.choose_a_distribution.php:22
+msgid ""
+"Accessing applications in the <a href=\"http://gnome3.org/\">GNOME 3</a> "
+"desktop environment."
+msgstr ""
+"Accedint a programes a l'entorn d'escriptori <a href=\"http://gnome3.org/"
+"\">GNOME 3</a>."
+
+#. i18n: This is the description of the "trisquel1.png" screenshot.
+#: pages/switch_to_linux.choose_a_distribution.php:25
+msgid "Update manager open."
+msgstr ""
+
+#. i18n: This is the description of the "trisquel2.png" screenshot.
+#: pages/switch_to_linux.choose_a_distribution.php:27
+msgid "LibreOffice Calc open, showing an example spreadsheet."
+msgstr "El LibreOffice Calc mostrant un full de càlcul d'exemple."
+
+#. i18n: This is the description of the "trisquel3.png" screenshot.
+#: pages/switch_to_linux.choose_a_distribution.php:29
+msgid "Accessing applications."
+msgstr "Accedint a les aplicacions."
+
+#: pages/switch_to_linux.choose_a_distribution.php:45
 msgid ""
 "Because there is no &quot;one Linux&quot;, finding what you need can be "
 "difficult. Here are our choice of three beginner-friendly, widely used "
@@ -2293,12 +2191,27 @@ msgstr ""
 "necessiteu. Aquí us mostrem una selecció de les distribucions més senzilles, "
 "aptes per a principiants."
 
+#. i18n: if you don't know of a clean, simple comparison website, simply remove the link.
+#: pages/switch_to_linux.choose_a_distribution.php:50
+msgid ""
+"Note: There are <a href=\"http://distrowatch.com/dwres.php?resource=major"
+"\">plenty of distributions to choose from and compare</a>."
+msgstr ""
+"Nota: hi ha <a href=\"http://distrowatch.com/dwres.php?resource=major\">tota "
+"una munió de distribucions per provar i comparar</a>."
+
+#: pages/switch_to_linux.choose_a_distribution.php:51
+msgid "This is our selection for newcomers. These links are not commercial."
+msgstr ""
+"Aquesta és la nostra selecció per als nouvinguts. Aquests enllaços no són "
+"comercials."
+
 #. i18n: use url of official localised Ubuntu homepage, if existing
-#: pages/switch_to_linux.choose_a_distribution.php:27
+#: pages/switch_to_linux.choose_a_distribution.php:58
 msgid "http://www.ubuntu.com/"
 msgstr "http://www.ubuntu.cat/"
 
-#: pages/switch_to_linux.choose_a_distribution.php:28
+#: pages/switch_to_linux.choose_a_distribution.php:61
 msgid ""
 "Simple, easy, usable and our personal favourite. A tanned, smooth atmosphere "
 "that never gets in your way. All programs are kept in order and managed "
@@ -2308,7 +2221,7 @@ msgstr ""
 "en el nostre camí. Tots els programes es mantenen en ordre i es gestionen "
 "fàcilment. La configuració es manté més simplement que complexa."
 
-#: pages/switch_to_linux.choose_a_distribution.php:29
+#: pages/switch_to_linux.choose_a_distribution.php:62
 msgid ""
 "We recommend this friendly and complete distribution if you are looking for "
 "an easy way to try and step into GNU/Linux."
@@ -2316,7 +2229,7 @@ msgstr ""
 "Recomanem aquesta amigable i completa distribució si voleu una via fàcil per "
 "provar i entrar a GNU/Linux."
 
-#: pages/switch_to_linux.choose_a_distribution.php:37
+#: pages/switch_to_linux.choose_a_distribution.php:63
 msgid ""
 "Ubuntu also has a sister distribution, <a href=\"http://www.kubuntu.org/"
 "\">Kubuntu</a>, with a different layout and slightly more advanced graphics."
@@ -2325,12 +2238,12 @@ msgstr ""
 "\">Kubuntu</a>, amb un entorn gràfic diferent i més avançada gràficament."
 
 #. i18n: use url of official localised Fedora homepage, if existing
-#: pages/switch_to_linux.choose_a_distribution.php:46
+#: pages/switch_to_linux.choose_a_distribution.php:89
 msgid "http://fedoraproject.org/"
 msgstr "http://www.softcatala.org/wiki/Fedora"
 
 #. i18n: if you don't know of a clean, simple comparison website, simply remove the link.
-#: pages/switch_to_linux.choose_a_distribution.php:49
+#: pages/switch_to_linux.choose_a_distribution.php:94
 msgid ""
 "The distribution by the long-time prominent GNU/Linux developer company Red "
 "Hat. The default layout is similar to Ubuntu (it is also possible to use "
@@ -2345,7 +2258,7 @@ msgstr ""
 "com en Kubuntu), però hi ha diferències en les aplicacions escollides, "
 "sistema d'instal·lació i alguns elements tècnics."
 
-#: pages/switch_to_linux.choose_a_distribution.php:51
+#: pages/switch_to_linux.choose_a_distribution.php:95
 msgid ""
 "We recommend this distribution if you wish to learn more about the workings "
 "of a GNU/Linux system, security configuration, or work on software "
@@ -2355,7 +2268,7 @@ msgstr ""
 "lliure, voleu aprendre més sobre el funcionament del sistema GNU/Linux, la "
 "seguretat o desenvolupar programes."
 
-#: pages/switch_to_linux.choose_a_distribution.php:64
+#: pages/switch_to_linux.choose_a_distribution.php:124
 #, php-format
 msgid ""
 "While Ubuntu contains some restricting components (<a href=\"%s#full_freedom"
@@ -2365,7 +2278,7 @@ msgid ""
 "operating system similar to Ubuntu."
 msgstr ""
 
-#: pages/switch_to_linux.choose_a_distribution.php:66
+#: pages/switch_to_linux.choose_a_distribution.php:125
 msgid ""
 "We recommend this distribution if you are committed to freedom in your "
 "computing."
@@ -2373,28 +2286,13 @@ msgstr ""
 "Us recomanem aquesta distribució si esteu compromesos a utilitzar només "
 "programari lliure al vostre ordinador."
 
-#. i18n: if you don't know of a clean, simple comparison website, simply remove the link.
-#: pages/switch_to_linux.choose_a_distribution.php:80
-msgid ""
-"Note: There are <a href=\"http://distrowatch.com/dwres.php?resource=major"
-"\">plenty of distributions to choose from and compare</a>."
-msgstr ""
-"Nota: hi ha <a href=\"http://distrowatch.com/dwres.php?resource=major\">tota "
-"una munió de distribucions per provar i comparar</a>."
-
-#: pages/switch_to_linux.choose_a_distribution.php:81
-msgid "This is our selection for newcomers. These links are not commercial."
-msgstr ""
-"Aquesta és la nostra selecció per als nouvinguts. Aquests enllaços no són "
-"comercials."
-
 #. i18n: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
-#: pages/switch_to_linux.choose_a_distribution.php:88
+#: pages/switch_to_linux.choose_a_distribution.php:153
 msgid "Now get a CD and try or install your distribution!"
 msgstr ""
 "Endavant, baixeu-vos un CD i proveu o instal·leu la vostra distribució!"
 
-#: pages/switch_to_linux.from_windows_to_linux.php:18
+#: pages/switch_to_linux.from_windows_to_linux.php:23
 msgid ""
 "This is what everyday users usually find better, mostly the same, or not as "
 "good, when switching from Windows to Linux."
@@ -2402,22 +2300,17 @@ msgstr ""
 "Aquestes són les coses que els usuaris troben millor, igual o no tan bé, "
 "quan canvien de Windows a Linux."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:22
+#: pages/switch_to_linux.from_windows_to_linux.php:32
 msgid "What is better in Linux"
 msgstr " Què és millor en Linux"
 
 #. i18n: please note the punctuation should be consistent
-#: pages/switch_to_linux.from_windows_to_linux.php:26
+#: pages/switch_to_linux.from_windows_to_linux.php:37
 msgid "It's free"
 msgstr "És lliure."
 
-#. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:29
-msgid "freedom"
-msgstr "llibertat"
-
 #. i18n: link to Free Software definition on GNU.org site, if softwareliberty.com is not translated in your language
-#: pages/switch_to_linux.from_windows_to_linux.php:32
+#: pages/switch_to_linux.from_windows_to_linux.php:41
 msgid ""
 "Unlike Windows, GNU/Linux is <a href=\"http://www.softwareliberty.com/\" "
 "title=\"What does Free Software mean?\">free software</a> &ndash; free as in "
@@ -2431,16 +2324,11 @@ msgstr ""
 "vostres amics, podeu estudiar-lo, modificar-lo o crear i vendre la vostra "
 "pròpia distribució."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:34
+#: pages/switch_to_linux.from_windows_to_linux.php:45
 msgid "Programs"
 msgstr "Programari"
 
-#. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:37
-msgid "add/remove programs easily"
-msgstr "afegir i treure programes és fàcil"
-
-#: pages/switch_to_linux.from_windows_to_linux.php:39
+#: pages/switch_to_linux.from_windows_to_linux.php:47
 msgid ""
 "There are a wealth of free applications available at no cost under Linux. To "
 "edit professional documents, burn music CDs, rework photos, design a "
@@ -2452,7 +2340,7 @@ msgstr ""
 "treballar amb fotografies, dissenyar pàgines web o organitzar la vostra "
 "música. No necessiteu pagar programes de 200€ amb llicències restrictives."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:40
+#: pages/switch_to_linux.from_windows_to_linux.php:48
 msgid ""
 "The internal installer makes it incredibly easy to find, install and remove "
 "programs."
@@ -2460,7 +2348,7 @@ msgstr ""
 "L'instal·lador inclòs fa més que senzill cercar, instal·lar i desinstal·lar "
 "els programes."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:41
+#: pages/switch_to_linux.from_windows_to_linux.php:49
 msgid ""
 "It's also safe: you can forget the demo/trial crippled software, or harmful "
 "freeware polluting the web."
@@ -2468,16 +2356,11 @@ msgstr ""
 "A més, és segur: us podeu oblidar de les demos i programes que caduquen, o "
 "del perillós freeware que contamina l'ordinador."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:43
+#: pages/switch_to_linux.from_windows_to_linux.php:53
 msgid "No fighting"
 msgstr "Sense lluites"
 
-#. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:46
-msgid "built solid"
-msgstr "construcció sòlida"
-
-#: pages/switch_to_linux.from_windows_to_linux.php:47
+#: pages/switch_to_linux.from_windows_to_linux.php:55
 msgid ""
 "Keeping your computer in shape over time needn't be a struggle. One year on, "
 "GNU/Linux runs just as fast as the first day. And it may bring your old PC "
@@ -2487,7 +2370,7 @@ msgstr ""
 "aferrissada. Un any després, GNU/Linux treballarà tan ràpid com el primer "
 "dia. I a més, podeu donar-li un nou ús al vostre ordinador vell."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:48
+#: pages/switch_to_linux.from_windows_to_linux.php:56
 msgid ""
 "Also, Linux lets you choose what you want and what you don't. If you had a "
 "hard time getting rid of MSN Messenger, Windows Update notifications, or "
@@ -2498,16 +2381,11 @@ msgstr ""
 "Messenger, les notificacions de Windows Update, o el pesat Clip de les "
 "idees, trobareu en Linux tot un descans."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:51
+#: pages/switch_to_linux.from_windows_to_linux.php:60
 msgid "Security"
 msgstr "Seguretat"
 
-#. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:54
-msgid "security"
-msgstr "seguretat"
-
-#: pages/switch_to_linux.from_windows_to_linux.php:55
+#: pages/switch_to_linux.from_windows_to_linux.php:62
 msgid ""
 "Forget expensive and restrictive anti-virus, anti-spyware, anti-anything and "
 "anti-everything. Linux is very, very secure."
@@ -2516,7 +2394,7 @@ msgstr ""
 "antispyware, antires i antitot. Linux és molt i molt segur."
 
 #. i18n: If you don't know of a link replacement in your languge, just leave the link as it is
-#: pages/switch_to_linux.from_windows_to_linux.php:58
+#: pages/switch_to_linux.from_windows_to_linux.php:64
 msgid ""
 "It is often difficult for Windows users to believe that there are <em>no "
 "spyware nor viruses</em> under Linux &mdash; <a href=\"http://linuxmafia.com/"
@@ -2528,23 +2406,18 @@ msgstr ""
 "linuxmafia.com/~rick/faq/index.php?page=virus#virus\">però és ben cert</a>. "
 "El programari maligne ho té francament complicat en un sistema ben construït."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:59
+#: pages/switch_to_linux.from_windows_to_linux.php:65
 msgid "Regular, easy software updates will keep everyone entirely safe."
 msgstr ""
 "Les contínues actualitzacions fan que sigui senzill tenir uns sistema "
 "completament segur."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:62
+#: pages/switch_to_linux.from_windows_to_linux.php:69
 msgid "Support"
 msgstr "Suport"
 
-#. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:65
-msgid "support"
-msgstr "suport"
-
 #. i18n: The first %s represents the URL to the "More" page and seconds %s represents the title of the page "More" in your language
-#: pages/switch_to_linux.from_windows_to_linux.php:68
+#: pages/switch_to_linux.from_windows_to_linux.php:72
 #, php-format
 msgid ""
 "Linux benefits from a great sense of community whose friendliness will "
@@ -2556,7 +2429,7 @@ msgstr ""
 "alguna tasca complicada i no ho aconseguiu, hi ha molta gent disposada "
 "ajudar-vos. A la pàgina \"<a href=\"%s\">%s</a>\" us indiquem on dirigir-vos."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:70
+#: pages/switch_to_linux.from_windows_to_linux.php:73
 msgid ""
 "The companies behind the main GNU/Linux distributions, such as <a href="
 "\"http://www.canonical.com/\">Canonical</a> and <a href=\"http://www.redhat."
@@ -2566,11 +2439,11 @@ msgstr ""
 "href=\"http://www.canonical.com/\">Canonical</a> i <a href=\"http://www."
 "redhat.com/\">Red Hat</a>, proporcionen suport tècnic comercial."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:79
+#: pages/switch_to_linux.from_windows_to_linux.php:82
 msgid "What is mostly the same in Linux"
 msgstr " Allò que és quasi igual amb Linux"
 
-#: pages/switch_to_linux.from_windows_to_linux.php:80
+#: pages/switch_to_linux.from_windows_to_linux.php:84
 msgid ""
 "Fundamentally, everyday users will find GNU/Linux similar in use to Windows "
 "or Mac OSX."
@@ -2578,16 +2451,11 @@ msgstr ""
 "En línies generals, els usuaris troben que GNU/Linux és bastant similar "
 "d'utilitzar que Windows o Mac OSX."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:82
+#: pages/switch_to_linux.from_windows_to_linux.php:87
 msgid "General set-up"
 msgstr "Configuració general"
 
-#. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:85
-msgid "simple use"
-msgstr "fàcil d'utilitzar"
-
-#: pages/switch_to_linux.from_windows_to_linux.php:86
+#: pages/switch_to_linux.from_windows_to_linux.php:89
 msgid ""
 "If you still believe Linux is controlled with code and command-line, you "
 "should update your views!"
@@ -2595,7 +2463,7 @@ msgstr ""
 "Si encara creieu que Linux només es pot controlar amb codi i l'intèrpret "
 "d'ordres, aneu errats. Les coses han canviat!"
 
-#: pages/switch_to_linux.from_windows_to_linux.php:87
+#: pages/switch_to_linux.from_windows_to_linux.php:90
 msgid ""
 "Just like Windows, Linux has to boot when you switch your computer on, and "
 "then you use programs in it to do different things. The taskbar and layout "
@@ -2606,23 +2474,12 @@ msgstr ""
 "de les aplicacions pot personalitzar-se i fer-la semblant a les de Windows o "
 "Mac."
 
-#. i18n: The %s placeholder will automatically point to the screenshots page
-#: pages/switch_to_linux.from_windows_to_linux.php:90
-#, php-format
-msgid "See more: we have <a href=\"%s\">screenshots</a></div>"
-msgstr "Podeu veure unes <a href=\"%s\">captures de pantalla</a></div>"
-
 #: pages/switch_to_linux.from_windows_to_linux.php:94
 msgid "Web browsing and common tasks"
 msgstr "Navegador web i tasques comunes"
 
-#. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:97
-msgid "Firefox browser"
-msgstr "Navegador Firefox"
-
 #. i18n: use localized Firefox landing page if possible
-#: pages/switch_to_linux.from_windows_to_linux.php:100
+#: pages/switch_to_linux.from_windows_to_linux.php:97
 msgid ""
 "The Web looks just the same when viewed with Linux (in fact you can browse "
 "the Web with the same program if you already use <a href=\"http://www."
@@ -2632,38 +2489,15 @@ msgid ""
 "manager like Windows Explorer."
 msgstr ""
 
-#: pages/switch_to_linux.from_windows_to_linux.php:110
+#: pages/switch_to_linux.from_windows_to_linux.php:106
 msgid "What is not as good in Linux"
 msgstr "Allò que no és tant bo amb Linux"
 
-#. i18n: translate "widely": the idea is more important than precision/exactitude here
-#: pages/switch_to_linux.from_windows_to_linux.php:114
-msgid "&quot;Never tell the truth to people who are not worthy of it.&quot;"
-msgstr ""
-"&quot;No digueu mai la veritat a les persones que no ho mereixen.&quot;"
-
-#: pages/switch_to_linux.from_windows_to_linux.php:115
-msgid "or:"
-msgstr "o:"
-
-#: pages/switch_to_linux.from_windows_to_linux.php:116
-msgid "&quot;Tell the truth and run.&quot;"
-msgstr "&quot;Digues la veritat i corre.&quot;"
-
-#: pages/switch_to_linux.from_windows_to_linux.php:116
-msgid "&mdash; Yugoslavian proverb."
-msgstr "Proverbi iugoslau"
-
-#: pages/switch_to_linux.from_windows_to_linux.php:120
+#: pages/switch_to_linux.from_windows_to_linux.php:109
 msgid "Driver support"
 msgstr "Suport de controladors"
 
-#. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:123
-msgid "some hardware problems"
-msgstr "problemes de hardware"
-
-#: pages/switch_to_linux.from_windows_to_linux.php:124
+#: pages/switch_to_linux.from_windows_to_linux.php:111
 msgid ""
 "Manufacturers of computer hardware don't always (yet) release drivers for "
 "Linux or publicize full specifications."
@@ -2671,7 +2505,7 @@ msgstr ""
 "Els fabricants de maquinari d'ordinadors no sempre ofereixen (encara) "
 "controladors per a Linux, ni en publiquen totes les especificacions."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:125
+#: pages/switch_to_linux.from_windows_to_linux.php:112
 msgid ""
 "So, drivers are sometimes unavailable for the most recent high-end graphics "
 "cards &mdash; some are reverse-engineered from Windows drivers by "
@@ -2683,12 +2517,12 @@ msgstr ""
 "controladors de Windows. A més, alguns són oferts gratuïtament, però amb "
 "llicències restrictives."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:126
+#: pages/switch_to_linux.from_windows_to_linux.php:113
 msgid "Sadly, the same problem occurs with many low-end WiFi cards."
 msgstr ""
 "Malauradament, això també passa amb moltes targetes WiFi de la gama baixa."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:127
+#: pages/switch_to_linux.from_windows_to_linux.php:114
 msgid ""
 "However, the vast majority of computers with standard hardware work out of "
 "the box with main Linux distributions. Common hardware such as USB keys or "
@@ -2699,16 +2533,11 @@ msgstr ""
 "de maquinari com les memòries USB o les càmeres de fotos, no tenen mai "
 "problemes."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:130
+#: pages/switch_to_linux.from_windows_to_linux.php:118
 msgid "DVDs, restricted formats"
 msgstr "DVD i formats restrictius."
 
-#. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:133
-msgid "DVDs and restricted media"
-msgstr "DVDs i formats restringits"
-
-#: pages/switch_to_linux.from_windows_to_linux.php:134
+#: pages/switch_to_linux.from_windows_to_linux.php:120
 msgid ""
 "Many multimedia formats in use are proprietary and not openly specified; "
 "this means, broadly speaking, that Linux programmers have to find out how to "
@@ -2720,37 +2549,32 @@ msgstr ""
 "creadors del format."
 
 #. i18n: Please choose the wording of the DRM acronym according to the FSF terminology
-#: pages/switch_to_linux.from_windows_to_linux.php:137
+#: pages/switch_to_linux.from_windows_to_linux.php:122
 msgid ""
 "This might lead you to circumvent the restrictions in some DVDs and the "
-"<acronym title=\"Digital Restrictions Management\">DRM</acronym> in some "
-"music files, even if you purchased them in full legality, to be make them "
-"work under Linux. Unfortunately, depending on where you live, <em>such "
+"<abbr title=\"Digital Restrictions Management\">DRM</abbr> in some music "
+"files, even if you purchased them in full legality, to be make them work "
+"under Linux. Unfortunately, depending on where you live, <em>such "
 "circumvention processes may be illegal</em> even if you purchased your media "
 "entirely legally."
 msgstr ""
-"Això pot portar a \"saltar-se\" l'encriptació d'alguns DVD i la  (<acronym "
-"title=\"Gestió de Restriccions Digitals\">DRM</acronym>) en alguns arxius "
+"Això pot portar a \"saltar-se\" l'encriptació d'alguns DVD i la  (<abbr "
+"title=\"Gestió de Restriccions Digitals\">DRM</abbr>) en alguns arxius "
 "sonors, encara que s'hagin adquirit de forma legal, perquè d'altra manera "
 "potser no funcionin amb Linux. Malauradament, depèn d'on visqueu, <em>"
 "\"saltar-se\" les restriccions pot ser considerat il·legal</em> (sí, encara "
 "que hagueu realitzat la compra de manera legal)."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:138
-#: pages/switch_to_linux.from_windows_to_linux.php:150
+#: pages/switch_to_linux.from_windows_to_linux.php:123
+#: pages/switch_to_linux.from_windows_to_linux.php:132
 msgid "Read more in our Linux FAQ:"
 msgstr "Llegiu-ne més a les nostres PMF sobre el Linux:"
 
-#: pages/switch_to_linux.from_windows_to_linux.php:142
+#: pages/switch_to_linux.from_windows_to_linux.php:127
 msgid "Gaming"
 msgstr "Jocs"
 
-#. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:145
-msgid "gaming"
-msgstr "jugar"
-
-#: pages/switch_to_linux.from_windows_to_linux.php:146
+#: pages/switch_to_linux.from_windows_to_linux.php:129
 msgid ""
 "Hard-core computer gamers, you might find that the Linux gaming world is "
 "less professional and out-of-the-box than under Windows: the large game "
@@ -2764,7 +2588,7 @@ msgstr ""
 "funcionen amb Linux o necessiten emuladors restrictius per a jugar-hi."
 
 #. i18n: use localised link if possible, and contact us if you know better resources
-#: pages/switch_to_linux.from_windows_to_linux.php:149
+#: pages/switch_to_linux.from_windows_to_linux.php:131
 msgid ""
 "There is a very active free software game development community though, and "
 "they have produced quite a few high-quality games, both 2D and 3D, that are "
@@ -2776,16 +2600,11 @@ msgstr ""
 "cop d'ull a la <a href=\"http://www.softcatala.org/wiki/Jocs#Jocs_lliures"
 "\">Pàgina de Jocs de Softcatalà</a> per a trobar-hi més informació."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:154
+#: pages/switch_to_linux.from_windows_to_linux.php:136
 msgid "Hibernating"
 msgstr "Hibernació"
 
-#. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:157
-msgid "hibernation problems"
-msgstr "problemes en hibernar"
-
-#: pages/switch_to_linux.from_windows_to_linux.php:158
+#: pages/switch_to_linux.from_windows_to_linux.php:138
 msgid ""
 "Because of the driver issues above, hibernating is not always reliable. The "
 "most common occurrence is the loss of WiFi connection after hibernating on "
@@ -2795,11 +2614,11 @@ msgstr ""
 "referim més amunt. És habitual que després d'hibernar, es perdi la connexió "
 "WiFi en els portàtils que tenen controladors privatius."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:169
+#: pages/switch_to_linux.from_windows_to_linux.php:147
 msgid "Conclusion"
 msgstr "Conclusió"
 
-#: pages/switch_to_linux.from_windows_to_linux.php:170
+#: pages/switch_to_linux.from_windows_to_linux.php:149
 msgid ""
 "Whether you are going to enjoy Linux depends mostly on what you expect from "
 "it."
@@ -2808,7 +2627,7 @@ msgstr ""
 "n'espereu d'ell."
 
 #. i18n: Use a localised version of the "Linux is Not Windows" article if possible. The following page contains links to localised versions: http://geekblog.oneandoneis2.org/index.php/2005/12/31/derived_works_aamp_translations
-#: pages/switch_to_linux.from_windows_to_linux.php:174
+#: pages/switch_to_linux.from_windows_to_linux.php:154
 msgid ""
 "If you wish Linux to be just exactly like Windows, you will probably be "
 "disappointed. GNU/Linux is built by people who simply <a href=\"http://linux."
@@ -2824,7 +2643,7 @@ msgstr ""
 "sistema operatiu ideal. Aquesta discrepància i diversitat d'opinions fa que "
 "participar en la creació de Linux sigui quelcom tan especial i interessant."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:175
+#: pages/switch_to_linux.from_windows_to_linux.php:157
 msgid ""
 "Your freedom matters. Thousands in communities and companies work to build "
 "software on which you may exert this freedom. Using GNU/Linux is the easiest "
@@ -2834,7 +2653,7 @@ msgstr ""
 "empreses treballen fent programes per a que pugueu exercir la vostra "
 "llibertat. Utilitzar GNU/Linux és la forma més fàcil d'exercir-la plenament."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:176
+#: pages/switch_to_linux.from_windows_to_linux.php:160
 msgid ""
 "It's fun! Not having to worry about spyware, viruses, program registrations, "
 "demos that expire, or finding software that is really free as in freedom, "
@@ -2845,7 +2664,7 @@ msgstr ""
 "programari realment lliure, converteixen la experiència amb l'ordinador en "
 "quelcom molt agradable. "
 
-#: pages/switch_to_linux.from_windows_to_linux.php:178
+#: pages/switch_to_linux.from_windows_to_linux.php:164
 msgid ""
 "We hope you'll switch soon. There's a large community waiting, and no one in "
 "it asking you to &quot;sign up, purchase and register&quot;."
@@ -2853,25 +2672,20 @@ msgstr ""
 "Esperem que feu el canvi ben aviat. Hi ha una gran comunitat esperant-vos i "
 "ningú no us dirà &quot;compreu-lo i registreu-lo&quot;."
 
-#. i18n: We try to be friendly and inviting here. This does not have to be translated very precisely.
-#: pages/switch_to_linux.from_windows_to_linux.php:188
-msgid "Choose a Linux distribution to get started!"
-msgstr "Per començar, trieu una distribució!"
-
-#. i18n: please note the "affirmative" tone with the '.' at end of sentence.
-#: pages/switch_to_linux.php:25
-msgid "Meet GNU/Linux in everyday use."
-msgstr "Conegueu GNU/Linux en l'ús quotidià."
-
-#: pages/switch_to_linux.php:32
+#: pages/switch_to_linux.from_windows_to_linux.php:174
+#: pages/switch_to_linux.php:41
 msgid "Our selection for an easy choice."
 msgstr "La nostra selecció per facilitar-vos la tria."
 
-#: pages/switch_to_linux.php:39
+#: pages/switch_to_linux.php:27
+msgid "Meet GNU/Linux in everyday use."
+msgstr "Conegueu GNU/Linux en l'ús quotidià."
+
+#: pages/switch_to_linux.php:55
 msgid "Install it! (it's easier than you think)"
 msgstr "Instaleu-lo! (és més fàcil del que penseu)"
 
-#: pages/switch_to_linux.try_or_install.php:19
+#: pages/switch_to_linux.try_or_install.php:23
 msgid ""
 "Make the step &ndash; unless you wish to <a href=\"http://linuxpreloaded.com/"
 "\" title=\"Linux Desktops and Laptops\">purchase a PC with Linux pre-"
@@ -2881,15 +2695,15 @@ msgstr ""
 "linuxpreloaded.com/\" title=\"Linux Desktops and Laptops\"> amb GNU/Linux "
 "preinstal·lat</a>, i comproveu com li prova la llibertat al vostre ordinador."
 
-#: pages/switch_to_linux.try_or_install.php:25
+#: pages/switch_to_linux.try_or_install.php:30
 msgid "Try out: the live CD"
 msgstr "Proveu: el CD autònom (liveCD)"
 
-#: pages/switch_to_linux.try_or_install.php:27
+#: pages/switch_to_linux.try_or_install.php:32
 msgid "Take no risk"
 msgstr "Sense cap risc"
 
-#: pages/switch_to_linux.try_or_install.php:29
+#: pages/switch_to_linux.try_or_install.php:36
 msgid ""
 "Using a live CD means that Linux will be running on your computer "
 "<em>without installing anything</em>. It's a risk-less way to try and see by "
@@ -2899,7 +2713,7 @@ msgstr ""
 "<em>sense instal·lar-hi absolutament res</em>. És una forma inofensiva de "
 "provar i veure per un mateix què és el Linux."
 
-#: pages/switch_to_linux.try_or_install.php:30
+#: pages/switch_to_linux.try_or_install.php:37
 msgid ""
 "When running on a live CD, your computer uses solely the CD-ROM to work "
 "(without accessing the hard drive inside). You can launch all of the default "
@@ -2910,7 +2724,7 @@ msgstr ""
 "treballa bastant bé, podem executar totes les aplicacions per defecte i, "
 "fins i tot, navegar per Internet."
 
-#: pages/switch_to_linux.try_or_install.php:31
+#: pages/switch_to_linux.try_or_install.php:38
 msgid ""
 "Since it is only designed as a trial mode, it is a little slow (it will take "
 "you five minutes to boot up, and programs launch somewhat slowly). If you "
@@ -2920,12 +2734,12 @@ msgstr ""
 "programes seran un poc lents) - recordeu que només és una demostració. Si "
 "decidiu instal·lar-lo, el sistema serà molt més ràpid. "
 
-#: pages/switch_to_linux.try_or_install.php:34
-#: pages/switch_to_linux.try_or_install.php:50
+#: pages/switch_to_linux.try_or_install.php:41
+#: pages/switch_to_linux.try_or_install.php:57
 msgid "What you need"
 msgstr "Què és necessari"
 
-#: pages/switch_to_linux.try_or_install.php:36
+#: pages/switch_to_linux.try_or_install.php:43
 msgid ""
 "To use a live CD, you need a little bit of curiosity and fifteen minutes of "
 "free time, but <strong>no advanced knowledge in computing</strong>. If you "
@@ -2936,15 +2750,15 @@ msgstr ""
 "minuts de temps lliure i <em>cap coneixement avançat sobre ordinadors</em>. "
 "Si us sentiu còmode utilitzant Windows, ho podreu fer. "
 
-#: pages/switch_to_linux.try_or_install.php:44
+#: pages/switch_to_linux.try_or_install.php:49
 msgid "Installing as a dual boot"
 msgstr "Instal·lant amb arrencada dual"
 
-#: pages/switch_to_linux.try_or_install.php:46
+#: pages/switch_to_linux.try_or_install.php:53
 msgid "Choose at start-up"
 msgstr "Escolliu a l'arrencada"
 
-#: pages/switch_to_linux.try_or_install.php:47
+#: pages/switch_to_linux.try_or_install.php:54
 msgid ""
 "It is possible to install GNU/Linux along with Windows. This means that upon "
 "start-up, you will be greeted with a screen allowing you to boot into the "
@@ -2954,7 +2768,7 @@ msgstr ""
 "engegueu l'ordinador, una pantalla us preguntarà amb quin sistema operatiu "
 "voleu començar."
 
-#: pages/switch_to_linux.try_or_install.php:48
+#: pages/switch_to_linux.try_or_install.php:55
 msgid ""
 "Setting up a dual-boot can be helpful if you need time to abandon "
 "restrictive software. It is <a href=\"http://www.ubuntu.com/download/desktop/"
@@ -2962,7 +2776,7 @@ msgid ""
 "difficult to set-up</a>, though erasing Windows altogether is even easier."
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:51
+#: pages/switch_to_linux.try_or_install.php:58
 msgid ""
 "Installing Linux on your computer will take you less than 30 minutes. It is "
 "not an obvious step for complete beginners, but if you use computers on a "
@@ -2976,18 +2790,18 @@ msgstr ""
 "reinstal·lat Windows en alguna ocasió, estigueu segurs que instal·lar GNU/"
 "Linux no us serà gens complicat."
 
-#: pages/switch_to_linux.try_or_install.php:61
+#: pages/switch_to_linux.try_or_install.php:65
 msgid "Get the CD or DVD you need"
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:63
+#: pages/switch_to_linux.try_or_install.php:67
 msgid ""
 "For the distributions we recommend, the live CD/DVD is the same as the "
 "installation CD/DVD. You can either download and burn a CD/DVD yourself, or "
 "order a CD/DVD from a trusted vendor."
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:69
+#: pages/switch_to_linux.try_or_install.php:71
 msgid ""
 "You can download an <code>iso</code> image (rather large file) and then <a "
 "href=\"http://www.ubuntu.com/download/desktop/burn-a-dvd-on-windows\">burn "
@@ -2996,17 +2810,17 @@ msgid ""
 "Ubuntu</a> onto your computer."
 msgstr ""
 
-#: pages/switch_to_linux.try_or_install.php:73
+#: pages/switch_to_linux.try_or_install.php:75
 msgid "Download Ubuntu"
 msgstr "Descarregueu l'Ubuntu"
 
-#: pages/switch_to_linux.try_or_install.php:74
-#: pages/switch_to_linux.try_or_install.php:88
-#: pages/switch_to_linux.try_or_install.php:102
+#: pages/switch_to_linux.try_or_install.php:78
+#: pages/switch_to_linux.try_or_install.php:93
+#: pages/switch_to_linux.try_or_install.php:108
 msgid "Order a CD/DVD"
 msgstr "Demaneu un CD/DVD"
 
-#: pages/switch_to_linux.try_or_install.php:83
+#: pages/switch_to_linux.try_or_install.php:86
 msgid ""
 "The Fedora live CD/DVD also enables installation. Follow the <a href="
 "\"http://docs.fedoraproject.org/en-US/Fedora/18/html/"
@@ -3018,11 +2832,11 @@ msgstr ""
 "Installation_Quick_Start_Guide/index.html\">Guia ràpida d'instal·lació del "
 "Fedora</a> per a començar."
 
-#: pages/switch_to_linux.try_or_install.php:87
+#: pages/switch_to_linux.try_or_install.php:90
 msgid "Download Fedora"
 msgstr "Descarregueu el Fedora"
 
-#: pages/switch_to_linux.try_or_install.php:97
+#: pages/switch_to_linux.try_or_install.php:101
 msgid ""
 "The <a href=\"http://trisquel.info/en/wiki/installation-guide\">Trisquel "
 "installation</a> is very similar to that of Ubuntu."
@@ -3030,11 +2844,11 @@ msgstr ""
 "La <a href=\"http://trisquel.info/en/wiki/installation-guide\">instal·lació "
 "del Trisquel</a> és molt semblant a la de l'Ubuntu."
 
-#: pages/switch_to_linux.try_or_install.php:101
+#: pages/switch_to_linux.try_or_install.php:105
 msgid "Download Trisquel"
 msgstr "Descarregueu el Trisquel"
 
-#: pages/switch_to_linux.try_or_install.php:109
+#: pages/switch_to_linux.try_or_install.php:114
 msgid ""
 "Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href="
 "\"http://www.softwareliberty.com/\" title=\"What do you mean, free?\">free "
@@ -3045,11 +2859,11 @@ msgstr ""
 "definició de programari lliure\">programari lliure</a>. Només pagueu una "
 "petita comissió per despeses d'enviament."
 
-#: pages/switch_to_linux.try_or_install.php:116
+#: pages/switch_to_linux.try_or_install.php:121
 msgid "Free Software pre-installed"
 msgstr "Programari lliure preinstal·lat"
 
-#: pages/switch_to_linux.try_or_install.php:118
+#: pages/switch_to_linux.try_or_install.php:123
 msgid ""
 "Not all computers are shipped with Windows. If you do not wish to make the "
 "install yourself, or are in need of new hardware, you can get a laptop or a "
@@ -3064,7 +2878,7 @@ msgstr ""
 "title=\"linux computers\" href=\"http://linuxpreloaded.com/\">una llista de "
 "venedors que preinstal·len Linux a LinuxPreloaded.com</a>."
 
-#: pages/windows.php:19
+#: pages/windows.php:21
 msgid "Windows and Office work fine &mdash; Why worry about it?"
 msgstr "Windows i Office funcionen bé. Per què preocupar-me'n?"
 
@@ -3076,7 +2890,7 @@ msgstr ""
 "Una còpia legal de Windows és cara, però què us donen? Windows i Office "
 "tenen llicència d'ús, no es venen."
 
-#: pages/windows.php:30
+#: pages/windows.php:31
 msgid ""
 "By using these products, we have to agree to <strong>a number of harsh "
 "restrictions</strong>. For most Windows licenses, you can't keep the "
@@ -3091,16 +2905,11 @@ msgstr ""
 "pot fer funcionar el programari? En quin ordinador? Què podeu fer amb ell? "
 "La llista de restriccions és llarga i alguns punts són indignants."
 
-#: pages/windows.php:33 pages/windows.php:47 pages/windows.php:60
-#: pages/windows.php:76
-msgid "read our full article:"
-msgstr "llegiu el nostre article complet:"
-
-#: pages/windows.php:43
+#: pages/windows.php:39
 msgid "Software should come without locks in it."
 msgstr "El programari hauria de venir sense panys pel mig."
 
-#: pages/windows.php:44
+#: pages/windows.php:41
 msgid ""
 "Why are Office documents difficult to export? Why are the formats "
 "continually changing? Why can you not even uninstall some programs? It might "
@@ -3111,7 +2920,7 @@ msgstr ""
 "desinstal·lar? Probablement, si cerqueu la llibertat d'elecció, els "
 "productes Microsoft no estan fets per a vosaltres."
 
-#: pages/windows.php:55
+#: pages/windows.php:49
 msgid ""
 "The source codes of Windows and Office are hidden, so, <strong>no one is "
 "allowed to understand</strong> how these programs work."
@@ -3120,7 +2929,7 @@ msgstr ""
 "programari privatiu estan ocults. En aquest sentit, <strong>ningú no té "
 "permís legal per a entendre com funcionen aquests programes</strong>."
 
-#: pages/windows.php:56
+#: pages/windows.php:51
 msgid ""
 "If you can't get a right to inspect source code (the human-readable inner "
 "workings of a program), you can't have someone correct flaws or evaluate how "
@@ -3130,7 +2939,7 @@ msgstr ""
 "correccions pertinents, modifiqui o avaluï la vostra seguretat amb aquell "
 "programa."
 
-#: pages/windows.php:57
+#: pages/windows.php:53
 msgid ""
 "And guess what? On software that comes with source code, viruses and spyware "
 "aren't effective, and security isn't bought on extra. The antivirus software "
@@ -3143,7 +2952,7 @@ msgstr ""
 "la qual Microsoft és ara un jugador important, prefereixen que utilitzeu "
 "Windows."
 
-#: pages/windows.php:70
+#: pages/windows.php:63
 msgid ""
 "A free society requires free software. Think of &quot;free&quot; as in "
 "freedom, not price: the freedoms to inspect, learn from, modify the software "
@@ -3153,7 +2962,7 @@ msgstr ""
 "lliure&quot; com en llibertat, no pel preu: les llibertats de revisar, "
 "aprendre'n i modificar el programari que feu servir."
 
-#: pages/windows.php:71
+#: pages/windows.php:65
 msgid ""
 "Computers are used to share ideas, culture and information. Without these "
 "freedoms over software, we risk losing control over what we share."
@@ -3162,7 +2971,7 @@ msgstr ""
 "aquestes llibertats en el programari, ens arrisquem a perdre el control "
 "sobre el que compartim."
 
-#: pages/windows.php:72
+#: pages/windows.php:67
 msgid ""
 "This is happening today. From plain annoying technologies such as Digital "
 "Restrictions Management (<strong>DRM</strong>) to downright frightening ones "
@@ -3174,7 +2983,7 @@ msgstr ""
 "Restriccions Digitals), o la <strong>Computació de Confiança</strong>, ens "
 "amenacen a deixar de ser partícips de la cultura."
 
-#: pages/windows.php:73
+#: pages/windows.php:69
 msgid ""
 "If you have to give up your freedoms to use software, maybe you should not "
 "be happy with it."
@@ -3182,7 +2991,7 @@ msgstr ""
 "Si heu d'abandonar les vostres llibertats a l'hora d'utilitzar el "
 "programari, probablement no us agradi tot això. "
 
-#: pages/windows.php:85
+#: pages/windows.php:77
 #, php-format
 msgid ""
 "Many people find that Windows, an otherwise decent piece of software, "
@@ -3194,7 +3003,7 @@ msgstr ""
 "programari, <strong>treu tants drets</strong> a l'usuari, que no val la pena "
 "utilitzar-lo. Mac OS <a href=\"%s#mac_freedom\"> no és pas millor</a>."
 
-#: pages/windows.php:87
+#: pages/windows.php:79
 #, php-format
 msgid ""
 "If you find <a href=\"http://www.softwareliberty.com/\" title=\"what is "
@@ -3205,11 +3014,7 @@ msgstr ""
 "\">programari lliure</a>, podem suggerir-vos <a href=\"%s\">Migrar a Linux</"
 "a>."
 
-#: pages/windows.php:94
-msgid "previous:"
-msgstr "anterior:"
-
-#: pages/windows.restrictions.further_details.php:21
+#: pages/windows.restrictions.further_details.php:22
 #, php-format
 msgid ""
 "We wished to keep our \"<a href=\"%s\">Restrictions</a>\" page short, so we "
@@ -3237,7 +3042,7 @@ msgstr ""
 "de la llicència de Microsoft Office suggereixen que seria il·legal deixar "
 "escriure el vostre veí, amb el vostre Word i el vostre ordinador."
 
-#: pages/windows.restrictions.further_details.php:29
+#: pages/windows.restrictions.further_details.php:30
 msgid ""
 "It is however clear in the Microsoft Windows license that you may <em>only</"
 "em> give or sell your copy of Windows software to anyone <strong>if you are "
@@ -3254,7 +3059,7 @@ msgstr ""
 "altre persona, encara que ja no l'utilitzeu. Fins i tot, si aquest "
 "programari us ha arribat inclòs amb el vostre nou ordinador."
 
-#: pages/windows.restrictions.further_details.php:35
+#: pages/windows.restrictions.further_details.php:34
 msgid ""
 "You may not lease, lend or provide commercial hosting services with the "
 "software"
@@ -3271,7 +3076,7 @@ msgstr ""
 "si paguen el servei com si no, i tant si utilitzeu una llicència &quot;"
 "Professional&quot; com si no."
 
-#: pages/windows.restrictions.further_details.php:41
+#: pages/windows.restrictions.further_details.php:40
 msgid "The upgrade is only valid for the first license you use it on"
 msgstr ""
 "Les actualitzacions i millores només són vàlides per a la primera llicència "
@@ -3291,7 +3096,7 @@ msgstr ""
 msgid "Educational versions are crippled"
 msgstr "Les versions educatives estan capades"
 
-#: pages/windows.restrictions.further_details.php:47
+#: pages/windows.restrictions.further_details.php:48
 msgid ""
 "If Microsoft accepts to define you as a student or an academic, you are "
 "allowed to buy an academic license, and install the software on three "
@@ -3309,7 +3114,7 @@ msgstr ""
 msgid "The components of the software may not be separated"
 msgstr "No es poden separar els components del programari"
 
-#: pages/windows.restrictions.further_details.php:53
+#: pages/windows.restrictions.further_details.php:54
 msgid ""
 "It is illegal to buy Microsoft Office, then install only Word on one "
 "computer, and only Excel on another. The Office suite is one single product."
@@ -3317,11 +3122,11 @@ msgstr ""
 "És il·legal adquirir Microsoft Office i instal·lar només el Word en un "
 "ordinador, i l'Excel en un altre. La suite de l'Office és un producte únic."
 
-#: pages/windows.restrictions.further_details.php:57
+#: pages/windows.restrictions.further_details.php:58
 msgid "Private information is collected"
 msgstr "Es recull informació privada"
 
-#: pages/windows.restrictions.further_details.php:59
+#: pages/windows.restrictions.further_details.php:60
 msgid ""
 "The licence explicitly states that \"Microsoft and its affiliates\" collect "
 "technical information gathered on your computer by the software. They "
@@ -3334,7 +3139,7 @@ msgstr ""
 "millorar productes o proporcionar serveis personalitzats o tecnologies</em>"
 "\"."
 
-#: pages/windows.restrictions.further_details.php:60
+#: pages/windows.restrictions.further_details.php:62
 msgid ""
 "In order to activate most Microsoft products, as part of the license "
 "agreement, your computer connects to the Microsoft servers and sends &quot;"
@@ -3347,25 +3152,20 @@ msgstr ""
 "tècnica&quot;. &quot;Només&quot; ho poden utilitzar per a fer pràcticament "
 "qualsevol cosa."
 
-#: pages/windows.restrictions.further_details.php:66
-#: pages/windows.stand_for_a_free_society.php:131
-msgid "Read more"
-msgstr "Llegiu-ne més"
-
 #. i18n: If it exists, please use a non-official translation of the GPL in your language, as pointed on http://www.gnu.org/licenses/translations.html
-#: pages/windows.restrictions.further_details.php:71
+#: pages/windows.restrictions.further_details.php:72
 msgid "http://www.gnu.org/copyleft/gpl.html"
 msgstr "http://www.gnu.org/copyleft/gpl.html"
 
-#: pages/windows.restrictions.further_details.php:71
+#: pages/windows.restrictions.further_details.php:72
 msgid "The GNU General Public License"
 msgstr "La Llicència Pública General GNU"
 
-#: pages/windows.restrictions.further_details.php:71
+#: pages/windows.restrictions.further_details.php:72
 msgid "The GPL"
 msgstr "La GPL"
 
-#: pages/windows.restrictions.further_details.php:72
+#: pages/windows.restrictions.further_details.php:74
 msgid ""
 "The GNU General Public License, under which GNU/Linux and a vast amount of "
 "free software are published."
@@ -3373,33 +3173,33 @@ msgstr ""
 "La \"General Public licence\", sota la qual es publica el sistema GNU/Linux "
 "i una gran quantitat de programari lliure."
 
-#: pages/windows.restrictions.further_details.php:74
+#: pages/windows.restrictions.further_details.php:76
 msgid "Comparing the GPL to the Microsoft WinXP License"
 msgstr "Comparació de la GPL amb la llicència de Microsoft WinXP"
 
-#: pages/windows.restrictions.further_details.php:75
+#: pages/windows.restrictions.further_details.php:78
 msgid ""
-"A thorough and clear comparison of the <acronym title=\"GNU General Public "
-"License\">GPL</acronym> and the Microsoft <acronym title=\"End-User License "
-"Agreement\">EULA</acronym> license that governs the use of most Windows XP "
+"A thorough and clear comparison of the <abbr title=\"GNU General Public "
+"License\">GPL</abbr> and the Microsoft <abbr title=\"End-User License "
+"Agreement\">EULA</abbr> license that governs the use of most Windows XP "
 "versions."
 msgstr ""
-"(En anglès) Una clara comparació entre la <acronym title=\"GNU General "
-"Public License\">GPL</acronym> i la llicència <acronym title=\"End-User "
-"License Agreement\">EULA</acronym> de Microsoft, sota la qual es publiquen "
-"moltes de les versions de Windows XP."
+"(En anglès) Una clara comparació entre la <abbr title=\"GNU General Public "
+"License\">GPL</abbr> i la llicència <abbr title=\"End-User License Agreement"
+"\">EULA</abbr> de Microsoft, sota la qual es publiquen moltes de les "
+"versions de Windows XP."
 
 #: pages/windows.restrictions.further_details.php:81
-#: pages/windows.stand_for_a_free_society.php:134
+#: pages/windows.stand_for_a_free_society.php:137
 msgid "http://www.gnu.org/philosophy/right-to-read.html"
 msgstr "http://www.gnu.org/philosophy/right-to-read.html"
 
 #: pages/windows.restrictions.further_details.php:81
-#: pages/windows.stand_for_a_free_society.php:134
+#: pages/windows.stand_for_a_free_society.php:137
 msgid "The Right to Read"
 msgstr "El dret a llegir"
 
-#: pages/windows.restrictions.further_details.php:82
+#: pages/windows.restrictions.further_details.php:83
 msgid ""
 "A short story by Richard Stallman that describes what influence restrictive "
 "licenses could have on our lives."
@@ -3407,44 +3207,6 @@ msgstr ""
 "(En anglès) Un conte escrit per en Richard Stallman que descriu la "
 "influència que podrien tenir les llicències restrictives sobre la nostres "
 "vides."
-
-#: pages/windows.restrictions.php:18
-msgid ""
-"If you go to most of the free software sites you can click down a couple of "
-"levels and find the [GNU] <acronym title=\"General Public License, the main "
-"free software license\">GPL</acronym>, the X license, the Apache license, "
-"whichever terms and conditions you have to accept in order to use that "
-"software."
-msgstr ""
-"A la majoria de llocs web relacionats amb el programari lliure, trobareu a "
-"baix de tot, una referència a la llicència GNU/<acronym title=\"General "
-"Public License, llicència més utilitzada en programari lliure\">GPL</"
-"acronym>, la llicència X.org, la llicència Apatxe o altres, i en clicar en "
-"ella podreu veure les condicions que s'han d'acceptar per utilitzar aquell "
-"programari."
-
-#: pages/windows.restrictions.php:19
-msgid ""
-"Now with a proprietary software company, the license is buried so you can't "
-"read it until after you have paid for the product, then they're asking you "
-"to <strong>turn off part of your brain</strong>, they're asking you to turn "
-"off part of your ability to work with other people and to do business, when "
-"you use their software."
-msgstr ""
-"Amb una empresa de programari privatiu, la llicència està soterrada de "
-"manera que no la podeu llegir fins després d'haver pagat el producte. "
-"Llavors, us demanen que quan utilitzeu el seu programari <strong>inhabiliteu "
-"el vostre cervell</strong> i les vostres capacitats per a treballar amb  "
-"altra gent i fer negocis. "
-
-#: pages/windows.restrictions.php:20
-msgid "Don Marti interview"
-msgstr "Don Marti"
-
-#: pages/windows.restrictions.php:20
-#: pages/windows.stand_for_a_free_society.php:27
-msgid "2005 interview"
-msgstr "entrevista de 2005"
 
 #: pages/windows.restrictions.php:23
 msgid ""
@@ -3461,15 +3223,52 @@ msgid "Haven't read your license fully? We did that job for you."
 msgstr ""
 "No heu llegit mai la vostra llicència? Nosaltres ho hem fet per a vosaltres."
 
-#: pages/windows.restrictions.php:26
+#: pages/windows.restrictions.php:28
+msgid ""
+"If you go to most of the free software sites you can click down a couple of "
+"levels and find the [GNU] <abbr title=\"General Public License, the main "
+"free software license\">GPL</abbr>, the X license, the Apache license, "
+"whichever terms and conditions you have to accept in order to use that "
+"software."
+msgstr ""
+"A la majoria de llocs web relacionats amb el programari lliure, trobareu a "
+"baix de tot, una referència a la llicència GNU/<abbr title=\"General Public "
+"License, llicència més utilitzada en programari lliure\">GPL</acronym>, la "
+"llicència X.org, la llicència Apatxe o altres, i en clicar en ella podreu "
+"veure les condicions que s'han d'acceptar per utilitzar aquell programari."
+
+#: pages/windows.restrictions.php:29
+msgid ""
+"Now with a proprietary software company, the license is buried so you can't "
+"read it until after you have paid for the product, then they're asking you "
+"to <strong>turn off part of your brain</strong>, they're asking you to turn "
+"off part of your ability to work with other people and to do business, when "
+"you use their software."
+msgstr ""
+"Amb una empresa de programari privatiu, la llicència està soterrada de "
+"manera que no la podeu llegir fins després d'haver pagat el producte. "
+"Llavors, us demanen que quan utilitzeu el seu programari <strong>inhabiliteu "
+"el vostre cervell</strong> i les vostres capacitats per a treballar amb  "
+"altra gent i fer negocis. "
+
+#: pages/windows.restrictions.php:30
+msgid "Don Marti interview"
+msgstr "Don Marti"
+
+#: pages/windows.restrictions.php:30
+#: pages/windows.stand_for_a_free_society.php:34
+msgid "2005 interview"
+msgstr "entrevista de 2005"
+
+#: pages/windows.restrictions.php:33
 msgid "The small print in the contract"
 msgstr "La lletra petita"
 
-#: pages/windows.restrictions.php:32
+#: pages/windows.restrictions.php:37
 msgid "Windows and Office are licensed, not sold."
 msgstr "Windows i MS Office estan llicenciats, no en venda."
 
-#: pages/windows.restrictions.php:33
+#: pages/windows.restrictions.php:38
 msgid ""
 "No one can buy Windows or Microsoft Office: instead users <strong>purchase a "
 "permission to use</strong> them. The license describes the terms of this "
@@ -3481,15 +3280,15 @@ msgstr ""
 "els termes d'aquest permís. És el text legal restrictiu en el qual hem de "
 "fer clic a \"Acceptar\" abans d'instal·lar."
 
-#: pages/windows.restrictions.php:36
+#: pages/windows.restrictions.php:41
 msgid "You must abandon many rights to use the software."
 msgstr "Heu de renunciar a molts drets per poder utilitzar aquest programari."
 
-#: pages/windows.restrictions.php:37
+#: pages/windows.restrictions.php:42
 msgid "There are a number of restrictions that you must accept by law."
 msgstr "Existeixen certes restriccions que heu de complir per llei. "
 
-#: pages/windows.restrictions.php:38
+#: pages/windows.restrictions.php:43
 #, php-format
 msgid ""
 "Restrictions on who can use the software, what kind of revenue you may earn "
@@ -3499,19 +3298,19 @@ msgid ""
 "enumerating your remaining rights</a> is itself a difficult task."
 msgstr ""
 
-#. i18n: Don't bother with the 'acronym' code. You can tranlsate as 'OEM [pre-installed]'
-#: pages/windows.restrictions.php:45
+#. i18n: Don't bother with the 'abbr' code. You can tranlsate as 'OEM [pre-installed]'
+#: pages/windows.restrictions.php:50
 msgid ""
-"An <acronym title=\"Original Equipment Manufacturer (simply the hardware "
-"seller)\">OEM</acronym>-distributed software cannot be transferred to "
-"another computer."
+"An <abbr title=\"Original Equipment Manufacturer (simply the hardware "
+"seller)\">OEM</abbr>-distributed software cannot be transferred to another "
+"computer."
 msgstr ""
-"Una còpia de programari <acronym title=\"Original Equipment Manufacturer "
-"(l'instal·la el venedor de l'ordinador)\">OEM</acronym> no pot ser "
-"transferida a un altre ordinador."
+"Una còpia de programari <abbr title=\"Original Equipment Manufacturer "
+"(l'instal·la el venedor de l'ordinador)\">OEM</abbr> no pot ser transferida "
+"a un altre ordinador."
 
 #. i18n: Don't bother with the 'shrink-wrap' expression. You can skip that bit if you wish.
-#: pages/windows.restrictions.php:49
+#: pages/windows.restrictions.php:54
 msgid ""
 "If you bought your computer with Windows or Office pre-installed (the so-"
 "called OEM licenses, or the \"shrink wrap\" Windows discs), <strong>if you "
@@ -3521,7 +3320,7 @@ msgstr ""
 "anomenada llicència OEM), i decidiu canviar d'ordinador, <strong>heu de "
 "tornar a comprar els programes</strong>."
 
-#: pages/windows.restrictions.php:50
+#: pages/windows.restrictions.php:55
 msgid ""
 "The license is linked to one computer, and expires when the computer dies. "
 "It is then illegal to transfer the software on another computer."
@@ -3529,12 +3328,12 @@ msgstr ""
 "La llicència està lligada a l'ordinador, i expira quan l'ordinador mor. "
 "Llavors, és il·legal transferir el programari a un altre ordinador."
 
-#: pages/windows.restrictions.php:55
+#: pages/windows.restrictions.php:59
 msgid "The meaning behind"
 msgstr "El missatge amagat"
 
 #. i18n: Please don't forget the rel=nofollow element in the link - it makes sure we don't increase MS PR.
-#: pages/windows.restrictions.php:59
+#: pages/windows.restrictions.php:63
 msgid ""
 "Companies like Microsoft like to assimilate their software to physical "
 "products, <a href=\"http://www.microsoft.com/piracy/\" rel=\"nofollow\">when "
@@ -3549,7 +3348,7 @@ msgstr ""
 "de la llicència restrictiva - aquestes restriccions serien impensables en un "
 "cotxe, per exemple."
 
-#: pages/windows.restrictions.php:60
+#: pages/windows.restrictions.php:64
 msgid ""
 "Restrictions on the use of Office and Windows are so harsh, that many "
 "violations occur everyday around us. People are tempted to buy only one "
@@ -3565,7 +3364,7 @@ msgstr ""
 "quan el deixen d'utilitzar."
 
 #. i18n: use the definition of "free software" on GNU.org in place of softwareliberty.com ; also, if you can, use a translation of the GPL as found on http://www.gnu.org/licenses/translations.html
-#: pages/windows.restrictions.php:63
+#: pages/windows.restrictions.php:67
 msgid ""
 "<strong>You have an alternative to breaking this law,</strong> or feeling "
 "very restrained when you abide to it. GNU/Linux is <a href=\"http://www."
@@ -3580,38 +3379,15 @@ msgstr ""
 "softcatala.cat/wiki/GPL3\">GPL</a> es va dissenyar per a protegir els "
 "nostres drets."
 
-#: pages/windows.restrictions.php:66
+#: pages/windows.restrictions.php:69
 msgid "Restrictions - further details"
 msgstr "Més detalls sobre les restriccions"
 
-#: pages/windows.stand_for_a_free_society.php:20
+#: pages/windows.stand_for_a_free_society.php:23
 msgid "Stand for a Free Society"
 msgstr "Treballeu per a una societat lliure"
 
-#. i18n : This is the quote by Don Marti at the start of the article.
-#: pages/windows.stand_for_a_free_society.php:25
-msgid ""
-"I come up with new words, phrases, analogies, all kinds of fun stuff in the "
-"English language and people paraphrase what I had to say and make money "
-"talking about some of the same things that I did."
-msgstr ""
-"Proposo paraules noves, frases, analogies, tota classe de diversió dins la "
-"llengua anglesa i la gent parafrasseja el que dic i guanya diners parlant de "
-"les mateixes coses que jo he dit."
-
 #: pages/windows.stand_for_a_free_society.php:26
-msgid ""
-"<strong>If I try to lock down</strong> what I talk about and write about, "
-"the same way as a proprietary software company does, then the whole industry "
-"of speaking, writing, media, would be overly litigious, and transaction "
-"costs would be prohibitive."
-msgstr ""
-"<strong>Si intento tancar</strong> allò que dic o escric, estic fent el "
-"mateix que fa una empresa de programari privatiu. Llavors, la indústria del "
-"parlar, l'escriptura, els mitjans de comunicació serien massa litigiosos i "
-"les despeses de transacció serien prohibitives. "
-
-#: pages/windows.stand_for_a_free_society.php:30
 msgid ""
 "There is much more to software than being trustworthy (being \"Open-Source"
 "\"): what really counts is <strong>the freedoms you get</strong> over it. "
@@ -3623,11 +3399,34 @@ msgstr ""
 "lo? Podeu modificar-lo?  Podeu distribuir-lo? És això al què ens referim "
 "quan parlem de Programari Lliure."
 
+#. i18n : This is the quote by Don Marti at the start of the article.
 #: pages/windows.stand_for_a_free_society.php:32
+msgid ""
+"I come up with new words, phrases, analogies, all kinds of fun stuff in the "
+"English language and people paraphrase what I had to say and make money "
+"talking about some of the same things that I did."
+msgstr ""
+"Proposo paraules noves, frases, analogies, tota classe de diversió dins la "
+"llengua anglesa i la gent parafrasseja el que dic i guanya diners parlant de "
+"les mateixes coses que jo he dit."
+
+#: pages/windows.stand_for_a_free_society.php:33
+msgid ""
+"<strong>If I try to lock down</strong> what I talk about and write about, "
+"the same way as a proprietary software company does, then the whole industry "
+"of speaking, writing, media, would be overly litigious, and transaction "
+"costs would be prohibitive."
+msgstr ""
+"<strong>Si intento tancar</strong> allò que dic o escric, estic fent el "
+"mateix que fa una empresa de programari privatiu. Llavors, la indústria del "
+"parlar, l'escriptura, els mitjans de comunicació serien massa litigiosos i "
+"les despeses de transacció serien prohibitives. "
+
+#: pages/windows.stand_for_a_free_society.php:37
 msgid "Not a crazy concept"
 msgstr "No és un concepte boig"
 
-#: pages/windows.stand_for_a_free_society.php:33
+#: pages/windows.stand_for_a_free_society.php:39
 msgid ""
 "It sounds peculiar to many users that software should be free as in freedom, "
 "since none of Microsoft's products are. Yet our society works with many free "
@@ -3638,7 +3437,7 @@ msgstr ""
 "moltes coses lliures, per exemple:"
 
 #. i18n : This is the short quote on the side of the article.
-#: pages/windows.stand_for_a_free_society.php:40
+#: pages/windows.stand_for_a_free_society.php:44
 msgid ""
 "Though no one has a proprietary lock on yoga, it is still a thriving $30 "
 "billion business in the United States."
@@ -3646,7 +3445,7 @@ msgstr ""
 "Tot i que no hi ha ningú que tingui una patent sobre el ioga, és una "
 "indústria que mou $30 bilions als Estats Units d'Amèrica"
 
-#: pages/windows.stand_for_a_free_society.php:45
+#: pages/windows.stand_for_a_free_society.php:49
 msgid ""
 "No chef would ever forbid you to modify his recipe and make derivatives out "
 "of it. The food industry thrives despite being required by law to list "
@@ -3656,7 +3455,7 @@ msgstr ""
 "derivades. El sector alimentari creix malgrat ser exigit per llei que es "
 "mostrin els ingredients a les etiquetes de cada producte."
 
-#: pages/windows.stand_for_a_free_society.php:46
+#: pages/windows.stand_for_a_free_society.php:50
 msgid ""
 "A fair law court system permits anyone to read through all the trial "
 "hearings and arguments. Not only the result (the final deliberations), but "
@@ -3666,7 +3465,7 @@ msgstr ""
 "les audiències, les proves i els arguments. No només el veredicte final, "
 "sinó també el procés és plenament obert."
 
-#: pages/windows.stand_for_a_free_society.php:49
+#: pages/windows.stand_for_a_free_society.php:53
 msgid ""
 "Free software is free as in &quot;free speech&quot;, as in a &quot;free "
 "market&quot;: all are necessary for a free society. Unconvinced? Let us look "
@@ -3676,11 +3475,11 @@ msgstr ""
 "com en un &quot;mercat lliure&quot;: tot és necessari per a una societat "
 "lliure. Escèptic? Anem a mirar el programari privatiu més detingudament."
 
-#: pages/windows.stand_for_a_free_society.php:51
+#: pages/windows.stand_for_a_free_society.php:55
 msgid "Proprietary software going wrong"
 msgstr "El programari privatiu va malament"
 
-#: pages/windows.stand_for_a_free_society.php:53
+#: pages/windows.stand_for_a_free_society.php:57
 #, php-format
 msgid ""
 "The limits of proprietary software go beyond the security issue (see <a href="
@@ -3694,13 +3493,13 @@ msgstr ""
 "Això passa principalment gràcies a dues tecnologies:"
 
 #. i18n: This is sometimes only known as "DRM" in some languages. Please choose the vocabulary carefully. The %s placeholder links to a footnote which explains why we use the term "Digital Restrictions Management": http://www.getgnulinux.org/windows/stand_for_a_free_society/#footnote_bottom1
-#: pages/windows.stand_for_a_free_society.php:60
+#: pages/windows.stand_for_a_free_society.php:62
 #, php-format
 msgid "Digital Restrictions Management %s (DRM)"
 msgstr "Gestió de Restriccions Digitals%s (DRM)"
 
 #. i18n: The %s placeholder will automatically point to the footnote on bottom of page
-#: pages/windows.stand_for_a_free_society.php:64
+#: pages/windows.stand_for_a_free_society.php:66
 #, php-format
 msgid ""
 "The main idea of DRM %s is to restrict access to files. Users encounter this "
@@ -3715,32 +3514,32 @@ msgstr ""
 "reproductor de música. Amb aquest mètode, les empreses eviten la violació "
 "del copyright, però també disminueix l'accés dels usuaris als seus fitxers."
 
-#: pages/windows.stand_for_a_free_society.php:68
+#: pages/windows.stand_for_a_free_society.php:70
 msgid "DRM is control over content"
 msgstr "DRM és el control sobre el contingut"
 
-#: pages/windows.stand_for_a_free_society.php:70
+#: pages/windows.stand_for_a_free_society.php:73
 msgid ""
 "Except that the control is not in the hands of the end-user. The original "
-"purpose of <acronym title=\"Digital Restrictions Management\">DRM</acronym> "
-"is understandable, but the implications over the flow of information and "
+"purpose of <abbr title=\"Digital Restrictions Management\">DRM</abbr> is "
+"understandable, but the implications over the flow of information and "
 "culture within a society are frightening."
 msgstr ""
 
-#: pages/windows.stand_for_a_free_society.php:73
+#: pages/windows.stand_for_a_free_society.php:77
 msgid ""
 "Imagine a book that automatically became glued shut after you read it once."
 msgstr ""
 "Imagineu un llibre que automàticament es bloca després d'haver-lo llegit un "
 "sol cop."
 
-#: pages/windows.stand_for_a_free_society.php:74
+#: pages/windows.stand_for_a_free_society.php:78
 msgid ""
 "Imagine documents that self-destructed if you tried to take them out of the "
 "room."
 msgstr "Imagineu documents que s'autodestrueixen quan sortiu de l'habitació."
 
-#: pages/windows.stand_for_a_free_society.php:75
+#: pages/windows.stand_for_a_free_society.php:79
 msgid ""
 "Imagine telephones that only worked if the person you were ringing was "
 "renting the same make and model."
@@ -3748,16 +3547,16 @@ msgstr ""
 "Imagineu telèfons que només funcionen si la persona a qui esteu trucant té "
 "el mateix model que vosaltres. "
 
-#: pages/windows.stand_for_a_free_society.php:78
+#: pages/windows.stand_for_a_free_society.php:83
 msgid "Sounds crazy? This is where Trusted Computing comes in."
 msgstr "Us sembla una bogeria? Seguiu llegint. "
 
 #. i18n: This is sometimes only known as "Trusted Computing", not TC, in some languages. Please choose the vocabulary carefully.
-#: pages/windows.stand_for_a_free_society.php:84
+#: pages/windows.stand_for_a_free_society.php:87
 msgid "Trusted Computing (TC)"
 msgstr "Informàtica de Confiança (Trusted Computing)"
 
-#: pages/windows.stand_for_a_free_society.php:86
+#: pages/windows.stand_for_a_free_society.php:89
 msgid ""
 "Trusted Computing (sometimes <a href=\"http://www.lafkon.net/tc/\" title=\"A "
 "very well done video on Trusted Computing\">more accurately</a> called "
@@ -3773,11 +3572,11 @@ msgstr ""
 "\". Se suposa que és una protecció contra noses (virus i spyware) i "
 "violacions de copyright (gent que copia programari privatiu)."
 
-#: pages/windows.stand_for_a_free_society.php:88
+#: pages/windows.stand_for_a_free_society.php:92
 msgid "Trusted Computing is control over the computer"
 msgstr "La Informàtica de Confiança és control sobre l'ordinador."
 
-#: pages/windows.stand_for_a_free_society.php:90
+#: pages/windows.stand_for_a_free_society.php:95
 msgid ""
 "The critical thing about Trusted Computing is that <strong>you cannot "
 "decide</strong> what is trustworthy and what is not. For example, your "
@@ -3793,7 +3592,7 @@ msgstr ""
 "documents fora de l'oficina, o reproduir un DVD del vostre veí, o enviar una "
 "redacció a qualcú que no utilitzi el mateix programa."
 
-#: pages/windows.stand_for_a_free_society.php:91
+#: pages/windows.stand_for_a_free_society.php:96
 msgid ""
 "A whole range of possibilities opens up for companies that benefit from "
 "restricting your computing (such as proprietary software and recording "
@@ -3810,7 +3609,7 @@ msgstr ""
 "copiar. Així, de sobte, la computació confiable i el DRM permeten el "
 "<strong>control remot</strong> sobre el contingut. "
 
-#: pages/windows.stand_for_a_free_society.php:92
+#: pages/windows.stand_for_a_free_society.php:97
 msgid ""
 "Trusted Computing, in effect, enables the publisher to write their own "
 "copyright law.</p>"
@@ -3818,12 +3617,12 @@ msgstr ""
 "La computació confiable, de fet, permet a l'editor escriure la seva pròpia "
 "llei de drets d'autor."
 
-#: pages/windows.stand_for_a_free_society.php:96
+#: pages/windows.stand_for_a_free_society.php:100
 msgid "The wider impact"
 msgstr "El gran impacte"
 
 #. i18n: This is the quote by Rosemary Bechler in the middle of the article.
-#: pages/windows.stand_for_a_free_society.php:103
+#: pages/windows.stand_for_a_free_society.php:105
 msgid ""
 "Many cultural products are now emerging &quot;triple protected&quot;, not "
 "only by copyright and code, but also by contracts or licenses for which "
@@ -3833,7 +3632,7 @@ msgstr ""
 "no només per a copyright i codi, sinó també per contractes o llicències per "
 "als quals els usuaris renuncien a tots els seus drets."
 
-#: pages/windows.stand_for_a_free_society.php:104
+#: pages/windows.stand_for_a_free_society.php:106
 msgid ""
 "Increasingly, copyright is replaced with click-through end-user licenses for "
 "digital content, using contract law to establish the absolute property "
@@ -3843,7 +3642,7 @@ msgstr ""
 "per al contingut digital\" de 'clicar per acceptar' on s'estableixen drets "
 "absoluts de propietat al copyright, prohibit als editors originàriament."
 
-#: pages/windows.stand_for_a_free_society.php:109
+#: pages/windows.stand_for_a_free_society.php:110
 msgid ""
 "Computing is not just about calculations anymore. We use software to "
 "communicate: to share information, ideas and culture. Software is in our "
@@ -3855,7 +3654,7 @@ msgstr ""
 "programari és present als nostres telèfons, cotxes, reproductors, "
 "televisions, i mana sobre qualsevol mecanisme nou que corri entre nosaltres."
 
-#: pages/windows.stand_for_a_free_society.php:116
+#: pages/windows.stand_for_a_free_society.php:117
 msgid ""
 "<strong>Software is increasingly used to enforce rules</strong>. Rules that "
 "may or may not be the law. Rules that may or may not be fair. If the "
@@ -3867,7 +3666,7 @@ msgstr ""
 "justes. Si el programari no és lliure, no hi haurà cap espai perquè l'usuari "
 "influeixi sobre aquestes normes."
 
-#: pages/windows.stand_for_a_free_society.php:118
+#: pages/windows.stand_for_a_free_society.php:119
 msgid ""
 "Trusted Computing and DRM pave the way for a society in which culture and "
 "information are not simply turned into products (they are right now, and "
@@ -3877,7 +3676,7 @@ msgstr ""
 "qual la cultura i la informació no es converteixin simplement en productes "
 "(ho són ara mateix, i això esta bé), sinó en productes <em>de consum</em>."
 
-#: pages/windows.stand_for_a_free_society.php:120
+#: pages/windows.stand_for_a_free_society.php:121
 msgid ""
 "Code is power. Most of today's work documents are written and encoded with "
 "secret algorithms in proprietary software. What will be of tomorrow's books, "
@@ -3891,7 +3690,7 @@ msgstr ""
 "Els programes privatius com Windows no tenen cap transparència. Una cultura "
 "i una societat lliure no poden crèixer de tal programari."
 
-#: pages/windows.stand_for_a_free_society.php:122
+#: pages/windows.stand_for_a_free_society.php:123
 #, php-format
 msgid "May we suggest you <a href=\"%s\">switch to Linux</a>?"
 msgstr ""
@@ -3899,7 +3698,7 @@ msgstr ""
 "als productes privatius. Podem suggerir-vos de fer el salt i <a href=\"%s"
 "\">Migrar a Linux</a>?"
 
-#: pages/windows.stand_for_a_free_society.php:127
+#: pages/windows.stand_for_a_free_society.php:128
 msgid ""
 "Note that DRM is often referred to as \"Digital Rights Management\", "
 "although it has little to do with rights &ndash; \"Digital Restrictions "
@@ -3909,7 +3708,7 @@ msgstr ""
 "tingui res a veure precisament en drets. \"Gestor de Restriccions Digitals\" "
 "sembla un terme més adient."
 
-#: pages/windows.stand_for_a_free_society.php:135
+#: pages/windows.stand_for_a_free_society.php:138
 msgid ""
 "What is the Trusted Computing world like? This is a short story by Richard "
 "Stallman that describes how this can affect any of us."
@@ -3918,24 +3717,24 @@ msgstr ""
 "Richard Stallman, que descriu com ens pot afectar en la nostra vida diària."
 
 #. i18n: Unless you know of a very good resource about DRM, please point to the Wikipedia article about DRM in your language, if it exists
-#: pages/windows.stand_for_a_free_society.php:139
+#: pages/windows.stand_for_a_free_society.php:142
 msgid "http://www.timj.co.uk/computing/politics-policy/drm/fallacy/"
 msgstr "http://www.timj.co.uk/computing/politics-policy/drm/fallacy/"
 
 #. i18n: Title of external link
-#: pages/windows.stand_for_a_free_society.php:141
+#: pages/windows.stand_for_a_free_society.php:144
 msgid "The fallacy of DRM"
 msgstr "DRM a la Viquipèdia"
 
-#: pages/windows.stand_for_a_free_society.php:142
+#: pages/windows.stand_for_a_free_society.php:145
 msgid ""
-"A very well constructed article about <acronym title=\"Digital Restrictions "
-"Management\">DRM</acronym> by Tim Jackson, and on which we based the present "
+"A very well constructed article about <abbr title=\"Digital Restrictions "
+"Management\">DRM</abbr> by Tim Jackson, and on which we based the present "
 "article."
 msgstr "Article a la Viquipèdia catalana sobre el DRM."
 
 #. i18n: If you don't know of a localized version of this article, please leave the URL in English
-#: pages/windows.stand_for_a_free_society.php:146
+#: pages/windows.stand_for_a_free_society.php:149
 msgid ""
 "http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-"
 "free-file-formats/"
@@ -3943,13 +3742,13 @@ msgstr ""
 "http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-"
 "free-file-formats/"
 
-#: pages/windows.stand_for_a_free_society.php:146
+#: pages/windows.stand_for_a_free_society.php:149
 msgid "Free Knowledge requires Free Software and Free File Formats"
 msgstr ""
 "El Coneixement Lliure necessita Programari Lliure i Formats de fitxers "
 "Lliures."
 
-#: pages/windows.stand_for_a_free_society.php:147
+#: pages/windows.stand_for_a_free_society.php:150
 msgid ""
 "An engaged article by Jimmy Wales, who co-founded the free encyclopedia <a "
 "href=\"http://www.wikipedia.org/\">Wikipedia</a>."
@@ -3957,15 +3756,15 @@ msgstr ""
 "Un article del cofundador de la <a href=\"http://ca.wikipedia.org/"
 "\">Wikipedia</a> Jimmy Wales."
 
-#: pages/windows.stand_for_a_free_society.php:154
+#: pages/windows.stand_for_a_free_society.php:153
 msgid "http://www.lafkon.net/tc/"
 msgstr "http://www.lafkon.net/tc/"
 
-#: pages/windows.stand_for_a_free_society.php:154
+#: pages/windows.stand_for_a_free_society.php:153
 msgid "Trusted Computing"
 msgstr "Informàtica de Confiança (en anglès)"
 
-#: pages/windows.stand_for_a_free_society.php:155
+#: pages/windows.stand_for_a_free_society.php:154
 msgid ""
 "Short video animation by Benjamin Stephan and Lutz Vogel. A clear, snappy "
 "and convincing argument."
@@ -3974,16 +3773,16 @@ msgstr ""
 "argument clar, irritable i convincent (En el punt \"Informàtica de Confiança"
 "\", hi ha l'enllaç per a veure els subtítols en català)."
 
-#: pages/windows.stand_for_a_free_society.php:157
-#: pages/windows.what_about_source_code.php:25
+#: pages/windows.stand_for_a_free_society.php:156
+#: pages/windows.what_about_source_code.php:48
 msgid "http://www.gnu.org/philosophy/why-free.html"
 msgstr "http://www.gnu.org/philosophy/why-free.ca.html"
 
-#: pages/windows.stand_for_a_free_society.php:157
+#: pages/windows.stand_for_a_free_society.php:156
 msgid "Why Software Should Not Have Owners"
 msgstr "Per què el programari no hauria de tenir propietaris"
 
-#: pages/windows.stand_for_a_free_society.php:158
+#: pages/windows.stand_for_a_free_society.php:157
 msgid ""
 "A pivotal text for the Free Software movement by Richard Stallman. It "
 "clarifies common objections and explains a handful of important ideas."
@@ -3992,12 +3791,20 @@ msgstr ""
 "Stallman. Clarifica objeccions comunes i explica algunes idees importants."
 
 #. i18n: This describes the last link, which will automatically point to the 'Misunderstanding Free Software' article
-#: pages/windows.stand_for_a_free_society.php:163
+#: pages/windows.stand_for_a_free_society.php:161
 msgid "More on free software on this website."
 msgstr "Més sobre el programari lliure en aquesta web."
 
+#: pages/windows.what_about_choice.php:24
+msgid ""
+"Microsoft works hard to make sure their users stay locked into their "
+"products."
+msgstr ""
+"Microsoft treballa molt dur per mantenir-vos lligats als seus productes, "
+"d'aquesta manera:  "
+
 #. i18n: This is a quote from Bill Gates at the start of the article.
-#: pages/windows.what_about_choice.php:22
+#: pages/windows.what_about_choice.php:30
 msgid ""
 "About 3 million computers get sold every year in China, but people don't pay "
 "for the software."
@@ -4005,7 +3812,7 @@ msgstr ""
 "A la Xina, s'aconsegueixen vendre prop de 3 milions d'ordinadors cada any, "
 "però la gent no paga el sistema operatiu. "
 
-#: pages/windows.what_about_choice.php:23
+#: pages/windows.what_about_choice.php:31
 msgid ""
 "Someday they will, though. As long as they are going to steal it [sic], we "
 "want them to steal ours. They'll get sort of addicted, and then we'll "
@@ -4015,23 +3822,15 @@ msgstr ""
 "preferim que robin el nostre. Es tornaran addictes a ell i llavors ja "
 "pensarem com recollir-ne els fruits la propera dècada. "
 
-#: pages/windows.what_about_choice.php:24
+#: pages/windows.what_about_choice.php:32
 msgid "1998 interview"
 msgstr "Entrevistat l'any 1998"
 
-#: pages/windows.what_about_choice.php:29
-msgid ""
-"Microsoft works hard to make sure their users stay locked into their "
-"products."
-msgstr ""
-"Microsoft treballa molt dur per mantenir-vos lligats als seus productes, "
-"d'aquesta manera:  "
-
-#: pages/windows.what_about_choice.php:33
+#: pages/windows.what_about_choice.php:35
 msgid "Poor support for open standards"
 msgstr "No dóna suport als estàndards oberts"
 
-#: pages/windows.what_about_choice.php:35
+#: pages/windows.what_about_choice.php:37
 msgid ""
 "There exist open file formats and protocols, which are standards to store "
 "and carry many types of information, respectively. They are openly "
@@ -4043,7 +3842,7 @@ msgstr ""
 "ja que es poden utilitzar en qualsevol ordinador, ara i en el futur. El "
 "programari privatiu, en canvi, rarament hi dóna suport."
 
-#: pages/windows.what_about_choice.php:36
+#: pages/windows.what_about_choice.php:38
 msgid ""
 "<strong>For a long time Microsoft Office only had support for Microsoft "
 "formats</strong>. There are many ways to write work documents, but Microsoft "
@@ -4059,7 +3858,7 @@ msgstr ""
 "forma gaire fiable."
 
 #. i18n: Please use link to localized Wikipedia article in place of ODF
-#: pages/windows.what_about_choice.php:39
+#: pages/windows.what_about_choice.php:41
 msgid ""
 "There are of course other ways of writing and exchanging office files, the "
 "most well-known being <a href=\"http://www.opendocumentfellowship.com/\">the "
@@ -4075,11 +3874,11 @@ msgstr ""
 "editar. Finalment, a la versió Microsoft Office 2007 SP2, Microsoft va "
 "afegir suport al format ODF després de que la Comissió Europea els obligués."
 
-#: pages/windows.what_about_choice.php:42
+#: pages/windows.what_about_choice.php:43
 msgid "Standards that change all the time"
 msgstr "Els formats canvien constantment"
 
-#: pages/windows.what_about_choice.php:44
+#: pages/windows.what_about_choice.php:45
 msgid ""
 "Sticking to Microsoft standards is not an easy job &ndash; unless you can "
 "afford to upgrade very often. Ever tried to work on the same <code>.doc</"
@@ -4091,7 +3890,7 @@ msgstr ""
 "el mateix fitxer <code>.doc</code> amb un MS Office 95 i un MS Office 97? "
 "Llavors sabreu què volem dir."
 
-#: pages/windows.what_about_choice.php:45
+#: pages/windows.what_about_choice.php:46
 msgid ""
 "Microsoft owns the Office file formats: <strong>they change them with every "
 "new Office version</strong> and have no obligation to keep them backwards-"
@@ -4126,22 +3925,22 @@ msgstr ""
 "estretament amb Windows &ndash; així que vénen amb tots els ordinadors i "
 "ningú se'n pot deslliurar."
 
-#: pages/windows.what_about_choice.php:54
+#: pages/windows.what_about_choice.php:52
 msgid "Monopolistic practices"
 msgstr "Pràctiques de monopoli"
 
-#: pages/windows.what_about_choice.php:56
+#: pages/windows.what_about_choice.php:54
 msgid ""
-"Microsoft has a tight control over <acronym title=\"Original Equipment "
-"Manufacturer\">OEM</acronym>s (computer manufacturers) who ship their "
-"computers with Windows installed."
+"Microsoft has a tight control over <abbr title=\"Original Equipment "
+"Manufacturer\">OEM</abbr>s (computer manufacturers) who ship their computers "
+"with Windows installed."
 msgstr ""
-"Microsoft té un gran control sobre els <acronym title=\"Original Equipment "
-"Manufacturer (Fabricant d'Ordinadors)\">OEM</acronym>s (fabricants "
+"Microsoft té un gran control sobre els <abbr title=\"Original Equipment "
+"Manufacturer (Fabricant d'Ordinadors)\">OEM</abbr>s (fabricants "
 "d'ordinadors) que entreguen els seus ordinadors amb Windows instal·lat."
 
 #. i18n: if you cannot find localized homepages, please leave the URLs as such
-#: pages/windows.what_about_choice.php:59
+#: pages/windows.what_about_choice.php:57
 msgid ""
 "This means that no program competing with Microsoft products, be it <a href="
 "\"http://www.videolan.org/vlc/\">multimedia player</a>, <a href=\"http://www."
@@ -4157,7 +3956,7 @@ msgstr ""
 "qualsevol altre, vindrà preinstal·lat a la majoria d'ordinadors que podeu "
 "comprar."
 
-#: pages/windows.what_about_choice.php:64
+#: pages/windows.what_about_choice.php:59
 msgid ""
 "It is a good thing to propose a wide range of software and services like "
 "Microsoft do; however, designing and combining them to shut users from non-"
@@ -4172,29 +3971,12 @@ msgstr ""
 "són <em>lliures de triar el que fan amb la seva feina</em> &ndash; Microsoft "
 "no hi està massa d'acord."
 
-#. i18n: the '<br/>' character is only here for paging purposes. It's probably safer to skip it.
-#: pages/windows.what_about_source_code.php:19
-msgid "What about<br/>source code?"
+#: pages/windows.what_about_source_code.php:20
+#, fuzzy
+msgid "What about source code?"
 msgstr "Què hi ha del<br/>codi font?"
 
-#. i18n: This is the quote from Stallman at the start of the article.
-#: pages/windows.what_about_source_code.php:24
-msgid ""
-"You might say, \"How do I change this recipe to take out the salt?\" and the "
-"great chef would respond, \"How dare you insult my recipe, the child of my "
-"brain and my palate, by trying to tamper with it? You don't have the "
-"judgment to change my recipe and make it work right!\""
-msgstr ""
-"Podríeu-ho dir: \"Com canvio aquesta recepta per treure'n la sal?\" i el "
-"gran xef respondria: \"Com goses insultar la meva recepta, que és filla del "
-"meu intelecte i del meu paladar, intentant marranejar-la? No tens la "
-"capacitat per modificar la meva recepta i que quedi bé!\""
-
-#: pages/windows.what_about_source_code.php:25
-msgid "Why Software Should Be Free"
-msgstr "Per què el programari no hauria de tenir propietaris"
-
-#: pages/windows.what_about_source_code.php:28
+#: pages/windows.what_about_source_code.php:23
 msgid ""
 "The source code details the way a program works (it is effectively what "
 "programmers write). Without it no one can understand how the software is "
@@ -4203,7 +3985,7 @@ msgstr ""
 "El codi font defineix com funciona un programa (de fet és el que escriuen "
 "els programadors). Sense ell ningú pot entendre com està creat el programari."
 
-#: pages/windows.what_about_source_code.php:29
+#: pages/windows.what_about_source_code.php:24
 msgid ""
 "It does not matter if you can't read code: whether or not it is available "
 "<strong>directly affects any user</strong>."
@@ -4211,11 +3993,11 @@ msgstr ""
 "Si bé és per a que els programadors el llegeixin, <strong>els usuaris "
 "finals</strong> són en gran part afectats si el codi es secret o lliure."
 
-#: pages/windows.what_about_source_code.php:34
+#: pages/windows.what_about_source_code.php:32
 msgid "No one can look inside"
 msgstr "Ningú pot hi pot mirar a dins"
 
-#: pages/windows.what_about_source_code.php:36
+#: pages/windows.what_about_source_code.php:34
 msgid ""
 "Windows comes without its source code. More than that: all users must abide "
 "to the license term that says:"
@@ -4223,13 +4005,13 @@ msgstr ""
 "Windows ve sense el codi font. Es més, en utilitzar-lo, heu d'acceptar un "
 "punt de la llicència que diu:"
 
-#: pages/windows.what_about_source_code.php:38
+#: pages/windows.what_about_source_code.php:36
 msgid "You may not reverse engineer, decompile, or disassemble the software."
 msgstr ""
 "No hi podreu fer enginyeria inversa, descompil·lar o desenssemblar el "
 "programari."
 
-#: pages/windows.what_about_source_code.php:40
+#: pages/windows.what_about_source_code.php:38
 msgid ""
 "As such, it is illegal to work out how Windows or Microsoft Word are "
 "designed. It is even illegal to try. You are also forbidden to modify the "
@@ -4239,7 +4021,7 @@ msgstr ""
 "Word. Fins i tot és il·legal intentar-ho. També és prohibit modificar el "
 "programa amb qualsevol objectiu."
 
-#: pages/windows.what_about_source_code.php:42
+#: pages/windows.what_about_source_code.php:40
 msgid ""
 "This restriction in the license makes sure that <strong>Microsoft remain the "
 "sole organisation that understand how their products work</strong>. Windows "
@@ -4251,11 +4033,28 @@ msgstr ""
 "a un cotxe que només el poguessin arreglar els mecànics del fabricant "
 "original."
 
-#: pages/windows.what_about_source_code.php:44
+#. i18n: This is the quote from Stallman at the start of the article.
+#: pages/windows.what_about_source_code.php:47
+msgid ""
+"You might say, \"How do I change this recipe to take out the salt?\" and the "
+"great chef would respond, \"How dare you insult my recipe, the child of my "
+"brain and my palate, by trying to tamper with it? You don't have the "
+"judgment to change my recipe and make it work right!\""
+msgstr ""
+"Podríeu-ho dir: \"Com canvio aquesta recepta per treure'n la sal?\" i el "
+"gran xef respondria: \"Com goses insultar la meva recepta, que és filla del "
+"meu intelecte i del meu paladar, intentant marranejar-la? No tens la "
+"capacitat per modificar la meva recepta i que quedi bé!\""
+
+#: pages/windows.what_about_source_code.php:48
+msgid "Why Software Should Be Free"
+msgstr "Per què el programari no hauria de tenir propietaris"
+
+#: pages/windows.what_about_source_code.php:55
 msgid "Insecurity means business"
 msgstr "La inseguretat genera negoci"
 
-#: pages/windows.what_about_source_code.php:46
+#: pages/windows.what_about_source_code.php:57
 msgid ""
 "Whenever a flaw in Windows is discovered, it is exploited, which results in "
 "trojans, viruses, spyware and the likes. <strong>Such nuisances delight the "
@@ -4267,7 +4066,7 @@ msgstr ""
 "la indústria de seguretat en Windows</strong>, inclosa Microsoft, que "
 "desenvolupa diverses proteccions antivirus de pagament."
 
-#: pages/windows.what_about_source_code.php:49
+#: pages/windows.what_about_source_code.php:60
 msgid ""
 "It is a lucrative process to release flawed software <em>that no one is "
 "allowed to change</em>, and then selling protection services over it (anti-"
@@ -4276,7 +4075,7 @@ msgid ""
 msgstr ""
 
 #. i18n: Please carefully leave the rel=nofollow argument, which avoids us increasing MS PR.
-#: pages/windows.what_about_source_code.php:53
+#: pages/windows.what_about_source_code.php:64
 msgid ""
 "Microsoft will today happily <a href=\"http://onecare.live.com/standard/en-"
 "us/purchase/default.htm\" rel=\"nofollow\">sell you their own protection "
@@ -4284,18 +4083,18 @@ msgid ""
 "antidote, separately."
 msgstr ""
 
-#: pages/windows.what_about_source_code.php:58
+#: pages/windows.what_about_source_code.php:70
 msgid "You can trust free software"
 msgstr "Podeu confiar en el programari lliure"
 
-#: pages/windows.what_about_source_code.php:60
+#: pages/windows.what_about_source_code.php:72
 msgid ""
 "It comes as no surprise that proprietary software is severely lacking in "
 "terms of security, compared to software whose source code is freely "
 "available (including GNU/Linux)."
 msgstr ""
 
-#: pages/windows.what_about_source_code.php:62
+#: pages/windows.what_about_source_code.php:74
 msgid ""
 "Free software means <strong>programmers can change the code</strong> to "
 "repair flaws. It means you can hire someone to really check how secure your "
@@ -4305,13 +4104,13 @@ msgid ""
 "search engines and banks run on it too."
 msgstr ""
 
-#: pages/windows.what_about_source_code.php:67
+#: pages/windows.what_about_source_code.php:80
 msgid ""
 "Source code is the recipe for software. How could one improve on a meal with "
 "too much salt, if forbidden to look at the recipe used to cook it?"
 msgstr ""
 
-#: pages/windows.what_about_source_code.php:69
+#: pages/windows.what_about_source_code.php:82
 msgid ""
 "Using Windows and Office requires us to <strong>not ask</strong> nor search "
 "for the source of the software. Only Microsoft developers can modify your "
@@ -4319,8 +4118,128 @@ msgid ""
 msgstr ""
 
 #. i18n: Please note the conditionnal tense: we try to not be too harsh on the reader here ;-)
-#: pages/windows.what_about_source_code.php:73
+#: pages/windows.what_about_source_code.php:86
 msgid ""
 "Which would you rather trust: the package you are forbidden to study, or the "
 "package with the recipe?"
 msgstr ""
+
+#~ msgid "skip to content"
+#~ msgstr "vés al contingut"
+
+#~ msgid "home page"
+#~ msgstr "pàgina d'inici"
+
+#~ msgid "Switch to Linux!"
+#~ msgstr "Canvieu a Linux!"
+
+#~ msgid "jump to top of page"
+#~ msgstr "torna al capdamunt de la pàgina"
+
+#~ msgid "top"
+#~ msgstr "amunt"
+
+#~ msgid "back up:"
+#~ msgstr "torna a dalt:"
+
+#~ msgid "no money"
+#~ msgstr "sense diners"
+
+#~ msgid "no innovation"
+#~ msgstr "sense innovació"
+
+#~ msgid "no code?"
+#~ msgstr "sense codi?"
+
+#~ msgid "piracy"
+#~ msgstr "pirateig"
+
+#~ msgid "communism"
+#~ msgstr "Comunisme"
+
+#~ msgid "What does GNU/Linux look like? Selected screenshots"
+#~ msgstr "Quina aparença te GNU/Linux? Captures de pantalla seleccionades."
+
+#~ msgid "A view of a Fedora Linux desktop"
+#~ msgstr "Una imatge de l'escriptori de Fedora Linux"
+
+#~ msgid "A view of a Ubuntu Linux desktop"
+#~ msgstr "Una imatge de l'escriptori d'Ubuntu Linux"
+
+#~ msgid "next:"
+#~ msgstr "següent:"
+
+#~ msgid "What Linux looks like"
+#~ msgstr "Quina aparença té Linux?"
+
+#~ msgid "Accessing applications in the GNOME 3 desktop environment."
+#~ msgstr "Accedint a programes a l'entorn d'escriptori GNOME 3."
+
+#~ msgid "Selected screenshots of distributions of GNU/Linux."
+#~ msgstr "Captures de pantalla de distribucions GNU/Linux."
+
+#~ msgid ""
+#~ "Keep in mind that Linux can look as frugal or exciting as you require; "
+#~ "here are only everyday-user snapshots to show common tasks."
+#~ msgstr ""
+#~ "Teniu en compte que Linux pot semblar tant senzill o cridaner com "
+#~ "vulgueu. Aquí només us mostrem captures realitzades per mostrar "
+#~ "escriptoris i tasques comunes."
+
+#~ msgid "freedom"
+#~ msgstr "llibertat"
+
+#~ msgid "add/remove programs easily"
+#~ msgstr "afegir i treure programes és fàcil"
+
+#~ msgid "built solid"
+#~ msgstr "construcció sòlida"
+
+#~ msgid "security"
+#~ msgstr "seguretat"
+
+#~ msgid "support"
+#~ msgstr "suport"
+
+#~ msgid "simple use"
+#~ msgstr "fàcil d'utilitzar"
+
+#~ msgid "See more: we have <a href=\"%s\">screenshots</a></div>"
+#~ msgstr "Podeu veure unes <a href=\"%s\">captures de pantalla</a></div>"
+
+#~ msgid "Firefox browser"
+#~ msgstr "Navegador Firefox"
+
+#~ msgid "&quot;Never tell the truth to people who are not worthy of it.&quot;"
+#~ msgstr ""
+#~ "&quot;No digueu mai la veritat a les persones que no ho mereixen.&quot;"
+
+#~ msgid "or:"
+#~ msgstr "o:"
+
+#~ msgid "&quot;Tell the truth and run.&quot;"
+#~ msgstr "&quot;Digues la veritat i corre.&quot;"
+
+#~ msgid "&mdash; Yugoslavian proverb."
+#~ msgstr "Proverbi iugoslau"
+
+#~ msgid "some hardware problems"
+#~ msgstr "problemes de hardware"
+
+#~ msgid "DVDs and restricted media"
+#~ msgstr "DVDs i formats restringits"
+
+#~ msgid "gaming"
+#~ msgstr "jugar"
+
+#~ msgid "hibernation problems"
+#~ msgstr "problemes en hibernar"
+
+#~ msgid "Choose a Linux distribution to get started!"
+#~ msgstr "Per començar, trieu una distribució!"
+
+#~ msgid "read our full article:"
+#~ msgstr "llegiu el nostre article complet:"
+
+#~ msgid "previous:"
+#~ msgstr "anterior:"

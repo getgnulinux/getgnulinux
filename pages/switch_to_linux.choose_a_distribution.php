@@ -153,7 +153,7 @@ $trisquel3_text = _("Accessing applications.");
         print _("Now get a CD and try or install your distribution!"); ?></p>
 
         <div class="button green">
-          <a href="<?php $this->base_url('switch_to_linux/try_or_install'); ?>"><?php print _("Read on…"); ?></a>
+          <a href="<?php $this->base_url('switch_to_linux/try_or_install'); ?>"><?php print _("Read more"); ?></a>
         </div>
       </div>
     </div>

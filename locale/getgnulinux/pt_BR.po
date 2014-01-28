@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/figure002/getgnulinux/issues\n"
-"POT-Creation-Date: 2013-05-25 11:56+0200\n"
+"POT-Creation-Date: 2014-01-28 23:02+0100\n"
 "PO-Revision-Date: 2013-05-23 16:40+0000\n"
 "Last-Translator: manuel meixide <m.meixide@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/"
@@ -31,132 +31,132 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. i18n: The name of the website. It is displayed in the header of each page.
-#: include/GetGNULinux.php:180
+#: include/GetGNULinux.php:188 pages/home.php:21
 msgid "get GNU/Linux!"
 msgstr "baixe GNU/Linux!"
 
 #. i18n: The title for the language selection page.
-#: include/GetGNULinux.php:185
+#: include/GetGNULinux.php:193
 msgid "Select a language"
 msgstr "Selecione um idioma"
 
 #. i18n: The way you refer to a website's main page in your language.
-#: include/GetGNULinux.php:187
+#: include/GetGNULinux.php:195
 msgid "Home"
 msgstr "Início"
 
 #. i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
-#: include/GetGNULinux.php:189 include/HTML.php:101
-#: pages/linux.linux_faq.php:363 pages/more.php:16
-#: pages/switch_to_linux.from_windows_to_linux.php:69
+#: include/GetGNULinux.php:197 include/templates/footer.php:42
+#: include/templates/header.php:52 pages/linux.linux_faq.php:294
+#: pages/more.php:16 pages/switch_to_linux.from_windows_to_linux.php:72
 msgid "More"
 msgstr "Mais"
 
 #. i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
-#: include/GetGNULinux.php:191 include/HTML.php:98 pages/home.php:14
-#: pages/home.php:30 pages/linux.linux_faq.php:372
-#: pages/linux.misunderstanding_free_software.php:197
-#: pages/linux.screenshots.php:37 pages/linux.screenshots.php:118
-#: pages/windows.php:94
+#: include/GetGNULinux.php:199 include/templates/header.php:49
+#: pages/linux.linux_faq.php:301
+#: pages/linux.misunderstanding_free_software.php:186
 msgid "What is Linux?"
 msgstr "O que é Linux?"
 
 #. i18n: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
-#: include/GetGNULinux.php:193 pages/linux.php:80
+#: include/GetGNULinux.php:201 pages/linux.php:74
 msgid "Linux FAQ - common questions about GNU/Linux"
 msgstr "Linux FAQ - perguntas frequentes sobre GNU/LINUX"
 
 #. i18n: Here the intent is to be a little provocative. Exact translation is not required.
-#: include/GetGNULinux.php:195 pages/linux.linux_faq.php:155
-#: pages/linux.linux_faq.php:209 pages/linux.linux_faq.php:223
-#: pages/linux.misunderstanding_free_software.php:20 pages/linux.php:78
-#: pages/windows.stand_for_a_free_society.php:160
+#: include/GetGNULinux.php:203 pages/linux.linux_faq.php:135
+#: pages/linux.linux_faq.php:179 pages/linux.linux_faq.php:190
+#: pages/linux.misunderstanding_free_software.php:19 pages/linux.php:73
+#: pages/windows.stand_for_a_free_society.php:159
 msgid "How to Misunderstand Free Software"
 msgstr "Como entender mal o Software Livre"
 
 #. i18n: This is the title of the 'Screenshots' page.
-#: include/GetGNULinux.php:197 pages/linux.screenshots.php:42
+#: include/GetGNULinux.php:205
 msgid "What GNU/Linux looks like"
 msgstr "Como GNU/Linux se parece"
 
 #. i18n: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
-#: include/GetGNULinux.php:199 include/HTML.php:99 include/HTML.php:215
-#: include/HTML.php:236 pages/home.php:37 pages/linux.php:70
-#: pages/windows.php:15
+#: include/GetGNULinux.php:207 include/templates/header.php:50
+#: pages/home.php:45 pages/linux.php:85 pages/windows.php:16
+#: pages/windows.restrictions.further_details.php:96
+#: pages/windows.restrictions.php:76
+#: pages/windows.stand_for_a_free_society.php:170
+#: pages/windows.what_about_choice.php:66
+#: pages/windows.what_about_source_code.php:92
 msgid "Why not Windows"
 msgstr "Por que não Windows"
 
 #. i18n: This title can be translated loosely
-#: include/GetGNULinux.php:201 include/HTML.php:217 include/HTML.php:238
-#: pages/windows.php:24 pages/windows.php:26 pages/windows.php:33
-#: pages/windows.restrictions.further_details.php:14
-#: pages/windows.restrictions.further_details.php:93
-#: pages/windows.restrictions.php:16
+#: include/GetGNULinux.php:209 include/HTML.php:186 pages/windows.php:25
+#: pages/windows.restrictions.further_details.php:88
+#: pages/windows.restrictions.php:20
 msgid "Restrictions"
 msgstr "Restrições"
 
 #. i18n: This title can be translated loosely
-#: include/GetGNULinux.php:203
-#: pages/windows.restrictions.further_details.php:19
+#: include/GetGNULinux.php:211
+#: pages/windows.restrictions.further_details.php:20
 msgid "More details on restrictions"
 msgstr "Mais detalhes sobre restrições"
 
 #. i18n: This title can be translated loosely
-#: include/GetGNULinux.php:205 include/HTML.php:220 include/HTML.php:241
-#: pages/linux.linux_faq.php:277 pages/windows.php:66 pages/windows.php:67
-#: pages/windows.php:76
+#: include/GetGNULinux.php:213 include/HTML.php:189
+#: pages/linux.linux_faq.php:231 pages/windows.php:59
 msgid "Stand for a free society"
 msgstr "Suporte para uma sociedade livre"
 
 #. i18n: This title can be translated loosely
-#: include/GetGNULinux.php:207 include/HTML.php:218 include/HTML.php:239
-#: pages/windows.php:41 pages/windows.php:42 pages/windows.php:47
-#: pages/windows.what_about_choice.php:17
+#: include/GetGNULinux.php:215 include/HTML.php:187 pages/windows.php:37
+#: pages/windows.what_about_choice.php:21
 msgid "What about choice?"
 msgstr "E sobre a escolha?"
 
 #. i18n: This title can be translated loosely
-#: include/GetGNULinux.php:209 include/HTML.php:219 include/HTML.php:240
-#: pages/windows.php:54 pages/windows.php:55 pages/windows.php:60
+#: include/GetGNULinux.php:217 include/HTML.php:188 pages/windows.php:47
 msgid "No source code"
 msgstr "Sem código fonte"
 
 #. i18n: This appears in the top header menu and should be as short and concise as possible.
-#: include/GetGNULinux.php:211 include/HTML.php:100 include/HTML.php:195
-#: pages/home.php:44 pages/switch_to_linux.php:15 pages/windows.php:92
+#: include/GetGNULinux.php:219 include/templates/header.php:51
+#: pages/home.php:58 pages/linux.php:101 pages/switch_to_linux.php:16
+#: pages/windows.php:90
 msgid "Switch to Linux"
 msgstr "Mude para o Linux"
 
-#: include/GetGNULinux.php:212 include/HTML.php:198
-#: pages/switch_to_linux.choose_a_distribution.php:17
-#: pages/switch_to_linux.php:31
+#: include/GetGNULinux.php:220 include/HTML.php:164
+#: pages/switch_to_linux.choose_a_distribution.php:42
+#: pages/switch_to_linux.from_windows_to_linux.php:171
+#: pages/switch_to_linux.php:38
 msgid "Choose a distribution"
 msgstr "Escolha uma distribuição"
 
-#: include/GetGNULinux.php:213 include/HTML.php:197
-#: pages/switch_to_linux.from_windows_to_linux.php:17
-#: pages/switch_to_linux.php:22
+#: include/GetGNULinux.php:221 include/HTML.php:163
+#: pages/switch_to_linux.from_windows_to_linux.php:20
+#: pages/switch_to_linux.php:23
 msgid "From Windows to Linux"
 msgstr "De Windows a Linux"
 
 #. i18n: This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
-#: include/GetGNULinux.php:215 include/HTML.php:199
-#: pages/switch_to_linux.php:38 pages/switch_to_linux.try_or_install.php:17
+#: include/GetGNULinux.php:223 include/HTML.php:165
+#: pages/switch_to_linux.choose_a_distribution.php:149
+#: pages/switch_to_linux.php:52 pages/switch_to_linux.try_or_install.php:20
 msgid "Try or install"
 msgstr "Experimente ou instale"
 
 #. i18n: The title for the link buttons page. Can be translated loosely.
-#: include/GetGNULinux.php:217 pages/link_buttons.php:15
+#: include/GetGNULinux.php:225 pages/link_buttons.php:14
 msgid "Link buttons"
 msgstr "Botões de link"
 
 #. i18n: The title for the custom "Page Not Found" page.
-#: include/GetGNULinux.php:219
+#: include/GetGNULinux.php:227
 msgid "Page Not Found"
 msgstr "Página não encontrada"
 
 #. i18n: This is the description of the homepage, and it appears in Google results! Please pay particular attention to this one =)
-#: include/GetGNULinux.php:225
+#: include/GetGNULinux.php:233
 msgid ""
 "Get GNU/Linux! A simple, clear website about Linux. | What is Linux? | Why "
 "not Windows? | Tips to make the switch"
@@ -165,153 +165,145 @@ msgstr ""
 "que não usar Windows? | Dicas para fazer a troca"
 
 #. i18n: This is the description of the 'More' page
-#: include/GetGNULinux.php:227
+#: include/GetGNULinux.php:235
 msgid "Read and discover more about Linux."
 msgstr "Leia e discubra mais sobre Linux."
 
 #. i18n: This is the description of the 'Linux' page
-#: include/GetGNULinux.php:229
+#: include/GetGNULinux.php:237
 msgid "What is Linux? A clear explanation."
 msgstr "O que é o Linux? Uma explicação clara."
 
 #. i18n: This is the description of the 'Linux FAQ' page
-#: include/GetGNULinux.php:231
+#: include/GetGNULinux.php:239
 msgid "Frequently Asked Questions about GNU/Linux."
 msgstr "Perguntas Frequentes sobre GNU/Linux."
 
 #. i18n: This is the description of the 'Misunderstanding Free Software' page
-#: include/GetGNULinux.php:233
+#: include/GetGNULinux.php:241
 msgid "An unconventional way to (re)discover free software."
 msgstr "Uma maneira não convencional de (re)descobrir o software livre."
 
 #. i18n: This is the description of the 'Screenshots' page
-#: include/GetGNULinux.php:235
+#: include/GetGNULinux.php:243
 msgid "A brief look at Linux in everyday use."
 msgstr "Uma visão rápida no Linux no uso diário."
 
 #. i18n: This is the description of the 'Why not Windows' page
-#: include/GetGNULinux.php:237
+#: include/GetGNULinux.php:245
 msgid "Four good reasons to avoid proprietary software."
 msgstr "Quatro boas razões para evitar o software proprietário."
 
 #. i18n: This is the description of the 'Restrictions' page
-#: include/GetGNULinux.php:239
+#: include/GetGNULinux.php:247 pages/windows.php:33
 msgid "Restrictions in a proprietary software license."
 msgstr "Restrições em uma licença de software proprietário."
 
 #. i18n: This is the description of the 'Restrictions further details' page
-#: include/GetGNULinux.php:241
+#: include/GetGNULinux.php:249
 msgid "Restrictions in a proprietary software license - more details."
 msgstr "Restrições em uma licença de software proprietário - mais detalhes."
 
 #. i18n: This is the description of the 'Stand for a free society' page
-#: include/GetGNULinux.php:243 pages/windows.php:67
+#: include/GetGNULinux.php:251 pages/windows.php:71
 msgid "How software affects freedom in society."
 msgstr "Como software afeta a liberdade na sociedade."
 
 #. i18n: This is the description of the 'What about choice' page
-#: include/GetGNULinux.php:245
+#: include/GetGNULinux.php:253 pages/windows.php:43
 msgid "How Microsoft lock customers in."
 msgstr "Como a Microsoft prende os clientes."
 
 #. i18n: This is the description of the 'What about source code' page
-#: include/GetGNULinux.php:247
+#: include/GetGNULinux.php:255 pages/windows.php:55
 msgid "No source code means no trust and no security."
 msgstr "Sem código aberto significa sem confiança e sem segurança."
 
 #. i18n: This is the description of the 'Switch to Linux' page
-#: include/GetGNULinux.php:249
+#: include/GetGNULinux.php:257
 msgid "Switch to Linux: Good tips and advice."
 msgstr "Mude para Linux: boas dicas e conselhos"
 
 #. i18n: This is the description of the 'Choose a distribution' page
-#: include/GetGNULinux.php:251
+#: include/GetGNULinux.php:259
 msgid "Recommended Linux distributions for everyday users."
 msgstr "Distribuições Linux recomendadas para uso diário."
 
 #. i18n: This is the description of the 'From Windows to Linux' page
-#: include/GetGNULinux.php:253
+#: include/GetGNULinux.php:261
 msgid "The advantages and disadvantages of Linux over Windows."
 msgstr "As vantagens e desvantagens do Linux sobre o Windows."
 
 #. i18n: This is the description of the 'Try or Install' page. i18n note: this should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
-#: include/GetGNULinux.php:255
+#: include/GetGNULinux.php:263
 msgid "Try or install Linux on your computer, very easily."
 msgstr "Experimente ou installe Linux no seu computador, muito fácilmente."
 
-#: include/templates/footer.php:8
+#: include/templates/footer.php:28
 msgid "About"
 msgstr "Sobre"
 
-#: include/templates/footer.php:10
+#: include/templates/footer.php:30
 msgid "Read about news and updates."
 msgstr "Leia sobre as novidades e as atualizações"
 
-#: include/templates/footer.php:10
+#: include/templates/footer.php:30
 msgid "Our blog"
 msgstr "Nosso blog"
 
-#: include/templates/footer.php:11 pages/more.php:87
+#: include/templates/footer.php:31 pages/more.php:87
 msgid "Terms of use"
 msgstr "Termos de uso"
 
-#: include/templates/footer.php:12 pages/link_buttons.php:96 pages/more.php:89
+#: include/templates/footer.php:32 pages/link_buttons.php:95 pages/more.php:89
 msgid "Credits"
 msgstr "Créditos"
 
-#: include/templates/footer.php:13
+#: include/templates/footer.php:33
 msgid "Contact the authors."
 msgstr "Entre em contato com os autores."
 
-#: include/templates/footer.php:13 pages/more.php:88
+#: include/templates/footer.php:33 pages/more.php:88
 msgid "Contact us"
 msgstr "Entre em contato"
 
-#: include/templates/footer.php:17
-msgid "Ways to help."
-msgstr "Caminhos de ajuda."
-
-#: include/templates/footer.php:17
+#: include/templates/footer.php:37
 msgid "Participate"
 msgstr "Participe"
 
-#: include/templates/footer.php:19 pages/link_buttons.php:16
+#: include/templates/footer.php:39 pages/link_buttons.php:15
 msgid "Help us spread free software!"
 msgstr "Ajude-nos a disseminar o software-livre!"
 
-#: include/templates/footer.php:19
+#: include/templates/footer.php:39
 msgid "Link to us"
 msgstr "Ligue-se com a gente"
 
-#: include/templates/footer.php:20
+#: include/templates/footer.php:40
 msgid "Found something awkward? Report it!"
 msgstr "Encontrou alguma coisa extranha? Relate!"
 
-#: include/templates/footer.php:20
+#: include/templates/footer.php:40 include/templates/footer.php:63
 msgid "Report a bug"
 msgstr "Relate um erro"
 
-#: include/templates/footer.php:21
+#: include/templates/footer.php:41
 msgid "Help us reach an audience in your language!"
 msgstr "Ajude-nos a conseguir mais acessos em seu idioma!"
 
-#: include/templates/footer.php:21
+#: include/templates/footer.php:41
 msgid "Translation"
 msgstr "Tradução"
 
-#: include/templates/footer.php:22
-msgid "Starting point for developers."
-msgstr "Ponto de partida para desenvolvedores"
+#: include/templates/footer.php:42
+msgid "Ways to help."
+msgstr "Caminhos de ajuda."
 
-#: include/templates/footer.php:22
-msgid "Project page"
-msgstr "Página do projeto"
-
-#: include/templates/footer.php:26
+#: include/templates/footer.php:46
 msgid "Other"
 msgstr "Outro"
 
-#: include/templates/footer.php:28
+#: include/templates/footer.php:48
 msgid ""
 "This website won't look as intended on an outdated browser. Upgrade your "
 "browser today!"
@@ -319,23 +311,26 @@ msgstr ""
 "Este site não irá parecer como esperado em um navegador desatualizado. "
 "Atualize seu navegador hoje!"
 
-#. i18n: The link in the footer that links to browsehappy.com. You may choose to leave this untranslated.
-#: include/templates/footer.php:30
+#: include/templates/footer.php:50
 msgid "Browse Happy"
 msgstr "Navegue Tranquilo"
 
-#: include/templates/footer.php:35
+#: include/templates/footer.php:58
 #, php-format
 msgid ""
 "Except where otherwise <a href=\"%s\">noted</a>, content on this site is "
 "licensed under a <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" "
-"rel=\"license\"><acronym title=\"Creative Commons Attribution-ShareAlike"
-"\">CC BY-SA</acronym> 3.0 License</a>."
+"rel=\"license\"><abbr title=\"Creative Commons Attribution-ShareAlike\">CC "
+"BY-SA</abbr> 3.0 License</a>."
 msgstr ""
 "Exceto quando <a href=\"%s\">mencionado</a>, o conteúdo deste site está "
 "licenciado sob a <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" "
-"rel=\"license\">Licença <acronym title=\"Creative Commons Atribuição-"
-"CompartilhaIgual\">CC BY-SA</acronym> 3.0</a>."
+"rel=\"license\">Licença <abbr title=\"Creative Commons Atribuição-"
+"CompartilhaIgual\">CC BY-SA</abbr> 3.0</a>."
+
+#: include/templates/footer.php:62 pages/credits.php:25
+msgid "GitHub Project"
+msgstr ""
 
 #: include/templates/header.php:25
 msgid ""
@@ -345,24 +340,11 @@ msgstr ""
 "linux, gnu/linux, software livre, liberdade do software, código aberto, "
 "alternativa ao windows, obtenha o linux, mude para o linux"
 
-#: include/templates/header.php:100
-msgid "skip to content"
-msgstr "Pular para o conteúdo"
+#: pages/credits.php:17
+msgid "Thank you"
+msgstr ""
 
-#: include/templates/header.php:117
-msgid "home page"
-msgstr "página inicial"
-
-#: pages/credits.php:300 pages/legal.php:132 pages/not_found.php:32
-msgid "Return to the Homepage"
-msgstr "Retornar à página principal"
-
-#: pages/home.php:19
-msgid "Switch to Linux!"
-msgstr "Mude para o Linux!"
-
-#. i18n: This is the very first sentence every visitor is going to read. Please pay great attention to making it sound great, we only have one try! =)
-#: pages/home.php:23
+#: pages/home.php:24
 msgid ""
 "GNU/Linux, or simply <em>Linux</em>, is an alternative to Microsoft Windows. "
 "It is easy to use and gives more freedom to users. Anyone can install it: "
@@ -372,30 +354,50 @@ msgstr ""
 "Windows. É fácil de usar e dá mais liberdade aos usuários. Qualquer um pode "
 "instalar: Linux é livre, e geralmente disponível gratuitamente."
 
-#: pages/home.php:31
+#: pages/home.php:32 pages/linux.php:15
+msgid "What is GNU/Linux?"
+msgstr "O que é GNU/Linux?"
+
+#: pages/home.php:34
 msgid "Learn more about the free operating system"
 msgstr "Aprenda mais sobre o sistema operacional livre"
 
-#: pages/home.php:38
+#: pages/home.php:36 pages/home.php:49 pages/home.php:62 pages/linux.php:91
+#: pages/linux.php:107 pages/switch_to_linux.choose_a_distribution.php:156
+#: pages/switch_to_linux.from_windows_to_linux.php:177
+#: pages/switch_to_linux.php:30 pages/switch_to_linux.php:44
+#: pages/switch_to_linux.php:58 pages/windows.php:33 pages/windows.php:43
+#: pages/windows.php:55 pages/windows.php:71 pages/windows.php:96
+#: pages/windows.restrictions.further_details.php:67
+#: pages/windows.restrictions.php:69
+#: pages/windows.stand_for_a_free_society.php:134
+msgid "Read more"
+msgstr "Leia mais"
+
+#: pages/home.php:47 pages/linux.php:88
 msgid "Why we should avoid using Microsoft Windows"
 msgstr "Por que nós devemos evitar o uso do Microsoft Windows"
 
-#: pages/home.php:45
+#: pages/home.php:60 pages/linux.php:104 pages/windows.php:93
 msgid "Where to download and how to step into Linux"
 msgstr "Onde baixar e como iniciar com o Linux"
 
-#: pages/link_buttons.php:17
+#: pages/legal.php:132 pages/not_found.php:33
+msgid "Return to the Homepage"
+msgstr "Retornar à página principal"
+
+#: pages/link_buttons.php:16
 msgid ""
 "Simply copy/paste the code next to your favorite button into your website."
 msgstr ""
 "Basta copiar/colar o código a seguir para o seu botão de favorito em seu "
 "site."
 
-#: pages/link_buttons.php:87
+#: pages/link_buttons.php:86
 msgid "Usage"
 msgstr "Uso"
 
-#: pages/link_buttons.php:88
+#: pages/link_buttons.php:87
 msgid ""
 "We kindly ask that these buttons be used only to point to <em>get GNU/Linux!"
 "</em> websites."
@@ -403,12 +405,12 @@ msgstr ""
 "Nós gentilmente perguntamos que estes botões sejam usados somente para "
 "apontar para os sites do <em>baixe GNU/Linux!</em>."
 
-#: pages/link_buttons.php:92
+#: pages/link_buttons.php:91
 msgid "Licensing"
 msgstr "Licenciamento"
 
 #. i18n: The link will automatically point to the "credits" page. Please leave the "#link_buttons" part as such; it is an internal link.
-#: pages/link_buttons.php:95
+#: pages/link_buttons.php:94
 #, php-format
 msgid ""
 "Some of these buttons contain material subjected to specific licenses. See "
@@ -417,11 +419,11 @@ msgstr ""
 "Alguns desses botões contêm materiais sujeitos a licenças específicas. Veja "
 "a página de \"<a href=\"%s#link_buttons\">%s</a>\" para detalhes."
 
-#: pages/link_buttons.php:100
+#: pages/link_buttons.php:99
 msgid "Make your own!"
 msgstr "Fazer o seu próprio"
 
-#: pages/link_buttons.php:101
+#: pages/link_buttons.php:100
 #, php-format
 msgid ""
 "Make your own buttons and maybe we can host them along ours! Our <a href=\"%s"
@@ -432,11 +434,11 @@ msgstr ""
 "nossos! Nossos <a href=\"%s\">arquivos fontes</a> (formatos GIMP e Inkspace) "
 "podem ser um bom começo."
 
-#: pages/linux.linux_faq.php:15
+#: pages/linux.linux_faq.php:16
 msgid "Linux Frequently Asked Questions"
 msgstr "Perguntas frequentemente feitas sobre Linux"
 
-#: pages/linux.linux_faq.php:17
+#: pages/linux.linux_faq.php:19
 #, php-format
 msgid ""
 "<a href=\"%s\">Our page about Linux</a> covers the essential information. We "
@@ -446,118 +448,118 @@ msgstr ""
 "Esperamos que esta lista de perguntas e respostas possa ajudá-lo se estiver "
 "mais curioso."
 
-#: pages/linux.linux_faq.php:22
+#: pages/linux.linux_faq.php:25
 msgid "General questions:"
 msgstr "Questões gerais:"
 
-#: pages/linux.linux_faq.php:24 pages/linux.linux_faq.php:61
+#: pages/linux.linux_faq.php:27 pages/linux.linux_faq.php:62
 msgid "Are &quot;GNU/Linux&quot; and &quot;Linux&quot; any different?"
 msgstr "&quot;GNU/Linux&quot; e &quot;Linux&quot; são diferentes?"
 
-#: pages/linux.linux_faq.php:25 pages/linux.linux_faq.php:81
+#: pages/linux.linux_faq.php:28 pages/linux.linux_faq.php:79
 msgid "And what has that software to do with a gnu?"
 msgstr "E o que aquele software tem a ver com um gnu?"
 
-#: pages/linux.linux_faq.php:26 pages/linux.linux_faq.php:93
+#: pages/linux.linux_faq.php:29 pages/linux.linux_faq.php:88
 msgid "Is Linux a registered trademark?"
 msgstr "Linux é uma marca registrada?"
 
-#: pages/linux.linux_faq.php:27 pages/linux.linux_faq.php:103
+#: pages/linux.linux_faq.php:30 pages/linux.linux_faq.php:95
 msgid "Is GNU/Linux the only free operating system available?"
 msgstr "O GNU/Linux é o único sistema operacional livre disponível?"
 
-#: pages/linux.linux_faq.php:28 pages/linux.linux_faq.php:113
+#: pages/linux.linux_faq.php:31 pages/linux.linux_faq.php:103
 msgid "Is Mac OSX a distribution of Linux?"
 msgstr "O Mac OSX é uma distribuição de Linux?"
 
-#: pages/linux.linux_faq.php:30
+#: pages/linux.linux_faq.php:33
 msgid "Understanding free software:"
 msgstr "Entendendo software livre:"
 
-#: pages/linux.linux_faq.php:32 pages/linux.linux_faq.php:132
+#: pages/linux.linux_faq.php:35 pages/linux.linux_faq.php:115
 msgid ""
 "Are &quot;Open Source&quot; and &quot;Free Software&quot; the same thing?"
 msgstr ""
 "&quot;Código Aberto (Open Source)&quot; e &quot;Software Livre (Free "
 "Software)&quot; são a mesma coisa?"
 
-#: pages/linux.linux_faq.php:33 pages/linux.linux_faq.php:146
+#: pages/linux.linux_faq.php:36 pages/linux.linux_faq.php:126
 msgid "Why are some Linux distributions sold, not given away?"
 msgstr ""
 "Por que algumas distribuições Linux são vendidas, e não disponibilizadas "
 "gratuitamente?"
 
-#: pages/linux.linux_faq.php:34 pages/linux.linux_faq.php:164
+#: pages/linux.linux_faq.php:37 pages/linux.linux_faq.php:140
 msgid "Why are some Linux distributions not fully free?"
 msgstr "Por que algumas distribuições Linux não são totalmente livres?"
 
-#: pages/linux.linux_faq.php:35 pages/linux.linux_faq.php:185
+#: pages/linux.linux_faq.php:38 pages/linux.linux_faq.php:158
 msgid "Is Mac OS also a free operating system?"
 msgstr "O Mac OS também é um sistema operacional livre?"
 
-#: pages/linux.linux_faq.php:36 pages/linux.linux_faq.php:199
+#: pages/linux.linux_faq.php:39 pages/linux.linux_faq.php:169
 msgid "Aren't Linux users the ones who make illegal downloads?"
 msgstr "Os usuários Linux não são os que fazem downloads ilegais?"
 
-#: pages/linux.linux_faq.php:37 pages/linux.linux_faq.php:217
+#: pages/linux.linux_faq.php:40 pages/linux.linux_faq.php:184
 msgid "Is Linux a form of communism?"
 msgstr "Linux é uma forma de comunismo?"
 
-#: pages/linux.linux_faq.php:39
+#: pages/linux.linux_faq.php:42
 msgid "Installing Linux:"
 msgstr "Instalando o Linux:"
 
-#: pages/linux.linux_faq.php:41 pages/linux.linux_faq.php:241
+#: pages/linux.linux_faq.php:44 pages/linux.linux_faq.php:201
 msgid "Does Linux come pre-installed on computers?"
 msgstr "O Linux vem pré-instalado nos computadores?"
 
-#: pages/linux.linux_faq.php:42 pages/linux.linux_faq.php:256
+#: pages/linux.linux_faq.php:45 pages/linux.linux_faq.php:213
 msgid "Can I get GNU/Linux in my own language?"
 msgstr "Posso configurar meu GNU/Linux para utilizar o meu idioma?"
 
-#: pages/linux.linux_faq.php:43 pages/linux.linux_faq.php:267
+#: pages/linux.linux_faq.php:46 pages/linux.linux_faq.php:221
 msgid "Is it legal to install Linux on my computer?"
 msgstr "É legal instalar Linux no meu computador?"
 
-#: pages/linux.linux_faq.php:44 pages/linux.linux_faq.php:286
+#: pages/linux.linux_faq.php:47 pages/linux.linux_faq.php:237
 msgid "Do I have to purchase a new computer to run Linux?"
 msgstr "Terei que comprar outro computador para utilizar o Linux?"
 
-#: pages/linux.linux_faq.php:46
+#: pages/linux.linux_faq.php:49
 msgid "Using Linux:"
 msgstr "Usando o Linux:"
 
-#: pages/linux.linux_faq.php:48 pages/linux.linux_faq.php:304
+#: pages/linux.linux_faq.php:51 pages/linux.linux_faq.php:248
 msgid "Will Microsoft Office run on Linux?"
 msgstr "O Microsoft Office funciona no Linux?"
 
-#: pages/linux.linux_faq.php:49 pages/linux.linux_faq.php:322
-#: pages/switch_to_linux.from_windows_to_linux.php:138
+#: pages/linux.linux_faq.php:52 pages/linux.linux_faq.php:263
+#: pages/switch_to_linux.from_windows_to_linux.php:123
 msgid "Can I play my DVDs and MP3s under GNU/Linux?"
 msgstr "Posso assistir meus DVDs e ouvir meus MP3s no GNU/Linux?"
 
-#: pages/linux.linux_faq.php:50 pages/linux.linux_faq.php:345
-#: pages/switch_to_linux.from_windows_to_linux.php:150
+#: pages/linux.linux_faq.php:53 pages/linux.linux_faq.php:283
+#: pages/switch_to_linux.from_windows_to_linux.php:132
 msgid "Can I play popular 3D games under GNU/Linux?"
 msgstr "Posso jogar jogos 3D populares no GNU/Linux?"
 
-#: pages/linux.linux_faq.php:52 pages/linux.linux_faq.php:359
+#: pages/linux.linux_faq.php:55 pages/linux.linux_faq.php:290
 msgid "More questions?"
 msgstr "Mais questões?"
 
-#: pages/linux.linux_faq.php:57
+#: pages/linux.linux_faq.php:59
 msgid "General Questions"
 msgstr "Questões gerais"
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
-#: pages/linux.linux_faq.php:65
+#: pages/linux.linux_faq.php:66
 msgid ""
 "You keep referring to one and the other alternatively. What is this all "
 "about?"
 msgstr ""
 "Você continua referindo-se a uma e outra alternativa. O que é isso tudo?"
 
-#: pages/linux.linux_faq.php:67
+#: pages/linux.linux_faq.php:68
 msgid ""
 "Originally, <strong>Linux</strong> refers to a core component (called the "
 "kernel) that fits within the <strong>GNU</strong> system. What users run "
@@ -568,7 +570,7 @@ msgstr ""
 "usuários utilizam são, para ser preciso, <em>distribuições do sistema GNU/"
 "Linux</em>."
 
-#: pages/linux.linux_faq.php:68
+#: pages/linux.linux_faq.php:69
 msgid ""
 "In practice, the word \"Linux\" caught on much better (unsurprisingly), and "
 "today people refer to the whole system as simply \"Linux\". This causes a "
@@ -579,7 +581,7 @@ msgstr ""
 "causa grande controvérsia."
 
 #. i18n: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
-#: pages/linux.linux_faq.php:71
+#: pages/linux.linux_faq.php:72
 msgid ""
 "Calling the system <em>GNU/Linux</em> is much more meaningful, technically "
 "(end-users use a lot of \"GNU\" and a little of \"Linux\") but also "
@@ -593,7 +595,7 @@ msgstr ""
 "softwareliberty.com/\">Software Livre</a> Movimento começou com e ainda são "
 "realizadas por <a href=\"http://www.gnu.org/\">o projeto GNU</a>."
 
-#: pages/linux.linux_faq.php:72
+#: pages/linux.linux_faq.php:73
 msgid ""
 "Calling the system <em>Linux</em> is more practical and appealing for "
 "computer users that often believe Windows is the only thing on earth."
@@ -601,7 +603,7 @@ msgstr ""
 "Chamando o sistema  Linux é mais prático e atraente para usuários de "
 "computador que muitas vezes acreditam que o Windows é a única coisa na terra."
 
-#: pages/linux.linux_faq.php:73
+#: pages/linux.linux_faq.php:74
 msgid ""
 "<a href=\"http://blog.getgnulinux.org/about/faq/#taxonomy\">We use both "
 "denominations</a> and hope you will not be offended by that."
@@ -609,32 +611,8 @@ msgstr ""
 "<a href=\"http://blog.getgnulinux.org/about/faq/#taxonomy\">Nós usamos ambas "
 "denominações</a> e esperamos que você não se ofenda por isso."
 
-#: pages/linux.linux_faq.php:75 pages/linux.linux_faq.php:87
-#: pages/linux.linux_faq.php:97 pages/linux.linux_faq.php:108
-#: pages/linux.linux_faq.php:119 pages/linux.linux_faq.php:140
-#: pages/linux.linux_faq.php:157 pages/linux.linux_faq.php:179
-#: pages/linux.linux_faq.php:193 pages/linux.linux_faq.php:211
-#: pages/linux.linux_faq.php:228 pages/linux.linux_faq.php:250
-#: pages/linux.linux_faq.php:261 pages/linux.linux_faq.php:280
-#: pages/linux.linux_faq.php:291 pages/linux.linux_faq.php:316
-#: pages/linux.linux_faq.php:339 pages/linux.linux_faq.php:350
-msgid "jump to top of page"
-msgstr "ir para o topo da página"
-
-#: pages/linux.linux_faq.php:75 pages/linux.linux_faq.php:87
-#: pages/linux.linux_faq.php:97 pages/linux.linux_faq.php:108
-#: pages/linux.linux_faq.php:119 pages/linux.linux_faq.php:140
-#: pages/linux.linux_faq.php:157 pages/linux.linux_faq.php:179
-#: pages/linux.linux_faq.php:193 pages/linux.linux_faq.php:211
-#: pages/linux.linux_faq.php:228 pages/linux.linux_faq.php:250
-#: pages/linux.linux_faq.php:261 pages/linux.linux_faq.php:280
-#: pages/linux.linux_faq.php:291 pages/linux.linux_faq.php:316
-#: pages/linux.linux_faq.php:339 pages/linux.linux_faq.php:350
-msgid "top"
-msgstr "topo"
-
 #. i18n: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
-#: pages/linux.linux_faq.php:85
+#: pages/linux.linux_faq.php:83
 msgid ""
 "When Richard Stallman started to design GNU, the main system in use was "
 "Unix, which is proprietary. Because GNU is similar in function to (and "
@@ -654,7 +632,7 @@ msgstr ""
 "gosta desse tipo de humor, confira o que <a href=\"http://www.gnu.org/"
 "software/hurd/hurd.html\">GNU Hurd</a> significa)."
 
-#: pages/linux.linux_faq.php:95
+#: pages/linux.linux_faq.php:90
 msgid ""
 "Yes. You cannot sell any random software under the name of Linux&reg;. The "
 "trademark is held by <a href=\"http://www.linuxmark.org/\">the Linux Mark "
@@ -664,7 +642,7 @@ msgstr ""
 "Linux&reg;. A marca é detida por <a href=\"http://www.linuxmark.org/\">o "
 "Linux Mark Institute</a>."
 
-#: pages/linux.linux_faq.php:105
+#: pages/linux.linux_faq.php:97
 msgid ""
 "No. GNU/Linux is by far the most widely used free system; however a number "
 "of other systems exist."
@@ -672,7 +650,7 @@ msgstr ""
 "Não. GNU/Linux é, de longe, o sistema livre mais utilizado; contudo, vários "
 "outros sistemas existem."
 
-#: pages/linux.linux_faq.php:106
+#: pages/linux.linux_faq.php:98
 msgid ""
 "These include the UNIX derivatives <a href=\"http://freebsd.org/\">FreeBSD</"
 "a>, <a href=\"http://netbsd.org/\">NetBSD</a>, <a href=\"http://openbsd.org/"
@@ -693,7 +671,7 @@ msgstr ""
 "syllable.org/\">Syllable</a>, por exemplo."
 
 #. i18n: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
-#: pages/linux.linux_faq.php:117
+#: pages/linux.linux_faq.php:107
 #, php-format
 msgid ""
 "No. There are a few <a href=\"http://www.softwareliberty.com/\">free "
@@ -706,15 +684,15 @@ msgstr ""
 "Mas no geral, é o software proprietário: todas as questões <a href=\"%s"
 "\">sobre o Windows</a> se aplicam a ele também."
 
-#: pages/linux.linux_faq.php:127
+#: pages/linux.linux_faq.php:112
 msgid "Understanding free software"
 msgstr "Entendendo o software livre"
 
-#: pages/linux.linux_faq.php:133
+#: pages/linux.linux_faq.php:116
 msgid "Yes and no."
 msgstr "Sim e não."
 
-#: pages/linux.linux_faq.php:135
+#: pages/linux.linux_faq.php:118
 msgid ""
 "Technically, the great majority of open source programs are free software "
 "and vice-versa."
@@ -722,7 +700,7 @@ msgstr ""
 "Tecnicamente, a maioria dos programas de código aberto são software livre e "
 "vice-versa."
 
-#: pages/linux.linux_faq.php:136
+#: pages/linux.linux_faq.php:119
 msgid ""
 "In terms of philosophy, things are quite different. The term &quot;open "
 "source&quot; was coined to make &quot;free software&quot; more attractive, "
@@ -732,7 +710,7 @@ msgstr ""
 "\" foi criado para tornar o \"software livre\" mais atrativo, seus "
 "apoiadores veem o código aberto como um jeito melhor de se criar software."
 
-#: pages/linux.linux_faq.php:137
+#: pages/linux.linux_faq.php:120
 msgid ""
 "Supporters of the \"free software\" term value the freedom, not merely the "
 "way software is made, and thus argue that the term \"open source\" <a href="
@@ -744,12 +722,12 @@ msgstr ""
 "\"código aberto\" <a href=\"http://www.gnu.org/philosophy/open-source-misses-"
 "the-point.html\">é equivocado</a>."
 
-#: pages/linux.linux_faq.php:138
+#: pages/linux.linux_faq.php:121
 msgid "Which term you employ simply depends on your vision of software."
 msgstr "O termo que você utiliza depende da sua visão sobre os softwares."
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
-#: pages/linux.linux_faq.php:149
+#: pages/linux.linux_faq.php:129
 msgid ""
 "Some websites actually <em>sell</em> distributions of Linux. So, why do you "
 "write it is \"free as speech and available at no charge\"?"
@@ -758,7 +736,7 @@ msgstr ""
 "disse \"livre como a expressão e disponível sem custos\"?"
 
 #. i18n: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
-#: pages/linux.linux_faq.php:153
+#: pages/linux.linux_faq.php:133
 msgid ""
 "The concept of <a href=\"http://www.softwareliberty.com/\">free software</"
 "a>, refers to freedom, not price. You have the freedom to copy, study, "
@@ -768,7 +746,7 @@ msgstr ""
 "a>, se refere à liberdade, não ao preço. Você tem a liberdade para copiar, "
 "estudar, modificar e disponibilizar gratuitamente o software livre."
 
-#: pages/linux.linux_faq.php:154
+#: pages/linux.linux_faq.php:134
 msgid ""
 "Most companies developing free software make money by selling "
 "<strong>services</strong> around their software, rather than the software "
@@ -782,12 +760,12 @@ msgstr ""
 "pacote: o consumidor compra o CD, o livro e um contrato de suporte de uma só "
 "vez. O software mesmo assim manterá liberdade."
 
-#: pages/linux.linux_faq.php:155
+#: pages/linux.linux_faq.php:135
 msgid "More:"
 msgstr "Mais:"
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
-#: pages/linux.linux_faq.php:167
+#: pages/linux.linux_faq.php:143
 msgid ""
 "Some Linux distributions are available at no charge, but include restrictive "
 "software. Why is it so?"
@@ -795,14 +773,14 @@ msgstr ""
 "Algumas distribuiçoes são gratuitas, mas incluem softwares restritivos. Por "
 "que isto acontece?"
 
-#: pages/linux.linux_faq.php:169
+#: pages/linux.linux_faq.php:145
 msgid ""
 "There are typically three types of policies regarding the inclusion of non-"
 "free software:"
 msgstr ""
 "Existem três tipos de políticas em relação à inclusão de software não-livre:"
 
-#: pages/linux.linux_faq.php:171
+#: pages/linux.linux_faq.php:147
 msgid ""
 "Some GNU/Linux distributors allow non-free software in order to enable "
 "hardware functionality."
@@ -811,7 +789,7 @@ msgstr ""
 "hardware funcione corretamente."
 
 #. i18n: If it exits, please use the URL of the official Ubuntu homepage localized in your language.
-#: pages/linux.linux_faq.php:174
+#: pages/linux.linux_faq.php:150
 msgid ""
 "This happens because some hardware manufacturers such as NVidia do not care "
 "about their customers' freedoms, and only release restricting firmware and "
@@ -828,7 +806,7 @@ msgstr ""
 "\">Ubuntu</a> incluem estes componentes para melhorar a compatibilidade de "
 "hardware."
 
-#: pages/linux.linux_faq.php:175
+#: pages/linux.linux_faq.php:151
 msgid ""
 "Some GNU/Linux distributors do not compromise on the freedom of software, "
 "and make sure their distribution are entirely free. Such is the case of <a "
@@ -840,7 +818,7 @@ msgstr ""
 "de <a href=\"http://trisquel.info/\">Trisquel</a>, a qual é derivada do "
 "Ubuntu com todos os componentes restritivos removidos."
 
-#: pages/linux.linux_faq.php:176
+#: pages/linux.linux_faq.php:152
 #, php-format
 msgid ""
 "Some GNU/Linux distributors assemble free and restrictive software without "
@@ -857,12 +835,12 @@ msgstr ""
 "Windows</a>. Nós valorizamos a sua liberdade e recomendo que você escolha "
 "com cuidado!"
 
-#: pages/linux.linux_faq.php:186
+#: pages/linux.linux_faq.php:159
 msgid "Do all the reasons for avoiding Windows apply to Mac&nbsp;OS?"
 msgstr ""
 "Considere todas as razões para evitar o Windows se aplicam para o Mac OS?"
 
-#: pages/linux.linux_faq.php:188
+#: pages/linux.linux_faq.php:161
 #, php-format
 msgid ""
 "It's quite common for Mac users to believe they are exempt from <a href=\"%s"
@@ -873,7 +851,7 @@ msgstr ""
 "restrições <a href=\"%s\">associados com o Windows</a>. Infelizmente não é "
 "esse o caso."
 
-#: pages/linux.linux_faq.php:189
+#: pages/linux.linux_faq.php:162
 msgid ""
 "Mac OSX does have some low-level components which are <a href=\"http://www."
 "softwareliberty.com/\">free software</a>; and Apple puts less energy into "
@@ -883,7 +861,7 @@ msgstr ""
 "softwareliberty.com/\">software livre</a>, e a Apple coloca menos energia "
 "para cliente lock-in (com alguns notáveis ​​esforços tais como BootCamp)."
 
-#: pages/linux.linux_faq.php:190
+#: pages/linux.linux_faq.php:163
 msgid ""
 "However, the end-user is still fundamentally restricted &mdash; because of "
 "the proprietary license, he/she cannot use Mac OSX for all purposes, nor "
@@ -893,7 +871,7 @@ msgstr ""
 "licença proprietária, não é possível usar Mac OSX para todos os efeitos, nem "
 "mesmo copiar, estudar, modificar ou redistribui-lo."
 
-#: pages/linux.linux_faq.php:191
+#: pages/linux.linux_faq.php:164
 msgid ""
 "Happily, because these freedoms matter a lot, it's possible to run popular "
 "GNU/Linux distributions (such as <a href=\"http://www.ubuntu.com/\">Ubuntu</"
@@ -904,17 +882,17 @@ msgstr ""
 "\">Ubuntu</a>) em computadores Mac."
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
-#: pages/linux.linux_faq.php:202
+#: pages/linux.linux_faq.php:172
 msgid ""
 "Isn't Linux about cracking, &quot;piracy&quot; and illegal download websites?"
 msgstr ""
 "Linux tem relação com cracking, \"pirataria\" e sites de download ilegal?"
 
-#: pages/linux.linux_faq.php:204
+#: pages/linux.linux_faq.php:174
 msgid "No!"
 msgstr "Não!"
 
-#: pages/linux.linux_faq.php:205
+#: pages/linux.linux_faq.php:175
 msgid ""
 "Wherever you read or heard this you should update your views. Linux is "
 "completely distinct from such things. Whether you want to do them, or "
@@ -931,7 +909,7 @@ msgstr ""
 "bandidos pela marca de seus carros, a mesma coisa vale para o seu sistema "
 "operacional."
 
-#: pages/linux.linux_faq.php:206
+#: pages/linux.linux_faq.php:176
 msgid ""
 "GNU/Linux was made by people who don't like the thought of all the world's "
 "computers running just one company's proprietary products. There is "
@@ -942,23 +920,23 @@ msgstr ""
 "há nada de errado com isso!"
 
 #. i18n: The link here points to the "misunderstanding_free_software" article.
-#: pages/linux.linux_faq.php:209
+#: pages/linux.linux_faq.php:179
 #, php-format
 msgid "Read more in the article: <a href=\"%s\">%s</a>."
 msgstr "Leia mais no artigo: <a href=\"%s\">%s</a>."
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
-#: pages/linux.linux_faq.php:220
+#: pages/linux.linux_faq.php:187
 msgid ""
 "\"Everything has to be free\" and \"No one owns anything\" sounds somewhat "
-"frightening. Are Linux and its <acronym title=\"GNU General Public License"
-"\">GPL</acronym> License something for anarchists or communists?"
+"frightening. Are Linux and its <abbr title=\"GNU General Public License"
+"\">GPL</abbr> License something for anarchists or communists?"
 msgstr ""
 "\"Tudo tem que ser livre\" e \"Ninguém é dono de nada\" soa um pouco "
-"assustador. São Linux e sua <acronym title=\"Licença Pública Geral da GNU"
-"\">GPL</acronym> algo Licença para anarquistas ou comunistas?"
+"assustador. São Linux e sua <abbr title=\"Licença Pública Geral da GNU"
+"\">GPL</abbr> algo Licença para anarquistas ou comunistas?"
 
-#: pages/linux.linux_faq.php:225
+#: pages/linux.linux_faq.php:192
 #, php-format
 msgid ""
 "Linux has nothing to do with a political system and anyone &mdash; "
@@ -969,12 +947,12 @@ msgstr ""
 "independentemente de suas visões políticas &mdash; pode usá-lo. Nós temos "
 "explicado de forma bem simples em nosso artigo %s."
 
-#: pages/linux.linux_faq.php:236
+#: pages/linux.linux_faq.php:198
 msgid "Installing Linux"
 msgstr "Instalando o Linux"
 
 #. i18n: If LinuxPreloaded has not been localized to your language, please leave the URL to linuxpreloaded.com.
-#: pages/linux.linux_faq.php:245
+#: pages/linux.linux_faq.php:205
 msgid ""
 "Yes it does! We have built a website specially for that purpose, <a href="
 "\"http://linuxpreloaded.com/\" title=\"Linux laptops\">LinuxPreloaded.com</"
@@ -985,7 +963,7 @@ msgstr ""
 "a>, com a listagem de fornecedores que vendem desktops Linux e laptops."
 
 #. i18n: please leave the "#new_computer" element as such. It is an internal link.
-#: pages/linux.linux_faq.php:248
+#: pages/linux.linux_faq.php:208
 msgid ""
 "Note that <a href=\"#new_computer\">buying new hardware is not necessary</a> "
 "to use GNU/Linux!"
@@ -993,7 +971,7 @@ msgstr ""
 "Note que <a href=\"#new_computer\">comprar hardware novo não é necessário</"
 "a> para usar GNU/Linux!"
 
-#: pages/linux.linux_faq.php:258
+#: pages/linux.linux_faq.php:215
 #, php-format
 msgid ""
 "Yes. All main distributions, such as <a href=\"%s\">the ones we recommend</"
@@ -1004,7 +982,7 @@ msgstr ""
 "\">recomendadas por nós</a> estão disponíveis nas principais línguas "
 "disponíveis , e tem suporte para muitos tipos de teclado."
 
-#: pages/linux.linux_faq.php:259
+#: pages/linux.linux_faq.php:216
 msgid ""
 "Unlike Windows, all languages are included on each installation CD, so there "
 "is no need for you to download (or pay for!) another whole version to merely "
@@ -1015,7 +993,7 @@ msgstr ""
 "por outra versão inteira para apenas alterar o idioma no seu computador."
 
 #. i18n: This is italic text just below the question, which elaborates a little on it.
-#: pages/linux.linux_faq.php:270
+#: pages/linux.linux_faq.php:224
 msgid ""
 "There is a shiny Windows sticker on it! Am I allowed to erase Windows or use "
 "it together with Linux?"
@@ -1023,7 +1001,7 @@ msgstr ""
 "Existe um adesivo brilhante do Windows nele! Posso apagar o Windows ou "
 "utilizá-lo juntamente com Linux?"
 
-#: pages/linux.linux_faq.php:272
+#: pages/linux.linux_faq.php:226
 msgid ""
 "<strong>Yes.</strong> It is absolutely, completely legal (providing of "
 "course it's your computer!)."
@@ -1031,7 +1009,7 @@ msgstr ""
 "<strong>Sim.</strong> É absolutamente, completamente legal (desde é claro "
 "que seja seu computador!)."
 
-#: pages/linux.linux_faq.php:273
+#: pages/linux.linux_faq.php:227
 msgid ""
 "The sticker on it is purely marketing, it has no legal value. We believe it "
 "is <em>one fundamental right</em> to choose which software to run on our own "
@@ -1042,7 +1020,7 @@ msgstr ""
 "rodar em nosso próprio hardware."
 
 #. i18n: If you do not know of a very good resource about DRM, please link to the Wikipedia article on DRM in your language.
-#: pages/linux.linux_faq.php:276
+#: pages/linux.linux_faq.php:230
 #, php-format
 msgid ""
 "In fact this right is threatened by the rise of things such as <a href="
@@ -1053,11 +1031,11 @@ msgstr ""
 "\"http://www.timj.co.uk/digiculture/drm-fallacy\">DRM and Trusted Computing</"
 "a>. Leia nosso artigo \"<a href=\"%s\">%s</a>\" para mais informação."
 
-#: pages/linux.linux_faq.php:288
+#: pages/linux.linux_faq.php:239
 msgid "Not at all. It will run happily on your own computer."
 msgstr "Nem um pouco. Ele irá rodar alegremente em seu computador."
 
-#: pages/linux.linux_faq.php:289
+#: pages/linux.linux_faq.php:240
 #, php-format
 msgid ""
 "The only thing you might be worried about is using very recent special "
@@ -1075,15 +1053,15 @@ msgstr ""
 "instalar Linux em seu computador</a>, seja, em vez de ou em conjunto com o "
 "Windows."
 
-#: pages/linux.linux_faq.php:299 pages/linux.php:38
+#: pages/linux.linux_faq.php:245 pages/linux.php:46
 msgid "Using Linux"
 msgstr "Usando Linux"
 
-#: pages/linux.linux_faq.php:306
+#: pages/linux.linux_faq.php:250
 msgid "No."
 msgstr "Não"
 
-#: pages/linux.linux_faq.php:307
+#: pages/linux.linux_faq.php:251
 msgid ""
 "It is technically possible to adapt Microsoft Office to Linux, but Microsoft "
 "isn't keen on allowing Office users to choose their operating system. There "
@@ -1097,19 +1075,7 @@ msgstr ""
 "abertura &mdash; como a feroz oposição da Microsoft em suportar <a href="
 "\"http://opendocumentfellowship.com/\">O formato OpenDocument</a>."
 
-#. i18n: If it exists, please use the localized URL of openoffice.org. You can find localized URLs here: http://www.openoffice.org/projects/native-lang.html
-#: pages/linux.linux_faq.php:310
-msgid "http://www.openoffice.org/"
-msgstr "http://www.openoffice.org/pt-br/"
-
-#. i18n: If it exists, please use the localized URL of libreoffice.org. You can find localized URLs here: http://www.libreoffice.org/international-sites/
-#: pages/linux.linux_faq.php:313
-msgid "http://www.libreoffice.org/features/"
-msgstr ""
-"http://pt-br.libreoffice.org/baixe-ja-o-libreoffice-em-portugues-do-brasil/"
-"novos-recursos/"
-
-#: pages/linux.linux_faq.php:314
+#: pages/linux.linux_faq.php:252
 msgid ""
 "However, a complete, Free, reliable office suite exists: <a href=\"http://"
 "www.openoffice.org/\">OpenOffice.org</a>. Or you can choose its Open Source "
@@ -1128,7 +1094,18 @@ msgstr ""
 "realmente livres (tanto em liberdade quanto em preço). E eles funcionam no "
 "Windows, bem como no Linux."
 
-#: pages/linux.linux_faq.php:324
+#. i18n: If it exists, please use the localized URL of openoffice.org. You can find localized URLs here: http://www.openoffice.org/projects/native-lang.html
+#: pages/linux.linux_faq.php:255
+msgid "http://www.openoffice.org/"
+msgstr "http://www.openoffice.org/pt-br/"
+
+#. i18n: If it exists, please use the localized URL of libreoffice.org. You can find localized URLs here: http://www.libreoffice.org/international-sites/
+#: pages/linux.linux_faq.php:258
+#, fuzzy
+msgid "http://www.libreoffice.org/"
+msgstr "http://www.openoffice.org/pt-br/"
+
+#: pages/linux.linux_faq.php:265
 msgid ""
 "The simple answer to this question would be &quot;yes&quot;, however this is "
 "only half the truth."
@@ -1136,7 +1113,7 @@ msgstr ""
 "A resposta simples para essa pergunta seria \"sim\", porém esta é apenas "
 "metade da verdade."
 
-#: pages/linux.linux_faq.php:325
+#: pages/linux.linux_faq.php:266
 msgid ""
 "Quite a few Linux distributions do not include MP3 playback software due to "
 "the patent situation of the MP3 format. These patent issues do not affect "
@@ -1151,23 +1128,23 @@ msgstr ""
 "instalação, tornando possível legalmente a reprodução arquivos MP3, para uso "
 "não comercial."
 
-#: pages/linux.linux_faq.php:326
+#: pages/linux.linux_faq.php:267
 msgid ""
 "DVDs, on the other hand, are a more difficult situation. Most, if not all, "
-"DVDs are encrypted using a system called \"<acronym title=\"Content "
-"Scrambling System\">CSS</acronym>\". There is a widely supported free "
-"software, called <code>libdvdcss</code>, capable of decrypting DVD videos. "
-"However, circumventing the restriction on your DVDs is illegal in many parts "
-"of the world, including the USA and the European Union."
+"DVDs are encrypted using a system called \"<abbr title=\"Content Scrambling "
+"System\">CSS</abbr>\". There is a widely supported free software, called "
+"<code>libdvdcss</code>, capable of decrypting DVD videos. However, "
+"circumventing the restriction on your DVDs is illegal in many parts of the "
+"world, including the USA and the European Union."
 msgstr ""
 "DVDs, por outro lado, são uma situação mais difícil. A maioria, senão todos, "
-"os DVDs são criptografados usando um sistema chamado \"<acronym title="
-"\"Content Scrambling System\">CSS</acronym>\". Existe um software livre "
-"amplamente apoiado, chamado <code>libdvdcss</code> capaz de descodificar "
-"vídeos em DVD. No entanto, contornar a restrição de seus DVDs é ilegal em "
-"muitas partes do mundo, incluindo os EUA ea União Europeia."
+"os DVDs são criptografados usando um sistema chamado \"<abbr title=\"Content "
+"Scrambling System\">CSS</abbr>\". Existe um software livre amplamente "
+"apoiado, chamado <code>libdvdcss</code> capaz de descodificar vídeos em DVD. "
+"No entanto, contornar a restrição de seus DVDs é ilegal em muitas partes do "
+"mundo, incluindo os EUA ea União Europeia."
 
-#: pages/linux.linux_faq.php:327
+#: pages/linux.linux_faq.php:268
 msgid ""
 "There is a legal solution to play your DVDs on Linux where <code>libdvdcss</"
 "code> is illegal. The <a href=\"http://www.fluendo.com/\">Fluendo</a> "
@@ -1179,7 +1156,7 @@ msgstr ""
 "tem desenvolvido um aplicativo (non-free) para este propósito que pode ser "
 "comprado no seu site."
 
-#: pages/linux.linux_faq.php:328
+#: pages/linux.linux_faq.php:269
 msgid ""
 "Non-encrypted DVDs, which include most home-made DVDs, play perfectly well "
 "with only free software."
@@ -1187,29 +1164,29 @@ msgstr ""
 "DVDs Não-criptografados, o que inclui a maioria dos DVDs caseiros, rodam "
 "muito bem com apenas software livre."
 
-#: pages/linux.linux_faq.php:330
+#: pages/linux.linux_faq.php:271
 msgid "More on the web:"
 msgstr "Mais na Web:"
 
 #. i18n: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
-#: pages/linux.linux_faq.php:333
+#: pages/linux.linux_faq.php:274
 msgid "https://wiki.ubuntu.com/RestrictedFormats"
 msgstr "https://wiki.ubuntu.com/RestrictedFormats"
 
-#: pages/linux.linux_faq.php:333
+#: pages/linux.linux_faq.php:274
 msgid "Ubuntu Restricted Formats"
 msgstr "Formatos restritos do ubuntu"
 
 #. i18n: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
-#: pages/linux.linux_faq.php:336
+#: pages/linux.linux_faq.php:276
 msgid "http://www.fedoraproject.org/wiki/ForbiddenItems"
 msgstr "http://www.fedoraproject.org/wiki/ForbiddenItems"
 
-#: pages/linux.linux_faq.php:336
+#: pages/linux.linux_faq.php:276
 msgid "Fedora Forbidden Items"
 msgstr "Itens proibidos do Fedora"
 
-#: pages/linux.linux_faq.php:347
+#: pages/linux.linux_faq.php:285
 msgid ""
 "Yes and No: Some games, for example some <a href=\"http://www.idsoftware.com/"
 "\">id Software</a> games like the Quake series and Doom 3, Unreal "
@@ -1219,7 +1196,7 @@ msgstr ""
 "idsoftware.com/\">id Software</a> como as séries Quake e Doom 3, Unreal "
 "Tournament, Cold War e muitos outros, têm versão para Linux."
 
-#: pages/linux.linux_faq.php:348
+#: pages/linux.linux_faq.php:286
 msgid ""
 "Most popular games, alas, only work on Windows and occasionally on Mac OS. "
 "Some Windows games, such as Call of Duty 4 or GTA Vice City, can be run on "
@@ -1238,7 +1215,7 @@ msgstr ""
 "Wine, veja o <a href=\"http://appdb.winehq.org/\">banco de dados deles</a>."
 
 #. i18n: The first link will automatically point to the "more" page.
-#: pages/linux.linux_faq.php:362
+#: pages/linux.linux_faq.php:293
 #, php-format
 msgid ""
 "If you have a question that is not covered here, there are many communities "
@@ -1250,7 +1227,7 @@ msgstr ""
 "encontrar o lugar adequado para perguntar."
 
 #. i18n: The first link will automatically point to the contact page, the second to the bug tracker.
-#: pages/linux.linux_faq.php:366
+#: pages/linux.linux_faq.php:297
 #, php-format
 msgid ""
 "If you can think of a frequent question that we haven't answered yet, do <a "
@@ -1261,14 +1238,6 @@ msgstr ""
 "ainda, <a href=\"%s\">nos avise</a>, ou melhora ainda, <a href=\"%s\">relate "
 "o erro</a>."
 
-#: pages/linux.linux_faq.php:372
-#: pages/linux.misunderstanding_free_software.php:197
-#: pages/linux.screenshots.php:37 pages/linux.screenshots.php:118
-#: pages/windows.restrictions.further_details.php:14
-#: pages/windows.restrictions.further_details.php:93
-msgid "back up:"
-msgstr "voltar:"
-
 #. i18n: use the definition of "free software" on GNU.org in place of softwareliberty.com
 #: pages/linux.misunderstanding_free_software.php:24
 msgid ""
@@ -1278,19 +1247,14 @@ msgstr ""
 "Cinco equívocos sobre <a href=\"http://www.softwareliberty.com/\">Software "
 "Livre</a>, esclarecidos."
 
-#: pages/linux.misunderstanding_free_software.php:28
+#: pages/linux.misunderstanding_free_software.php:27
 msgid ""
 "1. The software industry can't keep going if programmers don't get paid."
 msgstr ""
 "1. A indústria de software não pode continuar se os programadores não são "
 "pagos."
 
-#. i18n: image alt description
-#: pages/linux.misunderstanding_free_software.php:31
-msgid "no money"
-msgstr "não há lucro"
-
-#: pages/linux.misunderstanding_free_software.php:32
+#: pages/linux.misunderstanding_free_software.php:29
 msgid ""
 "Let's begin with one simple fact: free software programmers <em>do</em> like "
 "to get paid, and all need to buy lunch at some time."
@@ -1300,7 +1264,7 @@ msgstr ""
 "almoço em algum momento."
 
 #. i18n: Here, the %s placeholder simply puts a link to a footnote in this page
-#: pages/linux.misunderstanding_free_software.php:35
+#: pages/linux.misunderstanding_free_software.php:32
 #, php-format
 msgid ""
 "When we mention free software, we refer to <strong>liberty not price</"
@@ -1312,7 +1276,7 @@ msgstr ""
 "\"open source\" software %s), que você pode, então, estudar, modificar e "
 "copiar à vontade."
 
-#: pages/linux.misunderstanding_free_software.php:37
+#: pages/linux.misunderstanding_free_software.php:34
 msgid ""
 "How does it work? You can think about it the following way: software is just "
 "code, code is only math. Once you view software as <strong>useful math</"
@@ -1324,7 +1288,7 @@ msgstr ""
 "<strong>matemática útil</strong> uma linguagem elaborada, não como "
 "propriedade comum, não há razão para restringir a utilização dos outros."
 
-#: pages/linux.misunderstanding_free_software.php:38
+#: pages/linux.misunderstanding_free_software.php:35
 msgid ""
 "Just like math (where nobody would claim property on an equation), software "
 "requires advanced knowledge to be adapted, improved, applied correctly. This "
@@ -1339,7 +1303,7 @@ msgstr ""
 "dispostos a pagar para atualizações de segurança regulares e melhorias no "
 "software."
 
-#: pages/linux.misunderstanding_free_software.php:39
+#: pages/linux.misunderstanding_free_software.php:36
 msgid ""
 "Free software companies benefit from a very decentralised development system "
 "with a large number of voluntary contributors. The revenues inside the free "
@@ -1354,7 +1318,7 @@ msgstr ""
 "usuários individuais, geralmente acabam usando software livre, sem nenhum "
 "custo."
 
-#: pages/linux.misunderstanding_free_software.php:40
+#: pages/linux.misunderstanding_free_software.php:37
 msgid ""
 "Free software is not about killing incentives for programmers. It's about "
 "seeing code as knowledge which should not be hidden from the user. It works "
@@ -1365,16 +1329,11 @@ msgstr ""
 "usuário. Ele funciona com um modelo de negócio diferente, o qual muitas "
 "empresas já fazem bem."
 
-#: pages/linux.misunderstanding_free_software.php:43
+#: pages/linux.misunderstanding_free_software.php:40
 msgid "2. Innovation is killed in free software."
 msgstr "2. Inovação está morta em software livre."
 
-#. i18n: image alt description
-#: pages/linux.misunderstanding_free_software.php:46
-msgid "no innovation"
-msgstr "não há inovação"
-
-#: pages/linux.misunderstanding_free_software.php:47
+#: pages/linux.misunderstanding_free_software.php:42
 msgid ""
 "The common perception is that if everyone can copy ideas, innovation will be "
 "stifled."
@@ -1382,7 +1341,7 @@ msgstr ""
 "A percepção comum é que, se todos podem copiar idéias, a inovação será "
 "sufocada."
 
-#: pages/linux.misunderstanding_free_software.php:48
+#: pages/linux.misunderstanding_free_software.php:43
 msgid ""
 "In fact, freedom is often <strong>the key to innovative and successful "
 "software</strong>."
@@ -1390,15 +1349,15 @@ msgstr ""
 "Na verdade, a liberdade é muitas vezes a chave para um software inovador e "
 "bem sucedido."
 
-#: pages/linux.misunderstanding_free_software.php:50
+#: pages/linux.misunderstanding_free_software.php:45
 msgid "Anyone is allowed and encouraged to work upon it;"
 msgstr "Qualquer um é permitido e incentivado a trabalhar em cima dele;"
 
-#: pages/linux.misunderstanding_free_software.php:51
+#: pages/linux.misunderstanding_free_software.php:46
 msgid "Many people are willing to participate;"
 msgstr "Muitas pessoas estão dispostas a participar;"
 
-#: pages/linux.misunderstanding_free_software.php:52
+#: pages/linux.misunderstanding_free_software.php:47
 msgid ""
 "There is no need to re-invent everything, ideas can be improved upon "
 "directly."
@@ -1406,7 +1365,7 @@ msgstr ""
 "Não há necessidade de reinventar tudo, as idéias podem ser melhoradas "
 "diretamente."
 
-#: pages/linux.misunderstanding_free_software.php:55
+#: pages/linux.misunderstanding_free_software.php:50
 msgid ""
 "Non-proprietary software stands out in many areas: consider, to name just a "
 "few:"
@@ -1414,7 +1373,7 @@ msgstr ""
 "Software Não-proprietário se destaca em diversas áreas: considerando , para "
 "citar apenas alguns:"
 
-#: pages/linux.misunderstanding_free_software.php:57
+#: pages/linux.misunderstanding_free_software.php:52
 msgid ""
 "Applications: <a href=\"http://www.getfirefox.com/\">Firefox</a> (web "
 "browser), <a href=\"http://www.inkscape.org/\">Inkscape</a> (vector drawing)."
@@ -1422,20 +1381,20 @@ msgstr ""
 "Aplicações: <a href=\"http://www.getfirefox.com/\">Firefox</a> (Navegador "
 "Web), <a href=\"http://www.inkscape.org/\">Inkscape</a> (Desenho vetorial)."
 
-#: pages/linux.misunderstanding_free_software.php:58
+#: pages/linux.misunderstanding_free_software.php:53
 msgid ""
 "Complete systems: <a href=\"http://en.wikipedia.org/wiki/Apache_HTTP_Server"
 "\">Apache</a> (web server), <a href=\"http://en.wikipedia.org/wiki/OpenBSD"
-"\">OpenBSD</a> (<acronym title=\"Operating System\">OS</acronym>), and of "
-"course, GNU/Linux."
+"\">OpenBSD</a> (<abbr title=\"Operating System\">OS</abbr>), and of course, "
+"GNU/Linux."
 msgstr ""
 "Sistemas completos: <a href=\"http://en.wikipedia.org/wiki/Apache_HTTP_Server"
 "\">Apache</a> (servidor web), <a href=\"http://en.wikipedia.org/wiki/OpenBSD"
-"\">OpenBSD</a> (<acronym title=\"Sistema Operacional\">SO</acronym>), e é "
-"claro, GNU/Linux."
+"\">OpenBSD</a> (<abbr title=\"Sistema Operacional\">SO</abbr>), e é claro, "
+"GNU/Linux."
 
 #. i18n: use URL to localized Wikipedia article for ODF, instead of opendocumentfellowship
-#: pages/linux.misunderstanding_free_software.php:61
+#: pages/linux.misunderstanding_free_software.php:56
 msgid ""
 "Formats and protocols: <a href=\"http://en.wikipedia.org/wiki/HTML\">HTML</"
 "a> (web pages), <a href=\"http://en.wikipedia.org/wiki/BitTorrent_"
@@ -1447,7 +1406,7 @@ msgstr ""
 "\">BitTorrent</a> (compartilhamento de arquivos), <a href=\"http://"
 "opendocumentfellowship.com/\">ODF</a> (documentos de escritórios)."
 
-#: pages/linux.misunderstanding_free_software.php:62
+#: pages/linux.misunderstanding_free_software.php:57
 msgid ""
 "Server applications: <a href=\"http://drupal.org/\">Drupal</a> (Content "
 "Management System), <a href=\"http://www.wordpress.org/\">Wordpress</a> "
@@ -1457,21 +1416,16 @@ msgstr ""
 "Gerenciamento de Conteúdo), <a href=\"http://www.wordpress.org/\">Wordpress</"
 "a> (blog)."
 
-#: pages/linux.misunderstanding_free_software.php:67
+#: pages/linux.misunderstanding_free_software.php:62
 msgid "3. Software Should Just Work (who cares about source code?)"
 msgstr ""
 "3. Software tem apenas que funcionar (quem se preocupa com o código fonte?)"
 
-#. i18n: image alt description
-#: pages/linux.misunderstanding_free_software.php:70
-msgid "no code?"
-msgstr "não há código?"
-
-#: pages/linux.misunderstanding_free_software.php:71
+#: pages/linux.misunderstanding_free_software.php:64
 msgid "Anyone should care about whether their software is free."
 msgstr "Qualquer pessoa deve se preocupar se o seu software é gratuito."
 
-#: pages/linux.misunderstanding_free_software.php:72
+#: pages/linux.misunderstanding_free_software.php:65
 msgid ""
 "Imagine purchasing a car whose hood you are forbidden to open. It does not "
 "matter whether you know how a car works &ndash; the point is that nobody "
@@ -1485,7 +1439,7 @@ msgstr ""
 "permissão para certificar de que é confiável, que não vaza, que não é "
 "prejudicial para a sociedade e o meio ambiente?"
 
-#: pages/linux.misunderstanding_free_software.php:73
+#: pages/linux.misunderstanding_free_software.php:66
 msgid ""
 "The idea is the same with software &ndash; except that code does "
 "<strong>much more</strong> than move cars. Software runs our computers, "
@@ -1496,7 +1450,7 @@ msgstr ""
 "telefones, televisores, players de mídia e muito mais, levando informações e "
 "nossa cultura."
 
-#: pages/linux.misunderstanding_free_software.php:74
+#: pages/linux.misunderstanding_free_software.php:67
 msgid ""
 "Free software is as important as free speech, as a free market. If software "
 "is free, users have control and liberty over it."
@@ -1506,7 +1460,7 @@ msgstr ""
 "sobre ele."
 
 #. i18n: The %s placeholder will automatically point to the 'try and install' page
-#: pages/linux.misunderstanding_free_software.php:77
+#: pages/linux.misunderstanding_free_software.php:70
 #, php-format
 msgid ""
 "The good news are: <em>free software also Just Works.</em> And in fact, it "
@@ -1520,19 +1474,14 @@ msgstr ""
 "sistema completo cheio de recursos e bem organizado, sem instalação, para "
 "que você possa julgar por si mesmo."
 
-#: pages/linux.misunderstanding_free_software.php:80
+#: pages/linux.misunderstanding_free_software.php:73
 msgid ""
 "4. Free software doesn't respect authors' copyrighted and patented software."
 msgstr ""
 "4. O software livre não respeitar direitos autorais dos autores e software "
 "patenteado."
 
-#. i18n: image alt description
-#: pages/linux.misunderstanding_free_software.php:83
-msgid "piracy"
-msgstr "pirataria"
-
-#: pages/linux.misunderstanding_free_software.php:84
+#: pages/linux.misunderstanding_free_software.php:75
 msgid ""
 "To answer this correctly, we must first make a clear distinction between "
 "copyright and patents. Copyright is a right granted to the author over his/"
@@ -1548,7 +1497,7 @@ msgstr ""
 "uma ideia."
 
 #. i18n: If you can, please use a non-official translation of the GPL, as found at http://www.gnu.org/licenses/translations.html
-#: pages/linux.misunderstanding_free_software.php:88
+#: pages/linux.misunderstanding_free_software.php:79
 msgid ""
 "<strong>Copyright is very important in free software.</strong> It is the "
 "very mechanism, central to the <a href=\"http://www.gnu.org/copyleft/gpl.html"
@@ -1562,7 +1511,7 @@ msgstr ""
 "autores são creditados para o seu trabalho. Programas tem direitos autorais, "
 "sejam eles livres ou proprietárias."
 
-#: pages/linux.misunderstanding_free_software.php:89
+#: pages/linux.misunderstanding_free_software.php:80
 msgid ""
 "Any proprietary software author can easily check that his copyright is not "
 "violated in a free software application, since its source code is readily "
@@ -1572,7 +1521,7 @@ msgstr ""
 "direito autoral não seja violada em uma aplicação de software livre, já que "
 "seu código-fonte é prontamente disponível."
 
-#: pages/linux.misunderstanding_free_software.php:91
+#: pages/linux.misunderstanding_free_software.php:82
 msgid ""
 "Patents in software, on the other hand, are a very controversial concept. To "
 "put it shortly: there is <strong>no such thing as a \"patented software\"</"
@@ -1586,15 +1535,15 @@ msgstr ""
 "posse sobre um <em>processo</em>. A patente em seguida, aplica a todos os "
 "softwares que utilizam este processo, proprietário ou livre."
 
-#: pages/linux.misunderstanding_free_software.php:92
+#: pages/linux.misunderstanding_free_software.php:83
 msgid "Software patents:"
 msgstr "Patentes de Software:"
 
-#: pages/linux.misunderstanding_free_software.php:94
+#: pages/linux.misunderstanding_free_software.php:85
 msgid "Are expensive and are granted only several years after application;"
 msgstr "São caros e são concedidos apenas alguns anos após a aplicação;"
 
-#: pages/linux.misunderstanding_free_software.php:95
+#: pages/linux.misunderstanding_free_software.php:86
 msgid ""
 "Are limited geographically (a patent granted in the US is worthless in "
 "Europe);"
@@ -1602,13 +1551,13 @@ msgstr ""
 "São limitados geograficamente (a patente concedida nos EUA é inútil na "
 "Europa);"
 
-#: pages/linux.misunderstanding_free_software.php:96
+#: pages/linux.misunderstanding_free_software.php:87
 msgid "Have long life-times (often 20 years) in a quickly-moving industry;"
 msgstr ""
 "Têm longos períodos de vida (muitas vezes 20 anos) em uma indústria que se "
 "move rapidamente;"
 
-#: pages/linux.misunderstanding_free_software.php:97
+#: pages/linux.misunderstanding_free_software.php:88
 msgid ""
 "Often apply <a href=\"http://eupat.ffii.org/patents/samples/\">entirely "
 "trivial processes</a>."
@@ -1616,7 +1565,7 @@ msgstr ""
 "Muitas vezes, aplicável <a href=\"http://eupat.ffii.org/patents/samples/"
 "\">processos totalmente triviais</a>."
 
-#: pages/linux.misunderstanding_free_software.php:99
+#: pages/linux.misunderstanding_free_software.php:90
 msgid ""
 "As such, they are seldom used to benefit innovators (and in fact, rarely "
 "used by the innovators themselves)."
@@ -1624,7 +1573,7 @@ msgstr ""
 "Como tal, elas raramente são usadas para beneficiar os inovadores (e de "
 "fato, raramente utilizado pelos próprios inovadores)."
 
-#: pages/linux.misunderstanding_free_software.php:101
+#: pages/linux.misunderstanding_free_software.php:92
 msgid ""
 "It's safe to say that <strong>any medium-size piece of software violates "
 "patents</strong>, in several countries, whether it's free or not."
@@ -1632,7 +1581,7 @@ msgstr ""
 "É seguro dizer que <strong>qualquer parte de software de tamanho médio viola "
 "patentes</strong>em vários países, sendo livre ou não."
 
-#: pages/linux.misunderstanding_free_software.php:102
+#: pages/linux.misunderstanding_free_software.php:93
 msgid ""
 "Depending on the holding company's ability to cover very large legal costs, "
 "or to retaliate with other patent threats, royalties and restrictions can be "
@@ -1642,25 +1591,25 @@ msgstr ""
 "revidar com ameaças de patente, royalties e restrições podem ser aplicadas "
 "sobre essas patentes."
 
-#: pages/linux.misunderstanding_free_software.php:104
+#: pages/linux.misunderstanding_free_software.php:96
 msgid "Read and view more:"
 msgstr "Leia e veja mais:"
 
 #. i18n: Unless you know of a good localized resource, please leave the URL as such.
-#: pages/linux.misunderstanding_free_software.php:108
+#: pages/linux.misunderstanding_free_software.php:100
+#, fuzzy
 msgid ""
 "<a href=\"http://ffii.org/Frequently_Asked_Questions_about_software_patents"
 "\" hreflang=\"en\">Frequently Asked Questions on software patents, by the "
-"<acronym title=\"Foundation for a Free Information Infrastructure\">FFII</"
-"acronym>"
+"<abbr title=\"Foundation for a Free Information Infrastructure\">FFII</abbr>"
 msgstr ""
 "<a href=\"http://ffii.org/Frequently_Asked_Questions_about_software_patents"
 "\" hreflang=\"en\">Perguntas frequentes sobre patentes de software, por  "
-"<acronym title=\"Foundation for a Free Information Infrastructure\">FFII</"
+"<abbr title=\"Foundation for a Free Information Infrastructure\">FFII</"
 "acronym>"
 
 #. i18n: Unless you know of a good localized resource, please leave the URL as such.
-#: pages/linux.misunderstanding_free_software.php:111
+#: pages/linux.misunderstanding_free_software.php:103
 msgid ""
 "<a href=\"http://www.redhat.com/magazine/007may05/features/ip/\" hreflang="
 "\"en\">Short and clear video on \"intellectual property\" by Red Hat"
@@ -1668,17 +1617,12 @@ msgstr ""
 "<a href=\"http://www.redhat.com/magazine/007may05/features/ip/\" hreflang="
 "\"en\">Vídeo curto e claro sobre \"propriedade intelectual\" pela Red Hat"
 
-#: pages/linux.misunderstanding_free_software.php:116
+#: pages/linux.misunderstanding_free_software.php:108
 msgid "5. Free software is like communism."
 msgstr "5. O software livre é como o comunismo."
 
-#. i18n: image alt description
-#: pages/linux.misunderstanding_free_software.php:119
-msgid "communism"
-msgstr "comunismo"
-
 #. i18n: Here, the %s placeholder simply puts a link to a footnote in this page
-#: pages/linux.misunderstanding_free_software.php:122
+#: pages/linux.misunderstanding_free_software.php:112
 #, php-format
 msgid ""
 "Supporters of this idea argue that there can be no private ownership with "
@@ -1687,7 +1631,7 @@ msgstr ""
 "Os defensores dessa idéia argumentam que não pode haver propriedade privada, "
 "com software gratuito (ou \"livre\" %s) . Vamos responder com um exemplo."
 
-#: pages/linux.misunderstanding_free_software.php:123
+#: pages/linux.misunderstanding_free_software.php:113
 msgid ""
 "Let's imagine that you use one application that is free software, at home "
 "and within your company. You find a great way to improve it, so now with "
@@ -1699,7 +1643,7 @@ msgstr ""
 "com sua versão modificada, o computador funciona melhor e as suas fábricas "
 "funcionam duas vezes mais rápido!"
 
-#: pages/linux.misunderstanding_free_software.php:124
+#: pages/linux.misunderstanding_free_software.php:114
 msgid ""
 "This modified version is <strong>your own version</strong>. You are not "
 "required to tell anyone about it, nor must you share any of the profits you "
@@ -1711,7 +1655,7 @@ msgstr ""
 "qualquer dos lucros feitos usando-o. Você está simplesmente exercendo sua "
 "liberdade para usar e modificar software livre."
 
-#: pages/linux.misunderstanding_free_software.php:125
+#: pages/linux.misunderstanding_free_software.php:115
 msgid ""
 "What the free software license requires is that <strong>if you redistribute</"
 "strong> this software, then you must keep it free. Namely, if you sell CDs "
@@ -1723,7 +1667,7 @@ msgstr ""
 "vender CDs com o software neles, ou começar a deixar as pessoas fora de sua "
 "casa ou empresa usá-lo, então você deve:"
 
-#: pages/linux.misunderstanding_free_software.php:127
+#: pages/linux.misunderstanding_free_software.php:117
 msgid ""
 "Either give everyone the same rights you had when you obtained the original "
 "software, that is, the freedom to inspect, modify and redistribute your "
@@ -1733,7 +1677,7 @@ msgstr ""
 "original, ou seja, a liberdade para inspecionar, modificar e redistribuir "
 "sua versão modificada;"
 
-#: pages/linux.misunderstanding_free_software.php:128
+#: pages/linux.misunderstanding_free_software.php:118
 msgid ""
 "Or, make the original software and your secret addition to it clearly "
 "separate (that is, your addition should contain none of the original work)."
@@ -1742,7 +1686,7 @@ msgstr ""
 "separada (isto é, sua adição não deve conter nada do trabalho original) ."
 
 #. i18n: The %s placeholder here will automatically point to the page "Windows Restrictions, further details"
-#: pages/linux.misunderstanding_free_software.php:132
+#: pages/linux.misunderstanding_free_software.php:122
 #, php-format
 msgid ""
 "So in fact, you have more \"ownership\" over free software than over "
@@ -1753,7 +1697,7 @@ msgstr ""
 "software proprietário &ndash; onde o programador decide tudo o que você pode "
 "<a href=\"%s\">e não pode fazer</a> dentro do software."
 
-#: pages/linux.misunderstanding_free_software.php:133
+#: pages/linux.misunderstanding_free_software.php:123
 msgid ""
 "<em>Free software has nothing to do with a political system.</em> You can "
 "run free software on top of proprietary software, just as well as the "
@@ -1765,16 +1709,15 @@ msgstr ""
 "licença do software livre é apenas um contrato legal e ético entre o "
 "programador e o usuário final."
 
-#: pages/linux.misunderstanding_free_software.php:137
-#: pages/windows.restrictions.php:66
+#: pages/linux.misunderstanding_free_software.php:127
 msgid "Read more:"
 msgstr "Leia mais:"
 
-#: pages/linux.misunderstanding_free_software.php:138
+#: pages/linux.misunderstanding_free_software.php:130
 msgid "Free / \"open-source\" software can't be secure."
 msgstr "Free / \"open-source\" software não pode ser seguro."
 
-#: pages/linux.misunderstanding_free_software.php:141
+#: pages/linux.misunderstanding_free_software.php:133
 msgid ""
 "The argument generally goes that since the source code of free software is "
 "available, it is less likely to be secure."
@@ -1782,7 +1725,7 @@ msgstr ""
 "O argumento, geralmente, é que o código fonte do software livre está "
 "disponível portanto, é menos provável que seja seguro."
 
-#: pages/linux.misunderstanding_free_software.php:142
+#: pages/linux.misunderstanding_free_software.php:134
 msgid ""
 "Short answer: The majority of servers run free software. They are the major "
 "networked computers holding sensitive or confidential information such as "
@@ -1792,7 +1735,7 @@ msgstr ""
 "principais computadores em rede que detêm as informações sensíveis ou "
 "confidenciais, como seus dados bancários ou segredos comerciais."
 
-#: pages/linux.misunderstanding_free_software.php:143
+#: pages/linux.misunderstanding_free_software.php:135
 msgid ""
 "A more precise answer is that availability of source code is a warrant of "
 "security, not a weakness. The freedom of the software ensures it can be "
@@ -1807,7 +1750,7 @@ msgstr ""
 "aberta, mas apenas o titular da chave pode abri-lo. O mesmo vale para o "
 "software."
 
-#: pages/linux.misunderstanding_free_software.php:144
+#: pages/linux.misunderstanding_free_software.php:136
 #, php-format
 msgid ""
 "Need examples? Have a look at the <a href=\"http://www.getfirefox.com/"
@@ -1827,15 +1770,15 @@ msgstr ""
 "GNU/Linux</a>."
 
 #. i18n: this can be translated loosely, ex "Free software isolates me" or else.
-#: pages/linux.misunderstanding_free_software.php:149
+#: pages/linux.misunderstanding_free_software.php:143
 msgid "I'm on my own with free software."
 msgstr "Eu estou sozinho com software livre."
 
-#: pages/linux.misunderstanding_free_software.php:152
+#: pages/linux.misunderstanding_free_software.php:146
 msgid "Not at all."
 msgstr "Nem um pouco."
 
-#: pages/linux.misunderstanding_free_software.php:154
+#: pages/linux.misunderstanding_free_software.php:148
 msgid ""
 "If you are looking for good documentation and support forums to assist you, "
 "there is plenty available for free (\"open source\") software."
@@ -1844,7 +1787,7 @@ msgstr ""
 "ajudá-lo, há muito disponível gratuitamente para software. (\"open source\")."
 
 #. i18n: use your best knowledge of the community to propose localized links ;-)
-#: pages/linux.misunderstanding_free_software.php:157
+#: pages/linux.misunderstanding_free_software.php:150
 msgid ""
 "Each GNU/Linux distribution has its own community (for example, <a href="
 "\"http://www.ubuntu.com/support/free\">Ubuntu support</a> or <a href="
@@ -1858,7 +1801,7 @@ msgstr ""
 "comunidades de ajuda em software livre em geral, como o <a href=\"http://www."
 "linuxquestions.org/\">LinuxQuestions.org</a>."
 
-#: pages/linux.misunderstanding_free_software.php:158
+#: pages/linux.misunderstanding_free_software.php:151
 msgid ""
 "If you need someone you can reach on the phone anytime to assist you, the "
 "companies behind most distributions provide commercial support: see the <a "
@@ -1872,11 +1815,11 @@ msgstr ""
 "com/support/paid\">Suporte Comercial Ubuntu</a> ou <a href=\"http://www."
 "redhat.com/rhel/\">Red Hat Enterprise Linux</a>."
 
-#: pages/linux.misunderstanding_free_software.php:162
+#: pages/linux.misunderstanding_free_software.php:157
 msgid "Further reading on the web"
 msgstr "Outras leituras na web"
 
-#: pages/linux.misunderstanding_free_software.php:167
+#: pages/linux.misunderstanding_free_software.php:161
 msgid ""
 "This is where free software all started. You will find a wealth of "
 "information about the free software philosophy, the history of the project, "
@@ -1888,7 +1831,7 @@ msgstr ""
 "projeto, e as bases tomadas pela <a href=\"http://www.fsf.org/\">Free "
 "Software Foundation</a> (A organização por traz do GNU)."
 
-#: pages/linux.misunderstanding_free_software.php:170
+#: pages/linux.misunderstanding_free_software.php:164
 msgid ""
 "The concept of Free&nbsp;/&nbsp;Libre&nbsp;/&nbsp;Open Source Software "
 "presented in a highly readable, friendly way. A must-read."
@@ -1896,7 +1839,7 @@ msgstr ""
 "O conceito de Software Livre / Libre / Open apresentado em uma forma "
 "altamente legível, amigável. Uma leitura obrigatória."
 
-#: pages/linux.misunderstanding_free_software.php:173
+#: pages/linux.misunderstanding_free_software.php:167
 msgid ""
 "A simple and clear website about the free format OpenDocument, showing the "
 "importance of freedom in formats (not just in applications)."
@@ -1904,7 +1847,7 @@ msgstr ""
 "Um site simples e claro sobre o  formato livre OpenDocument, mostrando a "
 "importância da liberdade em formatos (e não apenas em aplicações)."
 
-#: pages/linux.misunderstanding_free_software.php:176
+#: pages/linux.misunderstanding_free_software.php:170
 msgid ""
 "An engaged article by co-founder of <a href=\"http://www.wikipedia.org/"
 "\">Wikipedia</a> Jimmy Wales, which shows the connections between freedom in "
@@ -1915,7 +1858,7 @@ msgstr ""
 "de software e conhecimento livre."
 
 #. i18n: This is the content of the footnote, at the bottom of the page
-#: pages/linux.misunderstanding_free_software.php:193
+#: pages/linux.misunderstanding_free_software.php:179
 #, php-format
 msgid ""
 "What we call \"Free Software\" here is also often called \"Open Source "
@@ -1932,11 +1875,7 @@ msgstr ""
 "Leia o nosso FAQ: <a href=\"%s#open_source\">São \"Open Source\" e "
 "\"Software Livre\" a mesma coisa?</a>"
 
-#: pages/linux.php:15
-msgid "What is GNU/Linux?"
-msgstr "O que é GNU/Linux?"
-
-#: pages/linux.php:17
+#: pages/linux.php:18
 msgid ""
 "When you hear the word Linux, you may think of programmers with a beard "
 "typing obscure code on a black screen. Good news! things have changed."
@@ -1945,21 +1884,11 @@ msgstr ""
 "barbudos digitando códigos obscuros numa tela preta. Boas novas! As coisas "
 "mudaram."
 
-#: pages/linux.php:20
+#: pages/linux.php:21
 msgid "The picture"
 msgstr "A figura"
 
-#. i18n: title of link to screenshots page
-#: pages/linux.php:25 pages/linux.php:42
-msgid "What does GNU/Linux look like? Selected screenshots"
-msgstr "Com o quê GNU/Linux se parece? Screenshots selecionados"
-
-#. i18n: image alt description
-#: pages/linux.php:28
-msgid "A view of a Fedora Linux desktop"
-msgstr "Uma vista de um ambiente de trabalho Linux Fedora"
-
-#: pages/linux.php:29
+#: pages/linux.php:23
 msgid ""
 "Linux is an <em>operating system</em>, a large piece of software that "
 "manages a computer. It is similar to Microsoft Windows, but it is entirely "
@@ -1971,7 +1900,7 @@ msgstr ""
 "livre. O nome correto é <em>GNU/Linux</em> mas \"Linux\" é usado com mais "
 "frequencia."
 
-#: pages/linux.php:31
+#: pages/linux.php:25
 msgid ""
 "Linux is not one company's product, but a number of companies and groups of "
 "people contribute to it. In fact, the <em>GNU/Linux system</em> is a core "
@@ -1983,7 +1912,7 @@ msgstr ""
 "Linux</em> é um componente central, o qual é ramificado em vários produtos "
 "diferentes. Eles são chamados de <strong>distribuições</strong>."
 
-#: pages/linux.php:33
+#: pages/linux.php:27
 msgid ""
 "Distributions change the appearance and function of Linux completely. They "
 "range from large, fully supported complete systems (endorsed by companies) "
@@ -1995,8 +1924,7 @@ msgstr ""
 "pequenas distribuições que cabem em um cartão de memória USB ou rodam em "
 "computadores antigos (geralmente desenvolvidas por volutários)."
 
-#. i18n: use an official localised Ubuntu homepage if possible
-#: pages/linux.php:36
+#: pages/linux.php:30
 msgid ""
 "A prominent, complete and friendly distribution to step into GNU/Linux is <a "
 "href=\"http://www.ubuntu.com\">Ubuntu</a>."
@@ -2004,12 +1932,7 @@ msgstr ""
 "Uma proeminente, completa e amigável distribuição de entrada no GNU/Linux é "
 "<a href=\"http://www.ubuntu.com\">Ubuntu</a>."
 
-#. i18n: image alt description
-#: pages/linux.php:45
-msgid "A view of a Ubuntu Linux desktop"
-msgstr "Uma vista de um Linux Ubuntu desktop"
-
-#: pages/linux.php:46
+#: pages/linux.php:48
 msgid ""
 "GNU/Linux is no harder to use than Windows, and has many more capabilities. "
 "It just takes a dozen minutes to get familiar with a distribution like <a "
@@ -2026,7 +1949,7 @@ msgstr ""
 "advanced GNU/Linux distribution\">Fedora</a>, as quais vêm com muitos "
 "programas instalados."
 
-#: pages/linux.php:48
+#: pages/linux.php:50
 msgid ""
 "If you need commercial-quality software to work with business documents, "
 "Internet/networking, or multimedia and graphics, it's there right out of the "
@@ -2040,7 +1963,7 @@ msgstr ""
 "centenas de aplicações grátis e de alta qualidade que você pode encontrar, "
 "instalar e desinstalar com falicilidade."
 
-#: pages/linux.php:50
+#: pages/linux.php:52
 #, php-format
 msgid ""
 "You shouldn't assume however, that Linux is a clone of Windows. To know what "
@@ -2051,12 +1974,11 @@ msgstr ""
 "saber o que esperar quando você iniciar o uso do Linux, nós sugerimos que "
 "você leia nossa página <a href=\"%s\">Fazendo a mudança</a>."
 
-#: pages/linux.php:53
+#: pages/linux.php:55
 msgid "The larger picture"
 msgstr "A figura maior"
 
-#. i18n: use the definition of "free software" on GNU.org in place of softwareliberty.com
-#: pages/linux.php:57
+#: pages/linux.php:58
 msgid ""
 "When you get a distribution of GNU/Linux, <strong>you also get the freedom "
 "to study, copy, change, and redistribute it</strong> &ndash;&nbsp;that's "
@@ -2068,7 +1990,7 @@ msgstr ""
 "que faz o verdadeiro <a href=\"http://www.softwareliberty.com/\" title="
 "\"what is freedom in software?\">software livre</a>."
 
-#: pages/linux.php:59
+#: pages/linux.php:60
 msgid ""
 "Many companies develop their own operating system based on the core <a href="
 "\"http://www.gnu.org\" title=\"the GNU project: at the source of all Linux "
@@ -2080,7 +2002,7 @@ msgstr ""
 "todas as distribuições Linux\">GNU software</a>: produtos que não têm "
 "direitos exclusivos. Como a roda funciona?"
 
-#: pages/linux.php:62
+#: pages/linux.php:63
 msgid ""
 "Most companies make a profit by <em>selling support and services</em> around "
 "their GNU/Linux distribution. Corporate customers buy guaranteed security "
@@ -2092,7 +2014,7 @@ msgstr ""
 "garantia de segurança e assistência. Outros serviços geralmente incluem "
 "treinamento e melhorias sob demanda para o software."
 
-#: pages/linux.php:63
+#: pages/linux.php:64
 msgid ""
 "Some companies, such as HP or IBM, contribute to Linux because they pre-"
 "install it on servers they sell."
@@ -2100,7 +2022,7 @@ msgstr ""
 "Algumas empresas, como HP ou IBM, contribuem com o Linux porque elas o pré-"
 "instalam nos servidores que vendem."
 
-#: pages/linux.php:64
+#: pages/linux.php:65
 msgid ""
 "An extremely wide community participates in the development and improvement "
 "of software, decreasing costs and improving efficiency."
@@ -2108,7 +2030,7 @@ msgstr ""
 "Uma comunidade extremamente ampla participa no desenvolvimento e melhoria do "
 "software, diminuindo custos e melhorando a eficiência."
 
-#: pages/linux.php:67
+#: pages/linux.php:68
 msgid ""
 "In the end, individual end-users often get the software at zero cost, while "
 "corporate customers are often happy to pay for more support."
@@ -2117,111 +2039,33 @@ msgstr ""
 "enquanto clientes corporativos geralmente ficam felizes em pagar por mais "
 "suporte."
 
-#: pages/linux.php:70 pages/windows.php:92
-msgid "next:"
-msgstr "próximo:"
-
-#: pages/linux.php:76
+#: pages/linux.php:71
 msgid "More in this section:"
 msgstr "Mais nesta seção:"
 
-#: pages/linux.php:79
-msgid "What Linux looks like"
-msgstr "Com o quê o Linux se parece"
-
-#. i18n: This is the description of the "ubuntu1.png" screenshot.
-#: pages/linux.screenshots.php:12
-msgid "Firefox web browser"
-msgstr "Navegador Web Firefox"
-
-#. i18n: This is the description of the "ubuntu2.png" screenshot.
-#: pages/linux.screenshots.php:14
-msgid ""
-"File manager and image browsing application are open, on standard desktop."
-msgstr ""
-"Gerenciador de arquivos e aplicativos de navegação de imagem abertos, na "
-"área de trabalho padrão."
-
-#. i18n: This is the description of the "ubuntu3.png" screenshot.
-#: pages/linux.screenshots.php:16
-msgid "Thunderbird e-mail and calendar application."
-msgstr "E-mail Thunderbird e aplicativo de calendário"
-
-#. i18n: This is the description of the "fedora1.png" screenshot.
-#: pages/linux.screenshots.php:19
-msgid "GIMP image editing application, cropping a photo."
-msgstr "GIMP aplicativo de edição de imagens, recortando de uma foto."
-
-#. i18n: This is the description of the "fedora2.png" screenshot.
-#: pages/linux.screenshots.php:21
-msgid "LibreOffice Writer open, editing a standard document."
-msgstr "LibreOffice Writer abre, edita um documento padrão."
-
-#. i18n: This is the description of the "fedora3.png" screenshot.
-#: pages/linux.screenshots.php:23
-msgid ""
-"Accessing applications in the <a href=\"http://gnome3.org/\">GNOME 3</a> "
-"desktop environment."
-msgstr ""
-"Acessando aplicações no ambiente de trabalho <a href=\"http://gnome3.org/"
-"\">GNOME 3</a> ."
-
-#. i18n: This is the text-only description of the "fedora3.png" screenshot.
-#: pages/linux.screenshots.php:25
-msgid "Accessing applications in the GNOME 3 desktop environment."
-msgstr "Acessando aplicações no ambiente de trabalho GNOME 3."
-
-#. i18n: This is the description of the "trisquel1.png" screenshot.
-#: pages/linux.screenshots.php:28
-msgid "Update manager open."
-msgstr "Gerenciador de atualizações aberto"
-
-#. i18n: This is the description of the "trisquel2.png" screenshot.
-#: pages/linux.screenshots.php:30
-msgid "LibreOffice Calc open, showing an example spreadsheet."
-msgstr "LibreOffice Calc abre, exibindo um exemplo de planilha."
-
-#. i18n: This is the description of the "trisquel3.png" screenshot.
-#: pages/linux.screenshots.php:32
-msgid "Accessing applications."
-msgstr "Acessando aplicativos."
-
-#: pages/linux.screenshots.php:44
-msgid "Selected screenshots of distributions of GNU/Linux."
-msgstr "Imagens selecionadas de distribuições do GNU / Linux."
-
-#: pages/linux.screenshots.php:45
-msgid ""
-"Keep in mind that Linux can look as frugal or exciting as you require; here "
-"are only everyday-user snapshots to show common tasks."
-msgstr ""
-"Tenha em mente que o Linux pode se parecer tão moderado ou excitante quanto "
-"você queira; aqui estão apenas exemplos de usos corriqueiros para mostrar "
-"tarefas comuns."
-
-#: pages/more.php:17
+#: pages/more.php:19
 msgid "Selected reading on the Internet."
 msgstr "Leitura selecionadas na Internet"
 
-#: pages/more.php:22
+#: pages/more.php:23
 msgid "Questions, help, and equipment"
 msgstr "Questões, ajuda, e equipamento"
 
 #. i18n: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-#: pages/more.php:27
+#: pages/more.php:28
 msgid "http://linuxpreloaded.com/"
 msgstr "http://linuxpreloaded.com/"
 
-#: pages/more.php:27
+#: pages/more.php:28
 msgid "Computers pre-installed with Linux"
 msgstr "Computadores com Linux pré-instalado"
 
 #. i18n: image alt description
-#: pages/more.php:29
+#: pages/more.php:30
 msgid "Linux Pre-Loaded"
 msgstr "Linux Pre-Loaded"
 
-#: pages/more.php:32
+#: pages/more.php:33
 msgid ""
 "A simple and clear selection of vendors selling computers pre-installed with "
 "Linux."
@@ -2230,16 +2074,16 @@ msgstr ""
 "pré-instalado."
 
 #. i18n: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-#: pages/more.php:38
+#: pages/more.php:39
 msgid "http://www.linuxquestions.org/"
 msgstr "http://www.linuxquestions.org/"
 
 #. i18n: image alt description
-#: pages/more.php:38 pages/more.php:40
+#: pages/more.php:39 pages/more.php:41
 msgid "LinuxQuestions.org"
 msgstr "LinuxQuestions.org"
 
-#: pages/more.php:43
+#: pages/more.php:44
 msgid ""
 "Friendly free software support forums, for newcomers and advanced users "
 "alike.<br/> If you have a question that we haven't covered, it's a good "
@@ -2249,25 +2093,25 @@ msgstr ""
 "avançados.<br/> Se você tem uma dúvida que ainda não foi respondida, este é "
 "um bom lugar para perguntar!"
 
-#: pages/more.php:48
+#: pages/more.php:49
 msgid "Learn and read more"
 msgstr "Aprenda e leia mais"
 
 #. i18n: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-#: pages/more.php:53
+#: pages/more.php:54
 msgid "http://www.fsf.org/"
 msgstr "http://www.fsf.org/"
 
-#: pages/more.php:53
+#: pages/more.php:54
 msgid "Free Software Foundation"
 msgstr "Free Software Foundation"
 
 #. i18n: image alt description
-#: pages/more.php:55
+#: pages/more.php:56
 msgid "FSF"
 msgstr "FSF"
 
-#: pages/more.php:58
+#: pages/more.php:59
 msgid ""
 "The Free Software Foundation defends and advocates the very concept of <a "
 "href=\"http://www.softwareliberty.com/\">free software</a> that gave birth "
@@ -2278,20 +2122,20 @@ msgstr ""
 "GNU/Linux."
 
 #. i18n: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-#: pages/more.php:64
+#: pages/more.php:65
 msgid "http://en.wikibooks.org/wiki/FLOSS_Concept_Booklet"
 msgstr "http://en.wikibooks.org/wiki/FLOSS_Concept_Booklet"
 
-#: pages/more.php:64
+#: pages/more.php:65
 msgid "the FLOSS concept booklet"
 msgstr "o folheto do conceito FLOSS"
 
 #. i18n: image alt description
-#: pages/more.php:66
+#: pages/more.php:67
 msgid "FLOSS Booklet"
 msgstr "Folheto FLOSS"
 
-#: pages/more.php:69
+#: pages/more.php:70
 msgid ""
 "A short, entertaining way to clarify thoughts about free, libre, \"open-"
 "source\" software."
@@ -2299,18 +2143,18 @@ msgstr ""
 "Uma maneira rápida e divertida de esclarecer as idéias sobre liberdade e "
 "software de \"código aberto\"."
 
-#: pages/more.php:75
+#: pages/more.php:74
 msgid ""
 "Note: these links are proposed as a recommendation. They are not commercial."
 msgstr ""
 "Nota: estes links são propostos como uma recomendação. Eles não são "
 "comerciais."
 
-#: pages/more.php:79
+#: pages/more.php:77
 msgid "About us"
 msgstr "Sobre nós"
 
-#: pages/more.php:81
+#: pages/more.php:80
 msgid ""
 "This website was a project of the late <em><a href=\"http://www."
 "gnulinuxmatters.org/\">GNU/Linux Matters</a></em> non-profit organization, "
@@ -2334,27 +2178,27 @@ msgstr ""
 "para este site</a>."
 
 #. i18n: Title for the Page Not Found page. We like to add a bit of humour to this title :P
-#: pages/not_found.php:20
+#: pages/not_found.php:21
 msgid "Doh! Page Not Found"
 msgstr "Doh! Pagina não encontrada"
 
 #. i18n: The "AWOL" part is supposed to add some humour to the error message. Use your creativity to add some humour that's more suitable for your language.
-#: pages/not_found.php:24
+#: pages/not_found.php:25
 msgid ""
 "Sorry, but we couldn't find the page you were looking for. Either that page "
-"doesn't exist or the web page went <acronym title=\"away without leave"
-"\">AWOL</acronym>."
+"doesn't exist or the web page went <abbr title=\"away without leave\">AWOL</"
+"abbr>."
 msgstr ""
 "Desculpe, mas não foi possível encontrar a página que você estava "
-"procurando. Pode ser que a página não existe ou a página da web foi <acronym "
-"title=\"away without leave\">AWOL</acronym>."
+"procurando. Pode ser que a página não existe ou a página da web foi <abbr "
+"title=\"away without leave\">AWOL</abbr>."
 
-#: pages/not_found.php:26
+#: pages/not_found.php:27
 msgid "Report broken link"
 msgstr "Relatar link quebrado"
 
 #. i18n: Here, the %s placeholder simply puts a link to the bug tracker
-#: pages/not_found.php:29
+#: pages/not_found.php:30
 #, php-format
 msgid ""
 "If you found a broken link, please <a href=\"%s\">report it</a> so we can "
@@ -2363,7 +2207,59 @@ msgstr ""
 "Se voê encontrar um link quebrado, por favor <a href=\"%s\">relate</a> para "
 "que possamos reparar. Obrigado!"
 
-#: pages/switch_to_linux.choose_a_distribution.php:19
+#. i18n: This is the description of the "ubuntu1.png" screenshot.
+#: pages/switch_to_linux.choose_a_distribution.php:11
+msgid "Firefox web browser"
+msgstr "Navegador Web Firefox"
+
+#. i18n: This is the description of the "ubuntu2.png" screenshot.
+#: pages/switch_to_linux.choose_a_distribution.php:13
+msgid ""
+"File manager and image browsing application are open, on standard desktop."
+msgstr ""
+"Gerenciador de arquivos e aplicativos de navegação de imagem abertos, na "
+"área de trabalho padrão."
+
+#. i18n: This is the description of the "ubuntu3.png" screenshot.
+#: pages/switch_to_linux.choose_a_distribution.php:15
+msgid "Thunderbird e-mail and calendar application."
+msgstr "E-mail Thunderbird e aplicativo de calendário"
+
+#. i18n: This is the description of the "fedora1.png" screenshot.
+#: pages/switch_to_linux.choose_a_distribution.php:18
+msgid "GIMP image editing application, cropping a photo."
+msgstr "GIMP aplicativo de edição de imagens, recortando de uma foto."
+
+#. i18n: This is the description of the "fedora2.png" screenshot.
+#: pages/switch_to_linux.choose_a_distribution.php:20
+msgid "LibreOffice Writer open, editing a standard document."
+msgstr "LibreOffice Writer abre, edita um documento padrão."
+
+#. i18n: This is the description of the "fedora3.png" screenshot.
+#: pages/switch_to_linux.choose_a_distribution.php:22
+msgid ""
+"Accessing applications in the <a href=\"http://gnome3.org/\">GNOME 3</a> "
+"desktop environment."
+msgstr ""
+"Acessando aplicações no ambiente de trabalho <a href=\"http://gnome3.org/"
+"\">GNOME 3</a> ."
+
+#. i18n: This is the description of the "trisquel1.png" screenshot.
+#: pages/switch_to_linux.choose_a_distribution.php:25
+msgid "Update manager open."
+msgstr "Gerenciador de atualizações aberto"
+
+#. i18n: This is the description of the "trisquel2.png" screenshot.
+#: pages/switch_to_linux.choose_a_distribution.php:27
+msgid "LibreOffice Calc open, showing an example spreadsheet."
+msgstr "LibreOffice Calc abre, exibindo um exemplo de planilha."
+
+#. i18n: This is the description of the "trisquel3.png" screenshot.
+#: pages/switch_to_linux.choose_a_distribution.php:29
+msgid "Accessing applications."
+msgstr "Acessando aplicativos."
+
+#: pages/switch_to_linux.choose_a_distribution.php:45
 msgid ""
 "Because there is no &quot;one Linux&quot;, finding what you need can be "
 "difficult. Here are our choice of three beginner-friendly, widely used "
@@ -2373,12 +2269,25 @@ msgstr ""
 "Aqui estão as nossas escolhas de três mais amigáveis para  iniciantes, "
 "distribuições amplamente utilizadas."
 
+#. i18n: if you don't know of a clean, simple comparison website, simply remove the link.
+#: pages/switch_to_linux.choose_a_distribution.php:50
+msgid ""
+"Note: There are <a href=\"http://distrowatch.com/dwres.php?resource=major"
+"\">plenty of distributions to choose from and compare</a>."
+msgstr ""
+"Nota: Há  <a href=\"http://distrowatch.com/dwres.php?resource=major\">várias "
+"distribuições para escolher e comparar</a>"
+
+#: pages/switch_to_linux.choose_a_distribution.php:51
+msgid "This is our selection for newcomers. These links are not commercial."
+msgstr "Esta é nossa seleção para os novatos. Estes links não são comerciais."
+
 #. i18n: use url of official localised Ubuntu homepage, if existing
-#: pages/switch_to_linux.choose_a_distribution.php:27
+#: pages/switch_to_linux.choose_a_distribution.php:58
 msgid "http://www.ubuntu.com/"
 msgstr "http://www.ubuntu.com/"
 
-#: pages/switch_to_linux.choose_a_distribution.php:28
+#: pages/switch_to_linux.choose_a_distribution.php:61
 msgid ""
 "Simple, easy, usable and our personal favourite. A tanned, smooth atmosphere "
 "that never gets in your way. All programs are kept in order and managed "
@@ -2388,7 +2297,7 @@ msgstr ""
 "fica em seu caminho. Todos os programas são mantidos em ordem e gerenciados "
 "com facilidade. A configuração é mantida simples em vez de exaustiva"
 
-#: pages/switch_to_linux.choose_a_distribution.php:29
+#: pages/switch_to_linux.choose_a_distribution.php:62
 msgid ""
 "We recommend this friendly and complete distribution if you are looking for "
 "an easy way to try and step into GNU/Linux."
@@ -2396,7 +2305,7 @@ msgstr ""
 "Nós recomendamos esta distribuição amigável e completa se você estiver "
 "procurando uma maneira fácil de tentar iniciar em GNU / Linux."
 
-#: pages/switch_to_linux.choose_a_distribution.php:37
+#: pages/switch_to_linux.choose_a_distribution.php:63
 msgid ""
 "Ubuntu also has a sister distribution, <a href=\"http://www.kubuntu.org/"
 "\">Kubuntu</a>, with a different layout and slightly more advanced graphics."
@@ -2405,12 +2314,12 @@ msgstr ""
 "\">Kubuntu</a>, com um layout diferente e gráficos levemente mais avançados."
 
 #. i18n: use url of official localised Fedora homepage, if existing
-#: pages/switch_to_linux.choose_a_distribution.php:46
+#: pages/switch_to_linux.choose_a_distribution.php:89
 msgid "http://fedoraproject.org/"
 msgstr "http://fedoraproject.org/"
 
 #. i18n: if you don't know of a clean, simple comparison website, simply remove the link.
-#: pages/switch_to_linux.choose_a_distribution.php:49
+#: pages/switch_to_linux.choose_a_distribution.php:94
 msgid ""
 "The distribution by the long-time prominent GNU/Linux developer company Red "
 "Hat. The default layout is similar to Ubuntu (it is also possible to use "
@@ -2428,7 +2337,7 @@ msgstr ""
 "Fedora e Ubuntu?\">há diferenças</a> nas aplicações escolhidas, instalar "
 "protocolos e vários elementos técnicos."
 
-#: pages/switch_to_linux.choose_a_distribution.php:51
+#: pages/switch_to_linux.choose_a_distribution.php:95
 msgid ""
 "We recommend this distribution if you wish to learn more about the workings "
 "of a GNU/Linux system, security configuration, or work on software "
@@ -2438,7 +2347,7 @@ msgstr ""
 "funcionamento de uma configuração de segurança GNU / Linux, sistema, ou o "
 "trabalho em desenvolvimento de software."
 
-#: pages/switch_to_linux.choose_a_distribution.php:64
+#: pages/switch_to_linux.choose_a_distribution.php:124
 #, php-format
 msgid ""
 "While Ubuntu contains some restricting components (<a href=\"%s#full_freedom"
@@ -2454,7 +2363,7 @@ msgstr ""
 "liberdade completa em relação a um sistema operacional completo como o "
 "Ubuntu."
 
-#: pages/switch_to_linux.choose_a_distribution.php:66
+#: pages/switch_to_linux.choose_a_distribution.php:125
 msgid ""
 "We recommend this distribution if you are committed to freedom in your "
 "computing."
@@ -2462,25 +2371,12 @@ msgstr ""
 "Nós recomendamos esta distribuição se você está comprometido com a liberdade "
 "no seu uso do computador."
 
-#. i18n: if you don't know of a clean, simple comparison website, simply remove the link.
-#: pages/switch_to_linux.choose_a_distribution.php:80
-msgid ""
-"Note: There are <a href=\"http://distrowatch.com/dwres.php?resource=major"
-"\">plenty of distributions to choose from and compare</a>."
-msgstr ""
-"Nota: Há  <a href=\"http://distrowatch.com/dwres.php?resource=major\">várias "
-"distribuições para escolher e comparar</a>"
-
-#: pages/switch_to_linux.choose_a_distribution.php:81
-msgid "This is our selection for newcomers. These links are not commercial."
-msgstr "Esta é nossa seleção para os novatos. Estes links não são comerciais."
-
 #. i18n: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
-#: pages/switch_to_linux.choose_a_distribution.php:88
+#: pages/switch_to_linux.choose_a_distribution.php:153
 msgid "Now get a CD and try or install your distribution!"
 msgstr "Agora pegue um CD e experimente ou instale sua distribuição."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:18
+#: pages/switch_to_linux.from_windows_to_linux.php:23
 msgid ""
 "This is what everyday users usually find better, mostly the same, or not as "
 "good, when switching from Windows to Linux."
@@ -2488,22 +2384,17 @@ msgstr ""
 "Isto é o que os usuários diários costumam encontrar de melhor, praticamente "
 "o mesmo, ou não tão bons, quando se muda de Windows para Linux."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:22
+#: pages/switch_to_linux.from_windows_to_linux.php:32
 msgid "What is better in Linux"
 msgstr "O que é melhor no linux"
 
 #. i18n: please note the punctuation should be consistent
-#: pages/switch_to_linux.from_windows_to_linux.php:26
+#: pages/switch_to_linux.from_windows_to_linux.php:37
 msgid "It's free"
 msgstr "É gratuito"
 
-#. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:29
-msgid "freedom"
-msgstr "liberdade"
-
 #. i18n: link to Free Software definition on GNU.org site, if softwareliberty.com is not translated in your language
-#: pages/switch_to_linux.from_windows_to_linux.php:32
+#: pages/switch_to_linux.from_windows_to_linux.php:41
 msgid ""
 "Unlike Windows, GNU/Linux is <a href=\"http://www.softwareliberty.com/\" "
 "title=\"What does Free Software mean?\">free software</a> &ndash; free as in "
@@ -2518,16 +2409,11 @@ msgstr ""
 "transformando-o como desejar, ou construindo-o e vendendo a sua própria "
 "distribuição."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:34
+#: pages/switch_to_linux.from_windows_to_linux.php:45
 msgid "Programs"
 msgstr "Programas"
 
-#. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:37
-msgid "add/remove programs easily"
-msgstr "adicionar/remover programas facilmente"
-
-#: pages/switch_to_linux.from_windows_to_linux.php:39
+#: pages/switch_to_linux.from_windows_to_linux.php:47
 msgid ""
 "There are a wealth of free applications available at no cost under Linux. To "
 "edit professional documents, burn music CDs, rework photos, design a "
@@ -2539,7 +2425,7 @@ msgstr ""
 "fotos, criar um site, ou organizar música, não há nenhuma necessidade por R$ "
 "400,00 de software com licenças restritivas."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:40
+#: pages/switch_to_linux.from_windows_to_linux.php:48
 msgid ""
 "The internal installer makes it incredibly easy to find, install and remove "
 "programs."
@@ -2547,7 +2433,7 @@ msgstr ""
 "O instalador interno torna incrivelmente fácil de encontrar, instalar e "
 "remover programas."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:41
+#: pages/switch_to_linux.from_windows_to_linux.php:49
 msgid ""
 "It's also safe: you can forget the demo/trial crippled software, or harmful "
 "freeware polluting the web."
@@ -2555,16 +2441,11 @@ msgstr ""
 "É também seguro: você pode esquecer o software demo / trial  retalhado, ou "
 "freeware prejudicial poluindo a web."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:43
+#: pages/switch_to_linux.from_windows_to_linux.php:53
 msgid "No fighting"
 msgstr "Sem brigas"
 
-#. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:46
-msgid "built solid"
-msgstr "construção sólida"
-
-#: pages/switch_to_linux.from_windows_to_linux.php:47
+#: pages/switch_to_linux.from_windows_to_linux.php:55
 msgid ""
 "Keeping your computer in shape over time needn't be a struggle. One year on, "
 "GNU/Linux runs just as fast as the first day. And it may bring your old PC "
@@ -2573,7 +2454,7 @@ msgstr ""
 "Manter o seu computador em forma durante muito tempo não necessita de ser um "
 "esforço. E até poderá trazer o seu velho PC de volta à vida."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:48
+#: pages/switch_to_linux.from_windows_to_linux.php:56
 msgid ""
 "Also, Linux lets you choose what you want and what you don't. If you had a "
 "hard time getting rid of MSN Messenger, Windows Update notifications, or "
@@ -2583,16 +2464,11 @@ msgstr ""
 "Se você teve dificuldade em se livrar do MSN Messenger, as notificações do "
 "Windows Update, ou Clippit o clipe de papel, você vai achar refrescante."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:51
+#: pages/switch_to_linux.from_windows_to_linux.php:60
 msgid "Security"
 msgstr "Segurança"
 
-#. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:54
-msgid "security"
-msgstr "segurança"
-
-#: pages/switch_to_linux.from_windows_to_linux.php:55
+#: pages/switch_to_linux.from_windows_to_linux.php:62
 msgid ""
 "Forget expensive and restrictive anti-virus, anti-spyware, anti-anything and "
 "anti-everything. Linux is very, very secure."
@@ -2601,7 +2477,7 @@ msgstr ""
 "anti-tudo. Linux é muito, muito seguro."
 
 #. i18n: If you don't know of a link replacement in your languge, just leave the link as it is
-#: pages/switch_to_linux.from_windows_to_linux.php:58
+#: pages/switch_to_linux.from_windows_to_linux.php:64
 msgid ""
 "It is often difficult for Windows users to believe that there are <em>no "
 "spyware nor viruses</em> under Linux &mdash; <a href=\"http://linuxmafia.com/"
@@ -2614,23 +2490,18 @@ msgstr ""
 "programas maliciosos têm muita dificuldade para fazer qualquer coisa em um "
 "sistema de bem-construído."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:59
+#: pages/switch_to_linux.from_windows_to_linux.php:65
 msgid "Regular, easy software updates will keep everyone entirely safe."
 msgstr ""
 "Atualizações fáceis e regulares, de software ira manter todos totalmente "
 "seguros."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:62
+#: pages/switch_to_linux.from_windows_to_linux.php:69
 msgid "Support"
 msgstr "Apoio"
 
-#. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:65
-msgid "support"
-msgstr "suporte"
-
 #. i18n: The first %s represents the URL to the "More" page and seconds %s represents the title of the page "More" in your language
-#: pages/switch_to_linux.from_windows_to_linux.php:68
+#: pages/switch_to_linux.from_windows_to_linux.php:72
 #, php-format
 msgid ""
 "Linux benefits from a great sense of community whose friendliness will "
@@ -2643,7 +2514,7 @@ msgstr ""
 "conseguir, há um monte de pessoas ao redor para ajudá-lo. Nossa página \"<a "
 "href=\"%s\">%s</a>\" dá algumas indicações."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:70
+#: pages/switch_to_linux.from_windows_to_linux.php:73
 msgid ""
 "The companies behind the main GNU/Linux distributions, such as <a href="
 "\"http://www.canonical.com/\">Canonical</a> and <a href=\"http://www.redhat."
@@ -2653,11 +2524,11 @@ msgstr ""
 "\"http://www.canonical.com/\">Canonical</a> e <a href=\"http://www.redhat."
 "com/\">Red Hat</a>, também oferecem suporte comercial especialista."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:79
+#: pages/switch_to_linux.from_windows_to_linux.php:82
 msgid "What is mostly the same in Linux"
 msgstr "O que é praticamente igual no Linux"
 
-#: pages/switch_to_linux.from_windows_to_linux.php:80
+#: pages/switch_to_linux.from_windows_to_linux.php:84
 msgid ""
 "Fundamentally, everyday users will find GNU/Linux similar in use to Windows "
 "or Mac OSX."
@@ -2665,16 +2536,11 @@ msgstr ""
 "Fundamentalmente, os usuários do dia a dia irão achar o GNU / Linux "
 "semelhante em uso ao Windows ou Mac OSX."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:82
+#: pages/switch_to_linux.from_windows_to_linux.php:87
 msgid "General set-up"
 msgstr "Configuração geral"
 
-#. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:85
-msgid "simple use"
-msgstr "uso simples"
-
-#: pages/switch_to_linux.from_windows_to_linux.php:86
+#: pages/switch_to_linux.from_windows_to_linux.php:89
 msgid ""
 "If you still believe Linux is controlled with code and command-line, you "
 "should update your views!"
@@ -2682,7 +2548,7 @@ msgstr ""
 "Se você ainda acredita Linux é controlada com código e de linha de comando, "
 "você deve atualizar a sua opinião!"
 
-#: pages/switch_to_linux.from_windows_to_linux.php:87
+#: pages/switch_to_linux.from_windows_to_linux.php:90
 msgid ""
 "Just like Windows, Linux has to boot when you switch your computer on, and "
 "then you use programs in it to do different things. The taskbar and layout "
@@ -2693,23 +2559,12 @@ msgstr ""
 "de tarefas e layout das aplicações será familiar para usuários do Windows ou "
 "Mac OS."
 
-#. i18n: The %s placeholder will automatically point to the screenshots page
-#: pages/switch_to_linux.from_windows_to_linux.php:90
-#, php-format
-msgid "See more: we have <a href=\"%s\">screenshots</a></div>"
-msgstr "Veja mais: nós temos <a href=\"%s\">screenshots</a></div>"
-
 #: pages/switch_to_linux.from_windows_to_linux.php:94
 msgid "Web browsing and common tasks"
 msgstr "Navegação na web e tarefas comuns"
 
-#. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:97
-msgid "Firefox browser"
-msgstr "Navegador Firefox"
-
 #. i18n: use localized Firefox landing page if possible
-#: pages/switch_to_linux.from_windows_to_linux.php:100
+#: pages/switch_to_linux.from_windows_to_linux.php:97
 msgid ""
 "The Web looks just the same when viewed with Linux (in fact you can browse "
 "the Web with the same program if you already use <a href=\"http://www."
@@ -2725,37 +2580,15 @@ msgstr ""
 "coleções de fotos e música da mesma forma. Arquivos e pastas são navegadas "
 "usando um gerenciador de arquivos como o Windows Explorer."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:110
+#: pages/switch_to_linux.from_windows_to_linux.php:106
 msgid "What is not as good in Linux"
 msgstr "O que não é tão bom no Linux"
 
-#. i18n: translate "widely": the idea is more important than precision/exactitude here
-#: pages/switch_to_linux.from_windows_to_linux.php:114
-msgid "&quot;Never tell the truth to people who are not worthy of it.&quot;"
-msgstr "\"Nunca diga a verdade às pessoas que não são dignos da mesma\""
-
-#: pages/switch_to_linux.from_windows_to_linux.php:115
-msgid "or:"
-msgstr "ou:"
-
-#: pages/switch_to_linux.from_windows_to_linux.php:116
-msgid "&quot;Tell the truth and run.&quot;"
-msgstr "\"Diga a verdade e corra."
-
-#: pages/switch_to_linux.from_windows_to_linux.php:116
-msgid "&mdash; Yugoslavian proverb."
-msgstr "&mdash; \"Provérbio Iugoslavo"
-
-#: pages/switch_to_linux.from_windows_to_linux.php:120
+#: pages/switch_to_linux.from_windows_to_linux.php:109
 msgid "Driver support"
 msgstr "Suporte de drivers"
 
-#. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:123
-msgid "some hardware problems"
-msgstr "alguns problemas de hardware"
-
-#: pages/switch_to_linux.from_windows_to_linux.php:124
+#: pages/switch_to_linux.from_windows_to_linux.php:111
 msgid ""
 "Manufacturers of computer hardware don't always (yet) release drivers for "
 "Linux or publicize full specifications."
@@ -2763,7 +2596,7 @@ msgstr ""
 "Fabricantes de hardware de computador nem sempre (ainda) liberam versões de "
 "drivers para Linux ou divulgam as especificações completas."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:125
+#: pages/switch_to_linux.from_windows_to_linux.php:112
 msgid ""
 "So, drivers are sometimes unavailable for the most recent high-end graphics "
 "cards &mdash; some are reverse-engineered from Windows drivers by "
@@ -2775,13 +2608,13 @@ msgstr ""
 "por voluntários. Alguns também são lançados gratuitamente, mas sob licenças "
 "restritivas."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:126
+#: pages/switch_to_linux.from_windows_to_linux.php:113
 msgid "Sadly, the same problem occurs with many low-end WiFi cards."
 msgstr ""
 "Infelizmente, o mesmo problema ocorre com muitas placas WiFi de baixa "
 "capacidade."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:127
+#: pages/switch_to_linux.from_windows_to_linux.php:114
 msgid ""
 "However, the vast majority of computers with standard hardware work out of "
 "the box with main Linux distributions. Common hardware such as USB keys or "
@@ -2791,16 +2624,11 @@ msgstr ""
 "reconhecido por padrão nas principais distribuições Linux. Hardware comum, "
 "como drives USB ou câmeras fotográficas nunca são um problema."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:130
+#: pages/switch_to_linux.from_windows_to_linux.php:118
 msgid "DVDs, restricted formats"
 msgstr "DVDs, formatos restritos"
 
-#. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:133
-msgid "DVDs and restricted media"
-msgstr "DVDs e media restrita"
-
-#: pages/switch_to_linux.from_windows_to_linux.php:134
+#: pages/switch_to_linux.from_windows_to_linux.php:120
 msgid ""
 "Many multimedia formats in use are proprietary and not openly specified; "
 "this means, broadly speaking, that Linux programmers have to find out how to "
@@ -2811,37 +2639,32 @@ msgstr ""
 "têm que descobrir como lê-las sem qualquer ajuda dos designers de formato."
 
 #. i18n: Please choose the wording of the DRM acronym according to the FSF terminology
-#: pages/switch_to_linux.from_windows_to_linux.php:137
+#: pages/switch_to_linux.from_windows_to_linux.php:122
 msgid ""
 "This might lead you to circumvent the restrictions in some DVDs and the "
-"<acronym title=\"Digital Restrictions Management\">DRM</acronym> in some "
-"music files, even if you purchased them in full legality, to be make them "
-"work under Linux. Unfortunately, depending on where you live, <em>such "
+"<abbr title=\"Digital Restrictions Management\">DRM</abbr> in some music "
+"files, even if you purchased them in full legality, to be make them work "
+"under Linux. Unfortunately, depending on where you live, <em>such "
 "circumvention processes may be illegal</em> even if you purchased your media "
 "entirely legally."
 msgstr ""
-"Isso pode levá-lo a contornar as restrições em alguns DVDs e <acronym title="
-"\"Gestão de Direitos Digitais\">DRM</acronym> em alguns arquivos de áudio, "
+"Isso pode levá-lo a contornar as restrições em alguns DVDs e <abbr title="
+"\"Gestão de Direitos Digitais\">DRM</abbr> em alguns arquivos de áudio, "
 "mesmo se você tenha adquirido os mesmos de uma forma totalmente legal, para "
 "que possam funcionar no Linux. Infelizmente, dependendo do lugar onde você "
 "vive, <em>realizar tais processos pode ser ilegal</em> mesmo se você tenha "
 "adquirido tais mídias de forma completamente legal."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:138
-#: pages/switch_to_linux.from_windows_to_linux.php:150
+#: pages/switch_to_linux.from_windows_to_linux.php:123
+#: pages/switch_to_linux.from_windows_to_linux.php:132
 msgid "Read more in our Linux FAQ:"
 msgstr "Leia mais em nosso FAQ:"
 
-#: pages/switch_to_linux.from_windows_to_linux.php:142
+#: pages/switch_to_linux.from_windows_to_linux.php:127
 msgid "Gaming"
 msgstr "Jogos"
 
-#. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:145
-msgid "gaming"
-msgstr "jogos"
-
-#: pages/switch_to_linux.from_windows_to_linux.php:146
+#: pages/switch_to_linux.from_windows_to_linux.php:129
 msgid ""
 "Hard-core computer gamers, you might find that the Linux gaming world is "
 "less professional and out-of-the-box than under Windows: the large game "
@@ -2856,7 +2679,7 @@ msgstr ""
 "há necessidade de emuladores especiais restritivos para que funcionem."
 
 #. i18n: use localised link if possible, and contact us if you know better resources
-#: pages/switch_to_linux.from_windows_to_linux.php:149
+#: pages/switch_to_linux.from_windows_to_linux.php:131
 msgid ""
 "There is a very active free software game development community though, and "
 "they have produced quite a few high-quality games, both 2D and 3D, that are "
@@ -2868,16 +2691,11 @@ msgstr ""
 "Você pode ir ao <a href=\"http://ubuntuforums.org/forumdisplay.php?"
 "f=93\">fórum de jogos do Ubuntu</a> e encontrará mais informações."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:154
+#: pages/switch_to_linux.from_windows_to_linux.php:136
 msgid "Hibernating"
 msgstr "Hibernação"
 
-#. i18n: image alt description
-#: pages/switch_to_linux.from_windows_to_linux.php:157
-msgid "hibernation problems"
-msgstr "problemas com hibernação"
-
-#: pages/switch_to_linux.from_windows_to_linux.php:158
+#: pages/switch_to_linux.from_windows_to_linux.php:138
 msgid ""
 "Because of the driver issues above, hibernating is not always reliable. The "
 "most common occurrence is the loss of WiFi connection after hibernating on "
@@ -2887,11 +2705,11 @@ msgstr ""
 "A ocorrência mais comum é a perda de conexão Wi-Fi após a hibernação em "
 "laptops cujos drivers de hardware não são livres."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:169
+#: pages/switch_to_linux.from_windows_to_linux.php:147
 msgid "Conclusion"
 msgstr "Conclusão"
 
-#: pages/switch_to_linux.from_windows_to_linux.php:170
+#: pages/switch_to_linux.from_windows_to_linux.php:149
 msgid ""
 "Whether you are going to enjoy Linux depends mostly on what you expect from "
 "it."
@@ -2899,7 +2717,7 @@ msgstr ""
 "Se você irá gostar do Linux depende principalmente do que você espera dele."
 
 #. i18n: Use a localised version of the "Linux is Not Windows" article if possible. The following page contains links to localised versions: http://geekblog.oneandoneis2.org/index.php/2005/12/31/derived_works_aamp_translations
-#: pages/switch_to_linux.from_windows_to_linux.php:174
+#: pages/switch_to_linux.from_windows_to_linux.php:154
 msgid ""
 "If you wish Linux to be just exactly like Windows, you will probably be "
 "disappointed. GNU/Linux is built by people who simply <a href=\"http://linux."
@@ -2916,7 +2734,7 @@ msgstr ""
 "diferenças levam a variedade, que é o que torna o Linux tão especial e "
 "interessante."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:175
+#: pages/switch_to_linux.from_windows_to_linux.php:157
 msgid ""
 "Your freedom matters. Thousands in communities and companies work to build "
 "software on which you may exert this freedom. Using GNU/Linux is the easiest "
@@ -2926,7 +2744,7 @@ msgstr ""
 "construir software no qual você possa exercer essa liberdade. Usando GNU / "
 "Linux é a maneira mais fácil de fazê-lo totalmente."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:176
+#: pages/switch_to_linux.from_windows_to_linux.php:160
 msgid ""
 "It's fun! Not having to worry about spyware, viruses, program registrations, "
 "demos that expire, or finding software that is really free as in freedom, "
@@ -2936,7 +2754,7 @@ msgstr ""
 "programas, demos que expiram, ou encontrando software  que é realmente livre "
 "como em liberdade, torna o uso de um computador de repente muito agradável."
 
-#: pages/switch_to_linux.from_windows_to_linux.php:178
+#: pages/switch_to_linux.from_windows_to_linux.php:164
 msgid ""
 "We hope you'll switch soon. There's a large community waiting, and no one in "
 "it asking you to &quot;sign up, purchase and register&quot;."
@@ -2944,25 +2762,20 @@ msgstr ""
 "Esperamos que você mude em breve. Há uma grande comunidade que o espera, e "
 "não há ninguém nela pedindo para você \"se inscrever, comprar e registrar\""
 
-#. i18n: We try to be friendly and inviting here. This does not have to be translated very precisely.
-#: pages/switch_to_linux.from_windows_to_linux.php:188
-msgid "Choose a Linux distribution to get started!"
-msgstr "Escolha uma distribuição Linux para começar!"
-
-#. i18n: please note the "affirmative" tone with the '.' at end of sentence.
-#: pages/switch_to_linux.php:25
-msgid "Meet GNU/Linux in everyday use."
-msgstr "Conheça o GNU / Linux em seu uso diário."
-
-#: pages/switch_to_linux.php:32
+#: pages/switch_to_linux.from_windows_to_linux.php:174
+#: pages/switch_to_linux.php:41
 msgid "Our selection for an easy choice."
 msgstr "Nossa seleção para uma boa escolha."
 
-#: pages/switch_to_linux.php:39
+#: pages/switch_to_linux.php:27
+msgid "Meet GNU/Linux in everyday use."
+msgstr "Conheça o GNU / Linux em seu uso diário."
+
+#: pages/switch_to_linux.php:55
 msgid "Install it! (it's easier than you think)"
 msgstr "Instale o Linux! (é mais fácil do que você imagina)"
 
-#: pages/switch_to_linux.try_or_install.php:19
+#: pages/switch_to_linux.try_or_install.php:23
 msgid ""
 "Make the step &ndash; unless you wish to <a href=\"http://linuxpreloaded.com/"
 "\" title=\"Linux Desktops and Laptops\">purchase a PC with Linux pre-"
@@ -2972,15 +2785,15 @@ msgstr ""
 "com/\" title=\"Linux Desktops and Laptops\">comprar um PC com Linux pré-"
 "instalado</a>, você verá a liberdade em seu computador."
 
-#: pages/switch_to_linux.try_or_install.php:25
+#: pages/switch_to_linux.try_or_install.php:30
 msgid "Try out: the live CD"
 msgstr "Experimente: o Live CD"
 
-#: pages/switch_to_linux.try_or_install.php:27
+#: pages/switch_to_linux.try_or_install.php:32
 msgid "Take no risk"
 msgstr "Não arrisque"
 
-#: pages/switch_to_linux.try_or_install.php:29
+#: pages/switch_to_linux.try_or_install.php:36
 msgid ""
 "Using a live CD means that Linux will be running on your computer "
 "<em>without installing anything</em>. It's a risk-less way to try and see by "
@@ -2990,7 +2803,7 @@ msgstr ""
 "<em>sem instalar nada</em>. É uma maneira sem riscos de testar e ver por si "
 "mesmo oque é o Linux."
 
-#: pages/switch_to_linux.try_or_install.php:30
+#: pages/switch_to_linux.try_or_install.php:37
 msgid ""
 "When running on a live CD, your computer uses solely the CD-ROM to work "
 "(without accessing the hard drive inside). You can launch all of the default "
@@ -3000,7 +2813,7 @@ msgstr ""
 "trabalho (sem acessar o interior do disco rígido). Você pode iniciar todos "
 "os programas padrão, editar documentos e navegar na web."
 
-#: pages/switch_to_linux.try_or_install.php:31
+#: pages/switch_to_linux.try_or_install.php:38
 msgid ""
 "Since it is only designed as a trial mode, it is a little slow (it will take "
 "you five minutes to boot up, and programs launch somewhat slowly). If you "
@@ -3010,12 +2823,12 @@ msgstr ""
 "demorar cinco minutos para iniciar, e programas iniciam um pouco devagar). "
 "Se você prosseguir com a instalação, o sistema carregará muito mais rápido."
 
-#: pages/switch_to_linux.try_or_install.php:34
-#: pages/switch_to_linux.try_or_install.php:50
+#: pages/switch_to_linux.try_or_install.php:41
+#: pages/switch_to_linux.try_or_install.php:57
 msgid "What you need"
 msgstr "O que você precisa"
 
-#: pages/switch_to_linux.try_or_install.php:36
+#: pages/switch_to_linux.try_or_install.php:43
 msgid ""
 "To use a live CD, you need a little bit of curiosity and fifteen minutes of "
 "free time, but <strong>no advanced knowledge in computing</strong>. If you "
@@ -3027,15 +2840,15 @@ msgstr ""
 "avançado em computação</strong>. Se você se sentir confiante simplesmente "
 "usando o Windows de vez em quando, então isso está ao seu alcance."
 
-#: pages/switch_to_linux.try_or_install.php:44
+#: pages/switch_to_linux.try_or_install.php:49
 msgid "Installing as a dual boot"
 msgstr "Instalando em dual boot"
 
-#: pages/switch_to_linux.try_or_install.php:46
+#: pages/switch_to_linux.try_or_install.php:53
 msgid "Choose at start-up"
 msgstr "Escolha durante a inicialização"
 
-#: pages/switch_to_linux.try_or_install.php:47
+#: pages/switch_to_linux.try_or_install.php:54
 msgid ""
 "It is possible to install GNU/Linux along with Windows. This means that upon "
 "start-up, you will be greeted with a screen allowing you to boot into the "
@@ -3045,7 +2858,7 @@ msgstr ""
 "após a inicio, você será saudado com uma tela que lhe permitirá inicializar "
 "o sistema operacional que você preferir."
 
-#: pages/switch_to_linux.try_or_install.php:48
+#: pages/switch_to_linux.try_or_install.php:55
 msgid ""
 "Setting up a dual-boot can be helpful if you need time to abandon "
 "restrictive software. It is <a href=\"http://www.ubuntu.com/download/desktop/"
@@ -3058,7 +2871,7 @@ msgstr ""
 "Ubuntu\">não é difícil</a>, apesar de que se deletar o Windows completamente "
 "ficará ainda mais fácil."
 
-#: pages/switch_to_linux.try_or_install.php:51
+#: pages/switch_to_linux.try_or_install.php:58
 msgid ""
 "Installing Linux on your computer will take you less than 30 minutes. It is "
 "not an obvious step for complete beginners, but if you use computers on a "
@@ -3072,11 +2885,11 @@ msgstr ""
 "Windows no seu computador, fique tranquilo que a instalação do Linux não é "
 "mais difícil."
 
-#: pages/switch_to_linux.try_or_install.php:61
+#: pages/switch_to_linux.try_or_install.php:65
 msgid "Get the CD or DVD you need"
 msgstr "Obtenha o CD ou DVD que você precisa"
 
-#: pages/switch_to_linux.try_or_install.php:63
+#: pages/switch_to_linux.try_or_install.php:67
 msgid ""
 "For the distributions we recommend, the live CD/DVD is the same as the "
 "installation CD/DVD. You can either download and burn a CD/DVD yourself, or "
@@ -3086,7 +2899,7 @@ msgstr ""
 "instalação. Você mesmo pode baixar e gravar um CD/DVD , ou pedir um CD/DVD a "
 "um fornecedor confiável."
 
-#: pages/switch_to_linux.try_or_install.php:69
+#: pages/switch_to_linux.try_or_install.php:71
 msgid ""
 "You can download an <code>iso</code> image (rather large file) and then <a "
 "href=\"http://www.ubuntu.com/download/desktop/burn-a-dvd-on-windows\">burn "
@@ -3100,17 +2913,17 @@ msgstr ""
 "pode usá-lo para <a href=\"http://www.ubuntu.com/download/desktop/install-"
 "desktop-latest\">instalar Ubuntu</a> no seu computador."
 
-#: pages/switch_to_linux.try_or_install.php:73
+#: pages/switch_to_linux.try_or_install.php:75
 msgid "Download Ubuntu"
 msgstr "Baixar Ubuntu"
 
-#: pages/switch_to_linux.try_or_install.php:74
-#: pages/switch_to_linux.try_or_install.php:88
-#: pages/switch_to_linux.try_or_install.php:102
+#: pages/switch_to_linux.try_or_install.php:78
+#: pages/switch_to_linux.try_or_install.php:93
+#: pages/switch_to_linux.try_or_install.php:108
 msgid "Order a CD/DVD"
 msgstr "Encomendar um CD/DVD"
 
-#: pages/switch_to_linux.try_or_install.php:83
+#: pages/switch_to_linux.try_or_install.php:86
 msgid ""
 "The Fedora live CD/DVD also enables installation. Follow the <a href="
 "\"http://docs.fedoraproject.org/en-US/Fedora/18/html/"
@@ -3122,11 +2935,11 @@ msgstr ""
 "Installation_Quick_Start_Guide/index.html\">Guia de Início Rápido</a> para "
 "começar com o Fedora."
 
-#: pages/switch_to_linux.try_or_install.php:87
+#: pages/switch_to_linux.try_or_install.php:90
 msgid "Download Fedora"
 msgstr "Baixar Fedora"
 
-#: pages/switch_to_linux.try_or_install.php:97
+#: pages/switch_to_linux.try_or_install.php:101
 msgid ""
 "The <a href=\"http://trisquel.info/en/wiki/installation-guide\">Trisquel "
 "installation</a> is very similar to that of Ubuntu."
@@ -3134,11 +2947,11 @@ msgstr ""
 "A <a href=\"http://trisquel.info/en/wiki/installation-guide\">instalação do "
 "Trisquel</a> é muito semelhante à de Ubuntu."
 
-#: pages/switch_to_linux.try_or_install.php:101
+#: pages/switch_to_linux.try_or_install.php:105
 msgid "Download Trisquel"
 msgstr "Baixar Trisquel"
 
-#: pages/switch_to_linux.try_or_install.php:109
+#: pages/switch_to_linux.try_or_install.php:114
 msgid ""
 "Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href="
 "\"http://www.softwareliberty.com/\" title=\"What do you mean, free?\">free "
@@ -3149,11 +2962,11 @@ msgstr ""
 "\">software livre</a>. Você estará simplesmente pagando uma taxa de "
 "manuseio / transporte."
 
-#: pages/switch_to_linux.try_or_install.php:116
+#: pages/switch_to_linux.try_or_install.php:121
 msgid "Free Software pre-installed"
 msgstr "Software livre pré-instalado"
 
-#: pages/switch_to_linux.try_or_install.php:118
+#: pages/switch_to_linux.try_or_install.php:123
 msgid ""
 "Not all computers are shipped with Windows. If you do not wish to make the "
 "install yourself, or are in need of new hardware, you can get a laptop or a "
@@ -3169,7 +2982,7 @@ msgstr ""
 "com/\">uma lista de fornecedores que vendem Linux pré-instalado em "
 "LinuxPreloaded.com</a> para suprir esta necessidade."
 
-#: pages/windows.php:19
+#: pages/windows.php:21
 msgid "Windows and Office work fine &mdash; Why worry about it?"
 msgstr "Windows e Office funcionam bem - Por que se preocupar com isso?"
 
@@ -3181,7 +2994,7 @@ msgstr ""
 "Uma copia legal do Windows é cara, mas o que você ganha com isso? Windows e "
 "Office são licenciados, não são vendidos."
 
-#: pages/windows.php:30
+#: pages/windows.php:31
 msgid ""
 "By using these products, we have to agree to <strong>a number of harsh "
 "restrictions</strong>. For most Windows licenses, you can't keep the "
@@ -3196,16 +3009,11 @@ msgstr ""
 "você pode fazer com ele? A lista de restrições é muito maior e algums items "
 "são ultrajantes."
 
-#: pages/windows.php:33 pages/windows.php:47 pages/windows.php:60
-#: pages/windows.php:76
-msgid "read our full article:"
-msgstr "leia nosso artigo completo:"
-
-#: pages/windows.php:43
+#: pages/windows.php:39
 msgid "Software should come without locks in it."
 msgstr "O software deveria vir sem bloqueios."
 
-#: pages/windows.php:44
+#: pages/windows.php:41
 msgid ""
 "Why are Office documents difficult to export? Why are the formats "
 "continually changing? Why can you not even uninstall some programs? It might "
@@ -3216,7 +3024,7 @@ msgstr ""
 "programas? Isso tudo pode ser diferente se você fizer melhor suas escolhas, "
 "os produtos da Microsoft não são para você. "
 
-#: pages/windows.php:55
+#: pages/windows.php:49
 msgid ""
 "The source codes of Windows and Office are hidden, so, <strong>no one is "
 "allowed to understand</strong> how these programs work."
@@ -3225,7 +3033,7 @@ msgstr ""
 "<strong>ninguém tem permissão para entender</strong> como estes programas "
 "funcionam."
 
-#: pages/windows.php:56
+#: pages/windows.php:51
 msgid ""
 "If you can't get a right to inspect source code (the human-readable inner "
 "workings of a program), you can't have someone correct flaws or evaluate how "
@@ -3235,7 +3043,7 @@ msgstr ""
 "programa compreensível pelo ser humano), você não tem ninguém para corrigir "
 "os furos ou avaliar como sua privacidade está sendo protegida."
 
-#: pages/windows.php:57
+#: pages/windows.php:53
 msgid ""
 "And guess what? On software that comes with source code, viruses and spyware "
 "aren't effective, and security isn't bought on extra. The antivirus software "
@@ -3246,7 +3054,7 @@ msgstr ""
 "efeito, e a segurança não é uma compra extra. A indústria de antivírus, na "
 "qual a Microsoft é um dos grandes jogadores, prefere que você use Windows."
 
-#: pages/windows.php:70
+#: pages/windows.php:63
 msgid ""
 "A free society requires free software. Think of &quot;free&quot; as in "
 "freedom, not price: the freedoms to inspect, learn from, modify the software "
@@ -3256,7 +3064,7 @@ msgstr ""
 "liberdade, não preço: as liberdades para inspecionar, aprender, modificar o "
 "software que você usa."
 
-#: pages/windows.php:71
+#: pages/windows.php:65
 msgid ""
 "Computers are used to share ideas, culture and information. Without these "
 "freedoms over software, we risk losing control over what we share."
@@ -3265,7 +3073,7 @@ msgstr ""
 "estas liberdades sobre o software, nós arriscamos perder o controle sobre o "
 "que nós partilhamos."
 
-#: pages/windows.php:72
+#: pages/windows.php:67
 msgid ""
 "This is happening today. From plain annoying technologies such as Digital "
 "Restrictions Management (<strong>DRM</strong>) to downright frightening ones "
@@ -3278,7 +3086,7 @@ msgstr ""
 "Computing</strong> (Computação confiável), a capacidade de todos em "
 "participar na cultura está ameaçada."
 
-#: pages/windows.php:73
+#: pages/windows.php:69
 msgid ""
 "If you have to give up your freedoms to use software, maybe you should not "
 "be happy with it."
@@ -3286,7 +3094,7 @@ msgstr ""
 "Se você tem que abrir mão de sua liberdade para usar o software, talvez você "
 "não deveria estar feliz com isso."
 
-#: pages/windows.php:85
+#: pages/windows.php:77
 #, php-format
 msgid ""
 "Many people find that Windows, an otherwise decent piece of software, "
@@ -3298,7 +3106,7 @@ msgstr ""
 "<strong>que retira delas tantos direitos</strong>, e que não é digno de ser "
 "usado por elas. Mac OS <a href=\"%s#mac_freedom\">não é muito melhor</a>."
 
-#: pages/windows.php:87
+#: pages/windows.php:79
 #, php-format
 msgid ""
 "If you find <a href=\"http://www.softwareliberty.com/\" title=\"what is "
@@ -3310,11 +3118,7 @@ msgstr ""
 "href=\"%s\" title=\"make the switch to Linux today!\">dar uma chance ao "
 "Linux</a>."
 
-#: pages/windows.php:94
-msgid "previous:"
-msgstr "anterior:"
-
-#: pages/windows.restrictions.further_details.php:21
+#: pages/windows.restrictions.further_details.php:22
 #, php-format
 msgid ""
 "We wished to keep our \"<a href=\"%s\">Restrictions</a>\" page short, so we "
@@ -3341,7 +3145,7 @@ msgstr ""
 "sugerem que seria ilegal deixar o seu vizinho digitar uma letra com a sua "
 "versão do Word em seu computador."
 
-#: pages/windows.restrictions.further_details.php:29
+#: pages/windows.restrictions.further_details.php:30
 msgid ""
 "It is however clear in the Microsoft Windows license that you may <em>only</"
 "em> give or sell your copy of Windows software to anyone <strong>if you are "
@@ -3359,7 +3163,7 @@ msgstr ""
 "se você não usá-lo mais, mesmo se você comprar a versão mais recente do "
 "software com o computador novo."
 
-#: pages/windows.restrictions.further_details.php:35
+#: pages/windows.restrictions.further_details.php:34
 msgid ""
 "You may not lease, lend or provide commercial hosting services with the "
 "software"
@@ -3376,7 +3180,7 @@ msgstr ""
 "Você não pode permitir que profissionais usem seu software, pagando pelo "
 "serviço ou não, usando uma licença \"Professional\" ou não."
 
-#: pages/windows.restrictions.further_details.php:41
+#: pages/windows.restrictions.further_details.php:40
 msgid "The upgrade is only valid for the first license you use it on"
 msgstr "A atualização só é válida para a primeira licença em que usá-lo"
 
@@ -3395,7 +3199,7 @@ msgstr ""
 msgid "Educational versions are crippled"
 msgstr "Versões educacionais são incompletas"
 
-#: pages/windows.restrictions.further_details.php:47
+#: pages/windows.restrictions.further_details.php:48
 msgid ""
 "If Microsoft accepts to define you as a student or an academic, you are "
 "allowed to buy an academic license, and install the software on three "
@@ -3413,7 +3217,7 @@ msgstr ""
 msgid "The components of the software may not be separated"
 msgstr "Os componentes do software não podem ser separados"
 
-#: pages/windows.restrictions.further_details.php:53
+#: pages/windows.restrictions.further_details.php:54
 msgid ""
 "It is illegal to buy Microsoft Office, then install only Word on one "
 "computer, and only Excel on another. The Office suite is one single product."
@@ -3421,11 +3225,11 @@ msgstr ""
 "É ilegal comprar o Microsoft Office, em seguida, instalar o Word em um "
 "computador, e o Excel em outro. A suíte Office é um produto único."
 
-#: pages/windows.restrictions.further_details.php:57
+#: pages/windows.restrictions.further_details.php:58
 msgid "Private information is collected"
 msgstr "Informações confidenciais são recolhidas"
 
-#: pages/windows.restrictions.further_details.php:59
+#: pages/windows.restrictions.further_details.php:60
 msgid ""
 "The licence explicitly states that \"Microsoft and its affiliates\" collect "
 "technical information gathered on your computer by the software. They "
@@ -3437,7 +3241,7 @@ msgstr ""
 "Eles \"<em>pode usar essas informações somente para melhorar os produtos ou "
 "para fornecer serviços personalizados ou tecnologias</em>\"."
 
-#: pages/windows.restrictions.further_details.php:60
+#: pages/windows.restrictions.further_details.php:62
 msgid ""
 "In order to activate most Microsoft products, as part of the license "
 "agreement, your computer connects to the Microsoft servers and sends &quot;"
@@ -3449,25 +3253,20 @@ msgstr ""
 "\"técnicas\". Pode \"somente\" ser utilizado para praticamente qualquer "
 "coisa."
 
-#: pages/windows.restrictions.further_details.php:66
-#: pages/windows.stand_for_a_free_society.php:131
-msgid "Read more"
-msgstr "Leia mais"
-
 #. i18n: If it exists, please use a non-official translation of the GPL in your language, as pointed on http://www.gnu.org/licenses/translations.html
-#: pages/windows.restrictions.further_details.php:71
+#: pages/windows.restrictions.further_details.php:72
 msgid "http://www.gnu.org/copyleft/gpl.html"
 msgstr "http://www.gnu.org/copyleft/gpl.html"
 
-#: pages/windows.restrictions.further_details.php:71
+#: pages/windows.restrictions.further_details.php:72
 msgid "The GNU General Public License"
 msgstr "A GNU General Public License"
 
-#: pages/windows.restrictions.further_details.php:71
+#: pages/windows.restrictions.further_details.php:72
 msgid "The GPL"
 msgstr "A GPL"
 
-#: pages/windows.restrictions.further_details.php:72
+#: pages/windows.restrictions.further_details.php:74
 msgid ""
 "The GNU General Public License, under which GNU/Linux and a vast amount of "
 "free software are published."
@@ -3475,75 +3274,38 @@ msgstr ""
 "A GNU Licença Pública Geral, na qual GNU / Linux e uma grande quantidade de "
 "software livre são publicados."
 
-#: pages/windows.restrictions.further_details.php:74
+#: pages/windows.restrictions.further_details.php:76
 msgid "Comparing the GPL to the Microsoft WinXP License"
 msgstr "Comparando o GPL à Licença da Microsoft WinXP "
 
-#: pages/windows.restrictions.further_details.php:75
+#: pages/windows.restrictions.further_details.php:78
 msgid ""
-"A thorough and clear comparison of the <acronym title=\"GNU General Public "
-"License\">GPL</acronym> and the Microsoft <acronym title=\"End-User License "
-"Agreement\">EULA</acronym> license that governs the use of most Windows XP "
+"A thorough and clear comparison of the <abbr title=\"GNU General Public "
+"License\">GPL</abbr> and the Microsoft <abbr title=\"End-User License "
+"Agreement\">EULA</abbr> license that governs the use of most Windows XP "
 "versions."
 msgstr ""
-"Uma comparação completa e clara do <acronym title=\"GNU General Public "
-"License\">GPL</acronym> and the Microsoft <acronym title=\"End-User License "
-"Agreement\">EULA</acronym> que governa o uso das versões do Windows XP."
+"Uma comparação completa e clara do <abbr title=\"GNU General Public License"
+"\">GPL</abbr> and the Microsoft <abbr title=\"End-User License Agreement"
+"\">EULA</abbr> que governa o uso das versões do Windows XP."
 
 #: pages/windows.restrictions.further_details.php:81
-#: pages/windows.stand_for_a_free_society.php:134
+#: pages/windows.stand_for_a_free_society.php:137
 msgid "http://www.gnu.org/philosophy/right-to-read.html"
 msgstr "http://www.gnu.org/philosophy/right-to-read.html"
 
 #: pages/windows.restrictions.further_details.php:81
-#: pages/windows.stand_for_a_free_society.php:134
+#: pages/windows.stand_for_a_free_society.php:137
 msgid "The Right to Read"
 msgstr "O Direito de Ler"
 
-#: pages/windows.restrictions.further_details.php:82
+#: pages/windows.restrictions.further_details.php:83
 msgid ""
 "A short story by Richard Stallman that describes what influence restrictive "
 "licenses could have on our lives."
 msgstr ""
 "Uma curta história por Richard Stallman que descreve que influência as "
 "licenças restritivas poderiam ter em nossas vidas."
-
-#: pages/windows.restrictions.php:18
-msgid ""
-"If you go to most of the free software sites you can click down a couple of "
-"levels and find the [GNU] <acronym title=\"General Public License, the main "
-"free software license\">GPL</acronym>, the X license, the Apache license, "
-"whichever terms and conditions you have to accept in order to use that "
-"software."
-msgstr ""
-"Se você visitar a maioria dos sites de software livre você pode dar alguns "
-"cliques e encontrar o [GNU] <acronym title=\"General Public License, a "
-"principal licença do software livre\">GPL</acronym>, a licença X, a licença "
-"Apache, seja quais forem os termos e condições que você tiver que aceitar "
-"para usar o software."
-
-#: pages/windows.restrictions.php:19
-msgid ""
-"Now with a proprietary software company, the license is buried so you can't "
-"read it until after you have paid for the product, then they're asking you "
-"to <strong>turn off part of your brain</strong>, they're asking you to turn "
-"off part of your ability to work with other people and to do business, when "
-"you use their software."
-msgstr ""
-"Agora, com uma empresa de software proprietário, a licença é inascesível, "
-"para que você não possa lê-la até que tenha pago pelo produto,estão a pedir "
-"que você <strong>desligue parte de seu cérebro</strong>, eles estão a pedir "
-"que você desligue parte de sua capacidade de trabalhar com outras pessoas e "
-"fazer negócios, quando você usar o seu software."
-
-#: pages/windows.restrictions.php:20
-msgid "Don Marti interview"
-msgstr "Entrevista com Don Marti"
-
-#: pages/windows.restrictions.php:20
-#: pages/windows.stand_for_a_free_society.php:27
-msgid "2005 interview"
-msgstr "Entrevista 2005"
 
 #: pages/windows.restrictions.php:23
 msgid ""
@@ -3560,15 +3322,52 @@ msgid "Haven't read your license fully? We did that job for you."
 msgstr ""
 "Você não leu sua licença até o fim? Nós fizemos este trabalho para você."
 
-#: pages/windows.restrictions.php:26
+#: pages/windows.restrictions.php:28
+msgid ""
+"If you go to most of the free software sites you can click down a couple of "
+"levels and find the [GNU] <abbr title=\"General Public License, the main "
+"free software license\">GPL</abbr>, the X license, the Apache license, "
+"whichever terms and conditions you have to accept in order to use that "
+"software."
+msgstr ""
+"Se você visitar a maioria dos sites de software livre você pode dar alguns "
+"cliques e encontrar o [GNU] <abbr title=\"General Public License, a "
+"principal licença do software livre\">GPL</abbr>, a licença X, a licença "
+"Apache, seja quais forem os termos e condições que você tiver que aceitar "
+"para usar o software."
+
+#: pages/windows.restrictions.php:29
+msgid ""
+"Now with a proprietary software company, the license is buried so you can't "
+"read it until after you have paid for the product, then they're asking you "
+"to <strong>turn off part of your brain</strong>, they're asking you to turn "
+"off part of your ability to work with other people and to do business, when "
+"you use their software."
+msgstr ""
+"Agora, com uma empresa de software proprietário, a licença é inascesível, "
+"para que você não possa lê-la até que tenha pago pelo produto,estão a pedir "
+"que você <strong>desligue parte de seu cérebro</strong>, eles estão a pedir "
+"que você desligue parte de sua capacidade de trabalhar com outras pessoas e "
+"fazer negócios, quando você usar o seu software."
+
+#: pages/windows.restrictions.php:30
+msgid "Don Marti interview"
+msgstr "Entrevista com Don Marti"
+
+#: pages/windows.restrictions.php:30
+#: pages/windows.stand_for_a_free_society.php:34
+msgid "2005 interview"
+msgstr "Entrevista 2005"
+
+#: pages/windows.restrictions.php:33
 msgid "The small print in the contract"
 msgstr "As letras pequenas no contrato"
 
-#: pages/windows.restrictions.php:32
+#: pages/windows.restrictions.php:37
 msgid "Windows and Office are licensed, not sold."
 msgstr "Windows e Office são licenciados, não vendidos."
 
-#: pages/windows.restrictions.php:33
+#: pages/windows.restrictions.php:38
 msgid ""
 "No one can buy Windows or Microsoft Office: instead users <strong>purchase a "
 "permission to use</strong> them. The license describes the terms of this "
@@ -3580,15 +3379,15 @@ msgstr ""
 "descreve os termos da permissão. É o texto restritivo que você tem que "
 "clicar em \"OK\" para instalar em cima."
 
-#: pages/windows.restrictions.php:36
+#: pages/windows.restrictions.php:41
 msgid "You must abandon many rights to use the software."
 msgstr "Você precisa abandonar muitos direitos para usar o software."
 
-#: pages/windows.restrictions.php:37
+#: pages/windows.restrictions.php:42
 msgid "There are a number of restrictions that you must accept by law."
 msgstr "Existem muitas restrições que você deve aceitar por lei."
 
-#: pages/windows.restrictions.php:38
+#: pages/windows.restrictions.php:43
 #, php-format
 msgid ""
 "Restrictions on who can use the software, what kind of revenue you may earn "
@@ -3603,19 +3402,19 @@ msgstr ""
 "\"um pouco mais sobre licenças Microsoft\">ler a licença e enumerar os seus "
 "direitos restantes</a> é em si uma tarefa difícil."
 
-#. i18n: Don't bother with the 'acronym' code. You can tranlsate as 'OEM [pre-installed]'
-#: pages/windows.restrictions.php:45
+#. i18n: Don't bother with the 'abbr' code. You can tranlsate as 'OEM [pre-installed]'
+#: pages/windows.restrictions.php:50
 msgid ""
-"An <acronym title=\"Original Equipment Manufacturer (simply the hardware "
-"seller)\">OEM</acronym>-distributed software cannot be transferred to "
-"another computer."
+"An <abbr title=\"Original Equipment Manufacturer (simply the hardware "
+"seller)\">OEM</abbr>-distributed software cannot be transferred to another "
+"computer."
 msgstr ""
-"Um software de distribuição <acronym title=\"Original Equipment Manufacturer "
-"(simplesmente o vendedor do hardware)\">OEM</acronym> não pode ser "
-"transferido para outro computador."
+"Um software de distribuição <abbr title=\"Original Equipment Manufacturer "
+"(simplesmente o vendedor do hardware)\">OEM</abbr> não pode ser transferido "
+"para outro computador."
 
 #. i18n: Don't bother with the 'shrink-wrap' expression. You can skip that bit if you wish.
-#: pages/windows.restrictions.php:49
+#: pages/windows.restrictions.php:54
 msgid ""
 "If you bought your computer with Windows or Office pre-installed (the so-"
 "called OEM licenses, or the \"shrink wrap\" Windows discs), <strong>if you "
@@ -3626,7 +3425,7 @@ msgstr ""
 "<strong>se mudar de computador você deve comprar o software novamente.</"
 "strong>"
 
-#: pages/windows.restrictions.php:50
+#: pages/windows.restrictions.php:55
 msgid ""
 "The license is linked to one computer, and expires when the computer dies. "
 "It is then illegal to transfer the software on another computer."
@@ -3634,12 +3433,12 @@ msgstr ""
 "A licença está ligada a um computador, e expira quando o computador morre. "
 "Então é ilegal transferir o software para outro computador."
 
-#: pages/windows.restrictions.php:55
+#: pages/windows.restrictions.php:59
 msgid "The meaning behind"
 msgstr "O significado que está por trás disso"
 
 #. i18n: Please don't forget the rel=nofollow element in the link - it makes sure we don't increase MS PR.
-#: pages/windows.restrictions.php:59
+#: pages/windows.restrictions.php:63
 msgid ""
 "Companies like Microsoft like to assimilate their software to physical "
 "products, <a href=\"http://www.microsoft.com/piracy/\" rel=\"nofollow\">when "
@@ -3653,7 +3452,7 @@ msgstr ""
 "proprietário seja muito diferente por causa das restrições de licença tais "
 "restrições seriam impensáveis em um carro ou uma bicicleta, por exemplo."
 
-#: pages/windows.restrictions.php:60
+#: pages/windows.restrictions.php:64
 msgid ""
 "Restrictions on the use of Office and Windows are so harsh, that many "
 "violations occur everyday around us. People are tempted to buy only one "
@@ -3668,7 +3467,7 @@ msgstr ""
 "entregam seu software Windows quando param de usá-lo."
 
 #. i18n: use the definition of "free software" on GNU.org in place of softwareliberty.com ; also, if you can, use a translation of the GPL as found on http://www.gnu.org/licenses/translations.html
-#: pages/windows.restrictions.php:63
+#: pages/windows.restrictions.php:67
 msgid ""
 "<strong>You have an alternative to breaking this law,</strong> or feeling "
 "very restrained when you abide to it. GNU/Linux is <a href=\"http://www."
@@ -3682,38 +3481,15 @@ msgstr ""
 "freweare): sua licença <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</"
 "a> é projetada para proteger seus direitos."
 
-#: pages/windows.restrictions.php:66
+#: pages/windows.restrictions.php:69
 msgid "Restrictions - further details"
 msgstr "Restrições - mais detalhes"
 
-#: pages/windows.stand_for_a_free_society.php:20
+#: pages/windows.stand_for_a_free_society.php:23
 msgid "Stand for a Free Society"
 msgstr "Apoie uma Sociedade Livre"
 
-#. i18n : This is the quote by Don Marti at the start of the article.
-#: pages/windows.stand_for_a_free_society.php:25
-msgid ""
-"I come up with new words, phrases, analogies, all kinds of fun stuff in the "
-"English language and people paraphrase what I had to say and make money "
-"talking about some of the same things that I did."
-msgstr ""
-"Eu venho com novas palavras, frases, analogias, todos os tipos de coisas "
-"divertidas no idioma Inglês e pessoas parafraseam o que eu tinha a dizer e "
-"fazer o dinheiro a falar de algumas das mesmas coisas que eu fiz."
-
 #: pages/windows.stand_for_a_free_society.php:26
-msgid ""
-"<strong>If I try to lock down</strong> what I talk about and write about, "
-"the same way as a proprietary software company does, then the whole industry "
-"of speaking, writing, media, would be overly litigious, and transaction "
-"costs would be prohibitive."
-msgstr ""
-"<strong>Se eu tentar bloquear</strong> o que eu falar e escrever, da mesma "
-"forma como uma empresa de software proprietário faz, então, toda a indústria "
-"de fala, escrita, da mídia, seria excessivamente contenciosa, e os custos de "
-"transação seriam proibitivos."
-
-#: pages/windows.stand_for_a_free_society.php:30
 msgid ""
 "There is much more to software than being trustworthy (being \"Open-Source"
 "\"): what really counts is <strong>the freedoms you get</strong> over it. "
@@ -3725,11 +3501,34 @@ msgstr ""
 "Você pode aprender com isso? Você pode modificá-lo? Você pode distribuí-lo? "
 "Isso é o que chamamos de \"software livre\"."
 
+#. i18n : This is the quote by Don Marti at the start of the article.
 #: pages/windows.stand_for_a_free_society.php:32
+msgid ""
+"I come up with new words, phrases, analogies, all kinds of fun stuff in the "
+"English language and people paraphrase what I had to say and make money "
+"talking about some of the same things that I did."
+msgstr ""
+"Eu venho com novas palavras, frases, analogias, todos os tipos de coisas "
+"divertidas no idioma Inglês e pessoas parafraseam o que eu tinha a dizer e "
+"fazer o dinheiro a falar de algumas das mesmas coisas que eu fiz."
+
+#: pages/windows.stand_for_a_free_society.php:33
+msgid ""
+"<strong>If I try to lock down</strong> what I talk about and write about, "
+"the same way as a proprietary software company does, then the whole industry "
+"of speaking, writing, media, would be overly litigious, and transaction "
+"costs would be prohibitive."
+msgstr ""
+"<strong>Se eu tentar bloquear</strong> o que eu falar e escrever, da mesma "
+"forma como uma empresa de software proprietário faz, então, toda a indústria "
+"de fala, escrita, da mídia, seria excessivamente contenciosa, e os custos de "
+"transação seriam proibitivos."
+
+#: pages/windows.stand_for_a_free_society.php:37
 msgid "Not a crazy concept"
 msgstr "Não é um conceito maluco"
 
-#: pages/windows.stand_for_a_free_society.php:33
+#: pages/windows.stand_for_a_free_society.php:39
 msgid ""
 "It sounds peculiar to many users that software should be free as in freedom, "
 "since none of Microsoft's products are. Yet our society works with many free "
@@ -3740,7 +3539,7 @@ msgstr ""
 "sociedade funciona com muitas coisas gratuitas, por exemplo:"
 
 #. i18n : This is the short quote on the side of the article.
-#: pages/windows.stand_for_a_free_society.php:40
+#: pages/windows.stand_for_a_free_society.php:44
 msgid ""
 "Though no one has a proprietary lock on yoga, it is still a thriving $30 "
 "billion business in the United States."
@@ -3748,7 +3547,7 @@ msgstr ""
 "Embora ninguém tem um bloqueio de propriedade sobre yoga, é ainda um negócio "
 "florescente de 30.000 milhões dólares nos Estados Unidos."
 
-#: pages/windows.stand_for_a_free_society.php:45
+#: pages/windows.stand_for_a_free_society.php:49
 msgid ""
 "No chef would ever forbid you to modify his recipe and make derivatives out "
 "of it. The food industry thrives despite being required by law to list "
@@ -3758,7 +3557,7 @@ msgstr ""
 "partir dele. A indústria de alimentos cresce, apesar de ser obrigado por lei "
 "a enumerar os ingredientes nos rótulos dos produtos."
 
-#: pages/windows.stand_for_a_free_society.php:46
+#: pages/windows.stand_for_a_free_society.php:50
 msgid ""
 "A fair law court system permits anyone to read through all the trial "
 "hearings and arguments. Not only the result (the final deliberations), but "
@@ -3768,7 +3567,7 @@ msgstr ""
 "as audiências de julgamento e argumentos. Não só o resultado (as "
 "deliberações finais), mas também o processo é totalmente aberto."
 
-#: pages/windows.stand_for_a_free_society.php:49
+#: pages/windows.stand_for_a_free_society.php:53
 msgid ""
 "Free software is free as in &quot;free speech&quot;, as in a &quot;free "
 "market&quot;: all are necessary for a free society. Unconvinced? Let us look "
@@ -3778,11 +3577,11 @@ msgstr ""
 "\"mercado livre\": todos são necessários para uma sociedade livre. Não está "
 "convencido? Olhemos para o software proprietário um pouco mais."
 
-#: pages/windows.stand_for_a_free_society.php:51
+#: pages/windows.stand_for_a_free_society.php:55
 msgid "Proprietary software going wrong"
 msgstr "Software proprietário dando errado"
 
-#: pages/windows.stand_for_a_free_society.php:53
+#: pages/windows.stand_for_a_free_society.php:57
 #, php-format
 msgid ""
 "The limits of proprietary software go beyond the security issue (see <a href="
@@ -3796,13 +3595,13 @@ msgstr ""
 "principalmente por meio de duas tecnologias:"
 
 #. i18n: This is sometimes only known as "DRM" in some languages. Please choose the vocabulary carefully. The %s placeholder links to a footnote which explains why we use the term "Digital Restrictions Management": http://www.getgnulinux.org/windows/stand_for_a_free_society/#footnote_bottom1
-#: pages/windows.stand_for_a_free_society.php:60
+#: pages/windows.stand_for_a_free_society.php:62
 #, php-format
 msgid "Digital Restrictions Management %s (DRM)"
 msgstr "Gerenciamento de restrições digitais %s (DRM)"
 
 #. i18n: The %s placeholder will automatically point to the footnote on bottom of page
-#: pages/windows.stand_for_a_free_society.php:64
+#: pages/windows.stand_for_a_free_society.php:66
 #, php-format
 msgid ""
 "The main idea of DRM %s is to restrict access to files. Users encounter this "
@@ -3817,36 +3616,36 @@ msgstr ""
 "método, as empresas lutam contra a quebra de direitos autorais, mas elas "
 "também restringem o acesso dos usuários aos seus próprios arquivos."
 
-#: pages/windows.stand_for_a_free_society.php:68
+#: pages/windows.stand_for_a_free_society.php:70
 msgid "DRM is control over content"
 msgstr "DRM é controle sobre o conteúdo"
 
-#: pages/windows.stand_for_a_free_society.php:70
+#: pages/windows.stand_for_a_free_society.php:73
 msgid ""
 "Except that the control is not in the hands of the end-user. The original "
-"purpose of <acronym title=\"Digital Restrictions Management\">DRM</acronym> "
-"is understandable, but the implications over the flow of information and "
+"purpose of <abbr title=\"Digital Restrictions Management\">DRM</abbr> is "
+"understandable, but the implications over the flow of information and "
 "culture within a society are frightening."
 msgstr ""
 "Só que o controle não está nas mãos do usuário final. O propósito original "
-"da <acronym title=\"Gestão de Direitos Digitais\">GDD</acronym> é "
-"compreensível, mas as implicações que isso traz ao fluxo de informações e "
-"cultura dentro da sociedade são assustadoras."
+"da <abbr title=\"Gestão de Direitos Digitais\">GDD</abbr> é compreensível, "
+"mas as implicações que isso traz ao fluxo de informações e cultura dentro da "
+"sociedade são assustadoras."
 
-#: pages/windows.stand_for_a_free_society.php:73
+#: pages/windows.stand_for_a_free_society.php:77
 msgid ""
 "Imagine a book that automatically became glued shut after you read it once."
 msgstr ""
 "Imagine um livro que tornou-se automaticamente colado e fechado depois de lê-"
 "lo uma vez."
 
-#: pages/windows.stand_for_a_free_society.php:74
+#: pages/windows.stand_for_a_free_society.php:78
 msgid ""
 "Imagine documents that self-destructed if you tried to take them out of the "
 "room."
 msgstr "Imagine documentos que autodestroem se você tentar tirá-los da sala."
 
-#: pages/windows.stand_for_a_free_society.php:75
+#: pages/windows.stand_for_a_free_society.php:79
 msgid ""
 "Imagine telephones that only worked if the person you were ringing was "
 "renting the same make and model."
@@ -3854,16 +3653,16 @@ msgstr ""
 "Imaginem telefones que só funcionam se a pessoa que receberá a ligação "
 "utilizar a mesma marca e modelo."
 
-#: pages/windows.stand_for_a_free_society.php:78
+#: pages/windows.stand_for_a_free_society.php:83
 msgid "Sounds crazy? This is where Trusted Computing comes in."
 msgstr "Parece loucura? É aí que entra a Computação Confiável."
 
 #. i18n: This is sometimes only known as "Trusted Computing", not TC, in some languages. Please choose the vocabulary carefully.
-#: pages/windows.stand_for_a_free_society.php:84
+#: pages/windows.stand_for_a_free_society.php:87
 msgid "Trusted Computing (TC)"
 msgstr "Computação Confiável (CC)"
 
-#: pages/windows.stand_for_a_free_society.php:86
+#: pages/windows.stand_for_a_free_society.php:89
 msgid ""
 "Trusted Computing (sometimes <a href=\"http://www.lafkon.net/tc/\" title=\"A "
 "very well done video on Trusted Computing\">more accurately</a> called "
@@ -3880,11 +3679,11 @@ msgstr ""
 "contra agentes prejudiciais (como vírus ou spywares) e violação a direitos "
 "autorais (pessoas copiando software proprietário)."
 
-#: pages/windows.stand_for_a_free_society.php:88
+#: pages/windows.stand_for_a_free_society.php:92
 msgid "Trusted Computing is control over the computer"
 msgstr "Computação Confiável é controle sobre o computador"
 
-#: pages/windows.stand_for_a_free_society.php:90
+#: pages/windows.stand_for_a_free_society.php:95
 msgid ""
 "The critical thing about Trusted Computing is that <strong>you cannot "
 "decide</strong> what is trustworthy and what is not. For example, your "
@@ -3900,7 +3699,7 @@ msgstr ""
 "escritório, ou tocar o DVD do seu vizinho, ou enviar sua dissertação para "
 "outra pessoa que não esteja usando o mesmo programa."
 
-#: pages/windows.stand_for_a_free_society.php:91
+#: pages/windows.stand_for_a_free_society.php:96
 msgid ""
 "A whole range of possibilities opens up for companies that benefit from "
 "restricting your computing (such as proprietary software and recording "
@@ -3916,7 +3715,7 @@ msgstr ""
 "mas não pode salvar ou copiar. Sem você perceber, a Computação Confiável e "
 "DRM permitem <strong>controle remoto</strong> sobre o conteúdo."
 
-#: pages/windows.stand_for_a_free_society.php:92
+#: pages/windows.stand_for_a_free_society.php:97
 msgid ""
 "Trusted Computing, in effect, enables the publisher to write their own "
 "copyright law.</p>"
@@ -3924,12 +3723,12 @@ msgstr ""
 "Computação Confiável, na prática, permite que o publicador defina suas "
 "própria lei de direitos autorais.</p>"
 
-#: pages/windows.stand_for_a_free_society.php:96
+#: pages/windows.stand_for_a_free_society.php:100
 msgid "The wider impact"
 msgstr "O maior impacto"
 
 #. i18n: This is the quote by Rosemary Bechler in the middle of the article.
-#: pages/windows.stand_for_a_free_society.php:103
+#: pages/windows.stand_for_a_free_society.php:105
 msgid ""
 "Many cultural products are now emerging &quot;triple protected&quot;, not "
 "only by copyright and code, but also by contracts or licenses for which "
@@ -3940,7 +3739,7 @@ msgstr ""
 "licenças através dos quais os usuários renunciam todos os direitos que lhes "
 "restavam."
 
-#: pages/windows.stand_for_a_free_society.php:104
+#: pages/windows.stand_for_a_free_society.php:106
 msgid ""
 "Increasingly, copyright is replaced with click-through end-user licenses for "
 "digital content, using contract law to establish the absolute property "
@@ -3951,7 +3750,7 @@ msgstr ""
 "para estabelecer direitos absolutos de propriedade que a lei de direitos "
 "autorais intencionalmente não permitia para os publicadores."
 
-#: pages/windows.stand_for_a_free_society.php:109
+#: pages/windows.stand_for_a_free_society.php:110
 msgid ""
 "Computing is not just about calculations anymore. We use software to "
 "communicate: to share information, ideas and culture. Software is in our "
@@ -3963,7 +3762,7 @@ msgstr ""
 "nossos telefones, carros, reprodutores de mídia, TVs, e controla quase que "
 "todos dispositivos novos a nossa volta"
 
-#: pages/windows.stand_for_a_free_society.php:116
+#: pages/windows.stand_for_a_free_society.php:117
 msgid ""
 "<strong>Software is increasingly used to enforce rules</strong>. Rules that "
 "may or may not be the law. Rules that may or may not be fair. If the "
@@ -3975,7 +3774,7 @@ msgstr ""
 "justas. Se o software não é livre, não haverá espaço para o usuário "
 "influenciar essas regras."
 
-#: pages/windows.stand_for_a_free_society.php:118
+#: pages/windows.stand_for_a_free_society.php:119
 msgid ""
 "Trusted Computing and DRM pave the way for a society in which culture and "
 "information are not simply turned into products (they are right now, and "
@@ -3985,7 +3784,7 @@ msgstr ""
 "cultura e informação não são simplesmente em produtos (e são assim aqui, e "
 "até aí tudo bem), mas em produtos <em>consumíveis</em>."
 
-#: pages/windows.stand_for_a_free_society.php:120
+#: pages/windows.stand_for_a_free_society.php:121
 msgid ""
 "Code is power. Most of today's work documents are written and encoded with "
 "secret algorithms in proprietary software. What will be of tomorrow's books, "
@@ -3999,12 +3798,12 @@ msgstr ""
 "Programas proprietários como o Windows não tem transparência. Uma cultura "
 "livre e uma sociedade livre não pode crescer com tal software."
 
-#: pages/windows.stand_for_a_free_society.php:122
+#: pages/windows.stand_for_a_free_society.php:123
 #, php-format
 msgid "May we suggest you <a href=\"%s\">switch to Linux</a>?"
 msgstr "Podemos sugerir que <a href=\"%s\">mude para o Linux</a>?"
 
-#: pages/windows.stand_for_a_free_society.php:127
+#: pages/windows.stand_for_a_free_society.php:128
 msgid ""
 "Note that DRM is often referred to as \"Digital Rights Management\", "
 "although it has little to do with rights &ndash; \"Digital Restrictions "
@@ -4014,7 +3813,7 @@ msgstr ""
 "\", embora tenha pouco a ver com direitos - \"Gestão Digital de Restrições\" "
 "é um nome mais preciso."
 
-#: pages/windows.stand_for_a_free_society.php:135
+#: pages/windows.stand_for_a_free_society.php:138
 msgid ""
 "What is the Trusted Computing world like? This is a short story by Richard "
 "Stallman that describes how this can affect any of us."
@@ -4023,27 +3822,26 @@ msgstr ""
 "que descreve como isso pode afetar qualquer um de nós."
 
 #. i18n: Unless you know of a very good resource about DRM, please point to the Wikipedia article about DRM in your language, if it exists
-#: pages/windows.stand_for_a_free_society.php:139
+#: pages/windows.stand_for_a_free_society.php:142
 msgid "http://www.timj.co.uk/computing/politics-policy/drm/fallacy/"
 msgstr "http://www.timj.co.uk/computing/politics-policy/drm/fallacy/"
 
 #. i18n: Title of external link
-#: pages/windows.stand_for_a_free_society.php:141
+#: pages/windows.stand_for_a_free_society.php:144
 msgid "The fallacy of DRM"
 msgstr "A falácia do DRM"
 
-#: pages/windows.stand_for_a_free_society.php:142
+#: pages/windows.stand_for_a_free_society.php:145
 msgid ""
-"A very well constructed article about <acronym title=\"Digital Restrictions "
-"Management\">DRM</acronym> by Tim Jackson, and on which we based the present "
+"A very well constructed article about <abbr title=\"Digital Restrictions "
+"Management\">DRM</abbr> by Tim Jackson, and on which we based the present "
 "article."
 msgstr ""
-"Um artigo muito bem feito sobre <acronym title=\"Digital Restrictions "
-"Management\">DRM</acronym> por Tim Jackson, no qual nos baseamos o presente "
-"artigo."
+"Um artigo muito bem feito sobre <abbr title=\"Digital Restrictions Management"
+"\">DRM</abbr> por Tim Jackson, no qual nos baseamos o presente artigo."
 
 #. i18n: If you don't know of a localized version of this article, please leave the URL in English
-#: pages/windows.stand_for_a_free_society.php:146
+#: pages/windows.stand_for_a_free_society.php:149
 msgid ""
 "http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-"
 "free-file-formats/"
@@ -4051,11 +3849,11 @@ msgstr ""
 "http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-"
 "free-file-formats/"
 
-#: pages/windows.stand_for_a_free_society.php:146
+#: pages/windows.stand_for_a_free_society.php:149
 msgid "Free Knowledge requires Free Software and Free File Formats"
 msgstr "Conhecimento Livre requer Software Livre e Arquivos de Formatos Livres"
 
-#: pages/windows.stand_for_a_free_society.php:147
+#: pages/windows.stand_for_a_free_society.php:150
 msgid ""
 "An engaged article by Jimmy Wales, who co-founded the free encyclopedia <a "
 "href=\"http://www.wikipedia.org/\">Wikipedia</a>."
@@ -4063,15 +3861,15 @@ msgstr ""
 "Um artigo compromissado por Jimmy Wales, quem é o co-fundador da "
 "enciclopédia livre <a href=\"http://www.wikipedia.org/\">Wikipédia</a>."
 
-#: pages/windows.stand_for_a_free_society.php:154
+#: pages/windows.stand_for_a_free_society.php:153
 msgid "http://www.lafkon.net/tc/"
 msgstr "http://www.lafkon.net/tc/"
 
-#: pages/windows.stand_for_a_free_society.php:154
+#: pages/windows.stand_for_a_free_society.php:153
 msgid "Trusted Computing"
 msgstr "Computação Confiável"
 
-#: pages/windows.stand_for_a_free_society.php:155
+#: pages/windows.stand_for_a_free_society.php:154
 msgid ""
 "Short video animation by Benjamin Stephan and Lutz Vogel. A clear, snappy "
 "and convincing argument."
@@ -4079,16 +3877,16 @@ msgstr ""
 "Curta metragem de animação por Benjamin Stephen e Lutz Vogel. Um argumento "
 "claro, genial e convincente."
 
-#: pages/windows.stand_for_a_free_society.php:157
-#: pages/windows.what_about_source_code.php:25
+#: pages/windows.stand_for_a_free_society.php:156
+#: pages/windows.what_about_source_code.php:48
 msgid "http://www.gnu.org/philosophy/why-free.html"
 msgstr "http://www.gnu.org/philosophy/why-free.html"
 
-#: pages/windows.stand_for_a_free_society.php:157
+#: pages/windows.stand_for_a_free_society.php:156
 msgid "Why Software Should Not Have Owners"
 msgstr "Por que os softwares livres não devia ter proprietários"
 
-#: pages/windows.stand_for_a_free_society.php:158
+#: pages/windows.stand_for_a_free_society.php:157
 msgid ""
 "A pivotal text for the Free Software movement by Richard Stallman. It "
 "clarifies common objections and explains a handful of important ideas."
@@ -4097,12 +3895,20 @@ msgstr ""
 "Clarifica objeções comuns e explica um várias ideias importantes."
 
 #. i18n: This describes the last link, which will automatically point to the 'Misunderstanding Free Software' article
-#: pages/windows.stand_for_a_free_society.php:163
+#: pages/windows.stand_for_a_free_society.php:161
 msgid "More on free software on this website."
 msgstr "Mais sobre software livre neste site."
 
+#: pages/windows.what_about_choice.php:24
+msgid ""
+"Microsoft works hard to make sure their users stay locked into their "
+"products."
+msgstr ""
+"Microsoft trabalha duro para ter certeza que seus usuários estão presos em "
+"seus produtos."
+
 #. i18n: This is a quote from Bill Gates at the start of the article.
-#: pages/windows.what_about_choice.php:22
+#: pages/windows.what_about_choice.php:30
 msgid ""
 "About 3 million computers get sold every year in China, but people don't pay "
 "for the software."
@@ -4110,7 +3916,7 @@ msgstr ""
 "Cerca de 3 milhões de computadores são vendidos todos os anos na China, mas "
 "as pessoas não pagam pelo software."
 
-#: pages/windows.what_about_choice.php:23
+#: pages/windows.what_about_choice.php:31
 msgid ""
 "Someday they will, though. As long as they are going to steal it [sic], we "
 "want them to steal ours. They'll get sort of addicted, and then we'll "
@@ -4120,23 +3926,15 @@ msgstr ""
 "Eles vão meio que ficar viciados, e então nós descobrir. em algum momento, "
 "como coletar na próxima década."
 
-#: pages/windows.what_about_choice.php:24
+#: pages/windows.what_about_choice.php:32
 msgid "1998 interview"
 msgstr "Entrevista de 1998"
 
-#: pages/windows.what_about_choice.php:29
-msgid ""
-"Microsoft works hard to make sure their users stay locked into their "
-"products."
-msgstr ""
-"Microsoft trabalha duro para ter certeza que seus usuários estão presos em "
-"seus produtos."
-
-#: pages/windows.what_about_choice.php:33
+#: pages/windows.what_about_choice.php:35
 msgid "Poor support for open standards"
 msgstr "Suporte de má qualidade para padrões abertos"
 
-#: pages/windows.what_about_choice.php:35
+#: pages/windows.what_about_choice.php:37
 msgid ""
 "There exist open file formats and protocols, which are standards to store "
 "and carry many types of information, respectively. They are openly "
@@ -4149,7 +3947,7 @@ msgstr ""
 "computador, agora e no futuro. Programas proprietários, porém, raramente "
 "possuem suporte  a eles."
 
-#: pages/windows.what_about_choice.php:36
+#: pages/windows.what_about_choice.php:38
 msgid ""
 "<strong>For a long time Microsoft Office only had support for Microsoft "
 "formats</strong>. There are many ways to write work documents, but Microsoft "
@@ -4165,7 +3963,7 @@ msgstr ""
 "de forma muito confiável."
 
 #. i18n: Please use link to localized Wikipedia article in place of ODF
-#: pages/windows.what_about_choice.php:39
+#: pages/windows.what_about_choice.php:41
 msgid ""
 "There are of course other ways of writing and exchanging office files, the "
 "most well-known being <a href=\"http://www.opendocumentfellowship.com/\">the "
@@ -4182,11 +3980,11 @@ msgstr ""
 "Office 2007 SP2, a Microsoft finalmente adicionou suporte ao formato ODF "
 "depois de ter sido publicado pela Comissão Europeia."
 
-#: pages/windows.what_about_choice.php:42
+#: pages/windows.what_about_choice.php:43
 msgid "Standards that change all the time"
 msgstr "Padrões que mudam a todo momento"
 
-#: pages/windows.what_about_choice.php:44
+#: pages/windows.what_about_choice.php:45
 msgid ""
 "Sticking to Microsoft standards is not an easy job &ndash; unless you can "
 "afford to upgrade very often. Ever tried to work on the same <code>.doc</"
@@ -4198,7 +3996,7 @@ msgstr ""
 "<code>.doc</code> em um computador com ambos Office 95 e Office 97? Você "
 "saberá o que estamos falando."
 
-#: pages/windows.what_about_choice.php:45
+#: pages/windows.what_about_choice.php:46
 msgid ""
 "Microsoft owns the Office file formats: <strong>they change them with every "
 "new Office version</strong> and have no obligation to keep them backwards-"
@@ -4233,22 +4031,22 @@ msgstr ""
 "vinculados intrinsecamente ao Windows &ndash; então eles vêm em todo PC e "
 "ninguém se importa em se livrar deles."
 
-#: pages/windows.what_about_choice.php:54
+#: pages/windows.what_about_choice.php:52
 msgid "Monopolistic practices"
 msgstr "Práticas monopolistas"
 
-#: pages/windows.what_about_choice.php:56
+#: pages/windows.what_about_choice.php:54
 msgid ""
-"Microsoft has a tight control over <acronym title=\"Original Equipment "
-"Manufacturer\">OEM</acronym>s (computer manufacturers) who ship their "
-"computers with Windows installed."
+"Microsoft has a tight control over <abbr title=\"Original Equipment "
+"Manufacturer\">OEM</abbr>s (computer manufacturers) who ship their computers "
+"with Windows installed."
 msgstr ""
-"Microsoft tem um controle apertado sobre <acronym title=\"Original Equipment "
-"Manufacturer\">OEM</acronym>s (fabricantes de computadores), os quais "
+"Microsoft tem um controle apertado sobre <abbr title=\"Original Equipment "
+"Manufacturer\">OEM</abbr>s (fabricantes de computadores), os quais "
 "disponibilizam seus computadores com Windows instalado."
 
 #. i18n: if you cannot find localized homepages, please leave the URLs as such
-#: pages/windows.what_about_choice.php:59
+#: pages/windows.what_about_choice.php:57
 msgid ""
 "This means that no program competing with Microsoft products, be it <a href="
 "\"http://www.videolan.org/vlc/\">multimedia player</a>, <a href=\"http://www."
@@ -4263,7 +4061,7 @@ msgstr ""
 "www.pidgin.im/\">programa de mensagens instantânea</a> ou outro, virá pré-"
 "instalado na maioria dos computadores que você comprar."
 
-#: pages/windows.what_about_choice.php:64
+#: pages/windows.what_about_choice.php:59
 msgid ""
 "It is a good thing to propose a wide range of software and services like "
 "Microsoft do; however, designing and combining them to shut users from non-"
@@ -4278,29 +4076,12 @@ msgstr ""
 "<em>livres para escolher o que quiserem para fazer seu trabalho</em> &ndash; "
 "Microsoft não chegou lá ainda."
 
-#. i18n: the '<br/>' character is only here for paging purposes. It's probably safer to skip it.
-#: pages/windows.what_about_source_code.php:19
-msgid "What about<br/>source code?"
+#: pages/windows.what_about_source_code.php:20
+#, fuzzy
+msgid "What about source code?"
 msgstr "E sobre <br/>código fonte?"
 
-#. i18n: This is the quote from Stallman at the start of the article.
-#: pages/windows.what_about_source_code.php:24
-msgid ""
-"You might say, \"How do I change this recipe to take out the salt?\" and the "
-"great chef would respond, \"How dare you insult my recipe, the child of my "
-"brain and my palate, by trying to tamper with it? You don't have the "
-"judgment to change my recipe and make it work right!\""
-msgstr ""
-"Você pode até falar, \"Como eu faço para alterar esta receita para retirar o "
-"sal?\" e o grande chef responderia, \"Como você ousa insultar minha receita, "
-"a cria de minha mente e meu paladar, tentando alterá-la? Você não tem o "
-"julgamento para alterar minha receita e fazê-lo funcionar da forma correta!\""
-
-#: pages/windows.what_about_source_code.php:25
-msgid "Why Software Should Be Free"
-msgstr "Porque Software Deve Ser Livre"
-
-#: pages/windows.what_about_source_code.php:28
+#: pages/windows.what_about_source_code.php:23
 msgid ""
 "The source code details the way a program works (it is effectively what "
 "programmers write). Without it no one can understand how the software is "
@@ -4310,7 +4091,7 @@ msgstr ""
 "que os programadores escrevem). Sem isso nenhum pode entender como um "
 "software é criado."
 
-#: pages/windows.what_about_source_code.php:29
+#: pages/windows.what_about_source_code.php:24
 msgid ""
 "It does not matter if you can't read code: whether or not it is available "
 "<strong>directly affects any user</strong>."
@@ -4318,11 +4099,11 @@ msgstr ""
 "Não importa se você não consegue entender o código: se está disponível ou "
 "não <strong>afeta diretamente qualquer usuário</strong>."
 
-#: pages/windows.what_about_source_code.php:34
+#: pages/windows.what_about_source_code.php:32
 msgid "No one can look inside"
 msgstr "Ninguém pode olhar dentro"
 
-#: pages/windows.what_about_source_code.php:36
+#: pages/windows.what_about_source_code.php:34
 msgid ""
 "Windows comes without its source code. More than that: all users must abide "
 "to the license term that says:"
@@ -4330,12 +4111,12 @@ msgstr ""
 "Windows vem sem seu código fonte. Mais que isso: todos os usuários têm que "
 "respeitar os termos da licença que dispõe:"
 
-#: pages/windows.what_about_source_code.php:38
+#: pages/windows.what_about_source_code.php:36
 msgid "You may not reverse engineer, decompile, or disassemble the software."
 msgstr ""
 "Você não pode fazer engenharia reversa, descompilar ou desmontar o software."
 
-#: pages/windows.what_about_source_code.php:40
+#: pages/windows.what_about_source_code.php:38
 msgid ""
 "As such, it is illegal to work out how Windows or Microsoft Word are "
 "designed. It is even illegal to try. You are also forbidden to modify the "
@@ -4345,7 +4126,7 @@ msgstr ""
 "projetados. É ilegal até mesmo tentar. Você também é proibido de modificar o "
 "programa para qualquer propósito."
 
-#: pages/windows.what_about_source_code.php:42
+#: pages/windows.what_about_source_code.php:40
 msgid ""
 "This restriction in the license makes sure that <strong>Microsoft remain the "
 "sole organisation that understand how their products work</strong>. Windows "
@@ -4357,11 +4138,28 @@ msgstr ""
 "é muito parecido com um carro que somente o fabricante original tem "
 "permissão para fazer manutenção."
 
-#: pages/windows.what_about_source_code.php:44
+#. i18n: This is the quote from Stallman at the start of the article.
+#: pages/windows.what_about_source_code.php:47
+msgid ""
+"You might say, \"How do I change this recipe to take out the salt?\" and the "
+"great chef would respond, \"How dare you insult my recipe, the child of my "
+"brain and my palate, by trying to tamper with it? You don't have the "
+"judgment to change my recipe and make it work right!\""
+msgstr ""
+"Você pode até falar, \"Como eu faço para alterar esta receita para retirar o "
+"sal?\" e o grande chef responderia, \"Como você ousa insultar minha receita, "
+"a cria de minha mente e meu paladar, tentando alterá-la? Você não tem o "
+"julgamento para alterar minha receita e fazê-lo funcionar da forma correta!\""
+
+#: pages/windows.what_about_source_code.php:48
+msgid "Why Software Should Be Free"
+msgstr "Porque Software Deve Ser Livre"
+
+#: pages/windows.what_about_source_code.php:55
 msgid "Insecurity means business"
 msgstr "Inseguranças significam negócios"
 
-#: pages/windows.what_about_source_code.php:46
+#: pages/windows.what_about_source_code.php:57
 msgid ""
 "Whenever a flaw in Windows is discovered, it is exploited, which results in "
 "trojans, viruses, spyware and the likes. <strong>Such nuisances delight the "
@@ -4373,7 +4171,7 @@ msgstr ""
 "indústria de segurança do Windows</strong>, includindo a Microsoft, a qual "
 "desenvolve várias proteções contra antivírus por assinatura."
 
-#: pages/windows.what_about_source_code.php:49
+#: pages/windows.what_about_source_code.php:60
 msgid ""
 "It is a lucrative process to release flawed software <em>that no one is "
 "allowed to change</em>, and then selling protection services over it (anti-"
@@ -4386,7 +4184,7 @@ msgstr ""
 "simplesmente previne que vírus as explorem, se estiver ativo e atualizado)."
 
 #. i18n: Please carefully leave the rel=nofollow argument, which avoids us increasing MS PR.
-#: pages/windows.what_about_source_code.php:53
+#: pages/windows.what_about_source_code.php:64
 msgid ""
 "Microsoft will today happily <a href=\"http://onecare.live.com/standard/en-"
 "us/purchase/default.htm\" rel=\"nofollow\">sell you their own protection "
@@ -4398,11 +4196,11 @@ msgstr ""
 "contra suas próprias inseguranças</a> &ndash; Vende a maçã envenenada e seu "
 "antídoto, separadamente."
 
-#: pages/windows.what_about_source_code.php:58
+#: pages/windows.what_about_source_code.php:70
 msgid "You can trust free software"
 msgstr "Você pode confiar no software livre"
 
-#: pages/windows.what_about_source_code.php:60
+#: pages/windows.what_about_source_code.php:72
 msgid ""
 "It comes as no surprise that proprietary software is severely lacking in "
 "terms of security, compared to software whose source code is freely "
@@ -4412,7 +4210,7 @@ msgstr ""
 "segurança, em comparação ao software cujo código fonte está livremente "
 "disponível (incluindo GNU/Linux)."
 
-#: pages/windows.what_about_source_code.php:62
+#: pages/windows.what_about_source_code.php:74
 msgid ""
 "Free software means <strong>programmers can change the code</strong> to "
 "repair flaws. It means you can hire someone to really check how secure your "
@@ -4429,7 +4227,7 @@ msgstr ""
 "sem um anti-vírus, com total segurança. E os servidores por trás dos "
 "mecanismos de pesquisa e bancos também rodam."
 
-#: pages/windows.what_about_source_code.php:67
+#: pages/windows.what_about_source_code.php:80
 msgid ""
 "Source code is the recipe for software. How could one improve on a meal with "
 "too much salt, if forbidden to look at the recipe used to cook it?"
@@ -4437,7 +4235,7 @@ msgstr ""
 "O código fonte é a receita do software. Como uma pessoa poderia melhorar uma "
 "carne com muito sal, se é proibido olhar a receita usada para prepará-la?"
 
-#: pages/windows.what_about_source_code.php:69
+#: pages/windows.what_about_source_code.php:82
 msgid ""
 "Using Windows and Office requires us to <strong>not ask</strong> nor search "
 "for the source of the software. Only Microsoft developers can modify your "
@@ -4448,10 +4246,140 @@ msgstr ""
 "podem modificar seus programas."
 
 #. i18n: Please note the conditionnal tense: we try to not be too harsh on the reader here ;-)
-#: pages/windows.what_about_source_code.php:73
+#: pages/windows.what_about_source_code.php:86
 msgid ""
 "Which would you rather trust: the package you are forbidden to study, or the "
 "package with the recipe?"
 msgstr ""
 "Em qual você prefere confiar: o pacote que você não tem permissão para "
 "estudar ou o pacote com a receita?"
+
+#~ msgid "Starting point for developers."
+#~ msgstr "Ponto de partida para desenvolvedores"
+
+#~ msgid "Project page"
+#~ msgstr "Página do projeto"
+
+#~ msgid "skip to content"
+#~ msgstr "Pular para o conteúdo"
+
+#~ msgid "home page"
+#~ msgstr "página inicial"
+
+#~ msgid "Switch to Linux!"
+#~ msgstr "Mude para o Linux!"
+
+#~ msgid "jump to top of page"
+#~ msgstr "ir para o topo da página"
+
+#~ msgid "top"
+#~ msgstr "topo"
+
+#~ msgid "http://www.libreoffice.org/features/"
+#~ msgstr ""
+#~ "http://pt-br.libreoffice.org/baixe-ja-o-libreoffice-em-portugues-do-"
+#~ "brasil/novos-recursos/"
+
+#~ msgid "back up:"
+#~ msgstr "voltar:"
+
+#~ msgid "no money"
+#~ msgstr "não há lucro"
+
+#~ msgid "no innovation"
+#~ msgstr "não há inovação"
+
+#~ msgid "no code?"
+#~ msgstr "não há código?"
+
+#~ msgid "piracy"
+#~ msgstr "pirataria"
+
+#~ msgid "communism"
+#~ msgstr "comunismo"
+
+#~ msgid "What does GNU/Linux look like? Selected screenshots"
+#~ msgstr "Com o quê GNU/Linux se parece? Screenshots selecionados"
+
+#~ msgid "A view of a Fedora Linux desktop"
+#~ msgstr "Uma vista de um ambiente de trabalho Linux Fedora"
+
+#~ msgid "A view of a Ubuntu Linux desktop"
+#~ msgstr "Uma vista de um Linux Ubuntu desktop"
+
+#~ msgid "next:"
+#~ msgstr "próximo:"
+
+#~ msgid "What Linux looks like"
+#~ msgstr "Com o quê o Linux se parece"
+
+#~ msgid "Accessing applications in the GNOME 3 desktop environment."
+#~ msgstr "Acessando aplicações no ambiente de trabalho GNOME 3."
+
+#~ msgid "Selected screenshots of distributions of GNU/Linux."
+#~ msgstr "Imagens selecionadas de distribuições do GNU / Linux."
+
+#~ msgid ""
+#~ "Keep in mind that Linux can look as frugal or exciting as you require; "
+#~ "here are only everyday-user snapshots to show common tasks."
+#~ msgstr ""
+#~ "Tenha em mente que o Linux pode se parecer tão moderado ou excitante "
+#~ "quanto você queira; aqui estão apenas exemplos de usos corriqueiros para "
+#~ "mostrar tarefas comuns."
+
+#~ msgid "freedom"
+#~ msgstr "liberdade"
+
+#~ msgid "add/remove programs easily"
+#~ msgstr "adicionar/remover programas facilmente"
+
+#~ msgid "built solid"
+#~ msgstr "construção sólida"
+
+#~ msgid "security"
+#~ msgstr "segurança"
+
+#~ msgid "support"
+#~ msgstr "suporte"
+
+#~ msgid "simple use"
+#~ msgstr "uso simples"
+
+#~ msgid "See more: we have <a href=\"%s\">screenshots</a></div>"
+#~ msgstr "Veja mais: nós temos <a href=\"%s\">screenshots</a></div>"
+
+#~ msgid "Firefox browser"
+#~ msgstr "Navegador Firefox"
+
+#~ msgid "&quot;Never tell the truth to people who are not worthy of it.&quot;"
+#~ msgstr "\"Nunca diga a verdade às pessoas que não são dignos da mesma\""
+
+#~ msgid "or:"
+#~ msgstr "ou:"
+
+#~ msgid "&quot;Tell the truth and run.&quot;"
+#~ msgstr "\"Diga a verdade e corra."
+
+#~ msgid "&mdash; Yugoslavian proverb."
+#~ msgstr "&mdash; \"Provérbio Iugoslavo"
+
+#~ msgid "some hardware problems"
+#~ msgstr "alguns problemas de hardware"
+
+#~ msgid "DVDs and restricted media"
+#~ msgstr "DVDs e media restrita"
+
+#~ msgid "gaming"
+#~ msgstr "jogos"
+
+#~ msgid "hibernation problems"
+#~ msgstr "problemas com hibernação"
+
+#~ msgid "Choose a Linux distribution to get started!"
+#~ msgstr "Escolha uma distribuição Linux para começar!"
+
+#~ msgid "read our full article:"
+#~ msgstr "leia nosso artigo completo:"
+
+#~ msgid "previous:"
+#~ msgstr "anterior:"
