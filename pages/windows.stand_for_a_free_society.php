@@ -131,12 +131,10 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
     </div>
 
     <div class="further-reading post-it clearfix">
-      <h2><?php print _("Read more"); ?></h1>
+      <h2><?php print _("Read more"); ?></h2>
 
       <div class="left-column">
-
         <h3><a href="<?php print _("http://www.gnu.org/philosophy/right-to-read.html"); ?>"><?php print _("The Right to Read"); ?></a></h3>
-
         <p><?php print _("What is the Trusted Computing world like? This is a short story by Richard Stallman that describes how this can affect any of us."); ?></p>
 
         <h3><a href="<?php
@@ -144,34 +142,25 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
         print _("http://www.timj.co.uk/computing/politics-policy/drm/fallacy/"); ?>"><?php
         # i18n: Title of external link
         print _("The fallacy of DRM"); ?></a></h3>
-
         <p><?php print _("A very well constructed article about <acronym title=\"Digital Restrictions Management\">DRM</acronym> by Tim Jackson, and on which we based the present article."); ?></p>
 
         <h3><a href="<?php
         # i18n: If you don't know of a localized version of this article, please leave the URL in English
-        print _("http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-free-file-formats/"); ?>">
-        <?php print _("Free Knowledge requires Free Software and Free File Formats"); ?></a></h3>
-
+        print _("http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-free-file-formats/"); ?>"><?php print _("Free Knowledge requires Free Software and Free File Formats"); ?></a></h3>
         <p><?php print _("An engaged article by Jimmy Wales, who co-founded the free encyclopedia <a href=\"http://www.wikipedia.org/\">Wikipedia</a>."); ?></p>
-
       </div>
       <div>
-
         <h3><a href="<?php print _("http://www.lafkon.net/tc/"); ?>" hreflang="en" title="<?php print _("Trusted Computing"); ?>"><?php print _("Trusted Computing"); ?></a></h3>
-
         <p><?php print _("Short video animation by Benjamin Stephan and Lutz Vogel. A clear, snappy and convincing argument."); ?></p>
 
         <h3><a href="<?php print _("http://www.gnu.org/philosophy/why-free.html"); ?>"><?php print _("Why Software Should Not Have Owners"); ?></a></h3>
-
         <p><?php print _("A pivotal text for the Free Software movement by Richard Stallman. It clarifies common objections and explains a handful of important ideas."); ?></p>
 
         <h3><a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a></h3>
-
         <p><?php # i18n: This describes the last link, which will automatically point to the 'Misunderstanding Free Software' article
         print _("More on free software on this website."); ?></p>
-
       </div>
-    </div><!-- further-reading -->
+    </div>
 
     </div>
   </section>
