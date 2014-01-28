@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head lang="en">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
   <title>get GNU/Linux!</title>
   <link rel="stylesheet" type="text/css" href="/style/main-ltr.css" media="all" />
 </head>
