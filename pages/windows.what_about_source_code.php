@@ -43,7 +43,7 @@ $this->load_header();
 
       <div class="quote">
           <?php
-          # i18n: This is the quote from Stallman at the start of the article.
+          # translators: This is the quote from Stallman at the start of the article.
           print _("You might say, \"How do I change this recipe to take out the salt?\" and the great chef would respond, \"How dare you insult my recipe, the child of my brain and my palate, by trying to tamper with it? You don't have the judgment to change my recipe and make it work right!\""); ?>
           <span class="source">Richard Stallman, <a href="<?php print _("http://www.gnu.org/philosophy/why-free.html"); ?>"><?php print _("Why Software Should Be Free"); ?></a></span>
       </div>
@@ -60,7 +60,7 @@ $this->load_header();
       <?php print _("It is a lucrative process to release flawed software <em>that no one is allowed to change</em>, and then selling protection services over it (anti-virus software doesn't correct flaws: it merely prevents viruses from exploiting them, if it is active and updated)."); ?></p>
 
       <p><?php
-      # i18n: Please carefully leave the rel=nofollow argument, which avoids us increasing MS PR.
+      # translators: Please carefully leave the rel=nofollow argument, which avoids us increasing MS PR.
       print _("Microsoft will today happily <a href=\"http://onecare.live.com/standard/en-us/purchase/default.htm\" rel=\"nofollow\">sell you their own protection over their own insecurities</a> &ndash; it sells the poisoned apple and its antidote, separately."); ?></p>
     </div>
   </section>
@@ -82,7 +82,7 @@ $this->load_header();
       <p><?php print _("Using Windows and Office requires us to <strong>not ask</strong> nor search for the source of the software. Only Microsoft developers can modify your program."); ?></p>
 
       <p><?php
-      # i18n: Please note the conditionnal tense: we try to not be too harsh on the reader here ;-)
+      # translators: Please note the conditionnal tense: we try to not be too harsh on the reader here ;-)
       print _("Which would you rather trust: the package you are forbidden to study, or the package with the recipe?"); ?></p>
     </div>
   </section>

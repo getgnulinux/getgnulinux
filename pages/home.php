@@ -20,7 +20,7 @@ $this->load_header();
 
             <h1><?php print _("get GNU/Linux!"); ?></h1>
             <div class="slide-text">
-              <p><?php # translatorsn: This is the very first sentence every visitor is going to read. Please pay great attention to making it sound great, we only have one try! =)
+              <p><?php # translators: This is the very first sentence every visitor is going to read. Please pay great attention to making it sound great, we only have one try! =)
               print _("GNU/Linux, or simply <em>Linux</em>, is an alternative to Microsoft Windows. It is easy to use and gives more freedom to users. Anyone can install it: Linux is free as in freedom, and often available free of charge."); ?></p>
             </div>
 

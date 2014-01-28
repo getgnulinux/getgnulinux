@@ -7,25 +7,25 @@ if ( !defined('GGL') ) {
 
 $this->load_header();
 
-# i18n: This is the description of the "ubuntu1.png" screenshot.
+# translators: This is the description of the "ubuntu1.png" screenshot.
 $ubuntu1_text = _("Firefox web browser");
-# i18n: This is the description of the "ubuntu2.png" screenshot.
+# translators: This is the description of the "ubuntu2.png" screenshot.
 $ubuntu2_text = _("File manager and image browsing application are open, on standard desktop.");
-# i18n: This is the description of the "ubuntu3.png" screenshot.
+# translators: This is the description of the "ubuntu3.png" screenshot.
 $ubuntu3_text = _("Thunderbird e-mail and calendar application.");
 
-# i18n: This is the description of the "fedora1.png" screenshot.
+# translators: This is the description of the "fedora1.png" screenshot.
 $fedora1_text = _("GIMP image editing application, cropping a photo.");
-# i18n: This is the description of the "fedora2.png" screenshot.
+# translators: This is the description of the "fedora2.png" screenshot.
 $fedora2_text = _("LibreOffice Writer open, editing a standard document.");
-# i18n: This is the description of the "fedora3.png" screenshot.
+# translators: This is the description of the "fedora3.png" screenshot.
 $fedora3_text = _("Accessing applications in the <a href=\"http://gnome3.org/\">GNOME 3</a> desktop environment.");
 
-# i18n: This is the description of the "trisquel1.png" screenshot.
+# translators: This is the description of the "trisquel1.png" screenshot.
 $trisquel1_text = _("Update manager open.");
-# i18n: This is the description of the "trisquel2.png" screenshot.
+# translators: This is the description of the "trisquel2.png" screenshot.
 $trisquel2_text = _("LibreOffice Calc open, showing an example spreadsheet.");
-# i18n: This is the description of the "trisquel3.png" screenshot.
+# translators: This is the description of the "trisquel3.png" screenshot.
 $trisquel3_text = _("Accessing applications.");
 
 
@@ -46,7 +46,7 @@ $trisquel3_text = _("Accessing applications.");
       </div>
     </div>
 
-    <p class="italic centered"><?php # i18n: if you don't know of a clean, simple comparison website, simply remove the link.
+    <p class="italic centered"><?php # translators: if you don't know of a clean, simple comparison website, simply remove the link.
     print _("Note: There are <a href=\"http://distrowatch.com/dwres.php?resource=major\">plenty of distributions to choose from and compare</a>."); ?><br />
     <?php print _("This is our selection for newcomers. These links are not commercial."); ?></p>
   </section>
@@ -54,7 +54,7 @@ $trisquel3_text = _("Accessing applications.");
   <section class="ubuntu">
     <div class="maxwidth">
       <div class="centered">
-        <a href="<?php # i18n: use url of official localised Ubuntu homepage, if existing
+        <a href="<?php # translators: use url of official localised Ubuntu homepage, if existing
         print _("http://www.ubuntu.com/"); ?>" title="Ubuntu Linux"><img src="/images/UbuntuLogo.png" alt="Ubuntu"/></a>
       </div>
 
@@ -85,12 +85,12 @@ $trisquel3_text = _("Accessing applications.");
   <section class="fedora">
     <div class="maxwidth">
       <div class="centered">
-        <a href="<?php # i18n: use url of official localised Fedora homepage, if existing
+        <a href="<?php # translators: use url of official localised Fedora homepage, if existing
         print _("http://fedoraproject.org/"); ?>" title="Fedora Linux"><img src="/images/FedoraLogo.png" alt="Fedora"/></a>
       </div>
 
       <p><?php
-      # i18n: if you don't know of a clean, simple comparison website, simply remove the link.
+      # translators: if you don't know of a clean, simple comparison website, simply remove the link.
       print _("The distribution by the long-time prominent GNU/Linux developer company Red Hat. The default layout is similar to Ubuntu (it is also possible to use KDE, the more advanced desktop environment in use in Kubuntu), but <a href=\"http://polishlinux.org/choose/comparison/?distro1=Ubuntu&amp;distro2=Fedora\" title=\"What are the differences between Fedora and Ubuntu?\">there are differences</a> in the chosen applications, install protocols and several technical elements."); ?></p>
       <p><?php print _("We recommend this distribution if you wish to learn more about the workings of a GNU/Linux system, security configuration, or work on software development."); ?></p>
 
@@ -149,7 +149,7 @@ $trisquel3_text = _("Accessing applications.");
       <h1><?php print _("Try or install"); ?></h1>
 
       <div class="page-intro">
-        <p><?php # i18n: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
+        <p><?php # translators: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
         print _("Now get a CD and try or install your distribution!"); ?></p>
 
         <div class="button green">

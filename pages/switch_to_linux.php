@@ -23,7 +23,7 @@ $this->load_header();
       <h1><?php print _("From Windows to Linux"); ?></h1>
 
       <div class="page-intro">
-        <p><?php # translatorsn: please note the "affirmative" tone with the '.' at end of sentence.
+        <p><?php # translators: please note the "affirmative" tone with the '.' at end of sentence.
         print _("Meet GNU/Linux in everyday use."); ?></p>
 
         <div class="button green">

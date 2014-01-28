@@ -26,7 +26,7 @@ $this->load_header();
 
       <p><?php print _("Distributions change the appearance and function of Linux completely. They range from large, fully supported complete systems (endorsed by companies) to lightweight ones that fit on a USB memory stick or run on old computers (often developed by volunteers)."); ?><p/>
 
-      <p><?php # translatorsn: use an official localised Ubuntu homepage if possible
+      <p><?php # translators: use an official localised Ubuntu homepage if possible
       print _("A prominent, complete and friendly distribution to step into GNU/Linux is <a href=\"http://www.ubuntu.com\">Ubuntu</a>."); ?></p>
 
         <div class="flexslider screenshots">
@@ -54,7 +54,7 @@ $this->load_header();
 
       <h2><?php print _("The larger picture"); ?></h2>
 
-      <p><?php # translatorsn: use the definition of "free software" on GNU.org in place of softwareliberty.com
+      <p><?php # translators: use the definition of "free software" on GNU.org in place of softwareliberty.com
       print _("When you get a distribution of GNU/Linux, <strong>you also get the freedom to study, copy, change, and redistribute it</strong> &ndash;&nbsp;that's what makes it truly <a href=\"http://www.softwareliberty.com/\" title=\"what is freedom in software?\">free software</a>."); ?></p>
 
       <p><?php print _("Many companies develop their own operating system based on the core <a href=\"http://www.gnu.org\" title=\"the GNU project: at the source of all Linux distributions\">GNU software</a>: products they do not have exclusive rights on. How does the wheel turn?"); ?></p>

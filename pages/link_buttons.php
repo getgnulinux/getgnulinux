@@ -62,7 +62,7 @@ $this->load_header();
     <div id="license">
     <h2><?php print _("Licensing"); ?></h2>
     <p><?php
-    # i18n: The link will automatically point to the "credits" page. Please leave the "#link_buttons" part as such; it is an internal link.
+    # translators: The link will automatically point to the "credits" page. Please leave the "#link_buttons" part as such; it is an internal link.
     $p = _("Some of these buttons contain material subjected to specific licenses. See the \"<a href=\"%s#link_buttons\">%s</a>\" page for details.");
     printf( $p, $this->base_url('credits',1), _("Credits") ); ?>
     </p></div>

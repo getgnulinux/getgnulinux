@@ -184,82 +184,82 @@ class GetGNULinux {
      * Sets global configurations.
      */
     private function init_config() {
-        # i18n: The name of the website. It is displayed in the header of each page.
+        # translators: The name of the website. It is displayed in the header of each page.
         $this->config['website_title'] = _("get GNU/Linux!");
 
         # Set page titles for <title> tags.
         $this->config['page_titles'] = array(
-            # i18n: The title for the language selection page.
+            # translators: The title for the language selection page.
             'select_language' => _("Select a language"),
-            # i18n: The way you refer to a website's main page in your language.
+            # translators: The way you refer to a website's main page in your language.
             'home' => _("Home"),
-            # i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
+            # translators: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
             'more' => _("More"),
-            # i18n: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
+            # translators: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
             'linux' => _("What is Linux?"),
-            # i18n: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
+            # translators: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
             'linux.linux_faq' => _("Linux FAQ - common questions about GNU/Linux"),
-            # i18n: Here the intent is to be a little provocative. Exact translation is not required.
+            # translators: Here the intent is to be a little provocative. Exact translation is not required.
             'linux.misunderstanding_free_software' => _("How to Misunderstand Free Software"),
-            # i18n: This is the title of the 'Screenshots' page.
+            # translators: This is the title of the 'Screenshots' page.
             'linux.screenshots' => _("What GNU/Linux looks like"),
-            # i18n: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
+            # translators: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
             'windows' => _("Why not Windows"),
-            # i18n: This title can be translated loosely
+            # translators: This title can be translated loosely
             'windows.restrictions' => _("Restrictions"),
-            # i18n: This title can be translated loosely
+            # translators: This title can be translated loosely
             'windows.restrictions.further_details' => _("More details on restrictions"),
-            # i18n: This title can be translated loosely
+            # translators: This title can be translated loosely
             'windows.stand_for_a_free_society' => _("Stand for a free society"),
-            # i18n: This title can be translated loosely
+            # translators: This title can be translated loosely
             'windows.what_about_choice' => _("What about choice?"),
-            # i18n: This title can be translated loosely
+            # translators: This title can be translated loosely
             'windows.what_about_source_code' => _("No source code"),
-            # i18n: This appears in the top header menu and should be as short and concise as possible.
+            # translators: This appears in the top header menu and should be as short and concise as possible.
             'switch_to_linux' => _("Switch to Linux"),
             'switch_to_linux.choose_a_distribution' => _("Choose a distribution"),
             'switch_to_linux.from_windows_to_linux' => _("From Windows to Linux"),
-            # i18n: This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
+            # translators: This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
             'switch_to_linux.try_or_install' => _("Try or install"),
-            # i18n: The title for the link buttons page. Can be translated loosely.
+            # translators: The title for the link buttons page. Can be translated loosely.
             'link_buttons' => _("Link buttons"),
-            # i18n: The title for the custom "Page Not Found" page.
+            # translators: The title for the custom "Page Not Found" page.
             'not_found' => _("Page Not Found"),
         );
 
         # Set page descriptions.
         $this->config['page_descriptions'] = array(
-            # i18n: This is the description of the homepage, and it appears in Google results! Please pay particular attention to this one =)
+            # translators: This is the description of the homepage, and it appears in Google results! Please pay particular attention to this one =)
             'default' => _("Get GNU/Linux! A simple, clear website about Linux. | What is Linux? | Why not Windows? | Tips to make the switch"),
-            # i18n: This is the description of the 'More' page
+            # translators: This is the description of the 'More' page
             'more' => _("Read and discover more about Linux."),
-            # i18n: This is the description of the 'Linux' page
+            # translators: This is the description of the 'Linux' page
             'linux' => _("What is Linux? A clear explanation."),
-            # i18n: This is the description of the 'Linux FAQ' page
+            # translators: This is the description of the 'Linux FAQ' page
             'linux.linux_faq' => _("Frequently Asked Questions about GNU/Linux."),
-            # i18n: This is the description of the 'Misunderstanding Free Software' page
+            # translators: This is the description of the 'Misunderstanding Free Software' page
             'linux.misunderstanding_free_software' => _("An unconventional way to (re)discover free software."),
-            # i18n: This is the description of the 'Screenshots' page
+            # translators: This is the description of the 'Screenshots' page
             'linux.screenshots' => _("A brief look at Linux in everyday use."),
-            # i18n: This is the description of the 'Why not Windows' page
+            # translators: This is the description of the 'Why not Windows' page
             'windows' => _("Four good reasons to avoid proprietary software."),
-            # i18n: This is the description of the 'Restrictions' page
+            # translators: This is the description of the 'Restrictions' page
             'windows.restrictions' => _("Restrictions in a proprietary software license."),
-            # i18n: This is the description of the 'Restrictions further details' page
+            # translators: This is the description of the 'Restrictions further details' page
             'windows.restrictions.further_details' => _("Restrictions in a proprietary software license - more details."),
-            # i18n: This is the description of the 'Stand for a free society' page
+            # translators: This is the description of the 'Stand for a free society' page
             'windows.stand_for_a_free_society' => _("How software affects freedom in society."),
-            # i18n: This is the description of the 'What about choice' page
+            # translators: This is the description of the 'What about choice' page
             'windows.what_about_choice' => _("How Microsoft lock customers in."),
-            # i18n: This is the description of the 'What about source code' page
+            # translators: This is the description of the 'What about source code' page
             'windows.what_about_source_code' => _("No source code means no trust and no security."),
-            # i18n: This is the description of the 'Switch to Linux' page
+            # translators: This is the description of the 'Switch to Linux' page
             'switch_to_linux' => _("Switch to Linux: Good tips and advice."),
-            # i18n: This is the description of the 'Choose a distribution' page
+            # translators: This is the description of the 'Choose a distribution' page
             'switch_to_linux.choose_a_distribution' => _("Recommended Linux distributions for everyday users."),
-            # i18n: This is the description of the 'From Windows to Linux' page
+            # translators: This is the description of the 'From Windows to Linux' page
             'switch_to_linux.from_windows_to_linux' => _("The advantages and disadvantages of Linux over Windows."),
-            # i18n: This is the description of the 'Try or Install' page. i18n note: this should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
+            # translators: This is the description of the 'Try or Install' page. This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
             'switch_to_linux.try_or_install' => _("Try or install Linux on your computer, very easily."),
         );
     }

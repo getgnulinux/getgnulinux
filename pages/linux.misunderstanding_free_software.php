@@ -20,7 +20,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
 
     <div class="page-intro">
       <p><?php
-      # i18n: use the definition of "free software" on GNU.org in place of softwareliberty.com
+      # translators: use the definition of "free software" on GNU.org in place of softwareliberty.com
       print _("Five misconceptions about <a href=\"http://www.softwareliberty.com/\">free software</a>, corrected."); ?></p>
     </div>
 
@@ -28,7 +28,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
 
     <p><?php print _("Let's begin with one simple fact: free software programmers <em>do</em> like to get paid, and all need to buy lunch at some time."); ?></p>
     <p><?php
-    # i18n: Here, the %s placeholder simply puts a link to a footnote in this page
+    # translators: Here, the %s placeholder simply puts a link to a footnote in this page
     $p = _("When we mention free software, we refer to <strong>liberty not price</strong>. You may actually pay to get free software (or \"open source\" software %s), which you can then study, change and copy at will."); printf($p, $footnote1); ?></p>
 
     <p><?php print _("How does it work? You can think about it the following way: software is just code, code is only math. Once you view software as <strong>useful math</strong>, an elaborate language, not like ordinary property, there is no reason to restrict others' use of it."); ?></p>
@@ -52,7 +52,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
     <li><?php print _("Applications: <a href=\"http://www.getfirefox.com/\">Firefox</a> (web browser), <a href=\"http://www.inkscape.org/\">Inkscape</a> (vector drawing)."); ?></li>
     <li><?php print _("Complete systems: <a href=\"http://en.wikipedia.org/wiki/Apache_HTTP_Server\">Apache</a> (web server), <a href=\"http://en.wikipedia.org/wiki/OpenBSD\">OpenBSD</a> (<abbr title=\"Operating System\">OS</abbr>), and of course, GNU/Linux."); ?></li>
     <li><?php
-    # i18n: use URL to localized Wikipedia article for ODF, instead of opendocumentfellowship
+    # translators: use URL to localized Wikipedia article for ODF, instead of opendocumentfellowship
     print _("Formats and protocols: <a href=\"http://en.wikipedia.org/wiki/HTML\">HTML</a> (web pages), <a href=\"http://en.wikipedia.org/wiki/BitTorrent_(protocol)\">BitTorrent</a> (file sharing), <a href=\"http://opendocumentfellowship.com/\">ODF</a> (office documents)."); ?></li>
     <li><?php print _("Server applications: <a href=\"http://drupal.org/\">Drupal</a> (Content Management System), <a href=\"http://www.wordpress.org/\">Wordpress</a> (blog)."); ?></li>
     </ul>
@@ -66,7 +66,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
     <p><?php print _("The idea is the same with software &ndash; except that code does <strong>much more</strong> than move cars. Software runs our computers, phones, TVs, media players and more, carrying information and our culture."); ?></p>
     <p><?php print _("Free software is as important as free speech, as a free market. If software is free, users have control and liberty over it."); ?></p>
     <p><?php
-    # i18n: The %s placeholder will automatically point to the 'try and install' page
+    # translators: The %s placeholder will automatically point to the 'try and install' page
     $p = _("The good news are: <em>free software also Just Works.</em> And in fact, it often Just Works Better. <a href=\"%s\">Pop in a GNU/Linux liveCD</a> in your computer at start-up, to try a full-featured, well-organised system, without installation, so you can judge by yourself."); printf($p, $this->base_url('switch_to_linux/try_or_install',1)); ?></p>
 
 
@@ -75,7 +75,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
     <p><?php print _("To answer this correctly, we must first make a clear distinction between copyright and patents. Copyright is a right granted to the author over his/her creation (for example, the text of a book, or the source code of a program). A patent, on the other hand, is a purchased, registered exclusive control over a process, the application of an idea."); ?></p>
 
     <p><?php
-    # i18n: If you can, please use a non-official translation of the GPL, as found at http://www.gnu.org/licenses/translations.html
+    # translators: If you can, please use a non-official translation of the GPL, as found at http://www.gnu.org/licenses/translations.html
     print _("<strong>Copyright is very important in free software.</strong> It is the very mechanism, central to the <a href=\"http://www.gnu.org/copyleft/gpl.html\">GNU General Public License</a>, which ensures that free software remains free, and that authors are credited for their work. Programs are copyrighted, whether they are free or proprietary."); ?></p>
     <p><?php print _("Any proprietary software author can easily check that his copyright is not violated in a free software application, since its source code is readily available."); ?></p>
 
@@ -96,10 +96,10 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
       <?php print _("Read and view more:"); ?>
       <ul class="fa-ul">
           <li><i class="fa-li fa fa-external-link"></i><?php
-          # i18n: Unless you know of a good localized resource, please leave the URL as such.
+          # translators: Unless you know of a good localized resource, please leave the URL as such.
           print _("<a href=\"http://ffii.org/Frequently_Asked_Questions_about_software_patents\" hreflang=\"en\">Frequently Asked Questions on software patents, by the <abbr title=\"Foundation for a Free Information Infrastructure\">FFII</abbr>"); ?></a></li>
           <li><i class="fa-li fa fa-external-link"></i><?php
-          # i18n: Unless you know of a good localized resource, please leave the URL as such.
+          # translators: Unless you know of a good localized resource, please leave the URL as such.
           print _("<a href=\"http://www.redhat.com/magazine/007may05/features/ip/\" hreflang=\"en\">Short and clear video on \"intellectual property\" by Red Hat"); ?></a></li>
       </ul>
     </div>
@@ -108,7 +108,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
     <h2 id="competitive_advantage"><?php print _("5. Free software is like communism."); ?></h2>
 
     <p><?php
-    # i18n: Here, the %s placeholder simply puts a link to a footnote in this page
+    # translators: Here, the %s placeholder simply puts a link to a footnote in this page
     $p = _("Supporters of this idea argue that there can be no private ownership with free (or \"open source\" %s) software. Let's answer this with an example."); printf($p, $footnote2);?></p>
     <p><?php print _("Let's imagine that you use one application that is free software, at home and within your company. You find a great way to improve it, so now with your modified version, your computer works better and your factories run twice as fast!"); ?></p>
     <p><?php print _("This modified version is <strong>your own version</strong>. You are not required to tell anyone about it, nor must you share any of the profits you made using it. You are simply exerting your freedom to use and modify free software."); ?></p>
@@ -118,7 +118,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
     <li><?php print _("Or, make the original software and your secret addition to it clearly separate (that is, your addition should contain none of the original work)."); ?></li>
     </ul>
     <p><?php
-    # i18n: The %s placeholder here will automatically point to the page "Windows Restrictions, further details"
+    # translators: The %s placeholder here will automatically point to the page "Windows Restrictions, further details"
     $p = _("So in fact, you have more \"ownership\" over free software than over proprietary software &ndash;where the programmer decides everything you can <a href=\"%s\">and can't do</a> with the software."); printf($p, $this->base_url('windows/restrictions/further_details',1)); ?></p>
     <p><?php print _("<em>Free software has nothing to do with a political system.</em> You can run free software on top of proprietary software, just as well as the opposite. The free software license is simply a legal, ethical contract between the programmer and the end-user."); ?></p>
 
@@ -139,14 +139,14 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
 
       <div class="toggle-answer">
         <h2 id="on_my_own"><span id="toggle2"><i class="fa fa-plus-square-o fa-fw"></i> <?php
-        #i18n: this can be translated loosely, ex "Free software isolates me" or else.
+        # translators: this can be translated loosely, ex "Free software isolates me" or else.
         print _("I'm on my own with free software."); ?></span></h2>
 
         <div class="answer" id="toggle2-toggee">
           <p><?php print _("Not at all."); ?></p>
           <ul>
             <li><?php print _("If you are looking for good documentation and support forums to assist you, there is plenty available for free (\"open source\") software."); ?><br/>
-            <?php # i18n: use your best knowledge of the community to propose localized links ;-)
+            <?php # translators: use your best knowledge of the community to propose localized links ;-)
             print _("Each GNU/Linux distribution has its own community (for example, <a href=\"http://www.ubuntu.com/support/free\">Ubuntu support</a> or <a href=\"http://fedora.redhat.com/docs/\">Fedora docs</a>), but there are also general free software help communities, like <a href=\"http://www.linuxquestions.org/\">LinuxQuestions.org</a>."); ?></li>
             <li><?php print _("If you need someone you can reach on the phone anytime to assist you, the companies behind most distributions provide commercial support: see the <a href=\"http://www.ubuntu.com/support/paid\">Ubuntu Commercial Support</a> or <a href=\"http://www.redhat.com/rhel/\">Red Hat Enterprise Linux</a> pages for example."); ?></li>
           </ul>
@@ -175,7 +175,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
     <div class="footnotes">
       <ol>
         <li id="footnote-1"><sup>^ <a href="#footnote-ref-1a">a</a> <a href="#footnote-ref-1b">b</a></sup>
-          <?php #i18n: This is the content of the footnote, at the bottom of the page
+          <?php # translators: This is the content of the footnote, at the bottom of the page
           $p = _("What we call \"Free Software\" here is also often called \"Open Source Software\". In practice the requirements are identical, although because the term \"open\" doesn't call to mind freedom, it <a href=\"http://www.gnu.org/philosophy/open-source-misses-the-point.html\">misses the point</a>. Read our FAQ entry: <a href=\"%s#open_source\">Are \"Open Source\" and \"Free Software\" the same thing?</a>.");
           printf($p, $this->base_url('linux/linux_faq',1)); ?>
         </li>

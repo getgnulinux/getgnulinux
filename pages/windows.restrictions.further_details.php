@@ -68,7 +68,7 @@ $this->load_header();
 
       <div class="left-column">
         <h3 id="gpl"><a href="<?php
-        # i18n: If it exists, please use a non-official translation of the GPL in your language, as pointed on http://www.gnu.org/licenses/translations.html
+        # translators: If it exists, please use a non-official translation of the GPL in your language, as pointed on http://www.gnu.org/licenses/translations.html
         print _("http://www.gnu.org/copyleft/gpl.html"); ?>" title="<?php print _("The GNU General Public License"); ?>"><?php print _("The GPL"); ?></a></h3>
 
         <p><?php print _("The GNU General Public License, under which GNU/Linux and a vast amount of free software are published."); ?></p>
