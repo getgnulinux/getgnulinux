@@ -67,7 +67,7 @@ $this->load_header();
 
       <p><?php print _("In the end, individual end-users often get the software at zero cost, while corporate customers are often happy to pay for more support."); ?></p>
 
-      <div id="read_more">
+      <div class="read-more-box">
         <p><?php print _("More in this section:"); ?></p>
         <ul>
           <li><a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a></li>

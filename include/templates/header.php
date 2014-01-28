@@ -1,6 +1,6 @@
 <?php header("Content-Type: text/html; charset=utf-8"); ?>
 <!DOCTYPE html>
-<html lang="en-US" lang="<?php $this->text('lang') ?>" dir="<?php $this->text('dir'); ?>">
+<html lang="<?php $this->text('lang') ?>" dir="<?php $this->text('dir'); ?>">
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 
@@ -24,19 +24,17 @@
   <meta name="description" content="<?php $this->page_description(); ?>"/>
   <meta name="keywords" content="<?php print _("linux, gnu/linux, free software, software freedom, open-source, windows alternative, get linux, switch to linux"); ?>" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:700,400,300"/>
-  <link rel="stylesheet" type="text/css" href="<?php $this->addver('/style/font-awesome/css/font-awesome.min.css'); ?>" />
-  <link rel="stylesheet" type="text/css" href="<?php $this->addver('/style/main-ltr.css'); ?>" />
-  <link rel="stylesheet" type="text/css" href="<?php $this->addver('/style/flexslider.css'); ?>" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:700,400,300" media="all" />
+  <link rel="stylesheet" type="text/css" href="<?php $this->addver('/style/font-awesome/css/font-awesome.min.css'); ?>" media="all" />
+  <link rel="stylesheet" type="text/css" href="<?php $this->addver('/style/main-ltr.css'); ?>" media="all" />
+  <link rel="stylesheet" type="text/css" href="<?php $this->addver('/style/flexslider.css'); ?>" media="all" />
   <?php
-  // Show right-to-left specific styles?
   if ( $ggl->get('dir') == 'rtl' ) { ?>
-    <link rel="stylesheet" type="text/css" href="<?php $this->addver('/style/main-rtl.css'); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php $this->addver('/style/main-rtl.css'); ?>" media="all" />
   <?php }
-  // For some languages italic text is not displayed properly. Disable
-  // italics for selected languages.
+  // Disable italics for selected languages.
   if ( $ggl->no_italics() ) { ?>
-    <link rel="stylesheet" type="text/css" href="<?php $this->addver('/style/no-italics.css'); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php $this->addver('/style/no-italics.css'); ?>" media="all" />
   <?php } ?>
 </head>
 
@@ -45,7 +43,7 @@
 <header id="header">
   <nav id="navigation" role="navigation">
     <ul>
-      <li><a href="<?php $this->base_url(); ?>"><i class="fa fa-home fa-lg"></i></a></li>
+      <li id="logo"><a href="<?php $this->base_url(); ?>"><i class="fa fa-home fa-lg"></i></a></li>
       <?php
       $menu_items = array(
         'linux' => _("What is Linux?"),

@@ -7,8 +7,8 @@ $(document).ready(function() {
             min: 800,
             inDelay: 600,
             outDelay: 400,
-            containerID: 'toTop',
-            containerHoverID: 'toTopHover',
+            containerID: 'to-top',
+            containerHoverID: 'to-top-hover',
             scrollSpeed: 400,
             easingType: 'linear'
         };
@@ -18,6 +18,10 @@ $(document).ready(function() {
 
         toTop.click(function(e) {
             e.preventDefault();
+            $.scrollTo(0, settings.scrollSpeed, {easing: settings.easingType});
+        });
+
+        Mousetrap.bind("t t", function(e) {
             $.scrollTo(0, settings.scrollSpeed, {easing: settings.easingType});
         });
 
@@ -49,6 +53,11 @@ $(document).ready(function() {
     $("#translations .more").click(function () {
         $("#translations #incomplete").toggle();
     });
+
+    /* Mousetraps */
+    Mousetrap.bind("t u x enter", function(e) {
+        $("header #logo i").removeClass("fa-home").addClass("fa-linux");
+    });
 });
 
 /* Enable toggle for elements with ID in array $items */
@@ -56,13 +65,11 @@ function enable_toggle(items) {
     for (var i=0; i < items.length; i++) {
         (function(i) {
             var id = items[i];
-            $("#" + id).click(function () {
-                $("#" + id + "-toggee").toggle();
-                /* Check if the item is using Font Awesome icons.
-                * If so, toggle that icon. */
-                if ( $("#" + id).has(".fa") ) {
+            $("#"+id).click(function () {
+                $("#"+id+"-toggee").toggle();
+                /* Toggle Font Awesome icon if present */
+                if ( $("#"+id).has(".fa") )
                     toggle_item_fa_icon(id);
-                }
             });
         })(i);
     }
@@ -70,14 +77,9 @@ function enable_toggle(items) {
 
 /* Toggles the Font Awesome icon for a toggle item */
 function toggle_item_fa_icon(id) {
-    var af_icon = $("#" + id + " .fa");
-
-    if ( $("#" + id + "-toggee").is(":visible") ) {
-        af_icon.removeClass("fa-plus-square-o");
-        af_icon.addClass("fa-minus-square-o");
-    }
-    else {
-        af_icon.removeClass("fa-minus-square-o");
-        af_icon.addClass("fa-plus-square-o");
-    }
+    var icon = $("#"+id+" .fa");
+    if ( $("#"+id+"-toggee").is(":visible") )
+        icon.removeClass("fa-plus-square-o").addClass("fa-minus-square-o");
+    else
+        icon.removeClass("fa-minus-square-o").addClass("fa-plus-square-o");
 }

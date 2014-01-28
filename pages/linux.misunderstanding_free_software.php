@@ -92,13 +92,13 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
     <p><?php print _("It's safe to say that <strong>any medium-size piece of software violates patents</strong>, in several countries, whether it's free or not."); ?></p>
     <p><?php print _("Depending on the holding company's ability to cover very large legal costs, or to retaliate with other patent threats, royalties and restrictions can be applied over these patents."); ?></p>
 
-    <div class="morebox post-it">
+    <div class="read-more-box">
       <?php print _("Read and view more:"); ?>
-      <ul>
-          <li><?php
+      <ul class="fa-ul">
+          <li><i class="fa-li fa fa-external-link"></i><?php
           # i18n: Unless you know of a good localized resource, please leave the URL as such.
           print _("<a href=\"http://ffii.org/Frequently_Asked_Questions_about_software_patents\" hreflang=\"en\">Frequently Asked Questions on software patents, by the <acronym title=\"Foundation for a Free Information Infrastructure\">FFII</acronym>"); ?></a></li>
-          <li><?php
+          <li><i class="fa-li fa fa-external-link"></i><?php
           # i18n: Unless you know of a good localized resource, please leave the URL as such.
           print _("<a href=\"http://www.redhat.com/magazine/007may05/features/ip/\" hreflang=\"en\">Short and clear video on \"intellectual property\" by Red Hat"); ?></a></li>
       </ul>
@@ -123,7 +123,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
     <p><?php print _("<em>Free software has nothing to do with a political system.</em> You can run free software on top of proprietary software, just as well as the opposite. The free software license is simply a legal, ethical contract between the programmer and the end-user."); ?></p>
 
 
-    <div id="collapsed_box" class="post-it">
+    <div class="collapsed-box post-it">
       <h1><?php print _("Read more:"); ?></h1>
 
       <div class="toggle-answer">

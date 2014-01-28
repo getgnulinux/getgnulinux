@@ -2,6 +2,10 @@
  * General styles
  *----------------------------------------------------*/
 
+html {
+    background-color: #545454;
+}
+
 body {
     background: url("/images/cream_dust.png") repeat scroll 0 0 transparent;
     background-color: #F8F8F8;
@@ -36,11 +40,6 @@ h1 {
     font-weight: bold;
     margin: 1rem;
     text-align: center;
-}
-
-header h1 {
-    font-family: Palatino,"Palatino Linotype",Georgia,"Book Antiqua",Times,"Times New Roman",serif;
-    font-weight: normal;
 }
 
 h2 {
@@ -126,6 +125,113 @@ li {
 }
 
 /*----------------------------------------------------
+ * Navigation menu
+ *----------------------------------------------------*/
+
+nav#navigation {
+    background-color: #C3CFA2;
+    font-size: 16px;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 5px;
+}
+
+#navigation ul li {
+    display: inline-block;
+    margin: 0 5px 0 0;
+    padding: 5px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    -webkit-transition: background 100ms linear;
+    -moz-transition: background 100ms linear;
+    transition: background 100ms linear;
+}
+
+#navigation a {
+    font-size: 1.0em;
+    line-height: 2em;
+    padding: 4px 8px;
+    text-decoration: none;
+
+    transition: ease 200ms linear;
+    -webkit-transition: ease 200ms linear;
+    -moz-transition: ease 200ms linear;
+}
+
+#navigation a,
+#navigation a:hover,
+#navigation a:visited {
+    color: #333333;
+}
+
+#navigation li:hover,
+#navigation li.active {
+    background: none repeat scroll 0 0 rgba(134, 155, 78, 0.2);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+}
+
+/*----------------------------------------------------
+ * Navigation: Chapters list
+ *----------------------------------------------------*/
+
+nav.chapters {
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav.chapters .title a {
+    color: #3C4043;
+    display: inline-block;
+    line-height: 2em;
+    margin: 0.5em;
+}
+
+nav.chapters ul {
+    background-color: #EEECE9;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0.4em 0;
+}
+
+nav.chapters ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0 1em;
+    white-space: nowrap;
+}
+
+nav.chapters ul li a,
+nav.chapters ul li a:visited {
+    color: #3C4043;
+    display: inline-block;
+    line-height: 1.8em;
+}
+
+nav.chapters .active a,
+nav.chapters .active a:hover {
+    color: #666666 !important;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+nav.chapters ul li:last-child {
+    border-right: medium none;
+}
+
+nav.chapters li a:hover {
+    color: #043f58;
+}
+
+/*----------------------------------------------------
  * Main content
  *----------------------------------------------------*/
 
@@ -206,9 +312,7 @@ div.note {
     padding: 0;
 }
 
-.linux img,
-.screenshots img,
-.distro_screenshots img {
+.screenshots img {
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -352,55 +456,6 @@ div.note {
 }
 
 /*----------------------------------------------------
- * Navigation menu
- *----------------------------------------------------*/
-
-#navigation {
-    padding: 8px 0;
-    margin-top: 0px;
-    font-size: 16px;
-    line-height: normal;
-    text-align: center;
-}
-
-#navigation ul {
-    list-style: none;
-    margin: 0;
-    padding: 0 5px;
-}
-
-#navigation ul li {
-    display: inline-block;
-    margin: 0 5px 0 0;
-}
-
-#navigation a {
-    font-size: 1.0em;
-    line-height: 2em;
-    padding: 4px 8px;
-    text-decoration: none;
-
-    transition: ease 200ms linear;
-    -webkit-transition: ease 200ms linear;
-    -moz-transition: ease 200ms linear;
-}
-
-#navigation a,
-#navigation a:hover,
-#navigation a:visited {
-    color: #333333;
-}
-
-#navigation a:hover {
-    border-bottom: 2px solid #6296C2 !important;
-}
-
-#navigation a:active,
-#navigation li.active a {
-    border-bottom: 2px solid #4682B4;
-}
-
-/*----------------------------------------------------
  * Main contents
  *----------------------------------------------------*/
 
@@ -410,76 +465,117 @@ div.note {
     margin: 0 0 2em 2em !important;
 }
 
-#intro_box {
+.toggle-answer h2 {
+    cursor: pointer;
+}
+.toggle-answer .answer {
+    display: none;
+    margin-bottom: 2em;
+    padding-left: 2.2em;
+}
+
+.read-more-box {
+    border-top: 1px dashed #EDECE4;
+    margin-top: 2em;
+    padding: 1em 0 1em 1em;
+}
+
+.conclusion {
+    font-size: 0.95em;
     margin-top: 5em;
+    padding: 1em;
 }
 
-/*----------------------------------------------------
- * Subheader ("contents of chapter" box)
- * (only displays in level 2 pages)
- *----------------------------------------------------*/
-
-#subheader {
-    clear: right;
-    float: right;
-    font-size: 0.8em;
-    margin: 3em 0 2em 1.5em;
-    padding: 0.5em 1em 0.5em 1em;
-    max-width: 220px;
-    min-width: 150px;
+.conclusion p {
+    margin: 5px 0;
 }
 
-#subheader .title {
-    display: block;
-    text-align: center;
-    font-style: normal;
-    margin-bottom: 0.8em;
-    text-transform: capitalize;
+.collapsed-box {
+    font-size: 0.95em;
+    margin-top: 3em;
+    padding: 2em;
 }
-
-#subheader .title a {
-    background: none;
-    text-decoration: none;
-    color: black;
-}
-
-#subheader ul {
-    list-style-type: none;
-    list-style-image: none; /* IE bug */
-    margin: 0; /* for IE */
-    padding: 0; /* for Moz */
-}
-
-#subheader li {
-    margin: 0.5em 0;
+.collapsed-box h1 {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 0 0 0.5em;
     text-align: left;
 }
-
-#subheader li a {
-    color: #000080;
-    display: block;
-    padding: 0.2em 0.5em;
-    background: none;
-    outline: 0;
+.collapsed-box h2 {
+    border: medium none;
+    font-size: 1.4em;
+    margin-top: 0;
+    padding: 0;
+}
+.collapsed-box h3 {
+    font-size: 1.5em;
+    margin: 0;
 }
 
-#subheader li a:hover {
-    color: #000000;
-    text-decoration: underline;
-}
-
-#subheader .wehere a {
-    text-decoration: underline;
+.post-it {
+    background-color: #F9EDA6;
+    border: 1px #E6C813 solid;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2em;
 }
 
 /*----------------------------------------------------
- * Styles for the "Switch to Linux" pages.
+ * Fancy Buttons
  *----------------------------------------------------*/
 
-.section {
-    clear: both;
-    border-top: 2px #ddddef solid;
-    padding: 1em 0 3em 0;
+div.button {
+    margin: 40px 0;
+}
+
+div.button.wide {
+    min-width: 13.5em;
+}
+
+.button a {
+    background-color: #E2E4D7;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #FFFFFF;
+    padding: 0.7em 1em;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.30);
+    white-space: nowrap;
+    width: auto;
+}
+.button a:hover,
+.button a:active {
+    background-color: #B7CFDC;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    text-decoration: none;
+}
+
+.button.green a {
+    background-color: #8DB90A;
+}
+.button.green a:hover,
+.button.green a:active {
+    background-color: #96C017;
+}
+
+.button.orange a {
+    background-color: #D66E4B;
+}
+.button.orange a:hover,
+.button.orange a:active {
+    background-color: #DC7654;
+}
+
+.button.blue a {
+    background-color: #2785C6;
+}
+.button.blue a:hover,
+.button.blue a:active {
+    background-color: #358FCD;
 }
 
 /*----------------------------------------------------
@@ -561,7 +657,7 @@ section.trisquel {
  * Styles for the "More" page.
  *----------------------------------------------------*/
 
-.more_section { /*separating the 3 categories for external links */
+.more_section {
     clear: both;
     padding: 1em 0 3em 0;
 }
@@ -594,6 +690,28 @@ section.trisquel {
 .column2_2 {
     width: 45%;
     padding: 0 2%;
+}
+
+.more h2 {
+    text-align: center;
+    clear: both;
+    margin: 0.5em 0 1.5em 0;
+    font-weight: normal;
+    font-size: 2em;
+}
+
+.more_section img {
+    clear: none !important;
+    float: none !important;
+    display: block;
+    margin: 0 !important;
+}
+
+.credits h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    padding-top: 1em;
+    border-top: 1px #DFD9F9 solid;
 }
 
 /*-------------------- About box --------------------*/
@@ -658,127 +776,13 @@ section.trisquel {
 }
 
 /*----------------------------------------------------
- * Page specific styles
- *----------------------------------------------------*/
-
-.windows h2 {
-    font-size: 1.6em;
-}
-
-.windows_sub h2 {
-    font-size: 1.8em;
-}
-
-.what_about_source_code img {
-    margin-top: 0.5em;
-}
-
-.stand_for_a_free_society h3 {
-    color: #000080;
-    font-size: 1.1em;
-    font-weight: normal;
-}
-
-.linux li {
-    margin-top: 0.4em !important;
-}
-
-.mfs h2 {
-    text-indent: -1.5em;
-    padding-left: 1.5em;
-}
-
-.mfs h3 {
-    display: block;
-    margin: 0.5em 0;
-}
-
-.toggle-answer h2 {
-    cursor: pointer;
-}
-
-.toggle-answer .answer {
-    display: none;
-    margin-bottom: 2em;
-    padding-left: 2.2em;
-}
-
-.from_windows_to_linux ul {
-    padding-left: 1.2em;
-}
-
-.from_windows_to_linux li {
-    clear: right;  /*see #317*/
-}
-
-.from_windows_to_linux h2 {
-    margin: 0.5em 0 1.5em 0;
-    font-weight: normal;
-    font-size: 2em;
-    text-align: center;
-}
-
-.from_windows_to_linux h3 {
-    display: block;
-    margin-bottom: 0.2em;
-    color: #000080;
-    font-size: 1.2em;
-}
-
-.choose_a_distribution h2 {
-    margin: 0 0 0.5em 0;
-}
-
-.try_or_install h2 {
-    margin: 0.5em 0 1.5em 0;
-    font-size: 1.8em;
-}
-
-.try_or_install h3 {
-    display: block;
-    font-size: 1.2em;
-    margin: 1em 0 0.5em 0;
-    color: #000080;
-}
-
-.try_or_install h4 {
-    margin: 0 0 1.5em 0;
-}
-
-.more h2 {
-    text-align: center;
-    clear: both;
-    margin: 0.5em 0 1.5em 0;
-    font-weight: normal;
-    font-size: 2em;
-}
-
-.more_section img {
-    clear: none !important;
-    float: none !important;
-    display: block;
-    margin: 0 !important;
-}
-
-.credits h2 {
-    font-size: 1.5em;
-    font-weight: normal;
-    padding-top: 1em;
-    border-top: 1px #DFD9F9 solid;
-}
-
-/*----------------------------------------------------
- * "Read more" section on the "More details on restrictions" page.
+ * "Read more" section on the "Stand for a Free Society" page.
  *----------------------------------------------------*/
 
 .further-reading {
     font-size: 0.95em;
     margin-top: 4.5em;
     padding: 1em;
-}
-
-.further-reading a {
-    background: none;
 }
 
 .further-reading h2 {
@@ -791,11 +795,6 @@ section.trisquel {
     display: block;
     font-size: 1.4em;
     margin: 0 0 0.5em;
-    text-align: left;
-}
-
-.further-reading p {
-    margin-top: 0.2em;
 }
 
 .left-column {
@@ -804,70 +803,6 @@ section.trisquel {
     border-right: 1px #D7B41A solid;
     padding-right: 1em;
     margin-right: 1em;
-}
-
-/*----------------------------------------------------
- * "More in this section"
- *----------------------------------------------------*/
-
-#read_more {
-    text-align: left;
-    margin-top: 2em;
-    padding: 1em 0 1em 1em;
-    border-top: 1px solid #e7e3f9;
-}
-
-/*----------------------------------------------------
- * Chapters list
- *----------------------------------------------------*/
-
-.chapters {
-    margin: 2em auto 0;
-    text-align: center;
-}
-
-.chapters .title a {
-    color: #3C4043;
-    display: inline-block;
-    line-height: 2em;
-    margin: 0.5em;
-}
-
-.chapters ul {
-    background-color: #EEECE9;
-    list-style: none outside none;
-    margin: 0;
-    padding: 0.4em 0;
-}
-
-.chapters ul li {
-    display: inline-block;
-    margin: 0;
-    padding: 0 1em;
-    white-space: nowrap;
-}
-
-.chapters ul li a,
-.chapters ul li a:visited {
-    color: #3C4043;
-    display: inline-block;
-    line-height: 1.8em;
-}
-
-.chapters .active a,
-.chapters .active a:hover {
-    color: #666666 !important;
-    text-decoration: none;
-    font-weight: bold;
-    text-shadow: 0 1px 0 #FFFFFF;
-}
-
-.chapters ul li:last-child {
-    border-right: medium none;
-}
-
-.chapters li a:hover {
-    color: #043f58;
 }
 
 /*----------------------------------------------------
@@ -891,7 +826,7 @@ section.trisquel {
     display: block;
     font-size: 0.9em;
     margin-top: 0.6em;
-    text-align: right;
+    text-align: end;
 }
 
 .quote.small {
@@ -902,21 +837,6 @@ section.trisquel {
 
 .quote.image {
     width: auto;
-}
-
-/*----------------------------------------------------
- * "Next page:" banner at bottom of page
- * used only on switch_to_linux.* (level 2) pages
- *----------------------------------------------------*/
-
-#bottom_next_page_banner {
-    margin: 3em -0.8em -0.8em -0.8em;
-    text-align: center;
-}
-
-#bottom_next_page_banner a .arrow {
-    background: url(/images/arrow_right.png) center right no-repeat;
-    padding-right: 50px;
 }
 
 /*----------------------------------------------------
@@ -946,126 +866,6 @@ section.trisquel {
 
 .link_button {
     margin-bottom: 25px;
-}
-
-/*----------------------------------------------------
- * Miscellaneous
- *----------------------------------------------------*/
-
-.conclusion {
-    font-size: 0.95em;
-    margin-top: 5em;
-    padding: 1em;
-}
-
-.conclusion p {
-    margin: 5px 0;
-}
-
-.morebox {
-    width: 60%;
-    margin: 1em auto;
-    font-size: 0.8em;
-    border: 1px #DFD9F9 solid;
-    padding: 0.5em;
-}
-.morebox ul {
-    list-style-type: none;
-    list-style-image: none; /* IE bug */
-    margin: 0; /* for IE */
-    padding: 0; /* for Moz */
-}
-.morebox li {
-    margin: 0.5em 0;
-    white-space: nowrap;
-}
-.morebox li a {
-    padding: 0.2em 0.5em;
-    background: none;
-}
-
-#collapsed_box {
-    font-size: 0.95em;
-    margin-top: 3em;
-    padding: 2em;
-}
-#collapsed_box h1 {
-    font-size: 1.5em;
-    font-weight: 300;
-    margin: 0 0 0.5em;
-    text-align: left;
-}
-#collapsed_box h2 {
-    border: medium none;
-    font-size: 1.4em;
-    margin-top: 0;
-    padding: 0;
-}
-#collapsed_box h3 {
-    font-size: 1.5em;
-    margin: 0;
-}
-
-.post-it {
-    background-color: #F9EDA6;
-    border: 1px #E6C813 solid;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    margin-bottom: 2em;
-}
-
-div.button {
-    margin: 40px 0;
-}
-
-div.button.wide {
-    min-width: 13.5em;
-}
-
-.button a {
-    background-color: #E2E4D7;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    color: #FFFFFF;
-    padding: 0.7em 1em;
-    text-shadow: 0 1px 1px rgba(0,0,0,0.30);
-    white-space: nowrap;
-    width: auto;
-}
-.button a:hover,
-.button a:active {
-    background-color: #B7CFDC;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-    text-decoration: none;
-}
-
-.button.green a {
-    background-color: #8DB90A;
-}
-.button.green a:hover,
-.button.green a:active {
-    background-color: #96C017;
-}
-
-.button.orange a {
-    background-color: #D66E4B;
-}
-.button.orange a:hover,
-.button.orange a:active {
-    background-color: #DC7654;
-}
-
-.button.blue a {
-    background-color: #2785C6;
-}
-.button.blue a:hover,
-.button.blue a:active {
-    background-color: #358FCD;
 }
 
 /*----------------------------------------------------
@@ -1205,28 +1005,23 @@ footer #icons a:hover {
  * Move to top button
  *----------------------------------------------------*/
 
-#toTop {
+#to-top {
     border: medium none;
-    bottom: 0.75em;
+    bottom: 0.7em;
     display: none;
     overflow: hidden;
     position: fixed;
-    right: 0.75em;
+    right: 1em;
     text-decoration: none;
     z-index: 100;
 }
-
-a#toTop,
-a:hover#toTop,
-a:visited#toTop {
+a#to-top,
+a:hover#to-top,
+a:visited#to-top {
     color: rgba(186, 180, 171, 0.8);
 }
 
-#toTop .fa {
-    font-size: 3em;
-}
-
-#toTopHover {
+#to-top-hover {
     display: block;
     float: left;
     overflow: hidden;

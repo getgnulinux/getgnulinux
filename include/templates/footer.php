@@ -68,19 +68,28 @@
   </div>
 </footer>
 
-<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="<?php $this->addver('/js/jquery.scrollTo.min.js'); ?>"></script>
-<script type="text/javascript" src="<?php $this->addver('/js/common.js'); ?>"></script>
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="<?php $this->addver('/js/jquery.scrollTo.min.js'); ?>"></script>
+<script src="<?php $this->addver('/js/mousetrap.min.js'); ?>"></script>
+<script src="<?php $this->addver('/js/common.js'); ?>"></script>
 <?php
 switch ($this->page_name) {
     case null:
     ?>
-<script type="text/javascript" src="<?php $this->addver('/js/jquery.flexslider.js'); ?>"></script>
-<script type="text/javascript" charset="utf-8">
+<script src="<?php $this->addver('/js/jquery.flexslider.js'); ?>"></script>
+<script charset="utf-8">
   $(window).load(function() {
     $('.flexslider').flexslider({
         slideshow: false,
         animation: "slide",
+        start: function(slider) {
+          Mousetrap.bind("n", function(e) {
+              slider.flexAnimate(slider.getTarget("next"));
+          });
+          Mousetrap.bind("p", function(e) {
+              slider.flexAnimate(slider.getTarget("previous"));
+          });
+        }
     });
   });
 </script>
@@ -90,8 +99,8 @@ switch ($this->page_name) {
     case 'linux':
     case 'switch_to_linux.choose_a_distribution':
     ?>
-<script type="text/javascript" src="<?php $this->addver('/js/jquery.flexslider.js'); ?>"></script>
-<script type="text/javascript" charset="utf-8">
+<script src="<?php $this->addver('/js/jquery.flexslider.js'); ?>"></script>
+<script charset="utf-8">
   $(window).load(function() {
     $('.flexslider').flexslider({
         animation: "fade",
@@ -108,9 +117,9 @@ if ( $ggl->get('piwik') ) {
 }
 ?>
 
-<a id="toTop" href="javascript:;">
-  <span id="toTopHover"></span>
-  <i class="fa fa-chevron-circle-up fa-fw"></i>
+<a id="to-top" href="javascript:;">
+  <span id="to-top-hover"></span>
+  <i class="fa fa-chevron-circle-up fa-3x"></i>
 </a>
 
 </body>
