@@ -29,7 +29,7 @@ $this->load_header();
         <li>
           <div class="fp-slide slide-linux">
 
-            <h1 id="why-not-windows"><?php print _("What is GNU/Linux?"); ?></h1>
+            <h1><?php print _("What is GNU/Linux?"); ?></h1>
             <div class="slide-text">
               <p><?php print _("Learn more about the free operating system"); ?></p>
               <div class="button orange">
@@ -42,7 +42,7 @@ $this->load_header();
         <li>
           <div class="fp-slide slide-windows">
 
-            <h1 id="why-not-windows"><?php print _("Why not Windows"); ?></h1>
+            <h1><?php print _("Why not Windows"); ?></h1>
             <div class="slide-text">
               <p><?php print _("Why we should avoid using Microsoft Windows"); ?></p>
               <div class="button blue">
@@ -55,7 +55,7 @@ $this->load_header();
         <li>
           <div class="fp-slide slide-switch">
 
-            <h1 id="switch-to-gnu-linux"><?php print _("Switch to GNU/Linux"); ?></h1>
+            <h1><?php print _("Switch to GNU/Linux"); ?></h1>
             <div class="slide-text">
               <p><?php print _("Where to download and how to step into Linux"); ?></p>
               <div class="button green">

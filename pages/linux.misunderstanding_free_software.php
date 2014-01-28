@@ -50,7 +50,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
     <p><?php print _("Non-proprietary software stands out in many areas: consider, to name just a few:"); ?></p>
     <ul>
     <li><?php print _("Applications: <a href=\"http://www.getfirefox.com/\">Firefox</a> (web browser), <a href=\"http://www.inkscape.org/\">Inkscape</a> (vector drawing)."); ?></li>
-    <li><?php print _("Complete systems: <a href=\"http://en.wikipedia.org/wiki/Apache_HTTP_Server\">Apache</a> (web server), <a href=\"http://en.wikipedia.org/wiki/OpenBSD\">OpenBSD</a> (<acronym title=\"Operating System\">OS</acronym>), and of course, GNU/Linux."); ?></li>
+    <li><?php print _("Complete systems: <a href=\"http://en.wikipedia.org/wiki/Apache_HTTP_Server\">Apache</a> (web server), <a href=\"http://en.wikipedia.org/wiki/OpenBSD\">OpenBSD</a> (<abbr title=\"Operating System\">OS</abbr>), and of course, GNU/Linux."); ?></li>
     <li><?php
     # i18n: use URL to localized Wikipedia article for ODF, instead of opendocumentfellowship
     print _("Formats and protocols: <a href=\"http://en.wikipedia.org/wiki/HTML\">HTML</a> (web pages), <a href=\"http://en.wikipedia.org/wiki/BitTorrent_(protocol)\">BitTorrent</a> (file sharing), <a href=\"http://opendocumentfellowship.com/\">ODF</a> (office documents)."); ?></li>
@@ -97,7 +97,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
       <ul class="fa-ul">
           <li><i class="fa-li fa fa-external-link"></i><?php
           # i18n: Unless you know of a good localized resource, please leave the URL as such.
-          print _("<a href=\"http://ffii.org/Frequently_Asked_Questions_about_software_patents\" hreflang=\"en\">Frequently Asked Questions on software patents, by the <acronym title=\"Foundation for a Free Information Infrastructure\">FFII</acronym>"); ?></a></li>
+          print _("<a href=\"http://ffii.org/Frequently_Asked_Questions_about_software_patents\" hreflang=\"en\">Frequently Asked Questions on software patents, by the <abbr title=\"Foundation for a Free Information Infrastructure\">FFII</abbr>"); ?></a></li>
           <li><i class="fa-li fa fa-external-link"></i><?php
           # i18n: Unless you know of a good localized resource, please leave the URL as such.
           print _("<a href=\"http://www.redhat.com/magazine/007may05/features/ip/\" hreflang=\"en\">Short and clear video on \"intellectual property\" by Red Hat"); ?></a></li>

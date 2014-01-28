@@ -75,7 +75,7 @@ $this->load_header();
 
         <h3 id="gpl_eula_comparison"><a href="/archive/comparing_the_gpl_to_eula.pdf" hreflang="en"><?php print _("Comparing the GPL to the Microsoft WinXP License"); ?></a> (pdf)</h3>
 
-        <p><?php print _("A thorough and clear comparison of the <acronym title=\"GNU General Public License\">GPL</acronym> and the Microsoft <acronym title=\"End-User License Agreement\">EULA</acronym> license that governs the use of most Windows XP versions."); ?></p>
+        <p><?php print _("A thorough and clear comparison of the <abbr title=\"GNU General Public License\">GPL</abbr> and the Microsoft <abbr title=\"End-User License Agreement\">EULA</abbr> license that governs the use of most Windows XP versions."); ?></p>
       </div>
       <div>
         <h3 id="right_to_read"><a href="<?php print _("http://www.gnu.org/philosophy/right-to-read.html"); ?>"><?php print _("The Right to Read"); ?></a></h3>

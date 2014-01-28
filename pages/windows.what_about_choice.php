@@ -51,7 +51,7 @@ $this->load_header();
 
     <h2 id="monopolistic_practices"><?php print _("Monopolistic practices"); ?></h2>
 
-    <p><?php print _("Microsoft has a tight control over <acronym title=\"Original Equipment Manufacturer\">OEM</acronym>s (computer manufacturers) who ship their computers with Windows installed."); ?><br/>
+    <p><?php print _("Microsoft has a tight control over <abbr title=\"Original Equipment Manufacturer\">OEM</abbr>s (computer manufacturers) who ship their computers with Windows installed."); ?><br/>
     <?php
     # i18n: if you cannot find localized homepages, please leave the URLs as such
     print _("This means that no program competing with Microsoft products, be it <a href=\"http://www.videolan.org/vlc/\">multimedia player</a>, <a href=\"http://www.getfirefox.com/\">web browser</a>, <a href=\"http://libreoffice.org/\">office suite</a>, <a href=\"http://www.pidgin.im/\">instant messaging program</a> or other, will come pre-installed on most computers you can buy."); ?></p>

@@ -119,7 +119,7 @@ $this->load_header();
 
         <p><?php print _("Many multimedia formats in use are proprietary and not openly specified; this means, broadly speaking, that Linux programmers have to find out how to read them without any help from the format designers."); ?></p>
         <p><?php # i18n: Please choose the wording of the DRM acronym according to the FSF terminology
-        print _("This might lead you to circumvent the restrictions in some DVDs and the <acronym title=\"Digital Restrictions Management\">DRM</acronym> in some music files, even if you purchased them in full legality, to be make them work under Linux. Unfortunately, depending on where you live, <em>such circumvention processes may be illegal</em> even if you purchased your media entirely legally."); ?></p>
+        print _("This might lead you to circumvent the restrictions in some DVDs and the <abbr title=\"Digital Restrictions Management\">DRM</abbr> in some music files, even if you purchased them in full legality, to be make them work under Linux. Unfortunately, depending on where you live, <em>such circumvention processes may be illegal</em> even if you purchased your media entirely legally."); ?></p>
         <p><?php print _("Read more in our Linux FAQ:"); ?> <a href="<?php $this->base_url('linux/linux_faq'); ?>#dvd_mp3"><?php print _("Can I play my DVDs and MP3s under GNU/Linux?"); ?></a></p>
       </article>
 

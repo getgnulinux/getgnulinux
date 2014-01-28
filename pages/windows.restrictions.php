@@ -25,7 +25,7 @@ $this->load_header();
     </div>
 
     <div class="quote">
-      <p><?php print _("If you go to most of the free software sites you can click down a couple of levels and find the [GNU] <acronym title=\"General Public License, the main free software license\">GPL</acronym>, the X license, the Apache license, whichever terms and conditions you have to accept in order to use that software."); ?><p/>
+      <p><?php print _("If you go to most of the free software sites you can click down a couple of levels and find the [GNU] <abbr title=\"General Public License, the main free software license\">GPL</abbr>, the X license, the Apache license, whichever terms and conditions you have to accept in order to use that software."); ?><p/>
       <p><?php print _("Now with a proprietary software company, the license is buried so you can't read it until after you have paid for the product, then they're asking you to <strong>turn off part of your brain</strong>, they're asking you to turn off part of your ability to work with other people and to do business, when you use their software."); ?></p>
       <span class="source">Don Marti, <a href="http://www.go-opensource.org/go_open/episode_2/big_guns/" hreflang="en" title="<?php print _("Don Marti interview"); ?>"><?php print _("2005 interview"); ?></a></span>
     </div>
@@ -46,8 +46,8 @@ $this->load_header();
 
       <li>
         <div class="highlight"><?php
-    # i18n: Don't bother with the 'acronym' code. You can tranlsate as 'OEM [pre-installed]'
-    print _("An <acronym title=\"Original Equipment Manufacturer (simply the hardware seller)\">OEM</acronym>-distributed software cannot be transferred to another computer."); ?></div>
+    # i18n: Don't bother with the 'abbr' code. You can tranlsate as 'OEM [pre-installed]'
+    print _("An <abbr title=\"Original Equipment Manufacturer (simply the hardware seller)\">OEM</abbr>-distributed software cannot be transferred to another computer."); ?></div>
 
         <p><?php
     # i18n: Don't bother with the 'shrink-wrap' expression. You can skip that bit if you wish.

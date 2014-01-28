@@ -22,7 +22,7 @@ $this->load_header();
 
     <p><?php
     # i18n: The "AWOL" part is supposed to add some humour to the error message. Use your creativity to add some humour that's more suitable for your language.
-    print _("Sorry, but we couldn't find the page you were looking for. Either that page doesn't exist or the web page went <acronym title=\"away without leave\">AWOL</acronym>."); ?></p>
+    print _("Sorry, but we couldn't find the page you were looking for. Either that page doesn't exist or the web page went <abbr title=\"away without leave\">AWOL</abbr>."); ?></p>
 
     <h2><?php print _("Report broken link"); ?></h2>
     <p><?php

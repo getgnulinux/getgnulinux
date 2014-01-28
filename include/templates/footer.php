@@ -55,7 +55,7 @@
     <hr/>
 
     <div>
-      <p><?php $p = _("Except where otherwise <a href=\"%s\">noted</a>, content on this site is licensed under a <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" rel=\"license\"><acronym title=\"Creative Commons Attribution-ShareAlike\">CC BY-SA</acronym> 3.0 License</a>."); printf($p, $this->base_url('legal',1)); ?></p>
+      <p><?php $p = _("Except where otherwise <a href=\"%s\">noted</a>, content on this site is licensed under a <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" rel=\"license\"><abbr title=\"Creative Commons Attribution-ShareAlike\">CC BY-SA</abbr> 3.0 License</a>."); printf($p, $this->base_url('legal',1)); ?></p>
     </div>
 
     <ul id="icons">
@@ -77,7 +77,7 @@ switch ($this->page_name) {
     case null:
     ?>
 <script src="<?php $this->addver('/js/jquery.flexslider.js'); ?>"></script>
-<script charset="utf-8">
+<script>
   $(window).load(function() {
     $('.flexslider').flexslider({
         slideshow: false,

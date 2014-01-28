@@ -29,7 +29,7 @@ $this->load_header();
       <p>Most graphics on this website are either copied from or derived from the following sources, according to their respective copyright licenses:</p>
 
       <ul>
-        <li>Background patterns by <a href="http://subtlepatterns.com/">Subtle Patterns</a>, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution, Share Alike">BY-SA</acronym> license.</li>
+        <li>Background patterns by <a href="http://subtlepatterns.com/">Subtle Patterns</a>, <abbr title="Creative Commons">CC</abbr> <abbr title="Attribution, Share Alike">BY-SA</abbr> license.</li>
 
         <li><a href="http://openclipart.org/">OpenClipart</a> material, released under public domain: <a href="/images/sources/switch_to_linux/CD.svg">CD.svg</a>, <a href="/images/sources/switch_to_linux/retro_tux.svg">retro_tux.svg</a>, <a href="/images/sources/switch_to_linux/Display.svg">Display.svg</a></li>
 
@@ -49,8 +49,8 @@ $this->load_header();
         </li>
 
         <li>Ubuntu and Fedora logos: in accordance with the respective trademark guidelines (<a href="http://fedoraproject.org/wiki/Legal/TrademarkGuidelines">Fedora</a>, <a href="http://www.ubuntu.com/aboutus/trademarkpolicy">Ubuntu</a>)</li>
-        <li>gNewSense artwork: based on work <a href="http://www.flickr.com/photos/davelab6/sets/72157594509090768/">by Dave Crossland</a>, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution, Share Alike">BY-SA</acronym>, with special thanks.</li>
-        <li><a href="http://trisquel.info/en/wiki/logo">Trisquel logo</a> by Rubén Rodríguez Pérez, <a href="http://en.wikipedia.org/wiki/GNU_General_Public_License">GNU <acronym title="General Public License">GPL</acronym></a>.</li>
+        <li>gNewSense artwork: based on work <a href="http://www.flickr.com/photos/davelab6/sets/72157594509090768/">by Dave Crossland</a>, <abbr title="Creative Commons">CC</abbr> <abbr title="Attribution, Share Alike">BY-SA</abbr>, with special thanks.</li>
+        <li><a href="http://trisquel.info/en/wiki/logo">Trisquel logo</a> by Rubén Rodríguez Pérez, <a href="http://en.wikipedia.org/wiki/GNU_General_Public_License">GNU <abbr title="General Public License">GPL</abbr></a>.</li>
         <li>The laptop image on the "Try or install" page used with permission from <a href="http://www.system76.com/">system76.com</a>.</li>
       </ul>
 
@@ -261,9 +261,9 @@ $this->load_header();
       <ul>
         <li>A fair amount came from the <a href="http://www.fsf.org/">Free Software Foundation</a>. Verbatim copying or most FSF articles is allowed if notice is preserved. Note that we bear no affiliation with the FSF - views expressed on our websites might not represent those of the FSF.</li>
         <li><a href="http://www.timj.co.uk/digiculture/drm-fallacy">The fallacy of DRM</a>, an article by Tim Jackson (derivative use with permission);</li>
-        <li><a href="http://www.lafkon.net/tc/">Trusted Computing</a>, a video by Benjamin Stephan and Lutz Vogel, <acronym title="Creative Commons">CC</acronym> sampling plus license;</li>
-        <li><a href="http://free-culture.cc/">Free Culture</a>, a book by Lawrence Lessig, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution, Non Commercial">BY-NC</acronym> license;</li>
-        <li><a href="http://www.counterpoint-online.org/cgi-bin/item.cgi?id=618">Unbounded Freedom</a>, a book by Rosemary Bechler, <acronym title="Creative Commons">CC</acronym> <acronym title="Attribution, Non Commercial, Share Alike">BY-NC-SA</acronym> license;</li>
+        <li><a href="http://www.lafkon.net/tc/">Trusted Computing</a>, a video by Benjamin Stephan and Lutz Vogel, <abbr title="Creative Commons">CC</abbr> sampling plus license;</li>
+        <li><a href="http://free-culture.cc/">Free Culture</a>, a book by Lawrence Lessig, <abbr title="Creative Commons">CC</abbr> <abbr title="Attribution, Non Commercial">BY-NC</abbr> license;</li>
+        <li><a href="http://www.counterpoint-online.org/cgi-bin/item.cgi?id=618">Unbounded Freedom</a>, a book by Rosemary Bechler, <abbr title="Creative Commons">CC</abbr> <abbr title="Attribution, Non Commercial, Share Alike">BY-NC-SA</abbr> license;</li>
       </ul>
 
       <h2>And also</h2>

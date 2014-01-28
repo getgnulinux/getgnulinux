@@ -184,7 +184,7 @@ $this->load_header();
     <h3 id="linux_communism"><?php print _("Is Linux a form of communism?"); ?></h3>
     <h4 class="question_sub"><?php
     # i18n: This is italic text just below the question, which elaborates a little on it.
-    print _("\"Everything has to be free\" and \"No one owns anything\" sounds somewhat frightening. Are Linux and its <acronym title=\"GNU General Public License\">GPL</acronym> License something for anarchists or communists?"); ?></h4>
+    print _("\"Everything has to be free\" and \"No one owns anything\" sounds somewhat frightening. Are Linux and its <abbr title=\"GNU General Public License\">GPL</abbr> License something for anarchists or communists?"); ?></h4>
     <div class="answer">
         <p><?php
         $title = _("How to Misunderstand Free Software");
@@ -264,7 +264,7 @@ $this->load_header();
     <div class="answer">
         <p><?php print _("The simple answer to this question would be &quot;yes&quot;, however this is only half the truth."); ?></p>
         <p><?php print _("Quite a few Linux distributions do not include MP3 playback software due to the patent situation of the MP3 format. These patent issues do not affect the user directly, so most distributions make it fairly easy to install MP3 support over the Internet after the installation, making it possible to <strong>legally play MP3 files</strong>, for non-commercial use."); ?></p>
-        <p><?php print _("DVDs, on the other hand, are a more difficult situation. Most, if not all, DVDs are encrypted using a system called \"<acronym title=\"Content Scrambling System\">CSS</acronym>\". There is a widely supported free software, called <code>libdvdcss</code>, capable of decrypting DVD videos. However, circumventing the restriction on your DVDs is illegal in many parts of the world, including the USA and the European Union."); ?></p>
+        <p><?php print _("DVDs, on the other hand, are a more difficult situation. Most, if not all, DVDs are encrypted using a system called \"<abbr title=\"Content Scrambling System\">CSS</abbr>\". There is a widely supported free software, called <code>libdvdcss</code>, capable of decrypting DVD videos. However, circumventing the restriction on your DVDs is illegal in many parts of the world, including the USA and the European Union."); ?></p>
         <p><?php print _("There is a legal solution to play your DVDs on Linux where <code>libdvdcss</code> is illegal. The <a href=\"http://www.fluendo.com/\">Fluendo</a> company has developed an (non-free) application for that purpose which can be purchased from their website."); ?><p/>
         <p><?php print _("Non-encrypted DVDs, which include most home-made DVDs, play perfectly well with only free software."); ?></p>
         <div class="read_more">

@@ -70,7 +70,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
       <?php print _("DRM is control over content"); ?>
     </div>
 
-    <p><?php print _("Except that the control is not in the hands of the end-user. The original purpose of <acronym title=\"Digital Restrictions Management\">DRM</acronym> is understandable, but the implications over the flow of information and culture within a society are frightening."); ?></p>
+    <p><?php print _("Except that the control is not in the hands of the end-user. The original purpose of <abbr title=\"Digital Restrictions Management\">DRM</abbr> is understandable, but the implications over the flow of information and culture within a society are frightening."); ?></p>
 
     <div class="small_list">
       <ul>
@@ -142,7 +142,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
         print _("http://www.timj.co.uk/computing/politics-policy/drm/fallacy/"); ?>"><?php
         # i18n: Title of external link
         print _("The fallacy of DRM"); ?></a></h3>
-        <p><?php print _("A very well constructed article about <acronym title=\"Digital Restrictions Management\">DRM</acronym> by Tim Jackson, and on which we based the present article."); ?></p>
+        <p><?php print _("A very well constructed article about <abbr title=\"Digital Restrictions Management\">DRM</abbr> by Tim Jackson, and on which we based the present article."); ?></p>
 
         <h3><a href="<?php
         # i18n: If you don't know of a localized version of this article, please leave the URL in English
