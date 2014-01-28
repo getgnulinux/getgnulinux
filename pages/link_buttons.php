@@ -18,7 +18,7 @@ $this->load_header();
 <br/>
 
 <div id="link_buttons">
-    <div class="section">
+    <section>
         <div class="link_button">
             <img src="/links/en/80x15_20.png" alt="Get GNU/Linux" width="80" height="15" />
             <textarea class="copycode" rows="5" cols="45">&lt;a href=&quot;<?php $this->text('base_url'); ?>&quot; title=&quot;Get GNU/Linux - an alternative to Windows; free as in beer and speech&quot;&gt;&lt;img src=&quot;<?php $this->text('base_url'); ?>links/en/80x15_20.png&quot; alt=&quot;Get GNU/Linux&quot; width=&quot;80&quot; height=&quot;15&quot; border=&quot;0&quot;/&gt;&lt;/a&gt;</textarea>
@@ -31,8 +31,8 @@ $this->load_header();
             <img src="/links/en/80x15_25.png" alt="Get GNU/Linux" width="80" height="15" />
             <textarea class="copycode" rows="5" cols="45">&lt;a href=&quot;<?php $this->text('base_url'); ?>&quot; title=&quot;Get GNU/Linux - an alternative to Windows; free as in beer and speech&quot;&gt;&lt;img src=&quot;<?php $this->text('base_url'); ?>links/en/80x15_25.png&quot; alt=&quot;Get GNU/Linux&quot; width=&quot;80&quot; height=&quot;15&quot; border=&quot;0&quot;/&gt;&lt;/a&gt;</textarea>
         </div>
-    </div>
-    <div class="section">
+    </section>
+    <section>
         <div class="link_button">
             <img src="/links/en/horn_125x50_2.png" alt="Get GNU/Linux" width="125" height="50" />
             <textarea class="copycode" rows="5" cols="45">&lt;a href=&quot;<?php $this->text('base_url'); ?>&quot; title=&quot;Get GNU/Linux - an alternative to Windows; free as in beer and speech&quot;&gt;&lt;img src=&quot;<?php $this->text('base_url'); ?>links/en/horn_125x50_2.png&quot; alt=&quot;Get GNU/Linux&quot; width=&quot;125&quot; height=&quot;50&quot; border=&quot;0&quot;/&gt;&lt;/a&gt;</textarea>
@@ -45,8 +45,8 @@ $this->load_header();
             <img src="/links/en/horn_125x50_4.png" alt="Get GNU/Linux" width="125" height="50" />
             <textarea class="copycode" rows="5" cols="45">&lt;a href=&quot;<?php $this->text('base_url'); ?>&quot; title=&quot;Get GNU/Linux - an alternative to Windows; free as in beer and speech&quot;&gt;&lt;img src=&quot;<?php $this->text('base_url'); ?>links/en/horn_125x50_4.png&quot; alt=&quot;Get GNU/Linux&quot; width=&quot;125&quot; height=&quot;50&quot; border=&quot;0&quot;/&gt;&lt;/a&gt;</textarea>
         </div>
-    </div>
-    <div class="section">
+    </section>
+    <section>
         <div class="link_button">
             <img src="/links/en/linuxliberated_2_100x150.png" alt="Get GNU/Linux" width="100" height="150" />
             <textarea class="copycode" rows="5" cols="45">&lt;a href=&quot;<?php $this->text('base_url'); ?>&quot; title=&quot;Get GNU/Linux - an alternative to Windows; free as in beer and speech&quot;&gt;&lt;img src=&quot;<?php $this->text('base_url'); ?>links/en/linuxliberated_2_100x150.png&quot; alt=&quot;Get GNU/Linux&quot; width=&quot;100&quot; height=&quot;150&quot; border=&quot;0&quot;/&gt;&lt;/a&gt;</textarea>
@@ -59,8 +59,8 @@ $this->load_header();
             <img src="/links/en/linuxliberated_6_100x150.png" alt="Get GNU/Linux" width="100" height="150" />
             <textarea class="copycode" rows="5" cols="45">&lt;a href=&quot;<?php $this->text('base_url'); ?>&quot; title=&quot;Get GNU/Linux - an alternative to Windows; free as in beer and speech&quot;&gt;&lt;img src=&quot;<?php $this->text('base_url'); ?>links/en/linuxliberated_6_100x150.png&quot; alt=&quot;Get GNU/Linux&quot; width=&quot;100&quot; height=&quot;150&quot; border=&quot;0&quot;/&gt;&lt;/a&gt;</textarea>
         </div>
-    </div>
-    <div class="section">
+    </section>
+    <section>
         <div class="link_button">
             <img src="/links/en/linuxliberated_2_78x116.png" alt="Linux" width="78" height="116" />
             <textarea class="copycode" rows="5" cols="45">&lt;a href=&quot;<?php $this->text('base_url'); ?>&quot; title=&quot;Get GNU/Linux - an alternative to Windows; free as in beer and speech&quot;&gt;&lt;img src=&quot;<?php $this->text('base_url'); ?>links/en/linuxliberated_2_78x116.png&quot; alt=&quot;Get GNU/Linux!&quot; width=&quot;78&quot; height=&quot;116&quot; border=&quot;0&quot;/&gt;&lt;/a&gt;</textarea>
@@ -73,14 +73,14 @@ $this->load_header();
             <img src="/links/en/linuxliberated_6_78x116.png" alt="Linux" width="78" height="116" />
             <textarea class="copycode" rows="5" cols="45">&lt;a href=&quot;<?php $this->text('base_url'); ?>&quot; title=&quot;Get GNU/Linux - an alternative to Windows; free as in beer and speech&quot;&gt;&lt;img src=&quot;<?php $this->text('base_url'); ?>links/en/linuxliberated_6_78x116.png&quot; alt=&quot;Get GNU/Linux!&quot; width=&quot;78&quot; height=&quot;116&quot; border=&quot;0&quot;/&gt;&lt;/a&gt;</textarea>
         </div>
-    </div>
-    <div class="section">
+    </section>
+    <section>
         <div class="link_button">
             <img src="/links/en/unlock_312x66_1.png" alt="Get GNU/Linux" width="312" height="66" />
             <textarea class="copycode" rows="5" cols="45">&lt;a href=&quot;<?php $this->text('base_url'); ?>&quot; title=&quot;Get GNU/Linux - an alternative to Windows; free as in beer and speech&quot;&gt;&lt;img src=&quot;<?php $this->text('base_url'); ?>links/en/unlock_312x66_1.png&quot; alt=&quot;Get GNU/Linux!&quot; width=&quot;312&quot; height=&quot;66&quot; border=&quot;0&quot;/&gt;&lt;/a&gt;</textarea>
         </div>
-    </div>
-</div> <!-- end linkbuttons -->
+    </section>
+</div>
 
 <div id="usage">
 <h2><?php print _("Usage"); ?></h2>

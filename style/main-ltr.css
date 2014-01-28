@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #333333;
     font-weight: 300;
     margin-bottom: 1em;
+    text-align: start;
 }
 
 h1 a,
@@ -128,6 +129,15 @@ li {
  * Main content
  *----------------------------------------------------*/
 
+.clearfix:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
 .maxwidth {
     margin: 0 auto;
     max-width: 980px;
@@ -140,16 +150,6 @@ li {
     max-width: 650px;
     padding-bottom: 0.5em;
     text-align: center;
-}
-
-.page-banner {
-    background-image: url(/images/clouds.jpg);
-    background-attachement: scroll;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center top;
-    padding: 1em;
-    position: relative;
 }
 
 .bg-even {
@@ -165,13 +165,18 @@ li {
 }
 
 .highlight {
-    background-color: #EEECE9;
+    background-color: #E4EFC7;
     display: block;
     padding: 0.4em;
 }
 
 .note {
-    font-size: 0.85em;
+    font-size: 0.95em;
+}
+
+div.note {
+    margin-top: 1em;
+    text-align: right;
 }
 
 .italic {
@@ -199,10 +204,6 @@ li {
 .small_list li {
     margin: 0.1em 0 0 1.2em;
     padding: 0;
-}
-
-.toggleanswer {
-    cursor: pointer;
 }
 
 .linux img,
@@ -306,7 +307,7 @@ li {
 
 .slide-ggl {
     background-color: #49B7E8;
-    background-image: url("/images/Slide_GNU_Linux.png");
+    background-image: url("/images/GNU_Linux.png");
     background-position: center top;
     background-repeat: no-repeat;
 }
@@ -319,7 +320,7 @@ li {
 
 .slide-linux {
     background-color: #84A030;
-    background-image: url("/images/Slide_What_is_Linux.png");
+    background-image: url("/images/QuestionSign.png");
     background-position: center top;
     background-repeat: no-repeat;
 }
@@ -330,7 +331,7 @@ li {
 
 .slide-windows {
     background-color: #A7401D;
-    background-image: url("/images/Slide_Windows.png");
+    background-image: url("/images/Windows.png");
     background-position: center top;
     background-repeat: no-repeat;
 }
@@ -341,7 +342,7 @@ li {
 
 .slide-switch {
     background-color: #C54D1C;
-    background-image: url("/images/Slide_Switch.png");
+    background-image: url("/images/CD.png");
     background-position: center top;
     background-repeat: no-repeat;
 }
@@ -395,15 +396,9 @@ li {
 }
 
 #navigation a:active,
-#navigation li.current-menu-item a,
-#navigation li.current-menu-subitem a {
+#navigation li.active a {
     border-bottom: 2px solid #4682B4;
 }
-
-#navigation li.current-menu-subitem a {
-    border-bottom: 2px solid #7AA6CA;
-}
-
 
 /*----------------------------------------------------
  * Main contents
@@ -487,11 +482,6 @@ li {
     padding: 1em 0 3em 0;
 }
 
-div .note {
-    margin-top: 1em;
-    text-align: right;
-}
-
 /*----------------------------------------------------
  * Styles for "Choose a distribution" page.
  *----------------------------------------------------*/
@@ -530,62 +520,41 @@ section.trisquel {
  * Styles for the "Try or install" page.
  *----------------------------------------------------*/
 
-.link_download {
-    background: url(/images/go_down.png) center left no-repeat;
-    padding-left: 22px;
-}
-
-.link_disc {
-    background: url(/images/cd.png) center left no-repeat;
-    padding-left: 22px;
-}
-
-.link_download a, .link_disc a {
-    background: none;
-}
-
-.ubuntu_light, .fedora_light, .gnewsense_light, .trisquel_light {
-    margin: 1em 0;
+.download-box {
+    margin: 2em 0;
     padding: 0.5em;
-    background: white;
-    border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
 }
-
-.ubuntu_light {
-    border: 2px #DD4814 solid;
+.download-box .content {
+    margin: 0 1em 1em 120px;
+    min-height: 60px;
 }
-
-.fedora_light {
-    border: 2px #6c94c9 solid;
+.download-box .content p {
+    margin: 0;
 }
-
-.gnewsense_light {
-    border: 2px #c59292 solid;
-}
-
-.trisquel_light {
-    border: 2px #004DB1 solid;
-}
-
-.getit_box_left {
+.download-box .button {
     float: left;
+    margin: 35px 1em 0 0;
 }
 
-.getit_box_right {
-    float: right;
+.download-box.ubuntu {
+    background: url(/images/UbuntuIcon.png) top left no-repeat;
 }
 
-.getit_box_logo {
-    float: left;
-    width: 70px;
-    padding: 10px;
+.download-box.fedora {
+    background: url(/images/FedoraIcon.png) top left no-repeat;
+}
+.download-box.gnewsense {
+    background: url(/images/gNewSenseIcon.png) top left no-repeat;
+}
+.download-box.trisquel {
+    background: url(/images/TrisquelIcon.png) top left no-repeat;
 }
 
-.getit_box_text {
-    float: left;
-    width: 450px;
+.bg-laptop {
+    background: url(/images/Laptop.png) bottom right no-repeat;
+}
+.bg-laptop p {
+    margin-right: 220px;
 }
 
 /*----------------------------------------------------
@@ -724,9 +693,14 @@ section.trisquel {
     margin: 0.5em 0;
 }
 
-.mfs_answer {
+.toggle-answer h2 {
+    cursor: pointer;
+}
+
+.toggle-answer .answer {
+    display: none;
     margin-bottom: 2em;
-    padding-left: 1.5em;
+    padding-left: 2.2em;
 }
 
 .from_windows_to_linux ul {
@@ -833,7 +807,7 @@ section.trisquel {
 }
 
 /*----------------------------------------------------
- * "More in this section" section on the "Linux" page.
+ * "More in this section"
  *----------------------------------------------------*/
 
 #read_more {
@@ -975,27 +949,17 @@ section.trisquel {
 }
 
 /*----------------------------------------------------
- * Conclusion boxes
+ * Miscellaneous
  *----------------------------------------------------*/
 
 .conclusion {
     font-size: 0.95em;
     margin-top: 5em;
     padding: 1em;
-	}
+}
 
 .conclusion p {
     margin: 5px 0;
-}
-
-/*----------------------------------------------------
- * Previous, next and up navigation "buttons" occasionally displayed at top
- * and bottom of pages.
- *----------------------------------------------------*/
-
-#switcher {
-    margin: 3em 0 1em 0;
-    padding-bottom: 1.5em;
 }
 
 .morebox {
@@ -1033,10 +997,9 @@ section.trisquel {
 }
 #collapsed_box h2 {
     border: medium none;
-    font-size: 1.8em;
+    font-size: 1.4em;
     margin-top: 0;
-    padding: 0 0 0 20px;
-    background: url(/images/plus.png) center left no-repeat;
+    padding: 0;
 }
 #collapsed_box h3 {
     font-size: 1.5em;
@@ -1105,186 +1068,29 @@ div.button.wide {
     background-color: #358FCD;
 }
 
-/* ------------------------- Previous button --------------*/
-
-a.previousbutton {
-    float: left;
-    text-align: center;
-}
-
-.previous {
-    background: url(/images/left.png) center left no-repeat; /* icons by Mark James - famfamfam.com */
-    padding-left: 20px;
-    font-size: 0.9em;
-}
-
-/* ------------------------- Next button --------------*/
-
-a.nextbutton {
-    float: right;
-    text-align: center;
-}
-
-.next {
-    background: url(/images/right.png) center right no-repeat;
-    padding-right: 20px;
-    font-size: 0.9em;
-}
-
-/* ------------------------- Up button --------------*/
-
-.upbutton_section {
-    margin: 3em 0 0 0;
-    height: 2em;
-}
-
-a.upbutton {
-    float: right;
-    text-align: center;
-}
-
-.up {
-    background: url(/images/up.png) center left no-repeat;
-    padding-left: 20px;
-    font-size: 0.9em;
-}
-
 /*----------------------------------------------------
  * Linux FAQ
  *----------------------------------------------------*/
 
-#faq_content {
-    padding-left: 0.5em;
-}
-
-#faq_content ul {
-    margin: 0 0 1em 0;
-    padding-left: 1em;
-    list-style-image: none;
+#faq #content ul {
     list-style-type: none;
 }
 
-#faq_content li {
-    margin-top: 0.4em;
-    padding-left: 0; /*for IE*/
-    margin-left: 0; /*for moz*/
-}
-
-#faq_content li a, #faq_content li a:hover {
-    padding-left: 16px;
-}
-
-
-.back_to_top {
-    float: right;
-    font-size: 0.8em;
-    margin-right: -3px;
-}
-
-.back_to_top a {
-    padding: 3px 10px;
-    background-color: transparent;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-}
-
-.back_to_top a:hover {
-    background-color: rgba(0,0,0,0.1);
-    text-decoration: none;
-}
-
-.qa_series { /*Set of questions*/
-    margin-top: 2em;
-}
-
-.question  { /*Question, is also h3 */
-    margin: 2em 0 0.1em;
-}
-
-.question_sub {
+#faq h4 {
     margin-top: 0;
 }
 
-.answer {
-    margin-top: 0.8em;
+#faq .answer {
     margin-bottom: 4em;
-    /*padding-left: 1em;
-    border-left: 3px #E5E5E5 solid;*/
 }
 
-.read_more {
+#faq .read_more {
     margin-left: 60%;
     font-size: 0.9em;
 }
 
-#more_q {
-    margin-top: 3em;
-}
-
-/*----------------------------------------------------
- * "Screenshots" page.
- *----------------------------------------------------*/
-
-.screenshots h2 {
-    text-align: center;
-}
-
-.screenshots .screenshots-section {
-    display: block;
-    margin: 1em 0 1em;
-    padding: 0.5em;
-    overflow: hidden;
-}
-
-.screenshots .screenshots-section .text {
-    width: 100%;
-}
-
-.screenshots div.image-left div.image {
-    float: left;
-    margin-right: 1em;
-    margin-left: 0;
-}
-
-.screenshots div.image-right div.image {
-    float: right;
-    margin-right: 0;
-    margin-left: 1em;
-}
-
-/*----------------------------------------------------
- * "Credits" page.
- *----------------------------------------------------*/
-
-.tab {
-    padding-left: 2em;
-}
-
-.img_box {
-    border: 1px #e0a668 solid;
-    padding: 10px;
-    margin-top: 0.8em;
-}
-
-.img_box img {
-    float: none;
-    display: inline;
-}
-
-.img_box a {
-    background: none;
-}
-
-.credits ul {
-    padding: 0 0 0 2em;
+#faq .read_more li {
     margin: 0;
-    text-align: left;
-}
-
-.credits ul li {
-    margin: 0.2em 0;
-    padding: 0;
 }
 
 /*----------------------------------------------------
@@ -1310,6 +1116,10 @@ a.upbutton {
     font-weight: bold;
 }
 
+#translations #incomplete {
+    display: none;
+}
+
 /*----------------------------------------------------
  * Footer
  *----------------------------------------------------*/
@@ -1328,26 +1138,26 @@ footer a:visited {
 }
 
 footer h1 {
-    color: #EEECE9;
+    color: #CCCCCC;
 }
 
 footer hr {
     border-color: rgba(255,255,255,0.1);
 }
 
-#footer-container {
+footer #container {
     font-size: 0.9em;
     padding: 2em;
 }
 
-.footer-block {
+footer .block {
     display: inline;
     float: left;
     margin-right: 3em;
     max-width: 25%;
 }
 
-.footer-block h1 {
+footer .block h1 {
     display: block;
     font-size: 1.2rem;
     font-weight: normal;
@@ -1379,11 +1189,45 @@ footer a.more:hover {
     text-decoration: none;
 }
 
-.clearfix:after {
-    clear: both;
-    content: " ";
+footer #icons li {
+    display: inline-block;
+    margin: 0 0.5em 0 0;
+}
+footer #icons a,
+footer #icons a:visited {
+    color: #C2C2C2;
+}
+footer #icons a:hover {
+    color: #DEDEDE;
+}
+
+/*----------------------------------------------------
+ * Move to top button
+ *----------------------------------------------------*/
+
+#toTop {
+    border: medium none;
+    bottom: 0.75em;
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    right: 0.75em;
+    text-decoration: none;
+    z-index: 100;
+}
+
+a#toTop,
+a:hover#toTop,
+a:visited#toTop {
+    color: rgba(186, 180, 171, 0.8);
+}
+
+#toTop .fa {
+    font-size: 3em;
+}
+
+#toTopHover {
     display: block;
-    font-size: 0;
-    height: 0;
-    visibility: hidden;
+    float: left;
+    overflow: hidden;
 }

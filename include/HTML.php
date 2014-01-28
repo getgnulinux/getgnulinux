@@ -84,66 +84,6 @@ class HTML {
     }
 
     /**
-     * Load the navigation bar.
-     */
-    function load_navigation()
-    {
-    ?>
-        <div id="navigation">
-        <ul>
-        <?php
-        $menu_items = array(
-            '' => _("Home"),
-            'linux' => _("What is Linux?"),
-            'windows' => _("Why not Windows"),
-            'switch_to_linux' => _("Switch to Linux"),
-            'more' => _("More"),
-        );
-
-        foreach ($menu_items as $id => $title)
-        {
-            printf("<li%s><a href=\"%s\">%s</a></li>\n",
-                $this->is_current_menu_item($id),
-                $this->base_url($id,1),
-                $title);
-        }
-        ?>
-        </ul>
-        </div>
-    <?php
-    }
-
-    /**
-     * Return " class='current-menu-item'" if $page_id is equal to the current
-     * page. Return " class='current-menu-subitem'" if $page_id is a subpage
-     * of the current page.
-     *
-     * This is used for the sub menu's of pages. It can be used to mark the
-     * current page in the menu.
-     *
-     * @uses GetGnuLinux $ggl
-     * @uses string $this->page_name
-     * @param string $lang_id The ISO language code to check against.
-     * @return string " class='current-menu-item'" if $page_id is equal to the
-     *      current page. Return " class='current-menu-subitem'" if $page_id
-     *      is a subpage of the current page. If neither of those, an empty
-     *      string is returned.
-     */
-    function is_current_menu_item($page_id) {
-        $page_id = empty($page_id) ? 'home': $page_id;
-
-        if ($this->page_name == $page_id) {
-            return " class='current-menu-item'";
-        }
-        else if ( startswith($this->page_name, $page_id) ) {
-            return " class='current-menu-subitem'";
-        }
-        else {
-            return "";
-        }
-    }
-
-    /**
      * Load the page footer.
      *
      * @param string $alt Loads footer_{$alt}.php instead of the default
@@ -279,55 +219,18 @@ class HTML {
     }
 
     /**
-     * Print the versioned path for a stylesheet.
+     * Print the versioned path for $path.
      *
      * This methods adds a version number to the end of the file path. This
-     * is to force the visitor's browser to load the updated file if the
-     * visitor previously visited the site. The version number that is added
-     * at the end (?1319824075) is basically the last modification date of the
-     * file.
+     * is to force the visitor's browser to load the updated file when the
+     * file changes. The version number that is added at the end is a part of
+     * the file's MD5 sum.
      *
-     * @uses string ROOT
-     * @param string $url The path/URL to the CSS file.
+     * @param string $path Relative path to a file on the server.
      */
-    function stylesheet($url) {
-        $modified = filemtime(ROOT.$url);
-        printf("<link rel=\"stylesheet\" type=\"text/css\" href=\"%s?%s\" />\n", $url, $modified);
-    }
-
-    /**
-     * Print the versioned path for a Javascript file.
-     *
-     * This methods adds a version number to the end of the file path. This
-     * is to force the visitor's browser to load the updated file if the
-     * visitor previously visited the site. The version number that is added
-     * at the end (?1319824075) is basically the last modification date of the
-     * file.
-     *
-     * @uses string ROOT
-     * @param string $url The path/URL to the Javascript file.
-     */
-    function javascript($url) {
-        if ( startswith($url, "http") ) {
-            printf("<script type=\"text/javascript\" src=\"%s\"></script>\n", $url);
-        }
-        else {
-            $modified = filemtime(ROOT.$url);
-            printf("<script type=\"text/javascript\" src=\"%s?%s\"></script>\n", $url, $modified);
-        }
-    }
-
-    /**
-     * Return TRUE if the language ID matches the current page language.
-     *
-     * @uses GetGnuLinux $ggl
-     * @param string $lang The ISO language code to check against.
-     * @return bool Returns TRUE if the language ID matches the current page
-     *      language, FALSE otherwise.
-     */
-    function is_current_language($lang) {
-        global $ggl;
-        return ($lang == $ggl->get('lang'));
+    function addver($path) {
+        $hash = substr(md5_file(ROOT.$path), 0, 12);
+        printf("%s?v=%s", $path, $hash);
     }
 
     /**
@@ -372,8 +275,13 @@ class HTML {
      * @return Returns TRUE if the path matches the current page,
      *         FALSE otherwise.
      */
-    function we_are_here($path) {
-        return ($this->page_name == str_replace('/','.',$path));
+    function we_are_here($path, $fuzzy=false) {
+        if ($fuzzy) {
+            return startswith($this->page_name, $path);
+        }
+        else {
+            return ($this->page_name == str_replace('/','.',$path));
+        }
     }
 
     /**

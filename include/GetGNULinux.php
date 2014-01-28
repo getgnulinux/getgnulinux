@@ -329,6 +329,34 @@ class GetGNULinux {
     }
 
     /**
+     * Returns an information array for a language code.
+     *
+     * @param string $lang The ISO 639-1 code of the language.
+     * @return array
+     */
+    public function get_lang_info($lang)
+    {
+        $info = array(
+            'complete' => $this->lang_is_complete($lang),
+            'active' => $this->is_current_language($lang),
+            'dir' => $this->get_lang_directionality($lang),
+        );
+        return $info;
+    }
+
+    /**
+     * Return TRUE if the language ID matches the current page language.
+     *
+     * @uses GetGnuLinux $ggl
+     * @param string $lang The ISO language code to check against.
+     * @return bool Returns TRUE if the language ID matches the current page
+     *      language, FALSE otherwise.
+     */
+    function is_current_language($lang) {
+        return ($lang == $this->get('lang'));
+    }
+
+    /**
      * Returns the directionality of the requested language.
      *
      * @param string $lang The ISO 639-1 code of the language.

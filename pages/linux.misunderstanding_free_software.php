@@ -126,54 +126,56 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
     <div id="collapsed_box" class="post-it">
       <h1><?php print _("Read more:"); ?></h1>
 
-      <h2 class="toggleanswer" id="security"><?php print _("Free / \"open-source\" software can't be secure."); ?></h2>
+      <div class="toggle-answer">
+        <h2 id="security"><span id="toggle1"><i class="fa fa-plus-square-o fa-fw"></i> <?php print _("Free / \"open-source\" software can't be secure."); ?></span></h2>
 
-      <div class="mfs_answer">
-      <p><?php print _("The argument generally goes that since the source code of free software is available, it is less likely to be secure."); ?></p>
-      <p><?php print _("Short answer: The majority of servers run free software. They are the major networked computers holding sensitive or confidential information such as your bank details or trade secrets."); ?></p>
-      <p><?php print _("A more precise answer is that availability of source code is a warrant of security, not a weakness. The freedom of the software ensures it can be inspected, tested and improved by a very wide community. A good lock is secure because the technology used to design it is open, though only the key holder can open it. The same goes for software."); ?></p>
-      <p><?php $p = _("Need examples? Have a look at the <a href=\"http://www.getfirefox.com/\">Firefox browser</a>, the <a href=\"http://en.wikipedia.org/wiki/Apache_HTTP_Server\">Apache HTTP Server</a>, the <a href=\"http://en.wikipedia.org/wiki/Pretty_Good_Privacy\">OpenPGP</a> encryption system, or the <a href=\"http://en.wikipedia.org/wiki/OpenBSD\">OpenBSD</a> operating system. And <a href=\"%s#security\">there are no spyware or viruses under GNU/Linux</a>."); printf($p, $this->base_url('switch_to_linux/from_windows_to_linux',1)); ?></p>
+        <div class="answer" id="toggle1-toggee">
+          <p><?php print _("The argument generally goes that since the source code of free software is available, it is less likely to be secure."); ?></p>
+          <p><?php print _("Short answer: The majority of servers run free software. They are the major networked computers holding sensitive or confidential information such as your bank details or trade secrets."); ?></p>
+          <p><?php print _("A more precise answer is that availability of source code is a warrant of security, not a weakness. The freedom of the software ensures it can be inspected, tested and improved by a very wide community. A good lock is secure because the technology used to design it is open, though only the key holder can open it. The same goes for software."); ?></p>
+          <p><?php $p = _("Need examples? Have a look at the <a href=\"http://www.getfirefox.com/\">Firefox browser</a>, the <a href=\"http://en.wikipedia.org/wiki/Apache_HTTP_Server\">Apache HTTP Server</a>, the <a href=\"http://en.wikipedia.org/wiki/Pretty_Good_Privacy\">OpenPGP</a> encryption system, or the <a href=\"http://en.wikipedia.org/wiki/OpenBSD\">OpenBSD</a> operating system. And <a href=\"%s#security\">there are no spyware or viruses under GNU/Linux</a>."); printf($p, $this->base_url('switch_to_linux/from_windows_to_linux',1)); ?></p>
+        </div>
       </div>
 
-      <h2 class="toggleanswer" id="on_my_own"><?php
-      #i18n: this can be translated loosely, ex "Free software isolates me" or else.
-      print _("I'm on my own with free software."); ?></h2>
+      <div class="toggle-answer">
+        <h2 id="on_my_own"><span id="toggle2"><i class="fa fa-plus-square-o fa-fw"></i> <?php
+        #i18n: this can be translated loosely, ex "Free software isolates me" or else.
+        print _("I'm on my own with free software."); ?></span></h2>
 
-      <div class="mfs_answer">
-      <p><?php print _("Not at all."); ?></p>
-      <ul>
-      <li><?php print _("If you are looking for good documentation and support forums to assist you, there is plenty available for free (\"open source\") software."); ?><br/>
-      <?php
-      # i18n: use your best knowledge of the community to propose localized links ;-)
-      print _("Each GNU/Linux distribution has its own community (for example, <a href=\"http://www.ubuntu.com/support/free\">Ubuntu support</a> or <a href=\"http://fedora.redhat.com/docs/\">Fedora docs</a>), but there are also general free software help communities, like <a href=\"http://www.linuxquestions.org/\">LinuxQuestions.org</a>."); ?></li>
-      <li><?php print _("If you need someone you can reach on the phone anytime to assist you, the companies behind most distributions provide commercial support: see the <a href=\"http://www.ubuntu.com/support/paid\">Ubuntu Commercial Support</a> or <a href=\"http://www.redhat.com/rhel/\">Red Hat Enterprise Linux</a> pages for example."); ?></li>
-      </ul>
+        <div class="answer" id="toggle2-toggee">
+          <p><?php print _("Not at all."); ?></p>
+          <ul>
+            <li><?php print _("If you are looking for good documentation and support forums to assist you, there is plenty available for free (\"open source\") software."); ?><br/>
+            <?php # i18n: use your best knowledge of the community to propose localized links ;-)
+            print _("Each GNU/Linux distribution has its own community (for example, <a href=\"http://www.ubuntu.com/support/free\">Ubuntu support</a> or <a href=\"http://fedora.redhat.com/docs/\">Fedora docs</a>), but there are also general free software help communities, like <a href=\"http://www.linuxquestions.org/\">LinuxQuestions.org</a>."); ?></li>
+            <li><?php print _("If you need someone you can reach on the phone anytime to assist you, the companies behind most distributions provide commercial support: see the <a href=\"http://www.ubuntu.com/support/paid\">Ubuntu Commercial Support</a> or <a href=\"http://www.redhat.com/rhel/\">Red Hat Enterprise Linux</a> pages for example."); ?></li>
+          </ul>
+        </div>
       </div>
 
-      <h2 class="toggleanswer" id="further_reading"><?php print _("Further reading on the web"); ?></h2>
+      <div class="toggle-answer">
+        <h2 id="further_reading"><span id="toggle3"><i class="fa fa-plus-square-o fa-fw"></i> <?php print _("Further reading on the web"); ?></span></h2>
 
-      <div class="mfs_answer">
-        <ul>
-          <li><h3><a href="http://www.gnu.org">The GNU project</a></h3>
-          <p><?php print _("This is where free software all started. You will find a wealth of information about the free software philosophy, the history of the project, and the stands taken by the <a href=\"http://www.fsf.org/\">Free Software Foundation</a> (the organisation behind GNU)."); ?></p></li>
+        <div class="answer" id="toggle3-toggee">
+            <h3><a href="http://www.gnu.org">The GNU project</a></h3>
+            <p><?php print _("This is where free software all started. You will find a wealth of information about the free software philosophy, the history of the project, and the stands taken by the <a href=\"http://www.fsf.org/\">Free Software Foundation</a> (the organisation behind GNU)."); ?></p>
 
-          <li><h3><a href="http://en.wikibooks.org/wiki/FLOSS_Concept_Booklet">The FLOSS concept booklet</a></h3>
-          <p><?php print _("The concept of Free&nbsp;/&nbsp;Libre&nbsp;/&nbsp;Open Source Software presented in a highly readable, friendly way. A must-read."); ?></p></li>
+            <h3><a href="http://en.wikibooks.org/wiki/FLOSS_Concept_Booklet">The FLOSS concept booklet</a></h3>
+            <p><?php print _("The concept of Free&nbsp;/&nbsp;Libre&nbsp;/&nbsp;Open Source Software presented in a highly readable, friendly way. A must-read."); ?></p>
 
-          <li><h3><a href="http://opendocumentfellowship.com/">The OpenDocument Fellowship</a></h3>
-          <p><?php print _("A simple and clear website about the free format OpenDocument, showing the importance of freedom in formats (not just in applications)."); ?></p></li>
+            <h3><a href="http://opendocumentfellowship.com/">The OpenDocument Fellowship</a></h3>
+            <p><?php print _("A simple and clear website about the free format OpenDocument, showing the importance of freedom in formats (not just in applications)."); ?></p>
 
-          <li><h3><a href="http://blog.jimmywales.com/index.php/archives/2004/10/21/free-knowledge-requires-free-software-and-free-file-formats/">Free Software and Free Knowledge</a></h3>
-          <p><?php print _("An engaged article by co-founder of <a href=\"http://www.wikipedia.org/\">Wikipedia</a> Jimmy Wales, which shows the connections between freedom in software and free knowledge."); ?></p></li>
-        </ul>
+            <h3><a href="http://blog.jimmywales.com/index.php/archives/2004/10/21/free-knowledge-requires-free-software-and-free-file-formats/">Free Software and Free Knowledge</a></h3>
+            <p><?php print _("An engaged article by co-founder of <a href=\"http://www.wikipedia.org/\">Wikipedia</a> Jimmy Wales, which shows the connections between freedom in software and free knowledge."); ?></p>
+        </div>
       </div>
-    </div> <!-- collapsed_box -->
+    </div>
 
     <div class="footnotes">
       <ol>
         <li id="footnote-1"><sup>^ <a href="#footnote-ref-1a">a</a> <a href="#footnote-ref-1b">b</a></sup>
-          <?php
-          #i18n: This is the content of the footnote, at the bottom of the page
+          <?php #i18n: This is the content of the footnote, at the bottom of the page
           $p = _("What we call \"Free Software\" here is also often called \"Open Source Software\". In practice the requirements are identical, although because the term \"open\" doesn't call to mind freedom, it <a href=\"http://www.gnu.org/philosophy/open-source-misses-the-point.html\">misses the point</a>. Read our FAQ entry: <a href=\"%s#open_source\">Are \"Open Source\" and \"Free Software\" the same thing?</a>.");
           printf($p, $this->base_url('linux/linux_faq',1)); ?>
         </li>
@@ -181,11 +183,16 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
     </div>
 
     <div class="button green">
-      <a href="<?php $this->base_url('linux'); ?>"><?php print _("back up:"); ?> <?php print _("What is Linux?"); ?></a>
+      <a href="<?php $this->base_url('linux'); ?>"><i class="fa fa-level-up fa-fw"></i> <?php print _("What is Linux?"); ?></a>
     </div>
 
     </div>
   </section>
 </main>
+
+<script type="text/javascript" charset="utf-8">
+  /* Set the list of items that should be togglable; jQuery will handle the rest */
+  var toggle_items = ["toggle1","toggle2","toggle3"];
+</script>
 
 <?php $this->load_footer(); ?>

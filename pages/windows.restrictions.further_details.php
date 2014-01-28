@@ -85,7 +85,7 @@ $this->load_header();
     </div><!-- further_reading -->
 
     <div class="button green">
-      <a href="<?php $this->base_url('windows/restrictions'); ?>"><?php print _("back up:"); ?> <?php print _("Restrictions"); ?></a>
+      <a href="<?php $this->base_url('windows/restrictions'); ?>"><i class="fa fa-level-up fa-fw"></i> <?php print _("Restrictions"); ?></a>
     </div>
 
     </div>

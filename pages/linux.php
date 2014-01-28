@@ -73,7 +73,7 @@ $this->load_header();
           <li><a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a></li>
           <li><a href="<?php $this->base_url('linux/linux_faq'); ?>"><?php print _("Linux FAQ - common questions about GNU/Linux"); ?></a></li>
         </ul>
-      </div><!-- read_more -->
+      </div>
 
     </div>
   </section>
