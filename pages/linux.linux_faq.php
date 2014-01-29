@@ -144,9 +144,8 @@ $this->load_header();
     <div class="answer">
         <p><?php print _("There are typically three types of policies regarding the inclusion of non-free software:"); ?></p>
         <ul>
-        <li><p><?php print _("Some GNU/Linux distributors allow non-free software in order to enable hardware functionality."); ?></br>
-        <?php
-        # translators: If it exits, please use the URL of the official Ubuntu homepage localized in your language.
+        <li><p><?php print _("Some GNU/Linux distributors allow non-free software in order to enable hardware functionality."); ?>
+        <?php # translators: If it exits, please use the URL of the official Ubuntu homepage localized in your language.
         print _("This happens because some hardware manufacturers such as NVidia do not care about their customers' freedoms, and only release restricting firmware and drivers (some of them don't even release anything, like Broadcom). These are available at no cost (they are freeware) but under restrictive licenses. Distributions such as <a href=\"http://www.ubuntu.com/\">Ubuntu</a> thus include such components to improve hardware compatibility."); ?></p></li>
          <li><p><?php print _("Some GNU/Linux distributors do not compromise on the freedom of software, and make sure their distribution are entirely free. Such is the case of <a href=\"http://trisquel.info/\">Trisquel</a>, which is a Ubuntu derivative with all restricting components removed."); ?></p></li>
          <li><p><?php $p = _("Some GNU/Linux distributors assemble free and restrictive software without distinction. Such distributors would not like users to think of their freedom, and rather advertise only the technical capabilities of their product. Using such distributions isn't much better than <a href=\"%s\">using Windows</a>. We value your freedom and recommend you choose carefully!"); printf($p, $this->base_url('windows',1)); ?></p></li>
@@ -265,7 +264,7 @@ $this->load_header();
         <p><?php print _("The simple answer to this question would be &quot;yes&quot;, however this is only half the truth."); ?></p>
         <p><?php print _("Quite a few Linux distributions do not include MP3 playback software due to the patent situation of the MP3 format. These patent issues do not affect the user directly, so most distributions make it fairly easy to install MP3 support over the Internet after the installation, making it possible to <strong>legally play MP3 files</strong>, for non-commercial use."); ?></p>
         <p><?php print _("DVDs, on the other hand, are a more difficult situation. Most, if not all, DVDs are encrypted using a system called \"<abbr title=\"Content Scrambling System\">CSS</abbr>\". There is a widely supported free software, called <code>libdvdcss</code>, capable of decrypting DVD videos. However, circumventing the restriction on your DVDs is illegal in many parts of the world, including the USA and the European Union."); ?></p>
-        <p><?php print _("There is a legal solution to play your DVDs on Linux where <code>libdvdcss</code> is illegal. The <a href=\"http://www.fluendo.com/\">Fluendo</a> company has developed an (non-free) application for that purpose which can be purchased from their website."); ?><p/>
+        <p><?php print _("There is a legal solution to play your DVDs on Linux where <code>libdvdcss</code> is illegal. The <a href=\"http://www.fluendo.com/\">Fluendo</a> company has developed an (non-free) application for that purpose which can be purchased from their website."); ?></p>
         <p><?php print _("Non-encrypted DVDs, which include most home-made DVDs, play perfectly well with only free software."); ?></p>
         <div class="read_more">
             <?php print _("More on the web:"); ?>

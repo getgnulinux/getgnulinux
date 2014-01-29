@@ -52,7 +52,7 @@ $this->load_header();
     Media Player&reg;, and
     <a rel="nofollow" href="http://www.microsoft.com/library/toolbar/3.0/trademarks/en-us.mspx#E6" title="Partial list of Microsoft products subjected to trademark regulations">other Microsoft product and service names</a>
     are trademarks, registered trademarks or trade dress of Microsoft, Inc. or
-    its affiliates in the U.S. and/or other countries.<p/>
+    its affiliates in the U.S. and/or other countries.</p>
 
     <p>All other trademarks not owned by Microsoft or its affiliates that may appear
     on these sites are the property of their respective owners, who may or may not
