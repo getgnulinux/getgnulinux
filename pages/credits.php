@@ -33,8 +33,9 @@ $this->load_header();
 
         <li><a href="http://openclipart.org/">OpenClipart</a> material, released under public domain: <a href="/images/sources/switch_to_linux/CD.svg">CD.svg</a>, <a href="/images/sources/switch_to_linux/retro_tux.svg">retro_tux.svg</a>, <a href="/images/sources/switch_to_linux/Display.svg">Display.svg</a></li>
 
-        <li>Material from other sources, such as Wikimedia Commons (each followed by its license):
+        <li>Material from other sources:
           <ul>
+            <li><a href="http://www.gnu.org/gnu30/">The GNU 30th banner</a> by the Free Software Foundation, <abbr title="Creative Commons">CC</abbr> <abbr title="Attribution, Share Alike">BY-SA</abbr> 2.0 license;</li>
             <li><a href="http://en.wikipedia.org/wiki/File:Tux-simple.svg">Tux-simple.svg</a> by Larry Ewing, permission to copy if credit given.</li>
           </ul>
         </li>
