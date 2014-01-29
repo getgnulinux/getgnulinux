@@ -22,7 +22,7 @@ $this->load_header();
 
       <h2>Licensing</h2>
       <p>Except for the material listed below, the content of the website and its graphical assets are published under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 License</a>.</p>
-      <p>The <a href="<?php $this->text('project_url'); ?>" title="<?php print _("GitHub Project"); ?>">source code</a> of the web application is licensed under the <a href="http://www.gnu.org/licenses/agpl-3.0.html">GNU Affero General Public License Version 3</a>.</p>
+      <p>The <a href="<?php $this->text('project_url'); ?>" title="GitHub Project">source code</a> of the web application is licensed under the <a href="http://www.gnu.org/licenses/agpl-3.0.html">GNU Affero General Public License Version 3</a>.</p>
       <p>Copyright <?php echo date("Y"); ?> <a href="http://getgnulinux.org/">get GNU/Linux!</a></p>
 
       <h2>Graphics</h2>
