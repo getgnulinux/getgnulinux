@@ -58,15 +58,16 @@ $this->load_header();
 
       <ul>
         <li><a href="http://www.google.com/fonts/specimen/Open+Sans">Open Sans</a> by Steve Matteson, <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License, version 2.0</a>;</li>
-        <li><a href="http://fontawesome.io">Font Awesome</a> by Dave Gandy, <a href="http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web">SIL OFL 1.1</a> and <a href="http://opensource.org/licenses/MIT">MIT License</a>. <i class="fa fa-thumbs-up"></i></li>
+        <li><a href="http://fontawesome.io">Font Awesome</a> by Dave Gandy, <a href="http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web">SIL OFL 1.1</a> and <a href="http://opensource.org/licenses/MIT">MIT License</a>. <i class="fa fa-thumbs-o-up"></i></li>
       </ul>
 
-      <h2>JavaScript</h2>
+      <h2>Code</h2>
 
       <ul>
         <li><a href="https://jquery.com/">jQuery</a> by the jQuery Foundation, <a href="http://opensource.org/licenses/MIT">MIT License</a>;</li>
         <li><a href="http://plugins.jquery.com/scrollTo/">jQuery scrollTo</a> by Ariel Flesler, <a href="http://opensource.org/licenses/MIT">MIT License</a>;</li>
-        <li><a href="http://www.woothemes.com/flexslider/">jQuery FlexSlider</a> by WooThemes, <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License, version 2</a>.</li>
+        <li><a href="http://www.woothemes.com/flexslider/">jQuery FlexSlider</a> by WooThemes, <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License, version 2</a>;</li>
+        <li><a href="http://craig.is/killing/mice">Mousetrap</a> by Craig Campbell, <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.</li>
       </ul>
 
       <h2 id="translators">Translations</h2>
