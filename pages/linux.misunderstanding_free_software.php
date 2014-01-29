@@ -190,7 +190,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
   </section>
 </main>
 
-<script type="text/javascript" charset="utf-8">
+<script type="text/javascript">
   /* Set the list of items that should be togglable; jQuery will handle the rest */
   var toggle_items = ["toggle1","toggle2","toggle3"];
 </script>
