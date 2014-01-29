@@ -14,7 +14,7 @@ $this->load_header();
   <section>
     <div class="maxwidth">
 
-      <h1><?php print _("Thank you"); ?></h1>
+      <h1>Thank you</h1>
 
       <div class="page-intro">
         <p>We are grateful and indebted towards many kind individuals, who contributed or let us use their work for our purposes.</p>

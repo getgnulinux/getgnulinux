@@ -59,7 +59,7 @@
     </div>
 
     <ul id="icons">
-      <li><a href="<?php $this->text('project_url'); ?>" title="<?php print _("GitHub Project"); ?>"><i class="fa fa-github fa-lg"></i></a></li>
+      <li><a href="<?php $this->text('project_url'); ?>" title="GitHub Project"><i class="fa fa-github fa-lg"></i></a></li>
       <li><a href="<?php $this->text('tracker_url'); ?>" title="<?php print _("Report a bug"); ?>"><i class="fa fa-bug fa-lg"></i></a></li>
       <li><a href="http://tuxfamily.org/" title="Hosting by TuxFamily"><i class="fa fa-cloud fa-lg"></i></a></li>
       <?php if ( $ggl->get('flattr') ) { ?><li><a href="<?php $this->text('flattr_url'); ?>" title="Flattr this"><i class="fa fa-dollar fa-lg"></i></a></li><?php } ?>
