@@ -94,7 +94,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
 
     <p><?php print _("The critical thing about Trusted Computing is that <strong>you cannot decide</strong> what is trustworthy and what is not. For example, your computer might refuse to run programs that are not certified by the software company &ndash;programs that could enable you to take documents out of the office, or play your neighbour's DVD, or send your essay to someone not using the same program."); ?></p>
     <p><?php print _("A whole range of possibilities opens up for companies that benefit from restricting your computing (such as proprietary software and recording companies). It is suddenly possible to rent DVDs that only play two times, or music you can only listen to during September, or information you can read but can't save or copy. All of a sudden, Trusted Computing and DRM enable <strong>remote control</strong> over content."); ?></p>
-    <p><?php print _("Trusted Computing, in effect, enables the publisher to write their own copyright law.</p>"); ?></p>
+    <p><?php print _("Trusted Computing, in effect, enables the publisher to write their own copyright law."); ?></p>
 
 
     <h2 id="the_wider_impact"><?php print _("The wider impact"); ?></h2>
