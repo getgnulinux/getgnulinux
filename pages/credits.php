@@ -9,7 +9,7 @@ $this->load_header();
 
 ?>
 
-<main role="main">
+<main role="main" id="credits-page">
 
   <section>
     <div class="maxwidth">

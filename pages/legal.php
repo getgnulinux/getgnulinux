@@ -9,7 +9,7 @@ $this->load_header();
 
 ?>
 
-<main role="main">
+<main role="main" id="legal-terms">
   <section>
     <div class="maxwidth">
 

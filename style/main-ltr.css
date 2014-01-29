@@ -75,6 +75,10 @@ section {
     padding: 1rem 0;
 }
 
+code {
+    font-size: 1.4em;
+}
+
 ::selection {
   background: #009ACD;
   color: #FFFFFF;
@@ -232,6 +236,15 @@ nav.chapters li a:hover {
 }
 
 /*----------------------------------------------------
+ * Untranslatable pages should always be ltr
+ *----------------------------------------------------*/
+
+#credits-page,
+#legal-terms {
+    direction: ltr;
+}
+
+/*----------------------------------------------------
  * Main content
  *----------------------------------------------------*/
 
@@ -316,6 +329,14 @@ div.note {
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
+}
+
+/*----------------------------------------------------
+ * Font Awesome stuff
+ *----------------------------------------------------*/
+
+.fa-li {
+    top: 0.3em;
 }
 
 /*----------------------------------------------------
@@ -499,7 +520,7 @@ div.note {
     font-size: 1.5em;
     font-weight: 300;
     margin: 0 0 0.5em;
-    text-align: left;
+    text-align: start;
 }
 .collapsed-box h2 {
     border: medium none;
@@ -616,7 +637,9 @@ section.trisquel {
  * Styles for the "Try or install" page.
  *----------------------------------------------------*/
 
-.download-box {
+div.download-box {
+    background-position: top left;
+    background-repeat: no-repeat;
     margin: 2em 0;
     padding: 0.5em;
 }
@@ -633,17 +656,17 @@ section.trisquel {
 }
 
 .download-box.ubuntu {
-    background: url(/images/UbuntuIcon.png) top left no-repeat;
+    background-image: url(/images/UbuntuIcon.png);
 }
 
 .download-box.fedora {
-    background: url(/images/FedoraIcon.png) top left no-repeat;
+    background-image: url(/images/FedoraIcon.png);
 }
 .download-box.gnewsense {
-    background: url(/images/gNewSenseIcon.png) top left no-repeat;
+    background-image: url(/images/gNewSenseIcon.png);
 }
 .download-box.trisquel {
-    background: url(/images/TrisquelIcon.png) top left no-repeat;
+    background-image: url(/images/TrisquelIcon.png);
 }
 
 .bg-laptop {

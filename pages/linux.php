@@ -69,9 +69,9 @@ $this->load_header();
 
       <div class="read-more-box">
         <p><?php print _("More in this section:"); ?></p>
-        <ul>
-          <li><a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a></li>
-          <li><a href="<?php $this->base_url('linux/linux_faq'); ?>"><?php print _("Linux FAQ - common questions about GNU/Linux"); ?></a></li>
+        <ul class="fa-ul">
+          <li><i class="fa-li fa fa-exclamation-triangle"></i><a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a></li>
+          <li><i class="fa-li fa fa-question"></i><a href="<?php $this->base_url('linux/linux_faq'); ?>"><?php print _("Linux FAQ - common questions about GNU/Linux"); ?></a></li>
         </ul>
       </div>
 
