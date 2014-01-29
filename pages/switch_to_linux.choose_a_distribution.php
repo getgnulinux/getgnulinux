@@ -65,15 +65,15 @@ $trisquel3_text = _("Accessing applications.");
       <div class="flexslider screenshots">
         <ul class="slides">
           <li>
-            <img src="/images/screenshots/ubuntu1.png" />
+            <img src="/images/screenshots/ubuntu1.png" alt="Ubuntu screenshot" />
             <p class="flex-caption"><?php print $ubuntu1_text; ?></p>
           </li>
           <li>
-            <img src="/images/screenshots/ubuntu2.png" />
+            <img src="/images/screenshots/ubuntu2.png" alt="Ubuntu screenshot" />
             <p class="flex-caption"><?php print $ubuntu2_text; ?></p>
           </li>
           <li>
-            <img src="/images/screenshots/ubuntu3.png" />
+            <img src="/images/screenshots/ubuntu3.png" alt="Ubuntu screenshot" />
             <p class="flex-caption"><?php print $ubuntu3_text; ?></p>
           </li>
         </ul>
@@ -97,15 +97,15 @@ $trisquel3_text = _("Accessing applications.");
       <div class="flexslider screenshots">
         <ul class="slides">
           <li>
-            <img src="/images/screenshots/fedora1.png" />
+            <img src="/images/screenshots/fedora1.png" alt="Fedora screenshot" />
             <p class="flex-caption"><?php print $fedora1_text; ?></p>
           </li>
           <li>
-            <img src="/images/screenshots/fedora2.png" />
+            <img src="/images/screenshots/fedora2.png" alt="Fedora screenshot" />
             <p class="flex-caption"><?php print $fedora2_text; ?></p>
           </li>
           <li>
-            <img src="/images/screenshots/fedora3.png" />
+            <img src="/images/screenshots/fedora3.png" alt="Fedora screenshot" />
             <p class="flex-caption"><?php print $fedora3_text; ?></p>
           </li>
         </ul>
@@ -127,15 +127,15 @@ $trisquel3_text = _("Accessing applications.");
       <div class="flexslider screenshots">
         <ul class="slides">
           <li>
-            <img src="/images/screenshots/trisquel1.png" />
+            <img src="/images/screenshots/trisquel1.png" alt="Trisquel screenshot" />
             <p class="flex-caption"><?php print $trisquel1_text; ?></p>
           </li>
           <li>
-            <img src="/images/screenshots/trisquel2.png" />
+            <img src="/images/screenshots/trisquel2.png" alt="Trisquel screenshot" />
             <p class="flex-caption"><?php print $trisquel2_text; ?></p>
           </li>
           <li>
-            <img src="/images/screenshots/trisquel3.png" />
+            <img src="/images/screenshots/trisquel3.png" alt="Trisquel screenshot" />
             <p class="flex-caption"><?php print $trisquel3_text; ?></p>
           </li>
         </ul>
