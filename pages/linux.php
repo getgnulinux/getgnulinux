@@ -24,7 +24,7 @@ $this->load_header();
 
       <p><?php print _("Linux is not one company's product, but a number of companies and groups of people contribute to it. In fact, the <em>GNU/Linux system</em> is a core component, which is branched off into many different products. They are called <strong>distributions</strong>."); ?></p>
 
-      <p><?php print _("Distributions change the appearance and function of Linux completely. They range from large, fully supported complete systems (endorsed by companies) to lightweight ones that fit on a USB memory stick or run on old computers (often developed by volunteers)."); ?><p/>
+      <p><?php print _("Distributions change the appearance and function of Linux completely. They range from large, fully supported complete systems (endorsed by companies) to lightweight ones that fit on a USB memory stick or run on old computers (often developed by volunteers)."); ?></p>
 
       <p><?php # translators: use an official localised Ubuntu homepage if possible
       print _("A prominent, complete and friendly distribution to step into GNU/Linux is <a href=\"http://www.ubuntu.com\">Ubuntu</a>."); ?></p>
@@ -32,13 +32,13 @@ $this->load_header();
         <div class="flexslider screenshots">
           <ul class="slides">
             <li>
-              <img src="/images/screenshots/ubuntu1.png" />
+              <img src="/images/screenshots/ubuntu1.png" alt="Ubuntu screenshot" />
             </li>
             <li>
-              <img src="/images/screenshots/fedora1.png" />
+              <img src="/images/screenshots/fedora1.png" alt="Fedora screenshot" />
             </li>
             <li>
-              <img src="/images/screenshots/trisquel2.png" />
+              <img src="/images/screenshots/trisquel2.png" alt="Trisquel screenshot" />
             </li>
           </ul>
         </div>

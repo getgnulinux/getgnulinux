@@ -100,7 +100,7 @@ switch ($this->page_name) {
     case 'switch_to_linux.choose_a_distribution':
     ?>
 <script src="<?php $this->addver('/js/jquery.flexslider.js'); ?>"></script>
-<script charset="utf-8">
+<script>
   $(window).load(function() {
     $('.flexslider').flexslider({
         animation: "fade",
