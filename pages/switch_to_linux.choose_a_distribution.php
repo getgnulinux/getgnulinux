@@ -44,11 +44,11 @@ $trisquel3_text = _("Accessing applications.");
       <div class="page-intro">
         <p><?php print _("Because there is no &quot;one Linux&quot;, finding what you need can be difficult. Here are our choice of three beginner-friendly, widely used distributions."); ?></p>
       </div>
-    </div>
 
-    <p class="italic centered"><?php # translators: if you don't know of a clean, simple comparison website, simply remove the link.
-    print _("Note: There are <a href=\"http://distrowatch.com/dwres.php?resource=major\">plenty of distributions to choose from and compare</a>."); ?><br />
-    <?php print _("This is our selection for newcomers. These links are not commercial."); ?></p>
+      <p class="italic centered"><?php # translators: The distrowatch.com website is translated into many languages (see http://distrowatch.com/dwres.php?resource=about). If your language is present, please replace "EN" in the URL by the code of your language (e.g. for Spanish, the last part would become "language=ES").
+      print _("Note: There are <a href=\"http://distrowatch.com/dwres.php?resource=major&amp;language=EN\">plenty of distributions to choose from and compare</a>."); ?><br />
+      <?php print _("This is our selection for newcomers. These links are not commercial."); ?></p>
+    </div>
   </section>
 
   <section class="ubuntu">
