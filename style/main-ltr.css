@@ -552,6 +552,9 @@ div.button.wide {
     color: #FFFFFF;
     padding: 0.7em 1em;
     text-shadow: 0 1px 1px rgba(0,0,0,0.30);
+    -webkit-transition: background 100ms linear;
+    -moz-transition: background 100ms linear;
+    transition: background 100ms linear;
     white-space: nowrap;
     width: auto;
 }
