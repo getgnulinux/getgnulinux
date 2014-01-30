@@ -299,7 +299,7 @@ class GetGNULinux {
             // Set the locale.
             $this->config['locale'] = self::$locales[$lang][0];
             // Set the text direction for this language.
-            $this->config['dir'] = $this->get_lang_directionality($lang);
+            $this->config['dir'] = $this->langdir($lang);
         }
     }
 
@@ -321,11 +321,26 @@ class GetGNULinux {
     /**
      * Returns the locales array.
      *
-     * @return array self::$locales
+     * @param string $select Set to 'all', 'complete', or 'incomplete', to
+     *      return all, only complete, or only incomplete translations.
+     *      Default is 'all'.
+     * @return array The locales.
      */
-    public function get_locales()
+    public function get_locales($select='all')
     {
-		return self::$locales;
+        $passed = array();
+
+        if ($select == 'all') {
+            return self::$locales;
+        }
+        else if ($select == 'complete' || $select == 'incomplete') {
+            foreach (self::$locales as $k => $v)
+            {
+                $pass = ($select == 'complete') ? $this->lang_is_complete($k) : !$this->lang_is_complete($k);
+                if ($pass) $passed[$k] = $v;
+            }
+            return $passed;
+        }
     }
 
     /**
@@ -338,8 +353,8 @@ class GetGNULinux {
     {
         $info = array(
             'complete' => $this->lang_is_complete($lang),
-            'active' => $this->is_current_language($lang),
-            'dir' => $this->get_lang_directionality($lang),
+            'active' => $this->currlang($lang),
+            'dir' => $this->langdir($lang),
         );
         return $info;
     }
@@ -352,7 +367,7 @@ class GetGNULinux {
      * @return bool Returns TRUE if the language ID matches the current page
      *      language, FALSE otherwise.
      */
-    function is_current_language($lang) {
+    function currlang($lang) {
         return ($lang == $this->get('lang'));
     }
 
@@ -362,7 +377,7 @@ class GetGNULinux {
      * @param string $lang The ISO 639-1 code of the language.
      * @return string rtl|ltf
      */
-    public function get_lang_directionality($lang)
+    public function langdir($lang)
     {
         return in_array($lang, self::$rtl_languages) ? "rtl" : "ltr";
     }

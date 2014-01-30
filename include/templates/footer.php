@@ -4,21 +4,19 @@
     <div id="translations">
       <ul>
         <li><i class="fa fa-globe fa-lg"></i></li>
-        <?php foreach ($ggl->get_locales() as $lng => $items) {
+        <?php foreach ($ggl->get_locales('complete') as $lng => $items) {
           list($locale, $native) = $items;
           $info = $ggl->get_lang_info($lng);
-          if ( $info['complete'] ) {
-            printf("<li%s><a href=\"/%s\" hreflang=\"%s\"><span dir=\"%s\">%s</span></a></li>\n",
-              $info['active'] ? " class='active'" : "",
-              $this->current_page_url($lng),
-              $lng,
-              $info['dir'],
-              $native);
-          }
+          printf("<li%s><a href=\"/%s\" hreflang=\"%s\"><span dir=\"%s\">%s</span></a></li>\n",
+            $info['active'] ? " class='active'" : "",
+            $this->current_page_url($lng),
+            $lng,
+            $info['dir'],
+            $native);
         } ?>
         <li><a class="more" href="javascript:;" title="More languages">…</a></li>
       </ul>
-      <p id="incomplete">Partial translations are available in <?php $this->language_links(2); ?>.</p>
+      <p id="incomplete" dir="ltr">Partial translations are available in <?php $this->language_links($ggl->get_locales('incomplete')); ?>.</p>
     </div>
 
     <hr/>

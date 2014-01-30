@@ -234,8 +234,7 @@ class HTML {
     }
 
     /**
-     * Return the localized path for the current page. If the current page is
-     * 'select_language', return the path for the home page instead.
+     * Return the localized path for the current page.
      *
      * This is used in language menu's to link to the same page in different
      * languages.
@@ -249,44 +248,36 @@ class HTML {
     function current_page_url($lang=null) {
         global $ggl;
 
-        if ($lang) {
-            $l = $lang;
-        } else {
-            $l = $ggl->get('lang');
-        }
-
+        $l = $lang ? $lang : $ggl->get('lang');
         $p = str_replace('.', '/', $this->page_name);
-
-        if ($p && $p != 'select_language') {
+        if ($p)
             return sprintf("%s/%s/", $l, $p);
-        } else {
+        else
             return sprintf("%s/", $l);
-        }
     }
 
     /**
      * Return TRUE if the page path is of the current page.
      *
-     * This is used for navigation links. It can be used to mark the
-     * current page in the menu.
+     * If $fuzzy is TRUE, this function returns TRUE when $path matches
+     * the start of the current page name.
      *
      * @uses string $this->page_name
      * @param string $path The path of the page to check against.
+     * @param bool $fuzzy Set to TRUE to enable fuzzy matching.
      * @return Returns TRUE if the path matches the current page,
      *         FALSE otherwise.
      */
     function we_are_here($path, $fuzzy=false) {
-        if ($fuzzy) {
+        if ($fuzzy)
             return startswith($this->page_name, $path);
-        }
-        else {
+        else
             return ($this->page_name == str_replace('/','.',$path));
-        }
     }
 
     /**
      * Print or return the path or URL for a page. If $path is omitted, the
-     * path to the website root is returned (e.g. '/' or 'http://getgnulinux.org/').
+     * path to the website root is returned (e.g. '/' or 'http://domain.org/').
      *
      * @uses GetGnuLinux $ggl
      * @uses string $lang, set by locale_negotiate_language()
@@ -379,48 +370,34 @@ class HTML {
      *
      * The links are printed as an inline summation list.
      *
-     * @param integer $mode If set to 1, all translations are printed, 2 means
-     *      only incomplete translations are printed, 3 means only complete
-     *      languages are printed.
+     * @param array $locales A locales array.
      * @uses GetGnuLinux $ggl
      */
-    function language_links($mode=1)
+    function language_links($locales)
     {
         global $ggl;
-        $complete = array();
+        $links = array();
 
-        foreach ($ggl->get_locales() as $lang => $items)
-        {
+        foreach ($locales as $lang => $items) {
             list($locale, $native) = $items;
-            $pass = true;
-
-            if ($mode == 2) {
-                $pass = !$ggl->lang_is_complete($lang);
-            }
-            else if ($mode == 3) {
-                $pass = $ggl->lang_is_complete($lang);
-            }
-
-            if ($pass) {
-                $link = "<a href=\"/%s\" hreflang=\"%s\"><span dir=\"%s\">%s</span></a>";
-                $complete[] = sprintf($link,
-                    $this->current_page_url($lang),
-                    $lang,
-                    $ggl->get_lang_directionality($lang),
-                    $native);
-            }
+            $link = "<a href=\"/%s\" hreflang=\"%s\"><span dir=\"%s\">%s</span></a>";
+            $links[] = sprintf($link,
+                $this->current_page_url($lang),
+                $lang,
+                $ggl->langdir($lang),
+                $native);
         }
 
-        for ($i=0; $i < count($complete); $i++)
+        for ($i=0; $i < count($links); $i++)
         {
-            if ($i < count($complete) - 2) {
-                print $complete[$i] . ", ";
+            if ($i < count($links) - 2) {
+                print $links[$i] . ", ";
             }
-            else if ($i == count($complete) - 2) {
-                print $complete[$i] . " and ";
+            else if ($i == count($links) - 2) {
+                print $links[$i] . " and ";
             }
             else {
-                print $complete[$i];
+                print $links[$i];
             }
         }
     }

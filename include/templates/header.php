@@ -3,21 +3,15 @@
 <html lang="<?php $this->text('lang') ?>" dir="<?php $this->text('dir'); ?>">
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-
-  <!-- alternate languages -->
   <?php
   $base_url = $ggl->get('base_url');
-  foreach ($ggl->get_locales() as $code => $items) {
-    list($locale, $native) = $items;
-    if ( $ggl->lang_is_complete($code) ) {
-      printf("<link rel=\"alternate\" type=\"text/html\" dir=\"%s\" hreflang=\"%s\" href=\"%s%s\" />\n",
-        $ggl->get_lang_directionality($code),
-        $code,
-        $base_url,
-        $this->current_page_url($code));
-    }
+  foreach ($ggl->get_locales('complete') as $code => $v) {
+    printf("<link rel=\"alternate\" type=\"text/html\" dir=\"%s\" hreflang=\"%s\" href=\"%s%s\" />\n",
+      $ggl->langdir($code),
+      $code,
+      $base_url,
+      $this->current_page_url($code));
   } ?>
-  <!-- end alternate languages -->
   <title><?php $this->page_title(); ?></title>
   <link rel="copyright" type="text/html" title="Copyright notice for this website." href="<?php $this->url('legal/'); ?>" hreflang="en" />
   <link rel="shortcut icon" type="image/x-icon" href="<?php $this->url('favicon.ico'); ?>" />
@@ -41,7 +35,7 @@
 <body>
 
 <header id="header">
-  <nav id="navigation" role="navigation">
+  <nav id="navbar" role="navigation">
     <ul>
       <li id="logo"><a href="<?php $this->base_url(); ?>"><i class="fa fa-home fa-lg"></i></a></li>
       <?php

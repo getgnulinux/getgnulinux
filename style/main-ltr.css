@@ -132,7 +132,7 @@ li {
  * Navigation menu
  *----------------------------------------------------*/
 
-nav#navigation {
+#navbar {
     background-color: #C3CFA2;
     font-size: 16px;
     line-height: normal;
@@ -141,13 +141,13 @@ nav#navigation {
     text-align: center;
 }
 
-#navigation ul {
+#navbar ul {
     list-style: none;
     margin: 0;
     padding: 0 5px;
 }
 
-#navigation ul li {
+#navbar ul li {
     display: inline-block;
     margin: 0 5px 0 0;
     padding: 5px;
@@ -157,10 +157,10 @@ nav#navigation {
     transition: background 100ms linear;
 }
 
-#navigation a {
+#navbar a {
     font-size: 1.0em;
     line-height: 2em;
-    padding: 4px 8px;
+    padding: 9px;
     text-decoration: none;
 
     transition: ease 200ms linear;
@@ -168,14 +168,14 @@ nav#navigation {
     -moz-transition: ease 200ms linear;
 }
 
-#navigation a,
-#navigation a:hover,
-#navigation a:visited {
+#navbar a,
+#navbar a:hover,
+#navbar a:visited {
     color: #333333;
 }
 
-#navigation li:hover,
-#navigation li.active {
+#navbar li:hover,
+#navbar li.active {
     background: none repeat scroll 0 0 rgba(134, 155, 78, 0.2);
     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
@@ -233,15 +233,6 @@ nav.chapters ul li:last-child {
 
 nav.chapters li a:hover {
     color: #043f58;
-}
-
-/*----------------------------------------------------
- * Untranslatable pages should always be ltr
- *----------------------------------------------------*/
-
-#credits-page,
-#legal-terms {
-    direction: ltr;
 }
 
 /*----------------------------------------------------
@@ -340,7 +331,7 @@ div.note {
 }
 
 /*----------------------------------------------------
- * Image Slider: General
+ * Flexslider: General
  *----------------------------------------------------*/
 
 .flexslider {
@@ -359,7 +350,7 @@ div.note {
 }
 
 /*----------------------------------------------------
- * Image Slider: Front Page
+ * Flexslider: Front Page
  *----------------------------------------------------*/
 
 /* Make sure the navigation arrows don't overflow the page */
@@ -374,7 +365,7 @@ div.note {
 }
 
 /*----------------------------------------------------
- * Image Slider: Screenshots
+ * Flexslider: Screenshots
  *----------------------------------------------------*/
 
 /* Override some default values */
@@ -409,7 +400,7 @@ div.note {
 }
 
 /*----------------------------------------------------
- * Image Slider: Front Page Slides
+ * Flexslider: Front Page Slides
  *----------------------------------------------------*/
 
 .fp-slide {
@@ -422,7 +413,7 @@ div.note {
     color: #FFFFFF;
 }
 
-.slide-text {
+.fp-slide .slide-text {
     font-size: 1.3rem;
     margin: 0 auto;
     max-width: 700px;
@@ -680,54 +671,39 @@ div.download-box {
  * Styles for the "More" page.
  *----------------------------------------------------*/
 
-.more_section {
-    clear: both;
+.more-section {
     padding: 1em 0 3em 0;
 }
 
-.more_section a {
-    background: none;
-}
-
-.button_link {
-    float: none;
-    text-align: center;
-    width: 180px;
-    margin: 0 auto 1em auto;
-}
-
-.button_link a img {
-    opacity: 0.8;
-}
-
-.button_link a:hover img {
-    opacity: 1;
-}
-
-.column1_2 {
-    float: right;
-    width: 45%;
-    padding: 0 2%;
-}
-
-.column2_2 {
-    width: 45%;
-    padding: 0 2%;
-}
-
-.more h2 {
+.more-section h2 {
     text-align: center;
     clear: both;
     margin: 0.5em 0 1.5em 0;
-    font-weight: normal;
-    font-size: 2em;
 }
 
-.more_section img {
+.more-section img {
     clear: none !important;
     float: none !important;
     display: block;
     margin: 0 !important;
+}
+
+.more-section .column {
+    float: left;
+    width: 45%;
+    padding: 0 2%;
+}
+
+.more-section .column div {
+    text-align: center;
+    width: 180px;
+    margin: 0 auto 1em auto;
+}
+.more-section .column div a img {
+    opacity: 0.8;
+}
+.more-section .column div a:hover img {
+    opacity: 1;
 }
 
 .credits h2 {
@@ -739,63 +715,24 @@ div.download-box {
 
 /*-------------------- About box --------------------*/
 
-#about_us {
-    background: none repeat scroll 0 0 #EDF2FF;
-    font-size: 0.95em;
-    margin-top: 4.5em;
-    padding: 1em;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    box-shadow: 0 1px 0 #B3C7FF;
-    -moz-box-shadow: 0 1px 0 #B3C7FF;
-    -webkit-box-shadow: 0 1px 0 #B3C7FF;
-}
-
-#about_us h2 {
-    font-size: 1.5em;
-    margin: 0;
+#about-us-box {
+    background: none repeat scroll 0 0 #E4EFC7;
+    border-top: 2px dashed #CEDFA1;
+    border-bottom: 2px dashed #CEDFA1;
+    font-family: Palatino,"Palatino Linotype",Georgia,"Book Antiqua",Times,"Times New Roman",serif;
     font-style: italic;
+    margin: 4em 0;
+    padding: 1em;
 }
 
-#about_us img {
-    float: right;
-    margin: 0 0 1em 1em
+#about-us-box h1 {
+    font-size: 2.5em;
+    font-weight: 300;
+    margin: 0;
 }
 
-/*-------------------- Links in About box --------------------*/
-
-#about_us_more {
-    text-align: center;
-    width: 80%;
-    margin: 1em auto;
-    font-size: 0.8em;
-}
-
-#about_us_more li {
-    display: inline;
-}
-
-#about_us_more ul {
-    list-style-type: none;
-    list-style-image: none; /* IE bug */
-    margin: 0; /* for IE */
-    padding: 0; /* for Moz */
-}
-
-#about_us_more li {
-    margin: 1em 0;
-    white-space: nowrap;
-}
-
-#about_us_more li a {
-    color: #000080;
-    padding: 0.2em 0.5em;
-    background: none;
-}
-
-#about_us_more li a:hover {
-    text-decoration: underline;
+#about-us-box p {
+    font-size: 1.2em;
 }
 
 /*----------------------------------------------------
