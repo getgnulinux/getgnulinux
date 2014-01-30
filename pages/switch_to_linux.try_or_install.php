@@ -10,7 +10,7 @@ $this->load_header();
 ?>
 
 <nav class="chapters">
-  <?php $this->switch_to_linux_chapters(); ?>
+  <?php $this->list_chapter_sections('switch_to_linux'); ?>
 </nav>
 
 <main role="main">

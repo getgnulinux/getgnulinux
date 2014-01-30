@@ -123,6 +123,13 @@ class GetGNULinux {
     );
 
     /**
+     * Chapters sections.
+     *
+     * @var array
+     */
+    public $sections = array();
+
+    /**
      * Initialise GGL. Needs to be called manually after the user settings
      * are loaded.
      *
@@ -155,8 +162,8 @@ class GetGNULinux {
         # Initialize gettext. From here, gettext is enabled.
         $this->init_gettext();
 
-        # Set initial configuration values.
-        $this->init_config();
+        # Set attribute values.
+        $this->init_attributes();
     }
 
     /**
@@ -181,9 +188,9 @@ class GetGNULinux {
     }
 
     /**
-     * Sets global configurations.
+     * Sets attributes.
      */
-    private function init_config() {
+    private function init_attributes() {
         # translators: The name of the website. It is displayed in the header of each page.
         $this->config['website_title'] = _("get GNU/Linux!");
 
@@ -262,6 +269,19 @@ class GetGNULinux {
             # translators: This is the description of the 'Try or Install' page. This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
             'switch_to_linux.try_or_install' => _("Try or install Linux on your computer, very easily."),
         );
+
+        # Chapter sections.
+        $this->sections['switch_to_linux'] = array(
+            "switch_to_linux/from_windows_to_linux" => _("From Windows to Linux"),
+            "switch_to_linux/choose_a_distribution" => _("Choose a distribution"),
+            "switch_to_linux/try_or_install" => _("Try or install")
+        );
+        $this->sections['windows'] = array(
+            "windows/restrictions" => _("Restrictions"),
+            "windows/what_about_choice" => _("What about choice?"),
+            "windows/what_about_source_code" => _("No source code"),
+            "windows/stand_for_a_free_society" => _("Stand for a free society")
+        );
     }
 
     /**
@@ -276,7 +296,7 @@ class GetGNULinux {
             $this->set_locale($value);
             return;
         }
-		$this->config[$key] =& $value;
+		$this->config[$key] = &$value;
 	}
 
     /**
@@ -312,10 +332,7 @@ class GetGNULinux {
      */
     public function get($key, $default='')
     {
-		if ( isset($this->config[$key]) ) {
-			return $this->config[$key];
-		}
-		return $default;
+		return isset($this->config[$key]) ? $this->config[$key] : $default;
     }
 
     /**

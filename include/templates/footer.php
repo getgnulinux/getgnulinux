@@ -67,14 +67,14 @@
 </footer>
 
 <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="<?php $this->addver('/js/jquery.scrollTo.min.js'); ?>"></script>
-<script src="<?php $this->addver('/js/mousetrap.min.js'); ?>"></script>
-<script src="<?php $this->addver('/js/common.js'); ?>"></script>
+<script src="<?php $this->filever('/js/jquery.scrollTo.min.js'); ?>"></script>
+<script src="<?php $this->filever('/js/mousetrap.min.js'); ?>"></script>
+<script src="<?php $this->filever('/js/common.js'); ?>"></script>
 <?php
 switch ($this->page_name) {
     case null:
     ?>
-<script src="<?php $this->addver('/js/jquery.flexslider.js'); ?>"></script>
+<script src="<?php $this->filever('/js/jquery.flexslider.js'); ?>"></script>
 <script>
   $(window).load(function() {
     $('.flexslider').flexslider({
@@ -97,7 +97,7 @@ switch ($this->page_name) {
     case 'linux':
     case 'switch_to_linux.choose_a_distribution':
     ?>
-<script src="<?php $this->addver('/js/jquery.flexslider.js'); ?>"></script>
+<script src="<?php $this->filever('/js/jquery.flexslider.js'); ?>"></script>
 <script>
   $(window).load(function() {
     $('.flexslider').flexslider({

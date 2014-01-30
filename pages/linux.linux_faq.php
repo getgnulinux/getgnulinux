@@ -297,7 +297,7 @@ $this->load_header();
     printf($p, $ggl->get('contact_url'), $ggl->get('tracker_url')); ?></p>
 
     <div class="button green">
-      <a href="<?php $this->base_url('linux'); ?>"><i class="fa fa-level-up fa-fw"></i> <?php print _("What is Linux?"); ?></a>
+      <a href="<?php $this->base_url('linux'); ?>"><?php print _("What is Linux?"); ?> <i class="fa fa-level-up fa-fw"></i></a>
     </div>
 
     </div>

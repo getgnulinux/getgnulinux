@@ -27,7 +27,7 @@ $this->load_header();
         print _("Meet GNU/Linux in everyday use."); ?></p>
 
         <div class="button green">
-          <a href="<?php $this->base_url('switch_to_linux/from_windows_to_linux'); ?>"><?php print _("Read more"); ?></a>
+          <a href="<?php $this->base_url('switch_to_linux/from_windows_to_linux'); ?>"><?php print _("Read more"); ?> <i class="fa <?php print $this->rtltr("fa-arrow-circle-right", "fa-arrow-circle-left"); ?> fa-fw"></i></a>
         </div>
       </div>
     </div>
@@ -41,7 +41,7 @@ $this->load_header();
         <p><?php print _("Our selection for an easy choice."); ?></p>
 
         <div class="button green">
-          <a href="<?php $this->base_url('switch_to_linux/choose_a_distribution'); ?>"><?php print _("Read more"); ?></a>
+          <a href="<?php $this->base_url('switch_to_linux/choose_a_distribution'); ?>"><?php print _("Read more"); ?> <i class="fa <?php print $this->rtltr("fa-arrow-circle-right", "fa-arrow-circle-left"); ?> fa-fw"></i></a>
         </div>
       </div>
     </div>
@@ -55,7 +55,7 @@ $this->load_header();
         <p><?php print _("Install it! (it's easier than you think)"); ?></p>
 
         <div class="button green">
-          <a href="<?php $this->base_url('switch_to_linux/try_or_install'); ?>"><?php print _("Read more"); ?></a>
+          <a href="<?php $this->base_url('switch_to_linux/try_or_install'); ?>"><?php print _("Read more"); ?> <i class="fa <?php print $this->rtltr("fa-arrow-circle-right", "fa-arrow-circle-left"); ?> fa-fw"></i></a>
         </div>
       </div>
     </div>

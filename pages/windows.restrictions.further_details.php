@@ -10,7 +10,7 @@ $this->load_header();
 ?>
 
 <nav class="chapters">
-  <?php $this->why_not_windows_chapters(); ?>
+  <?php $this->list_chapter_sections('windows'); ?>
 </nav>
 
 <main role="main">
@@ -85,7 +85,7 @@ $this->load_header();
     </div><!-- further_reading -->
 
     <div class="button green">
-      <a href="<?php $this->base_url('windows/restrictions'); ?>"><i class="fa fa-level-up fa-fw"></i> <?php print _("Restrictions"); ?></a>
+      <a href="<?php $this->base_url('windows/restrictions'); ?>"><?php print _("Restrictions"); ?> <i class="fa fa-level-up fa-fw"></i></a>
     </div>
 
     </div>
@@ -94,7 +94,7 @@ $this->load_header();
 
 <nav class="chapters">
   <div class="title"><a href="<?php $this->base_url('windows'); ?>"><?php print _("Why not Windows"); ?></a></div>
-  <?php $this->why_not_windows_chapters(); ?>
+  <?php $this->list_chapter_sections('windows'); ?>
 </nav>
 
 <?php $this->load_footer(); ?>

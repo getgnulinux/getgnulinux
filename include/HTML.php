@@ -79,7 +79,6 @@ class HTML {
     function load_header()
     {
         global $ggl;
-
         include ROOT.'/include/templates/header.php';
     }
 
@@ -91,16 +90,10 @@ class HTML {
      * @uses GetGnuLinux $ggl
      * @uses string ROOT
      */
-    function load_footer($alt=null)
+    function load_footer()
     {
         global $ggl;
-
-        if ($alt) {
-            $file = sprintf('footer_%s.php', $alt);
-            include ROOT.'/include/templates/'.$file;
-        } else {
-            include ROOT.'/include/templates/footer.php';
-        }
+        include ROOT.'/include/templates/footer.php';
     }
 
     /**
@@ -157,16 +150,11 @@ class HTML {
     /**
      * Print the chapter list for the "Swith to Linux" pages.
      */
-    function switch_to_linux_chapters()
+    function list_chapter_sections($chapter)
     {
-        $items = array(
-            "switch_to_linux/from_windows_to_linux" => _("From Windows to Linux"),
-            "switch_to_linux/choose_a_distribution" => _("Choose a distribution"),
-            "switch_to_linux/try_or_install" => _("Try or install"),
-            );
-
-        print "<ul>";
-        foreach ($items as $path => $title)
+        global $ggl;
+        print "<ul>\n";
+        foreach ($ggl->sections[$chapter] as $path => $title)
         {
             printf("<li%s><a href=\"%s\">%s</a></li>\n",
                 $this->we_are_here($path) ? ' class="active"' : '',
@@ -174,48 +162,19 @@ class HTML {
                 $title
             );
         }
-        print "</ul>";
+        print "</ul>\n";
     }
 
     /**
-     * Print the chapter list for the "Why not Windows" pages.
-     */
-    function why_not_windows_chapters()
-    {
-        $items = array(
-            "windows/restrictions" => _("Restrictions"),
-            "windows/what_about_choice" => _("What about choice?"),
-            "windows/what_about_source_code" => _("No source code"),
-            "windows/stand_for_a_free_society" => _("Stand for a free society"),
-        );
-
-        print "<ul>";
-        foreach ($items as $path => $title)
-        {
-            printf("<li%s><a href=\"%s\">%s</a></li>\n",
-                $this->we_are_here($path) ? ' class="active"' : '',
-                $this->base_url($path,1),
-                $title
-            );
-        }
-        print "</ul>";
-    }
-
-
-    /**
-     * Print "-rtl" if the text direction of the current language is right to
-     * left.
+     * Return $s1 when the language is left-to-right, $s2 otherwise.
      *
-     * This method is used to add a suffix "-rtl" to the file name of an image
-     * file.
-     *
+     * @param string $s1 The string.
+     * @param string $s2 Alternative string.
      * @uses GetGnuLinux $ggl
      */
-    function rtl_suffix() {
+    function rtltr($s1, $s2) {
         global $ggl;
-        if ($ggl->get('dir') == 'rtl') {
-            print '-rtl';
-        }
+        return ($ggl->get('dir') == 'ltr') ? $s1 : $s2;
     }
 
     /**
@@ -228,7 +187,7 @@ class HTML {
      *
      * @param string $path Relative path to a file on the server.
      */
-    function addver($path) {
+    function filever($path) {
         $hash = substr(md5_file(ROOT.$path), 0, 12);
         printf("%s?v=%s", $path, $hash);
     }
@@ -250,10 +209,7 @@ class HTML {
 
         $l = $lang ? $lang : $ggl->get('lang');
         $p = str_replace('.', '/', $this->page_name);
-        if ($p)
-            return sprintf("%s/%s/", $l, $p);
-        else
-            return sprintf("%s/", $l);
+        return empty($p) ? sprintf("%s/", $l) : sprintf("%s/%s/", $l, $p);
     }
 
     /**
@@ -290,11 +246,7 @@ class HTML {
     function base_url($path=null, $return=0, $base=0) {
         global $ggl, $lang;
 
-        if ($base) {
-            $url = $ggl->get('base_url');
-        } else {
-            $url = "/";
-        }
+        $url = $base ? $ggl->get('base_url') : "/";
 
         # If the language is set in the URL, keep using it in links.
         $lang_id = isset($_GET['l']) ? $_GET['l'] : null;
@@ -350,19 +302,6 @@ class HTML {
             $path = sprintf("/images/locale/en/%s", $filename);
         }
         return $path;
-    }
-
-    /**
-     * Shows the Flattr button.
-     *
-     * @uses GetGnuLinux $ggl
-     */
-    function flattr_widget()
-    {
-        global $ggl;
-        $rev = $ggl->get('flattr_button_style') == "compact" ? "rev=\"flattr button:compact\"" : "";
-        print "<p><a class=\"FlattrButton\" style=\"display:none;\" " . $rev . " href=\"" . $ggl->get('base_url') . "\"></a></p>\n";
-        print "<noscript><p><a href=\"" . $ggl->get('flattr_url') . "\"><img src=\"http://api.flattr.com/button/flattr-badge-large.png\" alt=\"Flattr this\" title=\"Flattr this\" style=\"border:none;\" /></a></p></noscript>\n";
     }
 
     /**

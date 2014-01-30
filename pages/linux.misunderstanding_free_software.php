@@ -183,7 +183,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
     </div>
 
     <div class="button green">
-      <a href="<?php $this->base_url('linux'); ?>"><i class="fa fa-level-up fa-fw"></i> <?php print _("What is Linux?"); ?></a>
+      <a href="<?php $this->base_url('linux'); ?>"><?php print _("What is Linux?"); ?> <i class="fa fa-level-up fa-fw"></i></a>
     </div>
 
     </div>

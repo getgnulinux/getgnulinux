@@ -88,7 +88,7 @@ $this->load_header();
         <p><?php print _("Why we should avoid using Microsoft Windows"); ?></p>
 
         <div class="button green">
-          <a href="<?php $this->base_url('windows'); ?>"><?php print _("Read more"); ?></a>
+          <a href="<?php $this->base_url('windows'); ?>"><?php print _("Read more"); ?> <i class="fa <?php print $this->rtltr("fa-arrow-circle-right", "fa-arrow-circle-left"); ?> fa-fw"></i></a>
         </div>
       </div>
     </div>
@@ -104,7 +104,7 @@ $this->load_header();
         <p><?php print _("Where to download and how to step into Linux"); ?></p>
 
         <div class="button green">
-          <a href="<?php $this->base_url('switch_to_linux'); ?>"><?php print _("Read more"); ?></a>
+          <a href="<?php $this->base_url('switch_to_linux'); ?>"><?php print _("Read more"); ?> <i class="fa <?php print $this->rtltr("fa-arrow-circle-right", "fa-arrow-circle-left"); ?> fa-fw"></i></a>
         </div>
       </div>
     </div>

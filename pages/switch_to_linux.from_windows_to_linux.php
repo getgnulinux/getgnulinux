@@ -10,7 +10,7 @@ $this->load_header();
 ?>
 
 <nav class="chapters">
-  <?php $this->switch_to_linux_chapters(); ?>
+  <?php $this->list_chapter_sections('switch_to_linux'); ?>
 </nav>
 
 <main role="main">
@@ -182,7 +182,7 @@ $this->load_header();
         <p><?php print _("Our selection for an easy choice."); ?></p>
 
         <div class="button green">
-          <a href="<?php $this->base_url('switch_to_linux/choose_a_distribution'); ?>"><?php print _("Read more"); ?></a>
+          <a href="<?php $this->base_url('switch_to_linux/choose_a_distribution'); ?>"><?php print _("Read more"); ?> <i class="fa <?php print $this->rtltr("fa-arrow-circle-right", "fa-arrow-circle-left"); ?> fa-fw"></i></a>
         </div>
       </div>
     </div>

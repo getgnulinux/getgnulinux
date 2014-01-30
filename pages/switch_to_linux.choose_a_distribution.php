@@ -32,7 +32,7 @@ $trisquel3_text = _("Accessing applications.");
 ?>
 
 <nav class="chapters">
-  <?php $this->switch_to_linux_chapters(); ?>
+  <?php $this->list_chapter_sections('switch_to_linux'); ?>
 </nav>
 
 <main role="main">
@@ -153,7 +153,7 @@ $trisquel3_text = _("Accessing applications.");
         print _("Now get a CD and try or install your distribution!"); ?></p>
 
         <div class="button green">
-          <a href="<?php $this->base_url('switch_to_linux/try_or_install'); ?>"><?php print _("Read more"); ?></a>
+          <a href="<?php $this->base_url('switch_to_linux/try_or_install'); ?>"><?php print _("Read more"); ?> <i class="fa <?php print $this->rtltr("fa-arrow-circle-right", "fa-arrow-circle-left"); ?> fa-fw"></i></a>
         </div>
       </div>
     </div>
