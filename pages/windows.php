@@ -71,14 +71,16 @@ $this->load_header();
         <p><a href="<?php $this->base_url('windows/stand_for_a_free_society'); ?>" title="<?php print _("How software affects freedom in society."); ?>"><?php print _("Read more"); ?></a></p>
       </article>
 
-      <div class="conclusion post-it">
-        <p><?php
-        # translators: This is the conclusion of the article.
-        $p = _("Many people find that Windows, an otherwise decent piece of software, <strong>withdraws so many rights</strong> from them, that it is not worth them using it. Mac&nbsp;OS is <a href=\"%s#mac_freedom\">not much better</a>, either."); printf($p, $this->base_url('linux/linux_faq',1)); ?></p>
+    </div>
+  </section>
 
-        <p><?php $p = _("If you find <a href=\"http://www.softwareliberty.com/\" title=\"what is freedom in software?\">free software</a> attractive, you might want to <a href=\"%s\" title=\"make the switch to Linux today!\">give Linux a try</a>."); printf($p, $this->base_url('switch_to_linux',1)); ?></p>
-      </div>
+  <section class="conclusion">
+    <div class="maxwidth">
+      <p><?php
+      # translators: This is the conclusion of the article.
+      $p = _("Many people find that Windows, an otherwise decent piece of software, <strong>withdraws so many rights</strong> from them, that it is not worth them using it. Mac&nbsp;OS is <a href=\"%s#mac_freedom\">not much better</a>, either."); printf($p, $this->base_url('linux/linux_faq',1)); ?></p>
 
+      <p><?php $p = _("If you find <a href=\"http://www.softwareliberty.com/\" title=\"what is freedom in software?\">free software</a> attractive, you might want to <a href=\"%s\" title=\"make the switch to Linux today!\">give Linux a try</a>."); printf($p, $this->base_url('switch_to_linux',1)); ?></p>
     </div>
   </section>
 

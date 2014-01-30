@@ -75,7 +75,7 @@ $this->load_header();
     </div>
   </section>
 
-  <section class="bg-even">
+  <section class="conclusion">
     <div class="maxwidth">
       <p><?php print _("Source code is the recipe for software. How could one improve on a meal with too much salt, if forbidden to look at the recipe used to cook it?"); ?></p>
 
