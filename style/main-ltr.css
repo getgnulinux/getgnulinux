@@ -79,8 +79,16 @@ code {
     font-size: 1.4em;
 }
 
-::-webkit-selection,
-::-moz-selection,
+::-webkit-selection {
+  background: #009ACD;
+  color: #FFFFFF;
+}
+
+::-moz-selection {
+  background: #009ACD;
+  color: #FFFFFF;
+}
+
 ::selection {
   background: #009ACD;
   color: #FFFFFF;
