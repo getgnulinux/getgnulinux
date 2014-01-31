@@ -79,17 +79,9 @@ code {
     font-size: 1.4em;
 }
 
+::-webkit-selection,
+::-moz-selection,
 ::selection {
-  background: #009ACD;
-  color: #FFFFFF;
-}
-
-::-webkit-selection {
-  background: #009ACD;
-  color: #FFFFFF;
-}
-
-::-moz-selection {
   background: #009ACD;
   color: #FFFFFF;
 }
@@ -100,7 +92,7 @@ a {
 }
 
 a:hover {
-    color: #00c;
+    color: #0000CC;
     text-decoration: underline;
 }
 
@@ -152,9 +144,9 @@ li {
     margin: 0 5px 0 0;
     padding: 5px;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-    -webkit-transition: background 100ms linear;
-    -moz-transition: background 100ms linear;
-    transition: background 100ms linear;
+    -webkit-transition: background 300ms ease;
+    -moz-transition: background 300ms ease;
+    transition: background 300ms ease;
 }
 
 #navbar a {
@@ -162,10 +154,6 @@ li {
     line-height: 2em;
     padding: 9px;
     text-decoration: none;
-
-    transition: ease 200ms linear;
-    -webkit-transition: ease 200ms linear;
-    -moz-transition: ease 200ms linear;
 }
 
 #navbar a,
@@ -336,7 +324,6 @@ div.note {
 
 .flexslider {
     position: relative;
-    zoom: 1;
 }
 
 /* Navigation icons bug workaround */
