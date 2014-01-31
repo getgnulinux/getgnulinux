@@ -63,7 +63,7 @@ class HTML {
                 return;
             } else {
                 header('HTTP/1.x 404 Not Found');
-                include ROOT.'/pages/not_found.php';
+                include ROOT.'/pages/404.php';
                 return;
             }
         }

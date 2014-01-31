@@ -231,7 +231,7 @@ class GetGNULinux {
             # translators: The title for the link buttons page. Can be translated loosely.
             'link_buttons' => _("Link buttons"),
             # translators: The title for the custom "Page Not Found" page.
-            'not_found' => _("Page Not Found"),
+            '404' => _("Page Not Found"),
         );
 
         # Set page descriptions.
