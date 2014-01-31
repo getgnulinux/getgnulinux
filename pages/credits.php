@@ -31,7 +31,9 @@ $this->load_header();
       <ul>
         <li>Background patterns by <a href="http://subtlepatterns.com/">Subtle Patterns</a>, <abbr title="Creative Commons">CC</abbr> <abbr title="Attribution, Share Alike">BY-SA</abbr> license.</li>
 
-        <li><a href="http://openclipart.org/">OpenClipart</a> material, released under public domain: <a href="/images/sources/switch_to_linux/CD.svg">CD.svg</a>, <a href="/images/sources/switch_to_linux/retro_tux.svg">retro_tux.svg</a>, <a href="/images/sources/switch_to_linux/Display.svg">Display.svg</a></li>
+        <li><a href="http://openclipart.org/">OpenClipart</a> material, released to the Public Domain: <a href="/images/sources/switch_to_linux/CD.svg">CD.svg</a>, <a href="/images/sources/switch_to_linux/Display.svg">Display.svg</a></li>
+
+        <li><a href="http://tango.freedesktop.org/Tango_Icon_Library">Tango icons</a> by the <a href="http://tango.freedesktop.org/">Tango Desktop Project</a>, released to the Public Domain.</li>
 
         <li>Material from other sources:
           <ul>

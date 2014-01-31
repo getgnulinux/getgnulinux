@@ -32,7 +32,7 @@ $this->load_header();
             <h1><?php print _("What is GNU/Linux?"); ?></h1>
             <div class="slide-text">
               <p><?php print _("Learn more about the free operating system"); ?></p>
-              <div class="button orange">
+              <div class="button blue">
                 <a href="<?php $this->base_url('linux'); ?>"><?php print _("Read more"); ?> <i class="fa <?php print $this->rtltr("fa-arrow-circle-right", "fa-arrow-circle-left"); ?> fa-fw"></i></a>
               </div>
             </div>
@@ -58,7 +58,7 @@ $this->load_header();
             <h1><?php print _("Switch to Linux"); ?></h1>
             <div class="slide-text">
               <p><?php print _("Where to download and how to step into Linux"); ?></p>
-              <div class="button green">
+              <div class="button blue">
                 <a href="<?php $this->base_url('switch_to_linux'); ?>"><?php print _("Read more"); ?> <i class="fa <?php print $this->rtltr("fa-arrow-circle-right", "fa-arrow-circle-left"); ?> fa-fw"></i></a>
               </div>
             </div>
