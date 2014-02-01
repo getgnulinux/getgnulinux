@@ -38,16 +38,7 @@ Other languages will not work until both the required locale definition files an
 
     $ make localesgen
 
-To enable translations on the website, one must first use `gettext` to generate a `.pot` file, or template, which contains all the translatable strings of the website:
-
-    $ make pot
-
-When a translatable text on the website is changed, you'll need to regenerate the PO template file:
-
-    $ make rmpot
-    $ make pot
-
-The `locale/getgnulinux/` directory contains PO files (these contain the translations). You need to compile these PO files to enable the translations on the website:
+The `locale/getgnulinux/` directory contains the PO files (these contain the translations). You need to compile these PO files to enable the translations on the website:
 
     $ make mo
 
