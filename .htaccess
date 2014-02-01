@@ -2,25 +2,34 @@
 Options -Indexes
 
 # Set custom not found page.
-ErrorDocument 404 /not_found/
+ErrorDocument 404 /index.php?p=404
 
+# For pretty URLs
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-    # Rewrite rules for URL's with a language code.
+    # For URLs with a language code.
     RewriteRule ^([a-z]{2,3})/([a-z_]+)/([a-z_]+)/([a-z_]+)/?$ /index.php?l=$1&p=$2.$3.$4 [L]
     RewriteRule ^([a-z]{2,3})/([a-z_]+)/([a-z_]+)/?$ /index.php?l=$1&p=$2.$3 [L]
     RewriteRule ^([a-z]{2,3})/([a-z_]+)/?$ /index.php?l=$1&p=$2 [L]
     RewriteRule ^([a-z]{2,3})/?$ /index.php?l=$1 [L]
 
-    # Rewrite rules for URL's with a dialect specific language code.
+    # For URLs with a dialect specific language code.
     RewriteRule ^([a-z]{2,3}-[a-z]{2})/([a-z_]+)/([a-z_]+)/([a-z_]+)/?$ /index.php?l=$1&p=$2.$3.$4 [L]
     RewriteRule ^([a-z]{2,3}-[a-z]{2})/([a-z_]+)/([a-z_]+)/?$ /index.php?l=$1&p=$2.$3 [L]
     RewriteRule ^([a-z]{2,3}-[a-z]{2})/([a-z_]+)/?$ /index.php?l=$1&p=$2 [L]
     RewriteRule ^([a-z]{2,3}-[a-z]{2})/?$ /index.php?l=$1 [L]
 
-    # Rewrite rules for URL's without a language code.
+    # For URLs without a language code.
     RewriteRule ^([a-z_]+)/([a-z_]+)/([a-z_]+)/?$ /index.php?p=$1.$2.$3 [L]
     RewriteRule ^([a-z_]+)/([a-z_]+)/?$ /index.php?p=$1.$2 [L]
     RewriteRule ^([a-z_]+)/?$ /index.php?p=$1 [L]
 </IfModule>
+
+# For IE
+<FilesMatch "\.(htm|html|php)$">
+    <IfModule mod_headers.c>
+        BrowserMatch MSIE ie
+        Header set X-UA-Compatible "IE=Edge,chrome=1" env=ie
+    </IfModule>
+</FilesMatch>
