@@ -67,15 +67,19 @@
   </div>
 </footer>
 
-<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="<?php $this->filever('/js/jquery.scrollTo.min.js'); ?>"></script>
-<script src="<?php $this->filever('/js/mousetrap.min.js'); ?>"></script>
-<script src="<?php $this->filever('/js/common.js'); ?>"></script>
+<a id="to-top" href="javascript:;">
+  <span id="to-top-hover"></span>
+  <i class="fa fa-chevron-circle-up fa-3x"></i>
+</a>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="<?php $this->filever('/js/plugins.js'); ?>"></script>
+<script src="<?php $this->filever('/js/main.js'); ?>"></script>
 <?php
 switch ($this->page_name) {
     case null:
     ?>
-<script src="<?php $this->filever('/js/jquery.flexslider.js'); ?>"></script>
 <script>
   $(window).load(function() {
     $('.flexslider').flexslider({
@@ -98,7 +102,6 @@ switch ($this->page_name) {
     case 'linux':
     case 'switch_to_linux.choose_a_distribution':
     ?>
-<script src="<?php $this->filever('/js/jquery.flexslider.js'); ?>"></script>
 <script>
   $(window).load(function() {
     $('.flexslider').flexslider({
@@ -115,11 +118,6 @@ if ( $ggl->get('piwik') ) {
   require_once(ROOT.'/include/widgets/Piwik.php');
 }
 ?>
-
-<a id="to-top" href="javascript:;">
-  <span id="to-top-hover"></span>
-  <i class="fa fa-chevron-circle-up fa-3x"></i>
-</a>
 
 </body>
 </html>

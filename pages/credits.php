@@ -67,6 +67,7 @@ $this->load_header();
       <h2>Code</h2>
 
       <ul>
+        <li><a href="http://html5boilerplate.com/">HTML5 Boilerplate</a> by <a href="https://github.com/h5bp">H5BP</a>, <a href="http://opensource.org/licenses/MIT">MIT License</a>;</li>
         <li><a href="https://jquery.com/">jQuery</a> by the jQuery Foundation, <a href="http://opensource.org/licenses/MIT">MIT License</a>;</li>
         <li><a href="http://plugins.jquery.com/scrollTo/">jQuery scrollTo</a> by Ariel Flesler, <a href="http://opensource.org/licenses/MIT">MIT License</a>;</li>
         <li><a href="http://www.woothemes.com/flexslider/">jQuery FlexSlider</a> by WooThemes, <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License, version 2</a>;</li>

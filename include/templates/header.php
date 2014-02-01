@@ -2,37 +2,41 @@
 <!DOCTYPE html>
 <html lang="<?php $this->text('lang') ?>" dir="<?php $this->text('dir'); ?>">
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta charset="utf-8">
+  <title><?php $this->page_title(); ?></title>
+  <meta name="description" content="<?php $this->page_description(); ?>">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="copyright" type="text/html" title="Copyright notice for this website." href="<?php $this->url('legal/'); ?>" hreflang="en">
   <?php
   $base_url = $ggl->get('base_url');
   foreach ($ggl->get_locales('complete') as $code => $v) {
-    printf("<link rel=\"alternate\" type=\"text/html\" dir=\"%s\" hreflang=\"%s\" href=\"%s%s\" />\n",
+    printf("<link rel=\"alternate\" type=\"text/html\" dir=\"%s\" hreflang=\"%s\" href=\"%s%s\">\n",
       $ggl->langdir($code),
       $code,
       $base_url,
       $this->current_page_url($code));
   } ?>
-  <title><?php $this->page_title(); ?></title>
-  <link rel="copyright" type="text/html" title="Copyright notice for this website." href="<?php $this->url('legal/'); ?>" hreflang="en" />
-  <link rel="shortcut icon" type="image/x-icon" href="<?php $this->url('favicon.ico'); ?>" />
-  <meta name="description" content="<?php $this->page_description(); ?>"/>
-  <meta name="keywords" content="<?php print _("linux, gnu/linux, free software, software freedom, open-source, windows alternative, get linux, switch to linux"); ?>" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:700,400,300" media="all" />
-  <link rel="stylesheet" type="text/css" href="<?php $this->filever('/style/font-awesome/css/font-awesome.min.css'); ?>" media="all" />
-  <link rel="stylesheet" type="text/css" href="<?php $this->filever('/style/main-ltr.css'); ?>" media="all" />
-  <link rel="stylesheet" type="text/css" href="<?php $this->filever('/style/flexslider.css'); ?>" media="all" />
+
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:700,400,300" media="all">
+  <link rel="stylesheet" type="text/css" href="<?php $this->filever('/style/font-awesome/css/font-awesome.min.css'); ?>" media="all">
+  <link rel="stylesheet" type="text/css" href="<?php $this->filever('/style/flexslider.css'); ?>" media="all">
+  <link rel="stylesheet" type="text/css" href="<?php $this->filever('/style/main-ltr.css'); ?>" media="all">
   <?php
   if ( $ggl->get('dir') == 'rtl' ) { ?>
-    <link rel="stylesheet" type="text/css" href="<?php $this->filever('/style/main-rtl.css'); ?>" media="all" />
+    <link rel="stylesheet" type="text/css" href="<?php $this->filever('/style/main-rtl.css'); ?>" media="all">
   <?php }
   // Disable italics for selected languages.
   if ( $ggl->no_italics() ) { ?>
-    <link rel="stylesheet" type="text/css" href="<?php $this->filever('/style/no-italics.css'); ?>" media="all" />
+    <link rel="stylesheet" type="text/css" href="<?php $this->filever('/style/no-italics.css'); ?>" media="all">
   <?php } ?>
+  <script src="<?php $this->filever('/js/vendor/modernizr.min.js'); ?>"></script>
 </head>
 
 <body>
+
+<!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
 
 <header id="header">
   <nav id="navbar" role="navigation">
