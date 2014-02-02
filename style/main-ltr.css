@@ -418,9 +418,12 @@ div.note {
 
 .slide-ggl {
     background-color: #49B7E8;
-    background-image: url("/images/slides/GNU_Linux.png");
+    background-image: url("/images/slides/GNU_Tux.svg");
     background-position: center top;
     background-repeat: no-repeat;
+}
+.no-svg .slide-ggl {
+  background-image: url("/images/slides/GNU_Tux.png");
 }
 .slide-ggl h1 {
     font-family: Palatino,"Palatino Linotype",Georgia,"Book Antiqua",Times,"Times New Roman",serif;
@@ -431,9 +434,12 @@ div.note {
 
 .slide-linux {
     background-color: #49B7E8;
-    background-image: url("/images/slides/Help.png");
+    background-image: url("/images/slides/Help.svg");
     background-position: center top;
     background-repeat: no-repeat;
+}
+.no-svg .slide-linux {
+  background-image: url("/images/slides/Help.png");
 }
 .slide-linux h1 {
     font-weight: 300;
@@ -442,9 +448,12 @@ div.note {
 
 .slide-windows {
     background-color: #49B7E8;
-    background-image: url("/images/slides/Warning.png");
+    background-image: url("/images/slides/Warning.svg");
     background-position: center top;
     background-repeat: no-repeat;
+}
+.no-svg .slide-windows {
+  background-image: url("/images/slides/Warning.png");
 }
 .slide-windows h1 {
     font-weight: 300;
@@ -453,9 +462,12 @@ div.note {
 
 .slide-switch {
     background-color: #49B7E8;
-    background-image: url("/images/slides/CD.png");
+    background-image: url("/images/slides/Disc.svg");
     background-position: center top;
     background-repeat: no-repeat;
+}
+.no-svg .slide-switch {
+  background-image: url("/images/slides/Disc.png");
 }
 .slide-switch h1 {
     font-weight: 300;
