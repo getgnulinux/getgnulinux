@@ -17,16 +17,15 @@
       $this->current_page_url($code));
   } ?>
 
+  <link rel="stylesheet" type="text/css" href="<?php $this->filever('/style/normalize.css'); ?>" media="all">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:700,400,300" media="all">
+  <link rel="stylesheet" type="text/css" href="<?php $this->filever('/style/main-ltr.css'); ?>" media="all">
+  <?php if ( $ggl->get('dir') == 'rtl' ) { ?>
+    <link rel="stylesheet" type="text/css" href="<?php $this->filever('/style/main-rtl.css'); ?>" media="all">
+  <?php } ?>
   <link rel="stylesheet" type="text/css" href="<?php $this->filever('/style/font-awesome/css/font-awesome.min.css'); ?>" media="all">
   <link rel="stylesheet" type="text/css" href="<?php $this->filever('/style/flexslider.css'); ?>" media="all">
-  <link rel="stylesheet" type="text/css" href="<?php $this->filever('/style/main-ltr.css'); ?>" media="all">
-  <?php
-  if ( $ggl->get('dir') == 'rtl' ) { ?>
-    <link rel="stylesheet" type="text/css" href="<?php $this->filever('/style/main-rtl.css'); ?>" media="all">
-  <?php }
-  // Disable italics for selected languages.
-  if ( $ggl->no_italics() ) { ?>
+  <?php if ( $ggl->no_italics() ) { ?>
     <link rel="stylesheet" type="text/css" href="<?php $this->filever('/style/no-italics.css'); ?>" media="all">
   <?php } ?>
   <script src="<?php $this->filever('/js/vendor/modernizr.min.js'); ?>"></script>
