@@ -1044,10 +1044,14 @@ footer .icons li {
 }
 footer .icons a,
 footer .icons a:visited {
-    color: #AEACAC;
+    color: #6B6B6B;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+    -webkit-transition: color 300ms ease;
+    -moz-transition: color 300ms ease;
+    transition: color 300ms ease;
 }
 footer .icons a:hover {
-    color: #DEDEDE;
+    color: #B7B7B7;
 }
 
 /*----------------------------------------------------

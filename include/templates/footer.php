@@ -59,8 +59,8 @@
       </p>
 
       <ul class="icons">
-        <li><a href="<?php $this->text('project_url'); ?>" title="GitHub Project"><i class="fa fa-github fa-lg"></i></a></li>
-        <?php if ( $ggl->get('flattr') ) { ?><li><a href="<?php $this->text('flattr_url'); ?>" title="Flattr this"><i class="fa fa-heart-o fa-lg"></i></a></li><?php } ?>
+        <li><a href="<?php $this->text('project_url'); ?>" title="GitHub Project"><i class="fa fa-github fa-2x"></i></a></li>
+        <?php if ( $ggl->get('flattr') ) { ?><li><a href="<?php $this->text('flattr_url'); ?>" title="Flattr this"><i class="fa fa-heart-o fa-2x"></i></a></li><?php } ?>
       </ul>
     </div>
 
