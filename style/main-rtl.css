@@ -40,12 +40,12 @@
  * Styles for the "Try or install" page.
  *----------------------------------------------------*/
 
-div.download-box {
+.download-box {
     background-position: right top;
 }
 
 .download-box .content {
-    margin: 0 120px 1em 1em;
+    margin: 0 12% 1em 1em;
 }
 
 .download-box .button {
@@ -53,13 +53,12 @@ div.download-box {
     margin: 35px 0 0 1em;
 }
 
-.bg-laptop {
-    background-position: left bottom;
+.adjustable-bg {
+    background-position: left top;
 }
 
-.bg-laptop p {
-    margin-left: 220px;
-    margin-right: auto;
+.adjustable-bg.laptop {
+    background-position: left bottom;
 }
 
 /*----------------------------------------------------

@@ -727,14 +727,15 @@ section.trisquel {
  * Styles for the "Try or install" page.
  *----------------------------------------------------*/
 
-div.download-box {
+.download-box {
     background-position: top left;
     background-repeat: no-repeat;
+    background-size: 11% auto;
     margin: 2em 0;
     padding: 0.5em;
 }
 .download-box .content {
-    margin: 0 1em 1em 120px;
+    margin: 0 1em 1em 12%;
     min-height: 60px;
 }
 .download-box .content p {
@@ -746,24 +747,53 @@ div.download-box {
 }
 
 .download-box.ubuntu {
+    background-image: url(/images/UbuntuIcon.svg);
+}
+.no-svg .download-box.ubuntu {
     background-image: url(/images/UbuntuIcon.png);
 }
 
 .download-box.fedora {
     background-image: url(/images/FedoraIcon.png);
 }
-.download-box.gnewsense {
-    background-image: url(/images/gNewSenseIcon.png);
-}
+
 .download-box.trisquel {
+    background-image: url(/images/TrisquelIcon.svg);
+}
+.no-svg .download-box.trisquel {
     background-image: url(/images/TrisquelIcon.png);
 }
 
-.bg-laptop {
-    background: url(/images/Laptop.png) bottom right no-repeat;
+.adjustable-bg {
+    background-color: transparent;
+    background-image: none;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 20% auto;
+    overflow: visible;
 }
-.bg-laptop p {
-    margin-right: 220px;
+.adjustable-bg h3,
+.adjustable-bg p {
+    width: 75%;
+}
+
+.adjustable-bg.disc {
+    background-image: url("/images/Disc.svg");
+}
+.no-svg .adjustable-bg.disc {
+    background-image: url("/images/Disc.png");
+}
+
+.adjustable-bg.dualboot {
+    background-image: url("/images/DualBoot.svg");
+}
+.no-svg .adjustable-bg.dualboot {
+    background-image: url("/images/DualBoot.png");
+}
+
+.adjustable-bg.laptop {
+    background-image: url("/images/Laptop.png");
+    background-position: right bottom;
 }
 
 /*----------------------------------------------------

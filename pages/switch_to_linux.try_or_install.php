@@ -31,11 +31,11 @@ $this->load_header();
 
       <h3 id="live_cd_what_is"><?php print _("Take no risk"); ?></h3>
 
-      <img class="float-right" src="/images/LiveCD.png" alt="Live CD" />
-
-      <p><?php print _("Using a live CD means that Linux will be running on your computer <em>without installing anything</em>. It's a risk-less way to try and see by yourself what Linux is."); ?></p>
-      <p><?php print _("When running on a live CD, your computer uses solely the CD-ROM to work (without accessing the hard drive inside). You can launch all of the default programs, edit documents, and browse the web."); ?></p>
-      <p><?php print _("Since it is only designed as a trial mode, it is a little slow (it will take you five minutes to boot up, and programs launch somewhat slowly). If you proceed to install, the system will go much faster."); ?></p>
+      <div class="adjustable-bg disc">
+        <p><?php print _("Using a live CD means that Linux will be running on your computer <em>without installing anything</em>. It's a risk-less way to try and see by yourself what Linux is."); ?></p>
+        <p><?php print _("When running on a live CD, your computer uses solely the CD-ROM to work (without accessing the hard drive inside). You can launch all of the default programs, edit documents, and browse the web."); ?></p>
+        <p><?php print _("Since it is only designed as a trial mode, it is a little slow (it will take you five minutes to boot up, and programs launch somewhat slowly). If you proceed to install, the system will go much faster."); ?></p>
+      </div>
 
 
       <h3 id="live_cd_what_need"><?php print _("What you need"); ?></h3>
@@ -48,11 +48,11 @@ $this->load_header();
     <div class="maxwidth">
       <h2 id="install_dual_boot"><?php print _("Installing as a dual boot"); ?></h2>
 
-      <img class="float-right" src="/images/DualBoot.png" alt="Dual Boot" />
-
-      <h3 id="dual_boot_what_is"><?php print _("Choose at start-up"); ?></h3>
-      <p><?php print _("It is possible to install GNU/Linux along with Windows. This means that upon start-up, you will be greeted with a screen allowing you to boot into the operating system you prefer."); ?></p>
-      <p><?php print _("Setting up a dual-boot can be helpful if you need time to abandon restrictive software. It is <a href=\"http://www.ubuntu.com/download/desktop/install-desktop-latest\" title=\"a tutorial on installing Ubuntu\">not difficult to set-up</a>, though erasing Windows altogether is even easier."); ?></p>
+      <div class="adjustable-bg dualboot">
+        <h3 id="dual_boot_what_is"><?php print _("Choose at start-up"); ?></h3>
+        <p><?php print _("It is possible to install GNU/Linux along with Windows. This means that upon start-up, you will be greeted with a screen allowing you to boot into the operating system you prefer."); ?></p>
+        <p><?php print _("Setting up a dual-boot can be helpful if you need time to abandon restrictive software. It is <a href=\"http://www.ubuntu.com/download/desktop/install-desktop-latest\" title=\"a tutorial on installing Ubuntu\">not difficult to set-up</a>, though erasing Windows altogether is even easier."); ?></p>
+      </div>
 
       <h3 id="dual_boot_what_need"><?php print _("What you need"); ?></h3>
       <p><?php print _("Installing Linux on your computer will take you less than 30 minutes. It is not an obvious step for complete beginners, but if you use computers on a daily basis this is very likely within your reach. If you have already re-installed Windows on your computer, rest assured that installing Linux is no harder."); ?></p>
@@ -117,13 +117,13 @@ $this->load_header();
   </section>
 
   <section>
-    <div class="maxwidth bg-laptop">
-      <h2 id="free_software_pre_installed"><?php print _("Free Software pre-installed"); ?></h2>
-
-      <p><?php print _("Not all computers are shipped with Windows. If you do not wish to make the install yourself, or are in need of new hardware, you can get a laptop or a desktop pre-installed with GNU/Linux.<br/>
+    <div class="maxwidth">
+      <div class="adjustable-bg laptop">
+        <h2 id="free_software_pre_installed"><?php print _("Free Software pre-installed"); ?></h2>
+        <p><?php print _("Not all computers are shipped with Windows. If you do not wish to make the install yourself, or are in need of new hardware, you can get a laptop or a desktop pre-installed with GNU/Linux.<br/>
 We have compiled <a title=\"linux computers\" href=\"http://linuxpreloaded.com/\">a list of vendors pre-installing Linux at LinuxPreloaded.com</a> just for that reason."); ?></p>
+      </div>
 
-      <br/>
     </div>
   </section>
 
