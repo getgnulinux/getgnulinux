@@ -48,11 +48,9 @@ $this->load_header();
     <div class="maxwidth">
       <h2 id="install_dual_boot"><?php print _("Installing as a dual boot"); ?></h2>
 
-      <div class="adjustable-bg dualboot">
-        <h3 id="dual_boot_what_is"><?php print _("Choose at start-up"); ?></h3>
-        <p><?php print _("It is possible to install GNU/Linux along with Windows. This means that upon start-up, you will be greeted with a screen allowing you to boot into the operating system you prefer."); ?></p>
-        <p><?php print _("Setting up a dual-boot can be helpful if you need time to abandon restrictive software. It is <a href=\"http://www.ubuntu.com/download/desktop/install-desktop-latest\" title=\"a tutorial on installing Ubuntu\">not difficult to set-up</a>, though erasing Windows altogether is even easier."); ?></p>
-      </div>
+      <h3 id="dual_boot_what_is"><?php print _("Choose at start-up"); ?></h3>
+      <p><?php print _("It is possible to install GNU/Linux along with Windows. This means that upon start-up, you will be greeted with a screen allowing you to boot into the operating system you prefer."); ?></p>
+      <p><?php print _("Setting up a dual-boot can be helpful if you need time to abandon restrictive software. It is <a href=\"http://www.ubuntu.com/download/desktop/install-desktop-latest\" title=\"a tutorial on installing Ubuntu\">not difficult to set-up</a>, though erasing Windows altogether is even easier."); ?></p>
 
       <h3 id="dual_boot_what_need"><?php print _("What you need"); ?></h3>
       <p><?php print _("Installing Linux on your computer will take you less than 30 minutes. It is not an obvious step for complete beginners, but if you use computers on a daily basis this is very likely within your reach. If you have already re-installed Windows on your computer, rest assured that installing Linux is no harder."); ?></p>
