@@ -4,7 +4,7 @@ $(document).ready(function() {
     (function() {
         var settings = {
             text: 'To Top',
-            min: 800,
+            min: 200,
             inDelay: 600,
             outDelay: 400,
             containerID: 'to-top',
