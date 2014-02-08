@@ -24,12 +24,6 @@ $this->load_header();
       <p><?php print _("Haven't read your license fully? We did that job for you."); ?></p>
     </div>
 
-    <div class="quote">
-      <p><?php print _("If you go to most of the free software sites you can click down a couple of levels and find the [GNU] <abbr title=\"General Public License, the main free software license\">GPL</abbr>, the X license, the Apache license, whichever terms and conditions you have to accept in order to use that software."); ?></p>
-      <p><?php print _("Now with a proprietary software company, the license is buried so you can't read it until after you have paid for the product, then they're asking you to <strong>turn off part of your brain</strong>, they're asking you to turn off part of your ability to work with other people and to do business, when you use their software."); ?></p>
-      <span class="source">Don Marti, <a href="http://www.go-opensource.org/go_open/episode_2/big_guns/" hreflang="en" title="<?php print _("Don Marti interview"); ?>"><?php print _("2005 interview"); ?></a></span>
-    </div>
-
     <h2 id="the_small_print"><?php print _("The small print in the contract"); ?></h2>
 
     <ul>
@@ -55,6 +49,14 @@ $this->load_header();
         <?php print _("The license is linked to one computer, and expires when the computer dies. It is then illegal to transfer the software on another computer."); ?></p>
       </li>
     </ul>
+
+    <br>
+
+    <div class="quote">
+      <p><?php print _("If you go to most of the free software sites you can click down a couple of levels and find the [GNU] <abbr title=\"General Public License, the main free software license\">GPL</abbr>, the X license, the Apache license, whichever terms and conditions you have to accept in order to use that software."); ?></p>
+      <p><?php print _("Now with a proprietary software company, the license is buried so you can't read it until after you have paid for the product, then they're asking you to <strong>turn off part of your brain</strong>, they're asking you to turn off part of your ability to work with other people and to do business, when you use their software."); ?></p>
+      <span class="source">Don Marti, <a href="http://www.go-opensource.org/go_open/episode_2/big_guns/" hreflang="en" title="<?php print _("Don Marti interview"); ?>"><?php print _("2005 interview"); ?></a></span>
+    </div>
 
     <h2 id="the_meaning_behind"><?php print _("The meaning behind"); ?></h2>
 
