@@ -1018,19 +1018,12 @@ footer #container {
     padding: 2em;
 }
 
-footer .block {
-    display: inline;
-    float: left;
-    margin-right: 8%;
-    max-width: 25%;
-}
-
 footer .block h1 {
     display: block;
     font-size: 1.2rem;
     font-weight: normal;
     line-height: 12px;
-    margin: 10px 0;
+    margin: 1em 0 10px;
     padding-bottom: 3px;
     text-align: start;
 }
@@ -1044,6 +1037,17 @@ footer ul {
 footer li {
     display: block;
     margin: 2px 0;
+}
+
+footer .block ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .block li {
+    display: inline-block;
+    margin: 0 1em 0 0;
 }
 
 footer a.more {
