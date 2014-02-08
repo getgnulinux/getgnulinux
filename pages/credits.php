@@ -72,6 +72,7 @@ $this->load_header();
         <li><a href="http://plugins.jquery.com/scrollTo/">jQuery scrollTo</a> by Ariel Flesler, <a href="http://opensource.org/licenses/MIT">MIT License</a>;</li>
         <li><a href="http://www.woothemes.com/flexslider/">jQuery FlexSlider</a> by WooThemes, <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License, version 2</a>;</li>
         <li><a href="http://craig.is/killing/mice">Mousetrap</a> by Craig Campbell, <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.</li>
+        <li><a href="http://benhowdle.im/svgeezy/">SVGeezy</a> by <a title="Ben Howdle" href="http://benhowdle.im">Ben Howdle</a> and <a title="Jack Smith" href="http://jacksmith.is">Jack Smith</a>, <a href="http://www.wtfpl.net/"><abbr title="Do What the Fuck You Want to Public License">WTFPL</abbr></a>.</li>
       </ul>
 
       <h2 id="translators">Translations</h2>
