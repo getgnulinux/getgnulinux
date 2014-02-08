@@ -29,20 +29,6 @@ $this->load_header();
       <p><?php # translators: use an official localised Ubuntu homepage if possible
       print _("A prominent, complete and friendly distribution to step into GNU/Linux is <a href=\"http://www.ubuntu.com\">Ubuntu</a>."); ?></p>
 
-        <div class="flexslider screenshots">
-          <ul class="slides">
-            <li>
-              <img src="/images/screenshots/ubuntu1.png" alt="Ubuntu screenshot" />
-            </li>
-            <li>
-              <img src="/images/screenshots/fedora1.png" alt="Fedora screenshot" />
-            </li>
-            <li>
-              <img src="/images/screenshots/trisquel2.png" alt="Trisquel screenshot" />
-            </li>
-          </ul>
-        </div>
-
       <h2><?php print _("Using Linux"); ?></h2>
 
       <p><?php print _("GNU/Linux is no harder to use than Windows, and has many more capabilities. It just takes a dozen minutes to get familiar with a distribution like <a href=\"http://www.ubuntu.com/\" title=\"Ubuntu, the easiest and friendliest GNU/Linux distribution around\">Ubuntu</a> or <a href=\"http://fedoraproject.org/\" title=\"Fedora, a friendly and more advanced GNU/Linux distribution\">Fedora</a>, which come in with many programs installed."); ?></p>
