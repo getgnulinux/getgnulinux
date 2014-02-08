@@ -83,17 +83,6 @@ textarea {
 }
 
 /* ==========================================================================
-   Browse Happy prompt
-   ========================================================================== */
-
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
-/* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
@@ -563,6 +552,41 @@ div.note {
 .slide-switch h1 {
     font-weight: 300;
     margin: 150px 0 0;
+}
+
+/*----------------------------------------------------
+ * Alert boxes
+ *----------------------------------------------------*/
+
+.alertbox {
+    background-color: #6B0006;
+    color: #FFFFFF;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.alertbox a,
+.alertbox a:visited,
+.alertbox a:hover {
+    color: #FFFFFF;
+    border-bottom: 1px dotted;
+    text-decoration: none;
+}
+
+.alertbox > p {
+    display: inline-block;
+    margin: 0.5em
+}
+
+.alertbox .close {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0.5em 1em;
+    opacity: 0.5;
+}
+.alertbox .close:hover {
+    opacity: 1;
 }
 
 /*----------------------------------------------------

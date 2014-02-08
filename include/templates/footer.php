@@ -40,15 +40,7 @@
           <li><a href="<?php $this->text('participate_url'); ?>" title="<?php print _("Ways to help."); ?>"><?php print _("More"); ?></a></li>
         </ul>
       </div>
-      <div class="block">
-        <h1><?php print _("Other"); ?></h1>
-        <ul class="footer-text">
-          <li><a href="http://browsehappy.com/" title="<?php print _("This website won't look as intended on an outdated browser. Upgrade your browser today!"); ?>"><?php
-          # translators: The link in the footer that links to browsehappy.com.
-          print _("Browse Happy"); ?></a></li>
-        </ul>
-      </div>
-    </div><!-- end clearfix -->
+    </div>
 
     <hr/>
 
@@ -76,7 +68,6 @@
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.10.2.min.js"><\/script>');</script>
 <script src="<?php $this->filever('/js/plugins.js'); ?>"></script>
 <script src="<?php $this->filever('/js/main.js'); ?>"></script>
-<script>svgeezy.init(false, 'png');</script>
 <?php
 switch ($this->page_name) {
     case null:

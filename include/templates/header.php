@@ -33,14 +33,15 @@
 
 <body>
 
-<!--[if lt IE 7]>
-    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
+<div class="alertbox browsehappy hidden">
+  <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <span class="close"><i class="fa fa-times-circle fa-lg" title="Close"></i></span>
+</div>
 
 <header id="header">
   <nav id="navbar" role="navigation">
     <ul>
-      <li id="logo"><a href="<?php $this->base_url(); ?>"><i class="fa fa-home fa-lg"></i></a></li>
+      <li id="home"><a href="<?php $this->base_url(); ?>"><i class="fa fa-home fa-lg"></i></a></li>
       <?php
       $menu_items = array(
         'linux' => _("What is Linux?"),

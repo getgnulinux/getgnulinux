@@ -1,5 +1,44 @@
 /* Bootstrap JavaScript stuff */
 $(document).ready(function() {
+    /* Enable PNG fallback for browsers not supporting SVG in img tags */
+    svgeezy.init(false, 'png');
+
+    /* Show an alert box if the browser is outdated */
+    (function() {
+      var $box = $(".alertbox.browsehappy"),
+          stateCookieName = 'alertbox_outdated_browser',
+          alreadyClosed = $.cookie(stateCookieName);
+
+      /* Use absence of SVG support as a criterion for an outdated browser */
+      if (!Modernizr.svg && !alreadyClosed) {
+        $box.removeClass('hidden');
+      }
+
+      $box.find('.close').click(function() {
+        $box.slideUp();
+        $.cookie(stateCookieName, 1, { expires: 30, path: '/' });
+      });
+    })();
+
+    /* Enable fancy scrolling on the Linux FAQ */
+    $('#faq #content a').click(function(){
+        $.scrollTo(this.hash, 500);
+    });
+
+    /* Check for stuff that needs to be toggled */
+    if ( (typeof toggle_items != 'undefined' && toggle_items instanceof Array) ) {
+        enable_toggle(toggle_items);
+    }
+
+    $("#translations .more").click(function () {
+        $("#translations #incomplete").toggle();
+    });
+
+    /* Mousetraps */
+    Mousetrap.bind("t u x enter", function(e) {
+        $("header #home i").removeClass("fa-home").addClass("fa-linux");
+    });
+
     /* Scroll to top (shamelessly copied from PHP.net) */
     (function() {
         var settings = {
@@ -39,25 +78,6 @@ $(document).ready(function() {
             }
         });
     })();
-
-    /* Fancy scroll the whole window */
-    $('#faq #content a').click(function(){
-        $.scrollTo(this.hash, 500);
-    });
-
-    /* Check for stuff that needs to be toggled */
-    if ( (typeof toggle_items != 'undefined' && toggle_items instanceof Array) ) {
-        enable_toggle(toggle_items);
-    }
-
-    $("#translations .more").click(function () {
-        $("#translations #incomplete").toggle();
-    });
-
-    /* Mousetraps */
-    Mousetrap.bind("t u x enter", function(e) {
-        $("header #logo i").removeClass("fa-home").addClass("fa-linux");
-    });
 });
 
 /* Enable toggle for elements with ID in array $items */
