@@ -31,7 +31,7 @@ $this->load_header();
 
       <h3 id="live_cd_what_is"><?php print _("Take no risk"); ?></h3>
 
-      <img src="/images/Disc.svg" class="float-right adjustable-20" alt="">
+      <img src="/images/Disc.svg" class="float-right width20p" alt="">
 
       <p><?php print _("Using a live CD means that Linux will be running on your computer <em>without installing anything</em>. It's a risk-less way to try and see by yourself what Linux is."); ?></p>
       <p><?php print _("When running on a live CD, your computer uses solely the CD-ROM to work (without accessing the hard drive inside). You can launch all of the default programs, edit documents, and browse the web."); ?></p>
@@ -62,7 +62,8 @@ $this->load_header();
 
       <p><?php print _("For the distributions we recommend, the live CD/DVD is the same as the installation CD/DVD. You can either download and burn a CD/DVD yourself, or order a CD/DVD from a trusted vendor."); ?></p>
 
-      <div class="download-box ubuntu">
+      <div class="download-box">
+        <img src="/images/UbuntuIcon.svg" alt="">
         <div class="content">
           <p><?php print _("You can download an <code>iso</code> image (rather large file) and then <a href=\"http://www.ubuntu.com/download/desktop/burn-a-dvd-on-windows\">burn it to a CD or DVD</a>. Once the CD/DVD is burned, you can use it to <a href=\"http://www.ubuntu.com/download/desktop/install-desktop-latest\">install Ubuntu</a> onto your computer."); ?></p>
 
@@ -77,7 +78,8 @@ $this->load_header();
         </div>
       </div>
 
-      <div class="download-box fedora">
+      <div class="download-box">
+        <img src="/images/FedoraIcon.png" alt="">
         <div class="content">
           <p><?php print _("The Fedora live CD/DVD also enables installation. Follow the <a href=\"http://docs.fedoraproject.org/en-US/Fedora/18/html/Installation_Quick_Start_Guide/index.html\">installation quick start guide</a> to get started with Fedora."); ?></p>
 
@@ -92,7 +94,8 @@ $this->load_header();
         </div>
       </div>
 
-      <div class="download-box trisquel">
+      <div class="download-box">
+        <img src="/images/TrisquelIcon.svg" alt="">
         <div class="content">
           <p><?php print _("The <a href=\"http://trisquel.info/en/wiki/installation-guide\">Trisquel installation</a> is very similar to that of Ubuntu."); ?></p>
 
@@ -115,7 +118,7 @@ $this->load_header();
   <section>
     <div class="maxwidth clearfix">
       <h2 id="free_software_pre_installed"><?php print _("Free Software pre-installed"); ?></h2>
-      <img src="/images/Laptop.png" class="float-right adjustable-20" alt="">
+      <img src="/images/Laptop.png" class="float-right width20p" alt="">
       <p><?php print _("Not all computers are shipped with Windows. If you do not wish to make the install yourself, or are in need of new hardware, you can get a laptop or a desktop pre-installed with GNU/Linux.<br/>
 We have compiled <a title=\"linux computers\" href=\"http://linuxpreloaded.com/\">a list of vendors pre-installing Linux at LinuxPreloaded.com</a> just for that reason."); ?></p>
     </div>
