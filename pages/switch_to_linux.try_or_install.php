@@ -31,12 +31,11 @@ $this->load_header();
 
       <h3 id="live_cd_what_is"><?php print _("Take no risk"); ?></h3>
 
-      <div class="adjustable-bg disc">
-        <p><?php print _("Using a live CD means that Linux will be running on your computer <em>without installing anything</em>. It's a risk-less way to try and see by yourself what Linux is."); ?></p>
-        <p><?php print _("When running on a live CD, your computer uses solely the CD-ROM to work (without accessing the hard drive inside). You can launch all of the default programs, edit documents, and browse the web."); ?></p>
-        <p><?php print _("Since it is only designed as a trial mode, it is a little slow (it will take you five minutes to boot up, and programs launch somewhat slowly). If you proceed to install, the system will go much faster."); ?></p>
-      </div>
+      <img src="/images/Disc.svg" class="float-right adjustable-20" alt="">
 
+      <p><?php print _("Using a live CD means that Linux will be running on your computer <em>without installing anything</em>. It's a risk-less way to try and see by yourself what Linux is."); ?></p>
+      <p><?php print _("When running on a live CD, your computer uses solely the CD-ROM to work (without accessing the hard drive inside). You can launch all of the default programs, edit documents, and browse the web."); ?></p>
+      <p><?php print _("Since it is only designed as a trial mode, it is a little slow (it will take you five minutes to boot up, and programs launch somewhat slowly). If you proceed to install, the system will go much faster."); ?></p>
 
       <h3 id="live_cd_what_need"><?php print _("What you need"); ?></h3>
 
@@ -56,7 +55,6 @@ $this->load_header();
       <p><?php print _("Installing Linux on your computer will take you less than 30 minutes. It is not an obvious step for complete beginners, but if you use computers on a daily basis this is very likely within your reach. If you have already re-installed Windows on your computer, rest assured that installing Linux is no harder."); ?></p>
     </div>
   </section>
-
 
   <section>
     <div class="maxwidth">
@@ -115,13 +113,11 @@ $this->load_header();
   </section>
 
   <section>
-    <div class="maxwidth">
-      <div class="adjustable-bg laptop">
-        <h2 id="free_software_pre_installed"><?php print _("Free Software pre-installed"); ?></h2>
-        <p><?php print _("Not all computers are shipped with Windows. If you do not wish to make the install yourself, or are in need of new hardware, you can get a laptop or a desktop pre-installed with GNU/Linux.<br/>
+    <div class="maxwidth clearfix">
+      <h2 id="free_software_pre_installed"><?php print _("Free Software pre-installed"); ?></h2>
+      <img src="/images/Laptop.png" class="float-right adjustable-20" alt="">
+      <p><?php print _("Not all computers are shipped with Windows. If you do not wish to make the install yourself, or are in need of new hardware, you can get a laptop or a desktop pre-installed with GNU/Linux.<br/>
 We have compiled <a title=\"linux computers\" href=\"http://linuxpreloaded.com/\">a list of vendors pre-installing Linux at LinuxPreloaded.com</a> just for that reason."); ?></p>
-      </div>
-
     </div>
   </section>
 

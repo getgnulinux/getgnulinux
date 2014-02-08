@@ -73,9 +73,10 @@
 </a>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.10.2.min.js"><\/script>');</script>
 <script src="<?php $this->filever('/js/plugins.js'); ?>"></script>
 <script src="<?php $this->filever('/js/main.js'); ?>"></script>
+<script>svgeezy.init(false, 'png');</script>
 <?php
 switch ($this->page_name) {
     case null:
