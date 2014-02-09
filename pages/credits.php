@@ -25,7 +25,7 @@ $this->load_header();
       <p>The <a href="<?php $this->text('project_url'); ?>" title="GitHub Project">source code</a> of the web application is licensed under the <a href="http://www.gnu.org/licenses/agpl-3.0.html">GNU Affero General Public License Version 3</a>.</p>
       <p>Copyright <?php echo date("Y"); ?> <a href="http://getgnulinux.org/">get GNU/Linux!</a></p>
 
-      <h2>Graphics</h2>
+      <h2 id="graphics">Graphics</h2>
       <p>Most graphics on this website are either copied from or derived from the following sources, according to their respective copyright licenses:</p>
 
       <ul>
@@ -57,14 +57,14 @@ $this->load_header();
         <li>The laptop image on the "Try or install" page used with permission from <a href="http://www.system76.com/">system76.com</a>.</li>
       </ul>
 
-      <h2>Fonts</h2>
+      <h2 id="fonts">Fonts</h2>
 
       <ul>
         <li><a href="http://www.google.com/fonts/specimen/Open+Sans">Open Sans</a> by Steve Matteson, <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License, version 2.0</a>;</li>
         <li><a href="http://fontawesome.io">Font Awesome</a> by Dave Gandy, <a href="http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web">SIL OFL 1.1</a> and <a href="http://opensource.org/licenses/MIT">MIT License</a>. <i class="fa fa-thumbs-o-up"></i></li>
       </ul>
 
-      <h2>Code</h2>
+      <h2 id="code">Code</h2>
 
       <ul>
         <li><a href="http://html5boilerplate.com/">HTML5 Boilerplate</a> by <a href="https://github.com/h5bp">H5BP</a>, <a href="http://opensource.org/licenses/MIT">MIT License</a>;</li>
