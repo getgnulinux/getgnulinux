@@ -74,15 +74,7 @@ switch ($this->page_name) {
   $(window).load(function() {
     $('.flexslider').flexslider({
         slideshow: false,
-        animation: "slide",
-        start: function(slider) {
-          Mousetrap.bind("n", function(e) {
-              slider.flexAnimate(slider.getTarget("next"));
-          });
-          Mousetrap.bind("p", function(e) {
-              slider.flexAnimate(slider.getTarget("previous"));
-          });
-        }
+        animation: "slide"
     });
   });
 </script>
