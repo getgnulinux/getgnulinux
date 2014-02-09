@@ -172,19 +172,9 @@ class GetGNULinux {
      * This method sets where gettext should obtain the localised content.
      */
     private function init_gettext() {
-        # Initialize gettext. Configure gettext to look in
-        # /locale/xx_YY/LC_MESSAGES/ for gettext_domain.mo.
-        $gettext_domain = $this->get('gettext_domain');
-
-        # Set language.
-        putenv("LANG=".$this->get('locale'));
-        setlocale(LC_ALL, $this->get('locale'));
-
-        # Specify location of translation tables
-        bindtextdomain($gettext_domain, "locale/");
-
-        # Choose domain
-        textdomain($gettext_domain);
+        $domain = $this->get('gettext_domain');
+        locale_change();
+        locale_gettext_domain($domain, "locale/");
     }
 
     /**
