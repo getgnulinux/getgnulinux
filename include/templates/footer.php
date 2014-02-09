@@ -22,8 +22,8 @@
     <hr/>
 
     <div class="block">
-      <h1><?php print _("About"); ?></h1>
       <ul>
+        <li><?php print _("About:"); ?></li>
         <li><a href="<?php $this->text('blog_url'); ?>" title="<?php print _("Read about news and updates."); ?>"><?php print _("Our blog"); ?></a></li>
         <li><a href="<?php $this->base_url('legal'); ?>" hreflang="en"><?php print _("Terms of use"); ?></a></li>
         <li><a href="<?php $this->base_url('credits'); ?>"><?php print _("Credits"); ?></a></li>
@@ -31,8 +31,8 @@
       </ul>
     </div>
     <div class="block">
-      <h1><?php print _("Participate"); ?></h1>
       <ul>
+        <li><?php print _("Participate:"); ?></li>
         <li><a href="<?php $this->base_url('link_buttons'); ?>" title="<?php print _("Help us spread free software!"); ?>"><?php print _("Link to us"); ?></a></li>
         <li><a href="<?php $this->text('tracker_url'); ?>" title="<?php print _("Found something awkward? Report it!"); ?>"><?php print _("Report a bug"); ?></a></li>
         <li><a href="<?php $this->text('l10n_url'); ?>" title="<?php print _("Help us reach an audience in your language!"); ?>"><?php print _("Translation"); ?></a></li>
