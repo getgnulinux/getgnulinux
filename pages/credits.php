@@ -31,7 +31,7 @@ $this->load_header();
       <ul>
         <li>Background patterns by <a href="http://subtlepatterns.com/">Subtle Patterns</a>, <abbr title="Creative Commons">CC</abbr> <abbr title="Attribution, Share Alike">BY-SA</abbr> license.</li>
 
-        <li><a href="http://openclipart.org/">OpenClipart</a> material, released to the Public Domain: <a href="/images/sources/switch_to_linux/CD.svg">CD.svg</a>, <a href="/images/sources/switch_to_linux/Display.svg">Display.svg</a></li>
+        <li><a href="http://openclipart.org/">OpenClipart</a> material, released to the Public Domain: <a href="/images/sources/switch_to_linux/Display.svg">Display.svg</a></li>
 
         <li><a href="http://tango.freedesktop.org/Tango_Icon_Library">Tango icons</a> by the <a href="http://tango.freedesktop.org/">Tango Desktop Project</a>, released to the Public Domain.</li>
 
@@ -185,6 +185,11 @@ $this->load_header();
       <p>
         <a href="https://www.transifex.com/accounts/profile/Yaron/">Yaron Shahrabani</a>
         and proofreading by Oren B.
+      </p>
+
+      <h4>Indonesian</h4>
+      <p>
+        <a href="https://www.transifex.com/accounts/profile/andimicro/">andimicro</a>.
       </p>
 
       <h4>Interlingua</h4>
