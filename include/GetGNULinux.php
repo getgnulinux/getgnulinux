@@ -56,6 +56,7 @@ class GetGNULinux {
         'he' => array('he_IL.UTF-8',"עִבְרִית"),
         'hr' => array('hr_HR.UTF-8',"Hrvatski"),
         'ia' => array('ia',			"Interlingua"),
+        'id' => array('id_ID.UTF-8',"Bahasa Indonesia"),
         'it' => array('it_IT.UTF-8',"Italiano"),
         'ja' => array('ja_JP.UTF-8',"日本語"),
         'lt' => array('lt_LT.UTF-8',"Lietuvių"),

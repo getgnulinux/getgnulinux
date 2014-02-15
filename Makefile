@@ -9,8 +9,8 @@ LOCALE_DIR = locale
 DOMAIN = getgnulinux
 CHARSET = UTF-8
 LOCALES = ar_SA ast_ES ca_AD da_DK de_DE en_US eo es_ES et_EE fi_FI fr_FR \
- gl_ES he_IL hr_HR ia it_IT ja_JP lt_LT ml_IN nl_NL pl_PL pt_BR pt_PT ru_RU \
- sr_RS tr_TR uk_UA uz_UZ vi_VN zh_CN zh_TW
+ gl_ES he_IL hr_HR ia id_ID it_IT ja_JP lt_LT ml_IN nl_NL pl_PL pt_BR pt_PT \
+ ru_RU sr_RS tr_TR uk_UA uz_UZ vi_VN zh_CN zh_TW
 
 # PO template file.
 template = $(LOCALE_DIR)/$(DOMAIN)/$(DOMAIN).pot
