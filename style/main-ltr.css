@@ -121,6 +121,7 @@ h2 a,
 h2 a:hover,
 h2 a:visited {
     color: #333333;
+    text-decoration: none;
 }
 
 h1 {
@@ -184,21 +185,20 @@ img, embed, object, video {
 }
 
 a {
-    color: #2A5886;
-    text-decoration: none;
+    color: #0070BB;
+}
+
+a:visited {
+    color: #4672A1;
 }
 
 a:hover {
-    color: #0000CC;
+    color: #25A2E3;
     text-decoration: underline;
 }
 
 a:active {
-    color: red;
-}
-
-a:visited {
-    color: #2351B9;
+    color: #C44514;
 }
 
 a img {
@@ -281,6 +281,7 @@ nav.chapters .title a {
     display: inline-block;
     line-height: 2em;
     margin: 0.5em;
+    text-decoration: none;
 }
 
 nav.chapters ul {
@@ -302,6 +303,12 @@ nav.chapters ul li a:visited {
     color: #3C4043;
     display: inline-block;
     line-height: 1.8em;
+    text-decoration: none;
+}
+
+nav.chapters .title a:hover,
+nav.chapters ul li a:hover {
+    text-decoration: underline;
 }
 
 nav.chapters .active a,
@@ -310,14 +317,6 @@ nav.chapters .active a:hover {
     text-decoration: none;
     font-weight: bold;
     text-shadow: 0 1px 0 #FFFFFF;
-}
-
-nav.chapters ul li:last-child {
-    border-right: medium none;
-}
-
-nav.chapters li a:hover {
-    color: #043f58;
 }
 
 /*----------------------------------------------------
@@ -652,6 +651,7 @@ div.button.wide {
     -webkit-border-radius: 4px;
     color: #FFFFFF;
     padding: 0.7em 1em;
+    text-decoration: none;
     text-shadow: 0 1px 1px rgba(0,0,0,0.30);
     -webkit-transition: background 100ms linear;
     -moz-transition: background 100ms linear;
@@ -975,6 +975,10 @@ footer {
     color: #CCCCCC;
     margin-bottom: 0;
     width: 100%;
+}
+
+footer a {
+    text-decoration: none;
 }
 
 footer a,
