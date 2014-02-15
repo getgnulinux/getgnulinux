@@ -16,8 +16,9 @@ $this->load_header();
     <div class="flexslider home">
       <ul class="slides">
         <li>
-          <div class="fp-slide slide-ggl">
+          <div class="fp-slide ggl">
 
+            <img src="/images/slides/GNU_Tux.svg" alt="">
             <h1><?php print _("get GNU/Linux!"); ?></h1>
             <div class="slide-text">
               <p><?php # translators: This is the very first sentence every visitor is going to read. Please pay great attention to making it sound great, we only have one try! =)
@@ -27,8 +28,9 @@ $this->load_header();
           </div>
         </li>
         <li>
-          <div class="fp-slide slide-linux">
+          <div class="fp-slide linux">
 
+            <img src="/images/slides/Help.svg" alt="">
             <h1><?php print _("What is GNU/Linux?"); ?></h1>
             <div class="slide-text">
               <p><?php print _("Learn more about the free operating system"); ?></p>
@@ -40,8 +42,9 @@ $this->load_header();
           </div>
         </li>
         <li>
-          <div class="fp-slide slide-windows">
+          <div class="fp-slide windows">
 
+            <img src="/images/slides/Warning.svg" alt="">
             <h1><?php print _("Why not Windows"); ?></h1>
             <div class="slide-text">
               <p><?php print _("Why we should avoid using Microsoft Windows"); ?></p>
@@ -53,8 +56,9 @@ $this->load_header();
           </div>
         </li>
         <li>
-          <div class="fp-slide slide-switch">
+          <div class="fp-slide switch">
 
+            <img src="/images/slides/Disc.svg" alt="">
             <h1><?php print _("Switch to Linux"); ?></h1>
             <div class="slide-text">
               <p><?php print _("Where to download and how to step into Linux"); ?></p>
