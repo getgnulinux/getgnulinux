@@ -43,6 +43,7 @@ class GetGNULinux {
     private static $locales = array(
         'ar' => array('ar_SA.UTF-8',"العربية"),
         'ast' => array('ast_ES.UTF-8',"Asturianu"),
+        'bg' => array('bg_BG.UTF-8',"български"),
         'ca' => array('ca_AD.UTF-8',"Català"),
         'da' => array('da_DK.UTF-8',"Dansk"),
         'de' => array('de_DE.UTF-8',"Deutsch"),
@@ -60,6 +61,7 @@ class GetGNULinux {
         'it' => array('it_IT.UTF-8',"Italiano"),
         'ja' => array('ja_JP.UTF-8',"日本語"),
         'lt' => array('lt_LT.UTF-8',"Lietuvių"),
+        'mk' => array('mk_MK.UTF-8',"Македонски"),
         'ml' => array('ml_IN',		"മലയാളം"),
         'nl' => array('nl_NL.UTF-8',"Nederlands"),
         'pl' => array('pl_PL.UTF-8',"Polski"),
@@ -81,7 +83,7 @@ class GetGNULinux {
      * @var array
      */
     private static $locales_complete = array('ast','ca','en','es','fr','he',
-        'nl','pt-br','ru','zh', 'zh-tw');
+        'mk', 'nl','pt-br','ru','zh', 'zh-tw');
 
     /**
      * Set of ISO language codes for right-to-left languages.
