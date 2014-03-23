@@ -93,6 +93,11 @@ $this->load_header();
         <a href="http://softastur.org/">Softastur translators team</a>.
       </p>
 
+      <h4>Bulgarian</h4>
+      <p>
+        <a href="https://www.transifex.com/accounts/profile/CrasHandBurN/">Atanas Kovachki</a>.
+      </p>
+
       <h4>Catalan</h4>
       <p>
         <a href="https://www.transifex.com/accounts/profile/papapep/">Josep Sànchez</a>,
@@ -213,6 +218,11 @@ $this->load_header();
       <h4>Lithuanian</h4>
       <p>
         <a href="https://www.transifex.com/accounts/profile/noTime/">Tadas Domarkas</a>.
+      </p>
+
+      <h4>Macedonian</h4>
+      <p>
+        <a href="https://www.transifex.com/accounts/profile/exoos/">exoos</a>.
       </p>
 
       <h4>Polish</h4>
