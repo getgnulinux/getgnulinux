@@ -36,7 +36,7 @@ Now open the newly created `settings.php` in a text editor and change the settin
 
 Other languages will not work until both the required locale definition files and the translations are built on the server. Usually, the locale definition files are already built on the server, but if you need to build them you can executed the following command on the server as root:
 
-    $ make localesgen
+    $ make locales
 
 The `locale/getgnulinux/` directory contains the PO files (these contain the translations). You need to compile these PO files to enable the translations on the website:
 
