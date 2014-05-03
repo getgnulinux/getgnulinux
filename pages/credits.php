@@ -182,6 +182,7 @@ $this->load_header();
         <a href="https://www.transifex.com/accounts/profile/KIAaze/">KIAaze</a>,
         <a href="https://www.transifex.com/accounts/profile/emukis/">Marcel</a>,
         <a href="https://www.transifex.com/accounts/profile/monoto/">monoto</a>,
+        <a href="https://www.transifex.com/accounts/profile/stegomon/">stegomon</a>,
         <a href="https://www.transifex.com/accounts/profile/ToBeFree/">Tobias Frei</a>,
         and others.
       </p>
@@ -245,6 +246,7 @@ $this->load_header();
       <h4>Russian</h4>
       <p>
         <a href="https://www.transifex.com/accounts/profile/Alissa/">Alissa</a>,
+        <a href="https://www.transifex.com/accounts/profile/Antic1tizen/">Antic1tizen</a>,
         <a href="https://www.transifex.com/accounts/profile/player1_76/">Фёдор Ходьков</a>, and
         <a href="https://www.transifex.com/accounts/profile/vst/">V'yacheslav Stetskevych</a>.
       </p>
@@ -252,6 +254,7 @@ $this->load_header();
       <h4>Spanish</h4>
       <p>
         <a href="https://www.transifex.com/accounts/profile/technoguyx/">Bastián Núñez</a>,
+        <a href="https://www.transifex.com/accounts/profile/durka42/">durka42</a>,
         <a href="https://www.transifex.com/accounts/profile/Funkin/">Emilio Sepúlveda</a>,
         <a href="http://gustavonarea.net/">Gustavo Narea</a>,
         Jonathan H. Fernández,
