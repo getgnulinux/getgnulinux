@@ -221,6 +221,11 @@ $this->load_header();
         <a href="https://www.transifex.com/accounts/profile/noTime/">Tadas Domarkas</a>.
       </p>
 
+      <h4>Lojban</h4>
+      <p>
+        <a href="https://www.transifex.com/accounts/profile/kiepier/">kiepier</a>.
+      </p>
+
       <h4>Macedonian</h4>
       <p>
         <a href="https://www.transifex.com/accounts/profile/exoos/">exoos</a>.
@@ -236,6 +241,7 @@ $this->load_header();
       <p>
         <a href="https://www.transifex.com/accounts/profile/bruno_b/">Bruno Bacelar</a>,
         <a href="https://www.transifex.com/accounts/profile/ezequiel.ezb/">Ezequiel Santos</a>,
+        <a href="https://www.transifex.com/accounts/profile/maz/">Fábio C. Barrionuevo da Luz</a>,
         <a href="https://www.transifex.com/accounts/profile/heuripedes/">Higor</a>,
         <a href="https://www.transifex.com/accounts/profile/JulioMario/">Julio Mario Jr.</a>,
         <a href="https://www.transifex.com/accounts/profile/nadiastabile/">Nadia Stabile</a>,
@@ -260,6 +266,11 @@ $this->load_header();
         Jonathan H. Fernández,
         Martín Carr, and
         Miguel L. García.
+      </p>
+
+      <h4>Swedish</h4>
+      <p>
+        <a href="https://www.transifex.com/accounts/profile/riiga/">riiga</a>.
       </p>
 
       <h4>Turkish</h4>
