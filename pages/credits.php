@@ -224,6 +224,7 @@ $this->load_header();
 
       <h4>Lojban</h4>
       <p>
+        <a href="https://www.transifex.com/accounts/profile/durka42/">durka42</a> and
         <a href="https://www.transifex.com/accounts/profile/kiepier/">kiepier</a>.
       </p>
 
