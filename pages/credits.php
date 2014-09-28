@@ -179,6 +179,7 @@ $this->load_header();
 
       <h4>German</h4>
       <p>
+        <a href="https://www.transifex.com/accounts/profile/Atalanttore/">Ettore Atalan</a>,
         <a href="https://www.transifex.com/accounts/profile/KIAaze/">KIAaze</a>,
         <a href="https://www.transifex.com/accounts/profile/emukis/">Marcel</a>,
         <a href="https://www.transifex.com/accounts/profile/monoto/">monoto</a>,
