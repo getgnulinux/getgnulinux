@@ -180,10 +180,12 @@ $this->load_header();
       <h4>German</h4>
       <p>
         <a href="https://www.transifex.com/accounts/profile/Atalanttore/">Ettore Atalan</a>,
+        <a href="https://www.transifex.com/accounts/profile/desperateCoder/">guyfawkes</a>,
         <a href="https://www.transifex.com/accounts/profile/KIAaze/">KIAaze</a>,
         <a href="https://www.transifex.com/accounts/profile/emukis/">Marcel</a>,
         <a href="https://www.transifex.com/accounts/profile/monoto/">monoto</a>,
         <a href="https://www.transifex.com/accounts/profile/stegomon/">stegomon</a>,
+        <a href="https://www.transifex.com/accounts/profile/to_ba/">Tobias Bannert</a>,
         <a href="https://www.transifex.com/accounts/profile/ToBeFree/">Tobias Frei</a>,
         and others.
       </p>
