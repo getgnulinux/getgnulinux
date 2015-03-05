@@ -155,6 +155,7 @@ $this->load_header();
 
       <h4>French</h4>
       <p>
+        <a href="https://www.transifex.com/accounts/profile/nh2amine/">Amine Brikci-Nigassa</a>,
         Anthony Verez,
         Bruno Bord,
         Bruno Ethvignot,
@@ -164,8 +165,8 @@ $this->load_header();
         Laurent Richard,
         Loïs Di Qual,
         <a href="https://www.transifex.com/accounts/profile/mauron/">mauron</a>,
-        <a href="https://www.transifex.com/accounts/profile/nh2amine/">Amine Brikci-Nigassa</a>,
         <a href="http://www.ariadacapo.net/">Olivier Cleynen</a>,
+        <a href="https://www.transifex.com/accounts/profile/RyDroid/">Spanti Nicola</a>,
         <a href="https://www.transifex.com/accounts/profile/lkppo/">Stéphane Aulery</a>, and
         Thiébaut Hillenweck.
       </p>
