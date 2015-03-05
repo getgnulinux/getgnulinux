@@ -31,7 +31,7 @@ xgettext_flags = -caiF --add-comments=translators --force-po \
 
 .PHONY : help
 help:
-	@echo "Please use \`make <target>' where <target> is one of"
+	@echo "The following targets are available:"
 	@echo "  config         to create the settings.php file"
 	@echo "  locales        to generate the required locale definition files for your system"
 	@echo "  pot            to make the PO Template file $(DOMAIN).pot"
@@ -97,4 +97,3 @@ make-locales.sh: scripts/make-locales.sh.m4
 	$(M4) -D UTF8_LOCALES="$(utf8_locales)" -D LOCALES="$(LOCALES)" -D LOCALE_DIR=$(LOCALE_DIR) \
 	-D LOCALE_GEN=$(LOCALE_GEN) $< > $@
 	chmod +x $@
-
