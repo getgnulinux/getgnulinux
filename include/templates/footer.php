@@ -44,14 +44,11 @@
 
     <div class="notices" dir="ltr">
       <p>
-        Except where otherwise <a href="<?php $this->base_url('legal'); ?>">noted</a>, content on this site is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license"><abbr title="Creative Commons Attribution-ShareAlike">CC BY-SA</abbr> 3.0 License</a>.<br/>
-        Optimized for <a href="http://validator.w3.org/check?uri=referer">standards</a>. Hosted by <a href="http://tuxfamily.org/">TuxFamily</a>.
+        <?php # translators: If there is an official translation for the license, use that URL instead. Make sure you use the URL for CC BY-SA 3.0.
+        $p = _("Except where otherwise <a href=\"%s\">noted</a>, content on this site is licensed under a <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" rel=\"license\"><abbr title=\"Creative Commons Attribution-ShareAlike\">CC BY-SA</abbr> 3.0 License</a>."); printf($p, $this->base_url('legal',1)); ?><br/>
+        <?php print _("Generously hosted by <a href=\"http://tuxfamily.org/\">TuxFamily</a>."); ?>
+        <?php $p = _("This site is <a href=\"%s\">open source</a>."); printf($p, $ggl->get('project_url')); ?>
       </p>
-
-      <ul class="icons">
-        <li><a href="<?php $this->text('project_url'); ?>" title="GitHub Project"><i class="fa fa-github fa-2x"></i></a></li>
-        <?php if ( $ggl->get('flattr') ) { ?><li><a href="<?php $this->text('flattr_url'); ?>" title="Flattr this"><i class="fa fa-heart-o fa-2x"></i></a></li><?php } ?>
-      </ul>
     </div>
 
   </div>
