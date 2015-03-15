@@ -115,7 +115,7 @@ $this->load_header();
 
       <h4>Chinese (Traditional)</h4>
       <p>
-        <a href="https://www.transifex.com/accounts/profile/s8321414/">冥王歐西里斯</a>,
+        <a href="https://www.transifex.com/accounts/profile/s8321414/">Jeff Huang</a>,
         <a href="https://www.transifex.com/accounts/profile/Hapsburg/">Agustín Wu</a>,
         <a href="https://www.transifex.com/accounts/profile/brli7848/">BrLi</a>,
         <a href="https://www.transifex.com/accounts/profile/maxwux/">Max Wu</a>,

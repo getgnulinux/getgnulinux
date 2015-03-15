@@ -9,6 +9,7 @@
 # BrLi <rainman59118@gmail.com>, 2013,2015
 # 釋常耀 <cyaos@ddmf.org.tw>, 2013
 # Agustín Wu <losangwuyts@gmail.com>, 2013
+# Jeff Huang <s8321414@gmail.com>, 2015
 # Jeff Huang <s8321414@gmail.com>, 2013
 # Po-Chun Huang <aphroteus@gmail.com>, 2013
 # Jeff Huang <s8321414@gmail.com>, 2013
@@ -22,9 +23,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/figure002/getgnulinux/issues\n"
-"POT-Creation-Date: 2015-03-05 11:03+0100\n"
-"PO-Revision-Date: 2015-03-05 05:15+0000\n"
-"Last-Translator: BrLi <rainman59118@gmail.com>\n"
+"POT-Creation-Date: 2015-03-15 20:14+0100\n"
+"PO-Revision-Date: 2015-03-05 23:18+0000\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/"
 "getgnulinux/language/zh_TW/)\n"
 "Language: zh_TW\n"
@@ -303,6 +304,28 @@ msgstr "翻譯"
 #: include/templates/footer.php:39
 msgid "Ways to help."
 msgstr "尋求幫助"
+
+#. translators: If there is an official translation for the license, use that URL instead. Make sure you use the URL for CC BY-SA 3.0.
+#: include/templates/footer.php:48
+#, php-format
+msgid ""
+"Except where otherwise <a href=\"%s\">noted</a>, content on this site is "
+"licensed under a <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" "
+"rel=\"license\"><abbr title=\"Creative Commons Attribution-ShareAlike\">CC "
+"BY-SA</abbr> 3.0 License</a>."
+msgstr ""
+"除非另有 <a href=\"%s\">註明</a> ，本網站內容均採用<a href=\"http://"
+"creativecommons.org/licenses/by-sa/3.0/\" rel=\"license\"><abbr title=\"創用"
+"CC 署名-相同方式共享\">CC BY-SA</abbr> 3.0 協議</a>授權。"
+
+#: include/templates/footer.php:49
+msgid "Generously hosted by <a href=\"http://tuxfamily.org/\">TuxFamily</a>."
+msgstr "託管於慷慨的 <a href=\"http://tuxfamily.org/\">TuxFamily</a>."
+
+#: include/templates/footer.php:50
+#, php-format
+msgid "This site is <a href=\"%s\">open source</a>."
+msgstr "這個頁面是 <a href=\"%s\">開放原始碼的</a>。"
 
 #. translators: The "AWOL" part doesn't need to be translated literally.
 #: pages/404.php:24

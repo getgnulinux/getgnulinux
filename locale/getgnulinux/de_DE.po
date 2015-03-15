@@ -4,7 +4,7 @@
 #
 # Translators:
 # emukis, 2013
-# Ettore Atalan <atalanttore@googlemail.com>, 2014
+# Ettore Atalan <atalanttore@googlemail.com>, 2014-2015
 # GLM Websites Edition Team <websites@gnulinuxmatters.org>, 2008
 # guyfawkes <a.dawtjan@gmx.de>, 2015
 # KIAaze <zohn.joidberg@gmail.com>, 2011
@@ -22,9 +22,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/figure002/getgnulinux/issues\n"
-"POT-Creation-Date: 2015-03-05 11:03+0100\n"
-"PO-Revision-Date: 2015-01-27 00:06+0000\n"
-"Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
+"POT-Creation-Date: 2015-03-15 20:14+0100\n"
+"PO-Revision-Date: 2015-03-08 15:07+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German (Germany) (http://www.transifex.com/projects/p/"
 "getgnulinux/language/de_DE/)\n"
 "Language: de_DE\n"
@@ -208,6 +208,7 @@ msgstr ""
 #: include/GetGNULinux.php:251
 msgid "Restrictions in a proprietary software license - more details."
 msgstr ""
+"Beschränkungen in einer proprietären Software-Lizenz - weitere Details."
 
 #. translators: This is the description of the 'Stand for a free society' page
 #: include/GetGNULinux.php:253 pages/windows.php:71
@@ -274,7 +275,7 @@ msgstr "Uns kontaktieren"
 
 #: include/templates/footer.php:35
 msgid "Participate:"
-msgstr ""
+msgstr "Mitmachen:"
 
 #: include/templates/footer.php:36 pages/link_buttons.php:19
 msgid "Help us spread free software!"
@@ -303,6 +304,25 @@ msgstr "Übersetzung"
 #: include/templates/footer.php:39
 msgid "Ways to help."
 msgstr "Möglichkeiten mitzuhelfen."
+
+#. translators: If there is an official translation for the license, use that URL instead. Make sure you use the URL for CC BY-SA 3.0.
+#: include/templates/footer.php:48
+#, php-format
+msgid ""
+"Except where otherwise <a href=\"%s\">noted</a>, content on this site is "
+"licensed under a <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" "
+"rel=\"license\"><abbr title=\"Creative Commons Attribution-ShareAlike\">CC "
+"BY-SA</abbr> 3.0 License</a>."
+msgstr ""
+
+#: include/templates/footer.php:49
+msgid "Generously hosted by <a href=\"http://tuxfamily.org/\">TuxFamily</a>."
+msgstr ""
+
+#: include/templates/footer.php:50
+#, php-format
+msgid "This site is <a href=\"%s\">open source</a>."
+msgstr "Diese Seite ist <a href=\"%s\">quelloffen</a>."
 
 #. translators: The "AWOL" part doesn't need to be translated literally.
 #: pages/404.php:24
@@ -381,7 +401,7 @@ msgstr ""
 
 #: pages/link_buttons.php:63
 msgid "Licensing"
-msgstr ""
+msgstr "Lizenzierung"
 
 #. translators: The link will automatically point to the "credits" page. Please leave the "#link_buttons" part as such; it is an internal link.
 #: pages/link_buttons.php:66
