@@ -1,6 +1,6 @@
 # Get GNU/Linux!
 
-This is the web application for the [getgnulinux.org](http://getgnulinux.org) site. Get GNU/Linux! is a simple, clear website about GNU/Linux. What is Linux? Why not Windows? Tips to make the switch. With this website we hope to reach people who never heard about free software and barely remotely heard the word "Linux".
+This is the web application for the [getgnulinux.org](http://getgnulinux.org) site. Get GNU/Linux! is a simple, clear website about GNU/Linux. What is GNU/Linux? Why not Windows? Tips to make the switch. With this website we hope to reach people who never heard about free software and barely remotely heard the word "Linux".
 
 The website is written in PHP and JavaScript, and uses GNU gettext for internationalization.
 
@@ -30,25 +30,17 @@ This clones the repository into a new directory called "getgnulinux". This is th
 
 The site should now be running on http://localhost/. It will tell you that you need to create a file `settings.php` in the root directory. Run the following command from the root directory to create it:
 
-    $ make config
+    $ make settings.php
 
 Now open the newly created `settings.php` in a text editor and change the settings where needed.
 
-Other languages will not work until both the required locale definition files and the translations are built on the server. Usually, the locale definition files are already built on the server, but if you need to build them you can executed the following command on the server as root:
-
-    $ make locales
+Other languages will not work until both the required locale definition files and the translations are built on the server. Usually, the locale definition files are already built on the server, but if you need to build them you can execute the helper script `scripts/make-locales.sh` as root.
 
 The `locale/getgnulinux/` directory contains the PO files (these contain the translations). You need to compile these PO files to enable the translations on the website:
 
-    $ make mo
+    $ make
 
-When a PO file is updated, you'll need to recompile it to see the changes on the website. You can use the `LOCALES` variable to specify which PO files to compile (default is to compile all), for example:
-
-    $ make mo LOCALES='ia es_ES fr_FR'
-
-You can also use the `mo` target to create new PO files. For example, to create a PO file for Korean, use:
-
-    $ make mo LOCALES=ko_KR
+When a PO file is updated, you'll need to recompile it to see the changes on the website. Just run the `make` command again.
 
 
 ## Contributing

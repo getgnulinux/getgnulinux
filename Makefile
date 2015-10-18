@@ -1,59 +1,77 @@
 # Makefile for getgnulinux.org
 #
 
-# You can set these variables from the command line.
 XGETTEXT = xgettext
-LOCALE_GEN = locale-gen
-M4 = m4
 LOCALE_DIR = locale
 DOMAIN = getgnulinux
 CHARSET = UTF-8
-LOCALES = ar_SA ast_ES bg_BG ca_AD da_DK de_DE en_US eo es_ES et_EE fi_FI fr_FR \
- gl_ES he_IL hr_HR ia id_ID it_IT ja_JP lt_LT mk_MK ml_IN nl_NL pl_PL pt_BR \
- pt_PT ru_RU sr_RS sv_SE tr_TR uk_UA uz_UZ vi_VN zh_CN zh_TW
 
-# PO template file.
-template = $(LOCALE_DIR)/$(DOMAIN)/$(DOMAIN).pot
-
-# These are locales that by default use the UTF-8 character set. For these
-# locales the ".UTF-8" suffix should not be used when compiling locale
-# definition files.
-utf8_locales = ia ml_IN sr_RS vi_VN
-
-# xgettext flags.
 xgettext_flags = -caiF --add-comments=translators --force-po \
 --default-domain=$(DOMAIN) \
 --copyright-holder="Get GNU/Linux!" \
 --package-name="getgnulinux" \
 --package-version=1 \
 --msgid-bugs-address="https://github.com/figure002/getgnulinux/issues" \
---from-code=UTF-8 -k_ \
+--from-code=UTF-8 -k_
 
-.PHONY : help
-help:
-	@echo "The following targets are available:"
-	@echo "  config         to create the settings.php file"
-	@echo "  locales        to generate the required locale definition files for your system"
-	@echo "  pot            to make the PO Template file $(DOMAIN).pot"
-	@echo "  mo             to update the PO files from the template and build binary MO files"
-	@echo "  rmpot          to remove the PO Template file $(DOMAIN).pot"
-
-# Make settings file
-.PHONY : config.
-config: settings.php
+.PHONY : getgnulinux
+getgnulinux: settings.php \
+ 		 	$(LOCALE_DIR)/ar_SA/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/ast_ES/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/bg_BG/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/ca_AD/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/da_DK/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/de_DE/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/eo/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/es_ES/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/et_EE/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/fi_FI/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/fr_FR/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/gl_ES/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/he_IL/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/hr_HR/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/ia/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/id_ID/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/it_IT/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/ja_JP/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/lt_LT/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/mk_MK/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/ml_IN/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/nl_NL/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/pl_PL/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/pt_BR/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/pt_PT/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/ru_RU/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/sr_RS/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/sv_SE/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/tr_TR/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/uk_UA/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/uz_UZ/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/vi_VN/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/zh_CN/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/zh_TW/LC_MESSAGES/$(DOMAIN).mo
 
 settings.php:
-	cp include/templates/settings.php settings.php
+	@echo "Creating $@"
+	cp include/templates/settings.php $@
+	@echo "Open $@ in a text editor to configure GGL."
 	@echo
-	@echo "Done. Open settings.php in a text editor to change settings."
 
-# Make POT file.
-.PHONY : pot
-pot: $(template)
+$(LOCALE_DIR)/%/LC_MESSAGES/$(DOMAIN).mo: $(LOCALE_DIR)/$(DOMAIN)/%.po $(LOCALE_DIR)/%/LC_MESSAGES
+	@echo "Building $@"
+	msgfmt -v $< -o $@
+	@echo
 
-# Make the PO Template file. In order to update the POT file, the file needs
-# to be removed with `make rmpot' first.
-$(template): include/*.php include/templates/*.php pages/*.php
+$(LOCALE_DIR)/$(DOMAIN)/%.po: $(LOCALE_DIR)/$(DOMAIN)/$(DOMAIN).pot
+	@echo "Updating $@"
+	msgmerge -v -U $@ $<
+	@echo
+
+$(LOCALE_DIR)/%/LC_MESSAGES:
+	mkdir -p $@
+
+$(LOCALE_DIR)/$(DOMAIN)/$(DOMAIN).pot: include/*.php include/templates/*.php pages/*.php
+	@echo "Updating $@"
 	$(XGETTEXT) $(xgettext_flags) -o $@ $^
 	msguniq -o $@ $@
 	@sed --in-place "$@" --expression=s/"SOME DESCRIPTIVE TITLE."/"Translation file for the getgnulinux.org website."/
@@ -63,37 +81,4 @@ $(template): include/*.php include/templates/*.php pages/*.php
 	@sed --in-place "$@" --expression=s/CHARSET/$(CHARSET)/
 	@sed --in-place "$@" --expression=s/"Language: "/"Language: en"/
 	@echo
-	@echo "Build finished. The PO Template file: $@"
 
-# Remove POT file.
-.PHONY : rmpot
-rmpot:
-	@rm -i $(template)
-
-# Update the PO files from the template and build binary MO file for each locale.
-.PHONY : mo
-mo: make-po.sh $(template)
-	./$<
-	rm $<
-	@echo
-	@echo "Build finished. The PO files are in $(LOCALE_DIR)/$(DOMAIN)/."
-
-make-po.sh: scripts/make-po.sh.m4
-	$(M4) -D LOCALES="$(LOCALES)" -D LOCALE_DIR=$(LOCALE_DIR) -D \
-	TEMPLATE=$(template) -D DOMAIN=$(DOMAIN) $< > $@
-	chmod +x $@
-
-# Before the webserver can use the MO files for the locales, the required
-# locale definition files must be compiled first. See `man locale-gen' for
-# more info.
-.PHONY : locales
-locales: make-locales.sh
-	./$<
-	rm $<
-	@echo
-	@echo "Generating locale definition files finished. Restart your webserver to load the new locales."
-
-make-locales.sh: scripts/make-locales.sh.m4
-	$(M4) -D UTF8_LOCALES="$(utf8_locales)" -D LOCALES="$(LOCALES)" -D LOCALE_DIR=$(LOCALE_DIR) \
-	-D LOCALE_GEN=$(LOCALE_GEN) $< > $@
-	chmod +x $@
