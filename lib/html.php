@@ -219,8 +219,9 @@ class HTML {
      * @return string The path or URL of a page.
      */
     function base_url($path=null, $return=false, $base=false) {
-        global $ggl, $lang;
+        global $ggl;
 
+        $lang = $ggl->get('lang');
         $url = $base ? $ggl->get('base_url') : "/";
 
         # If the language is set in the URL, keep using it in links.
@@ -287,11 +288,10 @@ class HTML {
      * @param array $locales A locales array.
      * @uses GetGnuLinux $ggl
      */
-    function language_links($locales)
-    {
+    function language_links($locales) {
         global $ggl;
-        $links = array();
 
+        $links = array();
         foreach ($locales as $lang => $items) {
             list($locale, $native) = $items;
             $links[] = sprintf('<a href="/%s" hreflang="%s"><span dir="%s">%s</span></a>',

@@ -20,36 +20,25 @@
  *
  */
 
-# Set the base path. This is used as a base path to locate files.
 $root = dirname( __FILE__ );
 define('ROOT', $root);
-
-# Mark valid web server entry point.
 define('GGL', true);
 
-# Load required classes and methods.
+// Load the initialization script.
 require_once("$root/lib/init.php");
 
-# Instantiate the base class.
+$http = new HTTP2();
 $ggl = new GGL();
-
-# Instantiate the HTML generator.
 $html = new HTML();
 
-# Load user settings from the settings file. If the settings file is not
-# present, give the directions to create one.
 if ( is_file("$root/settings.php") ) {
     require_once("$root/settings.php");
 } else {
-    include("$root/lib/setup.php");
+    include("$root/templates/setup.php");
     exit(1);
 }
 
-# Initialyze the base class.
 $ggl->init();
-
-# Generate the page.
 $html->load_content();
 
-# Succesful termination.
 exit(0);

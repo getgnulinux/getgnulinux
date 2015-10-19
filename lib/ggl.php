@@ -41,42 +41,42 @@ class GGL {
      * @var array
      */
     private static $locales = array(
-        'ar' => array('ar_SA.UTF-8',"العربية"),
-        'ast' => array('ast_ES.UTF-8',"Asturianu"),
-        'bg' => array('bg_BG.UTF-8',"български"),
-        'ca' => array('ca_AD.UTF-8',"Català"),
-        'da' => array('da_DK.UTF-8',"Dansk"),
-        'de' => array('de_DE.UTF-8',"Deutsch"),
-        'en' => array('en_US.UTF-8',"English"),
-        'eo' => array('eo.UTF-8',	"Esperanto"),
-        'es' => array('es_ES.UTF-8',"Español"),
-        'et' => array('et_EE.UTF-8',"Eesti"),
-        'fi' => array('fi_FI.UTF-8',"Suomi"),
-        'fr' => array('fr_FR.UTF-8',"Français"),
-        'gl' => array('gl_ES.UTF-8',"Galego"),
-        'he' => array('he_IL.UTF-8',"עִבְרִית"),
-        'hr' => array('hr_HR.UTF-8',"Hrvatski"),
-        'ia' => array('ia',			"Interlingua"),
-        'id' => array('id_ID.UTF-8',"Bahasa Indonesia"),
-        'it' => array('it_IT.UTF-8',"Italiano"),
-        'ja' => array('ja_JP.UTF-8',"日本語"),
-        #'jbo' => array('jbo.UTF-8',"Lojban"),
-        'lt' => array('lt_LT.UTF-8',"Lietuvių"),
-        'mk' => array('mk_MK.UTF-8',"Македонски"),
-        'ml' => array('ml_IN',		"മലയാളം"),
-        'nl' => array('nl_NL.UTF-8',"Nederlands"),
-        'pl' => array('pl_PL.UTF-8',"Polski"),
-        'pt' => array('pt_PT.UTF-8',"Português"),
-        'pt-br' => array('pt_BR.UTF-8',"Português Brasileiro"),
-        'ru' => array('ru_RU.UTF-8',"Русский"),
-        'sr' => array('sr_RS',		"Српски"),
-        'sv' => array('sv_SE',		"Svenska"),
-        'tr' => array('tr_TR.UTF-8',"Türkçe"),
-        'uk' => array('uk_UA.UTF-8',"Українська"),
-        'uz' => array('uz_UZ.UTF-8',"Oʻzbekcha"),
-        'vi' => array('vi_VN',		"Tiếng Việt"),
-        'zh' => array('zh_CN.UTF-8',"中文(简)"),
-        'zh-tw' => array('zh_TW.UTF-8',"中文(繁)"),
+        'ar' => array('ar_SA.UTF-8',    "العربية"),
+        'ast' => array('ast_ES.UTF-8',  "Asturianu"),
+        'bg' => array('bg_BG.UTF-8',    "български"),
+        'ca' => array('ca_AD.UTF-8',    "Català"),
+        'da' => array('da_DK.UTF-8',    "Dansk"),
+        'de' => array('de_DE.UTF-8',    "Deutsch"),
+        'en' => array('en_US.UTF-8',    "English"),
+        'eo' => array('eo.UTF-8',	    "Esperanto"),
+        'es' => array('es_ES.UTF-8',    "Español"),
+        'et' => array('et_EE.UTF-8',    "Eesti"),
+        'fi' => array('fi_FI.UTF-8',    "Suomi"),
+        'fr' => array('fr_FR.UTF-8',    "Français"),
+        'gl' => array('gl_ES.UTF-8',    "Galego"),
+        'he' => array('he_IL.UTF-8',    "עִבְרִית"),
+        'hr' => array('hr_HR.UTF-8',    "Hrvatski"),
+        'ia' => array('ia',			    "Interlingua"),
+        'id' => array('id_ID.UTF-8',    "Bahasa Indonesia"),
+        'it' => array('it_IT.UTF-8',    "Italiano"),
+        'ja' => array('ja_JP.UTF-8',    "日本語"),
+        //'jbo' => array('jbo.UTF-8',     "Lojban"),
+        'lt' => array('lt_LT.UTF-8',    "Lietuvių"),
+        'mk' => array('mk_MK.UTF-8',    "Македонски"),
+        'ml' => array('ml_IN',		    "മലയാളം"),
+        'nl' => array('nl_NL.UTF-8',    "Nederlands"),
+        'pl' => array('pl_PL.UTF-8',    "Polski"),
+        'pt' => array('pt_PT.UTF-8',    "Português"),
+        'pt-br' => array('pt_BR.UTF-8', "Português Brasileiro"),
+        'ru' => array('ru_RU.UTF-8',    "Русский"),
+        'sr' => array('sr_RS',		    "Српски"),
+        'sv' => array('sv_SE',		    "Svenska"),
+        'tr' => array('tr_TR.UTF-8',    "ürkçe"),
+        'uk' => array('uk_UA.UTF-8',    "Українська"),
+        'uz' => array('uz_UZ.UTF-8',    "Oʻzbekcha"),
+        'vi' => array('vi_VN',		    "Tiếng Việt"),
+        'zh' => array('zh_CN.UTF-8',    "中文(简)"),
+        'zh-tw' => array('zh_TW.UTF-8', "中文(繁)"),
     );
 
     /**
@@ -142,8 +142,6 @@ class GGL {
      * direction), initialises gettext, and sets some main configurations.
      */
     public function init() {
-        global $lang;
-
         # Set the base URL.
         if ( empty($this->config['base_url']) ) {
             $this->config['base_url'] = 'http://'.$_SERVER['HTTP_HOST'].'/';
@@ -153,8 +151,12 @@ class GGL {
         # provided.
         $override = isset($_GET['l']) ? $_GET['l'] : null;
 
-        # Set global variable $lang to negotiated language.
-        locale_negotiate_language(self::$locales, self::$locales_complete, $override);
+        # Only negotiate with completed translations.
+        $locales = Util::array_intersect_keys(self::$locales,
+            array_merge(self::$locales_complete, array($override)));
+
+        # Get preferred language from the client.
+        $lang = L10n::negotiate_language($locales, $override);
 
         # Set the negotiated language and locale variables. If no language
         # was found, negotiated_lang and the locale variables keep their
@@ -164,7 +166,7 @@ class GGL {
             $this->set('locale', $lang);
         }
 
-        # Initialize gettext. From here, gettext is enabled.
+        # Initialize gettext.
         $this->init_gettext();
 
         # Set attribute values.
@@ -174,12 +176,12 @@ class GGL {
     /**
      * Initialise gettext.
      *
-     * This method sets where gettext should obtain the localised content.
+     * Set where gettext should obtain the localised content.
      */
     private function init_gettext() {
         $domain = $this->get('gettext_domain');
-        locale_change();
-        locale_gettext_domain($domain, "locale/");
+        L10n::locale_change();
+        Util::gettext_set_domain($domain, 'locale/', 'UTF-8');
     }
 
     /**
@@ -374,7 +376,6 @@ class GGL {
     /**
      * Return TRUE if the language ID matches the current page language.
      *
-     * @uses GetGnuLinux $ggl
      * @param string $lang The ISO language code to check against.
      * @return bool Returns TRUE if the language ID matches the current page
      *      language, FALSE otherwise.
@@ -397,8 +398,6 @@ class GGL {
     /**
      * Returns TRUE if italics should be disabled for the current language.
      *
-     * @uses string $this->config['lang']
-     * @uses array self::$no_italics_languages
      * @return bool TRUE|FALSE
      */
     public function no_italics()
@@ -410,7 +409,6 @@ class GGL {
      * Returns TRUE if the translation for provided language code is complete.
      *
      * @param string $lang The ISO 639-1 code of the language.
-     * @uses array self::$locales_complete
      * @return bool TRUE|FALSE
      */
     public function lang_is_complete($lang)

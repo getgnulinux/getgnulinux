@@ -1,9 +1,9 @@
 <?php
 /*
  *  Copyright 2006-2008, GNU/Linux Matters <http://www.gnulinuxmatters.org/>
- *  Copyright 2011-2012 Launchpad getgnulinux Team <https://launchpad.net/~getgnulinux>
+ *  Copyright 2011-2015 GetGNULinux.org contributors <http://getgnulinux.org/credits/>
  *
- *  This file is part of Get GNU/Linux! <https://launchpad.net/getgnulinux>
+ *  This file is part of Get GNU/Linux! <https://github.com/figure002/getgnulinux>
  *
  *  GGL is free software: you can redistribute it and/or modify it under
  *  the terms of the GNU Affero General Public License as published by the
@@ -20,23 +20,17 @@
  *
  */
 
-# This file is not a valid entry point; stop processing unless GGL is defined.
 if ( !defined('GGL') ) {
     exit(1);
 }
 
-# Set path to current directory.
 $pwd = dirname( __FILE__ );
 
-# Load global methods.
+// Load PEAR's HTTP2 package which provides HTTP2::negotiateLanguage.
+require_once("$pwd/HTTP2.php");
+
+// Load the required files.
 require_once("$pwd/util.php");
-
-# Load methods for language negotiation.
 require_once("$pwd/locale.php");
-
-# Load the base class.
 require_once("$pwd/ggl.php");
-
-# Load the HTML generator.
 require_once("$pwd/html.php");
-
