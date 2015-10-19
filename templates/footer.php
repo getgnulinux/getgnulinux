@@ -64,8 +64,8 @@
 <script src="<?php $this->filever('/js/plugins.js'); ?>"></script>
 <script src="<?php $this->filever('/js/main.js'); ?>"></script>
 <?php
-switch ($this->page_name) {
-    case null:
+switch ($this->view) {
+    case 'home':
     ?>
 <script>
   $(window).load(function() {
@@ -94,7 +94,7 @@ switch ($this->page_name) {
 
 // Load the Piwik Javascript?
 if ( $ggl->get('piwik') ) {
-  require_once(ROOT.'/include/widgets/Piwik.php');
+  require_once(ROOT.'/templates/piwik.php');
 }
 ?>
 

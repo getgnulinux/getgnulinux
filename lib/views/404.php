@@ -5,9 +5,7 @@ if ( !defined('GGL') ) {
     exit(1);
 }
 
-# Override the Unix name of the current page.
-$this->page_name = "404";
-
+$this->view = "404";
 $this->load_header();
 
 ?>

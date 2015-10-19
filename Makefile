@@ -53,7 +53,7 @@ getgnulinux: settings.php \
 
 settings.php:
 	@echo "Creating $@"
-	cp include/templates/settings.php $@
+	cp templates/settings.php $@
 	@echo "Open $@ in a text editor to configure GGL."
 	@echo
 
@@ -70,7 +70,7 @@ $(LOCALE_DIR)/$(DOMAIN)/%.po: $(LOCALE_DIR)/$(DOMAIN)/$(DOMAIN).pot
 $(LOCALE_DIR)/%/LC_MESSAGES:
 	mkdir -p $@
 
-$(LOCALE_DIR)/$(DOMAIN)/$(DOMAIN).pot: include/*.php include/templates/*.php pages/*.php
+$(LOCALE_DIR)/$(DOMAIN)/$(DOMAIN).pot: lib/*.php lib/views/*.php templates/*.php
 	@echo "Updating $@"
 	$(XGETTEXT) $(xgettext_flags) -o $@ $^
 	msguniq -o $@ $@

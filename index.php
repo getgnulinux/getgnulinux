@@ -28,10 +28,10 @@ define('ROOT', $root);
 define('GGL', true);
 
 # Load required classes and methods.
-require_once("$root/include/Initialize.php");
+require_once("$root/lib/init.php");
 
 # Instantiate the base class.
-$ggl = new GetGNULinux();
+$ggl = new GGL();
 
 # Instantiate the HTML generator.
 $html = new HTML();
@@ -41,7 +41,7 @@ $html = new HTML();
 if ( is_file("$root/settings.php") ) {
     require_once("$root/settings.php");
 } else {
-    include("$root/include/Setup.php");
+    include("$root/lib/setup.php");
     exit(1);
 }
 

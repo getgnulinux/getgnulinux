@@ -29,14 +29,14 @@ if ( !defined('GGL') ) {
 $pwd = dirname( __FILE__ );
 
 # Load global methods.
-require_once("$pwd/Methods.php");
+require_once("$pwd/util.php");
 
 # Load methods for language negotiation.
-require_once("$pwd/Locale.php");
+require_once("$pwd/locale.php");
 
 # Load the base class.
-require_once("$pwd/GetGNULinux.php");
+require_once("$pwd/ggl.php");
 
 # Load the HTML generator.
-require_once("$pwd/HTML.php");
+require_once("$pwd/html.php");
 

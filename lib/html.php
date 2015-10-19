@@ -33,67 +33,58 @@
 class HTML {
 
     /**
-     * Constructor.
-     *
-     * Sets variables:
-     * - $this->page_name, The Unix name of the current page.
+     * Set the current view.
      */
     function __construct() {
-        # Get the Unix name of the current page.
-        # Note: The superglobal $_GET is already decoded. Using urldecode()
-        # on an element in $_GET could have unexpected and dangerous results.
-        $this->page_name = isset($_GET['p']) ? $_GET['p'] : NULL;
+        $this->view = isset($_GET['p']) ? basename($_GET['p']) : 'home';
+    }
+
+    /**
+     * Return the file path for a view.
+     *
+     * @param string $view The name of the view.
+     * @return string The file path.
+     */
+    static function path_for_view($view) {
+        return Util::fpath(sprintf("%s/lib/views/%s.php", ROOT, $view));
     }
 
     /**
      * Load the requested page.
      *
      * @uses GetGnuLinux $ggl
-     * @uses string $this->page_name
-     * @uses string ROOT
+     * @uses string $this->view
      */
-    function load_content()
-    {
+    function load_content() {
         global $ggl;
 
-        if ( isset($this->page_name) ) {
-            $path = ROOT.'/pages/'.$this->page_name.'.php';
-            if ( is_file($path) ) {
-                include $path;
-                return;
-            } else {
-                header('HTTP/1.x 404 Not Found');
-                include ROOT.'/pages/404.php';
-                return;
-            }
+        $path = self::path_for_view($this->view);
+        if ($path) {
+            include $path;
+            return;
+        } else {
+            header('HTTP/1.x 404 Not Found');
+            include self::path_for_view('404');
+            return;
         }
-        include ROOT.'/pages/home.php';
     }
 
     /**
      * Load the page header.
-     *
-     * @uses GetGnuLinux $ggl
-     * @uses string ROOT
      */
     function load_header()
     {
         global $ggl;
-        include ROOT.'/include/templates/header.php';
+        include Util::fpath(ROOT.'/templates/header.php');
     }
 
     /**
      * Load the page footer.
-     *
-     * @param string $alt Loads footer_{$alt}.php instead of the default
-     *      footer.php.
-     * @uses GetGnuLinux $ggl
-     * @uses string ROOT
      */
     function load_footer()
     {
         global $ggl;
-        include ROOT.'/include/templates/footer.php';
+        include Util::fpath(ROOT.'/templates/footer.php');
     }
 
     /**
@@ -102,7 +93,6 @@ class HTML {
      * @param string $key The value of which configuration key to print.
      * @param unknown $default The value to print if the configuration key
      *      does not exist.
-     * @uses GetGnuLinux $ggl
      */
     function text($key, $default='')
     {
@@ -116,16 +106,13 @@ class HTML {
      * @param string $key The value of which configuration key to print.
      * @param unknown $default The value to print if the configuration key
      *      does not exist.
-     * @uses GetGnuLinux $ggl
-     * @uses string $this->page_name
      */
     function page_title()
     {
         global $ggl;
 
-        # Display the page title for the corresponding page.
-        if ( array_key_exists($this->page_name, $ggl->config['page_titles']) ) {
-            print $ggl->config['page_titles'][$this->page_name] . " | " . $ggl->get('website_title');
+        if ( array_key_exists($this->view, $ggl->config['page_titles']) ) {
+            print $ggl->config['page_titles'][$this->view] . " | " . $ggl->get('website_title');
         } else {
             print $ggl->get('website_title');
         }
@@ -133,18 +120,12 @@ class HTML {
 
     /**
      * Print the page description.
-     *
-     * This page description is used in the <meta name="description"> tag in
-     * each page's <head> tag.
-     *
-     * @uses GetGnuLinux $ggl
-     * @uses string $this->page_name
      */
     function page_description()
     {
         global $ggl;
-        $p = array_key_exists($this->page_name, $ggl->config['page_descriptions']) ? $this->page_name : 'default';
-        print $ggl->config['page_descriptions'][$p];
+        $view = array_key_exists($this->view, $ggl->config['page_descriptions']) ? $this->view : 'default';
+        print $ggl->config['page_descriptions'][$view];
     }
 
     /**
@@ -158,7 +139,7 @@ class HTML {
         {
             printf("<li%s><a href=\"%s\">%s</a></li>\n",
                 $this->we_are_here($path) ? ' class="active"' : '',
-                $this->base_url($path,1),
+                $this->base_url($path, true),
                 $title
             );
         }
@@ -170,11 +151,10 @@ class HTML {
      *
      * @param string $s1 The string.
      * @param string $s2 Alternative string.
-     * @uses GetGnuLinux $ggl
      */
-    function rtltr($s1, $s2) {
+    function rtltr($a, $b) {
         global $ggl;
-        return ($ggl->get('dir') == 'ltr') ? $s1 : $s2;
+        return ($ggl->get('dir') == 'ltr') ? $a : $b;
     }
 
     /**
@@ -198,8 +178,6 @@ class HTML {
      * This is used in language menu's to link to the same page in different
      * languages.
      *
-     * @uses GetGnuLinux $ggl
-     * @uses string $this->page_name
      * @param string $lang If the ISO language is provided, a localised path
      *      is returned instead.
      * @return string The path to the current page.
@@ -208,7 +186,7 @@ class HTML {
         global $ggl;
 
         $l = $lang ? $lang : $ggl->get('lang');
-        $p = str_replace('.', '/', $this->page_name);
+        $p = str_replace('.', '/', $this->view);
         return empty($p) ? sprintf("%s/", $l) : sprintf("%s/%s/", $l, $p);
     }
 
@@ -218,7 +196,6 @@ class HTML {
      * If $fuzzy is TRUE, this function returns TRUE when $path matches
      * the start of the current page name.
      *
-     * @uses string $this->page_name
      * @param string $path The path of the page to check against.
      * @param bool $fuzzy Set to TRUE to enable fuzzy matching.
      * @return Returns TRUE if the path matches the current page,
@@ -226,31 +203,29 @@ class HTML {
      */
     function we_are_here($path, $fuzzy=false) {
         if ($fuzzy)
-            return startswith($this->page_name, $path);
+            return Util::startswith($path, $this->view);
         else
-            return ($this->page_name == str_replace('/','.',$path));
+            return $this->view === str_replace('/','.',$path);
     }
 
     /**
      * Print or return the path or URL for a page. If $path is omitted, the
-     * path to the website root is returned (e.g. '/' or 'http://domain.org/').
+     * path to the website root is returned (e.g. '/' or 'http://exampole.com/').
      *
-     * @uses GetGnuLinux $ggl
-     * @uses string $lang, set by locale_negotiate_language()
      * @param string $path The path for the page (e.g. 'linux/screenshots').
      * @param bool $return If true, the path is returned instead of printed.
      * @param bool $base If true, the URL is returned instead of the relative
      *      path (e.g. 'http://getgnulinux.org/linux/screenshots/').
      * @return string The path or URL of a page.
      */
-    function base_url($path=null, $return=0, $base=0) {
+    function base_url($path=null, $return=false, $base=false) {
         global $ggl, $lang;
 
         $url = $base ? $ggl->get('base_url') : "/";
 
         # If the language is set in the URL, keep using it in links.
         $lang_id = isset($_GET['l']) ? $_GET['l'] : null;
-        if ($lang_id && $lang_id == $lang) {
+        if ($lang_id && $lang_id === $lang) {
             $url .= $lang.'/';
         }
 
@@ -319,8 +294,7 @@ class HTML {
 
         foreach ($locales as $lang => $items) {
             list($locale, $native) = $items;
-            $link = "<a href=\"/%s\" hreflang=\"%s\"><span dir=\"%s\">%s</span></a>";
-            $links[] = sprintf($link,
+            $links[] = sprintf('<a href="/%s" hreflang="%s"><span dir="%s">%s</span></a>',
                 $this->current_page_url($lang),
                 $lang,
                 $ggl->langdir($lang),

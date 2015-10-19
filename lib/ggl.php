@@ -30,7 +30,7 @@
 /**
  * Management utilities for the website's configuration.
  */
-class GetGNULinux {
+class GGL {
     /**
      * An associative, multidimensional array where each key is an
      * ISO language code. Each value is an array containing the following
@@ -342,13 +342,13 @@ class GetGNULinux {
     {
         $passed = array();
 
-        if ($select == 'all') {
+        if ($select === 'all') {
             return self::$locales;
         }
-        else if ($select == 'complete' || $select == 'incomplete') {
+        else if ($select === 'complete' || $select === 'incomplete') {
             foreach (self::$locales as $k => $v)
             {
-                $pass = ($select == 'complete') ? $this->lang_is_complete($k) : !$this->lang_is_complete($k);
+                $pass = ($select === 'complete') ? $this->lang_is_complete($k) : !$this->lang_is_complete($k);
                 if ($pass) $passed[$k] = $v;
             }
             return $passed;
@@ -380,7 +380,7 @@ class GetGNULinux {
      *      language, FALSE otherwise.
      */
     function currlang($lang) {
-        return ($lang == $this->get('lang'));
+        return ($lang === $this->get('lang'));
     }
 
     /**
@@ -391,7 +391,7 @@ class GetGNULinux {
      */
     public function langdir($lang)
     {
-        return in_array($lang, self::$rtl_languages) ? "rtl" : "ltr";
+        return in_array($lang, self::$rtl_languages, true) ? "rtl" : "ltr";
     }
 
     /**
@@ -403,7 +403,7 @@ class GetGNULinux {
      */
     public function no_italics()
     {
-        return in_array($this->config['lang'], self::$no_italics_languages);
+        return in_array($this->config['lang'], self::$no_italics_languages, true);
     }
 
     /**
@@ -415,6 +415,6 @@ class GetGNULinux {
      */
     public function lang_is_complete($lang)
     {
-        return in_array($lang, self::$locales_complete);
+        return in_array($lang, self::$locales_complete, true);
     }
 }
