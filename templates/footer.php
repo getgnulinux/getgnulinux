@@ -91,11 +91,6 @@ switch ($this->view) {
     <?php
     break;
 }
-
-// Load the Piwik Javascript?
-if ( $ggl->get('piwik') ) {
-  require_once(ROOT.'/templates/piwik.php');
-}
 ?>
 
 </body>

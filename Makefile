@@ -53,7 +53,7 @@ getgnulinux: settings.php \
 
 settings.php:
 	@echo "Creating $@"
-	cp templates/settings.php $@
+	cp settings.php.new $@
 	@echo "Open $@ in a text editor to configure GGL."
 	@echo
 

@@ -13,7 +13,7 @@
       <p>Almost there! Please follow these steps.</p>
       <ol>
         <li>Open a terminal and change to the root folder;</li>
-        <li>Run `<code>make settings.php</code>' to create the settings.php file (or manually copy it from <code>templates/settings.php</code>);</li>
+        <li>Run `<code>make settings.php</code>' to create the settings.php file (or create a copy of <code>settings.php.new</code>);</li>
         <li>Open settings.php in a text editor and change the settings where necessary;</li>
         <li>Run `<code>make</code>' to generate the binary locale files (requires `gettext');</li>
         <li>Make sure that Apache module <code>mod_rewrite</code> is enabled;</li>
