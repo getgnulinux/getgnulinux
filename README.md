@@ -1,6 +1,6 @@
 # Get GNU/Linux!
 
-This is the web application for the [getgnulinux.org](http://getgnulinux.org) site. Get GNU/Linux! is a simple, clear website about GNU/Linux. What is GNU/Linux? Why not Windows? Tips to make the switch. With this website we hope to reach people who never heard about free software and barely remotely heard the word "Linux".
+This is the web application for the [getgnulinux.org](https://www.getgnulinux.org) site. Get GNU/Linux! is a simple, clear website about GNU/Linux. What is GNU/Linux? Why not Windows? Tips to make the switch. With this website we hope to reach people who never heard about free software and barely remotely heard the word "Linux".
 
 The website is written in PHP and JavaScript, and uses GNU gettext for internationalization.
 
@@ -56,4 +56,4 @@ Also see the [Participate](http://blog.getgnulinux.org/participate/) page on our
 
 The source code is licensed under the GNU Affero General Public License Version 3, which you can find in the COPYING file.
 
-The content of the website and its graphical assets are, except where otherwise [noted](http://getgnulinux.org/legal/), licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
+The content of the website and its graphical assets are, except where otherwise [noted](https://www.getgnulinux.org/legal/), licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
