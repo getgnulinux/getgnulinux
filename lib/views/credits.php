@@ -101,15 +101,15 @@ $this->load_header();
       <h4>Catalan</h4>
       <p>
         <a href="https://www.transifex.com/user/profile/papapep/">Josep Sànchez</a>,
-        <a href="http://cortsenc.bloc.cat/">Oriol Piera</a> and
+        <a href="http://cortsenc.bloc.cat/">Oriol Piera</a>, and
         <a href="http://rcarreras.blogspot.com/">Rafael Carreras</a>.
       </p>
 
       <h4>Chinese (Simplified)</h4>
       <p>
-        <a href="https://www.transifex.com/user/profile/dotkrnl/">Jason Lau</a>,
-        <a href="https://www.transifex.com/user/profile/leonfeng/">leonfeng</a> and
-        <a href="https://www.transifex.com/user/profile/Pxseudoprime/">Sayson Peng</a>.
+        <a href="https://www.transifex.com/user/profile/dotkrnl/">Jason Lau (劉家昌)</a>,
+        <a href="https://www.transifex.com/user/profile/leonfeng/">leonfeng</a>, and
+        <a href="https://www.transifex.com/user/profile/Pxseudoprime/">Xuesong Peng</a>.
       </p>
 
       <h4>Chinese (Traditional)</h4>
@@ -125,6 +125,11 @@ $this->load_header();
       <h4>Croatian</h4>
       <p>
         <a href="https://www.transifex.com/user/profile/CroatianFan/">Mislav E.L.</a>.
+      </p>
+
+      <h4>Danish</h4>
+      <p>
+        <a href="https://www.transifex.com/user/profile/VoidRay/">Nexuz</a>.
       </p>
 
       <h4>Dutch</h4>
@@ -182,12 +187,18 @@ $this->load_header();
         <a href="https://www.transifex.com/user/profile/Atalanttore/">Ettore Atalan</a>,
         <a href="https://www.transifex.com/user/profile/fenris/">fenris</a>,
         <a href="https://www.transifex.com/user/profile/desperateCoder/">guyfawkes</a>,
+        <a href="https://www.transifex.com/user/profile/jrabe/">jrabe</a>,
         <a href="https://www.transifex.com/user/profile/KIAaze/">KIAaze</a>,
         <a href="https://www.transifex.com/user/profile/emukis/">Marcel Haring</a>,
         <a href="https://www.transifex.com/user/profile/monoto/">monoto</a>,
         <a href="https://www.transifex.com/user/profile/stegomon/">stegomon</a>,
         <a href="https://www.transifex.com/user/profile/to_ba/">Tobias Bannert</a> and
         <a href="https://www.transifex.com/user/profile/ToBeFree/">Tobias Frei</a>.
+      </p>
+
+      <h4>Greek</h4>
+      <p>
+        <a href="https://www.transifex.com/user/profile/Alexandros.Mouhtsis/">Alexandros Mouhtsis</a>.
       </p>
 
       <h4>Hebrew</h4>
@@ -204,7 +215,7 @@ $this->load_header();
       <h4>Interlingua</h4>
       <p>
         <a href="https://www.transifex.com/user/profile/Funkin/">Emilio Sepúlveda</a>,
-        <a href="https://www.transifex.com/user/profile/McDutchie/">Martijn Dekker</a> and
+        <a href="https://www.transifex.com/user/profile/McDutchie/">Martijn Dekker</a>, and
         <a href="https://www.transifex.com/user/profile/softinterlingua/">SoftInterlingua</a>.
       </p>
 
@@ -215,7 +226,8 @@ $this->load_header();
         <a href="https://www.transifex.com/user/profile/giuseppep/">Giuseppe Pignataro</a>,
         <a href="https://www.transifex.com/user/profile/novalore/">Lorenzo Novaro</a>,
         <a href="https://www.transifex.com/user/profile/jeckodevelopment/">Luca Marzo</a>,
-        <a href="https://www.transifex.com/user/profile/Marco91/">Marco Mangiacavalli</a> and
+        <a href="https://www.transifex.com/user/profile/ciampix/">Marco Ciampa</a>,
+        <a href="https://www.transifex.com/user/profile/Marco91/">Marco Mangiacavalli</a>, and
         <a href="https://www.transifex.com/user/profile/xseris/">Simone Sandri</a>.
       </p>
 
@@ -233,7 +245,8 @@ $this->load_header();
 
       <h4>Macedonian</h4>
       <p>
-        <a href="https://www.transifex.com/user/profile/exoos/">exoos</a>.
+        <a href="https://www.transifex.com/user/profile/exoos/">exoos</a> and
+        <a href="https://www.transifex.com/user/profile/Alexandros.Mouhtsis/">Alexandros Mouhtsis</a>.
       </p>
 
       <h4>Polish</h4>
@@ -250,7 +263,7 @@ $this->load_header();
         <a href="https://www.transifex.com/user/profile/heuripedes/">Higor</a>,
         <a href="https://www.transifex.com/user/profile/JulioMario/">Julio Mario Jr.</a>,
         <a href="https://www.transifex.com/user/profile/nadiastabile/">Nadia Stabile</a>,
-        <a href="https://www.transifex.com/user/profile/rafaelff1/">Rafael Ferreira</a>, and
+        <a href="https://www.transifex.com/user/profile/rafaelff1/">Rafael Fontenelle</a>, and
         <a href="https://www.transifex.com/user/profile/slackhideo/">Tiago</a>.
       </p>
 
@@ -283,7 +296,7 @@ $this->load_header();
         <a href="https://www.transifex.com/user/profile/basarancaner/">Caner Başaran</a>,
         <a href="https://www.transifex.com/user/profile/drstrangelove/">drstrangelove</a>,
         <a href="https://www.transifex.com/user/profile/fehmican/">Fehmican Imirgi</a>,
-        <a href="https://www.transifex.com/user/profile/necdetyucel/">Necdet Yücel</a> and
+        <a href="https://www.transifex.com/user/profile/necdetyucel/">Necdet Yücel</a>, and
         <a href="https://www.transifex.com/user/profile/zeugma/">zeugma</a>.
       </p>
 
