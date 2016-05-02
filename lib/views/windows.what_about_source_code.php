@@ -51,21 +51,6 @@ $this->load_header();
 
   <section>
     <div class="maxwidth">
-      <h2 id="insecurity_means_business"><?php print _("Insecurity means business"); ?></h2>
-
-      <p><?php print _("Whenever a flaw in Windows is discovered, it is exploited, which results in trojans, viruses, spyware and the likes. <strong>Such nuisances delight the Windows security industry</strong>, including Microsoft, which develops various anti-virus protections with subscriptions."); ?></p>
-
-      <p><img class="float-right" src="/images/windows/windows.what_about_source_code.windowsonelivecare.png" height="69" width="200" alt="Windows LiveOne Care" />
-      <?php print _("It is a lucrative process to release flawed software <em>that no one is allowed to change</em>, and then selling protection services over it (anti-virus software doesn't correct flaws: it merely prevents viruses from exploiting them, if it is active and updated)."); ?></p>
-
-      <p><?php
-      # translators: Please carefully leave the rel=nofollow argument, which avoids us increasing MS PR.
-      print _("Microsoft will today happily <a href=\"http://onecare.live.com/standard/en-us/purchase/default.htm\" rel=\"nofollow\">sell you their own protection over their own insecurities</a> &ndash; it sells the poisoned apple and its antidote, separately."); ?></p>
-    </div>
-  </section>
-
-  <section>
-    <div class="maxwidth">
       <h2 id="you_can_trust_free_software"><?php print _("You can trust free software"); ?></h2>
 
       <p><?php print _("It comes as no surprise that proprietary software is severely lacking in terms of security, compared to software whose source code is freely available (including GNU/Linux)."); ?></p>
