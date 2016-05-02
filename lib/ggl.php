@@ -72,7 +72,7 @@ class GGL {
         'ru' => array('ru_RU.UTF-8',    "Русский"),
         'sr' => array('sr_RS',          "Српски"),
         'sv' => array('sv_SE',          "Svenska"),
-        'tr' => array('tr_TR.UTF-8',    "ürkçe"),
+        'tr' => array('tr_TR.UTF-8',    "Türkçe"),
         'uk' => array('uk_UA.UTF-8',    "Українська"),
         'uz' => array('uz_UZ.UTF-8',    "Oʻzbekcha"),
         'vi' => array('vi_VN',          "Tiếng Việt"),
