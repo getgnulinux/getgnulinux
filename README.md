@@ -47,9 +47,9 @@ When a PO file is updated, you'll need to recompile it to see the changes on the
 
 If you wish to contribute to this website, please [fork it on GitHub](https://github.com/figure002/getgnulinux), push your change to a named branch, then send me a pull request.
 
-You can also help us reach an audience in your language. With [Transifex](https://www.transifex.com/projects/p/getgnulinux/), you can help translate the website into your own language. Please see our [translation guidelines](http://blog.getgnulinux.org/participate/translation/) for more information.
+You can also help us reach an audience in your language. With [Transifex](https://www.transifex.com/projects/p/getgnulinux/), you can help translate the website into your own language. Please see our [translation guidelines](https://blog.getgnulinux.org/participate/translation/) for more information.
 
-Also see the [Participate](http://blog.getgnulinux.org/participate/) page on our blog for more ways you can help.
+Also see the [Participate](https://blog.getgnulinux.org/participate/) page on our blog for more ways you can help.
 
 
 ## License
