@@ -48,7 +48,8 @@ class GGL {
         'da' => array('da_DK.UTF-8',    "Dansk"),
         'de' => array('de_DE.UTF-8',    "Deutsch"),
         'en' => array('en_US.UTF-8',    "English"),
-        'eo' => array('eo.UTF-8',	    "Esperanto"),
+        'el' => array('el_GR.UTF-8',    "Ελληνικά"),
+        'eo' => array('eo.UTF-8',       "Esperanto"),
         'es' => array('es_ES.UTF-8',    "Español"),
         'et' => array('et_EE.UTF-8',    "Eesti"),
         'fi' => array('fi_FI.UTF-8',    "Suomi"),
@@ -56,25 +57,25 @@ class GGL {
         'gl' => array('gl_ES.UTF-8',    "Galego"),
         'he' => array('he_IL.UTF-8',    "עִבְרִית"),
         'hr' => array('hr_HR.UTF-8',    "Hrvatski"),
-        'ia' => array('ia',			    "Interlingua"),
+        'ia' => array('ia',             "Interlingua"),
         'id' => array('id_ID.UTF-8',    "Bahasa Indonesia"),
         'it' => array('it_IT.UTF-8',    "Italiano"),
         'ja' => array('ja_JP.UTF-8',    "日本語"),
         //'jbo' => array('jbo.UTF-8',     "Lojban"),
         'lt' => array('lt_LT.UTF-8',    "Lietuvių"),
         'mk' => array('mk_MK.UTF-8',    "Македонски"),
-        'ml' => array('ml_IN',		    "മലയാളം"),
+        'ml' => array('ml_IN',          "മലയാളം"),
         'nl' => array('nl_NL.UTF-8',    "Nederlands"),
         'pl' => array('pl_PL.UTF-8',    "Polski"),
         'pt' => array('pt_PT.UTF-8',    "Português"),
         'pt-br' => array('pt_BR.UTF-8', "Português Brasileiro"),
         'ru' => array('ru_RU.UTF-8',    "Русский"),
-        'sr' => array('sr_RS',		    "Српски"),
-        'sv' => array('sv_SE',		    "Svenska"),
-        'tr' => array('tr_TR.UTF-8',    "ürkçe"),
+        'sr' => array('sr_RS',          "Српски"),
+        'sv' => array('sv_SE',          "Svenska"),
+        'tr' => array('tr_TR.UTF-8',    "Türkçe"),
         'uk' => array('uk_UA.UTF-8',    "Українська"),
         'uz' => array('uz_UZ.UTF-8',    "Oʻzbekcha"),
-        'vi' => array('vi_VN',		    "Tiếng Việt"),
+        'vi' => array('vi_VN',          "Tiếng Việt"),
         'zh' => array('zh_CN.UTF-8',    "中文(简)"),
         'zh-tw' => array('zh_TW.UTF-8', "中文(繁)"),
     );
@@ -287,14 +288,14 @@ class GGL {
      * @param string $key The configuration key to set.
      * @param $value The configuration value for $key.
      */
-	public function set($key, &$value)
+    public function set($key, &$value)
     {
         if ($key == 'locale') {
             $this->set_locale($value);
             return;
         }
-		$this->config[$key] = &$value;
-	}
+        $this->config[$key] = &$value;
+    }
 
     /**
      * Setter for locale specific configurations.
@@ -329,7 +330,7 @@ class GGL {
      */
     public function get($key, $default='')
     {
-		return isset($this->config[$key]) ? $this->config[$key] : $default;
+        return isset($this->config[$key]) ? $this->config[$key] : $default;
     }
 
     /**

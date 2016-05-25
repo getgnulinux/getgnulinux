@@ -17,7 +17,7 @@ $this->load_header();
 
     <p>By accessing, browsing or using any of the &ldquo;get GNU/Linux!&rdquo; websites, any
     of their content or information, you have to understand and accept the terms on
-    the present page. These websites include <a href="http://getgnulinux.org/">getgnulinux.org</a>
+    the present page. These websites include <a href="https://www.getgnulinux.org/">getgnulinux.org</a>
     and all their sub-domains.</p>
 
     <h2 id="content">Content</h2>

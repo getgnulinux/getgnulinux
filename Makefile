@@ -22,6 +22,7 @@ getgnulinux: settings.php \
  		 	$(LOCALE_DIR)/ca_AD/LC_MESSAGES/$(DOMAIN).mo \
  		 	$(LOCALE_DIR)/da_DK/LC_MESSAGES/$(DOMAIN).mo \
  		 	$(LOCALE_DIR)/de_DE/LC_MESSAGES/$(DOMAIN).mo \
+ 		 	$(LOCALE_DIR)/el_GR/LC_MESSAGES/$(DOMAIN).mo \
  		 	$(LOCALE_DIR)/eo/LC_MESSAGES/$(DOMAIN).mo \
  		 	$(LOCALE_DIR)/es_ES/LC_MESSAGES/$(DOMAIN).mo \
  		 	$(LOCALE_DIR)/et_EE/LC_MESSAGES/$(DOMAIN).mo \
