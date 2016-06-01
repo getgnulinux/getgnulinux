@@ -91,7 +91,7 @@ $trisquel3_text = _("Accessing applications.");
 
       <p><?php
       # translators: if you don't know of a clean, simple comparison website, simply remove the link.
-      print _("The distribution by the long-time prominent GNU/Linux developer company Red Hat. The default layout is similar to Ubuntu (it is also possible to use KDE, the more advanced desktop environment in use in Kubuntu), but <a href=\"http://polishlinux.org/choose/comparison/?distro1=Ubuntu&amp;distro2=Fedora\" title=\"What are the differences between Fedora and Ubuntu?\">there are differences</a> in the chosen applications, install protocols and several technical elements."); ?></p>
+      print _("The distribution by the long-time prominent GNU/Linux developer company Red Hat. The default layout is similar to Ubuntu (it is also possible to use KDE, the more advanced desktop environment in use in Kubuntu), but there are differences in the chosen applications, install protocols and several technical elements."); ?></p>
       <p><?php print _("We recommend this distribution if you wish to learn more about the workings of a GNU/Linux system, security configuration, or work on software development."); ?></p>
 
       <div class="flexslider screenshots">
