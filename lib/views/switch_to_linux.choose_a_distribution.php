@@ -86,7 +86,7 @@ $trisquel3_text = _("Accessing applications.");
     <div class="maxwidth">
       <div class="centered">
         <a href="<?php # translators: use url of official localised Fedora homepage, if existing
-        print _("http://fedoraproject.org/"); ?>" title="Fedora Linux"><img src="/images/FedoraLogo.png" alt="Fedora"/></a>
+        print _("https://getfedora.org/"); ?>" title="Fedora Linux"><img src="/images/FedoraLogo.png" alt="Fedora"/></a>
       </div>
 
       <p><?php
