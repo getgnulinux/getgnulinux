@@ -249,6 +249,16 @@ $this->load_header();
         <a href="https://www.transifex.com/user/profile/Alexandros.Mouhtsis/">Alexandros Mouhtsis</a>.
       </p>
 
+      <h4>Malay</h4>
+      <p>
+        <a href="https://www.transifex.com/user/profile/abuyop/">abuyop</a>.
+      </p>
+
+      <h4>Persian</h4>
+      <p>
+        <a href="https://www.transifex.com/user/profile/danialbehzadi/">Danial Behzadi</a>.
+      </p>
+
       <h4>Polish</h4>
       <p>
         <a href="https://www.transifex.com/user/profile/penknife/">Bogusław B.</a> and
@@ -273,6 +283,11 @@ $this->load_header();
         <a href="https://www.transifex.com/user/profile/Antic1tizen/">Antic1tizen</a>,
         <a href="https://www.transifex.com/user/profile/player1_76/">Фёдор Ходьков</a>, and
         <a href="https://www.transifex.com/user/profile/vst/">V'yacheslav Stetskevych</a>.
+      </p>
+
+      <h4>Sinhala</h4>
+      <p>
+        <a href="https://www.transifex.com/user/profile/0xEDD1E/">Eddie Dinkz</a>.
       </p>
 
       <h4>Spanish</h4>
@@ -311,6 +326,11 @@ $this->load_header();
         Clytie Siddall from the <a href="http://vnoss.net/dokuwiki/doku.php?id=projects:l10n">Vietnamese Free Software Translation Team</a>,
         Minh Ngoc Le, and
         <a href="https://www.transifex.com/user/profile/ppanhh/">Phan Anh</a>.
+      </p>
+
+      <h4>Welsh</h4>
+      <p>
+        <a href="https://www.transifex.com/user/profile/agored/">Agored Open</a>.
       </p>
 
       <h2>Inspiration &amp; reading</h2>
