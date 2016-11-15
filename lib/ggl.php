@@ -67,7 +67,7 @@ class GGL {
         'lt' => array('lt_LT.UTF-8',    "Lietuvių"),
         'mk' => array('mk_MK.UTF-8',    "Македонски"),
         'ml' => array('ml_IN',          "മലയാളം"),
-        'ms' => array('ms_MY.UTF-8',    "Bahasa Melayu",
+        'ms' => array('ms_MY.UTF-8',    "Bahasa Melayu"),
         'nl' => array('nl_NL.UTF-8',    "Nederlands"),
         'pl' => array('pl_PL.UTF-8',    "Polski"),
         'pt' => array('pt_PT.UTF-8',    "Português"),
