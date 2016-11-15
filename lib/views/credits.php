@@ -135,6 +135,7 @@ $this->load_header();
       <h4>Dutch</h4>
       <p>
         <a href="http://astrofloyd.org/">AstroFloyd</a>,
+        <a href="https://www.transifex.com/user/profile/Dragnadh/">dragnadh</a>,
         Johan Vervloet, and
         Tim Speetjens.
       </p>
@@ -203,6 +204,7 @@ $this->load_header();
 
       <h4>Hebrew</h4>
       <p>
+        <a href="https://www.transifex.com/user/profile/nbrandel/">Nate Brandel</a>,
         <a href="https://www.transifex.com/user/profile/Yaron/">Yaron Shahrabani</a>
         and proofreading by Oren B.
       </p>
@@ -281,8 +283,14 @@ $this->load_header();
       <p>
         <a href="https://www.transifex.com/user/profile/Alissa/">Alissa</a>,
         <a href="https://www.transifex.com/user/profile/Antic1tizen/">Antic1tizen</a>,
+        <a href="https://www.transifex.com/user/profile/crevice/">Anton Shcherbina</a>,
         <a href="https://www.transifex.com/user/profile/player1_76/">Фёдор Ходьков</a>, and
         <a href="https://www.transifex.com/user/profile/vst/">V'yacheslav Stetskevych</a>.
+      </p>
+
+      <h4>Serbian</h4>
+      <p>
+        <a href="https://www.transifex.com/user/profile/alert.aleksandar00/">Alert Aleksandar</a>.
       </p>
 
       <h4>Sinhala</h4>
@@ -311,6 +319,7 @@ $this->load_header();
         <a href="https://www.transifex.com/user/profile/basarancaner/">Caner Başaran</a>,
         <a href="https://www.transifex.com/user/profile/drstrangelove/">drstrangelove</a>,
         <a href="https://www.transifex.com/user/profile/fehmican/">Fehmican Imirgi</a>,
+        <a href="https://www.transifex.com/user/profile/muratservan/">Murat Servan Kahraman</a>,
         <a href="https://www.transifex.com/user/profile/necdetyucel/">Necdet Yücel</a>, and
         <a href="https://www.transifex.com/user/profile/zeugma/">zeugma</a>.
       </p>
