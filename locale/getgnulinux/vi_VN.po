@@ -1,0 +1,3645 @@
+# Translation file for the getgnulinux.org website.
+# Copyright (C) 2014 Get GNU/Linux!
+# This file is distributed under the same license as the getgnulinux package.
+#
+# Translators:
+# GLM Websites Edition Team <websites@gnulinuxmatters.org>, 2008
+# Anh Phan <vietnamesel10n@gmail.com>, 2013
+# ppanhh <ppanhh@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: get GNU/Linux!\n"
+"Report-Msgid-Bugs-To: https://github.com/figure002/getgnulinux/issues\n"
+"POT-Creation-Date: 2016-11-14 23:45+0100\n"
+"PO-Revision-Date: 2016-11-14 21:52+0000\n"
+"Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
+"Language-Team: Vietnamese (Viet Nam) (http://www.transifex.com/serrano/"
+"getgnulinux/language/vi_VN/)\n"
+"Language: vi_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. translators: The name of the website. It is displayed in the header of each page.
+#: lib/ggl.php:197 lib/views/home.php:22
+msgid "get GNU/Linux!"
+msgstr "tải GNU/Linux!"
+
+#. translators: The title for the language selection page.
+#: lib/ggl.php:202
+msgid "Select a language"
+msgstr ""
+
+#. translators: The way you refer to a website's main page in your language.
+#: lib/ggl.php:204
+msgid "Home"
+msgstr "Nhà"
+
+#. translators: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
+#: lib/ggl.php:206 lib/views/switch_to_linux.from_windows_to_linux.php:72
+#: lib/views/linux.linux_faq.php:293 lib/views/more.php:16
+#: templates/header.php:50 templates/footer.php:39
+msgid "More"
+msgstr "Xem thêm"
+
+#. translators: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
+#: lib/ggl.php:208 lib/views/linux.misunderstanding_free_software.php:186
+#: lib/views/linux.linux_faq.php:300 templates/header.php:47
+msgid "What is Linux?"
+msgstr "Linux là gì vậy?"
+
+#. translators: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
+#: lib/ggl.php:210 lib/views/linux.php:56
+msgid "Linux FAQ - common questions about GNU/Linux"
+msgstr "Hỏi Đáp Linux — các câu thường hỏi về GNU/Linux"
+
+#. translators: Here the intent is to be a little provocative. Exact translation is not required.
+#: lib/ggl.php:212 lib/views/linux.misunderstanding_free_software.php:19
+#: lib/views/windows.stand_for_a_free_society.php:159
+#: lib/views/linux.linux_faq.php:135 lib/views/linux.linux_faq.php:178
+#: lib/views/linux.linux_faq.php:189 lib/views/linux.php:55
+msgid "How to Misunderstand Free Software"
+msgstr "Hiểu sai Phần mềm Tự do như thế nào"
+
+#. translators: This is the title of the 'Screenshots' page.
+#: lib/ggl.php:214
+msgid "What GNU/Linux looks like"
+msgstr ""
+
+#. translators: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
+#: lib/ggl.php:216 lib/views/windows.restrictions.php:78
+#: lib/views/windows.restrictions.further_details.php:96
+#: lib/views/windows.what_about_source_code.php:76
+#: lib/views/windows.stand_for_a_free_society.php:170 lib/views/linux.php:67
+#: lib/views/home.php:48 lib/views/windows.php:16
+#: lib/views/windows.what_about_choice.php:66 templates/header.php:48
+msgid "Why not Windows"
+msgstr "Sao không Windows?"
+
+#. translators: This title can be translated loosely
+#: lib/ggl.php:218 lib/ggl.php:282 lib/views/windows.restrictions.php:20
+#: lib/views/windows.restrictions.further_details.php:88
+#: lib/views/windows.php:25
+msgid "Restrictions"
+msgstr "Giới hạn"
+
+#. translators: This title can be translated loosely
+#: lib/ggl.php:220 lib/views/windows.restrictions.further_details.php:20
+msgid "More details on restrictions"
+msgstr "Thêm chi tiết về những hạn chế"
+
+#. translators: This title can be translated loosely
+#: lib/ggl.php:222 lib/ggl.php:285 lib/views/linux.linux_faq.php:230
+#: lib/views/windows.php:59
+msgid "Stand for a free society"
+msgstr "Đấu tranh cho một xã hội tự do"
+
+#. translators: This title can be translated loosely
+#: lib/ggl.php:224 lib/ggl.php:283 lib/views/windows.php:37
+#: lib/views/windows.what_about_choice.php:21
+msgid "What about choice?"
+msgstr "Về sự chọn thì nghĩ sao?"
+
+#. translators: This title can be translated loosely
+#: lib/ggl.php:226 lib/ggl.php:284 lib/views/windows.php:47
+msgid "No source code"
+msgstr "Không có mã nguồn"
+
+#. translators: This appears in the top header menu and should be as short and concise as possible.
+#: lib/ggl.php:228 lib/views/switch_to_linux.php:16 lib/views/linux.php:83
+#: lib/views/home.php:62 lib/views/windows.php:92 templates/header.php:49
+msgid "Switch to Linux"
+msgstr "Chuyển đổi sang Linux"
+
+#: lib/ggl.php:229 lib/ggl.php:278 lib/views/switch_to_linux.php:38
+#: lib/views/switch_to_linux.from_windows_to_linux.php:179
+#: lib/views/switch_to_linux.choose_a_distribution.php:42
+msgid "Choose a distribution"
+msgstr "Chọn bản phát hành"
+
+#: lib/ggl.php:230 lib/ggl.php:277 lib/views/switch_to_linux.php:23
+#: lib/views/switch_to_linux.from_windows_to_linux.php:20
+msgid "From Windows to Linux"
+msgstr "Từ Windows sang Linux"
+
+#. translators: This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
+#: lib/ggl.php:232 lib/ggl.php:279 lib/views/switch_to_linux.php:52
+#: lib/views/switch_to_linux.try_or_install.php:20
+#: lib/views/switch_to_linux.choose_a_distribution.php:149
+msgid "Try or install"
+msgstr "Thử hay cài đặt"
+
+#. translators: The title for the link buttons page. Can be translated loosely.
+#: lib/ggl.php:234 lib/views/link_buttons.php:16
+msgid "Link buttons"
+msgstr ""
+
+#. translators: The title for the custom "Page Not Found" page.
+#. translators: Title for the Page Not Found page.
+#: lib/ggl.php:236 lib/views/404.php:18
+msgid "Page Not Found"
+msgstr ""
+
+#. translators: This is the description of the homepage, and it appears in Google results! Please pay particular attention to this one =)
+#: lib/ggl.php:242
+msgid ""
+"Get GNU/Linux! A simple, clear website about Linux. | What is Linux? | Why "
+"not Windows? | Tips to make the switch"
+msgstr ""
+"Lấy GNU/Linux! Một địa chỉ Web dễ hiểu về Linux. | Linux là gì vậy? | Tại "
+"sao không nên dùng Windows? | Gợi ý về chuyển đổi"
+
+#. translators: This is the description of the 'More' page
+#: lib/ggl.php:244
+msgid "Read and discover more about Linux."
+msgstr "Đọc và tìm biết thêm về Linux."
+
+#. translators: This is the description of the 'Linux' page
+#: lib/ggl.php:246
+msgid "What is Linux? A clear explanation."
+msgstr "Linux là gì vậy? Một lời giải thích dễ hiểu."
+
+#. translators: This is the description of the 'Linux FAQ' page
+#: lib/ggl.php:248
+msgid "Frequently Asked Questions about GNU/Linux."
+msgstr ""
+
+#. translators: This is the description of the 'Misunderstanding Free Software' page
+#: lib/ggl.php:250
+msgid "An unconventional way to (re)discover free software."
+msgstr ""
+
+#. translators: This is the description of the 'Screenshots' page
+#: lib/ggl.php:252
+msgid "A brief look at Linux in everyday use."
+msgstr ""
+
+#. translators: This is the description of the 'Why not Windows' page
+#: lib/ggl.php:254
+msgid "Four good reasons to avoid proprietary software."
+msgstr "Bốn lý do tốt nên tránh phần mềm sở hữu."
+
+#. translators: This is the description of the 'Restrictions' page
+#: lib/ggl.php:256 lib/views/windows.php:33
+msgid "Restrictions in a proprietary software license."
+msgstr "Giới hạn do giấy phép phần mềm sở hữu."
+
+#. translators: This is the description of the 'Restrictions further details' page
+#: lib/ggl.php:258
+msgid "Restrictions in a proprietary software license - more details."
+msgstr "Giới hạn do giấy phép phần mềm sở hữu — chi tiết."
+
+#. translators: This is the description of the 'Stand for a free society' page
+#: lib/ggl.php:260 lib/views/windows.php:71
+msgid "How software affects freedom in society."
+msgstr "Làm thế nào phần mềm tác động đến tự do trong xã hội."
+
+#. translators: This is the description of the 'What about choice' page
+#: lib/ggl.php:262 lib/views/windows.php:43
+msgid "How Microsoft lock customers in."
+msgstr "Microsoft hạn chế khách hàng như thế nào."
+
+#. translators: This is the description of the 'What about source code' page
+#: lib/ggl.php:264 lib/views/windows.php:55
+msgid "No source code means no trust and no security."
+msgstr "Không có mã nguồn thì không tin cậy, không an toàn."
+
+#. translators: This is the description of the 'Switch to Linux' page
+#: lib/ggl.php:266
+msgid "Switch to Linux: Good tips and advice."
+msgstr "Chuyển đổi sang Linux: gợi ý tốt."
+
+#. translators: This is the description of the 'Choose a distribution' page
+#: lib/ggl.php:268
+msgid "Recommended Linux distributions for everyday users."
+msgstr ""
+
+#. translators: This is the description of the 'From Windows to Linux' page
+#: lib/ggl.php:270
+msgid "The advantages and disadvantages of Linux over Windows."
+msgstr "Cân nhắc Linux và Windows"
+
+#. translators: This is the description of the 'Try or Install' page. This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
+#: lib/ggl.php:272
+msgid "Try or install Linux on your computer, very easily."
+msgstr ""
+
+#: lib/views/windows.restrictions.php:23
+msgid ""
+"A common mistake is for Windows and Office users to think that they fully "
+"own their software. In fact, there are a number of <strong>legal bindings</"
+"strong> applied to it."
+msgstr ""
+
+#: lib/views/windows.restrictions.php:24
+msgid "Haven't read your license fully? We did that job for you."
+msgstr ""
+
+#: lib/views/windows.restrictions.php:27
+msgid "The small print in the contract"
+msgstr ""
+
+#: lib/views/windows.restrictions.php:31
+msgid "Windows and Office are licensed, not sold."
+msgstr ""
+
+#: lib/views/windows.restrictions.php:32
+msgid ""
+"No one can buy Windows or Microsoft Office: instead users <strong>purchase a "
+"permission to use</strong> them. The license describes the terms of this "
+"permission. It is the restrictive legal text you have to click \"OK\" to "
+"upon install."
+msgstr ""
+
+#: lib/views/windows.restrictions.php:35
+msgid "You must abandon many rights to use the software."
+msgstr ""
+
+#: lib/views/windows.restrictions.php:36
+msgid "There are a number of restrictions that you must accept by law."
+msgstr ""
+
+#: lib/views/windows.restrictions.php:37
+#, php-format
+msgid ""
+"Restrictions on who can use the software, what kind of revenue you may earn "
+"with it, on how you choose to install it, restrictions on your privacy, even "
+"on whether you can give it away: the list is long. <a href=\"%s\" title=\"a "
+"few more things about Microsoft licenses\">Reading the license and "
+"enumerating your remaining rights</a> is itself a difficult task."
+msgstr ""
+
+#. translators: Don't bother with the 'abbr' code. You can tranlsate as 'OEM [pre-installed]'
+#: lib/views/windows.restrictions.php:44
+msgid ""
+"An <abbr title=\"Original Equipment Manufacturer (simply the hardware "
+"seller)\">OEM</abbr>-distributed software cannot be transferred to another "
+"computer."
+msgstr ""
+
+#. translators: Don't bother with the 'shrink-wrap' expression. You can skip that bit if you wish.
+#: lib/views/windows.restrictions.php:48
+msgid ""
+"If you bought your computer with Windows or Office pre-installed (the so-"
+"called OEM licenses, or the \"shrink wrap\" Windows discs), <strong>if you "
+"change computers you must buy software again.</strong>"
+msgstr ""
+
+#: lib/views/windows.restrictions.php:49
+msgid ""
+"The license is linked to one computer, and expires when the computer dies. "
+"It is then illegal to transfer the software on another computer."
+msgstr ""
+
+#: lib/views/windows.restrictions.php:56
+msgid ""
+"If you go to most of the free software sites you can click down a couple of "
+"levels and find the [GNU] <abbr title=\"General Public License, the main "
+"free software license\">GPL</abbr>, the X license, the Apache license, "
+"whichever terms and conditions you have to accept in order to use that "
+"software."
+msgstr ""
+
+#: lib/views/windows.restrictions.php:57
+msgid ""
+"Now with a proprietary software company, the license is buried so you can't "
+"read it until after you have paid for the product, then they're asking you "
+"to <strong>turn off part of your brain</strong>, they're asking you to turn "
+"off part of your ability to work with other people and to do business, when "
+"you use their software."
+msgstr ""
+
+#: lib/views/windows.restrictions.php:58
+msgid "Don Marti interview"
+msgstr ""
+
+#: lib/views/windows.restrictions.php:58
+#: lib/views/windows.stand_for_a_free_society.php:34
+msgid "2005 interview"
+msgstr "Cuộc phỏng vấn năm 2005"
+
+#: lib/views/windows.restrictions.php:61
+msgid "The meaning behind"
+msgstr ""
+
+#. translators: Please don't forget the rel=nofollow element in the link - it makes sure we don't increase MS PR.
+#: lib/views/windows.restrictions.php:65
+msgid ""
+"Companies like Microsoft like to assimilate their software to physical "
+"products, <a href=\"http://www.microsoft.com/piracy/\" rel=\"nofollow\">when "
+"mentioning copyright infringement</a> for example. Yet, proprietary software "
+"is very different because of the restrictive license -such restrictions "
+"would be unthinkable on a car or bicycle, for example."
+msgstr ""
+
+#: lib/views/windows.restrictions.php:66
+msgid ""
+"Restrictions on the use of Office and Windows are so harsh, that many "
+"violations occur everyday around us. People are tempted to buy only one "
+"version of Microsoft Office and install it on two computers. Others keep "
+"their version of Windows when they throw their PC away. Other people give "
+"away their second-hand Windows software when they stop using it."
+msgstr ""
+
+#. translators: use the definition of "free software" on GNU.org in place of softwareliberty.com ; also, if you can, use a translation of the GPL as found on http://www.gnu.org/licenses/translations.html
+#: lib/views/windows.restrictions.php:69
+msgid ""
+"<strong>You have an alternative to breaking this law,</strong> or feeling "
+"very restrained when you abide to it. GNU/Linux is <a href=\"http://www."
+"softwareliberty.com/\">Free Software</a> (much better than just freeware): "
+"its <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a> license is "
+"designed to protect your rights."
+msgstr ""
+
+#: lib/views/windows.restrictions.php:71
+msgid "Restrictions - further details"
+msgstr "Giới hạn - chi tiết"
+
+#: lib/views/windows.restrictions.php:71
+#: lib/views/windows.restrictions.further_details.php:67
+#: lib/views/switch_to_linux.php:30 lib/views/switch_to_linux.php:44
+#: lib/views/switch_to_linux.php:58
+#: lib/views/windows.stand_for_a_free_society.php:134
+#: lib/views/switch_to_linux.from_windows_to_linux.php:185
+#: lib/views/linux.php:73 lib/views/linux.php:89 lib/views/home.php:38
+#: lib/views/home.php:52 lib/views/home.php:66
+#: lib/views/switch_to_linux.choose_a_distribution.php:156
+#: lib/views/windows.php:33 lib/views/windows.php:43 lib/views/windows.php:55
+#: lib/views/windows.php:71 lib/views/windows.php:98
+msgid "Read more"
+msgstr ""
+
+#: lib/views/windows.restrictions.further_details.php:22
+#, php-format
+msgid ""
+"We wished to keep our \"<a href=\"%s\">Restrictions</a>\" page short, so we "
+"moved many of the license restrictions out here. Here is the fine print "
+"inside the Microsoft licenses."
+msgstr ""
+"Chúng tôi muốn giữ lại trang về những \"<a href=\"%s\">hạn chế của giấy "
+"phép</a>\" ngắn gọn, vậy chúng tôi đã di chuyển nhiều loại hạn chế của giấy "
+"phép đến đây. Sau đây là những phần văn bản đã in nhỏ trong các giấy phép sử "
+"dụng phần mềm của Microsoft. "
+
+#: lib/views/windows.restrictions.further_details.php:26
+msgid "It is unclear who can use, receive or buy your software."
+msgstr "Không rõ là ai có quyền dùng, nhận hoặc mua phần mềm của Hãng."
+
+#: lib/views/windows.restrictions.further_details.php:28
+msgid ""
+"The license is particularly unclear as to who may or may not use your "
+"version of Windows or Office. Several sentences in the Microsoft Office "
+"license suggest it would be illegal to let your neighbour type a letter with "
+"your version of Word on your computer."
+msgstr ""
+"Bản giấy phép sử dụng rất không rõ về vấn đề ai có quyền dùng, hoặc không "
+"dùng phiên bản của Windows hoặc của Office đang dùng. Có nhiều đoạn văn "
+"trong giấy phép sử dụng phần mềm Microsoft Office đang gởi ý rằng sẽ không "
+"cho phép một người láng giềng được viết một bức thư với Word trên máy tính "
+"của mình."
+
+#: lib/views/windows.restrictions.further_details.php:30
+msgid ""
+"It is however clear in the Microsoft Windows license that you may <em>only</"
+"em> give or sell your copy of Windows software to anyone <strong>if you are "
+"the first buyer</strong>. This means, that if you buy it from the user who "
+"initially purchased it from Microsoft, then <em>you</em> are not able to "
+"sell or give the software away to yet another user, even if you do not use "
+"it anymore, even if you buy the latest software version with your new "
+"computer."
+msgstr ""
+
+#: lib/views/windows.restrictions.further_details.php:34
+msgid ""
+"You may not lease, lend or provide commercial hosting services with the "
+"software"
+msgstr ""
+
+#: lib/views/windows.restrictions.further_details.php:36
+msgid ""
+"You cannot let professional users use your software, whether they pay for "
+"the service or not, and whether you use a &quot;Professional&quot; license "
+"or not."
+msgstr ""
+
+#: lib/views/windows.restrictions.further_details.php:40
+msgid "The upgrade is only valid for the first license you use it on"
+msgstr ""
+
+#: lib/views/windows.restrictions.further_details.php:42
+msgid ""
+"If that original license expires (for example because the computer it came "
+"on stops working), so does the upgrade. If you purchase an upgrade, you are "
+"not allowed to use the original software version anymore."
+msgstr ""
+
+#: lib/views/windows.restrictions.further_details.php:46
+msgid "Educational versions are crippled"
+msgstr ""
+
+#: lib/views/windows.restrictions.further_details.php:48
+msgid ""
+"If Microsoft accepts to define you as a student or an academic, you are "
+"allowed to buy an academic license, and install the software on three "
+"computers. But it is illegal to use it for any commercial purpose \"<em>or "
+"in any way related to the operation of any business enterprise or revenue-"
+"generating activities</em>\"."
+msgstr ""
+
+#: lib/views/windows.restrictions.further_details.php:52
+msgid "The components of the software may not be separated"
+msgstr ""
+
+#: lib/views/windows.restrictions.further_details.php:54
+msgid ""
+"It is illegal to buy Microsoft Office, then install only Word on one "
+"computer, and only Excel on another. The Office suite is one single product."
+msgstr ""
+
+#: lib/views/windows.restrictions.further_details.php:58
+msgid "Private information is collected"
+msgstr ""
+
+#: lib/views/windows.restrictions.further_details.php:60
+msgid ""
+"The licence explicitly states that \"Microsoft and its affiliates\" collect "
+"technical information gathered on your computer by the software. They "
+"\"<em>may use this information solely to improve products or to provide "
+"customized services or technologies</em>\"."
+msgstr ""
+
+#: lib/views/windows.restrictions.further_details.php:62
+msgid ""
+"In order to activate most Microsoft products, as part of the license "
+"agreement, your computer connects to the Microsoft servers and sends &quot;"
+"technical&quot; information. It can &quot;solely&quot; be used for pretty "
+"much anything."
+msgstr ""
+
+#. translators: If it exists, please use a non-official translation of the GPL in your language, as pointed on http://www.gnu.org/licenses/translations.html
+#: lib/views/windows.restrictions.further_details.php:72
+msgid "http://www.gnu.org/copyleft/gpl.html"
+msgstr ""
+
+#: lib/views/windows.restrictions.further_details.php:72
+msgid "The GNU General Public License"
+msgstr ""
+
+#: lib/views/windows.restrictions.further_details.php:72
+msgid "The GPL"
+msgstr ""
+
+#: lib/views/windows.restrictions.further_details.php:74
+msgid ""
+"The GNU General Public License, under which GNU/Linux and a vast amount of "
+"free software are published."
+msgstr ""
+
+#: lib/views/windows.restrictions.further_details.php:76
+msgid "Comparing the GPL to the Microsoft WinXP License"
+msgstr ""
+
+#: lib/views/windows.restrictions.further_details.php:78
+msgid ""
+"A thorough and clear comparison of the <abbr title=\"GNU General Public "
+"License\">GPL</abbr> and the Microsoft <abbr title=\"End-User License "
+"Agreement\">EULA</abbr> license that governs the use of most Windows XP "
+"versions."
+msgstr ""
+
+#: lib/views/windows.restrictions.further_details.php:81
+#: lib/views/windows.stand_for_a_free_society.php:137
+msgid "http://www.gnu.org/philosophy/right-to-read.html"
+msgstr ""
+
+#: lib/views/windows.restrictions.further_details.php:81
+#: lib/views/windows.stand_for_a_free_society.php:137
+msgid "The Right to Read"
+msgstr ""
+
+#: lib/views/windows.restrictions.further_details.php:83
+msgid ""
+"A short story by Richard Stallman that describes what influence restrictive "
+"licenses could have on our lives."
+msgstr ""
+
+#: lib/views/windows.what_about_source_code.php:20
+msgid "What about source code?"
+msgstr ""
+
+#: lib/views/windows.what_about_source_code.php:23
+msgid ""
+"The source code details the way a program works (it is effectively what "
+"programmers write). Without it no one can understand how the software is "
+"built."
+msgstr ""
+
+#: lib/views/windows.what_about_source_code.php:24
+msgid ""
+"It does not matter if you can't read code: whether or not it is available "
+"<strong>directly affects any user</strong>."
+msgstr ""
+"Bạn không phải lo lắng nếu không đọc được mã nguồn: cho dù nó có sẵn để "
+"người ta đọc hay không thì cũng không <strong>ảnh hưởng trực tiếp đến bất kỳ "
+"người dùng nào cả</strong>."
+
+#: lib/views/windows.what_about_source_code.php:32
+msgid "No one can look inside"
+msgstr "Không ai có thể nhìn vào trong"
+
+#: lib/views/windows.what_about_source_code.php:34
+msgid ""
+"Windows comes without its source code. More than that: all users must abide "
+"to the license term that says:"
+msgstr ""
+"Hệ điều hành Windows được phát hành mà không hề công bố mã nguồn. Còn hơn "
+"thế nữa là tất cả người dùng phải tuân theo những điều khoản mà giấy phép "
+"nêu ra:"
+
+#: lib/views/windows.what_about_source_code.php:36
+msgid "You may not reverse engineer, decompile, or disassemble the software."
+msgstr "Bạn không thể reverse engineer, decompile, hay disassemble phần mềm."
+
+#: lib/views/windows.what_about_source_code.php:38
+msgid ""
+"As such, it is illegal to work out how Windows or Microsoft Word are "
+"designed. It is even illegal to try. You are also forbidden to modify the "
+"program for any purpose."
+msgstr ""
+
+#: lib/views/windows.what_about_source_code.php:40
+msgid ""
+"This restriction in the license makes sure that <strong>Microsoft remain the "
+"sole organisation that understand how their products work</strong>. Windows "
+"is very much like a car that only the original manufacturer is allowed to "
+"service."
+msgstr ""
+
+#. translators: This is the quote from Stallman at the start of the article.
+#: lib/views/windows.what_about_source_code.php:46
+msgid ""
+"You might say, \"How do I change this recipe to take out the salt?\" and the "
+"great chef would respond, \"How dare you insult my recipe, the child of my "
+"brain and my palate, by trying to tamper with it? You don't have the "
+"judgment to change my recipe and make it work right!\""
+msgstr ""
+
+#: lib/views/windows.what_about_source_code.php:47
+#: lib/views/windows.stand_for_a_free_society.php:156
+msgid "http://www.gnu.org/philosophy/why-free.html"
+msgstr "http://www.gnu.org/philosophy/why-free.html"
+
+#: lib/views/windows.what_about_source_code.php:47
+msgid "Why Software Should Be Free"
+msgstr "Tại sao phần mềm nên là Tự do"
+
+#: lib/views/windows.what_about_source_code.php:54
+msgid "You can trust free software"
+msgstr ""
+
+#: lib/views/windows.what_about_source_code.php:56
+msgid ""
+"It comes as no surprise that proprietary software is severely lacking in "
+"terms of security, compared to software whose source code is freely "
+"available (including GNU/Linux)."
+msgstr ""
+
+#: lib/views/windows.what_about_source_code.php:58
+msgid ""
+"Free software means <strong>programmers can change the code</strong> to "
+"repair flaws. It means you can hire someone to really check how secure your "
+"software is. It means you can benefit from the contributions of a world-wide "
+"community to improve safety and reliability. Fifteen million users run GNU/"
+"Linux without an anti-virus, in complete safety. And the servers behind "
+"search engines and banks run on it too."
+msgstr ""
+
+#: lib/views/windows.what_about_source_code.php:64
+msgid ""
+"Source code is the recipe for software. How could one improve on a meal with "
+"too much salt, if forbidden to look at the recipe used to cook it?"
+msgstr ""
+
+#: lib/views/windows.what_about_source_code.php:66
+msgid ""
+"Using Windows and Office requires us to <strong>not ask</strong> nor search "
+"for the source of the software. Only Microsoft developers can modify your "
+"program."
+msgstr ""
+
+#. translators: Please note the conditionnal tense: we try to not be too harsh on the reader here ;-)
+#: lib/views/windows.what_about_source_code.php:70
+msgid ""
+"Which would you rather trust: the package you are forbidden to study, or the "
+"package with the recipe?"
+msgstr ""
+
+#. translators: use the definition of "free software" on GNU.org in place of softwareliberty.com
+#: lib/views/linux.misunderstanding_free_software.php:24
+msgid ""
+"Five misconceptions about <a href=\"http://www.softwareliberty.com/\">free "
+"software</a>, corrected."
+msgstr ""
+
+#: lib/views/linux.misunderstanding_free_software.php:27
+msgid ""
+"1. The software industry can't keep going if programmers don't get paid."
+msgstr ""
+"1. Ngành kinh doanh phần mềm không thể tiếp tục nếu lập trình viên không "
+"được tiền."
+
+#: lib/views/linux.misunderstanding_free_software.php:29
+msgid ""
+"Let's begin with one simple fact: free software programmers <em>do</em> like "
+"to get paid, and all need to buy lunch at some time."
+msgstr ""
+"Ta bắt đầu với một sự thật đơn giản: lập trình viên phần mềm tự do <em>có "
+"phải</em> muốn được tiền: mọi người cần ăn cơm."
+
+#. translators: Here, the %s placeholder simply puts a link to a footnote in this page
+#: lib/views/linux.misunderstanding_free_software.php:32
+#, php-format
+msgid ""
+"When we mention free software, we refer to <strong>liberty not price</"
+"strong>. You may actually pay to get free software (or \"open source\" "
+"software %s), which you can then study, change and copy at will."
+msgstr ""
+
+#: lib/views/linux.misunderstanding_free_software.php:34
+msgid ""
+"How does it work? You can think about it the following way: software is just "
+"code, code is only math. Once you view software as <strong>useful math</"
+"strong>, an elaborate language, not like ordinary property, there is no "
+"reason to restrict others' use of it."
+msgstr ""
+"Làm sao vậy? Ý kiến đơn giản: phần mềm chỉ là mã, và mã chỉ là toán học. Một "
+"khi bạn thấy phần mềm là <strong>toán học có ích</strong>, một ngôn ngữ phức "
+"tạp, không phải giống như tài sản tiêu chuẩn, thì không có lý do hạn chế "
+"người khác sử dụng nó."
+
+#: lib/views/linux.misunderstanding_free_software.php:35
+msgid ""
+"Just like math (where nobody would claim property on an equation), software "
+"requires advanced knowledge to be adapted, improved, applied correctly. This "
+"is where programmers generally generate an income: many customers, "
+"especially companies, are willing to pay for regular security updates and "
+"improvements on software."
+msgstr ""
+"Đúng như toán học (không có ai tuyên bố sở hữu một phương trình), phần mềm "
+"cần thiết kiến thức cấp cao được chỉnh lại, cải tiến và áp dụng đúng. Đây là "
+"dịp được tiền cho lập trình viên: rất nhiều khách hàng, đặc biệt công ty, "
+"muốn mua bản cập nhật bảo mật định kỳ và bản cải tiến phần mềm."
+
+#: lib/views/linux.misunderstanding_free_software.php:36
+msgid ""
+"Free software companies benefit from a very decentralised development system "
+"with a large number of voluntary contributors. The revenues inside the free "
+"software industry might be smaller than in the proprietary counterpoint, but "
+"are by no means negligible. In the end, individual users generally end up "
+"using free software at no cost."
+msgstr ""
+"Công ty phần mềm tự do lợi dụng một hệ thống phát triển rất phân tán có rất "
+"nhiều người tự nguyện đóng góp. Tiền được bên trong nhánh kinh doanh phần "
+"mềm tự do có thể nhỏ hơn phần sở hữu, nhưng vẫn còn đáng kể. Cuối cùng, "
+"người dùng riêng thường lợi dung phần mềm cả hai tự do và miễn phí."
+
+#: lib/views/linux.misunderstanding_free_software.php:37
+msgid ""
+"Free software is not about killing incentives for programmers. It's about "
+"seeing code as knowledge which should not be hidden from the user. It works "
+"with a different business model, in which many companies already do well."
+msgstr ""
+"Phần mềm tự do không nhằm mục đích dừng khuyến khích cho lập trình viên. Nó "
+"nhằm mục đích thấy mã nguồn là kiến thức không nên bị ẩn khỏi người dùng. Nó "
+"theo một mẫu kinh doanh khác mà cũng cho nhiều công ty thắng lợi."
+
+#: lib/views/linux.misunderstanding_free_software.php:40
+msgid "2. Innovation is killed in free software."
+msgstr ""
+
+#: lib/views/linux.misunderstanding_free_software.php:42
+msgid ""
+"The common perception is that if everyone can copy ideas, innovation will be "
+"stifled."
+msgstr ""
+"Nhiều người thấy là cho phép mọi người sao chép ý kiến sẽ nghẹt thở sự sáng "
+"tạo."
+
+#: lib/views/linux.misunderstanding_free_software.php:43
+msgid ""
+"In fact, freedom is often <strong>the key to innovative and successful "
+"software</strong>."
+msgstr ""
+"Thực tế là tự do thường <strong>chủ yếu để tạo phần mềm thành công có sáng "
+"kiến</strong>."
+
+#: lib/views/linux.misunderstanding_free_software.php:45
+msgid "Anyone is allowed and encouraged to work upon it;"
+msgstr "Cho phép và khuyến khích mọi người làm việc với nó;"
+
+#: lib/views/linux.misunderstanding_free_software.php:46
+msgid "Many people are willing to participate;"
+msgstr "Rất nhiều người muốn tham gia;"
+
+#: lib/views/linux.misunderstanding_free_software.php:47
+msgid ""
+"There is no need to re-invent everything, ideas can be improved upon "
+"directly."
+msgstr "Không cần phát minh lại gì, ý kiến có thể được cải tiến trực tiếp."
+
+#: lib/views/linux.misunderstanding_free_software.php:50
+msgid ""
+"Non-proprietary software stands out in many areas: consider, to name just a "
+"few:"
+msgstr "Phần mềm khác sở hữu thì nổi bật bằng nhiều cách, v.d."
+
+#: lib/views/linux.misunderstanding_free_software.php:52
+msgid ""
+"Applications: <a href=\"http://www.getfirefox.com/\">Firefox</a> (web "
+"browser), <a href=\"http://www.inkscape.org/\">Inkscape</a> (vector drawing)."
+msgstr ""
+"Ứng dụng: <a href=\"http://www.getfirefox.com/\">Firefox</a> (trình duyệt "
+"Web), <a href=\"http://www.inkscape.org/\">Inkscape</a> (trình vẽ đồ họa véc-"
+"tơ)."
+
+#: lib/views/linux.misunderstanding_free_software.php:53
+msgid ""
+"Complete systems: <a href=\"http://en.wikipedia.org/wiki/Apache_HTTP_Server"
+"\">Apache</a> (web server), <a href=\"http://en.wikipedia.org/wiki/OpenBSD"
+"\">OpenBSD</a> (<abbr title=\"Operating System\">OS</abbr>), and of course, "
+"GNU/Linux."
+msgstr ""
+"Hệ thống hoàn toàn: <a href=\"http://en.wikipedia.org/wiki/Apache_HTTP_Server"
+"\">Apache</a> (trình phục vụ Web), <a href=\"http://en.wikipedia.org/wiki/"
+"OpenBSD\">OpenBSD</a> (<abbr title=\"Hệ điều hành\">HĐH</abbr>), và tất "
+"nhiên, GNU/Linux."
+
+#. translators: use URL to localized Wikipedia article for ODF, instead of opendocumentfellowship
+#: lib/views/linux.misunderstanding_free_software.php:56
+msgid ""
+"Formats and protocols: <a href=\"http://en.wikipedia.org/wiki/HTML\">HTML</"
+"a> (web pages), <a href=\"http://en.wikipedia.org/wiki/"
+"BitTorrent_(protocol)\">BitTorrent</a> (file sharing), <a href=\"http://"
+"opendocumentfellowship.com/\">ODF</a> (office documents)."
+msgstr ""
+"Định dạng và giao thức: <a href=\"http://en.wikipedia.org/wiki/HTML\">HTML</"
+"a> (trang Web), <a href=\"http://en.wikipedia.org/wiki/"
+"BitTorrent_(protocol)\">BitTorrent</a> (chia sẻ tập tin), <a href=\"http://"
+"opendocumentfellowship.com/\">ODF</a> (tài liệu văn phòng)."
+
+#: lib/views/linux.misunderstanding_free_software.php:57
+msgid ""
+"Server applications: <a href=\"http://drupal.org/\">Drupal</a> (Content "
+"Management System), <a href=\"http://www.wordpress.org/\">Wordpress</a> "
+"(blog)."
+msgstr ""
+
+#: lib/views/linux.misunderstanding_free_software.php:62
+msgid "3. Software Should Just Work (who cares about source code?)"
+msgstr "3. Phần mềm nên chỉ chạy (ai quan tâm đến mã nguồn?)"
+
+#: lib/views/linux.misunderstanding_free_software.php:64
+msgid "Anyone should care about whether their software is free."
+msgstr "Mọi người nên quan tâm đến phần mềm tự do hay không."
+
+#: lib/views/linux.misunderstanding_free_software.php:65
+msgid ""
+"Imagine purchasing a car whose hood you are forbidden to open. It does not "
+"matter whether you know how a car works &ndash; the point is that nobody "
+"will be able to check the engine. How can you trust your car, if no one is "
+"allowed to make sure that it's reliable, that it does not leak, that it's "
+"not harmful to the society and environment?"
+msgstr ""
+"Muốn mua một chiếc xe mà không cho phép mở nắp đậy? Bất chấp bạn quan tâm "
+"đến môtơ, không ai có thể kiểm tra nó chạy được hay không. Làm sao bạn tìm "
+"biết nếu xe này đáng tin, không bị rò, không nguy hiểm?"
+
+#: lib/views/linux.misunderstanding_free_software.php:66
+msgid ""
+"The idea is the same with software &ndash; except that code does "
+"<strong>much more</strong> than move cars. Software runs our computers, "
+"phones, TVs, media players and more, carrying information and our culture."
+msgstr ""
+"Cũng vậy với phần mềm, trừ mã nguồn làm <strong>rất nhiều</strong> việc hơn "
+"chỉ làm cho xe đi. Phần mềm chạy các máy tính, điện thoại, máy phát ảnh/phim "
+"v.v., truyền thông tin và văn hoá của ta."
+
+#: lib/views/linux.misunderstanding_free_software.php:67
+msgid ""
+"Free software is as important as free speech, as a free market. If software "
+"is free, users have control and liberty over it."
+msgstr ""
+"Phần mềm quan trọng cũng như tiếng nói tự do và thị trường tự do. Nếu phần "
+"mềm vẫn tự do thì người dùng có quyền truy cập đến nó, ngay cả có thể điều "
+"khiển nó."
+
+#. translators: The %s placeholder will automatically point to the 'try and install' page
+#: lib/views/linux.misunderstanding_free_software.php:70
+#, php-format
+msgid ""
+"The good news are: <em>free software also Just Works.</em> And in fact, it "
+"often Just Works Better. <a href=\"%s\">Pop in a GNU/Linux liveCD</a> in "
+"your computer at start-up, to try a full-featured, well-organised system, "
+"without installation, so you can judge by yourself."
+msgstr ""
+"Tin vui: <em>phần mềm tự do cũng Chỉ Chạy Được</em>. Thực tế là nó thường "
+"chạy hữu hiệu hơn. <a href=\"%s\">Nạp một đĩa CD Động GNU/Linux</a> vào máy "
+"tính khi khởi động, để xài thử một hệ thống đầy đủ tính năng có bố trí dễ "
+"hiểu, không cần cài đặt, để cho bạn tự quyết định."
+
+#: lib/views/linux.misunderstanding_free_software.php:73
+msgid ""
+"4. Free software doesn't respect authors' copyrighted and patented software."
+msgstr ""
+"4. Phần mềm tự do không tùy theo bản quyền tác giả hay bằng sáng chế của "
+"phần mềm khác."
+
+#: lib/views/linux.misunderstanding_free_software.php:75
+msgid ""
+"To answer this correctly, we must first make a clear distinction between "
+"copyright and patents. Copyright is a right granted to the author over his/"
+"her creation (for example, the text of a book, or the source code of a "
+"program). A patent, on the other hand, is a purchased, registered exclusive "
+"control over a process, the application of an idea."
+msgstr ""
+"Để đáp ứng đúng, trước tiên ta phải phân biệt rõ tác quyền và bằng sáng chế. "
+"Tác quyền (copyright) là một quyền được cấp cho tác giả đối với sự sáng tác "
+"của họ (ví dụ văn bản của một cuốn sách, hay mã nguồn của một chương trình). "
+"Mặt khác, một bằng sáng chế là một điều khiển dành riêng được mở và đăng ký "
+"đối với một tiến trình, sự áp dụng một ý kiến."
+
+#. translators: If you can, please use a non-official translation of the GPL, as found at http://www.gnu.org/licenses/translations.html
+#: lib/views/linux.misunderstanding_free_software.php:79
+msgid ""
+"<strong>Copyright is very important in free software.</strong> It is the "
+"very mechanism, central to the <a href=\"http://www.gnu.org/copyleft/gpl.html"
+"\">GNU General Public License</a>, which ensures that free software remains "
+"free, and that authors are credited for their work. Programs are "
+"copyrighted, whether they are free or proprietary."
+msgstr ""
+"<strong>Tác quyền rất quan trọng cho phần mềm tự do.</strong> Nó là cơ chế "
+"chủ yếu của <a href=\"http://www.gnu.org/copyleft/gpl.html\">Giấy Phép Công "
+"Cộng GNU</a> (GPL) mà đảm bảo phần mềm tự do vẫn tự do, và mỗi tác giả hưởng "
+"công trạng về sản phẩm của họ. Mọi chương trình có bản quyền tác giả, bất "
+"chấp nó tự do hay sở hữu."
+
+#: lib/views/linux.misunderstanding_free_software.php:80
+msgid ""
+"Any proprietary software author can easily check that his copyright is not "
+"violated in a free software application, since its source code is readily "
+"available."
+msgstr ""
+"Bất cứ tác giả phần mềm sở hữu nào có thể dễ kiểm tra tác quyền của họ không "
+"phải bị vi phạm trong một ứng dụng phần mềm tự do, vì mã nguồn của nó vẫn "
+"công bố tự do."
+
+#: lib/views/linux.misunderstanding_free_software.php:82
+msgid ""
+"Patents in software, on the other hand, are a very controversial concept. To "
+"put it shortly: there is <strong>no such thing as a \"patented software\"</"
+"strong>. By registering for a patent, however, someone can claim ownership "
+"over a <em>process</em>. The patent then applies to all software that use "
+"this process, whether proprietary or free."
+msgstr ""
+"Mặt khác, bằng sáng chế phần mềm là một quan niệm rất có thể bàn cãi được. "
+"Để tóm tắt, <strong>không có điều thật là « phần mềm có bằng sáng chế »</"
+"strong>. Tuy nhiên, bằng cách đăng ký một bằng sáng chế, ai đó có thể tuyên "
+"bố sở hữu một <em>tiến trình</em>. Bằng sáng chế thì áp dụng cho mọi phần "
+"mềm sử dụng tiến trình đó, bất chấp sở hữu hay tự do."
+
+#: lib/views/linux.misunderstanding_free_software.php:83
+msgid "Software patents:"
+msgstr "Bằng sáng chế phần mềm:"
+
+#: lib/views/linux.misunderstanding_free_software.php:85
+msgid "Are expensive and are granted only several years after application;"
+msgstr "rất đắt, và chỉ được cấp sau vài năm đợi."
+
+#: lib/views/linux.misunderstanding_free_software.php:86
+msgid ""
+"Are limited geographically (a patent granted in the US is worthless in "
+"Europe);"
+msgstr ""
+"có phạm vi địa lý bị hạn chế (một bằng sáng chế được cấp ở Mỹ thì vô dụng ở "
+"Âu)"
+
+#: lib/views/linux.misunderstanding_free_software.php:87
+msgid "Have long life-times (often 20 years) in a quickly-moving industry;"
+msgstr ""
+"bền bỉ quá lâu (thường là 20 năm) trong một ngành kinh doanh phát triển nhanh"
+
+#: lib/views/linux.misunderstanding_free_software.php:88
+msgid ""
+"Often apply <a href=\"http://eupat.ffii.org/patents/samples/\">entirely "
+"trivial processes</a>."
+msgstr ""
+"Thường áp dụng <a href=\"http://eupat.ffii.org/patents/samples/\">các tiến "
+"trình hoàn toàn không đáng kể</a>."
+
+#: lib/views/linux.misunderstanding_free_software.php:90
+msgid ""
+"As such, they are seldom used to benefit innovators (and in fact, rarely "
+"used by the innovators themselves)."
+msgstr ""
+"Như vậy, bằng sáng chế rất ít được dùng để giúp ích cho người có sáng kiến "
+"(thực tế là rất ít được người sáng kiến tự dùng)."
+
+#: lib/views/linux.misunderstanding_free_software.php:92
+msgid ""
+"It's safe to say that <strong>any medium-size piece of software violates "
+"patents</strong>, in several countries, whether it's free or not."
+msgstr ""
+"Nói chung, <strong>bất cứ phần mềm đáng kể nào thì vi phạm bằng sáng chế</"
+"strong> ở vài quốc gia khác nhau, bất chấp phần mềm tự do hay không."
+
+#: lib/views/linux.misunderstanding_free_software.php:93
+msgid ""
+"Depending on the holding company's ability to cover very large legal costs, "
+"or to retaliate with other patent threats, royalties and restrictions can be "
+"applied over these patents."
+msgstr ""
+"Phụ thuộc vào khả năng của công ty mẹ để hỗ trợ chi phí pháp luật, hoặc để "
+"trả đũa với lời đe doạ bằng sáng chế thêm nữa, các số tiền bản quyền phát "
+"minh và sự hạn chế có thể được áp dụng thêm vào bằng sáng chế."
+
+#: lib/views/linux.misunderstanding_free_software.php:96
+msgid "Read and view more:"
+msgstr ""
+
+#. translators: Unless you know of a good localized resource, please leave the URL as such.
+#: lib/views/linux.misunderstanding_free_software.php:100
+msgid ""
+"<a href=\"http://ffii.org/Frequently_Asked_Questions_about_software_patents"
+"\" hreflang=\"en\">Frequently Asked Questions on software patents, by the "
+"<abbr title=\"Foundation for a Free Information Infrastructure\">FFII</abbr>"
+msgstr ""
+
+#. translators: Unless you know of a good localized resource, please leave the URL as such.
+#: lib/views/linux.misunderstanding_free_software.php:103
+msgid ""
+"<a href=\"http://www.redhat.com/magazine/007may05/features/ip/\" hreflang="
+"\"en\">Short and clear video on \"intellectual property\" by Red Hat"
+msgstr ""
+
+#: lib/views/linux.misunderstanding_free_software.php:108
+msgid "5. Free software is like communism."
+msgstr "5. Phần mềm tự do chống quyền lợi cá nhân."
+
+#. translators: Here, the %s placeholder simply puts a link to a footnote in this page
+#: lib/views/linux.misunderstanding_free_software.php:112
+#, php-format
+msgid ""
+"Supporters of this idea argue that there can be no private ownership with "
+"free (or \"open source\" %s) software. Let's answer this with an example."
+msgstr ""
+
+#: lib/views/linux.misunderstanding_free_software.php:113
+msgid ""
+"Let's imagine that you use one application that is free software, at home "
+"and within your company. You find a great way to improve it, so now with "
+"your modified version, your computer works better and your factories run "
+"twice as fast!"
+msgstr ""
+"Giả sử là bạn sử dụng một ứng dụng là phần mềm tự do, cả hai ở nhà và ở chỗ "
+"làm. Bạn cải tiến phần mềm: dùng phiên bản đã sửa đổi, các máy tính chạy tốt "
+"hơn và công ty rất thành công hơn !"
+
+#: lib/views/linux.misunderstanding_free_software.php:114
+msgid ""
+"This modified version is <strong>your own version</strong>. You are not "
+"required to tell anyone about it, nor must you share any of the profits you "
+"made using it. You are simply exerting your freedom to use and modify free "
+"software."
+msgstr ""
+"Phiên bản đã sửa đổi này là <strong>phiên bản riêng của bạn</strong>. Bạn "
+"không bắt buộc phải báo người khác biết về nó, cũng không bắt buộc phải chia "
+"sẻ lợi được kiếm khi sử dụng nó. Bạn đơn giản sử dụng quyền sửa đổi và dùng "
+"phần mềm tự do."
+
+#: lib/views/linux.misunderstanding_free_software.php:115
+msgid ""
+"What the free software license requires is that <strong>if you redistribute</"
+"strong> this software, then you must keep it free. Namely, if you sell CDs "
+"with your software on them, or start letting people outside your home or "
+"company use it, then you must:"
+msgstr ""
+"Giấy phép của phần mềm tự do chỉ đòi hỏi rằng <strong>nếu bạn phát hành lại</"
+"strong> phần mềm này, thì bạn phải bảo tồn các quyền của giấy phép. Nếu bạn "
+"bán đĩa CD chứa phần mềm này, hoặc cho phép người khác (ở ngoại nhà hay công "
+"ty của bạn) sử dụng nó, thì giấy phép yêu cầu bạn:"
+
+#: lib/views/linux.misunderstanding_free_software.php:117
+msgid ""
+"Either give everyone the same rights you had when you obtained the original "
+"software, that is, the freedom to inspect, modify and redistribute your "
+"modified version;"
+msgstr ""
+"Hoặc cấp cho mọi người những quyền của giấy phép gốc: quyền xem xét, sửa đổi "
+"và phát hành lại phiên bản đã sửa đổi này;"
+
+#: lib/views/linux.misunderstanding_free_software.php:118
+msgid ""
+"Or, make the original software and your secret addition to it clearly "
+"separate (that is, your addition should contain none of the original work)."
+msgstr ""
+"Hoặc phân biệt rõ rằng phần mềm mới so với phần mềm gốc: phần mềm mới không "
+"thể chứa cái nào từ phần mềm gốc."
+
+#. translators: The %s placeholder here will automatically point to the page "Windows Restrictions, further details"
+#: lib/views/linux.misunderstanding_free_software.php:122
+#, php-format
+msgid ""
+"So in fact, you have more \"ownership\" over free software than over "
+"proprietary software &ndash;where the programmer decides everything you can "
+"<a href=\"%s\">and can't do</a> with the software."
+msgstr ""
+"Thực tế là bạn có nhiều « quyền sở hữu » đối với phần mềm tự do hơn là đối "
+"với phần mềm sở hữu, mà lập trình viên có mọi quyền cấp và <a href=\"%s"
+"\">hạn chế</a> quyền sử dụng của người dùng phần mềm."
+
+#: lib/views/linux.misunderstanding_free_software.php:123
+msgid ""
+"<em>Free software has nothing to do with a political system.</em> You can "
+"run free software on top of proprietary software, just as well as the "
+"opposite. The free software license is simply a legal, ethical contract "
+"between the programmer and the end-user."
+msgstr ""
+"<em>Phần mêm tự do không có gì để làm với hệ thống chính trị.</em> Bạn có "
+"thể chạy phần mềm tự do trên nền phần mềm độc quyền cũng như ngược lại. Giấy "
+"phép phần mềm tự do đơn giản là một giao kèo hợp pháp và hợp lý giữa lập "
+"trình viên và người sử dụng."
+
+#: lib/views/linux.misunderstanding_free_software.php:127
+msgid "Read more:"
+msgstr "Đọc thêm:"
+
+#: lib/views/linux.misunderstanding_free_software.php:130
+msgid "Free / \"open-source\" software can't be secure."
+msgstr ""
+
+#: lib/views/linux.misunderstanding_free_software.php:133
+msgid ""
+"The argument generally goes that since the source code of free software is "
+"available, it is less likely to be secure."
+msgstr ""
+"Lý lẽ này thường đi đến kết luận rằng bởi vì mã nguồn của phần mềm tự do là "
+"sẵn có, nó có vẻ kém an toàn."
+
+#: lib/views/linux.misunderstanding_free_software.php:134
+msgid ""
+"Short answer: The majority of servers run free software. They are the major "
+"networked computers holding sensitive or confidential information such as "
+"your bank details or trade secrets."
+msgstr ""
+"Đáp ngắn: Phần lớn máy chủ đều chạy phần mềm tự do. Đó là những máy tính chủ "
+"chốt được nối mạng lưu trữ những thông tin nhạy cảm hay bí mật chẳng hạn như "
+"chi tiết tài khoản ngân hàng của bạn hay những bí mật thương mại."
+
+#: lib/views/linux.misunderstanding_free_software.php:135
+msgid ""
+"A more precise answer is that availability of source code is a warrant of "
+"security, not a weakness. The freedom of the software ensures it can be "
+"inspected, tested and improved by a very wide community. A good lock is "
+"secure because the technology used to design it is open, though only the key "
+"holder can open it. The same goes for software."
+msgstr ""
+"Câu trả lời chính xác hơn là tính sẵn có của mã nguồn là sự bảo đảm cho an "
+"ninh chứ không phải điểm yếu. Sự tự do của phần mềm bảo đảm rằng nó được "
+"kiểm tra, thử nghiệm và phát triển bởi một cộng đồng rộng lớn. Một chiếc "
+"khoá là an toàn bởi vì công nghẹ để thiết kế nó là \"mở\", tuy nhiên chỉ có "
+"người giữ chìa mởi mở được nó. Phần mềm cũng vậy."
+
+#: lib/views/linux.misunderstanding_free_software.php:136
+#, php-format
+msgid ""
+"Need examples? Have a look at the <a href=\"http://www.getfirefox.com/"
+"\">Firefox browser</a>, the <a href=\"http://en.wikipedia.org/wiki/"
+"Apache_HTTP_Server\">Apache HTTP Server</a>, the <a href=\"http://en."
+"wikipedia.org/wiki/Pretty_Good_Privacy\">OpenPGP</a> encryption system, or "
+"the <a href=\"http://en.wikipedia.org/wiki/OpenBSD\">OpenBSD</a> operating "
+"system. And <a href=\"%s#security\">there are no spyware or viruses under "
+"GNU/Linux</a>."
+msgstr ""
+"Cần ví dụ? Hãy ghé qua <a href=\"http://www.getfirefox.com/\">Trình duyệt "
+"Firefox</a>, <a href=\"http://en.wikipedia.org/wiki/Apache_HTTP_Server\">Máy "
+"chủ HTTP Apache</a>, hệ thống mã hoá <a href=\"http://en.wikipedia.org/wiki/"
+"Pretty_Good_Privacy\">OpenPGP</a>, hay hệ điều hành <a href=\"http://en."
+"wikipedia.org/wiki/OpenBSD\">OpenBSD</a>. Và <a href=\"%s#security\">không "
+"có trình gián điệp hay vi-rút trong GNU/Linux</a>."
+
+#. translators: this can be translated loosely, ex "Free software isolates me" or else.
+#: lib/views/linux.misunderstanding_free_software.php:143
+msgid "I'm on my own with free software."
+msgstr "Dùng phần mềm tự do, tôi chỉ có một mình."
+
+#: lib/views/linux.misunderstanding_free_software.php:146
+msgid "Not at all."
+msgstr "Không hẳn."
+
+#: lib/views/linux.misunderstanding_free_software.php:148
+msgid ""
+"If you are looking for good documentation and support forums to assist you, "
+"there is plenty available for free (\"open source\") software."
+msgstr ""
+"Nếu bạn đang tìm kiếm tài liệu hướng dẫn và các diễn đàn hỗ trợ, có rất "
+"nhiều cho phần mềm tự do (\"nguồn mở\")."
+
+#. translators: use your best knowledge of the community to propose localized links ;-)
+#: lib/views/linux.misunderstanding_free_software.php:150
+msgid ""
+"Each GNU/Linux distribution has its own community (for example, <a href="
+"\"http://www.ubuntu.com/support/free\">Ubuntu support</a> or <a href="
+"\"http://fedora.redhat.com/docs/\">Fedora docs</a>), but there are also "
+"general free software help communities, like <a href=\"http://www."
+"linuxquestions.org/\">LinuxQuestions.org</a>."
+msgstr ""
+
+#: lib/views/linux.misunderstanding_free_software.php:151
+msgid ""
+"If you need someone you can reach on the phone anytime to assist you, the "
+"companies behind most distributions provide commercial support: see the <a "
+"href=\"http://www.ubuntu.com/support/paid\">Ubuntu Commercial Support</a> or "
+"<a href=\"http://www.redhat.com/rhel/\">Red Hat Enterprise Linux</a> pages "
+"for example."
+msgstr ""
+"Nếu bạn muốn có thể gọi đến để được trợ giúp bất cứ lúc nào, các công ty "
+"đứng sau hầu hết bản phân phối cung cấp dịch vụ hỗ trợ thương mại: xem <a "
+"href=\"http://www.ubuntu.com/support/paid\">Hỗ trợ Thương mại Ubuntu</a> hay "
+"<a href=\"http://www.redhat.com/rhel/\">Red Hat Linux Doanh nghiệp</a> làm "
+"ví dụ."
+
+#: lib/views/linux.misunderstanding_free_software.php:157
+msgid "Further reading on the web"
+msgstr ""
+
+#: lib/views/linux.misunderstanding_free_software.php:161
+msgid ""
+"This is where free software all started. You will find a wealth of "
+"information about the free software philosophy, the history of the project, "
+"and the stands taken by the <a href=\"http://www.fsf.org/\">Free Software "
+"Foundation</a> (the organisation behind GNU)."
+msgstr ""
+"Đây là khởi điểm của mọi phần mềm tự do. Bạn có thể tìm thấy rất nhiều thông "
+"tin về triết lý phần mềm tự do, lịch sử của dự án và vị trí mà <a href="
+"\"http://www.fsf.org/\">Tổ chức Phần mềm Tự do</a> (tổ chức hậu thuẫn GNU) "
+"đã đạt được."
+
+#: lib/views/linux.misunderstanding_free_software.php:164
+msgid ""
+"The concept of Free&nbsp;/&nbsp;Libre&nbsp;/&nbsp;Open Source Software "
+"presented in a highly readable, friendly way. A must-read."
+msgstr ""
+"Khái niệm Phần mềm Tự do&nbsp;/&nbsp;Nguồn mở được trình bày dưới dạng dễ "
+"đọc và thân thiện. Một cuốn sách không-thể-không-đọc."
+
+#: lib/views/linux.misunderstanding_free_software.php:167
+msgid ""
+"A simple and clear website about the free format OpenDocument, showing the "
+"importance of freedom in formats (not just in applications)."
+msgstr ""
+"Một trang mạng đơn giản và dễ hiểu về định dạng mở OpenDocument, chỉ ra tầm "
+"quan trọng của sự tự do trong định dạng (không chỉ trong trình ứng dụng)."
+
+#: lib/views/linux.misunderstanding_free_software.php:170
+msgid ""
+"An engaged article by co-founder of <a href=\"http://www.wikipedia.org/"
+"\">Wikipedia</a> Jimmy Wales, which shows the connections between freedom in "
+"software and free knowledge."
+msgstr ""
+"Một bài viết của Jimmy Wales, người đồng sáng lập <a href=\"http://www."
+"wikipedia.org/\">Wikipedia</a>, chỉ ra mối liên hệ giữa tự do trong phần mềm "
+"và tự do trong tri thức."
+
+#. translators: This is the content of the footnote, at the bottom of the page
+#: lib/views/linux.misunderstanding_free_software.php:179
+#, php-format
+msgid ""
+"What we call \"Free Software\" here is also often called \"Open Source "
+"Software\". In practice the requirements are identical, although because the "
+"term \"open\" doesn't call to mind freedom, it <a href=\"http://www.gnu.org/"
+"philosophy/open-source-misses-the-point.html\">misses the point</a>. Read "
+"our FAQ entry: <a href=\"%s#open_source\">Are \"Open Source\" and \"Free "
+"Software\" the same thing?</a>."
+msgstr ""
+"Thứ chúng ta gọi là \"Phần mềm Tự do\" cũng thường được gọi là \"Phần mềm "
+"Nguồn mở\". Trên thực tế các yêu cầu là như nhau nhưng bởi vì khái niệm \"mở"
+"\" không đề cập đến sự tự do, nó <a href=\"http://www.gnu.org/philosophy/"
+"open-source-misses-the-point.html\">bỏ qua vấn đề chính</a>. Hãy xem câu trả "
+"lời cho câu hỏi: <a href=\"%s#open_source\">Có phải \"Phần mềm Nguồn mở\" và "
+"\"Phần mềm Tự do\" là như nhau?</a>."
+
+#. translators: please note the "affirmative" tone with the '.' at end of sentence.
+#: lib/views/switch_to_linux.php:27
+msgid "Meet GNU/Linux in everyday use."
+msgstr ""
+
+#: lib/views/switch_to_linux.php:41
+#: lib/views/switch_to_linux.from_windows_to_linux.php:182
+msgid "Our selection for an easy choice."
+msgstr "Tuyển tập cho sự lựa chọn dễ dàng."
+
+#: lib/views/switch_to_linux.php:55
+msgid "Install it! (it's easier than you think)"
+msgstr "Cài đặt! (dễ hơn bạn tưởng)"
+
+#: lib/views/switch_to_linux.try_or_install.php:23
+msgid ""
+"Make the step &ndash; unless you wish to <a href=\"http://linuxpreloaded.com/"
+"\" title=\"Linux Desktops and Laptops\">purchase a PC with Linux pre-"
+"installed</a>, you can see what freedom looks like on your computer."
+msgstr ""
+"Hãy bước lên &ndash; trừ khi bạn muốn <a href=\"http://linuxpreloaded.com/\" "
+"title=\"Linux Desktops and Laptops\">mua một máy tính đã cài sẵn Linux</a>, "
+"bạn sẽ cảm nhận thế nào là sự tự do trên máy tính của bạn."
+
+#: lib/views/switch_to_linux.try_or_install.php:30
+msgid "Try out: the live CD"
+msgstr "Thử xem đĩa CD động"
+
+#: lib/views/switch_to_linux.try_or_install.php:32
+msgid "Take no risk"
+msgstr "Đừng lấy rủi ro"
+
+#: lib/views/switch_to_linux.try_or_install.php:36
+msgid ""
+"Using a live CD means that Linux will be running on your computer "
+"<em>without installing anything</em>. It's a risk-less way to try and see by "
+"yourself what Linux is."
+msgstr ""
+"Sử dụng một đĩa CD động có nghĩa là Linux sẽ chạy trên máy tính của bạn mà "
+"<em>không cần cài đặt gì cả</em>. Đây là một phương pháp không rủi ro cho "
+"bạn tự thử xem Linux."
+
+#: lib/views/switch_to_linux.try_or_install.php:37
+msgid ""
+"When running on a live CD, your computer uses solely the CD-ROM to work "
+"(without accessing the hard drive inside). You can launch all of the default "
+"programs, edit documents, and browse the web."
+msgstr ""
+
+#: lib/views/switch_to_linux.try_or_install.php:38
+msgid ""
+"Since it is only designed as a trial mode, it is a little slow (it will take "
+"you five minutes to boot up, and programs launch somewhat slowly). If you "
+"proceed to install, the system will go much faster."
+msgstr ""
+"Tuy nhiên, do chỉ để thử thôi, cho nên tốc độ làm việc sẽ hơi chậm (sẽ mất "
+"khoảng 5 phút để khởi động và các ứng dụng sẽ chạy khá chậm). Nếu bạn quyết "
+"định cài trên máy tính, hệ thống sẽ chạy nhanh hơn nhiều."
+
+#: lib/views/switch_to_linux.try_or_install.php:40
+#: lib/views/switch_to_linux.try_or_install.php:54
+msgid "What you need"
+msgstr "Những thứ mà bạn cần"
+
+#: lib/views/switch_to_linux.try_or_install.php:42
+msgid ""
+"To use a live CD, you need a little bit of curiosity and fifteen minutes of "
+"free time, but <strong>no advanced knowledge in computing</strong>. If you "
+"feel confident simply using Windows from time to time, then this is within "
+"your reach."
+msgstr ""
+
+#: lib/views/switch_to_linux.try_or_install.php:48
+msgid "Installing as a dual boot"
+msgstr "Cài đặt để khởi động đôi"
+
+#: lib/views/switch_to_linux.try_or_install.php:50
+msgid "Choose at start-up"
+msgstr ""
+
+#: lib/views/switch_to_linux.try_or_install.php:51
+msgid ""
+"It is possible to install GNU/Linux along with Windows. This means that upon "
+"start-up, you will be greeted with a screen allowing you to boot into the "
+"operating system you prefer."
+msgstr ""
+"Có thể cài đặt GNU/Linux cùng với Windows. Có nghĩa là khi máy tính khởi "
+"động, bạn sẽ thấy một màn hình cho phép khởi động vào một trong hai hệ điều "
+"hành."
+
+#: lib/views/switch_to_linux.try_or_install.php:52
+msgid ""
+"Setting up a dual-boot can be helpful if you need time to abandon "
+"restrictive software. It is <a href=\"http://www.ubuntu.com/download/desktop/"
+"install-desktop-latest\" title=\"a tutorial on installing Ubuntu\">not "
+"difficult to set-up</a>, though erasing Windows altogether is even easier."
+msgstr ""
+
+#: lib/views/switch_to_linux.try_or_install.php:55
+msgid ""
+"Installing Linux on your computer will take you less than 30 minutes. It is "
+"not an obvious step for complete beginners, but if you use computers on a "
+"daily basis this is very likely within your reach. If you have already re-"
+"installed Windows on your computer, rest assured that installing Linux is no "
+"harder."
+msgstr ""
+"Tiến trình cài đặt Linux vào máy tính của bạn sẽ hoàn thành trong vòng ít "
+"hơn 30 phút. Không phải là một bước hoàn toàn rõ ràng cho người mới bắt đầu, "
+"nhưng nếu bạn sử dụng máy tính hàng ngày, nó rất có thể chạy được. Chắc chắn "
+"là nó không khó hơn cài đặt Windows."
+
+#: lib/views/switch_to_linux.try_or_install.php:61
+msgid "Get the CD or DVD you need"
+msgstr ""
+
+#: lib/views/switch_to_linux.try_or_install.php:63
+msgid ""
+"For the distributions we recommend, the live CD/DVD is the same as the "
+"installation CD/DVD. You can either download and burn a CD/DVD yourself, or "
+"order a CD/DVD from a trusted vendor."
+msgstr ""
+
+#: lib/views/switch_to_linux.try_or_install.php:68
+msgid ""
+"You can download an <code>iso</code> image (rather large file) and then <a "
+"href=\"http://www.ubuntu.com/download/desktop/burn-a-dvd-on-windows\">burn "
+"it to a CD or DVD</a>. Once the CD/DVD is burned, you can use it to <a href="
+"\"http://www.ubuntu.com/download/desktop/install-desktop-latest\">install "
+"Ubuntu</a> onto your computer."
+msgstr ""
+
+#: lib/views/switch_to_linux.try_or_install.php:72
+msgid "Download Ubuntu"
+msgstr ""
+
+#: lib/views/switch_to_linux.try_or_install.php:75
+#: lib/views/switch_to_linux.try_or_install.php:91
+#: lib/views/switch_to_linux.try_or_install.php:107
+msgid "Order a CD/DVD"
+msgstr ""
+
+#: lib/views/switch_to_linux.try_or_install.php:84
+msgid ""
+"The Fedora live CD/DVD also enables installation. Follow the <a href="
+"\"http://docs.fedoraproject.org/en-US/Fedora/18/html/"
+"Installation_Quick_Start_Guide/index.html\">installation quick start guide</"
+"a> to get started with Fedora."
+msgstr ""
+
+#: lib/views/switch_to_linux.try_or_install.php:88
+msgid "Download Fedora"
+msgstr ""
+
+#: lib/views/switch_to_linux.try_or_install.php:100
+msgid ""
+"The <a href=\"http://trisquel.info/en/wiki/installation-guide\">Trisquel "
+"installation</a> is very similar to that of Ubuntu."
+msgstr ""
+
+#: lib/views/switch_to_linux.try_or_install.php:104
+msgid "Download Trisquel"
+msgstr ""
+
+#: lib/views/switch_to_linux.try_or_install.php:113
+msgid ""
+"Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href="
+"\"http://www.softwareliberty.com/\" title=\"What do you mean, free?\">free "
+"software</a>. You are simply paying a handling/shipping fee."
+msgstr ""
+"Ghi chú: Các CD tải xuống hoăc mua đều giống nhau! GNU/Linux là <a href="
+"\"http://www.softwareliberty.com/\" title=\"What do you mean, free?\">Phần "
+"mềm Tự do mã nguồn mở</a>. Bạn chỉ trả tiền phí đóng gói và vận chuyển."
+
+#: lib/views/switch_to_linux.try_or_install.php:120
+msgid "Free Software pre-installed"
+msgstr ""
+
+#: lib/views/switch_to_linux.try_or_install.php:122
+msgid ""
+"Not all computers are shipped with Windows. If you do not wish to make the "
+"install yourself, or are in need of new hardware, you can get a laptop or a "
+"desktop pre-installed with GNU/Linux.<br/>\n"
+"We have compiled <a title=\"linux computers\" href=\"http://linuxpreloaded."
+"com/\">a list of vendors pre-installing Linux at LinuxPreloaded.com</a> just "
+"for that reason."
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:23
+msgid "Stand for a Free Society"
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:26
+msgid ""
+"There is much more to software than being trustworthy (being \"Open-Source"
+"\"): what really counts is <strong>the freedoms you get</strong> over it. "
+"Can you learn from it? Can you build upon it? Can you distribute it? That's "
+"what we refer to as \"free software\"."
+msgstr ""
+
+#. translators: This is the quote by Don Marti at the start of the article.
+#: lib/views/windows.stand_for_a_free_society.php:32
+msgid ""
+"I come up with new words, phrases, analogies, all kinds of fun stuff in the "
+"English language and people paraphrase what I had to say and make money "
+"talking about some of the same things that I did."
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:33
+msgid ""
+"<strong>If I try to lock down</strong> what I talk about and write about, "
+"the same way as a proprietary software company does, then the whole industry "
+"of speaking, writing, media, would be overly litigious, and transaction "
+"costs would be prohibitive."
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:37
+msgid "Not a crazy concept"
+msgstr "Không phải là một khái niệm điên rồ"
+
+#: lib/views/windows.stand_for_a_free_society.php:39
+msgid ""
+"It sounds peculiar to many users that software should be free as in freedom, "
+"since none of Microsoft's products are. Yet our society works with many free "
+"things in it, for example:"
+msgstr ""
+
+#. translators: This is the short quote on the side of the article.
+#: lib/views/windows.stand_for_a_free_society.php:44
+msgid ""
+"Though no one has a proprietary lock on yoga, it is still a thriving $30 "
+"billion business in the United States."
+msgstr ""
+"Mặc dù không ai có quyền sở hữu về môn Yoga cả, nhưng kinh doanh môn đó tại "
+"Hoa kỳ có giá trị lên đến 30 tỉ đô la Mỹ."
+
+#: lib/views/windows.stand_for_a_free_society.php:49
+msgid ""
+"No chef would ever forbid you to modify his recipe and make derivatives out "
+"of it. The food industry thrives despite being required by law to list "
+"ingredients on product labels."
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:50
+msgid ""
+"A fair law court system permits anyone to read through all the trial "
+"hearings and arguments. Not only the result (the final deliberations), but "
+"also the process is fully open."
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:53
+msgid ""
+"Free software is free as in &quot;free speech&quot;, as in a &quot;free "
+"market&quot;: all are necessary for a free society. Unconvinced? Let us look "
+"at proprietary software a little closer."
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:55
+msgid "Proprietary software going wrong"
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:57
+#, php-format
+msgid ""
+"The limits of proprietary software go beyond the security issue (see <a href="
+"\"%s\">our article on source code</a>): today proprietary software "
+"interferes with the spread of culture and information. This happens mainly "
+"through two technologies:"
+msgstr ""
+
+#. translators: This is sometimes only known as "DRM" in some languages. Please choose the vocabulary carefully. The %s placeholder links to a footnote which explains why we use the term "Digital Restrictions Management": http://www.getgnulinux.org/windows/stand_for_a_free_society/#footnote_bottom1
+#: lib/views/windows.stand_for_a_free_society.php:62
+#, php-format
+msgid "Digital Restrictions Management %s (DRM)"
+msgstr ""
+
+#. translators: The %s placeholder will automatically point to the footnote on bottom of page
+#: lib/views/windows.stand_for_a_free_society.php:66
+#, php-format
+msgid ""
+"The main idea of DRM %s is to restrict access to files. Users encounter this "
+"when, for example, they purchase music through iTunes, and then can only "
+"play their music with one player, from one brand. With this method, "
+"companies fight copyright infringement, but they also severely restrain "
+"users' access to their files."
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:70
+msgid "DRM is control over content"
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:73
+msgid ""
+"Except that the control is not in the hands of the end-user. The original "
+"purpose of <abbr title=\"Digital Restrictions Management\">DRM</abbr> is "
+"understandable, but the implications over the flow of information and "
+"culture within a society are frightening."
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:77
+msgid ""
+"Imagine a book that automatically became glued shut after you read it once."
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:78
+msgid ""
+"Imagine documents that self-destructed if you tried to take them out of the "
+"room."
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:79
+msgid ""
+"Imagine telephones that only worked if the person you were ringing was "
+"renting the same make and model."
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:83
+msgid "Sounds crazy? This is where Trusted Computing comes in."
+msgstr ""
+
+#. translators: This is sometimes only known as "Trusted Computing", not TC, in some languages. Please choose the vocabulary carefully.
+#: lib/views/windows.stand_for_a_free_society.php:87
+msgid "Trusted Computing (TC)"
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:89
+msgid ""
+"Trusted Computing (sometimes <a href=\"http://www.lafkon.net/tc/\" title=\"A "
+"very well done video on Trusted Computing\">more accurately</a> called "
+"\"Treacherous Computing\") means a computer can only run \"Trusted\" "
+"Software. It is meant to be an uncircumventable protection against nuisances "
+"(like viruses or spyware) and copyright violations (people copying "
+"proprietary software)."
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:92
+msgid "Trusted Computing is control over the computer"
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:95
+msgid ""
+"The critical thing about Trusted Computing is that <strong>you cannot "
+"decide</strong> what is trustworthy and what is not. For example, your "
+"computer might refuse to run programs that are not certified by the software "
+"company &ndash;programs that could enable you to take documents out of the "
+"office, or play your neighbour's DVD, or send your essay to someone not "
+"using the same program."
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:96
+msgid ""
+"A whole range of possibilities opens up for companies that benefit from "
+"restricting your computing (such as proprietary software and recording "
+"companies). It is suddenly possible to rent DVDs that only play two times, "
+"or music you can only listen to during September, or information you can "
+"read but can't save or copy. All of a sudden, Trusted Computing and DRM "
+"enable <strong>remote control</strong> over content."
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:97
+msgid ""
+"Trusted Computing, in effect, enables the publisher to write their own "
+"copyright law."
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:100
+msgid "The wider impact"
+msgstr ""
+
+#. translators: This is the quote by Rosemary Bechler in the middle of the article.
+#: lib/views/windows.stand_for_a_free_society.php:105
+msgid ""
+"Many cultural products are now emerging &quot;triple protected&quot;, not "
+"only by copyright and code, but also by contracts or licenses for which "
+"users waive all remaining rights."
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:106
+msgid ""
+"Increasingly, copyright is replaced with click-through end-user licenses for "
+"digital content, using contract law to establish the absolute property "
+"rights that copyright laws were originally intended to deny to publishers."
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:110
+msgid ""
+"Computing is not just about calculations anymore. We use software to "
+"communicate: to share information, ideas and culture. Software is in our "
+"phones, cars, media players, TVs, and gets to govern just about every new "
+"device around us."
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:117
+msgid ""
+"<strong>Software is increasingly used to enforce rules</strong>. Rules that "
+"may or may not be the law. Rules that may or may not be fair. If the "
+"software is not free there will be no space for the user to influence these "
+"rules."
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:119
+msgid ""
+"Trusted Computing and DRM pave the way for a society in which culture and "
+"information are not simply turned into products (they are right now, and "
+"that is fine), but into <em>consumable</em> products."
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:121
+msgid ""
+"Code is power. Most of today's work documents are written and encoded with "
+"secret algorithms in proprietary software. What will be of tomorrow's books, "
+"photos, films, essays, animations, music, news? Proprietary programs such as "
+"Windows have no transparency. A free culture and a free society cannot grow "
+"from such software."
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:123
+#, php-format
+msgid "May we suggest you <a href=\"%s\">switch to Linux</a>?"
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:128
+msgid ""
+"Note that DRM is often referred to as \"Digital Rights Management\", "
+"although it has little to do with rights &ndash; \"Digital Restrictions "
+"Management\" is a more accurate name."
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:138
+msgid ""
+"What is the Trusted Computing world like? This is a short story by Richard "
+"Stallman that describes how this can affect any of us."
+msgstr ""
+
+#. translators: Unless you know of a very good resource about DRM, please point to the Wikipedia article about DRM in your language, if it exists
+#: lib/views/windows.stand_for_a_free_society.php:142
+msgid "http://www.timj.co.uk/computing/politics-policy/drm/fallacy/"
+msgstr ""
+
+#. translators: Title of external link
+#: lib/views/windows.stand_for_a_free_society.php:144
+msgid "The fallacy of DRM"
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:145
+msgid ""
+"A very well constructed article about <abbr title=\"Digital Restrictions "
+"Management\">DRM</abbr> by Tim Jackson, and on which we based the present "
+"article."
+msgstr ""
+
+#. translators: If you don't know of a localized version of this article, please leave the URL in English
+#: lib/views/windows.stand_for_a_free_society.php:149
+msgid ""
+"http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-"
+"free-file-formats/"
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:149
+msgid "Free Knowledge requires Free Software and Free File Formats"
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:150
+msgid ""
+"An engaged article by Jimmy Wales, who co-founded the free encyclopedia <a "
+"href=\"http://www.wikipedia.org/\">Wikipedia</a>."
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:153
+msgid "http://www.lafkon.net/tc/"
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:153
+msgid "Trusted Computing"
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:154
+msgid ""
+"Short video animation by Benjamin Stephan and Lutz Vogel. A clear, snappy "
+"and convincing argument."
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:156
+msgid "Why Software Should Not Have Owners"
+msgstr ""
+
+#: lib/views/windows.stand_for_a_free_society.php:157
+msgid ""
+"A pivotal text for the Free Software movement by Richard Stallman. It "
+"clarifies common objections and explains a handful of important ideas."
+msgstr ""
+
+#. translators: This describes the last link, which will automatically point to the 'Misunderstanding Free Software' article
+#: lib/views/windows.stand_for_a_free_society.php:161
+msgid "More on free software on this website."
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:23
+msgid ""
+"This is what everyday users usually find better, mostly the same, or not as "
+"good, when switching from Windows to Linux."
+msgstr ""
+"Đây là những gì người dùng thường nhận thấy tốt hơn, giống nhau hoặc không "
+"tốt bằng khi chuyển đổi từ Windows sang Linux."
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:32
+msgid "What is better in Linux"
+msgstr ""
+
+#. translators: please note the punctuation should be consistent
+#: lib/views/switch_to_linux.from_windows_to_linux.php:37
+msgid "It's free"
+msgstr ""
+
+#. translators: link to Free Software definition on GNU.org site, if softwareliberty.com is not translated in your language
+#: lib/views/switch_to_linux.from_windows_to_linux.php:41
+msgid ""
+"Unlike Windows, GNU/Linux is <a href=\"http://www.softwareliberty.com/\" "
+"title=\"What does Free Software mean?\">free software</a> &ndash; free as in "
+"freedom. Install it on all computers and make copies for your friends! You "
+"can even study it, transform it as you please, or build and sell your own "
+"distribution."
+msgstr ""
+"Không giống như Windows, GNU/Linux là <a href=\"http://www.softwareliberty."
+"com/\" title=\"Phần mềm Tự do có nghĩa gì?\">phần mềm tự do</a> &ndash; tự "
+"do hoàn toàn. Hãy cài đặt nó vào mọi máy tính, sao chép lại cho bạn bè và "
+"bạn đồng nghiệp. Bạn thậm chí có quyền tìm biết về nó, chuyển dạng nó theo ý "
+"kiến của bạn, hoặc xây dựng và bán bản phát hành riêng."
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:45
+msgid "Programs"
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:47
+msgid ""
+"There are a wealth of free applications available at no cost under Linux. To "
+"edit professional documents, burn music CDs, rework photos, design a "
+"website, or organise music; there's no need for $200 software with "
+"restrictive licenses."
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:48
+msgid ""
+"The internal installer makes it incredibly easy to find, install and remove "
+"programs."
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:49
+msgid ""
+"It's also safe: you can forget the demo/trial crippled software, or harmful "
+"freeware polluting the web."
+msgstr ""
+"Và an toàn nữa: bạn có thể ném ra khỏi suy nghĩ những phần mềm dùng thử/"
+"trình diễn què quặt hay những freeware độc hại đang nhan nhản trên mạng."
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:53
+msgid "No fighting"
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:55
+msgid ""
+"Keeping your computer in shape over time needn't be a struggle. One year on, "
+"GNU/Linux runs just as fast as the first day. And it may bring your old PC "
+"back to life."
+msgstr ""
+"Không cần gặp khó khăn trong việc bảo dưỡng máy tính. Sau một năm, hệ thống "
+"GNU/Linux chạy cũng nhanh như ngày đầu tiên. Nó cũng có thể phục hồi máy PC "
+"cũ. "
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:56
+msgid ""
+"Also, Linux lets you choose what you want and what you don't. If you had a "
+"hard time getting rid of MSN Messenger, Windows Update notifications, or "
+"Clippit the paperclip, you'll find it refreshing."
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:60
+msgid "Security"
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:62
+msgid ""
+"Forget expensive and restrictive anti-virus, anti-spyware, anti-anything and "
+"anti-everything. Linux is very, very secure."
+msgstr ""
+
+#. translators: If you don't know of a link replacement in your languge, just leave the link as it is
+#: lib/views/switch_to_linux.from_windows_to_linux.php:64
+msgid ""
+"It is often difficult for Windows users to believe that there are <em>no "
+"spyware nor viruses</em> under Linux &mdash; <a href=\"http://linuxmafia.com/"
+"~rick/faq/index.php?page=virus#virus\">but it's true</a>. Malicious programs "
+"have a hard time doing anything at all in a well-built system."
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:65
+msgid "Regular, easy software updates will keep everyone entirely safe."
+msgstr ""
+"Thông thường, những bản cập nhật phần mềm đơn giản có thể giữ mọi người an "
+"toàn."
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:69
+msgid "Support"
+msgstr ""
+
+#. translators: The first %s represents the URL to the "More" page and seconds %s represents the title of the page "More" in your language
+#: lib/views/switch_to_linux.from_windows_to_linux.php:72
+#, php-format
+msgid ""
+"Linux benefits from a great sense of community whose friendliness will "
+"surprise you. If you try to do something complicated but can't succeed, "
+"there are a lot of people around to help you out. Our \"<a href=\"%s\">%s</a>"
+"\" page gives a few pointers."
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:73
+msgid ""
+"The companies behind the main GNU/Linux distributions, such as <a href="
+"\"http://www.canonical.com/\">Canonical</a> and <a href=\"http://www.redhat."
+"com/\">Red Hat</a>, also provide expert commercial support."
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:82
+msgid "What is mostly the same in Linux"
+msgstr "Những gì hầu như giống trên Linux"
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:84
+msgid ""
+"Fundamentally, everyday users will find GNU/Linux similar in use to Windows "
+"or Mac OSX."
+msgstr ""
+"Về cơ bản, người sử dụng thông thường sẽ thấy việc sử dụng GNU/Linux tương "
+"tự như Windows hay Mac OSX."
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:87
+msgid "General set-up"
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:89
+msgid ""
+"If you still believe Linux is controlled with code and command-line, you "
+"should update your views!"
+msgstr ""
+"Nếu bạn vẫn tin rằng Linux được điều khiển bằng mã và dòng lệnh, bạn nên cập "
+"nhật cách nhìn!"
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:90
+msgid ""
+"Just like Windows, Linux has to boot when you switch your computer on, and "
+"then you use programs in it to do different things. The taskbar and layout "
+"of applications will feel familiar to Windows or Mac OS users."
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:94
+msgid "Web browsing and common tasks"
+msgstr ""
+
+#. translators: use localized Firefox landing page if possible
+#: lib/views/switch_to_linux.from_windows_to_linux.php:97
+msgid ""
+"The Web looks just the same when viewed with Linux (in fact you can browse "
+"the Web with the same program if you already use <a href=\"http://www."
+"getfirefox.com/\">Firefox</a> or <a href=\"http://www.google.com/chrome/"
+"\">Google Chrome</a>). And of course, you can go through your picture and "
+"music collection all the same. Files and folders are navigated with a file "
+"manager like Windows Explorer."
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:106
+msgid "What is not as good in Linux"
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:109
+msgid "Driver support"
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:111
+msgid ""
+"Manufacturers of computer hardware don't always (yet) release drivers for "
+"Linux or publicize full specifications."
+msgstr ""
+"Những nhà sản xuất phần cứng máy tính không phải lúc nào cũng (cho đến giờ) "
+"phát hành trình điều khiển thiết bị cho Linux hay đưa ra đặc tả đầy đủ."
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:112
+msgid ""
+"So, drivers are sometimes unavailable for the most recent high-end graphics "
+"cards &mdash; some are reverse-engineered from Windows drivers by "
+"volunteers. Some are also released free of charge, but under restrictive "
+"licenses."
+msgstr ""
+"Vì thế, trình điều khiển thiết bị đôi khi không có sẵn cho nhiều cạc đồ hoạ "
+"cao cấp &mdash; một số được chế tạo ngược từ trình điều khiển cho Windows "
+"bởi những tình nguyện viên. Mội số cũng được phát hành miễn phí những dưới "
+"những điều kiện hạn chế."
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:113
+msgid "Sadly, the same problem occurs with many low-end WiFi cards."
+msgstr "Đáng buồn là điều đó cũng xảy ra với nhiều cạc WiFi."
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:114
+msgid ""
+"However, the vast majority of computers with standard hardware work out of "
+"the box with main Linux distributions. Common hardware such as USB keys or "
+"photo cameras never are a problem."
+msgstr ""
+"Tuy nhiên, đại đa số máy tính với phần cứng tiêu chuẩn làm việc bình thường "
+"với những bản phân phối Linux chính. Phần cứng thông thường như USB và máy "
+"ảnh số không bao giờ là vấn đề."
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:118
+msgid "DVDs, restricted formats"
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:120
+msgid ""
+"Many multimedia formats in use are proprietary and not openly specified; "
+"this means, broadly speaking, that Linux programmers have to find out how to "
+"read them without any help from the format designers."
+msgstr ""
+"Nhiều định dạng đa phương tiện thông dụng là độc quyền và không được đặc tả "
+"rộng rãi; có nghĩa là lập trình viên Linux bắt buộc phải tự tìm hiểu làm "
+"cách nào để đọc được chúng mà không có sự trợ giúp nào từ phía đội thiết kế."
+
+#. translators: Please choose the wording of the DRM acronym according to the FSF terminology
+#: lib/views/switch_to_linux.from_windows_to_linux.php:122
+msgid ""
+"This might lead you to circumvent the restrictions in some DVDs and the "
+"<abbr title=\"Digital Restrictions Management\">DRM</abbr> in some music "
+"files, even if you purchased them in full legality, to be make them work "
+"under Linux. Unfortunately, depending on where you live, <em>such "
+"circumvention processes may be illegal</em> even if you purchased your media "
+"entirely legally."
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:123
+#: lib/views/switch_to_linux.from_windows_to_linux.php:136
+msgid "Read more in our Linux FAQ:"
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:125
+#: lib/views/linux.linux_faq.php:52 lib/views/linux.linux_faq.php:262
+msgid "Can I play my DVDs and MP3s under GNU/Linux?"
+msgstr "Có thể chơi các đĩa DVD và tập tin MP3 dưới GNU/Linux phải không?"
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:131
+msgid "Gaming"
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:133
+msgid ""
+"Hard-core computer gamers, you might find that the Linux gaming world is "
+"less professional and out-of-the-box than under Windows: the large game "
+"developing companies are only slowly getting interested in the free software "
+"world, which means that many well-known titles do not work on Linux, or need "
+"special restrictive emulators to work."
+msgstr ""
+
+#. translators: use localised link if possible, and contact us if you know better resources
+#: lib/views/switch_to_linux.from_windows_to_linux.php:135
+msgid ""
+"There is a very active free software game development community though, and "
+"they have produced quite a few high-quality games, both 2D and 3D, that are "
+"free software. You can head to the <a href=\"http://ubuntuforums.org/"
+"forumdisplay.php?f=93\">Ubuntu gaming forum</a> to find more information."
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:138
+#: lib/views/linux.linux_faq.php:53 lib/views/linux.linux_faq.php:282
+msgid "Can I play popular 3D games under GNU/Linux?"
+msgstr "Có thể cháy các trò chơi 3D phổ biến dưới GNU/Linux không?"
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:144
+msgid "Hibernating"
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:146
+msgid ""
+"Because of the driver issues above, hibernating is not always reliable. The "
+"most common occurrence is the loss of WiFi connection after hibernating on "
+"laptops whose hardware drivers are not free."
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:155
+msgid "Conclusion"
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:157
+msgid ""
+"Whether you are going to enjoy Linux depends mostly on what you expect from "
+"it."
+msgstr ""
+
+#. translators: Use a localised version of the "Linux is Not Windows" article if possible. The following page contains links to localised versions: http://geekblog.oneandoneis2.org/index.php/2005/12/31/derived_works_aamp_translations
+#: lib/views/switch_to_linux.from_windows_to_linux.php:162
+msgid ""
+"If you wish Linux to be just exactly like Windows, you will probably be "
+"disappointed. GNU/Linux is built by people who simply <a href=\"http://linux."
+"oneandoneis2.org/LNW.htm\">wish it to be different</a>. In the free software "
+"community, members have different visions of what makes an ideal operating "
+"system. These differences lead to variety, which is what makes Linux so "
+"special and interesting."
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:165
+msgid ""
+"Your freedom matters. Thousands in communities and companies work to build "
+"software on which you may exert this freedom. Using GNU/Linux is the easiest "
+"way to do so fully."
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:168
+msgid ""
+"It's fun! Not having to worry about spyware, viruses, program registrations, "
+"demos that expire, or finding software that is really free as in freedom, "
+"makes using a computer suddenly very enjoyable."
+msgstr ""
+
+#: lib/views/switch_to_linux.from_windows_to_linux.php:172
+msgid ""
+"We hope you'll switch soon. There's a large community waiting, and no one in "
+"it asking you to &quot;sign up, purchase and register&quot;."
+msgstr ""
+
+#: lib/views/linux.linux_faq.php:16
+msgid "Linux Frequently Asked Questions"
+msgstr "Các câu hỏi thường gặp"
+
+#: lib/views/linux.linux_faq.php:19
+#, php-format
+msgid ""
+"<a href=\"%s\">Our page about Linux</a> covers the essential information. We "
+"hope this FAQ list can help if you are more curious."
+msgstr ""
+"<a href=\"%s\">Trang Linux của chúng tôi</a> cung cấp các thông tin chủ yếu. "
+"Mong muốn danh sách các câu thường hỏi này sẽ giúp nếu bạn muốn biết thêm."
+
+#: lib/views/linux.linux_faq.php:25
+msgid "General questions:"
+msgstr "Câu hỏi chung:"
+
+#: lib/views/linux.linux_faq.php:27 lib/views/linux.linux_faq.php:62
+msgid "Are &quot;GNU/Linux&quot; and &quot;Linux&quot; any different?"
+msgstr ""
+"Có phải &quot;GNU/Linux&quot; và &quot;Linux&quot; là hoàn toàn khác nhau?"
+
+#: lib/views/linux.linux_faq.php:28 lib/views/linux.linux_faq.php:79
+msgid "And what has that software to do with a gnu?"
+msgstr "Phần mềm này liên quan đến một linh dương đầu bò (gnu) như thế nào?"
+
+#: lib/views/linux.linux_faq.php:29 lib/views/linux.linux_faq.php:88
+msgid "Is Linux a registered trademark?"
+msgstr "Linux là một nhãn hiệu đăng ký phải không?"
+
+#: lib/views/linux.linux_faq.php:30 lib/views/linux.linux_faq.php:95
+msgid "Is GNU/Linux the only free operating system available?"
+msgstr "Có phải GNU/Linux là hệ điều hành miễn phí duy nhất hiện có?"
+
+#: lib/views/linux.linux_faq.php:31 lib/views/linux.linux_faq.php:103
+msgid "Is Mac OSX a distribution of Linux?"
+msgstr "Mac OSX là một bản phát hành Linux phải không?"
+
+#: lib/views/linux.linux_faq.php:33
+msgid "Understanding free software:"
+msgstr "Tìm hiểu về phần mềm miễn phí:"
+
+#: lib/views/linux.linux_faq.php:35 lib/views/linux.linux_faq.php:115
+msgid ""
+"Are &quot;Open Source&quot; and &quot;Free Software&quot; the same thing?"
+msgstr ""
+"Có phải &quot;Phần Mềm Mã Nguồn Mở&quot; và &quot;Phần Mềm MIễn Phí&quot; là "
+"hoàn toàn giống nhau?"
+
+#: lib/views/linux.linux_faq.php:36 lib/views/linux.linux_faq.php:126
+msgid "Why are some Linux distributions sold, not given away?"
+msgstr "Tại sao một số bản phát hành Linux được bán, không phải được cho?"
+
+#: lib/views/linux.linux_faq.php:37 lib/views/linux.linux_faq.php:140
+msgid "Why are some Linux distributions not fully free?"
+msgstr ""
+"Tại sao có một vài phiên bản phát hành Linux lại không miễn phí hết toàn bộ?"
+
+#: lib/views/linux.linux_faq.php:38 lib/views/linux.linux_faq.php:157
+msgid "Is Mac OS also a free operating system?"
+msgstr "Mac OS có phải là một hệ điều hành miễn phí không?"
+
+#: lib/views/linux.linux_faq.php:39 lib/views/linux.linux_faq.php:168
+msgid "Aren't Linux users the ones who make illegal downloads?"
+msgstr "Người dùng Linux có tải xuống trái phép phần mềm không?"
+
+#: lib/views/linux.linux_faq.php:40 lib/views/linux.linux_faq.php:183
+msgid "Is Linux a form of communism?"
+msgstr "Linux là một tổ chức chính trị không?"
+
+#: lib/views/linux.linux_faq.php:42
+msgid "Installing Linux:"
+msgstr "Cài đặt Linux:"
+
+#: lib/views/linux.linux_faq.php:44 lib/views/linux.linux_faq.php:200
+msgid "Does Linux come pre-installed on computers?"
+msgstr "Hệ điều hành Linux được cài đặt sẵn trên máy tính không?"
+
+#: lib/views/linux.linux_faq.php:45 lib/views/linux.linux_faq.php:212
+msgid "Can I get GNU/Linux in my own language?"
+msgstr "Dịch GNU/Linux sang ngôn ngữ mẹ đẻ chưa?"
+
+#: lib/views/linux.linux_faq.php:46 lib/views/linux.linux_faq.php:220
+msgid "Is it legal to install Linux on my computer?"
+msgstr "Liệu có hợp pháp không khi cài đặt Linux trên máy tính của tôi?"
+
+#: lib/views/linux.linux_faq.php:47 lib/views/linux.linux_faq.php:236
+msgid "Do I have to purchase a new computer to run Linux?"
+msgstr "Phải mua máy tính mới để chạy Linux không?"
+
+#: lib/views/linux.linux_faq.php:49
+msgid "Using Linux:"
+msgstr "Sử dụng Linux:"
+
+#: lib/views/linux.linux_faq.php:51 lib/views/linux.linux_faq.php:247
+msgid "Will Microsoft Office run on Linux?"
+msgstr "Microsoft Office chạy được trên Linux phải không?"
+
+#: lib/views/linux.linux_faq.php:55 lib/views/linux.linux_faq.php:289
+msgid "More questions?"
+msgstr "Muốn hỏi câu khác ?"
+
+#: lib/views/linux.linux_faq.php:59
+msgid "General Questions"
+msgstr "Câu hỏi chung"
+
+#. translators: This is italic text just below the question, which elaborates a little on it.
+#: lib/views/linux.linux_faq.php:66
+msgid ""
+"You keep referring to one and the other alternatively. What is this all "
+"about?"
+msgstr "Tạo sao hai tên này được dùng với nhau?"
+
+#: lib/views/linux.linux_faq.php:68
+msgid ""
+"Originally, <strong>Linux</strong> refers to a core component (called the "
+"kernel) that fits within the <strong>GNU</strong> system. What users run "
+"today are, to be precise, \"<em>distributions of the GNU/Linux system</em>\"."
+msgstr ""
+"Về nguồn gốc, <strong>Linux</strong> đại diện một thành phần lõi (được gọi "
+"như là hạt nhân) mà nằm bên trong hệ thống <strong>GNU</strong>. Những hệ "
+"thống được người dùng chạy hiện thời là « <em>bản phát hành của hệ thống GNU/"
+"Linux</em> »."
+
+#: lib/views/linux.linux_faq.php:69
+msgid ""
+"In practice, the word \"Linux\" caught on much better (unsurprisingly), and "
+"today people refer to the whole system as simply \"Linux\". This causes a "
+"great deal of controversy."
+msgstr ""
+"Trong thực tế, tên « Linux » dễ nói hơn thì hiện tại người ta tham chiếu đến "
+"toàn bộ hệ thống đơn giản là « Linux ». Trường hợp này cũng gây ra sự tranh "
+"luận rất nhiều."
+
+#. translators: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
+#: lib/views/linux.linux_faq.php:72
+msgid ""
+"Calling the system <em>GNU/Linux</em> is much more meaningful, technically "
+"(end-users use a lot of \"GNU\" and a little of \"Linux\") but also "
+"philosophically: the strength and momentum of the <a href=\"http://www."
+"softwareliberty.com/\">Free Software</a> movement started with and are still "
+"carried by <a href=\"http://www.gnu.org/\">the GNU project</a>."
+msgstr ""
+"Gọi hệ thống <em>GNU/Linux</em> có rất ý nghĩa hơn một cách kỹ thuật (người "
+"cuối cùng thật sử dụng nhiều phần mềm « GNU » và ít phần mềm « Linux »), "
+"nhưng cũng dành cho triết học: sức mạnh và sức đẩy tới của phong trào <a "
+"href=\"http://www.softwareliberty.com/\">Phần mềm Tự do</a> đã bắt đầu bởi "
+"và vẫn còn được hỗ trợ bởi <a href=\"http://www.gnu.org/\">Dự án GNU</a>."
+
+#: lib/views/linux.linux_faq.php:73
+msgid ""
+"Calling the system <em>Linux</em> is more practical and appealing for "
+"computer users that often believe Windows is the only thing on earth."
+msgstr ""
+"Gọi hệ thống <em>Linux</em> vẫn thực tế hơn và dễ hiểu cho các người dùng "
+"máy tính mà thường thấy rằng Windows là hệ thống duy nhất trên khắp thế giới."
+
+#: lib/views/linux.linux_faq.php:74
+msgid ""
+"<a href=\"http://blog.getgnulinux.org/about/faq/#taxonomy\">We use both "
+"denominations</a> and hope you will not be offended by that."
+msgstr ""
+
+#. translators: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
+#: lib/views/linux.linux_faq.php:83
+msgid ""
+"When Richard Stallman started to design GNU, the main system in use was "
+"Unix, which is proprietary. Because GNU is similar in function to (and "
+"compatible with) Unix, but is <a href=\"http://www.softwareliberty.com/"
+"\">free software</a>, he coined the term GNU which stands for <strong>GNU's "
+"Not Unix</strong>. It's a <a href=\"http://en.wikipedia.org/wiki/"
+"Recursive_acronym\">recursive acronym</a>. (if you enjoy that kind of humour "
+"check out what <a href=\"http://www.gnu.org/software/hurd/hurd.html\">GNU "
+"Hurd</a> means)."
+msgstr ""
+"Lúc trước, khi Richard Stallman bắt đầu đề cương GNU, hệ thống chính được sử "
+"dụng là UNIX, một phần mềm sở hữu. Vì GNU có chức năng tương tự (và tương "
+"thích) với UNIX, nhưng vẫn còn là <a href=\"http://www.softwareliberty.com/"
+"\">phần mềm tự do</a>, ông ấy đã tạo tên GNU, một từ cấu tạo mà đại diện "
+"<strong>GNU's Not Unix</strong> (GNU đâu có là UNIX). Nó là một <a href="
+"\"http://en.wikipedia.org/wiki/Recursive_acronym\">từ cấu tạo đệ quy</a>. "
+"(Nếu bạn biết hài hước kiểu này, xem ý nghĩa của  <a href=\"http://www.gnu."
+"org/software/hurd/hurd.html\">GNU Hurd</a>)."
+
+#: lib/views/linux.linux_faq.php:90
+msgid ""
+"Yes. You cannot sell any random software under the name of Linux&reg;. The "
+"trademark is held by <a href=\"http://www.linuxmark.org/\">the Linux Mark "
+"Institute</a>."
+msgstr ""
+"Có phải. Không cho phép bán phần mềm ngẫu nhiên dưới tên Linux®. Nhận hiệu "
+"này được đăng ký bởi <a href=\"http://www.linuxmark.org/\">Tổ chức Dấu "
+"Linux</a>."
+
+#: lib/views/linux.linux_faq.php:97
+msgid ""
+"No. GNU/Linux is by far the most widely used free system; however a number "
+"of other systems exist."
+msgstr ""
+"Không phải. GNU/Linux là hệ thống tự do phổ biến nhất, nhưng cũng có một số "
+"hệ thống tự do khác."
+
+#: lib/views/linux.linux_faq.php:98
+msgid ""
+"These include the UNIX derivatives <a href=\"http://freebsd.org/\">FreeBSD</"
+"a>, <a href=\"http://netbsd.org/\">NetBSD</a>, <a href=\"http://openbsd.org/"
+"\">OpenBSD</a> and <a href=\"http://opensolaris.org/\">OpenSolaris</a>, the "
+"BeOS clone <a href=\"http://haiku-os.org/\">Haiku OS</a>, the Windows NT "
+"clone <a href=\"http://reactos.sf.net/\">ReactOS</a>, the DOS clone <a href="
+"\"http://www.freedos.org/\">FreeDOS</a>, <a href=\"http://plan9.bell-labs."
+"com/plan9/\">Plan 9</a> from Bell Labs and <a href=\"http://www.syllable.org/"
+"\">Syllable</a>, just to name a few."
+msgstr ""
+"Gồm có những hệ thống dẫn xuất UNIX: <a href=\"http://freebsd.org/"
+"\">FreeBSD</a>, <a href=\"http://netbsd.org/\">NetBSD</a>, <a href=\"http://"
+"openbsd.org/\">OpenBSD</a> and <a href=\"http://opensolaris.org/"
+"\">OpenSolaris</a>, bản nhái BeOS <a href=\"http://haiku-os.org/\">Haiku OS</"
+"a>, bản nhái Windows NT <a href=\"http://reactos.sf.net/\">ReactOS</a>, bản "
+"nhái DOS <a href=\"http://www.freedos.org/\">FreeDOS</a>, <a href=\"http://"
+"plan9.bell-labs.com/plan9/\">Plan 9</a> của Bell Labs và <a href=\"http://"
+"www.syllable.org/\">Syllable</a>."
+
+#. translators: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
+#: lib/views/linux.linux_faq.php:107
+#, php-format
+msgid ""
+"No. There are a few <a href=\"http://www.softwareliberty.com/\">free "
+"software</a> components in Mac OSX, and it is technically similar to GNU/"
+"Linux systems. But overall, it is proprietary software: all the <a href=\"%s"
+"\">issues about Windows</a> apply to it as well."
+msgstr ""
+"Không phải. Có vài thành phần <a href=\"http://www.softwareliberty.com/"
+"\">phần mềm tự do</a> components trong Mac OSX, và có thể chạy rất nhiều gói "
+"phần mềm tự do trên đó — nó tương tự kỹ thuật với hệ thống GNU/Linux. Tuy "
+"nhiên, hệ thống là sở hữu thì một số <a href=\"%s\">vấn đề về Windows</a> "
+"cũng áp dụng cho nó."
+
+#: lib/views/linux.linux_faq.php:112
+msgid "Understanding free software"
+msgstr ""
+
+#: lib/views/linux.linux_faq.php:116
+msgid "Yes and no."
+msgstr "Cái đó còn tuỳ."
+
+#: lib/views/linux.linux_faq.php:118
+msgid ""
+"Technically, the great majority of open source programs are free software "
+"and vice-versa."
+msgstr ""
+"Nói đến kỹ thuật đã được sử dụng, hậu hết chương trình nguồn mở cũng là phần "
+"mềm tự do, và ngược lại."
+
+#: lib/views/linux.linux_faq.php:119
+msgid ""
+"In terms of philosophy, things are quite different. The term &quot;open "
+"source&quot; was coined to make &quot;free software&quot; more attractive, "
+"its supporters see open source software as a better way to make software."
+msgstr ""
+
+#: lib/views/linux.linux_faq.php:120
+msgid ""
+"Supporters of the \"free software\" term value the freedom, not merely the "
+"way software is made, and thus argue that the term \"open source\" <a href="
+"\"http://www.gnu.org/philosophy/open-source-misses-the-point.html\">misses "
+"the point</a>."
+msgstr ""
+"Các người ủng hộ « phần mềm tự do » coi trọng danh giá của tự do, không phải "
+"chỉ phương pháp tạo phần mềm, thì quả quyết rằng thuật ngữ « nguồn mở » <a "
+"href=\"http://www.gnu.org/philosophy/open-source-misses-the-point.html\">lạc "
+"đề</a>."
+
+#: lib/views/linux.linux_faq.php:121
+msgid "Which term you employ simply depends on your vision of software."
+msgstr "Thuật ngữ dùng thì phụ thuộc vào ý kiến về phần mềm của mỗi người."
+
+#. translators: This is italic text just below the question, which elaborates a little on it.
+#: lib/views/linux.linux_faq.php:129
+msgid ""
+"Some websites actually <em>sell</em> distributions of Linux. So, why do you "
+"write it is \"free as speech and available at no charge\"?"
+msgstr ""
+"Một số địa chỉ Web thật <em>bán</em> bản phát hành Linux. Vậy tại sao diễn "
+"tả nó là « tự do và miễn phí » ?"
+
+#. translators: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
+#: lib/views/linux.linux_faq.php:133
+msgid ""
+"The concept of <a href=\"http://www.softwareliberty.com/\">free software</"
+"a>, refers to freedom, not price. You have the freedom to copy, study, "
+"modify, and give free software away."
+msgstr ""
+"Khái niệm <a href=\"http://www.softwareliberty.com/\">phần mềm tự do</a> "
+"không phải về giá. Phần mềm tự do là vô giá: nó cho bạn có quyền cài đặt, "
+"sao chép, học, sửa đổi và phát hành lại phần mềm tự do."
+
+#: lib/views/linux.linux_faq.php:134
+msgid ""
+"Most companies developing free software make money by selling "
+"<strong>services</strong> around their software, rather than the software "
+"itself. This is sometimes done by selling everything as a package: the "
+"customer buys the CD, book, and support contract at once. The software can "
+"still guarantee your freedoms."
+msgstr ""
+"Phần lớn công ty phát triển phần mềm tự do cũng được tiền bằng cách bán "
+"<strong>dịch vụ</strong> dựa vào phần mềm, hơn là bạn phần mềm chính nó. Đôi "
+"khi họ bán một gói tiện: cả một đĩa CD, cuốn sách và hợp đồng hỗ trợ. Phần "
+"mềm vẫn còn đảm bảo bạn có các quyền gốc."
+
+#: lib/views/linux.linux_faq.php:135
+msgid "More:"
+msgstr ""
+
+#: lib/views/linux.linux_faq.php:135
+msgid "FLOSS concept booklet"
+msgstr ""
+
+#. translators: This is italic text just below the question, which elaborates a little on it.
+#: lib/views/linux.linux_faq.php:143
+msgid ""
+"Some Linux distributions are available at no charge, but include restrictive "
+"software. Why is it so?"
+msgstr ""
+"Một số bản phát hành Linux công bố miễn phí, nhưng cũng bao gồm phần mềm bị "
+"hạn chế. Tại sao vậy?"
+
+#: lib/views/linux.linux_faq.php:145
+msgid ""
+"There are typically three types of policies regarding the inclusion of non-"
+"free software:"
+msgstr "Nói chung có ba kiểu chính sách về bao gồm phần mềm khác tự do :"
+
+#: lib/views/linux.linux_faq.php:147
+msgid ""
+"Some GNU/Linux distributors allow non-free software in order to enable "
+"hardware functionality."
+msgstr ""
+"Một số dự án phân phối GNU/Linux cho phép bao gồm phần mềm khác miễn phí để "
+"hiệu lực chức năng phần cứng cụ thể."
+
+#. translators: If it exits, please use the URL of the official Ubuntu homepage localized in your language.
+#: lib/views/linux.linux_faq.php:149
+msgid ""
+"This happens because some hardware manufacturers such as NVidia do not care "
+"about their customers' freedoms, and only release restricting firmware and "
+"drivers (some of them don't even release anything, like Broadcom). These are "
+"available at no cost (they are freeware) but under restrictive licenses. "
+"Distributions such as <a href=\"http://www.ubuntu.com/\">Ubuntu</a> thus "
+"include such components to improve hardware compatibility."
+msgstr ""
+
+#: lib/views/linux.linux_faq.php:150
+msgid ""
+"Some GNU/Linux distributors do not compromise on the freedom of software, "
+"and make sure their distribution are entirely free. Such is the case of <a "
+"href=\"http://trisquel.info/\">Trisquel</a>, which is a Ubuntu derivative "
+"with all restricting components removed."
+msgstr ""
+
+#: lib/views/linux.linux_faq.php:151
+#, php-format
+msgid ""
+"Some GNU/Linux distributors assemble free and restrictive software without "
+"distinction. Such distributors would not like users to think of their "
+"freedom, and rather advertise only the technical capabilities of their "
+"product. Using such distributions isn't much better than <a href=\"%s"
+"\">using Windows</a>. We value your freedom and recommend you choose "
+"carefully!"
+msgstr ""
+"Một số nhà phân phối GNU/Linux cũng tập hợp phần mềm cả hai tự do và hạn chế "
+"mà không phân biệt nhau. Các nhà phân phối như vậy không muốn người dùng "
+"nghĩ về tự do, thay vào đó ta quảng cáo chỉ những khả năng kỹ thuật của sản "
+"phẩm. Sử dụng bản phân phối như vậy không phải rất tốt hơn <a href=\"%s\">sử "
+"dụng Windows</a>. Chúng ta coi trọng danh giá của tự do của bạn và khuyên "
+"bạn chọn cẩn thận."
+
+#: lib/views/linux.linux_faq.php:158
+msgid "Do all the reasons for avoiding Windows apply to Mac&nbsp;OS?"
+msgstr "Tất cả các lý do tránh dùng Windows cũng áp dụng cho MacOS phải không?"
+
+#: lib/views/linux.linux_faq.php:160
+#, php-format
+msgid ""
+"It's quite common for Mac users to believe they are exempt from <a href=\"%s"
+"\">restrictions associated with Windows</a>. Unfortunately such is not the "
+"case."
+msgstr ""
+"Hơi thường là người dùng Mac cho rằng họ không gặp <a href=\"%s\">các sự hạn "
+"chế liên quan đến Windows</a>. Tiếc là một số sự hạn chế vẫn còn áp dụng."
+
+#: lib/views/linux.linux_faq.php:161
+msgid ""
+"Mac OSX does have some low-level components which are <a href=\"http://www."
+"softwareliberty.com/\">free software</a>; and Apple puts less energy into "
+"customer lock-in (with some notable efforts such as BootCamp)."
+msgstr ""
+
+#: lib/views/linux.linux_faq.php:162
+msgid ""
+"However, the end-user is still fundamentally restricted &mdash; because of "
+"the proprietary license, he/she cannot use Mac OSX for all purposes, nor "
+"copy, study, modify, or redistribute it."
+msgstr ""
+"Tuy nhiên, người dùng cuối cùng vẫn còn bị hạn chế &mdash; do giấy phép sở "
+"hữu, họ không thể sử dụng Mac OSX nhằm mọi mục đích, cũng không thể sao "
+"chép, học, sửa đổi hoặc phát hành lại nó."
+
+#: lib/views/linux.linux_faq.php:163
+msgid ""
+"Happily, because these freedoms matter a lot, it's possible to run popular "
+"GNU/Linux distributions (such as <a href=\"http://www.ubuntu.com/\">Ubuntu</"
+"a>) on Mac computers."
+msgstr ""
+"Người dùng Mac vẫn còn có thể nhận các quyền này bằng cách chạy một bản phân "
+"phối GNU/Linux phổ biến (v.d. <a href=\"http://www.ubuntu.com/\">Ubuntu</a>) "
+"trên máy tính Mac."
+
+#. translators: This is italic text just below the question, which elaborates a little on it.
+#: lib/views/linux.linux_faq.php:171
+msgid ""
+"Isn't Linux about cracking, &quot;piracy&quot; and illegal download websites?"
+msgstr ""
+
+#: lib/views/linux.linux_faq.php:173
+msgid "No!"
+msgstr "Đâu có."
+
+#: lib/views/linux.linux_faq.php:174
+msgid ""
+"Wherever you read or heard this you should update your views. Linux is "
+"completely distinct from such things. Whether you want to do them, or "
+"whether you prefer <a href=\"http://www.magnatune.com/\">intelligent</a>, <a "
+"href=\"http://www.jamendo.com/\">legal downloads</a>, Linux will work just "
+"as well as Windows. Unfortunately you can't identify gangsters by the make "
+"of their cars; the same thing goes for their operating system."
+msgstr ""
+"Lý tưởng Linux khác biệt hoàn toàn với các hành động đó. Linux là một hệ "
+"điều hành chạy đúng như hiệu quả với Windows. Cái gì làm với phần mềm là sự "
+"chọn riêng của mỗi người dùng. Tuy nhiên, chúng tôi khuyến khích bạn tải "
+"xuống một cách <a href=\"http://www.magnatune.com/\">thông minh</a> và <a "
+"href=\"http://www.jamendo.com/\">hợp pháp</a>. Không cần mất nhiều tiền để "
+"dùng phần mềm tốt. Dùng phần mềm để làm công tác tốt nhé."
+
+#: lib/views/linux.linux_faq.php:175
+msgid ""
+"GNU/Linux was made by people who don't like the thought of all the world's "
+"computers running just one company's proprietary products. There is "
+"certainly nothing wrong with that!"
+msgstr ""
+"GNU/Linux đã được tạo bởi những người không muốn thấy tất cả các máy tính "
+"trên khắp thế giới chạy chỉ một hệ điều hành. Họ muốn cho chúng ta có quyền "
+"chọn."
+
+#. translators: The link here points to the "misunderstanding_free_software" article.
+#: lib/views/linux.linux_faq.php:178
+#, php-format
+msgid "Read more in the article: <a href=\"%s\">%s</a>."
+msgstr ""
+
+#. translators: This is italic text just below the question, which elaborates a little on it.
+#: lib/views/linux.linux_faq.php:186
+msgid ""
+"\"Everything has to be free\" and \"No one owns anything\" sounds somewhat "
+"frightening. Are Linux and its <abbr title=\"GNU General Public License"
+"\">GPL</abbr> License something for anarchists or communists?"
+msgstr ""
+"Linux muốn phổ biến triết lý. Linux là Giấy Phép Công Cộng GNU (<abbr title="
+"\"GNU General Public License\">GPL</abbr>) là công cụ cho người chủ trương "
+"vô chính phủ không?"
+
+#: lib/views/linux.linux_faq.php:191
+#, php-format
+msgid ""
+"Linux has nothing to do with a political system and anyone &mdash; "
+"regardless of their political views &mdash; can use it. We have this "
+"explained simply in our article %s."
+msgstr ""
+
+#: lib/views/linux.linux_faq.php:197
+msgid "Installing Linux"
+msgstr ""
+
+#. translators: If LinuxPreloaded has not been localized to your language, please leave the URL to linuxpreloaded.com.
+#: lib/views/linux.linux_faq.php:204
+msgid ""
+"Yes it does! We have built a website specially for that purpose, <a href="
+"\"http://linuxpreloaded.com/\" title=\"Linux laptops\">LinuxPreloaded.com</"
+"a>, listing vendors that sell Linux desktops and laptops."
+msgstr ""
+"Có sẵn ! Chúng tôi đã xây dựng một địa chỉ Web đặc biệt nhằm mục đích đó, <a "
+"href=\"http://linuxpreloaded.com/\" title=\"Linux laptops\">LinuxPreloaded."
+"com</a>, liệt kê các nhà sản xuất có bán các máy tính để bàn và máy tính "
+"xách tay cài đặt sẵn Linux."
+
+#. translators: please leave the "#new_computer" element as such. It is an internal link.
+#: lib/views/linux.linux_faq.php:207
+msgid ""
+"Note that <a href=\"#new_computer\">buying new hardware is not necessary</a> "
+"to use GNU/Linux!"
+msgstr ""
+"Chú ý rằng <a href=\"#new_computer\">không cần mua phần cứng mới</a> để sử "
+"dụng GNU/Linux!"
+
+#: lib/views/linux.linux_faq.php:214
+#, php-format
+msgid ""
+"Yes. All main distributions, such as <a href=\"%s\">the ones we recommend</"
+"a>, are all available in the main languages around, and have support for "
+"many keyboard types."
+msgstr ""
+"Rất có thể đã dịch. Tất cả các bản phân phối chính (v.d. <a href=\"%s"
+"\">những bản được chúng ta khuyến khích</a>) được dịch ra rất nhiều ngôn "
+"ngữ, và hỗ trợ rất nhiều kiểu bố trí bàn phím. <a href=\"http://vnoss.net/"
+"dokuwiki/doku.php?id=projects:l10n>Trang này</a> hiển thị các phần mềm được "
+"dịch sang tiếng Việt. Đã có thể chạy máy tính hoàn toàn bằng tiếng Việt, và "
+"thậm chí nếu bạn chọn một bản phân phối chưa dịch hoàn toàn, phần lớn phần "
+"mềm bên trong đã được dịch."
+
+#: lib/views/linux.linux_faq.php:215
+msgid ""
+"Unlike Windows, all languages are included on each installation CD, so there "
+"is no need for you to download (or pay for!) another whole version to merely "
+"change the language on your computer."
+msgstr ""
+"Không giống như Windows, mọi đĩa CD cài đặt Linux đều chứa tất cả các bản "
+"dịch sẵn sàng: không cần tải xuống (hoặc mua) một phiên bản riêng biệt để "
+"chuyển đổi ngôn ngữ trên máy tính."
+
+#. translators: This is italic text just below the question, which elaborates a little on it.
+#: lib/views/linux.linux_faq.php:223
+msgid ""
+"There is a shiny Windows sticker on it! Am I allowed to erase Windows or use "
+"it together with Linux?"
+msgstr ""
+"Có một nhãn dính Windows trên nó ! Mình có quyền xoá hệ điều hành Windows, "
+"hoặc sử dụng nó cùng với Linux không?"
+
+#: lib/views/linux.linux_faq.php:225
+msgid ""
+"<strong>Yes.</strong> It is absolutely, completely legal (providing of "
+"course it's your computer!)."
+msgstr ""
+"<strong>Có.</strong> Miễn là bạn sở hữu máy tính, bạn có mọi quyền chọn cài "
+"đặt, chạy và xoá bất cứ phần mềm nào trên nó. Những việc này hợp pháp hoàn "
+"toàn."
+
+#: lib/views/linux.linux_faq.php:226
+msgid ""
+"The sticker on it is purely marketing, it has no legal value. We believe it "
+"is <em>one fundamental right</em> to choose which software to run on our own "
+"hardware."
+msgstr ""
+"Nhãn dính đó chỉ quảng cáo, không có giá trị luật pháp. Chúng tôi cho là mọi "
+"người đều có <em>quyền cơ bản</em> để chọn phần mềm nào sẽ chạy trên phần "
+"cứng của mình."
+
+#. translators: If you do not know of a very good resource about DRM, please link to the Wikipedia article on DRM in your language.
+#: lib/views/linux.linux_faq.php:229
+#, php-format
+msgid ""
+"In fact this right is threatened by the rise of things such as <a href="
+"\"http://www.timj.co.uk/digiculture/drm-fallacy\">DRM and Trusted Computing</"
+"a>. Read our article \"<a href=\"%s\">%s</a>\" for more information."
+msgstr ""
+
+#: lib/views/linux.linux_faq.php:238
+msgid "Not at all. It will run happily on your own computer."
+msgstr "Không phải. Linux sẽ chạy được trên máy tính đã có."
+
+#: lib/views/linux.linux_faq.php:239
+#, php-format
+msgid ""
+"The only thing you might be worried about is using very recent special "
+"hardware, such as graphics cards. Otherwise, almost all Linux distributions "
+"can run on normal PCs (often called \"i386\" or \"x86\" computers), 64-bit-"
+"processor computers and Apple Mac computers (including the G5, G4, G3 "
+"series). <a href=\"%s\">Read how you can try or install Linux on your "
+"computer</a>, be it instead of or together with Windows."
+msgstr ""
+"Chỉ cần lờ về sử dụng phần cứng đặc biệt rất mới, như bo mạch đồ họa mới "
+"phát hành. Không thì gần tất cả các bản phân phối Linux chạy được trên máy "
+"tính thông thường kiểu PC (thường được gọi như là máy tính « i386 » hay « "
+"x86 »), bộ xử lý 64-bit, và Apple Mac (gồm kiểu G3, G4, G5; mọi máy Mac "
+"Intel cũng là kiểu x86). <a href=\"%s\">Đọc hướng dẫn cài đặt Linux vào máy "
+"tính của mình</a>, bất chấp độc nhất hoặc cùng với Windows."
+
+#: lib/views/linux.linux_faq.php:244 lib/views/linux.php:28
+msgid "Using Linux"
+msgstr "Sử dụng Linux"
+
+#: lib/views/linux.linux_faq.php:249
+msgid "No."
+msgstr "Không phải."
+
+#: lib/views/linux.linux_faq.php:250
+msgid ""
+"It is technically possible to adapt Microsoft Office to Linux, but Microsoft "
+"isn't keen on allowing Office users to choose their operating system. There "
+"are other issues with MS Office and openness &mdash; like Microsoft's fierce "
+"opposition to supporting <a href=\"http://opendocumentfellowship.com/\">the "
+"OpenDocument format</a>."
+msgstr ""
+"Nói kỹ thuật, có thể chỉnh lại MS Office để chạy trên hệ điều hành Linux, "
+"nhưng công ty Microsoft không muốn cho phép người dùng Office tự chọn hệ "
+"điều hành. Có vấn đề khác đối với MS Office và khả năng trao đổi tập tin, "
+"thí dụ công ty Microsoft rất chống lại <a href=\"http://"
+"opendocumentfellowship.com/\">định dạng Tài Liệu Mở (ODF)</a>."
+
+#: lib/views/linux.linux_faq.php:251
+msgid ""
+"However, a complete, Free, reliable office suite exists: <a href=\"http://"
+"www.openoffice.org/\">OpenOffice.org</a>. Or you can choose its Open Source "
+"community-driven alternative, <a href=\"http://www.libreoffice.org/"
+"\">LibreOffice</a>, which is a fork of OpenOffice.org. They will both "
+"happily use all your existing office files in MS-Word, MS-Excel, and MS-"
+"PowerPoint format, and are really free (both as in freedom and as in price). "
+"And they run on Windows as well as on Linux."
+msgstr ""
+
+#. translators: If it exists, please use the localized URL of openoffice.org. You can find localized URLs here: http://www.openoffice.org/projects/native-lang.html
+#: lib/views/linux.linux_faq.php:254
+msgid "http://www.openoffice.org/"
+msgstr ""
+
+#. translators: If it exists, please use the localized URL of libreoffice.org. You can find localized URLs here: http://www.libreoffice.org/international-sites/
+#: lib/views/linux.linux_faq.php:257
+msgid "http://www.libreoffice.org/"
+msgstr ""
+
+#: lib/views/linux.linux_faq.php:264
+msgid ""
+"The simple answer to this question would be &quot;yes&quot;, however this is "
+"only half the truth."
+msgstr ""
+
+#: lib/views/linux.linux_faq.php:265
+msgid ""
+"Quite a few Linux distributions do not include MP3 playback software due to "
+"the patent situation of the MP3 format. These patent issues do not affect "
+"the user directly, so most distributions make it fairly easy to install MP3 "
+"support over the Internet after the installation, making it possible to "
+"<strong>legally play MP3 files</strong>, for non-commercial use."
+msgstr ""
+"Hơi nhiều bản phân phối Linux không bao gồm phần mềm phát lại tập tin MP3 do "
+"trường hợp bằng sáng chế về định dạng MP3. Những vấn đề bằng sáng chế này "
+"không áp dụng trực tiếp người dùng, vì vậy phần lớn bản phân phối làm cho "
+"hơi dễ cài đặt phần mềm hỗ trợ MP3 qua Internet, thì giúp người dùng "
+"<strong>phát hợp pháp tập tin MP3</strong> nhằm mục đích không thương mại."
+
+#: lib/views/linux.linux_faq.php:266
+msgid ""
+"DVDs, on the other hand, are a more difficult situation. Most, if not all, "
+"DVDs are encrypted using a system called \"<abbr title=\"Content Scrambling "
+"System\">CSS</abbr>\". There is a widely supported free software, called "
+"<code>libdvdcss</code>, capable of decrypting DVD videos. However, "
+"circumventing the restriction on your DVDs is illegal in many parts of the "
+"world, including the USA and the European Union."
+msgstr ""
+"Mặt khác, một số đĩa DVD bị hạn chế chặt chẽ. Gần mọi đĩa DVD đều bị mật mã "
+"theo một hệ thống được gọi là « <abbr title=\"Content Scrambling System"
+"\">CSS</abbr> » (khác với mã kiểu dáng CSS cho trang Web). Công đồng FOSS "
+"vẫn còn công bố một thư viện được hỗ trợ đầy đủ tên <code>libdvdcss</code> "
+"mà có khả năng giải mật mã phim trên đĩa DVD. Tuy nhiên, láu hơn sự hạn chế "
+"của đĩa DVD thì bất hợp pháp ở nhiều nơi của thế giới, gồm có Mỹ, Úc và Liên "
+"Bang Châu Âu."
+
+#: lib/views/linux.linux_faq.php:267
+msgid ""
+"There is a legal solution to play your DVDs on Linux where <code>libdvdcss</"
+"code> is illegal. The <a href=\"http://www.fluendo.com/\">Fluendo</a> "
+"company has developed an (non-free) application for that purpose which can "
+"be purchased from their website."
+msgstr ""
+
+#: lib/views/linux.linux_faq.php:268
+msgid ""
+"Non-encrypted DVDs, which include most home-made DVDs, play perfectly well "
+"with only free software."
+msgstr ""
+"Đĩa DVD không bị mật mã, mà bao gồm phần lớn đĩa DVD tự tạo, vẫn còn phát "
+"được với chỉ phần mềm tự do."
+
+#: lib/views/linux.linux_faq.php:270
+msgid "More on the web:"
+msgstr "Xem thêm trên Web:"
+
+#. translators: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
+#: lib/views/linux.linux_faq.php:273
+msgid "https://wiki.ubuntu.com/RestrictedFormats"
+msgstr ""
+
+#: lib/views/linux.linux_faq.php:273
+msgid "Ubuntu Restricted Formats"
+msgstr "Định dạng bị hạn chế Ubuntu"
+
+#. translators: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
+#: lib/views/linux.linux_faq.php:275
+msgid "http://www.fedoraproject.org/wiki/ForbiddenItems"
+msgstr ""
+
+#: lib/views/linux.linux_faq.php:275
+msgid "Fedora Forbidden Items"
+msgstr "Mục cấm Fedora"
+
+#: lib/views/linux.linux_faq.php:284
+msgid ""
+"Yes and No: Some games, for example some <a href=\"http://www.idsoftware.com/"
+"\">id Software</a> games like the Quake series and Doom 3, Unreal "
+"Tournament, Cold War, and many more have Linux versions."
+msgstr ""
+
+#: lib/views/linux.linux_faq.php:285
+msgid ""
+"Most popular games, alas, only work on Windows and occasionally on Mac OS. "
+"Some Windows games, such as Call of Duty 4 or GTA Vice City, can be run on "
+"GNU/Linux with <a href=\"http://winehq.org/\">Wine</a> or its non-free "
+"variant <a href=\"http://www.codeweavers.com/products/crossover/"
+"\">CrossOver</a>, which involves some unpleasant effort for the user. For a "
+"list of games known to work on Wine, see <a href=\"http://appdb.winehq.org/"
+"\">their games database</a>."
+msgstr ""
+
+#. translators: The first link will automatically point to the "more" page.
+#: lib/views/linux.linux_faq.php:292
+#, php-format
+msgid ""
+"If you have a question that is not covered here, there are many communities "
+"to help you. Our \"<a href=\"%s\">%s</a>\" section will help you find the "
+"right place to ask."
+msgstr ""
+
+#. translators: The first link will automatically point to the contact page, the second to the bug tracker.
+#: lib/views/linux.linux_faq.php:296
+#, php-format
+msgid ""
+"If you can think of a frequent question that we haven't answered yet, do <a "
+"href=\"%s\">let us know</a>, or even better, <a href=\"%s\">file a new bug</"
+"a>."
+msgstr ""
+
+#: lib/views/linux.php:14 lib/views/home.php:34
+msgid "What is GNU/Linux?"
+msgstr "GNU/Linux là gì vậy?"
+
+#: lib/views/linux.php:17
+msgid ""
+"When you hear the word Linux, you may think of programmers with a beard "
+"typing obscure code on a black screen. Good news! things have changed."
+msgstr ""
+"Khi bạn nghe tên « Linux », có lẽ bạn nghĩ về lập trình viên chuyên nghiệp "
+"đang gõ mã phức tạp vào một màn hình màu đen. Tuy nhiên, thế giới Linux đã "
+"mở rộng..."
+
+#: lib/views/linux.php:20
+msgid "The picture"
+msgstr "Hiện trạng"
+
+#: lib/views/linux.php:22
+msgid ""
+"Linux is an <em>operating system</em>, a large piece of software that "
+"manages a computer. It is similar to Microsoft Windows, but it is entirely "
+"free. The accurate name is <em>GNU/Linux</em> but \"Linux\" is used more "
+"often."
+msgstr ""
+"Linux là một <em>hệ điều hành</em>, một phần mềm lớn mà quản lý máy tính. Nó "
+"tương tự với Microsoft Windows, nhưng Linux tự do và miễn phí hoàn toàn. Tên "
+"đúng là <em>GNU/Linux</em>, nhưng « Linux » cũng thường dùng."
+
+#: lib/views/linux.php:24
+msgid ""
+"Linux is not one company's product, but a number of companies and groups of "
+"people contribute to it. In fact, the <em>GNU/Linux system</em> is a core "
+"component, which is branched off into many different products. They are "
+"called <strong>distributions</strong>."
+msgstr ""
+
+#: lib/views/linux.php:26
+msgid ""
+"Distributions change the appearance and function of Linux completely. They "
+"range from large, fully supported complete systems (endorsed by companies) "
+"to lightweight ones that fit on a USB memory stick or run on old computers "
+"(often developed by volunteers)."
+msgstr ""
+"Mỗi bản phát hành rất thay đổi hình thức và chức năng của Linux. Có bản phát "
+"hành công bố từ hệ thống lớn hoàn toàn đầy hỗ trợ (được công ty quảng cáo) "
+"đến hệ thống nhỏ gọn nằm trên một thanh nhớ USB hoặc chạy trên máy tính cũ "
+"(thường được phát triển tự nguyện)."
+
+#: lib/views/linux.php:30
+msgid ""
+"GNU/Linux is no harder to use than Windows, and has many more capabilities. "
+"It just takes a dozen minutes to get familiar with a distribution like <a "
+"href=\"http://www.ubuntu.com/\" title=\"Ubuntu, the easiest and friendliest "
+"GNU/Linux distribution around\">Ubuntu</a> or <a href=\"http://fedoraproject."
+"org/\" title=\"Fedora, a friendly and more advanced GNU/Linux distribution"
+"\">Fedora</a>, which come in with many programs installed."
+msgstr ""
+"GNU/Linux không phải khó dùng hơn Windows, và Linux có rất nhiều khả năng "
+"hơn. Chỉ cần mất mấy phút để quen với một bản phát hành như <a href=\"http://"
+"www.ubuntu.com/\" title=\"Ubuntu, bản phát hành GNU/Linux dễ dùng nhất và "
+"thân thiện nhất với người dùng\">Ubuntu</a> hay <a href=\"http://"
+"fedoraproject.org/\" title=\"Fedora, một bản phát hành GNU/Linux thân thiện "
+"và nâng cao hơn\">Fedora</a>, mà cài đặt sẵn rất nhiều chương trình hữu ích."
+
+#: lib/views/linux.php:32
+msgid ""
+"If you need commercial-quality software to work with business documents, "
+"Internet/networking, or multimedia and graphics, it's there right out of the "
+"box. Want more than that? Linux can do &ndash; there are many hundreds of "
+"free, high quality applications you can find, install and uninstall neatly "
+"and easily."
+msgstr ""
+"Nếu bạn yêu cầu phần mềm mức chất lượng thương mại để làm việc với tài liệu "
+"kinh doanh, chạy mạng hay chức năng đa phương tiện và đồ họa, tất cả có sẵn. "
+"Muốn thêm chức năng? Linux cung cấp được: có hàng trăm ứng dụng Linux chất "
+"lượng cao và hoàn toàn miễn phí và tự do cho bạn tìm, cài đặt hay huỷ cài "
+"đặt một cách ngăn nắp và dễ dàng."
+
+#: lib/views/linux.php:34
+#, php-format
+msgid ""
+"You shouldn't assume however, that Linux is a clone of Windows. To know what "
+"to expect when stepping into it, we suggest you read our <a href=\"%s"
+"\">Making the switch</a> page."
+msgstr ""
+"Tuy nhiên, bạn không nên cho rằng Linux là một bản sao của Windows. Muốn "
+"biết điều gì đáng mong đợi khi chuyển sang Linux, hãy xem trang <a href=\"%s"
+"\">Chuyển đổi hệ thống</a>."
+
+#: lib/views/linux.php:37
+msgid "The larger picture"
+msgstr "Trường hợp rộng rãi"
+
+#. translators: use the definition of "free software" on GNU.org in place of softwareliberty.com
+#: lib/views/linux.php:40
+msgid ""
+"When you get a distribution of GNU/Linux, <strong>you also get the freedom "
+"to study, copy, change, and redistribute it</strong> &ndash;&nbsp;that's "
+"what makes it truly <a href=\"http://www.softwareliberty.com/\" title=\"what "
+"is freedom in software?\">free software</a>."
+msgstr ""
+"Khi bạn nhận được một bản phát hành GNU/Linux, <strong>bạn cũng nhận quyền "
+"xem xét, sao chép, sửa đổi và phát hành lại nó</strong> &ndash;&nbsp;đó là "
+"tại sao nó thực sự là một <a href=\"http://www.softwareliberty.com/\" title="
+"\"phần mềm là tự do như thế nào?\">phần mềm tự do</a>."
+
+#: lib/views/linux.php:42
+msgid ""
+"Many companies develop their own operating system based on the core <a href="
+"\"http://www.gnu.org\" title=\"the GNU project: at the source of all Linux "
+"distributions\">GNU software</a>: products they do not have exclusive rights "
+"on. How does the wheel turn?"
+msgstr ""
+"Nhiều công ty cũng phát triển hệ điều hành riêng dựa vào <a href=\"http://"
+"www.gnu.org\" title=\"dự án GNU: nguồn của mọi bản phát hành Linux\">phần "
+"mềm GNU</a>: những sản phẩm họ không sở hữu. Vậy sức cố gắng cứ mở rộng."
+
+#: lib/views/linux.php:45
+msgid ""
+"Most companies make a profit by <em>selling support and services</em> around "
+"their GNU/Linux distribution. Corporate customers buy guaranteed security "
+"updates and assistance. Other services often include training and on-demand "
+"improvements to software."
+msgstr ""
+"Phần lớn công ty thu lợi từ việc <em>bán hỗ trợ và dịch vụ</em> kèm theo bản "
+"phát hành GNU/Linux . Các khách hàng thì mua bản cập nhật bảo mật và sự giúp "
+"đỡ có bảo hành. Các dịch vụ khác thường bao gồm đào tạo và cải tiến phần mềm "
+"theo yêu cầu."
+
+#: lib/views/linux.php:46
+msgid ""
+"Some companies, such as HP or IBM, contribute to Linux because they pre-"
+"install it on servers they sell."
+msgstr ""
+"Một số công ty, như HP và IBM, cũng đóng góp cho Linux vì họ cài đặt sẵn nó "
+"vào những máy phục vụ được bán."
+
+#: lib/views/linux.php:47
+msgid ""
+"An extremely wide community participates in the development and improvement "
+"of software, decreasing costs and improving efficiency."
+msgstr ""
+"Một cộng đồng trên khắp thế giới tham gia tiến trình phát triển và cải tiến "
+"phần mềm, cũng giảm chi phí và tăng năng suất."
+
+#: lib/views/linux.php:50
+msgid ""
+"In the end, individual end-users often get the software at zero cost, while "
+"corporate customers are often happy to pay for more support."
+msgstr ""
+"Cuối cùng, người dùng cá nhân thường nhận phần mềm miễn phí, còn khách hàng "
+"của công ty thường vui vẻ bỏ tiền để nhận được sự hỗ trợ."
+
+#: lib/views/linux.php:53
+msgid "More in this section:"
+msgstr "Thêm về mục này:"
+
+#: lib/views/linux.php:70 lib/views/home.php:50
+msgid "Why we should avoid using Microsoft Windows"
+msgstr "Lý do nên tránh sử dụng MS Windows"
+
+#: lib/views/linux.php:86 lib/views/home.php:64 lib/views/windows.php:95
+msgid "Where to download and how to step into Linux"
+msgstr "Đối với Linux có thể tải xuống đâu và bắt đầu sử dụng như thế nào"
+
+#: lib/views/link_buttons.php:19 templates/footer.php:36
+msgid "Help us spread free software!"
+msgstr ""
+
+#: lib/views/link_buttons.php:22
+msgid ""
+"Simply copy/paste the code next to your favorite button into your website."
+msgstr ""
+
+#: lib/views/link_buttons.php:58
+msgid "Usage"
+msgstr ""
+
+#: lib/views/link_buttons.php:59
+msgid ""
+"We kindly ask that these buttons be used only to point to <em>get GNU/Linux!"
+"</em> websites."
+msgstr ""
+
+#: lib/views/link_buttons.php:63
+msgid "Licensing"
+msgstr ""
+
+#. translators: The link will automatically point to the "credits" page. Please leave the "#link_buttons" part as such; it is an internal link.
+#: lib/views/link_buttons.php:66
+#, php-format
+msgid ""
+"Some of these buttons contain material subjected to specific licenses. See "
+"the \"<a href=\"%s#link_buttons\">%s</a>\" page for details."
+msgstr ""
+
+#: lib/views/link_buttons.php:67 templates/footer.php:29
+msgid "Credits"
+msgstr "Lời cảm ơn"
+
+#: lib/views/link_buttons.php:71
+msgid "Make your own!"
+msgstr ""
+
+#: lib/views/link_buttons.php:72
+#, php-format
+msgid ""
+"Make your own buttons and maybe we can host them along ours! Our <a href=\"%s"
+"\">source files</a> (GIMP and Inkscape formats) might be a good starting "
+"point."
+msgstr ""
+
+#. translators: The "AWOL" part doesn't need to be translated literally.
+#: lib/views/404.php:22
+msgid ""
+"Sorry, but we couldn't find the page you were looking for. Either that page "
+"doesn't exist or the web page went <abbr title=\"away without leave\">AWOL</"
+"abbr>."
+msgstr ""
+
+#: lib/views/404.php:25
+msgid "Report broken link"
+msgstr ""
+
+#. translators: Here, the %s placeholder simply puts a link to the bug tracker.
+#: lib/views/404.php:27
+#, php-format
+msgid ""
+"If you found a broken link, please <a href=\"%s\">report it</a> so we can "
+"repair it. Thank you!"
+msgstr ""
+
+#. translators: This is the very first sentence every visitor is going to read. Please pay great attention to making it sound great, we only have one try! =)
+#: lib/views/home.php:25
+msgid ""
+"GNU/Linux, or simply <em>Linux</em>, is an alternative to Microsoft Windows. "
+"It is easy to use and gives more freedom to users. Anyone can install it: "
+"Linux is free as in freedom, and often available free of charge."
+msgstr ""
+"GNU/Linux, hay đơn giản <em>Linux</em>, là một hệ thống thay thế Microsoft "
+"Windows. Linux rất dễ dùng và cấp mọi quyền cho người dùng. Mọi người dùng "
+"có quyền cài đặt nó: Linux cả hai miễn phí và tự do."
+
+#: lib/views/home.php:36
+msgid "Learn more about the free operating system"
+msgstr "Tìm biết thêm về hệ điều hành tự do"
+
+#. translators: This is the description of the "ubuntu1.png" screenshot.
+#: lib/views/switch_to_linux.choose_a_distribution.php:11
+msgid "Firefox web browser"
+msgstr ""
+
+#. translators: This is the description of the "ubuntu2.png" screenshot.
+#: lib/views/switch_to_linux.choose_a_distribution.php:13
+msgid ""
+"File manager and image browsing application are open, on standard desktop."
+msgstr ""
+
+#. translators: This is the description of the "ubuntu3.png" screenshot.
+#: lib/views/switch_to_linux.choose_a_distribution.php:15
+msgid "Thunderbird e-mail and calendar application."
+msgstr ""
+
+#. translators: This is the description of the "fedora1.png" screenshot.
+#: lib/views/switch_to_linux.choose_a_distribution.php:18
+msgid "GIMP image editing application, cropping a photo."
+msgstr ""
+
+#. translators: This is the description of the "fedora2.png" screenshot.
+#: lib/views/switch_to_linux.choose_a_distribution.php:20
+msgid "LibreOffice Writer open, editing a standard document."
+msgstr ""
+
+#. translators: This is the description of the "fedora3.png" screenshot.
+#: lib/views/switch_to_linux.choose_a_distribution.php:22
+msgid ""
+"Accessing applications in the <a href=\"http://gnome3.org/\">GNOME 3</a> "
+"desktop environment."
+msgstr ""
+
+#. translators: This is the description of the "trisquel1.png" screenshot.
+#: lib/views/switch_to_linux.choose_a_distribution.php:25
+msgid "Update manager open."
+msgstr ""
+
+#. translators: This is the description of the "trisquel2.png" screenshot.
+#: lib/views/switch_to_linux.choose_a_distribution.php:27
+msgid "LibreOffice Calc open, showing an example spreadsheet."
+msgstr ""
+
+#. translators: This is the description of the "trisquel3.png" screenshot.
+#: lib/views/switch_to_linux.choose_a_distribution.php:29
+msgid "Accessing applications."
+msgstr ""
+
+#: lib/views/switch_to_linux.choose_a_distribution.php:45
+msgid ""
+"Because there is no &quot;one Linux&quot;, finding what you need can be "
+"difficult. Here are our choice of three beginner-friendly, widely used "
+"distributions."
+msgstr ""
+
+#. translators: The distrowatch.com website is translated into many languages (see http://distrowatch.com/dwres.php?resource=about). If your language is present, please replace "EN" in the URL by the code of your language (e.g. for Spanish, the last part would become "language=ES").
+#: lib/views/switch_to_linux.choose_a_distribution.php:49
+msgid ""
+"Note: There are <a href=\"http://distrowatch.com/dwres.php?"
+"resource=major&amp;language=EN\">plenty of distributions to choose from and "
+"compare</a>."
+msgstr ""
+
+#: lib/views/switch_to_linux.choose_a_distribution.php:50
+msgid "This is our selection for newcomers. These links are not commercial."
+msgstr ""
+
+#. translators: use url of official localised Ubuntu homepage, if existing
+#: lib/views/switch_to_linux.choose_a_distribution.php:58
+msgid "http://www.ubuntu.com/"
+msgstr "http://www.ubuntu.com/"
+
+#: lib/views/switch_to_linux.choose_a_distribution.php:61
+msgid ""
+"Simple, easy, usable and our personal favourite. A tanned, smooth atmosphere "
+"that never gets in your way. All programs are kept in order and managed "
+"easily. Configuration is kept simple rather than exhaustive."
+msgstr ""
+"Một hệ thống đơn giản, dễ dùng và ưa thích của chúng tôi. Môi trường là thân "
+"thiện với người dùng, và không bao giờ ngăn trở bạn. Tất cả các chương trình "
+"đều được tổ chức và sắp đặt một cách dễ dàng. Cấu hình là đơn giản, không "
+"phải phức tạp."
+
+#: lib/views/switch_to_linux.choose_a_distribution.php:62
+msgid ""
+"We recommend this friendly and complete distribution if you are looking for "
+"an easy way to try and step into GNU/Linux."
+msgstr ""
+"Nếu bạn tìm một phương pháp dễ dàng để thử và bắt đầu sử dụng GNU/Linux, "
+"khuyên bạn chọn bản phát hành thân thiện và hoàn toàn này."
+
+#: lib/views/switch_to_linux.choose_a_distribution.php:63
+msgid ""
+"Ubuntu also has a sister distribution, <a href=\"http://www.kubuntu.org/"
+"\">Kubuntu</a>, with a different layout and slightly more advanced graphics."
+msgstr ""
+"Ubuntu còn có một bản phân phối chị em, <a href=\"http://www.kubuntu.org/"
+"\">Kubuntu</a>, với bố cục khác và đồ hoạ hơi cao cấp hơn."
+
+#. translators: use url of official localised Fedora homepage, if existing
+#: lib/views/switch_to_linux.choose_a_distribution.php:89
+msgid "http://fedoraproject.org/"
+msgstr "http://fedoraproject.org/"
+
+#. translators: if you don't know of a clean, simple comparison website, simply remove the link.
+#: lib/views/switch_to_linux.choose_a_distribution.php:94
+#, fuzzy
+msgid ""
+"The distribution by the long-time prominent GNU/Linux developer company Red "
+"Hat. The default layout is similar to Ubuntu (it is also possible to use "
+"KDE, the more advanced desktop environment in use in Kubuntu), but there are "
+"differences in the chosen applications, install protocols and several "
+"technical elements."
+msgstr ""
+"Đây là bản phát hành được tạo bởi công ty GNU/Linux nổi tiếng lâu dài Red "
+"Hat. Bố trí mặc định của bản này tương tự với Ubuntu (cũng có thể sử dụng "
+"KDE, môi trường đồ họa cấp cao hơn để sử dụng trong Kubuntu). nhưng <a href="
+"\"http://polishlinux.org/choose/comparison/?distro1=Ubuntu&amp;distro2=Fedora"
+"\" title=\"Fedora và Ubuntu có gì khác?\">có khác biệt</a> trong những ứng "
+"dụng được chọn, những giao thức cài đặt và vài phần tử kỹ thuật."
+
+#: lib/views/switch_to_linux.choose_a_distribution.php:95
+msgid ""
+"We recommend this distribution if you wish to learn more about the workings "
+"of a GNU/Linux system, security configuration, or work on software "
+"development."
+msgstr ""
+"Muốn tìm biết thêm về cấu trúc và các thủ tục của một hệ thống GNU/Linux, "
+"cấu hình bảo mật hay phát triển phần mềm thì khuyên bạn chọn bản phát hành "
+"này."
+
+#: lib/views/switch_to_linux.choose_a_distribution.php:124
+#, php-format
+msgid ""
+"While Ubuntu contains some restricting components (<a href=\"%s#full_freedom"
+"\">why?</a>), the Trisquel developers have built an entirely free "
+"derivative. Although its community is smaller and its hardware support might "
+"be slightly inferior, Trisquel gives anyone full freedom over a complete "
+"operating system similar to Ubuntu."
+msgstr ""
+
+#: lib/views/switch_to_linux.choose_a_distribution.php:125
+msgid ""
+"We recommend this distribution if you are committed to freedom in your "
+"computing."
+msgstr ""
+"Chúng tôi khuyến khích bản phân phối này nếu bạn tận tâm với sự tự do của "
+"điện toán."
+
+#. translators: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
+#: lib/views/switch_to_linux.choose_a_distribution.php:153
+msgid "Now get a CD and try or install your distribution!"
+msgstr "Hãy kiếm ngay một CD và cài đặt Linux của bạn!"
+
+#. translators: This is the catcher-phrase for the Windows page. Exact translation is not required, the goal is to attract attention and set the tone of the page.
+#: lib/views/windows.php:21
+msgid "Windows and Office work fine &mdash; Why worry about it?"
+msgstr "Windows và Office chạy được, tại sao lo vậy?"
+
+#. translators: You may add emphasis ('em' tags) around the word 'licensed' if you wish
+#: lib/views/windows.php:29
+msgid ""
+"A legal copy of Windows is expensive, but what do you get? Windows and "
+"Office are licensed, not sold."
+msgstr ""
+"Mua một bản sao Windows hợp pháp thì mất nhiều tiền, nhưng bạn nhận được gì? "
+"Phần mềm Windows và Office được cấp phép, không phải được bán."
+
+#: lib/views/windows.php:31
+msgid ""
+"By using these products, we have to agree to <strong>a number of harsh "
+"restrictions</strong>. For most Windows licenses, you can't keep the "
+"software when you change the hardware. You sometimes can't even give your "
+"software away. Who can run the software? On which computer? What can you do "
+"with it? The list of restrictions is long and some items are outrageous."
+msgstr ""
+"Bằng cách sử dụng những sản phẩm này, chúng ta phải đồng ý với <strong>một "
+"số sự hạn chế khắt khe</strong>. Đối với phần lớn giấy phép Windows, bạn "
+"không thể giữ phần mềm khi thay đổi phần cứng. Đôi khi bạn thậm chí không "
+"thể xoá bỏ phần mềm. Ai có quyền chạy phần mềm? Trên máy tính nào? Có quyền "
+"làm gì với nó? Một danh sách dài những hạn chế, và một số mục là sự lăng "
+"nhục."
+
+#: lib/views/windows.php:39
+msgid "Software should come without locks in it."
+msgstr "Phần mềm không nên bị khoá."
+
+#: lib/views/windows.php:41
+msgid ""
+"Why are Office documents difficult to export? Why are the formats "
+"continually changing? Why can you not even uninstall some programs? It might "
+"be that if you look for choice, Microsoft products aren't for you."
+msgstr ""
+"Tại sao tài liệu Office khó xuất ra? Tại sao những định dạng thay đổi liên "
+"tục? Tại sao không thể ngay cả gỡ bỏ một số chương trình? Nếu bạn muốn có "
+"quyền chọn lựa, Microsoft có vẻ không dành cho bạn."
+
+#: lib/views/windows.php:49
+msgid ""
+"The source codes of Windows and Office are hidden, so, <strong>no one is "
+"allowed to understand</strong> how these programs work."
+msgstr ""
+"Mã nguồn của Windows và Office đều bị giấu kín, <strong>chẳng ai được phép "
+"hiểu</strong> chúng làm việc như thế nào."
+
+#: lib/views/windows.php:51
+msgid ""
+"If you can't get a right to inspect source code (the human-readable inner "
+"workings of a program), you can't have someone correct flaws or evaluate how "
+"your privacy is protected for you."
+msgstr ""
+"Không có quyền xem xét mã nguồn (những chỉ dẫn điều khiển chương trình) thì "
+"không thể sửa lỗi hoặc kiểm tra sự riêng tư của bạn được bảo vệ không. "
+
+#: lib/views/windows.php:53
+msgid ""
+"And guess what? On software that comes with source code, viruses and spyware "
+"aren't effective, and security isn't bought on extra. The antivirus software "
+"industry, in which Microsoft is now a significant player, prefers you to use "
+"Windows."
+msgstr ""
+"Hơn nữa, phần mềm cung cấp mã nguồn cũng an toàn chống vi-rút và phần mềm "
+"gián điệp, không cần mất thêm tiền để bảo vệ máy tính. Ngành kinh doanh phần "
+"mềm chống vi-rút, trong đó công ty Microsoft được rất nhiều tiền, thích bạn "
+"sử dụng Windows hơn."
+
+#. translators: In your language, you might not need to make the distinction between price and freedom. Please do however express that price does not matter, in this sentence.
+#: lib/views/windows.php:63
+msgid ""
+"A free society requires free software. Think of &quot;free&quot; as in "
+"freedom, not price: the freedoms to inspect, learn from, modify the software "
+"you use."
+msgstr ""
+
+#: lib/views/windows.php:65
+msgid ""
+"Computers are used to share ideas, culture and information. Without these "
+"freedoms over software, we risk losing control over what we share."
+msgstr ""
+"Máy tính được dùng để chia sẻ ý kiến, văn hoá và thông tin. Không có những "
+"quyền này cho phần mềm, chúng ta phải đối mặt với rủi ro mất quyền điều "
+"khiển những gì chúng ta chia sẻ."
+
+#: lib/views/windows.php:67
+msgid ""
+"This is happening today. From plain annoying technologies such as Digital "
+"Restrictions Management (<strong>DRM</strong>) to downright frightening ones "
+"like <strong>Trusted Computing</strong>, everyone's ability to participate "
+"in culture is threatened."
+msgstr ""
+"Những điều trên đang diễn ra ngày nay. Từ kỹ thuật rõ ràng phiền toái như "
+"Digital Rights Management (<strong>DRM</strong> - quản lý quyền kỹ thuật số) "
+"đến kỹ thuật chắc chắn kinh khủng như <strong>Trusted Computing</strong> "
+"(điện toán « đáng tin »), khả năng tham gia văn hoá của mọi người đang bị đe "
+"dọa."
+
+#: lib/views/windows.php:69
+msgid ""
+"If you have to give up your freedoms to use software, maybe you should not "
+"be happy with it."
+msgstr ""
+"Nếu bạn phải từ bỏ quyền tự do sử dụng phần mềm, bạn có hài lòng không?"
+
+#. translators: This is the conclusion of the article.
+#: lib/views/windows.php:81
+#, php-format
+msgid ""
+"Many people find that Windows, an otherwise decent piece of software, "
+"<strong>withdraws so many rights</strong> from them, that it is not worth "
+"them using it. Mac&nbsp;OS is <a href=\"%s#mac_freedom\">not much better</"
+"a>, either."
+msgstr ""
+
+#: lib/views/windows.php:83
+#, php-format
+msgid ""
+"If you find <a href=\"http://www.softwareliberty.com/\" title=\"what is "
+"freedom in software?\">free software</a> attractive, you might want to <a "
+"href=\"%s\" title=\"make the switch to Linux today!\">give Linux a try</a>."
+msgstr ""
+"Muốn có <a href=\"http://www.softwareliberty.com/\" title=\"quyền sử dụng "
+"phần mềm là gì?\">phần mềm tự do</a> thì <a href=\"%s\" title=\"chuyển đổi "
+"sang Linux hôm nay!\">thử xem Linux nhé!</a>."
+
+#: lib/views/windows.what_about_choice.php:24
+msgid ""
+"Microsoft works hard to make sure their users stay locked into their "
+"products."
+msgstr ""
+
+#. translators: This is a quote from Bill Gates at the start of the article.
+#: lib/views/windows.what_about_choice.php:30
+msgid ""
+"About 3 million computers get sold every year in China, but people don't pay "
+"for the software."
+msgstr ""
+
+#: lib/views/windows.what_about_choice.php:31
+msgid ""
+"Someday they will, though. As long as they are going to steal it [sic], we "
+"want them to steal ours. They'll get sort of addicted, and then we'll "
+"somehow figure out how to collect sometime in the next decade."
+msgstr ""
+
+#: lib/views/windows.what_about_choice.php:32
+msgid "1998 interview"
+msgstr ""
+
+#: lib/views/windows.what_about_choice.php:35
+msgid "Poor support for open standards"
+msgstr ""
+
+#: lib/views/windows.what_about_choice.php:37
+msgid ""
+"There exist open file formats and protocols, which are standards to store "
+"and carry many types of information, respectively. They are openly "
+"specified: they can be read by anyone on any computer, now and in the "
+"future. Proprietary programs, however, rarely support them."
+msgstr ""
+
+#: lib/views/windows.what_about_choice.php:38
+msgid ""
+"<strong>For a long time Microsoft Office only had support for Microsoft "
+"formats</strong>. There are many ways to write work documents, but Microsoft "
+"Office users were bound to Microsoft Office files. People who opted without "
+"expensive Microsoft products cannot write and read <code>.doc</code> files "
+"very reliably."
+msgstr ""
+
+#. translators: Please use link to localized Wikipedia article in place of ODF
+#: lib/views/windows.what_about_choice.php:41
+msgid ""
+"There are of course other ways of writing and exchanging office files, the "
+"most well-known being <a href=\"http://www.opendocumentfellowship.com/\">the "
+"OpenDocument Format</a>. But Microsoft isn't keen on letting Office users "
+"exchange files anyone can read and edit. As of Microsoft Office 2007 SP2, "
+"Microsoft finally added support for the ODF format after being pushed by the "
+"European Commission."
+msgstr ""
+
+#: lib/views/windows.what_about_choice.php:43
+msgid "Standards that change all the time"
+msgstr ""
+
+#: lib/views/windows.what_about_choice.php:45
+msgid ""
+"Sticking to Microsoft standards is not an easy job &ndash; unless you can "
+"afford to upgrade very often. Ever tried to work on the same <code>.doc</"
+"code> file with both an Office 95 and an Office 97 computer? You'll know "
+"what we mean."
+msgstr ""
+
+#: lib/views/windows.what_about_choice.php:46
+msgid ""
+"Microsoft owns the Office file formats: <strong>they change them with every "
+"new Office version</strong> and have no obligation to keep them backwards-"
+"compatible. Saved your presentation as a <code>.ppt</code> file? If you give "
+"up using Microsoft Office next year, you'll have to rely on other "
+"communities to reverse-engineer the format, to be able to access and modify "
+"your own work."
+msgstr ""
+
+#: lib/views/windows.what_about_choice.php:48
+msgid "Default programs you can't uninstall"
+msgstr ""
+
+#: lib/views/windows.what_about_choice.php:50
+msgid ""
+"Don't want Windows Media Player on your computer? Don't use Internet "
+"Explorer anymore? <strong>You can't uninstall these programs</strong>. They "
+"previously worked on a standalone basis, but have been intrinsically linked "
+"with Windows &ndash; so they come in with every PC and no one can get rid of "
+"them."
+msgstr ""
+
+#: lib/views/windows.what_about_choice.php:52
+msgid "Monopolistic practices"
+msgstr ""
+
+#: lib/views/windows.what_about_choice.php:54
+msgid ""
+"Microsoft has a tight control over <abbr title=\"Original Equipment "
+"Manufacturer\">OEM</abbr>s (computer manufacturers) who ship their computers "
+"with Windows installed."
+msgstr ""
+
+#. translators: if you cannot find localized homepages, please leave the URLs as such
+#: lib/views/windows.what_about_choice.php:57
+msgid ""
+"This means that no program competing with Microsoft products, be it <a href="
+"\"http://www.videolan.org/vlc/\">multimedia player</a>, <a href=\"http://www."
+"getfirefox.com/\">web browser</a>, <a href=\"http://libreoffice.org/"
+"\">office suite</a>, <a href=\"http://www.pidgin.im/\">instant messaging "
+"program</a> or other, will come pre-installed on most computers you can buy."
+msgstr ""
+
+#: lib/views/windows.what_about_choice.php:59
+msgid ""
+"It is a good thing to propose a wide range of software and services like "
+"Microsoft do; however, designing and combining them to shut users from non-"
+"Microsoft peers is unethical. It's not technically hard to adopt more open "
+"formats. But it means your customers are <em>free to choose what they do "
+"with their work</em> &ndash; Microsoft isn't there yet."
+msgstr ""
+
+#: lib/views/more.php:19
+msgid "Selected reading on the Internet."
+msgstr "Tài liệu lựa chọn trên Intenet."
+
+#: lib/views/more.php:23
+msgid "Questions, help, and equipment"
+msgstr "Câu hỏi, trợ giúp và thiết bị"
+
+#. translators: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
+#: lib/views/more.php:28
+msgid "http://www.linuxquestions.org/"
+msgstr "http://vnoss.org/"
+
+#. translators: Image alt description for www.linuxquestions.org (if you translated the URL, change this accordingly)
+#: lib/views/more.php:28 lib/views/more.php:30
+msgid "LinuxQuestions.org"
+msgstr "Cộng đồng mã nguồn mở Việt Nam VnOSS"
+
+#. translators: This is the text below a button linking to www.linuxquestions.org. If you translated the URL, change this text accordingly.
+#: lib/views/more.php:34
+msgid ""
+"Friendly free software support forums, for newcomers and advanced users "
+"alike.<br/> If you have a question that we haven't covered, it's a good "
+"place to ask!"
+msgstr ""
+"VnOSS được lập ra với mong muốn là nơi qui tụ các người Việt quan tâm đến "
+"phần mềm mã nguồn mở. VnOSS tạo ra một sân chơi bình đẳng và thân thiện cho "
+"tất cả mọi người, qua đó giúp đỡ lẫn nhau trong việc cài đặt và sử dụng OSS, "
+"quảng bá cho việc dùng phần mềm mã nguồn mở."
+
+#. translators: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
+#: lib/views/more.php:40
+msgid "http://linuxpreloaded.com/"
+msgstr "http://linuxpreloaded.com/"
+
+#: lib/views/more.php:40
+msgid "Computers pre-installed with Linux"
+msgstr "Máy tính cài đặt sẵn Linux"
+
+#. translators: Image alt description for linuxpreloaded.com (if you translated the URL, change this accordingly)
+#: lib/views/more.php:42
+msgid "Linux Pre-Loaded"
+msgstr "Linux Nạp Sẵn"
+
+#. translators: This is the text below a button linking to linuxpreloaded.com. If you translated the URL, change this text accordingly.
+#: lib/views/more.php:46
+msgid ""
+"A simple and clear selection of vendors selling computers pre-installed with "
+"Linux."
+msgstr ""
+"Lựa chọn dễ hiểu và đơn giản những nhà sản xuất có bán máy tính có Linux "
+"được cài đặt sẵn."
+
+#: lib/views/more.php:51
+msgid "Learn and read more"
+msgstr "Tìm biết và đọc thêm"
+
+#. translators: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
+#: lib/views/more.php:56
+msgid "http://en.wikibooks.org/wiki/FLOSS_Concept_Booklet"
+msgstr "http://en.wikibooks.org/wiki/FLOSS_Concept_Booklet"
+
+#: lib/views/more.php:56
+msgid "the FLOSS concept booklet"
+msgstr "cuốn sách nhỏ diễn tả khái niệm FLOSS"
+
+#. translators: Image alt description (if you translated the URL, change this accordingly)
+#: lib/views/more.php:58
+msgid "FLOSS Booklet"
+msgstr "Sách nhỏ FLOSS"
+
+#. translators: This is the text below a button linking to en.wikibooks.org/wiki/FLOSS_Concept_Booklet. If you translated the URL, change this text accordingly.
+#: lib/views/more.php:62
+msgid ""
+"A short, entertaining way to clarify thoughts about free, libre, \"open-"
+"source\" software."
+msgstr ""
+"Một bản tóm tắt dễ hiểu và thú vị về khái niệm phần mềm tự do, «nguồn mở»."
+
+#. translators: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
+#: lib/views/more.php:67
+msgid "http://www.fsf.org/"
+msgstr "http://www.fsf.org/"
+
+#: lib/views/more.php:67
+msgid "Free Software Foundation"
+msgstr ""
+
+#. translators: Image alt description for www.fsf.org (if you translated the URL, change this accordingly)
+#: lib/views/more.php:69
+msgid "FSF"
+msgstr "FSF"
+
+#. translators: This is the text below a button linking to www.fsf.org. If you translated the URL, change this text accordingly.
+#: lib/views/more.php:73
+msgid ""
+"The Free Software Foundation defends and advocates the very concept of <a "
+"href=\"http://www.softwareliberty.com/\">free software</a> that gave birth "
+"to GNU/Linux."
+msgstr ""
+"Tổ chức Phần mềm Tự do (Free Software Foundation, FSF) đẩy mạnh và bảo vệ "
+"khái niệm <a href=\"http://www.softwareliberty.com/\">phần mềm tự do</a> đã "
+"sinh ra GNU/Linux."
+
+#: lib/views/more.php:77
+msgid ""
+"Note: these links are proposed as a recommendation. They are not commercial."
+msgstr "Ghi chú : những liên kết này chỉ được đề nghi. Không phải thương mại."
+
+#: lib/views/more.php:83
+msgid "About us"
+msgstr "Giới thiệu mình"
+
+#: lib/views/more.php:85
+msgid ""
+"This website was a project of the late <em><a href=\"http://www."
+"gnulinuxmatters.org/\">GNU/Linux Matters</a></em> non-profit organization, "
+"which focused on Internet advocacy for free software. As of 2010, GNU/Linux "
+"Matters have ceased activity."
+msgstr ""
+
+#: lib/views/more.php:87
+#, php-format
+msgid ""
+"This website is maintained and driven by the community. Please consider <a "
+"href=\"%s\">participating</a>, or simply helping by <a href=\"%s\">making a "
+"link to this website</a>."
+msgstr ""
+
+#: templates/footer.php:26
+msgid "About:"
+msgstr ""
+
+#: templates/footer.php:27
+msgid "Read about news and updates."
+msgstr ""
+
+#: templates/footer.php:27
+msgid "Our blog"
+msgstr ""
+
+#: templates/footer.php:28
+msgid "Terms of use"
+msgstr ""
+
+#: templates/footer.php:30
+msgid "Contact the authors."
+msgstr ""
+
+#: templates/footer.php:30
+msgid "Contact us"
+msgstr ""
+
+#: templates/footer.php:35
+msgid "Participate:"
+msgstr ""
+
+#: templates/footer.php:36
+msgid "Link to us"
+msgstr ""
+
+#: templates/footer.php:37
+msgid "Found something awkward? Report it!"
+msgstr ""
+
+#: templates/footer.php:37
+msgid "Report a bug"
+msgstr ""
+
+#: templates/footer.php:38
+msgid "Help us reach an audience in your language!"
+msgstr ""
+
+#: templates/footer.php:38
+msgid "Translation"
+msgstr ""
+
+#: templates/footer.php:39
+msgid "Ways to help."
+msgstr ""
+
+#. translators: If there is an official translation for the license, use that URL instead. Make sure you use the URL for CC BY-SA 3.0.
+#: templates/footer.php:48
+#, php-format
+msgid ""
+"Except where otherwise <a href=\"%s\">noted</a>, content on this site is "
+"licensed under a <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\" "
+"rel=\"license\"><abbr title=\"Creative Commons Attribution-ShareAlike\">CC "
+"BY-SA</abbr> 3.0 License</a>."
+msgstr ""
+
+#: templates/footer.php:49
+msgid "Generously hosted by <a href=\"http://tuxfamily.org/\">TuxFamily</a>."
+msgstr ""
+
+#: templates/footer.php:50
+#, php-format
+msgid "This site is <a href=\"%s\">open source</a>."
+msgstr ""
