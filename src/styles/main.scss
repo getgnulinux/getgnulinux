@@ -1,0 +1,996 @@
+@import 'normalize';
+@import 'bourbon';
+@import 'neat';
+@import 'h5bp_header';
+
+$font-stack: "Open Sans", sans-serif;
+$primary-color: #3C4043;
+$primary-background-color: #545454;
+$background-color: #F8F8F8;
+$background-image: "/images/cream_dust.png";
+$header-color: #333333;
+$link-color: #0070BB;
+$link-visited-color: #4672A1;
+$link-hover-color: #25A2E3;
+$link-active-color: #C44514;
+$border-top-color: #EDECE4;
+$ggl-font-stack: Palatino, "Palatino Linotype", Georgia, "Book Antiqua", Times, "Times New Roman", serif;
+
+/*----------------------------------------------------
+ * General styles
+ *----------------------------------------------------*/
+
+html, footer {
+  background-color: $primary-background-color;
+}
+
+body {
+  background: url($background-image) repeat scroll 0 0 transparent;
+  background-color: $background-color;
+  color: $primary-color;
+  font: 100% $font-stack;
+  height: 100%;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $header-color;
+  font-weight: 300;
+  margin-bottom: 1em;
+  text-align: start;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin: 1rem;
+  text-align: center;
+}
+
+h2 {
+  border-top: 1px solid $border-top-color;
+  font-size: 2.5em;
+  margin-bottom: 0.45rem;
+  margin-top: 0.8em;
+  padding-top: 0.8em;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: 300;
+}
+
+hr {
+  border-color: #CCCCCC;
+  border-right: 0 solid #CCCCCC;
+  border-style: solid;
+  border-width: 1px 0 0;
+  clear: both;
+  height: 0;
+}
+
+section {
+  padding: 1rem 0;
+}
+
+img, embed, object, video {
+  max-width: 100%;
+  height: auto;
+}
+
+@include selection {
+  background: #009ACD;
+  color: #FFFFFF;
+}
+
+a {
+  color: $link-color;
+
+  img {
+    border: none;
+  }
+}
+
+a:visited {
+  color: $link-visited-color;
+}
+
+a:hover {
+  color: $link-hover-color;
+  text-decoration: underline;
+}
+
+a:active {
+  color: $link-active-color;
+}
+
+abbr {
+    letter-spacing: 0.05em;
+}
+
+ul {
+    margin-bottom: 2em;
+}
+
+li {
+    margin: 0 0 1em 0;
+}
+
+/*----------------------------------------------------
+ * Navigation menu
+ *----------------------------------------------------*/
+
+#navbar {
+  background-color: #F0D8B2;
+  font-size: 16px;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 5px;
+
+    li {
+      display: inline-block;
+      margin: 0 5px 0 0;
+      padding: 5px;
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+      @include transition(background 300ms ease);
+    }
+  }
+
+  a {
+    font-size: 1.0em;
+    line-height: 2em;
+    padding: 9px;
+    text-decoration: none;
+  }
+
+  a, a:hover, a:visited {
+    color: #333333;
+  }
+
+  li:hover,
+  li.active {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+  }
+}
+
+/*----------------------------------------------------
+ * Navigation: Chapters list
+ *----------------------------------------------------*/
+
+nav.chapters {
+  margin: 0 auto;
+  text-align: center;
+
+  .title {
+    a {
+      color: #3C4043;
+      display: inline-block;
+      line-height: 2em;
+      margin: 0.5em;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .active {
+    a, a:hover {
+      color: #666666 !important;
+      text-decoration: none;
+      font-weight: bold;
+      text-shadow: 0 1px 0 #FFFFFF;
+    }
+  }
+
+  ul {
+    background-color: #EEECE9;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0.4em 0;
+
+    li {
+      display: inline-block;
+      margin: 0;
+      padding: 0 1em;
+      white-space: nowrap;
+
+      a, a:visited {
+        color: #3C4043;
+        display: inline-block;
+        line-height: 1.8em;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+/*----------------------------------------------------
+ * Main content
+ *----------------------------------------------------*/
+
+.maxwidth {
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 0 2em;
+}
+
+.page-intro {
+  font-size: 1.2rem;
+  margin: 0 auto;
+  max-width: 650px;
+  padding-bottom: 0.5em;
+  text-align: center;
+}
+
+.bg-even {
+  background-color: #EEECE9;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.button-section h1 {
+  font-weight: 300;
+}
+
+.highlight {
+  background-color: #E4EFC7;
+  display: block;
+  padding: 0.4em;
+}
+
+.note {
+  font-size: 0.95em;
+}
+
+div.note {
+  margin-top: 1em;
+  text-align: right;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.centered {
+  text-align: center;
+}
+
+.footnotes {
+  border-top: 1px solid $border-top-color;
+  font-size: 85%;
+  margin-top: 3em;
+}
+
+.paragraph {
+  margin-bottom: 4em;
+}
+
+.small_list ul {
+  margin-bottom: 1em;
+}
+
+.small_list li {
+  margin: 0.1em 0 0 1.2em;
+  padding: 0;
+}
+
+.screenshots img {
+  @include border-top-radius(5px);
+  @include border-bottom-radius(5px);
+}
+
+/*----------------------------------------------------
+ * Font Awesome stuff
+ *----------------------------------------------------*/
+
+.fa-li {
+  top: 0.3em !important;
+}
+
+/*----------------------------------------------------
+ * Flexslider: General
+ *----------------------------------------------------*/
+
+.flexslider {
+  position: relative;
+
+  /* Get rid of the white space below the slider */
+  li {
+      margin-bottom: 0;
+  }
+}
+
+/* Navigation icons bug workaround */
+.flex-direction-nav a  {
+    line-height: 40px;
+}
+
+/*----------------------------------------------------
+ * Flexslider: Front Page
+ *----------------------------------------------------*/
+
+.flexslider.home {
+  background-color: #49B7E8; /* to hide the white background glitch */
+  overflow: hidden; /* otherwise the arrows will overflow the page */
+
+  /* Put the navigation bullets on the slide */
+  .flex-control-nav {
+    bottom: 5px;
+    z-index: 2;
+  }
+}
+
+/*----------------------------------------------------
+ * Flexslider: Screenshots
+ *----------------------------------------------------*/
+
+/* Override some default values */
+.flexslider.screenshots {
+  margin-bottom: 3em;
+
+  /* Put the navigation bullets on the slide */
+  .flex-control-nav {
+      bottom: 5px;
+      z-index: 2;
+  }
+
+  /* Captions */
+  .flex-caption {
+      background-color: #EEECE9;
+      @include border-top-radius(3px);
+      @include border-bottom-radius(3px);
+      font-size: 14px;
+      line-height: 18px;
+      margin: 0;
+      padding: 1%;
+      position: absolute;
+      text-align: center;
+      width: 98%;
+  }
+
+  /* Add space between slider and caption */
+  .slides img {
+      margin-bottom: 10px;
+  }
+}
+
+/*----------------------------------------------------
+ * Flexslider: Front Page Slides
+ *----------------------------------------------------*/
+
+.fp-slide {
+  background-color: #49B7E8;
+  color: #FFFFFF;
+  padding: 0.1em;
+  position: relative;
+  text-align: center;
+
+  h1 {
+    color: #FFFFFF;
+    font-weight: 300;
+    margin: 0;
+  }
+
+  .slide-text {
+    font-size: 1.3rem;
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 0 1em 2em;
+    text-align: center;
+  }
+}
+
+.fp-slide > img {
+  height: auto;
+  margin-top: 1em;
+}
+
+.fp-slide.ggl > img {
+  min-width: 150px;
+  width: 15%;
+}
+
+.fp-slide.ggl h1 {
+  font-family: $ggl-font-stack;
+  font-weight: normal;
+  text-shadow: 0px 0px 5px #fff;
+}
+
+.fp-slide.linux > img {
+  min-width: 100px;
+  width: 8%;
+}
+
+.fp-slide.windows > img {
+  min-width: 100px;
+  width: 8%;
+}
+
+.fp-slide.switch > img {
+  min-width: 100px;
+  width: 8%;
+}
+
+/*----------------------------------------------------
+ * Alert boxes
+ *----------------------------------------------------*/
+
+.alertbox {
+  background-color: #6B0006;
+  color: #FFFFFF;
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+  a, a:visited, a:hover {
+    color: #FFFFFF;
+    border-bottom: 1px dotted;
+    text-decoration: none;
+  }
+
+  .close {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0.5em 1em;
+    opacity: 0.5;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+}
+
+.alertbox > p {
+  display: inline-block;
+  margin: 0.5em
+}
+
+/*----------------------------------------------------
+ * Main contents
+ *----------------------------------------------------*/
+
+.float-right {
+  clear: right;
+  float: right;
+  margin: 0 0 2em 2em !important;
+}
+
+.toggle-answer {
+  h2 {
+    cursor: pointer;
+  }
+
+  .answer {
+    display: none;
+    margin-bottom: 2em;
+    padding-left: 2.2em;
+  }
+}
+
+.read-more-box {
+  border-top: 1px dashed $border-top-color;
+  margin-top: 2em;
+  padding: 1em 0 1em 1em;
+}
+
+.conclusion {
+  background: none repeat scroll 0 0 #E4EFC7;
+  border-top: 2px dashed #CEDFA1;
+  border-bottom: 2px dashed #CEDFA1;
+  margin: 2em 0;
+  padding: 1em;
+}
+
+.collapsed-box {
+  font-size: 0.95em;
+  margin-top: 3em;
+  padding: 2em;
+
+  h1 {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 0 0 0.5em;
+    text-align: start;
+  }
+
+  h2 {
+    border: medium none;
+    font-size: 1.4em;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+}
+
+.post-it {
+  background-color: #F9EDA6;
+  border: 1px #E6C813 solid;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2em;
+}
+
+img.width20p {
+  height: auto;
+  width: 20%;
+}
+
+/*----------------------------------------------------
+ * Fancy Buttons
+ *----------------------------------------------------*/
+
+div.button {
+  margin: 40px 0;
+}
+
+div.button.wide {
+  min-width: 13.5em;
+}
+
+.button {
+  a {
+    background-color: #E2E4D7;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    @include border-top-radius(4px);
+    @include border-bottom-radius(4px);
+    color: #FFFFFF;
+    padding: 0.7em 1em;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.30);
+    @include transition(background 100ms linear);
+    white-space: nowrap;
+    width: auto;
+  }
+
+  a:hover,
+  a:active {
+    background-color: #B7CFDC;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    text-decoration: none;
+  }
+}
+
+.button.green {
+  a {
+    background-color: #8DB90A;
+  }
+
+  a:hover,
+  a:active {
+    background-color: #96C017;
+  }
+}
+
+.button.orange {
+  a {
+    background-color: #D66E4B;
+  }
+
+  a:hover,
+  a:active {
+    background-color: #DC7654;
+  }
+}
+
+.button.blue {
+  a {
+    background-color: #2785C6;
+  }
+
+  a:hover,
+  a:active {
+    background-color: #358FCD;
+  }
+}
+
+/*----------------------------------------------------
+ * Styles for "Choose a distribution" page.
+ *----------------------------------------------------*/
+
+section.ubuntu {
+  border-top: medium solid #DD4814;
+}
+
+section.fedora {
+  border-top: medium solid #08517A;
+}
+
+section.gnewsense {
+  border-top: medium solid #8F5902;
+}
+
+section.trisquel {
+  border-top: medium solid #004DB1;
+}
+
+.distro_screenshots {
+  margin-top: 3em;
+  text-align: center;
+}
+
+.distro_screenshots img {
+  float: none;
+  margin: 0 1em 0.5em 0;
+}
+
+.distro_screenshots a {
+  background: none;
+}
+
+/*----------------------------------------------------
+ * Styles for the "Try or install" page.
+ *----------------------------------------------------*/
+
+.download-box {
+  margin: 2em 0;
+  padding: 0.5em;
+
+  .content {
+    margin: 0 1em 1em 12%;
+    min-height: 60px;
+  }
+
+  .content p {
+    margin: 0;
+  }
+
+  .button {
+    float: left;
+    margin: 35px 1em 0 0;
+  }
+}
+
+.download-box > img {
+  float: left;
+  height: auto;
+  margin: 0 1em 1em 0;
+  min-width: 80px;
+  width: 11%;
+}
+
+/*----------------------------------------------------
+ * Styles for the "More" page.
+ *----------------------------------------------------*/
+
+.more-section {
+  padding: 1em 0 3em 0;
+
+  h2 {
+    text-align: center;
+    clear: both;
+    margin: 0.5em 0 1.5em 0;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .column {
+    float: left;
+    width: 43%;
+    padding: 0 3%;
+
+    div a img {
+      opacity: 0.8;
+    }
+
+    div a:hover img {
+      opacity: 1;
+    }
+  }
+}
+
+.credits h2 {
+  font-size: 1.5em;
+  font-weight: normal;
+  padding-top: 1em;
+  border-top: 1px #DFD9F9 solid;
+}
+
+/*-------------------- About box --------------------*/
+
+#about-us-box {
+  background: none repeat scroll 0 0 #E4EFC7;
+  border-top: 2px dashed #CEDFA1;
+  border-bottom: 2px dashed #CEDFA1;
+  font-family: Palatino,"Palatino Linotype",Georgia,"Book Antiqua",Times,"Times New Roman",serif;
+  font-style: italic;
+  margin: 4em 0;
+  padding: 1em;
+
+  h1 {
+    font-size: 2.5em;
+    font-weight: 300;
+    margin: 0;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+}
+
+/*----------------------------------------------------
+ * "Read more" section on the "Stand for a Free Society" page.
+ *----------------------------------------------------*/
+
+.further-reading {
+  font-size: 0.95em;
+  margin-top: 4.5em;
+  padding: 1em;
+
+  h2 {
+    border: medium none;
+    margin: 0 0 0.5em;
+    padding: 0;
+  }
+
+  h3 {
+    display: block;
+    font-size: 1.4em;
+    margin: 0 0 0.5em;
+  }
+}
+
+.left-column {
+  width: 47%;
+  float: left;
+  border-right: 1px #D7B41A solid;
+  padding-right: 1em;
+  margin-right: 1em;
+}
+
+/*----------------------------------------------------
+ * Quotes
+ *----------------------------------------------------*/
+
+.quote {
+  background-color: #FFFFED;
+  border-bottom: 2px dashed #EAEAD2;
+  border-top: 2px dashed #EAEAD2;
+  margin: 1em auto;
+  padding: 0.5em 2em;
+  width: 85%;
+
+  p {
+    font-style: italic;
+  }
+
+  .source {
+    display: block;
+    font-size: 0.9em;
+    margin-top: 0.6em;
+    text-align: end;
+  }
+}
+
+.quote.small {
+  margin: 0;
+  padding: 0.5em 1em;
+  width: 35%;
+}
+
+.quote.image {
+  width: auto;
+}
+
+/*----------------------------------------------------
+ * "Link buttons" page.
+ *----------------------------------------------------*/
+
+.copycode {
+  background-color: #F1F1F1;
+  border: 1px solid #4D4D4D;
+  color: black;
+  font-family: "Andale Mono", "Courier New", Courier, monospace;
+  font-size: 0.7em;
+  text-align: left;
+  padding: 5px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.2) inset;
+}
+
+#link_buttons img {
+  float: none;
+  margin: 0 1em 0 0;
+  padding-bottom: 5px;
+  vertical-align: top;
+}
+
+.link_button {
+  margin-bottom: 25px;
+}
+
+/*----------------------------------------------------
+ * Linux FAQ
+ *----------------------------------------------------*/
+
+#faq {
+  #content ul {
+    list-style-type: none;
+  }
+
+  h4 {
+    margin-top: 0;
+  }
+
+  .answer {
+    margin-bottom: 4em;
+  }
+
+  .read_more {
+    margin-left: 60%;
+    font-size: 0.9em;
+
+    li {
+      margin: 0;
+    }
+  }
+}
+
+/*----------------------------------------------------
+ * Language menu
+ *----------------------------------------------------*/
+
+#translations {
+  word-break: keep-all;
+
+  ul {
+    padding-left: 0;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+    padding-left: 0;
+    padding-right: 10px;
+  }
+
+  li a {
+    line-height: 1.0em;
+  }
+
+  .active a {
+    font-weight: bold;
+  }
+
+  #incomplete {
+    display: none;
+  }
+}
+
+/*----------------------------------------------------
+ * Footer
+ *----------------------------------------------------*/
+
+footer {
+  color: #CCCCCC;
+  margin-bottom: 0;
+  width: 100%;
+
+  a {
+    text-decoration: none;
+  }
+
+  a,
+  a:hover,
+  a:visited {
+    color: #EEECE9;
+  }
+
+  h1 {
+    color: #CCCCCC;
+  }
+
+  hr {
+    border-color: rgba(255,255,255,0.1);
+  }
+
+  #container {
+    font-size: 0.9em;
+    padding: 2em;
+  }
+
+  ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: block;
+    margin: 2px 0;
+  }
+
+  a.more {
+    background-color: rgba(255,255,255,0.1);
+    padding: 0 8px;
+  }
+
+  a.more:hover {
+    background-color: rgba(255,255,255,0.2);
+    text-decoration: none;
+  }
+
+  .notices {
+    text-align: center;
+  }
+
+  .block {
+    h1 {
+      display: block;
+      font-size: 1.2rem;
+      font-weight: normal;
+      line-height: 12px;
+      margin: 1em 0 10px;
+      padding-bottom: 3px;
+      text-align: start;
+    }
+
+    ul {
+      list-style: none outside none;
+      margin: 0.5em 0;
+      padding: 0;
+    }
+
+    li {
+      display: inline-block;
+      margin: 0 1em 0 0;
+    }
+  }
+}
+
+/*----------------------------------------------------
+ * Move to top button
+ *----------------------------------------------------*/
+
+#to-top {
+    border: medium none;
+    bottom: 0.7em;
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    right: 1em;
+    text-decoration: none;
+    z-index: 100;
+}
+a#to-top,
+a:hover#to-top,
+a:visited#to-top {
+    color: rgba(186, 180, 171, 0.8);
+}
+
+#to-top-hover {
+    display: block;
+    float: left;
+    overflow: hidden;
+}
+
+@import 'h5bp_footer';
