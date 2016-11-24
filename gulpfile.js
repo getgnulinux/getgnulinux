@@ -95,8 +95,8 @@ gulp.task('clean:images', del.bind(null, [
 gulp.task('watch', () => {
   runSequence(['clean'], ['html', 'fonts'], () => {
     gulp.watch('src/templates/*.php', ['html']);
-    gulp.watch('src/styles/*.scss', ['styles']);
-    gulp.watch('src/scripts/*.js', ['scripts']);
+    gulp.watch('src/styles/*.scss', ['styles', 'html']);
+    gulp.watch('src/scripts/*.js', ['scripts', 'html']);
     gulp.watch('src/styles/vendor/fonts/*', ['fonts']);
   });
 });

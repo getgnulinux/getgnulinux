@@ -11,15 +11,13 @@ $this->load_header();
 
 <main role="main">
   <section>
-    <div class="maxwidth">
-
+    <div class="container">
       <h1><?php print _("Switch to GNU/Linux"); ?></h1>
-
     </div>
   </section>
 
   <section class="bg-even">
-    <div class="maxwidth button-section">
+    <div class="container button-section">
       <h1><?php print _("From Windows to GNU/Linux"); ?></h1>
 
       <div class="page-intro">
@@ -34,7 +32,7 @@ $this->load_header();
   </section>
 
   <section>
-    <div class="maxwidth button-section">
+    <div class="container button-section">
       <h1><?php print _("Choose a distribution"); ?></h1>
 
       <div class="page-intro">
@@ -48,7 +46,7 @@ $this->load_header();
   </section>
 
   <section class="bg-even">
-    <div class="maxwidth button-section">
+    <div class="container button-section">
       <h1><?php print _("Try or install"); ?></h1>
 
       <div class="page-intro">
@@ -60,7 +58,6 @@ $this->load_header();
       </div>
     </div>
   </section>
-
 </main>
 
 <?php $this->load_footer(); ?>

@@ -2,19 +2,7 @@
 @import 'bourbon';
 @import 'neat';
 @import 'h5bp_header';
-
-$font-stack: "Open Sans", sans-serif;
-$primary-color: #3C4043;
-$primary-background-color: #545454;
-$background-color: #F8F8F8;
-$background-image: "/images/cream_dust.png";
-$header-color: #333333;
-$link-color: #0070BB;
-$link-visited-color: #4672A1;
-$link-hover-color: #25A2E3;
-$link-active-color: #C44514;
-$border-top-color: #EDECE4;
-$ggl-font-stack: Palatino, "Palatino Linotype", Georgia, "Book Antiqua", Times, "Times New Roman", serif;
+@import 'variables';
 
 /*----------------------------------------------------
  * General styles
@@ -79,6 +67,11 @@ hr {
   height: 0;
 }
 
+article header {
+  padding: 1rem 0;
+}
+
+aside,
 section {
   padding: 1rem 0;
 }
@@ -231,10 +224,41 @@ nav.chapters {
  * Main content
  *----------------------------------------------------*/
 
-.maxwidth {
-  margin: 0 auto;
-  max-width: 980px;
-  padding: 0 2em;
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: ($container-gutter / 2);
+  padding-right: ($container-gutter / 2);
+  @include clearfix();
+
+  @each $breakpoint, $width in $container-widths {
+	$breakpoint-width: map-get($container-breakpoints, $breakpoint);
+	@include media(min-width $breakpoint-width) {
+	  width: $width;
+	  max-width: 100%;
+	}
+  }
+}
+
+.hidden-xs {
+  @include media(min-width $xs-breakpoint) {
+    display: none;
+  }
+  @include media(min-width $sm-breakpoint) {
+    display: block;
+  }
+}
+
+.hidden-sm {
+  @include media(min-width $xs-breakpoint) {
+    display: none;
+  }
+  @include media(min-width $sm-breakpoint) {
+    display: none;
+  }
+  @include media(min-width $md-breakpoint) {
+    display: block;
+  }
 }
 
 .page-intro {
@@ -288,15 +312,6 @@ div.note {
 
 .paragraph {
   margin-bottom: 4em;
-}
-
-.small_list ul {
-  margin-bottom: 1em;
-}
-
-.small_list li {
-  margin: 0.1em 0 0 1.2em;
-  padding: 0;
 }
 
 .screenshots img {
@@ -370,7 +385,7 @@ div.note {
       padding: 1%;
       position: absolute;
       text-align: center;
-      width: 98%;
+      width: 100%;
   }
 
   /* Add space between slider and caption */
@@ -499,11 +514,12 @@ div.note {
 }
 
 .conclusion {
-  background: none repeat scroll 0 0 #E4EFC7;
-  border-top: 2px dashed #CEDFA1;
-  border-bottom: 2px dashed #CEDFA1;
+  background: none repeat scroll 0 0 $green-section-background;
+  border-top: 2px dashed $green-section-border;
+  border-bottom: 2px dashed $green-section-border;
   margin: 2em 0;
-  padding: 1em;
+  padding-top: ($section-gutter / 2);
+  padding-bottom: ($section-gutter / 2);
 }
 
 .collapsed-box {
@@ -548,7 +564,7 @@ img.width20p {
  *----------------------------------------------------*/
 
 div.button {
-  margin: 40px 0;
+  margin: 1em 0;
 }
 
 div.button.wide {
@@ -650,30 +666,40 @@ section.trisquel {
  *----------------------------------------------------*/
 
 .download-box {
-  margin: 2em 0;
-  padding: 0.5em;
+  @include outer-container;
+  @include row();
 
-  .content {
-    margin: 0 1em 1em 12%;
-    min-height: 60px;
+  .download-box-logo {
+    @include media($xs-breakpoint) {
+      @include span-columns(4);
+	}
+    @include media($sm-breakpoint) {
+      @include span-columns(3);
+	}
+    @include media($md-breakpoint) {
+      @include span-columns(2);
+	}
   }
 
-  .content p {
-    margin: 0;
-  }
+  .download-box-content {
+    @include media($xs-breakpoint) {
+      @include span-columns(12);
+	}
+    @include media($sm-breakpoint) {
+      @include span-columns(9);
+	}
+    @include media($md-breakpoint) {
+      @include span-columns(10);
+	}
 
-  .button {
-    float: left;
-    margin: 35px 1em 0 0;
-  }
-}
+    .download-box-buttons {
+      @include clearfix;
 
-.download-box > img {
-  float: left;
-  height: auto;
-  margin: 0 1em 1em 0;
-  min-width: 80px;
-  width: 11%;
+      .button {
+        float: left;
+      }
+    }
+  }
 }
 
 /*----------------------------------------------------
@@ -681,7 +707,8 @@ section.trisquel {
  *----------------------------------------------------*/
 
 .more-section {
-  padding: 1em 0 3em 0;
+  @include outer-container;
+  @include clearfix;
 
   h2 {
     text-align: center;
@@ -695,15 +722,20 @@ section.trisquel {
   }
 
   .column {
-    float: left;
-    width: 43%;
-    padding: 0 3%;
+    @include media($xs-breakpoint) {
+      @include span-columns(12);
+	}
 
-    div a img {
+    @include media($sm-breakpoint) {
+      @include span-columns(6);
+      @include pad(0 3%);
+	}
+
+    a img {
       opacity: 0.8;
     }
 
-    div a:hover img {
+    a:hover img {
       opacity: 1;
     }
   }
@@ -719,13 +751,12 @@ section.trisquel {
 /*-------------------- About box --------------------*/
 
 #about-us-box {
-  background: none repeat scroll 0 0 #E4EFC7;
-  border-top: 2px dashed #CEDFA1;
-  border-bottom: 2px dashed #CEDFA1;
-  font-family: Palatino,"Palatino Linotype",Georgia,"Book Antiqua",Times,"Times New Roman",serif;
+  background: none repeat scroll 0 0 $green-section-background;
+  border-top: 2px dashed $green-section-border;
+  border-bottom: 2px dashed $green-section-border;
+  font-family: $ggl-font-stack;
   font-style: italic;
   margin: 4em 0;
-  padding: 1em;
 
   h1 {
     font-size: 2.5em;
@@ -841,10 +872,6 @@ section.trisquel {
     margin-top: 0;
   }
 
-  .answer {
-    margin-bottom: 4em;
-  }
-
   .read_more {
     margin-left: 60%;
     font-size: 0.9em;
@@ -894,6 +921,9 @@ footer {
   color: #CCCCCC;
   margin-bottom: 0;
   width: 100%;
+  font-size: 0.9em;
+  padding-top: ($footer-gutter / 2);
+  padding-bottom: ($footer-gutter / 2);
 
   a {
     text-decoration: none;
@@ -911,11 +941,6 @@ footer {
 
   hr {
     border-color: rgba(255,255,255,0.1);
-  }
-
-  #container {
-    font-size: 0.9em;
-    padding: 2em;
   }
 
   ul {

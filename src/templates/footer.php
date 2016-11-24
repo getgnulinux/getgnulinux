@@ -1,5 +1,5 @@
 <footer id="footer" class="footer_height">
-  <div id="container" class="maxwidth">
+  <div class="container">
 
     <div id="translations">
       <ul>

@@ -9,9 +9,6 @@ $this->load_header();
 ?>
 
 <main role="main">
-
-  <!-- INTRODUCTION -->
-
   <section class="no-padding">
     <div class="flexslider home">
       <ul class="slides">
@@ -72,7 +69,6 @@ $this->load_header();
       </ul>
     </div>
   </section>
-
 </main>
 
 <?php $this->load_footer(); ?>

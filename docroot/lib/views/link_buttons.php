@@ -10,14 +10,14 @@ $this->load_header();
 ?>
 
 <main role="main">
-  <section>
-    <div class="maxwidth">
+  <div class="container">
+    <header>
+      <h1><?php print _("Link buttons"); ?></h1>
 
-    <h1><?php print _("Link buttons"); ?></h1>
-
-    <div class="page-intro">
-      <p><?php print _("Help us spread free software!"); ?></p>
-    </div>
+      <div class="page-intro">
+        <p><?php print _("Help us spread free software!"); ?></p>
+      </div>
+    </header>
 
     <p><?php print _("Simply copy/paste the code next to your favorite button into your website."); ?></p>
 
@@ -73,8 +73,7 @@ $this->load_header();
     printf($p, "/links/shared_source_files.tar.gz"); ?></p>
     </div>
 
-    </div>
-  </section>
+  </div>
 </main>
 
 <?php $this->load_footer(); ?>

@@ -1,5 +1,4 @@
 <?php
-
 # This file is not a valid entry point; stop processing unless GGL is defined.
 if ( !defined('GGL') ) {
     exit(1);
@@ -27,8 +26,6 @@ $trisquel1_text = _("Update manager open.");
 $trisquel2_text = _("LibreOffice Calc open, showing an example spreadsheet.");
 # translators: This is the description of the "trisquel3.png" screenshot.
 $trisquel3_text = _("Accessing applications.");
-
-
 ?>
 
 <nav class="chapters">
@@ -36,9 +33,8 @@ $trisquel3_text = _("Accessing applications.");
 </nav>
 
 <main role="main">
-
-  <section>
-    <div class="maxwidth">
+  <article>
+    <header>
       <h1><?php print _("Choose a distribution"); ?></h1>
 
       <div class="page-intro">
@@ -48,106 +44,101 @@ $trisquel3_text = _("Accessing applications.");
       <p class="italic centered"><?php # translators: The distrowatch.com website is translated into many languages (see https://distrowatch.com/dwres.php?resource=about). If your language is present, please replace "EN" in the URL by the code of your language (e.g. for Spanish, the last part would become "language=ES").
       print _("Note: There are <a href=\"https://distrowatch.com/dwres.php?resource=major&amp;language=EN\">plenty of distributions to choose from and compare</a>."); ?><br />
       <?php print _("This is our selection for newcomers. These links are not commercial."); ?></p>
-    </div>
-  </section>
+    </header>
 
-  <section class="ubuntu">
-    <div class="maxwidth">
-      <div class="centered">
-        <a href="<?php # translators: use url of official localised Ubuntu homepage, if existing
-        print _("https://www.ubuntu.com/"); ?>" title="Ubuntu Linux"><img src="/images/UbuntuLogo.png" alt="Ubuntu"/></a>
+    <section class="ubuntu">
+      <div class="container">
+        <div class="centered">
+          <a href="<?php # translators: use url of official localised Ubuntu homepage, if existing
+          print _("https://www.ubuntu.com/"); ?>" title="Ubuntu Linux"><img src="/images/UbuntuLogo.png" alt="Ubuntu"/></a>
+        </div>
+
+        <p><?php print _("Simple, easy, usable and our personal favourite. A tanned, smooth atmosphere that never gets in your way. All programs are kept in order and managed easily. Configuration is kept simple rather than exhaustive."); ?></p>
+        <p><?php print _("We recommend this friendly and complete distribution if you are looking for an easy way to try and step into GNU/Linux."); ?></p>
+        <p><?php print _("Ubuntu also has a sister distribution, <a href=\"https://www.kubuntu.org/\">Kubuntu</a>, with a different layout and slightly more advanced graphics."); ?></p>
+
+        <div class="flexslider screenshots">
+          <ul class="slides">
+            <li>
+              <img src="/images/screenshots/ubuntu1.png" alt="Ubuntu screenshot" />
+              <p class="flex-caption"><?php print $ubuntu1_text; ?></p>
+            </li>
+            <li>
+              <img src="/images/screenshots/ubuntu2.png" alt="Ubuntu screenshot" />
+              <p class="flex-caption"><?php print $ubuntu2_text; ?></p>
+            </li>
+            <li>
+              <img src="/images/screenshots/ubuntu3.png" alt="Ubuntu screenshot" />
+              <p class="flex-caption"><?php print $ubuntu3_text; ?></p>
+            </li>
+          </ul>
+        </div>
       </div>
+    </section>
 
-      <p><?php print _("Simple, easy, usable and our personal favourite. A tanned, smooth atmosphere that never gets in your way. All programs are kept in order and managed easily. Configuration is kept simple rather than exhaustive."); ?></p>
-      <p><?php print _("We recommend this friendly and complete distribution if you are looking for an easy way to try and step into GNU/Linux."); ?></p>
-      <p><?php print _("Ubuntu also has a sister distribution, <a href=\"https://www.kubuntu.org/\">Kubuntu</a>, with a different layout and slightly more advanced graphics."); ?></p>
+    <section class="fedora">
+      <div class="container">
+        <div class="centered">
+          <a href="<?php # translators: use url of official localised Fedora homepage, if existing
+          print _("https://getfedora.org/"); ?>" title="Fedora Linux"><img src="/images/FedoraLogo.png" alt="Fedora"/></a>
+        </div>
 
-      <div class="flexslider screenshots">
-        <ul class="slides">
-          <li>
-            <img src="/images/screenshots/ubuntu1.png" alt="Ubuntu screenshot" />
-            <p class="flex-caption"><?php print $ubuntu1_text; ?></p>
-          </li>
-          <li>
-            <img src="/images/screenshots/ubuntu2.png" alt="Ubuntu screenshot" />
-            <p class="flex-caption"><?php print $ubuntu2_text; ?></p>
-          </li>
-          <li>
-            <img src="/images/screenshots/ubuntu3.png" alt="Ubuntu screenshot" />
-            <p class="flex-caption"><?php print $ubuntu3_text; ?></p>
-          </li>
-        </ul>
+        <p><?php
+        # translators: if you don't know of a clean, simple comparison website, simply remove the link.
+        print _("The distribution by the long-time prominent GNU/Linux developer company Red Hat. The default layout is similar to Ubuntu (it is also possible to use KDE, the more advanced desktop environment in use in Kubuntu), but there are differences in the chosen applications, install protocols and several technical elements."); ?></p>
+        <p><?php print _("We recommend this distribution if you wish to learn more about the workings of a GNU/Linux system, security configuration, or work on software development."); ?></p>
+
+        <div class="flexslider screenshots">
+          <ul class="slides">
+            <li>
+              <img src="/images/screenshots/fedora1.png" alt="Fedora screenshot" />
+              <p class="flex-caption"><?php print $fedora1_text; ?></p>
+            </li>
+            <li>
+              <img src="/images/screenshots/fedora2.png" alt="Fedora screenshot" />
+              <p class="flex-caption"><?php print $fedora2_text; ?></p>
+            </li>
+            <li>
+              <img src="/images/screenshots/fedora3.png" alt="Fedora screenshot" />
+              <p class="flex-caption"><?php print $fedora3_text; ?></p>
+           </li>
+          </ul>
+        </div>
       </div>
+    </section>
 
-    </div>
-  </section>
+    <section class="trisquel">
+      <div class="container">
+        <div class="centered">
+          <a href="https://trisquel.info/" title="Trisquel GNU/Linux"><img src="/images/TrisquelLogo.png" alt="Trisquel"/></a>
+        </div>
 
-  <section class="fedora">
-    <div class="maxwidth">
-      <div class="centered">
-        <a href="<?php # translators: use url of official localised Fedora homepage, if existing
-        print _("https://getfedora.org/"); ?>" title="Fedora Linux"><img src="/images/FedoraLogo.png" alt="Fedora"/></a>
+        <p><?php $p = _("While Ubuntu contains some restricting components (<a href=\"%s#full_freedom\">why?</a>), the Trisquel developers have built an entirely free derivative. Although its community is smaller and its hardware support might be slightly inferior, Trisquel gives anyone full freedom over a complete operating system similar to Ubuntu."); printf($p, $this->base_url('linux/linux_faq',1)); ?></p>
+        <p><?php print _("We recommend this distribution if you are committed to freedom in your computing."); ?></p>
+
+        <div class="flexslider screenshots">
+          <ul class="slides">
+            <li>
+              <img src="/images/screenshots/trisquel1.png" alt="Trisquel screenshot" />
+              <p class="flex-caption"><?php print $trisquel1_text; ?></p>
+            </li>
+            <li>
+              <img src="/images/screenshots/trisquel2.png" alt="Trisquel screenshot" />
+              <p class="flex-caption"><?php print $trisquel2_text; ?></p>
+            </li>
+            <li>
+              <img src="/images/screenshots/trisquel3.png" alt="Trisquel screenshot" />
+              <p class="flex-caption"><?php print $trisquel3_text; ?></p>
+            </li>
+          </ul>
+        </div>
       </div>
+    </section>
+  </article>
 
-      <p><?php
-      # translators: if you don't know of a clean, simple comparison website, simply remove the link.
-      print _("The distribution by the long-time prominent GNU/Linux developer company Red Hat. The default layout is similar to Ubuntu (it is also possible to use KDE, the more advanced desktop environment in use in Kubuntu), but there are differences in the chosen applications, install protocols and several technical elements."); ?></p>
-      <p><?php print _("We recommend this distribution if you wish to learn more about the workings of a GNU/Linux system, security configuration, or work on software development."); ?></p>
-
-      <div class="flexslider screenshots">
-        <ul class="slides">
-          <li>
-            <img src="/images/screenshots/fedora1.png" alt="Fedora screenshot" />
-            <p class="flex-caption"><?php print $fedora1_text; ?></p>
-          </li>
-          <li>
-            <img src="/images/screenshots/fedora2.png" alt="Fedora screenshot" />
-            <p class="flex-caption"><?php print $fedora2_text; ?></p>
-          </li>
-          <li>
-            <img src="/images/screenshots/fedora3.png" alt="Fedora screenshot" />
-            <p class="flex-caption"><?php print $fedora3_text; ?></p>
-          </li>
-        </ul>
-      </div>
-
-    </div>
-  </section>
-
-  <section class="trisquel">
-    <div class="maxwidth">
-
-      <div class="centered">
-        <a href="https://trisquel.info/" title="Trisquel GNU/Linux"><img src="/images/TrisquelLogo.png" alt="Trisquel"/></a>
-      </div>
-
-      <p><?php $p = _("While Ubuntu contains some restricting components (<a href=\"%s#full_freedom\">why?</a>), the Trisquel developers have built an entirely free derivative. Although its community is smaller and its hardware support might be slightly inferior, Trisquel gives anyone full freedom over a complete operating system similar to Ubuntu."); printf($p, $this->base_url('linux/linux_faq',1)); ?></p>
-      <p><?php print _("We recommend this distribution if you are committed to freedom in your computing."); ?></p>
-
-      <div class="flexslider screenshots">
-        <ul class="slides">
-          <li>
-            <img src="/images/screenshots/trisquel1.png" alt="Trisquel screenshot" />
-            <p class="flex-caption"><?php print $trisquel1_text; ?></p>
-          </li>
-          <li>
-            <img src="/images/screenshots/trisquel2.png" alt="Trisquel screenshot" />
-            <p class="flex-caption"><?php print $trisquel2_text; ?></p>
-          </li>
-          <li>
-            <img src="/images/screenshots/trisquel3.png" alt="Trisquel screenshot" />
-            <p class="flex-caption"><?php print $trisquel3_text; ?></p>
-          </li>
-        </ul>
-      </div>
-
-    </div>
-  </section>
-
-  <section class="bg-even">
-    <div class="maxwidth button-section">
+  <aside class="bg-even">
+    <div class="container button-section">
       <h1><?php print _("Try or install"); ?></h1>
-
       <div class="page-intro">
         <p><?php # translators: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
         print _("Now get a CD and try or install your distribution!"); ?></p>
@@ -157,8 +148,7 @@ $trisquel3_text = _("Accessing applications.");
         </div>
       </div>
     </div>
-  </section>
-
+  </aside>
 </main>
 
 <?php $this->load_footer(); ?>

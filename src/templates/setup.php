@@ -8,10 +8,9 @@
 </head>
 <body>
 <main>
-  <section>
-    <div class="maxwidth">
+  <div class="container">
+    <section>
       <h1>get GNU/Linux!</h1>
-
       <p>Almost there! Please follow these steps.</p>
       <ol>
         <li>Open a terminal and change to the root folder;</li>
@@ -22,8 +21,8 @@
         <li>To make translations work, you need to generate locale definition files on the server. On commercial web hosting servers, there is no need to do this manually. If you are on a Debian based system, you may execute `<code>scripts/make-locales.sh</code>' as root to generate them.</li>
       </ol>
       <p>Finally, reload this page.</p>
-    </div>
-  </section>
+    </section>
+  </div>
 </main>
 </body>
 </html>
