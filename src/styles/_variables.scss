@@ -1,6 +1,6 @@
 $font-stack: "Open Sans", sans-serif;
 $primary-color: #3C4043;
-$primary-background-color: #545454;
+$primary-background-color: #40526b;
 $background-color: #F8F8F8;
 $background-image: "/images/cream_dust.png";
 $header-color: #333333;
@@ -12,6 +12,12 @@ $border-top-color: #EDECE4;
 $ggl-font-stack: Palatino, "Palatino Linotype", Georgia, "Book Antiqua", Times, "Times New Roman", serif;
 $green-section-background: #E4EFC7;
 $green-section-border: #CEDFA1;
+$white: #EEECE9;
+
+$light-color: $white;
+$light-color-dimmed: transparentize($white, 0.3);
+
+$navigation-base-font-color: $white;
 
 $container-breakpoints: (
   xs: 0,

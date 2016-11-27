@@ -273,6 +273,10 @@ class GGL {
         );
 
         # Chapter sections.
+        $this->sections['linux'] = array(
+            "linux/misunderstanding_free_software" => _("How to Misunderstand Free Software"),
+            "linux/linux_faq" => _("Frequently asked questions"),
+        );
         $this->sections['switch_to_linux'] = array(
             "switch_to_linux/from_windows_to_linux" => _("From Windows to GNU/Linux"),
             "switch_to_linux/choose_a_distribution" => _("Choose a distribution"),

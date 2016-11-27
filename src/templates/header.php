@@ -52,25 +52,32 @@
   <span class="close"><i class="fa fa-times-circle fa-lg" title="Close"></i></span>
 </div>
 
-<header id="header">
-  <nav id="navbar" role="navigation">
-    <ul>
-      <li id="home"><a href="<?php $this->base_url(); ?>"><i class="fa fa-home fa-lg"></i></a></li>
-      <?php
-      $menu_items = array(
-        'linux' => _("What is GNU/Linux?"),
-        'windows' => _("Why not Windows"),
-        'switch_to_linux' => _("Switch to GNU/Linux"),
-        'more' => _("More"),
-      );
-
-      foreach ($menu_items as $id => $title) {
-        printf("<li%s><a href=\"%s\">%s</a></li>\n",
-          $this->we_are_here($id, true) ? " class='active'" : "",
-          $this->base_url($id,1),
-          $title);
-      }
-      ?>
-    </ul>
-  </nav>
+<header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="<?php $this->base_url(); ?>" class="mobile-logo">
+      <i class="fa fa-home fa-lg" aria-hidden="true"></i>
+    </a>
+    <a href="javascript:void(0)" id="js-navigation-mobile-menu" class="navigation-mobile-menu">
+      <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        <li class="nav-link logo">
+          <a href="<?php $this->base_url(); ?>" class="logo">
+            <i class="fa fa-home fa-lg" aria-hidden="true"></i>
+          </a>
+        </li>
+        <?php $this->nav_link('nav-item-linux', 'more', 'linux', _("What is GNU/Linux?")); ?>
+          <?php $this->list_chapter_sections('linux'); ?>
+        </li>
+        <?php $this->nav_link('nav-item-windows', 'more', 'windows', _("Why not Windows")); ?>
+          <?php $this->list_chapter_sections('windows'); ?>
+        </li>
+        <?php $this->nav_link('nav-item-switch', 'more', 'switch_to_linux', _("Switch to GNU/Linux")); ?>
+          <?php $this->list_chapter_sections('switch_to_linux'); ?>
+        </li>
+        <?php $this->nav_link('nav-item-more', '', 'more', _("More")); ?></li>
+      </ul>
+    </nav>
+  </div>
 </header>

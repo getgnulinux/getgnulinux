@@ -1,4 +1,4 @@
-<footer id="footer" class="footer_height">
+<footer class="footer">
   <div class="container">
 
     <div id="translations">
@@ -14,7 +14,7 @@
             $info['dir'],
             $native);
         } ?>
-        <li><a class="more" href="javascript:;" title="More languages">…</a></li>
+        <li><a class="more" href="javascript:void(0)" title="More languages">…</a></li>
       </ul>
       <p id="incomplete" dir="ltr">Partial translations are available in <?php $this->language_links($ggl->get_locales('incomplete')); ?>.</p>
     </div>
@@ -54,7 +54,7 @@
   </div>
 </footer>
 
-<a id="to-top" href="javascript:;">
+<a id="to-top" href="javascript:void(0)">
   <span id="to-top-hover"></span>
   <i class="fa fa-chevron-circle-up fa-3x"></i>
 </a>

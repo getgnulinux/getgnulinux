@@ -8,7 +8,7 @@
  * General styles
  *----------------------------------------------------*/
 
-html, footer {
+html {
   background-color: $primary-background-color;
 }
 
@@ -123,45 +123,7 @@ li {
  * Navigation menu
  *----------------------------------------------------*/
 
-#navbar {
-  background-color: #F0D8B2;
-  font-size: 16px;
-  line-height: normal;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0 5px;
-
-    li {
-      display: inline-block;
-      margin: 0 5px 0 0;
-      padding: 5px;
-      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-      @include transition(background 300ms ease);
-    }
-  }
-
-  a {
-    font-size: 1.0em;
-    line-height: 2em;
-    padding: 9px;
-    text-decoration: none;
-  }
-
-  a, a:hover, a:visited {
-    color: #333333;
-  }
-
-  li:hover,
-  li.active {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
-  }
-}
+@import 'navigation';
 
 /*----------------------------------------------------
  * Navigation: Chapters list
@@ -178,15 +140,16 @@ nav.chapters {
       line-height: 2em;
       margin: 0.5em;
       text-decoration: none;
-    }
 
-    a:hover {
-      text-decoration: underline;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 
   .active {
-    a, a:hover {
+    a,
+    a:hover {
       color: #666666 !important;
       text-decoration: none;
       font-weight: bold;
@@ -195,7 +158,7 @@ nav.chapters {
   }
 
   ul {
-    background-color: #EEECE9;
+    background-color: $light-color-dimmed;
     list-style: none outside none;
     margin: 0;
     padding: 0.4em 0;
@@ -206,15 +169,16 @@ nav.chapters {
       padding: 0 1em;
       white-space: nowrap;
 
-      a, a:visited {
+      a,
+      a:visited {
         color: #3C4043;
         display: inline-block;
         line-height: 1.8em;
         text-decoration: none;
-      }
 
-      a:hover {
-        text-decoration: underline;
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
   }
@@ -270,7 +234,7 @@ nav.chapters {
 }
 
 .bg-even {
-  background-color: #EEECE9;
+  background-color: $light-color;
 }
 
 .no-padding {
@@ -376,7 +340,7 @@ div.note {
 
   /* Captions */
   .flex-caption {
-      background-color: #EEECE9;
+      background-color: $light-color;
       @include border-top-radius(3px);
       @include border-bottom-radius(3px);
       font-size: 14px;
@@ -883,64 +847,41 @@ section.trisquel {
 }
 
 /*----------------------------------------------------
- * Language menu
- *----------------------------------------------------*/
-
-#translations {
-  word-break: keep-all;
-
-  ul {
-    padding-left: 0;
-    list-style: none;
-  }
-
-  li {
-    display: inline-block;
-    padding-left: 0;
-    padding-right: 10px;
-  }
-
-  li a {
-    line-height: 1.0em;
-  }
-
-  .active a {
-    font-weight: bold;
-  }
-
-  #incomplete {
-    display: none;
-  }
-}
-
-/*----------------------------------------------------
  * Footer
  *----------------------------------------------------*/
 
-footer {
-  color: #CCCCCC;
+.footer {
+  $base-spacing: 1.5em;
+  $footer-background-color: $primary-background-color;
+  $footer-color: $light-color;
+  $footer-color-dimmed: $light-color-dimmed;
+  $footer-border-color: transparentize($footer-color, 0.6);
+
+  background-color: $footer-background-color;
+  color: $footer-color;
   margin-bottom: 0;
   width: 100%;
   font-size: 0.9em;
   padding-top: ($footer-gutter / 2);
   padding-bottom: ($footer-gutter / 2);
 
-  a {
+  a,
+  a:visited {
     text-decoration: none;
+    color: transparentize($footer-color, 0.3);
+
+    &:hover {
+      color: $footer-color;
+    }
   }
 
-  a,
-  a:hover,
-  a:visited {
-    color: #EEECE9;
+  hr {
+    border: 1px solid transparentize($footer-border-color, 0.3);
+    margin: $base-spacing auto;
   }
 
   h1 {
     color: #CCCCCC;
-  }
-
-  hr {
-    border-color: rgba(255,255,255,0.1);
   }
 
   ul {
@@ -952,16 +893,6 @@ footer {
   li {
     display: block;
     margin: 2px 0;
-  }
-
-  a.more {
-    background-color: rgba(255,255,255,0.1);
-    padding: 0 8px;
-  }
-
-  a.more:hover {
-    background-color: rgba(255,255,255,0.2);
-    text-decoration: none;
   }
 
   .notices {
@@ -989,6 +920,44 @@ footer {
       display: inline-block;
       margin: 0 1em 0 0;
     }
+  }
+
+  #translations {
+	word-break: keep-all;
+
+	ul {
+	  padding-left: 0;
+	  list-style: none;
+	}
+
+	li {
+	  display: inline-block;
+	  padding-left: 0;
+	  padding-right: 10px;
+	}
+
+	li a {
+	  line-height: 1.0em;
+	}
+
+	.active a {
+	  color: $footer-color;
+	  font-weight: bold;
+	}
+
+	a.more {
+	  background-color: transparentize($footer-color, 0.9);
+	  padding: 0 8px;
+
+	  &:hover {
+		background-color: transparentize($footer-color, 0.8);
+		text-decoration: none;
+	  }
+	}
+
+	#incomplete {
+	  display: none;
+	}
   }
 }
 

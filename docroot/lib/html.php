@@ -97,7 +97,7 @@ class HTML {
     function text($key, $default='')
     {
         global $ggl;
-		print $ggl->get($key, $default);
+        print $ggl->get($key, $default);
     }
 
     /**
@@ -128,16 +128,26 @@ class HTML {
         print $ggl->config['page_descriptions'][$view];
     }
 
+    function nav_link($id, $class, $page, $title)
+    {
+      printf('<li id="%s" class="nav-link %s %s"><a href="%s">%s</a>',
+        $id,
+        $class,
+        $this->we_are_here($page, true) ? 'active' : '',
+        $this->base_url($page, 1),
+        $title);
+    }
+
     /**
      * Print the chapter list for the "Swith to GNU/Linux" pages.
      */
     function list_chapter_sections($chapter)
     {
         global $ggl;
-        print "<ul>\n";
+        print '<ul class="submenu">';
         foreach ($ggl->sections[$chapter] as $path => $title)
         {
-            printf("<li%s><a href=\"%s\">%s</a></li>\n",
+            printf('<li%s><a href="%s">%s</a></li>',
                 $this->we_are_here($path) ? ' class="active"' : '',
                 $this->base_url($path, true),
                 $title
@@ -202,10 +212,12 @@ class HTML {
      *         FALSE otherwise.
      */
     function we_are_here($path, $fuzzy=false) {
-        if ($fuzzy)
+        if ($fuzzy) {
             return Util::startswith($path, $this->view);
-        else
-            return $this->view === str_replace('/','.',$path);
+        }
+        else {
+          return $this->view === str_replace('/','.',$path);
+        }
     }
 
     /**
