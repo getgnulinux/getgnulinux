@@ -5,6 +5,17 @@ const del = require('del');
 const runSequence = require('run-sequence');
 
 const $ = gulpLoadPlugins();
+
+const sassConfig = {
+  outputStyle: 'expanded',
+  precision: 10,
+  includePaths: [
+    'bower_components/normalize-css/',
+    'bower_components/bourbon/core/',
+    'bower_components/neat/app/assets/stylesheets',
+  ]
+}
+
 const versionConfig = {
   'value': '%MDS%',
   'append': {
@@ -21,28 +32,20 @@ var dev = true;
 gulp.task('styles', () => {
   return gulp.src('src/styles/*.scss')
     .pipe($.plumber())
-    .pipe($.sourcemaps.init())
-    .pipe($.sass.sync({
-      outputStyle: 'expanded',
-      precision: 10,
-      includePaths: [
-        'bower_components/normalize-css/',
-        'bower_components/bourbon/app/assets/stylesheets/',
-        'bower_components/neat/app/assets/stylesheets',
-      ]
-    }).on('error', $.sass.logError))
+    .pipe($.sass.sync(sassConfig).on('error', $.sass.logError))
     .pipe($.autoprefixer({browsers: ['> 1%', 'last 2 versions', 'Firefox ESR']}))
-    .pipe($.sourcemaps.write())
-    .pipe(gulp.dest('.tmp/styles'));
+    .pipe($.cssnano({safe: true, autoprefixer: false}))
+    .pipe(gulp.dest('docroot/styles'));
 });
 
 gulp.task('scripts', () => {
   return gulp.src('src/scripts/**/*.js')
     .pipe($.plumber())
     .pipe($.sourcemaps.init())
-    .pipe($.if('main.js', $.babel()))
-    .pipe($.sourcemaps.write('.'))
-    .pipe(gulp.dest('.tmp/scripts'));
+      .pipe($.if('main.js', $.babel()))
+      .pipe($.uglify())
+    .pipe($.sourcemaps.write('.'), {includeContent: true})
+    .pipe(gulp.dest('docroot/scripts'));
 });
 
 gulp.task('fonts', () => {
@@ -64,9 +67,7 @@ gulp.task('lint', () => {
 
 gulp.task('html', ['styles', 'scripts'], () => {
   return gulp.src('src/**/*.php')
-    .pipe($.useref({searchPath: ['.tmp', 'src', '.']}))
-    .pipe($.if('*.js', $.uglify()))
-    .pipe($.if('*.css', $.cssnano({safe: true, autoprefixer: false})))
+    .pipe($.useref({searchPath: ['docroot', 'src', '.']}))
     .pipe($.if('*.php', $.htmlmin({collapseWhitespace: true})))
     .pipe($.if('*.php', $.versionNumber(versionConfig)))
     .pipe(gulp.dest('docroot'));
@@ -82,7 +83,6 @@ gulp.task('images', () => {
 });
 
 gulp.task('clean', del.bind(null, [
-  '.tmp',
   'docroot/scripts',
   'docroot/styles',
   'docroot/templates',

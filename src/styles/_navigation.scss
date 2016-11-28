@@ -1,11 +1,9 @@
 .navigation {
-  $base-border-radius: 3px !default;
-  $dark-gray: #333 !default;
-  $large-screen: 53.75em !default;
-  $navigation-base-font-color: $dark-gray !default;
+  $large-screen: 53.75em;
+  $navigation-base-font-color: $light-gray;
   $navigation-padding: 1em;
   $navigation-logo-height: 2em;
-  $navigation-background: $primary-background-color;
+  $navigation-background: $base-background-color-secondary;
   $navigation-color: transparentize($navigation-base-font-color, 0.3);
   $navigation-color-hover: $navigation-base-font-color;
   $navigation-height: 50px;

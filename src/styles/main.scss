@@ -1,32 +1,18 @@
 @import 'normalize';
 @import 'bourbon';
+@import 'base/base';
 @import 'neat';
 @import 'h5bp_header';
-@import 'variables';
 
 /*----------------------------------------------------
  * General styles
  *----------------------------------------------------*/
 
-html {
-  background-color: $primary-background-color;
-}
-
 body {
-  background: url($background-image) repeat scroll 0 0 transparent;
-  background-color: $background-color;
-  color: $primary-color;
-  font: 100% $font-stack;
-  height: 100%;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  text-align: justify;
+  background: url("/images/cream_dust.png") repeat scroll 0 0 transparent;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $header-color;
-  font-weight: 300;
   margin-bottom: 1em;
   text-align: start;
 }
@@ -39,7 +25,7 @@ h1 {
 }
 
 h2 {
-  border-top: 1px solid $border-top-color;
+  border-top: 1px solid $light-gray-3;
   font-size: 2.5em;
   margin-bottom: 0.45rem;
   margin-top: 0.8em;
@@ -81,13 +67,13 @@ img, embed, object, video {
   height: auto;
 }
 
-@include selection {
+::selection {
   background: #009ACD;
   color: #FFFFFF;
 }
 
 a {
-  color: $link-color;
+  color: $blue-2;
 
   img {
     border: none;
@@ -95,16 +81,16 @@ a {
 }
 
 a:visited {
-  color: $link-visited-color;
+  color: $blue-3;
 }
 
 a:hover {
-  color: $link-hover-color;
+  color: $light-blue;
   text-decoration: underline;
 }
 
 a:active {
-  color: $link-active-color;
+  color: $dark-orange;
 }
 
 abbr {
@@ -158,7 +144,7 @@ nav.chapters {
   }
 
   ul {
-    background-color: $light-color-dimmed;
+    background-color: transparentize($light-gray, 0.6);
     list-style: none outside none;
     margin: 0;
     padding: 0.4em 0;
@@ -234,7 +220,7 @@ nav.chapters {
 }
 
 .bg-even {
-  background-color: $light-color;
+  background-color: $light-gray;
 }
 
 .no-padding {
@@ -269,7 +255,7 @@ div.note {
 }
 
 .footnotes {
-  border-top: 1px solid $border-top-color;
+  border-top: 1px solid $light-gray-3;
   font-size: 85%;
   margin-top: 3em;
 }
@@ -340,7 +326,7 @@ div.note {
 
   /* Captions */
   .flex-caption {
-      background-color: $light-color;
+      background-color: $light-gray;
       @include border-top-radius(3px);
       @include border-bottom-radius(3px);
       font-size: 14px;
@@ -395,7 +381,7 @@ div.note {
 }
 
 .fp-slide.ggl h1 {
-  font-family: $ggl-font-stack;
+  font-family: $alternative-font-family;
   font-weight: normal;
   text-shadow: 0px 0px 5px #fff;
 }
@@ -472,15 +458,15 @@ div.note {
 }
 
 .read-more-box {
-  border-top: 1px dashed $border-top-color;
+  border-top: 1px dashed $light-gray-3;
   margin-top: 2em;
   padding: 1em 0 1em 1em;
 }
 
 .conclusion {
-  background: none repeat scroll 0 0 $green-section-background;
-  border-top: 2px dashed $green-section-border;
-  border-bottom: 2px dashed $green-section-border;
+  background: none repeat scroll 0 0 $light-green;
+  border-top: 2px dashed $light-green-2;
+  border-bottom: 2px dashed $light-green-2;
   margin: 2em 0;
   padding-top: ($section-gutter / 2);
   padding-bottom: ($section-gutter / 2);
@@ -545,7 +531,7 @@ div.button.wide {
     padding: 0.7em 1em;
     text-decoration: none;
     text-shadow: 0 1px 1px rgba(0,0,0,0.30);
-    @include transition(background 100ms linear);
+    transition: background 100ms linear;
     white-space: nowrap;
     width: auto;
   }
@@ -715,14 +701,15 @@ section.trisquel {
 /*-------------------- About box --------------------*/
 
 #about-us-box {
-  background: none repeat scroll 0 0 $green-section-background;
-  border-top: 2px dashed $green-section-border;
-  border-bottom: 2px dashed $green-section-border;
-  font-family: $ggl-font-stack;
+  background: none repeat scroll 0 0 $light-green;
+  border-top: 2px dashed $light-green-2;
+  border-bottom: 2px dashed $light-green-2;
+  font-family: $alternative-font-family;
   font-style: italic;
   margin: 4em 0;
 
   h1 {
+    font-family: $alternative-font-family;
     font-size: 2.5em;
     font-weight: 300;
     margin: 0;
@@ -852,9 +839,9 @@ section.trisquel {
 
 .footer {
   $base-spacing: 1.5em;
-  $footer-background-color: $primary-background-color;
-  $footer-color: $light-color;
-  $footer-color-dimmed: $light-color-dimmed;
+  $footer-background-color: $base-background-color-secondary;
+  $footer-color: $light-gray;
+  $footer-color-dimmed: transparentize($light-gray, 0.3);
   $footer-border-color: transparentize($footer-color, 0.6);
 
   background-color: $footer-background-color;
