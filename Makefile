@@ -15,7 +15,7 @@ xgettext_flags = -caiF --add-comments=translators --force-po \
 --from-code=UTF-8 -k_
 
 .PHONY : getgnulinux
-getgnulinux: settings.php \
+getgnulinux: docroot/settings.php \
  		 	$(LOCALE_DIR)/ar_SA/LC_MESSAGES/$(DOMAIN).mo \
  		 	$(LOCALE_DIR)/ast_ES/LC_MESSAGES/$(DOMAIN).mo \
  		 	$(LOCALE_DIR)/bg_BG/LC_MESSAGES/$(DOMAIN).mo \
@@ -56,9 +56,9 @@ getgnulinux: settings.php \
  		 	$(LOCALE_DIR)/zh_CN/LC_MESSAGES/$(DOMAIN).mo \
  		 	$(LOCALE_DIR)/zh_TW/LC_MESSAGES/$(DOMAIN).mo
 
-settings.php:
+docroot/settings.php: docroot/settings.php.sample
 	@echo "Creating $@"
-	cp settings.php.sample $@
+	cp $^ $@
 	@echo "Open $@ in a text editor to configure GGL."
 	@echo
 
