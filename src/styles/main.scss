@@ -358,7 +358,6 @@ div.note {
   h1 {
     color: #FFFFFF;
     font-weight: 300;
-    margin: 0;
   }
 
   .slide-text {
@@ -368,37 +367,37 @@ div.note {
     padding: 0 1em 2em;
     text-align: center;
   }
-}
 
-.fp-slide > img {
-  height: auto;
-  margin-top: 1em;
-}
+  > img {
+    height: auto;
+    margin-top: 1em;
+  }
 
-.fp-slide.ggl > img {
-  min-width: 150px;
-  width: 15%;
-}
+  &.ggl > img {
+    min-width: 150px;
+    width: 15%;
+  }
 
-.fp-slide.ggl h1 {
-  font-family: $alternative-font-family;
-  font-weight: normal;
-  text-shadow: 0px 0px 5px #fff;
-}
+  &.ggl h1 {
+    font-family: $alternative-font-family;
+    font-weight: normal;
+    text-shadow: 0px 0px 5px #fff;
+  }
 
-.fp-slide.linux > img {
-  min-width: 100px;
-  width: 8%;
-}
+  &.linux > img {
+    min-width: 100px;
+    width: 8%;
+  }
 
-.fp-slide.windows > img {
-  min-width: 100px;
-  width: 8%;
-}
+  &.windows > img {
+    min-width: 100px;
+    width: 8%;
+  }
 
-.fp-slide.switch > img {
-  min-width: 100px;
-  width: 8%;
+  &.switch > img {
+    min-width: 100px;
+    width: 8%;
+  }
 }
 
 /*----------------------------------------------------
@@ -510,74 +509,6 @@ img.width20p {
 }
 
 /*----------------------------------------------------
- * Fancy Buttons
- *----------------------------------------------------*/
-
-div.button {
-  margin: 1em 0;
-}
-
-div.button.wide {
-  min-width: 13.5em;
-}
-
-.button {
-  a {
-    background-color: #E2E4D7;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
-    @include border-top-radius(4px);
-    @include border-bottom-radius(4px);
-    color: #FFFFFF;
-    padding: 0.7em 1em;
-    text-decoration: none;
-    text-shadow: 0 1px 1px rgba(0,0,0,0.30);
-    transition: background 100ms linear;
-    white-space: nowrap;
-    width: auto;
-  }
-
-  a:hover,
-  a:active {
-    background-color: #B7CFDC;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-    text-decoration: none;
-  }
-}
-
-.button.green {
-  a {
-    background-color: #8DB90A;
-  }
-
-  a:hover,
-  a:active {
-    background-color: #96C017;
-  }
-}
-
-.button.orange {
-  a {
-    background-color: #D66E4B;
-  }
-
-  a:hover,
-  a:active {
-    background-color: #DC7654;
-  }
-}
-
-.button.blue {
-  a {
-    background-color: #2785C6;
-  }
-
-  a:hover,
-  a:active {
-    background-color: #358FCD;
-  }
-}
-
-/*----------------------------------------------------
  * Styles for "Choose a distribution" page.
  *----------------------------------------------------*/
 
@@ -647,6 +578,7 @@ section.trisquel {
 
       .button {
         float: left;
+        margin-right: 3px;
       }
     }
   }
