@@ -129,7 +129,7 @@ class HTML {
     }
 
     /**
-     * Print the chapter list for the "Swith to Linux" pages.
+     * Print the chapter list for the "Swith to GNU/Linux" pages.
      */
     function list_chapter_sections($chapter)
     {

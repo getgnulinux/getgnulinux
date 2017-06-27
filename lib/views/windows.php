@@ -80,7 +80,7 @@ $this->load_header();
       # translators: This is the conclusion of the article.
       $p = _("Many people find that Windows, an otherwise decent piece of software, <strong>withdraws so many rights</strong> from them, that it is not worth them using it. Mac&nbsp;OS is <a href=\"%s#mac_freedom\">not much better</a>, either."); printf($p, $this->base_url('linux/linux_faq',1)); ?></p>
 
-      <p><?php $p = _("If you find <a href=\"https://www.softwareliberty.com/\" title=\"what is freedom in software?\">free software</a> attractive, you might want to <a href=\"%s\" title=\"make the switch to Linux today!\">give Linux a try</a>."); printf($p, $this->base_url('switch_to_linux',1)); ?></p>
+      <p><?php $p = _("If you find <a href=\"https://www.softwareliberty.com/\" title=\"what is freedom in software?\">free software</a> attractive, you might want to <a href=\"%s\" title=\"make the switch to GNU/Linux today!\">give GNU/Linux a try</a>."); printf($p, $this->base_url('switch_to_linux',1)); ?></p>
     </div>
   </section>
 
@@ -89,10 +89,10 @@ $this->load_header();
   <section class="bg-even">
     <div class="maxwidth button-section">
 
-      <h1><?php print _("Switch to Linux"); ?></h1>
+      <h1><?php print _("Switch to GNU/Linux"); ?></h1>
 
       <div class="page-intro">
-        <p><?php print _("Where to download and how to step into Linux"); ?></p>
+        <p><?php print _("Where to download and how to step into GNU/Linux"); ?></p>
 
         <div class="button green">
           <a href="<?php $this->base_url('switch_to_linux'); ?>"><?php print _("Read more"); ?> <i class="fa <?php print $this->rtltr("fa-arrow-circle-right", "fa-arrow-circle-left"); ?> fa-fw"></i></a>

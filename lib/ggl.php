@@ -205,7 +205,7 @@ class GGL {
             # translators: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
             'more' => _("More"),
             # translators: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
-            'linux' => _("What is Linux?"),
+            'linux' => _("What is GNU/Linux?"),
             # translators: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
             'linux.linux_faq' => _("Linux FAQ - common questions about GNU/Linux"),
             # translators: Here the intent is to be a little provocative. Exact translation is not required.
@@ -225,9 +225,9 @@ class GGL {
             # translators: This title can be translated loosely
             'windows.what_about_source_code' => _("No source code"),
             # translators: This appears in the top header menu and should be as short and concise as possible.
-            'switch_to_linux' => _("Switch to Linux"),
+            'switch_to_linux' => _("Switch to GNU/Linux"),
             'switch_to_linux.choose_a_distribution' => _("Choose a distribution"),
-            'switch_to_linux.from_windows_to_linux' => _("From Windows to Linux"),
+            'switch_to_linux.from_windows_to_linux' => _("From Windows to GNU/Linux"),
             # translators: This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
             'switch_to_linux.try_or_install' => _("Try or install"),
             # translators: The title for the link buttons page. Can be translated loosely.
@@ -239,17 +239,17 @@ class GGL {
         # Set page descriptions.
         $this->config['page_descriptions'] = array(
             # translators: This is the description of the homepage, and it appears in Google results! Please pay particular attention to this one =)
-            'default' => _("Get GNU/Linux! A simple, clear website about Linux. | What is Linux? | Why not Windows? | Tips to make the switch"),
+            'default' => _("Get GNU/Linux! A simple, clear website about GNU/Linux. | What is GNU/Linux? | Why not Windows? | Tips to make the switch"),
             # translators: This is the description of the 'More' page
-            'more' => _("Read and discover more about Linux."),
+            'more' => _("Read and discover more about GNU/Linux."),
             # translators: This is the description of the 'Linux' page
-            'linux' => _("What is Linux? A clear explanation."),
+            'linux' => _("What is GNU/Linux? A clear explanation."),
             # translators: This is the description of the 'Linux FAQ' page
             'linux.linux_faq' => _("Frequently Asked Questions about GNU/Linux."),
             # translators: This is the description of the 'Misunderstanding Free Software' page
             'linux.misunderstanding_free_software' => _("An unconventional way to (re)discover free software."),
             # translators: This is the description of the 'Screenshots' page
-            'linux.screenshots' => _("A brief look at Linux in everyday use."),
+            'linux.screenshots' => _("A brief look at GNU/Linux in everyday use."),
             # translators: This is the description of the 'Why not Windows' page
             'windows' => _("Four good reasons to avoid proprietary software."),
             # translators: This is the description of the 'Restrictions' page
@@ -262,19 +262,19 @@ class GGL {
             'windows.what_about_choice' => _("How Microsoft lock customers in."),
             # translators: This is the description of the 'What about source code' page
             'windows.what_about_source_code' => _("No source code means no trust and no security."),
-            # translators: This is the description of the 'Switch to Linux' page
-            'switch_to_linux' => _("Switch to Linux: Good tips and advice."),
+            # translators: This is the description of the 'Switch to GNU/Linux' page
+            'switch_to_linux' => _("Switch to GNU/Linux: Good tips and advice."),
             # translators: This is the description of the 'Choose a distribution' page
-            'switch_to_linux.choose_a_distribution' => _("Recommended Linux distributions for everyday users."),
-            # translators: This is the description of the 'From Windows to Linux' page
-            'switch_to_linux.from_windows_to_linux' => _("The advantages and disadvantages of Linux over Windows."),
+            'switch_to_linux.choose_a_distribution' => _("Recommended GNU/Linux distributions for everyday users."),
+            # translators: This is the description of the 'From Windows to GNU/Linux' page
+            'switch_to_linux.from_windows_to_linux' => _("The advantages and disadvantages of GNU/Linux over Windows."),
             # translators: This is the description of the 'Try or Install' page. This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
-            'switch_to_linux.try_or_install' => _("Try or install Linux on your computer, very easily."),
+            'switch_to_linux.try_or_install' => _("Try or install GNU/Linux on your computer, very easily."),
         );
 
         # Chapter sections.
         $this->sections['switch_to_linux'] = array(
-            "switch_to_linux/from_windows_to_linux" => _("From Windows to Linux"),
+            "switch_to_linux/from_windows_to_linux" => _("From Windows to GNU/Linux"),
             "switch_to_linux/choose_a_distribution" => _("Choose a distribution"),
             "switch_to_linux/try_or_install" => _("Try or install")
         );

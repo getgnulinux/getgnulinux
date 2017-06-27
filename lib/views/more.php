@@ -37,13 +37,13 @@ $this->load_header();
         <div class="column">
           <div>
             <a href="<?php # translators: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-            print _("https://linuxpreloaded.com/"); ?>" title="<?php print _("Computers pre-installed with Linux"); ?>"><img src="<?php print $this->language_file("more.ext.link2.png"); ?>" alt="<?php
+            print _("https://linuxpreloaded.com/"); ?>" title="<?php print _("Computers pre-installed with GNU/Linux"); ?>"><img src="<?php print $this->language_file("more.ext.link2.png"); ?>" alt="<?php
             # translators: Image alt description for linuxpreloaded.com (if you translated the URL, change this accordingly)
             print _("Linux Pre-Loaded"); ?>"/></a>
           </div>
 
           <p><?php # translators: This is the text below a button linking to linuxpreloaded.com. If you translated the URL, change this text accordingly.
-          print _("A simple and clear selection of vendors selling computers pre-installed with Linux."); ?></p>
+          print _("A simple and clear selection of vendors selling computers pre-installed with GNU/Linux."); ?></p>
         </div>
       </div>
 

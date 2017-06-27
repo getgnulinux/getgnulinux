@@ -44,9 +44,9 @@
       <li id="home"><a href="<?php $this->base_url(); ?>"><i class="fa fa-home fa-lg"></i></a></li>
       <?php
       $menu_items = array(
-        'linux' => _("What is Linux?"),
+        'linux' => _("What is GNU/Linux?"),
         'windows' => _("Why not Windows"),
-        'switch_to_linux' => _("Switch to Linux"),
+        'switch_to_linux' => _("Switch to GNU/Linux"),
         'more' => _("More"),
       );
 

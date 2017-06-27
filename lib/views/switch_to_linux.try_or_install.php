@@ -20,7 +20,7 @@ $this->load_header();
       <h1><?php print _("Try or install"); ?></h1>
 
       <div class="page-intro">
-        <p><?php print _("Make the step &ndash; unless you wish to <a href=\"https://linuxpreloaded.com/\" title=\"Linux Desktops and Laptops\">purchase a PC with Linux pre-installed</a>, you can see what freedom looks like on your computer."); ?></p>
+        <p><?php print _("Make the step &ndash; unless you wish to <a href=\"https://linuxpreloaded.com/\" title=\"Linux Desktops and Laptops\">purchase a PC with GNU/Linux pre-installed</a>, you can see what freedom looks like on your computer."); ?></p>
       </div>
     </div>
   </section>
@@ -33,7 +33,7 @@ $this->load_header();
 
       <img src="/images/Disc.svg" class="float-right width20p" alt="">
 
-      <p><?php print _("Using a live CD means that Linux will be running on your computer <em>without installing anything</em>. It's a risk-less way to try and see by yourself what Linux is."); ?></p>
+      <p><?php print _("Using a live CD means that GNU/Linux will be running on your computer <em>without installing anything</em>. It's a risk-less way to try and see by yourself what GNU/Linux is."); ?></p>
       <p><?php print _("When running on a live CD, your computer uses solely the CD-ROM to work (without accessing the hard drive inside). You can launch all of the default programs, edit documents, and browse the web."); ?></p>
       <p><?php print _("Since it is only designed as a trial mode, it is a little slow (it will take you five minutes to boot up, and programs launch somewhat slowly). If you proceed to install, the system will go much faster."); ?></p>
 
@@ -52,7 +52,7 @@ $this->load_header();
       <p><?php print _("Setting up a dual-boot can be helpful if you need time to abandon restrictive software. It is <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" title=\"a tutorial on installing Ubuntu\">not difficult to set-up</a>, though erasing Windows altogether is even easier."); ?></p>
 
       <h3 id="dual_boot_what_need"><?php print _("What you need"); ?></h3>
-      <p><?php print _("Installing Linux on your computer will take you less than 30 minutes. It is not an obvious step for complete beginners, but if you use computers on a daily basis this is very likely within your reach. If you have already re-installed Windows on your computer, rest assured that installing Linux is no harder."); ?></p>
+      <p><?php print _("Installing GNU/Linux on your computer will take you less than 30 minutes. It is not an obvious step for complete beginners, but if you use computers on a daily basis this is very likely within your reach. If you have already re-installed Windows on your computer, rest assured that installing GNU/Linux is no harder."); ?></p>
     </div>
   </section>
 
@@ -122,7 +122,7 @@ $this->load_header();
       <h2 id="free_software_pre_installed"><?php print _("Free Software pre-installed"); ?></h2>
       <img src="/images/Laptop.png" class="float-right width20p" alt="">
       <p><?php print _("Not all computers are shipped with Windows. If you do not wish to make the install yourself, or are in need of new hardware, you can get a laptop or a desktop pre-installed with GNU/Linux.<br/>
-We have compiled <a title=\"linux computers\" href=\"https://linuxpreloaded.com/\">a list of vendors pre-installing Linux at LinuxPreloaded.com</a> just for that reason."); ?></p>
+We have compiled <a title=\"linux computers\" href=\"https://linuxpreloaded.com/\">a list of vendors pre-installing GNU/Linux at LinuxPreloaded.com</a> just for that reason."); ?></p>
     </div>
   </section>
 

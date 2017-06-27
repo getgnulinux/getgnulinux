@@ -20,7 +20,7 @@ $(document).ready(function() {
       });
     })();
 
-    /* Enable fancy scrolling on the Linux FAQ */
+    /* Enable fancy scrolling on the GNU/Linux FAQ */
     $('#faq #content a').click(function(){
         $.scrollTo(this.hash, 500);
     });

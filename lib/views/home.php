@@ -22,7 +22,7 @@ $this->load_header();
             <h1><?php print _("get GNU/Linux!"); ?></h1>
             <div class="slide-text">
               <p><?php # translators: This is the very first sentence every visitor is going to read. Please pay great attention to making it sound great, we only have one try! =)
-              print _("GNU/Linux, or simply <em>Linux</em>, is an alternative to Microsoft Windows. It is easy to use and gives more freedom to users. Anyone can install it: Linux is free as in freedom, and often available free of charge."); ?></p>
+              print _("GNU/Linux is an alternative to Microsoft Windows and Mac OS. It is easy to use and gives more freedom to users. Anyone can install it: GNU/Linux is free as in freedom, and often available free of charge."); ?></p>
             </div>
 
           </div>
@@ -59,9 +59,9 @@ $this->load_header();
           <div class="fp-slide switch">
 
             <img src="/images/slides/Disc.svg" alt="">
-            <h1><?php print _("Switch to Linux"); ?></h1>
+            <h1><?php print _("Switch to GNU/Linux"); ?></h1>
             <div class="slide-text">
-              <p><?php print _("Where to download and how to step into Linux"); ?></p>
+              <p><?php print _("Where to download and how to step into GNU/Linux"); ?></p>
               <div class="button blue">
                 <a href="<?php $this->base_url('switch_to_linux'); ?>"><?php print _("Read more"); ?> <i class="fa <?php print $this->rtltr("fa-arrow-circle-right", "fa-arrow-circle-left"); ?> fa-fw"></i></a>
               </div>

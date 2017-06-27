@@ -13,14 +13,14 @@ $this->load_header();
   <section>
     <div class="maxwidth">
 
-      <h1><?php print _("Switch to Linux"); ?></h1>
+      <h1><?php print _("Switch to GNU/Linux"); ?></h1>
 
     </div>
   </section>
 
   <section class="bg-even">
     <div class="maxwidth button-section">
-      <h1><?php print _("From Windows to Linux"); ?></h1>
+      <h1><?php print _("From Windows to GNU/Linux"); ?></h1>
 
       <div class="page-intro">
         <p><?php # translators: please note the "affirmative" tone with the '.' at end of sentence.

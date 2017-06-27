@@ -120,7 +120,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
 
     <p><?php print _("Code is power. Most of today's work documents are written and encoded with secret algorithms in proprietary software. What will be of tomorrow's books, photos, films, essays, animations, music, news? Proprietary programs such as Windows have no transparency. A free culture and a free society cannot grow from such software."); ?></p>
 
-    <p><?php $p = _("May we suggest you <a href=\"%s\">switch to Linux</a>?"); printf($p, $this->base_url('switch_to_linux',1)); ?></p>
+    <p><?php $p = _("May we suggest you <a href=\"%s\">switch to GNU/Linux</a>?"); printf($p, $this->base_url('switch_to_linux',1)); ?></p>
 
     <div class="footnotes">
       <ol>
