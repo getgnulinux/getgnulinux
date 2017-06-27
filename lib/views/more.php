@@ -77,17 +77,6 @@ $this->load_header();
       <p class="italic centered"><?php print _("Note: these links are proposed as a recommendation. They are not commercial."); ?></p>
     </div>
   </section>
-
-  <section id="about-us-box">
-    <div class="maxwidth">
-      <h1><?php print _("About us"); ?></h1>
-
-      <p><?php print _("This website was a project of the late <em><a href=\"http://www.gnulinuxmatters.org/\">GNU/Linux Matters</a></em> non-profit organization, which focused on Internet advocacy for free software. As of 2010, GNU/Linux Matters have ceased activity."); ?></p>
-
-      <p><?php $p = _("This website is maintained and driven by the community. Please consider <a href=\"%s\">participating</a>, or simply helping by <a href=\"%s\">making a link to this website</a>.");
-      printf($p, $ggl->get('participate_url'), $this->base_url('link_buttons',1)); ?></p>
-    </div>
-  </section>
 </main>
 
 <?php $this->load_footer(); ?>
