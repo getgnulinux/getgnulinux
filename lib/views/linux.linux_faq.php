@@ -69,9 +69,9 @@ $this->load_header();
         <p><?php print _("In practice, the word \"Linux\" caught on much better (unsurprisingly), and today people refer to the whole system as simply \"Linux\". This causes a great deal of controversy."); ?></p>
         <p><?php
         # translators: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
-        print _("Calling the system <em>GNU/Linux</em> is much more meaningful, technically (end-users use a lot of \"GNU\" and a little of \"Linux\") but also philosophically: the strength and momentum of the <a href=\"http://www.softwareliberty.com/\">Free Software</a> movement started with and are still carried by <a href=\"http://www.gnu.org/\">the GNU project</a>."); ?></p>
+        print _("Calling the system <em>GNU/Linux</em> is much more meaningful, technically (end-users use a lot of \"GNU\" and a little of \"Linux\") but also philosophically: the strength and momentum of the <a href=\"https://www.softwareliberty.com/\">Free Software</a> movement started with and are still carried by <a href=\"https://www.gnu.org/\">the GNU project</a>."); ?></p>
         <p><?php print _("Calling the system <em>Linux</em> is more practical and appealing for computer users that often believe Windows is the only thing on earth."); ?></p>
-        <p><?php print _("<a href=\"http://blog.getgnulinux.org/about/faq/#taxonomy\">We use both denominations</a> and hope you will not be offended by that."); ?></p>
+        <p><?php print _("<a href=\"https://blog.getgnulinux.org/about/faq/#taxonomy\">We use both denominations</a> and hope you will not be offended by that."); ?></p>
     </div><!-- end answer -->
     </div><!-- end QA -->
 
@@ -80,7 +80,7 @@ $this->load_header();
     <div class="answer">
         <p><?php
         # translators: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
-        print _("When Richard Stallman started to design GNU, the main system in use was Unix, which is proprietary. Because GNU is similar in function to (and compatible with) Unix, but is <a href=\"http://www.softwareliberty.com/\">free software</a>, he coined the term GNU which stands for <strong>GNU's Not Unix</strong>. It's a <a href=\"http://en.wikipedia.org/wiki/Recursive_acronym\">recursive acronym</a>. (if you enjoy that kind of humour check out what <a href=\"http://www.gnu.org/software/hurd/hurd.html\">GNU Hurd</a> means)."); ?></p>
+        print _("When Richard Stallman started to design GNU, the main system in use was Unix, which is proprietary. Because GNU is similar in function to (and compatible with) Unix, but is <a href=\"https://www.softwareliberty.com/\">free software</a>, he coined the term GNU which stands for <strong>GNU's Not Unix</strong>. It's a <a href=\"https://en.wikipedia.org/wiki/Recursive_acronym\">recursive acronym</a>. (if you enjoy that kind of humour check out what <a href=\"https://www.gnu.org/software/hurd/hurd.html\">GNU Hurd</a> means)."); ?></p>
     </div><!-- end answer -->
     </div><!-- end QA -->
 
@@ -95,7 +95,7 @@ $this->load_header();
     <h3 id="only_linux"><?php print _("Is GNU/Linux the only free operating system available?"); ?></h3>
     <div class="answer">
         <p><?php print _("No. GNU/Linux is by far the most widely used free system; however a number of other systems exist."); ?></p>
-        <p><?php print _("These include the UNIX derivatives <a href=\"http://freebsd.org/\">FreeBSD</a>, <a href=\"http://netbsd.org/\">NetBSD</a>, <a href=\"http://openbsd.org/\">OpenBSD</a> and <a href=\"http://opensolaris.org/\">OpenSolaris</a>, the BeOS clone <a href=\"http://haiku-os.org/\">Haiku OS</a>, the Windows NT clone <a href=\"http://reactos.sf.net/\">ReactOS</a>, the DOS clone <a href=\"http://www.freedos.org/\">FreeDOS</a>, <a href=\"http://plan9.bell-labs.com/plan9/\">Plan 9</a> from Bell Labs and <a href=\"http://www.syllable.org/\">Syllable</a>, just to name a few."); ?></p>
+        <p><?php print _("These include the UNIX derivatives <a href=\"https://freebsd.org/\">FreeBSD</a>, <a href=\"https://netbsd.org/\">NetBSD</a>, <a href=\"https://openbsd.org/\">OpenBSD</a>, the BeOS clone <a href=\"https://haiku-os.org/\">Haiku OS</a>, the Windows NT clone <a href=\"http://www.reactos.com/\">ReactOS</a>, the DOS clone <a href=\"http://www.freedos.org/\">FreeDOS</a>, and <a href=\"https://www.syllable.org/\">Syllable</a>, just to name a few."); ?></p>
     </div><!-- end answer -->
     </div><!-- end QA -->
 
@@ -104,7 +104,7 @@ $this->load_header();
     <div class="answer">
         <p><?php
         # translators: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
-        $p = _("No. There are a few <a href=\"http://www.softwareliberty.com/\">free software</a> components in Mac OSX, and it is technically similar to GNU/Linux systems. But overall, it is proprietary software: all the <a href=\"%s\">issues about Windows</a> apply to it as well."); printf($p, $this->base_url('windows',1)); ?></p>
+        $p = _("No. There are a few <a href=\"https://www.softwareliberty.com/\">free software</a> components in Mac OSX, and it is technically similar to GNU/Linux systems. But overall, it is proprietary software: all the <a href=\"%s\">issues about Windows</a> apply to it as well."); printf($p, $this->base_url('windows',1)); ?></p>
     </div><!-- end answer -->
     </div><!-- end QA -->
 
@@ -117,7 +117,7 @@ $this->load_header();
     </p>
         <p><?php print _("Technically, the great majority of open source programs are free software and vice-versa."); ?></p>
         <p><?php print _("In terms of philosophy, things are quite different. The term &quot;open source&quot; was coined to make &quot;free software&quot; more attractive, its supporters see open source software as a better way to make software."); ?></p>
-        <p><?php print _("Supporters of the \"free software\" term value the freedom, not merely the way software is made, and thus argue that the term \"open source\" <a href=\"http://www.gnu.org/philosophy/open-source-misses-the-point.html\">misses the point</a>."); ?></p>
+        <p><?php print _("Supporters of the \"free software\" term value the freedom, not merely the way software is made, and thus argue that the term \"open source\" <a href=\"https://www.gnu.org/philosophy/open-source-misses-the-point.html\">misses the point</a>."); ?></p>
         <p><?php print _("Which term you employ simply depends on your vision of software."); ?></p>
     </div><!-- end answer -->
     </div><!-- end QA -->
@@ -130,9 +130,9 @@ $this->load_header();
     <div class="answer">
         <p><?php
         # translators: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
-        print _("The concept of <a href=\"http://www.softwareliberty.com/\">free software</a>, refers to freedom, not price. You have the freedom to copy, study, modify, and give free software away."); ?></p>
+        print _("The concept of <a href=\"https://www.softwareliberty.com/\">free software</a>, refers to freedom, not price. You have the freedom to copy, study, modify, and give free software away."); ?></p>
         <p><?php print _("Most companies developing free software make money by selling <strong>services</strong> around their software, rather than the software itself. This is sometimes done by selling everything as a package: the customer buys the CD, book, and support contract at once. The software can still guarantee your freedoms."); ?></p>
-        <p><?php print _("More:"); ?> <a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a> | <a href="http://en.wikibooks.org/wiki/FLOSS_Concept_Booklet"><?php print _("FLOSS concept booklet"); ?></a>.</p>
+        <p><?php print _("More:"); ?> <a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a> | <a href="https://en.wikibooks.org/wiki/FLOSS_Concept_Booklet"><?php print _("FLOSS concept booklet"); ?></a>.</p>
     </div><!-- end answer -->
     </div><!-- end QA -->
 
@@ -146,8 +146,8 @@ $this->load_header();
         <ul>
         <li><p><?php print _("Some GNU/Linux distributors allow non-free software in order to enable hardware functionality."); ?>
         <?php # translators: If it exits, please use the URL of the official Ubuntu homepage localized in your language.
-        print _("This happens because some hardware manufacturers such as NVidia do not care about their customers' freedoms, and only release restricting firmware and drivers (some of them don't even release anything, like Broadcom). These are available at no cost (they are freeware) but under restrictive licenses. Distributions such as <a href=\"http://www.ubuntu.com/\">Ubuntu</a> thus include such components to improve hardware compatibility."); ?></p></li>
-         <li><p><?php print _("Some GNU/Linux distributors do not compromise on the freedom of software, and make sure their distribution are entirely free. Such is the case of <a href=\"http://trisquel.info/\">Trisquel</a>, which is a Ubuntu derivative with all restricting components removed."); ?></p></li>
+        print _("This happens because some hardware manufacturers such as NVidia do not care about their customers' freedoms, and only release restricting firmware and drivers (some of them don't even release anything, like Broadcom). These are available at no cost (they are freeware) but under restrictive licenses. Distributions such as <a href=\"https://www.ubuntu.com/\">Ubuntu</a> thus include such components to improve hardware compatibility."); ?></p></li>
+         <li><p><?php print _("Some GNU/Linux distributors do not compromise on the freedom of software, and make sure their distribution are entirely free. Such is the case of <a href=\"https://trisquel.info/\">Trisquel</a>, which is a Ubuntu derivative with all restricting components removed."); ?></p></li>
          <li><p><?php $p = _("Some GNU/Linux distributors assemble free and restrictive software without distinction. Such distributors would not like users to think of their freedom, and rather advertise only the technical capabilities of their product. Using such distributions isn't much better than <a href=\"%s\">using Windows</a>. We value your freedom and recommend you choose carefully!"); printf($p, $this->base_url('windows',1)); ?></p></li>
         </ul>
     </div><!-- end answer -->
@@ -158,9 +158,9 @@ $this->load_header();
     <h4 class="question_sub"><?php print _("Do all the reasons for avoiding Windows apply to Mac&nbsp;OS?"); ?></h4>
     <div class="answer">
         <p><?php $p = _("It's quite common for Mac users to believe they are exempt from <a href=\"%s\">restrictions associated with Windows</a>. Unfortunately such is not the case."); printf($p, $this->base_url('windows',1)); ?></p>
-        <p><?php print _("Mac OSX does have some low-level components which are <a href=\"http://www.softwareliberty.com/\">free software</a>; and Apple puts less energy into customer lock-in (with some notable efforts such as BootCamp)."); ?><br />
+        <p><?php print _("Mac OSX does have some low-level components which are <a href=\"https://www.softwareliberty.com/\">free software</a>; and Apple puts less energy into customer lock-in (with some notable efforts such as BootCamp)."); ?><br />
         <?php print _("However, the end-user is still fundamentally restricted &mdash; because of the proprietary license, he/she cannot use Mac OSX for all purposes, nor copy, study, modify, or redistribute it."); ?></p>
-        <p><?php print _("Happily, because these freedoms matter a lot, it's possible to run popular GNU/Linux distributions (such as <a href=\"http://www.ubuntu.com/\">Ubuntu</a>) on Mac computers."); ?></p>
+        <p><?php print _("Happily, because these freedoms matter a lot, it's possible to run popular GNU/Linux distributions (such as <a href=\"https://www.ubuntu.com/\">Ubuntu</a>) on Mac computers."); ?></p>
     </div><!-- end answer -->
     </div><!-- end QA -->
 
@@ -171,7 +171,7 @@ $this->load_header();
     print _("Isn't Linux about cracking, &quot;piracy&quot; and illegal download websites?"); ?></h4>
     <div class="answer">
         <p><?php print _("No!"); ?></p>
-        <p><?php print _("Wherever you read or heard this you should update your views. Linux is completely distinct from such things. Whether you want to do them, or whether you prefer <a href=\"http://www.magnatune.com/\">intelligent</a>, <a href=\"http://www.jamendo.com/\">legal downloads</a>, Linux will work just as well as Windows. Unfortunately you can't identify gangsters by the make of their cars; the same thing goes for their operating system."); ?></p>
+        <p><?php print _("Wherever you read or heard this you should update your views. Linux is completely distinct from such things. Whether you want to do them, or whether you prefer <a href=\"https://www.magnatune.com/\">intelligent</a>, <a href=\"https://www.jamendo.com/\">legal downloads</a>, Linux will work just as well as Windows. Unfortunately you can't identify gangsters by the make of their cars; the same thing goes for their operating system."); ?></p>
         <p><?php print _("GNU/Linux was made by people who don't like the thought of all the world's computers running just one company's proprietary products. There is certainly nothing wrong with that!"); ?></p>
         <p><?php
         # translators: The link here points to the "misunderstanding_free_software" article.
@@ -201,7 +201,7 @@ $this->load_header();
     <div class="answer">
         <p><?php
         # translators: If LinuxPreloaded has not been localized to your language, please leave the URL to linuxpreloaded.com.
-        print _("Yes it does! We have built a website specially for that purpose, <a href=\"http://linuxpreloaded.com/\" title=\"Linux laptops\">LinuxPreloaded.com</a>, listing vendors that sell Linux desktops and laptops."); ?></p>
+        print _("Yes it does! We have built a website specially for that purpose, <a href=\"https://linuxpreloaded.com/\" title=\"Linux laptops\">LinuxPreloaded.com</a>, listing vendors that sell Linux desktops and laptops."); ?></p>
         <p><?php
         # translators: please leave the "#new_computer" element as such. It is an internal link.
         print _("Note that <a href=\"#new_computer\">buying new hardware is not necessary</a> to use GNU/Linux!"); ?></p>
@@ -248,13 +248,13 @@ $this->load_header();
     <div class="answer">
         <p><?php print _("No."); ?></p>
         <p><?php print _("It is technically possible to adapt Microsoft Office to Linux, but Microsoft isn't keen on allowing Office users to choose their operating system. There are other issues with MS Office and openness &mdash; like Microsoft's fierce opposition to supporting <a href=\"http://opendocumentfellowship.com/\">the OpenDocument format</a>."); ?></p>
-        <p><?php print _("However, a complete, Free, reliable office suite exists: <a href=\"http://www.openoffice.org/\">OpenOffice.org</a>. Or you can choose its Open Source community-driven alternative, <a href=\"http://www.libreoffice.org/\">LibreOffice</a>, which is a fork of OpenOffice.org. They will both happily use all your existing office files in MS-Word, MS-Excel, and MS-PowerPoint format, and are really free (both as in freedom and as in price). And they run on Windows as well as on Linux."); ?></p>
+        <p><?php print _("However, a complete, Free, reliable office suite exists: <a href=\"https://www.openoffice.org/\">OpenOffice.org</a>. Or you can choose its Open Source community-driven alternative, <a href=\"https://www.libreoffice.org/\">LibreOffice</a>, which is a fork of OpenOffice.org. They will both happily use all your existing office files in MS-Word, MS-Excel, and MS-PowerPoint format, and are really free (both as in freedom and as in price). And they run on Windows as well as on Linux."); ?></p>
 
-        <p><a href="<?php # translators: If it exists, please use the localized URL of openoffice.org. You can find localized URLs here: http://www.openoffice.org/projects/native-lang.html
-        print _("http://www.openoffice.org/") ?>"><img src="/images/OpenOfficeLogo.png" alt="OpenOffice.org"/></a>
+        <p><a href="<?php # translators: If it exists, please use the localized URL of openoffice.org. You can find localized URLs here: https://www.openoffice.org/projects/native-lang.html
+        print _("https://www.openoffice.org/") ?>"><img src="/images/OpenOfficeLogo.png" alt="OpenOffice.org"/></a>
         &nbsp;
-        <a href="<?php # translators: If it exists, please use the localized URL of libreoffice.org. You can find localized URLs here: http://www.libreoffice.org/international-sites/
-        print _("http://www.libreoffice.org/"); ?>"><img src="/images/LibreOfficeLogo.png" alt="LibreOffice.org"/></a></p>
+        <a href="<?php # translators: If it exists, please use the localized URL of libreoffice.org. You can find localized URLs here: https://www.libreoffice.org/community/nlc/
+        print _("https://www.libreoffice.org/"); ?>"><img src="/images/LibreOfficeLogo.png" alt="LibreOffice.org"/></a></p>
     </div><!-- end answer -->
     </div><!-- end QA -->
 
@@ -272,7 +272,7 @@ $this->load_header();
               <li><i class="fa-li fa fa-external-link"></i><a href="<?php # translators: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
               print _("https://wiki.ubuntu.com/RestrictedFormats"); ?>"><?php print _("Ubuntu Restricted Formats"); ?></a></li>
               <li><i class="fa-li fa fa-external-link"></i><a href="<?php # translators: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
-              print _("http://www.fedoraproject.org/wiki/ForbiddenItems"); ?>"><?php print _("Fedora Forbidden Items"); ?></a></li>
+              print _("https://fedoraproject.org/wiki/Forbidden_items"); ?>"><?php print _("Fedora Forbidden Items"); ?></a></li>
             </ul>
         </div>
     </div><!-- end answer -->
@@ -282,7 +282,7 @@ $this->load_header();
     <h3 id="games"><?php print _("Can I play popular 3D games under GNU/Linux?"); ?></h3>
     <div class="answer">
         <p><?php print _("Yes and No: Some games, for example some <a href=\"http://www.idsoftware.com/\">id Software</a> games like the Quake series and Doom 3, Unreal Tournament, Cold War, and many more have Linux versions."); ?></p>
-        <p><?php print _("Most popular games, alas, only work on Windows and occasionally on Mac OS. Some Windows games, such as Call of Duty 4 or GTA Vice City, can be run on GNU/Linux with <a href=\"http://winehq.org/\">Wine</a> or its non-free variant <a href=\"http://www.codeweavers.com/products/crossover/\">CrossOver</a>, which involves some unpleasant effort for the user. For a list of games known to work on Wine, see <a href=\"http://appdb.winehq.org/\">their games database</a>."); ?></p>
+        <p><?php print _("Most popular games, alas, only work on Windows and occasionally on Mac OS. Some Windows games, such as Call of Duty 4 or GTA Vice City, can be run on GNU/Linux with <a href=\"https://winehq.org/\">Wine</a> or its non-free variant <a href=\"https://www.codeweavers.com/products/crossover/\">CrossOver</a>, which involves some unpleasant effort for the user. For a list of games known to work on Wine, see <a href=\"https://appdb.winehq.org/\">their games database</a>."); ?></p>
     </div><!-- end answer -->
     </div><!-- end QA -->
 

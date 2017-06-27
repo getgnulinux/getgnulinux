@@ -29,7 +29,7 @@ $this->load_header();
         # translators: This is a quote from Bill Gates at the start of the article.
         print _("About 3 million computers get sold every year in China, but people don't pay for the software."); ?></p>
         <p><?php print _("Someday they will, though. As long as they are going to steal it [sic], we want them to steal ours. They'll get sort of addicted, and then we'll somehow figure out how to collect sometime in the next decade."); ?></p>
-        <span class="source">Bill Gates, <a href="http://news.com.com/2100-1023-212942.html"><?php print _("1998 interview"); ?></a></span>
+        <span class="source">Bill Gates, <a href="https://web.archive.org/web/20070312044716/http://news.com.com/2100-1023-212942.html"><?php print _("1998 interview"); ?></a></span>
     </div>
 
     <h2 id="no_open_standards"><?php print _("Poor support for open standards"); ?></h2>
@@ -54,7 +54,7 @@ $this->load_header();
     <p><?php print _("Microsoft has a tight control over <abbr title=\"Original Equipment Manufacturer\">OEM</abbr>s (computer manufacturers) who ship their computers with Windows installed."); ?><br/>
     <?php
     # translators: if you cannot find localized homepages, please leave the URLs as such
-    print _("This means that no program competing with Microsoft products, be it <a href=\"http://www.videolan.org/vlc/\">multimedia player</a>, <a href=\"http://www.getfirefox.com/\">web browser</a>, <a href=\"http://libreoffice.org/\">office suite</a>, <a href=\"http://www.pidgin.im/\">instant messaging program</a> or other, will come pre-installed on most computers you can buy."); ?></p>
+    print _("This means that no program competing with Microsoft products, be it <a href=\"https://www.videolan.org/vlc/\">multimedia player</a>, <a href=\"https://www.getfirefox.com/\">web browser</a>, <a href=\"https://www.libreoffice.org/\">office suite</a>, <a href=\"https://www.pidgin.im/\">instant messaging program</a> or other, will come pre-installed on most computers you can buy."); ?></p>
 
     <p><?php print _("It is a good thing to propose a wide range of software and services like Microsoft do; however, designing and combining them to shut users from non-Microsoft peers is unethical. It's not technically hard to adopt more open formats. But it means your customers are <em>free to choose what they do with their work</em> &ndash; Microsoft isn't there yet."); ?></p>
 

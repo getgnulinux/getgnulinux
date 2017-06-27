@@ -38,7 +38,7 @@ $this->load_header();
 
         <p><?php
         # translators: link to Free Software definition on GNU.org site, if softwareliberty.com is not translated in your language
-        print _("Unlike Windows, GNU/Linux is <a href=\"http://www.softwareliberty.com/\" title=\"What does Free Software mean?\">free software</a> &ndash; free as in freedom. Install it on all computers and make copies for your friends! You can even study it, transform it as you please, or build and sell your own distribution."); ?></p>
+        print _("Unlike Windows, GNU/Linux is <a href=\"https://www.softwareliberty.com/\" title=\"What does Free Software mean?\">free software</a> &ndash; free as in freedom. Install it on all computers and make copies for your friends! You can even study it, transform it as you please, or build and sell your own distribution."); ?></p>
       </article>
 
       <article>
@@ -61,7 +61,7 @@ $this->load_header();
 
         <p><?php print _("Forget expensive and restrictive anti-virus, anti-spyware, anti-anything and anti-everything. Linux is very, very secure."); ?></p>
         <p><?php # translators: If you don't know of a link replacement in your languge, just leave the link as it is
-        print _("It is often difficult for Windows users to believe that there are <em>no spyware nor viruses</em> under Linux &mdash; <a href=\"http://linuxmafia.com/~rick/faq/index.php?page=virus#virus\">but it's true</a>. Malicious programs have a hard time doing anything at all in a well-built system."); ?></p>
+        print _("It is often difficult for Windows users to believe that there are <em>no spyware nor viruses</em> under Linux &mdash; <a href=\"http://linuxmafia.com/~rick/faq/#virus\">but it's true</a>. Malicious programs have a hard time doing anything at all in a well-built system."); ?></p>
         <p><?php print _("Regular, easy software updates will keep everyone entirely safe."); ?></p>
       </article>
 
@@ -70,7 +70,7 @@ $this->load_header();
 
         <p><?php # translators: The first %s represents the URL to the "More" page and seconds %s represents the title of the page "More" in your language
         $p = _("Linux benefits from a great sense of community whose friendliness will surprise you. If you try to do something complicated but can't succeed, there are a lot of people around to help you out. Our \"<a href=\"%s\">%s</a>\" page gives a few pointers."); printf($p, $this->base_url('more',1), _("More")); ?></p>
-        <p><?php print _("The companies behind the main GNU/Linux distributions, such as <a href=\"http://www.canonical.com/\">Canonical</a> and <a href=\"http://www.redhat.com/\">Red Hat</a>, also provide expert commercial support."); ?></p>
+        <p><?php print _("The companies behind the main GNU/Linux distributions, such as <a href=\"https://www.canonical.com/\">Canonical</a> and <a href=\"https://www.redhat.com/\">Red Hat</a>, also provide expert commercial support."); ?></p>
       </article>
 
     </div>
@@ -94,7 +94,7 @@ $this->load_header();
         <h3><?php print _("Web browsing and common tasks"); ?></h3>
 
         <p><?php # translators: use localized Firefox landing page if possible
-        print _("The Web looks just the same when viewed with Linux (in fact you can browse the Web with the same program if you already use <a href=\"http://www.getfirefox.com/\">Firefox</a> or <a href=\"http://www.google.com/chrome/\">Google Chrome</a>). And of course, you can go through your picture and music collection all the same. Files and folders are navigated with a file manager like Windows Explorer."); ?></p>
+        print _("The Web looks just the same when viewed with Linux (in fact you can browse the Web with the same program if you already use <a href=\"https://www.getfirefox.com/\">Firefox</a> or <a href=\"https://www.google.com/chrome/\">Google Chrome</a>). And of course, you can go through your picture and music collection all the same. Files and folders are navigated with a file manager like Windows Explorer."); ?></p>
       </article>
 
     </div>
@@ -132,7 +132,7 @@ $this->load_header();
 
         <p><?php print _("Hard-core computer gamers, you might find that the Linux gaming world is less professional and out-of-the-box than under Windows: the large game developing companies are only slowly getting interested in the free software world, which means that many well-known titles do not work on Linux, or need special restrictive emulators to work."); ?></p>
         <p><?php # translators: use localised link if possible, and contact us if you know better resources
-        print _("There is a very active free software game development community though, and they have produced quite a few high-quality games, both 2D and 3D, that are free software. You can head to the <a href=\"http://ubuntuforums.org/forumdisplay.php?f=93\">Ubuntu gaming forum</a> to find more information."); ?></p>
+        print _("There is a very active free software game development community though, and they have produced quite a few high-quality games, both 2D and 3D, that are free software. You can head to the <a href=\"https://ubuntuforums.org/forumdisplay.php?f=93\">Ubuntu gaming forum</a> to find more information."); ?></p>
         <p><?php print _("Read more in our Linux FAQ:"); ?>
           <ul class="fa-ul">
             <li><i class="fa-li fa fa-question-circle"></i><a href="<?php $this->base_url('linux/linux_faq'); ?>#games"><?php print _("Can I play popular 3D games under GNU/Linux?"); ?></a></li>

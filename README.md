@@ -10,9 +10,9 @@ The website is written in PHP and JavaScript, and uses GNU gettext for internati
 This section explains the basic steps needed to setup the website on your web server. Before you continue, there are a few things that you need:
 
 * Shell or FTP access to your Apache web server with PHP, PEAR, and gettext installed
-* [Git](http://git-scm.com/)
-* [GNU gettext](http://www.gnu.org/software/gettext/)
-* [GNU Make](http://www.gnu.org/software/make/)
+* [Git](https://git-scm.com/)
+* [GNU gettext](https://www.gnu.org/software/gettext/)
+* [GNU Make](https://www.gnu.org/software/make/)
 * A text editor
 * And your web browser of choice
 
@@ -56,4 +56,4 @@ Also see the [Participate](https://blog.getgnulinux.org/participate/) page on ou
 
 The source code is licensed under the GNU Affero General Public License Version 3, which you can find in the COPYING file.
 
-The content of the website and its graphical assets are, except where otherwise [noted](https://www.getgnulinux.org/legal/), licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
+The content of the website and its graphical assets are, except where otherwise [noted](https://www.getgnulinux.org/legal/), licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/).

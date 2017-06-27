@@ -25,7 +25,7 @@ $this->load_header();
         <div class="column">
           <div>
             <a href="<?php # translators: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-            print _("http://www.linuxquestions.org/"); ?>" title="<?php print _("LinuxQuestions.org"); ?>" ><img src="<?php print $this->language_file("more.ext.link1.png"); ?>" alt="<?php
+            print _("https://www.linuxquestions.org/"); ?>" title="<?php print _("LinuxQuestions.org"); ?>" ><img src="<?php print $this->language_file("more.ext.link1.png"); ?>" alt="<?php
             # translators: Image alt description for www.linuxquestions.org (if you translated the URL, change this accordingly)
             print _("LinuxQuestions.org"); ?>"/></a>
           </div>
@@ -37,7 +37,7 @@ $this->load_header();
         <div class="column">
           <div>
             <a href="<?php # translators: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-            print _("http://linuxpreloaded.com/"); ?>" title="<?php print _("Computers pre-installed with Linux"); ?>"><img src="<?php print $this->language_file("more.ext.link2.png"); ?>" alt="<?php
+            print _("https://linuxpreloaded.com/"); ?>" title="<?php print _("Computers pre-installed with Linux"); ?>"><img src="<?php print $this->language_file("more.ext.link2.png"); ?>" alt="<?php
             # translators: Image alt description for linuxpreloaded.com (if you translated the URL, change this accordingly)
             print _("Linux Pre-Loaded"); ?>"/></a>
           </div>
@@ -53,7 +53,7 @@ $this->load_header();
         <div class="column">
           <div>
             <a href="<?php # translators: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-            print _("http://en.wikibooks.org/wiki/FLOSS_Concept_Booklet"); ?>" title="<?php print _("the FLOSS concept booklet"); ?>" ><img src="<?php print $this->language_file("more.ext.link3.png"); ?>" alt="<?php
+            print _("https://en.wikibooks.org/wiki/FLOSS_Concept_Booklet"); ?>" title="<?php print _("the FLOSS concept booklet"); ?>" ><img src="<?php print $this->language_file("more.ext.link3.png"); ?>" alt="<?php
             # translators: Image alt description (if you translated the URL, change this accordingly)
             print _("FLOSS Booklet"); ?>"/></a>
           </div>
@@ -64,13 +64,13 @@ $this->load_header();
         <div class="column">
           <div>
             <a href="<?php # translators: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-            print _("http://www.fsf.org/"); ?>" title="<?php print _("Free Software Foundation"); ?>" ><img src="<?php print $this->language_file("more.ext.link4.png"); ?>" alt="<?php
+            print _("https://www.fsf.org/"); ?>" title="<?php print _("Free Software Foundation"); ?>" ><img src="<?php print $this->language_file("more.ext.link4.png"); ?>" alt="<?php
             # translators: Image alt description for www.fsf.org (if you translated the URL, change this accordingly)
             print _("FSF"); ?>"/></a>
           </div>
 
           <p><?php # translators: This is the text below a button linking to www.fsf.org. If you translated the URL, change this text accordingly.
-          print _("The Free Software Foundation defends and advocates the very concept of <a href=\"http://www.softwareliberty.com/\">free software</a> that gave birth to GNU/Linux."); ?></p>
+          print _("The Free Software Foundation defends and advocates the very concept of <a href=\"https://www.softwareliberty.com/\">free software</a> that gave birth to GNU/Linux."); ?></p>
         </div>
       </div>
 

@@ -33,7 +33,7 @@ $this->load_header();
     <ul>
         <li>
             Text content of getgnulinux.org and all their translations:
-            <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative
+            <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative
             Commons Attribution Share-Alike 3.0 License</a>. This means we hold
             the copyright upon it, but grant some rights, including copying,
             redistributing, modifying for any purpose, including commercial, without
@@ -50,7 +50,7 @@ $this->load_header();
     <p>Microsoft Windows&reg;, Microsoft Windows Vista&trade;, Microsoft Excel&reg;,
     Microsoft PowerPoint&reg;, Microsoft Internet Explorer&reg;, Microsoft Windows
     Media Player&reg;, and
-    <a rel="nofollow" href="http://www.microsoft.com/library/toolbar/3.0/trademarks/en-us.mspx#E6" title="Partial list of Microsoft products subjected to trademark regulations">other Microsoft product and service names</a>
+    <a rel="nofollow" href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/#E6" title="Partial list of Microsoft products subjected to trademark regulations">other Microsoft product and service names</a>
     are trademarks, registered trademarks or trade dress of Microsoft, Inc. or
     its affiliates in the U.S. and/or other countries.</p>
 

@@ -19,7 +19,7 @@ $fedora1_text = _("GIMP image editing application, cropping a photo.");
 # translators: This is the description of the "fedora2.png" screenshot.
 $fedora2_text = _("LibreOffice Writer open, editing a standard document.");
 # translators: This is the description of the "fedora3.png" screenshot.
-$fedora3_text = _("Accessing applications in the <a href=\"http://gnome3.org/\">GNOME 3</a> desktop environment.");
+$fedora3_text = _("Accessing applications in the <a href=\"https://www.gnome.org/gnome-3/\">GNOME 3</a> desktop environment.");
 
 # translators: This is the description of the "trisquel1.png" screenshot.
 $trisquel1_text = _("Update manager open.");
@@ -45,8 +45,8 @@ $trisquel3_text = _("Accessing applications.");
         <p><?php print _("Because there is no &quot;one Linux&quot;, finding what you need can be difficult. Here are our choice of three beginner-friendly, widely used distributions."); ?></p>
       </div>
 
-      <p class="italic centered"><?php # translators: The distrowatch.com website is translated into many languages (see http://distrowatch.com/dwres.php?resource=about). If your language is present, please replace "EN" in the URL by the code of your language (e.g. for Spanish, the last part would become "language=ES").
-      print _("Note: There are <a href=\"http://distrowatch.com/dwres.php?resource=major&amp;language=EN\">plenty of distributions to choose from and compare</a>."); ?><br />
+      <p class="italic centered"><?php # translators: The distrowatch.com website is translated into many languages (see https://distrowatch.com/dwres.php?resource=about). If your language is present, please replace "EN" in the URL by the code of your language (e.g. for Spanish, the last part would become "language=ES").
+      print _("Note: There are <a href=\"https://distrowatch.com/dwres.php?resource=major&amp;language=EN\">plenty of distributions to choose from and compare</a>."); ?><br />
       <?php print _("This is our selection for newcomers. These links are not commercial."); ?></p>
     </div>
   </section>
@@ -55,12 +55,12 @@ $trisquel3_text = _("Accessing applications.");
     <div class="maxwidth">
       <div class="centered">
         <a href="<?php # translators: use url of official localised Ubuntu homepage, if existing
-        print _("http://www.ubuntu.com/"); ?>" title="Ubuntu Linux"><img src="/images/UbuntuLogo.png" alt="Ubuntu"/></a>
+        print _("https://www.ubuntu.com/"); ?>" title="Ubuntu Linux"><img src="/images/UbuntuLogo.png" alt="Ubuntu"/></a>
       </div>
 
       <p><?php print _("Simple, easy, usable and our personal favourite. A tanned, smooth atmosphere that never gets in your way. All programs are kept in order and managed easily. Configuration is kept simple rather than exhaustive."); ?></p>
       <p><?php print _("We recommend this friendly and complete distribution if you are looking for an easy way to try and step into GNU/Linux."); ?></p>
-      <p><?php print _("Ubuntu also has a sister distribution, <a href=\"http://www.kubuntu.org/\">Kubuntu</a>, with a different layout and slightly more advanced graphics."); ?></p>
+      <p><?php print _("Ubuntu also has a sister distribution, <a href=\"https://www.kubuntu.org/\">Kubuntu</a>, with a different layout and slightly more advanced graphics."); ?></p>
 
       <div class="flexslider screenshots">
         <ul class="slides">
@@ -86,7 +86,7 @@ $trisquel3_text = _("Accessing applications.");
     <div class="maxwidth">
       <div class="centered">
         <a href="<?php # translators: use url of official localised Fedora homepage, if existing
-        print _("http://fedoraproject.org/"); ?>" title="Fedora Linux"><img src="/images/FedoraLogo.png" alt="Fedora"/></a>
+        print _("https://getfedora.org/"); ?>" title="Fedora Linux"><img src="/images/FedoraLogo.png" alt="Fedora"/></a>
       </div>
 
       <p><?php
@@ -118,7 +118,7 @@ $trisquel3_text = _("Accessing applications.");
     <div class="maxwidth">
 
       <div class="centered">
-        <a href="http://trisquel.info/" title="Trisquel GNU/Linux"><img src="/images/TrisquelLogo.png" alt="Trisquel"/></a>
+        <a href="https://trisquel.info/" title="Trisquel GNU/Linux"><img src="/images/TrisquelLogo.png" alt="Trisquel"/></a>
       </div>
 
       <p><?php $p = _("While Ubuntu contains some restricting components (<a href=\"%s#full_freedom\">why?</a>), the Trisquel developers have built an entirely free derivative. Although its community is smaller and its hardware support might be slightly inferior, Trisquel gives anyone full freedom over a complete operating system similar to Ubuntu."); printf($p, $this->base_url('linux/linux_faq',1)); ?></p>
