@@ -27,7 +27,7 @@ $this->load_header();
 
       <h2><?php print _("Using GNU/Linux"); ?></h2>
 
-      <p><?php print _("GNU/Linux is no harder to use than Windows, and has many more capabilities. It just takes a dozen minutes to get familiar with a distribution like <a href=\"https://www.ubuntu.com/\" title=\"Ubuntu, the easiest and friendliest GNU/Linux distribution around\">Ubuntu</a> or <a href=\"https://getfedora.org/\" title=\"Fedora, a friendly and more advanced GNU/Linux distribution\">Fedora</a>, which come in with many programs installed."); ?></p>
+      <p><?php $p = _("GNU/Linux is no harder to use than Windows, and has many more capabilities. It just takes a dozen minutes to get familiar with a distribution like <a href=\"%s\">the ones we recommend for newcomers</a>, which come in with many programs installed."); printf($p, $this->base_url('switch_to_linux/choose_a_distribution',1)); ?></p>
 
       <p><?php print _("If you need commercial-quality software to work with business documents, Internet/networking, or multimedia and graphics, it's there right out of the box. Want more than that? GNU/Linux can do &ndash; there are many hundreds of free, high quality applications you can find, install and uninstall neatly and easily."); ?></p>
 
