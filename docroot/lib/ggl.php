@@ -186,7 +186,7 @@ class GGL {
     private function init_gettext() {
         $domain = $this->get('gettext_domain');
         L10n::locale_change();
-        Util::gettext_set_domain($domain, '../locale/', 'UTF-8');
+        Util::gettext_set_domain($domain, 'locale/', 'UTF-8');
     }
 
     /**

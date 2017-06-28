@@ -65,7 +65,7 @@ gulp.task('lint', () => {
     .pipe(gulp.dest('src/scripts'));
 });
 
-gulp.task('html', ['styles', 'scripts'], () => {
+gulp.task('html', ['styles', 'scripts', 'locales'], () => {
   return gulp.src('src/**/*.php')
     .pipe($.useref({searchPath: ['docroot', 'src', '.']}))
     .pipe($.if('*.php', $.htmlmin({collapseWhitespace: true})))
@@ -82,10 +82,18 @@ gulp.task('images', () => {
     .pipe(gulp.dest('docroot/images'));
 });
 
+gulp.task('locales', () => {
+  return gulp.src([
+      'locale/*/LC_MESSAGES/*',
+    ])
+    .pipe(gulp.dest('docroot/locale'));
+});
+
 gulp.task('clean', del.bind(null, [
   'docroot/scripts',
   'docroot/styles',
   'docroot/templates',
+  'docroot/locale',
 ]));
 
 gulp.task('clean:images', del.bind(null, [
@@ -106,7 +114,8 @@ gulp.task('develop', () => {
 });
 
 gulp.task('build', ['lint', 'html', 'images', 'fonts'], () => {
-  return gulp.src('src/**/*').pipe($.size({title: 'build', gzip: true}));
+  return gulp.src('src/**/*')
+    .pipe($.size({title: 'build', gzip: true}));
 });
 
 gulp.task('default', () => {
