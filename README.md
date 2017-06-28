@@ -35,7 +35,7 @@ commands that follow must be executed from this directory.
 
 Create a settings file:
 
-    $ make settings.php
+    $ make docroot/settings.php
 
 Now open the newly created `docroot/settings.php` in a text editor and change
 the settings where needed.
