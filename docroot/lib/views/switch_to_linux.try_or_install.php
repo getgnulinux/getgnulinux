@@ -111,8 +111,7 @@ $this->load_header();
       <section>
         <h2 id="free_software_pre_installed"><?php print _("Free Software pre-installed"); ?></h2>
         <img src="/images/Laptop.png" class="float-right width20p hidden-sm" alt="">
-        <p><?php print _("Not all computers are shipped with Windows. If you do not wish to make the install yourself, or are in need of new hardware, you can get a laptop or a desktop pre-installed with GNU/Linux.<br/>
-  We have compiled <a title=\"linux computers\" href=\"https://linuxpreloaded.com/\">a list of vendors pre-installing GNU/Linux at LinuxPreloaded.com</a> just for that reason."); ?></p>
+        <p><?php print _("Not all computers are shipped with Windows. If you do not wish to make the install yourself, or are in need of new hardware, you can get a laptop or a desktop pre-installed with GNU/Linux. <a href=\"https://linuxpreloaded.com/\">LinuxPreloaded.com</a> has compiled a list of vendors pre-installing GNU/Linux just for that reason."); ?></p>
       </section>
     </article>
   </div>
