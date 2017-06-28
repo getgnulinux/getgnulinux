@@ -549,6 +549,8 @@ section.trisquel {
 .download-box {
   @include outer-container;
   @include row();
+  padding-top: 1em;
+  padding-bottom: 1em;
 
   .download-box-logo {
     @include media($xs-breakpoint) {
@@ -578,7 +580,7 @@ section.trisquel {
 
       .button {
         float: left;
-        margin-right: 3px;
+        margin-right: 1em;
       }
     }
   }
