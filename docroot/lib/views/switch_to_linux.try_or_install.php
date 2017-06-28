@@ -54,7 +54,7 @@ $this->load_header();
             <p><img src="/images/UbuntuIcon.svg" alt="Ubuntu"></p>
           </div>
           <div class="download-box-content">
-            <p><?php print _("You can download an <code>iso</code> image (rather large file) and then <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\">burn it to a DVD</a>. Once the DVD is burned, you can use it to <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\">install Ubuntu</a> onto your computer."); ?></p>
+            <p><?php print _("You can download an <code>iso</code> image (rather large file) and then <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\">burn it to a DVD</a>. Once the DVD is burned, you can use it to <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\">install Ubuntu</a> onto your computer. You may also opt to <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows\">install Ubuntu from a USB stick</a> and help reduce plastic waste."); ?></p>
 
             <div class="download-box-buttons">
               <div class="button green">
