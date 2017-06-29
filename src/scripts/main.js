@@ -32,6 +32,7 @@ $(document).ready(function() {
 
   $('#translations .more').click(function () {
     $('#translations #incomplete').toggle();
+    return false;
   });
 
   (function() {
