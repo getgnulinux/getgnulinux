@@ -41,7 +41,7 @@ $this->load_header();
 
         <h3 id="no_fighting"><?php print _("No fighting"); ?></h3>
         <p><?php print _("Keeping your computer in shape over time needn't be a struggle. One year on, GNU/Linux runs just as fast as the first day. And it may bring your old PC back to life."); ?></p>
-        <p><?php print _("Also, GNU/Linux lets you choose what you want and what you don't. If you had a hard time getting rid of MSN Messenger, Windows Update notifications, or Clippit the paperclip, you'll find it refreshing."); ?></p>
+        <p><?php print _("Also, GNU/Linux lets you choose what you want and what you don't. If you had a hard time getting rid of Internet Explorer, Windows Media Player, or adware and web browser toolbars, you'll find it refreshing."); ?></p>
 
         <h3 id="security"><?php print _("Security"); ?></h3>
         <p><?php print _("Forget expensive and restrictive anti-virus, anti-spyware, anti-anything and anti-everything. GNU/Linux is very, very secure."); ?></p>
