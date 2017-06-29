@@ -17,7 +17,7 @@ $this->load_header();
       <header>
         <h1><?php print _("Try or install"); ?></h1>
         <div class="page-intro">
-          <p><?php print _("Make the step &ndash; unless you wish to <a href=\"https://linuxpreloaded.com/\" title=\"GNU/Linux Desktops and Laptops\">purchase a PC with GNU/Linux pre-installed</a>, you can see what freedom looks like on your computer."); ?></p>
+          <p><?php print _("Make the step &ndash; unless you wish to <a href=\"#free_software_pre_installed\" title=\"GNU/Linux Desktops and Laptops\">purchase a PC with GNU/Linux pre-installed</a>, you can see what freedom looks like on your computer."); ?></p>
         </div>
       </header>
 
@@ -39,7 +39,7 @@ $this->load_header();
 
         <h3 id="dual_boot_what_is"><?php print _("Choose at start-up"); ?></h3>
         <p><?php print _("It is possible to install GNU/Linux along with Windows. This means that upon start-up, you will be greeted with a screen allowing you to boot into the operating system you prefer."); ?></p>
-        <p><?php print _("Setting up a dual-boot can be helpful if you need time to abandon restrictive software. It is <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" title=\"a tutorial on installing Ubuntu\">not difficult to set-up</a>, though erasing Windows altogether is even easier."); ?></p>
+        <p><?php print _("Setting up a dual-boot can be helpful if you need time to abandon restrictive software. It is <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" title=\"a tutorial on installing Ubuntu\" rel=\"external\">not difficult to set-up</a>, though erasing Windows altogether is even easier."); ?></p>
 
         <h3 id="dual_boot_what_need"><?php print _("What you need"); ?></h3>
         <p><?php print _("Installing GNU/Linux on your computer will take you less than 30 minutes. It is not an obvious step for complete beginners, but if you use computers on a daily basis this is very likely within your reach. If you have already re-installed Windows on your computer, rest assured that installing GNU/Linux is no harder."); ?></p>
@@ -54,7 +54,7 @@ $this->load_header();
             <p><img src="/images/UbuntuIcon.svg" alt="Ubuntu"></p>
           </div>
           <div class="download-box-content">
-            <p><?php print _("You can download an <code>iso</code> image (rather large file) and then <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\">burn it to a DVD</a>. Once the DVD is burned, you can use it to <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\">install Ubuntu</a> onto your computer. You may also opt to <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows\">install Ubuntu from a USB stick</a> and help reduce plastic waste."); ?></p>
+            <p><?php print _("You can download an <code>iso</code> image (rather large file) and then <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel=\"external\">burn it to a DVD</a>. Once the DVD is burned, you can use it to <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel=\"external\">install Ubuntu</a> onto your computer. You may also opt to <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows\" rel=\"external\">install Ubuntu from a USB stick</a> and help reduce plastic waste."); ?></p>
 
             <div class="download-box-buttons">
               <div class="button green">
@@ -74,7 +74,7 @@ $this->load_header();
           <div class="download-box-content">
             <p><?php
             # translators: A list of available translations for the installation guide is displayed at that URL. Please use the URL for your language if it is available.
-            print _("The Fedora live CD also enables installation. Follow the <a href=\"https://docs.fedoraproject.org/en-US/Fedora/html/Installation_Guide/index.html\">installation guide</a> to get started with Fedora."); ?></p>
+            print _("The Fedora live CD also enables installation. Follow the <a href=\"https://docs.fedoraproject.org/en-US/Fedora/html/Installation_Guide/index.html\" rel=\"external\">Fedora installation guide</a> to get started with Fedora."); ?></p>
 
             <div class="download-box-buttons">
               <div class="button green">
@@ -92,7 +92,7 @@ $this->load_header();
             <p><img src="/images/TrisquelIcon.svg" alt="Trisquel"></p>
           </div>
           <div class="download-box-content">
-            <p><?php print _("The <a href=\"https://trisquel.info/wiki/installation-guide\">Trisquel installation</a> is very similar to that of Ubuntu."); ?></p>
+            <p><?php print _("The <a href=\"https://trisquel.info/wiki/installation-guide\" rel=\"external\">Trisquel installation</a> is very similar to that of Ubuntu."); ?></p>
 
             <div class="download-box-buttons">
               <div class="button green">
@@ -105,13 +105,13 @@ $this->load_header();
           </div>
         </div>
 
-        <p class="note italic"><?php print _("Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href=\"https://www.softwareliberty.com/\" title=\"What do you mean, free?\">free software</a>. You are simply paying a handling/shipping fee."); ?></p>
+        <p class="note italic"><?php print _("Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href=\"https://www.softwareliberty.com/\" title=\"What do you mean, free?\" rel=\"external\">free software</a>. You are simply paying a handling/shipping fee."); ?></p>
       </section>
 
       <section>
         <h2 id="free_software_pre_installed"><?php print _("Free Software pre-installed"); ?></h2>
         <img src="/images/Laptop.png" class="float-right width20p hidden-sm" alt="">
-        <p><?php print _("Not all computers are shipped with Windows. If you do not wish to make the install yourself, or are in need of new hardware, you can get a laptop or a desktop pre-installed with GNU/Linux. <a href=\"https://linuxpreloaded.com/\">LinuxPreloaded.com</a> has compiled a list of vendors pre-installing GNU/Linux just for that reason."); ?></p>
+        <p><?php print _("Not all computers are shipped with Windows. If you do not wish to make the install yourself, or are in need of new hardware, you can get a laptop or a desktop pre-installed with GNU/Linux. <a href=\"https://linuxpreloaded.com/\" rel=\"external\">LinuxPreloaded.com</a> has compiled a list of vendors pre-installing GNU/Linux just for that reason."); ?></p>
       </section>
     </article>
   </div>

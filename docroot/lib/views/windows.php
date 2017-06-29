@@ -63,7 +63,7 @@ $this->load_header();
         <p><?php
         # translators: This is the conclusion of the article.
         $p = _("Many people find that Windows, an otherwise decent piece of software, <strong>withdraws so many rights</strong> from them, that it is not worth them using it. Mac&nbsp;OS is <a href=\"%s#mac_freedom\">not much better</a>, either."); printf($p, $this->base_url('linux/linux_faq',1)); ?></p>
-        <p><?php $p = _("If you find <a href=\"https://www.softwareliberty.com/\" title=\"what is freedom in software?\">free software</a> attractive, you might want to <a href=\"%s\" title=\"make the switch to GNU/Linux today!\">give GNU/Linux a try</a>."); printf($p, $this->base_url('switch_to_linux',1)); ?></p>
+        <p><?php $p = _("If you find <a href=\"https://www.softwareliberty.com/\" title=\"what is freedom in software?\" rel=\"external\">free software</a> attractive, you might want to <a href=\"%s\" title=\"make the switch to GNU/Linux today!\">give GNU/Linux a try</a>."); printf($p, $this->base_url('switch_to_linux',1)); ?></p>
       </div>
     </section>
   </article>

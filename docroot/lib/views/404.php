@@ -23,7 +23,7 @@ $this->load_header();
       <section>
         <h2><?php print _("Report broken link"); ?></h2>
         <p><?php # translators: Here, the %s placeholder simply puts a link to the bug tracker.
-        $p = _("If you found a broken link, please <a href=\"%s\">report it</a> so we can repair it. Thank you!"); printf($p, $ggl->get('tracker_url')); ?></p>
+        $p = _("If you found a broken link, please <a href=\"%s\" rel=\"external\">report it</a> so we can repair it. Thank you!"); printf($p, $ggl->get('tracker_url')); ?></p>
       </section>
     </div>
   <article>

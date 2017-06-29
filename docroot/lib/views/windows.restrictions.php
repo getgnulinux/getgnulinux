@@ -54,7 +54,7 @@ $this->load_header();
         <div class="quote">
           <p><?php print _("If you go to most of the free software sites you can click down a couple of levels and find the [GNU] <abbr title=\"General Public License, the main free software license\">GPL</abbr>, the X license, the Apache license, whichever terms and conditions you have to accept in order to use that software."); ?></p>
           <p><?php print _("Now with a proprietary software company, the license is buried so you can't read it until after you have paid for the product, then they're asking you to <strong>turn off part of your brain</strong>, they're asking you to turn off part of your ability to work with other people and to do business, when you use their software."); ?></p>
-          <span class="source">Don Marti, <a href="https://web.archive.org/web/20080217042507/http://www.go-opensource.org:80/go_open/episode_2/big_guns/" hreflang="en" title="<?php print _("Don Marti interview"); ?>"><?php print _("2005 interview"); ?></a></span>
+          <span class="source">Don Marti, <a href="https://web.archive.org/web/20080217042507/http://www.go-opensource.org:80/go_open/episode_2/big_guns/" hreflang="en" title="<?php print _("Don Marti interview"); ?>" rel="external"><?php print _("2005 interview"); ?></a></span>
         </div>
       </section>
 
@@ -65,7 +65,7 @@ $this->load_header();
         <p><?php print _("Restrictions on the use of Office and Windows are so harsh, that many violations occur everyday around us. People are tempted to buy only one version of Microsoft Office and install it on two computers. Others keep their version of Windows when they throw their PC away. Other people give away their second-hand Windows software when they stop using it."); ?></p>
         <p><?php
         # translators: use the definition of "free software" on GNU.org in place of softwareliberty.com ; also, if you can, use a translation of the GPL as found on https://www.gnu.org/licenses/translations.html
-        print _("<strong>You have an alternative to breaking this law,</strong> or feeling very restrained when you abide to it. GNU/Linux is <a href=\"https://www.softwareliberty.com/\">Free Software</a> (much better than just freeware): its <a href=\"https://www.gnu.org/copyleft/gpl.html\">GPL</a> license is designed to protect your rights."); ?></p>
+        print _("<strong>You have an alternative to breaking this law,</strong> or feeling very restrained when you abide to it. GNU/Linux is <a href=\"https://www.softwareliberty.com/\" rel=\"external\">Free Software</a> (much better than just freeware): its <a href=\"https://www.gnu.org/copyleft/gpl.html\" rel=\"external\">GPL</a> license is designed to protect your rights."); ?></p>
         <p><a href="<?php $this->base_url('windows/restrictions/further_details'); ?>" title="<?php print _("Restrictions - further details"); ?>"><?php print _("Read more"); ?></a></p>
       </section>
     </article>

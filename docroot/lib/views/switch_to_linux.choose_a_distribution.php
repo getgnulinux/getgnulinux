@@ -18,7 +18,7 @@ $fedora1_text = _("GIMP image editing application, cropping a photo.");
 # translators: This is the description of the "fedora2.png" screenshot.
 $fedora2_text = _("LibreOffice Writer open, editing a standard document.");
 # translators: This is the description of the "fedora3.png" screenshot.
-$fedora3_text = _("Accessing applications in the <a href=\"https://www.gnome.org/gnome-3/\">GNOME 3</a> desktop environment.");
+$fedora3_text = _("Accessing applications in the <a href=\"https://www.gnome.org/gnome-3/\" rel=\"external\">GNOME 3</a> desktop environment.");
 
 # translators: This is the description of the "trisquel1.png" screenshot.
 $trisquel1_text = _("Update manager open.");
@@ -42,7 +42,7 @@ $trisquel3_text = _("Accessing applications.");
       </div>
 
       <p class="italic centered"><?php # translators: The distrowatch.com website is translated into many languages (see https://distrowatch.com/dwres.php?resource=about). If your language is present, please replace "EN" in the URL by the code of your language (e.g. for Spanish, the last part would become "language=ES").
-      print _("Note: There are <a href=\"https://distrowatch.com/dwres.php?resource=major&amp;language=EN\">plenty of distributions to choose from and compare</a>."); ?><br />
+      print _("Note: There are <a href=\"https://distrowatch.com/dwres.php?resource=major&amp;language=EN\" rel=\"external\">plenty of distributions to choose from and compare</a>."); ?><br />
       <?php print _("This is our selection for newcomers. These links are not commercial."); ?></p>
     </header>
 
@@ -55,7 +55,7 @@ $trisquel3_text = _("Accessing applications.");
 
         <p><?php print _("Simple, easy, usable and our personal favourite. A tanned, smooth atmosphere that never gets in your way. All programs are kept in order and managed easily. Configuration is kept simple rather than exhaustive."); ?></p>
         <p><?php print _("We recommend this friendly and complete distribution if you are looking for an easy way to try and step into GNU/Linux."); ?></p>
-        <p><?php print _("Ubuntu also has a sister distribution, <a href=\"https://www.kubuntu.org/\">Kubuntu</a>, with a different layout and slightly more advanced graphics."); ?></p>
+        <p><?php print _("Ubuntu also has a sister distribution, <a href=\"https://www.kubuntu.org/\" rel=\"external\">Kubuntu</a>, with a different layout and slightly more advanced graphics."); ?></p>
 
         <div class="flexslider screenshots">
           <ul class="slides">

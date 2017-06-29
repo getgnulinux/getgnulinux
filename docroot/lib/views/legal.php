@@ -33,7 +33,7 @@ $this->load_header();
       <ul>
         <li>
           Text content of getgnulinux.org and all their translations:
-          <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative
+          <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="external">Creative
           Commons Attribution Share-Alike 3.0 License</a>. This means we hold
           the copyright upon it, but grant some rights, including copying,
           redistributing, modifying for any purpose, including commercial, without
@@ -52,7 +52,7 @@ $this->load_header();
       <p>Microsoft Windows&reg;, Microsoft Windows Vista&trade;, Microsoft Excel&reg;,
       Microsoft PowerPoint&reg;, Microsoft Internet Explorer&reg;, Microsoft Windows
       Media Player&reg;, and
-      <a rel="nofollow" href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/#E6" title="Partial list of Microsoft products subjected to trademark regulations">other Microsoft product and service names</a>
+      <a rel="nofollow external" href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/#E6" title="Partial list of Microsoft products subjected to trademark regulations">other Microsoft product and service names</a>
       are trademarks, registered trademarks or trade dress of Microsoft, Inc. or
       its affiliates in the U.S. and/or other countries.</p>
 
@@ -111,7 +111,7 @@ $this->load_header();
       <p>We do not intend to infringe others' copyrights, and we ask our readers to
       do the same. If you believe that your work has been copied in a way that
       constitutes infringement on our websites, please
-      <a href="<?php $this->text('contact_url'); ?>">contact us</a>.
+      <a href="<?php $this->text('contact_url'); ?>" rel="external">contact us</a>.
       We reserve the right to seek all remedies available at law and in equity for
       violations of these terms of use, including, but not limited to, the right to
       block access from a particular Internet address to our websites.</p>

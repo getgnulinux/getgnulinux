@@ -33,8 +33,8 @@ $this->load_header();
       <section>
         <h2><?php print _("The larger picture"); ?></h2>
         <p><?php # translators: use the definition of "free software" on GNU.org in place of softwareliberty.com
-        print _("When you get a distribution of GNU/Linux, <strong>you also get the freedom to study, copy, change, and redistribute it</strong> &ndash;&nbsp;that's what makes it truly <a href=\"https://www.softwareliberty.com/\" title=\"what is freedom in software?\">free software</a>."); ?></p>
-        <p><?php print _("Many companies develop their own operating system based on the core <a href=\"https://www.gnu.org\" title=\"the GNU project: at the source of all GNU/Linux distributions\">GNU software</a>: products they do not have exclusive rights on. How does the wheel turn?"); ?></p>
+        print _("When you get a distribution of GNU/Linux, <strong>you also get the freedom to study, copy, change, and redistribute it</strong> &ndash;&nbsp;that's what makes it truly <a href=\"https://www.softwareliberty.com/\" title=\"what is freedom in software?\" rel=\"external\">free software</a>."); ?></p>
+        <p><?php print _("Many companies develop their own operating system based on the core <a href=\"https://www.gnu.org\" title=\"the GNU project: at the source of all GNU/Linux distributions\" rel=\"external\">GNU software</a>: products they do not have exclusive rights on. How does the wheel turn?"); ?></p>
         <ul>
           <li><?php print _("Most companies make a profit by <em>selling support and services</em> around their GNU/Linux distribution. Corporate customers buy guaranteed security updates and assistance. Other services often include training and on-demand improvements to software."); ?></li>
           <li><?php print _("Some companies, such as HP or IBM, contribute to GNU/Linux because they pre-install it on servers they sell."); ?></li>
