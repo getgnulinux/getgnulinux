@@ -70,10 +70,10 @@ $this->load_header();
       </section>
 
       <section>
-        <h3 id="gnu"><?php print _("And what has that software to do with a gnu?"); ?></h3>
+        <h3 id="gnu"><?php print _("And what has that software to do with a GNU?"); ?></h3>
         <p><?php
         # translators: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
-        print _("When Richard Stallman started to design GNU, the main system in use was Unix, which is proprietary. Because GNU is similar in function to (and compatible with) Unix, but is <a href=\"https://www.softwareliberty.com/\" rel=\"external\">free software</a>, he coined the term GNU which stands for <strong>GNU's Not Unix</strong>. It's a <a href=\"https://en.wikipedia.org/wiki/Recursive_acronym\" rel=\"external\">recursive acronym</a>. (if you enjoy that kind of humour check out what <a href=\"https://www.gnu.org/software/hurd/hurd.html\" rel=\"external\">GNU Hurd</a> means)."); ?></p>
+        print _("When Richard Stallman started to design GNU, the main system in use was Unix, which is proprietary. Because GNU is similar in function to (and compatible with) Unix, but is <a href=\"https://www.softwareliberty.com/\" rel=\"external\">free software</a>, he coined the term GNU which stands for <strong>GNU's Not Unix</strong>. It's a <a href=\"https://en.wikipedia.org/wiki/Recursive_acronym\" rel=\"external\">recursive acronym</a>. If you enjoy that kind of humour, check out what <a href=\"https://www.gnu.org/software/hurd/hurd.html\" rel=\"external\">GNU Hurd</a> means."); ?></p>
       </section>
 
       <section>
