@@ -61,7 +61,7 @@ $this->load_header();
                 <a href="https://www.ubuntu.com/download/"><i class="fa fa-download fa-fw"></i> <?php print _("Download Ubuntu"); ?></a>
               </div>
               <div class="button blue">
-                <a href="https://www.osdisc.com/products/linux/ubuntu"><i class="fa fa-truck fa-fw"></i> <?php print _("Order a CD"); ?></a>
+                <a href="https://www.osdisc.com/products/linux/ubuntu?affiliate=ggl"><i class="fa fa-truck fa-fw"></i> <?php print _("Order a CD"); ?></a>
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@ $this->load_header();
                 <a href="https://getfedora.org/"><i class="fa fa-download fa-fw"></i> <?php print _("Download Fedora"); ?></a>
               </div>
               <div class="button blue">
-                <a href="https://www.osdisc.com/products/linux/fedora"><i class="fa fa-truck fa-fw"></i> <?php print _("Order a CD"); ?></a>
+                <a href="https://www.osdisc.com/products/linux/fedora?affiliate=ggl"><i class="fa fa-truck fa-fw"></i> <?php print _("Order a CD"); ?></a>
               </div>
             </div>
           </div>
@@ -99,7 +99,7 @@ $this->load_header();
                 <a href="https://trisquel.info/download"><i class="fa fa-download fa-fw"></i> <?php print _("Download Trisquel"); ?></a>
               </div>
               <div class="button blue">
-                <a href="https://www.osdisc.com/products/linux/trisquel"><i class="fa fa-truck fa-fw"></i> <?php print _("Order a CD"); ?></a>
+                <a href="https://www.osdisc.com/products/linux/trisquel?affiliate=ggl"><i class="fa fa-truck fa-fw"></i> <?php print _("Order a CD"); ?></a>
               </div>
             </div>
           </div>
