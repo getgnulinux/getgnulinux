@@ -66,7 +66,7 @@ $this->load_header();
         # translators: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
         print _("Calling the system <em>GNU/Linux</em> is much more meaningful, technically (end-users use a lot of \"GNU\" and a little of \"Linux\") but also philosophically: the strength and momentum of the <a href=\"https://www.softwareliberty.com/\" rel=\"external\">Free Software</a> movement started with and are still carried by <a href=\"https://www.gnu.org/\" rel=\"external\">the GNU project</a>."); ?></p>
         <p><?php print _("Calling the system <em>Linux</em> is more practical and appealing for computer users that often believe Windows is the only thing on earth."); ?></p>
-        <p><?php print _("To avoid confusion, we use \"GNU/Linux\" to refer to operating systems that include <a href=\"https://www.gnu.org/\" rel=\"external\">GNU</a> software and the <a href=\"https://www.kernel.org/\" rel=\"external\">Linux kernel</a>. When we use \"Linux\" without the GNU part, we refer to the kernel."); ?></p>
+        <p><?php print _("To avoid confusion, we use \"GNU/Linux\" to refer to operating system distributions that include <a href=\"https://www.gnu.org/\" rel=\"external\">GNU</a> software and the <a href=\"https://www.kernel.org/\" rel=\"external\">Linux kernel</a>. When we use \"Linux\" without the GNU part, we refer to the kernel."); ?></p>
       </section>
 
       <section>
