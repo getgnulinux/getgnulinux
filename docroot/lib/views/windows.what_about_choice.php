@@ -38,7 +38,7 @@ $this->load_header();
         <p><?php print _("<strong>For a long time Microsoft Office only had support for Microsoft formats</strong>. There are many ways to write work documents, but Microsoft Office users were bound to Microsoft Office files. People who opted without expensive Microsoft products cannot write and read <code>.doc</code> files very reliably."); ?></p>
         <p><?php
         # translators: Please use link to localized Wikipedia article in place of ODF
-        print _("There are of course other ways of writing and exchanging office files, the most well-known being <a href=\"http://www.opendocumentfellowship.com/\" rel=\"external\">the OpenDocument Format</a>. But Microsoft isn't keen on letting Office users exchange files anyone can read and edit. As of Microsoft Office 2007 SP2, Microsoft finally added support for the ODF format after being pushed by the European Commission."); ?></p>
+        print _("There are of course other ways of writing and exchanging office files, the most well-known being <a href=\"http://www.opendocumentformat.org/\" rel=\"external\">the OpenDocument Format</a>. But Microsoft isn't keen on letting Office users exchange files anyone can read and edit. As of Microsoft Office 2007 SP2, Microsoft finally added support for the ODF format after being pushed by the European Commission."); ?></p>
       </section>
 
       <section>

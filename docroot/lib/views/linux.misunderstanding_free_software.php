@@ -53,8 +53,8 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
             <li><?php print _("Applications: <a href=\"https://www.getfirefox.com/\" rel=\"external\">Firefox</a> (web browser), <a href=\"https://inkscape.org/\" rel=\"external\">Inkscape</a> (vector drawing)."); ?></li>
             <li><?php print _("Complete systems: <a href=\"https://en.wikipedia.org/wiki/Apache_HTTP_Server\" rel=\"external\">Apache</a> (web server), <a href=\"https://en.wikipedia.org/wiki/OpenBSD\" rel=\"external\">OpenBSD</a> (<abbr title=\"Operating System\">OS</abbr>), and of course, GNU/Linux."); ?></li>
             <li><?php
-            # translators: use URL to localized Wikipedia article for ODF, instead of opendocumentfellowship
-            print _("Formats and protocols: <a href=\"https://en.wikipedia.org/wiki/HTML\" rel=\"external\">HTML</a> (web pages), <a href=\"https://en.wikipedia.org/wiki/BitTorrent_(protocol)\" rel=\"external\">BitTorrent</a> (file sharing), <a href=\"https://en.wikipedia.org/wiki/OpenDocument\" rel=\"external\">ODF</a> (office documents)."); ?></li>
+            # translators: use URL to localized Wikipedia article for OpenDocument Format, instead of www.opendocumentformat.org
+            print _("Formats and protocols: <a href=\"https://en.wikipedia.org/wiki/HTML\" rel=\"external\">HTML</a> (web pages), <a href=\"https://en.wikipedia.org/wiki/BitTorrent_(protocol)\" rel=\"external\">BitTorrent</a> (file sharing), <a href=\"http://www.opendocumentformat.org/\" rel=\"external\">OpenDocument Format</a> (office documents)."); ?></li>
             <li><?php print _("Server applications: <a href=\"https://www.drupal.org/\" rel=\"external\">Drupal</a> (Content Management System), <a href=\"https://www.wordpress.org/\" rel=\"external\">Wordpress</a> (blog)."); ?></li>
           </ul>
         </div>
