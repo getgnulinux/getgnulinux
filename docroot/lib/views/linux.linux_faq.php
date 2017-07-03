@@ -25,14 +25,14 @@ $this->load_header();
           <li><a href="#gnu"><?php print _("And what has that software to do with a GNU?"); ?></a></li>
           <li><a href="#trademark"><?php print _("Is Linux a registered trademark?"); ?></a></li>
           <li><a href="#only_linux"><?php print _("Is GNU/Linux the only free operating system available?"); ?></a></li>
-          <li><a href="#mac"><?php print _("Is Mac OS X a distribution of GNU/Linux?"); ?></a></li>
+          <li><a href="#mac"><?php print _("Is macOS a distribution of GNU/Linux?"); ?></a></li>
         </ul>
         <p><?php print _("Understanding free software:"); ?></p>
         <ul>
           <li><a href="#open_source"><?php print _("Are &quot;Open Source&quot; and &quot;Free Software&quot; the same thing?"); ?></a></li>
           <li><a href="#freedom"><?php print _("Why are some GNU/Linux distributions sold, not given away?"); ?></a></li>
           <li><a href="#full_freedom"><?php print _("Why are some GNU/Linux distributions not fully free?"); ?></a></li>
-          <li><a href="#mac_freedom"><?php print _("Is Mac OS also a free operating system?"); ?></a></li>
+          <li><a href="#mac_freedom"><?php print _("Is macOS also a free operating system?"); ?></a></li>
           <li><a href="#linux_illegality"><?php print _("Aren't GNU/Linux users the ones who make illegal downloads?"); ?></a></li>
           <li><a href="#linux_communism"><?php print _("Is GNU/Linux a form of communism?"); ?></a></li>
         </ul>
@@ -88,10 +88,10 @@ $this->load_header();
       </section>
 
       <section>
-        <h3 id="mac"><?php print _("Is Mac OSX a distribution of GNU/Linux?"); ?></h3>
+        <h3 id="mac"><?php print _("Is macOS a distribution of GNU/Linux?"); ?></h3>
         <p><?php
         # translators: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
-        $p = _("No. There are a few <a href=\"https://www.softwareliberty.com/\" rel=\"external\">free software</a> components in Mac OSX, and it is technically similar to GNU/Linux systems. But overall, it is proprietary software: all the <a href=\"%s\">issues about Windows</a> apply to it as well."); printf($p, $this->base_url('windows',1)); ?></p>
+        $p = _("No. There are a few <a href=\"https://www.softwareliberty.com/\" rel=\"external\">free software</a> components in macOS, and it is technically similar to GNU/Linux systems. But overall, it is proprietary software: all the <a href=\"%s\">issues about Windows</a> apply to it as well."); printf($p, $this->base_url('windows',1)); ?></p>
       </section>
 
       <h2><?php print _("Understanding free software"); ?></h2>
@@ -133,11 +133,11 @@ $this->load_header();
       </section>
 
       <section>
-        <h3 id="mac_freedom"><?php print _("Is Mac OS also a free operating system?"); ?></h3>
-        <h4 class="question_sub"><?php print _("Do all the reasons for avoiding Windows apply to Mac&nbsp;OS?"); ?></h4>
+        <h3 id="mac_freedom"><?php print _("Is macOS also a free operating system?"); ?></h3>
+        <h4 class="question_sub"><?php print _("Do all the reasons for avoiding Windows apply to macOS?"); ?></h4>
         <p><?php $p = _("It's quite common for Mac users to believe they are exempt from <a href=\"%s\">restrictions associated with Windows</a>. Unfortunately such is not the case."); printf($p, $this->base_url('windows',1)); ?></p>
-        <p><?php print _("Mac OS X does have some low-level components which are <a href=\"https://www.softwareliberty.com/\" rel=\"external\">free software</a>; and Apple puts less energy into customer lock-in (with some notable efforts such as BootCamp)."); ?><br />
-        <?php print _("However, the end-user is still fundamentally restricted &mdash; because of the proprietary license, he/she cannot use Mac OSX for all purposes, nor copy, study, modify, or redistribute it."); ?></p>
+        <p><?php print _("macOS does have some low-level components which are <a href=\"https://www.softwareliberty.com/\" rel=\"external\">free software</a>; and Apple puts less energy into customer lock-in (with some notable efforts such as BootCamp)."); ?><br />
+        <?php print _("However, the end-user is still fundamentally restricted &mdash; because of the proprietary license, he/she cannot use macOS for all purposes, nor copy, study, modify, or redistribute it."); ?></p>
         <p><?php print _("Happily, because these freedoms matter a lot, it's possible to run popular GNU/Linux distributions (such as <a href=\"https://www.ubuntu.com/\" rel=\"external\">Ubuntu</a>) on Mac computers."); ?></p>
       </section>
 
@@ -241,7 +241,7 @@ $this->load_header();
       <section>
         <h3 id="games"><?php print _("Can I play popular 3D games under GNU/Linux?"); ?></h3>
         <p><?php print _("Yes and No: Some games, for example some <a href=\"http://www.idsoftware.com/\" rel=\"external\">id Software</a> games like the Quake series and Doom 3, Unreal Tournament, Cold War, and many more have GNU/Linux versions."); ?></p>
-        <p><?php print _("Most popular games, alas, only work on Windows and occasionally on Mac OS. Some Windows games, such as Call of Duty 4 or GTA Vice City, can be run on GNU/Linux with <a href=\"https://www.winehq.org/\" rel=\"external\">Wine</a> or its non-free variant <a href=\"https://www.codeweavers.com/products/crossover/\" rel=\"external\">CrossOver</a>, which involves some unpleasant effort for the user. For a list of games known to work on Wine, see <a href=\"https://appdb.winehq.org/\" rel=\"external\">their games database</a>."); ?></p>
+        <p><?php print _("Most popular games, alas, only work on Windows and occasionally on macOS. Some Windows games, such as Call of Duty 4 or GTA Vice City, can be run on GNU/Linux with <a href=\"https://www.winehq.org/\" rel=\"external\">Wine</a> or its non-free variant <a href=\"https://www.codeweavers.com/products/crossover/\" rel=\"external\">CrossOver</a>, which involves some unpleasant effort for the user. For a list of games known to work on Wine, see <a href=\"https://appdb.winehq.org/\" rel=\"external\">their games database</a>."); ?></p>
       </section>
 
       <section>

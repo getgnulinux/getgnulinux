@@ -57,11 +57,11 @@ $this->load_header();
 
       <section>
         <h2 id="whats_the_same"><?php print _("What is mostly the same in GNU/Linux"); ?></h2>
-        <p><?php print _("Fundamentally, everyday users will find GNU/Linux similar in use to Windows or Mac OSX."); ?></p>
+        <p><?php print _("Fundamentally, everyday users will find GNU/Linux similar in use to Windows or macOS."); ?></p>
 
         <h3><?php print _("General set-up"); ?></h3>
         <p><?php print _("If you still believe GNU/Linux is controlled with code and command-line, you should update your views!"); ?></p>
-        <p><?php print _("Just like Windows, GNU/Linux has to boot when you switch your computer on, and then you use programs in it to do different things. The taskbar and layout of applications will feel familiar to Windows or Mac OS users."); ?></p>
+        <p><?php print _("Just like Windows, GNU/Linux has to boot when you switch your computer on, and then you use programs in it to do different things. The taskbar and layout of applications will feel familiar to Windows or macOS users."); ?></p>
 
         <h3><?php print _("Web browsing and common tasks"); ?></h3>
         <p><?php # translators: use localized Firefox landing page if possible
