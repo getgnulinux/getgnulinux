@@ -240,8 +240,8 @@ $this->load_header();
 
       <section>
         <h3 id="games"><?php print _("Can I play popular 3D games under GNU/Linux?"); ?></h3>
-        <p><?php print _("Yes and No: Some games, for example some <a href=\"http://www.idsoftware.com/\" rel=\"external\">id Software</a> games like the Quake series and Doom 3, Unreal Tournament, Cold War, and many more have GNU/Linux versions."); ?></p>
-        <p><?php print _("Most popular games, alas, only work on Windows and occasionally on macOS. Some Windows games, such as Call of Duty 4 or GTA Vice City, can be run on GNU/Linux with <a href=\"https://www.winehq.org/\" rel=\"external\">Wine</a> or its non-free variant <a href=\"https://www.codeweavers.com/products/crossover/\" rel=\"external\">CrossOver</a>, which involves some unpleasant effort for the user. For a list of games known to work on Wine, see <a href=\"https://appdb.winehq.org/\" rel=\"external\">their games database</a>."); ?></p>
+        <p><?php print _("Yes and no. Some games, for example some <a href=\"http://www.idsoftware.com/\" rel=\"external\">id Software</a> games like the Quake series and Doom 3, Unreal Tournament, Cold War, and many more have GNU/Linux versions. Since the release of the popular Steam platform to the GNU/Linux operating system back in 2013, the number of GNU/Linux compatible games on Steam has been growing rapidly. Check out the <a href=\"http://store.steampowered.com/linux\" rel=\"external\">Steam store</a> where you can find a wealth of high quality, GNU/Linux compatible games."); ?></p>
+        <p><?php print _("Most popular games, alas, only work on Windows and occasionally on macOS. Some Windows games, such as Call of Duty or GTA Vice City, can be run on GNU/Linux with <a href=\"https://www.winehq.org/\" rel=\"external\">Wine</a> or its non-free variant <a href=\"https://www.codeweavers.com/products/crossover/\" rel=\"external\">CrossOver</a>, which involves some unpleasant effort for the user. For a list of games known to work on Wine, see <a href=\"https://appdb.winehq.org/\" rel=\"external\">their games database</a>."); ?></p>
       </section>
 
       <section>
