@@ -11,7 +11,7 @@ const sassConfig = {
   precision: 10,
   includePaths: [
     'bower_components/normalize-css/',
-    'bower_components/bourbon/core/',
+    'bower_components/bourbon/app/assets/stylesheets/',
     'bower_components/neat/app/assets/stylesheets',
   ]
 }
