@@ -58,8 +58,6 @@
   <i class="fa fa-chevron-circle-up fa-3x"></i>
 </a>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
 <!-- build:js /scripts/vendor/jquery.js -->
 <script src="/bower_components/jquery/dist/jquery.min.js"></script>
 <!-- endbuild -->
