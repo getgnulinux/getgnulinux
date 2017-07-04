@@ -50,7 +50,7 @@ gulp.task('scripts', () => {
 
 gulp.task('fonts', () => {
   return gulp.src(require('main-bower-files')('**/*.{eot,svg,ttf,woff,woff2}', function (err) {})
-    .concat('src/styles/vendor/fonts/*'))
+    .concat('bower_components/flexslider/fonts/*'))
     .pipe(gulp.dest('docroot/styles/vendor/fonts'));
 });
 

@@ -19,23 +19,27 @@ The following tools need to be installed on your build environment:
 * Git
 * GNU gettext
 * GNU make
-* Nodejs >= 4.2.6
+* Nodejs
+* Yarn
 
-On a Debian or Debian-based system, you can easily install these dependencies
+On a Debian or Debian-based system, you can easily install most dependencies
 with:
 
-    $ sudo apt-get install git gettext make nodejs
+    sudo apt-get install git gettext make nodejs
 
-First step is to download getgnulinux' source code from GitHub:
+Follow the instructions on <https://yarnpkg.com/en/docs/install> to install
+Yarn on your system.
 
-    $ git clone https://github.com/figure002/getgnulinux.git
+Clone the getgnulinux source code repository:
+
+    git clone https://github.com/figure002/getgnulinux.git
 
 This clones the repository into a new directory called "getgnulinux". The
 commands that follow must be executed from this directory.
 
 Create a settings file:
 
-    $ make docroot/settings.php
+    make docroot/settings.php
 
 Now open the newly created `docroot/settings.php` in a text editor and change
 the settings where needed.
@@ -44,29 +48,31 @@ The `locale/getgnulinux/` directory contains the PO files (these contain the
 translations). You need to compile these PO files to enable the translations on
 the website:
 
-    $ make
+    make
 
 When a PO file is updated, you'll need to recompile it to see the changes on
 the website. Just run the `make` command again.
 
 Install the required Node.js packages:
 
-    $ npm install
+    yarn install
 
 Activate the GGL development work space:
 
-    $ source scripts/activate
+    source scripts/activate
 
-You should now see "(ggl) " at the start of your prompt. This indicates that
-you are in an active GGL development workspace, allowing you to run `gulp`
-commands, which are used to make development and production builds of the
-website. You can execute `deactivate` at any time to deactivate the GGL
+You should now see "(ggl)" at the start of your prompt. This indicates that you
+are in an active GGL development workspace, allowing you to run `bower` and
+`gulp` commands. You can execute `deactivate` at any time to deactivate the GGL
 development workspace.
 
-While in an active GGL workspace, run the following command to create a
-production build:
+Install additional required packages with:
 
-    $ gulp
+    bower install
+
+Finally, build the project with:
+
+    gulp build
 
 You can also run `gulp --tasks` to see a list of available `gulp` tasks.
 
