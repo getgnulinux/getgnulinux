@@ -26,8 +26,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/figure002/getgnulinux/issues\n"
-"POT-Creation-Date: 2017-06-30 01:16+0200\n"
-"PO-Revision-Date: 2017-06-30 02:41+0000\n"
+"POT-Creation-Date: 2017-07-04 00:49+0200\n"
+"PO-Revision-Date: 2017-07-04 00:46+0000\n"
 "Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/serrano/getgnulinux/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -56,7 +56,7 @@ msgstr "Início"
 #. the top header menu and must be easily readable.
 #: docroot/lib/ggl.php:206
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:54
-#: docroot/lib/views/linux.linux_faq.php:250 docroot/lib/views/more.php:16
+#: docroot/lib/views/linux.linux_faq.php:252 docroot/lib/views/more.php:16
 #: src/templates/header.php:79 src/templates/footer.php:38
 msgid "More"
 msgstr "Mais"
@@ -65,7 +65,7 @@ msgstr "Mais"
 #. the top header menu and must be easily readable.
 #: docroot/lib/ggl.php:208
 #: docroot/lib/views/linux.misunderstanding_free_software.php:179
-#: docroot/lib/views/linux.linux_faq.php:260 docroot/lib/views/linux.php:13
+#: docroot/lib/views/linux.linux_faq.php:262 docroot/lib/views/linux.php:13
 #: docroot/lib/views/home.php:31 src/templates/header.php:70
 msgid "What is GNU/Linux?"
 msgstr "O que é GNU/Linux?"
@@ -785,17 +785,17 @@ msgid ""
 "(<abbr title=\"Operating System\">OS</abbr>), and of course, GNU/Linux."
 msgstr "Sistemas completos: <a href=\"https://en.wikipedia.org/wiki/Apache_HTTP_Server\" rel=\"external\">Apache</a> (servidor web), <a href=\"https://en.wikipedia.org/wiki/OpenBSD\" rel=\"external\">OpenBSD</a> (<abbr title=\"Operating System\">SO</abbr>) e, é claro, GNU/Linux."
 
-#. translators: use URL to localized Wikipedia article for ODF, instead of
-#. opendocumentfellowship
+#. translators: use URL to localized Wikipedia article for OpenDocument
+#. Format, instead of www.opendocumentformat.org
 #: docroot/lib/views/linux.misunderstanding_free_software.php:57
 msgid ""
 "Formats and protocols: <a href=\"https://en.wikipedia.org/wiki/HTML\" "
 "rel=\"external\">HTML</a> (web pages), <a "
 "href=\"https://en.wikipedia.org/wiki/BitTorrent_(protocol)\" "
 "rel=\"external\">BitTorrent</a> (file sharing), <a "
-"href=\"https://en.wikipedia.org/wiki/OpenDocument\" rel=\"external\">ODF</a>"
-" (office documents)."
-msgstr "Formatos e protocolos: <a href=\"https://en.wikipedia.org/wiki/HTML\" rel=\"external\">HTML</a> (páginas web), <a href=\"https://en.wikipedia.org/wiki/BitTorrent_(protocol)\" rel=\"external\">BitTorrent</a> (compartilhamento de arquivos), <a href=\"https://en.wikipedia.org/wiki/OpenDocument\" rel=\"external\">ODF</a> (documentos de escritórios)."
+"href=\"http://www.opendocumentformat.org/\" rel=\"external\">OpenDocument "
+"Format</a> (office documents)."
+msgstr "Formatos e protocolos: <a href=\"https://en.wikipedia.org/wiki/HTML\" rel=\"external\">HTML</a> (páginas web), <a href=\"https://en.wikipedia.org/wiki/BitTorrent_(protocol)\" rel=\"external\">BitTorrent</a> (compartilhamento de arquivos), <a href=\"http://www.opendocumentformat.org/\" rel=\"external\">OpenDocument Format</a> (documentos de escritórios)."
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:58
 msgid ""
@@ -1754,8 +1754,8 @@ msgstr "O que é praticamente igual no GNU/Linux"
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:60
 msgid ""
 "Fundamentally, everyday users will find GNU/Linux similar in use to Windows "
-"or Mac OSX."
-msgstr "Fundamentalmente, os usuários do dia a dia irão achar o GNU / Linux semelhante em uso ao Windows ou Mac OSX."
+"or macOS."
+msgstr "Fundamentalmente, os usuários do dia a dia irão achar o GNU/Linux semelhante em uso ao Windows ou MacOS."
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:62
 msgid "General set-up"
@@ -1771,8 +1771,8 @@ msgstr "Se você ainda acredita GNU/Linux é controlada com código e de linha d
 msgid ""
 "Just like Windows, GNU/Linux has to boot when you switch your computer on, "
 "and then you use programs in it to do different things. The taskbar and "
-"layout of applications will feel familiar to Windows or Mac OS users."
-msgstr "Assim como o Windows, o GNU/Linux tem para iniciar quando você liga seu computador, e então você usa programas para fazer coisas diferentes. A barra de tarefas e layout das aplicações será familiar para usuários do Windows ou Mac OS."
+"layout of applications will feel familiar to Windows or macOS users."
+msgstr "Assim como o Windows, o GNU/Linux tem para iniciar quando você liga seu computador, e então você usa programas para fazer coisas diferentes. A barra de tarefas e layout das aplicações será familiar para usuários do Windows ou MacOS."
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:66
 msgid "Web browsing and common tasks"
@@ -1853,7 +1853,7 @@ msgstr "Leia mais em nosso FAQ de GNU/Linux:"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:86
 #: docroot/lib/views/linux.linux_faq.php:49
-#: docroot/lib/views/linux.linux_faq.php:222
+#: docroot/lib/views/linux.linux_faq.php:224
 msgid "Can I play my DVDs and MP3s under GNU/Linux?"
 msgstr "Posso assistir meus DVDs e ouvir meus MP3s no GNU/Linux?"
 
@@ -1878,12 +1878,15 @@ msgid ""
 "they have produced quite a few high-quality games, both 2D and 3D, that are "
 "free software. You can head to the <a "
 "href=\"https://ubuntuforums.org/forumdisplay.php?f=93\" "
-"rel=\"external\">Ubuntu gaming forum</a> to find more information."
-msgstr "Há uma comunidade muito ativa de software livre que tem desenvolvido jogos,porém,poucos jogos de alta qualidade, tanto em 2D e 3D, de software livre. Você pode ir ao <a href=\"https://ubuntuforums.org/forumdisplay.php?f=93\" rel=\"external\">fórum de jogos do Ubuntu</a> e encontrará mais informações."
+"rel=\"external\">Ubuntu gaming forum</a> to find more information. And with "
+"the release of the popular Steam platform to GNU/Linux, the number of <a "
+"href=\"http://store.steampowered.com/linux\" rel=\"external\">GNU/Linux "
+"supported games on Steam</a> has been growing rapidly."
+msgstr "Há uma comunidade muito ativa de software livre que tem desenvolvido jogos,porém,poucos jogos de alta qualidade, tanto em 2D e 3D, de software livre. Você pode ir ao <a href=\"https://ubuntuforums.org/forumdisplay.php?f=93\" rel=\"external\">fórum de jogos do Ubuntu</a> e encontrará mais informações. A com o lançamento da plataforma popular Steam para GNU/Linux, o número de <a href=\"http://store.steampowered.com/linux\" rel=\"external\">jogos com suporte a GNU/Linux na Steam</a> tem crescido rapidamente."
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:96
 #: docroot/lib/views/linux.linux_faq.php:50
-#: docroot/lib/views/linux.linux_faq.php:240
+#: docroot/lib/views/linux.linux_faq.php:242
 msgid "Can I play popular 3D games under GNU/Linux?"
 msgstr "Posso jogar jogos 3D populares no GNU/Linux?"
 
@@ -1962,6 +1965,7 @@ msgid "Are &quot;GNU/Linux&quot; and &quot;Linux&quot; any different?"
 msgstr "&quot;GNU/Linux&quot; e &quot;Linux&quot; são diferentes?"
 
 #: docroot/lib/views/linux.linux_faq.php:25
+#: docroot/lib/views/linux.linux_faq.php:73
 msgid "And what has that software to do with a GNU?"
 msgstr "E o que esse software tem a ver com um GNU?"
 
@@ -1976,8 +1980,9 @@ msgid "Is GNU/Linux the only free operating system available?"
 msgstr "O GNU/Linux é o único sistema operacional livre disponível?"
 
 #: docroot/lib/views/linux.linux_faq.php:28
-msgid "Is Mac OS X a distribution of GNU/Linux?"
-msgstr "O Mac OS X é uma distribuição de GNU/Linux?"
+#: docroot/lib/views/linux.linux_faq.php:91
+msgid "Is macOS a distribution of GNU/Linux?"
+msgstr "O MacOS é uma distribuição de GNU/Linux?"
 
 #: docroot/lib/views/linux.linux_faq.php:30
 msgid "Understanding free software:"
@@ -2001,8 +2006,8 @@ msgstr "Por que algumas distribuições GNU/Linux não são totalmente livres?"
 
 #: docroot/lib/views/linux.linux_faq.php:35
 #: docroot/lib/views/linux.linux_faq.php:136
-msgid "Is Mac OS also a free operating system?"
-msgstr "O Mac OS também é um sistema operacional livre?"
+msgid "Is macOS also a free operating system?"
+msgstr "O MacOS também é um sistema operacional livre?"
 
 #: docroot/lib/views/linux.linux_faq.php:36
 #: docroot/lib/views/linux.linux_faq.php:145
@@ -2048,7 +2053,7 @@ msgid "Will Microsoft Office run on GNU/Linux?"
 msgstr "O Microsoft Office funciona no GNU/Linux?"
 
 #: docroot/lib/views/linux.linux_faq.php:52
-#: docroot/lib/views/linux.linux_faq.php:246
+#: docroot/lib/views/linux.linux_faq.php:248
 msgid "More questions?"
 msgstr "Mais questões?"
 
@@ -2099,16 +2104,12 @@ msgstr "Chamando o sistema  Linux é mais prático e atraente para usuários de 
 
 #: docroot/lib/views/linux.linux_faq.php:69
 msgid ""
-"To avoid confusion, we use \"GNU/Linux\" to refer to operating systems that "
-"include <a href=\"https://www.gnu.org/\" rel=\"external\">GNU</a> software "
-"and the <a href=\"https://www.kernel.org/\" rel=\"external\">Linux "
-"kernel</a>. When we use \"Linux\" without the GNU part, we refer to the "
-"kernel."
+"To avoid confusion, we use \"GNU/Linux\" to refer to operating system "
+"distributions that include <a href=\"https://www.gnu.org/\" "
+"rel=\"external\">GNU</a> software and the <a "
+"href=\"https://www.kernel.org/\" rel=\"external\">Linux kernel</a>. When we "
+"use \"Linux\" without the GNU part, we refer to the kernel."
 msgstr "Para evitar confusão, nós usamos “GNU/Linux” para nos referirmos às distribuições do sistema operacional que incluem softwares <a href=\"https://www.gnu.org/\" rel=\"external\">GNU</a>e o <a href=\"https://www.kernel.org/\" rel=\"external\">kernel Linux</a>. Quando usamos “Linux” sem a parte GNU, nos referimos ao kernel."
-
-#: docroot/lib/views/linux.linux_faq.php:73
-msgid "And what has that software to do with a gnu?"
-msgstr "E o que aquele software tem a ver com um gnu?"
 
 #. translators: Use localized URL of free software definition on GNU.org in
 #. place of softwareliberty.com
@@ -2120,10 +2121,10 @@ msgid ""
 "rel=\"external\">free software</a>, he coined the term GNU which stands for "
 "<strong>GNU's Not Unix</strong>. It's a <a "
 "href=\"https://en.wikipedia.org/wiki/Recursive_acronym\" "
-"rel=\"external\">recursive acronym</a>. (if you enjoy that kind of humour "
+"rel=\"external\">recursive acronym</a>. If you enjoy that kind of humour, "
 "check out what <a href=\"https://www.gnu.org/software/hurd/hurd.html\" "
-"rel=\"external\">GNU Hurd</a> means)."
-msgstr "Quando Richard Stallman começou a projeto GNU, o principal sistema utilizado era o Unix, que é proprietário. Porque o GNU é similar à função (e compatível com) Unix, mas é um <a href=\"https://www.softwareliberty.com/\" rel=\"external\">software livre</a>, ele cunhou o termo GNU, que significa <strong>GNU Não é Unix</strong> (do inglês, GNU’s Not Unix). É um <a href=\"https://en.wikipedia.org/wiki/Recursive_acronym\" rel=\"external\">acrônimo recursivo</a>. (se você gosta desse tipo de humor, confira o que <a href=\"https://www.gnu.org/software/hurd/hurd.html\" rel=\"external\">GNU Hurd</a> significa)."
+"rel=\"external\">GNU Hurd</a> means."
+msgstr "Quando Richard Stallman começou a projeto GNU, o principal sistema utilizado era o Unix, que é proprietário. Porque o GNU é similar à função (e compatível com) Unix, mas é um <a href=\"https://www.softwareliberty.com/\" rel=\"external\">software livre</a>, ele cunhou o termo GNU, que significa <strong>GNU Não é Unix</strong> (do inglês, GNU’s Not Unix). É um <a href=\"https://en.wikipedia.org/wiki/Recursive_acronym\" rel=\"external\">acrônimo recursivo</a>. Se você gosta desse tipo de humor, confira o que <a href=\"https://www.gnu.org/software/hurd/hurd.html\" rel=\"external\">GNU Hurd</a> significa."
 
 #: docroot/lib/views/linux.linux_faq.php:81
 msgid ""
@@ -2151,21 +2152,17 @@ msgid ""
 "name a few."
 msgstr "Estes incluem os derivados do UNIX <a href=\"https://freebsd.org/\" rel=\"external\">FreeBSD</a>, <a href=\"https://netbsd.org/\" rel=\"external\">NetBSD</a>, <a href=\"https://openbsd.org/\" rel=\"external\">OpenBSD</a>, o clone do BeOS <a href=\"https://haiku-os.org/\" rel=\"external\">Haiku OS</a>, o clone do Windows NT <a href=\"http://www.reactos.com/\" rel=\"external\">ReactOS</a>, o clone do DOS <a href=\"http://www.freedos.org/\" rel=\"external\">FreeDOS</a> e o <a href=\"https://www.syllable.org/\" rel=\"external\">Syllable</a>, só para apresentar alguns exemplos."
 
-#: docroot/lib/views/linux.linux_faq.php:91
-msgid "Is Mac OSX a distribution of GNU/Linux?"
-msgstr "O Mac OSX é uma distribuição de GNU/Linux?"
-
 #. translators: Use localized URL of free software definition on GNU.org in
 #. place of softwareliberty.com
 #: docroot/lib/views/linux.linux_faq.php:94
 #, php-format
 msgid ""
 "No. There are a few <a href=\"https://www.softwareliberty.com/\" "
-"rel=\"external\">free software</a> components in Mac OSX, and it is "
+"rel=\"external\">free software</a> components in macOS, and it is "
 "technically similar to GNU/Linux systems. But overall, it is proprietary "
 "software: all the <a href=\"%s\">issues about Windows</a> apply to it as "
 "well."
-msgstr "Não. Há uns poucos componentes que são <a href=\"https://www.softwareliberty.com/\" rel=\"external\">software livre</a> no Mac OSX, e ele é tecnicamente semelhante a sistemas GNU/Linux. Mas, no geral, é um software proprietário: todas as <a href=\"%s\">questões sobre o Windows</a> se aplicam a ele também."
+msgstr "Não. Há uns poucos componentes que são <a href=\"https://www.softwareliberty.com/\" rel=\"external\">software livre</a> no MacOS, e ele é tecnicamente semelhante a sistemas GNU/Linux. Mas, no geral, é um software proprietário: todas as <a href=\"%s\">questões sobre o Windows</a> se aplicam a ele também."
 
 #: docroot/lib/views/linux.linux_faq.php:97
 msgid "Understanding free software"
@@ -2287,8 +2284,8 @@ msgid ""
 msgstr "Alguns distribuidores GNU/Linux agregam o software livre e restritivo, sem distinção. Estes distribuidores não gostariam que seus usuários pensassem com liberdade, e  anunciam apenas as capacidades técnicas do seu produto. Usando essas distribuições não é muito melhor do que <a href=\"%s\">usando o Windows</a>. Nós valorizamos a sua liberdade e recomendo que você escolha com cuidado!"
 
 #: docroot/lib/views/linux.linux_faq.php:137
-msgid "Do all the reasons for avoiding Windows apply to Mac&nbsp;OS?"
-msgstr "Considere todas as razões para evitar o Windows se aplicam para o Mac OS?"
+msgid "Do all the reasons for avoiding Windows apply to macOS?"
+msgstr "Considere todas as razões para evitar o Windows se aplicam para o MacOS?"
 
 #: docroot/lib/views/linux.linux_faq.php:138
 #, php-format
@@ -2300,18 +2297,18 @@ msgstr "É muito comum para usuários de Mac acreditarem que estão isentos de r
 
 #: docroot/lib/views/linux.linux_faq.php:139
 msgid ""
-"Mac OS X does have some low-level components which are <a "
+"macOS does have some low-level components which are <a "
 "href=\"https://www.softwareliberty.com/\" rel=\"external\">free "
 "software</a>; and Apple puts less energy into customer lock-in (with some "
 "notable efforts such as BootCamp)."
-msgstr "Mac OS X tem alguns componentes de baixo nível que são <a href=\"https://www.softwareliberty.com/\" rel=\"external\">software livre</a>, e a Apple coloca menos energia para cliente lock-in (com alguns notáveis ​​esforços tais como BootCamp)."
+msgstr "MacOS tem alguns componentes de baixo nível que são <a href=\"https://www.softwareliberty.com/\" rel=\"external\">software livre</a>, e a Apple coloca menos energia para cliente lock-in (com alguns notáveis ​​esforços tais como BootCamp)."
 
 #: docroot/lib/views/linux.linux_faq.php:140
 msgid ""
 "However, the end-user is still fundamentally restricted &mdash; because of "
-"the proprietary license, he/she cannot use Mac OSX for all purposes, nor "
-"copy, study, modify, or redistribute it."
-msgstr "No entanto, o usuário final  ainda sofre muitas restrições - por causa da licença proprietária, não é possível usar Mac OSX para todos os efeitos, nem mesmo copiar, estudar, modificar ou redistribui-lo."
+"the proprietary license, he/she cannot use macOS for all purposes, nor copy,"
+" study, modify, or redistribute it."
+msgstr "No entanto, o usuário final  ainda sofre muitas restrições - por causa da licença proprietária, não é possível usar MacOS para todos os efeitos, nem mesmo copiar, estudar, modificar ou redistribui-lo."
 
 #: docroot/lib/views/linux.linux_faq.php:141
 msgid ""
@@ -2472,43 +2469,42 @@ msgid ""
 "Microsoft isn't keen on allowing Office users to choose their operating "
 "system. There are other issues with MS Office and openness &mdash; like "
 "Microsoft's fierce opposition to supporting <a "
-"href=\"http://opendocumentfellowship.com/\" rel=\"external\">the "
+"href=\"http://www.opendocumentformat.org/\" rel=\"external\">the "
 "OpenDocument format</a>."
-msgstr "É tecnicamente possível adaptar o Microsoft Office para GNU/Linux, mas a Microsoft não está interessada em permitir que os usuários do Office escolham o seu sistema operacional. Há outros problemas com o MS Office e sua abertura &mdash; como a feroz oposição da Microsoft em oferecer suporte ao <a href=\"http://opendocumentfellowship.com/\" rel=\"external\">formato OpenDocument</a>."
+msgstr "É tecnicamente possível adaptar o Microsoft Office para GNU/Linux, mas a Microsoft não está interessada em permitir que os usuários do Office escolham o seu sistema operacional. Há outros problemas com o MS Office e sua abertura &mdash; como a feroz oposição da Microsoft em oferecer suporte ao <a href=\"http://www.opendocumentformat.org/\" rel=\"external\">formato OpenDocument</a>."
 
 #: docroot/lib/views/linux.linux_faq.php:213
 msgid ""
-"However, a complete, Free, reliable office suite exists: <a "
-"href=\"https://www.openoffice.org/\" rel=\"external\">OpenOffice.org</a>. Or"
-" you can choose its Open Source community-driven alternative, <a "
-"href=\"https://www.libreoffice.org/\" rel=\"external\">LibreOffice</a>, "
-"which is a fork of OpenOffice.org. They will both happily use all your "
+"However, a complete, free, reliable office suite exists: <a "
+"href=\"https://www.libreoffice.org/\" rel=\"external\">LibreOffice</a>. Or "
+"you can choose its close cousin, <a href=\"https://www.openoffice.org/\" "
+"rel=\"external\">Apache OpenOffice</a>. They will both happily use all your "
 "existing office files in MS-Word, MS-Excel, and MS-PowerPoint format, and "
 "are really free (both as in freedom and as in price). And they run on "
 "Windows as well as on GNU/Linux."
-msgstr "Entretanto, um pacote office completo, gratuito e confiável já existe: <a href=\"https://www.openoffice.org/\" rel=\"external\">OpenOffice.org</a>. Ou você pode escolher sua alternativa Código Aberto, mantido por sua comunidade <a href=\"https://www.libreoffice.org/\" rel=\"external\">LibreOffice</a>, que é uma variante do OpenOffice.org. Ambos irão felizes abrir todos os seus arquivos de escritórios existentes nos formatos MS-Word, MS-Excel, MS-PowerPoint, e são realmente livres (tanto em liberdade quanto em preço). E eles funcionam no Windows, bem como no GNU/Linux."
-
-#. translators: If it exists, please use the localized URL of openoffice.org.
-#. You can find localized URLs here: https://www.openoffice.org/projects
-#. /native-lang.html
-#: docroot/lib/views/linux.linux_faq.php:215
-msgid "https://www.openoffice.org/"
-msgstr "https://www.openoffice.org/"
+msgstr "Entretanto, um pacote office completo, gratuito e confiável já existe: <a href=\"https://www.libreoffice.org/\" rel=\"external\">LibreOffice</a>. Ou você pode escolher seu primo próximo, <a href=\"https://www.openoffice.org/\" rel=\"external\">Apache OpenOffice</a>. Eles usarão todos os arquivos de escritório existentes no MS-Word, MS-Excel e MS-PowerPoint, e são realmente gratuitos (tanto em liberdade como em preço). E eles são executados no Windows, bem como em GNU/Linux."
 
 #. translators: If it exists, please use the localized URL of libreoffice.org.
 #. You can find localized URLs here: https://www.libreoffice.org
 #. /international-sites/
-#: docroot/lib/views/linux.linux_faq.php:218
+#: docroot/lib/views/linux.linux_faq.php:216
 msgid "https://www.libreoffice.org/"
 msgstr "https://www.libreoffice.org/"
 
-#: docroot/lib/views/linux.linux_faq.php:223
+#. translators: If it exists, please use the localized URL of openoffice.org.
+#. You can find localized URLs here: https://www.openoffice.org/projects
+#. /native-lang.html
+#: docroot/lib/views/linux.linux_faq.php:219
+msgid "https://www.openoffice.org/"
+msgstr "https://www.openoffice.org/"
+
+#: docroot/lib/views/linux.linux_faq.php:225
 msgid ""
 "The simple answer to this question would be &quot;yes&quot;, however this is"
 " only half the truth."
 msgstr "A resposta simples para essa pergunta seria “sim”, porém esta é apenas metade da verdade."
 
-#: docroot/lib/views/linux.linux_faq.php:224
+#: docroot/lib/views/linux.linux_faq.php:226
 msgid ""
 "Quite a few GNU/Linux distributions do not include MP3 playback software due"
 " to the patent situation of the MP3 format. These patent issues do not "
@@ -2517,7 +2513,7 @@ msgid ""
 "possible to <strong>legally play MP3 files</strong>, for non-commercial use."
 msgstr "Algumas distribuições do GNU/Linux não incluem software de reprodução de MP3, devido à situação da patente do formato MP3. Estas questões de patentes não afetam diretamente o usuário, por isso a maioria das distribuições tornam bastante fácil de instalar suporte MP3 através da Internet após a instalação, tornando possível legalmente a reprodução arquivos MP3, para uso não comercial."
 
-#: docroot/lib/views/linux.linux_faq.php:225
+#: docroot/lib/views/linux.linux_faq.php:227
 msgid ""
 "DVDs, on the other hand, are a more difficult situation. Most, if not all, "
 "DVDs are encrypted using a system called \"<abbr title=\"Content Scrambling "
@@ -2527,7 +2523,7 @@ msgid ""
 "world, including the USA and the European Union."
 msgstr "DVDs, por outro lado, são uma situação mais difícil. A maioria, senão todos, os DVDs são criptografados usando um sistema chamado “<abbr title=\"Content Scrambling System\">CSS</abbr>”. Existe um software livre amplamente apoiado, chamado <code>libdvdcss</code> capaz de descodificar vídeos em DVD. No entanto, contornar a restrição de seus DVDs é ilegal em muitas partes do mundo, incluindo os EUA e a União Europeia."
 
-#: docroot/lib/views/linux.linux_faq.php:226
+#: docroot/lib/views/linux.linux_faq.php:228
 msgid ""
 "There is a legal solution to play your DVDs on GNU/Linux where "
 "<code>libdvdcss</code> is illegal. The <a href=\"https://fluendo.com/\" "
@@ -2535,48 +2531,53 @@ msgid ""
 " for that purpose which can be purchased from their website."
 msgstr "Há uma solução legal para tocar seus DVDs no GNU/Linux quando <code>libdvdcss</code> é ilegal. A companhia <a href=\"https://fluendo.com/\" rel=\"external\">Fluendo</a> tem desenvolvido um aplicativo (non-free) para este propósito que pode ser comprado no seu site."
 
-#: docroot/lib/views/linux.linux_faq.php:227
+#: docroot/lib/views/linux.linux_faq.php:229
 msgid ""
 "Non-encrypted DVDs, which include most home-made DVDs, play perfectly well "
 "with only free software."
 msgstr "DVDs Não-criptografados, o que inclui a maioria dos DVDs caseiros, rodam muito bem com apenas software livre."
 
-#: docroot/lib/views/linux.linux_faq.php:229
+#: docroot/lib/views/linux.linux_faq.php:231
 msgid "More on the web:"
 msgstr "Mais na Web:"
 
 #. translators: If it exists, please use the localized URL of this wiki page
 #. (it's sometimes hard to find). Else, please leave the URL as such.
-#: docroot/lib/views/linux.linux_faq.php:232
+#: docroot/lib/views/linux.linux_faq.php:234
 msgid "https://wiki.ubuntu.com/RestrictedFormats"
 msgstr "https://wiki.ubuntu.com/RestrictedFormats"
 
-#: docroot/lib/views/linux.linux_faq.php:232
+#: docroot/lib/views/linux.linux_faq.php:234
 msgid "Ubuntu Restricted Formats"
 msgstr "Formatos restritos do ubuntu"
 
 #. translators: If it exists, please use the localized URL of this wiki page
 #. (it's sometimes hard to find). Else, please leave the URL as such.
-#: docroot/lib/views/linux.linux_faq.php:234
+#: docroot/lib/views/linux.linux_faq.php:236
 msgid "https://fedoraproject.org/wiki/Forbidden_items"
 msgstr "https://fedoraproject.org/wiki/Forbidden_items"
 
-#: docroot/lib/views/linux.linux_faq.php:234
+#: docroot/lib/views/linux.linux_faq.php:236
 msgid "Fedora Forbidden Items"
 msgstr "Itens proibidos do Fedora"
 
-#: docroot/lib/views/linux.linux_faq.php:241
+#: docroot/lib/views/linux.linux_faq.php:243
 msgid ""
-"Yes and No: Some games, for example some <a "
+"Yes and no. Some games, for example some <a "
 "href=\"http://www.idsoftware.com/\" rel=\"external\">id Software</a> games "
 "like the Quake series and Doom 3, Unreal Tournament, Cold War, and many more"
-" have GNU/Linux versions."
-msgstr "Sim e não: alguns jogos, como, por exemplo, jogos da <a href=\"http://www.idsoftware.com/\" rel=\"external\">id Software</a> como as séries Quake e Doom 3, Unreal Tournament, Cold War e muitos outros, têm versão para GNU/Linux."
+" have GNU/Linux versions. Since the release of the popular Steam platform to"
+" the GNU/Linux operating system back in 2013, the number of GNU/Linux "
+"compatible games on Steam has been growing rapidly. Check out the <a "
+"href=\"http://store.steampowered.com/linux\" rel=\"external\">Steam "
+"store</a> where you can find a wealth of high quality, GNU/Linux compatible "
+"games."
+msgstr "Sim e não. Alguns jogos, por exemplo, alguns jogos da <a href=\"http://www.idsoftware.com/\" rel=\"external\">id Software</a> como a série Quake e Doom 3, Unreal Tournament, Cold War e muitos mais têm versões GNU/Linux. Desde o lançamento da popular plataforma Steam para o sistema operacional GNU/Linux em 2013, o número de jogos compatíveis com GNU/Linux no Steam vem crescendo rapidamente. Confira a <a href=\"http://store.steampowered.com/linux\" rel=\"external\">loja da Steam</a>, onde você pode encontrar uma grande quantidade de jogos de alta qualidade, compatíveis com GNU/Linux."
 
-#: docroot/lib/views/linux.linux_faq.php:242
+#: docroot/lib/views/linux.linux_faq.php:244
 msgid ""
-"Most popular games, alas, only work on Windows and occasionally on Mac OS. "
-"Some Windows games, such as Call of Duty 4 or GTA Vice City, can be run on "
+"Most popular games, alas, only work on Windows and occasionally on macOS. "
+"Some Windows games, such as Call of Duty or GTA Vice City, can be run on "
 "GNU/Linux with <a href=\"https://www.winehq.org/\" rel=\"external\">Wine</a>"
 " or its non-free variant <a "
 "href=\"https://www.codeweavers.com/products/crossover/\" "
@@ -2584,10 +2585,10 @@ msgid ""
 "the user. For a list of games known to work on Wine, see <a "
 "href=\"https://appdb.winehq.org/\" rel=\"external\">their games "
 "database</a>."
-msgstr "A maioria dos jogos conhecidos, lamentavelmente, somente funcionam no Windows e ocasionalmente no Mac OS. Alguns jogos de Windows, como o Call of Duty 4 ou GTA Vice City, podem ser rodados no GNU/Linux com <a href=\"https://www.winehq.org/\" rel=\"external\">Wine</a> ou sua variante não livre <a href=\"https://www.codeweavers.com/products/crossover/\" rel=\"external\">CrossOver</a>, o que envolve um certo esforço do usuário. Para uma lista de jogos que sabe-se que funcionam no Wine, veja o <a href=\"https://appdb.winehq.org/\" rel=\"external\">banco de dados deles</a>."
+msgstr "A maioria dos jogos conhecidos, lamentavelmente, somente funcionam no Windows e ocasionalmente no MacOS. Alguns jogos de Windows, como o Call of Duty ou GTA Vice City, podem ser rodados no GNU/Linux com <a href=\"https://www.winehq.org/\" rel=\"external\">Wine</a> ou sua variante não livre <a href=\"https://www.codeweavers.com/products/crossover/\" rel=\"external\">CrossOver</a>, o que envolve um certo esforço do usuário. Para uma lista de jogos que sabe-se que funcionam no Wine, veja o <a href=\"https://appdb.winehq.org/\" rel=\"external\">banco de dados deles</a>."
 
 #. translators: The first link will automatically point to the "more" page.
-#: docroot/lib/views/linux.linux_faq.php:249
+#: docroot/lib/views/linux.linux_faq.php:251
 #, php-format
 msgid ""
 "If you have a question that is not covered here, there are many communities "
@@ -2597,7 +2598,7 @@ msgstr "Se você tiver uma pergunta que não foi resolvida aqui, há várias com
 
 #. translators: The first link will automatically point to the contact page,
 #. the second to the bug tracker.
-#: docroot/lib/views/linux.linux_faq.php:253
+#: docroot/lib/views/linux.linux_faq.php:255
 #, php-format
 msgid ""
 "If you can think of a frequent question that we haven't answered yet, do <a "
@@ -2756,10 +2757,10 @@ msgstr "Se você encontrar um link quebrado, por favor <a href=\"%s\" rel=\"exte
 #. try! =)
 #: docroot/lib/views/home.php:22
 msgid ""
-"GNU/Linux is an alternative to Microsoft Windows and Mac OS. It is easy to "
+"GNU/Linux is an alternative to Microsoft Windows and macOS. It is easy to "
 "use and gives more freedom to users. Anyone can install it: GNU/Linux is "
 "free as in freedom, and often available free of charge."
-msgstr "GNU/Linux é uma alternativa ao Microsoft Windows e Mac OS. É fácil de usar e dá mais liberdade aos usuários. Qualquer um pode instalar: GNU/Linux é livre, e geralmente disponível gratuitamente."
+msgstr "GNU/Linux é uma alternativa ao Microsoft Windows e MacOS. É fácil de usar e dá mais liberdade aos usuários. Qualquer um pode instalar: GNU/Linux é livre, e geralmente disponível gratuitamente."
 
 #: docroot/lib/views/home.php:33
 msgid "Learn more about the free operating system"
@@ -3059,12 +3060,12 @@ msgstr "<strong>Por um bom tempo, Microsoft Office possuía suporte a somente os
 #: docroot/lib/views/windows.what_about_choice.php:41
 msgid ""
 "There are of course other ways of writing and exchanging office files, the "
-"most well-known being <a href=\"http://www.opendocumentfellowship.com/\" "
+"most well-known being <a href=\"http://www.opendocumentformat.org/\" "
 "rel=\"external\">the OpenDocument Format</a>. But Microsoft isn't keen on "
 "letting Office users exchange files anyone can read and edit. As of "
 "Microsoft Office 2007 SP2, Microsoft finally added support for the ODF "
 "format after being pushed by the European Commission."
-msgstr "É claro que há outras formas que escrever e compartilhar arquivos de escritório, sendo a mais conhecida a<a href=\"http://www.opendocumentfellowship.com/\" rel=\"external\">the OpenDocument Format</a>. Mas a Microsoft não está muito interessada em deixar que usuários do Office compartilhem arquivos que qualquer pessoa possa ler e editar. A partir do Microsoft Office 2007 SP2, a Microsoft finalmente adicionou suporte ao formato ODF depois de ter sido publicado pela Comissão Europeia."
+msgstr "É claro que há outras formas que escrever e compartilhar arquivos de escritório, sendo mais conhecido o <a href=\"http://www.opendocumentformat.org/\" rel=\"external\">OpenDocument Format</a>. Mas a Microsoft não está muito interessada em deixar que usuários do Office compartilhem arquivos que qualquer pessoa possa ler e editar. A partir do Microsoft Office 2007 SP2, a Microsoft finalmente adicionou suporte ao formato ODF depois de ter sido publicado pela Comissão Europeia."
 
 #: docroot/lib/views/windows.what_about_choice.php:45
 msgid "Standards that change all the time"
