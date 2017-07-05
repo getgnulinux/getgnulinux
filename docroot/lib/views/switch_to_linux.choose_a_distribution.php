@@ -49,8 +49,7 @@ $trisquel3_text = _("Accessing applications.");
     <section class="ubuntu">
       <div class="container">
         <div class="centered">
-          <a href="<?php # translators: use url of official localised Ubuntu homepage, if existing
-          print _("https://www.ubuntu.com/"); ?>" title="Ubuntu Linux"><img src="/images/UbuntuLogo.png" alt="Ubuntu"/></a>
+          <img src="/images/UbuntuLogo.png" alt="Ubuntu">
         </div>
 
         <p><?php print _("Simple, easy, usable and our personal favourite. A tanned, smooth atmosphere that never gets in your way. All programs are kept in order and managed easily. Configuration is kept simple rather than exhaustive."); ?></p>
@@ -79,8 +78,7 @@ $trisquel3_text = _("Accessing applications.");
     <section class="fedora">
       <div class="container">
         <div class="centered">
-          <a href="<?php # translators: use url of official localised Fedora homepage, if existing
-          print _("https://getfedora.org/"); ?>" title="Fedora Linux"><img src="/images/FedoraLogo.png" alt="Fedora"/></a>
+          <img src="/images/FedoraLogo.png" alt="Fedora">
         </div>
 
         <p><?php
@@ -110,7 +108,7 @@ $trisquel3_text = _("Accessing applications.");
     <section class="trisquel">
       <div class="container">
         <div class="centered">
-          <a href="https://trisquel.info/" title="Trisquel GNU/Linux"><img src="/images/TrisquelLogo.png" alt="Trisquel"/></a>
+          <img src="/images/TrisquelLogo.png" alt="Trisquel">
         </div>
 
         <p><?php $p = _("While Ubuntu contains some restricting components (<a href=\"%s#full_freedom\">why?</a>), the Trisquel developers have built an entirely free derivative. Although its community is smaller and its hardware support might be slightly inferior, Trisquel gives anyone full freedom over a complete operating system similar to Ubuntu."); printf($p, $this->base_url('linux/linux_faq',1)); ?></p>
