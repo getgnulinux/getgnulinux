@@ -29,7 +29,7 @@ const versionConfig = {
 
 var dev = true;
 
-gulp.task('styles', () => {
+gulp.task('styles:sass', () => {
   return gulp.src('src/styles/*.scss')
     .pipe($.plumber())
     .pipe($.sass.sync(sassConfig).on('error', $.sass.logError))
@@ -38,18 +38,40 @@ gulp.task('styles', () => {
     .pipe(gulp.dest('docroot/styles'));
 });
 
-gulp.task('scripts', () => {
-  return gulp.src('src/scripts/**/*.js')
+gulp.task('styles:vendor', () => {
+  return gulp.src([
+      'bower_components/flexslider/flexslider.css',
+    ])
+    .pipe($.cssnano({safe: true, autoprefixer: false}))
+    .pipe(gulp.dest('docroot/styles/vendor'));
+});
+
+gulp.task('styles', ['styles:sass', 'styles:vendor']);
+
+gulp.task('scripts:main', () => {
+  return gulp.src('src/scripts/main.js')
     .pipe($.plumber())
     .pipe($.sourcemaps.init())
-      .pipe($.if('main.js', $.babel()))
-      .pipe($.uglify())
+    .pipe($.babel())
+    .pipe($.uglify())
     .pipe($.sourcemaps.write('.'), {includeContent: true})
     .pipe(gulp.dest('docroot/scripts'));
 });
 
+gulp.task('scripts:plugins', () => {
+  return gulp.src([
+      'src/scripts/plugins.js',
+      'bower_components/flexslider/jquery.flexslider-min.js',
+    ])
+    .pipe($.concat('plugins.js'))
+    .pipe(gulp.dest('docroot/scripts'));
+});
+
+gulp.task('scripts', ['scripts:main', 'scripts:plugins']);
+
 gulp.task('fonts', () => {
-  return gulp.src(require('main-bower-files')('**/*.{eot,svg,ttf,woff,woff2}', function (err) {})
+  return gulp.src(
+      require('main-bower-files')('**/*.{eot,svg,ttf,woff,woff2}', function (err) {})
     .concat('bower_components/flexslider/fonts/*'))
     .pipe(gulp.dest('docroot/styles/vendor/fonts'));
 });

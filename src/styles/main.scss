@@ -294,6 +294,9 @@ div.note {
 .flexslider.home {
   background-color: #49B7E8; /* to hide the white background glitch */
   overflow: hidden; /* otherwise the arrows will overflow the page */
+  border: none;
+  border-radius: 0;
+  margin: 0;
 
   /* Put the navigation bullets on the slide */
   .flex-control-nav {
@@ -361,13 +364,14 @@ div.note {
   }
 
   > img {
+    display: inline !important;
     height: auto;
     margin-top: 1em;
   }
 
   &.ggl > img {
     min-width: 150px;
-    width: 15%;
+    width: 15% !important;
   }
 
   &.ggl h1 {
@@ -378,17 +382,17 @@ div.note {
 
   &.linux > img {
     min-width: 100px;
-    width: 8%;
+    width: 8% !important;
   }
 
   &.windows > img {
     min-width: 100px;
-    width: 8%;
+    width: 8% !important;
   }
 
   &.switch > img {
     min-width: 100px;
-    width: 8%;
+    width: 8% !important;
   }
 }
 
