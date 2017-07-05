@@ -27,6 +27,10 @@ with:
 
     sudo apt-get install git gettext make nodejs
 
+The Nodejs version that comes with Debian is probably too old. If this is the
+case, follow the instructions on <https://nodejs.org/en/download/> to obtain
+and install the latest stable version.
+
 Follow the instructions on <https://yarnpkg.com/en/docs/install> to install
 Yarn on your system.
 
@@ -41,19 +45,18 @@ Create a settings file:
 
     make docroot/settings.php
 
-Now open the newly created `docroot/settings.php` in a text editor and change
-the settings where needed.
+Open the newly created `docroot/settings.php` in a text editor and change the
+settings where needed.
 
-The `locale/getgnulinux/` directory contains the PO files (these contain the
-translations). You need to compile these PO files to enable the translations on
-the website:
+The `locale/getgnulinux/` directory contains the translations. These need to
+be compiled to enable the translations on the website. Compile them with:
 
     make
 
-When a PO file is updated, you'll need to recompile it to see the changes on
-the website. Just run the `make` command again.
+When a translation file is updated, you'll need to recompile it to see the
+changes on the website. Just run the `make` command again.
 
-Install the required Node.js packages:
+Install the required Nodejs packages with:
 
     yarn install
 
