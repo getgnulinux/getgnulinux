@@ -32,9 +32,11 @@ var dev = true;
 gulp.task('styles:sass', () => {
   return gulp.src('src/styles/*.scss')
     .pipe($.plumber())
+    .pipe($.sourcemaps.init())
     .pipe($.sass.sync(sassConfig).on('error', $.sass.logError))
     .pipe($.autoprefixer({browsers: ['> 1%', 'last 2 versions', 'Firefox ESR']}))
     .pipe($.cssnano({safe: true, autoprefixer: false}))
+    .pipe($.sourcemaps.write('.'), {includeContent: true})
     .pipe(gulp.dest('docroot/styles'));
 });
 
