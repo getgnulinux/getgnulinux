@@ -37,7 +37,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
       <section>
         <h2 id="not_a_crazy_concept"><?php print _("Not a crazy concept"); ?></h2>
         <p><?php print _("It sounds peculiar to many users that software should be free as in freedom, since none of Microsoft's products are. Yet our society works with many free things in it, for example:"); ?></p>
-        <div class="quote small float-right">
+        <div class="quote small float-right hidden-sm">
           <p><?php
           # translators: This is the short quote on the side of the article.
           print _("Though no one has a proprietary lock on yoga, it is still a thriving $30 billion business in the United States."); ?></p>
