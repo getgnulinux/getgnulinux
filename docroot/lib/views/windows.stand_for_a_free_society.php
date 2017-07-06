@@ -94,7 +94,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
 
         <p><?php print _("Computing is not just about calculations anymore. We use software to communicate: to share information, ideas and culture. Software is in our phones, cars, media players, TVs, and gets to govern just about every new device around us."); ?></p>
 
-        <div class="quote image float-right">
+        <div class="quote image float-right hidden-sm">
           <img class="" src="/images/windows/windows.stand_for_a_free_society.content_protection.png" width="235" height="150" alt="DRM"/>
           <span class="source"><span class="author">Randall Munroe,</span> <a href="https://xkcd.com/c129.html" rel="external">xkcd</a></span>
         </div>
