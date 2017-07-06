@@ -173,11 +173,11 @@ nav.chapters {
   @include clearfix();
 
   @each $breakpoint, $width in $container-widths {
-	$breakpoint-width: map-get($container-breakpoints, $breakpoint);
-	@include media(min-width $breakpoint-width) {
-	  width: $width;
-	  max-width: 100%;
-	}
+    $breakpoint-width: map-get($container-breakpoints, $breakpoint);
+    @include media(min-width $breakpoint-width) {
+      width: $width;
+      max-width: 100%;
+    }
   }
 }
 
@@ -550,25 +550,25 @@ section.trisquel {
   .download-box-logo {
     @include media($xs-breakpoint) {
       @include span-columns(4);
-	}
+    }
     @include media($sm-breakpoint) {
       @include span-columns(3);
-	}
+    }
     @include media($md-breakpoint) {
       @include span-columns(2);
-	}
+    }
   }
 
   .download-box-content {
     @include media($xs-breakpoint) {
       @include span-columns(12);
-	}
+    }
     @include media($sm-breakpoint) {
       @include span-columns(9);
-	}
+    }
     @include media($md-breakpoint) {
       @include span-columns(10);
-	}
+    }
 
     .download-box-buttons {
       @include clearfix;
@@ -603,12 +603,12 @@ section.trisquel {
   .column {
     @include media($xs-breakpoint) {
       @include span-columns(12);
-	}
+    }
 
     @include media($sm-breakpoint) {
       @include span-columns(6);
       @include pad(0 3%);
-	}
+    }
 
     a img {
       opacity: 0.8;
@@ -813,41 +813,41 @@ section.trisquel {
   }
 
   #translations {
-	word-break: keep-all;
+    word-break: keep-all;
 
-	ul {
-	  padding-left: 0;
-	  list-style: none;
-	}
+    ul {
+      padding-left: 0;
+      list-style: none;
+    }
 
-	li {
-	  display: inline-block;
-	  padding-left: 0;
-	  padding-right: 10px;
-	}
+    li {
+      display: inline-block;
+      padding-left: 0;
+      padding-right: 10px;
+    }
 
-	li a {
-	  line-height: 1.0em;
-	}
+    li a {
+      line-height: 1.0em;
+    }
 
-	.active a {
-	  color: $footer-color;
-	  font-weight: bold;
-	}
+    .active a {
+      color: $footer-color;
+      font-weight: bold;
+    }
 
-	a.more {
-	  background-color: transparentize($footer-color, 0.9);
-	  padding: 0 8px;
+    a.more {
+      background-color: transparentize($footer-color, 0.9);
+      padding: 0 8px;
 
-	  &:hover {
-		background-color: transparentize($footer-color, 0.8);
-		text-decoration: none;
-	  }
-	}
+      &:hover {
+        background-color: transparentize($footer-color, 0.8);
+        text-decoration: none;
+      }
+    }
 
-	#incomplete {
-	  display: none;
-	}
+    #incomplete {
+      display: none;
+    }
   }
 }
 
