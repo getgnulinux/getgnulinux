@@ -116,7 +116,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
       <div class="further-reading post-it clearfix">
         <h2><?php print _("Read more"); ?></h2>
 
-        <div class="left-column">
+        <div class="column">
           <h3><a href="<?php print _("https://www.gnu.org/philosophy/right-to-read.html"); ?>" rel="external"><?php print _("The Right to Read"); ?></a></h3>
           <p><?php print _("What is the Trusted Computing world like? This is a short story by Richard Stallman that describes how this can affect any of us."); ?></p>
 
@@ -133,7 +133,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
           <p><?php print _("An engaged article by Jimmy Wales, who co-founded the free encyclopedia <a href=\"https://www.wikipedia.org/\" rel=\"external\">Wikipedia</a>."); ?></p>
         </div>
 
-        <div>
+        <div class="column">
           <h3><a href="<?php print _("https://www.lafkon.net/tc/"); ?>" hreflang="en" title="<?php print _("Trusted Computing"); ?>" rel="external"><?php print _("Trusted Computing"); ?></a></h3>
           <p><?php print _("Short video animation by Benjamin Stephan and Lutz Vogel. A clear, snappy and convincing argument."); ?></p>
 

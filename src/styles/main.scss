@@ -665,18 +665,19 @@ section.trisquel {
   }
 
   h3 {
-    display: block;
     font-size: 1.4em;
-    margin: 0 0 0.5em;
   }
-}
 
-.left-column {
-  width: 47%;
-  float: left;
-  border-right: 1px #D7B41A solid;
-  padding-right: 1em;
-  margin-right: 1em;
+  .column {
+    @include media($sm-breakpoint) {
+      @include span-columns(12);
+    }
+
+    @include media($md-breakpoint) {
+      @include span-columns(6);
+      @include pad(0 3%);
+    }
+  }
 }
 
 /*----------------------------------------------------

@@ -51,7 +51,7 @@ $this->load_header();
       <div class="further-reading post-it clearfix">
         <h2 id="further_reading"><?php print _("Read more"); ?></h2>
 
-        <div class="left-column">
+        <div class="column">
           <h3 id="gpl"><a href="<?php
           # translators: If it exists, please use a non-official translation of the GPL in your language, as pointed on https://www.gnu.org/licenses/translations.html
           print _("https://www.gnu.org/copyleft/gpl.html"); ?>" title="<?php print _("The GNU General Public License"); ?>" rel="external"><?php print _("The GPL"); ?></a></h3>
@@ -60,7 +60,7 @@ $this->load_header();
           <h3 id="gpl_eula_comparison"><a href="/archive/comparing_the_gpl_to_eula.pdf" hreflang="en"><?php print _("Comparing the GPL to the Microsoft WinXP License"); ?></a> (pdf)</h3>
           <p><?php print _("A thorough and clear comparison of the <abbr title=\"GNU General Public License\">GPL</abbr> and the Microsoft <abbr title=\"End-User License Agreement\">EULA</abbr> license that governs the use of most Windows XP versions."); ?></p>
         </div>
-        <div>
+        <div class="column">
           <h3 id="right_to_read"><a href="<?php print _("https://www.gnu.org/philosophy/right-to-read.html"); ?>" rel="external"><?php print _("The Right to Read"); ?></a></h3>
           <p><?php print _("A short story by Richard Stallman that describes what influence restrictive licenses could have on our lives."); ?></p>
         </div>
