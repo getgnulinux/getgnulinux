@@ -113,7 +113,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
         </ol>
       </div>
 
-      <div class="further-reading post-it clearfix">
+      <div class="further-reading post-it">
         <h2><?php print _("Read more"); ?></h2>
 
         <div class="column">

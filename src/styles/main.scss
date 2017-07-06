@@ -170,7 +170,7 @@ nav.chapters {
   margin-right: auto;
   padding-left: ($container-gutter / 2);
   padding-right: ($container-gutter / 2);
-  @include clearfix();
+  @include clearfix;
 
   @each $breakpoint, $width in $container-widths {
     $breakpoint-width: map-get($container-breakpoints, $breakpoint);
@@ -657,6 +657,7 @@ section.trisquel {
   font-size: 0.95em;
   margin-top: 4.5em;
   padding: 1em;
+  @include clearfix;
 
   h2 {
     border: medium none;

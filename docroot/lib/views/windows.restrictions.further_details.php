@@ -48,7 +48,7 @@ $this->load_header();
         </li>
       </ul>
 
-      <div class="further-reading post-it clearfix">
+      <div class="further-reading post-it">
         <h2 id="further_reading"><?php print _("Read more"); ?></h2>
 
         <div class="column">
