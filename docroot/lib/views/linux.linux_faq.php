@@ -98,8 +98,7 @@ $this->load_header();
 
       <section>
         <h3 id="open_source"><?php print _("Are &quot;Open Source&quot; and &quot;Free Software&quot; the same thing?"); ?></h3>
-        <div<p><?php print _("Yes and no."); ?>
-        <p><?php print _("Technically, the great majority of open source programs are free software and vice-versa."); ?></p>
+        <p><?php print _("Yes and no. Technically, the great majority of open source programs are free software and vice-versa."); ?></p>
         <p><?php print _("In terms of philosophy, things are quite different. The term &quot;open source&quot; was coined to make &quot;free software&quot; more attractive, its supporters see open source software as a better way to make software."); ?></p>
         <p><?php print _("Supporters of the \"free software\" term value the freedom, not merely the way software is made, and thus argue that the term \"open source\" <a href=\"https://www.gnu.org/philosophy/open-source-misses-the-point.html\" rel=\"external\">misses the point</a>."); ?></p>
         <p><?php print _("Which term you employ simply depends on your vision of software."); ?></p>
@@ -146,8 +145,7 @@ $this->load_header();
         <h4 class="question_sub"><?php
         # translators: This is italic text just below the question, which elaborates a little on it.
         print _("Isn't GNU/Linux about cracking, &quot;piracy&quot; and illegal download websites?"); ?></h4>
-        <p><?php print _("No!"); ?></p>
-        <p><?php print _("Wherever you read or heard this you should update your views. GNU/Linux is completely distinct from such things. Whether you want to do them, or whether you prefer <a href=\"https://www.magnatune.com/\" rel=\"external\">intelligent</a>, <a href=\"https://www.jamendo.com/\" rel=\"external\">legal downloads</a>, GNU/Linux will work just as well as Windows. Unfortunately you can't identify gangsters by the make of their cars; the same thing goes for their operating system."); ?></p>
+        <p><?php print _("No. Wherever you read or heard this, you should update your views. GNU/Linux is completely distinct from such things. Whether you want to do them, or whether you prefer <a href=\"https://www.magnatune.com/\" rel=\"external\">intelligent</a>, <a href=\"https://www.jamendo.com/\" rel=\"external\">legal downloads</a>, GNU/Linux will work just as well as Windows. Unfortunately you can't identify gangsters by the make of their cars; the same thing goes for their operating system."); ?></p>
         <p><?php print _("GNU/Linux was made by people who don't like the thought of all the world's computers running just one company's proprietary products. There is certainly nothing wrong with that!"); ?></p>
         <p><?php
         # translators: The link here points to the "misunderstanding_free_software" article.
@@ -172,7 +170,7 @@ $this->load_header();
         <h3 id="linux_pre-installed"><?php print _("Does GNU/Linux come pre-installed on computers?"); ?></h3>
         <p><?php
         # translators: If LinuxPreloaded has not been localized to your language, please leave the URL to linuxpreloaded.com.
-        print _("Yes it does! <a href=\"https://linuxpreloaded.com/\" title=\"GNU/Linux laptops\" rel=\"external\">LinuxPreloaded.com</a> has built a website specially for that purpose, listing vendors that sell GNU/Linux desktops and laptops."); ?></p>
+        print _("Yes it does. <a href=\"https://linuxpreloaded.com/\" title=\"GNU/Linux laptops\" rel=\"external\">LinuxPreloaded.com</a> has built a website specially for that purpose, listing vendors that sell GNU/Linux desktops and laptops."); ?></p>
         <p><?php
         # translators: please leave the "#new_computer" element as such. It is an internal link.
         print _("Note that <a href=\"#new_computer\">buying new hardware is not necessary</a> to use GNU/Linux!"); ?></p>
@@ -189,7 +187,7 @@ $this->load_header();
         <h4 class="question_sub"><?php
         # translators: This is italic text just below the question, which elaborates a little on it.
         print _("There is a shiny Windows sticker on it! Am I allowed to erase Windows or use it together with GNU/Linux?"); ?></h4>
-        <p><?php print _("<strong>Yes.</strong> It is absolutely, completely legal (providing of course it's your computer!)."); ?></p>
+        <p><?php print _("Yes. It is absolutely, completely legal, provided of course it's your computer!"); ?></p>
         <p><?php print _("The sticker on it is purely marketing, it has no legal value. We believe it is <em>one fundamental right</em> to choose which software to run on our own hardware."); ?></p>
         <p><?php
         # translators: If you do not know of a very good resource about DRM, please link to the Wikipedia article on DRM in your language.
@@ -201,15 +199,14 @@ $this->load_header();
       <section>
         <h3 id="new_computer"><?php print _("Do I have to purchase a new computer to run GNU/Linux?"); ?></h3>
         <p><?php print _("Not at all. It will run happily on your own computer."); ?></p>
-        <p><?php $p = _("The only thing you might be worried about is using very recent special hardware, such as graphics cards. Otherwise, almost all GNU/Linux distributions can run on normal PCs (often called \"i386\" or \"x86\" computers), 64-bit-processor computers and Apple Mac computers (including the G5, G4, G3 series). <a href=\"%s\">Read how you can try or install GNU/Linux on your computer</a>, be it instead of or together with Windows."); printf($p, $this->base_url('switch_to_linux/try_or_install',1)); ?></p>
+        <p><?php $p = _("The only thing you might be worried about is using very recent special hardware, such as graphics cards. Otherwise, almost all GNU/Linux distributions can run on normal PCs (often called \"i386\" or \"x86\" computers), 64-bit-processor computers and Apple Mac computers. <a href=\"%s\">Read how you can try or install GNU/Linux on your computer</a>, be it instead of or together with Windows."); printf($p, $this->base_url('switch_to_linux/try_or_install',1)); ?></p>
       </section>
 
       <h2><?php print _("Using GNU/Linux"); ?></h2>
 
       <section>
         <h3 id="ms_office"><?php print _("Will Microsoft Office run on GNU/Linux?"); ?></h3>
-        <p><?php print _("No."); ?></p>
-        <p><?php print _("It is technically possible to adapt Microsoft Office to GNU/Linux, but Microsoft isn't keen on allowing Office users to choose their operating system. There are other issues with MS Office and openness &mdash; like Microsoft's fierce opposition to supporting <a href=\"http://www.opendocumentformat.org/\" rel=\"external\">the OpenDocument format</a>."); ?></p>
+        <p><?php print _("No. It is technically possible to adapt Microsoft Office to GNU/Linux, but Microsoft isn't keen on allowing Office users to choose their operating system. There are other issues with MS Office and openness &mdash; like Microsoft's fierce opposition to supporting <a href=\"http://www.opendocumentformat.org/\" rel=\"external\">the OpenDocument format</a>."); ?></p>
         <p><?php print _("However, a complete, free, reliable office suite exists: <a href=\"https://www.libreoffice.org/\" rel=\"external\">LibreOffice</a>. Or you can choose its close cousin, <a href=\"https://www.openoffice.org/\" rel=\"external\">Apache OpenOffice</a>. They will both happily use all your existing office files in MS-Word, MS-Excel, and MS-PowerPoint format, and are really free (both as in freedom and as in price). And they run on Windows as well as on GNU/Linux."); ?></p>
         <p>
           <a href="<?php # translators: If it exists, please use the localized URL of libreoffice.org. You can find localized URLs here: https://www.libreoffice.org/international-sites/
@@ -240,8 +237,8 @@ $this->load_header();
 
       <section>
         <h3 id="games"><?php print _("Can I play popular 3D games under GNU/Linux?"); ?></h3>
-        <p><?php print _("Yes and no. Some games, for example some <a href=\"http://www.idsoftware.com/\" rel=\"external\">id Software</a> games like the Quake series and Doom 3, Unreal Tournament, Cold War, and many more have GNU/Linux versions. Since the release of the popular Steam platform to the GNU/Linux operating system back in 2013, the number of GNU/Linux compatible games on Steam has been growing rapidly. Check out the <a href=\"http://store.steampowered.com/linux\" rel=\"external\">Steam store</a> where you can find a wealth of high quality, GNU/Linux compatible games."); ?></p>
-        <p><?php print _("Most popular games, alas, only work on Windows and occasionally on macOS. Some Windows games, such as Call of Duty or GTA Vice City, can be run on GNU/Linux with <a href=\"https://www.winehq.org/\" rel=\"external\">Wine</a> or its non-free variant <a href=\"https://www.codeweavers.com/products/crossover/\" rel=\"external\">CrossOver</a>, which involves some unpleasant effort for the user. For a list of games known to work on Wine, see <a href=\"https://appdb.winehq.org/\" rel=\"external\">their games database</a>."); ?></p>
+        <p><?php print _("Yes and no. Some games, for example the Quake series, Rust, Counter-Strike, Tomb Raider, Portal, Left 4 Dead, and many more have GNU/Linux versions. Since the release of the popular Steam platform to the GNU/Linux operating system, the number of GNU/Linux compatible games on Steam has been growing rapidly. Check out the <a href=\"http://store.steampowered.com/linux\" rel=\"external\">Steam store</a> where you can find a wealth of high quality, GNU/Linux compatible games."); ?></p>
+        <p><?php print _("Most popular games, alas, only work on Windows and occasionally on macOS. Some Windows games can be run on GNU/Linux with <a href=\"https://www.winehq.org/\" rel=\"external\">Wine</a> or its non-free variant <a href=\"https://www.codeweavers.com/products/crossover/\" rel=\"external\">CrossOver</a>, which involves some unpleasant effort for the user. For a list of games known to work on Wine, see <a href=\"https://appdb.winehq.org/\" rel=\"external\">their games database</a>."); ?></p>
       </section>
 
       <section>
@@ -252,7 +249,7 @@ $this->load_header();
         printf( $p, $this->base_url('more',1), _("More") ); ?></p>
         <p><?php
         # translators: The first link will automatically point to the contact page, the second to the bug tracker.
-        $p = _("If you can think of a frequent question that we haven't answered yet, do <a href=\"%s\" rel=\"external\">let us know</a>, or even better, <a href=\"%s\" rel=\"external\">file a new bug</a>.");
+        $p = _("If you can think of a frequent question that we haven't answered yet, do <a href=\"%s\" rel=\"external\">let us know</a>, or <a href=\"%s\" rel=\"external\">file an issue</a>.");
         printf($p, $ggl->get('contact_url'), $ggl->get('tracker_url')); ?></p>
       </section>
     </article>
