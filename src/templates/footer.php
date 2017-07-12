@@ -19,7 +19,7 @@
       <p id="incomplete" dir="ltr">Partial translations are available in <?php $this->language_links($ggl->get_locales('incomplete')); ?>.</p>
     </div>
 
-    <hr/>
+    <hr>
 
     <div class="block">
       <ul>
@@ -39,7 +39,7 @@
       </ul>
     </div>
 
-    <hr/>
+    <hr>
 
     <div class="notices" dir="ltr">
       <p>
