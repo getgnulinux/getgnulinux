@@ -135,8 +135,8 @@ $this->load_header();
         <h3 id="mac_freedom"><?php print _("Is macOS also a free operating system?"); ?></h3>
         <h4 class="question_sub"><?php print _("Do all the reasons for avoiding Windows apply to macOS?"); ?></h4>
         <p><?php $p = _("It's quite common for Mac users to believe they are exempt from <a href=\"%s\">restrictions associated with Windows</a>. Unfortunately such is not the case."); printf($p, $this->base_url('windows',1)); ?></p>
-        <p><?php print _("macOS does have some low-level components which are <a href=\"https://www.softwareliberty.com/\" rel=\"external\">free software</a>; and Apple puts less energy into customer lock-in (with some notable efforts such as BootCamp)."); ?><br />
-        <?php print _("However, the end-user is still fundamentally restricted &mdash; because of the proprietary license, he/she cannot use macOS for all purposes, nor copy, study, modify, or redistribute it."); ?></p>
+        <p><?php print _("macOS does have some low-level components which are <a href=\"https://www.softwareliberty.com/\" rel=\"external\">free software</a>; and Apple puts less energy into customer lock-in (with some notable efforts such as BootCamp)."); ?></p>
+        <p><?php print _("However, the end-user is still fundamentally restricted &mdash; because of the proprietary license, he/she cannot use macOS for all purposes, nor copy, study, modify, or redistribute it."); ?></p>
         <p><?php print _("Happily, because these freedoms matter a lot, it's possible to run popular GNU/Linux distributions (such as <a href=\"https://www.ubuntu.com/\" rel=\"external\">Ubuntu</a>) on Mac computers."); ?></p>
       </section>
 
