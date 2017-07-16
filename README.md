@@ -131,5 +131,5 @@ The source code is licensed under the GNU Affero General Public License Version
 
 The content of the website and its graphical assets are, except where otherwise
 [noted](https://www.getgnulinux.org/legal/), licensed under the [Creative
-Commons Attribution-ShareAlike 3.0 Unported
-License](https://creativecommons.org/licenses/by-sa/3.0/).
+Commons Attribution-ShareAlike 4.0 International
+License](https://creativecommons.org/licenses/by-sa/4.0/).

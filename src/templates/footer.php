@@ -43,8 +43,8 @@
 
     <div class="notices" dir="ltr">
       <p>
-        <?php # translators: If there is an official translation for the license, use that URL instead. Make sure you use the URL for CC BY-SA 3.0.
-        $p = _("Except where otherwise <a href=\"%s\">noted</a>, content on this site is licensed under a <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" rel=\"license external\"><abbr title=\"Creative Commons Attribution-ShareAlike\">CC BY-SA</abbr> 3.0 License</a>."); printf($p, $this->base_url('legal',1)); ?><br/>
+        <?php # translators: If there is an official translation for the license, use that URL instead. Make sure you use the URL for CC BY-SA 4.0.
+        $p = _("Except where otherwise <a href=\"%s\">noted</a>, content on this site is licensed under a <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"license external\"><abbr title=\"Creative Commons Attribution-ShareAlike\">CC BY-SA</abbr> 4.0 International License</a>."); printf($p, $this->base_url('legal',1)); ?><br/>
         <?php print _("Generously hosted by <a href=\"https://www.tuxfamily.org/\" rel=\"external\">TuxFamily</a>."); ?>
         <?php $p = _("This site is <a href=\"%s\" rel=\"external\">open source</a>."); printf($p, $ggl->get('project_url')); ?>
       </p>

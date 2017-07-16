@@ -32,13 +32,14 @@ $this->load_header();
 
       <ul>
         <li>
-          Text content of getgnulinux.org and all their translations:
-          <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="external">Creative
-          Commons Attribution Share-Alike 3.0 License</a>. This means we hold
-          the copyright upon it, but grant some rights, including copying,
-          redistributing, modifying for any purpose, including commercial, without
-          permission, as long as you credit us for the original creation and
-          redistribute the content under the same or similar license.
+          Text content of getgnulinux.org and all their translations: <a
+          href="https://creativecommons.org/licenses/by-sa/4.0/"
+          rel="external">Creative Commons Attribution Share-Alike 4.0
+          International License</a>. This means we hold the copyright upon it,
+          but grant some rights, including copying, redistributing, modifying
+          for any purpose, including commercial, without permission, as long as
+          you credit us for the original creation and redistribute the content
+          under the same or similar license.
         </li>
         <li>
           Graphics of getgnulinux.org: as described in the <a href="<?php $this->base_url('credits'); ?>">credits</a>.
