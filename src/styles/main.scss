@@ -87,6 +87,18 @@ a:active {
   color: $dark-orange;
 }
 
+/* External link styles */
+a[rel~="external"]:after {
+    content: "\f08e";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 80%;
+    font-style: normal;
+    font-weight: normal;
+    padding-left: 3px;
+    text-decoration: none;
+}
+
 abbr {
     letter-spacing: 0.05em;
 }

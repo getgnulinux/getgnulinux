@@ -36,18 +36,6 @@ a {
   }
 }
 
-/* External link styles */
-a[rel~="external"]:after {
-    content: "\f08e";
-    display: inline-block;
-    font-family: FontAwesome;
-    font-size: 80%;
-    font-style: normal;
-    font-weight: normal;
-    padding-left: 3px;
-    text-decoration: none;
-}
-
 hr {
   border-bottom: $base-border;
   border-left: 0;
