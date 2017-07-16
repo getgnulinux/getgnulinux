@@ -57,7 +57,7 @@
     <a href="<?php $this->base_url(); ?>" class="mobile-logo">
       <i class="fa fa-home fa-lg" aria-hidden="true"></i>
     </a>
-    <a href="javascript:void(0)" id="js-navigation-mobile-menu" class="navigation-mobile-menu">
+    <a href="#" id="js-navigation-mobile-menu" class="navigation-mobile-menu">
       <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
     </a>
     <nav role="navigation">

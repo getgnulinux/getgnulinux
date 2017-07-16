@@ -53,7 +53,7 @@
   </div>
 </footer>
 
-<a id="to-top" href="javascript:void(0)">
+<a id="to-top" href="#">
   <span id="to-top-hover"></span>
   <i class="fa fa-chevron-circle-up fa-3x"></i>
 </a>
