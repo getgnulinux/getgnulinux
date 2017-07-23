@@ -111,7 +111,7 @@ $trisquel3_text = _("LibreOffice Calc open, showing an example spreadsheet.");
           <img src="/images/TrisquelLogo.png" alt="Trisquel">
         </div>
 
-        <p><?php $p = _("While Ubuntu contains some restricting components (<a href=\"%s#full_freedom\">why?</a>), the Trisquel developers have built an entirely free derivative. Although its community is smaller and its hardware support might be slightly inferior, Trisquel gives anyone full freedom over a complete operating system similar to Ubuntu."); printf($p, $this->base_url('linux/linux_faq',1)); ?></p>
+        <p><?php $p = _("Since Ubuntu contains some restricting components (<a href=\"%s#full_freedom\">why?</a>), the Trisquel developers have built an entirely free derivative. Although its community is smaller and its hardware support might be slightly inferior, Trisquel gives anyone full freedom over a complete operating system similar to Ubuntu."); printf($p, $this->base_url('linux/linux_faq',1)); ?></p>
         <p><?php print _("We recommend this distribution if you are committed to freedom in your computing."); ?></p>
 
         <div class="flexslider screenshots">
