@@ -27,6 +27,20 @@ const versionConfig = {
   },
 };
 
+// Rsync configurations for deploying to production.
+const rsyncConf = {
+  root: 'docroot/',
+  hostname: 'tuxfamily',
+  destination: '/home/getgnulinux/getgnulinux.org-web/htdocs',
+  progress: true,
+  incremental: true,
+  relative: true,
+  emptyDirectories: true,
+  recursive: true,
+  clean: true,
+  compress: true,
+};
+
 var dev = true;
 
 gulp.task('styles:sass', () => {
@@ -139,4 +153,15 @@ gulp.task('default', () => {
     dev = false;
     runSequence(['clean'], 'build', resolve);
   });
+});
+
+gulp.task('deploy', () => {
+  return gulp.src('docroot/**')
+	.pipe(
+	  $.prompt.confirm({
+		message: `Are you sure you want to deploy to ${rsyncConf.hostname}:${rsyncConf.destination}?`,
+		default: false
+	  })
+	)
+	.pipe($.rsync(rsyncConf));
 });
