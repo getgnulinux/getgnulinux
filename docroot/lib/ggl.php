@@ -89,8 +89,7 @@ class GGL {
      *
      * @var array
      */
-    private static $locales_complete = array('ast','ca','en','es','fr','he',
-        'mk', 'nl','pt-br','ru','zh', 'zh-tw');
+    private static $locales_complete = array('pt-br', 'zh-tw');
 
     /**
      * Set of ISO language codes for right-to-left languages.
