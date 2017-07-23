@@ -6,26 +6,26 @@ if ( !defined('GGL') ) {
 
 $this->load_header();
 
-# translators: This is the description of the "ubuntu1.png" screenshot.
+# translators: This is the description of the "ubuntu1.jpg" screenshot.
 $ubuntu1_text = _("Firefox web browser");
-# translators: This is the description of the "ubuntu2.png" screenshot.
-$ubuntu2_text = _("File manager and image browsing application are open, on standard desktop.");
-# translators: This is the description of the "ubuntu3.png" screenshot.
-$ubuntu3_text = _("Thunderbird e-mail and calendar application.");
+# translators: This is the description of the "ubuntu2.jpg" screenshot.
+$ubuntu2_text = _("Rhythmbox music player");
+# translators: This is the description of the "ubuntu3.jpg" screenshot.
+$ubuntu3_text = _("Thunderbird e-mail and calendar application");
 
-# translators: This is the description of the "fedora1.png" screenshot.
-$fedora1_text = _("GIMP image editing application, cropping a photo.");
-# translators: This is the description of the "fedora2.png" screenshot.
-$fedora2_text = _("LibreOffice Writer open, editing a standard document.");
-# translators: This is the description of the "fedora3.png" screenshot.
-$fedora3_text = _("Accessing applications in the <a href=\"https://www.gnome.org/gnome-3/\" rel=\"external\">GNOME 3</a> desktop environment.");
+# translators: This is the description of the "fedora1.jpg" screenshot.
+$fedora1_text = _("Accessing applications in the <a href=\"https://www.gnome.org/gnome-3/\" rel=\"external\">GNOME 3</a> desktop environment.");
+# translators: This is the description of the "fedora2.jpg" screenshot.
+$fedora2_text = _("Desktop overview with two applications open.");
+# translators: This is the description of the "fedora3.jpg" screenshot.
+$fedora3_text = _("LibreOffice Writer open, editing a standard document.");
 
-# translators: This is the description of the "trisquel1.png" screenshot.
-$trisquel1_text = _("Update manager open.");
-# translators: This is the description of the "trisquel2.png" screenshot.
-$trisquel2_text = _("LibreOffice Calc open, showing an example spreadsheet.");
-# translators: This is the description of the "trisquel3.png" screenshot.
-$trisquel3_text = _("Accessing applications.");
+# translators: This is the description of the "trisquel1.jpg" screenshot.
+$trisquel1_text = _("Accessing applications.");
+# translators: This is the description of the "trisquel2.jpg" screenshot.
+$trisquel2_text = _("Application manager open, add/remove applications.");
+# translators: This is the description of the "trisquel3.jpg" screenshot.
+$trisquel3_text = _("LibreOffice Calc open, showing an example spreadsheet.");
 ?>
 
 <nav class="chapters">
@@ -59,15 +59,15 @@ $trisquel3_text = _("Accessing applications.");
         <div class="flexslider screenshots">
           <ul class="slides">
             <li>
-              <img src="/images/screenshots/ubuntu1.png" alt="Ubuntu screenshot" />
+              <img src="/images/screenshots/ubuntu1.jpg" alt="Ubuntu screenshot" />
               <p class="flex-caption"><?php print $ubuntu1_text; ?></p>
             </li>
             <li>
-              <img src="/images/screenshots/ubuntu2.png" alt="Ubuntu screenshot" />
+              <img src="/images/screenshots/ubuntu2.jpg" alt="Ubuntu screenshot" />
               <p class="flex-caption"><?php print $ubuntu2_text; ?></p>
             </li>
             <li>
-              <img src="/images/screenshots/ubuntu3.png" alt="Ubuntu screenshot" />
+              <img src="/images/screenshots/ubuntu3.jpg" alt="Ubuntu screenshot" />
               <p class="flex-caption"><?php print $ubuntu3_text; ?></p>
             </li>
           </ul>
@@ -89,15 +89,15 @@ $trisquel3_text = _("Accessing applications.");
         <div class="flexslider screenshots">
           <ul class="slides">
             <li>
-              <img src="/images/screenshots/fedora1.png" alt="Fedora screenshot" />
+              <img src="/images/screenshots/fedora1.jpg" alt="Fedora screenshot" />
               <p class="flex-caption"><?php print $fedora1_text; ?></p>
             </li>
             <li>
-              <img src="/images/screenshots/fedora2.png" alt="Fedora screenshot" />
+              <img src="/images/screenshots/fedora2.jpg" alt="Fedora screenshot" />
               <p class="flex-caption"><?php print $fedora2_text; ?></p>
             </li>
             <li>
-              <img src="/images/screenshots/fedora3.png" alt="Fedora screenshot" />
+              <img src="/images/screenshots/fedora3.jpg" alt="Fedora screenshot" />
               <p class="flex-caption"><?php print $fedora3_text; ?></p>
            </li>
           </ul>
@@ -117,15 +117,15 @@ $trisquel3_text = _("Accessing applications.");
         <div class="flexslider screenshots">
           <ul class="slides">
             <li>
-              <img src="/images/screenshots/trisquel1.png" alt="Trisquel screenshot" />
+              <img src="/images/screenshots/trisquel1.jpg" alt="Trisquel screenshot" />
               <p class="flex-caption"><?php print $trisquel1_text; ?></p>
             </li>
             <li>
-              <img src="/images/screenshots/trisquel2.png" alt="Trisquel screenshot" />
+              <img src="/images/screenshots/trisquel2.jpg" alt="Trisquel screenshot" />
               <p class="flex-caption"><?php print $trisquel2_text; ?></p>
             </li>
             <li>
-              <img src="/images/screenshots/trisquel3.png" alt="Trisquel screenshot" />
+              <img src="/images/screenshots/trisquel3.jpg" alt="Trisquel screenshot" />
               <p class="flex-caption"><?php print $trisquel3_text; ?></p>
             </li>
           </ul>
