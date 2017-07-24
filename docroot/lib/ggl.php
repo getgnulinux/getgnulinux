@@ -89,15 +89,28 @@ class GGL {
      *
      * @var array
      */
-    private static $locales_complete = array('en', 'pt-br', 'zh-tw');
+    private static $locales_complete = array(
+        'en',
+        'nl',
+        'pt-br',
+        'zh-tw'
+    );
 
     /**
      * Set of ISO language codes for right-to-left languages.
      *
      * @var array
      */
-    private static $rtl_languages = array('ar','dv','fa','ha','he','ps','ur',
-        'yi');
+    private static $rtl_languages = array(
+        'ar',
+        'dv',
+        'fa',
+        'ha',
+        'he',
+        'ps',
+        'ur',
+        'yi'
+    );
 
     /**
      * Set of ISO language codes for languages for which italics should be
@@ -105,7 +118,7 @@ class GGL {
      *
      * @var array
      */
-    private static $no_italics_languages = array('ar','he');
+    private static $no_italics_languages = array('ar', 'he');
 
     /**
      * Configuration items.
