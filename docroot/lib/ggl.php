@@ -110,9 +110,7 @@ class GGL {
     /**
      * Configuration items.
      *
-     * This is an associative, multidimensional array made up of the following
-     * items (key => value):
-     *  - default_lang: ISO language code of the default language.
+     * This is an associative array made up of the following items:
      *  - negotiated_lang: Language set through language negotiation.
      *  - lang: ISO language code of the current language.
      *  - locale: Locale code of the current language.
@@ -123,7 +121,6 @@ class GGL {
      * @var array
      */
     public $config = array(
-        'default_lang' => 'en', /* not used at this moment */
         'negotiated_lang' => null,
         'lang' => 'en',
         'locale' => "en_US.UTF-8",
@@ -295,7 +292,7 @@ class GGL {
      */
     public function set($key, &$value)
     {
-        if ($key == 'locale') {
+        if ($key === 'locale') {
             $this->set_locale($value);
             return;
         }
