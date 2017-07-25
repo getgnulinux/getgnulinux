@@ -26,21 +26,12 @@ $this->load_header();
 
     <ul>
       <li>Background patterns by <a href="https://subtlepatterns.com/" rel="external">Subtle Patterns</a>, <abbr title="Creative Commons">CC</abbr> <abbr title="Attribution, Share Alike">BY-SA</abbr> license.</li>
-
       <li><a href="https://openclipart.org/" rel="external">OpenClipart</a> material, released to the Public Domain;</li>
-
       <li><a href="http://tango.freedesktop.org/Tango_Icon_Library" rel="external">Tango icons</a> by the <a href="http://tango.freedesktop.org/Tango_Desktop_Project" rel="external">Tango Desktop Project</a>, released to the Public Domain.</li>
+      <li><a href="https://www.gnu.org/gnu30/" rel="external">The GNU 30th banner</a> by the Free Software Foundation, <abbr title="Creative Commons">CC</abbr> <abbr title="Attribution, Share Alike">BY-SA</abbr> 2.0 license;</li>
+      <li><a href="https://en.wikipedia.org/wiki/File:Tux-simple.svg" rel="external">Tux-simple.svg</a> by Larry Ewing, permission to copy if credit given.</li>
 
-      <li>Material from other sources:
-        <ul>
-          <li><a href="https://www.gnu.org/gnu30/" rel="external">The GNU 30th banner</a> by the Free Software Foundation, <abbr title="Creative Commons">CC</abbr> <abbr title="Attribution, Share Alike">BY-SA</abbr> 2.0 license;</li>
-          <li><a href="https://en.wikipedia.org/wiki/File:Tux-simple.svg" rel="external">Tux-simple.svg</a> by Larry Ewing, permission to copy if credit given.</li>
-        </ul>
-      </li>
-
-      <li>Ubuntu and Fedora logos: in accordance with the respective trademark guidelines (<a href="https://fedoraproject.org/wiki/Legal/TrademarkGuidelines" rel="external">Fedora</a>, <a href="https://www.ubuntu.com/aboutus/trademarkpolicy" rel="external">Ubuntu</a>)</li>
-      <li>gNewSense artwork: based on work by Dave Crossland, <abbr title="Creative Commons">CC</abbr> <abbr title="Attribution, Share Alike">BY-SA</abbr>, with special thanks.</li>
-      <li><a href="https://trisquel.info/en/wiki/logo" rel="external">Trisquel logo</a> by Rubén Rodríguez Pérez, <a href="https://en.wikipedia.org/wiki/GNU_General_Public_License" rel="external">GNU <abbr title="General Public License">GPL</abbr></a>.</li>
+      <li>Ubuntu, Fedora, and Trisquel logos: in accordance with the respective trademark guidelines (<a href="https://www.ubuntu.com/aboutus/trademarkpolicy" rel="external">Ubuntu</a>, <a href="https://fedoraproject.org/wiki/Legal/TrademarkGuidelines" rel="external">Fedora</a>, <a href="https://trisquel.info/en/wiki/logo" rel="external">Trisquel</a>)</li>
       <li>The laptop image on the "Try or install" page used with permission from <a href="https://www.system76.com/" rel="external">system76.com</a>.</li>
     </ul>
 
@@ -54,6 +45,7 @@ $this->load_header();
     <h2 id="code">Code</h2>
 
     <ul>
+      <li><a href="http://bourbon.io/" rel="external">Bourbon</a> by <a href="https://thoughtbot.com/" rel="external">thoughtbot, inc.</a>, <a href="https://opensource.org/licenses/MIT" rel="external">MIT License</a>;</li>
       <li><a href="https://html5boilerplate.com/" rel="external">HTML5 Boilerplate</a> by <a href="https://github.com/h5bp" rel="external">H5BP</a>, <a href="https://opensource.org/licenses/MIT" rel="external">MIT License</a>;</li>
       <li><a href="https://jquery.com/" rel="external">jQuery</a> by the jQuery Foundation, <a href="https://opensource.org/licenses/MIT" rel="external">MIT License</a>;</li>
       <li><a href="https://github.com/carhartl/jquery-cookie" rel="external">jQuery Cookie</a> by Klaus Hartl, <a href="https://opensource.org/licenses/MIT" rel="external">MIT License</a>;</li>
