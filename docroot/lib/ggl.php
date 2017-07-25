@@ -216,7 +216,7 @@ class GGL {
             # translators: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
             'linux' => _("What is GNU/Linux?"),
             # translators: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
-            'linux.linux_faq' => _("Linux FAQ - common questions about GNU/Linux"),
+            'linux.linux_faq' => _("GNU/Linux FAQ - common questions about GNU/Linux"),
             # translators: Here the intent is to be a little provocative. Exact translation is not required.
             'linux.misunderstanding_free_software' => _("How to Misunderstand Free Software"),
             # translators: This is the title of the 'Screenshots' page.
@@ -251,7 +251,7 @@ class GGL {
             'more' => _("Read and discover more about GNU/Linux."),
             # translators: This is the description of the 'Linux' page
             'linux' => _("What is GNU/Linux? A clear explanation."),
-            # translators: This is the description of the 'Linux FAQ' page
+            # translators: This is the description of the 'GNU/Linux FAQ' page
             'linux.linux_faq' => _("Frequently Asked Questions about GNU/Linux."),
             # translators: This is the description of the 'Misunderstanding Free Software' page
             'linux.misunderstanding_free_software' => _("An unconventional way to (re)discover free software."),

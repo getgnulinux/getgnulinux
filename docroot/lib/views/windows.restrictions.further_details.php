@@ -53,7 +53,7 @@ $this->load_header();
 
         <div class="column">
           <h3 id="gpl"><a href="<?php
-          # translators: If it exists, please use a non-official translation of the GPL in your language, as pointed on https://www.gnu.org/licenses/translations.html
+          # translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
           print _("https://www.gnu.org/copyleft/gpl.html"); ?>" title="<?php print _("The GNU General Public License"); ?>" rel="external"><?php print _("The GPL"); ?></a></h3>
           <p><?php print _("The GNU General Public License, under which GNU/Linux and a vast amount of free software are published."); ?></p>
 
