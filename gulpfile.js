@@ -39,6 +39,7 @@ const rsyncConf = {
   recursive: true,
   clean: true,
   compress: true,
+  exclude: ['.*.swp'],
 };
 
 var dev = true;
