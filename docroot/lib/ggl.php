@@ -93,7 +93,8 @@ class GGL {
         'en',
         'nl',
         'pt-br',
-        'zh-tw'
+        'zh',
+        'zh-tw',
     );
 
     /**
