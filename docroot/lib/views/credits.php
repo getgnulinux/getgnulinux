@@ -35,26 +35,6 @@ $this->load_header();
       <li>The laptop image on the "Try or install" page used with permission from <a href="https://www.system76.com/" rel="external">system76.com</a>.</li>
     </ul>
 
-    <h2 id="fonts">Fonts</h2>
-
-    <ul>
-      <li><a href="https://www.google.com/fonts/specimen/Open+Sans" rel="external">Open Sans</a> by Steve Matteson, <a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="external">Apache License, version 2.0</a>;</li>
-      <li><a href="http://fontawesome.io" rel="external">Font Awesome</a> by Dave Gandy, <a href="http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web" rel="external">SIL OFL 1.1</a> and <a href="https://opensource.org/licenses/MIT" rel="external">MIT License</a>. <i class="fa fa-thumbs-o-up"></i></li>
-    </ul>
-
-    <h2 id="code">Code</h2>
-
-    <ul>
-      <li><a href="http://bourbon.io/" rel="external">Bourbon</a> by <a href="https://thoughtbot.com/" rel="external">thoughtbot, inc.</a>, <a href="https://opensource.org/licenses/MIT" rel="external">MIT License</a>;</li>
-      <li><a href="https://html5boilerplate.com/" rel="external">HTML5 Boilerplate</a> by <a href="https://github.com/h5bp" rel="external">H5BP</a>, <a href="https://opensource.org/licenses/MIT" rel="external">MIT License</a>;</li>
-      <li><a href="https://jquery.com/" rel="external">jQuery</a> by the jQuery Foundation, <a href="https://opensource.org/licenses/MIT" rel="external">MIT License</a>;</li>
-      <li><a href="https://github.com/carhartl/jquery-cookie" rel="external">jQuery Cookie</a> by Klaus Hartl, <a href="https://opensource.org/licenses/MIT" rel="external">MIT License</a>;</li>
-      <li><a href="https://plugins.jquery.com/scrollTo/" rel="external">jQuery scrollTo</a> by Ariel Flesler, <a href="https://opensource.org/licenses/MIT" rel="external">MIT License</a>;</li>
-      <li><a href="http://www.woothemes.com/flexslider/" rel="external">jQuery FlexSlider</a> by WooThemes, <a href="https://www.gnu.org/licenses/gpl-2.0.html" rel="external">GNU General Public License, version 2</a>;</li>
-      <li><a href="https://modernizr.com/" rel="external">Modernizr</a> by the <a href="https://github.com/orgs/Modernizr/members" rel="external">Modernizr team</a>, <a href="https://opensource.org/licenses/MIT" rel="external">MIT License</a>;</li>
-      <li><a href="http://benhowdle.im/svgeezy/" rel="external">SVGeezy</a> by <a title="Ben Howdle" href="http://benhowdle.im" rel="external">Ben Howdle</a> and <a title="Jack Smith" href="http://jacksmith.is" rel="external">Jack Smith</a>, <a href="http://www.wtfpl.net/" rel="external"><abbr title="Do What the Fuck You Want to Public License">WTFPL</abbr></a>.</li>
-    </ul>
-
     <h2 id="translators">Translations</h2>
 
     <h4>Arabic</h4>
@@ -332,7 +312,7 @@ $this->load_header();
     <h2>And also</h2>
     <p>Thank you to:</p>
     <ul>
-      <li><a href="https://www.tuxfamily.org/" rel="external">TuxFamily</a> for providing excellent hosting service;</li>
+      <li><a href="https://www.tuxfamily.org/" rel="external">TuxFamily</a> for providing excellent hosting service.</li>
     </ul>
   </div>
 </main>
