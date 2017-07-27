@@ -6,7 +6,6 @@
   <title><?php $this->page_title(); ?></title>
   <meta name="description" content="<?php $this->page_description(); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="copyright" type="text/html" title="Copyright notice for this website." href="<?php $this->url('legal/'); ?>" hreflang="en">
   <?php
   $base_url = $ggl->get('base_url');
   foreach ($ggl->get_locales('complete') as $code => $v) {
@@ -52,7 +51,7 @@
   <span class="close"><i class="fa fa-times-circle fa-lg" title="Close"></i></span>
 </div>
 
-<header class="navigation" role="banner">
+<header class="navigation">
   <div class="navigation-wrapper">
     <a href="<?php $this->base_url(); ?>" class="mobile-logo">
       <i class="fa fa-home fa-lg" aria-hidden="true"></i>
@@ -60,7 +59,7 @@
     <a href="#" id="js-navigation-mobile-menu" class="navigation-mobile-menu">
       <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
     </a>
-    <nav role="navigation">
+    <nav>
       <ul id="js-navigation-menu" class="navigation-menu show">
         <li class="nav-link logo">
           <a href="<?php $this->base_url(); ?>" class="logo">

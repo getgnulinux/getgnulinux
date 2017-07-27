@@ -107,7 +107,6 @@ gulp.task('lint', () => {
 gulp.task('html', ['styles', 'scripts'], () => {
   return gulp.src('src/**/*.php')
     .pipe($.useref({searchPath: ['docroot', 'src', '.']}))
-    .pipe($.if('*.php', $.htmlmin({collapseWhitespace: true})))
     .pipe($.if('*.php', $.versionNumber(versionConfig)))
     .pipe(gulp.dest('docroot'));
 });
