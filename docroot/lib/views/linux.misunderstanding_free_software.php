@@ -12,7 +12,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
 
 ?>
 
-<main role="main">
+<main>
   <div class="container">
     <article>
       <header>

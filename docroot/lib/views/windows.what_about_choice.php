@@ -13,7 +13,7 @@ $this->load_header();
   <?php $this->list_chapter_sections('windows'); ?>
 </nav>
 
-<main role="main">
+<main>
   <div class="container">
     <article>
       <header>

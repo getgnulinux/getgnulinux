@@ -9,7 +9,7 @@ $this->load_header();
 
 ?>
 
-<main role="main">
+<main>
   <section>
     <div class="container">
       <h1><?php print _("Switch to GNU/Linux"); ?></h1>

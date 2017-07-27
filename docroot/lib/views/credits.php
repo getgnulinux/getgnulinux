@@ -7,7 +7,7 @@ if ( !defined('GGL') ) {
 $this->load_header();
 ?>
 
-<main dir="ltr" role="main">
+<main dir="ltr">
   <div class="container">
     <header>
       <h1>Thank you</h1>

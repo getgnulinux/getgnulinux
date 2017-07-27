@@ -8,7 +8,7 @@ if ( !defined('GGL') ) {
 $this->load_header();
 ?>
 
-<main role="main">
+<main>
   <section class="no-padding">
     <div class="flexslider home">
       <ul class="slides">

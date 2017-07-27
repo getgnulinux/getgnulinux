@@ -8,7 +8,7 @@ $this->view = "404";
 $this->load_header();
 ?>
 
-<main role="main">
+<main>
   <article>
     <div class="container">
       <header>

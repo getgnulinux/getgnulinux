@@ -32,7 +32,7 @@ $trisquel3_text = _("LibreOffice Calc open, showing an example spreadsheet.");
   <?php $this->list_chapter_sections('switch_to_linux'); ?>
 </nav>
 
-<main role="main">
+<main>
   <article>
     <header>
       <h1><?php print _("Choose a distribution"); ?></h1>

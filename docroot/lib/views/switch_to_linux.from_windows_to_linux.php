@@ -13,7 +13,7 @@ $this->load_header();
   <?php $this->list_chapter_sections('switch_to_linux'); ?>
 </nav>
 
-<main role="main">
+<main>
   <article>
     <div class="container">
       <header>

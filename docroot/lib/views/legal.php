@@ -9,7 +9,7 @@ $this->load_header();
 
 ?>
 
-<main dir="ltr" role="main">
+<main dir="ltr">
   <div class="container">
     <h1>Legal terms</h1>
 

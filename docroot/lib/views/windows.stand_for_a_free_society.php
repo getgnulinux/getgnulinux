@@ -16,7 +16,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
   <?php $this->list_chapter_sections('windows'); ?>
 </nav>
 
-<main role="main">
+<main>
   <article>
     <div class="container">
       <header>
