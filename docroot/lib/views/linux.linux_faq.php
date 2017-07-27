@@ -11,7 +11,7 @@ $this->load_header();
   <div class="container">
     <article id="faq">
       <header>
-        <h1 id="top"><?php print _("GNU/Linux Frequently Asked Questions"); ?></h1>
+        <h1 id="top"><?php print _("Frequently asked questions"); ?></h1>
 
         <div class="page-intro">
           <p><?php $p = _("<a href=\"%s\">Our page about GNU/Linux</a> covers the essential information. We hope this FAQ list can help if you are more curious."); printf($p, $this->base_url('linux',1)); ?></p>
