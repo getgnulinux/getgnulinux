@@ -1,0 +1,23 @@
+version: "3.3"
+
+services:
+  httpd:
+    build:
+      context: ..
+      dockerfile: docker/httpd.Dockerfile
+    restart: always
+    volumes:
+      - "docroot:/var/www/html"
+    ports:
+      - "8080:80"
+
+  getgnulinux:
+    hostname: ggl
+    build:
+      context: ..
+      dockerfile: docker/getgnulinux.Dockerfile
+    volumes:
+      - "docroot:/home/ggl/getgnulinux/docroot"
+
+volumes:
+  docroot:

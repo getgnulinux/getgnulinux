@@ -7,39 +7,42 @@ to make the switch. With this website we hope to reach people who never heard
 about free software and barely remotely heard the word "Linux".
 
 
-## Setup
+## Build/development environment
 
-This section explains the basic steps needed to setup the website on your web
-server.
+You can use Docker to setup a local build/development environment. On a Debian
+or Debian-based system, you can install Docker with:
 
-### Setup your build environment
+    apt-get install docker.io docker-compose
+
+Start the development environment with:
+
+    docker/dev.sh
+
+Start the web server in a separate terminal:
+
+    docker/start.sh
+
+The website should now be accessible at <http://localhost:8080/>.
+
+
+### Manual build environment
+
+NOTE: There's no need to do this manually. The Docker environment has this
+automated, see "Build/development environment" section above.
 
 The following tools need to be installed on your build environment:
-* A text editor
-* Git
+
 * GNU gettext
 * GNU make
 * Nodejs
-* Yarn
 
-On a Debian or Debian-based system, you can easily install most dependencies
-with:
+On a Debian or Debian-based system, you can install the dependencies with:
 
-    sudo apt-get install git gettext make nodejs
+    apt-get install gettext make nodejs
 
 The Nodejs version that comes with Debian is probably too old. If this is the
 case, follow the instructions on <https://nodejs.org/en/download/> to obtain
 and install the latest stable version.
-
-Follow the instructions on <https://yarnpkg.com/en/docs/install> to install
-Yarn on your system.
-
-Clone the getgnulinux source code repository:
-
-    git clone https://github.com/figure002/getgnulinux.git
-
-This clones the repository into a new directory called "getgnulinux". The
-commands that follow must be executed from this directory.
 
 Create a settings file:
 
@@ -58,7 +61,7 @@ changes on the website. Just run the `make` command again.
 
 Install the required Nodejs packages with:
 
-    yarn install
+    npm install
 
 Activate the GGL development work space:
 
@@ -81,15 +84,18 @@ You can also run `gulp --tasks` to see a list of available `gulp` tasks.
 
 The "docroot" directory is now prepared for a production environment. You can
 synchronize the contents of this directory to the document root on your web
-server, so that the site can be served.
+server to deploy.
 
 
-### Setup the web server
+## Setup the web server
+
+This section explains the basic steps needed to setup the website on your web
+server.
 
 Requirements for the web server are as follows:
+
 * Apache HTTP server
 * PHP
-* PEAR
 * GNU gettext
 
 After creating a production build as described above, the directory "docroot"
@@ -97,15 +103,16 @@ is the document root for the website. Make sure Apache is configured to serve
 from this directory. This directory also contains a hidden file `.htaccess`
 which is required for the website to function properly. Either make sure that
 .htaccess files are processed for this website, or copy the rules from this
-.htaccess file to the Apache configuration file for this site. Also make sure
-that Apache module `mod_rewrite` is enabled:
+.htaccess file to the Apache virtual host configuration for this site.
 
-    $ a2enmod rewrite
+Also make sure that the required Apache modules are enabled:
 
-Other languages will not work until the required locale definition files are
-built on the server. Usually, the locale definition files are already built on
-the server, but if you need to build them you can execute the helper script
-`scripts/make-locales.sh` as root.
+    a2enmod rewrite ssl
+
+Translations will not work until locale data is installed and compiled. On
+Debian-based systems, precompiled locale data can be installed with:
+
+    apt-get install locales-all
 
 
 ## Contributing

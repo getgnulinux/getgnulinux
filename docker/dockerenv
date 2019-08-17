@@ -1,0 +1,6 @@
+#!/bin/bash
+
+SCRIPT_PATH="$(dirname "$(readlink -f $0)")"
+
+export ROOT="$(cd "${SCRIPT_PATH}/.."; pwd -P)"
+export COMPOSE_FILE="${ROOT}/docker/docker-compose.yml"
