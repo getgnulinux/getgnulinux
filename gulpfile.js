@@ -1,4 +1,3 @@
-// generated on 2016-11-20 using generator-webapp 2.3.2
 const gulp = require('gulp');
 const gulpLoadPlugins = require('gulp-load-plugins');
 const del = require('del');
@@ -63,7 +62,7 @@ gulp.task('styles:vendor', () => {
     .pipe(gulp.dest('docroot/styles/vendor'));
 });
 
-gulp.task('styles', ['styles:sass', 'styles:vendor']);
+gulp.task('styles', gulp.series('styles:sass', 'styles:vendor'));
 
 gulp.task('scripts:main', () => {
   return gulp.src('src/scripts/main.js')
@@ -84,7 +83,7 @@ gulp.task('scripts:plugins', () => {
     .pipe(gulp.dest('docroot/scripts'));
 });
 
-gulp.task('scripts', ['scripts:main', 'scripts:plugins']);
+gulp.task('scripts', gulp.series('scripts:main', 'scripts:plugins'));
 
 gulp.task('fonts', () => {
   return gulp.src(
@@ -104,12 +103,12 @@ gulp.task('lint', () => {
     .pipe(gulp.dest('src/scripts'));
 });
 
-gulp.task('html', ['styles', 'scripts'], () => {
+gulp.task('html', gulp.series('styles', 'scripts', () => {
   return gulp.src('src/**/*.php')
     .pipe($.useref({searchPath: ['docroot', 'src', '.']}))
     .pipe($.if('*.php', $.versionNumber(versionConfig)))
     .pipe(gulp.dest('docroot'));
-});
+}));
 
 gulp.task('images', () => {
   return gulp.src([
@@ -131,22 +130,22 @@ gulp.task('clean:images', del.bind(null, [
 ]));
 
 gulp.task('watch', () => {
-  runSequence(['clean'], ['html', 'fonts'], () => {
+  runSequence(['clean'], gulp.series('html', 'fonts', () => {
     gulp.watch('src/templates/*.php', ['html']);
     gulp.watch('src/styles/*.scss', ['styles', 'html']);
     gulp.watch('src/scripts/*.js', ['scripts', 'html']);
     gulp.watch('src/styles/vendor/fonts/*', ['fonts']);
-  });
+  }));
 });
 
 gulp.task('develop', () => {
-  runSequence(['clean'], ['html', 'fonts']);
+  runSequence(['clean'], gulp.series('html', 'fonts'));
 });
 
-gulp.task('build', ['lint', 'html', 'images', 'fonts'], () => {
+gulp.task('build', gulp.series('lint', 'html', 'images', 'fonts', () => {
   return gulp.src('src/**/*')
     .pipe($.size({title: 'build', gzip: true}));
-});
+}));
 
 gulp.task('default', () => {
   return new Promise(resolve => {
