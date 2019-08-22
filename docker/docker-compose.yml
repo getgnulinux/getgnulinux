@@ -12,12 +12,21 @@ services:
       - "8080:80"
 
   getgnulinux:
+    security_opt:
+      # Required to enable mounts in the container.
+      - "apparmor:unconfined"
     hostname: ggl
     build:
       context: ..
       dockerfile: docker/getgnulinux.Dockerfile
     volumes:
-      - "docroot:/home/ggl/getgnulinux/docroot"
+      - "docroot:/var/www/html"
+      - "..:/home/node/getgnulinux"
+    # Start as root and with the CAP_SYS_ADMIN capability to bind-mount the
+    # node_modules directory in the container over those mounted from the host.
+    user: root
+    cap_add: [SYS_ADMIN]
+    entrypoint: ["/root/setup_mounts.sh"]
 
 volumes:
   docroot:
