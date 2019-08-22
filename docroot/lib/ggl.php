@@ -48,7 +48,7 @@ class GGL {
         'cy' => array('cy_GB.UTF-8',    "Cymraeg"),
         'da' => array('da_DK.UTF-8',    "Dansk"),
         'de' => array('de_DE.UTF-8',    "Deutsch"),
-        'en' => array('en_US.UTF-8',    "English"),
+        'en' => array('en_GB.UTF-8',    "English"),
         'el' => array('el_GR.UTF-8',    "Ελληνικά"),
         'eo' => array('eo.UTF-8',       "Esperanto"),
         'es' => array('es_ES.UTF-8',    "Español"),
@@ -137,7 +137,7 @@ class GGL {
     public $config = array(
         'negotiated_lang' => null,
         'lang' => 'en',
-        'locale' => "en_US.UTF-8",
+        'locale' => "en_GB.UTF-8",
         'dir' => "ltr",
         'gettext_domain' => "getgnulinux",
     );
