@@ -56,6 +56,11 @@ section {
   padding: 1rem 0;
 }
 
+details summary {
+  cursor: pointer;
+  outline: none;
+}
+
 img, embed, object, video {
   max-width: 100%;
   height: auto;
@@ -839,20 +844,10 @@ section.trisquel {
       color: $footer-color;
       font-weight: bold;
     }
+  }
 
-    a.more {
-      background-color: transparentize($footer-color, 0.9);
-      padding: 0 8px;
-
-      &:hover {
-        background-color: transparentize($footer-color, 0.8);
-        text-decoration: none;
-      }
-    }
-
-    #incomplete {
-      display: none;
-    }
+  #partial-translations {
+    margin-top: 1rem;
   }
 }
 

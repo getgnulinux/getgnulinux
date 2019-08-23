@@ -14,9 +14,22 @@
             $info['dir'],
             $native);
         } ?>
-        <li><a class="more" href="#" title="More languages">…</a></li>
       </ul>
-      <p id="incomplete" dir="ltr">Partial translations are available in <?php $this->language_links($ggl->get_locales('incomplete')); ?>.</p>
+      <details dir="ltr" id="partial-translations">
+        <summary><?php print _("Partial translations"); ?></summary>
+        <ul>
+          <?php foreach ($ggl->get_locales('incomplete') as $lng => $items) {
+            list($locale, $native) = $items;
+            $info = $ggl->get_lang_info($lng);
+            printf("<li%s><a href=\"/%s\" hreflang=\"%s\"><span dir=\"%s\">%s</span></a></li>\n",
+              $info['active'] ? " class='active'" : "",
+              $this->current_page_url($lng),
+              $lng,
+              $info['dir'],
+              $native);
+          } ?>
+        </ul>
+      </details>
     </div>
 
     <hr>
