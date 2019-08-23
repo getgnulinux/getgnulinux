@@ -2,7 +2,8 @@ FROM node:10
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     gettext \
-    make
+    make \
+    rsync
 
 RUN mkdir -p /var/www/html
 
@@ -20,6 +21,7 @@ COPY --chown=node:node bower.json bower.json
 RUN node_modules/.bin/bower install
 
 COPY --chown=node:node docker/dev-root/ /root/
+COPY --chown=node:node docker/dev-home/ /home/node/
 
 ENTRYPOINT ["/bin/bash", "-c"]
 CMD ["/bin/bash"]
