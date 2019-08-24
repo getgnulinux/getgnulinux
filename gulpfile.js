@@ -1,7 +1,6 @@
 const gulp = require('gulp');
 const gulpLoadPlugins = require('gulp-load-plugins');
 const del = require('del');
-const runSequence = require('run-sequence');
 
 const $ = gulpLoadPlugins();
 
@@ -26,22 +25,34 @@ const versionConfig = {
   },
 };
 
-// Rsync configurations for deploying to production.
-const rsyncConf = {
+// Rsync configuration for deploying to development.
+const rsyncConfDev = {
+  root: 'docroot/',
+  destination: '/var/www/html',
+  progress: false,
+  incremental: true,
+  relative: true,
+  recursive: true,
+  clean: true,
+  compress: false,
+  exclude: ['.*.swp'],
+};
+
+// Rsync configuration for deploying to production.
+const rsyncConfProd = {
   root: 'docroot/',
   hostname: 'tuxfamily',
   destination: '/home/getgnulinux/getgnulinux.org-web/htdocs',
   progress: true,
   incremental: true,
   relative: true,
-  emptyDirectories: true,
   recursive: true,
   clean: true,
   compress: true,
   exclude: ['.*.swp'],
 };
 
-var dev = true;
+let dev = true;
 
 gulp.task('styles:sass', () => {
   return gulp.src('src/styles/*.scss')
@@ -129,18 +140,12 @@ gulp.task('clean:images', del.bind(null, [
   'docroot/images',
 ]));
 
-gulp.task('watch', () => {
-  runSequence(['clean'], gulp.series('html', 'fonts', () => {
+gulp.task('watch', () => gulp.series('clean', 'html', 'fonts', () => {
     gulp.watch('src/templates/*.php', ['html']);
     gulp.watch('src/styles/*.scss', ['styles', 'html']);
     gulp.watch('src/scripts/*.js', ['scripts', 'html']);
     gulp.watch('src/styles/vendor/fonts/*', ['fonts']);
-  }));
-});
-
-gulp.task('develop', () => {
-  runSequence(['clean'], gulp.series('html', 'fonts'));
-});
+}));
 
 gulp.task('build', gulp.series('lint', 'html', 'images', 'fonts', () => {
   return gulp.src('src/**/*')
@@ -150,17 +155,25 @@ gulp.task('build', gulp.series('lint', 'html', 'images', 'fonts', () => {
 gulp.task('default', () => {
   return new Promise(resolve => {
     dev = false;
-    runSequence(['clean'], 'build', resolve);
+    gulp.series('clean', 'build', resolve);
   });
 });
 
-gulp.task('deploy', () => {
+gulp.task('deploy:dev', () => {
+  const conf = rsyncConfDev;
+  return gulp.src('docroot/**').pipe($.rsync(conf));
+});
+
+gulp.task('develop', gulp.series('clean', 'html', 'fonts', 'deploy:dev'));
+
+gulp.task('deploy:prod', () => {
+  const conf = rsyncConfProd;
   return gulp.src('docroot/**')
 	.pipe(
 	  $.prompt.confirm({
-		message: `Are you sure you want to deploy to ${rsyncConf.hostname}:${rsyncConf.destination}?`,
+		message: `Are you sure you want to deploy to ${conf.hostname}:${conf.destination}?`,
 		default: false
 	  })
 	)
-	.pipe($.rsync(rsyncConf));
+	.pipe($.rsync(conf));
 });

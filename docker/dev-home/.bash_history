@@ -1,3 +1,2 @@
-rsync -vrlD --delete docroot/ /var/www/html/
-gulp build
+gulp develop
 . scripts/activate
