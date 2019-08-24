@@ -1,4 +1,3 @@
-/* Bootstrap JavaScript stuff */
 $(document).ready(function() {
   /* Enable PNG fallback for browsers not supporting SVG in img tags */
   svgeezy.init(false, 'png');
@@ -23,16 +22,6 @@ $(document).ready(function() {
   /* Enable fancy scrolling on the Linux FAQ */
   $('#faq #content a').click(function(){
     $.scrollTo(this.hash, 500);
-  });
-
-  /* Check for stuff that needs to be toggled */
-  if (typeof toggle_items != 'undefined' && toggle_items instanceof Array) {
-    enable_toggle(toggle_items);
-  }
-
-  $('#translations .more').click(function () {
-    $('#translations #incomplete').toggle();
-    return false;
   });
 
   (function() {
@@ -82,30 +71,3 @@ $(document).ready(function() {
     });
   });
 });
-
-/* Enable toggle for elements with ID in array $items */
-function enable_toggle(items) {
-  for (var i=0; i < items.length; i++) {
-    (function(i) {
-      var id = items[i];
-      $('#'+id).click(function () {
-        $('#'+id+'-toggee').toggle();
-        /* Toggle Font Awesome icon if present */
-        if ( $('#'+id).has('.fa') ) {
-          toggle_item_fa_icon(id);
-        }
-      });
-    })(i);
-  }
-}
-
-/* Toggles the Font Awesome icon for a toggle item */
-function toggle_item_fa_icon(id) {
-  var icon = $('#'+id+' .fa');
-  if ( $('#'+id+'-toggee').is(':visible') ) {
-    icon.removeClass('fa-plus-square-o').addClass('fa-minus-square-o');
-  }
-  else {
-    icon.removeClass('fa-minus-square-o').addClass('fa-plus-square-o');
-  }
-}

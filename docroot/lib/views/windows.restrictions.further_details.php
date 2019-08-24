@@ -48,23 +48,23 @@ $this->load_header();
         </li>
       </ul>
 
-      <div class="further-reading post-it">
-        <h2 id="further_reading"><?php print _("Read more"); ?></h2>
+      <aside class="further-reading post-it">
+        <h1 id="further_reading"><?php print _("Read more"); ?></h1>
 
         <div class="column">
-          <h3 id="gpl"><a href="<?php
+          <h2 id="gpl"><a href="<?php
           # translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
-          print _("https://www.gnu.org/copyleft/gpl.html"); ?>" title="<?php print _("The GNU General Public License"); ?>" rel="external"><?php print _("The GPL"); ?></a></h3>
+          print _("https://www.gnu.org/copyleft/gpl.html"); ?>" title="<?php print _("The GNU General Public License"); ?>" rel="external"><?php print _("The GPL"); ?></a></h2>
           <p><?php print _("The GNU General Public License, under which GNU/Linux and a vast amount of free software are published."); ?></p>
 
-          <h3 id="gpl_eula_comparison"><a href="/archive/comparing_the_gpl_to_eula.pdf" hreflang="en"><?php print _("Comparing the GPL to the Microsoft WinXP License"); ?></a> (pdf)</h3>
+          <h2 id="gpl_eula_comparison"><a href="/archive/comparing_the_gpl_to_eula.pdf" hreflang="en"><?php print _("Comparing the GPL to the Microsoft WinXP License"); ?></a> (pdf)</h2>
           <p><?php print _("A thorough and clear comparison of the <abbr title=\"GNU General Public License\">GPL</abbr> and the Microsoft <abbr title=\"End-User License Agreement\">EULA</abbr> license that governs the use of most Windows XP versions."); ?></p>
         </div>
         <div class="column">
-          <h3 id="right_to_read"><a href="<?php print _("https://www.gnu.org/philosophy/right-to-read.html"); ?>" rel="external"><?php print _("The Right to Read"); ?></a></h3>
+          <h2 id="right_to_read"><a href="<?php print _("https://www.gnu.org/philosophy/right-to-read.html"); ?>" rel="external"><?php print _("The Right to Read"); ?></a></h2>
           <p><?php print _("A short story by Richard Stallman that describes what influence restrictive licenses could have on our lives."); ?></p>
         </div>
-      </div><!-- further_reading -->
+      </aside>
     <article>
 
     <aside>

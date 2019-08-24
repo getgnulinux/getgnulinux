@@ -21,12 +21,12 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
         <div class="page-intro">
           <p><?php
           # translators: use the definition of "free software" on GNU.org in place of softwareliberty.com
-          print _("Five misconceptions about free software, corrected."); ?></p>
+          print _("Misconceptions about free software, corrected."); ?></p>
         </div>
       </header>
 
       <section>
-        <h2 id="programmers_paid"><?php print _("1. The software industry can't keep going if programmers don't get paid."); ?></h2>
+        <h2 id="programmers_paid"><?php print _("The software industry can't keep going if programmers don't get paid"); ?></h2>
         <p><?php print _("Let's begin with one simple fact: free software programmers <em>do</em> like to get paid, and all need to buy lunch at some time."); ?></p>
         <p><?php
         # translators: Here, the %s placeholder simply puts a link to a footnote in this page
@@ -38,7 +38,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
       </section>
 
       <section>
-        <h2 id="innovation_killed"><?php print _("2. Innovation is killed in free software."); ?></h2>
+        <h2 id="innovation_killed"><?php print _("Innovation is killed in free software"); ?></h2>
         <p><?php print _("The common perception is that if everyone can copy ideas, innovation will be stifled."); ?></p>
         <p><?php print _("In fact, freedom is often <strong>the key to innovative and successful software</strong>."); ?></p>
         <ul>
@@ -61,7 +61,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
       </section>
 
       <section>
-        <h2 id="just_work"><?php print _("3. Software Should Just Work (who cares about source code?)"); ?></h2>
+        <h2 id="just_work"><?php print _("Software should Just Work"); ?></h2>
         <p><?php print _("Anyone should care about whether their software is free."); ?></p>
         <p><?php print _("Imagine purchasing a car whose hood you are forbidden to open. It does not matter whether you know how a car works &ndash; the point is that nobody will be able to check the engine. How can you trust your car, if no one is allowed to make sure that it's reliable, that it does not leak, that it's not harmful to the society and environment?"); ?></p>
         <p><?php print _("The idea is the same with software &ndash; except that code does <strong>much more</strong> than move cars. Software runs our computers, phones, TVs, media players and more, carrying information and our culture."); ?></p>
@@ -72,7 +72,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
       </section>
 
       <section>
-        <h2 id="patent_protection"><?php print _("4. Free software doesn't respect authors' copyrighted and patented software."); ?></h2>
+        <h2 id="patent_protection"><?php print _("Free software doesn't respect authors' copyrighted and patented software"); ?></h2>
         <p><?php print _("To answer this correctly, we must first make a clear distinction between copyright and patents. Copyright is a right granted to the author over his/her creation (for example, the text of a book, or the source code of a program). A patent, on the other hand, is a purchased, registered exclusive control over a process, the application of an idea."); ?></p>
         <p><?php
         # translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
@@ -101,7 +101,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
       </section>
 
       <section>
-        <h2 id="competitive_advantage"><?php print _("5. Free software is like communism."); ?></h2>
+        <h2 id="competitive_advantage"><?php print _("Free software is like communism"); ?></h2>
         <p><?php
         # translators: Here, the %s placeholder simply puts a link to a footnote in this page
         $p = _("Supporters of this idea argue that there can be no private ownership with free (or \"open source\" %s) software. Let's answer this with an example."); printf($p, $footnote2);?></p>
@@ -118,50 +118,44 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
         <p><?php print _("<em>Free software has nothing to do with a political system.</em> You can run free software on top of proprietary software, just as well as the opposite. The free software license is simply a legal, ethical contract between the programmer and the end-user."); ?></p>
       </section>
 
-      <div class="collapsed-box post-it">
-        <h1><?php print _("Read more:"); ?></h1>
-        <div class="toggle-answer">
-          <h2 id="security"><span id="toggle1"><i class="fa fa-plus-square-o fa-fw"></i> <?php print _("Free / \"open-source\" software can't be secure."); ?></span></h2>
-          <div class="answer" id="toggle1-toggee">
-            <p><?php print _("The argument generally goes that since the source code of free software is available, it is less likely to be secure."); ?></p>
-            <p><?php print _("Short answer: The majority of servers run free software. They are the major networked computers holding sensitive or confidential information such as your bank details or trade secrets."); ?></p>
-            <p><?php print _("A more precise answer is that availability of source code is a warrant of security, not a weakness. The freedom of the software ensures it can be inspected, tested and improved by a very wide community. A good lock is secure because the technology used to design it is open, though only the key holder can open it. The same goes for software."); ?></p>
-            <p><?php $p = _("Need examples? Have a look at the <a href=\"https://www.getfirefox.com/\" rel=\"external\">Firefox browser</a>, the <a href=\"https://en.wikipedia.org/wiki/Apache_HTTP_Server\" rel=\"external\">Apache HTTP Server</a>, the <a href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\" rel=\"external\">OpenPGP</a> encryption system, or the <a href=\"https://en.wikipedia.org/wiki/OpenBSD\" rel=\"external\">OpenBSD</a> operating system. And <a href=\"%s#security\">there are no spyware or viruses under GNU/Linux</a>."); printf($p, $this->base_url('switch_to_linux/from_windows_to_linux',1)); ?></p>
-          </div>
+      <section>
+        <h2 id="security"><?php print _("Free software can't be secure"); ?></h2>
+        <p><?php print _("The argument generally goes that since the source code of free software is available, it is less likely to be secure."); ?></p>
+        <p><?php print _("Short answer: The majority of servers run free software. They are the major networked computers holding sensitive or confidential information such as your bank details or trade secrets."); ?></p>
+        <p><?php print _("A more precise answer is that availability of source code is a warrant of security, not a weakness. The freedom of the software ensures it can be inspected, tested and improved by a very wide community. A good lock is secure because the technology used to design it is open, though only the key holder can open it. The same goes for software."); ?></p>
+        <p><?php $p = _("Need examples? Have a look at the <a href=\"https://www.getfirefox.com/\" rel=\"external\">Firefox browser</a>, the <a href=\"https://en.wikipedia.org/wiki/Apache_HTTP_Server\" rel=\"external\">Apache HTTP Server</a>, the <a href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\" rel=\"external\">OpenPGP</a> encryption system, or the <a href=\"https://en.wikipedia.org/wiki/OpenBSD\" rel=\"external\">OpenBSD</a> operating system. And <a href=\"%s#security\">there are no spyware or viruses under GNU/Linux</a>."); printf($p, $this->base_url('switch_to_linux/from_windows_to_linux',1)); ?></p>
+      </section>
+
+      <section>
+        <h2 id="on_my_own"><?php
+        # translators: this can be translated loosely, ex "Free software isolates me" or else.
+        print _("I'm on my own with free software"); ?></h2>
+        <p><?php print _("Not at all."); ?></p>
+        <ul>
+          <li><?php print _("If you are looking for good documentation and support forums to assist you, there is plenty available for free (\"open source\") software."); ?><br/>
+          <?php # translators: use your best knowledge of the community to propose localized links ;-)
+          print _("Each GNU/Linux distribution has its own community (for example, <a href=\"https://community.ubuntu.com/help-information/\" rel=\"external\">Ubuntu support</a> or <a href=\"https://fedoraproject.org/wiki/Communicating_and_getting_help\" rel=\"external\">Fedora wiki</a>), but there are also general free software help communities, like <a href=\"https://www.linuxquestions.org/\" rel=\"external\">LinuxQuestions.org</a>."); ?></li>
+          <li><?php print _("If you need someone you can reach on the phone anytime to assist you, the companies behind most distributions provide commercial support: see the <a href=\"https://www.ubuntu.com/support\" rel=\"external\">Ubuntu Commercial Support</a> or <a href=\"https://www.redhat.com/rhel/\" rel=\"external\">Red Hat Enterprise Linux</a> pages for example."); ?></li>
+        </ul>
+      </section>
+
+      <aside class="further-reading post-it">
+        <h1><?php print _("Further reading on the web"); ?></h1>
+        <div class="column">
+          <h2><a href="https://www.gnu.org" rel="external">The GNU project</a></h2>
+          <p><?php print _("This is where free software all started. You will find a wealth of information about the free software philosophy, the history of the project, and the stands taken by the <a href=\"https://www.fsf.org/\" rel=\"external\">Free Software Foundation</a> (the organisation behind GNU)."); ?></p>
+
+          <h2><a href="https://en.wikibooks.org/wiki/FLOSS_Concept_Booklet" rel="external">The FLOSS concept booklet</a></h2>
+          <p><?php print _("The concept of Free&nbsp;/&nbsp;Libre&nbsp;/&nbsp;Open Source Software presented in a highly readable, friendly way. A must-read."); ?></p>
         </div>
+        <div class="column">
+          <h2><a href="http://opendocumentfellowship.com/" rel="external">The OpenDocument Fellowship</a></h2>
+          <p><?php print _("A simple and clear website about the free format OpenDocument, showing the importance of freedom in formats (not just in applications)."); ?></p>
 
-        <div class="toggle-answer">
-          <h2 id="on_my_own"><span id="toggle2"><i class="fa fa-plus-square-o fa-fw"></i> <?php
-          # translators: this can be translated loosely, ex "Free software isolates me" or else.
-          print _("I'm on my own with free software."); ?></span></h2>
-          <div class="answer" id="toggle2-toggee">
-            <p><?php print _("Not at all."); ?></p>
-            <ul>
-              <li><?php print _("If you are looking for good documentation and support forums to assist you, there is plenty available for free (\"open source\") software."); ?><br/>
-              <?php # translators: use your best knowledge of the community to propose localized links ;-)
-              print _("Each GNU/Linux distribution has its own community (for example, <a href=\"https://community.ubuntu.com/help-information/\" rel=\"external\">Ubuntu support</a> or <a href=\"https://fedoraproject.org/wiki/Communicating_and_getting_help\" rel=\"external\">Fedora wiki</a>), but there are also general free software help communities, like <a href=\"https://www.linuxquestions.org/\" rel=\"external\">LinuxQuestions.org</a>."); ?></li>
-              <li><?php print _("If you need someone you can reach on the phone anytime to assist you, the companies behind most distributions provide commercial support: see the <a href=\"https://www.ubuntu.com/support\" rel=\"external\">Ubuntu Commercial Support</a> or <a href=\"https://www.redhat.com/rhel/\" rel=\"external\">Red Hat Enterprise Linux</a> pages for example."); ?></li>
-            </ul>
-          </div>
+          <h2><a href="http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-free-file-formats/" rel="external">Free Software and Free Knowledge</a></h2>
+          <p><?php print _("An engaged article by co-founder of <a href=\"https://www.wikipedia.org/\" rel=\"external\">Wikipedia</a> Jimmy Wales, which shows the connections between freedom in software and free knowledge."); ?></p>
         </div>
-
-        <div class="toggle-answer">
-          <h2 id="further_reading"><span id="toggle3"><i class="fa fa-plus-square-o fa-fw"></i> <?php print _("Further reading on the web"); ?></span></h2>
-          <div class="answer" id="toggle3-toggee">
-              <h3><a href="https://www.gnu.org" rel="external">The GNU project</a></h3>
-              <p><?php print _("This is where free software all started. You will find a wealth of information about the free software philosophy, the history of the project, and the stands taken by the <a href=\"https://www.fsf.org/\" rel=\"external\">Free Software Foundation</a> (the organisation behind GNU)."); ?></p>
-
-              <h3><a href="https://en.wikibooks.org/wiki/FLOSS_Concept_Booklet" rel="external">The FLOSS concept booklet</a></h3>
-              <p><?php print _("The concept of Free&nbsp;/&nbsp;Libre&nbsp;/&nbsp;Open Source Software presented in a highly readable, friendly way. A must-read."); ?></p>
-
-              <h3><a href="http://opendocumentfellowship.com/" rel="external">The OpenDocument Fellowship</a></h3>
-              <p><?php print _("A simple and clear website about the free format OpenDocument, showing the importance of freedom in formats (not just in applications)."); ?></p>
-
-              <h3><a href="http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-free-file-formats/" rel="external">Free Software and Free Knowledge</a></h3>
-              <p><?php print _("An engaged article by co-founder of <a href=\"https://www.wikipedia.org/\" rel=\"external\">Wikipedia</a> Jimmy Wales, which shows the connections between freedom in software and free knowledge."); ?></p>
-          </div>
-        </div>
-      </div>
+      </aside>
 
       <div class="footnotes">
         <ol>
