@@ -31,8 +31,8 @@ $this->load_header();
         # translators: please note the punctuation should be consistent
         print _("It's free"); ?></h3>
         <p><?php
-        # translators: link to Free Software definition on GNU.org site, if softwareliberty.com is not translated in your language
-        print _("Unlike Windows, GNU/Linux is <a href=\"https://www.softwareliberty.com/\" title=\"What does Free Software mean?\" rel=\"external\">free software</a> &ndash; free as in freedom. Install it on all computers and make copies for your friends! You can even study it, transform it as you please, or build and sell your own distribution."); ?></p>
+        # translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
+        print _("Unlike Windows, GNU/Linux is <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title=\"What does Free Software mean?\" rel=\"external\">free software</a> &ndash; free as in freedom. Install it on all computers and make copies for your friends! You can even study it, transform it as you please, or build and sell your own distribution."); ?></p>
 
         <h3><?php print _("Programs"); ?></h3>
         <p><?php print _("There are a wealth of free applications available at no cost under GNU/Linux. To edit professional documents, burn music CDs, rework photos, design a website, or organise music; there's no need for $200 software with restrictive licenses."); ?></p>

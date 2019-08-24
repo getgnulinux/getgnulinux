@@ -63,8 +63,8 @@ $this->load_header();
         <p><?php print _("Originally, <strong>Linux</strong> refers to a core component (called the kernel) that fits within the <strong>GNU</strong> system. What users run today are, to be precise, \"<em>distributions of the GNU/Linux system</em>\"."); ?></p>
         <p><?php print _("In practice, the word \"Linux\" caught on much better (unsurprisingly), and today people refer to the whole system as simply \"Linux\". This causes a great deal of controversy."); ?></p>
         <p><?php
-        # translators: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
-        print _("Calling the system <em>GNU/Linux</em> is much more meaningful, technically (end-users use a lot of \"GNU\" and a little of \"Linux\") but also philosophically: the strength and momentum of the <a href=\"https://www.softwareliberty.com/\" rel=\"external\">Free Software</a> movement started with and are still carried by <a href=\"https://www.gnu.org/\" rel=\"external\">the GNU project</a>."); ?></p>
+        # translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
+        print _("Calling the system <em>GNU/Linux</em> is much more meaningful, technically (end-users use a lot of \"GNU\" and a little of \"Linux\") but also philosophically: the strength and momentum of the <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">Free Software</a> movement started with and are still carried by <a href=\"https://www.gnu.org/\" rel=\"external\">the GNU project</a>."); ?></p>
         <p><?php print _("Calling the system <em>Linux</em> is more practical and appealing for computer users that often believe Windows is the only thing on earth."); ?></p>
         <p><?php print _("To avoid confusion, we use \"GNU/Linux\" to refer to operating system distributions that include <a href=\"https://www.gnu.org/\" rel=\"external\">GNU</a> software and the <a href=\"https://www.kernel.org/\" rel=\"external\">Linux kernel</a>. When we use \"Linux\" without the GNU part, we refer to the kernel."); ?></p>
       </section>
@@ -72,8 +72,8 @@ $this->load_header();
       <section>
         <h3 id="gnu"><?php print _("And what has that software to do with a GNU?"); ?></h3>
         <p><?php
-        # translators: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
-        print _("When Richard Stallman started to design GNU, the main system in use was Unix, which is proprietary. Because GNU is similar in function to (and compatible with) Unix, but is <a href=\"https://www.softwareliberty.com/\" rel=\"external\">free software</a>, he coined the term GNU which stands for <strong>GNU's Not Unix</strong>. It's a <a href=\"https://en.wikipedia.org/wiki/Recursive_acronym\" rel=\"external\">recursive acronym</a>. If you enjoy that kind of humour, check out what <a href=\"https://www.gnu.org/software/hurd/hurd.html\" rel=\"external\">GNU Hurd</a> means."); ?></p>
+        # translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
+        print _("When Richard Stallman started to design GNU, the main system in use was Unix, which is proprietary. Because GNU is similar in function to (and compatible with) Unix, but is <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">free software</a>, he coined the term GNU which stands for <strong>GNU's Not Unix</strong>. It's a <a href=\"https://en.wikipedia.org/wiki/Recursive_acronym\" rel=\"external\">recursive acronym</a>. If you enjoy that kind of humour, check out what <a href=\"https://www.gnu.org/software/hurd/hurd.html\" rel=\"external\">GNU Hurd</a> means."); ?></p>
       </section>
 
       <section>
@@ -90,8 +90,8 @@ $this->load_header();
       <section>
         <h3 id="mac"><?php print _("Is macOS a distribution of GNU/Linux?"); ?></h3>
         <p><?php
-        # translators: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
-        $p = _("No. There are a few <a href=\"https://www.softwareliberty.com/\" rel=\"external\">free software</a> components in macOS, and it is technically similar to GNU/Linux systems. But overall, it is proprietary software: all the <a href=\"%s\">issues about Windows</a> apply to it as well."); printf($p, $this->base_url('windows',1)); ?></p>
+        # translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
+        $p = _("No. There are a few <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">free software</a> components in macOS, and it is technically similar to GNU/Linux systems. But overall, it is proprietary software: all the <a href=\"%s\">issues about Windows</a> apply to it as well."); printf($p, $this->base_url('windows',1)); ?></p>
       </section>
 
       <h2><?php print _("Understanding free software"); ?></h2>
@@ -110,8 +110,8 @@ $this->load_header();
         # translators: This is italic text just below the question, which elaborates a little on it.
         print _("Some websites actually <em>sell</em> distributions of GNU/Linux. So, why do you write it is \"free as speech and available at no charge\"?"); ?></h4>
         <p><?php
-        # translators: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
-        print _("The concept of <a href=\"https://www.softwareliberty.com/\" rel=\"external\">free software</a>, refers to freedom, not price. You have the freedom to copy, study, modify, and give free software away."); ?></p>
+        # translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
+        print _("The concept of <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">free software</a>, refers to freedom, not price. You have the freedom to copy, study, modify, and give free software away."); ?></p>
         <p><?php print _("Most companies developing free software make money by selling <strong>services</strong> around their software, rather than the software itself. This is sometimes done by selling everything as a package: the customer buys the CD, book, and support contract at once. The software can still guarantee your freedoms."); ?></p>
         <p><?php print _("More:"); ?> <a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a> | <a href="https://en.wikibooks.org/wiki/FLOSS_Concept_Booklet" rel="external"><?php print _("FLOSS concept booklet"); ?></a>.</p>
       </section>
@@ -135,7 +135,7 @@ $this->load_header();
         <h3 id="mac_freedom"><?php print _("Is macOS also a free operating system?"); ?></h3>
         <h4 class="question_sub"><?php print _("Do all the reasons for avoiding Windows apply to macOS?"); ?></h4>
         <p><?php $p = _("It's quite common for Mac users to believe they are exempt from <a href=\"%s\">restrictions associated with Windows</a>. Unfortunately such is not the case."); printf($p, $this->base_url('windows',1)); ?></p>
-        <p><?php print _("macOS does have some low-level components which are <a href=\"https://www.softwareliberty.com/\" rel=\"external\">free software</a>; and Apple puts less energy into customer lock-in (with some notable efforts such as BootCamp)."); ?></p>
+        <p><?php print _("macOS does have some low-level components which are <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">free software</a>; and Apple puts less energy into customer lock-in (with some notable efforts such as BootCamp)."); ?></p>
         <p><?php print _("However, the end-user is still fundamentally restricted &mdash; because of the proprietary license, he/she cannot use macOS for all purposes, nor copy, study, modify, or redistribute it."); ?></p>
         <p><?php print _("Happily, because these freedoms matter a lot, it's possible to run popular GNU/Linux distributions (such as <a href=\"https://www.ubuntu.com/\" rel=\"external\">Ubuntu</a>) on Mac computers."); ?></p>
       </section>

@@ -25,7 +25,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/figure002/getgnulinux/issues\n"
-"POT-Creation-Date: 2019-08-23 21:07+0000\n"
+"POT-Creation-Date: 2019-08-24 21:09+0000\n"
 "PO-Revision-Date: 2019-08-22 10:37+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/serrano/"
@@ -61,7 +61,7 @@ msgstr "更多"
 
 #. translators: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
 #: docroot/lib/ggl.php:219
-#: docroot/lib/views/linux.misunderstanding_free_software.php:179
+#: docroot/lib/views/linux.misunderstanding_free_software.php:173
 #: docroot/lib/views/home.php:31 docroot/lib/views/linux.linux_faq.php:259
 #: docroot/lib/views/linux.php:13 src/templates/header.php:69
 msgid "What is GNU/Linux?"
@@ -572,14 +572,15 @@ msgid ""
 "package with the recipe?"
 msgstr "你更願意相信哪一個呢？你不能學習參考的軟體，或者告訴你一切細節的軟體？"
 
-#. translators: use the definition of "free software" on GNU.org in place of softwareliberty.com
+#. translators: use the definition of "free software" on GNU.org
 #: docroot/lib/views/linux.misunderstanding_free_software.php:24
-msgid "Five misconceptions about free software, corrected."
+#, fuzzy
+msgid "Misconceptions about free software, corrected."
 msgstr "五個關於自由軟體的誤解與觀念更正。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:29
-msgid ""
-"1. The software industry can't keep going if programmers don't get paid."
+#, fuzzy
+msgid "The software industry can't keep going if programmers don't get paid"
 msgstr "1. 如果程式設計師沒有得到金錢報酬，軟體產業就無法正常發展。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:30
@@ -649,7 +650,8 @@ msgstr ""
 "實際上已經有許多公司企業在此等模式的經營下蓬勃發展。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:41
-msgid "2. Innovation is killed in free software."
+#, fuzzy
+msgid "Innovation is killed in free software"
 msgstr "2. 自由軟體扼殺創新。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:42
@@ -736,8 +738,9 @@ msgstr ""
 "\">Wordpress</a> （部落格系統）。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:64
-msgid "3. Software Should Just Work (who cares about source code?)"
-msgstr "3. 軟體只要能用就好了（誰會在意有沒有源始程式碼啊？）"
+#, fuzzy
+msgid "Software should Just Work"
+msgstr "為什麼軟體應該自由"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:65
 msgid "Anyone should care about whether their software is free."
@@ -789,8 +792,9 @@ msgstr ""
 "評估是否要正式地使用它。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:75
+#, fuzzy
 msgid ""
-"4. Free software doesn't respect authors' copyrighted and patented software."
+"Free software doesn't respect authors' copyrighted and patented software"
 msgstr "4. 自由軟體不尊重軟體開發者受著作權與專利保護的軟體。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:76
@@ -887,7 +891,6 @@ msgstr ""
 "收專利權使用費，制訂相關的限制措施。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:94
-#: docroot/lib/views/linux.misunderstanding_free_software.php:122
 msgid "Read more:"
 msgstr "深入瞭解："
 
@@ -905,7 +908,8 @@ msgstr ""
 "abbr>"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:104
-msgid "5. Free software is like communism."
+#, fuzzy
+msgid "Free software is like communism"
 msgstr "5. 自由軟體就像共產主義。"
 
 #. translators: Here, the %s placeholder simply puts a link to a footnote in this page
@@ -988,11 +992,12 @@ msgstr ""
 "之亦然。自由軟體授權單純的只是程式設計師以及一般使用者在法律上的、道德上的合"
 "約。"
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:124
-msgid "Free / \"open-source\" software can't be secure."
+#: docroot/lib/views/linux.misunderstanding_free_software.php:122
+#, fuzzy
+msgid "Free software can't be secure"
 msgstr "自由 /「開源」軟體可能不安全。"
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:126
+#: docroot/lib/views/linux.misunderstanding_free_software.php:123
 msgid ""
 "The argument generally goes that since the source code of free software is "
 "available, it is less likely to be secure."
@@ -1000,7 +1005,7 @@ msgstr ""
 "這個觀點一般都是說因為自由軟體的源始程式碼是可以公開檢視的，所以比較不可能會"
 "安全。"
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:127
+#: docroot/lib/views/linux.misunderstanding_free_software.php:124
 msgid ""
 "Short answer: The majority of servers run free software. They are the major "
 "networked computers holding sensitive or confidential information such as "
@@ -1009,7 +1014,7 @@ msgstr ""
 "一個簡潔有力的回答：絕大多數的伺服器執行的都是自由軟體。而它們可是存有你的帳"
 "戶資料、或是交易機密等敏感資料的連網電腦。"
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:128
+#: docroot/lib/views/linux.misunderstanding_free_software.php:125
 msgid ""
 "A more precise answer is that availability of source code is a warrant of "
 "security, not a weakness. The freedom of the software ensures it can be "
@@ -1022,7 +1027,7 @@ msgstr ""
 "了設計的技術細節依然安全無虞，因為即便公開依然只有鑰匙的持有者才能打開。而軟"
 "體也是同個道理。"
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:129
+#: docroot/lib/views/linux.misunderstanding_free_software.php:126
 #, php-format
 msgid ""
 "Need examples? Have a look at the <a href=\"https://www.getfirefox.com/\" "
@@ -1042,15 +1047,16 @@ msgstr ""
 "Linux</a> 裡沒有間諜軟體或是病毒的存在。"
 
 #. translators: this can be translated loosely, ex "Free software isolates me" or else.
-#: docroot/lib/views/linux.misunderstanding_free_software.php:136
-msgid "I'm on my own with free software."
+#: docroot/lib/views/linux.misunderstanding_free_software.php:132
+#, fuzzy
+msgid "I'm on my own with free software"
 msgstr "使用自由軟體只能靠自己。"
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:138
+#: docroot/lib/views/linux.misunderstanding_free_software.php:133
 msgid "Not at all."
 msgstr "完全不是。"
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:140
+#: docroot/lib/views/linux.misunderstanding_free_software.php:135
 msgid ""
 "If you are looking for good documentation and support forums to assist you, "
 "there is plenty available for free (\"open source\") software."
@@ -1059,7 +1065,7 @@ msgstr ""
 "有。"
 
 #. translators: use your best knowledge of the community to propose localized links ;-)
-#: docroot/lib/views/linux.misunderstanding_free_software.php:142
+#: docroot/lib/views/linux.misunderstanding_free_software.php:137
 msgid ""
 "Each GNU/Linux distribution has its own community (for example, <a href="
 "\"https://community.ubuntu.com/help-information/\" rel=\"external\">Ubuntu "
@@ -1073,7 +1079,7 @@ msgstr ""
 "文論壇）</a>，不過也有通用的幫助社群，例如<a href=\"https://www."
 "linuxquestions.org/\" rel=\"external\">LinuxQuestions.org</a>。"
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:143
+#: docroot/lib/views/linux.misunderstanding_free_software.php:138
 msgid ""
 "If you need someone you can reach on the phone anytime to assist you, the "
 "companies behind most distributions provide commercial support: see the <a "
@@ -1086,11 +1092,11 @@ msgstr ""
 "\">Ubuntu 商業支援</a>或是 <a href=\"https://www.redhat.com/rhel/\" rel="
 "\"external\">Red Hat 企業版 Linux</a>等。"
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:149
+#: docroot/lib/views/linux.misunderstanding_free_software.php:143
 msgid "Further reading on the web"
 msgstr "閱讀更多網路上的資訊"
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:152
+#: docroot/lib/views/linux.misunderstanding_free_software.php:146
 msgid ""
 "This is where free software all started. You will find a wealth of "
 "information about the free software philosophy, the history of the project, "
@@ -1101,13 +1107,13 @@ msgstr ""
 "計畫的歷史，以及<a href=\"https://www.fsf.org/\" rel=\"external\">自由軟體基"
 "金會 (FSF)</a>（GNU 背後組織）跨出的每一步足跡。"
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:155
+#: docroot/lib/views/linux.misunderstanding_free_software.php:149
 msgid ""
 "The concept of Free&nbsp;/&nbsp;Libre&nbsp;/&nbsp;Open Source Software "
 "presented in a highly readable, friendly way. A must-read."
 msgstr "簡單明瞭的自由&nbsp;/&nbsp;開源軟體的概念，新手必讀。"
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:158
+#: docroot/lib/views/linux.misunderstanding_free_software.php:153
 msgid ""
 "A simple and clear website about the free format OpenDocument, showing the "
 "importance of freedom in formats (not just in applications)."
@@ -1115,7 +1121,7 @@ msgstr ""
 "關於 OpenDocument 自由格式的簡單明要網頁，內容展現格式自由（不只是應用程式自"
 "由）的重要性。"
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:161
+#: docroot/lib/views/linux.misunderstanding_free_software.php:156
 msgid ""
 "An engaged article by co-founder of <a href=\"https://www.wikipedia.org/\" "
 "rel=\"external\">Wikipedia</a> Jimmy Wales, which shows the connections "
@@ -1125,7 +1131,7 @@ msgstr ""
 "創辦人 Jimmy Wales 所撰寫的軟體自由及知識自由之間關聯的專文。"
 
 #. translators: This is the content of the footnote, at the bottom of the page
-#: docroot/lib/views/linux.misunderstanding_free_software.php:170
+#: docroot/lib/views/linux.misunderstanding_free_software.php:164
 #, php-format
 msgid ""
 "What we call \"Free Software\" here is also often called \"Open Source "
@@ -1353,11 +1359,12 @@ msgid "Download Trisquel"
 msgstr "下載 Trisquel"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:108
+#, fuzzy
 msgid ""
 "Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href="
-"\"https://www.softwareliberty.com/\" title=\"What do you mean, free?\" rel="
-"\"external\">free software</a>. You are simply paying a handling/shipping "
-"fee."
+"\"https://www.gnu.org/philosophy/free-sw.html\" title=\"What do you mean, "
+"free?\" rel=\"external\">free software</a>. You are simply paying a handling/"
+"shipping fee."
 msgstr ""
 "注意：購買或者下載的 CD 是相同的！GNU/Linux 是<a href=\"https://www."
 "softwareliberty.com/\" title=\"What do you mean, free?\" rel=\"external\">自"
@@ -1919,15 +1926,16 @@ msgstr ""
 "事實上，「Linux」比較好記（毫無意外），現在人們比較喜歡把整個系統簡單稱為"
 "「Linux」。這造成了很多爭議。"
 
-#. translators: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
+#. translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
 #: docroot/lib/views/linux.linux_faq.php:67
+#, fuzzy
 msgid ""
 "Calling the system <em>GNU/Linux</em> is much more meaningful, technically "
 "(end-users use a lot of \"GNU\" and a little of \"Linux\") but also "
-"philosophically: the strength and momentum of the <a href=\"https://www."
-"softwareliberty.com/\" rel=\"external\">Free Software</a> movement started "
-"with and are still carried by <a href=\"https://www.gnu.org/\" rel=\"external"
-"\">the GNU project</a>."
+"philosophically: the strength and momentum of the <a href=\"https://www.gnu."
+"org/philosophy/free-sw.html\" rel=\"external\">Free Software</a> movement "
+"started with and are still carried by <a href=\"https://www.gnu.org/\" rel="
+"\"external\">the GNU project</a>."
 msgstr ""
 "不管是技術層面而言（因為終端用戶常用到很多「GNU」軟體，但很少會去碰「Linux」"
 "核心），還有理念層面來看：<a href=\"https://www.softwareliberty.com/\" rel="
@@ -1956,17 +1964,18 @@ msgstr ""
 "\"external\">Linux 核心</a>的作業系統。當我們只講「Linux」沒有提到 GNU 時，我"
 "們只單單討論這個內核心。"
 
-#. translators: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
+#. translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
 #: docroot/lib/views/linux.linux_faq.php:76
+#, fuzzy
 msgid ""
 "When Richard Stallman started to design GNU, the main system in use was "
 "Unix, which is proprietary. Because GNU is similar in function to (and "
-"compatible with) Unix, but is <a href=\"https://www.softwareliberty.com/\" "
-"rel=\"external\">free software</a>, he coined the term GNU which stands for "
-"<strong>GNU's Not Unix</strong>. It's a <a href=\"https://en.wikipedia.org/"
-"wiki/Recursive_acronym\" rel=\"external\">recursive acronym</a>. If you "
-"enjoy that kind of humour, check out what <a href=\"https://www.gnu.org/"
-"software/hurd/hurd.html\" rel=\"external\">GNU Hurd</a> means."
+"compatible with) Unix, but is <a href=\"https://www.gnu.org/philosophy/free-"
+"sw.html\" rel=\"external\">free software</a>, he coined the term GNU which "
+"stands for <strong>GNU's Not Unix</strong>. It's a <a href=\"https://en."
+"wikipedia.org/wiki/Recursive_acronym\" rel=\"external\">recursive acronym</"
+"a>. If you enjoy that kind of humour, check out what <a href=\"https://www."
+"gnu.org/software/hurd/hurd.html\" rel=\"external\">GNU Hurd</a> means."
 msgstr ""
 "當理查・史托曼 (Richard Stallman) 開始設計 GNU 時，當時的主流系統還是專有的 "
 "Unix。因為 GNU 相似（且相容）於 Unix，但不同點在於 GNU 是<a href=\"https://"
@@ -2012,14 +2021,15 @@ msgstr ""
 "\"external\">FreeDOS</a>、還有<a href=\"https://www.syllable.org/\" rel="
 "\"external\">Syllable</a> 等等。"
 
-#. translators: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
+#. translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
 #: docroot/lib/views/linux.linux_faq.php:94
-#, php-format
+#, fuzzy, php-format
 msgid ""
-"No. There are a few <a href=\"https://www.softwareliberty.com/\" rel="
-"\"external\">free software</a> components in macOS, and it is technically "
-"similar to GNU/Linux systems. But overall, it is proprietary software: all "
-"the <a href=\"%s\">issues about Windows</a> apply to it as well."
+"No. There are a few <a href=\"https://www.gnu.org/philosophy/free-sw.html\" "
+"rel=\"external\">free software</a> components in macOS, and it is "
+"technically similar to GNU/Linux systems. But overall, it is proprietary "
+"software: all the <a href=\"%s\">issues about Windows</a> apply to it as "
+"well."
 msgstr ""
 "不是。雖然 macOS 裡面有部份元件是<a href=\"https://www.softwareliberty.com/"
 "\" rel=\"external\">自由軟體</a>，並且從技術上來說也相似於 GNU/Linux 作業系"
@@ -2070,12 +2080,13 @@ msgstr ""
 "有些網站事實上是在<em>販賣</em> GNU/Linux 散布版。既然如此，為什麼你還要寫說"
 "那是「自由使用且無償提供」呢？"
 
-#. translators: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
+#. translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
 #: docroot/lib/views/linux.linux_faq.php:114
+#, fuzzy
 msgid ""
-"The concept of <a href=\"https://www.softwareliberty.com/\" rel=\"external"
-"\">free software</a>, refers to freedom, not price. You have the freedom to "
-"copy, study, modify, and give free software away."
+"The concept of <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel="
+"\"external\">free software</a>, refers to freedom, not price. You have the "
+"freedom to copy, study, modify, and give free software away."
 msgstr ""
 "<a href=\"https://www.softwareliberty.com/\" rel=\"external\">自由軟體</a>的"
 "概念，講求的是自由，而不是價格。你可以自由複製、研究、修改，並流通自由軟體。"
@@ -2179,11 +2190,12 @@ msgstr ""
 "</a>與他們無關，但是很不幸地事實並非如此。"
 
 #: docroot/lib/views/linux.linux_faq.php:138
+#, fuzzy
 msgid ""
 "macOS does have some low-level components which are <a href=\"https://www."
-"softwareliberty.com/\" rel=\"external\">free software</a>; and Apple puts "
-"less energy into customer lock-in (with some notable efforts such as "
-"BootCamp)."
+"gnu.org/philosophy/free-sw.html\" rel=\"external\">free software</a>; and "
+"Apple puts less energy into customer lock-in (with some notable efforts such "
+"as BootCamp)."
 msgstr ""
 "macOS 確實有一些低階層的組件是屬於<a href=\"https://www.softwareliberty.com/"
 "\" rel=\"external\">自由軟體</a>；而 Apple 也較少花費精力在封鎖客戶上（甚至有"
@@ -2565,14 +2577,15 @@ msgstr "GNU/Linux 哪裡更好"
 msgid "It's free"
 msgstr "它很自由"
 
-#. translators: link to Free Software definition on GNU.org site, if softwareliberty.com is not translated in your language
+#. translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:35
+#, fuzzy
 msgid ""
-"Unlike Windows, GNU/Linux is <a href=\"https://www.softwareliberty.com/\" "
-"title=\"What does Free Software mean?\" rel=\"external\">free software</a> "
-"&ndash; free as in freedom. Install it on all computers and make copies for "
-"your friends! You can even study it, transform it as you please, or build "
-"and sell your own distribution."
+"Unlike Windows, GNU/Linux is <a href=\"https://www.gnu.org/philosophy/free-"
+"sw.html\" title=\"What does Free Software mean?\" rel=\"external\">free "
+"software</a> &ndash; free as in freedom. Install it on all computers and "
+"make copies for your friends! You can even study it, transform it as you "
+"please, or build and sell your own distribution."
 msgstr ""
 "和 Windows 不同，GNU/Linux 是<a href=\"https://www.softwareliberty.com/\" "
 "title=\"What does Free Software mean?\" rel=\"external\">自由軟體</a> "
@@ -3074,14 +3087,15 @@ msgstr ""
 "用它。有些人則是在拋棄他們的舊電腦前備份整個 Windows 系統。更有甚者，人們在不"
 "使用以後還拋售二手的 Windows 軟體。"
 
-#. translators: use the definition of "free software" on GNU.org in place of softwareliberty.com ; also, if you can, use a translation of the GPL as found on https://www.gnu.org/licenses/translations.html
+#. translators: use the definition of "free software" on GNU.org; also, gnu.org uses language negotiation, so it's not necessary to replace those URLs.
 #: docroot/lib/views/windows.restrictions.php:68
+#, fuzzy
 msgid ""
 "<strong>You have an alternative to breaking this law,</strong> or feeling "
-"very restrained when you abide to it. GNU/Linux is <a href=\"https://www."
-"softwareliberty.com/\" rel=\"external\">Free Software</a> (much better than "
-"just freeware): its <a href=\"https://www.gnu.org/copyleft/gpl.html\" rel="
-"\"external\">GPL</a> license is designed to protect your rights."
+"very restrained when you abide to it. GNU/Linux is <a href=\"https://www.gnu."
+"org/philosophy/free-sw.html\" rel=\"external\">Free Software</a> (much "
+"better than just freeware): its <a href=\"https://www.gnu.org/copyleft/gpl."
+"html\" rel=\"external\">GPL</a> license is designed to protect your rights."
 msgstr ""
 "<strong>其實你有除了違法以外的另一個選擇，</strong>或是如果你也對忍受繁多的規"
 "定感到處處受限 ─ GNU/Linux 可是<a href=\"https://www.softwareliberty.com/\" "
@@ -3356,12 +3370,12 @@ msgstr ""
 "</a>。"
 
 #: docroot/lib/views/windows.php:66
-#, php-format
+#, fuzzy, php-format
 msgid ""
-"If you find <a href=\"https://www.softwareliberty.com/\" title=\"what is "
-"freedom in software?\" rel=\"external\">free software</a> attractive, you "
-"might want to <a href=\"%s\" title=\"make the switch to GNU/Linux today!"
-"\">give GNU/Linux a try</a>."
+"If you find <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title="
+"\"what is freedom in software?\" rel=\"external\">free software</a> "
+"attractive, you might want to <a href=\"%s\" title=\"make the switch to GNU/"
+"Linux today!\">give GNU/Linux a try</a>."
 msgstr ""
 "如果你覺得<a href=\"https://www.softwareliberty.com/\" title=\"what is "
 "freedom in software?\" rel=\"external\">自由軟體很吸引人</a>，那麼何不今天就"
@@ -3608,13 +3622,14 @@ msgstr ""
 msgid "The larger picture"
 msgstr "更宏觀的概覽"
 
-#. translators: use the definition of "free software" on GNU.org in place of softwareliberty.com
+#. translators: use the definition of "free software" on GNU.org
 #: docroot/lib/views/linux.php:36
+#, fuzzy
 msgid ""
 "When you get a distribution of GNU/Linux, <strong>you also get the freedom "
 "to study, copy, change, and redistribute it</strong> &ndash;&nbsp;that's "
-"what makes it truly <a href=\"https://www.softwareliberty.com/\" title="
-"\"what is freedom in software?\" rel=\"external\">free software</a>."
+"what makes it truly <a href=\"https://www.gnu.org/philosophy/free-sw.html\" "
+"title=\"what is freedom in software?\" rel=\"external\">free software</a>."
 msgstr ""
 "取得一套 GNU/Linux 散布版的同時，<strong>你也取得研究、複製、修改、以及再次散"
 "布的自由。</strong> &ndash;&nbsp; 這就是「<a href=\"https://www."
@@ -3759,10 +3774,11 @@ msgstr "FSF"
 
 #. translators: This is the text below a button linking to www.fsf.org. If you translated the URL, change this text accordingly.
 #: docroot/lib/views/more.php:65
+#, fuzzy
 msgid ""
 "The Free Software Foundation defends and advocates the very concept of <a "
-"href=\"https://www.softwareliberty.com/\" rel=\"external\">free software</a> "
-"that gave birth to GNU/Linux."
+"href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">free "
+"software</a> that gave birth to GNU/Linux."
 msgstr ""
 "自由軟體基金會 (Free Software Foundation) 捍衛並倡導<a href=\"https://www."
 "softwareliberty.com/\" rel=\"external\">自由軟體</a>的基本概念，他們催生出 "
@@ -3856,6 +3872,9 @@ msgstr ""
 #, php-format
 msgid "This site is <a href=\"%s\" rel=\"external\">open source</a>."
 msgstr "本網站有<a href=\"%s\" rel=\"external\">開放源始碼</a>。"
+
+#~ msgid "3. Software Should Just Work (who cares about source code?)"
+#~ msgstr "3. 軟體只要能用就好了（誰會在意有沒有源始程式碼啊？）"
 
 #~ msgid "GNU/Linux Frequently Asked Questions"
 #~ msgstr "GNU/Linux 常見問答集"

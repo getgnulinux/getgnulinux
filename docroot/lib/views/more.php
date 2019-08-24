@@ -62,7 +62,7 @@ $this->load_header();
           print _("FSF"); ?>"/></a>
 
           <p><?php # translators: This is the text below a button linking to www.fsf.org. If you translated the URL, change this text accordingly.
-          print _("The Free Software Foundation defends and advocates the very concept of <a href=\"https://www.softwareliberty.com/\" rel=\"external\">free software</a> that gave birth to GNU/Linux."); ?></p>
+          print _("The Free Software Foundation defends and advocates the very concept of <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">free software</a> that gave birth to GNU/Linux."); ?></p>
         </div>
       </div>
 

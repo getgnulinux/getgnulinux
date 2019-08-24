@@ -26,7 +26,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/figure002/getgnulinux/issues\n"
-"POT-Creation-Date: 2019-08-23 21:07+0000\n"
+"POT-Creation-Date: 2019-08-24 21:09+0000\n"
 "PO-Revision-Date: 2019-08-22 10:37+0000\n"
 "Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/serrano/"
@@ -62,7 +62,7 @@ msgstr "Mais"
 
 #. translators: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
 #: docroot/lib/ggl.php:219
-#: docroot/lib/views/linux.misunderstanding_free_software.php:179
+#: docroot/lib/views/linux.misunderstanding_free_software.php:173
 #: docroot/lib/views/home.php:31 docroot/lib/views/linux.linux_faq.php:259
 #: docroot/lib/views/linux.php:13 src/templates/header.php:69
 msgid "What is GNU/Linux?"
@@ -601,14 +601,15 @@ msgstr ""
 "Em qual você prefere confiar: o pacote que você não tem permissão para "
 "estudar ou o pacote com a receita?"
 
-#. translators: use the definition of "free software" on GNU.org in place of softwareliberty.com
+#. translators: use the definition of "free software" on GNU.org
 #: docroot/lib/views/linux.misunderstanding_free_software.php:24
-msgid "Five misconceptions about free software, corrected."
+#, fuzzy
+msgid "Misconceptions about free software, corrected."
 msgstr "Cinco equívocos sobre software livre, esclarecidos."
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:29
-msgid ""
-"1. The software industry can't keep going if programmers don't get paid."
+#, fuzzy
+msgid "The software industry can't keep going if programmers don't get paid"
 msgstr ""
 "1. A indústria de software não pode continuar se os programadores não são "
 "pagos."
@@ -689,7 +690,8 @@ msgstr ""
 "empresas já fazem bem."
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:41
-msgid "2. Innovation is killed in free software."
+#, fuzzy
+msgid "Innovation is killed in free software"
 msgstr "2. Inovação está morta em software livre."
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:42
@@ -780,9 +782,9 @@ msgstr ""
 "wordpress.org/\" rel=\"external\">Wordpress</a> (blog)."
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:64
-msgid "3. Software Should Just Work (who cares about source code?)"
-msgstr ""
-"3. Software tem apenas que funcionar (quem se preocupa com o código fonte?)"
+#, fuzzy
+msgid "Software should Just Work"
+msgstr "Porque Software Deve Ser Livre"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:65
 msgid "Anyone should care about whether their software is free."
@@ -838,8 +840,9 @@ msgstr ""
 "que você possa julgar por si mesmo."
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:75
+#, fuzzy
 msgid ""
-"4. Free software doesn't respect authors' copyrighted and patented software."
+"Free software doesn't respect authors' copyrighted and patented software"
 msgstr ""
 "4. O software livre não respeitar direitos autorais dos autores e software "
 "patenteado."
@@ -951,7 +954,6 @@ msgstr ""
 "sobre essas patentes."
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:94
-#: docroot/lib/views/linux.misunderstanding_free_software.php:122
 msgid "Read more:"
 msgstr "Leia mais:"
 
@@ -969,7 +971,8 @@ msgstr ""
 "Infrastructure\">FFII</abbr>"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:104
-msgid "5. Free software is like communism."
+#, fuzzy
+msgid "Free software is like communism"
 msgstr "5. O software livre é como o comunismo."
 
 #. translators: Here, the %s placeholder simply puts a link to a footnote in this page
@@ -1060,11 +1063,12 @@ msgstr ""
 "licença do software livre é apenas um contrato legal e ético entre o "
 "programador e o usuário final."
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:124
-msgid "Free / \"open-source\" software can't be secure."
+#: docroot/lib/views/linux.misunderstanding_free_software.php:122
+#, fuzzy
+msgid "Free software can't be secure"
 msgstr "Software livre / de “código aberto” não pode ser seguro."
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:126
+#: docroot/lib/views/linux.misunderstanding_free_software.php:123
 msgid ""
 "The argument generally goes that since the source code of free software is "
 "available, it is less likely to be secure."
@@ -1072,7 +1076,7 @@ msgstr ""
 "O argumento, geralmente, é que o código fonte do software livre está "
 "disponível portanto, é menos provável que seja seguro."
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:127
+#: docroot/lib/views/linux.misunderstanding_free_software.php:124
 msgid ""
 "Short answer: The majority of servers run free software. They are the major "
 "networked computers holding sensitive or confidential information such as "
@@ -1082,7 +1086,7 @@ msgstr ""
 "principais computadores em rede que detêm as informações sensíveis ou "
 "confidenciais, como seus dados bancários ou segredos comerciais."
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:128
+#: docroot/lib/views/linux.misunderstanding_free_software.php:125
 msgid ""
 "A more precise answer is that availability of source code is a warrant of "
 "security, not a weakness. The freedom of the software ensures it can be "
@@ -1097,7 +1101,7 @@ msgstr ""
 "aberta, mas apenas o titular da chave pode abri-lo. O mesmo vale para o "
 "software."
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:129
+#: docroot/lib/views/linux.misunderstanding_free_software.php:126
 #, php-format
 msgid ""
 "Need examples? Have a look at the <a href=\"https://www.getfirefox.com/\" "
@@ -1118,15 +1122,16 @@ msgstr ""
 "GNU/Linux</a>."
 
 #. translators: this can be translated loosely, ex "Free software isolates me" or else.
-#: docroot/lib/views/linux.misunderstanding_free_software.php:136
-msgid "I'm on my own with free software."
+#: docroot/lib/views/linux.misunderstanding_free_software.php:132
+#, fuzzy
+msgid "I'm on my own with free software"
 msgstr "Eu estou sozinho com software livre."
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:138
+#: docroot/lib/views/linux.misunderstanding_free_software.php:133
 msgid "Not at all."
 msgstr "Nem um pouco."
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:140
+#: docroot/lib/views/linux.misunderstanding_free_software.php:135
 msgid ""
 "If you are looking for good documentation and support forums to assist you, "
 "there is plenty available for free (\"open source\") software."
@@ -1135,7 +1140,7 @@ msgstr ""
 "ajudá-lo, há muito disponível gratuitamente para software. (“open source”)."
 
 #. translators: use your best knowledge of the community to propose localized links ;-)
-#: docroot/lib/views/linux.misunderstanding_free_software.php:142
+#: docroot/lib/views/linux.misunderstanding_free_software.php:137
 msgid ""
 "Each GNU/Linux distribution has its own community (for example, <a href="
 "\"https://community.ubuntu.com/help-information/\" rel=\"external\">Ubuntu "
@@ -1151,7 +1156,7 @@ msgstr ""
 "há também comunidades de ajuda em software livre em geral, como o <a href="
 "\"https://www.linuxquestions.org/\" rel=\"external\">LinuxQuestions.org</a>."
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:143
+#: docroot/lib/views/linux.misunderstanding_free_software.php:138
 msgid ""
 "If you need someone you can reach on the phone anytime to assist you, the "
 "companies behind most distributions provide commercial support: see the <a "
@@ -1166,11 +1171,11 @@ msgstr ""
 "redhat.com/rhel/\" rel=\"external\">Red Hat Enterprise Linux</a>, por "
 "exemplo."
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:149
+#: docroot/lib/views/linux.misunderstanding_free_software.php:143
 msgid "Further reading on the web"
 msgstr "Outras leituras na web"
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:152
+#: docroot/lib/views/linux.misunderstanding_free_software.php:146
 msgid ""
 "This is where free software all started. You will find a wealth of "
 "information about the free software philosophy, the history of the project, "
@@ -1182,7 +1187,7 @@ msgstr ""
 "projeto, e as bases tomadas pela <a href=\"https://www.fsf.org/\" rel="
 "\"external\">Free Software Foundation</a> (A organização por trás do GNU)."
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:155
+#: docroot/lib/views/linux.misunderstanding_free_software.php:149
 msgid ""
 "The concept of Free&nbsp;/&nbsp;Libre&nbsp;/&nbsp;Open Source Software "
 "presented in a highly readable, friendly way. A must-read."
@@ -1190,7 +1195,7 @@ msgstr ""
 "O conceito de Software Livre / Libre / Open apresentado em uma forma "
 "altamente legível, amigável. Uma leitura obrigatória."
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:158
+#: docroot/lib/views/linux.misunderstanding_free_software.php:153
 msgid ""
 "A simple and clear website about the free format OpenDocument, showing the "
 "importance of freedom in formats (not just in applications)."
@@ -1198,7 +1203,7 @@ msgstr ""
 "Um site simples e claro sobre o  formato livre OpenDocument, mostrando a "
 "importância da liberdade em formatos (e não apenas em aplicações)."
 
-#: docroot/lib/views/linux.misunderstanding_free_software.php:161
+#: docroot/lib/views/linux.misunderstanding_free_software.php:156
 msgid ""
 "An engaged article by co-founder of <a href=\"https://www.wikipedia.org/\" "
 "rel=\"external\">Wikipedia</a> Jimmy Wales, which shows the connections "
@@ -1209,7 +1214,7 @@ msgstr ""
 "entre a liberdade de software e conhecimento livre."
 
 #. translators: This is the content of the footnote, at the bottom of the page
-#: docroot/lib/views/linux.misunderstanding_free_software.php:170
+#: docroot/lib/views/linux.misunderstanding_free_software.php:164
 #, php-format
 msgid ""
 "What we call \"Free Software\" here is also often called \"Open Source "
@@ -1448,11 +1453,12 @@ msgid "Download Trisquel"
 msgstr "Baixar Trisquel"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:108
+#, fuzzy
 msgid ""
 "Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href="
-"\"https://www.softwareliberty.com/\" title=\"What do you mean, free?\" rel="
-"\"external\">free software</a>. You are simply paying a handling/shipping "
-"fee."
+"\"https://www.gnu.org/philosophy/free-sw.html\" title=\"What do you mean, "
+"free?\" rel=\"external\">free software</a>. You are simply paying a handling/"
+"shipping fee."
 msgstr ""
 "Nota: Os CDs comprados ou baixados são idênticos! GNU/Linux é <a href="
 "\"https://www.softwareliberty.com/\" title=\"O que você quer dizer por &quot;"
@@ -2053,15 +2059,16 @@ msgstr ""
 "surpresa), e hoje usa-se “Linux” para se referir a todo o sistema. Isto "
 "causa grande controvérsia."
 
-#. translators: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
+#. translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
 #: docroot/lib/views/linux.linux_faq.php:67
+#, fuzzy
 msgid ""
 "Calling the system <em>GNU/Linux</em> is much more meaningful, technically "
 "(end-users use a lot of \"GNU\" and a little of \"Linux\") but also "
-"philosophically: the strength and momentum of the <a href=\"https://www."
-"softwareliberty.com/\" rel=\"external\">Free Software</a> movement started "
-"with and are still carried by <a href=\"https://www.gnu.org/\" rel=\"external"
-"\">the GNU project</a>."
+"philosophically: the strength and momentum of the <a href=\"https://www.gnu."
+"org/philosophy/free-sw.html\" rel=\"external\">Free Software</a> movement "
+"started with and are still carried by <a href=\"https://www.gnu.org/\" rel="
+"\"external\">the GNU project</a>."
 msgstr ""
 "Chamar o sistema de <em>GNU/Linux</em> é muito mais significativo, "
 "tecnicamente (os usuários finais usam um monte de “GNU”, e um pouco de "
@@ -2092,17 +2099,18 @@ msgstr ""
 "\" rel=\"external\">kernel Linux</a>. Quando usamos “Linux” sem a parte GNU, "
 "nos referimos ao kernel."
 
-#. translators: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
+#. translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
 #: docroot/lib/views/linux.linux_faq.php:76
+#, fuzzy
 msgid ""
 "When Richard Stallman started to design GNU, the main system in use was "
 "Unix, which is proprietary. Because GNU is similar in function to (and "
-"compatible with) Unix, but is <a href=\"https://www.softwareliberty.com/\" "
-"rel=\"external\">free software</a>, he coined the term GNU which stands for "
-"<strong>GNU's Not Unix</strong>. It's a <a href=\"https://en.wikipedia.org/"
-"wiki/Recursive_acronym\" rel=\"external\">recursive acronym</a>. If you "
-"enjoy that kind of humour, check out what <a href=\"https://www.gnu.org/"
-"software/hurd/hurd.html\" rel=\"external\">GNU Hurd</a> means."
+"compatible with) Unix, but is <a href=\"https://www.gnu.org/philosophy/free-"
+"sw.html\" rel=\"external\">free software</a>, he coined the term GNU which "
+"stands for <strong>GNU's Not Unix</strong>. It's a <a href=\"https://en."
+"wikipedia.org/wiki/Recursive_acronym\" rel=\"external\">recursive acronym</"
+"a>. If you enjoy that kind of humour, check out what <a href=\"https://www."
+"gnu.org/software/hurd/hurd.html\" rel=\"external\">GNU Hurd</a> means."
 msgstr ""
 "Quando Richard Stallman começou a projeto GNU, o principal sistema utilizado "
 "era o Unix, que é proprietário. Porque o GNU é similar à função (e "
@@ -2152,14 +2160,15 @@ msgstr ""
 "rel=\"external\">FreeDOS</a> e o <a href=\"https://www.syllable.org/\" rel="
 "\"external\">Syllable</a>, só para apresentar alguns exemplos."
 
-#. translators: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
+#. translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
 #: docroot/lib/views/linux.linux_faq.php:94
-#, php-format
+#, fuzzy, php-format
 msgid ""
-"No. There are a few <a href=\"https://www.softwareliberty.com/\" rel="
-"\"external\">free software</a> components in macOS, and it is technically "
-"similar to GNU/Linux systems. But overall, it is proprietary software: all "
-"the <a href=\"%s\">issues about Windows</a> apply to it as well."
+"No. There are a few <a href=\"https://www.gnu.org/philosophy/free-sw.html\" "
+"rel=\"external\">free software</a> components in macOS, and it is "
+"technically similar to GNU/Linux systems. But overall, it is proprietary "
+"software: all the <a href=\"%s\">issues about Windows</a> apply to it as "
+"well."
 msgstr ""
 "Não. Há uns poucos componentes que são <a href=\"https://www.softwareliberty."
 "com/\" rel=\"external\">software livre</a> no MacOS, e ele é tecnicamente "
@@ -2213,12 +2222,13 @@ msgstr ""
 "Alguns websites <em>vendem</em> distribuições GNU/Linux. Então, por que você "
 "disse “livre como a expressão e disponível sem custos”?"
 
-#. translators: Use localized URL of free software definition on GNU.org in place of softwareliberty.com
+#. translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
 #: docroot/lib/views/linux.linux_faq.php:114
+#, fuzzy
 msgid ""
-"The concept of <a href=\"https://www.softwareliberty.com/\" rel=\"external"
-"\">free software</a>, refers to freedom, not price. You have the freedom to "
-"copy, study, modify, and give free software away."
+"The concept of <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel="
+"\"external\">free software</a>, refers to freedom, not price. You have the "
+"freedom to copy, study, modify, and give free software away."
 msgstr ""
 "O conceito do <a href=\"https://www.softwareliberty.com/\" rel=\"external"
 "\">software livre</a>, se refere à liberdade, não ao preço. Você tem a "
@@ -2335,11 +2345,12 @@ msgstr ""
 "esse o caso."
 
 #: docroot/lib/views/linux.linux_faq.php:138
+#, fuzzy
 msgid ""
 "macOS does have some low-level components which are <a href=\"https://www."
-"softwareliberty.com/\" rel=\"external\">free software</a>; and Apple puts "
-"less energy into customer lock-in (with some notable efforts such as "
-"BootCamp)."
+"gnu.org/philosophy/free-sw.html\" rel=\"external\">free software</a>; and "
+"Apple puts less energy into customer lock-in (with some notable efforts such "
+"as BootCamp)."
 msgstr ""
 "MacOS tem alguns componentes de baixo nível que são <a href=\"https://www."
 "softwareliberty.com/\" rel=\"external\">software livre</a>, e a Apple coloca "
@@ -2745,14 +2756,15 @@ msgstr "O que é melhor no GNU/Linux"
 msgid "It's free"
 msgstr "É gratuito"
 
-#. translators: link to Free Software definition on GNU.org site, if softwareliberty.com is not translated in your language
+#. translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:35
+#, fuzzy
 msgid ""
-"Unlike Windows, GNU/Linux is <a href=\"https://www.softwareliberty.com/\" "
-"title=\"What does Free Software mean?\" rel=\"external\">free software</a> "
-"&ndash; free as in freedom. Install it on all computers and make copies for "
-"your friends! You can even study it, transform it as you please, or build "
-"and sell your own distribution."
+"Unlike Windows, GNU/Linux is <a href=\"https://www.gnu.org/philosophy/free-"
+"sw.html\" title=\"What does Free Software mean?\" rel=\"external\">free "
+"software</a> &ndash; free as in freedom. Install it on all computers and "
+"make copies for your friends! You can even study it, transform it as you "
+"please, or build and sell your own distribution."
 msgstr ""
 "Ao contrário do Windows, o GNU/Linux é um <a href=\"https://www."
 "softwareliberty.com/\" title=\"O que Software Livre significa?\" rel="
@@ -3302,14 +3314,15 @@ msgstr ""
 "Outros manter sua versão do Windows, quando eles tocam de PC. Outras pessoas "
 "entregam seu software Windows quando param de usá-lo."
 
-#. translators: use the definition of "free software" on GNU.org in place of softwareliberty.com ; also, if you can, use a translation of the GPL as found on https://www.gnu.org/licenses/translations.html
+#. translators: use the definition of "free software" on GNU.org; also, gnu.org uses language negotiation, so it's not necessary to replace those URLs.
 #: docroot/lib/views/windows.restrictions.php:68
+#, fuzzy
 msgid ""
 "<strong>You have an alternative to breaking this law,</strong> or feeling "
-"very restrained when you abide to it. GNU/Linux is <a href=\"https://www."
-"softwareliberty.com/\" rel=\"external\">Free Software</a> (much better than "
-"just freeware): its <a href=\"https://www.gnu.org/copyleft/gpl.html\" rel="
-"\"external\">GPL</a> license is designed to protect your rights."
+"very restrained when you abide to it. GNU/Linux is <a href=\"https://www.gnu."
+"org/philosophy/free-sw.html\" rel=\"external\">Free Software</a> (much "
+"better than just freeware): its <a href=\"https://www.gnu.org/copyleft/gpl."
+"html\" rel=\"external\">GPL</a> license is designed to protect your rights."
 msgstr ""
 "<strong>Você tem uma alternativa para quebrar esta lei</strong>, ou sentindo-"
 "se muito contido quando você obedecer a ele. GNU/Linux é um <a href="
@@ -3606,12 +3619,12 @@ msgstr ""
 "macOS <a href=\"%s#mac_freedom\">não é muito melhor</a>."
 
 #: docroot/lib/views/windows.php:66
-#, php-format
+#, fuzzy, php-format
 msgid ""
-"If you find <a href=\"https://www.softwareliberty.com/\" title=\"what is "
-"freedom in software?\" rel=\"external\">free software</a> attractive, you "
-"might want to <a href=\"%s\" title=\"make the switch to GNU/Linux today!"
-"\">give GNU/Linux a try</a>."
+"If you find <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title="
+"\"what is freedom in software?\" rel=\"external\">free software</a> "
+"attractive, you might want to <a href=\"%s\" title=\"make the switch to GNU/"
+"Linux today!\">give GNU/Linux a try</a>."
 msgstr ""
 "Se você acha o <a href=\"https://www.softwareliberty.com/\" title=\"O que é "
 "liberdade em software?\" rel=\"external\">software livre</a> atrativo, você "
@@ -3890,13 +3903,14 @@ msgstr ""
 msgid "The larger picture"
 msgstr "A figura maior"
 
-#. translators: use the definition of "free software" on GNU.org in place of softwareliberty.com
+#. translators: use the definition of "free software" on GNU.org
 #: docroot/lib/views/linux.php:36
+#, fuzzy
 msgid ""
 "When you get a distribution of GNU/Linux, <strong>you also get the freedom "
 "to study, copy, change, and redistribute it</strong> &ndash;&nbsp;that's "
-"what makes it truly <a href=\"https://www.softwareliberty.com/\" title="
-"\"what is freedom in software?\" rel=\"external\">free software</a>."
+"what makes it truly <a href=\"https://www.gnu.org/philosophy/free-sw.html\" "
+"title=\"what is freedom in software?\" rel=\"external\">free software</a>."
 msgstr ""
 "Quando você obtém uma distribuição GNU/Linux, <strong>você também ganha "
 "liberdade para estudar, copiar, alterar, e redistribuir</strong> &ndash;"
@@ -4052,10 +4066,11 @@ msgstr "FSF"
 
 #. translators: This is the text below a button linking to www.fsf.org. If you translated the URL, change this text accordingly.
 #: docroot/lib/views/more.php:65
+#, fuzzy
 msgid ""
 "The Free Software Foundation defends and advocates the very concept of <a "
-"href=\"https://www.softwareliberty.com/\" rel=\"external\">free software</a> "
-"that gave birth to GNU/Linux."
+"href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">free "
+"software</a> that gave birth to GNU/Linux."
 msgstr ""
 "A Free Software Foundation defende e advoga os muitos conceitos do <a href="
 "\"https://www.softwareliberty.com/\" rel=\"external\">software livre</a> que "
@@ -4151,6 +4166,11 @@ msgstr ""
 #, php-format
 msgid "This site is <a href=\"%s\" rel=\"external\">open source</a>."
 msgstr "Este site é <a href=\"%s\" rel=\"external\">código aberto</a>."
+
+#~ msgid "3. Software Should Just Work (who cares about source code?)"
+#~ msgstr ""
+#~ "3. Software tem apenas que funcionar (quem se preocupa com o código "
+#~ "fonte?)"
 
 #~ msgid "GNU/Linux Frequently Asked Questions"
 #~ msgstr "Perguntas frequentes sobre GNU/Linux"

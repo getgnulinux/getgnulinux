@@ -20,7 +20,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
 
         <div class="page-intro">
           <p><?php
-          # translators: use the definition of "free software" on GNU.org in place of softwareliberty.com
+          # translators: use the definition of "free software" on GNU.org
           print _("Misconceptions about free software, corrected."); ?></p>
         </div>
       </header>
