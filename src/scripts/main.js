@@ -19,11 +19,6 @@ $(document).ready(function() {
     });
   })();
 
-  /* Enable fancy scrolling on the Linux FAQ */
-  $('#faq #content a').click(function(){
-    $.scrollTo(this.hash, 500);
-  });
-
   (function() {
     var settings = {
       text: 'To Top',

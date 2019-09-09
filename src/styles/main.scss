@@ -56,9 +56,10 @@ section {
   padding: 1rem 0;
 }
 
-details summary {
+details > summary {
   cursor: pointer;
   outline: none;
+  text-align: start;
 }
 
 img, embed, object, video {
@@ -700,6 +701,23 @@ section.trisquel {
 #faq {
   h4 {
     margin-top: 0;
+  }
+
+  details {
+    > summary {
+      cursor: pointer;
+      outline: none;
+      border-bottom: dotted 1px #b9b5b5;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      padding-left: 1.1rem;
+
+      &:last-child {
+        padding-bottom: 1rem;
+      }
+    }
   }
 
   .read_more {
