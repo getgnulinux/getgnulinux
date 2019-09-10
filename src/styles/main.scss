@@ -708,24 +708,19 @@ section.trisquel {
       cursor: pointer;
       outline: none;
       border-bottom: dotted 1px #b9b5b5;
-      margin-bottom: 1rem;
+      margin-bottom: 1em;
     }
 
-    p {
-      padding-left: 1.1rem;
+    > div.answer {
+      margin: 0 0 1.5em;
+      border-left: 2px solid $light-blue;
+      padding: 0 0 0 1em;
 
-      &:last-child {
-        padding-bottom: 1rem;
+      div.read-more {
+        li {
+          margin: 0;
+        }
       }
-    }
-  }
-
-  .read_more {
-    margin-left: 60%;
-    font-size: 0.9em;
-
-    li {
-      margin: 0;
     }
   }
 }
