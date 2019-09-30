@@ -47,14 +47,14 @@ $this->load_header();
 
       <section>
         <h2 id="get_the_cd"><?php print _("Get the CD you need"); ?></h2>
-        <p><?php print _("For the distributions we recommend, the live CD (or DVD) is the same as the installation CD. You can either download and burn a CD yourself, or order a CD from a trusted vendor."); ?></p>
+        <p><?php print _("For the distributions we recommend, the live CD is the same as the installation CD. You can download an ISO image (rather large file) and then create a bootable USB stick (recommended) or burn it to a CD (may be necessary when installing GNU/Linux on an older system which can not boot from USB). You can then use it to install GNU/Linux onto your computer."); ?></p>
 
         <div class="download-box">
           <div class="download-box-logo">
             <p><img src="/images/UbuntuIcon.svg" alt="Ubuntu"></p>
           </div>
           <div class="download-box-content">
-            <p><?php print _("You can download an <code>iso</code> image (rather large file) and then <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel=\"external\">burn it to a DVD</a> or <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows\" rel=\"external\">create a bootable USB stick</a>. You can then use it to <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel=\"external\">install Ubuntu</a> onto your computer."); ?></p>
+            <p><?php print _("<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows\" rel=\"external\">Create a bootable USB stick</a> or <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel=\"external\">burn it to a DVD</a>. Then use it to <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel=\"external\">install Ubuntu</a> onto your computer."); ?></p>
 
             <div class="download-box-buttons">
               <div class="button green">
@@ -69,9 +69,7 @@ $this->load_header();
             <p><img src="/images/FedoraIcon.png" alt="Fedora"></p>
           </div>
           <div class="download-box-content">
-            <p><?php
-            # translators: A list of available translations for the installation guide is displayed at that URL. Please use the URL for your language if it is available.
-            print _("The Fedora live CD also enables installation. Follow the <a href=\"https://docs.fedoraproject.org/en-US/Fedora/html/Installation_Guide/index.html\" rel=\"external\">Fedora installation guide</a> to get started with Fedora."); ?></p>
+            <p><?php print _("<i>Fedora Media Writer</i> is the easiest way to <a href=\"https://docs.fedoraproject.org/en-US/fedora/f30/install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">try or install Fedora</a>. It makes it easy to create a bootable USB stick or CD."); ?></p>
 
             <div class="download-box-buttons">
               <div class="button green">
