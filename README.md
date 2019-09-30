@@ -22,7 +22,7 @@ Start the web server in a separate terminal:
 
     docker/start.sh
 
-The website should now be accessible at <http://localhost:8080/>.
+The website should now be accessible at <http://localhost:1337/>.
 
 
 ### Manual build environment

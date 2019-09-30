@@ -9,7 +9,7 @@ services:
     volumes:
       - "docroot:/var/www/html"
     ports:
-      - "8080:80"
+      - "1337:80"
 
   getgnulinux:
     security_opt:
