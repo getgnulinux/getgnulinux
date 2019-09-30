@@ -25,9 +25,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/figure002/getgnulinux/issues\n"
-"POT-Creation-Date: 2019-08-24 21:09+0000\n"
-"PO-Revision-Date: 2019-08-22 10:37+0000\n"
-"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
+"POT-Creation-Date: 2019-09-30 20:00+0000\n"
+"PO-Revision-Date: 2019-08-24 21:17+0000\n"
+"Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/serrano/"
 "getgnulinux/language/zh_TW/)\n"
 "Language: zh_TW\n"
@@ -52,17 +52,17 @@ msgid "Home"
 msgstr "首頁"
 
 #. translators: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
-#: docroot/lib/ggl.php:217 docroot/lib/views/linux.linux_faq.php:249
+#: docroot/lib/ggl.php:217 docroot/lib/views/linux.linux_faq.php:251
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:54
 #: docroot/lib/views/more.php:16 src/templates/header.php:78
-#: src/templates/footer.php:51
+#: src/templates/footer.php:36
 msgid "More"
 msgstr "更多"
 
 #. translators: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
 #: docroot/lib/ggl.php:219
 #: docroot/lib/views/linux.misunderstanding_free_software.php:173
-#: docroot/lib/views/home.php:31 docroot/lib/views/linux.linux_faq.php:259
+#: docroot/lib/views/home.php:31 docroot/lib/views/linux.linux_faq.php:260
 #: docroot/lib/views/linux.php:13 src/templates/header.php:69
 msgid "What is GNU/Linux?"
 msgstr "GNU/Linux 是什麼？"
@@ -76,9 +76,9 @@ msgstr "GNU/Linux FAQ - 關於 GNU/Linux 的常見問題"
 #: docroot/lib/ggl.php:223 docroot/lib/ggl.php:286
 #: docroot/lib/views/linux.misunderstanding_free_software.php:19
 #: docroot/lib/views/windows.stand_for_a_free_society.php:143
-#: docroot/lib/views/linux.linux_faq.php:116
-#: docroot/lib/views/linux.linux_faq.php:152
-#: docroot/lib/views/linux.linux_faq.php:161 docroot/lib/views/linux.php:50
+#: docroot/lib/views/linux.linux_faq.php:95
+#: docroot/lib/views/linux.linux_faq.php:137
+#: docroot/lib/views/linux.linux_faq.php:148 docroot/lib/views/linux.php:50
 msgid "How to Misunderstand Free Software"
 msgstr "對自由軟體的常見誤解"
 
@@ -116,7 +116,7 @@ msgstr "關於限制的更多細節"
 
 #. translators: This title can be translated loosely
 #: docroot/lib/ggl.php:233 docroot/lib/ggl.php:298
-#: docroot/lib/views/linux.linux_faq.php:195 docroot/lib/views/windows.php:50
+#: docroot/lib/views/linux.linux_faq.php:188 docroot/lib/views/windows.php:50
 msgid "Stand for a free society"
 msgstr "為了自由的社會"
 
@@ -574,14 +574,12 @@ msgstr "你更願意相信哪一個呢？你不能學習參考的軟體，或者
 
 #. translators: use the definition of "free software" on GNU.org
 #: docroot/lib/views/linux.misunderstanding_free_software.php:24
-#, fuzzy
 msgid "Misconceptions about free software, corrected."
-msgstr "五個關於自由軟體的誤解與觀念更正。"
+msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:29
-#, fuzzy
 msgid "The software industry can't keep going if programmers don't get paid"
-msgstr "1. 如果程式設計師沒有得到金錢報酬，軟體產業就無法正常發展。"
+msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:30
 msgid ""
@@ -650,9 +648,8 @@ msgstr ""
 "實際上已經有許多公司企業在此等模式的經營下蓬勃發展。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:41
-#, fuzzy
 msgid "Innovation is killed in free software"
-msgstr "2. 自由軟體扼殺創新。"
+msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:42
 msgid ""
@@ -738,9 +735,8 @@ msgstr ""
 "\">Wordpress</a> （部落格系統）。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:64
-#, fuzzy
 msgid "Software should Just Work"
-msgstr "為什麼軟體應該自由"
+msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:65
 msgid "Anyone should care about whether their software is free."
@@ -792,10 +788,9 @@ msgstr ""
 "評估是否要正式地使用它。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:75
-#, fuzzy
 msgid ""
 "Free software doesn't respect authors' copyrighted and patented software"
-msgstr "4. 自由軟體不尊重軟體開發者受著作權與專利保護的軟體。"
+msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:76
 msgid ""
@@ -908,9 +903,8 @@ msgstr ""
 "abbr>"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:104
-#, fuzzy
 msgid "Free software is like communism"
-msgstr "5. 自由軟體就像共產主義。"
+msgstr ""
 
 #. translators: Here, the %s placeholder simply puts a link to a footnote in this page
 #: docroot/lib/views/linux.misunderstanding_free_software.php:107
@@ -993,9 +987,8 @@ msgstr ""
 "約。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:122
-#, fuzzy
 msgid "Free software can't be secure"
-msgstr "自由 /「開源」軟體可能不安全。"
+msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:123
 msgid ""
@@ -1048,9 +1041,8 @@ msgstr ""
 
 #. translators: this can be translated loosely, ex "Free software isolates me" or else.
 #: docroot/lib/views/linux.misunderstanding_free_software.php:132
-#, fuzzy
 msgid "I'm on my own with free software"
-msgstr "使用自由軟體只能靠自己。"
+msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:133
 msgid "Not at all."
@@ -1359,16 +1351,12 @@ msgid "Download Trisquel"
 msgstr "下載 Trisquel"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:108
-#, fuzzy
 msgid ""
 "Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href="
 "\"https://www.gnu.org/philosophy/free-sw.html\" title=\"What do you mean, "
 "free?\" rel=\"external\">free software</a>. You are simply paying a handling/"
 "shipping fee."
 msgstr ""
-"注意：購買或者下載的 CD 是相同的！GNU/Linux 是<a href=\"https://www."
-"softwareliberty.com/\" title=\"What do you mean, free?\" rel=\"external\">自"
-"由軟體</a>。你僅僅負擔了手續/運費而已。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:112
 msgid "Free Software pre-installed"
@@ -1782,132 +1770,22 @@ msgstr ""
 "<a href=\"%s\">我們關於 GNU/Linux 的頁面</a>已涵蓋了最重要的一些資訊。若有任"
 "何其他疑問，我們希望這份 FAQ 清單能滿足你的好奇心。"
 
-#: docroot/lib/views/linux.linux_faq.php:22
-msgid "General questions:"
-msgstr "一般問題："
-
-#: docroot/lib/views/linux.linux_faq.php:24
-#: docroot/lib/views/linux.linux_faq.php:58
-msgid "Are &quot;GNU/Linux&quot; and &quot;Linux&quot; any different?"
-msgstr "「GNU/Linux」與「Linux」有什麼差異？"
-
-#: docroot/lib/views/linux.linux_faq.php:25
-#: docroot/lib/views/linux.linux_faq.php:73
-msgid "And what has that software to do with a GNU?"
-msgstr "那這軟體又跟 GNU 有什麼關係了？"
-
-#: docroot/lib/views/linux.linux_faq.php:26
-#: docroot/lib/views/linux.linux_faq.php:80
-msgid "Is Linux a registered trademark?"
-msgstr "Linux 是一個註冊商標嗎？"
-
-#: docroot/lib/views/linux.linux_faq.php:27
-#: docroot/lib/views/linux.linux_faq.php:85
-msgid "Is GNU/Linux the only free operating system available?"
-msgstr "GNU/Linux 是市面上唯一一個自由的作業系統嗎？"
-
-#: docroot/lib/views/linux.linux_faq.php:28
-#: docroot/lib/views/linux.linux_faq.php:91
-msgid "Is macOS a distribution of GNU/Linux?"
-msgstr "macOS 是 GNU/Linux 散布版嗎？"
-
-#: docroot/lib/views/linux.linux_faq.php:30
-msgid "Understanding free software:"
-msgstr "了解自由軟體："
-
-#: docroot/lib/views/linux.linux_faq.php:32
-#: docroot/lib/views/linux.linux_faq.php:100
-msgid ""
-"Are &quot;Open Source&quot; and &quot;Free Software&quot; the same thing?"
-msgstr "「開放源始碼軟體（簡稱開源軟體）」與「自由軟體」是相同的東西嗎？"
-
-#: docroot/lib/views/linux.linux_faq.php:33
-#: docroot/lib/views/linux.linux_faq.php:108
-msgid "Why are some GNU/Linux distributions sold, not given away?"
-msgstr "為什麼有些 GNU/Linux 散布版要付費，而不是免費送出？"
-
-#: docroot/lib/views/linux.linux_faq.php:34
-#: docroot/lib/views/linux.linux_faq.php:120
-msgid "Why are some GNU/Linux distributions not fully free?"
-msgstr "為什麼有些 GNU/Linux 散布版不是完全自由？"
-
-#: docroot/lib/views/linux.linux_faq.php:35
-#: docroot/lib/views/linux.linux_faq.php:135
-msgid "Is macOS also a free operating system?"
-msgstr "macOS 也是自由的作業系統嗎？"
-
-#: docroot/lib/views/linux.linux_faq.php:36
-#: docroot/lib/views/linux.linux_faq.php:144
-msgid "Aren't GNU/Linux users the ones who make illegal downloads?"
-msgstr "GNU/Linux 的使用者是不是都在進行非法下載？"
-
-#: docroot/lib/views/linux.linux_faq.php:37
-#: docroot/lib/views/linux.linux_faq.php:156
-msgid "Is GNU/Linux a form of communism?"
-msgstr "GNU/Linux 是共產主義的一種形式嗎？"
-
-#: docroot/lib/views/linux.linux_faq.php:39
-msgid "Installing GNU/Linux:"
-msgstr "安裝 GNU/Linux："
-
-#: docroot/lib/views/linux.linux_faq.php:41
-#: docroot/lib/views/linux.linux_faq.php:170
-msgid "Does GNU/Linux come pre-installed on computers?"
-msgstr "有預裝 GNU/Linux 的電腦嗎？"
-
-#: docroot/lib/views/linux.linux_faq.php:42
-#: docroot/lib/views/linux.linux_faq.php:180
-msgid "Can I get GNU/Linux in my own language?"
-msgstr "我可以取得支援我語言的 GNU/Linux 嗎？"
-
-#: docroot/lib/views/linux.linux_faq.php:43
-#: docroot/lib/views/linux.linux_faq.php:186
-msgid "Is it legal to install GNU/Linux on my computer?"
-msgstr "在我的電腦上安裝 GNU/Linux 作業系統是合法的嗎？"
-
-#: docroot/lib/views/linux.linux_faq.php:44
-#: docroot/lib/views/linux.linux_faq.php:200
-msgid "Do I have to purchase a new computer to run GNU/Linux?"
-msgstr "我必須買一臺新電腦來執行 GNU/Linux 嗎？"
-
-#: docroot/lib/views/linux.linux_faq.php:46
-msgid "Using GNU/Linux:"
-msgstr "使用 GNU/Linux："
-
-#: docroot/lib/views/linux.linux_faq.php:48
-#: docroot/lib/views/linux.linux_faq.php:208
-msgid "Will Microsoft Office run on GNU/Linux?"
-msgstr "可以在 GNU/Linux 上執行 Microsoft Office 嗎？"
-
-#: docroot/lib/views/linux.linux_faq.php:49
-#: docroot/lib/views/linux.linux_faq.php:221
-#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:86
-msgid "Can I play my DVDs and MP3s under GNU/Linux?"
-msgstr "我可以在 GNU/Linux 上播放 DVD 和 MP3 嗎？"
-
-#: docroot/lib/views/linux.linux_faq.php:50
-#: docroot/lib/views/linux.linux_faq.php:239
-#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:95
-msgid "Can I play popular 3D games under GNU/Linux?"
-msgstr "我可以在 GNU/Linux 上玩流行的 3D 遊戲嗎？"
-
-#: docroot/lib/views/linux.linux_faq.php:52
-#: docroot/lib/views/linux.linux_faq.php:245
-msgid "More questions?"
-msgstr "還有其他問題？"
-
-#: docroot/lib/views/linux.linux_faq.php:55
+#: docroot/lib/views/linux.linux_faq.php:21
 msgid "General Questions"
 msgstr "一般問題"
 
+#: docroot/lib/views/linux.linux_faq.php:24
+msgid "Are &quot;GNU/Linux&quot; and &quot;Linux&quot; any different?"
+msgstr "「GNU/Linux」與「Linux」有什麼差異？"
+
 #. translators: This is italic text just below the question, which elaborates a little on it.
-#: docroot/lib/views/linux.linux_faq.php:62
+#: docroot/lib/views/linux.linux_faq.php:28
 msgid ""
 "You keep referring to one and the other alternatively. What is this all "
 "about?"
 msgstr "一下叫這個名字，一下又叫另一個。它們有什麼不同嗎？"
 
-#: docroot/lib/views/linux.linux_faq.php:63
+#: docroot/lib/views/linux.linux_faq.php:30
 msgid ""
 "Originally, <strong>Linux</strong> refers to a core component (called the "
 "kernel) that fits within the <strong>GNU</strong> system. What users run "
@@ -1917,7 +1795,7 @@ msgstr ""
 "心元件 （就叫作「內核心」或「核心」）。而當今使用者執行的，更精確的說，應該是"
 "「<em> GNU/Linux 系統的散布版</em>」。"
 
-#: docroot/lib/views/linux.linux_faq.php:64
+#: docroot/lib/views/linux.linux_faq.php:31
 msgid ""
 "In practice, the word \"Linux\" caught on much better (unsurprisingly), and "
 "today people refer to the whole system as simply \"Linux\". This causes a "
@@ -1927,8 +1805,7 @@ msgstr ""
 "「Linux」。這造成了很多爭議。"
 
 #. translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
-#: docroot/lib/views/linux.linux_faq.php:67
-#, fuzzy
+#: docroot/lib/views/linux.linux_faq.php:34
 msgid ""
 "Calling the system <em>GNU/Linux</em> is much more meaningful, technically "
 "(end-users use a lot of \"GNU\" and a little of \"Linux\") but also "
@@ -1937,13 +1814,8 @@ msgid ""
 "started with and are still carried by <a href=\"https://www.gnu.org/\" rel="
 "\"external\">the GNU project</a>."
 msgstr ""
-"不管是技術層面而言（因為終端用戶常用到很多「GNU」軟體，但很少會去碰「Linux」"
-"核心），還有理念層面來看：<a href=\"https://www.softwareliberty.com/\" rel="
-"\"external\">自由軟體</a>發展的源動力起始於 <a href=\"https://www.gnu.org/\" "
-"rel=\"external\">GNU 專案</a>，並且直至今日都仍是主力；<em>GNU/Linux</em> 都"
-"是更具實質意義的稱呼。"
 
-#: docroot/lib/views/linux.linux_faq.php:68
+#: docroot/lib/views/linux.linux_faq.php:35
 msgid ""
 "Calling the system <em>Linux</em> is more practical and appealing for "
 "computer users that often believe Windows is the only thing on earth."
@@ -1951,7 +1823,7 @@ msgstr ""
 "把這個系統叫 <em>Linux</em> 比較實際，而且比較容易吸引電腦使用者的目光，因為"
 "他們常認為地球上只有 Windows 作業系統。"
 
-#: docroot/lib/views/linux.linux_faq.php:69
+#: docroot/lib/views/linux.linux_faq.php:36
 msgid ""
 "To avoid confusion, we use \"GNU/Linux\" to refer to operating system "
 "distributions that include <a href=\"https://www.gnu.org/\" rel=\"external"
@@ -1964,9 +1836,12 @@ msgstr ""
 "\"external\">Linux 核心</a>的作業系統。當我們只講「Linux」沒有提到 GNU 時，我"
 "們只單單討論這個內核心。"
 
+#: docroot/lib/views/linux.linux_faq.php:41
+msgid "And what has that software to do with a GNU?"
+msgstr "那這軟體又跟 GNU 有什麼關係了？"
+
 #. translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
-#: docroot/lib/views/linux.linux_faq.php:76
-#, fuzzy
+#: docroot/lib/views/linux.linux_faq.php:45
 msgid ""
 "When Richard Stallman started to design GNU, the main system in use was "
 "Unix, which is proprietary. Because GNU is similar in function to (and "
@@ -1977,16 +1852,12 @@ msgid ""
 "a>. If you enjoy that kind of humour, check out what <a href=\"https://www."
 "gnu.org/software/hurd/hurd.html\" rel=\"external\">GNU Hurd</a> means."
 msgstr ""
-"當理查・史托曼 (Richard Stallman) 開始設計 GNU 時，當時的主流系統還是專有的 "
-"Unix。因為 GNU 相似（且相容）於 Unix，但不同點在於 GNU 是<a href=\"https://"
-"www.softwareliberty.com/\" rel=\"external\">自由軟體</a>，他便創造了 GNU 這個"
-"詞，代表 <strong>GNU's Not Unix</strong>，意思是「GNU 並非 Unix」。它是一個"
-"<a href=\"https://en.wikipedia.org/wiki/Recursive_acronym\" rel=\"external\">"
-"遞迴縮寫</a>（如果你覺得遞迴縮寫很有趣，那麼你也可以查查看 <a href=\"https://"
-"www.gnu.org/software/hurd/hurd.html\" rel=\"external\">GNU Hurd</a> 所代表的"
-"意義）。"
 
-#: docroot/lib/views/linux.linux_faq.php:81
+#: docroot/lib/views/linux.linux_faq.php:50
+msgid "Is Linux a registered trademark?"
+msgstr "Linux 是一個註冊商標嗎？"
+
+#: docroot/lib/views/linux.linux_faq.php:52
 msgid ""
 "Yes. You cannot sell any random software under the name of Linux&reg;. The "
 "trademark is held by <a href=\"http://www.linuxmark.org/\" rel=\"external"
@@ -1995,13 +1866,17 @@ msgstr ""
 "是的，你不能販賣任何帶有 Linux&reg; 字樣的商品。該商標為 <a href=\"http://"
 "www.linuxmark.org/\" rel=\"external\">Linux 標示機構</a>所有。"
 
-#: docroot/lib/views/linux.linux_faq.php:86
+#: docroot/lib/views/linux.linux_faq.php:57
+msgid "Is GNU/Linux the only free operating system available?"
+msgstr "GNU/Linux 是市面上唯一一個自由的作業系統嗎？"
+
+#: docroot/lib/views/linux.linux_faq.php:59
 msgid ""
 "No. GNU/Linux is by far the most widely used free system; however a number "
 "of other systems exist."
 msgstr "不，GNU/Linux 是目前使用最廣的自由作業系統；但還有其他的系統存在。"
 
-#: docroot/lib/views/linux.linux_faq.php:87
+#: docroot/lib/views/linux.linux_faq.php:60
 msgid ""
 "These include the UNIX derivatives <a href=\"https://freebsd.org/\" rel="
 "\"external\">FreeBSD</a>, <a href=\"https://netbsd.org/\" rel=\"external"
@@ -2021,9 +1896,13 @@ msgstr ""
 "\"external\">FreeDOS</a>、還有<a href=\"https://www.syllable.org/\" rel="
 "\"external\">Syllable</a> 等等。"
 
+#: docroot/lib/views/linux.linux_faq.php:65
+msgid "Is macOS a distribution of GNU/Linux?"
+msgstr "macOS 是 GNU/Linux 散布版嗎？"
+
 #. translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
-#: docroot/lib/views/linux.linux_faq.php:94
-#, fuzzy, php-format
+#: docroot/lib/views/linux.linux_faq.php:69
+#, php-format
 msgid ""
 "No. There are a few <a href=\"https://www.gnu.org/philosophy/free-sw.html\" "
 "rel=\"external\">free software</a> components in macOS, and it is "
@@ -2031,23 +1910,24 @@ msgid ""
 "software: all the <a href=\"%s\">issues about Windows</a> apply to it as "
 "well."
 msgstr ""
-"不是。雖然 macOS 裡面有部份元件是<a href=\"https://www.softwareliberty.com/"
-"\" rel=\"external\">自由軟體</a>，並且從技術上來說也相似於 GNU/Linux 作業系"
-"統。但整體而言，它是專有軟體 ― <a href=\"%s\">所有 Windows 存在的問題</a>也都"
-"完全適用。"
 
-#: docroot/lib/views/linux.linux_faq.php:97
+#: docroot/lib/views/linux.linux_faq.php:73
 msgid "Understanding free software"
 msgstr "瞭解自由軟體"
 
-#: docroot/lib/views/linux.linux_faq.php:101
+#: docroot/lib/views/linux.linux_faq.php:76
+msgid ""
+"Are &quot;Open Source&quot; and &quot;Free Software&quot; the same thing?"
+msgstr "「開放源始碼軟體（簡稱開源軟體）」與「自由軟體」是相同的東西嗎？"
+
+#: docroot/lib/views/linux.linux_faq.php:78
 msgid ""
 "Yes and no. Technically, the great majority of open source programs are free "
 "software and vice-versa."
 msgstr ""
 "是，但又不是。以技術面來說，絕大多數的開放源始碼軟體都是自由軟體，反之亦然。"
 
-#: docroot/lib/views/linux.linux_faq.php:102
+#: docroot/lib/views/linux.linux_faq.php:79
 msgid ""
 "In terms of philosophy, things are quite different. The term &quot;open "
 "source&quot; was coined to make &quot;free software&quot; more attractive, "
@@ -2056,7 +1936,7 @@ msgstr ""
 "而從思想面來說，這兩個詞就有非常大的不同。「開放源始碼」是為了讓「自由軟體」"
 "更有吸引力而創造的，其支持者認為開放源始碼是個讓軟體變更好的方法。"
 
-#: docroot/lib/views/linux.linux_faq.php:103
+#: docroot/lib/views/linux.linux_faq.php:80
 msgid ""
 "Supporters of the \"free software\" term value the freedom, not merely the "
 "way software is made, and thus argue that the term \"open source\" <a href="
@@ -2067,12 +1947,16 @@ msgstr ""
 "已，所以他們認為「開放源始碼」這個詞<a href=\"http://www.gnu.org/philosophy/"
 "open-source-misses-the-point.html\">亡失重點</a>。"
 
-#: docroot/lib/views/linux.linux_faq.php:104
+#: docroot/lib/views/linux.linux_faq.php:81
 msgid "Which term you employ simply depends on your vision of software."
 msgstr "要使用哪一個詞端看你對軟體的觀點為何。"
 
+#: docroot/lib/views/linux.linux_faq.php:86
+msgid "Why are some GNU/Linux distributions sold, not given away?"
+msgstr "為什麼有些 GNU/Linux 散布版要付費，而不是免費送出？"
+
 #. translators: This is italic text just below the question, which elaborates a little on it.
-#: docroot/lib/views/linux.linux_faq.php:111
+#: docroot/lib/views/linux.linux_faq.php:90
 msgid ""
 "Some websites actually <em>sell</em> distributions of GNU/Linux. So, why do "
 "you write it is \"free as speech and available at no charge\"?"
@@ -2081,17 +1965,14 @@ msgstr ""
 "那是「自由使用且無償提供」呢？"
 
 #. translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
-#: docroot/lib/views/linux.linux_faq.php:114
-#, fuzzy
+#: docroot/lib/views/linux.linux_faq.php:93
 msgid ""
 "The concept of <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel="
 "\"external\">free software</a>, refers to freedom, not price. You have the "
 "freedom to copy, study, modify, and give free software away."
 msgstr ""
-"<a href=\"https://www.softwareliberty.com/\" rel=\"external\">自由軟體</a>的"
-"概念，講求的是自由，而不是價格。你可以自由複製、研究、修改，並流通自由軟體。"
 
-#: docroot/lib/views/linux.linux_faq.php:115
+#: docroot/lib/views/linux.linux_faq.php:94
 msgid ""
 "Most companies developing free software make money by selling "
 "<strong>services</strong> around their software, rather than the software "
@@ -2103,16 +1984,20 @@ msgstr ""
 "而不是販賣軟體本身。有時候會將這些東西組合成一個完整的配套措施來進行販賣：顧"
 "客一次性的購買CD，書籍，以及支援服務。軟體本身仍是自由使用的。"
 
-#: docroot/lib/views/linux.linux_faq.php:116
+#: docroot/lib/views/linux.linux_faq.php:95
 msgid "More:"
 msgstr "更多："
 
-#: docroot/lib/views/linux.linux_faq.php:116
+#: docroot/lib/views/linux.linux_faq.php:95
 msgid "FLOSS concept booklet"
 msgstr "自由開源軟體觀念小冊子"
 
+#: docroot/lib/views/linux.linux_faq.php:100
+msgid "Why are some GNU/Linux distributions not fully free?"
+msgstr "為什麼有些 GNU/Linux 散布版不是完全自由？"
+
 #. translators: This is italic text just below the question, which elaborates a little on it.
-#: docroot/lib/views/linux.linux_faq.php:123
+#: docroot/lib/views/linux.linux_faq.php:104
 msgid ""
 "Some GNU/Linux distributions are available at no charge, but include "
 "restrictive software. Why is it so?"
@@ -2120,13 +2005,13 @@ msgstr ""
 "有些 GNU/Linux 散布版雖然無償提供，但卻包含了一些有限制的軟體。這又是為什麼"
 "呢？"
 
-#: docroot/lib/views/linux.linux_faq.php:124
+#: docroot/lib/views/linux.linux_faq.php:105
 msgid ""
 "There are typically three types of policies regarding the inclusion of non-"
 "free software:"
 msgstr "會包含非自由軟體可能有以下三種較常見的原因："
 
-#: docroot/lib/views/linux.linux_faq.php:126
+#: docroot/lib/views/linux.linux_faq.php:107
 msgid ""
 "Some GNU/Linux distributors allow non-free software in order to enable "
 "hardware functionality."
@@ -2134,7 +2019,7 @@ msgstr ""
 "有些 GNU/Linux 的散布版本允許在系統中使用非自由軟體以便提供較完整的硬體支援。"
 
 #. translators: If it exits, please use the URL of the official Ubuntu homepage localized in your language.
-#: docroot/lib/views/linux.linux_faq.php:128
+#: docroot/lib/views/linux.linux_faq.php:109
 msgid ""
 "This happens because some hardware manufacturers such as NVidia do not care "
 "about their customers' freedoms, and only release restricting firmware and "
@@ -2149,7 +2034,7 @@ msgstr ""
 "在某些像是 <a href=\"https://www.ubuntu.com/\" rel=\"external\">Ubuntu</a> 這"
 "些散布版中，還是會提供這類軟體以增進硬體的相容性。"
 
-#: docroot/lib/views/linux.linux_faq.php:129
+#: docroot/lib/views/linux.linux_faq.php:110
 msgid ""
 "Some GNU/Linux distributors do not compromise on the freedom of software, "
 "and make sure their distribution are entirely free. Such is the case of <a "
@@ -2160,7 +2045,7 @@ msgstr ""
 "的。像 <a href=\"https://trisquel.info/\" rel=\"external\">Trisquel</a> 就是"
 "其中的一個例子，它是一個移除了所有受限組件的 Ubuntu 衍生版本。"
 
-#: docroot/lib/views/linux.linux_faq.php:130
+#: docroot/lib/views/linux.linux_faq.php:111
 #, php-format
 msgid ""
 "Some GNU/Linux distributors assemble free and restrictive software without "
@@ -2175,11 +2060,15 @@ msgstr ""
 "獲得更好的宣傳效果。使用這類型的軟體與<a href=\"%s\">使用微軟視窗作業系統</a>"
 "比較起來並無差異，我們非常重視你的自由權，因此建議你應當要謹慎選擇！"
 
-#: docroot/lib/views/linux.linux_faq.php:136
+#: docroot/lib/views/linux.linux_faq.php:117
+msgid "Is macOS also a free operating system?"
+msgstr "macOS 也是自由的作業系統嗎？"
+
+#: docroot/lib/views/linux.linux_faq.php:119
 msgid "Do all the reasons for avoiding Windows apply to macOS?"
 msgstr "所有避免使用 Windows 的理由也同樣適用於 macOS 嗎？"
 
-#: docroot/lib/views/linux.linux_faq.php:137
+#: docroot/lib/views/linux.linux_faq.php:120
 #, php-format
 msgid ""
 "It's quite common for Mac users to believe they are exempt from <a href=\"%s"
@@ -2189,19 +2078,15 @@ msgstr ""
 "大多數蘋果電腦的 Mac 使用者都會認為<a href=\"%s\">微軟 Windows 系統的授權限制"
 "</a>與他們無關，但是很不幸地事實並非如此。"
 
-#: docroot/lib/views/linux.linux_faq.php:138
-#, fuzzy
+#: docroot/lib/views/linux.linux_faq.php:121
 msgid ""
 "macOS does have some low-level components which are <a href=\"https://www."
 "gnu.org/philosophy/free-sw.html\" rel=\"external\">free software</a>; and "
 "Apple puts less energy into customer lock-in (with some notable efforts such "
 "as BootCamp)."
 msgstr ""
-"macOS 確實有一些低階層的組件是屬於<a href=\"https://www.softwareliberty.com/"
-"\" rel=\"external\">自由軟體</a>；而 Apple 也較少花費精力在封鎖客戶上（甚至有"
-"一些知名的成品，如 BootCamp）。"
 
-#: docroot/lib/views/linux.linux_faq.php:139
+#: docroot/lib/views/linux.linux_faq.php:122
 msgid ""
 "However, the end-user is still fundamentally restricted &mdash; because of "
 "the proprietary license, he/she cannot use macOS for all purposes, nor copy, "
@@ -2211,7 +2096,7 @@ msgstr ""
 "們無法隨心所欲地使用蘋果公司的 macOS 系統，任何複製、研究、修改、再次散佈等行"
 "為都不被允許。"
 
-#: docroot/lib/views/linux.linux_faq.php:140
+#: docroot/lib/views/linux.linux_faq.php:123
 msgid ""
 "Happily, because these freedoms matter a lot, it's possible to run popular "
 "GNU/Linux distributions (such as <a href=\"https://www.ubuntu.com/\" rel="
@@ -2221,14 +2106,18 @@ msgstr ""
 "熱門的 GNU/Linux 散布版是可以做到的（像是 <a href=\"https://www.ubuntu.com/"
 "\" rel=\"external\">Ubuntu</a>）。"
 
+#: docroot/lib/views/linux.linux_faq.php:128
+msgid "Aren't GNU/Linux users the ones who make illegal downloads?"
+msgstr "GNU/Linux 的使用者是不是都在進行非法下載？"
+
 #. translators: This is italic text just below the question, which elaborates a little on it.
-#: docroot/lib/views/linux.linux_faq.php:147
+#: docroot/lib/views/linux.linux_faq.php:132
 msgid ""
 "Isn't GNU/Linux about cracking, &quot;piracy&quot; and illegal download "
 "websites?"
 msgstr "GNU/Linux 不是跟破解、盜版以及違法下載網站有關嗎？"
 
-#: docroot/lib/views/linux.linux_faq.php:148
+#: docroot/lib/views/linux.linux_faq.php:133
 msgid ""
 "No. Wherever you read or heard this, you should update your views. GNU/Linux "
 "is completely distinct from such things. Whether you want to do them, or "
@@ -2245,7 +2134,7 @@ msgstr ""
 "不同。不幸的是，你並沒有辦法單就車子的廠牌分辨出誰是小偷；而作業系統也是一樣"
 "的道理。"
 
-#: docroot/lib/views/linux.linux_faq.php:149
+#: docroot/lib/views/linux.linux_faq.php:134
 msgid ""
 "GNU/Linux was made by people who don't like the thought of all the world's "
 "computers running just one company's proprietary products. There is "
@@ -2255,13 +2144,17 @@ msgstr ""
 "的專有軟體產品。至於這點基本上完全沒錯！"
 
 #. translators: The link here points to the "misunderstanding_free_software" article.
-#: docroot/lib/views/linux.linux_faq.php:152
+#: docroot/lib/views/linux.linux_faq.php:137
 #, php-format
 msgid "Read more in the article: <a href=\"%s\">%s</a>."
 msgstr "進一步閱讀這篇文章：<a href=\"%s\">%s</a>。"
 
+#: docroot/lib/views/linux.linux_faq.php:142
+msgid "Is GNU/Linux a form of communism?"
+msgstr "GNU/Linux 是共產主義的一種形式嗎？"
+
 #. translators: This is italic text just below the question, which elaborates a little on it.
-#: docroot/lib/views/linux.linux_faq.php:159
+#: docroot/lib/views/linux.linux_faq.php:146
 msgid ""
 "\"Everything has to be free\" and \"No one owns anything\" sounds somewhat "
 "frightening. Are GNU/Linux and its <abbr title=\"GNU General Public License"
@@ -2271,7 +2164,7 @@ msgstr ""
 "以 GNU/Linux 和它的 <abbr title=\"GNU General Public License\">GNU 公眾授權條"
 "款 (GPL)</abbr> 是否是為無政府主義者或共產主義者所設計的？"
 
-#: docroot/lib/views/linux.linux_faq.php:163
+#: docroot/lib/views/linux.linux_faq.php:150
 #, php-format
 msgid ""
 "GNU/Linux has nothing to do with a political system and anyone &mdash; "
@@ -2281,12 +2174,16 @@ msgstr ""
 "GNU/Linux 無關乎任何政治系統或是任何人的特定觀點 &mdash; 無論他們的政治態度是"
 "什麼 &mdash; 都可以使用。我們會在我們這篇《%s》文章中簡單解釋這一點。"
 
-#: docroot/lib/views/linux.linux_faq.php:167
+#: docroot/lib/views/linux.linux_faq.php:155
 msgid "Installing GNU/Linux"
 msgstr "安裝 GNU/Linux"
 
+#: docroot/lib/views/linux.linux_faq.php:158
+msgid "Does GNU/Linux come pre-installed on computers?"
+msgstr "有預裝 GNU/Linux 的電腦嗎？"
+
 #. translators: If LinuxPreloaded has not been localized to your language, please leave the URL to linuxpreloaded.com.
-#: docroot/lib/views/linux.linux_faq.php:173
+#: docroot/lib/views/linux.linux_faq.php:162
 msgid ""
 "Yes it does. <a href=\"https://linuxpreloaded.com/\" title=\"GNU/Linux "
 "laptops\" rel=\"external\">LinuxPreloaded.com</a> has built a website "
@@ -2299,7 +2196,7 @@ msgstr ""
 "筆記型電腦之廠商。"
 
 #. translators: please leave the "#new_computer" element as such. It is an internal link.
-#: docroot/lib/views/linux.linux_faq.php:176
+#: docroot/lib/views/linux.linux_faq.php:165
 msgid ""
 "Note that <a href=\"#new_computer\">buying new hardware is not necessary</a> "
 "to use GNU/Linux!"
@@ -2307,7 +2204,11 @@ msgstr ""
 "請注意，<a href=\"#new_computer\">購買新硬體產品並不一定</a>要用 GNU/Linux 系"
 "統！"
 
-#: docroot/lib/views/linux.linux_faq.php:181
+#: docroot/lib/views/linux.linux_faq.php:170
+msgid "Can I get GNU/Linux in my own language?"
+msgstr "我可以取得支援我語言的 GNU/Linux 嗎？"
+
+#: docroot/lib/views/linux.linux_faq.php:172
 #, php-format
 msgid ""
 "Yes. All main distributions, such as <a href=\"%s\">the ones we recommend</"
@@ -2317,7 +2218,7 @@ msgstr ""
 "是的，所有主流的散布版（例如<a href=\"%s\">我們推薦的那些版本</a>）都有各種語"
 "言的支援，對於各種不同配置的鍵盤也都有支援。"
 
-#: docroot/lib/views/linux.linux_faq.php:182
+#: docroot/lib/views/linux.linux_faq.php:173
 msgid ""
 "Unlike Windows, all languages are included on each installation CD, so there "
 "is no need for you to download (or pay for!) another whole version to merely "
@@ -2327,8 +2228,12 @@ msgstr ""
 "以若想變更系統的語言介面時，完全不須要大費周張（甚至另外花錢買！）去下載另一"
 "個版本。"
 
+#: docroot/lib/views/linux.linux_faq.php:178
+msgid "Is it legal to install GNU/Linux on my computer?"
+msgstr "在我的電腦上安裝 GNU/Linux 作業系統是合法的嗎？"
+
 #. translators: This is italic text just below the question, which elaborates a little on it.
-#: docroot/lib/views/linux.linux_faq.php:189
+#: docroot/lib/views/linux.linux_faq.php:182
 msgid ""
 "There is a shiny Windows sticker on it! Am I allowed to erase Windows or use "
 "it together with GNU/Linux?"
@@ -2336,13 +2241,13 @@ msgstr ""
 "這上面貼有一張亮晶晶的 Windows 作業系統貼紙！這樣的話我還是能夠將 Windows 系"
 "統刪除掉，或是讓它和 GNU/Linux 系統並存嗎？"
 
-#: docroot/lib/views/linux.linux_faq.php:190
+#: docroot/lib/views/linux.linux_faq.php:183
 msgid ""
 "Yes. It is absolutely, completely legal, provided of course it's your "
 "computer!"
 msgstr "可以的。這絕對、完全是合法行為，前提是你必須是該電腦的擁有者才行！"
 
-#: docroot/lib/views/linux.linux_faq.php:191
+#: docroot/lib/views/linux.linux_faq.php:184
 msgid ""
 "The sticker on it is purely marketing, it has no legal value. We believe it "
 "is <em>one fundamental right</em> to choose which software to run on our own "
@@ -2352,7 +2257,7 @@ msgstr ""
 "選擇要在自己機器上執行什麼軟體是<em>基本的權利</em>。"
 
 #. translators: If you do not know of a very good resource about DRM, please link to the Wikipedia article on DRM in your language.
-#: docroot/lib/views/linux.linux_faq.php:194
+#: docroot/lib/views/linux.linux_faq.php:187
 #, php-format
 msgid ""
 "In fact this right is threatened by the rise of things such as <a href="
@@ -2365,11 +2270,15 @@ msgstr ""
 "(Trusted Computing)</a>。更多關於此部份的資訊請參閱我們的另一篇文章 <a href="
 "\"%s\">%s</a>。"
 
-#: docroot/lib/views/linux.linux_faq.php:201
+#: docroot/lib/views/linux.linux_faq.php:194
+msgid "Do I have to purchase a new computer to run GNU/Linux?"
+msgstr "我必須買一臺新電腦來執行 GNU/Linux 嗎？"
+
+#: docroot/lib/views/linux.linux_faq.php:196
 msgid "Not at all. It will run happily on your own computer."
 msgstr "完全不必。它可以快樂地在你的電腦上執行。"
 
-#: docroot/lib/views/linux.linux_faq.php:202
+#: docroot/lib/views/linux.linux_faq.php:197
 #, php-format
 msgid ""
 "The only thing you might be worried about is using very recent special "
@@ -2385,11 +2294,15 @@ msgstr ""
 "上試用或安裝 GNU/Linux 系統，<a href=\"%s\">請參閱此文章</a>，除了能完全取代"
 "掉 Windows 系統外，也可以讓它和 Windows 系統並存。"
 
-#: docroot/lib/views/linux.linux_faq.php:205 docroot/lib/views/linux.php:27
+#: docroot/lib/views/linux.linux_faq.php:201 docroot/lib/views/linux.php:27
 msgid "Using GNU/Linux"
 msgstr "使用 GNU/Linux"
 
-#: docroot/lib/views/linux.linux_faq.php:209
+#: docroot/lib/views/linux.linux_faq.php:204
+msgid "Will Microsoft Office run on GNU/Linux?"
+msgstr "可以在 GNU/Linux 上執行 Microsoft Office 嗎？"
+
+#: docroot/lib/views/linux.linux_faq.php:206
 msgid ""
 "No. It is technically possible to adapt Microsoft Office to GNU/Linux, but "
 "Microsoft isn't keen on allowing Office users to choose their operating "
@@ -2403,7 +2316,7 @@ msgstr ""
 "opendocumentformat.org/\" rel=\"external\">開放文件格式</a>的支援上採取強烈反"
 "對的立場。"
 
-#: docroot/lib/views/linux.linux_faq.php:210
+#: docroot/lib/views/linux.linux_faq.php:207
 msgid ""
 "However, a complete, free, reliable office suite exists: <a href=\"https://"
 "www.libreoffice.org/\" rel=\"external\">LibreOffice</a>. Or you can choose "
@@ -2421,22 +2334,27 @@ msgstr ""
 "可以在 Windows 及 GNU/Linux 上執行的版本。"
 
 #. translators: If it exists, please use the localized URL of libreoffice.org. You can find localized URLs here: https://www.libreoffice.org/international-sites/
-#: docroot/lib/views/linux.linux_faq.php:213
+#: docroot/lib/views/linux.linux_faq.php:210
 msgid "https://www.libreoffice.org/"
 msgstr "https://zh-tw.libreoffice.org/"
 
 #. translators: If it exists, please use the localized URL of openoffice.org. You can find localized URLs here: https://www.openoffice.org/projects/native-lang.html
-#: docroot/lib/views/linux.linux_faq.php:216
+#: docroot/lib/views/linux.linux_faq.php:213
 msgid "https://www.openoffice.org/"
 msgstr "https://www.openoffice.org/zh-tw/"
 
-#: docroot/lib/views/linux.linux_faq.php:222
+#: docroot/lib/views/linux.linux_faq.php:219
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:86
+msgid "Can I play my DVDs and MP3s under GNU/Linux?"
+msgstr "我可以在 GNU/Linux 上播放 DVD 和 MP3 嗎？"
+
+#: docroot/lib/views/linux.linux_faq.php:221
 msgid ""
 "The simple answer to this question would be &quot;yes&quot;, however this is "
 "only half the truth."
 msgstr "較簡單的答案是「可以」；然而，這只說對了一半。"
 
-#: docroot/lib/views/linux.linux_faq.php:223
+#: docroot/lib/views/linux.linux_faq.php:222
 msgid ""
 "Quite a few GNU/Linux distributions do not include MP3 playback software due "
 "to the patent situation of the MP3 format. These patent issues do not affect "
@@ -2449,7 +2367,7 @@ msgstr ""
 "透過網際網路安裝 MP3 的播放支援，並以非商業用途<strong>合法播放 MP3 檔案</"
 "strong>。"
 
-#: docroot/lib/views/linux.linux_faq.php:224
+#: docroot/lib/views/linux.linux_faq.php:223
 msgid ""
 "DVDs, on the other hand, are a more difficult situation. Most, if not all, "
 "DVDs are encrypted using a system called \"<abbr title=\"Content Scrambling "
@@ -2464,7 +2382,7 @@ msgstr ""
 "片。然而，在世界上大多數的地方，如美國及歐盟地區，若規避加諸於 DVD 上的限制是"
 "犯法的。"
 
-#: docroot/lib/views/linux.linux_faq.php:225
+#: docroot/lib/views/linux.linux_faq.php:224
 msgid ""
 "There is a legal solution to play your DVDs on GNU/Linux where "
 "<code>libdvdcss</code> is illegal. The <a href=\"https://fluendo.com/\" rel="
@@ -2476,35 +2394,40 @@ msgstr ""
 "\"external\">Fluendo</a> 公司開發了一個（非自由）應用程式來解決這項問題，你可"
 "以到他們的網站上面購買。"
 
-#: docroot/lib/views/linux.linux_faq.php:226
+#: docroot/lib/views/linux.linux_faq.php:225
 msgid ""
 "Non-encrypted DVDs, which include most home-made DVDs, play perfectly well "
 "with only free software."
 msgstr "未加密的 DVD，包含大多數的家庭 DVD，只要用自由軟體就能完美播放。"
 
-#: docroot/lib/views/linux.linux_faq.php:228
+#: docroot/lib/views/linux.linux_faq.php:227
 msgid "More on the web:"
 msgstr "閱讀更多網路文章："
 
 #. translators: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
-#: docroot/lib/views/linux.linux_faq.php:231
+#: docroot/lib/views/linux.linux_faq.php:230
 msgid "https://wiki.ubuntu.com/RestrictedFormats"
 msgstr "https://wiki.ubuntu.com/RestrictedFormats"
 
-#: docroot/lib/views/linux.linux_faq.php:231
+#: docroot/lib/views/linux.linux_faq.php:230
 msgid "Ubuntu Restricted Formats"
 msgstr "Ubuntu 文件「受限制的格式」"
 
 #. translators: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
-#: docroot/lib/views/linux.linux_faq.php:233
+#: docroot/lib/views/linux.linux_faq.php:232
 msgid "https://fedoraproject.org/wiki/Forbidden_items"
 msgstr "https://fedoraproject.org/wiki/Forbidden_items"
 
-#: docroot/lib/views/linux.linux_faq.php:233
+#: docroot/lib/views/linux.linux_faq.php:232
 msgid "Fedora Forbidden Items"
 msgstr "Fedora 文件「禁止項目」"
 
-#: docroot/lib/views/linux.linux_faq.php:240
+#: docroot/lib/views/linux.linux_faq.php:239
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:95
+msgid "Can I play popular 3D games under GNU/Linux?"
+msgstr "我可以在 GNU/Linux 上玩流行的 3D 遊戲嗎？"
+
+#: docroot/lib/views/linux.linux_faq.php:241
 msgid ""
 "Yes and no. Some games, for example the Quake series, Rust, Counter-Strike, "
 "Tomb Raider, Portal, Left 4 Dead, and many more have GNU/Linux versions. "
@@ -2520,7 +2443,7 @@ msgstr ""
 "看看 <a href=\"http://store.steampowered.com/linux\" rel=\"external\">Steam "
 "商店</a>，您可以找到豐富且高品質的 GNU/Linux 相容遊戲。"
 
-#: docroot/lib/views/linux.linux_faq.php:241
+#: docroot/lib/views/linux.linux_faq.php:242
 msgid ""
 "Most popular games, alas, only work on Windows and occasionally on macOS. "
 "Some Windows games can be run on GNU/Linux with <a href=\"https://www.winehq."
@@ -2537,8 +2460,12 @@ msgstr ""
 "努力才能成功。<a href=\"https://appdb.winehq.org/\" rel=\"external\">Wine 的"
 "遊戲資料庫</a>上有一份可以透過 Wine 執行的遊戲列表。"
 
+#: docroot/lib/views/linux.linux_faq.php:246
+msgid "More questions?"
+msgstr "還有其他問題？"
+
 #. translators: The first link will automatically point to the "more" page.
-#: docroot/lib/views/linux.linux_faq.php:248
+#: docroot/lib/views/linux.linux_faq.php:250
 #, php-format
 msgid ""
 "If you have a question that is not covered here, there are many communities "
@@ -2549,7 +2476,7 @@ msgstr ""
 "%s</a>」區塊會幫助你找到正確的提問地點。"
 
 #. translators: The first link will automatically point to the contact page, the second to the bug tracker.
-#: docroot/lib/views/linux.linux_faq.php:252
+#: docroot/lib/views/linux.linux_faq.php:254
 #, php-format
 msgid ""
 "If you can think of a frequent question that we haven't answered yet, do <a "
@@ -2579,7 +2506,6 @@ msgstr "它很自由"
 
 #. translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:35
-#, fuzzy
 msgid ""
 "Unlike Windows, GNU/Linux is <a href=\"https://www.gnu.org/philosophy/free-"
 "sw.html\" title=\"What does Free Software mean?\" rel=\"external\">free "
@@ -2587,10 +2513,6 @@ msgid ""
 "make copies for your friends! You can even study it, transform it as you "
 "please, or build and sell your own distribution."
 msgstr ""
-"和 Windows 不同，GNU/Linux 是<a href=\"https://www.softwareliberty.com/\" "
-"title=\"What does Free Software mean?\" rel=\"external\">自由軟體</a> "
-"&ndash; free as in freedom。可以安裝在所有電腦，也可以製作副本分給你的朋友！"
-"你甚至可以隨心所欲的研究它、改變它，或者建構並販售你自己的散布版。"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:37
 msgid "Programs"
@@ -3089,7 +3011,6 @@ msgstr ""
 
 #. translators: use the definition of "free software" on GNU.org; also, gnu.org uses language negotiation, so it's not necessary to replace those URLs.
 #: docroot/lib/views/windows.restrictions.php:68
-#, fuzzy
 msgid ""
 "<strong>You have an alternative to breaking this law,</strong> or feeling "
 "very restrained when you abide to it. GNU/Linux is <a href=\"https://www.gnu."
@@ -3097,11 +3018,6 @@ msgid ""
 "better than just freeware): its <a href=\"https://www.gnu.org/copyleft/gpl."
 "html\" rel=\"external\">GPL</a> license is designed to protect your rights."
 msgstr ""
-"<strong>其實你有除了違法以外的另一個選擇，</strong>或是如果你也對忍受繁多的規"
-"定感到處處受限 ─ GNU/Linux 可是<a href=\"https://www.softwareliberty.com/\" "
-"rel=\"external\">自由軟體</a>（遠比免費軟體好太多了）：它使用 <a href="
-"\"https://www.gnu.org/copyleft/gpl.html\" rel=\"external\">GPL</a> 授權條款來"
-"保障你的權利。"
 
 #: docroot/lib/views/windows.restrictions.php:69
 msgid "Restrictions - further details"
@@ -3370,17 +3286,13 @@ msgstr ""
 "</a>。"
 
 #: docroot/lib/views/windows.php:66
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "If you find <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title="
 "\"what is freedom in software?\" rel=\"external\">free software</a> "
 "attractive, you might want to <a href=\"%s\" title=\"make the switch to GNU/"
 "Linux today!\">give GNU/Linux a try</a>."
 msgstr ""
-"如果你覺得<a href=\"https://www.softwareliberty.com/\" title=\"what is "
-"freedom in software?\" rel=\"external\">自由軟體很吸引人</a>，那麼何不今天就"
-"來<a href=\"%s\" title=\"make the switch to GNU/Linux today!\">擁抱 GNU/"
-"Linux 吧</a>！"
 
 #: docroot/lib/views/windows.what_about_choice.php:23
 msgid ""
@@ -3624,17 +3536,12 @@ msgstr "更宏觀的概覽"
 
 #. translators: use the definition of "free software" on GNU.org
 #: docroot/lib/views/linux.php:36
-#, fuzzy
 msgid ""
 "When you get a distribution of GNU/Linux, <strong>you also get the freedom "
 "to study, copy, change, and redistribute it</strong> &ndash;&nbsp;that's "
 "what makes it truly <a href=\"https://www.gnu.org/philosophy/free-sw.html\" "
 "title=\"what is freedom in software?\" rel=\"external\">free software</a>."
 msgstr ""
-"取得一套 GNU/Linux 散布版的同時，<strong>你也取得研究、複製、修改、以及再次散"
-"布的自由。</strong> &ndash;&nbsp; 這就是「<a href=\"https://www."
-"softwareliberty.com/\" title=\"what is freedom in software?\" rel=\"external"
-"\">自由軟體</a>」的真諦。"
 
 #: docroot/lib/views/linux.php:37
 msgid ""
@@ -3774,80 +3681,71 @@ msgstr "FSF"
 
 #. translators: This is the text below a button linking to www.fsf.org. If you translated the URL, change this text accordingly.
 #: docroot/lib/views/more.php:65
-#, fuzzy
 msgid ""
 "The Free Software Foundation defends and advocates the very concept of <a "
 "href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">free "
 "software</a> that gave birth to GNU/Linux."
 msgstr ""
-"自由軟體基金會 (Free Software Foundation) 捍衛並倡導<a href=\"https://www."
-"softwareliberty.com/\" rel=\"external\">自由軟體</a>的基本概念，他們催生出 "
-"GNU/Linux。"
 
 #: docroot/lib/views/more.php:71
 msgid ""
 "Note: these links are proposed as a recommendation. They are not commercial."
 msgstr "注意：這些連結只是推薦閱讀，並非任何商業推銷行為。"
 
-#: src/templates/footer.php:19
-#, fuzzy
-msgid "Partial translations"
-msgstr "翻譯"
-
-#: src/templates/footer.php:39
+#: src/templates/footer.php:24
 msgid "About:"
 msgstr "關於："
 
-#: src/templates/footer.php:40
+#: src/templates/footer.php:25
 msgid "Read about news and updates."
 msgstr "閱讀更多新聞與消息。"
 
-#: src/templates/footer.php:40
+#: src/templates/footer.php:25
 msgid "Our blog"
 msgstr "我們的網誌"
 
-#: src/templates/footer.php:41
+#: src/templates/footer.php:26
 msgid "Terms of use"
 msgstr "使用條款"
 
-#: src/templates/footer.php:42
+#: src/templates/footer.php:27
 msgid "Credits"
 msgstr "感謝"
 
-#: src/templates/footer.php:43
+#: src/templates/footer.php:28
 msgid "Contact the authors."
 msgstr "連絡作者。"
 
-#: src/templates/footer.php:43
+#: src/templates/footer.php:28
 msgid "Contact us"
 msgstr "連絡我們"
 
-#: src/templates/footer.php:48
+#: src/templates/footer.php:33
 msgid "Participate:"
 msgstr "參與："
 
-#: src/templates/footer.php:49
+#: src/templates/footer.php:34
 msgid "Found something awkward? Please report it!"
 msgstr "發現有哪裡怪怪的？回報吧！"
 
-#: src/templates/footer.php:49
+#: src/templates/footer.php:34
 msgid "Report a bug"
 msgstr "回報臭蟲"
 
-#: src/templates/footer.php:50
+#: src/templates/footer.php:35
 msgid "Help us reach an audience in your language!"
 msgstr "協助我們推廣這個網站到你所在的地區去！"
 
-#: src/templates/footer.php:50
+#: src/templates/footer.php:35
 msgid "Translation"
 msgstr "翻譯"
 
-#: src/templates/footer.php:51
+#: src/templates/footer.php:36
 msgid "Ways to help."
 msgstr "尋求幫助。"
 
 #. translators: If there is an official translation for the license, use that URL instead. Make sure you use the URL for CC BY-SA 4.0.
-#: src/templates/footer.php:60
+#: src/templates/footer.php:45
 #, php-format
 msgid ""
 "Except where otherwise <a href=\"%s\">noted</a>, content on this site is "
@@ -3860,7 +3758,7 @@ msgstr ""
 "title=\"Creative Commons Attribution-ShareAlike\">CC BY-SA</abbr> 4.0 國際版"
 "協議授權</a>。"
 
-#: src/templates/footer.php:61
+#: src/templates/footer.php:46
 msgid ""
 "Generously hosted by <a href=\"https://www.tuxfamily.org/\" rel=\"external"
 "\">TuxFamily</a>."
@@ -3868,13 +3766,19 @@ msgstr ""
 "由慷慨的 <a href=\"https://www.tuxfamily.org/\" rel=\"external\">TuxFamily</"
 "a> 幫我們託管。"
 
-#: src/templates/footer.php:62
+#: src/templates/footer.php:47
 #, php-format
 msgid "This site is <a href=\"%s\" rel=\"external\">open source</a>."
 msgstr "本網站有<a href=\"%s\" rel=\"external\">開放源始碼</a>。"
 
-#~ msgid "3. Software Should Just Work (who cares about source code?)"
-#~ msgstr "3. 軟體只要能用就好了（誰會在意有沒有源始程式碼啊？）"
+#~ msgid "General questions:"
+#~ msgstr "一般問題："
 
-#~ msgid "GNU/Linux Frequently Asked Questions"
-#~ msgstr "GNU/Linux 常見問答集"
+#~ msgid "Understanding free software:"
+#~ msgstr "了解自由軟體："
+
+#~ msgid "Installing GNU/Linux:"
+#~ msgstr "安裝 GNU/Linux："
+
+#~ msgid "Using GNU/Linux:"
+#~ msgstr "使用 GNU/Linux："
