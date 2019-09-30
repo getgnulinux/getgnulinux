@@ -58,7 +58,7 @@ $this->load_header();
 
             <div class="download-box-buttons">
               <div class="button green">
-                <a href="https://www.ubuntu.com/download/" target="_blank"><i class="fa fa-download fa-fw"></i> <?php print _("Download Ubuntu"); ?></a>
+                <a href="https://ubuntu.com/download/desktop" target="_blank"><i class="fa fa-download fa-fw"></i> <?php print _("Download Ubuntu"); ?></a>
               </div>
             </div>
           </div>
@@ -75,7 +75,7 @@ $this->load_header();
 
             <div class="download-box-buttons">
               <div class="button green">
-                <a href="https://getfedora.org/" target="_blank"><i class="fa fa-download fa-fw"></i> <?php print _("Download Fedora"); ?></a>
+                <a href="https://getfedora.org/en/workstation/" target="_blank"><i class="fa fa-download fa-fw"></i> <?php print _("Download Fedora"); ?></a>
               </div>
             </div>
           </div>
