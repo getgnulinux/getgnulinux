@@ -60,9 +60,6 @@ $this->load_header();
               <div class="button green">
                 <a href="https://www.ubuntu.com/download/" target="_blank"><i class="fa fa-download fa-fw"></i> <?php print _("Download Ubuntu"); ?></a>
               </div>
-              <div class="button blue">
-                <a href="https://www.osdisc.com/products/linux/ubuntu?affiliate=ggl" target="_blank"><i class="fa fa-truck fa-fw"></i> <?php print _("Order a CD"); ?></a>
-              </div>
             </div>
           </div>
         </div>
@@ -80,9 +77,6 @@ $this->load_header();
               <div class="button green">
                 <a href="https://getfedora.org/" target="_blank"><i class="fa fa-download fa-fw"></i> <?php print _("Download Fedora"); ?></a>
               </div>
-              <div class="button blue">
-                <a href="https://www.osdisc.com/products/linux/fedora?affiliate=ggl" target="_blank"><i class="fa fa-truck fa-fw"></i> <?php print _("Order a CD"); ?></a>
-              </div>
             </div>
           </div>
         </div>
@@ -97,9 +91,6 @@ $this->load_header();
             <div class="download-box-buttons">
               <div class="button green">
                 <a href="https://trisquel.info/download" target="_blank"><i class="fa fa-download fa-fw"></i> <?php print _("Download Trisquel"); ?></a>
-              </div>
-              <div class="button blue">
-                <a href="https://www.osdisc.com/products/linux/trisquel?affiliate=ggl" target="_blank"><i class="fa fa-truck fa-fw"></i> <?php print _("Order a CD"); ?></a>
               </div>
             </div>
           </div>
