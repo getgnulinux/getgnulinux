@@ -587,11 +587,12 @@ section.trisquel {
     }
 
     a img {
-      opacity: 0.8;
+      transition-duration: 0.2s;
+      transition-timing-function: ease;
     }
 
     a:hover img {
-      opacity: 1;
+      transform: translateY(-5px);
     }
   }
 }

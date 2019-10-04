@@ -20,26 +20,15 @@ $this->load_header();
       </header>
 
       <div class="more-section">
-        <h2><?php print _("Questions, help, and equipment"); ?></h2>
+        <h2><?php print _("Questions and help"); ?></h2>
 
         <div class="column">
-          <a href="<?php # translators: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-          print _("https://www.linuxquestions.org/"); ?>" title="<?php print _("LinuxQuestions.org"); ?>" ><img src="<?php print $this->language_file("more.ext.link1.png"); ?>" alt="<?php
-          # translators: Image alt description for www.linuxquestions.org (if you translated the URL, change this accordingly)
-          print _("LinuxQuestions.org"); ?>"/></a>
-
-          <p><?php # translators: This is the text below a button linking to www.linuxquestions.org. If you translated the URL, change this text accordingly.
-          print _("Friendly free software support forums, for newcomers and advanced users alike.<br/> If you have a question that we haven't covered, it's a good place to ask!"); ?></p>
+          <a href="https://unix.stackexchange.com/" title="Unix & Linux Stack Exchange" target="_blank"><img src="/images/more/unix.stackexchange.png" alt="Unix & Linux Stack Exchange"></a>
+          <p><?php print _("<strong>Unix & Linux Stack Exchange</strong> is a question and answer site for users of GNU/Linux. This site is all about getting answers."); ?></p>
         </div>
-
         <div class="column">
-          <a href="<?php # translators: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-          print _("https://linuxpreloaded.com/"); ?>" title="<?php print _("Computers pre-installed with GNU/Linux"); ?>"><img src="<?php print $this->language_file("more.ext.link2.png"); ?>" alt="<?php
-          # translators: Image alt description for linuxpreloaded.com (if you translated the URL, change this accordingly)
-          print _("Linux Pre-Loaded"); ?>"/></a>
-
-          <p><?php # translators: This is the text below a button linking to linuxpreloaded.com. If you translated the URL, change this text accordingly.
-          print _("A simple and clear selection of vendors selling computers pre-installed with GNU/Linux."); ?></p>
+          <a href="https://askubuntu.com/" title="Ask Ubuntu" target="_blank"><img src="/images/more/askubuntu.png" alt="Ask Ubuntu"/></a>
+          <p><?php print _("<strong>Ask Ubuntu</strong> is a question and answer site for Ubuntu users and developers. Even for users of different distributions of GNU/Linux this can be a helpful resource for finding answers."); ?></p>
         </div>
       </div>
 
@@ -47,22 +36,12 @@ $this->load_header();
         <h2><?php print _("Learn and read more"); ?></h2>
 
         <div class="column">
-          <a href="<?php # translators: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-          print _("https://en.wikibooks.org/wiki/FLOSS_Concept_Booklet"); ?>" title="<?php print _("the FLOSS concept booklet"); ?>" ><img src="<?php print $this->language_file("more.ext.link3.png"); ?>" alt="<?php
-          # translators: Image alt description (if you translated the URL, change this accordingly)
-          print _("FLOSS Booklet"); ?>"/></a>
-
-          <p><?php # translators: This is the text below a button linking to en.wikibooks.org/wiki/FLOSS_Concept_Booklet. If you translated the URL, change this text accordingly.
-          print _("A short, entertaining way to clarify thoughts about free, libre, \"open-source\" software."); ?></p>
+          <a href="https://en.wikibooks.org/wiki/FLOSS_Concept_Booklet" title="The FLOSS concept booklet" target="_blank"><img src="/images/more/floss-booklet.png" alt="FLOSS Booklet"></a>
+          <p><?php print _("A short, entertaining way to clarify thoughts about free, libre, \"open-source\" software."); ?></p>
         </div>
         <div class="column">
-          <a href="<?php # translators: If you know of a very good resource in your language, you may put its URL here. Please choose with great care, *ask if in doubt*. By default, leave the url as such.
-          print _("https://www.fsf.org/"); ?>" title="<?php print _("Free Software Foundation"); ?>" ><img src="<?php print $this->language_file("more.ext.link4.png"); ?>" alt="<?php
-          # translators: Image alt description for www.fsf.org (if you translated the URL, change this accordingly)
-          print _("FSF"); ?>"/></a>
-
-          <p><?php # translators: This is the text below a button linking to www.fsf.org. If you translated the URL, change this text accordingly.
-          print _("The Free Software Foundation defends and advocates the very concept of <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">free software</a> that gave birth to GNU/Linux."); ?></p>
+          <a href="https://www.fsf.org/" title="Free Software Foundation" target="_blank"><img src="/images/more/fsf.png" alt="FSF"></a>
+          <p><?php print _("The Free Software Foundation defends and advocates the very concept of <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">free software</a> that gave birth to GNU/Linux."); ?></p>
         </div>
       </div>
 
