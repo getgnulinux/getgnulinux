@@ -238,7 +238,7 @@ $this->load_header();
       <details>
         <summary id="games"><?php print _("Can I play popular 3D games under GNU/Linux?"); ?></summary>
         <div class="answer">
-          <p><?php print _("Yes and no. Some games, for example the Quake series, Rust, Counter-Strike, Tomb Raider, Portal, Left 4 Dead, and many more have GNU/Linux versions. Since the release of the popular Steam platform to the GNU/Linux operating system, the number of GNU/Linux compatible games on Steam has been growing rapidly. Check out the <a href=\"http://store.steampowered.com/linux\" rel=\"external\">Steam store</a> where you can find a wealth of high quality, GNU/Linux compatible games."); ?></p>
+          <p><?php print _("Yes and no. Some games, for example the Quake series, Rust, Counter-Strike, Tomb Raider, Portal, Left 4 Dead, and many more have GNU/Linux versions. Since the release of the popular Steam platform to the GNU/Linux operating system, the number of GNU/Linux compatible games on Steam has been growing rapidly. Check out the <a href=\"https://store.steampowered.com/linux\" rel=\"external\">Steam store</a> where you can find a wealth of high quality, GNU/Linux compatible games."); ?></p>
           <p><?php print _("Most popular games, alas, only work on Windows and occasionally on macOS. Some Windows games can be run on GNU/Linux with <a href=\"https://www.winehq.org/\" rel=\"external\">Wine</a> or its non-free variant <a href=\"https://www.codeweavers.com/products/crossover/\" rel=\"external\">CrossOver</a>, which involves some unpleasant effort for the user. For a list of games known to work on Wine, see <a href=\"https://appdb.winehq.org/\" rel=\"external\">their games database</a>."); ?></p>
         </div>
       </details>
