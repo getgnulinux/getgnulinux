@@ -28,7 +28,7 @@ $this->load_header();
         </div>
         <div class="column">
           <a href="https://askubuntu.com/" title="Ask Ubuntu" target="_blank"><img src="/images/more/askubuntu.png" alt="Ask Ubuntu"/></a>
-          <p><?php print _("<strong>Ask Ubuntu</strong> is a question and answer site for Ubuntu users and developers. Even for users of different distributions of GNU/Linux this can be a helpful resource for finding answers."); ?></p>
+          <p><?php print _("<strong>Ask Ubuntu</strong> is a question and answer site for Ubuntu users. Even for users of different distributions of GNU/Linux this can be a helpful resource for finding answers."); ?></p>
         </div>
       </div>
 
