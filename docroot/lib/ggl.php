@@ -91,6 +91,7 @@ class GGL {
      */
     private static $locales_complete = array(
         'en',
+        'fr',
         'nl',
         'pt-br',
         'zh-tw',
