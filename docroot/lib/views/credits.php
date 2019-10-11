@@ -123,7 +123,7 @@ $this->load_header();
       Bruno Bord,
       Bruno Ethvignot,
       <a href="https://www.transifex.com/user/profile/MagicFab/" rel="external">Fabián Rodríguez</a>,
-      Joseph Maillardert,
+      <a href="https://welibre.org/" rel="external">Joseph Maillardet</a>,
       <a href="https://www.transifex.com/user/profile/KIAaze/" rel="external">KIAaze</a>,
       Laurent Richard,
       Loïs Di Qual,
