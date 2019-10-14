@@ -39,6 +39,7 @@ $this->load_header();
 
     <strong>Arabic</strong>
     <ul>
+      <li><a href="https://www.transifex.com/user/profile/eialalmutairi/" rel="external">Eissa Ali</a></li>
       <li>Hassan Ibraheem</li>
       <li><a href="https://www.transifex.com/user/profile/kraim/" rel="external">kraim</a></li>
       <li><a href="https://www.transifex.com/user/profile/malhargan/" rel="external">Mohammad Alhargan</a></li>
@@ -67,14 +68,16 @@ $this->load_header();
     <ul>
       <li><a href="https://www.transifex.com/user/profile/dotkrnl/" rel="external">Jason Lau (劉家昌)</a></li>
       <li><a href="https://www.transifex.com/user/profile/leonfeng/" rel="external">leonfeng</a></li>
+      <li><a href="https://www.transifex.com/user/profile/materia_cccp/" rel="external">materia_cccp</a></li>
       <li><a href="https://www.transifex.com/user/profile/Pxseudoprime/" rel="external">Xuesong Peng</a></li>
     </ul>
 
     <strong>Chinese (Traditional)</strong>
     <ul>
-      <li><a href="https://www.transifex.com/user/profile/s8321414/" rel="external">Jeff Huang</a></li>
       <li><a href="https://www.transifex.com/user/profile/Hapsburg/" rel="external">Agustín Wu</a></li>
       <li><a href="https://www.transifex.com/user/profile/brli7848/" rel="external">BrLi</a></li>
+      <li><a href="https://www.transifex.com/user/profile/zerng07/" rel="external">Cheng-Chia Tseng</a></li>
+      <li><a href="https://www.transifex.com/user/profile/s8321414/" rel="external">Jeff Huang</a></li>
       <li><a href="https://www.transifex.com/user/profile/maxwux/" rel="external">Max Wu</a></li>
       <li><a href="https://www.transifex.com/user/profile/aphroteus/" rel="external">Po-Chun Huang</a></li>
       <li><a href="https://www.transifex.com/user/profile/Vdragon/" rel="external">Ｖ字龍</a></li>
@@ -95,6 +98,7 @@ $this->load_header();
       <li><a href="http://astrofloyd.org/" rel="external">AstroFloyd</a></li>
       <li><a href="https://www.transifex.com/user/profile/Dragnadh/" rel="external">dragnadh</a></li>
       <li>Johan Vervloet</li>
+      <li><a href="https://www.transifex.com/user/profile/serrano/" rel="external">Serrano Pereira</a></li>
       <li>Tim Speetjens</li>
     </ul>
 
@@ -104,6 +108,7 @@ $this->load_header();
       <li><a href="https://www.transifex.com/user/profile/damirmf/" rel="external">Damir</a></li>
       <li><a href="https://www.transifex.com/user/profile/dominiko/" rel="external">Dominique Pellé</a></li>
       <li><a href="https://www.transifex.com/user/profile/fenris/" rel="external">fenris</a></li>
+      <li><a href="https://www.transifex.com/user/profile/materia_cccp/" rel="external">materia_cccp</a></li>
     </ul>
 
     <strong>Estonian</strong>
@@ -122,6 +127,8 @@ $this->load_header();
       <li>Anthony Verez</li>
       <li>Bruno Bord</li>
       <li>Bruno Ethvignot</li>
+      <li><a href="https://www.transifex.com/user/profile/justin72/" rel="external">Christophe Massez</a></li>
+      <li><a href="https://www.transifex.com/user/profile/dadu042/" rel="external">David D</a></li>
       <li><a href="https://www.transifex.com/user/profile/MagicFab/" rel="external">Fabián Rodríguez</a></li>
       <li><a href="https://welibre.org/" rel="external">Joseph Maillardet</a></li>
       <li><a href="https://www.transifex.com/user/profile/KIAaze/" rel="external">KIAaze</a></li>
@@ -143,6 +150,7 @@ $this->load_header();
 
     <strong>German</strong>
     <ul>
+      <li><a href="https://www.transifex.com/user/profile/dd23/" rel="external">Daniel De</a></li>
       <li><a href="https://www.transifex.com/user/profile/Atalanttore/" rel="external">Ettore Atalan</a></li>
       <li><a href="https://www.transifex.com/user/profile/fenris/" rel="external">fenris</a></li>
       <li><a href="https://www.transifex.com/user/profile/desperateCoder/" rel="external">guyfawkes</a></li>
@@ -153,11 +161,13 @@ $this->load_header();
       <li><a href="https://www.transifex.com/user/profile/stegomon/" rel="external">stegomon</a></li>
       <li><a href="https://www.transifex.com/user/profile/to_ba/" rel="external">Tobias Bannert</a></li>
       <li><a href="https://www.transifex.com/user/profile/ToBeFree/" rel="external">Tobias Frei</a></li>
+      <li><a href="https://www.transifex.com/user/profile/wenopawab/" rel="external">wenop awab</a></li>
     </ul>
 
     <strong>Greek</strong>
     <ul>
       <li><a href="https://www.transifex.com/user/profile/Alexandros.Mouhtsis/" rel="external">Alexandros Mouhtsis</a></li>
+      <li><a href="https://www.transifex.com/user/profile/diamond_gr/" rel="external">Efstathios Iosifidis</a></li>
     </ul>
 
     <strong>Hebrew</strong>
@@ -239,10 +249,11 @@ $this->load_header();
 
     <strong>Russian</strong>
     <ul>
+      <li><a href="https://www.transifex.com/user/profile/player1_76/" rel="external">Фёдор Ходьков</a></li>
       <li><a href="https://www.transifex.com/user/profile/Alissa/" rel="external">Alissa</a></li>
       <li><a href="https://www.transifex.com/user/profile/Antic1tizen/" rel="external">Antic1tizen</a></li>
       <li><a href="https://www.transifex.com/user/profile/crevice/" rel="external">Anton Shcherbina</a></li>
-      <li><a href="https://www.transifex.com/user/profile/player1_76/" rel="external">Фёдор Ходьков</a></li>
+      <li><a href="https://www.transifex.com/user/profile/FTOH/" rel="external">Makarenko Anton</a></li>
       <li><a href="https://www.transifex.com/user/profile/vst/" rel="external">V'yacheslav Stetskevych</a></li>
     </ul>
 
@@ -261,9 +272,13 @@ $this->load_header();
       <li><a href="https://www.transifex.com/user/profile/technoguyx/" rel="external">Bastián Núñez</a></li>
       <li><a href="https://www.transifex.com/user/profile/durka42/" rel="external">durka42</a></li>
       <li><a href="https://www.transifex.com/user/profile/Funkin/" rel="external">Emilio Sepúlveda</a></li>
+      <li><a href="https://www.transifex.com/user/profile/flxren/" rel="external">Florencia Menéndez</a></li>
       <li><a href="https://gustavonarea.net/" rel="external">Gustavo Narea</a></li>
+      <li><a href="https://www.transifex.com/user/profile/tuxpain/" rel="external">Iñaki Ibañez</a></li>
       <li>Jonathan H. Fernández</li>
+      <li><a href="https://www.transifex.com/user/profile/linyerleo/" rel="external">Leonardo Quiroga</a></li>
       <li>Martín Carr</li>
+      <li><a href="https://www.transifex.com/user/profile/martin53/" rel="external">Martin Farias</a></li>
       <li>Miguel L. García</li>
     </ul>
 
@@ -277,6 +292,7 @@ $this->load_header();
       <li><a href="https://www.transifex.com/user/profile/basarancaner/" rel="external">Caner Başaran</a></li>
       <li><a href="https://www.transifex.com/user/profile/drstrangelove/" rel="external">drstrangelove</a></li>
       <li><a href="https://www.transifex.com/user/profile/fehmican/" rel="external">Fehmican Imirgi</a></li>
+      <li><a href="https://www.transifex.com/user/profile/mahmutozcan/" rel="external">mahmut özcan</a></li>
       <li><a href="https://www.transifex.com/user/profile/muratservan/" rel="external">Murat Servan Kahraman</a></li>
       <li><a href="https://www.transifex.com/user/profile/necdetyucel/" rel="external">Necdet Yücel</a></li>
       <li><a href="https://www.transifex.com/user/profile/zeugma/" rel="external">zeugma</a></li>
