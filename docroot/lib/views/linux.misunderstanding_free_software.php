@@ -134,7 +134,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
         <ul>
           <li><?php print _("If you are looking for good documentation and support forums to assist you, there is plenty available for free (\"open source\") software."); ?><br/>
           <?php # translators: use your best knowledge of the community to propose localized links ;-)
-          print _("Each GNU/Linux distribution has its own community (for example, <a href=\"https://community.ubuntu.com/help-information/\" rel=\"external\">Ubuntu support</a> or <a href=\"https://fedoraproject.org/wiki/Communicating_and_getting_help\" rel=\"external\">Fedora wiki</a>), but there are also general free software help communities, like <a href=\"https://www.linuxquestions.org/\" rel=\"external\">LinuxQuestions.org</a>."); ?></li>
+          print _("Each GNU/Linux distribution has its own community (for example, <a href=\"https://askubuntu.com/\" rel=\"external\">Ask Ubuntu</a> or <a href=\"https://ask.fedoraproject.org/\" rel=\"external\">Ask Fedora</a>), but there are also general GNU/Linux help communities, like <a href=\"https://unix.stackexchange.com/\" rel=\"external\">Unix & Linux Stack Exchange</a>."); ?></li>
           <li><?php print _("If you need someone you can reach on the phone anytime to assist you, the companies behind most distributions provide commercial support: see the <a href=\"https://www.ubuntu.com/support\" rel=\"external\">Ubuntu Commercial Support</a> or <a href=\"https://www.redhat.com/rhel/\" rel=\"external\">Red Hat Enterprise Linux</a> pages for example."); ?></li>
         </ul>
       </section>
