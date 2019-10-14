@@ -717,6 +717,15 @@ section.trisquel {
       border-left: 2px solid $light-blue;
       padding: 0 0 0 1em;
 
+      a img {
+        transition-duration: 0.2s;
+        transition-timing-function: ease;
+      }
+
+      a:hover img {
+        transform: translateY(-5px);
+      }
+
       div.read-more {
         li {
           margin: 0;

@@ -92,7 +92,13 @@ $this->load_header();
           # translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
           print _("The concept of <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">free software</a>, refers to freedom, not price. You have the freedom to copy, study, modify, and give free software away."); ?></p>
           <p><?php print _("Most companies developing free software make money by selling <strong>services</strong> around their software, rather than the software itself. This is sometimes done by selling everything as a package: the customer buys the CD, book, and support contract at once. The software can still guarantee your freedoms."); ?></p>
-          <p><?php print _("More:"); ?> <a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a> | <a href="https://en.wikibooks.org/wiki/FLOSS_Concept_Booklet" rel="external"><?php print _("FLOSS concept booklet"); ?></a>.</p>
+          <p><?php print _("More:"); ?></p>
+          <div class="read-more">
+            <ul>
+              <li><a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a></li>
+              <li><a href="https://en.wikibooks.org/wiki/FLOSS_Concept_Booklet" rel="external"><?php print _("FLOSS concept booklet"); ?></a></li>
+            </ul>
+          </div>
         </div>
       </details>
 
@@ -207,10 +213,10 @@ $this->load_header();
           <p><?php print _("However, a complete, free, reliable office suite exists: <a href=\"https://www.libreoffice.org/\" rel=\"external\">LibreOffice</a>. Or you can choose its close cousin, <a href=\"https://www.openoffice.org/\" rel=\"external\">Apache OpenOffice</a>. They will both happily use all your existing office files in MS-Word, MS-Excel, and MS-PowerPoint format, and are really free (both as in freedom and as in price). And they run on Windows as well as on GNU/Linux."); ?></p>
           <p>
             <a href="<?php # translators: If it exists, please use the localized URL of libreoffice.org. You can find localized URLs here: https://www.libreoffice.org/international-sites/
-              print _("https://www.libreoffice.org/"); ?>"><img src="/images/LibreOfficeLogo.png" alt="LibreOffice.org"/></a>
+              print _("https://www.libreoffice.org/"); ?>" target="_blank"><img src="/images/LibreOfficeLogo.png" alt="LibreOffice.org"/></a>
             &nbsp;
             <a href="<?php # translators: If it exists, please use the localized URL of openoffice.org. You can find localized URLs here: https://www.openoffice.org/projects/native-lang.html
-            print _("https://www.openoffice.org/") ?>"><img src="/images/OpenOfficeLogo.png" alt="OpenOffice.org"/></a>
+              print _("https://www.openoffice.org/") ?>" target="_blank"><img src="/images/OpenOfficeLogo.png" alt="OpenOffice.org"/></a>
           </p>
         </div>
       </details>
