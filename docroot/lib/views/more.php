@@ -27,7 +27,7 @@ $this->load_header();
           <p><?php print _("<strong>Unix & Linux Stack Exchange</strong> is a question and answer site for users of GNU/Linux. This site is all about getting answers."); ?></p>
           <br>
           <a href="https://ask.fedoraproject.org/" title="Ask Fedora" target="_blank"><img src="/images/more/askfedora.png" alt="Ask Fedora"/></a>
-          <p><?php print _("<strong>Ask Fedora</strong> is a community-supported forum for Fedora users. Here, you can speak to the community to get help with installing, using, customizing, and upgrading a system running Fedora."); ?></p>
+          <p><?php print _("<strong>Ask Fedora</strong> is a forum for Fedora users. Here you can speak to the community to get help with installing, using, customizing, and upgrading a system running Fedora."); ?></p>
         </div>
         <div class="column">
           <a href="https://askubuntu.com/" title="Ask Ubuntu" target="_blank"><img src="/images/more/askubuntu.png" alt="Ask Ubuntu"/></a>
