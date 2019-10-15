@@ -2,8 +2,7 @@
   "name": "getgnulinux",
   "version": "2.0.0",
   "description": "Get GNU/Linux! is a simple, clear website about GNU/Linux.",
-  "main": "docroot/index.php",
-  "repository": "git@github.com:figure002/getgnulinux.git",
+  "repository": "git@github.com:getgnulinux/getgnulinux.git",
   "author": "Serrano Pereira <serrano@bitosis.nl>",
   "license": "AGPL-3.0",
   "devDependencies": {
@@ -11,6 +10,7 @@
     "babel-preset-es2015": "^6.24.1",
     "bower": "^1.8.0",
     "del": "^3.0.0",
+    "eslint": "^6.5.1",
     "grunt-contrib-sass": "^1.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^4.0.0",
@@ -36,18 +36,5 @@
     "main-bower-files": "^2.13.1",
     "node-sass": "^4.5.3",
     "wiredep": "^4.0.0"
-  },
-  "eslintConfig": {
-    "env": {
-      "es6": true,
-      "node": true,
-      "browser": true
-    },
-    "rules": {
-      "quotes": [
-        2,
-        "single"
-      ]
-    }
   }
 }
