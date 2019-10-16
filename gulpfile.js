@@ -54,7 +54,8 @@ const rsyncConfProd = {
 const lint = (files, options = {fix: false}) => {
     return gulp.src(files)
         .pipe($.eslint(options))
-        .pipe($.eslint.format());
+        .pipe($.eslint.format())
+        .pipe($.eslint.failAfterError());
 };
 
 gulp.task('styles:sass', () => {
