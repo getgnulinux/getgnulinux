@@ -47,7 +47,7 @@
 <body>
 
 <div class="alertbox browsehappy hidden">
-  <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <p>You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <span class="close"><i class="fa fa-times-circle fa-lg" title="Close"></i></span>
 </div>
 
