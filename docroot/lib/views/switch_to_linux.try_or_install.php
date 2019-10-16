@@ -69,7 +69,7 @@ $this->load_header();
             <p><img src="/images/FedoraIcon.png" alt="Fedora"></p>
           </div>
           <div class="download-box-content">
-            <p><?php print _("<i>Fedora Media Writer</i> is the easiest way to <a href=\"https://docs.fedoraproject.org/en-US/fedora/f30/install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">try or install Fedora</a>. It makes it easy to create a bootable USB stick or CD."); ?></p>
+            <p><?php print _("<i>Fedora Media Writer</i> is the easiest way to <a href=\"https://docs.fedoraproject.org/en-US/fedora/f30/install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">try or install Fedora</a>."); ?></p>
 
             <div class="download-box-buttons">
               <div class="button green">
