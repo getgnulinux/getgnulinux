@@ -31,6 +31,7 @@
     <div class="block">
       <ul>
         <li><?php print _("Participate:"); ?></li>
+        <li><a href="<?php $this->text('forum_url'); ?>" title="<?php print _("Our community forum for discussions about this website."); ?>" rel="external"><?php print _("Community forum"); ?></a></li>
         <li><a href="<?php $this->text('tracker_url'); ?>" title="<?php print _("Found something awkward? Please report it!"); ?>" rel="external"><?php print _("Report a bug"); ?></a></li>
         <li><a href="<?php $this->text('l10n_url'); ?>" title="<?php print _("Help us reach an audience in your language!"); ?>" rel="external"><?php print _("Translation"); ?></a></li>
         <li><a href="<?php $this->text('participate_url'); ?>" title="<?php print _("Ways to help."); ?>" rel="external"><?php print _("More"); ?></a></li>
