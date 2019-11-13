@@ -1,5 +1,5 @@
 IMPORT_DIR=import
-IMPORT_ZIP=getgnulinuxpot.zip
+IMPORT_ZIP=serrano_getgnulinux_getgnulinuxpot_translated.zip
 IMPORT_PREFIX=getgnulinuxpot_
 DOMAIN=getgnulinux
 
