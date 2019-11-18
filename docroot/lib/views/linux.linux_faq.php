@@ -14,7 +14,7 @@ $this->load_header();
         <h1 id="top"><?php print _("Frequently asked questions"); ?></h1>
 
         <div class="page-intro">
-          <p><?php $p = _("<a href=\"%s\">Our page about GNU/Linux</a> covers the essential information. We hope this FAQ list can help if you are more curious."); printf($p, $this->base_url('linux',1)); ?></p>
+          <p><?php $p = _("<a href=\"%s\">Our page about GNU/Linux</a> covers the essential information. We hope this FAQ list can help if you are more curious."); printf($p, $this->get_base_url('linux')); ?></p>
         </div>
       </header>
 
@@ -66,7 +66,7 @@ $this->load_header();
         <div class="answer">
           <p><?php
           # translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
-          $p = _("No. There are a few <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">free software</a> components in macOS, and it is technically similar to GNU/Linux systems. But overall, it is proprietary software: all the <a href=\"%s\">issues about Windows</a> apply to it as well."); printf($p, $this->base_url('windows',1)); ?></p>
+          $p = _("No. There are a few <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">free software</a> components in macOS, and it is technically similar to GNU/Linux systems. But overall, it is proprietary software: all the <a href=\"%s\">issues about Windows</a> apply to it as well."); printf($p, $this->get_base_url('windows')); ?></p>
         </div>
       </details>
 
@@ -114,7 +114,7 @@ $this->load_header();
             <?php # translators: If it exits, please use the URL of the official Ubuntu homepage localized in your language.
             print _("This happens because some hardware manufacturers such as NVidia do not care about their customers' freedoms, and only release restricting firmware and drivers (some of them don't even release anything, like Broadcom). These are available at no cost (they are freeware) but under restrictive licenses. Distributions such as <a href=\"https://www.ubuntu.com/\" rel=\"external\">Ubuntu</a> thus include such components to improve hardware compatibility."); ?></li>
             <li><?php print _("Some GNU/Linux distributors do not compromise on the freedom of software, and make sure their distribution are entirely free. Such is the case of <a href=\"https://trisquel.info/\" rel=\"external\">Trisquel</a>, which is a Ubuntu derivative with all restricting components removed."); ?></li>
-            <li><?php $p = _("Some GNU/Linux distributors assemble free and restrictive software without distinction. Such distributors would not like users to think of their freedom, and rather advertise only the technical capabilities of their product. Using such distributions isn't much better than <a href=\"%s\">using Windows</a>. We value your freedom and recommend you choose carefully!"); printf($p, $this->base_url('windows',1)); ?></li>
+            <li><?php $p = _("Some GNU/Linux distributors assemble free and restrictive software without distinction. Such distributors would not like users to think of their freedom, and rather advertise only the technical capabilities of their product. Using such distributions isn't much better than <a href=\"%s\">using Windows</a>. We value your freedom and recommend you choose carefully!"); printf($p, $this->get_base_url('windows')); ?></li>
           </ul>
         </div>
       </details>
@@ -123,7 +123,7 @@ $this->load_header();
         <summary id="mac_freedom"><?php print _("Is macOS also a free operating system?"); ?></summary>
         <div class="answer">
           <p><i><?php print _("Do all the reasons for avoiding Windows apply to macOS?"); ?></i></p>
-          <p><?php $p = _("It's quite common for Mac users to believe they are exempt from <a href=\"%s\">restrictions associated with Windows</a>. Unfortunately such is not the case."); printf($p, $this->base_url('windows',1)); ?></p>
+          <p><?php $p = _("It's quite common for Mac users to believe they are exempt from <a href=\"%s\">restrictions associated with Windows</a>. Unfortunately such is not the case."); printf($p, $this->get_base_url('windows')); ?></p>
           <p><?php print _("macOS does have some low-level components which are <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">free software</a>; and Apple puts less energy into customer lock-in (with some notable efforts such as BootCamp)."); ?></p>
           <p><?php print _("However, the end-user is still fundamentally restricted &mdash; because of the proprietary license, he/she cannot use macOS for all purposes, nor copy, study, modify, or redistribute it."); ?></p>
           <p><?php print _("Happily, because these freedoms matter a lot, it's possible to run popular GNU/Linux distributions (such as <a href=\"https://www.ubuntu.com/\" rel=\"external\">Ubuntu</a>) on Mac computers."); ?></p>
@@ -140,7 +140,7 @@ $this->load_header();
           <p><?php print _("GNU/Linux was made by people who don't like the thought of all the world's computers running just one company's proprietary products. There is certainly nothing wrong with that!"); ?></p>
           <p><?php
           # translators: The link here points to the "misunderstanding_free_software" article.
-          $p = _("Read more in the article: <a href=\"%s\">%s</a>."); printf( $p, $this->base_url('linux/misunderstanding_free_software',1), _("How to Misunderstand Free Software") ); ?></p>
+          $p = _("Read more in the article: <a href=\"%s\">%s</a>."); printf( $p, $this->get_base_url('linux/misunderstanding_free_software'), _("How to Misunderstand Free Software") ); ?></p>
         </div>
       </details>
 
@@ -152,7 +152,7 @@ $this->load_header();
           print _("\"Everything has to be free\" and \"No one owns anything\" sounds somewhat frightening. Are GNU/Linux and its <abbr title=\"GNU General Public License\">GPL</abbr> License something for anarchists or communists?"); ?></i></p>
           <p><?php
           $title = _("How to Misunderstand Free Software");
-          $link = sprintf("<a href=\"%s\">%s</a>", $this->base_url('linux/misunderstanding_free_software',1), $title);
+          $link = sprintf("<a href=\"%s\">%s</a>", $this->get_base_url('linux/misunderstanding_free_software'), $title);
           $p = _("GNU/Linux has nothing to do with a political system and anyone &mdash; regardless of their political views &mdash; can use it. We have this explained simply in our article %s.");
           printf($p, $link); ?></p>
         </div>
@@ -175,7 +175,7 @@ $this->load_header();
       <details>
         <summary id="language"><?php print _("Can I get GNU/Linux in my own language?"); ?></summary>
         <div class="answer">
-          <p><?php $url = $this->base_url('switch_to_linux/choose_a_distribution',1); $p = _("Yes. All main distributions, such as <a href=\"%s\">the ones we recommend</a>, are all available in the main languages around, and have support for many keyboard types."); printf($p, $url); ?></p>
+          <p><?php $url = $this->get_base_url('switch_to_linux/choose_a_distribution'); $p = _("Yes. All main distributions, such as <a href=\"%s\">the ones we recommend</a>, are all available in the main languages around, and have support for many keyboard types."); printf($p, $url); ?></p>
           <p><?php print _("Unlike Windows, all languages are included on each installation CD, so there is no need for you to download (or pay for!) another whole version to merely change the language on your computer."); ?></p>
         </div>
       </details>
@@ -191,7 +191,7 @@ $this->load_header();
           <p><?php
           # translators: If you do not know of a very good resource about DRM, please link to the Wikipedia article on DRM in your language.
           $p = _("In fact this right is threatened by the rise of things such as <a href=\"http://www.timj.co.uk/digiculture/drm-fallacy\" rel=\"external\">DRM and Trusted Computing</a>. Read our article \"<a href=\"%s\">%s</a>\" for more information.");
-          printf( $p, $this->base_url('windows/stand_for_a_free_society',1), _("Stand for a free society") );
+          printf( $p, $this->get_base_url('windows/stand_for_a_free_society'), _("Stand for a free society") );
           ?></p>
         </div>
       </details>
@@ -200,7 +200,7 @@ $this->load_header();
         <summary id="new_computer"><?php print _("Do I have to purchase a new computer to run GNU/Linux?"); ?></summary>
         <div class="answer">
           <p><?php print _("Not at all. It will run happily on your own computer."); ?></p>
-          <p><?php $p = _("The only thing you might be worried about is using very recent special hardware, such as graphics cards. Otherwise, almost all GNU/Linux distributions can run on normal PCs (often called \"i386\" or \"x86\" computers), 64-bit-processor computers and Apple Mac computers. <a href=\"%s\">Read how you can try or install GNU/Linux on your computer</a>, be it instead of or together with Windows."); printf($p, $this->base_url('switch_to_linux/try_or_install',1)); ?></p>
+          <p><?php $p = _("The only thing you might be worried about is using very recent special hardware, such as graphics cards. Otherwise, almost all GNU/Linux distributions can run on normal PCs (often called \"i386\" or \"x86\" computers), 64-bit-processor computers and Apple Mac computers. <a href=\"%s\">Read how you can try or install GNU/Linux on your computer</a>, be it instead of or together with Windows."); printf($p, $this->get_base_url('switch_to_linux/try_or_install')); ?></p>
         </div>
       </details>
 
@@ -254,7 +254,7 @@ $this->load_header();
       <p><?php
       # translators: The first link will automatically point to the "more" page.
       $p = _("If you have a question that is not covered here, there are many communities to help you. Our \"<a href=\"%s\">%s</a>\" section will help you find the right place to ask.");
-      printf( $p, $this->base_url('more',1), _("More") ); ?></p>
+      printf( $p, $this->get_base_url('more'), _("More") ); ?></p>
       <p><?php
       # translators: The first link will automatically point to the contact page, the second to the bug tracker.
       $p = _("If you can think of a frequent question that we haven't answered yet, do <a href=\"%s\" rel=\"external\">let us know</a>, or <a href=\"%s\" rel=\"external\">file an issue</a>.");

@@ -138,6 +138,7 @@ class GGL {
         'negotiated_lang' => null,
         'lang' => 'en',
         'locale' => "en_GB.UTF-8",
+        'locale_override' => null,
         'dir' => "ltr",
         'gettext_domain' => "getgnulinux",
     );
@@ -158,8 +159,8 @@ class GGL {
      */
     public function init() {
         # Set the base URL.
-        if ( empty($this->config['base_url']) ) {
-            $this->config['base_url'] = 'http://'.$_SERVER['HTTP_HOST'].'/';
+        if (empty($this->config['base_url'])) {
+            $this->config['base_url'] = sprintf('http://%s/', $_SERVER['HTTP_HOST']);
         }
 
         # Get the locale provided in the URL. Defaults to null if no locale
@@ -179,6 +180,10 @@ class GGL {
         if ($lang) {
             $this->set('negotiated_lang', $lang);
             $this->set('locale', $lang);
+        }
+
+        if ($override !== null && $override === $lang) {
+            $this->set('locale_override', $override);
         }
 
         # Initialize gettext.
@@ -304,13 +309,12 @@ class GGL {
      * @param string $key The configuration key to set.
      * @param $value The configuration value for $key.
      */
-    public function set($key, &$value)
-    {
+    public function set($key, $value) {
         if ($key === 'locale') {
             $this->set_locale($value);
             return;
         }
-        $this->config[$key] = &$value;
+        $this->config[$key] = $value;
     }
 
     /**
@@ -325,8 +329,7 @@ class GGL {
      * @param string $lang The language code. This must be one of the keys of
      *      the array $config['locale'].
      */
-    public function set_locale($lang)
-    {
+    public function set_locale($lang) {
         if ( isset(self::$locales[$lang]) ) {
             // Set the language code.
             $this->config['lang'] = $lang;
@@ -344,34 +347,37 @@ class GGL {
      * @param $default The value to be returned if $key is not set.
      * @return unknown
      */
-    public function get($key, $default='')
-    {
-        return isset($this->config[$key]) ? $this->config[$key] : $default;
+    public function get($key, $default=null) {
+        return array_key_exists($key, $this->config) ? $this->config[$key] : $default;
     }
 
     /**
      * Returns the locales array.
      *
-     * @param string $select Set to 'all', 'complete', or 'incomplete', to
-     *      return all, only complete, or only incomplete translations.
-     *      Default is 'all'.
+     * @param string $filter Set to 'complete' or 'incomplete' to return only
+     * complete or only incomplete translations, respectively.  Default is NULL
+     * (return all locales).
      * @return array The locales.
      */
-    public function get_locales($select='all')
-    {
-        $passed = array();
-
-        if ($select === 'all') {
+    public function get_locales($filter=null) {
+        if ($filter === null) {
             return self::$locales;
         }
-        else if ($select === 'complete' || $select === 'incomplete') {
-            foreach (self::$locales as $k => $v)
-            {
-                $pass = ($select === 'complete') ? $this->lang_is_complete($k) : !$this->lang_is_complete($k);
-                if ($pass) $passed[$k] = $v;
-            }
-            return $passed;
+        else if ($filter === 'complete') {
+            $callback = function ($k) {
+                return $this->lang_is_complete($k);
+            };
         }
+        else if ($filter === 'incomplete') {
+            $callback = function ($k) {
+                return !$this->lang_is_complete($k);
+            };
+        }
+        else {
+            throw new Exception('Invalid value for filter.');
+        }
+
+        return array_filter(self::$locales, $callback, ARRAY_FILTER_USE_KEY);
     }
 
     /**
@@ -380,14 +386,12 @@ class GGL {
      * @param string $lang The ISO 639-1 code of the language.
      * @return array
      */
-    public function get_lang_info($lang)
-    {
-        $info = array(
+    public function get_lang_info($lang) {
+        return array(
             'complete' => $this->lang_is_complete($lang),
             'active' => $this->currlang($lang),
             'dir' => $this->langdir($lang),
         );
-        return $info;
     }
 
     /**
@@ -407,8 +411,7 @@ class GGL {
      * @param string $lang The ISO 639-1 code of the language.
      * @return string rtl|ltf
      */
-    public function langdir($lang)
-    {
+    public function langdir($lang) {
         return in_array($lang, self::$rtl_languages, true) ? "rtl" : "ltr";
     }
 
@@ -417,8 +420,7 @@ class GGL {
      *
      * @return bool TRUE|FALSE
      */
-    public function no_italics()
-    {
+    public function no_italics() {
         return in_array($this->config['lang'], self::$no_italics_languages, true);
     }
 
@@ -428,8 +430,7 @@ class GGL {
      * @param string $lang The ISO 639-1 code of the language.
      * @return bool TRUE|FALSE
      */
-    public function lang_is_complete($lang)
-    {
+    public function lang_is_complete($lang) {
         return in_array($lang, self::$locales_complete, true);
     }
 }

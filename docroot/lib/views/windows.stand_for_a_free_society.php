@@ -53,7 +53,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
       <section>
         <h2 id="proprietary_software_going_wrong"><?php print _("Proprietary software going wrong"); ?></h2>
         <p><?php $p = _("The limits of proprietary software go beyond the security issue (see <a href=\"%s\">our article on source code</a>): today proprietary software interferes with the spread of culture and information. This happens mainly through two technologies:");
-        printf($p, $this->base_url('windows/what_about_source_code',1)); ?></p>
+        printf($p, $this->get_base_url('windows/what_about_source_code')); ?></p>
 
         <h3 id="digital_rights_management"><?php
         # translators: This is sometimes only known as "DRM" in some languages. Please choose the vocabulary carefully. The %s placeholder links to a footnote which explains why we use the term "Digital Restrictions Management": https://www.getgnulinux.org/windows/stand_for_a_free_society/#footnote_bottom1
@@ -102,7 +102,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
         <p><?php print _("<strong>Software is increasingly used to enforce rules</strong>. Rules that may or may not be the law. Rules that may or may not be fair. If the software is not free there will be no space for the user to influence these rules."); ?></p>
         <p><?php print _("Trusted Computing and DRM pave the way for a society in which culture and information are not simply turned into products (they are right now, and that is fine), but into <em>consumable</em> products."); ?></p>
         <p><?php print _("Code is power. Most of today's work documents are written and encoded with secret algorithms in proprietary software. What will be of tomorrow's books, photos, films, essays, animations, music, news? Proprietary programs such as Windows have no transparency. A free culture and a free society cannot grow from such software."); ?></p>
-        <p><?php $p = _("May we suggest you <a href=\"%s\">switch to GNU/Linux</a>?"); printf($p, $this->base_url('switch_to_linux',1)); ?></p>
+        <p><?php $p = _("May we suggest you <a href=\"%s\">switch to GNU/Linux</a>?"); printf($p, $this->get_base_url('switch_to_linux')); ?></p>
       </section>
 
       <div class="footnotes">

@@ -16,8 +16,11 @@ $this->load_header();
 <main>
   <div class="container">
     <article>
-      <h1><?php print _("More details on restrictions"); ?></h1>
-      <p><?php $p = _("We wished to keep our \"<a href=\"%s\">Restrictions</a>\" page short, so we moved many of the license restrictions out here. Here is the fine print inside the Microsoft licenses."); printf($p, $this->base_url('windows/restrictions',1)); ?></p>
+      <header>
+        <h1><?php print _("More details on restrictions"); ?></h1>
+      </header>
+
+      <p><?php $p = _("We wished to keep our \"<a href=\"%s\">Restrictions</a>\" page short, so we moved many of the license restrictions out here. Here is the fine print inside the Microsoft licenses."); printf($p, $this->get_base_url('windows/restrictions')); ?></p>
 
       <ul>
         <li>

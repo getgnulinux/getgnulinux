@@ -1,19 +1,17 @@
-<?php header("Content-Type: text/html; charset=utf-8"); ?>
 <!DOCTYPE html>
 <html lang="<?php $this->text('lang') ?>" dir="<?php $this->text('dir'); ?>">
 <head>
   <meta charset="utf-8">
-  <title><?php $this->page_title(); ?></title>
-  <meta name="description" content="<?php $this->page_description(); ?>">
+  <title><?php print $this->page_title(); ?></title>
+  <meta name="description" content="<?php print $this->page_description(); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <?php
-  $base_url = $ggl->get('base_url');
-  foreach ($ggl->get_locales('complete') as $code => $v) {
-    printf("<link rel=\"alternate\" type=\"text/html\" dir=\"%s\" hreflang=\"%s\" href=\"%s%s\">\n",
-      $ggl->langdir($code),
-      $code,
-      $base_url,
-      $this->current_page_url($code));
+  foreach ($ggl->get_locales('complete') as $lang => $v) {
+    printf("<link rel=\"alternate\" type=\"text/html\" dir=\"%s\" hreflang=\"%s\" href=\"%s\">\n",
+      $ggl->langdir($lang),
+      $lang,
+      $this->current_page_url($lang));
   } ?>
 
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:700,400,300" media="all">

@@ -68,7 +68,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
         <p><?php print _("Free software is as important as free speech, as a free market. If software is free, users have control and liberty over it."); ?></p>
         <p><?php
         # translators: The %s placeholder will automatically point to the 'try and install' page
-        $p = _("The good news are: <em>free software also Just Works.</em> And in fact, it often Just Works Better. <a href=\"%s\">Pop in a GNU/Linux liveCD</a> in your computer at start-up, to try a full-featured, well-organised system, without installation, so you can judge by yourself."); printf($p, $this->base_url('switch_to_linux/try_or_install',1)); ?></p>
+        $p = _("The good news are: <em>free software also Just Works.</em> And in fact, it often Just Works Better. <a href=\"%s\">Pop in a GNU/Linux liveCD</a> in your computer at start-up, to try a full-featured, well-organised system, without installation, so you can judge by yourself."); printf($p, $this->get_base_url('switch_to_linux/try_or_install')); ?></p>
       </section>
 
       <section>
@@ -114,7 +114,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
         </ul>
         <p><?php
         # translators: The %s placeholder here will automatically point to the page "Windows Restrictions, further details"
-        $p = _("So in fact, you have more \"ownership\" over free software than over proprietary software &ndash;where the programmer decides everything you can <a href=\"%s\">and can't do</a> with the software."); printf($p, $this->base_url('windows/restrictions/further_details',1)); ?></p>
+        $p = _("So in fact, you have more \"ownership\" over free software than over proprietary software &ndash;where the programmer decides everything you can <a href=\"%s\">and can't do</a> with the software."); printf($p, $this->get_base_url('windows/restrictions/further_details')); ?></p>
         <p><?php print _("<em>Free software has nothing to do with a political system.</em> You can run free software on top of proprietary software, just as well as the opposite. The free software license is simply a legal, ethical contract between the programmer and the end-user."); ?></p>
       </section>
 
@@ -123,7 +123,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
         <p><?php print _("The argument generally goes that since the source code of free software is available, it is less likely to be secure."); ?></p>
         <p><?php print _("Short answer: The majority of servers run free software. They are the major networked computers holding sensitive or confidential information such as your bank details or trade secrets."); ?></p>
         <p><?php print _("A more precise answer is that availability of source code is a warrant of security, not a weakness. The freedom of the software ensures it can be inspected, tested and improved by a very wide community. A good lock is secure because the technology used to design it is open, though only the key holder can open it. The same goes for software."); ?></p>
-        <p><?php $p = _("Need examples? Have a look at the <a href=\"https://www.getfirefox.com/\" rel=\"external\">Firefox browser</a>, the <a href=\"https://en.wikipedia.org/wiki/Apache_HTTP_Server\" rel=\"external\">Apache HTTP Server</a>, the <a href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\" rel=\"external\">OpenPGP</a> encryption system, or the <a href=\"https://en.wikipedia.org/wiki/OpenBSD\" rel=\"external\">OpenBSD</a> operating system. And <a href=\"%s#security\">there are no spyware or viruses under GNU/Linux</a>."); printf($p, $this->base_url('switch_to_linux/from_windows_to_linux',1)); ?></p>
+        <p><?php $p = _("Need examples? Have a look at the <a href=\"https://www.getfirefox.com/\" rel=\"external\">Firefox browser</a>, the <a href=\"https://en.wikipedia.org/wiki/Apache_HTTP_Server\" rel=\"external\">Apache HTTP Server</a>, the <a href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\" rel=\"external\">OpenPGP</a> encryption system, or the <a href=\"https://en.wikipedia.org/wiki/OpenBSD\" rel=\"external\">OpenBSD</a> operating system. And <a href=\"%s#security\">there are no spyware or viruses under GNU/Linux</a>."); printf($p, $this->get_base_url('switch_to_linux/from_windows_to_linux')); ?></p>
       </section>
 
       <section>
@@ -162,7 +162,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
           <li id="footnote-1"><sup>^ <a href="#footnote-ref-1a">a</a> <a href="#footnote-ref-1b">b</a></sup>
             <?php # translators: This is the content of the footnote, at the bottom of the page
             $p = _("What we call \"Free Software\" here is also often called \"Open Source Software\". In practice the requirements are identical, although because the term \"open\" doesn't call to mind freedom, it <a href=\"https://www.gnu.org/philosophy/open-source-misses-the-point.html\" rel=\"external\">misses the point</a>. Read our FAQ entry: <a href=\"%s#open_source\">Are \"Open Source\" and \"Free Software\" the same thing?</a>.");
-            printf($p, $this->base_url('linux/linux_faq',1)); ?>
+            printf($p, $this->get_base_url('linux/linux_faq')); ?>
           </li>
         </ol>
       </div>

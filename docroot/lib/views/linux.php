@@ -25,9 +25,9 @@ $this->load_header();
 
       <section>
         <h2><?php print _("Using GNU/Linux"); ?></h2>
-        <p><?php $p = _("GNU/Linux is no harder to use than Windows, and has many more capabilities. It just takes a dozen minutes to get familiar with a distribution like <a href=\"%s\">the ones we recommend for newcomers</a>, which come in with many programs installed."); printf($p, $this->base_url('switch_to_linux/choose_a_distribution',1)); ?></p>
+        <p><?php $p = _("GNU/Linux is no harder to use than Windows, and has many more capabilities. It just takes a dozen minutes to get familiar with a distribution like <a href=\"%s\">the ones we recommend for newcomers</a>, which come in with many programs installed."); printf($p, $this->get_base_url('switch_to_linux/choose_a_distribution')); ?></p>
         <p><?php print _("If you need commercial-quality software to work with business documents, Internet/networking, or multimedia and graphics, it's there right out of the box. Want more than that? GNU/Linux can do &ndash; there are many hundreds of free, high quality applications you can find, install and uninstall neatly and easily."); ?></p>
-        <p><?php $p = _("You shouldn't assume however, that GNU/Linux is a clone of Windows. To know what to expect when stepping into it, we suggest you read our <a href=\"%s\">Making the switch</a> page."); printf ($p, $this->base_url('switch_to_linux',1)) ?></p>
+        <p><?php $p = _("You shouldn't assume however, that GNU/Linux is a clone of Windows. To know what to expect when stepping into it, we suggest you read our <a href=\"%s\">Making the switch</a> page."); printf ($p, $this->get_base_url('switch_to_linux')) ?></p>
       </section>
 
       <section>

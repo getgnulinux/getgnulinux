@@ -51,7 +51,7 @@ $this->load_header();
 
         <h3 id="support"><?php print _("Support"); ?></h3>
         <p><?php # translators: The first %s represents the URL to the "More" page and seconds %s represents the title of the page "More" in your language
-        $p = _("GNU/Linux benefits from a great sense of community whose friendliness will surprise you. If you try to do something complicated but can't succeed, there are a lot of people around to help you out. Our \"<a href=\"%s\">%s</a>\" page gives a few pointers."); printf($p, $this->base_url('more',1), _("More")); ?></p>
+        $p = _("GNU/Linux benefits from a great sense of community whose friendliness will surprise you. If you try to do something complicated but can't succeed, there are a lot of people around to help you out. Our \"<a href=\"%s\">%s</a>\" page gives a few pointers."); printf($p, $this->get_base_url('more'), _("More")); ?></p>
         <p><?php print _("The companies behind the main GNU/Linux distributions, such as <a href=\"https://www.canonical.com/\" rel=\"external\">Canonical</a> and <a href=\"https://www.redhat.com/\" rel=\"external\">Red Hat</a>, also provide expert commercial support."); ?></p>
       </section>
 

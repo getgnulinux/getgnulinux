@@ -43,10 +43,11 @@ class HTML {
      * Return the file path for a view.
      *
      * @param string $view The name of the view.
-     * @return string The file path.
+     * @return string Canonicalized file path of the view, or NULL if the path
+     * is invalid.
      */
     static function path_for_view($view) {
-        return Util::fpath(sprintf("%s/lib/views/%s.php", ROOT, $view));
+        return Util::safe_path(sprintf("%s/lib/views/%s.php", ROOT, $view));
     }
 
     /**
@@ -59,32 +60,30 @@ class HTML {
         global $ggl;
 
         $path = self::path_for_view($this->view);
-        if ($path) {
+
+        if ($path !== null) {
             include $path;
-            return;
-        } else {
+        }
+        else {
             header('HTTP/1.x 404 Not Found');
             include self::path_for_view('404');
-            return;
         }
     }
 
     /**
      * Load the page header.
      */
-    function load_header()
-    {
+    function load_header() {
         global $ggl;
-        include Util::fpath(ROOT.'/templates/header.php');
+        include Util::safe_path(ROOT.'/templates/header.php');
     }
 
     /**
      * Load the page footer.
      */
-    function load_footer()
-    {
+    function load_footer() {
         global $ggl;
-        include Util::fpath(ROOT.'/templates/footer.php');
+        include Util::safe_path(ROOT.'/templates/footer.php');
     }
 
     /**
@@ -94,62 +93,71 @@ class HTML {
      * @param unknown $default The value to print if the configuration key
      *      does not exist.
      */
-    function text($key, $default='')
-    {
+    function text($key, $default='') {
         global $ggl;
         print $ggl->get($key, $default);
     }
 
     /**
-     * Print the page title.
-     *
-     * @param string $key The value of which configuration key to print.
-     * @param unknown $default The value to print if the configuration key
-     *      does not exist.
+     * Return the bare page title.
      */
-    function page_title()
-    {
+    function bare_page_title($fallback=null) {
         global $ggl;
 
-        if ( array_key_exists($this->view, $ggl->config['page_titles']) ) {
-            print $ggl->config['page_titles'][$this->view] . " | " . $ggl->get('website_title');
-        } else {
-            print $ggl->get('website_title');
+        if (array_key_exists($this->view, $ggl->config['page_titles'])) {
+            return $ggl->config['page_titles'][$this->view];
         }
+
+        return $fallback;
     }
 
     /**
-     * Print the page description.
+     * Return the page title.
      */
-    function page_description()
-    {
+    function page_title() {
         global $ggl;
-        $view = array_key_exists($this->view, $ggl->config['page_descriptions']) ? $this->view : 'default';
-        print $ggl->config['page_descriptions'][$view];
+
+        $site_name = $ggl->get('website_title');
+        $page_title = $this->bare_page_title();
+
+        if ($page_title !== null) {
+            return sprintf("%s | %s", $page_title, $site_name);
+        }
+
+        return $site_name;
     }
 
-    function nav_link($id, $class, $page, $title)
-    {
+    /**
+     * Return the current page description.
+     */
+    function page_description() {
+        global $ggl;
+
+        $view = array_key_exists($this->view, $ggl->config['page_descriptions']) ?
+            $this->view : 'default';
+
+        return $ggl->config['page_descriptions'][$view];
+    }
+
+    function nav_link($id, $class, $page, $title) {
       printf('<li id="%s" class="nav-link %s %s"><a href="%s">%s</a>',
         $id,
         $class,
         $this->we_are_here($page, true) ? 'active' : '',
-        $this->base_url($page, 1),
+        $this->get_base_url($page),
         $title);
     }
 
     /**
      * Print the chapter list for the "Swith to GNU/Linux" pages.
      */
-    function list_chapter_sections($chapter)
-    {
+    function list_chapter_sections($chapter) {
         global $ggl;
         print '<ul class="submenu">';
-        foreach ($ggl->sections[$chapter] as $path => $title)
-        {
+        foreach ($ggl->sections[$chapter] as $path => $title) {
             printf('<li%s><a href="%s">%s</a></li>',
                 $this->we_are_here($path) ? ' class="active"' : '',
-                $this->base_url($path, true),
+                $this->get_base_url($path),
                 $title
             );
         }
@@ -157,10 +165,10 @@ class HTML {
     }
 
     /**
-     * Return $s1 when the language is left-to-right, $s2 otherwise.
+     * Return $a when the language is left-to-right, $b otherwise.
      *
-     * @param string $s1 The string.
-     * @param string $s2 Alternative string.
+     * @param string $a String A.
+     * @param string $b String B.
      */
     function rtltr($a, $b) {
         global $ggl;
@@ -182,6 +190,15 @@ class HTML {
         printf("%s?v=%s", $path, $hash);
     }
 
+    function current_page_url($lang=null) {
+        global $ggl;
+
+        return sprintf(
+            "%s%s",
+            $ggl->get('base_url'),
+            $this->current_page_path($lang));
+    }
+
     /**
      * Return the localized path for the current page.
      *
@@ -192,12 +209,25 @@ class HTML {
      *      is returned instead.
      * @return string The path to the current page.
      */
-    function current_page_url($lang=null) {
+    function current_page_path($lang=null) {
         global $ggl;
 
-        $l = $lang ? $lang : $ggl->get('lang');
-        $p = str_replace('.', '/', $this->view);
-        return empty($p) ? sprintf("%s/", $l) : sprintf("%s/%s/", $l, $p);
+        $view = $this->view === 'home' ? '' : $this->view;
+        $view_rpl = str_replace('.', '/', $view);
+        $path = empty($view_rpl) ? null : $view_rpl;
+
+        if ($path === null && $lang === null) {
+            return '';
+        }
+        else if ($path !== null && $lang !== null) {
+            return sprintf("%s/%s/", $lang, $path);
+        }
+        else if ($lang === null) {
+            return sprintf("%s/", $path);
+        }
+        else {
+            return sprintf("%s/", $lang);
+        }
     }
 
     /**
@@ -221,45 +251,32 @@ class HTML {
     }
 
     /**
-     * Print or return the path or URL for a page. If $path is omitted, the
-     * path to the website root is returned (e.g. '/' or 'http://exampole.com/').
+     * Return the path or URL for a page. If $path is omitted, the path to the
+     * website root is returned (e.g. '/' or 'http://example.com/').
      *
      * @param string $path The path for the page (e.g. 'linux/screenshots').
-     * @param bool $return If true, the path is returned instead of printed.
-     * @param bool $base If true, the URL is returned instead of the relative
-     *      path (e.g. 'http://getgnulinux.org/linux/screenshots/').
      * @return string The path or URL of a page.
      */
-    function base_url($path=null, $return=false, $base=false) {
+    function get_base_url($path=null) {
         global $ggl;
 
-        $lang = $ggl->get('lang');
-        $url = $base ? $ggl->get('base_url') : "/";
+        $url = $ggl->get('base_url');
+        $locale_override = $ggl->get('locale_override');
 
-        # If the language is set in the URL, keep using it in links.
-        $lang_id = isset($_GET['l']) ? $_GET['l'] : null;
-        if ($lang_id && $lang_id === $lang) {
-            $url .= $lang.'/';
+        if ($locale_override !== null) {
+            # Add locale to the URL path.
+            $url .= sprintf('%s/', $locale_override);
         }
 
-        # Construct the URL.
-        if ($path) {
-            $elements = explode('#', $path);
-
-            if ( !empty($elements[0]) ) {
-                $url .= $elements[0].'/';
-            }
-
-            if ( count($elements) == 2 ) {
-                $url .= '#'.$elements[1];
-            }
+        if ($path !== null) {
+            $url .= $path;
         }
 
-        # Return or print the URL.
-        if ($return) {
-            return $url;
-        }
-        print $url;
+        return $url;
+    }
+
+    function base_url($path=null) {
+        print $this->get_base_url($path);
     }
 
     /**
@@ -271,7 +288,7 @@ class HTML {
     function url($file)
     {
         global $ggl;
-        print $ggl->get('base_url').$file;
+        printf("%s%s", $ggl->get('base_url'), $file);
     }
 
     /**
@@ -290,40 +307,5 @@ class HTML {
             $path = sprintf("/images/locale/en/%s", $filename);
         }
         return $path;
-    }
-
-    /**
-     * Print links to other languages.
-     *
-     * The links are printed as an inline summation list.
-     *
-     * @param array $locales A locales array.
-     * @uses GetGnuLinux $ggl
-     */
-    function language_links($locales) {
-        global $ggl;
-
-        $links = array();
-        foreach ($locales as $lang => $items) {
-            list($locale, $native) = $items;
-            $links[] = sprintf('<a href="/%s" hreflang="%s"><span dir="%s">%s</span></a>',
-                $this->current_page_url($lang),
-                $lang,
-                $ggl->langdir($lang),
-                $native);
-        }
-
-        for ($i=0; $i < count($links); $i++)
-        {
-            if ($i < count($links) - 2) {
-                print $links[$i] . ", ";
-            }
-            else if ($i == count($links) - 2) {
-                print $links[$i] . " and ";
-            }
-            else {
-                print $links[$i];
-            }
-        }
     }
 }

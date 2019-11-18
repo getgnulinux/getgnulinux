@@ -14,17 +14,23 @@ class Util
     }
 
     /**
-     * Return the absolute path if the path is valid, null otherwise.
+     * Return the absolute path if the path is valid, NULL otherwise.
      *
      * @param string $path A file path.
-     * @return string The absolute path, null if invalid path.
+     * @return string The safe canonicalized path, NULL if the path is invalid.
      */
-    static function fpath($path) {
-        $path = realpath($path);
-        if ($path === false || !self::startswith($path, ROOT)) {
+    static function safe_path($path) {
+        $real_path = realpath($path);
+
+        if ($real_path === false) {
             return null;
         }
-        return $path;
+
+        if (!self::startswith($real_path, ROOT)) {
+            return null;
+        }
+
+        return $real_path;
     }
 
     /**
