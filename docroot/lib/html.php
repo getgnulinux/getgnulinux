@@ -308,4 +308,46 @@ class HTML {
         }
         return $path;
     }
+
+    function link_alternate_tags() {
+        global $ggl;
+
+        $template = "<link rel=\"alternate\" type=\"text/html\" dir=\"%s\" hreflang=\"%s\" href=\"%s\">\n";
+
+        foreach ($ggl->get_locales('complete') as $lang => $v) {
+            printf(
+                $template,
+                $ggl->langdir($lang),
+                $lang,
+                $this->current_page_url($lang));
+        }
+    }
+
+    function og_tags() {
+        global $ggl;
+
+        $template = "<meta property=\"og:%s\" content=\"%s\">\n";
+        $properties = array(
+            'type' => 'website',
+            'site_name' => $ggl->get('website_title'),
+            'title' => $this->bare_page_title($ggl->get('website_title')),
+            'description' => $this->page_description(),
+            'url' => $this->current_page_url($ggl->get('locale_override')),
+        );
+
+        foreach ($properties as $property => $content) {
+            printf($template, $property, $content);
+        }
+
+        foreach ($ggl->get_locales('complete') as $lang => $locale_arr) {
+            $locale = explode('.', $locale_arr[0])[0];
+
+            if ($lang === $ggl->get('lang')) {
+                printf($template, 'locale', $locale);
+            }
+            else {
+                printf($template, 'locale:alternate', $locale);
+            }
+        }
+    }
 }

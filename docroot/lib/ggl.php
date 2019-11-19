@@ -213,11 +213,11 @@ class GGL {
 
         # Set page titles for <title> tags.
         $this->config['page_titles'] = array(
-            # translators: The title for the language selection page.
-            'select_language' => _("Select a language"),
-            # translators: The way you refer to a website's main page in your language.
-            'home' => _("Home"),
-            # translators: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
+            # translators: This is the title of the 'Credits' page.
+            'credits' => _("Credits"),
+            # translators: This is the title of the 'Legal terms' page.
+            'legal' => _("Terms of use"),
+            # translators: This is the title of the 'More' page.
             'more' => _("More"),
             # translators: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
             'linux' => _("What is GNU/Linux?"),

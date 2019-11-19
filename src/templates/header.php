@@ -1,19 +1,12 @@
 <!DOCTYPE html>
-<html lang="<?php $this->text('lang') ?>" dir="<?php $this->text('dir'); ?>">
+<html lang="<?php $this->text('lang') ?>" dir="<?php $this->text('dir'); ?>" prefix="og: http://ogp.me/ns#">
 <head>
   <meta charset="utf-8">
   <title><?php print $this->page_title(); ?></title>
   <meta name="description" content="<?php print $this->page_description(); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <?php
-  foreach ($ggl->get_locales('complete') as $lang => $v) {
-    printf("<link rel=\"alternate\" type=\"text/html\" dir=\"%s\" hreflang=\"%s\" href=\"%s\">\n",
-      $ggl->langdir($lang),
-      $lang,
-      $this->current_page_url($lang));
-  } ?>
-
+  <?php $this->og_tags(); ?>
+  <?php $this->link_alternate_tags(); ?>
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:700,400,300" media="all">
   <script src="https://use.fontawesome.com/8a60dcb41a.js"></script>
 
