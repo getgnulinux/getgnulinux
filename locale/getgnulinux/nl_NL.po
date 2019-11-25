@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/figure002/getgnulinux/issues\n"
-"POT-Creation-Date: 2019-11-12 22:10+0000\n"
-"PO-Revision-Date: 2019-11-12 22:14+0000\n"
+"POT-Creation-Date: 2019-11-19 23:23+0000\n"
+"PO-Revision-Date: 2019-11-19 23:26+0000\n"
 "Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
 "Language-Team: Dutch (Netherlands) (http://www.transifex.com/serrano/getgnulinux/language/nl_NL/)\n"
 "MIME-Version: 1.0\n"
@@ -25,47 +25,46 @@ msgstr ""
 
 #. translators: The name of the website. It is displayed in the header of each
 #. page.
-#: docroot/lib/ggl.php:207 docroot/lib/views/home.php:19
+#: docroot/lib/ggl.php:212 docroot/lib/views/home.php:19
 msgid "get GNU/Linux!"
 msgstr "get GNU/Linux!"
 
-#. translators: The title for the language selection page.
-#: docroot/lib/ggl.php:212
-msgid "Select a language"
-msgstr "Kies een taal"
+#. translators: This is the title of the 'Credits' page.
+#: docroot/lib/ggl.php:217 src/templates/footer.php:27
+msgid "Credits"
+msgstr "Credits"
 
-#. translators: The way you refer to a website's main page in your language.
-#: docroot/lib/ggl.php:214
-msgid "Home"
-msgstr "Home"
+#. translators: This is the title of the 'Legal terms' page.
+#: docroot/lib/ggl.php:219 src/templates/footer.php:26
+msgid "Terms of use"
+msgstr "Voorwaarden voor gebruik"
 
-#. translators: Try to be as concise and short as possible. This appears in
-#. the top header menu and must be easily readable.
-#: docroot/lib/ggl.php:216 docroot/lib/views/linux.linux_faq.php:257
+#. translators: This is the title of the 'More' page.
+#: docroot/lib/ggl.php:221 docroot/lib/views/linux.linux_faq.php:257
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:54
-#: docroot/lib/views/more.php:16 src/templates/header.php:78
+#: docroot/lib/views/more.php:16 src/templates/header.php:69
 #: src/templates/footer.php:37
 msgid "More"
 msgstr "Meer"
 
 #. translators: Try to be as concise and short as possible. This appears in
 #. the top header menu and must be easily readable.
-#: docroot/lib/ggl.php:218
+#: docroot/lib/ggl.php:223
 #: docroot/lib/views/linux.misunderstanding_free_software.php:173
 #: docroot/lib/views/home.php:31 docroot/lib/views/linux.linux_faq.php:266
-#: docroot/lib/views/linux.php:13 src/templates/header.php:69
+#: docroot/lib/views/linux.php:13 src/templates/header.php:60
 msgid "What is GNU/Linux?"
 msgstr "Wat is GNU/Linux?"
 
 #. translators: The term 'FAQ' may not be meaningful, or have an equivalent
 #. acronym in your language. If so, just skip the term.
-#: docroot/lib/ggl.php:220 docroot/lib/views/linux.php:51
+#: docroot/lib/ggl.php:225 docroot/lib/views/linux.php:51
 msgid "GNU/Linux FAQ - common questions about GNU/Linux"
 msgstr "GNU/Linux FAQ - veelgestelde vragen over GNU/Linux"
 
 #. translators: Here the intent is to be a little provocative. Exact
 #. translation is not required.
-#: docroot/lib/ggl.php:222 docroot/lib/ggl.php:285
+#: docroot/lib/ggl.php:227 docroot/lib/ggl.php:290
 #: docroot/lib/views/linux.misunderstanding_free_software.php:19
 #: docroot/lib/views/windows.stand_for_a_free_society.php:143
 #: docroot/lib/views/linux.linux_faq.php:98
@@ -75,74 +74,74 @@ msgid "How to Misunderstand Free Software"
 msgstr "Hoe je Vrije Software verkeerd kunt begrijpen"
 
 #. translators: This is the title of the 'Screenshots' page.
-#: docroot/lib/ggl.php:224
+#: docroot/lib/ggl.php:229
 msgid "What GNU/Linux looks like"
 msgstr "Hoe GNU/Linux eruit ziet"
 
 #. translators: If it makes sense in your language, do not formulate 'why not
 #. windows' as a question. This appears in the top header menu and should be
 #. as short and concise as possible.
-#: docroot/lib/ggl.php:226
-#: docroot/lib/views/windows.restrictions.further_details.php:79
+#: docroot/lib/ggl.php:231
+#: docroot/lib/views/windows.restrictions.further_details.php:82
 #: docroot/lib/views/windows.what_about_source_code.php:62
 #: docroot/lib/views/home.php:45
 #: docroot/lib/views/windows.stand_for_a_free_society.php:153
 #: docroot/lib/views/windows.restrictions.php:76
 #: docroot/lib/views/windows.php:16
 #: docroot/lib/views/windows.what_about_choice.php:68
-#: docroot/lib/views/linux.php:62 src/templates/header.php:72
+#: docroot/lib/views/linux.php:62 src/templates/header.php:63
 msgid "Why not Windows"
 msgstr "Waarom geen Windows"
 
 #. translators: This title can be translated loosely
-#: docroot/lib/ggl.php:228 docroot/lib/ggl.php:294
-#: docroot/lib/views/windows.restrictions.further_details.php:72
+#: docroot/lib/ggl.php:233 docroot/lib/ggl.php:299
+#: docroot/lib/views/windows.restrictions.further_details.php:75
 #: docroot/lib/views/windows.restrictions.php:20
 #: docroot/lib/views/windows.php:26
 msgid "Restrictions"
 msgstr "Beperkingen"
 
 #. translators: This title can be translated loosely
-#: docroot/lib/ggl.php:230
-#: docroot/lib/views/windows.restrictions.further_details.php:19
+#: docroot/lib/ggl.php:235
+#: docroot/lib/views/windows.restrictions.further_details.php:20
 msgid "More details on restrictions"
 msgstr "Meer details over beperkingen"
 
 #. translators: This title can be translated loosely
-#: docroot/lib/ggl.php:232 docroot/lib/ggl.php:297
+#: docroot/lib/ggl.php:237 docroot/lib/ggl.php:302
 #: docroot/lib/views/linux.linux_faq.php:194 docroot/lib/views/windows.php:50
 msgid "Stand for a free society"
 msgstr "Voor een vrije samenleving"
 
 #. translators: This title can be translated loosely
-#: docroot/lib/ggl.php:234 docroot/lib/ggl.php:295
+#: docroot/lib/ggl.php:239 docroot/lib/ggl.php:300
 #: docroot/lib/views/windows.php:35
 #: docroot/lib/views/windows.what_about_choice.php:20
 msgid "What about choice?"
 msgstr "Vrije keuze?"
 
 #. translators: This title can be translated loosely
-#: docroot/lib/ggl.php:236 docroot/lib/ggl.php:296
+#: docroot/lib/ggl.php:241 docroot/lib/ggl.php:301
 #: docroot/lib/views/windows.php:42
 msgid "No source code"
 msgstr "Geen broncode"
 
 #. translators: This appears in the top header menu and should be as short and
 #. concise as possible.
-#: docroot/lib/ggl.php:238 docroot/lib/views/switch_to_linux.php:15
+#: docroot/lib/ggl.php:243 docroot/lib/views/switch_to_linux.php:15
 #: docroot/lib/views/home.php:59 docroot/lib/views/windows.php:73
-#: docroot/lib/views/linux.php:76 src/templates/header.php:75
+#: docroot/lib/views/linux.php:76 src/templates/header.php:66
 msgid "Switch to GNU/Linux"
 msgstr "Overstappen naar GNU/Linux"
 
-#: docroot/lib/ggl.php:239 docroot/lib/ggl.php:290
+#: docroot/lib/ggl.php:244 docroot/lib/ggl.php:295
 #: docroot/lib/views/switch_to_linux.php:36
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:124
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:38
 msgid "Choose a distribution"
 msgstr "Kies een distributie"
 
-#: docroot/lib/ggl.php:240 docroot/lib/ggl.php:289
+#: docroot/lib/ggl.php:245 docroot/lib/ggl.php:294
 #: docroot/lib/views/switch_to_linux.php:21
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:20
 msgid "From Windows to GNU/Linux"
@@ -151,7 +150,7 @@ msgstr "Van Windows naar GNU/Linux"
 #. translators: This should be translated as if it was 'Try *and* install'. In
 #. English there was possible confusion (with 'try to install') but this was
 #. the intended title.
-#: docroot/lib/ggl.php:242 docroot/lib/ggl.php:291
+#: docroot/lib/ggl.php:247 docroot/lib/ggl.php:296
 #: docroot/lib/views/switch_to_linux.php:50
 #: docroot/lib/views/switch_to_linux.try_or_install.php:18
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:139
@@ -160,103 +159,103 @@ msgstr "Probeer en installeer"
 
 #. translators: The title for the custom "Page Not Found" page.
 #. translators: Title for the Page Not Found page.
-#: docroot/lib/ggl.php:244 docroot/lib/views/404.php:16
+#: docroot/lib/ggl.php:249 docroot/lib/views/404.php:16
 msgid "Page Not Found"
 msgstr "Pagina niet gevonden"
 
 #. translators: This is the description of the homepage, and it appears in
 #. Google results! Please pay particular attention to this one =)
-#: docroot/lib/ggl.php:250
+#: docroot/lib/ggl.php:255
 msgid ""
-"Get GNU/Linux! A simple, clear website about GNU/Linux. | What is GNU/Linux?"
-" | Why not Windows? | Tips to make the switch"
-msgstr "Get GNU/Linux! Een eenvoudige, duidelijke website over GNU/Linux. | Wat is GNU/Linux? | Waarom niet Windows? | Tips om de overstap te maken"
+"Get GNU/Linux! A simple, clear website about GNU/Linux. What is GNU/Linux? "
+"Why not Windows? Tips to make the switch."
+msgstr "Get GNU/Linux! Een eenvoudige, duidelijke website over GNU/Linux. Wat is GNU/Linux? Waarom niet Windows? Tips om de overstap te maken."
 
 #. translators: This is the description of the 'More' page
-#: docroot/lib/ggl.php:252
+#: docroot/lib/ggl.php:257
 msgid "Read and discover more about GNU/Linux."
 msgstr "Lees en ontdek meer over GNU/Linux."
 
 #. translators: This is the description of the 'Linux' page
-#: docroot/lib/ggl.php:254
+#: docroot/lib/ggl.php:259
 msgid "What is GNU/Linux? A clear explanation."
 msgstr "Wat is GNU/Linux? Een duidelijk antwoord."
 
 #. translators: This is the description of the 'GNU/Linux FAQ' page
-#: docroot/lib/ggl.php:256
+#: docroot/lib/ggl.php:261
 msgid "Frequently Asked Questions about GNU/Linux."
 msgstr "Veelgestelde vragen (FAQ) over GNU/Linux."
 
 #. translators: This is the description of the 'Misunderstanding Free
 #. Software' page
-#: docroot/lib/ggl.php:258
+#: docroot/lib/ggl.php:263
 msgid "An unconventional way to (re)discover free software."
 msgstr "Een onconventionele manier om vrije software te (her)ontdekken."
 
 #. translators: This is the description of the 'Screenshots' page
-#: docroot/lib/ggl.php:260
+#: docroot/lib/ggl.php:265
 msgid "A brief look at GNU/Linux in everyday use."
 msgstr "Een blik op GNU/Linux in het dagelijks gebruik."
 
 #. translators: This is the description of the 'Why not Windows' page
-#: docroot/lib/ggl.php:262
+#: docroot/lib/ggl.php:267
 msgid "Four good reasons to avoid proprietary software."
 msgstr "Vier goede redenen om propri&euml;taire software te vermijden."
 
 #. translators: This is the description of the 'Restrictions' page
-#: docroot/lib/ggl.php:264 docroot/lib/views/windows.php:31
+#: docroot/lib/ggl.php:269 docroot/lib/views/windows.php:31
 msgid "Restrictions in a proprietary software license."
 msgstr "Beperkingen in niet-vrije softwarelicenties."
 
 #. translators: This is the description of the 'Restrictions further details'
 #. page
-#: docroot/lib/ggl.php:266
+#: docroot/lib/ggl.php:271
 msgid "Restrictions in a proprietary software license - more details."
 msgstr "Beperkingen in niet-vrije softwarelicenties - meer details."
 
 #. translators: This is the description of the 'Stand for a free society' page
-#: docroot/lib/ggl.php:268 docroot/lib/views/windows.php:57
+#: docroot/lib/ggl.php:273 docroot/lib/views/windows.php:57
 msgid "How software affects freedom in society."
 msgstr "Het effect van software op vrijheid in de samenleving."
 
 #. translators: This is the description of the 'What about choice' page
-#: docroot/lib/ggl.php:270 docroot/lib/views/windows.php:38
+#: docroot/lib/ggl.php:275 docroot/lib/views/windows.php:38
 msgid "How Microsoft lock customers in."
 msgstr "Hoe Microsoft gebruikers opsluit."
 
 #. translators: This is the description of the 'What about source code' page
-#: docroot/lib/ggl.php:272 docroot/lib/views/windows.php:46
+#: docroot/lib/ggl.php:277 docroot/lib/views/windows.php:46
 msgid "No source code means no trust and no security."
 msgstr "Geen broncode impliceert geen vertrouwen en geen veiligheid."
 
 #. translators: This is the description of the 'Switch to GNU/Linux' page
-#: docroot/lib/ggl.php:274
+#: docroot/lib/ggl.php:279
 msgid "Switch to GNU/Linux: Good tips and advice."
 msgstr "Stap over naar GNU/Linux: Bruikbare tips en advies."
 
 #. translators: This is the description of the 'Choose a distribution' page
-#: docroot/lib/ggl.php:276
+#: docroot/lib/ggl.php:281
 msgid "Recommended GNU/Linux distributions for everyday users."
 msgstr "Aanbevolen GNU/Linux-distributies voor het dagelijks gebruik."
 
 #. translators: This is the description of the 'From Windows to GNU/Linux'
 #. page
-#: docroot/lib/ggl.php:278
+#: docroot/lib/ggl.php:283
 msgid "The advantages and disadvantages of GNU/Linux over Windows."
 msgstr "De voor- en nadelen van GNU/Linux ten opzichte van Windows."
 
 #. translators: This is the description of the 'Try or Install' page. This
 #. should be translated as if it was 'Try *and* install'. In English there was
 #. possible confusion (with 'try to install') but this was the intended title.
-#: docroot/lib/ggl.php:280
+#: docroot/lib/ggl.php:285
 msgid "Try or install GNU/Linux on your computer, very easily."
 msgstr "Probeer of installeer GNU/Linux op je computer; heel simpel."
 
-#: docroot/lib/ggl.php:286 docroot/lib/views/linux.linux_faq.php:14
+#: docroot/lib/ggl.php:291 docroot/lib/views/linux.linux_faq.php:14
 msgid "Frequently asked questions"
 msgstr "Veelgestelde vragen"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:20
+#: docroot/lib/views/windows.restrictions.further_details.php:23
 #, php-format
 msgid ""
 "We wished to keep our \"<a href=\"%s\">Restrictions</a>\" page short, so we "
@@ -264,11 +263,11 @@ msgid ""
 "inside the Microsoft licenses."
 msgstr "We wilden onze pagina met \"<a href=\"%s\">Beperkingen</a>\" kort houden en hebben daarom veel licentiebeperkingen hiernaartoe verhuisd.  Hier zijn de kleine lettertjes in de licenties van Microsoft."
 
-#: docroot/lib/views/windows.restrictions.further_details.php:24
+#: docroot/lib/views/windows.restrictions.further_details.php:27
 msgid "It is unclear who can use, receive or buy your software."
 msgstr "Het is onduidelijk wie jouw software kan gebruiken, ontvangen of kopen."
 
-#: docroot/lib/views/windows.restrictions.further_details.php:25
+#: docroot/lib/views/windows.restrictions.further_details.php:28
 msgid ""
 "The license is particularly unclear as to who may or may not use your "
 "version of Windows or Office. Several sentences in the Microsoft Office "
@@ -276,7 +275,7 @@ msgid ""
 " your version of Word on your computer."
 msgstr "De licentie is bijzonder onduidelijk over wie wel en niet jouw versie van Windows of Office mogen gebruiken.  Een aantal regels in de licentie van Microsoft Office suggereert dat het illegaal is om je buurman een brief te laten typen met jouw versie van Word op jouw computer."
 
-#: docroot/lib/views/windows.restrictions.further_details.php:26
+#: docroot/lib/views/windows.restrictions.further_details.php:29
 msgid ""
 "It is however clear in the Microsoft Windows license that you may "
 "<em>only</em> give or sell your copy of Windows software to anyone "
@@ -287,35 +286,35 @@ msgid ""
 "your new computer."
 msgstr "Het is in de Windows-licentie wel duidelijk dat je jouw versie van Windows <em>alleen</em> mag weggeven of verkopen <strong>als je zelf de eerste koper bent</strong>.  Dit betekent dat als jij de software koopt van de gebruiker die het van Microsoft heeft gekocht, dat <em>jij</em> de software dan niet meer mag weggeven of verkopen aan een ander, zelfs als jij het niet meer gebruikt en zelfs wanneer je zelf de meest recente softwareversie koopt voor je nieuwe computer."
 
-#: docroot/lib/views/windows.restrictions.further_details.php:29
+#: docroot/lib/views/windows.restrictions.further_details.php:32
 msgid ""
 "You may not lease, lend or provide commercial hosting services with the "
 "software"
 msgstr "Je mag de software niet leasen, uitlenen of er commerci&euml;le hosting-diensten mee aanbieden."
 
-#: docroot/lib/views/windows.restrictions.further_details.php:30
+#: docroot/lib/views/windows.restrictions.further_details.php:33
 msgid ""
 "You cannot let professional users use your software, whether they pay for "
 "the service or not, and whether you use a &quot;Professional&quot; license "
 "or not."
 msgstr "Je mag geen professionele gebruikers jouw software laten gebruiken, of zij nu wel of niet betalen voor de dienst, en of je nu een &quot;Professionele&quot; licentie hebt of niet."
 
-#: docroot/lib/views/windows.restrictions.further_details.php:33
+#: docroot/lib/views/windows.restrictions.further_details.php:36
 msgid "The upgrade is only valid for the first license you use it on"
 msgstr "De upgrade is alleen geldig voor de eerste licentie waarvoor je deze gebruikt"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:34
+#: docroot/lib/views/windows.restrictions.further_details.php:37
 msgid ""
 "If that original license expires (for example because the computer it came "
 "on stops working), so does the upgrade. If you purchase an upgrade, you are "
 "not allowed to use the original software version anymore."
 msgstr "Als die originele licentie verloopt (bijvoorbeeld doordat de computer waarvoor deze geldt niet meer werkt) verloopt de upgrade ook.  Als je een upgrade koopt mag je de originele softwareversie niet meer gebruiken."
 
-#: docroot/lib/views/windows.restrictions.further_details.php:37
+#: docroot/lib/views/windows.restrictions.further_details.php:40
 msgid "Educational versions are crippled"
 msgstr "Educatieve versies zijn ingeperkt"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:38
+#: docroot/lib/views/windows.restrictions.further_details.php:41
 msgid ""
 "If Microsoft accepts to define you as a student or an academic, you are "
 "allowed to buy an academic license, and install the software on three "
@@ -324,21 +323,21 @@ msgid ""
 "generating activities</em>\"."
 msgstr "Als Microsoft instemt jou als student of academicus te zien mag je een academische licentie kopen en de software op drie computers installeren.  Maar het is illegaal om het te gebruiken voor commerci&euml;le doeleinden \"<em>of voor welke zakelijke onderneming of winstgevende activiteiten dan ook</em>\"."
 
-#: docroot/lib/views/windows.restrictions.further_details.php:41
+#: docroot/lib/views/windows.restrictions.further_details.php:44
 msgid "The components of the software may not be separated"
 msgstr "De componenten van de software mogen niet worden gescheiden"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:42
+#: docroot/lib/views/windows.restrictions.further_details.php:45
 msgid ""
 "It is illegal to buy Microsoft Office, then install only Word on one "
 "computer, and only Excel on another. The Office suite is one single product."
 msgstr "Het is illegaal om Microsoft Office te kopen en vervolgens Word op een computer te installeren en Excel op een andere.  De Office suite is &euml;&euml;n product."
 
-#: docroot/lib/views/windows.restrictions.further_details.php:45
+#: docroot/lib/views/windows.restrictions.further_details.php:48
 msgid "Private information is collected"
 msgstr "Er wordt priv&euml;-informatie verzameld"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:46
+#: docroot/lib/views/windows.restrictions.further_details.php:49
 msgid ""
 "The licence explicitly states that \"Microsoft and its affiliates\" collect "
 "technical information gathered on your computer by the software. They "
@@ -346,7 +345,7 @@ msgid ""
 "customized services or technologies</em>\"."
 msgstr "De licentie stelt expliciet dat \"Microsoft en zijn partners\" technische informatie ophalen die door de software op jouw computer wordt verzameld.  Zij \"<em>mogen deze informatie slechts gebruiken om producten te verbeteren of diensten of technologi&euml;n op maat aan te bieden</em>\"."
 
-#: docroot/lib/views/windows.restrictions.further_details.php:47
+#: docroot/lib/views/windows.restrictions.further_details.php:50
 msgid ""
 "In order to activate most Microsoft products, as part of the license "
 "agreement, your computer connects to the Microsoft servers and sends "
@@ -354,7 +353,7 @@ msgid ""
 "pretty much anything."
 msgstr "Om de meeste Microsoft-producten te activeren maakt je computer, als onderdeel van de licentie-overeenkomst, contact met de servers van Microsoft en stuurt &quot;technische&quot; informatie.  Het kan &quot;slechts&quot; worden gebruikt voor vrijwel alles."
 
-#: docroot/lib/views/windows.restrictions.further_details.php:52
+#: docroot/lib/views/windows.restrictions.further_details.php:55
 #: docroot/lib/views/switch_to_linux.php:28
 #: docroot/lib/views/switch_to_linux.php:42
 #: docroot/lib/views/switch_to_linux.php:56 docroot/lib/views/home.php:35
@@ -372,29 +371,29 @@ msgstr "Lees meer"
 
 #. translators: gnu.org uses language negotiation, so it's not necessary to
 #. replace those URLs.
-#: docroot/lib/views/windows.restrictions.further_details.php:57
+#: docroot/lib/views/windows.restrictions.further_details.php:60
 msgid "https://www.gnu.org/copyleft/gpl.html"
 msgstr "https://www.gnu.org/copyleft/gpl.html"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:57
+#: docroot/lib/views/windows.restrictions.further_details.php:60
 msgid "The GNU General Public License"
 msgstr "De GNU General Public License"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:57
+#: docroot/lib/views/windows.restrictions.further_details.php:60
 msgid "The GPL"
 msgstr "De GPL"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:58
+#: docroot/lib/views/windows.restrictions.further_details.php:61
 msgid ""
 "The GNU General Public License, under which GNU/Linux and a vast amount of "
 "free software are published."
 msgstr "De GNU General Public License, de licentie waaronder GNU/Linux en een grote hoeveelheid vrije software zijn uitgebracht."
 
-#: docroot/lib/views/windows.restrictions.further_details.php:60
+#: docroot/lib/views/windows.restrictions.further_details.php:63
 msgid "Comparing the GPL to the Microsoft WinXP License"
 msgstr "Vergelijking van de GPL met de Microsoft WinXP licentie"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:61
+#: docroot/lib/views/windows.restrictions.further_details.php:64
 msgid ""
 "A thorough and clear comparison of the <abbr title=\"GNU General Public "
 "License\">GPL</abbr> and the Microsoft <abbr title=\"End-User License "
@@ -402,17 +401,17 @@ msgid ""
 "versions."
 msgstr "Een grondige en duidelijke vergelijking van de <abbr title=\"GNU General Public License\">GPL</abbr> en de Microsoft <abbr title=\"End-User License Agreement\">EULA</abbr> licentie die voor de meeste Windows XP versies geldt."
 
-#: docroot/lib/views/windows.restrictions.further_details.php:64
+#: docroot/lib/views/windows.restrictions.further_details.php:67
 #: docroot/lib/views/windows.stand_for_a_free_society.php:120
 msgid "https://www.gnu.org/philosophy/right-to-read.html"
 msgstr "https://www.gnu.org/philosophy/right-to-read.html"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:64
+#: docroot/lib/views/windows.restrictions.further_details.php:67
 #: docroot/lib/views/windows.stand_for_a_free_society.php:120
 msgid "The Right to Read"
 msgstr "Het Recht om te Lezen"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:65
+#: docroot/lib/views/windows.restrictions.further_details.php:68
 msgid ""
 "A short story by Richard Stallman that describes what influence restrictive "
 "licenses could have on our lives."
@@ -3098,14 +3097,6 @@ msgstr "Lees nieuws en updates."
 #: src/templates/footer.php:25
 msgid "Our blog"
 msgstr "Onze Blog"
-
-#: src/templates/footer.php:26
-msgid "Terms of use"
-msgstr "Voorwaarden voor gebruik"
-
-#: src/templates/footer.php:27
-msgid "Credits"
-msgstr "Credits"
 
 #: src/templates/footer.php:28
 msgid "Contact the authors."

@@ -26,8 +26,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/figure002/getgnulinux/issues\n"
-"POT-Creation-Date: 2019-11-12 22:10+0000\n"
-"PO-Revision-Date: 2019-11-13 03:19+0000\n"
+"POT-Creation-Date: 2019-11-19 23:23+0000\n"
+"PO-Revision-Date: 2019-11-20 02:50+0000\n"
 "Last-Translator: 黃柏諺 <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/serrano/getgnulinux/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -38,47 +38,46 @@ msgstr ""
 
 #. translators: The name of the website. It is displayed in the header of each
 #. page.
-#: docroot/lib/ggl.php:207 docroot/lib/views/home.php:19
+#: docroot/lib/ggl.php:212 docroot/lib/views/home.php:19
 msgid "get GNU/Linux!"
 msgstr "來用 GNU/Linux 吧！"
 
-#. translators: The title for the language selection page.
-#: docroot/lib/ggl.php:212
-msgid "Select a language"
-msgstr "選擇語言"
+#. translators: This is the title of the 'Credits' page.
+#: docroot/lib/ggl.php:217 src/templates/footer.php:27
+msgid "Credits"
+msgstr "感謝"
 
-#. translators: The way you refer to a website's main page in your language.
-#: docroot/lib/ggl.php:214
-msgid "Home"
-msgstr "首頁"
+#. translators: This is the title of the 'Legal terms' page.
+#: docroot/lib/ggl.php:219 src/templates/footer.php:26
+msgid "Terms of use"
+msgstr "使用條款"
 
-#. translators: Try to be as concise and short as possible. This appears in
-#. the top header menu and must be easily readable.
-#: docroot/lib/ggl.php:216 docroot/lib/views/linux.linux_faq.php:257
+#. translators: This is the title of the 'More' page.
+#: docroot/lib/ggl.php:221 docroot/lib/views/linux.linux_faq.php:257
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:54
-#: docroot/lib/views/more.php:16 src/templates/header.php:78
+#: docroot/lib/views/more.php:16 src/templates/header.php:69
 #: src/templates/footer.php:37
 msgid "More"
 msgstr "更多"
 
 #. translators: Try to be as concise and short as possible. This appears in
 #. the top header menu and must be easily readable.
-#: docroot/lib/ggl.php:218
+#: docroot/lib/ggl.php:223
 #: docroot/lib/views/linux.misunderstanding_free_software.php:173
 #: docroot/lib/views/home.php:31 docroot/lib/views/linux.linux_faq.php:266
-#: docroot/lib/views/linux.php:13 src/templates/header.php:69
+#: docroot/lib/views/linux.php:13 src/templates/header.php:60
 msgid "What is GNU/Linux?"
 msgstr "GNU/Linux 是什麼？"
 
 #. translators: The term 'FAQ' may not be meaningful, or have an equivalent
 #. acronym in your language. If so, just skip the term.
-#: docroot/lib/ggl.php:220 docroot/lib/views/linux.php:51
+#: docroot/lib/ggl.php:225 docroot/lib/views/linux.php:51
 msgid "GNU/Linux FAQ - common questions about GNU/Linux"
 msgstr "GNU/Linux FAQ - 關於 GNU/Linux 的常見問題"
 
 #. translators: Here the intent is to be a little provocative. Exact
 #. translation is not required.
-#: docroot/lib/ggl.php:222 docroot/lib/ggl.php:285
+#: docroot/lib/ggl.php:227 docroot/lib/ggl.php:290
 #: docroot/lib/views/linux.misunderstanding_free_software.php:19
 #: docroot/lib/views/windows.stand_for_a_free_society.php:143
 #: docroot/lib/views/linux.linux_faq.php:98
@@ -88,74 +87,74 @@ msgid "How to Misunderstand Free Software"
 msgstr "對自由軟體的常見誤解"
 
 #. translators: This is the title of the 'Screenshots' page.
-#: docroot/lib/ggl.php:224
+#: docroot/lib/ggl.php:229
 msgid "What GNU/Linux looks like"
 msgstr "揭開 GNU/Linux 的神祕面紗"
 
 #. translators: If it makes sense in your language, do not formulate 'why not
 #. windows' as a question. This appears in the top header menu and should be
 #. as short and concise as possible.
-#: docroot/lib/ggl.php:226
-#: docroot/lib/views/windows.restrictions.further_details.php:79
+#: docroot/lib/ggl.php:231
+#: docroot/lib/views/windows.restrictions.further_details.php:82
 #: docroot/lib/views/windows.what_about_source_code.php:62
 #: docroot/lib/views/home.php:45
 #: docroot/lib/views/windows.stand_for_a_free_society.php:153
 #: docroot/lib/views/windows.restrictions.php:76
 #: docroot/lib/views/windows.php:16
 #: docroot/lib/views/windows.what_about_choice.php:68
-#: docroot/lib/views/linux.php:62 src/templates/header.php:72
+#: docroot/lib/views/linux.php:62 src/templates/header.php:63
 msgid "Why not Windows"
 msgstr "為什麼不用 Windows"
 
 #. translators: This title can be translated loosely
-#: docroot/lib/ggl.php:228 docroot/lib/ggl.php:294
-#: docroot/lib/views/windows.restrictions.further_details.php:72
+#: docroot/lib/ggl.php:233 docroot/lib/ggl.php:299
+#: docroot/lib/views/windows.restrictions.further_details.php:75
 #: docroot/lib/views/windows.restrictions.php:20
 #: docroot/lib/views/windows.php:26
 msgid "Restrictions"
 msgstr "限制"
 
 #. translators: This title can be translated loosely
-#: docroot/lib/ggl.php:230
-#: docroot/lib/views/windows.restrictions.further_details.php:19
+#: docroot/lib/ggl.php:235
+#: docroot/lib/views/windows.restrictions.further_details.php:20
 msgid "More details on restrictions"
 msgstr "關於限制的更多細節"
 
 #. translators: This title can be translated loosely
-#: docroot/lib/ggl.php:232 docroot/lib/ggl.php:297
+#: docroot/lib/ggl.php:237 docroot/lib/ggl.php:302
 #: docroot/lib/views/linux.linux_faq.php:194 docroot/lib/views/windows.php:50
 msgid "Stand for a free society"
 msgstr "為了自由的社會"
 
 #. translators: This title can be translated loosely
-#: docroot/lib/ggl.php:234 docroot/lib/ggl.php:295
+#: docroot/lib/ggl.php:239 docroot/lib/ggl.php:300
 #: docroot/lib/views/windows.php:35
 #: docroot/lib/views/windows.what_about_choice.php:20
 msgid "What about choice?"
 msgstr "還有什麼選擇？"
 
 #. translators: This title can be translated loosely
-#: docroot/lib/ggl.php:236 docroot/lib/ggl.php:296
+#: docroot/lib/ggl.php:241 docroot/lib/ggl.php:301
 #: docroot/lib/views/windows.php:42
 msgid "No source code"
 msgstr "沒有源始程式碼"
 
 #. translators: This appears in the top header menu and should be as short and
 #. concise as possible.
-#: docroot/lib/ggl.php:238 docroot/lib/views/switch_to_linux.php:15
+#: docroot/lib/ggl.php:243 docroot/lib/views/switch_to_linux.php:15
 #: docroot/lib/views/home.php:59 docroot/lib/views/windows.php:73
-#: docroot/lib/views/linux.php:76 src/templates/header.php:75
+#: docroot/lib/views/linux.php:76 src/templates/header.php:66
 msgid "Switch to GNU/Linux"
 msgstr "投入 GNU/Linux 的懷抱"
 
-#: docroot/lib/ggl.php:239 docroot/lib/ggl.php:290
+#: docroot/lib/ggl.php:244 docroot/lib/ggl.php:295
 #: docroot/lib/views/switch_to_linux.php:36
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:124
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:38
 msgid "Choose a distribution"
 msgstr "選擇一套散布版"
 
-#: docroot/lib/ggl.php:240 docroot/lib/ggl.php:289
+#: docroot/lib/ggl.php:245 docroot/lib/ggl.php:294
 #: docroot/lib/views/switch_to_linux.php:21
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:20
 msgid "From Windows to GNU/Linux"
@@ -164,7 +163,7 @@ msgstr "從 Windows 到 GNU/Linux"
 #. translators: This should be translated as if it was 'Try *and* install'. In
 #. English there was possible confusion (with 'try to install') but this was
 #. the intended title.
-#: docroot/lib/ggl.php:242 docroot/lib/ggl.php:291
+#: docroot/lib/ggl.php:247 docroot/lib/ggl.php:296
 #: docroot/lib/views/switch_to_linux.php:50
 #: docroot/lib/views/switch_to_linux.try_or_install.php:18
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:139
@@ -173,103 +172,103 @@ msgstr "試用或安裝"
 
 #. translators: The title for the custom "Page Not Found" page.
 #. translators: Title for the Page Not Found page.
-#: docroot/lib/ggl.php:244 docroot/lib/views/404.php:16
+#: docroot/lib/ggl.php:249 docroot/lib/views/404.php:16
 msgid "Page Not Found"
 msgstr "找不到頁面"
 
 #. translators: This is the description of the homepage, and it appears in
 #. Google results! Please pay particular attention to this one =)
-#: docroot/lib/ggl.php:250
+#: docroot/lib/ggl.php:255
 msgid ""
-"Get GNU/Linux! A simple, clear website about GNU/Linux. | What is GNU/Linux?"
-" | Why not Windows? | Tips to make the switch"
-msgstr "《來用 GNU/Linux 吧！》是個簡單、明瞭、介紹 GNU/Linux 這種電腦作業系統的網站。| 什麼是 GNU/Linux？|為什麼不用 Windows？| 轉換跑道的小撇步"
+"Get GNU/Linux! A simple, clear website about GNU/Linux. What is GNU/Linux? "
+"Why not Windows? Tips to make the switch."
+msgstr "《來用 GNU/Linux 吧！》是個簡單、明瞭、介紹 GNU/Linux 這種電腦作業系統的網站。什麼是 GNU/Linux？為什麼不用 Windows？轉換跑道的小撇步。"
 
 #. translators: This is the description of the 'More' page
-#: docroot/lib/ggl.php:252
+#: docroot/lib/ggl.php:257
 msgid "Read and discover more about GNU/Linux."
 msgstr "閱讀與探索更多有關 GNU/Linux 的事。"
 
 #. translators: This is the description of the 'Linux' page
-#: docroot/lib/ggl.php:254
+#: docroot/lib/ggl.php:259
 msgid "What is GNU/Linux? A clear explanation."
 msgstr "什麼是 GNU/Linux？為您清楚解說。"
 
 #. translators: This is the description of the 'GNU/Linux FAQ' page
-#: docroot/lib/ggl.php:256
+#: docroot/lib/ggl.php:261
 msgid "Frequently Asked Questions about GNU/Linux."
 msgstr "關於 GNU/Linux 的常見問題與解答。"
 
 #. translators: This is the description of the 'Misunderstanding Free
 #. Software' page
-#: docroot/lib/ggl.php:258
+#: docroot/lib/ggl.php:263
 msgid "An unconventional way to (re)discover free software."
 msgstr "以不同尋常的方式（重新）探索自由軟體。"
 
 #. translators: This is the description of the 'Screenshots' page
-#: docroot/lib/ggl.php:260
+#: docroot/lib/ggl.php:265
 msgid "A brief look at GNU/Linux in everyday use."
 msgstr "關於每天使用 GNU/Linux 的簡要介紹。"
 
 #. translators: This is the description of the 'Why not Windows' page
-#: docroot/lib/ggl.php:262
+#: docroot/lib/ggl.php:267
 msgid "Four good reasons to avoid proprietary software."
 msgstr "四個避免使用專有軟體的好理由。"
 
 #. translators: This is the description of the 'Restrictions' page
-#: docroot/lib/ggl.php:264 docroot/lib/views/windows.php:31
+#: docroot/lib/ggl.php:269 docroot/lib/views/windows.php:31
 msgid "Restrictions in a proprietary software license."
 msgstr "專有軟體授權條款的限制。"
 
 #. translators: This is the description of the 'Restrictions further details'
 #. page
-#: docroot/lib/ggl.php:266
+#: docroot/lib/ggl.php:271
 msgid "Restrictions in a proprietary software license - more details."
 msgstr "專有軟體授權條款的限制 ─ 更多細節。"
 
 #. translators: This is the description of the 'Stand for a free society' page
-#: docroot/lib/ggl.php:268 docroot/lib/views/windows.php:57
+#: docroot/lib/ggl.php:273 docroot/lib/views/windows.php:57
 msgid "How software affects freedom in society."
 msgstr "軟體如何影響社會上的自由。"
 
 #. translators: This is the description of the 'What about choice' page
-#: docroot/lib/ggl.php:270 docroot/lib/views/windows.php:38
+#: docroot/lib/ggl.php:275 docroot/lib/views/windows.php:38
 msgid "How Microsoft lock customers in."
 msgstr "微軟如何套牢他們的顧客。"
 
 #. translators: This is the description of the 'What about source code' page
-#: docroot/lib/ggl.php:272 docroot/lib/views/windows.php:46
+#: docroot/lib/ggl.php:277 docroot/lib/views/windows.php:46
 msgid "No source code means no trust and no security."
 msgstr "沒有源始程式碼意味著不可信任以及不安全。"
 
 #. translators: This is the description of the 'Switch to GNU/Linux' page
-#: docroot/lib/ggl.php:274
+#: docroot/lib/ggl.php:279
 msgid "Switch to GNU/Linux: Good tips and advice."
 msgstr "擁抱 GNU/Linux：好用的提示及中肯的建議。"
 
 #. translators: This is the description of the 'Choose a distribution' page
-#: docroot/lib/ggl.php:276
+#: docroot/lib/ggl.php:281
 msgid "Recommended GNU/Linux distributions for everyday users."
 msgstr "推薦給日常使用的 GNU/Linux 散佈版。"
 
 #. translators: This is the description of the 'From Windows to GNU/Linux'
 #. page
-#: docroot/lib/ggl.php:278
+#: docroot/lib/ggl.php:283
 msgid "The advantages and disadvantages of GNU/Linux over Windows."
 msgstr "與 Windows 相比，GNU/Linux 的優點與缺點為何。"
 
 #. translators: This is the description of the 'Try or Install' page. This
 #. should be translated as if it was 'Try *and* install'. In English there was
 #. possible confusion (with 'try to install') but this was the intended title.
-#: docroot/lib/ggl.php:280
+#: docroot/lib/ggl.php:285
 msgid "Try or install GNU/Linux on your computer, very easily."
 msgstr "在你的電腦上試用或安裝 GNU/Linux 非常容易。"
 
-#: docroot/lib/ggl.php:286 docroot/lib/views/linux.linux_faq.php:14
+#: docroot/lib/ggl.php:291 docroot/lib/views/linux.linux_faq.php:14
 msgid "Frequently asked questions"
 msgstr "常見問題與解答"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:20
+#: docroot/lib/views/windows.restrictions.further_details.php:23
 #, php-format
 msgid ""
 "We wished to keep our \"<a href=\"%s\">Restrictions</a>\" page short, so we "
@@ -277,11 +276,11 @@ msgid ""
 "inside the Microsoft licenses."
 msgstr "我們希望讓這份〈<a href=\"%s\">限制</a>〉頁面儘可能簡短，所以我們把大多數的授權條款限制移到這裡來。這些是微軟授權條款的完整細節。"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:24
+#: docroot/lib/views/windows.restrictions.further_details.php:27
 msgid "It is unclear who can use, receive or buy your software."
 msgstr "授權條款對於誰可以使用、收受、或是購買你的軟體並沒有說明清楚。"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:25
+#: docroot/lib/views/windows.restrictions.further_details.php:28
 msgid ""
 "The license is particularly unclear as to who may or may not use your "
 "version of Windows or Office. Several sentences in the Microsoft Office "
@@ -289,7 +288,7 @@ msgid ""
 " your version of Word on your computer."
 msgstr "這個授權條款尤其在說明誰可以使用、或不可以使用你的 Windows 或 Office 時更含混不清。微軟 Office 授權條款中的幾句話暗示若你的鄰居使用你電腦上的 Office 來寫一封信是違法的。"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:26
+#: docroot/lib/views/windows.restrictions.further_details.php:29
 msgid ""
 "It is however clear in the Microsoft Windows license that you may "
 "<em>only</em> give or sell your copy of Windows software to anyone "
@@ -300,35 +299,35 @@ msgid ""
 "your new computer."
 msgstr "然而，微軟 Windows 的授權條款中指明<em>只有</em>在<strong>你是這份 Windows 授權的第一任買主</strong>的情況下，你才可以將你所購買的 Windows 軟體副本轉送或販賣給其他人。這也就意味著，如果你的 Windows 是從其他已經向微軟購買過這份軟體的人買來的，或是作業系統是預裝在電腦中，那麼<em>你</em>就無法再轉賣或轉送給其他人，即使你已經不再使用它，甚至你也為新電腦買了之後的軟體版本也是一樣。"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:29
+#: docroot/lib/views/windows.restrictions.further_details.php:32
 msgid ""
 "You may not lease, lend or provide commercial hosting services with the "
 "software"
 msgstr "你不能出租、出借這套軟體，或是用它來進行商業代管服務"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:30
+#: docroot/lib/views/windows.restrictions.further_details.php:33
 msgid ""
 "You cannot let professional users use your software, whether they pay for "
 "the service or not, and whether you use a &quot;Professional&quot; license "
 "or not."
 msgstr "你不能讓其他專業人士使用你購買的軟體，無論他們是否購買過，也不論你是否購買的是不是「專業版」(Professional) 授權。"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:33
+#: docroot/lib/views/windows.restrictions.further_details.php:36
 msgid "The upgrade is only valid for the first license you use it on"
 msgstr "你只能在第一臺使用這份軟體授權的機器上升級作業系統"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:34
+#: docroot/lib/views/windows.restrictions.further_details.php:37
 msgid ""
 "If that original license expires (for example because the computer it came "
 "on stops working), so does the upgrade. If you purchase an upgrade, you are "
 "not allowed to use the original software version anymore."
 msgstr "如果你原來的授權失效（例如：你的電腦壞了停止運作），那麼你也將失去你的作業系統升級資格。如果你購買了升級版並升級，那麼就再也不能使用原來的舊版軟體。"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:37
+#: docroot/lib/views/windows.restrictions.further_details.php:40
 msgid "Educational versions are crippled"
 msgstr "殘廢的教育版"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:38
+#: docroot/lib/views/windows.restrictions.further_details.php:41
 msgid ""
 "If Microsoft accepts to define you as a student or an academic, you are "
 "allowed to buy an academic license, and install the software on three "
@@ -337,21 +336,21 @@ msgid ""
 "generating activities</em>\"."
 msgstr "如果微軟承認你是位學生或是研究學者，你才會被允許購買教育學術授權，並安裝到最多 3 臺電腦上。但任何商業用途、「<em>或是一切與營利企業或營收行為相關之活動</em>」都是違法的。"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:41
+#: docroot/lib/views/windows.restrictions.further_details.php:44
 msgid "The components of the software may not be separated"
 msgstr "軟體組件不能分離"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:42
+#: docroot/lib/views/windows.restrictions.further_details.php:45
 msgid ""
 "It is illegal to buy Microsoft Office, then install only Word on one "
 "computer, and only Excel on another. The Office suite is one single product."
 msgstr "購買微軟 Office，然後在一臺電腦上只安裝 Word、另外一臺電腦上只安裝 Excel，那麼你可能會被告上法院。微軟的辦公套裝軟體是一個單一產品。"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:45
+#: docroot/lib/views/windows.restrictions.further_details.php:48
 msgid "Private information is collected"
 msgstr "收集隱私資訊"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:46
+#: docroot/lib/views/windows.restrictions.further_details.php:49
 msgid ""
 "The licence explicitly states that \"Microsoft and its affiliates\" collect "
 "technical information gathered on your computer by the software. They "
@@ -359,7 +358,7 @@ msgid ""
 "customized services or technologies</em>\"."
 msgstr "授權條款上明載：「微軟及其分支機構」可以透過你的電腦來收集技術資訊。他們「<em>僅將此類資訊用於改進產品，及提供個人化的服務或技術支援</em>」。"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:47
+#: docroot/lib/views/windows.restrictions.further_details.php:50
 msgid ""
 "In order to activate most Microsoft products, as part of the license "
 "agreement, your computer connects to the Microsoft servers and sends "
@@ -367,7 +366,7 @@ msgid ""
 "pretty much anything."
 msgstr "授權條款的其中一部份提到，若要啟動微軟的產品，你的電腦必須連接到微軟的伺服器並送出「技術」資訊。這些資訊「僅只」會用在許多事情上。"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:52
+#: docroot/lib/views/windows.restrictions.further_details.php:55
 #: docroot/lib/views/switch_to_linux.php:28
 #: docroot/lib/views/switch_to_linux.php:42
 #: docroot/lib/views/switch_to_linux.php:56 docroot/lib/views/home.php:35
@@ -385,29 +384,29 @@ msgstr "深入瞭解"
 
 #. translators: gnu.org uses language negotiation, so it's not necessary to
 #. replace those URLs.
-#: docroot/lib/views/windows.restrictions.further_details.php:57
+#: docroot/lib/views/windows.restrictions.further_details.php:60
 msgid "https://www.gnu.org/copyleft/gpl.html"
 msgstr "https://www.gnu.org/copyleft/gpl.html"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:57
+#: docroot/lib/views/windows.restrictions.further_details.php:60
 msgid "The GNU General Public License"
 msgstr "GNU 通用公眾授權條款"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:57
+#: docroot/lib/views/windows.restrictions.further_details.php:60
 msgid "The GPL"
 msgstr "GPL"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:58
+#: docroot/lib/views/windows.restrictions.further_details.php:61
 msgid ""
 "The GNU General Public License, under which GNU/Linux and a vast amount of "
 "free software are published."
 msgstr "GNU 通用公眾授權條款，GNU/Linux 及大量自由軟體採用的發行條款。"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:60
+#: docroot/lib/views/windows.restrictions.further_details.php:63
 msgid "Comparing the GPL to the Microsoft WinXP License"
 msgstr "GPL 與 Microsoft WinXP License 條款的比較"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:61
+#: docroot/lib/views/windows.restrictions.further_details.php:64
 msgid ""
 "A thorough and clear comparison of the <abbr title=\"GNU General Public "
 "License\">GPL</abbr> and the Microsoft <abbr title=\"End-User License "
@@ -415,17 +414,17 @@ msgid ""
 "versions."
 msgstr "一份完整且清楚的 <abbr title=\"GNU General Public License\">GPL</abbr> 與微軟 <abbr title=\"End-User License Agreement\">EULA</abbr> 授權條款（用於大多數的 Windows XP 系統上）的比較。"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:64
+#: docroot/lib/views/windows.restrictions.further_details.php:67
 #: docroot/lib/views/windows.stand_for_a_free_society.php:120
 msgid "https://www.gnu.org/philosophy/right-to-read.html"
 msgstr "https://www.gnu.org/philosophy/right-to-read.html"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:64
+#: docroot/lib/views/windows.restrictions.further_details.php:67
 #: docroot/lib/views/windows.stand_for_a_free_society.php:120
 msgid "The Right to Read"
 msgstr "閱讀的權利"
 
-#: docroot/lib/views/windows.restrictions.further_details.php:65
+#: docroot/lib/views/windows.restrictions.further_details.php:68
 msgid ""
 "A short story by Richard Stallman that describes what influence restrictive "
 "licenses could have on our lives."
@@ -3111,14 +3110,6 @@ msgstr "閱讀更多新聞與消息。"
 #: src/templates/footer.php:25
 msgid "Our blog"
 msgstr "我們的網誌"
-
-#: src/templates/footer.php:26
-msgid "Terms of use"
-msgstr "使用條款"
-
-#: src/templates/footer.php:27
-msgid "Credits"
-msgstr "感謝"
 
 #: src/templates/footer.php:28
 msgid "Contact the authors."
