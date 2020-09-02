@@ -18,6 +18,17 @@ Start the build environment with:
 
     docker/dev.sh
 
+This should open a Bash shell inside the Docker container. Inside the
+container, activate the development shell with:
+
+    . scripts/activate
+
+With the development shell active, you can run `gulp` commands.
+
+To build the website, run:
+
+    make && gulp build
+
 Start the web server in a separate terminal:
 
     docker/start.sh
