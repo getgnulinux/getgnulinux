@@ -27,7 +27,7 @@ With the development shell active, you can run `gulp` commands.
 
 To build the website, run:
 
-    make && gulp build
+    make && gulp develop
 
 Start the web server in a separate terminal:
 

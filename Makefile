@@ -12,7 +12,7 @@ xgettext_flags = -caiF --add-comments=translators --force-po \
 --copyright-holder="Get GNU/Linux!" \
 --package-name="getgnulinux" \
 --package-version=1 \
---msgid-bugs-address="https://github.com/figure002/getgnulinux/issues" \
+--msgid-bugs-address="https://github.com/getgnulinux/getgnulinux/issues" \
 --from-code=UTF-8 -k_
 
 .PHONY : getgnulinux

@@ -1,5 +1,5 @@
 IMPORT_DIR=import
-IMPORT_ZIP=serrano_getgnulinux_getgnulinuxpot_translated.zip
+IMPORT_ZIP=serrano_getgnulinux_getgnulinuxpot.zip
 IMPORT_PREFIX=getgnulinuxpot_
 DOMAIN=getgnulinux
 
@@ -38,6 +38,7 @@ all: \
 	$(DOMAIN)/pt_PT.po \
 	$(DOMAIN)/ru_RU.po \
 	$(DOMAIN)/si_LK.po \
+	$(DOMAIN)/sl_SI.po \
 	$(DOMAIN)/sr_RS.po \
 	$(DOMAIN)/sv_SE.po \
 	$(DOMAIN)/tr_TR.po \

@@ -74,6 +74,7 @@ class GGL {
         'pt-br' => array('pt_BR.UTF-8', "Português Brasileiro"),
         'ru' => array('ru_RU.UTF-8',    "Русский"),
         'si' => array('si_LK.UTF-8',    "සිංහල"),
+        'sl' => array('sl_SI.UTF-8',    "slovenski jezik"),
         'sr' => array('sr_RS.UTF-8',    "Српски"),
         'sv' => array('sv_SE.UTF-8',    "Svenska"),
         'tr' => array('tr_TR.UTF-8',    "Türkçe"),
@@ -92,6 +93,7 @@ class GGL {
     private static $locales_complete = array(
         'en',
         'fr',
+        'ia',
         'nl',
         'pt-br',
         'zh-tw',
