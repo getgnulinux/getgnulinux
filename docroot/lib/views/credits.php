@@ -25,7 +25,7 @@ $this->load_header();
     <p>Most graphics on this website are either copied from or derived from the following sources, according to their respective copyright licenses:</p>
 
     <ul>
-      <li>Background patterns by <a href="https://subtlepatterns.com/" rel="external">Subtle Patterns</a>, <abbr title="Creative Commons">CC</abbr> <abbr title="Attribution, Share Alike">BY-SA</abbr> license.</li>
+      <li>Background patterns by <a href="https://www.toptal.com/designers/subtlepatterns/" rel="external">Subtle Patterns</a>, <abbr title="Creative Commons">CC</abbr> <abbr title="Attribution, Share Alike">BY-SA</abbr> license.</li>
       <li><a href="https://openclipart.org/" rel="external">OpenClipart</a> material, released to the Public Domain;</li>
       <li><a href="http://tango.freedesktop.org/Tango_Icon_Library" rel="external">Tango icons</a> by the <a href="http://tango.freedesktop.org/Tango_Desktop_Project" rel="external">Tango Desktop Project</a>, released to the Public Domain.</li>
       <li><a href="https://www.gnu.org/gnu30/" rel="external">The GNU 30th banner</a> by the Free Software Foundation, <abbr title="Creative Commons">CC</abbr> <abbr title="Attribution, Share Alike">BY-SA</abbr> 2.0 license;</li>
