@@ -3,7 +3,7 @@
  *  Copyright 2006-2008, GNU/Linux Matters <http://www.gnulinuxmatters.org/>
  *  Copyright 2011-2015 GetGNULinux.org contributors <http://getgnulinux.org/credits/>
  *
- *  This file is part of Get GNU/Linux! <https://github.com/figure002/getgnulinux>
+ *  This file is part of Get GNU/Linux! <https://github.com/getgnulinux/getgnulinux>
  *
  *  GGL is free software: you can redistribute it and/or modify it under
  *  the terms of the GNU Affero General Public License as published by the

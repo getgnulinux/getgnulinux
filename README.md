@@ -39,17 +39,18 @@ The website should now be accessible at <http://localhost:1337/>.
 ## Contributing
 
 If you wish to contribute to this website, please [fork it on
-GitHub](https://github.com/figure002/getgnulinux), push your change to a named
-branch, then send me a pull request.
+GitHub](https://github.com/getgnulinux/getgnulinux), push your change to a
+named branch, then send us a pull request.
 
 You can also help us reach an audience in your language. With
 [Transifex](https://www.transifex.com/serrano/getgnulinux/), you can help
 translate the website into your own language. Please see our [translation
-guidelines](https://blog.getgnulinux.org/participate/translation/) for more
-information.
+guidelines](https://community.getgnulinux.org/t/translation-guidelines/15) for
+more information.
 
-Also see the [Participate](https://blog.getgnulinux.org/participate/) page on
-our blog for more ways you can help.
+Also see [our community
+forum](https://community.getgnulinux.org/t/help-improve-getgnulinux-org/12)
+for more ways you can help.
 
 
 ## License
