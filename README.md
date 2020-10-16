@@ -45,8 +45,8 @@ named branch, then send us a pull request.
 You can also help us reach an audience in your language. With
 [Transifex](https://www.transifex.com/serrano/getgnulinux/), you can help
 translate the website into your own language. Please see our [translation
-guidelines](https://community.getgnulinux.org/t/translation-guidelines/15) for
-more information.
+guidelines](https://community.getgnulinux.org/t/about-the-translation-category/17)
+for more information.
 
 Also see [our community
 forum](https://community.getgnulinux.org/t/help-improve-getgnulinux-org/12)
