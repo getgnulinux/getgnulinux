@@ -29,30 +29,30 @@ $this->load_header();
 
         <h3><?php
         # translators: please note the punctuation should be consistent
-        print _("It's free"); ?></h3>
+        print _("It respects its users"); ?></h3>
         <p><?php
         # translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
-        print _("Unlike Windows, GNU/Linux is <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title=\"What does Free Software mean?\" rel=\"external\">free software</a> &ndash; free as in freedom. Install it on all computers and make copies for your friends! You can even study it, transform it as you please, or build and sell your own distribution."); ?></p>
+        print _("Unlike Windows, GNU/Linux is <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title=\"What does Free Software mean?\" rel=\"external\">free software</a>&mdash;free as in freedom. Which means the software obeys your commands. There is no higher authority which prohibits you actions that are physically possible&mdash;for example saving a copy of a video. You are allowed to install free software on all your computers and make copies for your friends! You can even study the sourcecode, modify it as you please, and sell the original or the modified version at any price."); ?></p>
 
-        <h3><?php print _("Programs"); ?></h3>
-        <p><?php print _("There are a wealth of free applications available at no cost under GNU/Linux. To edit professional documents, burn music CDs, rework photos, design a website, or organise music; there's no need for $200 software with restrictive licenses."); ?></p>
-        <p><?php print _("The internal installer makes it incredibly easy to find, install and remove programs."); ?></p>
-        <p><?php print _("It's also safe: you can forget the demo/trial crippled software, or harmful freeware polluting the web."); ?></p>
+        <h3><?php print _("Information at your fingertips"); ?></h3>
+        <p><?php print _("There is a wealth of applications available under GNU/Linux for tasks like editing professional documents, setting up a cloud, reworking and organising photos, designing and running a website. In general those apps seem more solid and deliver better results than their proprietary counterparts."); ?></p>
+        <p><?php print _("The built-in app store of the software distribution you chose makes it incredibly easy to find, install and remove programs."); ?></p>
+        <p><?php print _("It's also safe: since the sourcecode is available to the users it's far more unlikely that malware is introduced into free software. Also free software tends to use standard file formats which helps not only for exchanging data with others but also to access old data with new programs in the future."); ?></p>
 
         <h3 id="no_fighting"><?php print _("No fighting"); ?></h3>
-        <p><?php print _("Keeping your computer in shape over time needn't be a struggle. One year on, GNU/Linux runs just as fast as the first day. And it may bring your old PC back to life."); ?></p>
-        <p><?php print _("Also, GNU/Linux lets you choose what you want and what you don't. If you had a hard time getting rid of Internet Explorer, Windows Media Player, or adware and web browser toolbars, you'll find it refreshing."); ?></p>
+        <p><?php print _("Keeping your computer in shape over time doesn't need to be a struggle. One year on, GNU/Linux runs just as fast as the first day. And it may bring your old laptop back to life."); ?></p>
+        <p><?php print _("It should be noted that GNU/Linux lets you choose what you want and what you don't want. If you had a hard time getting rid of Microsoft Edge or adware and web browser toolbars, you'll find it refreshing."); ?></p>
 
         <h3 id="security"><?php print _("Security"); ?></h3>
         <p><?php print _("Forget expensive and restrictive anti-virus, anti-spyware, anti-anything and anti-everything. GNU/Linux is very, very secure."); ?></p>
-        <p><?php # translators: If you don't know of a link replacement in your languge, just leave the link as it is
-        print _("It is often difficult for Windows users to believe that there are <em>no spyware nor viruses</em> under GNU/Linux &mdash; <a href=\"http://linuxmafia.com/~rick/faq/#virus\" rel=\"external\">but it's true</a>. Malicious programs have a hard time doing anything at all in a well-built system."); ?></p>
-        <p><?php print _("Regular, easy software updates will keep everyone entirely safe."); ?></p>
+        <p><?php # translators: If you don't know of a link replacement in your language, just leave the link as it is
+        print _("It is often difficult for Windows users to believe that there are <em>no spyware nor viruses</em> under GNU/Linux&mdash;<a href=\"http://linuxmafia.com/~rick/faq/#virus\" rel=\"external\">but it's true</a>. Malicious programs have a hard time doing anything at all in a well-built system. No free (i.e. freedom respecting) application is &ldquo;phoning home&rdquo; if you didn't allow it."); ?></p>
+        <p><?php print _("Regular and easy software updates of GNU/Linux distributions keep everyone safe."); ?></p>
 
         <h3 id="support"><?php print _("Support"); ?></h3>
         <p><?php # translators: The first %s represents the URL to the "More" page and seconds %s represents the title of the page "More" in your language
         $p = _("GNU/Linux benefits from a great sense of community whose friendliness will surprise you. If you try to do something complicated but can't succeed, there are a lot of people around to help you out. Our \"<a href=\"%s\">%s</a>\" page gives a few pointers."); printf($p, $this->get_base_url('more'), _("More")); ?></p>
-        <p><?php print _("The companies behind the main GNU/Linux distributions, such as <a href=\"https://www.canonical.com/\" rel=\"external\">Canonical</a> and <a href=\"https://www.redhat.com/\" rel=\"external\">Red Hat</a>, also provide expert commercial support."); ?></p>
+        <p><?php print _("The companies behind the main GNU/Linux distributions, such as <a href=\"https://www.debian.org/consultants/\" rel=\"external\">Debian</a> and <a href=\"https://www.redhat.com/\" rel=\"external\">Red Hat</a>, also provide expert commercial support."); ?></p>
       </section>
 
       <section>
@@ -61,21 +61,23 @@ $this->load_header();
 
         <h3><?php print _("General set-up"); ?></h3>
         <p><?php print _("If you still believe GNU/Linux is controlled with code and command-line, you should update your views!"); ?></p>
-        <p><?php print _("Just like Windows, GNU/Linux has to boot when you switch your computer on, and then you use programs in it to do different things. The taskbar and layout of applications will feel familiar to Windows or macOS users."); ?></p>
+        <p><?php print _("Just like Windows, GNU/Linux boots up when you switch your computer on, and then you use programs in it to do different things. The taskbar and layout of applications will feel familiar to Windows and macOS users."); ?></p>
 
         <h3><?php print _("Web browsing and common tasks"); ?></h3>
         <p><?php # translators: use localized Firefox landing page if possible
-          print _("The Web looks just the same when viewed with GNU/Linux (in fact you can browse the Web with the same program if you already use <a href=\"https://www.getfirefox.com/\" rel=\"external\">Firefox</a> or <a href=\"https://www.google.com/chrome/\" rel=\"external\">Google Chrome</a>). And of course, you can go through your picture and music collection all the same. Files and folders are navigated with a file manager like Windows Explorer."); ?></p>
+          print _("The Web looks just the same when viewed with GNU/Linux. And of course you can go through your picture and music collection all the same. Files and folders are navigated with a file manager such as File Explorer."); ?></p>
+        <p><?php print _("In fact you can browse the Web with the same program if you already use <a href=\"https://www.getfirefox.com/\" rel=\"external\">Firefox</a> or <a href=\"https://www.google.com/chrome/\" rel=\"external\">Google Chrome</a>. Or alternatively you can choose variants of those programs which are even more free: <a href=\"https://www.gnu.org/software/gnuzilla/\" rel=\"external\">GNU IceCat</a> and <a href=\"https://www.chromium.org/Home\" rel=\"external\">Chromium</a>".); ?></p>
       </section>
 
       <section>
         <h2 id="whats_not_as_good"><?php print _("What is not as good in GNU/Linux"); ?></h2>
 
         <h3><?php print _("Driver support"); ?></h3>
-        <p><?php print _("Manufacturers of computer hardware don't always (yet) release drivers for GNU/Linux or publicize full specifications."); ?></p>
-        <p><?php print _("So, drivers are sometimes unavailable for the most recent high-end graphics cards &mdash; some are reverse-engineered from Windows drivers by volunteers. Some are also released free of charge, but under restrictive licenses."); ?></p>
+        <p><?php print _("Manufacturers of computer hardware don't always (yet) release free drivers for GNU/Linux or publicize full specifications."); ?></p>
+        <p><?php print _("So, drivers are sometimes unavailable for the most recent high-end graphics cards&mdash;some are reverse-engineered from Windows drivers by volunteers. Some manufacturers offer proprietary drivers for GNU/Linux which might work with the current kernel version but it results in that your operating system is not free anymore and it might brake with any update."); ?></p>
         <p><?php print _("Sadly, the same problem occurs with many low-end WiFi cards."); ?></p>
         <p><?php print _("However, the vast majority of computers with standard hardware work out of the box with main GNU/Linux distributions. Common hardware such as USB keys or photo cameras never are a problem."); ?></p>
+        <p><?php print _("The easiest way to get a GNU/Linux system running is to purchase a computer (i.e. phone, tablet, laptop, workstation) <a href="<?php $this->base_url('switch_to_linux/try_or_install'); ?>#free_software_pre_installed"><?php print _("with GNU/Linux pre-installed"); ?></a>."); ?></p>
 
         <h3><?php print _("DVDs, restricted formats"); ?></h3>
         <p><?php print _("Many multimedia formats in use are proprietary and not openly specified; this means, broadly speaking, that GNU/Linux programmers have to find out how to read them without any help from the format designers."); ?></p>
@@ -114,7 +116,7 @@ $this->load_header();
             <?php print _("It's fun! Not having to worry about spyware, viruses, program registrations, demos that expire, or finding software that is really free as in freedom, makes using a computer suddenly very enjoyable."); ?>
           </li>
         </ul>
-        <p><?php print _("We hope you'll switch soon. There's a large community waiting, and no one in it asking you to &quot;sign up, purchase and register&quot;."); ?></p>
+        <p><?php print _("We hope you'll switch soon. There's a large community waiting, and no one in it asking you to &ldquo;sign up&rdquo;, &ldquo;purchase&rdquo; or &ldquo;register&rdquo;."); ?></p>
       </section>
     </div>
   </article>
