@@ -9,10 +9,8 @@ about free software and barely remotely heard the word "Linux".
 
 ## Quick start
 
-You can use Docker to setup a local build and test environment. On a Debian or
-Debian-based system, you can install Docker with:
-
-    apt-get install docker.io docker-compose
+You can use Docker to setup a local build and test environment. You will first
+need to install the Docker engine: <https://docs.docker.com/engine/install/>
 
 Start the build environment with:
 
