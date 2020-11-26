@@ -51,6 +51,21 @@ $this->load_header();
 
         <div class="download-box">
           <div class="download-box-logo">
+            <p><img src="/images/DebianIcon.svg" alt="Debian"></p>
+          </div>
+          <div class="download-box-content">
+            <p><?php print _("The <a href=\"https://www.debian.org/releases/stable/installmanual\" rel=\"external\">Installation Manual</a> contains detailed installation instructions."); ?></p>
+
+            <div class="download-box-buttons">
+              <div class="button green">
+                <a href="https://www.debian.org/distrib/" target="_blank"><i class="fa fa-download fa-fw"></i> <?php print _("Download Debian"); ?></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="download-box">
+          <div class="download-box-logo">
             <p><img src="/images/UbuntuIcon.svg" alt="Ubuntu"></p>
           </div>
           <div class="download-box-content">
@@ -74,21 +89,6 @@ $this->load_header();
             <div class="download-box-buttons">
               <div class="button green">
                 <a href="https://getfedora.org/en/workstation/" target="_blank"><i class="fa fa-download fa-fw"></i> <?php print _("Download Fedora"); ?></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="download-box">
-          <div class="download-box-logo">
-            <p><img src="/images/TrisquelIcon.svg" alt="Trisquel"></p>
-          </div>
-          <div class="download-box-content">
-            <p><?php print _("The <a href=\"https://trisquel.info/wiki/installation-guide\" rel=\"external\">Trisquel installation</a> is very similar to that of Ubuntu."); ?></p>
-
-            <div class="download-box-buttons">
-              <div class="button green">
-                <a href="https://trisquel.info/download" target="_blank"><i class="fa fa-download fa-fw"></i> <?php print _("Download Trisquel"); ?></a>
               </div>
             </div>
           </div>
