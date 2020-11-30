@@ -18,12 +18,12 @@ $fedora1_text = _("Accessing applications in the <a href=\"https://www.gnome.org
 # translators: This is the description of the "fedora2.jpg" screenshot.
 $fedora2_text = _("Desktop overview with two applications open.");
 # translators: This is the description of the "fedora3.jpg" screenshot.
-$fedora3_text = _("LibreOffice Writer open, editing a standard document.");
+$fedora3_text = _("Software manager open, install/remove applications.");
 
 # translators: This is the description of the "trisquel1.jpg" screenshot.
 $trisquel1_text = _("Accessing applications.");
 # translators: This is the description of the "trisquel2.jpg" screenshot.
-$trisquel2_text = _("Application manager open, add/remove applications.");
+$trisquel2_text = _("LibreOffice Writer open, editing a standard document.");
 # translators: This is the description of the "trisquel3.jpg" screenshot.
 $trisquel3_text = _("LibreOffice Calc open, showing an example spreadsheet.");
 ?>
