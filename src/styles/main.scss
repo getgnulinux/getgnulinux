@@ -282,69 +282,55 @@ div.note {
  *----------------------------------------------------*/
 
 .flexslider {
-  position: relative;
+    border: none !important;
+    position: relative;
 
-  /* Get rid of the white space below the slider */
-  li {
-      margin-bottom: 0;
-  }
+    /* Get rid of the white space below the slider */
+    li {
+        margin-bottom: 0;
+    }
+
+    &.home {
+        background-color: #49B7E8; /* to hide the white background glitch */
+        overflow: hidden; /* otherwise the arrows will overflow the page */
+        border-radius: 0;
+        margin: 0;
+
+        /* Put the navigation bullets on the slide */
+        .flex-control-nav {
+            bottom: 5px;
+            z-index: 2;
+        }
+    }
+
+    &.screenshots {
+        margin-bottom: 3em;
+
+        /* Put the navigation bullets on the slide */
+        .flex-control-nav {
+            bottom: 5px;
+            z-index: 2;
+        }
+
+        /* Captions */
+        .flex-caption {
+            background-color: $light-gray;
+            @include border-top-radius(3px);
+            @include border-bottom-radius(3px);
+            font-size: 14px;
+            line-height: 18px;
+            margin: 10px 0 0;
+            padding: 1%;
+            position: absolute;
+            text-align: center;
+            width: 100%;
+        }
+    }
 }
 
 /* Navigation icons bug workaround */
 .flex-direction-nav a  {
     line-height: 40px;
-}
-
-/*----------------------------------------------------
- * Flexslider: Front Page
- *----------------------------------------------------*/
-
-.flexslider.home {
-  background-color: #49B7E8; /* to hide the white background glitch */
-  overflow: hidden; /* otherwise the arrows will overflow the page */
-  border: none;
-  border-radius: 0;
-  margin: 0;
-
-  /* Put the navigation bullets on the slide */
-  .flex-control-nav {
-    bottom: 5px;
-    z-index: 2;
-  }
-}
-
-/*----------------------------------------------------
- * Flexslider: Screenshots
- *----------------------------------------------------*/
-
-/* Override some default values */
-.flexslider.screenshots {
-  margin-bottom: 3em;
-
-  /* Put the navigation bullets on the slide */
-  .flex-control-nav {
-      bottom: 5px;
-      z-index: 2;
-  }
-
-  /* Captions */
-  .flex-caption {
-      background-color: $light-gray;
-      @include border-top-radius(3px);
-      @include border-bottom-radius(3px);
-      font-size: 14px;
-      line-height: 18px;
-      margin: 0;
-      padding: 1%;
-      position: absolute;
-      text-align: center;
-      width: 100%;
-  }
-
-  /* Add space between slider and caption */
-  .slides img {
-      margin-bottom: 10px;
-  }
 }
 
 /*----------------------------------------------------
