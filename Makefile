@@ -6,6 +6,7 @@ LOCALE_DIR = locale
 BUILD_DIR = docroot/locale
 DOMAIN = getgnulinux
 CHARSET = UTF-8
+GULP = npx gulp
 
 xgettext_flags = -caiF --add-comments=translators --force-po \
 --default-domain=$(DOMAIN) \
@@ -89,3 +90,5 @@ $(LOCALE_DIR)/$(DOMAIN)/$(DOMAIN).pot: docroot/lib/*.php docroot/lib/views/*.php
 	@sed --in-place "$@" --expression=s/"Language: "/"Language: en"/
 	@echo
 
+build:
+	$(GULP) build

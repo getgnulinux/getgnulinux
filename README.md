@@ -6,6 +6,7 @@ simple, clear website about GNU/Linux. What is GNU/Linux? Why not Windows? Tips
 to make the switch. With this website we hope to reach people who never heard
 about free software and barely remotely heard the word "Linux".
 
+[![Build Status](https://travis-ci.org/getgnulinux/getgnulinux.svg?branch=master)](https://travis-ci.org/getgnulinux/getgnulinux)
 
 ## Quick start
 
