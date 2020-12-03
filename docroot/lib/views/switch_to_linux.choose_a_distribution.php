@@ -49,7 +49,7 @@ $trisquel3_text = _("LibreOffice Calc open, showing an example spreadsheet.");
     <section class="ubuntu">
       <div class="container">
         <div class="centered">
-          <img src="/images/UbuntuLogo.png" alt="Ubuntu">
+          <img src="/images/UbuntuLogo.png" class="distro-logo" alt="Ubuntu">
         </div>
 
         <p><?php print _("Simple, easy, usable and our personal favourite. A tanned, smooth atmosphere that never gets in your way. All programs are kept in order and managed easily. Configuration is kept simple rather than exhaustive."); ?></p>
@@ -78,7 +78,7 @@ $trisquel3_text = _("LibreOffice Calc open, showing an example spreadsheet.");
     <section class="fedora">
       <div class="container">
         <div class="centered">
-          <img src="/images/FedoraLogo.png" alt="Fedora">
+          <img src="/images/FedoraLogo.png" class="distro-logo" alt="Fedora">
         </div>
 
         <p><?php
@@ -108,7 +108,7 @@ $trisquel3_text = _("LibreOffice Calc open, showing an example spreadsheet.");
     <section class="trisquel">
       <div class="container">
         <div class="centered">
-          <img src="/images/TrisquelLogo.png" alt="Trisquel">
+          <img src="/images/TrisquelLogo.png" class="distro-logo" alt="Trisquel">
         </div>
 
         <p><?php $p = _("Since Ubuntu contains some restricting components (<a href=\"%s#full_freedom\">why?</a>), the Trisquel developers have built an entirely free derivative. Although its community is smaller and its hardware support might be slightly inferior, Trisquel gives anyone full freedom over a complete operating system similar to Ubuntu."); printf($p, $this->get_base_url('linux/linux_faq')); ?></p>
