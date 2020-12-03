@@ -18,22 +18,20 @@ Start the build environment with:
 
     docker/dev.sh
 
-This should open a Bash shell inside the Docker container. Inside the
-container, activate the development shell with:
+If this is the first time, create the settings file with:
 
-    . scripts/activate
-
-With the development shell active, you can run `gulp` commands.
+    make docroot/settings.php
 
 To build the website, run:
 
-    make && gulp develop
+    make develop
 
-Start the web server in a separate terminal:
+That will compile the translations, build the website, and sync the build to
+the HTTP server. The website should be accessible at <http://localhost:1337/>.
 
-    docker/start.sh
+To stop the services, exit the development container and run:
 
-The website should now be accessible at <http://localhost:1337/>.
+    docker/stop.sh
 
 
 ## Contributing

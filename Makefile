@@ -16,8 +16,14 @@ xgettext_flags = -caiF --add-comments=translators --force-po \
 --msgid-bugs-address="https://github.com/getgnulinux/getgnulinux/issues" \
 --from-code=UTF-8 -k_
 
-.PHONY : getgnulinux
-getgnulinux: docroot/settings.php \
+.PHONY: ci
+ci: clean docroot/settings.php locales build
+
+.PHONY: develop
+develop: clean locales build deploy-dev
+
+.PHONY: locales
+locales: \
 	$(BUILD_DIR)/ar_SA/LC_MESSAGES/$(DOMAIN).mo \
 	$(BUILD_DIR)/ast_ES/LC_MESSAGES/$(DOMAIN).mo \
 	$(BUILD_DIR)/bg_BG/LC_MESSAGES/$(DOMAIN).mo \
@@ -90,5 +96,18 @@ $(LOCALE_DIR)/$(DOMAIN)/$(DOMAIN).pot: docroot/lib/*.php docroot/lib/views/*.php
 	@sed --in-place "$@" --expression=s/"Language: "/"Language: en"/
 	@echo
 
+.PHONY: build
 build:
 	$(GULP) build
+
+.PHONY: deploy-dev
+deploy-dev:
+	$(GULP) deploy:dev
+
+.PHONY: deploy
+deploy:
+	$(GULP) deploy:prod
+
+.PHONY: clean
+clean:
+	$(GULP) clean clean:images

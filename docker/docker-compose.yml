@@ -27,6 +27,8 @@ services:
     user: root
     cap_add: [SYS_ADMIN]
     entrypoint: ["/root/setup_mounts.sh"]
+    depends_on:
+      - httpd
 
   ci:
     hostname: ggl
@@ -35,6 +37,8 @@ services:
       dockerfile: docker/getgnulinux.Dockerfile
     volumes:
       - "docroot:/var/www/html"
+    depends_on:
+      - httpd
 
 volumes:
   docroot:
