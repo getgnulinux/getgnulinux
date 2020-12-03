@@ -28,5 +28,13 @@ services:
     cap_add: [SYS_ADMIN]
     entrypoint: ["/root/setup_mounts.sh"]
 
+  ci:
+    hostname: ggl
+    build:
+      context: ..
+      dockerfile: docker/getgnulinux.Dockerfile
+    volumes:
+      - "docroot:/var/www/html"
+
 volumes:
   docroot:

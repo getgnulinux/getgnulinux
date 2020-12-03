@@ -24,5 +24,6 @@ RUN node_modules/.bin/bower install
 COPY --chown=node:node docker/dev-root/ /root/
 COPY --chown=node:node docker/dev-home/ /home/node/
 
-ENTRYPOINT ["/bin/bash", "-c"]
+COPY --chown=node:node ./ ./
+
 CMD ["/bin/bash"]
