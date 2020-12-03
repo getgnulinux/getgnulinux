@@ -18,7 +18,8 @@ Start the build environment with:
 
     docker/dev.sh
 
-If this is the first time, create the settings file with:
+This should open a Bash shell inside the Docker container. Inside the
+container, create the settings file (you only need to do this once):
 
     make docroot/settings.php
 
