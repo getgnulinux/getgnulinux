@@ -63,7 +63,7 @@ gulp.task('styles:sass', () => {
         .pipe($.plumber())
         .pipe($.sourcemaps.init())
         .pipe($.sass.sync(sassConfig).on('error', $.sass.logError))
-        .pipe($.autoprefixer({browsers: ['> 1%', 'last 2 versions', 'Firefox ESR']}))
+        .pipe($.autoprefixer())
         .pipe($.cssnano({safe: true, autoprefixer: false}))
         .pipe($.sourcemaps.write('.'), {includeContent: true})
         .pipe(gulp.dest('docroot/styles'));
