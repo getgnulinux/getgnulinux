@@ -10,6 +10,10 @@
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:700,400,300" media="all">
   <script src="https://use.fontawesome.com/8a60dcb41a.js"></script>
 
+  <!-- build:css /styles/vendor/flexslider.css -->
+  <link rel="stylesheet" type="text/css" href="/styles/vendor/flexslider.css" media="all">
+  <!-- endbuild -->
+
   <!-- build:css /styles/main.css -->
   <link rel="stylesheet" type="text/css" href="/styles/main.css" media="all">
   <!-- endbuild -->
@@ -19,10 +23,6 @@
     <link rel="stylesheet" type="text/css" href="/styles/main-rtl.css" media="all">
     <!-- endbuild -->
   <?php } ?>
-
-  <!-- build:css /styles/vendor/flexslider.css -->
-  <link rel="stylesheet" type="text/css" href="/styles/vendor/flexslider.css" media="all">
-  <!-- endbuild -->
 
   <?php if ( $ggl->no_italics() ) { ?>
     <!-- build:css /styles/no-italics.css -->

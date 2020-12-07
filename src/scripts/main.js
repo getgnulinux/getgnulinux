@@ -65,4 +65,17 @@ $(document).ready(function() {
             });
         });
     });
+
+    $(window).load(function() {
+        $('.flexslider.flexslider_home').flexslider({
+            slideshow: false,
+            animation: 'slide'
+        });
+    });
+
+    $(window).load(function() {
+        $('.flexslider.flexslider_screenshots').flexslider({
+            animation: 'fade'
+        });
+    });
 });

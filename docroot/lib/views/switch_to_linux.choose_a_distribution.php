@@ -56,7 +56,7 @@ $trisquel3_text = _("LibreOffice Calc open, showing an example spreadsheet.");
         <p><?php print _("We recommend this friendly and complete distribution if you are looking for an easy way to try and step into GNU/Linux."); ?></p>
         <p><?php print _("Ubuntu also has a sister distribution, <a href=\"https://www.kubuntu.org/\" rel=\"external\">Kubuntu</a>, with a different layout and slightly more advanced graphics."); ?></p>
 
-        <div class="flexslider screenshots">
+        <div class="flexslider flexslider_screenshots">
           <ul class="slides">
             <li>
               <img src="/images/screenshots/ubuntu1.jpg" alt="Ubuntu screenshot" />
@@ -86,7 +86,7 @@ $trisquel3_text = _("LibreOffice Calc open, showing an example spreadsheet.");
         print _("The distribution by the long-time prominent GNU/Linux developer company Red Hat. The default layout is similar to Ubuntu (it is also possible to use KDE, the more advanced desktop environment in use in Kubuntu), but there are differences in the chosen applications, install protocols and several technical elements."); ?></p>
         <p><?php print _("We recommend this distribution if you wish to learn more about the workings of a GNU/Linux system, security configuration, or work on software development."); ?></p>
 
-        <div class="flexslider screenshots">
+        <div class="flexslider flexslider_screenshots">
           <ul class="slides">
             <li>
               <img src="/images/screenshots/fedora1.jpg" alt="Fedora screenshot" />
@@ -114,7 +114,7 @@ $trisquel3_text = _("LibreOffice Calc open, showing an example spreadsheet.");
         <p><?php $p = _("Since Ubuntu contains some restricting components (<a href=\"%s#full_freedom\">why?</a>), the Trisquel developers have built an entirely free derivative. Although its community is smaller and its hardware support might be slightly inferior, Trisquel gives anyone full freedom over a complete operating system similar to Ubuntu."); printf($p, $this->get_base_url('linux/linux_faq')); ?></p>
         <p><?php print _("We recommend this distribution if you are committed to freedom in your computing."); ?></p>
 
-        <div class="flexslider screenshots">
+        <div class="flexslider flexslider_screenshots">
           <ul class="slides">
             <li>
               <img src="/images/screenshots/trisquel1.jpg" alt="Trisquel screenshot" />

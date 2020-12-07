@@ -69,34 +69,5 @@
 <script src="/scripts/main.js"></script>
 <!-- endbuild -->
 
-<?php
-switch ($this->view) {
-    case 'home':
-    ?>
-<script>
-  $(window).load(function() {
-    $('.flexslider').flexslider({
-        slideshow: false,
-        animation: "slide"
-    });
-  });
-</script>
-    <?php
-    break;
-
-    case 'linux':
-    case 'switch_to_linux.choose_a_distribution':
-    ?>
-<script>
-  $(window).load(function() {
-    $('.flexslider').flexslider({
-        animation: "fade",
-    });
-  });
-</script>
-    <?php
-    break;
-}
-?>
 </body>
 </html>

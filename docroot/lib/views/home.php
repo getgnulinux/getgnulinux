@@ -10,7 +10,7 @@ $this->load_header();
 
 <main>
   <section class="no-padding">
-    <div class="flexslider home">
+    <div class="flexslider flexslider_home">
       <ul class="slides">
         <li>
           <div class="fp-slide ggl">
