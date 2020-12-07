@@ -29,7 +29,7 @@ settings where needed.
 The `locale/getgnulinux/` directory contains the translations. These need to
 be compiled to enable the translations on the website. Compile them with:
 
-    make
+    make locale
 
 When a translation file is updated, you'll need to recompile it to see the
 changes on the website. Just run the `make` command again.
@@ -43,17 +43,13 @@ Activate the GGL development work space:
     source scripts/activate
 
 You should now see "(ggl)" at the start of your prompt. This indicates that you
-are in an active GGL development workspace, allowing you to run `bower` and
-`gulp` commands. You can execute `deactivate` at any time to deactivate the GGL
+are in an active GGL development workspace, allowing you to run `gulp`
+commands. You can execute `deactivate` at any time to deactivate the GGL
 development workspace.
 
-Install additional required packages with:
+Build the project with:
 
-    bower install
-
-Finally, build the project with:
-
-    gulp build
+    make build
 
 You can also run `gulp --tasks` to see a list of available `gulp` tasks.
 

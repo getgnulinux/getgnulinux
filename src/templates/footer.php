@@ -58,7 +58,7 @@
 </a>
 
 <!-- build:js /scripts/vendor/jquery.js -->
-<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/node_modules/jquery/dist/jquery.min.js"></script>
 <!-- endbuild -->
 
 <!-- build:js /scripts/plugins.js -->

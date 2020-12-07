@@ -27,7 +27,7 @@ deactivate () {
 }
 
 _OLD_PATH="$PATH"
-PATH="$PWD/node_modules/.bin:$PWD/bower_components/bitters/bin/:$PATH"
+PATH="$PWD/node_modules/.bin:$PATH"
 export PATH
 
 _OLD_PS1="$PS1"

@@ -30,8 +30,8 @@
     <!-- endbuild -->
   <?php } ?>
 
-  <!-- build:js /scripts/vendor/modernizr.js -->
-  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <!-- build:js /scripts/modernizr.js -->
+  <script src="/scripts/modernizr.js"></script>
   <!-- endbuild -->
 </head>
 

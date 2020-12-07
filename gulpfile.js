@@ -7,9 +7,9 @@ const sassConfig = {
     outputStyle: 'expanded',
     precision: 10,
     includePaths: [
-        'bower_components/normalize-css/',
-        'bower_components/bourbon/app/assets/stylesheets/',
-        'bower_components/neat/app/assets/stylesheets',
+        'node_modules/normalize.css/',
+        'node_modules/bourbon/app/assets/stylesheets/',
+        'node_modules/bourbon-neat/app/assets/stylesheets/',
     ]
 };
 
@@ -71,7 +71,7 @@ gulp.task('styles:sass', () => {
 
 gulp.task('styles:vendor', () => {
     return gulp.src([
-        'bower_components/flexslider/flexslider.css',
+        'node_modules/flexslider/flexslider.css',
     ])
         .pipe($.cssnano({safe: true, autoprefixer: false}))
         .pipe(gulp.dest('docroot/styles/vendor'));
@@ -83,6 +83,7 @@ gulp.task('scripts:main', () => {
     return gulp.src('src/scripts/main.js')
         .pipe($.plumber())
         .pipe($.sourcemaps.init())
+        .pipe($.modernizr())
         .pipe($.babel())
         .pipe($.uglify())
         .pipe($.sourcemaps.write('.'), {includeContent: true})
@@ -92,7 +93,7 @@ gulp.task('scripts:main', () => {
 gulp.task('scripts:plugins', () => {
     return gulp.src([
         'src/scripts/plugins.js',
-        'bower_components/flexslider/jquery.flexslider-min.js',
+        'node_modules/flexslider/jquery.flexslider-min.js',
     ])
         .pipe($.concat('plugins.js'))
         .pipe(gulp.dest('docroot/scripts'));
@@ -101,10 +102,7 @@ gulp.task('scripts:plugins', () => {
 gulp.task('scripts', gulp.series('scripts:main', 'scripts:plugins'));
 
 gulp.task('fonts', () => {
-    return gulp.src(
-        require('main-bower-files')('**/*.{eot,svg,ttf,woff,woff2}')
-            .concat('bower_components/flexslider/fonts/*')
-    )
+    return gulp.src('node_modules/flexslider/fonts/*')
         .pipe(gulp.dest('docroot/styles/vendor/fonts'));
 });
 
