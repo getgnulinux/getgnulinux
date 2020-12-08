@@ -54,7 +54,7 @@ $this->load_header();
             <p><img src="/images/DebianIcon.svg" alt="Debian"></p>
           </div>
           <div class="download-box-content">
-            <p><?php print _("The <a href=\"https://www.debian.org/releases/stable/installmanual\" rel=\"external\">Installation Manual</a> contains detailed installation instructions."); ?></p>
+            <p><?php print _("<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">Create a bootable USB stick</a> or <a href=\"https://www.debian.org/CD/faq/#record-windows\" rel=\"external\">burn it to a CD/DVD</a>. Then use it to <a href=\"https://www.debian.org/releases/stable/installmanual\" rel=\"external\">install Debian</a> onto your computer."); ?></p>
 
             <div class="download-box-buttons">
               <div class="button green">
@@ -84,7 +84,7 @@ $this->load_header();
             <p><img src="/images/FedoraIcon.png" alt="Fedora"></p>
           </div>
           <div class="download-box-content">
-            <p><?php print _("<i>Fedora Media Writer</i> is the easiest way to <a href=\"https://docs.fedoraproject.org/en-US/fedora/f30/install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">try or install Fedora</a>."); ?></p>
+            <p><?php print _("<i>Fedora Media Writer</i> is the easiest way to <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">try or install Fedora</a>."); ?></p>
 
             <div class="download-box-buttons">
               <div class="button green">
