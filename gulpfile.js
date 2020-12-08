@@ -83,7 +83,6 @@ gulp.task('scripts:main', () => {
     return gulp.src('src/scripts/main.js')
         .pipe($.plumber())
         .pipe($.sourcemaps.init())
-        .pipe($.modernizr())
         .pipe($.babel())
         .pipe($.uglify())
         .pipe($.sourcemaps.write('.'), {includeContent: true})
