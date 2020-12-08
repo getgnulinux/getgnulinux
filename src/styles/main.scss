@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-    border-top: 1px solid $light-gray-3;
+    border-top: 1px solid $color-light-gray-3;
     font-size: 2.5em;
     margin-top: 0.8em;
     padding-top: 0.8em;
@@ -69,7 +69,7 @@ img, embed, object, video {
 }
 
 a {
-    color: $blue-2;
+    color: $color-blue-2;
 
     img {
         border: none;
@@ -77,16 +77,16 @@ a {
 }
 
 a:visited {
-    color: $blue-3;
+    color: $color-blue-3;
 }
 
 a:hover {
-    color: $light-blue;
+    color: $color-light-blue;
     text-decoration: underline;
 }
 
 a:active {
-    color: $dark-orange;
+    color: $color-dark-orange;
 }
 
 /* External link styles */
@@ -144,7 +144,7 @@ nav.chapters {
     }
 
     ul {
-        background-color: transparentize($light-brown, 0.6);
+        background-color: transparentize($color-light-brown, 0.6);
         list-style: none outside none;
         margin: 0;
         padding: 0.4em 0;
@@ -220,7 +220,7 @@ nav.chapters {
 }
 
 .bg-even {
-    background-color: $light-gray;
+    background-color: $color-light-gray;
 }
 
 .no-padding {
@@ -255,7 +255,7 @@ div.note {
 }
 
 .footnotes {
-    border-top: 1px solid $light-gray-3;
+    border-top: 1px solid $color-light-gray-3;
     font-size: 85%;
     margin-top: 3em;
 }
@@ -286,7 +286,7 @@ div.note {
     }
 
     &_home {
-        $flexslider-home-slide-color: lighten($dark-green, 10%);
+        $flexslider-home-slide-color: lighten($color-dark-green, 10%);
 
         background-color: $flexslider-home-slide-color; /* to hide the white background glitch */
         overflow: hidden; /* otherwise the arrows will overflow the page */
@@ -364,7 +364,7 @@ div.note {
 
         /* Captions */
         .flex-caption {
-            background-color: $light-gray;
+            background-color: $color-light-gray;
             @include border-top-radius(3px);
             @include border-bottom-radius(3px);
             font-size: 14px;
@@ -433,15 +433,15 @@ div.note {
 }
 
 .read-more-box {
-    border-top: 1px dashed $light-gray-3;
+    border-top: 1px dashed $color-light-gray-3;
     margin-top: 2em;
     padding: 1em 0 1em 1em;
 }
 
 .conclusion {
-    background: none repeat scroll 0 0 $light-green;
-    border-top: 2px dashed $light-green-2;
-    border-bottom: 2px dashed $light-green-2;
+    background: none repeat scroll 0 0 $color-light-green;
+    border-top: 2px dashed $color-light-green-2;
+    border-bottom: 2px dashed $color-light-green-2;
     margin: 2em 0;
     padding-top: ($section-gutter / 2);
     padding-bottom: ($section-gutter / 2);
@@ -587,9 +587,9 @@ section.debian {
 /*-------------------- About box --------------------*/
 
 #about-us-box {
-    background: none repeat scroll 0 0 $light-green;
-    border-top: 2px dashed $light-green-2;
-    border-bottom: 2px dashed $light-green-2;
+    background: none repeat scroll 0 0 $color-light-green;
+    border-top: 2px dashed $color-light-green-2;
+    border-bottom: 2px dashed $color-light-green-2;
     font-family: $alternative-font-family;
     font-style: italic;
     margin: 4em 0;
@@ -694,7 +694,7 @@ section.debian {
 
         > div.answer {
             margin: 0 0 1.5em;
-            border-left: 2px solid $light-blue;
+            border-left: 2px solid $color-light-blue;
             padding: 0 0 0 1em;
 
             a img {
@@ -722,8 +722,8 @@ section.debian {
 .footer {
     $base-spacing: 1.5em;
     $footer-background-color: $base-background-color-secondary;
-    $footer-color: $light-gray;
-    $footer-color-dimmed: transparentize($light-gray, 0.3);
+    $footer-color: $color-light-gray;
+    $footer-color-dimmed: transparentize($color-light-gray, 0.3);
     $footer-border-color: transparentize($footer-color, 0.6);
 
     background-color: $footer-background-color;
