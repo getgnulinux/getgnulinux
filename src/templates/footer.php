@@ -55,11 +55,9 @@
 <!-- build:js /scripts/vendor/jquery.js -->
 <script src="/node_modules/jquery/dist/jquery.min.js"></script>
 <!-- endbuild -->
-
-<!-- build:js /scripts/plugins.js -->
-<script src="/scripts/plugins.js"></script>
+<!-- build:js /scripts/vendor/flexslider.js -->
+<script src="node_modules/flexslider/jquery.flexslider-min.js"></script>
 <!-- endbuild -->
-
 <!-- build:js /scripts/main.js -->
 <script src="/scripts/main.js"></script>
 <!-- endbuild -->

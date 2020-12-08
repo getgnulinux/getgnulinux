@@ -90,16 +90,7 @@ gulp.task('scripts:main', () => {
         .pipe(gulp.dest('docroot/scripts'));
 });
 
-gulp.task('scripts:plugins', () => {
-    return gulp.src([
-        'src/scripts/plugins.js',
-        'node_modules/flexslider/jquery.flexslider-min.js',
-    ])
-        .pipe($.concat('plugins.js'))
-        .pipe(gulp.dest('docroot/scripts'));
-});
-
-gulp.task('scripts', gulp.series('scripts:main', 'scripts:plugins'));
+gulp.task('scripts', gulp.series('scripts:main'));
 
 gulp.task('fonts', () => {
     return gulp.src('node_modules/flexslider/fonts/*')

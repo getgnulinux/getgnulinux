@@ -1,7 +1,4 @@
 $(document).ready(function() {
-    /* Enable PNG fallback for browsers not supporting SVG in img tags */
-    svgeezy.init(false, 'png');
-
     $(window).on('load resize', function() {
         var menuToggle = $('#js-navigation-mobile-menu').unbind();
         $('#js-navigation-menu').removeClass('show');
