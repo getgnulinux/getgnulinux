@@ -13,7 +13,7 @@ $this->load_header();
     <div class="flexslider flexslider_home">
       <ul class="slides">
         <li>
-          <div class="fp-slide ggl">
+          <div class="flexslider_home_slide flexslider_home_slide--ggl">
 
             <img src="/images/slides/GNU_Tux.svg" alt="">
             <h1><?php print _("get GNU/Linux!"); ?></h1>
@@ -25,7 +25,7 @@ $this->load_header();
           </div>
         </li>
         <li>
-          <div class="fp-slide linux">
+          <div class="flexslider_home_slide flexslider_home_slide--linux">
 
             <img src="/images/slides/Help.svg" alt="">
             <h1><?php print _("What is GNU/Linux?"); ?></h1>
@@ -39,7 +39,7 @@ $this->load_header();
           </div>
         </li>
         <li>
-          <div class="fp-slide windows">
+          <div class="flexslider_home_slide flexslider_home_slide--windows">
 
             <img src="/images/slides/Warning.svg" alt="">
             <h1><?php print _("Why not Windows"); ?></h1>
@@ -53,7 +53,7 @@ $this->load_header();
           </div>
         </li>
         <li>
-          <div class="fp-slide switch">
+          <div class="flexslider_home_slide flexslider_home_slide--switch">
 
             <img src="/images/slides/Disc.svg" alt="">
             <h1><?php print _("Switch to GNU/Linux"); ?></h1>

@@ -144,7 +144,7 @@ nav.chapters {
   }
 
   ul {
-    background-color: transparentize($light-gray, 0.6);
+    background-color: transparentize($light-brown, 0.6);
     list-style: none outside none;
     margin: 0;
     padding: 0.4em 0;
@@ -291,7 +291,9 @@ div.note {
     }
 
     &_home {
-        background-color: #49B7E8; /* to hide the white background glitch */
+        $flexslider-home-slide-color: lighten($dark-green, 10%);
+
+        background-color: $flexslider-home-slide-color; /* to hide the white background glitch */
         overflow: hidden; /* otherwise the arrows will overflow the page */
         border-radius: 0;
         margin: 0;
@@ -300,6 +302,59 @@ div.note {
         .flex-control-nav {
             bottom: 5px;
             z-index: 2;
+        }
+
+        &_slide {
+            background-color: $flexslider-home-slide-color;
+            color: #FFFFFF;
+            padding: 0.1em;
+            position: relative;
+            text-align: center;
+
+            h1 {
+                color: #FFFFFF;
+                font-weight: 300;
+            }
+
+            .slide-text {
+                font-size: 1.3rem;
+                margin: 0 auto;
+                max-width: 700px;
+                padding: 0 1em 2em;
+                text-align: center;
+            }
+
+            > img {
+                display: inline !important;
+                height: auto;
+                margin-top: 1em;
+            }
+
+            &--ggl > img {
+                min-width: 150px;
+                width: 15% !important;
+            }
+
+            &--ggl h1 {
+                font-family: $alternative-font-family;
+                font-weight: normal;
+                text-shadow: 0px 0px 5px #fff;
+            }
+
+            &--linux > img {
+                min-width: 100px;
+                width: 8% !important;
+            }
+
+            &--windows > img {
+                min-width: 100px;
+                width: 8% !important;
+            }
+
+            &--switch > img {
+                min-width: 100px;
+                width: 8% !important;
+            }
         }
     }
 
@@ -331,63 +386,6 @@ div.note {
 /* Navigation icons bug workaround */
 .flex-direction-nav a  {
     line-height: 40px;
-}
-
-/*----------------------------------------------------
- * Flexslider: Front Page Slides
- *----------------------------------------------------*/
-
-.fp-slide {
-  background-color: #49B7E8;
-  color: #FFFFFF;
-  padding: 0.1em;
-  position: relative;
-  text-align: center;
-
-  h1 {
-    color: #FFFFFF;
-    font-weight: 300;
-  }
-
-  .slide-text {
-    font-size: 1.3rem;
-    margin: 0 auto;
-    max-width: 700px;
-    padding: 0 1em 2em;
-    text-align: center;
-  }
-
-  > img {
-    display: inline !important;
-    height: auto;
-    margin-top: 1em;
-  }
-
-  &.ggl > img {
-    min-width: 150px;
-    width: 15% !important;
-  }
-
-  &.ggl h1 {
-    font-family: $alternative-font-family;
-    font-weight: normal;
-    text-shadow: 0px 0px 5px #fff;
-  }
-
-  &.linux > img {
-    min-width: 100px;
-    width: 8% !important;
-  }
-
-  &.windows > img {
-    min-width: 100px;
-    width: 8% !important;
-  }
-
-  &.switch > img {
-    min-width: 100px;
-    width: 8% !important;
-  }
 }
 
 /*----------------------------------------------------
