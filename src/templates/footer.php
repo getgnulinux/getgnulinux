@@ -52,11 +52,6 @@
   </div>
 </footer>
 
-<a id="to-top" href="#">
-  <span id="to-top-hover"></span>
-  <i class="fa fa-chevron-circle-up fa-3x"></i>
-</a>
-
 <!-- build:js /scripts/vendor/jquery.js -->
 <script src="/node_modules/jquery/dist/jquery.min.js"></script>
 <!-- endbuild -->

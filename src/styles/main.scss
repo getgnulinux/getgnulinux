@@ -820,30 +820,4 @@ section.debian {
   }
 }
 
-/*----------------------------------------------------
- * Move to top button
- *----------------------------------------------------*/
-
-#to-top {
-    border: medium none;
-    bottom: 0.7em;
-    display: none;
-    overflow: hidden;
-    position: fixed;
-    right: 1em;
-    text-decoration: none;
-    z-index: 100;
-}
-a#to-top,
-a:hover#to-top,
-a:visited#to-top {
-    color: rgba(186, 180, 171, 0.8);
-}
-
-#to-top-hover {
-    display: block;
-    float: left;
-    overflow: hidden;
-}
-
 @import 'h5bp_footer';
