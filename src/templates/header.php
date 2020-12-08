@@ -29,10 +29,6 @@
     <link rel="stylesheet" type="text/css" href="/styles/no-italics.css" media="all">
     <!-- endbuild -->
   <?php } ?>
-
-  <!-- build:js /scripts/modernizr.js -->
-  <script src="/scripts/modernizr.js"></script>
-  <!-- endbuild -->
 </head>
 
 <body>
