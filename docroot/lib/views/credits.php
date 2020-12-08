@@ -30,7 +30,7 @@ $this->load_header();
       <li><a href="https://www.gnu.org/gnu30/" rel="external">The GNU 30th banner</a> by the Free Software Foundation, <abbr title="Creative Commons">CC</abbr> <abbr title="Attribution, Share Alike">BY-SA</abbr> 2.0 license;</li>
       <li><a href="https://en.wikipedia.org/wiki/File:Tux-simple.svg" rel="external">Tux-simple.svg</a> by Larry Ewing, permission to copy if credit given.</li>
 
-      <li>Ubuntu, Fedora, and Trisquel logos: in accordance with the respective trademark guidelines (<a href="https://www.ubuntu.com/aboutus/trademarkpolicy" rel="external">Ubuntu</a>, <a href="https://fedoraproject.org/wiki/Legal/TrademarkGuidelines" rel="external">Fedora</a>, <a href="https://trisquel.info/en/wiki/logo" rel="external">Trisquel</a>)</li>
+      <li>Ubuntu, Fedora, and Debian logos: in accordance with the respective trademark guidelines (<a href="https://www.ubuntu.com/aboutus/trademarkpolicy" rel="external">Ubuntu</a>, <a href="https://fedoraproject.org/wiki/Legal/TrademarkGuidelines" rel="external">Fedora</a>, <a href="https://www.debian.org/logos/" rel="external">Debian</a>)</li>
       <li>The laptop image on the "Try or install" page used with permission from <a href="https://www.system76.com/" rel="external">system76.com</a>.</li>
     </ul>
 
@@ -317,7 +317,7 @@ $this->load_header();
 
     <h2>Inspiration &amp; reading</h2>
     <ul>
-      <li>A fair amount came from the <a href="https://www.fsf.org/" rel="external">Free Software Foundation</a>. Verbatim copying or most FSF articles is allowed if notice is preserved. Note that we bear no affiliation with the FSF - views expressed on our websites might not represent those of the FSF.</li>
+      <li>A fair amount came from the <a href="https://www.fsf.org/" rel="external">Free Software Foundation</a>. Verbatim copying of most FSF articles is allowed if notice is preserved. Note that we bear no affiliation with the FSF&mdash;views expressed on our websites might not represent those of the FSF.</li>
       <li><a href="http://www.timj.co.uk/digiculture/drm-fallacy" rel="external">The fallacy of DRM</a>, an article by Tim Jackson (derivative use with permission);</li>
       <li><a href="https://www.lafkon.net/tc/" rel="external">Trusted Computing</a>, a video by Benjamin Stephan and Lutz Vogel, <abbr title="Creative Commons">CC</abbr> sampling plus license;</li>
       <li><a href="http://free-culture.cc/" rel="external">Free Culture</a>, a book by Lawrence Lessig, <abbr title="Creative Commons">CC</abbr> <abbr title="Attribution, Non Commercial">BY-NC</abbr> license;</li>
