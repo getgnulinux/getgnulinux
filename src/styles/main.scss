@@ -264,11 +264,6 @@ div.note {
   margin-bottom: 4em;
 }
 
-.screenshots img {
-  @include border-top-radius(5px);
-  @include border-bottom-radius(5px);
-}
-
 /*----------------------------------------------------
  * Font Awesome stuff
  *----------------------------------------------------*/
@@ -379,6 +374,11 @@ div.note {
             position: absolute;
             text-align: center;
             width: 100%;
+        }
+
+        img {
+            @include border-top-radius(5px);
+            @include border-bottom-radius(5px);
         }
     }
 }
