@@ -9,84 +9,84 @@
  *----------------------------------------------------*/
 
 h1, h2, h3, h4, h5, h6 {
-  text-align: start;
+    text-align: start;
 }
 
 h1 {
-  font-size: 3em;
-  font-weight: bold;
-  margin: 1rem;
-  text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 1rem;
+    text-align: center;
 }
 
 h2 {
-  border-top: 1px solid $light-gray-3;
-  font-size: 2.5em;
-  margin-top: 0.8em;
-  padding-top: 0.8em;
+    border-top: 1px solid $light-gray-3;
+    font-size: 2.5em;
+    margin-top: 0.8em;
+    padding-top: 0.8em;
 }
 
 h3 {
-  font-size: 2em;
-  font-weight: 400;
-  margin-bottom: 0.5em;
-  margin-top: 1em;
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
 }
 
 h4 {
-  font-size: 1.5em;
-  font-style: italic;
-  font-weight: 300;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 300;
 }
 
 hr {
-  height: 0;
+    height: 0;
 }
 
 article header {
-  padding: 1rem 0;
+    padding: 1rem 0;
 }
 
 aside,
 section {
-  padding: 1rem 0;
+    padding: 1rem 0;
 }
 
 details > summary {
-  cursor: pointer;
-  outline: none;
-  text-align: start;
+    cursor: pointer;
+    outline: none;
+    text-align: start;
 }
 
 img, embed, object, video {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 ::selection {
-  background: #009ACD;
-  color: #FFFFFF;
+    background: #009ACD;
+    color: #FFFFFF;
 }
 
 a {
-  color: $blue-2;
+    color: $blue-2;
 
-  img {
-    border: none;
-  }
+    img {
+        border: none;
+    }
 }
 
 a:visited {
-  color: $blue-3;
+    color: $blue-3;
 }
 
 a:hover {
-  color: $light-blue;
-  text-decoration: underline;
+    color: $light-blue;
+    text-decoration: underline;
 }
 
 a:active {
-  color: $dark-orange;
+    color: $dark-orange;
 }
 
 /* External link styles */
@@ -116,58 +116,58 @@ abbr {
  *----------------------------------------------------*/
 
 nav.chapters {
-  margin: 0 auto;
-  text-align: center;
+    margin: 0 auto;
+    text-align: center;
 
-  .title {
-    a {
-      color: #3C4043;
-      display: inline-block;
-      line-height: 2em;
-      margin: 0.5em;
-      text-decoration: none;
+    .title {
+        a {
+            color: #3C4043;
+            display: inline-block;
+            line-height: 2em;
+            margin: 0.5em;
+            text-decoration: none;
 
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
-
-  .active {
-    a,
-    a:hover {
-      color: #666666 !important;
-      text-decoration: none;
-      font-weight: bold;
-      text-shadow: 0 1px 0 #FFFFFF;
-    }
-  }
-
-  ul {
-    background-color: transparentize($light-brown, 0.6);
-    list-style: none outside none;
-    margin: 0;
-    padding: 0.4em 0;
-
-    li {
-      display: inline-block;
-      margin: 0;
-      padding: 0 1em;
-      white-space: nowrap;
-
-      a,
-      a:visited {
-        color: #3C4043;
-        display: inline-block;
-        line-height: 1.8em;
-        text-decoration: none;
-
-        &:hover {
-          text-decoration: underline;
+            &:hover {
+                text-decoration: underline;
+            }
         }
-      }
     }
-  }
+
+    .active {
+        a,
+        a:hover {
+            color: #666666 !important;
+            text-decoration: none;
+            font-weight: bold;
+            text-shadow: 0 1px 0 #FFFFFF;
+        }
+    }
+
+    ul {
+        background-color: transparentize($light-brown, 0.6);
+        list-style: none outside none;
+        margin: 0;
+        padding: 0.4em 0;
+
+        li {
+            display: inline-block;
+            margin: 0;
+            padding: 0 1em;
+            white-space: nowrap;
+
+            a,
+            a:visited {
+                color: #3C4043;
+                display: inline-block;
+                line-height: 1.8em;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
 }
 
 /*----------------------------------------------------
@@ -175,93 +175,93 @@ nav.chapters {
  *----------------------------------------------------*/
 
 .container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: ($container-gutter / 2);
-  padding-right: ($container-gutter / 2);
-  @include clearfix;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: ($container-gutter / 2);
+    padding-right: ($container-gutter / 2);
+    @include clearfix;
 
-  @each $breakpoint, $width in $container-widths {
-    $breakpoint-width: map-get($container-breakpoints, $breakpoint);
-    @include media(min-width $breakpoint-width) {
-      width: $width;
-      max-width: 100%;
+    @each $breakpoint, $width in $container-widths {
+        $breakpoint-width: map-get($container-breakpoints, $breakpoint);
+        @include media(min-width $breakpoint-width) {
+            width: $width;
+            max-width: 100%;
+        }
     }
-  }
 }
 
 .hidden-xs {
-  @include media(min-width $xs-breakpoint) {
-    display: none;
-  }
-  @include media(min-width $sm-breakpoint) {
-    display: block;
-  }
+    @include media(min-width $xs-breakpoint) {
+        display: none;
+    }
+    @include media(min-width $sm-breakpoint) {
+        display: block;
+    }
 }
 
 .hidden-sm {
-  @include media(min-width $xs-breakpoint) {
-    display: none;
-  }
-  @include media(min-width $sm-breakpoint) {
-    display: none;
-  }
-  @include media(min-width $md-breakpoint) {
-    display: block;
-  }
+    @include media(min-width $xs-breakpoint) {
+        display: none;
+    }
+    @include media(min-width $sm-breakpoint) {
+        display: none;
+    }
+    @include media(min-width $md-breakpoint) {
+        display: block;
+    }
 }
 
 .page-intro {
-  font-size: 1.2rem;
-  margin: 0 auto;
-  max-width: 650px;
-  padding-bottom: 0.5em;
-  text-align: center;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    max-width: 650px;
+    padding-bottom: 0.5em;
+    text-align: center;
 }
 
 .bg-even {
-  background-color: $light-gray;
+    background-color: $light-gray;
 }
 
 .no-padding {
-  padding: 0;
+    padding: 0;
 }
 
 .button-section h1 {
-  font-weight: 300;
+    font-weight: 300;
 }
 
 .highlight {
-  background-color: #E4EFC7;
-  display: block;
-  padding: 0.4em;
+    background-color: #E4EFC7;
+    display: block;
+    padding: 0.4em;
 }
 
 .note {
-  font-size: 0.95em;
+    font-size: 0.95em;
 }
 
 div.note {
-  margin-top: 1em;
-  text-align: right;
+    margin-top: 1em;
+    text-align: right;
 }
 
 .italic {
-  font-style: italic;
+    font-style: italic;
 }
 
 .centered {
-  text-align: center;
+    text-align: center;
 }
 
 .footnotes {
-  border-top: 1px solid $light-gray-3;
-  font-size: 85%;
-  margin-top: 3em;
+    border-top: 1px solid $light-gray-3;
+    font-size: 85%;
+    margin-top: 3em;
 }
 
 .paragraph {
-  margin-bottom: 4em;
+    margin-bottom: 4em;
 }
 
 /*----------------------------------------------------
@@ -269,7 +269,7 @@ div.note {
  *----------------------------------------------------*/
 
 .fa-li {
-  top: 0.3em !important;
+    top: 0.3em !important;
 }
 
 /*----------------------------------------------------
@@ -393,33 +393,33 @@ div.note {
  *----------------------------------------------------*/
 
 .alertbox {
-  background-color: #6B0006;
-  color: #FFFFFF;
-  display: block;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-
-  a, a:visited, a:hover {
+    background-color: #6B0006;
     color: #FFFFFF;
-    border-bottom: 1px dotted;
-    text-decoration: none;
-  }
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 
-  .close {
-    cursor: pointer;
-    display: inline-block;
-    margin: 0.5em 1em;
-    opacity: 0.5;
-  }
-  .close:hover {
-    opacity: 1;
-  }
+    a, a:visited, a:hover {
+        color: #FFFFFF;
+        border-bottom: 1px dotted;
+        text-decoration: none;
+    }
+
+    .close {
+        cursor: pointer;
+        display: inline-block;
+        margin: 0.5em 1em;
+        opacity: 0.5;
+    }
+    .close:hover {
+        opacity: 1;
+    }
 }
 
 .alertbox > p {
-  display: inline-block;
-  margin: 0.5em
+    display: inline-block;
+    margin: 0.5em
 }
 
 /*----------------------------------------------------
@@ -427,36 +427,36 @@ div.note {
  *----------------------------------------------------*/
 
 .float-right {
-  clear: right;
-  float: right;
-  margin: 0 0 2em 2em !important;
+    clear: right;
+    float: right;
+    margin: 0 0 2em 2em !important;
 }
 
 .read-more-box {
-  border-top: 1px dashed $light-gray-3;
-  margin-top: 2em;
-  padding: 1em 0 1em 1em;
+    border-top: 1px dashed $light-gray-3;
+    margin-top: 2em;
+    padding: 1em 0 1em 1em;
 }
 
 .conclusion {
-  background: none repeat scroll 0 0 $light-green;
-  border-top: 2px dashed $light-green-2;
-  border-bottom: 2px dashed $light-green-2;
-  margin: 2em 0;
-  padding-top: ($section-gutter / 2);
-  padding-bottom: ($section-gutter / 2);
+    background: none repeat scroll 0 0 $light-green;
+    border-top: 2px dashed $light-green-2;
+    border-bottom: 2px dashed $light-green-2;
+    margin: 2em 0;
+    padding-top: ($section-gutter / 2);
+    padding-bottom: ($section-gutter / 2);
 }
 
 .post-it {
-  background-color: #F9EDA6;
-  border: 1px #E6C813 solid;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  margin-bottom: 2em;
+    background-color: #F9EDA6;
+    border: 1px #E6C813 solid;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2em;
 }
 
 img.width20p {
-  height: auto;
-  width: 20%;
+    height: auto;
+    width: 20%;
 }
 
 /*----------------------------------------------------
@@ -464,33 +464,33 @@ img.width20p {
  *----------------------------------------------------*/
 
 section.ubuntu {
-  border-top: medium solid #DD4814;
+    border-top: medium solid #DD4814;
 }
 
 section.fedora {
-  border-top: medium solid #08517A;
+    border-top: medium solid #08517A;
 }
 
 section.debian {
-  border-top: medium solid #C70036;
+    border-top: medium solid #C70036;
 }
 
 .distro-logo {
-  padding: 2rem;
+    padding: 2rem;
 }
 
 .distro_screenshots {
-  margin-top: 3em;
-  text-align: center;
+    margin-top: 3em;
+    text-align: center;
 }
 
 .distro_screenshots img {
-  float: none;
-  margin: 0 1em 0.5em 0;
+    float: none;
+    margin: 0 1em 0.5em 0;
 }
 
 .distro_screenshots a {
-  background: none;
+    background: none;
 }
 
 /*----------------------------------------------------
@@ -498,43 +498,43 @@ section.debian {
  *----------------------------------------------------*/
 
 .download-box {
-  @include outer-container;
-  @include row();
-  padding-top: 1em;
-  padding-bottom: 1em;
+    @include outer-container;
+    @include row();
+    padding-top: 1em;
+    padding-bottom: 1em;
 
-  .download-box-logo {
-    @include media($xs-breakpoint) {
-      @include span-columns(4);
-    }
-    @include media($sm-breakpoint) {
-      @include span-columns(3);
-    }
-    @include media($md-breakpoint) {
-      @include span-columns(2);
-    }
-  }
-
-  .download-box-content {
-    @include media($xs-breakpoint) {
-      @include span-columns(12);
-    }
-    @include media($sm-breakpoint) {
-      @include span-columns(9);
-    }
-    @include media($md-breakpoint) {
-      @include span-columns(10);
+    .download-box-logo {
+        @include media($xs-breakpoint) {
+            @include span-columns(4);
+        }
+        @include media($sm-breakpoint) {
+            @include span-columns(3);
+        }
+        @include media($md-breakpoint) {
+            @include span-columns(2);
+        }
     }
 
-    .download-box-buttons {
-      @include clearfix;
+    .download-box-content {
+        @include media($xs-breakpoint) {
+            @include span-columns(12);
+        }
+        @include media($sm-breakpoint) {
+            @include span-columns(9);
+        }
+        @include media($md-breakpoint) {
+            @include span-columns(10);
+        }
 
-      .button {
-        float: left;
-        margin-right: 1em;
-      }
+        .download-box-buttons {
+            @include clearfix;
+
+            .button {
+                float: left;
+                margin-right: 1em;
+            }
+        }
     }
-  }
 }
 
 /*----------------------------------------------------
@@ -542,68 +542,68 @@ section.debian {
  *----------------------------------------------------*/
 
 .more-section {
-  @include outer-container;
-  @include clearfix;
+    @include outer-container;
+    @include clearfix;
 
-  h2 {
-    text-align: center;
-    clear: both;
-    margin: 0.5em 0 1.5em 0;
-  }
-
-  img {
-    display: block;
-    margin: 0 auto;
-  }
-
-  .column {
-    @include media($xs-breakpoint) {
-      @include span-columns(12);
+    h2 {
+        text-align: center;
+        clear: both;
+        margin: 0.5em 0 1.5em 0;
     }
 
-    @include media($sm-breakpoint) {
-      @include span-columns(6);
-      @include pad(0 3%);
+    img {
+        display: block;
+        margin: 0 auto;
     }
 
-    a img {
-      transition-duration: 0.2s;
-      transition-timing-function: ease;
-    }
+    .column {
+        @include media($xs-breakpoint) {
+            @include span-columns(12);
+        }
 
-    a:hover img {
-      transform: translateY(-5px);
+        @include media($sm-breakpoint) {
+            @include span-columns(6);
+            @include pad(0 3%);
+        }
+
+        a img {
+            transition-duration: 0.2s;
+            transition-timing-function: ease;
+        }
+
+        a:hover img {
+            transform: translateY(-5px);
+        }
     }
-  }
 }
 
 .credits h2 {
-  font-size: 1.5em;
-  font-weight: normal;
-  padding-top: 1em;
-  border-top: 1px #DFD9F9 solid;
+    font-size: 1.5em;
+    font-weight: normal;
+    padding-top: 1em;
+    border-top: 1px #DFD9F9 solid;
 }
 
 /*-------------------- About box --------------------*/
 
 #about-us-box {
-  background: none repeat scroll 0 0 $light-green;
-  border-top: 2px dashed $light-green-2;
-  border-bottom: 2px dashed $light-green-2;
-  font-family: $alternative-font-family;
-  font-style: italic;
-  margin: 4em 0;
-
-  h1 {
+    background: none repeat scroll 0 0 $light-green;
+    border-top: 2px dashed $light-green-2;
+    border-bottom: 2px dashed $light-green-2;
     font-family: $alternative-font-family;
-    font-size: 2.5em;
-    font-weight: 300;
-    margin: 0;
-  }
+    font-style: italic;
+    margin: 4em 0;
 
-  p {
-    font-size: 1.2em;
-  }
+    h1 {
+        font-family: $alternative-font-family;
+        font-size: 2.5em;
+        font-weight: 300;
+        margin: 0;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
 }
 
 /*----------------------------------------------------
@@ -611,34 +611,34 @@ section.debian {
  *----------------------------------------------------*/
 
 .further-reading {
-  font-size: 0.95em;
-  margin-top: 4.5em;
-  padding: 1em;
-  @include clearfix;
+    font-size: 0.95em;
+    margin-top: 4.5em;
+    padding: 1em;
+    @include clearfix;
 
-  h1 {
-    font-size: 1.7rem;
-    border: medium none;
-    margin: 0 0 0.5em;
-    padding: 0;
-  }
-
-  h2 {
-    border: none;
-    font-size: 1.2rem;
-    font-weight: bold;
-  }
-
-  .column {
-    @include media($sm-breakpoint) {
-      @include span-columns(12);
+    h1 {
+        font-size: 1.7rem;
+        border: medium none;
+        margin: 0 0 0.5em;
+        padding: 0;
     }
 
-    @include media($md-breakpoint) {
-      @include span-columns(6);
-      @include pad(0 3%);
+    h2 {
+        border: none;
+        font-size: 1.2rem;
+        font-weight: bold;
     }
-  }
+
+    .column {
+        @include media($sm-breakpoint) {
+            @include span-columns(12);
+        }
+
+        @include media($md-breakpoint) {
+            @include span-columns(6);
+            @include pad(0 3%);
+        }
+    }
 }
 
 /*----------------------------------------------------
@@ -646,33 +646,33 @@ section.debian {
  *----------------------------------------------------*/
 
 .quote {
-  background-color: #FFFFED;
-  border-bottom: 2px dashed #EAEAD2;
-  border-top: 2px dashed #EAEAD2;
-  margin: 1em auto;
-  padding: 0.5em 2em;
-  width: 85%;
+    background-color: #FFFFED;
+    border-bottom: 2px dashed #EAEAD2;
+    border-top: 2px dashed #EAEAD2;
+    margin: 1em auto;
+    padding: 0.5em 2em;
+    width: 85%;
 
-  p {
-    font-style: italic;
-  }
+    p {
+        font-style: italic;
+    }
 
-  .source {
-    display: block;
-    font-size: 0.9em;
-    margin-top: 0.6em;
-    text-align: end;
-  }
+    .source {
+        display: block;
+        font-size: 0.9em;
+        margin-top: 0.6em;
+        text-align: end;
+    }
 }
 
 .quote.small {
-  margin: 0;
-  padding: 0.5em 1em;
-  width: 35%;
+    margin: 0;
+    padding: 0.5em 1em;
+    width: 35%;
 }
 
 .quote.image {
-  width: auto;
+    width: auto;
 }
 
 /*----------------------------------------------------
@@ -680,39 +680,39 @@ section.debian {
  *----------------------------------------------------*/
 
 #faq {
-  h4 {
-    margin-top: 0;
-  }
-
-  details {
-    > summary {
-      cursor: pointer;
-      outline: none;
-      border-bottom: dotted 1px #b9b5b5;
-      margin-bottom: 1em;
+    h4 {
+        margin-top: 0;
     }
 
-    > div.answer {
-      margin: 0 0 1.5em;
-      border-left: 2px solid $light-blue;
-      padding: 0 0 0 1em;
-
-      a img {
-        transition-duration: 0.2s;
-        transition-timing-function: ease;
-      }
-
-      a:hover img {
-        transform: translateY(-5px);
-      }
-
-      div.read-more {
-        li {
-          margin: 0;
+    details {
+        > summary {
+            cursor: pointer;
+            outline: none;
+            border-bottom: dotted 1px #b9b5b5;
+            margin-bottom: 1em;
         }
-      }
+
+        > div.answer {
+            margin: 0 0 1.5em;
+            border-left: 2px solid $light-blue;
+            padding: 0 0 0 1em;
+
+            a img {
+                transition-duration: 0.2s;
+                transition-timing-function: ease;
+            }
+
+            a:hover img {
+                transform: translateY(-5px);
+            }
+
+            div.read-more {
+                li {
+                    margin: 0;
+                }
+            }
+        }
     }
-  }
 }
 
 /*----------------------------------------------------
@@ -720,104 +720,104 @@ section.debian {
  *----------------------------------------------------*/
 
 .footer {
-  $base-spacing: 1.5em;
-  $footer-background-color: $base-background-color-secondary;
-  $footer-color: $light-gray;
-  $footer-color-dimmed: transparentize($light-gray, 0.3);
-  $footer-border-color: transparentize($footer-color, 0.6);
+    $base-spacing: 1.5em;
+    $footer-background-color: $base-background-color-secondary;
+    $footer-color: $light-gray;
+    $footer-color-dimmed: transparentize($light-gray, 0.3);
+    $footer-border-color: transparentize($footer-color, 0.6);
 
-  background-color: $footer-background-color;
-  color: $footer-color;
-  margin-bottom: 0;
-  width: 100%;
-  font-size: 0.9em;
-  padding-top: ($footer-gutter / 2);
-  padding-bottom: ($footer-gutter / 2);
+    background-color: $footer-background-color;
+    color: $footer-color;
+    margin-bottom: 0;
+    width: 100%;
+    font-size: 0.9em;
+    padding-top: ($footer-gutter / 2);
+    padding-bottom: ($footer-gutter / 2);
 
-  a,
-  a:visited {
-    text-decoration: none;
-    color: transparentize($footer-color, 0.3);
+    a,
+    a:visited {
+        text-decoration: none;
+        color: transparentize($footer-color, 0.3);
 
-    &:hover {
-      color: $footer-color;
+        &:hover {
+            color: $footer-color;
+        }
     }
-  }
 
-  hr {
-    border: 1px solid transparentize($footer-border-color, 0.3);
-    margin: $base-spacing auto;
-  }
+    hr {
+        border: 1px solid transparentize($footer-border-color, 0.3);
+        margin: $base-spacing auto;
+    }
 
-  h1 {
-    color: #CCCCCC;
-  }
-
-  ul {
-    list-style: none outside none;
-    margin: 0;
-    padding: 0;
-  }
-
-  li {
-    display: block;
-    margin: 2px 0;
-  }
-
-  .notices {
-    text-align: center;
-  }
-
-  .block {
     h1 {
-      display: block;
-      font-size: 1.2rem;
-      font-weight: normal;
-      line-height: 12px;
-      margin: 1em 0 10px;
-      padding-bottom: 3px;
-      text-align: start;
+        color: #CCCCCC;
     }
 
     ul {
-      list-style: none outside none;
-      margin: 0.5em 0;
-      padding: 0;
+        list-style: none outside none;
+        margin: 0;
+        padding: 0;
     }
 
     li {
-      display: inline-block;
-      margin: 0 1em 0 0;
-    }
-  }
-
-  #translations {
-    word-break: keep-all;
-
-    ul {
-      padding-left: 0;
-      list-style: none;
+        display: block;
+        margin: 2px 0;
     }
 
-    li {
-      display: inline-block;
-      padding-left: 0;
-      padding-right: 10px;
+    .notices {
+        text-align: center;
     }
 
-    li a {
-      line-height: 1.0em;
+    .block {
+        h1 {
+            display: block;
+            font-size: 1.2rem;
+            font-weight: normal;
+            line-height: 12px;
+            margin: 1em 0 10px;
+            padding-bottom: 3px;
+            text-align: start;
+        }
+
+        ul {
+            list-style: none outside none;
+            margin: 0.5em 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline-block;
+            margin: 0 1em 0 0;
+        }
     }
 
-    .active a {
-      color: $footer-color;
-      font-weight: bold;
-    }
-  }
+    #translations {
+        word-break: keep-all;
 
-  #partial-translations {
-    margin-top: 1rem;
-  }
+        ul {
+            padding-left: 0;
+            list-style: none;
+        }
+
+        li {
+            display: inline-block;
+            padding-left: 0;
+            padding-right: 10px;
+        }
+
+        li a {
+            line-height: 1.0em;
+        }
+
+        .active a {
+            color: $footer-color;
+            font-weight: bold;
+        }
+    }
+
+    #partial-translations {
+        margin-top: 1rem;
+    }
 }
 
 @import 'h5bp_footer';
