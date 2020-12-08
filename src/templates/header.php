@@ -8,7 +8,7 @@
   <?php $this->og_tags(); ?>
   <?php $this->link_alternate_tags(); ?>
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:700,400,300" media="all">
-  <script src="https://use.fontawesome.com/8a60dcb41a.js"></script>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons" media="all">
 
   <!-- build:css /styles/vendor/flexslider.css -->
   <link rel="stylesheet" type="text/css" href="/styles/vendor/flexslider.css" media="all">
@@ -35,30 +35,48 @@
 
 <header class="navigation">
   <div class="navigation-wrapper">
-    <a href="<?php $this->base_url(); ?>" class="mobile-logo">
-      <i class="fa fa-home fa-lg" aria-hidden="true"></i>
-    </a>
-    <a href="#" id="js-navigation-mobile-menu" class="navigation-mobile-menu">
-      <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
-    </a>
     <nav>
-      <ul id="js-navigation-menu" class="navigation-menu show">
-        <li class="nav-link logo">
-          <a href="<?php $this->base_url(); ?>" class="logo">
-            <i class="fa fa-home fa-lg" aria-hidden="true"></i>
-          </a>
-        </li>
-        <?php $this->nav_link('nav-item-linux', 'more', 'linux', _("What is GNU/Linux?")); ?>
-          <?php $this->list_chapter_sections('linux'); ?>
-        </li>
-        <?php $this->nav_link('nav-item-windows', 'more', 'windows', _("Why not Windows")); ?>
-          <?php $this->list_chapter_sections('windows'); ?>
-        </li>
-        <?php $this->nav_link('nav-item-switch', 'more', 'switch_to_linux', _("Switch to GNU/Linux")); ?>
-          <?php $this->list_chapter_sections('switch_to_linux'); ?>
-        </li>
-        <?php $this->nav_link('nav-item-more', '', 'more', _("More")); ?></li>
-      </ul>
+      <div class="nav-wrapper">
+        <a href="#" data-target="sidenav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="hide-on-med-and-down left">
+          <?php $this->nav_link('nav-item-linux', 'home', _("Home")); ?></li>
+          <?php $this->nav_link('nav-item-linux', 'linux', _("What is GNU/Linux?")); ?></li>
+          <?php $this->nav_link('nav-item-windows', 'windows', _("Why not Windows")); ?></li>
+          <?php $this->nav_link('nav-item-switch', 'switch_to_linux', _("Switch to GNU/Linux")); ?></li>
+          <?php $this->nav_link('nav-item-more', 'more', _("More")); ?></li>
+        </ul>
+        <ul id="nav-mobile" class="right">
+          <li>
+            <a class="btn btn-flat btn-wide transparent waves-effect waves-light dropdown-trigger" href="#" data-target="language-menu">
+              <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">translate</i>
+              <? print $ggl->get('lang-native'); ?>
+              <i class="material-icons <?php print $this->rtltr("right", "left"); ?>">keyboard_arrow_down</i>
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
+
+    <ul class="sidenav" id="sidenav">
+      <?php $this->sidenav_link('home', _("Home")); ?></li>
+      <?php $this->sidenav_link('linux', _("What is GNU/Linux?")); ?></li>
+      <?php $this->sidenav_link('windows', _("Why not Windows")); ?></li>
+      <?php $this->sidenav_link('switch_to_linux', _("Switch to GNU/Linux")); ?></li>
+      <?php $this->sidenav_link('more', _("More")); ?></li>
+    </ul>
+
+    <ul id="language-menu" class="dropdown-content">
+      <?php foreach ($ggl->get_locales('complete') as $lng => $items) {
+        list($locale, $native) = $items;
+        $info = $ggl->get_lang_info($lng);
+        printf("<li class=\"waves-effect\"><a href=\"/%s\" hreflang=\"%s\"><span dir=\"%s\">%s</span></a></li>\n",
+          $this->current_page_path($lng),
+          $lng,
+          $info['dir'],
+          $native);
+      } ?>
+      <li class="divider" tabindex="-1"></li>
+      <li><a href="<?php $this->text('l10n_url'); ?>" rel="external"><?php print _("Help translate"); ?></a></li>
+    </ul>
   </div>
 </header>

@@ -1,24 +1,5 @@
 <footer class="footer">
   <div class="container">
-
-    <div id="translations">
-      <ul>
-        <li><i class="fa fa-globe fa-lg"></i></li>
-        <?php foreach ($ggl->get_locales('complete') as $lng => $items) {
-          list($locale, $native) = $items;
-          $info = $ggl->get_lang_info($lng);
-          printf("<li%s><a href=\"/%s\" hreflang=\"%s\"><span dir=\"%s\">%s</span></a></li>\n",
-            $info['active'] ? " class='active'" : "",
-            $this->current_page_path($lng),
-            $lng,
-            $info['dir'],
-            $native);
-        } ?>
-      </ul>
-    </div>
-
-    <hr>
-
     <div class="block">
       <ul>
         <li><?php print _("About:"); ?></li>
@@ -48,7 +29,6 @@
         <?php $p = _("This site is <a href=\"%s\" rel=\"external\">free and open source</a>."); printf($p, $ggl->get('project_url')); ?>
       </p>
     </div>
-
   </div>
 </footer>
 
@@ -56,7 +36,10 @@
 <script src="/node_modules/jquery/dist/jquery.min.js"></script>
 <!-- endbuild -->
 <!-- build:js /scripts/vendor/flexslider.js -->
-<script src="node_modules/flexslider/jquery.flexslider-min.js"></script>
+<script src="/node_modules/flexslider/jquery.flexslider-min.js"></script>
+<!-- endbuild -->
+<!-- build:js /scripts/vendor/materialize.js -->
+<script src="/node_modules/materialize-css/dist/js/materialize.min.js"></script>
 <!-- endbuild -->
 <!-- build:js /scripts/main.js -->
 <script src="/scripts/main.js"></script>

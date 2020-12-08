@@ -24,9 +24,10 @@ $this->load_header();
         <p><?php # translators: please note the "affirmative" tone with the '.' at end of sentence.
         print _("Meet GNU/Linux in everyday use."); ?></p>
 
-        <div class="button green">
-          <a href="<?php $this->base_url('switch_to_linux/from_windows_to_linux'); ?>"><?php print _("Read more"); ?> <i class="fa <?php print $this->rtltr("fa-arrow-circle-right", "fa-arrow-circle-left"); ?> fa-fw"></i></a>
-        </div>
+        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux/from_windows_to_linux'); ?>">
+          <?php print _("Read more"); ?>
+          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
+        </a>
       </div>
     </div>
   </section>
@@ -38,9 +39,10 @@ $this->load_header();
       <div class="page-intro">
         <p><?php print _("Our selection for an easy choice."); ?></p>
 
-        <div class="button green">
-          <a href="<?php $this->base_url('switch_to_linux/choose_a_distribution'); ?>"><?php print _("Read more"); ?> <i class="fa <?php print $this->rtltr("fa-arrow-circle-right", "fa-arrow-circle-left"); ?> fa-fw"></i></a>
-        </div>
+        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux/choose_a_distribution'); ?>">
+          <?php print _("Read more"); ?>
+          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
+        </a>
       </div>
     </div>
   </section>
@@ -52,9 +54,10 @@ $this->load_header();
       <div class="page-intro">
         <p><?php print _("Install it! (it's easier than you think)"); ?></p>
 
-        <div class="button green">
-          <a href="<?php $this->base_url('switch_to_linux/try_or_install'); ?>"><?php print _("Read more"); ?> <i class="fa <?php print $this->rtltr("fa-arrow-circle-right", "fa-arrow-circle-left"); ?> fa-fw"></i></a>
-        </div>
+        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux/try_or_install'); ?>">
+        <?php print _("Read more"); ?>
+          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
+        </a>
       </div>
     </div>
   </section>

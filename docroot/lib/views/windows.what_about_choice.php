@@ -9,10 +9,6 @@ $this->load_header();
 
 ?>
 
-<nav class="chapters">
-  <?php $this->list_chapter_sections('windows'); ?>
-</nav>
-
 <main>
   <div class="container">
     <article>
@@ -24,7 +20,7 @@ $this->load_header();
         </div>
       </header>
 
-      <div class="quote">
+      <div class="card-panel card-panel--source amber lighten-4">
         <p><?php
         # translators: This is a quote from Bill Gates at the start of the article.
         print _("About 3 million computers get sold every year in China, but people don't pay for the software."); ?></p>
@@ -61,12 +57,19 @@ $this->load_header();
         <p><?php print _("It is a good thing to propose a wide range of software and services like Microsoft do; however, designing and combining them to shut users from non-Microsoft peers is unethical. It's not technically hard to adopt more open formats. But it means your customers are <em>free to choose what they do with their work</em> &ndash; Microsoft isn't there yet."); ?></p>
       </section>
     </article>
+
+    <br>
+
+    <aside>
+      <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('windows'); ?>">
+        <?php print _("Why not Windows"); ?>
+        <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">expand_less</i>
+      </a>
+    </aside>
+
+    <br>
+
   </div>
 </main>
-
-<nav class="chapters">
-  <div class="title"><a href="<?php $this->base_url('windows'); ?>"><?php print _("Why not Windows"); ?></a></div>
-  <?php $this->list_chapter_sections('windows'); ?>
-</nav>
 
 <?php $this->load_footer(); ?>

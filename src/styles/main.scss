@@ -1,8 +1,10 @@
-@import 'normalize';
-@import 'bourbon';
-@import 'base/base';
-@import 'neat';
-@import 'h5bp_header';
+@charset "UTF-8";
+
+@import "bourbon";
+@import "neat";
+@import "variables";
+@import "materialize";
+@import "h5bp_header";
 
 /*----------------------------------------------------
  * General styles
@@ -74,19 +76,18 @@ a {
     img {
         border: none;
     }
-}
+    &:visited {
+        color: $color-blue-3;
+    }
 
-a:visited {
-    color: $color-blue-3;
-}
+    &:hover {
+        color: $color-light-blue;
+        text-decoration: underline;
+    }
 
-a:hover {
-    color: $color-light-blue;
-    text-decoration: underline;
-}
-
-a:active {
-    color: $color-dark-orange;
+    &:active {
+        color: $color-dark-orange;
+    }
 }
 
 /* External link styles */
@@ -103,71 +104,6 @@ a[rel~="external"]:after {
 
 abbr {
     letter-spacing: 0.05em;
-}
-
-/*----------------------------------------------------
- * Navigation menu
- *----------------------------------------------------*/
-
-@import 'navigation';
-
-/*----------------------------------------------------
- * Navigation: Chapters list
- *----------------------------------------------------*/
-
-nav.chapters {
-    margin: 0 auto;
-    text-align: center;
-
-    .title {
-        a {
-            color: #3C4043;
-            display: inline-block;
-            line-height: 2em;
-            margin: 0.5em;
-            text-decoration: none;
-
-            &:hover {
-                text-decoration: underline;
-            }
-        }
-    }
-
-    .active {
-        a,
-        a:hover {
-            color: #666666 !important;
-            text-decoration: none;
-            font-weight: bold;
-            text-shadow: 0 1px 0 #FFFFFF;
-        }
-    }
-
-    ul {
-        background-color: transparentize($color-light-brown, 0.6);
-        list-style: none outside none;
-        margin: 0;
-        padding: 0.4em 0;
-
-        li {
-            display: inline-block;
-            margin: 0;
-            padding: 0 1em;
-            white-space: nowrap;
-
-            a,
-            a:visited {
-                color: #3C4043;
-                display: inline-block;
-                line-height: 1.8em;
-                text-decoration: none;
-
-                &:hover {
-                    text-decoration: underline;
-                }
-            }
-        }
-    }
 }
 
 /*----------------------------------------------------
@@ -265,93 +201,12 @@ div.note {
 }
 
 /*----------------------------------------------------
- * Font Awesome stuff
- *----------------------------------------------------*/
-
-.fa-li {
-    top: 0.3em !important;
-}
-
-/*----------------------------------------------------
  * Flexslider: General
  *----------------------------------------------------*/
 
 .flexslider {
     border: none !important;
     position: relative;
-
-    /* Get rid of the white space below the slider */
-    li {
-        margin-bottom: 0;
-    }
-
-    &_home {
-        $flexslider-home-slide-color: lighten($color-dark-green, 10%);
-
-        background-color: $flexslider-home-slide-color; /* to hide the white background glitch */
-        overflow: hidden; /* otherwise the arrows will overflow the page */
-        border-radius: 0;
-        margin: 0;
-
-        /* Put the navigation bullets on the slide */
-        .flex-control-nav {
-            bottom: 5px;
-            z-index: 2;
-        }
-
-        &_slide {
-            background-color: $flexslider-home-slide-color;
-            color: #FFFFFF;
-            padding: 0.1em;
-            position: relative;
-            text-align: center;
-
-            h1 {
-                color: #FFFFFF;
-                font-weight: 300;
-            }
-
-            .slide-text {
-                font-size: 1.3rem;
-                margin: 0 auto;
-                max-width: 700px;
-                padding: 0 1em 2em;
-                text-align: center;
-            }
-
-            > img {
-                display: inline !important;
-                height: auto;
-                margin-top: 1em;
-            }
-
-            &--ggl > img {
-                min-width: 150px;
-                width: 15% !important;
-            }
-
-            &--ggl h1 {
-                font-family: $alternative-font-family;
-                font-weight: normal;
-                text-shadow: 0px 0px 5px #fff;
-            }
-
-            &--linux > img {
-                min-width: 100px;
-                width: 8% !important;
-            }
-
-            &--windows > img {
-                min-width: 100px;
-                width: 8% !important;
-            }
-
-            &--switch > img {
-                min-width: 100px;
-                width: 8% !important;
-            }
-        }
-    }
 
     &_screenshots {
         margin-bottom: 3em;
@@ -389,40 +244,6 @@ div.note {
 }
 
 /*----------------------------------------------------
- * Alert boxes
- *----------------------------------------------------*/
-
-.alertbox {
-    background-color: #6B0006;
-    color: #FFFFFF;
-    display: block;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-
-    a, a:visited, a:hover {
-        color: #FFFFFF;
-        border-bottom: 1px dotted;
-        text-decoration: none;
-    }
-
-    .close {
-        cursor: pointer;
-        display: inline-block;
-        margin: 0.5em 1em;
-        opacity: 0.5;
-    }
-    .close:hover {
-        opacity: 1;
-    }
-}
-
-.alertbox > p {
-    display: inline-block;
-    margin: 0.5em
-}
-
-/*----------------------------------------------------
  * Main contents
  *----------------------------------------------------*/
 
@@ -432,12 +253,6 @@ div.note {
     margin: 0 0 2em 2em !important;
 }
 
-.read-more-box {
-    border-top: 1px dashed $color-light-gray-3;
-    margin-top: 2em;
-    padding: 1em 0 1em 1em;
-}
-
 .conclusion {
     background: none repeat scroll 0 0 $color-light-green;
     border-top: 2px dashed $color-light-green-2;
@@ -445,13 +260,6 @@ div.note {
     margin: 2em 0;
     padding-top: ($section-gutter / 2);
     padding-bottom: ($section-gutter / 2);
-}
-
-.post-it {
-    background-color: #F9EDA6;
-    border: 1px #E6C813 solid;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    margin-bottom: 2em;
 }
 
 img.width20p {
@@ -482,15 +290,15 @@ section.debian {
 .distro_screenshots {
     margin-top: 3em;
     text-align: center;
-}
 
-.distro_screenshots img {
-    float: none;
-    margin: 0 1em 0.5em 0;
-}
+    img {
+        float: none;
+        margin: 0 1em 0.5em 0;
+    }
 
-.distro_screenshots a {
-    background: none;
+    a {
+        background: none;
+    }
 }
 
 /*----------------------------------------------------
@@ -584,28 +392,6 @@ section.debian {
     border-top: 1px #DFD9F9 solid;
 }
 
-/*-------------------- About box --------------------*/
-
-#about-us-box {
-    background: none repeat scroll 0 0 $color-light-green;
-    border-top: 2px dashed $color-light-green-2;
-    border-bottom: 2px dashed $color-light-green-2;
-    font-family: $alternative-font-family;
-    font-style: italic;
-    margin: 4em 0;
-
-    h1 {
-        font-family: $alternative-font-family;
-        font-size: 2.5em;
-        font-weight: 300;
-        margin: 0;
-    }
-
-    p {
-        font-size: 1.2em;
-    }
-}
-
 /*----------------------------------------------------
  * "Read more" section on the "Stand for a Free Society" page.
  *----------------------------------------------------*/
@@ -642,37 +428,35 @@ section.debian {
 }
 
 /*----------------------------------------------------
- * Quotes
+ * Cards
  *----------------------------------------------------*/
 
-.quote {
-    background-color: #FFFFED;
-    border-bottom: 2px dashed #EAEAD2;
-    border-top: 2px dashed #EAEAD2;
-    margin: 1em auto;
-    padding: 0.5em 2em;
-    width: 85%;
+.card-panel {
+    &--source {
+        width: 85%;
+        margin: 1em auto;
 
-    p {
-        font-style: italic;
+        p {
+            font-style: italic;
+        }
+
+        .source {
+            display: block;
+            font-size: 0.9em;
+            margin-top: 0.6em;
+            text-align: end;
+        }
     }
 
-    .source {
-        display: block;
-        font-size: 0.9em;
-        margin-top: 0.6em;
-        text-align: end;
+    &--small {
+        margin: 0;
+        padding: 0.5em 1em;
+        width: 35%;
     }
-}
 
-.quote.small {
-    margin: 0;
-    padding: 0.5em 1em;
-    width: 35%;
-}
-
-.quote.image {
-    width: auto;
+    &--image {
+        width: auto;
+    }
 }
 
 /*----------------------------------------------------
@@ -721,7 +505,7 @@ section.debian {
 
 .footer {
     $base-spacing: 1.5em;
-    $footer-background-color: $base-background-color-secondary;
+    $footer-background-color: $primary-color;
     $footer-color: $color-light-gray;
     $footer-color-dimmed: transparentize($color-light-gray, 0.3);
     $footer-border-color: transparentize($footer-color, 0.6);
@@ -790,33 +574,13 @@ section.debian {
             margin: 0 1em 0 0;
         }
     }
+}
 
-    #translations {
-        word-break: keep-all;
-
-        ul {
-            padding-left: 0;
-            list-style: none;
+#language-menu {
+    li {
+        a {
+            color: black !important;
         }
-
-        li {
-            display: inline-block;
-            padding-left: 0;
-            padding-right: 10px;
-        }
-
-        li a {
-            line-height: 1.0em;
-        }
-
-        .active a {
-            color: $footer-color;
-            font-weight: bold;
-        }
-    }
-
-    #partial-translations {
-        margin-top: 1rem;
     }
 }
 

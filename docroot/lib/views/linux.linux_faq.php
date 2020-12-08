@@ -93,12 +93,10 @@ $this->load_header();
           print _("The concept of <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">free software</a>, refers to freedom, not price. You have the freedom to copy, study, modify, and give free software away."); ?></p>
           <p><?php print _("Most companies developing free software make money by selling <strong>services</strong> around their software, rather than the software itself. This is sometimes done by selling everything as a package: the customer buys the CD, book, and support contract at once. The software can still guarantee your freedoms."); ?></p>
           <p><?php print _("More:"); ?></p>
-          <div class="read-more">
-            <ul>
-              <li><a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a></li>
-              <li><a href="https://en.wikibooks.org/wiki/FLOSS_Concept_Booklet" rel="external"><?php print _("FLOSS concept booklet"); ?></a></li>
-            </ul>
-          </div>
+          <ul class="browser-default">
+            <li><a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a></li>
+            <li><a href="https://en.wikibooks.org/wiki/FLOSS_Concept_Booklet" rel="external"><?php print _("FLOSS concept booklet"); ?></a></li>
+          </ul>
         </div>
       </details>
 
@@ -109,7 +107,7 @@ $this->load_header();
           # translators: This is italic text just below the question, which elaborates a little on it.
           print _("Some GNU/Linux distributions are available at no charge, but include restrictive software. Why is it so?"); ?></i></p>
           <p><?php print _("There are typically three types of policies regarding the inclusion of non-free software:"); ?></p>
-          <ul>
+          <ul class="browser-default">
             <li><?php print _("Some GNU/Linux distributors allow non-free software in order to enable hardware functionality."); ?>
             <?php # translators: If it exits, please use the URL of the official Ubuntu homepage localized in your language.
             print _("This happens because some hardware manufacturers such as NVidia do not care about their customers' freedoms, and only release restricting firmware and drivers (some of them don't even release anything, like Broadcom). These are available at no cost (they are freeware) but under restrictive licenses. Distributions such as <a href=\"https://www.ubuntu.com/\" rel=\"external\">Ubuntu</a> thus include such components to improve hardware compatibility."); ?></li>
@@ -229,15 +227,13 @@ $this->load_header();
           <p><?php print _("DVDs, on the other hand, are a more difficult situation. Most, if not all, DVDs are encrypted using a system called \"<abbr title=\"Content Scrambling System\">CSS</abbr>\". There is a widely supported free software, called <code>libdvdcss</code>, capable of decrypting DVD videos. However, circumventing the restriction on your DVDs is illegal in many parts of the world, including the USA and the European Union."); ?></p>
           <p><?php print _("There is a legal solution to play your DVDs on GNU/Linux where <code>libdvdcss</code> is illegal. The <a href=\"https://fluendo.com/\" rel=\"external\">Fluendo</a> company has developed an (non-free) application for that purpose which can be purchased from their website."); ?></p>
           <p><?php print _("Non-encrypted DVDs, which include most home-made DVDs, play perfectly well with only free software."); ?></p>
-          <div class="read-more">
-            <?php print _("More on the web:"); ?>
-            <ul>
-              <li><a href="<?php # translators: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
-              print _("https://wiki.ubuntu.com/RestrictedFormats"); ?>" rel="external"><?php print _("Ubuntu Restricted Formats"); ?></a></li>
-              <li><a href="<?php # translators: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
-              print _("https://fedoraproject.org/wiki/Forbidden_items"); ?>" rel="external"><?php print _("Fedora Forbidden Items"); ?></a></li>
-            </ul>
-          </div>
+          <p><?php print _("More on the web:"); ?></p>
+          <ul class="browser-default">
+            <li><a href="<?php # translators: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
+            print _("https://wiki.ubuntu.com/RestrictedFormats"); ?>" rel="external"><?php print _("Ubuntu Restricted Formats"); ?></a></li>
+            <li><a href="<?php # translators: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
+            print _("https://fedoraproject.org/wiki/Forbidden_items"); ?>" rel="external"><?php print _("Fedora Forbidden Items"); ?></a></li>
+          </ul>
         </div>
       </details>
 
@@ -261,11 +257,16 @@ $this->load_header();
       printf($p, $ggl->get('contact_url'), $ggl->get('tracker_url')); ?></p>
     </article>
 
+    <br>
+
     <aside>
-      <div class="button green">
-        <a href="<?php $this->base_url('linux'); ?>"><?php print _("What is GNU/Linux?"); ?> <i class="fa fa-level-up fa-fw"></i></a>
-      </div>
+      <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('linux'); ?>">
+        <?php print _("What is GNU/Linux?"); ?>
+        <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">expand_less</i>
+      </a>
     </aside>
+
+    <br>
   </div>
 </main>
 

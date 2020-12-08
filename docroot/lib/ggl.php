@@ -139,6 +139,7 @@ class GGL {
     public $config = array(
         'negotiated_lang' => null,
         'lang' => 'en',
+        'lang-native' => 'English',
         'locale' => "en_GB.UTF-8",
         'locale_override' => null,
         'dir' => "ltr",
@@ -335,6 +336,8 @@ class GGL {
         if ( isset(self::$locales[$lang]) ) {
             // Set the language code.
             $this->config['lang'] = $lang;
+            // Set the native language name.
+            $this->config['lang-native'] = self::$locales[$lang][1];
             // Set the locale.
             $this->config['locale'] = self::$locales[$lang][0];
             // Set the text direction for this language.

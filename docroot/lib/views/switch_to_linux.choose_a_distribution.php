@@ -28,10 +28,6 @@ $fedora2_text = _("Desktop overview with two applications open.");
 $fedora3_text = _("Software manager open, install/remove applications.");
 ?>
 
-<nav class="chapters">
-  <?php $this->list_chapter_sections('switch_to_linux'); ?>
-</nav>
-
 <main>
   <article>
     <header>
@@ -138,9 +134,10 @@ $fedora3_text = _("Software manager open, install/remove applications.");
         <p><?php # translators: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
         print _("Now get a CD and try or install your distribution!"); ?></p>
 
-        <div class="button green">
-          <a href="<?php $this->base_url('switch_to_linux/try_or_install'); ?>"><?php print _("Read more"); ?> <i class="fa <?php print $this->rtltr("fa-arrow-circle-right", "fa-arrow-circle-left"); ?> fa-fw"></i></a>
-        </div>
+        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux/try_or_install'); ?>">
+          <?php print _("Read more"); ?>
+          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
+        </a>
       </div>
     </div>
   </aside>

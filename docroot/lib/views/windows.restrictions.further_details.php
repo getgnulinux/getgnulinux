@@ -9,10 +9,6 @@ $this->load_header();
 
 ?>
 
-<nav class="chapters">
-  <?php $this->list_chapter_sections('windows'); ?>
-</nav>
-
 <main>
   <div class="container">
     <article>
@@ -22,7 +18,7 @@ $this->load_header();
 
       <p><?php $p = _("We wished to keep our \"<a href=\"%s\">Restrictions</a>\" page short, so we moved many of the license restrictions out here. Here is the fine print inside the Microsoft licenses."); printf($p, $this->get_base_url('windows/restrictions')); ?></p>
 
-      <ul>
+      <ul class="browser-default">
         <li>
           <p class="highlight"><?php print _("It is unclear who can use, receive or buy your software."); ?></p>
           <p><?php print _("The license is particularly unclear as to who may or may not use your version of Windows or Office. Several sentences in the Microsoft Office license suggest it would be illegal to let your neighbour type a letter with your version of Word on your computer."); ?></p>
@@ -51,7 +47,7 @@ $this->load_header();
         </li>
       </ul>
 
-      <aside class="further-reading post-it">
+      <aside class="card-panel amber lighten-4 further-reading">
         <h1 id="further_reading"><?php print _("Read more"); ?></h1>
 
         <div class="column">
@@ -71,16 +67,12 @@ $this->load_header();
     <article>
 
     <aside>
-      <div class="button green">
-        <a href="<?php $this->base_url('windows/restrictions'); ?>"><?php print _("Restrictions"); ?> <i class="fa fa-level-up fa-fw"></i></a>
-      </div>
+      <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('windows/restrictions'); ?>">
+        <?php print _("Restrictions"); ?>
+        <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">expand_less</i>
+      </a>
     </aside>
   </div>
 </main>
-
-<nav class="chapters">
-  <div class="title"><a href="<?php $this->base_url('windows'); ?>"><?php print _("Why not Windows"); ?></a></div>
-  <?php $this->list_chapter_sections('windows'); ?>
-</nav>
 
 <?php $this->load_footer(); ?>

@@ -12,10 +12,6 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
 
 ?>
 
-<nav class="chapters">
-  <?php $this->list_chapter_sections('windows'); ?>
-</nav>
-
 <main>
   <article>
     <div class="container">
@@ -26,7 +22,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
         </div>
       </header>
 
-      <div class="quote">
+      <div class="card-panel card-panel--source amber lighten-4">
         <p><?php
         # translators: This is the quote by Don Marti at the start of the article.
         print _("I come up with new words, phrases, analogies, all kinds of fun stuff in the English language and people paraphrase what I had to say and make money talking about some of the same things that I did."); ?></p>
@@ -37,13 +33,13 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
       <section>
         <h2 id="not_a_crazy_concept"><?php print _("Not a crazy concept"); ?></h2>
         <p><?php print _("It sounds peculiar to many users that software should be free as in freedom, since none of Microsoft's products are. Yet our society works with many free things in it, for example:"); ?></p>
-        <div class="quote small float-right hidden-sm">
+        <div class="card-panel card-panel--small card-panel--source amber lighten-4 float-right hidden-sm">
           <p><?php
           # translators: This is the short quote on the side of the article.
           print _("Though no one has a proprietary lock on yoga, it is still a thriving $30 billion business in the United States."); ?></p>
           <span class="source">Venkatesh Hariharan <a href="https://web.archive.org/web/20100306185803/http://www.redhat.com:80/magazine/025nov06/features/intellectual_india/?sc_cid=bcm_edmsept_007" rel="external">[1]</a></span>
         </div>
-        <ul>
+        <ul class="browser-default">
           <li><?php print _("No chef would ever forbid you to modify his recipe and make derivatives out of it. The food industry thrives despite being required by law to list ingredients on product labels."); ?></li>
           <li><?php print _("A fair law court system permits anyone to read through all the trial hearings and arguments. Not only the result (the final deliberations), but also the process is fully open."); ?></li>
         </ul>
@@ -64,7 +60,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
         printf($p, $footnote2); ?></p>
         <p class="highlight"><?php print _("DRM is control over content"); ?></p>
         <p><?php print _("Except that the control is not in the hands of the end-user. The original purpose of <abbr title=\"Digital Restrictions Management\">DRM</abbr> is understandable, but the implications over the flow of information and culture within a society are frightening."); ?></p>
-        <ul>
+        <ul class="browser-default">
           <li><?php print _("Imagine a book that automatically became glued shut after you read it once."); ?></li>
           <li><?php print _("Imagine documents that self-destructed if you tried to take them out of the room."); ?></li>
           <li><?php print _("Imagine telephones that only worked if the person you were ringing was renting the same make and model."); ?></li>
@@ -84,7 +80,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
       <section>
         <h2 id="the_wider_impact"><?php print _("The wider impact"); ?></h2>
 
-        <div class="quote">
+        <div class="card-panel card-panel--source amber lighten-4">
           <p><?php
           # translators: This is the quote by Rosemary Bechler in the middle of the article.
           print _("Many cultural products are now emerging &quot;triple protected&quot;, not only by copyright and code, but also by contracts or licenses for which users waive all remaining rights."); ?></p>
@@ -94,7 +90,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
 
         <p><?php print _("Computing is not just about calculations anymore. We use software to communicate: to share information, ideas and culture. Software is in our phones, cars, media players, TVs, and gets to govern just about every new device around us."); ?></p>
 
-        <div class="quote image float-right hidden-sm">
+        <div class="card-panel card-panel--image card-panel--source amber lighten-4 float-right hidden-sm">
           <img class="" src="/images/windows/windows.stand_for_a_free_society.content_protection.png" width="235" height="150" alt="DRM"/>
           <span class="source"><span class="author">Randall Munroe,</span> <a href="https://xkcd.com/c129.html" rel="external">xkcd</a></span>
         </div>
@@ -113,7 +109,16 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
         </ol>
       </div>
 
-      <aside class="further-reading post-it">
+      <br>
+
+      <aside>
+        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('windows'); ?>">
+          <?php print _("Why not Windows"); ?>
+          <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">expand_less</i>
+        </a>
+      </aside>
+
+      <aside class="card-panel amber lighten-4 further-reading">
         <h1><?php print _("Read more"); ?></h1>
 
         <div class="column">
@@ -145,13 +150,9 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
           print _("More on free software on this website."); ?></p>
         </div>
       </aside>
+      <br>
     </article>
   </div>
 </main>
-
-<nav class="chapters">
-  <div class="title"><a href="<?php $this->base_url('windows'); ?>"><?php print _("Why not Windows"); ?></a></div>
-  <?php $this->list_chapter_sections('windows'); ?>
-</nav>
 
 <?php $this->load_footer(); ?>

@@ -9,10 +9,6 @@ $this->load_header();
 
 ?>
 
-<nav class="chapters">
-  <?php $this->list_chapter_sections('windows'); ?>
-</nav>
-
 <main>
   <div class="container">
     <article>
@@ -26,7 +22,7 @@ $this->load_header();
 
       <section>
         <h2 id="the_small_print"><?php print _("The small print in the contract"); ?></h2>
-        <ul>
+        <ul class="browser-default">
           <li>
             <p class="highlight"><?php print _("Windows and Office are licensed, not sold."); ?></p>
             <p><?php print _("No one can buy Windows or Microsoft Office: instead users <strong>purchase a permission to use</strong> them. The license describes the terms of this permission. It is the restrictive legal text you have to click \"OK\" to upon install."); ?></p>
@@ -51,7 +47,7 @@ $this->load_header();
 
         <br>
 
-        <div class="quote">
+        <div class="card-panel card-panel--source amber lighten-4">
           <p><?php print _("If you go to most of the free software sites you can click down a couple of levels and find the [GNU] <abbr title=\"General Public License, the main free software license\">GPL</abbr>, the X license, the Apache license, whichever terms and conditions you have to accept in order to use that software."); ?></p>
           <p><?php print _("Now with a proprietary software company, the license is buried so you can't read it until after you have paid for the product, then they're asking you to <strong>turn off part of your brain</strong>, they're asking you to turn off part of your ability to work with other people and to do business, when you use their software."); ?></p>
           <span class="source">Don Marti, <a href="https://web.archive.org/web/20080217042507/http://www.go-opensource.org:80/go_open/episode_2/big_guns/" hreflang="en" title="<?php print _("Don Marti interview"); ?>" rel="external"><?php print _("2005 interview"); ?></a></span>
@@ -66,15 +62,21 @@ $this->load_header();
         <p><?php
         # translators: use the definition of "free software" on GNU.org; also, gnu.org uses language negotiation, so it's not necessary to replace those URLs.
         print _("<strong>You have an alternative to breaking this law,</strong> or feeling very restrained when you abide to it. GNU/Linux is <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">Free Software</a> (much better than just freeware): its <a href=\"https://www.gnu.org/copyleft/gpl.html\" rel=\"external\">GPL</a> license is designed to protect your rights."); ?></p>
-        <p><a href="<?php $this->base_url('windows/restrictions/further_details'); ?>" title="<?php print _("Restrictions - further details"); ?>"><?php print _("Read more"); ?></a></p>
+        <p><a class="waves-effect btn-flat btn-outlined" href="<?php $this->base_url('windows/restrictions/further_details'); ?>" title="<?php print _("Restrictions - further details"); ?>"><?php print _("Read more"); ?></a></p>
       </section>
     </article>
+
+    <br>
+
+    <aside>
+      <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('windows'); ?>">
+        <?php print _("Why not Windows"); ?>
+        <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">expand_less</i>
+      </a>
+    </aside>
+
+    <br>
   </div>
 </main>
-
-<nav class="chapters">
-  <div class="title"><a href="<?php $this->base_url('windows'); ?>"><?php print _("Why not Windows"); ?></a></div>
-  <?php $this->list_chapter_sections('windows'); ?>
-</nav>
 
 <?php $this->load_footer(); ?>

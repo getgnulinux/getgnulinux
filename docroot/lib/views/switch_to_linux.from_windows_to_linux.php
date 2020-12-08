@@ -9,10 +9,6 @@ $this->load_header();
 
 ?>
 
-<nav class="chapters">
-  <?php $this->list_chapter_sections('switch_to_linux'); ?>
-</nav>
-
 <main>
   <article>
     <div class="container">
@@ -82,8 +78,8 @@ $this->load_header();
         <p><?php # translators: Please choose the wording of the DRM acronym according to the FSF terminology
         print _("This might lead you to circumvent the restrictions in some DVDs and the <abbr title=\"Digital Restrictions Management\">DRM</abbr> in some music files, even if you purchased them in full legality, to be make them work under GNU/Linux. Unfortunately, depending on where you live, <em>such circumvention processes may be illegal</em> even if you purchased your media entirely legally."); ?></p>
         <p><?php print _("Read more in our GNU/Linux FAQ:"); ?></p>
-        <ul class="fa-ul">
-          <li><i class="fa-li fa fa-question-circle"></i><a href="<?php $this->base_url('linux/linux_faq'); ?>#dvd_mp3"><?php print _("Can I play my DVDs and MP3s under GNU/Linux?"); ?></a></li>
+        <ul class="browser-default">
+          <li><a href="<?php $this->base_url('linux/linux_faq'); ?>#dvd_mp3"><?php print _("Can I play my DVDs and MP3s under GNU/Linux?"); ?></a></li>
         </ul>
 
         <h3><?php print _("Gaming"); ?></h3>
@@ -91,8 +87,8 @@ $this->load_header();
         <p><?php # translators: use localised link if possible, and contact us if you know better resources
         print _("There is a very active free software game development community though, and they have produced quite a few high-quality games, both 2D and 3D, that are free software. You can head to the <a href=\"https://ubuntuforums.org/forumdisplay.php?f=93\" rel=\"external\">Ubuntu gaming forum</a> to find more information. And with the release of the popular Steam platform to GNU/Linux, the number of <a href=\"https://store.steampowered.com/linux\" rel=\"external\">GNU/Linux supported games on Steam</a> has been growing rapidly."); ?></p>
         <p><?php print _("Read more in our GNU/Linux FAQ:"); ?></p>
-        <ul class="fa-ul">
-          <li><i class="fa-li fa fa-question-circle"></i><a href="<?php $this->base_url('linux/linux_faq'); ?>#games"><?php print _("Can I play popular 3D games under GNU/Linux?"); ?></a></li>
+        <ul class="browser-default">
+          <li><a href="<?php $this->base_url('linux/linux_faq'); ?>#games"><?php print _("Can I play popular 3D games under GNU/Linux?"); ?></a></li>
         </ul>
 
         <h3><?php print _("Hibernating"); ?></h3>
@@ -102,7 +98,7 @@ $this->load_header();
       <section>
         <h2 id="conclusion"><?php print _("Conclusion"); ?></h2>
         <p><?php print _("Whether you are going to enjoy GNU/Linux depends mostly on what you expect from it."); ?></p>
-        <ul>
+        <ul class="browser-default">
           <li>
             <?php # translators: Use a localised version of the "Linux is Not Windows" article if possible. The following page contains links to localised versions: http://geekblog.oneandoneis2.org/index.php/2005/12/31/derived_works_aamp_translations
             print _("If you wish GNU/Linux to be just exactly like Windows, you will probably be disappointed. GNU/Linux is built by people who simply <a href=\"http://linux.oneandoneis2.org/LNW.htm\" rel=\"external\">wish it to be different</a>. In the free software community, members have different visions of what makes an ideal operating system. These differences lead to variety, which is what makes GNU/Linux so special and interesting."); ?>
@@ -126,9 +122,10 @@ $this->load_header();
       <div class="page-intro">
         <p><?php print _("Our selection for an easy choice."); ?></p>
 
-        <div class="button green">
-          <a href="<?php $this->base_url('switch_to_linux/choose_a_distribution'); ?>"><?php print _("Read more"); ?> <i class="fa <?php print $this->rtltr("fa-arrow-circle-right", "fa-arrow-circle-left"); ?> fa-fw"></i></a>
-        </div>
+        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux/choose_a_distribution'); ?>">
+          <?php print _("Read more"); ?>
+          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
+        </a>
       </div>
     </div>
   </aside>

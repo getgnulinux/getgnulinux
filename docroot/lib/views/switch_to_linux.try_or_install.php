@@ -7,10 +7,6 @@ if ( !defined('GGL') ) {
 $this->load_header();
 ?>
 
-<nav class="chapters">
-  <?php $this->list_chapter_sections('switch_to_linux'); ?>
-</nav>
-
 <main>
   <div class="container">
     <article>
@@ -57,9 +53,10 @@ $this->load_header();
             <p><?php print _("<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">Create a bootable USB stick</a> or <a href=\"https://www.debian.org/CD/faq/#record-windows\" rel=\"external\">burn it to a CD/DVD</a>. Then use it to <a href=\"https://www.debian.org/releases/stable/installmanual\" rel=\"external\">install Debian</a> onto your computer."); ?></p>
 
             <div class="download-box-buttons">
-              <div class="button green">
-                <a href="https://www.debian.org/distrib/" target="_blank"><i class="fa fa-download fa-fw"></i> <?php print _("Download Debian"); ?></a>
-              </div>
+              <a class="waves-effect waves-light btn-large light-green darken-4" href="https://www.debian.org/distrib/" target="_blank">
+                <?php print _("Download Debian"); ?>
+                <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">cloud_download</i>
+              </a>
             </div>
           </div>
         </div>
@@ -72,9 +69,10 @@ $this->load_header();
             <p><?php print _("<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows\" rel=\"external\">Create a bootable USB stick</a> or <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel=\"external\">burn it to a DVD</a>. Then use it to <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel=\"external\">install Ubuntu</a> onto your computer."); ?></p>
 
             <div class="download-box-buttons">
-              <div class="button green">
-                <a href="https://ubuntu.com/download/desktop" target="_blank"><i class="fa fa-download fa-fw"></i> <?php print _("Download Ubuntu"); ?></a>
-              </div>
+              <a class="waves-effect waves-light btn-large light-green darken-4" href="https://ubuntu.com/download/desktop" target="_blank">
+                <?php print _("Download Ubuntu"); ?>
+                <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">cloud_download</i>
+              </a>
             </div>
           </div>
         </div>
@@ -87,9 +85,10 @@ $this->load_header();
             <p><?php print _("<i>Fedora Media Writer</i> is the easiest way to <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">try or install Fedora</a>."); ?></p>
 
             <div class="download-box-buttons">
-              <div class="button green">
-                <a href="https://getfedora.org/en/workstation/" target="_blank"><i class="fa fa-download fa-fw"></i> <?php print _("Download Fedora"); ?></a>
-              </div>
+              <a class="waves-effect waves-light btn-large light-green darken-4" href="https://getfedora.org/en/workstation/" target="_blank">
+                <?php print _("Download Fedora"); ?>
+                <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">cloud_download</i>
+              </a>
             </div>
           </div>
         </div>

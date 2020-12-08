@@ -7,7 +7,6 @@ const sassConfig = {
     outputStyle: 'expanded',
     precision: 10,
     includePaths: [
-        'node_modules/normalize.css/',
         'node_modules/bourbon/app/assets/stylesheets/',
         'node_modules/bourbon-neat/app/assets/stylesheets/',
     ]

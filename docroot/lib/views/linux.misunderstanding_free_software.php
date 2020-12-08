@@ -41,7 +41,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
         <h2 id="innovation_killed"><?php print _("Innovation is killed in free software"); ?></h2>
         <p><?php print _("The common perception is that if everyone can copy ideas, innovation will be stifled."); ?></p>
         <p><?php print _("In fact, freedom is often <strong>the key to innovative and successful software</strong>."); ?></p>
-        <ul>
+        <ul class="browser-default">
           <li><?php print _("Anyone is allowed and encouraged to work upon it;"); ?></li>
           <li><?php print _("Many people are willing to participate;"); ?></li>
           <li><?php print _("There is no need to re-invent everything, ideas can be improved upon directly."); ?></li>
@@ -49,7 +49,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
 
         <div id="applist">
           <p><?php print _("Non-proprietary software stands out in many areas: consider, to name just a few:"); ?></p>
-          <ul>
+          <ul class="browser-default">
             <li><?php print _("Applications: <a href=\"https://www.getfirefox.com/\" rel=\"external\">Firefox</a> (web browser), <a href=\"https://inkscape.org/\" rel=\"external\">Inkscape</a> (vector drawing)."); ?></li>
             <li><?php print _("Complete systems: <a href=\"https://en.wikipedia.org/wiki/Apache_HTTP_Server\" rel=\"external\">Apache</a> (web server), <a href=\"https://en.wikipedia.org/wiki/OpenBSD\" rel=\"external\">OpenBSD</a> (<abbr title=\"Operating System\">OS</abbr>), and of course, GNU/Linux."); ?></li>
             <li><?php
@@ -80,7 +80,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
         <p><?php print _("Any proprietary software author can easily check that his copyright is not violated in a free software application, since its source code is readily available."); ?></p>
         <p><?php print _("Patents in software, on the other hand, are a very controversial concept. To put it shortly: there is <strong>no such thing as a \"patented software\"</strong>. By registering for a patent, however, someone can claim ownership over a <em>process</em>. The patent then applies to all software that use this process, whether proprietary or free."); ?></p>
         <p><?php print _("Software patents:"); ?></p>
-        <ul>
+        <ul class="browser-default">
           <li><?php print _("Are expensive and are granted only several years after application;"); ?></li>
           <li><?php print _("Are limited geographically (a patent granted in the US is worthless in Europe);"); ?></li>
           <li><?php print _("Have long life-times (often 20 years) in a quickly-moving industry;"); ?></li>
@@ -90,14 +90,12 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
         <p><?php print _("It's safe to say that <strong>any medium-size piece of software violates patents</strong>, in several countries, whether it's free or not."); ?></p>
         <p><?php print _("Depending on the holding company's ability to cover very large legal costs, or to retaliate with other patent threats, royalties and restrictions can be applied over these patents."); ?></p>
 
-        <div class="read-more-box">
-          <?php print _("Read more:"); ?>
-          <ul>
-              <li><?php
-              # translators: Unless you know of a good localized resource, please leave the URL as such.
-              print _("<a href=\"https://ffii.org/Frequently%20Asked%20Questions%20about%20software%20patents\" hreflang=\"en\" rel=\"external\">Frequently Asked Questions on software patents, by the <abbr title=\"Foundation for a Free Information Infrastructure\">FFII</abbr>"); ?></a></li>
-          </ul>
-        </div>
+        <p><?php print _("Read more:"); ?></p>
+        <ul class="browser-default">
+          <li><?php
+          # translators: Unless you know of a good localized resource, please leave the URL as such.
+          print _("<a href=\"https://ffii.org/Frequently%20Asked%20Questions%20about%20software%20patents\" hreflang=\"en\" rel=\"external\">Frequently Asked Questions on software patents, by the <abbr title=\"Foundation for a Free Information Infrastructure\">FFII</abbr>"); ?></a></li>
+        </ul>
       </section>
 
       <section>
@@ -108,7 +106,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
         <p><?php print _("Let's imagine that you use one application that is free software, at home and within your company. You find a great way to improve it, so now with your modified version, your computer works better and your factories run twice as fast!"); ?></p>
         <p><?php print _("This modified version is <strong>your own version</strong>. You are not required to tell anyone about it, nor must you share any of the profits you made using it. You are simply exerting your freedom to use and modify free software."); ?></p>
         <p><?php print _("What the free software license requires is that <strong>if you redistribute</strong> this software, then you must keep it free. Namely, if you sell CDs with your software on them, or start letting people outside your home or company use it, then you must:"); ?></p>
-        <ul>
+        <ul class="browser-default">
           <li><?php print _("Either give everyone the same rights you had when you obtained the original software, that is, the freedom to inspect, modify and redistribute your modified version;"); ?></li>
           <li><?php print _("Or, make the original software and your secret addition to it clearly separate (that is, your addition should contain none of the original work)."); ?></li>
         </ul>
@@ -131,7 +129,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
         # translators: this can be translated loosely, ex "Free software isolates me" or else.
         print _("I'm on my own with free software"); ?></h2>
         <p><?php print _("Not at all."); ?></p>
-        <ul>
+        <ul class="browser-default">
           <li><?php print _("If you are looking for good documentation and support forums to assist you, there is plenty available for free (\"open source\") software."); ?><br/>
           <?php # translators: use your best knowledge of the community to propose localized links ;-)
           print _("Each GNU/Linux distribution has its own community (for example, <a href=\"https://askubuntu.com/\" rel=\"external\">Ask Ubuntu</a> or <a href=\"https://ask.fedoraproject.org/\" rel=\"external\">Ask Fedora</a>), but there are also general GNU/Linux help communities, like <a href=\"https://unix.stackexchange.com/\" rel=\"external\">Unix & Linux Stack Exchange</a>."); ?></li>
@@ -139,7 +137,14 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
         </ul>
       </section>
 
-      <aside class="further-reading post-it">
+      <aside>
+        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('linux'); ?>">
+          <?php print _("What is GNU/Linux?"); ?>
+          <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">expand_less</i>
+        </a>
+      </aside>
+
+      <aside class="card-panel amber lighten-4 further-reading">
         <h1><?php print _("Further reading on the web"); ?></h1>
         <div class="column">
           <h2><a href="https://www.gnu.org" rel="external">The GNU project</a></h2>
@@ -167,12 +172,6 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
         </ol>
       </div>
     </article>
-
-    <aside>
-      <div class="button green">
-        <a href="<?php $this->base_url('linux'); ?>"><?php print _("What is GNU/Linux?"); ?> <i class="fa fa-level-up fa-fw"></i></a>
-      </div>
-    </aside>
   </div>
 </main>
 

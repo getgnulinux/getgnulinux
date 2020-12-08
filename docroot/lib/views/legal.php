@@ -30,7 +30,7 @@ $this->load_header();
       warranties of fitness for a particular purpose, merchantability and noninfringement.<br/>
       Our websites are released under the following licenses:</p>
 
-      <ul>
+      <ul class="browser-default">
         <li>
           Text content of getgnulinux.org and all their translations: <a
           href="https://creativecommons.org/licenses/by-sa/4.0/"

@@ -35,7 +35,7 @@ $this->load_header();
         <p><?php # translators: use the definition of "free software" on GNU.org
         print _("When you get a distribution of GNU/Linux, <strong>you also get the freedom to study, copy, change, and redistribute it</strong> &ndash;&nbsp;that's what makes it truly <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title=\"what is freedom in software?\" rel=\"external\">free software</a>."); ?></p>
         <p><?php print _("Many companies develop their own operating system based on the core <a href=\"https://www.gnu.org\" title=\"the GNU project: at the source of all GNU/Linux distributions\" rel=\"external\">GNU software</a>: products they do not have exclusive rights on. How does the wheel turn?"); ?></p>
-        <ul>
+        <ul class="browser-default">
           <li><?php print _("Most companies make a profit by <em>selling support and services</em> around their GNU/Linux distribution. Corporate customers buy guaranteed security updates and assistance. Other services often include training and on-demand improvements to software."); ?></li>
           <li><?php print _("Some companies, such as HP or IBM, contribute to GNU/Linux because they pre-install it on servers they sell."); ?></li>
           <li><?php print _("An extremely wide community participates in the development and improvement of software, decreasing costs and improving efficiency."); ?></li>
@@ -43,14 +43,14 @@ $this->load_header();
         <p><?php print _("In the end, individual end-users often get the software at zero cost, while corporate customers are often happy to pay for more support."); ?></p>
       </section>
 
+      <hr>
+
       <section>
-        <div class="read-more-box">
-          <p><?php print _("More in this section:"); ?></p>
-          <ul class="fa-ul">
-            <li><i class="fa-li fa fa-exclamation-triangle"></i><a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a></li>
-            <li><i class="fa-li fa fa-question-circle"></i><a href="<?php $this->base_url('linux/linux_faq'); ?>"><?php print _("GNU/Linux FAQ - common questions about GNU/Linux"); ?></a></li>
-          </ul>
-        </div>
+        <p><?php print _("More in this section:"); ?></p>
+        <ul class="browser-default">
+          <li><a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a></li>
+          <li><a href="<?php $this->base_url('linux/linux_faq'); ?>"><?php print _("GNU/Linux FAQ - common questions about GNU/Linux"); ?></a></li>
+        </ul>
       </section>
     </div>
   </article>
@@ -62,9 +62,10 @@ $this->load_header();
       <h1><?php print _("Why not Windows"); ?></h1>
       <div class="page-intro">
         <p><?php print _("Why we should avoid using Microsoft Windows"); ?></p>
-        <div class="button green">
-          <a href="<?php $this->base_url('windows'); ?>"><?php print _("Read more"); ?> <i class="fa <?php print $this->rtltr("fa-arrow-circle-right", "fa-arrow-circle-left"); ?> fa-fw"></i></a>
-        </div>
+        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('windows'); ?>">
+          <?php print _("Read more"); ?>
+          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
+        </a>
       </div>
     </div>
   </aside>
@@ -76,9 +77,10 @@ $this->load_header();
       <h1><?php print _("Switch to GNU/Linux"); ?></h1>
       <div class="page-intro">
         <p><?php print _("Where to download and how to step into GNU/Linux"); ?></p>
-        <div class="button green">
-          <a href="<?php $this->base_url('switch_to_linux'); ?>"><?php print _("Read more"); ?> <i class="fa <?php print $this->rtltr("fa-arrow-circle-right", "fa-arrow-circle-left"); ?> fa-fw"></i></a>
-        </div>
+        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux'); ?>">
+          <?php print _("Read more"); ?>
+          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
+        </a>
       </div>
     </div>
   </aside>

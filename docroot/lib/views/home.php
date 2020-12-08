@@ -9,66 +9,56 @@ $this->load_header();
 ?>
 
 <main>
-  <section class="no-padding">
-    <div class="flexslider flexslider_home">
-      <ul class="slides">
-        <li>
-          <div class="flexslider_home_slide flexslider_home_slide--ggl">
-
-            <img src="/images/slides/GNU_Tux.svg" alt="">
-            <h1><?php print _("get GNU/Linux!"); ?></h1>
-            <div class="slide-text">
-              <p><?php # translators: This is the very first sentence every visitor is going to read. Please pay great attention to making it sound great, we only have one try! =)
-              print _("GNU/Linux is an alternative to Microsoft Windows and macOS. It is easy to use and gives more freedom to users. Anyone can install it: GNU/Linux is free as in freedom, and often available free of charge."); ?></p>
-            </div>
-
-          </div>
-        </li>
-        <li>
-          <div class="flexslider_home_slide flexslider_home_slide--linux">
-
-            <img src="/images/slides/Help.svg" alt="">
-            <h1><?php print _("What is GNU/Linux?"); ?></h1>
-            <div class="slide-text">
-              <p><?php print _("Learn more about the free operating system"); ?></p>
-              <div class="button blue">
-                <a href="<?php $this->base_url('linux'); ?>"><?php print _("Read more"); ?> <i class="fa <?php print $this->rtltr("fa-arrow-circle-right", "fa-arrow-circle-left"); ?> fa-fw"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </li>
-        <li>
-          <div class="flexslider_home_slide flexslider_home_slide--windows">
-
-            <img src="/images/slides/Warning.svg" alt="">
-            <h1><?php print _("Why not Windows"); ?></h1>
-            <div class="slide-text">
-              <p><?php print _("Why we should avoid using Microsoft Windows"); ?></p>
-              <div class="button blue">
-                <a href="<?php $this->base_url('windows'); ?>"><?php print _("Read more"); ?> <i class="fa <?php print $this->rtltr("fa-arrow-circle-right", "fa-arrow-circle-left"); ?> fa-fw"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </li>
-        <li>
-          <div class="flexslider_home_slide flexslider_home_slide--switch">
-
-            <img src="/images/slides/Disc.svg" alt="">
-            <h1><?php print _("Switch to GNU/Linux"); ?></h1>
-            <div class="slide-text">
-              <p><?php print _("Where to download and how to step into GNU/Linux"); ?></p>
-              <div class="button blue">
-                <a href="<?php $this->base_url('switch_to_linux'); ?>"><?php print _("Read more"); ?> <i class="fa <?php print $this->rtltr("fa-arrow-circle-right", "fa-arrow-circle-left"); ?> fa-fw"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </li>
-      </ul>
+  <article>
+    <div class="container">
+      <header>
+        <h1><?php print _("get GNU/Linux!"); ?></h1>
+        <div class="page-intro">
+        <p><?php # translators: This is the very first sentence every visitor is going to read. Please pay great attention to making it sound great, we only have one try! =)
+        print _("GNU/Linux is an alternative to Microsoft Windows and macOS. It is easy to use and gives more freedom to users. Anyone can install it: GNU/Linux is free as in freedom, and often available free of charge."); ?></p>
+        </div>
+      </header>
     </div>
-  </section>
+
+    <section>
+      <div class="container button-section">
+        <h1><?php print _("What is GNU/Linux?"); ?></h1>
+        <div class="page-intro">
+          <p><?php print _("Learn more about the free operating system"); ?></p>
+          <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('linux'); ?>">
+          <?php print _("Read more"); ?>
+          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-even">
+      <div class="container button-section">
+        <h1><?php print _("Why not Windows"); ?></h1>
+        <div class="page-intro">
+          <p><?php print _("Why we should avoid using Microsoft Windows"); ?></p>
+          <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('windows'); ?>">
+          <?php print _("Read more"); ?>
+          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container button-section">
+        <h1><?php print _("Switch to GNU/Linux"); ?></h1>
+        <div class="page-intro">
+          <p><?php print _("Where to download and how to step into GNU/Linux"); ?></p>
+          <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux'); ?>">
+          <?php print _("Read more"); ?>
+          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </article>
 </main>
 
 <?php $this->load_footer(); ?>
