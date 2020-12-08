@@ -37,11 +37,6 @@
 
 <body>
 
-<div class="alertbox browsehappy hidden">
-  <p>You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-  <span class="close"><i class="fa fa-times-circle fa-lg" title="Close"></i></span>
-</div>
-
 <header class="navigation">
   <div class="navigation-wrapper">
     <a href="<?php $this->base_url(); ?>" class="mobile-logo">
