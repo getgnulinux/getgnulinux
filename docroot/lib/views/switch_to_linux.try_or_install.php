@@ -17,7 +17,7 @@ $this->load_header();
       <header>
         <h1><?php print _("Try or install"); ?></h1>
         <div class="page-intro">
-          <p><?php print _("Make the step &ndash; unless you wish to <a href=\"#free_software_pre_installed\" title=\"GNU/Linux Desktops and Laptops\">purchase a PC with GNU/Linux pre-installed</a>, you can see what freedom looks like on your computer."); ?></p>
+          <p><?php print _("Make the step&mdash;unless you wish to <a href=\"#free_software_pre_installed\" title=\"GNU/Linux Desktops and Laptops\">purchase a PC with GNU/Linux pre-installed</a>, you can see what freedom looks like on your computer."); ?></p>
         </div>
       </header>
 
@@ -100,7 +100,14 @@ $this->load_header();
       <section>
         <h2 id="free_software_pre_installed"><?php print _("Free Software pre-installed"); ?></h2>
         <img src="/images/Laptop.png" class="float-right width20p hidden-sm" alt="">
-        <p><?php print _("Not all computers are shipped with Windows. If you do not wish to make the install yourself, or are in need of new hardware, you can get a laptop or a desktop pre-installed with GNU/Linux. <a href=\"https://linuxpreloaded.com/\" rel=\"external\">LinuxPreloaded.com</a> has compiled a list of vendors pre-installing GNU/Linux just for that reason."); ?></p>
+        <p><?php print _("Not all computers are shipped with Windows, Android, macOS, iOS or Chrome OS. If you do not wish to make the install yourself, or are in need of new hardware, you can get a computer (i.e. phone, tablet, laptop, workstation) pre-installed with GNU/Linux. The most prominent manufacturers/vendors are:"); ?></p>
+        <ul>
+          <li><?php print _("<a href=\"https://puri.sm/products/\" rel=\"external\">Purism</a> (phone, laptop, desktop, server)"); ?></li>
+          <li><?php print _("<a href=\"https://www.pine64.org/\" rel=\"external\">PINE64</a> (phone, tablet, laptop)"); ?></li>
+          <li><?php print _("<a href=\"https://libre.thinkpenguin.com/\" rel=\"external\">ThinkPenguin</a> (laptop, desktop)"); ?></li>
+          <li><?php print _("<a href=\"https://www.raptorcs.com/\" rel=\"external\">Raptor Computing Systems</a> (workstation, server)"); ?></li>
+        </ul>
+
       </section>
     </article>
   </div>
