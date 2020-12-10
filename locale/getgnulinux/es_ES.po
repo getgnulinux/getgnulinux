@@ -1,359 +1,85 @@
 <?php
-/*
- *  Copyright 2006-2008, GNU/Linux Matters <http://www.gnulinuxmatters.org/>
- *  Copyright 2011-2012 Launchpad getgnulinux Team <https://launchpad.net/~getgnulinux>
- *
- *  This file is part of Get GNU/Linux! <https://launchpad.net/getgnulinux>
- *
- *  GGL is free software: you can redistribute it and/or modify it under
- *  the terms of the GNU Affero General Public License as published by the
- *  Free Software Foundation, either version 3 of the License, or any later
- *  version.
- *
- *  GGL is distributed in the hope that it will be useful, but WITHOUT
- *  ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
- *  FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public
- *  License for more details.
- *
- *  You should have received a copy of the GNU Affero General Public License
- *  along with GGL. If not, see <http://www.gnu.org/licenses/>.
- *
- */
 
-/**
- * This is the HTML module for Get GNU/Linux!
- *
- * @author Serrano Pereira <serrano.pereira@gmail.com>
- * @license http://www.gnu.org/licenses/agpl-3.0.html GNU AGPL v3
- */
-
-/**
- * Utilities for HTML generation.
- */
-class HTML {
-
-    /**
-     * Set the current view.
-     */
-    function __construct() {
-        $this->view = isset($_GET['p']) ? basename($_GET['p']) : 'home';
-    }
-
-    /**
-     * Return the file path for a view.
-     *
-     * @param string $view The name of the view.
-     * @return string Canonicalized file path of the view, or NULL if the path
-     * is invalid.
-     */
-    static function path_for_view($view) {
-        return Util::safe_path(sprintf("%s/lib/views/%s.php", ROOT, $view));
-    }
-
-    /**
-     * Load the requested page.
-     *
-     * @uses GetGnuLinux $ggl
-     * @uses string $this->view
-     */
-    function load_content() {
-        global $ggl;
-
-        $path = self::path_for_view($this->view);
-
-        if ($path !== null) {
-            include $path;
-        }
-        else {
-            header('HTTP/1.x 404 Not Found');
-            include self::path_for_view('404');
-        }
-    }
-
-    /**
-     * Load the page header.
-     */
-    function load_header() {
-        global $ggl;
-        include Util::safe_path(ROOT.'/templates/header.php');
-    }
-
-    /**
-     * Load the page footer.
-     */
-    function load_footer() {
-        global $ggl;
-        include Util::safe_path(ROOT.'/templates/footer.php');
-    }
-
-    /**
-     * Print the value of a configuration key.
-     *
-     * @param string $key The value of which configuration key to print.
-     * @param unknown $default The value to print if the configuration key
-     *      does not exist.
-     */
-    function text($key, $default='') {
-        global $ggl;
-        print $ggl->get($key, $default);
-    }
-
-    /**
-     * Return the bare page title.
-     */
-    function bare_page_title($fallback=null) {
-        global $ggl;
-
-        if (array_key_exists($this->view, $ggl->config['page_titles'])) {
-            return $ggl->config['page_titles'][$this->view];
-        }
-
-        return $fallback;
-    }
-
-    /**
-     * Return the page title.
-     */
-    function page_title() {
-        global $ggl;
-
-        $site_name = $ggl->get('website_title');
-        $page_title = $this->bare_page_title();
-
-        if ($page_title !== null) {
-            return sprintf("%s | %s", $page_title, $site_name);
-        }
-
-        return $site_name;
-    }
-
-    /**
-     * Return the current page description.
-     */
-    function page_description() {
-        global $ggl;
-
-        $view = array_key_exists($this->view, $ggl->config['page_descriptions']) ?
-            $this->view : 'default';
-
-        return $ggl->config['page_descriptions'][$view];
-    }
-
-    function nav_link($id, $page, $title) {
-      printf('<li id="%s" class="waves-effect waves-light %s"><a href="%s">%s</a>',
-        $id,
-        $this->we_are_here($page, true) ? 'active' : '',
-        $this->get_base_url($page),
-        $title);
-    }
-
-    function sidenav_link($page, $title) {
-      printf('<li class="%s"><a class="waves-effect" href="%s">%s <i class="material-icons %s">chevron_right</i></a>',
-        $this->we_are_here($page, true) ? 'active' : '',
-        $this->get_base_url($page),
-        $title,
-        $this->rtltr("right", "left")
-      );
-    }
-
-    /**
-     * Print the chapter list for the "Swith to GNU/Linux" pages.
-     */
-    function list_chapter_sections($chapter) {
-        global $ggl;
-        foreach ($ggl->sections[$chapter] as $path => $title) {
-            printf('<li%s><a href="%s">%s</a></li>',
-                $this->we_are_here($path) ? ' class="active"' : '',
-                $this->get_base_url($path),
-                $title
-            );
-        }
-    }
-
-    /**
-     * Return $a when the language is left-to-right, $b otherwise.
-     *
-     * @param string $a String A.
-     * @param string $b String B.
-     */
-    function rtltr($a, $b) {
-        global $ggl;
-        return ($ggl->get('dir') == 'ltr') ? $a : $b;
-    }
-
-    /**
-     * Print the versioned path for $path.
-     *
-     * This methods adds a version number to the end of the file path. This
-     * is to force the visitor's browser to load the updated file when the
-     * file changes. The version number that is added at the end is a part of
-     * the file's MD5 sum.
-     *
-     * @param string $path Relative path to a file on the server.
-     */
-    function filever($path) {
-        $hash = substr(md5_file(ROOT.$path), 0, 12);
-        printf("%s?v=%s", $path, $hash);
-    }
-
-    function current_page_url($lang=null) {
-        global $ggl;
-
-        return sprintf(
-            "%s%s",
-            $ggl->get('base_url'),
-            $this->current_page_path($lang));
-    }
-
-    /**
-     * Return the localized path for the current page.
-     *
-     * This is used in language menu's to link to the same page in different
-     * languages.
-     *
-     * @param string $lang If the ISO language is provided, a localised path
-     *      is returned instead.
-     * @return string The path to the current page.
-     */
-    function current_page_path($lang=null) {
-        global $ggl;
-
-        $view = $this->view === 'home' ? '' : $this->view;
-        $view_rpl = str_replace('.', '/', $view);
-        $path = empty($view_rpl) ? null : $view_rpl;
-
-        if ($path === null && $lang === null) {
-            return '';
-        }
-        else if ($path !== null && $lang !== null) {
-            return sprintf("%s/%s/", $lang, $path);
-        }
-        else if ($lang === null) {
-            return sprintf("%s/", $path);
-        }
-        else {
-            return sprintf("%s/", $lang);
-        }
-    }
-
-    /**
-     * Return TRUE if the page path is of the current page.
-     *
-     * If $fuzzy is TRUE, this function returns TRUE when $path matches
-     * the start of the current page name.
-     *
-     * @param string $path The path of the page to check against.
-     * @param bool $fuzzy Set to TRUE to enable fuzzy matching.
-     * @return Returns TRUE if the path matches the current page,
-     *         FALSE otherwise.
-     */
-    function we_are_here($path, $fuzzy=false) {
-        if ($fuzzy) {
-            return Util::startswith($path, $this->view);
-        }
-        else {
-          return $this->view === str_replace('/','.',$path);
-        }
-    }
-
-    /**
-     * Return the path or URL for a page. If $path is omitted, the path to the
-     * website root is returned (e.g. '/' or 'http://example.com/').
-     *
-     * @param string $path The path for the page (e.g. 'linux/screenshots').
-     * @return string The path or URL of a page.
-     */
-    function get_base_url($path=null) {
-        global $ggl;
-
-        $url = $ggl->get('base_url');
-        $locale_override = $ggl->get('locale_override');
-
-        if ($locale_override !== null) {
-            # Add locale to the URL path.
-            $url .= sprintf('%s/', $locale_override);
-        }
-
-        if ($path !== null) {
-            $url .= $path;
-        }
-
-        return $url;
-    }
-
-    function base_url($path=null) {
-        print $this->get_base_url($path);
-    }
-
-    /**
-     * Print the URL for a file.
-     *
-     * @uses GetGnuLinux $ggl
-     * @param string $file The relative path to a file.
-     */
-    function url($file)
-    {
-        global $ggl;
-        printf("%s%s", $ggl->get('base_url'), $file);
-    }
-
-    /**
-     * Returns the path to a language-specific file $filename.
-     *
-     * @uses GetGnuLinux $ggl
-     * @param string $fileName The filename of which to get the
-     *      language-specific version.
-     * @return string $path Path to the language-specific file.
-     */
-    function language_file($filename)
-    {
-        global $ggl;
-        $path = sprintf("/images/locale/%s/%s", $ggl->get('lang'), $filename);
-        if (!file_exists(ROOT.$path)) {
-            $path = sprintf("/images/locale/en/%s", $filename);
-        }
-        return $path;
-    }
-
-    function link_alternate_tags() {
-        global $ggl;
-
-        $template = "<link rel=\"alternate\" type=\"text/html\" dir=\"%s\" hreflang=\"%s\" href=\"%s\">\n";
-
-        foreach ($ggl->get_locales('complete') as $lang => $v) {
-            printf(
-                $template,
-                $ggl->langdir($lang),
-                $lang,
-                $this->current_page_url($lang));
-        }
-    }
-
-    function og_tags() {
-        global $ggl;
-
-        $template = "<meta property=\"og:%s\" content=\"%s\">\n";
-        $properties = array(
-            'type' => 'website',
-            'site_name' => $ggl->get('website_title'),
-            'title' => $this->bare_page_title($ggl->get('website_title')),
-            'description' => $this->page_description(),
-            'url' => $this->current_page_url($ggl->get('locale_override')),
-        );
-
-        foreach ($properties as $property => $content) {
-            printf($template, $property, $content);
-        }
-
-        foreach ($ggl->get_locales('complete') as $lang => $locale_arr) {
-            $locale = explode('.', $locale_arr[0])[0];
-
-            if ($lang === $ggl->get('lang')) {
-                printf($template, 'locale', $locale);
-            }
-            else {
-                printf($template, 'locale:alternate', $locale);
-            }
-        }
-    }
+# This file is not a valid entry point; stop processing unless GGL is defined.
+if ( !defined('GGL') ) {
+  exit(1);
 }
+
+$this->load_header();
+
+?>
+
+<main>
+  <article>
+    <div class="container">
+      <header>
+        <h1><?php print _("Why not Windows"); ?></h1>
+
+        <div class="page-intro">
+          <p><?php
+          # translators: This is the catcher-phrase for the Windows page. Exact translation is not required, the goal is to attract attention and set the tone of the page.
+          print _("Windows and Office work fine &mdash; Why worry about it?"); ?></p>
+        </div>
+      </header>
+
+      <section>
+        <h2><?php print _("Restrictions"); ?></h2>
+        <p><?php
+        # translators: You may add emphasis ('em' tags) around the word 'licensed' if you wish
+        print _("A legal copy of Windows is expensive, but what do you get? Windows and Office are licensed, not sold."); ?></p>
+        <p><?php print _("By using these products, we have to agree to <strong>a number of harsh restrictions</strong>. For most Windows licenses, you can't keep the software when you change the hardware. You sometimes can't even give your software away. Who can run the software? On which computer? What can you do with it? The list of restrictions is long and some items are outrageous."); ?></p>
+        <p><a class="waves-effect btn-flat btn-outlined" href="<?php $this->base_url('windows/restrictions'); ?>" title="<?php print _("Restrictions in a proprietary software license."); ?>"><?php print _("Read more"); ?></a></p>
+      </section>
+
+      <section>
+        <h2><?php print _("What about choice?"); ?></h2>
+        <p><?php print _("Software should come without locks in it."); ?></p>
+        <p><?php print _("Why are Office documents difficult to export? Why are the formats continually changing? Why can you not even uninstall some programs? It might be that if you look for choice, Microsoft products aren't for you."); ?></p>
+        <p><a class="waves-effect btn-flat btn-outlined" href="<?php $this->base_url('windows/what_about_choice'); ?>" title="<?php print _("How Microsoft lock customers in."); ?>"><?php print _("Read more"); ?></a></p>
+      </section>
+
+      <section>
+        <h2><?php print _("No source code"); ?></h2>
+        <p><?php print _("The source codes of Windows and Office are hidden, so, <strong>no one is allowed to understand</strong> how these programs work."); ?></p>
+        <p><?php print _("If you can't get a right to inspect source code (the human-readable inner workings of a program), you can't have someone correct flaws or evaluate how your privacy is protected for you."); ?></p>
+        <p><?php print _("And guess what? On software that comes with source code, viruses and spyware aren't effective, and security isn't bought on extra. The antivirus software industry, in which Microsoft is now a significant player, prefers you to use Windows."); ?></p>
+        <p><a class="waves-effect btn-flat btn-outlined" href="<?php $this->base_url('windows/what_about_source_code'); ?>" title="<?php print _("No source code means no trust and no security."); ?>"><?php print _("Read more"); ?></a></p>
+      </section>
+
+      <section>
+        <h2><?php print _("Stand for a free society"); ?></h2>
+        <p><?php
+        # translators: In your language, you might not need to make the distinction between price and freedom. Please do however express that price does not matter, in this sentence.
+        print _("A free society requires free software. Think of &quot;free&quot; as in freedom, not price: the freedoms to inspect, learn from, modify the software you use."); ?></p>
+        <p><?php print _("Computers are used to share ideas, culture and information. Without these freedoms over software, we risk losing control over what we share."); ?></p>
+        <p><?php print _("This is happening today. From plain annoying technologies such as Digital Restrictions Management (<strong>DRM</strong>) to downright frightening ones like <strong>Trusted Computing</strong>, everyone's ability to participate in culture is threatened."); ?></p>
+        <p><?php print _("If you have to give up your freedoms to use software, maybe you should not be happy with it."); ?></p>
+        <p><a class="waves-effect btn-flat btn-outlined" href="<?php $this->base_url('windows/stand_for_a_free_society'); ?>" title="<?php print _("How software affects freedom in society."); ?>"><?php print _("Read more"); ?></a></p>
+      </section>
+    </div>
+
+    <section class="conclusion">
+      <div class="container">
+        <p><?php
+        # translators: This is the conclusion of the article.
+        $p = _("Many people find that Windows, an otherwise decent piece of software, <strong>withdraws so many rights</strong> from them, that it is not worth them using it. macOS is <a href=\"%s#mac_freedom\">not much better</a>, either."); printf($p, $this->get_base_url('linux/linux_faq')); ?></p>
+        <p><?php $p = _("If you find <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title=\"what is freedom in software?\" rel=\"external\">free software</a> attractive, you might want to <a href=\"%s\" title=\"make the switch to GNU/Linux today!\">give GNU/Linux a try</a>."); printf($p, $this->get_base_url('switch_to_linux')); ?></p>
+      </div>
+    </section>
+  </article>
+
+  <aside class="bg-even">
+    <div class="container button-section">
+      <h1><?php print _("Switch to GNU/Linux"); ?></h1>
+      <div class="page-intro">
+        <p><?php print _("Where to download and how to step into GNU/Linux"); ?></p>
+        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux'); ?>">
+          <?php print _("Read more"); ?>
+          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
+        </a>
+      </div>
+    </div>
+  </aside>
+</main>
+
+<?php $this->load_footer(); ?>
