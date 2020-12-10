@@ -1,82 +1,110 @@
-<!DOCTYPE html>
-<html lang="<?php $this->text('lang') ?>" dir="<?php $this->text('dir'); ?>" prefix="og: http://ogp.me/ns#">
-<head>
-  <meta charset="utf-8">
-  <title><?php print $this->page_title(); ?></title>
-  <meta name="description" content="<?php print $this->page_description(); ?>">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <?php $this->og_tags(); ?>
-  <?php $this->link_alternate_tags(); ?>
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:700,400,300" media="all">
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons" media="all">
+<?php
 
-  <!-- build:css /styles/vendor/flexslider.css -->
-  <link rel="stylesheet" type="text/css" href="/styles/vendor/flexslider.css" media="all">
-  <!-- endbuild -->
+class L10n {
 
-  <!-- build:css /styles/main.css -->
-  <link rel="stylesheet" type="text/css" href="/styles/main.css" media="all">
-  <!-- endbuild -->
+    public static $locale_current = null;
+    public static $locale_stack = array();
+    public static $lang = null;
+    public static $supported = array();
+    private static $langmap = array();
 
-  <?php if ( $ggl->get('dir') == 'rtl' ) { ?>
-    <!-- build:css /styles/main-rtl.css -->
-    <link rel="stylesheet" type="text/css" href="/styles/main-rtl.css" media="all">
-    <!-- endbuild -->
-  <?php } ?>
+    /**
+     * Return the negotiated language.
+     *
+     * Languages for which the translation is not completed are skipped, except
+     * if it's an override language.
+     *
+     * @param array $locales Array of the available locales,
+     *      for example:
+     *      array('en' => array('en_US.UTF-8',"English"),
+     *            'ia' => array('ia', "Interlingua"),
+     *            'es' => array('es_ES.UTF-8',"Español"),
+     *      )
+     * @param array $complete Contains language codes for completed translations.
+     * @param string $override Override language, such as from cookie or domain
+     *        name.
+     * @return string A language code.
+     */
+    static function negotiate_language($locales, $override=null) {
+        global $http;
 
-  <?php if ( $ggl->no_italics() ) { ?>
-    <!-- build:css /styles/no-italics.css -->
-    <link rel="stylesheet" type="text/css" href="/styles/no-italics.css" media="all">
-    <!-- endbuild -->
-  <?php } ?>
-</head>
+        foreach ($locales as $code => $items) {
+            list($locale, $native) = $items;
+            self::$supported[$code] = $native;
+            self::$langmap[$code] = $locale;
+        }
 
-<body>
+        if ($override && array_key_exists($override, self::$supported)) {
+            self::$lang = $override;
+        }
+        else {
+            self::$lang = $http->negotiateLanguage(self::$supported);
 
-<header class="navigation">
-  <div class="navigation-wrapper">
-    <nav>
-      <div class="nav-wrapper">
-        <a href="#" data-target="sidenav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul id="nav-mobile" class="hide-on-med-and-down left">
-          <?php $this->nav_link('nav-item-linux', 'home', _("Home")); ?></li>
-          <?php $this->nav_link('nav-item-linux', 'linux', _("What is GNU/Linux?")); ?></li>
-          <?php $this->nav_link('nav-item-windows', 'windows', _("Why not Windows")); ?></li>
-          <?php $this->nav_link('nav-item-switch', 'switch_to_linux', _("Switch to GNU/Linux")); ?></li>
-          <?php $this->nav_link('nav-item-more', 'more', _("More")); ?></li>
-        </ul>
-        <ul id="nav-mobile" class="right">
-          <li>
-            <a class="btn btn-flat btn-wide transparent waves-effect waves-light dropdown-trigger" href="#" data-target="language-menu">
-              <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">translate</i>
-              <? print $ggl->get('lang-native'); ?>
-              <i class="material-icons <?php print $this->rtltr("right", "left"); ?>">keyboard_arrow_down</i>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+            if (!self::$lang || !array_key_exists(self::$lang, self::$langmap)) {
+                self::$lang = null;
+            }
+        }
 
-    <ul class="sidenav" id="sidenav">
-      <?php $this->sidenav_link('home', _("Home")); ?></li>
-      <?php $this->sidenav_link('linux', _("What is GNU/Linux?")); ?></li>
-      <?php $this->sidenav_link('windows', _("Why not Windows")); ?></li>
-      <?php $this->sidenav_link('switch_to_linux', _("Switch to GNU/Linux")); ?></li>
-      <?php $this->sidenav_link('more', _("More")); ?></li>
-    </ul>
+        return self::$lang;
+    }
 
-    <ul id="language-menu" class="dropdown-content">
-      <?php foreach ($ggl->get_locales('complete') as $lng => $items) {
-        list($locale, $native) = $items;
-        $info = $ggl->get_lang_info($lng);
-        printf("<li class=\"waves-effect\"><a href=\"/%s\" hreflang=\"%s\"><span dir=\"%s\">%s</span></a></li>\n",
-          $this->current_page_path($lng),
-          $lng,
-          $info['dir'],
-          $native);
-      } ?>
-      <li class="divider" tabindex="-1"></li>
-      <li><a href="<?php $this->text('l10n_url'); ?>" rel="external"><?php print _("Help translate"); ?></a></li>
-    </ul>
-  </div>
-</header>
+    /**
+     * Change human language to display text, dates, numbers, etc. in.
+     *
+     * $l is the keys from the available language string previously passed to
+     * negotiate_language. Leave unset to use the default negotiated language.
+     *
+     * Note: To get a language working from PHP on Unix, you also need
+     * to install the system locale for that language. In Debian this is done
+     * using "dpkg-reconfigure locales". You may need to restart Apache also.
+     *
+     * @param string $l The locale.
+     */
+    static function locale_change($l = null) {
+        if ($l === null) {
+            $l = self::$lang;
+        }
+        if ($l === self::$locale_current) {
+            return;
+        }
+
+        putenv('LANGUAGE=');
+        putenv('LANG='.self::$langmap[$l]);
+
+        $os_locale = self::$langmap[$l];
+        $ret = setlocale(LC_ALL, $os_locale);
+        if ($ret !== $os_locale) {
+            print "setlocale failed for $os_locale";
+        }
+
+        self::$locale_current = $l;
+
+        // Clear gettext's cache - you have to do this when you change
+        // environment variables.
+        textdomain(textdomain(NULL));
+    }
+
+    /**
+     * Push a locale to the stack.
+     *
+     * Change locale using a stack system, so you can easily restore to whatever
+     * locale was previously set.
+     *
+     * @param string $l The locale
+     */
+    static function locale_push($l) {
+        array_push(self::$locale_stack, self::$locale_current);
+        locale_change($l);
+    }
+
+    /**
+     * Restore the last locale from the stack.
+     *
+     * Change locale using a stack system, so you can easily restore to whatever
+     * locale was previously set.
+     */
+    static function locale_pop() {
+        $l = array_pop(self::$locale_stack);
+        locale_change($l);
+    }
+}
