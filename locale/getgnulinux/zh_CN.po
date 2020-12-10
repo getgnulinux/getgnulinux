@@ -1,82 +1,109 @@
-<!DOCTYPE html>
-<html lang="<?php $this->text('lang') ?>" dir="<?php $this->text('dir'); ?>" prefix="og: http://ogp.me/ns#">
-<head>
-  <meta charset="utf-8">
-  <title><?php print $this->page_title(); ?></title>
-  <meta name="description" content="<?php print $this->page_description(); ?>">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <?php $this->og_tags(); ?>
-  <?php $this->link_alternate_tags(); ?>
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:700,400,300" media="all">
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons" media="all">
+<?php
+# This file is not a valid entry point; stop processing unless GGL is defined.
+if ( !defined('GGL') ) {
+    exit(1);
+}
 
-  <!-- build:css /styles/vendor/flexslider.css -->
-  <link rel="stylesheet" type="text/css" href="/styles/vendor/flexslider.css" media="all">
-  <!-- endbuild -->
+$this->load_header();
+?>
 
-  <!-- build:css /styles/main.css -->
-  <link rel="stylesheet" type="text/css" href="/styles/main.css" media="all">
-  <!-- endbuild -->
+<main>
+  <div class="container">
+    <article>
+      <header>
+        <h1><?php print _("Try or install"); ?></h1>
+        <div class="page-intro">
+          <p><?php print _("Make the step &ndash; unless you wish to <a href=\"#free_software_pre_installed\" title=\"GNU/Linux Desktops and Laptops\">purchase a PC with GNU/Linux pre-installed</a>, you can see what freedom looks like on your computer."); ?></p>
+        </div>
+      </header>
 
-  <?php if ( $ggl->get('dir') == 'rtl' ) { ?>
-    <!-- build:css /styles/main-rtl.css -->
-    <link rel="stylesheet" type="text/css" href="/styles/main-rtl.css" media="all">
-    <!-- endbuild -->
-  <?php } ?>
+      <section>
+        <h2 id="live_cd"><?php print _("Try out the live USB stick"); ?></h2>
 
-  <?php if ( $ggl->no_italics() ) { ?>
-    <!-- build:css /styles/no-italics.css -->
-    <link rel="stylesheet" type="text/css" href="/styles/no-italics.css" media="all">
-    <!-- endbuild -->
-  <?php } ?>
-</head>
+        <h3 id="live_cd_what_is"><?php print _("Take no risk"); ?></h3>
+        <img src="/images/USB-stick.svg" class="float-right width20p hidden-xs" alt="">
+        <p><?php print _("Using a live USB stick means that GNU/Linux will be running on your computer <em>without installing anything</em>. It's a risk-less way to try and see by yourself what GNU/Linux is."); ?></p>
+        <p><?php print _("When running on a live USB stick, your computer uses solely the USB stick to work (without accessing the hard drive inside). You can launch all of the default programs, edit documents, and browse the web."); ?></p>
+        <p><?php print _("Since it is only designed as a trial mode, it is a little slow (it will take you five minutes to boot up, and programs launch somewhat slowly). If you proceed to install, the system will go much faster."); ?></p>
 
-<body>
+        <h3 id="live_cd_what_need"><?php print _("What you need"); ?></h3>
+        <p><?php print _("For the distributions we recommend, the live USB stick is the same as the installation CD. You can download an ISO image (rather large file) and then create a bootable USB stick (recommended) or burn it to a CD or DVD. Burning to a CD/DVD may be necessary when installing GNU/Linux on an older system which can not boot from USB. You can then use it to install GNU/Linux onto your computer."); ?></p>
+        <p><?php print _("To use a live USB stick, you need a little bit of curiosity, and fifteen minutes of free time, but <strong>no advanced knowledge in computing</strong>. If you feel confident simply using Windows or macOS from time to time, then this is within your reach."); ?></p>
+      </section>
 
-<header class="navigation">
-  <div class="navigation-wrapper">
-    <nav>
-      <div class="nav-wrapper">
-        <a href="#" data-target="sidenav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul id="nav-mobile" class="hide-on-med-and-down left">
-          <?php $this->nav_link('nav-item-linux', 'home', _("Home")); ?></li>
-          <?php $this->nav_link('nav-item-linux', 'linux', _("What is GNU/Linux?")); ?></li>
-          <?php $this->nav_link('nav-item-windows', 'windows', _("Why not Windows")); ?></li>
-          <?php $this->nav_link('nav-item-switch', 'switch_to_linux', _("Switch to GNU/Linux")); ?></li>
-          <?php $this->nav_link('nav-item-more', 'more', _("More")); ?></li>
-        </ul>
-        <ul id="nav-mobile" class="right">
-          <li>
-            <a class="btn btn-flat btn-wide transparent waves-effect waves-light dropdown-trigger" href="#" data-target="language-menu">
-              <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">translate</i>
-              <? print $ggl->get('lang-native'); ?>
-              <i class="material-icons <?php print $this->rtltr("right", "left"); ?>">keyboard_arrow_down</i>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+      <section>
+        <h2 id="install_dual_boot"><?php print _("Installing as a dual boot"); ?></h2>
 
-    <ul class="sidenav" id="sidenav">
-      <?php $this->sidenav_link('home', _("Home")); ?></li>
-      <?php $this->sidenav_link('linux', _("What is GNU/Linux?")); ?></li>
-      <?php $this->sidenav_link('windows', _("Why not Windows")); ?></li>
-      <?php $this->sidenav_link('switch_to_linux', _("Switch to GNU/Linux")); ?></li>
-      <?php $this->sidenav_link('more', _("More")); ?></li>
-    </ul>
+        <h3 id="dual_boot_what_is"><?php print _("Choose at start-up"); ?></h3>
+        <p><?php print _("It is possible to install GNU/Linux along with Windows or macOS. This means that upon start-up, you will be greeted with a screen allowing you to boot into the operating system you prefer."); ?></p>
+        <p><?php print _("Setting up a dual-boot can be helpful if you need time to abandon restrictive software. It is <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" title=\"a tutorial on installing Ubuntu\" rel=\"external\">not difficult to set-up</a>, though erasing Windows or macOS altogether is even easier."); ?></p>
 
-    <ul id="language-menu" class="dropdown-content">
-      <?php foreach ($ggl->get_locales('complete') as $lng => $items) {
-        list($locale, $native) = $items;
-        $info = $ggl->get_lang_info($lng);
-        printf("<li class=\"waves-effect\"><a href=\"/%s\" hreflang=\"%s\"><span dir=\"%s\">%s</span></a></li>\n",
-          $this->current_page_path($lng),
-          $lng,
-          $info['dir'],
-          $native);
-      } ?>
-      <li class="divider" tabindex="-1"></li>
-      <li><a href="<?php $this->text('l10n_url'); ?>" rel="external"><?php print _("Help translate"); ?></a></li>
-    </ul>
+        <h3 id="dual_boot_what_need"><?php print _("What you need"); ?></h3>
+        <p><?php print _("Installing GNU/Linux on your computer will take you less than 30 minutes. It is not an obvious step for complete beginners, but if you use computers on a daily basis this is very likely within your reach. If you have already re-installed Windows or macOS on your computer, rest assured that installing GNU/Linux is no harder."); ?></p>
+      </section>
+
+      <section>
+        <h2 id="get_the_cd"><?php print _("Get the image you need"); ?></h2>
+        <p><?php print _("For the distributions we recommend, the live USB stick is the same as the installation CD. You can download an ISO image (rather large file) and then create a bootable USB stick (recommended) or burn it to a CD or DVD. Burning to a CD/DVD may be necessary when installing GNU/Linux on an older system which can not boot from USB. You can then use it to install GNU/Linux onto your computer."); ?></p>
+
+        <div class="download-box">
+          <div class="download-box-logo">
+            <p><img src="/images/DebianIcon.svg" alt="Debian"></p>
+          </div>
+          <div class="download-box-content">
+            <p><?php print _("<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">Create a bootable USB stick</a> or <a href=\"https://www.debian.org/CD/faq/#record-windows\" rel=\"external\">burn it to a CD/DVD</a>. Then use it to <a href=\"https://www.debian.org/releases/stable/installmanual\" rel=\"external\">install Debian</a> onto your computer."); ?></p>
+
+            <div class="download-box-buttons">
+              <a class="waves-effect waves-light btn-large light-green darken-4" href="https://www.debian.org/distrib/" target="_blank">
+                <?php print _("Download Debian"); ?>
+                <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">cloud_download</i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="download-box">
+          <div class="download-box-logo">
+            <p><img src="/images/UbuntuIcon.svg" alt="Ubuntu"></p>
+          </div>
+          <div class="download-box-content">
+            <p><?php print _("<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows\" rel=\"external\">Create a bootable USB stick</a> or <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel=\"external\">burn it to a DVD</a>. Then use it to <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel=\"external\">install Ubuntu</a> onto your computer."); ?></p>
+
+            <div class="download-box-buttons">
+              <a class="waves-effect waves-light btn-large light-green darken-4" href="https://ubuntu.com/download/desktop" target="_blank">
+                <?php print _("Download Ubuntu"); ?>
+                <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">cloud_download</i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="download-box">
+          <div class="download-box-logo">
+            <p><img src="/images/FedoraIcon.png" alt="Fedora"></p>
+          </div>
+          <div class="download-box-content">
+            <p><?php print _("<i>Fedora Media Writer</i> is the easiest way to <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">try or install Fedora</a>."); ?></p>
+
+            <div class="download-box-buttons">
+              <a class="waves-effect waves-light btn-large light-green darken-4" href="https://getfedora.org/en/workstation/" target="_blank">
+                <?php print _("Download Fedora"); ?>
+                <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">cloud_download</i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <p class="note italic"><?php print _("Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title=\"What do you mean, free?\" rel=\"external\">free software</a>. You are simply paying a handling/shipping fee."); ?></p>
+      </section>
+
+      <section>
+        <h2 id="free_software_pre_installed"><?php print _("Free Software pre-installed"); ?></h2>
+        <img src="/images/Laptop.png" class="float-right width20p hidden-sm" alt="">
+        <p><?php print _("Not all computers are shipped with Windows or macOS. If you do not wish to make the install yourself, or are in need of new hardware, you can get a laptop or a desktop pre-installed with GNU/Linux. <a href=\"https://linuxpreloaded.com/\" rel=\"external\">LinuxPreloaded.com</a> has compiled a list of vendors pre-installing GNU/Linux just for that reason."); ?></p>
+      </section>
+    </article>
   </div>
-</header>
+</main>
+
+<?php $this->load_footer(); ?>
