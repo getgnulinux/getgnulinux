@@ -9,66 +9,114 @@ $this->load_header();
 
 ?>
 
-<main>
+<main dir="ltr">
   <div class="container">
-    <article>
-      <header>
-        <h1 class="windows_section_h1"><?php print _("What about choice?"); ?></h1>
+    <h1>Legal terms</h1>
 
-        <div class="page-intro">
-          <p><?php print _("Microsoft works hard to make sure their users stay locked into their products."); ?></p>
-        </div>
-      </header>
+    <section>
+      <p>By accessing, browsing or using any of the &ldquo;get GNU/Linux!&rdquo; websites, any
+      of their content or information, you have to understand and accept the terms on
+      the present page. These websites include <a href="https://www.getgnulinux.org/">getgnulinux.org</a>
+      and all their sub-domains.</p>
+    </section>
 
-      <div class="card-panel card-panel--source amber lighten-4">
-        <p><?php
-        # translators: This is a quote from Bill Gates at the start of the article.
-        print _("About 3 million computers get sold every year in China, but people don't pay for the software."); ?></p>
-        <p><?php print _("Someday they will, though. As long as they are going to steal it [sic], we want them to steal ours. They'll get sort of addicted, and then we'll somehow figure out how to collect sometime in the next decade."); ?></p>
-        <span class="source">Bill Gates, <a href="https://web.archive.org/web/20070312044716/http://news.com.com/2100-1023-212942.html" rel="external"><?php print _("1998 interview"); ?></a></span>
-      </div>
+    <section>
+      <h2 id="content">Content</h2>
+      <p>All content is provided by us (the authors of the &ldquo;get GNU/Linux!&rdquo; websites)
+      <em>on an "as is" basis only</em>. We believe the content on our
+      websites to be correct and accurate; we provide it in good faith, however it
+      may contain technical inaccuracies or typographical errors. <em>We provide no
+      warranties</em> on it, express or implied, including but not limited to, implied
+      warranties of fitness for a particular purpose, merchantability and noninfringement.<br/>
+      Our websites are released under the following licenses:</p>
 
-      <section>
-        <h2 id="no_open_standards"><?php print _("Poor support for open standards"); ?></h2>
-        <p><?php print _("There exist open file formats and protocols, which are standards to store and carry many types of information, respectively. They are openly specified: they can be read by anyone on any computer, now and in the future. Proprietary programs, however, rarely support them."); ?></p>
-        <p><?php print _("<strong>For a long time Microsoft Office only had support for Microsoft formats</strong>. There are many ways to write work documents, but Microsoft Office users were bound to Microsoft Office files. People who opted without expensive Microsoft products cannot write and read <code>.doc</code> files very reliably."); ?></p>
-        <p><?php
-        # translators: Please use link to localized Wikipedia article in place of ODF
-        print _("There are of course other ways of writing and exchanging office files, the most well-known being <a href=\"http://www.opendocumentformat.org/\" rel=\"external\">the OpenDocument Format</a>. But Microsoft isn't keen on letting Office users exchange files anyone can read and edit. As of Microsoft Office 2007 SP2, Microsoft finally added support for the ODF format after being pushed by the European Commission."); ?></p>
-      </section>
+      <ul class="browser-default">
+        <li>
+          Text content of getgnulinux.org and all their translations: <a
+          href="https://creativecommons.org/licenses/by-sa/4.0/"
+          rel="external">Creative Commons Attribution Share-Alike 4.0
+          International License</a>. This means we hold the copyright upon it,
+          but grant some rights, including copying, redistributing, modifying
+          for any purpose, including commercial, without permission, as long as
+          you credit us for the original creation and redistribute the content
+          under the same or similar license.
+        </li>
+        <li>
+          Graphics of getgnulinux.org: as described in the <a href="<?php $this->base_url('credits'); ?>">credits</a>.
+        </li>
+      </ul>
+    </section>
 
-      <section>
-        <h2 id="standards_that_change"><?php print _("Standards that change all the time"); ?></h2>
-        <p><?php print _("Sticking to Microsoft standards is not an easy job &ndash; unless you can afford to upgrade very often. Ever tried to work on the same <code>.doc</code> file with both an Office 95 and an Office 97 computer? You'll know what we mean."); ?></p>
-        <p><?php print _("Microsoft owns the Office file formats: <strong>they change them with every new Office version</strong> and have no obligation to keep them backwards-compatible. Saved your presentation as a <code>.ppt</code> file? If you give up using Microsoft Office next year, you'll have to rely on other communities to reverse-engineer the format, to be able to access and modify your own work."); ?></p>
-      </section>
+    <section>
+      <h2 id="microsoft_trademarks">Microsoft trademarks</h2>
 
-      <section>
-        <h2 id="cant_remove_programs"><?php print _("Default programs you can't uninstall"); ?></h2>
-        <p><?php print _("Don't want Windows Media Player on your computer? Don't use Internet Explorer anymore? <strong>You can't uninstall these programs</strong>. They previously worked on a standalone basis, but have been intrinsically linked with Windows &ndash; so they come in with every PC and no one can get rid of them."); ?></p>
-      </section>
+      <p>Microsoft Windows&reg;, Microsoft Windows Vista&trade;, Microsoft Excel&reg;,
+      Microsoft PowerPoint&reg;, Microsoft Internet Explorer&reg;, Microsoft Windows
+      Media Player&reg;, and
+      <a rel="nofollow external" href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/#E6" title="Partial list of Microsoft products subjected to trademark regulations">other Microsoft product and service names</a>
+      are trademarks, registered trademarks or trade dress of Microsoft, Inc. or
+      its affiliates in the U.S. and/or other countries.</p>
 
-      <section>
-        <h2 id="monopolistic_practices"><?php print _("Monopolistic practices"); ?></h2>
-        <p><?php print _("Microsoft has a tight control over <abbr title=\"Original Equipment Manufacturer\">OEM</abbr>s (computer manufacturers) who ship their computers with Windows installed."); ?><br/>
-        <?php
-        # translators: if you cannot find localized homepages, please leave the URLs as such
-        print _("This means that no program competing with Microsoft products, be it <a href=\"https://www.videolan.org/vlc/\" rel=\"external\">multimedia player</a>, <a href=\"https://www.getfirefox.com/\" rel=\"external\">web browser</a>, <a href=\"https://www.libreoffice.org/\" rel=\"external\">office suite</a>, <a href=\"https://www.pidgin.im/\" rel=\"external\">instant messaging program</a> or other, will come pre-installed on most computers you can buy."); ?></p>
-        <p><?php print _("It is a good thing to propose a wide range of software and services like Microsoft do; however, designing and combining them to shut users from non-Microsoft peers is unethical. It's not technically hard to adopt more open formats. But it means your customers are <em>free to choose what they do with their work</em> &ndash; Microsoft isn't there yet."); ?></p>
-      </section>
-    </article>
+      <p>All other trademarks not owned by Microsoft or its affiliates that may appear
+      on these sites are the property of their respective owners, who may or may not
+      be affiliated with, connected to, or sponsored by Microsoft or its affiliates.</p>
+    </section>
 
-    <br>
+    <section>
+      <h2 id="liability">Liability</h2>
 
-    <aside>
-      <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('windows'); ?>">
-        <?php print _("Why not Windows"); ?>
-        <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">expand_less</i>
-      </a>
-    </aside>
+      <p><em>In no event will we be liable to you or any other individual or entity
+      for any direct, indirect, incidental, punitive, special or consequential damages
+      related to any use of these websites</em>, their content or on any other
+      hyperlinked website, including but not limited to, any lost profits, lost sales,
+      lost revenue, business interruption, loss of programs or other data even if we
+      are expressly advised or aware of the possibility of such damages or losses.</p>
+    </section>
 
-    <br>
+    <section>
+      <h2 id="confidentiality_of_information">Confidentiality of information sent by you</h2>
 
+      <p><em>We do not want to receive confidential information from you through
+      our websites</em>. Any information or material sent to these websites will
+      be deemed not to be confidential and may be made public by us. You acknowledge
+      that you are fully responsible for the content (in particular its legality,
+      reliability, appropriateness, originality, patent and copyright attributions)
+      that you submit to us.</p>
+    </section>
+
+    <section>
+      <h2 id="content_access_change">Content access and content change</h2>
+
+      <p>Downloading or obtaining content from these websites is done at your own
+      risk. We provide no assurances that any problems with, or bugs in, the content
+      will be resolved.</p>
+
+      <p>You acknowledge that we can change, update or delete content at any time for
+      any reason, without notice.</p>
+    </section>
+
+    <section>
+      <h2 id="links">Links to external websites</h2>
+
+      <p>We make <em>no representations whatsoever about any other website</em> that
+      you may access through our websites or through a link from our websites. When
+      you access another website, even one that may contain our websites' names or
+      marks, you must acknowledge that linking does not mean that we have control
+      over, or endorse or accept any responsibility for, the content on, or the use
+      of, such website.</p>
+    </section>
+
+    <section>
+      <h2 id="copyright">Copyright and terms of use infringements</h2>
+
+      <p>We do not intend to infringe others' copyrights, and we ask our readers to
+      do the same. If you believe that your work has been copied in a way that
+      constitutes infringement on our websites, please
+      <a href="<?php $this->text('contact_url'); ?>" rel="external">contact us</a>.
+      We reserve the right to seek all remedies available at law and in equity for
+      violations of these terms of use, including, but not limited to, the right to
+      block access from a particular Internet address to our websites.</p>
+    </section>
   </div>
 </main>
 
