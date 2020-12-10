@@ -26,7 +26,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/getgnulinux/getgnulinux/issues\n"
-"POT-Creation-Date: 2020-12-10 19:27+0000\n"
+"POT-Creation-Date: 2020-12-10 22:04+0000\n"
 "PO-Revision-Date: 2020-12-09 02:50+0000\n"
 "Last-Translator: 黃柏諺 <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/serrano/"
@@ -43,12 +43,12 @@ msgid "get GNU/Linux!"
 msgstr "來用 GNU/Linux 吧！"
 
 #. translators: This is the title of the 'Credits' page.
-#: docroot/lib/ggl.php:220 src/templates/footer.php:8
+#: docroot/lib/ggl.php:220 src/templates/footer.php:32
 msgid "Credits"
 msgstr "感謝"
 
 #. translators: This is the title of the 'Legal terms' page.
-#: docroot/lib/ggl.php:222 src/templates/footer.php:7
+#: docroot/lib/ggl.php:222 src/templates/footer.php:18
 msgid "Terms of use"
 msgstr "使用條款"
 
@@ -57,7 +57,7 @@ msgstr "使用條款"
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:50
 #: docroot/lib/views/linux.linux_faq.php:253 docroot/lib/views/more.php:16
 #: src/templates/header.php:46 src/templates/header.php:65
-#: src/templates/footer.php:18
+#: src/templates/footer.php:24
 msgid "More"
 msgstr "更多"
 
@@ -3702,64 +3702,12 @@ msgstr "注意：這些連結只是推薦閱讀，並非任何商業推銷行為
 msgid "Home"
 msgstr ""
 
-#: src/templates/header.php:79
+#: src/templates/header.php:79 src/templates/footer.php:23
 msgid "Help translate"
 msgstr ""
 
-#: src/templates/footer.php:5
-msgid "About:"
-msgstr "關於："
-
-#: src/templates/footer.php:6
-msgid "Read about news and updates."
-msgstr "閱讀更多新聞與消息。"
-
-#: src/templates/footer.php:6
-msgid "Our blog"
-msgstr "我們的網誌"
-
-#: src/templates/footer.php:9
-msgid "Contact the authors."
-msgstr "連絡作者。"
-
-#: src/templates/footer.php:9
-msgid "Contact us"
-msgstr "連絡我們"
-
-#: src/templates/footer.php:14
-msgid "Participate:"
-msgstr "參與："
-
-#: src/templates/footer.php:15
-msgid "Our community forum for discussions about this website."
-msgstr "我們關於此網站討論的社群論壇。"
-
-#: src/templates/footer.php:15
-msgid "Community forum"
-msgstr "社群論壇"
-
-#: src/templates/footer.php:16
-msgid "Found something awkward? Please report it!"
-msgstr "發現有哪裡怪怪的？回報吧！"
-
-#: src/templates/footer.php:16
-msgid "Report a bug"
-msgstr "回報臭蟲"
-
-#: src/templates/footer.php:17
-msgid "Help us reach an audience in your language!"
-msgstr "協助我們推廣這個網站到你所在的地區去！"
-
-#: src/templates/footer.php:17
-msgid "Translation"
-msgstr "翻譯"
-
-#: src/templates/footer.php:18
-msgid "Ways to help."
-msgstr "尋求幫助。"
-
 #. translators: If there is an official translation for the license, use that URL instead. Make sure you use the URL for CC BY-SA 4.0.
-#: src/templates/footer.php:27
+#: src/templates/footer.php:7
 #, php-format
 msgid ""
 "Except where otherwise <a href=\"%s\">noted</a>, content on this site is "
@@ -3772,7 +3720,7 @@ msgstr ""
 "title=\"Creative Commons Attribution-ShareAlike\">CC BY-SA</abbr> 4.0 國際版"
 "協議授權</a>。"
 
-#: src/templates/footer.php:28
+#: src/templates/footer.php:10
 msgid ""
 "Generously hosted by <a href=\"https://www.tuxfamily.org/\" rel=\"external"
 "\">TuxFamily</a>."
@@ -3780,7 +3728,69 @@ msgstr ""
 "由慷慨的 <a href=\"https://www.tuxfamily.org/\" rel=\"external\">TuxFamily</"
 "a> 幫我們託管。"
 
-#: src/templates/footer.php:29
+#: src/templates/footer.php:11
 #, php-format
 msgid "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
 msgstr "此網站為<a href=\"%s\" rel=\"external\">自由且開放原始碼</a>。"
+
+#: src/templates/footer.php:15
+msgid "Resources"
+msgstr ""
+
+#: src/templates/footer.php:17
+msgid "Blog"
+msgstr ""
+
+#: src/templates/footer.php:21
+#, fuzzy
+msgid "Participate"
+msgstr "參與："
+
+#: src/templates/footer.php:28
+#, fuzzy
+msgid "Community"
+msgstr "社群論壇"
+
+#: src/templates/footer.php:30
+msgid "GitHub"
+msgstr ""
+
+#: src/templates/footer.php:31
+msgid "Community forum"
+msgstr "社群論壇"
+
+#: src/templates/footer.php:33
+msgid "Contact us"
+msgstr "連絡我們"
+
+#~ msgid "Our blog"
+#~ msgstr "我們的網誌"
+
+#, fuzzy
+#~ msgid "About"
+#~ msgstr "關於："
+
+#~ msgid "Read about news and updates."
+#~ msgstr "閱讀更多新聞與消息。"
+
+#~ msgid "Contact the authors."
+#~ msgstr "連絡作者。"
+
+#~ msgid "Help us reach an audience in your language!"
+#~ msgstr "協助我們推廣這個網站到你所在的地區去！"
+
+#, fuzzy
+#~ msgid "More ways to help."
+#~ msgstr "尋求幫助。"
+
+#~ msgid "Found something awkward? Please report it!"
+#~ msgstr "發現有哪裡怪怪的？回報吧！"
+
+#~ msgid "Report a bug"
+#~ msgstr "回報臭蟲"
+
+#~ msgid "Our community forum for discussions about this website."
+#~ msgstr "我們關於此網站討論的社群論壇。"
+
+#~ msgid "Translation"
+#~ msgstr "翻譯"

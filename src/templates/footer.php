@@ -1,33 +1,43 @@
-<footer class="footer">
+<footer class="page-footer">
   <div class="container">
-    <div class="block">
-      <ul>
-        <li><?php print _("About:"); ?></li>
-        <li><a href="<?php $this->text('blog_url'); ?>" title="<?php print _("Read about news and updates."); ?>" rel="external"><?php print _("Our blog"); ?></a></li>
-        <li><a href="<?php $this->base_url('legal'); ?>" hreflang="en"><?php print _("Terms of use"); ?></a></li>
-        <li><a href="<?php $this->base_url('credits'); ?>"><?php print _("Credits"); ?></a></li>
-        <li><a href="<?php $this->text('contact_url'); ?>" title="<?php print _("Contact the authors."); ?>" rel="external"><?php print _("Contact us"); ?></a></li>
-      </ul>
-    </div>
-    <div class="block">
-      <ul>
-        <li><?php print _("Participate:"); ?></li>
-        <li><a href="<?php $this->text('forum_url'); ?>" title="<?php print _("Our community forum for discussions about this website."); ?>" rel="external"><?php print _("Community forum"); ?></a></li>
-        <li><a href="<?php $this->text('tracker_url'); ?>" title="<?php print _("Found something awkward? Please report it!"); ?>" rel="external"><?php print _("Report a bug"); ?></a></li>
-        <li><a href="<?php $this->text('l10n_url'); ?>" title="<?php print _("Help us reach an audience in your language!"); ?>" rel="external"><?php print _("Translation"); ?></a></li>
-        <li><a href="<?php $this->text('participate_url'); ?>" title="<?php print _("Ways to help."); ?>" rel="external"><?php print _("More"); ?></a></li>
-      </ul>
-    </div>
+    <div class="row">
+      <div class="col l6 s12">
+        <p>
+          <?php # translators: If there is an official translation for the license, use that URL instead. Make sure you use the URL for CC BY-SA 4.0.
+          $p = _("Except where otherwise <a href=\"%s\">noted</a>, content on this site is licensed under a <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"license external\"><abbr title=\"Creative Commons Attribution-ShareAlike\">CC BY-SA</abbr> 4.0 International License</a>."); printf($p, $this->get_base_url('legal')); ?>
+        </p>
+        <p>
+          <?php print _("Generously hosted by <a href=\"https://www.tuxfamily.org/\" rel=\"external\">TuxFamily</a>."); ?>
+          <?php $p = _("This site is <a href=\"%s\" rel=\"external\">free and open source</a>."); printf($p, $ggl->get('project_url')); ?>
+        </p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5><?php print _("Resources"); ?></h5>
+        <ul>
+          <li><a href="<?php $this->text('blog_url'); ?>" rel="external"><?php print _("Blog"); ?></a></li>
+          <li><a href="<?php $this->base_url('legal'); ?>" hreflang="en"><?php print _("Terms of use"); ?></a></li>
+        </ul>
 
-    <hr>
+        <h5><?php print _("Participate"); ?></h5>
+        <ul>
+          <li><a href="<?php $this->text('l10n_url'); ?>" rel="external"><?php print _("Help translate"); ?></a></li>
+          <li><a href="<?php $this->text('participate_url'); ?>" rel="external"><?php print _("More"); ?></a></li>
 
-    <div class="notices" dir="ltr">
-      <p>
-        <?php # translators: If there is an official translation for the license, use that URL instead. Make sure you use the URL for CC BY-SA 4.0.
-        $p = _("Except where otherwise <a href=\"%s\">noted</a>, content on this site is licensed under a <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"license external\"><abbr title=\"Creative Commons Attribution-ShareAlike\">CC BY-SA</abbr> 4.0 International License</a>."); printf($p, $this->get_base_url('legal')); ?><br/>
-        <?php print _("Generously hosted by <a href=\"https://www.tuxfamily.org/\" rel=\"external\">TuxFamily</a>."); ?>
-        <?php $p = _("This site is <a href=\"%s\" rel=\"external\">free and open source</a>."); printf($p, $ggl->get('project_url')); ?>
-      </p>
+        </ul>
+
+        <h5><?php print _("Community"); ?></h5>
+        <ul>
+          <li><a href="<?php $this->text('project_url'); ?>" rel="external"><?php print _("GitHub"); ?></a></li>
+          <li><a href="<?php $this->text('forum_url'); ?>" rel="external"><?php print _("Community forum"); ?></a></li>
+          <li><a href="<?php $this->base_url('credits'); ?>" hreflang="en"><?php print _("Credits"); ?></a></li>
+          <li><a href="<?php $this->text('contact_url'); ?>" rel="external"><?php print _("Contact us"); ?></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      Copyright <?php echo date("Y"); ?> get GNU/Linux!
     </div>
   </div>
 </footer>

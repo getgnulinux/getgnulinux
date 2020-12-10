@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/getgnulinux/getgnulinux/issues\n"
-"POT-Creation-Date: 2020-12-10 19:27+0000\n"
+"POT-Creation-Date: 2020-12-10 22:04+0000\n"
 "PO-Revision-Date: 2020-12-08 08:15+0000\n"
 "Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
 "Language-Team: English (http://www.transifex.com/serrano/getgnulinux/"
@@ -25,12 +25,12 @@ msgid "get GNU/Linux!"
 msgstr "get GNU/Linux!"
 
 #. translators: This is the title of the 'Credits' page.
-#: docroot/lib/ggl.php:220 src/templates/footer.php:8
+#: docroot/lib/ggl.php:220 src/templates/footer.php:32
 msgid "Credits"
 msgstr "Credits"
 
 #. translators: This is the title of the 'Legal terms' page.
-#: docroot/lib/ggl.php:222 src/templates/footer.php:7
+#: docroot/lib/ggl.php:222 src/templates/footer.php:18
 msgid "Terms of use"
 msgstr "Terms of use"
 
@@ -39,7 +39,7 @@ msgstr "Terms of use"
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:50
 #: docroot/lib/views/linux.linux_faq.php:253 docroot/lib/views/more.php:16
 #: src/templates/header.php:46 src/templates/header.php:65
-#: src/templates/footer.php:18
+#: src/templates/footer.php:24
 msgid "More"
 msgstr "More"
 
@@ -3922,64 +3922,12 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: src/templates/header.php:79
+#: src/templates/header.php:79 src/templates/footer.php:23
 msgid "Help translate"
 msgstr ""
 
-#: src/templates/footer.php:5
-msgid "About:"
-msgstr "About:"
-
-#: src/templates/footer.php:6
-msgid "Read about news and updates."
-msgstr "Read about news and updates."
-
-#: src/templates/footer.php:6
-msgid "Our blog"
-msgstr "Our blog"
-
-#: src/templates/footer.php:9
-msgid "Contact the authors."
-msgstr "Contact the authors."
-
-#: src/templates/footer.php:9
-msgid "Contact us"
-msgstr "Contact us"
-
-#: src/templates/footer.php:14
-msgid "Participate:"
-msgstr "Participate:"
-
-#: src/templates/footer.php:15
-msgid "Our community forum for discussions about this website."
-msgstr "Our community forum for discussions about this website."
-
-#: src/templates/footer.php:15
-msgid "Community forum"
-msgstr "Community forum"
-
-#: src/templates/footer.php:16
-msgid "Found something awkward? Please report it!"
-msgstr "Found something awkward? Please report it!"
-
-#: src/templates/footer.php:16
-msgid "Report a bug"
-msgstr "Report a bug"
-
-#: src/templates/footer.php:17
-msgid "Help us reach an audience in your language!"
-msgstr "Help us reach an audience in your language!"
-
-#: src/templates/footer.php:17
-msgid "Translation"
-msgstr "Translation"
-
-#: src/templates/footer.php:18
-msgid "Ways to help."
-msgstr "Ways to help."
-
 #. translators: If there is an official translation for the license, use that URL instead. Make sure you use the URL for CC BY-SA 4.0.
-#: src/templates/footer.php:27
+#: src/templates/footer.php:7
 #, php-format
 msgid ""
 "Except where otherwise <a href=\"%s\">noted</a>, content on this site is "
@@ -3992,7 +3940,7 @@ msgstr ""
 "rel=\"license external\"><abbr title=\"Creative Commons Attribution-"
 "ShareAlike\">CC BY-SA</abbr> 4.0 International License</a>."
 
-#: src/templates/footer.php:28
+#: src/templates/footer.php:10
 msgid ""
 "Generously hosted by <a href=\"https://www.tuxfamily.org/\" rel=\"external"
 "\">TuxFamily</a>."
@@ -4000,7 +3948,69 @@ msgstr ""
 "Generously hosted by <a href=\"https://www.tuxfamily.org/\" rel=\"external"
 "\">TuxFamily</a>."
 
-#: src/templates/footer.php:29
+#: src/templates/footer.php:11
 #, php-format
 msgid "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
 msgstr "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
+
+#: src/templates/footer.php:15
+msgid "Resources"
+msgstr ""
+
+#: src/templates/footer.php:17
+msgid "Blog"
+msgstr ""
+
+#: src/templates/footer.php:21
+#, fuzzy
+msgid "Participate"
+msgstr "Participate:"
+
+#: src/templates/footer.php:28
+#, fuzzy
+msgid "Community"
+msgstr "Community forum"
+
+#: src/templates/footer.php:30
+msgid "GitHub"
+msgstr ""
+
+#: src/templates/footer.php:31
+msgid "Community forum"
+msgstr "Community forum"
+
+#: src/templates/footer.php:33
+msgid "Contact us"
+msgstr "Contact us"
+
+#~ msgid "Our blog"
+#~ msgstr "Our blog"
+
+#, fuzzy
+#~ msgid "About"
+#~ msgstr "About:"
+
+#~ msgid "Read about news and updates."
+#~ msgstr "Read about news and updates."
+
+#~ msgid "Contact the authors."
+#~ msgstr "Contact the authors."
+
+#~ msgid "Help us reach an audience in your language!"
+#~ msgstr "Help us reach an audience in your language!"
+
+#, fuzzy
+#~ msgid "More ways to help."
+#~ msgstr "Ways to help."
+
+#~ msgid "Found something awkward? Please report it!"
+#~ msgstr "Found something awkward? Please report it!"
+
+#~ msgid "Report a bug"
+#~ msgstr "Report a bug"
+
+#~ msgid "Our community forum for discussions about this website."
+#~ msgstr "Our community forum for discussions about this website."
+
+#~ msgid "Translation"
+#~ msgstr "Translation"
