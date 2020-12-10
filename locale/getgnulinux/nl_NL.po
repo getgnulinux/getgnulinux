@@ -1,110 +1,60 @@
 <?php
 
-class L10n {
-
-    public static $locale_current = null;
-    public static $locale_stack = array();
-    public static $lang = null;
-    public static $supported = array();
-    private static $langmap = array();
-
+class Util
+{
     /**
-     * Return the negotiated language.
+     * Return TRUE if haystack starts with needle.
      *
-     * Languages for which the translation is not completed are skipped, except
-     * if it's an override language.
-     *
-     * @param array $locales Array of the available locales,
-     *      for example:
-     *      array('en' => array('en_US.UTF-8',"English"),
-     *            'ia' => array('ia', "Interlingua"),
-     *            'es' => array('es_ES.UTF-8',"Español"),
-     *      )
-     * @param array $complete Contains language codes for completed translations.
-     * @param string $override Override language, such as from cookie or domain
-     *        name.
-     * @return string A language code.
+     * @param string $haystack The string to search in.
+     * @param string $needle The string to search with.
+     * @return boolean
      */
-    static function negotiate_language($locales, $override=null) {
-        global $http;
-
-        foreach ($locales as $code => $items) {
-            list($locale, $native) = $items;
-            self::$supported[$code] = $native;
-            self::$langmap[$code] = $locale;
-        }
-
-        if ($override && array_key_exists($override, self::$supported)) {
-            self::$lang = $override;
-        }
-        else {
-            self::$lang = $http->negotiateLanguage(self::$supported);
-
-            if (!self::$lang || !array_key_exists(self::$lang, self::$langmap)) {
-                self::$lang = null;
-            }
-        }
-
-        return self::$lang;
+    static function startswith($haystack, $needle) {
+        return strpos($haystack, $needle) === 0;
     }
 
     /**
-     * Change human language to display text, dates, numbers, etc. in.
+     * Return the absolute path if the path is valid, NULL otherwise.
      *
-     * $l is the keys from the available language string previously passed to
-     * negotiate_language. Leave unset to use the default negotiated language.
-     *
-     * Note: To get a language working from PHP on Unix, you also need
-     * to install the system locale for that language. In Debian this is done
-     * using "dpkg-reconfigure locales". You may need to restart Apache also.
-     *
-     * @param string $l The locale.
+     * @param string $path A file path.
+     * @return string The safe canonicalized path, NULL if the path is invalid.
      */
-    static function locale_change($l = null) {
-        if ($l === null) {
-            $l = self::$lang;
-        }
-        if ($l === self::$locale_current) {
-            return;
-        }
+    static function safe_path($path) {
+        $real_path = realpath($path);
 
-        putenv('LANGUAGE=');
-        putenv('LANG='.self::$langmap[$l]);
-
-        $os_locale = self::$langmap[$l];
-        $ret = setlocale(LC_ALL, $os_locale);
-        if ($ret !== $os_locale) {
-            print "setlocale failed for $os_locale";
+        if ($real_path === false) {
+            return null;
         }
 
-        self::$locale_current = $l;
+        if (!self::startswith($real_path, ROOT)) {
+            return null;
+        }
 
-        // Clear gettext's cache - you have to do this when you change
-        // environment variables.
-        textdomain(textdomain(NULL));
+        return $real_path;
     }
 
     /**
-     * Push a locale to the stack.
+     * Computes the intersection of arrays using keys for comparison.
      *
-     * Change locale using a stack system, so you can easily restore to whatever
-     * locale was previously set.
-     *
-     * @param string $l The locale
+     * @param array $array The array with master keys to check.
+     * @param array $keys An array to compare values against.
+     * @return array Array containing all the entries of `array` which have
+     *         keys that are present as values in `keys`.
      */
-    static function locale_push($l) {
-        array_push(self::$locale_stack, self::$locale_current);
-        locale_change($l);
+    static function array_intersect_keys($array, $keys) {
+        return array_intersect_key($array, array_combine($keys, $keys));
     }
 
     /**
-     * Restore the last locale from the stack.
+     * Set gettext domain, domain path, and character encoding.
      *
-     * Change locale using a stack system, so you can easily restore to whatever
-     * locale was previously set.
+     * @param string $domain The domain.
+     * @param string $directory The directory path.
+     * @param string $codeset The code set.
      */
-    static function locale_pop() {
-        $l = array_pop(self::$locale_stack);
-        locale_change($l);
+    static function gettext_set_domain($domain, $directory, $codeset) {
+        bindtextdomain($domain, $directory);
+        textdomain($domain);
+        bind_textdomain_codeset($domain, $codeset);
     }
 }
