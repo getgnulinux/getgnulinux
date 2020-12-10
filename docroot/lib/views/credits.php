@@ -19,17 +19,12 @@ $this->load_header();
     <h2>Licensing</h2>
     <p>Except for the material listed below, the content of the website and its graphical assets are published under a <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="external">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
     <p>The <a href="<?php $this->text('project_url'); ?>" rel="external" title="GitHub Project">source code</a> of the web application is licensed under the <a href="https://www.gnu.org/licenses/agpl-3.0.html" rel="external">GNU Affero General Public License Version 3</a>.</p>
-    <p>Copyright <?php echo date("Y"); ?> <a href="https://www.getgnulinux.org/">get GNU/Linux!</a></p>
+    <p>Copyright <?php echo date("Y"); ?> <a href="https://github.com/getgnulinux/" rel="external">get GNU/Linux!</a></p>
 
     <h2 id="graphics">Graphics</h2>
     <p>Most graphics on this website are either copied from or derived from the following sources, according to their respective copyright licenses:</p>
 
     <ul class="browser-default">
-      <li><a href="https://openclipart.org/" rel="external">OpenClipart</a> material, released to the Public Domain;</li>
-      <li><a href="http://tango.freedesktop.org/Tango_Icon_Library" rel="external">Tango icons</a> by the <a href="http://tango.freedesktop.org/Tango_Desktop_Project" rel="external">Tango Desktop Project</a>, released to the Public Domain.</li>
-      <li><a href="https://www.gnu.org/gnu30/" rel="external">The GNU 30th banner</a> by the Free Software Foundation, <abbr title="Creative Commons">CC</abbr> <abbr title="Attribution, Share Alike">BY-SA</abbr> 2.0 license;</li>
-      <li><a href="https://en.wikipedia.org/wiki/File:Tux-simple.svg" rel="external">Tux-simple.svg</a> by Larry Ewing, permission to copy if credit given.</li>
-
       <li>Ubuntu, Fedora, and Debian logos: in accordance with the respective trademark guidelines (<a href="https://www.ubuntu.com/aboutus/trademarkpolicy" rel="external">Ubuntu</a>, <a href="https://fedoraproject.org/wiki/Legal/TrademarkGuidelines" rel="external">Fedora</a>, <a href="https://www.debian.org/logos/" rel="external">Debian</a>)</li>
       <li>The laptop image on the "Try or install" page used with permission from <a href="https://www.system76.com/" rel="external">system76.com</a>.</li>
     </ul>
