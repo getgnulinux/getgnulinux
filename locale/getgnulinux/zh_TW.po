@@ -1,9 +1,9 @@
 <?php
 /*
  *  Copyright 2006-2008, GNU/Linux Matters <http://www.gnulinuxmatters.org/>
- *  Copyright 2011-2015 GetGNULinux.org contributors <http://getgnulinux.org/credits/>
+ *  Copyright 2011-2012 Launchpad getgnulinux Team <https://launchpad.net/~getgnulinux>
  *
- *  This file is part of Get GNU/Linux! <https://github.com/getgnulinux/getgnulinux>
+ *  This file is part of Get GNU/Linux! <https://launchpad.net/getgnulinux>
  *
  *  GGL is free software: you can redistribute it and/or modify it under
  *  the terms of the GNU Affero General Public License as published by the
@@ -20,17 +20,25 @@
  *
  */
 
-if ( !defined('GGL') ) {
+$root = dirname( __FILE__ );
+define('ROOT', $root);
+define('GGL', true);
+
+// Load the initialization script.
+require_once("$root/lib/init.php");
+
+$http = new HTTP2();
+$ggl = new GGL();
+$html = new HTML();
+
+if ( is_file("$root/settings.php") ) {
+    require_once("$root/settings.php");
+} else {
+    include("$root/templates/setup.php");
     exit(1);
 }
 
-$pwd = dirname( __FILE__ );
+$ggl->init();
+$html->load_content();
 
-// Load PEAR's HTTP2 package which provides HTTP2::negotiateLanguage.
-require_once("$pwd/HTTP2.php");
-
-// Load the required files.
-require_once("$pwd/util.php");
-require_once("$pwd/locale.php");
-require_once("$pwd/ggl.php");
-require_once("$pwd/html.php");
+exit(0);
