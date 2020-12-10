@@ -1,134 +1,359 @@
 <?php
+/*
+ *  Copyright 2006-2008, GNU/Linux Matters <http://www.gnulinuxmatters.org/>
+ *  Copyright 2011-2012 Launchpad getgnulinux Team <https://launchpad.net/~getgnulinux>
+ *
+ *  This file is part of Get GNU/Linux! <https://launchpad.net/getgnulinux>
+ *
+ *  GGL is free software: you can redistribute it and/or modify it under
+ *  the terms of the GNU Affero General Public License as published by the
+ *  Free Software Foundation, either version 3 of the License, or any later
+ *  version.
+ *
+ *  GGL is distributed in the hope that it will be useful, but WITHOUT
+ *  ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ *  FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public
+ *  License for more details.
+ *
+ *  You should have received a copy of the GNU Affero General Public License
+ *  along with GGL. If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
 
-# This file is not a valid entry point; stop processing unless GGL is defined.
-if ( !defined('GGL') ) {
-    exit(1);
+/**
+ * This is the HTML module for Get GNU/Linux!
+ *
+ * @author Serrano Pereira <serrano.pereira@gmail.com>
+ * @license http://www.gnu.org/licenses/agpl-3.0.html GNU AGPL v3
+ */
+
+/**
+ * Utilities for HTML generation.
+ */
+class HTML {
+
+    /**
+     * Set the current view.
+     */
+    function __construct() {
+        $this->view = isset($_GET['p']) ? basename($_GET['p']) : 'home';
+    }
+
+    /**
+     * Return the file path for a view.
+     *
+     * @param string $view The name of the view.
+     * @return string Canonicalized file path of the view, or NULL if the path
+     * is invalid.
+     */
+    static function path_for_view($view) {
+        return Util::safe_path(sprintf("%s/lib/views/%s.php", ROOT, $view));
+    }
+
+    /**
+     * Load the requested page.
+     *
+     * @uses GetGnuLinux $ggl
+     * @uses string $this->view
+     */
+    function load_content() {
+        global $ggl;
+
+        $path = self::path_for_view($this->view);
+
+        if ($path !== null) {
+            include $path;
+        }
+        else {
+            header('HTTP/1.x 404 Not Found');
+            include self::path_for_view('404');
+        }
+    }
+
+    /**
+     * Load the page header.
+     */
+    function load_header() {
+        global $ggl;
+        include Util::safe_path(ROOT.'/templates/header.php');
+    }
+
+    /**
+     * Load the page footer.
+     */
+    function load_footer() {
+        global $ggl;
+        include Util::safe_path(ROOT.'/templates/footer.php');
+    }
+
+    /**
+     * Print the value of a configuration key.
+     *
+     * @param string $key The value of which configuration key to print.
+     * @param unknown $default The value to print if the configuration key
+     *      does not exist.
+     */
+    function text($key, $default='') {
+        global $ggl;
+        print $ggl->get($key, $default);
+    }
+
+    /**
+     * Return the bare page title.
+     */
+    function bare_page_title($fallback=null) {
+        global $ggl;
+
+        if (array_key_exists($this->view, $ggl->config['page_titles'])) {
+            return $ggl->config['page_titles'][$this->view];
+        }
+
+        return $fallback;
+    }
+
+    /**
+     * Return the page title.
+     */
+    function page_title() {
+        global $ggl;
+
+        $site_name = $ggl->get('website_title');
+        $page_title = $this->bare_page_title();
+
+        if ($page_title !== null) {
+            return sprintf("%s | %s", $page_title, $site_name);
+        }
+
+        return $site_name;
+    }
+
+    /**
+     * Return the current page description.
+     */
+    function page_description() {
+        global $ggl;
+
+        $view = array_key_exists($this->view, $ggl->config['page_descriptions']) ?
+            $this->view : 'default';
+
+        return $ggl->config['page_descriptions'][$view];
+    }
+
+    function nav_link($id, $page, $title) {
+      printf('<li id="%s" class="waves-effect waves-light %s"><a href="%s">%s</a>',
+        $id,
+        $this->we_are_here($page, true) ? 'active' : '',
+        $this->get_base_url($page),
+        $title);
+    }
+
+    function sidenav_link($page, $title) {
+      printf('<li class="%s"><a class="waves-effect" href="%s">%s <i class="material-icons %s">chevron_right</i></a>',
+        $this->we_are_here($page, true) ? 'active' : '',
+        $this->get_base_url($page),
+        $title,
+        $this->rtltr("right", "left")
+      );
+    }
+
+    /**
+     * Print the chapter list for the "Swith to GNU/Linux" pages.
+     */
+    function list_chapter_sections($chapter) {
+        global $ggl;
+        foreach ($ggl->sections[$chapter] as $path => $title) {
+            printf('<li%s><a href="%s">%s</a></li>',
+                $this->we_are_here($path) ? ' class="active"' : '',
+                $this->get_base_url($path),
+                $title
+            );
+        }
+    }
+
+    /**
+     * Return $a when the language is left-to-right, $b otherwise.
+     *
+     * @param string $a String A.
+     * @param string $b String B.
+     */
+    function rtltr($a, $b) {
+        global $ggl;
+        return ($ggl->get('dir') == 'ltr') ? $a : $b;
+    }
+
+    /**
+     * Print the versioned path for $path.
+     *
+     * This methods adds a version number to the end of the file path. This
+     * is to force the visitor's browser to load the updated file when the
+     * file changes. The version number that is added at the end is a part of
+     * the file's MD5 sum.
+     *
+     * @param string $path Relative path to a file on the server.
+     */
+    function filever($path) {
+        $hash = substr(md5_file(ROOT.$path), 0, 12);
+        printf("%s?v=%s", $path, $hash);
+    }
+
+    function current_page_url($lang=null) {
+        global $ggl;
+
+        return sprintf(
+            "%s%s",
+            $ggl->get('base_url'),
+            $this->current_page_path($lang));
+    }
+
+    /**
+     * Return the localized path for the current page.
+     *
+     * This is used in language menu's to link to the same page in different
+     * languages.
+     *
+     * @param string $lang If the ISO language is provided, a localised path
+     *      is returned instead.
+     * @return string The path to the current page.
+     */
+    function current_page_path($lang=null) {
+        global $ggl;
+
+        $view = $this->view === 'home' ? '' : $this->view;
+        $view_rpl = str_replace('.', '/', $view);
+        $path = empty($view_rpl) ? null : $view_rpl;
+
+        if ($path === null && $lang === null) {
+            return '';
+        }
+        else if ($path !== null && $lang !== null) {
+            return sprintf("%s/%s/", $lang, $path);
+        }
+        else if ($lang === null) {
+            return sprintf("%s/", $path);
+        }
+        else {
+            return sprintf("%s/", $lang);
+        }
+    }
+
+    /**
+     * Return TRUE if the page path is of the current page.
+     *
+     * If $fuzzy is TRUE, this function returns TRUE when $path matches
+     * the start of the current page name.
+     *
+     * @param string $path The path of the page to check against.
+     * @param bool $fuzzy Set to TRUE to enable fuzzy matching.
+     * @return Returns TRUE if the path matches the current page,
+     *         FALSE otherwise.
+     */
+    function we_are_here($path, $fuzzy=false) {
+        if ($fuzzy) {
+            return Util::startswith($path, $this->view);
+        }
+        else {
+          return $this->view === str_replace('/','.',$path);
+        }
+    }
+
+    /**
+     * Return the path or URL for a page. If $path is omitted, the path to the
+     * website root is returned (e.g. '/' or 'http://example.com/').
+     *
+     * @param string $path The path for the page (e.g. 'linux/screenshots').
+     * @return string The path or URL of a page.
+     */
+    function get_base_url($path=null) {
+        global $ggl;
+
+        $url = $ggl->get('base_url');
+        $locale_override = $ggl->get('locale_override');
+
+        if ($locale_override !== null) {
+            # Add locale to the URL path.
+            $url .= sprintf('%s/', $locale_override);
+        }
+
+        if ($path !== null) {
+            $url .= $path;
+        }
+
+        return $url;
+    }
+
+    function base_url($path=null) {
+        print $this->get_base_url($path);
+    }
+
+    /**
+     * Print the URL for a file.
+     *
+     * @uses GetGnuLinux $ggl
+     * @param string $file The relative path to a file.
+     */
+    function url($file)
+    {
+        global $ggl;
+        printf("%s%s", $ggl->get('base_url'), $file);
+    }
+
+    /**
+     * Returns the path to a language-specific file $filename.
+     *
+     * @uses GetGnuLinux $ggl
+     * @param string $fileName The filename of which to get the
+     *      language-specific version.
+     * @return string $path Path to the language-specific file.
+     */
+    function language_file($filename)
+    {
+        global $ggl;
+        $path = sprintf("/images/locale/%s/%s", $ggl->get('lang'), $filename);
+        if (!file_exists(ROOT.$path)) {
+            $path = sprintf("/images/locale/en/%s", $filename);
+        }
+        return $path;
+    }
+
+    function link_alternate_tags() {
+        global $ggl;
+
+        $template = "<link rel=\"alternate\" type=\"text/html\" dir=\"%s\" hreflang=\"%s\" href=\"%s\">\n";
+
+        foreach ($ggl->get_locales('complete') as $lang => $v) {
+            printf(
+                $template,
+                $ggl->langdir($lang),
+                $lang,
+                $this->current_page_url($lang));
+        }
+    }
+
+    function og_tags() {
+        global $ggl;
+
+        $template = "<meta property=\"og:%s\" content=\"%s\">\n";
+        $properties = array(
+            'type' => 'website',
+            'site_name' => $ggl->get('website_title'),
+            'title' => $this->bare_page_title($ggl->get('website_title')),
+            'description' => $this->page_description(),
+            'url' => $this->current_page_url($ggl->get('locale_override')),
+        );
+
+        foreach ($properties as $property => $content) {
+            printf($template, $property, $content);
+        }
+
+        foreach ($ggl->get_locales('complete') as $lang => $locale_arr) {
+            $locale = explode('.', $locale_arr[0])[0];
+
+            if ($lang === $ggl->get('lang')) {
+                printf($template, 'locale', $locale);
+            }
+            else {
+                printf($template, 'locale:alternate', $locale);
+            }
+        }
+    }
 }
-
-$this->load_header();
-
-?>
-
-<main>
-  <article>
-    <div class="container">
-      <header>
-        <h1><?php print _("From Windows to GNU/Linux"); ?></h1>
-
-        <div class="page-intro">
-          <p><?php print _("This is what everyday users usually find better, mostly the same, or not as good, when switching from Windows to GNU/Linux."); ?></p>
-        </div>
-      </header>
-
-      <section>
-        <h2 id="whats_better"><?php print _("What is better in GNU/Linux"); ?></h2>
-
-        <h3><?php
-        # translators: please note the punctuation should be consistent
-        print _("It's free"); ?></h3>
-        <p><?php
-        # translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
-        print _("Unlike Windows, GNU/Linux is <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title=\"What does Free Software mean?\" rel=\"external\">free software</a> &ndash; free as in freedom. Install it on all computers and make copies for your friends! You can even study it, transform it as you please, or build and sell your own distribution."); ?></p>
-
-        <h3><?php print _("Programs"); ?></h3>
-        <p><?php print _("There are a wealth of free applications available at no cost under GNU/Linux. To edit professional documents, burn music CDs, rework photos, design a website, or organise music; there's no need for $200 software with restrictive licenses."); ?></p>
-        <p><?php print _("The internal installer makes it incredibly easy to find, install and remove programs."); ?></p>
-        <p><?php print _("It's also safe: you can forget the demo/trial crippled software, or harmful freeware polluting the web."); ?></p>
-
-        <h3 id="no_fighting"><?php print _("No fighting"); ?></h3>
-        <p><?php print _("Keeping your computer in shape over time needn't be a struggle. One year on, GNU/Linux runs just as fast as the first day. And it may bring your old PC back to life."); ?></p>
-        <p><?php print _("Also, GNU/Linux lets you choose what you want and what you don't. If you had a hard time getting rid of Internet Explorer, Windows Media Player, or adware and web browser toolbars, you'll find it refreshing."); ?></p>
-
-        <h3 id="security"><?php print _("Security"); ?></h3>
-        <p><?php print _("Forget expensive and restrictive anti-virus, anti-spyware, anti-anything and anti-everything. GNU/Linux is very, very secure."); ?></p>
-        <p><?php # translators: If you don't know of a link replacement in your languge, just leave the link as it is
-        print _("It is often difficult for Windows users to believe that there are <em>no spyware nor viruses</em> under GNU/Linux &mdash; <a href=\"http://linuxmafia.com/~rick/faq/#virus\" rel=\"external\">but it's true</a>. Malicious programs have a hard time doing anything at all in a well-built system."); ?></p>
-        <p><?php print _("Regular, easy software updates will keep everyone entirely safe."); ?></p>
-
-        <h3 id="support"><?php print _("Support"); ?></h3>
-        <p><?php # translators: The first %s represents the URL to the "More" page and seconds %s represents the title of the page "More" in your language
-        $p = _("GNU/Linux benefits from a great sense of community whose friendliness will surprise you. If you try to do something complicated but can't succeed, there are a lot of people around to help you out. Our \"<a href=\"%s\">%s</a>\" page gives a few pointers."); printf($p, $this->get_base_url('more'), _("More")); ?></p>
-        <p><?php print _("The companies behind the main GNU/Linux distributions, such as <a href=\"https://www.canonical.com/\" rel=\"external\">Canonical</a> and <a href=\"https://www.redhat.com/\" rel=\"external\">Red Hat</a>, also provide expert commercial support."); ?></p>
-      </section>
-
-      <section>
-        <h2 id="whats_the_same"><?php print _("What is mostly the same in GNU/Linux"); ?></h2>
-        <p><?php print _("Fundamentally, everyday users will find GNU/Linux similar in use to Windows or macOS."); ?></p>
-
-        <h3><?php print _("General set-up"); ?></h3>
-        <p><?php print _("If you still believe GNU/Linux is controlled with code and command-line, you should update your views!"); ?></p>
-        <p><?php print _("Just like Windows, GNU/Linux has to boot when you switch your computer on, and then you use programs in it to do different things. The taskbar and layout of applications will feel familiar to Windows or macOS users."); ?></p>
-
-        <h3><?php print _("Web browsing and common tasks"); ?></h3>
-        <p><?php # translators: use localized Firefox landing page if possible
-          print _("The Web looks just the same when viewed with GNU/Linux (in fact you can browse the Web with the same program if you already use <a href=\"https://www.getfirefox.com/\" rel=\"external\">Firefox</a> or <a href=\"https://www.google.com/chrome/\" rel=\"external\">Google Chrome</a>). And of course, you can go through your picture and music collection all the same. Files and folders are navigated with a file manager like Windows Explorer."); ?></p>
-      </section>
-
-      <section>
-        <h2 id="whats_not_as_good"><?php print _("What is not as good in GNU/Linux"); ?></h2>
-
-        <h3><?php print _("Driver support"); ?></h3>
-        <p><?php print _("Manufacturers of computer hardware don't always (yet) release drivers for GNU/Linux or publicize full specifications."); ?></p>
-        <p><?php print _("So, drivers are sometimes unavailable for the most recent high-end graphics cards &mdash; some are reverse-engineered from Windows drivers by volunteers. Some are also released free of charge, but under restrictive licenses."); ?></p>
-        <p><?php print _("Sadly, the same problem occurs with many low-end WiFi cards."); ?></p>
-        <p><?php print _("However, the vast majority of computers with standard hardware work out of the box with main GNU/Linux distributions. Common hardware such as USB keys or photo cameras never are a problem."); ?></p>
-
-        <h3><?php print _("DVDs, restricted formats"); ?></h3>
-        <p><?php print _("Many multimedia formats in use are proprietary and not openly specified; this means, broadly speaking, that GNU/Linux programmers have to find out how to read them without any help from the format designers."); ?></p>
-        <p><?php # translators: Please choose the wording of the DRM acronym according to the FSF terminology
-        print _("This might lead you to circumvent the restrictions in some DVDs and the <abbr title=\"Digital Restrictions Management\">DRM</abbr> in some music files, even if you purchased them in full legality, to be make them work under GNU/Linux. Unfortunately, depending on where you live, <em>such circumvention processes may be illegal</em> even if you purchased your media entirely legally."); ?></p>
-        <p><?php print _("Read more in our GNU/Linux FAQ:"); ?></p>
-        <ul class="browser-default">
-          <li><a href="<?php $this->base_url('linux/linux_faq'); ?>#dvd_mp3"><?php print _("Can I play my DVDs and MP3s under GNU/Linux?"); ?></a></li>
-        </ul>
-
-        <h3><?php print _("Gaming"); ?></h3>
-        <p><?php print _("Hard-core computer gamers, you might find that the GNU/Linux gaming world is less professional and out-of-the-box than under Windows: the large game developing companies are only slowly getting interested in the free software world, which means that many well-known titles do not work on GNU/Linux, or need special restrictive emulators to work."); ?></p>
-        <p><?php # translators: use localised link if possible, and contact us if you know better resources
-        print _("There is a very active free software game development community though, and they have produced quite a few high-quality games, both 2D and 3D, that are free software. You can head to the <a href=\"https://ubuntuforums.org/forumdisplay.php?f=93\" rel=\"external\">Ubuntu gaming forum</a> to find more information. And with the release of the popular Steam platform to GNU/Linux, the number of <a href=\"https://store.steampowered.com/linux\" rel=\"external\">GNU/Linux supported games on Steam</a> has been growing rapidly."); ?></p>
-        <p><?php print _("Read more in our GNU/Linux FAQ:"); ?></p>
-        <ul class="browser-default">
-          <li><a href="<?php $this->base_url('linux/linux_faq'); ?>#games"><?php print _("Can I play popular 3D games under GNU/Linux?"); ?></a></li>
-        </ul>
-
-        <h3><?php print _("Hibernating"); ?></h3>
-        <p><?php print _("Because of the driver issues above, hibernating is not always reliable. The most common occurrence is the loss of WiFi connection after hibernating on laptops whose hardware drivers are not free."); ?></p>
-      </section>
-
-      <section>
-        <h2 id="conclusion"><?php print _("Conclusion"); ?></h2>
-        <p><?php print _("Whether you are going to enjoy GNU/Linux depends mostly on what you expect from it."); ?></p>
-        <ul class="browser-default">
-          <li>
-            <?php # translators: Use a localised version of the "Linux is Not Windows" article if possible. The following page contains links to localised versions: http://geekblog.oneandoneis2.org/index.php/2005/12/31/derived_works_aamp_translations
-            print _("If you wish GNU/Linux to be just exactly like Windows, you will probably be disappointed. GNU/Linux is built by people who simply <a href=\"http://linux.oneandoneis2.org/LNW.htm\" rel=\"external\">wish it to be different</a>. In the free software community, members have different visions of what makes an ideal operating system. These differences lead to variety, which is what makes GNU/Linux so special and interesting."); ?>
-          </li>
-          <li>
-            <?php print _("Your freedom matters. Thousands in communities and companies work to build software on which you may exert this freedom. Using GNU/Linux is the easiest way to do so fully."); ?>
-          </li>
-          <li>
-            <?php print _("It's fun! Not having to worry about spyware, viruses, program registrations, demos that expire, or finding software that is really free as in freedom, makes using a computer suddenly very enjoyable."); ?>
-          </li>
-        </ul>
-        <p><?php print _("We hope you'll switch soon. There's a large community waiting, and no one in it asking you to &quot;sign up, purchase and register&quot;."); ?></p>
-      </section>
-    </div>
-  </article>
-
-  <aside class="bg-even">
-    <div class="container button-section">
-      <h1><?php print _("Choose a distribution"); ?></h1>
-
-      <div class="page-intro">
-        <p><?php print _("Our selection for an easy choice."); ?></p>
-
-        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux/choose_a_distribution'); ?>">
-          <?php print _("Read more"); ?>
-          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
-        </a>
-      </div>
-    </div>
-  </aside>
-</main>
-
-<?php $this->load_footer(); ?>
