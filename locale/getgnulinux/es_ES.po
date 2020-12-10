@@ -1,134 +1,109 @@
 <?php
-
 # This file is not a valid entry point; stop processing unless GGL is defined.
 if ( !defined('GGL') ) {
     exit(1);
 }
 
 $this->load_header();
-
 ?>
 
 <main>
-  <article>
-    <div class="container">
+  <div class="container">
+    <article>
       <header>
-        <h1><?php print _("From Windows to GNU/Linux"); ?></h1>
-
+        <h1><?php print _("Try or install"); ?></h1>
         <div class="page-intro">
-          <p><?php print _("This is what everyday users usually find better, mostly the same, or not as good, when switching from Windows to GNU/Linux."); ?></p>
+          <p><?php print _("Make the step &ndash; unless you wish to <a href=\"#free_software_pre_installed\" title=\"GNU/Linux Desktops and Laptops\">purchase a PC with GNU/Linux pre-installed</a>, you can see what freedom looks like on your computer."); ?></p>
         </div>
       </header>
 
       <section>
-        <h2 id="whats_better"><?php print _("What is better in GNU/Linux"); ?></h2>
+        <h2 id="live_cd"><?php print _("Try out the live USB stick"); ?></h2>
 
-        <h3><?php
-        # translators: please note the punctuation should be consistent
-        print _("It's free"); ?></h3>
-        <p><?php
-        # translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
-        print _("Unlike Windows, GNU/Linux is <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title=\"What does Free Software mean?\" rel=\"external\">free software</a> &ndash; free as in freedom. Install it on all computers and make copies for your friends! You can even study it, transform it as you please, or build and sell your own distribution."); ?></p>
+        <h3 id="live_cd_what_is"><?php print _("Take no risk"); ?></h3>
+        <img src="/images/USB-stick.svg" class="float-right width20p hidden-xs" alt="">
+        <p><?php print _("Using a live USB stick means that GNU/Linux will be running on your computer <em>without installing anything</em>. It's a risk-less way to try and see by yourself what GNU/Linux is."); ?></p>
+        <p><?php print _("When running on a live USB stick, your computer uses solely the USB stick to work (without accessing the hard drive inside). You can launch all of the default programs, edit documents, and browse the web."); ?></p>
+        <p><?php print _("Since it is only designed as a trial mode, it is a little slow (it will take you five minutes to boot up, and programs launch somewhat slowly). If you proceed to install, the system will go much faster."); ?></p>
 
-        <h3><?php print _("Programs"); ?></h3>
-        <p><?php print _("There are a wealth of free applications available at no cost under GNU/Linux. To edit professional documents, burn music CDs, rework photos, design a website, or organise music; there's no need for $200 software with restrictive licenses."); ?></p>
-        <p><?php print _("The internal installer makes it incredibly easy to find, install and remove programs."); ?></p>
-        <p><?php print _("It's also safe: you can forget the demo/trial crippled software, or harmful freeware polluting the web."); ?></p>
-
-        <h3 id="no_fighting"><?php print _("No fighting"); ?></h3>
-        <p><?php print _("Keeping your computer in shape over time needn't be a struggle. One year on, GNU/Linux runs just as fast as the first day. And it may bring your old PC back to life."); ?></p>
-        <p><?php print _("Also, GNU/Linux lets you choose what you want and what you don't. If you had a hard time getting rid of Internet Explorer, Windows Media Player, or adware and web browser toolbars, you'll find it refreshing."); ?></p>
-
-        <h3 id="security"><?php print _("Security"); ?></h3>
-        <p><?php print _("Forget expensive and restrictive anti-virus, anti-spyware, anti-anything and anti-everything. GNU/Linux is very, very secure."); ?></p>
-        <p><?php # translators: If you don't know of a link replacement in your languge, just leave the link as it is
-        print _("It is often difficult for Windows users to believe that there are <em>no spyware nor viruses</em> under GNU/Linux &mdash; <a href=\"http://linuxmafia.com/~rick/faq/#virus\" rel=\"external\">but it's true</a>. Malicious programs have a hard time doing anything at all in a well-built system."); ?></p>
-        <p><?php print _("Regular, easy software updates will keep everyone entirely safe."); ?></p>
-
-        <h3 id="support"><?php print _("Support"); ?></h3>
-        <p><?php # translators: The first %s represents the URL to the "More" page and seconds %s represents the title of the page "More" in your language
-        $p = _("GNU/Linux benefits from a great sense of community whose friendliness will surprise you. If you try to do something complicated but can't succeed, there are a lot of people around to help you out. Our \"<a href=\"%s\">%s</a>\" page gives a few pointers."); printf($p, $this->get_base_url('more'), _("More")); ?></p>
-        <p><?php print _("The companies behind the main GNU/Linux distributions, such as <a href=\"https://www.canonical.com/\" rel=\"external\">Canonical</a> and <a href=\"https://www.redhat.com/\" rel=\"external\">Red Hat</a>, also provide expert commercial support."); ?></p>
+        <h3 id="live_cd_what_need"><?php print _("What you need"); ?></h3>
+        <p><?php print _("For the distributions we recommend, the live USB stick is the same as the installation CD. You can download an ISO image (rather large file) and then create a bootable USB stick (recommended) or burn it to a CD or DVD. Burning to a CD/DVD may be necessary when installing GNU/Linux on an older system which can not boot from USB. You can then use it to install GNU/Linux onto your computer."); ?></p>
+        <p><?php print _("To use a live USB stick, you need a little bit of curiosity, and fifteen minutes of free time, but <strong>no advanced knowledge in computing</strong>. If you feel confident simply using Windows or macOS from time to time, then this is within your reach."); ?></p>
       </section>
 
       <section>
-        <h2 id="whats_the_same"><?php print _("What is mostly the same in GNU/Linux"); ?></h2>
-        <p><?php print _("Fundamentally, everyday users will find GNU/Linux similar in use to Windows or macOS."); ?></p>
+        <h2 id="install_dual_boot"><?php print _("Installing as a dual boot"); ?></h2>
 
-        <h3><?php print _("General set-up"); ?></h3>
-        <p><?php print _("If you still believe GNU/Linux is controlled with code and command-line, you should update your views!"); ?></p>
-        <p><?php print _("Just like Windows, GNU/Linux has to boot when you switch your computer on, and then you use programs in it to do different things. The taskbar and layout of applications will feel familiar to Windows or macOS users."); ?></p>
+        <h3 id="dual_boot_what_is"><?php print _("Choose at start-up"); ?></h3>
+        <p><?php print _("It is possible to install GNU/Linux along with Windows or macOS. This means that upon start-up, you will be greeted with a screen allowing you to boot into the operating system you prefer."); ?></p>
+        <p><?php print _("Setting up a dual-boot can be helpful if you need time to abandon restrictive software. It is <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" title=\"a tutorial on installing Ubuntu\" rel=\"external\">not difficult to set-up</a>, though erasing Windows or macOS altogether is even easier."); ?></p>
 
-        <h3><?php print _("Web browsing and common tasks"); ?></h3>
-        <p><?php # translators: use localized Firefox landing page if possible
-          print _("The Web looks just the same when viewed with GNU/Linux (in fact you can browse the Web with the same program if you already use <a href=\"https://www.getfirefox.com/\" rel=\"external\">Firefox</a> or <a href=\"https://www.google.com/chrome/\" rel=\"external\">Google Chrome</a>). And of course, you can go through your picture and music collection all the same. Files and folders are navigated with a file manager like Windows Explorer."); ?></p>
+        <h3 id="dual_boot_what_need"><?php print _("What you need"); ?></h3>
+        <p><?php print _("Installing GNU/Linux on your computer will take you less than 30 minutes. It is not an obvious step for complete beginners, but if you use computers on a daily basis this is very likely within your reach. If you have already re-installed Windows or macOS on your computer, rest assured that installing GNU/Linux is no harder."); ?></p>
       </section>
 
       <section>
-        <h2 id="whats_not_as_good"><?php print _("What is not as good in GNU/Linux"); ?></h2>
+        <h2 id="get_the_cd"><?php print _("Get the image you need"); ?></h2>
+        <p><?php print _("For the distributions we recommend, the live USB stick is the same as the installation CD. You can download an ISO image (rather large file) and then create a bootable USB stick (recommended) or burn it to a CD or DVD. Burning to a CD/DVD may be necessary when installing GNU/Linux on an older system which can not boot from USB. You can then use it to install GNU/Linux onto your computer."); ?></p>
 
-        <h3><?php print _("Driver support"); ?></h3>
-        <p><?php print _("Manufacturers of computer hardware don't always (yet) release drivers for GNU/Linux or publicize full specifications."); ?></p>
-        <p><?php print _("So, drivers are sometimes unavailable for the most recent high-end graphics cards &mdash; some are reverse-engineered from Windows drivers by volunteers. Some are also released free of charge, but under restrictive licenses."); ?></p>
-        <p><?php print _("Sadly, the same problem occurs with many low-end WiFi cards."); ?></p>
-        <p><?php print _("However, the vast majority of computers with standard hardware work out of the box with main GNU/Linux distributions. Common hardware such as USB keys or photo cameras never are a problem."); ?></p>
+        <div class="download-box">
+          <div class="download-box-logo">
+            <p><img src="/images/DebianIcon.svg" alt="Debian"></p>
+          </div>
+          <div class="download-box-content">
+            <p><?php print _("<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">Create a bootable USB stick</a> or <a href=\"https://www.debian.org/CD/faq/#record-windows\" rel=\"external\">burn it to a CD/DVD</a>. Then use it to <a href=\"https://www.debian.org/releases/stable/installmanual\" rel=\"external\">install Debian</a> onto your computer."); ?></p>
 
-        <h3><?php print _("DVDs, restricted formats"); ?></h3>
-        <p><?php print _("Many multimedia formats in use are proprietary and not openly specified; this means, broadly speaking, that GNU/Linux programmers have to find out how to read them without any help from the format designers."); ?></p>
-        <p><?php # translators: Please choose the wording of the DRM acronym according to the FSF terminology
-        print _("This might lead you to circumvent the restrictions in some DVDs and the <abbr title=\"Digital Restrictions Management\">DRM</abbr> in some music files, even if you purchased them in full legality, to be make them work under GNU/Linux. Unfortunately, depending on where you live, <em>such circumvention processes may be illegal</em> even if you purchased your media entirely legally."); ?></p>
-        <p><?php print _("Read more in our GNU/Linux FAQ:"); ?></p>
-        <ul class="browser-default">
-          <li><a href="<?php $this->base_url('linux/linux_faq'); ?>#dvd_mp3"><?php print _("Can I play my DVDs and MP3s under GNU/Linux?"); ?></a></li>
-        </ul>
+            <div class="download-box-buttons">
+              <a class="waves-effect waves-light btn-large light-green darken-4" href="https://www.debian.org/distrib/" target="_blank">
+                <?php print _("Download Debian"); ?>
+                <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">cloud_download</i>
+              </a>
+            </div>
+          </div>
+        </div>
 
-        <h3><?php print _("Gaming"); ?></h3>
-        <p><?php print _("Hard-core computer gamers, you might find that the GNU/Linux gaming world is less professional and out-of-the-box than under Windows: the large game developing companies are only slowly getting interested in the free software world, which means that many well-known titles do not work on GNU/Linux, or need special restrictive emulators to work."); ?></p>
-        <p><?php # translators: use localised link if possible, and contact us if you know better resources
-        print _("There is a very active free software game development community though, and they have produced quite a few high-quality games, both 2D and 3D, that are free software. You can head to the <a href=\"https://ubuntuforums.org/forumdisplay.php?f=93\" rel=\"external\">Ubuntu gaming forum</a> to find more information. And with the release of the popular Steam platform to GNU/Linux, the number of <a href=\"https://store.steampowered.com/linux\" rel=\"external\">GNU/Linux supported games on Steam</a> has been growing rapidly."); ?></p>
-        <p><?php print _("Read more in our GNU/Linux FAQ:"); ?></p>
-        <ul class="browser-default">
-          <li><a href="<?php $this->base_url('linux/linux_faq'); ?>#games"><?php print _("Can I play popular 3D games under GNU/Linux?"); ?></a></li>
-        </ul>
+        <div class="download-box">
+          <div class="download-box-logo">
+            <p><img src="/images/UbuntuIcon.svg" alt="Ubuntu"></p>
+          </div>
+          <div class="download-box-content">
+            <p><?php print _("<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows\" rel=\"external\">Create a bootable USB stick</a> or <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel=\"external\">burn it to a DVD</a>. Then use it to <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel=\"external\">install Ubuntu</a> onto your computer."); ?></p>
 
-        <h3><?php print _("Hibernating"); ?></h3>
-        <p><?php print _("Because of the driver issues above, hibernating is not always reliable. The most common occurrence is the loss of WiFi connection after hibernating on laptops whose hardware drivers are not free."); ?></p>
+            <div class="download-box-buttons">
+              <a class="waves-effect waves-light btn-large light-green darken-4" href="https://ubuntu.com/download/desktop" target="_blank">
+                <?php print _("Download Ubuntu"); ?>
+                <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">cloud_download</i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="download-box">
+          <div class="download-box-logo">
+            <p><img src="/images/FedoraIcon.png" alt="Fedora"></p>
+          </div>
+          <div class="download-box-content">
+            <p><?php print _("<i>Fedora Media Writer</i> is the easiest way to <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">try or install Fedora</a>."); ?></p>
+
+            <div class="download-box-buttons">
+              <a class="waves-effect waves-light btn-large light-green darken-4" href="https://getfedora.org/en/workstation/" target="_blank">
+                <?php print _("Download Fedora"); ?>
+                <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">cloud_download</i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <p class="note italic"><?php print _("Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title=\"What do you mean, free?\" rel=\"external\">free software</a>. You are simply paying a handling/shipping fee."); ?></p>
       </section>
 
       <section>
-        <h2 id="conclusion"><?php print _("Conclusion"); ?></h2>
-        <p><?php print _("Whether you are going to enjoy GNU/Linux depends mostly on what you expect from it."); ?></p>
-        <ul class="browser-default">
-          <li>
-            <?php # translators: Use a localised version of the "Linux is Not Windows" article if possible. The following page contains links to localised versions: http://geekblog.oneandoneis2.org/index.php/2005/12/31/derived_works_aamp_translations
-            print _("If you wish GNU/Linux to be just exactly like Windows, you will probably be disappointed. GNU/Linux is built by people who simply <a href=\"http://linux.oneandoneis2.org/LNW.htm\" rel=\"external\">wish it to be different</a>. In the free software community, members have different visions of what makes an ideal operating system. These differences lead to variety, which is what makes GNU/Linux so special and interesting."); ?>
-          </li>
-          <li>
-            <?php print _("Your freedom matters. Thousands in communities and companies work to build software on which you may exert this freedom. Using GNU/Linux is the easiest way to do so fully."); ?>
-          </li>
-          <li>
-            <?php print _("It's fun! Not having to worry about spyware, viruses, program registrations, demos that expire, or finding software that is really free as in freedom, makes using a computer suddenly very enjoyable."); ?>
-          </li>
-        </ul>
-        <p><?php print _("We hope you'll switch soon. There's a large community waiting, and no one in it asking you to &quot;sign up, purchase and register&quot;."); ?></p>
+        <h2 id="free_software_pre_installed"><?php print _("Free Software pre-installed"); ?></h2>
+        <img src="/images/Laptop.png" class="float-right width20p hidden-sm" alt="">
+        <p><?php print _("Not all computers are shipped with Windows or macOS. If you do not wish to make the install yourself, or are in need of new hardware, you can get a laptop or a desktop pre-installed with GNU/Linux. <a href=\"https://linuxpreloaded.com/\" rel=\"external\">LinuxPreloaded.com</a> has compiled a list of vendors pre-installing GNU/Linux just for that reason."); ?></p>
       </section>
-    </div>
-  </article>
-
-  <aside class="bg-even">
-    <div class="container button-section">
-      <h1><?php print _("Choose a distribution"); ?></h1>
-
-      <div class="page-intro">
-        <p><?php print _("Our selection for an easy choice."); ?></p>
-
-        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux/choose_a_distribution'); ?>">
-          <?php print _("Read more"); ?>
-          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
-        </a>
-      </div>
-    </div>
-  </aside>
+    </article>
+  </div>
 </main>
 
 <?php $this->load_footer(); ?>
