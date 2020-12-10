@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/getgnulinux/getgnulinux/issues\n"
-"POT-Creation-Date: 2020-12-10 17:30+0000\n"
+"POT-Creation-Date: 2020-12-10 18:00+0000\n"
 "PO-Revision-Date: 2020-12-01 00:06+0000\n"
 "Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/serrano/getgnulinux/"
@@ -1136,7 +1136,8 @@ msgstr ""
 "到自由的计算机是什么样子。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:21
-msgid "Try out: the live CD"
+#, fuzzy
+msgid "Try out the live USB stick"
 msgstr "试用：live CD"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:23
@@ -1144,8 +1145,9 @@ msgid "Take no risk"
 msgstr "无需冒险"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:25
+#, fuzzy
 msgid ""
-"Using a live CD means that GNU/Linux will be running on your computer "
+"Using a live USB stick means that GNU/Linux will be running on your computer "
 "<em>without installing anything</em>. It's a risk-less way to try and see by "
 "yourself what GNU/Linux is."
 msgstr ""
@@ -1153,10 +1155,11 @@ msgstr ""
 "是体验 GNU/Linux 的一个无风险方案。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:26
+#, fuzzy
 msgid ""
-"When running on a live CD, your computer uses solely the CD-ROM to work "
-"(without accessing the hard drive inside). You can launch all of the default "
-"programs, edit documents, and browse the web."
+"When running on a live USB stick, your computer uses solely the USB stick to "
+"work (without accessing the hard drive inside). You can launch all of the "
+"default programs, edit documents, and browse the web."
 msgstr ""
 "当您运行在一个 live CD 上时，并不会修改您硬盘上的任何东西(仅仅使用您的光驱)。"
 "您可以运行所有的默认软件、编辑文档或者浏览网页。"
@@ -1171,81 +1174,89 @@ msgstr ""
 "统，并且运行软件会有点慢)。如果您安装在您的计算机上会快很多。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:29
-#: docroot/lib/views/switch_to_linux.try_or_install.php:40
+#: docroot/lib/views/switch_to_linux.try_or_install.php:41
 msgid "What you need"
 msgstr "需要什么"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:30
+#: docroot/lib/views/switch_to_linux.try_or_install.php:47
+#, fuzzy
 msgid ""
-"To use a live CD, you need a little bit of curiosity and fifteen minutes of "
-"free time, but <strong>no advanced knowledge in computing</strong>. If you "
-"feel confident simply using Windows from time to time, then this is within "
-"your reach."
-msgstr ""
-"使用一个 live CD 只需要您有一点点的好奇心和几十分钟的空闲时间， <strong>并不"
-"需要您对计算机有专业了解</strong>。如果您在日常生活中能够简单地使用 Windows操"
-"作系统，那么这对您来说也是简单至极。"
-
-#: docroot/lib/views/switch_to_linux.try_or_install.php:34
-msgid "Installing as a dual boot"
-msgstr "安装成双启动"
-
-#: docroot/lib/views/switch_to_linux.try_or_install.php:36
-msgid "Choose at start-up"
-msgstr "开始时的选择"
-
-#: docroot/lib/views/switch_to_linux.try_or_install.php:37
-msgid ""
-"It is possible to install GNU/Linux along with Windows. This means that upon "
-"start-up, you will be greeted with a screen allowing you to boot into the "
-"operating system you prefer."
-msgstr ""
-"安装GNU/Linux使之与Windows共存也是可能的。这样，在你开启的时候，你会从屏幕上"
-"得到提示，让你可以导入你偏爱的操作系统。"
-
-#: docroot/lib/views/switch_to_linux.try_or_install.php:38
-msgid ""
-"Setting up a dual-boot can be helpful if you need time to abandon "
-"restrictive software. It is <a href=\"https://tutorials.ubuntu.com/tutorial/"
-"tutorial-install-ubuntu-desktop\" title=\"a tutorial on installing Ubuntu\" "
-"rel=\"external\">not difficult to set-up</a>, though erasing Windows "
-"altogether is even easier."
-msgstr ""
-"如果摈弃限制性的软件需要时间，您可以选择安装双系统， <a href=\"https://"
-"tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" title=\"安装 "
-"Ubuntu 的指南\" rel=\"external\">这并不困难</a>，将 Windows 彻底删除会更加简"
-"单。"
-
-#: docroot/lib/views/switch_to_linux.try_or_install.php:41
-msgid ""
-"Installing GNU/Linux on your computer will take you less than 30 minutes. It "
-"is not an obvious step for complete beginners, but if you use computers on a "
-"daily basis this is very likely within your reach. If you have already re-"
-"installed Windows on your computer, rest assured that installing GNU/Linux "
-"is no harder."
-msgstr ""
-"在电脑上安装 GNU/Linux 只需要不到 30 分钟的时间。对完完全全的初学者来讲，这个"
-"过程无法闭着眼睛完成。但如果每天都用电脑，这应该在您的能力范围之内。如果您已"
-"经重装过Windows，那就放心吧，安装 GNU/Linux 定不难于此。"
-
-#: docroot/lib/views/switch_to_linux.try_or_install.php:45
-msgid "Get the CD you need"
-msgstr "获取需要的 CD"
-
-#: docroot/lib/views/switch_to_linux.try_or_install.php:46
-msgid ""
-"For the distributions we recommend, the live CD is the same as the "
+"For the distributions we recommend, the live USB stick is the same as the "
 "installation CD. You can download an ISO image (rather large file) and then "
-"create a bootable USB stick (recommended) or burn it to a CD (may be "
-"necessary when installing GNU/Linux on an older system which can not boot "
-"from USB). You can then use it to install GNU/Linux onto your computer."
+"create a bootable USB stick (recommended) or burn it to a CD or DVD. Burning "
+"to a CD/DVD may be necessary when installing GNU/Linux on an older system "
+"which can not boot from USB. You can then use it to install GNU/Linux onto "
+"your computer."
 msgstr ""
 "对于我们所建帝的散布版来说，Live CD 与安装 CD 相同。您可以下载 ISO 映像档（比"
 "较大的档案）然后建立可用于开机的 USB 随身碟（​​建议）或将其烧录到 CD 中（可能对"
 "不能从 USB 开机的旧系统来说比较有用）。您可以使用它来安装 GNU/Linux 到您的电"
 "脑上。"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:53
+#: docroot/lib/views/switch_to_linux.try_or_install.php:31
+#, fuzzy
+msgid ""
+"To use a live USB stick, you need a little bit of curiosity, and fifteen "
+"minutes of free time, but <strong>no advanced knowledge in computing</"
+"strong>. If you feel confident simply using Windows from time to time, then "
+"this is within your reach."
+msgstr ""
+"使用一个 live CD 只需要您有一点点的好奇心和几十分钟的空闲时间， <strong>并不"
+"需要您对计算机有专业了解</strong>。如果您在日常生活中能够简单地使用 Windows操"
+"作系统，那么这对您来说也是简单至极。"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:35
+msgid "Installing as a dual boot"
+msgstr "安装成双启动"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:37
+msgid "Choose at start-up"
+msgstr "开始时的选择"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:38
+#, fuzzy
+msgid ""
+"It is possible to install GNU/Linux along with Windows or macOS. This means "
+"that upon start-up, you will be greeted with a screen allowing you to boot "
+"into the operating system you prefer."
+msgstr ""
+"安装GNU/Linux使之与Windows共存也是可能的。这样，在你开启的时候，你会从屏幕上"
+"得到提示，让你可以导入你偏爱的操作系统。"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:39
+#, fuzzy
+msgid ""
+"Setting up a dual-boot can be helpful if you need time to abandon "
+"restrictive software. It is <a href=\"https://tutorials.ubuntu.com/tutorial/"
+"tutorial-install-ubuntu-desktop\" title=\"a tutorial on installing Ubuntu\" "
+"rel=\"external\">not difficult to set-up</a>, though erasing Windows or "
+"macOS altogether is even easier."
+msgstr ""
+"如果摈弃限制性的软件需要时间，您可以选择安装双系统， <a href=\"https://"
+"tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" title=\"安装 "
+"Ubuntu 的指南\" rel=\"external\">这并不困难</a>，将 Windows 彻底删除会更加简"
+"单。"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:42
+#, fuzzy
+msgid ""
+"Installing GNU/Linux on your computer will take you less than 30 minutes. It "
+"is not an obvious step for complete beginners, but if you use computers on a "
+"daily basis this is very likely within your reach. If you have already re-"
+"installed Windows or macOS on your computer, rest assured that installing "
+"GNU/Linux is no harder."
+msgstr ""
+"在电脑上安装 GNU/Linux 只需要不到 30 分钟的时间。对完完全全的初学者来讲，这个"
+"过程无法闭着眼睛完成。但如果每天都用电脑，这应该在您的能力范围之内。如果您已"
+"经重装过Windows，那就放心吧，安装 GNU/Linux 定不难于此。"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:46
+#, fuzzy
+msgid "Get the image you need"
+msgstr "获取需要的 CD"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:54
 #, fuzzy
 msgid ""
 "<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">Create "
@@ -1261,12 +1272,12 @@ msgstr ""
 "ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel=\"external\">安裝 "
 "Ubuntu</a> 到您的电脑上。"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:57
+#: docroot/lib/views/switch_to_linux.try_or_install.php:58
 #, fuzzy
 msgid "Download Debian"
 msgstr "下载 Ubuntu"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:69
+#: docroot/lib/views/switch_to_linux.try_or_install.php:70
 msgid ""
 "<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-"
 "on-windows\" rel=\"external\">Create a bootable USB stick</a> or <a href="
@@ -1282,11 +1293,11 @@ msgstr ""
 "ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel=\"external\">安裝 "
 "Ubuntu</a> 到您的电脑上。"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:73
+#: docroot/lib/views/switch_to_linux.try_or_install.php:74
 msgid "Download Ubuntu"
 msgstr "下载 Ubuntu"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:85
+#: docroot/lib/views/switch_to_linux.try_or_install.php:86
 msgid ""
 "<i>Fedora Media Writer</i> is the easiest way to <a href=\"https://docs."
 "fedoraproject.org/en-US/fedora/f33/install-guide/install/"
@@ -1294,11 +1305,11 @@ msgid ""
 "or install Fedora</a>."
 msgstr ""
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:89
+#: docroot/lib/views/switch_to_linux.try_or_install.php:90
 msgid "Download Fedora"
 msgstr "下载 Fedora"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:96
+#: docroot/lib/views/switch_to_linux.try_or_install.php:97
 msgid ""
 "Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href="
 "\"https://www.gnu.org/philosophy/free-sw.html\" title=\"What do you mean, "
@@ -1309,11 +1320,11 @@ msgstr ""
 "philosophy/free-sw.html\" title=\"What do you mean, free?\" rel=\"external\">"
 "自由軟體</a>。您只需要付处理／购买費用。"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:100
+#: docroot/lib/views/switch_to_linux.try_or_install.php:101
 msgid "Free Software pre-installed"
 msgstr "预装的自由软件"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:102
+#: docroot/lib/views/switch_to_linux.try_or_install.php:103
 msgid ""
 "Not all computers are shipped with Windows. If you do not wish to make the "
 "install yourself, or are in need of new hardware, you can get a laptop or a "

@@ -18,32 +18,33 @@ $this->load_header();
       </header>
 
       <section>
-        <h2 id="live_cd"><?php print _("Try out: the live CD"); ?></h2>
+        <h2 id="live_cd"><?php print _("Try out the live USB stick"); ?></h2>
 
         <h3 id="live_cd_what_is"><?php print _("Take no risk"); ?></h3>
-        <img src="/images/Disc.svg" class="float-right width20p hidden-xs" alt="">
-        <p><?php print _("Using a live CD means that GNU/Linux will be running on your computer <em>without installing anything</em>. It's a risk-less way to try and see by yourself what GNU/Linux is."); ?></p>
-        <p><?php print _("When running on a live CD, your computer uses solely the CD-ROM to work (without accessing the hard drive inside). You can launch all of the default programs, edit documents, and browse the web."); ?></p>
+        <img src="/images/USB-stick.svg" class="float-right width20p hidden-xs" alt="">
+        <p><?php print _("Using a live USB stick means that GNU/Linux will be running on your computer <em>without installing anything</em>. It's a risk-less way to try and see by yourself what GNU/Linux is."); ?></p>
+        <p><?php print _("When running on a live USB stick, your computer uses solely the USB stick to work (without accessing the hard drive inside). You can launch all of the default programs, edit documents, and browse the web."); ?></p>
         <p><?php print _("Since it is only designed as a trial mode, it is a little slow (it will take you five minutes to boot up, and programs launch somewhat slowly). If you proceed to install, the system will go much faster."); ?></p>
 
         <h3 id="live_cd_what_need"><?php print _("What you need"); ?></h3>
-        <p><?php print _("To use a live CD, you need a little bit of curiosity and fifteen minutes of free time, but <strong>no advanced knowledge in computing</strong>. If you feel confident simply using Windows from time to time, then this is within your reach."); ?></p>
+        <p><?php print _("For the distributions we recommend, the live USB stick is the same as the installation CD. You can download an ISO image (rather large file) and then create a bootable USB stick (recommended) or burn it to a CD or DVD. Burning to a CD/DVD may be necessary when installing GNU/Linux on an older system which can not boot from USB. You can then use it to install GNU/Linux onto your computer."); ?></p>
+        <p><?php print _("To use a live USB stick, you need a little bit of curiosity, and fifteen minutes of free time, but <strong>no advanced knowledge in computing</strong>. If you feel confident simply using Windows from time to time, then this is within your reach."); ?></p>
       </section>
 
       <section>
         <h2 id="install_dual_boot"><?php print _("Installing as a dual boot"); ?></h2>
 
         <h3 id="dual_boot_what_is"><?php print _("Choose at start-up"); ?></h3>
-        <p><?php print _("It is possible to install GNU/Linux along with Windows. This means that upon start-up, you will be greeted with a screen allowing you to boot into the operating system you prefer."); ?></p>
-        <p><?php print _("Setting up a dual-boot can be helpful if you need time to abandon restrictive software. It is <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" title=\"a tutorial on installing Ubuntu\" rel=\"external\">not difficult to set-up</a>, though erasing Windows altogether is even easier."); ?></p>
+        <p><?php print _("It is possible to install GNU/Linux along with Windows or macOS. This means that upon start-up, you will be greeted with a screen allowing you to boot into the operating system you prefer."); ?></p>
+        <p><?php print _("Setting up a dual-boot can be helpful if you need time to abandon restrictive software. It is <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" title=\"a tutorial on installing Ubuntu\" rel=\"external\">not difficult to set-up</a>, though erasing Windows or macOS altogether is even easier."); ?></p>
 
         <h3 id="dual_boot_what_need"><?php print _("What you need"); ?></h3>
-        <p><?php print _("Installing GNU/Linux on your computer will take you less than 30 minutes. It is not an obvious step for complete beginners, but if you use computers on a daily basis this is very likely within your reach. If you have already re-installed Windows on your computer, rest assured that installing GNU/Linux is no harder."); ?></p>
+        <p><?php print _("Installing GNU/Linux on your computer will take you less than 30 minutes. It is not an obvious step for complete beginners, but if you use computers on a daily basis this is very likely within your reach. If you have already re-installed Windows or macOS on your computer, rest assured that installing GNU/Linux is no harder."); ?></p>
       </section>
 
       <section>
-        <h2 id="get_the_cd"><?php print _("Get the CD you need"); ?></h2>
-        <p><?php print _("For the distributions we recommend, the live CD is the same as the installation CD. You can download an ISO image (rather large file) and then create a bootable USB stick (recommended) or burn it to a CD (may be necessary when installing GNU/Linux on an older system which can not boot from USB). You can then use it to install GNU/Linux onto your computer."); ?></p>
+        <h2 id="get_the_cd"><?php print _("Get the image you need"); ?></h2>
+        <p><?php print _("For the distributions we recommend, the live USB stick is the same as the installation CD. You can download an ISO image (rather large file) and then create a bootable USB stick (recommended) or burn it to a CD or DVD. Burning to a CD/DVD may be necessary when installing GNU/Linux on an older system which can not boot from USB. You can then use it to install GNU/Linux onto your computer."); ?></p>
 
         <div class="download-box">
           <div class="download-box-logo">

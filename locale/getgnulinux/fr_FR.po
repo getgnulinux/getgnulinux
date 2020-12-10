@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/getgnulinux/getgnulinux/issues\n"
-"POT-Creation-Date: 2020-12-10 17:30+0000\n"
+"POT-Creation-Date: 2020-12-10 18:00+0000\n"
 "PO-Revision-Date: 2020-12-01 00:06+0000\n"
 "Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
 "Language-Team: French (France) (http://www.transifex.com/serrano/getgnulinux/"
@@ -1277,7 +1277,8 @@ msgstr ""
 "liberté ressemble sur votre ordinateur."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:21
-msgid "Try out: the live CD"
+#, fuzzy
+msgid "Try out the live USB stick"
 msgstr "Essayer : le live CD"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:23
@@ -1285,8 +1286,9 @@ msgid "Take no risk"
 msgstr "Ne prenez pas de risque"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:25
+#, fuzzy
 msgid ""
-"Using a live CD means that GNU/Linux will be running on your computer "
+"Using a live USB stick means that GNU/Linux will be running on your computer "
 "<em>without installing anything</em>. It's a risk-less way to try and see by "
 "yourself what GNU/Linux is."
 msgstr ""
@@ -1295,10 +1297,11 @@ msgstr ""
 "risque pour essayer et voir par vous-même ce qu'est GNU/Linux."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:26
+#, fuzzy
 msgid ""
-"When running on a live CD, your computer uses solely the CD-ROM to work "
-"(without accessing the hard drive inside). You can launch all of the default "
-"programs, edit documents, and browse the web."
+"When running on a live USB stick, your computer uses solely the USB stick to "
+"work (without accessing the hard drive inside). You can launch all of the "
+"default programs, edit documents, and browse the web."
 msgstr ""
 "Lorsque vous démarrez sur un Live CD, votre ordinateur n'utilise que le CD-"
 "ROM pour fonctionner (sans utiliser le disque dur). Vous pouvez lancer tous "
@@ -1316,78 +1319,20 @@ msgstr ""
 "rapide."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:29
-#: docroot/lib/views/switch_to_linux.try_or_install.php:40
+#: docroot/lib/views/switch_to_linux.try_or_install.php:41
 msgid "What you need"
 msgstr "Ce dont vous avez besoin"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:30
+#: docroot/lib/views/switch_to_linux.try_or_install.php:47
+#, fuzzy
 msgid ""
-"To use a live CD, you need a little bit of curiosity and fifteen minutes of "
-"free time, but <strong>no advanced knowledge in computing</strong>. If you "
-"feel confident simply using Windows from time to time, then this is within "
-"your reach."
-msgstr ""
-"Pour utiliser un Live CD, vous avez besoin d'un peu de curiosité et d'un "
-"quart d'heure de temps libre, mais <strong> d'aucune connaissance avancée en "
-"informatique</strong>. Si vous vous sentez à l'aise en utilisant Windows de "
-"temps à autre, ce sera à votre portée."
-
-#: docroot/lib/views/switch_to_linux.try_or_install.php:34
-msgid "Installing as a dual boot"
-msgstr "Installation en double-démarrage"
-
-#: docroot/lib/views/switch_to_linux.try_or_install.php:36
-msgid "Choose at start-up"
-msgstr "Choisissez au démarrage"
-
-#: docroot/lib/views/switch_to_linux.try_or_install.php:37
-msgid ""
-"It is possible to install GNU/Linux along with Windows. This means that upon "
-"start-up, you will be greeted with a screen allowing you to boot into the "
-"operating system you prefer."
-msgstr ""
-"Il est possible d'utiliser GNU/Linux en parallèle avec Windows. Vous "
-"choisissez alors au démarrage le système que vous voulez démarrer."
-
-#: docroot/lib/views/switch_to_linux.try_or_install.php:38
-msgid ""
-"Setting up a dual-boot can be helpful if you need time to abandon "
-"restrictive software. It is <a href=\"https://tutorials.ubuntu.com/tutorial/"
-"tutorial-install-ubuntu-desktop\" title=\"a tutorial on installing Ubuntu\" "
-"rel=\"external\">not difficult to set-up</a>, though erasing Windows "
-"altogether is even easier."
-msgstr ""
-"La configuration d'un dual-boot peut être utile si vous avez besoin de temps "
-"pour abandonner un logiciel restrictif. Ce <a href=\"https://tutorials."
-"ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" title=\"a tutorial on "
-"installing Ubuntu\" rel=\"external\">n'est pas difficile à configurer</a>, "
-"bien que l'effacement complet de Windows soit encore plus facile."
-
-#: docroot/lib/views/switch_to_linux.try_or_install.php:41
-msgid ""
-"Installing GNU/Linux on your computer will take you less than 30 minutes. It "
-"is not an obvious step for complete beginners, but if you use computers on a "
-"daily basis this is very likely within your reach. If you have already re-"
-"installed Windows on your computer, rest assured that installing GNU/Linux "
-"is no harder."
-msgstr ""
-"Installer GNU/Linux sur votre ordinateur vous prendra moins de 30 minutes. "
-"Ce n'est pas une étape évidente pour les grands débutants, mais si vous "
-"utilisez un ordinateur quotidiennement, cela est très probablement à votre "
-"portée. Si vous avez déjà réinstallé Windows sur votre ordinateur, soyez "
-"assuré que l'installation de GNU/Linux n'est pas plus difficile."
-
-#: docroot/lib/views/switch_to_linux.try_or_install.php:45
-msgid "Get the CD you need"
-msgstr "Le CD qu'il vous faut"
-
-#: docroot/lib/views/switch_to_linux.try_or_install.php:46
-msgid ""
-"For the distributions we recommend, the live CD is the same as the "
+"For the distributions we recommend, the live USB stick is the same as the "
 "installation CD. You can download an ISO image (rather large file) and then "
-"create a bootable USB stick (recommended) or burn it to a CD (may be "
-"necessary when installing GNU/Linux on an older system which can not boot "
-"from USB). You can then use it to install GNU/Linux onto your computer."
+"create a bootable USB stick (recommended) or burn it to a CD or DVD. Burning "
+"to a CD/DVD may be necessary when installing GNU/Linux on an older system "
+"which can not boot from USB. You can then use it to install GNU/Linux onto "
+"your computer."
 msgstr ""
 "Pour les distributions que nous recommandons, le CD live est le même que le "
 "CD d'installation. Vous pouvez télécharger une image ISO (fichier assez "
@@ -1396,7 +1341,73 @@ msgstr ""
 "système plus ancien qui ne peut pas démarrer depuis l'USB). Vous pouvez "
 "alors l'utiliser pour installer GNU/Linux sur votre ordinateur."
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:53
+#: docroot/lib/views/switch_to_linux.try_or_install.php:31
+#, fuzzy
+msgid ""
+"To use a live USB stick, you need a little bit of curiosity, and fifteen "
+"minutes of free time, but <strong>no advanced knowledge in computing</"
+"strong>. If you feel confident simply using Windows from time to time, then "
+"this is within your reach."
+msgstr ""
+"Pour utiliser un Live CD, vous avez besoin d'un peu de curiosité et d'un "
+"quart d'heure de temps libre, mais <strong> d'aucune connaissance avancée en "
+"informatique</strong>. Si vous vous sentez à l'aise en utilisant Windows de "
+"temps à autre, ce sera à votre portée."
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:35
+msgid "Installing as a dual boot"
+msgstr "Installation en double-démarrage"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:37
+msgid "Choose at start-up"
+msgstr "Choisissez au démarrage"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:38
+#, fuzzy
+msgid ""
+"It is possible to install GNU/Linux along with Windows or macOS. This means "
+"that upon start-up, you will be greeted with a screen allowing you to boot "
+"into the operating system you prefer."
+msgstr ""
+"Il est possible d'utiliser GNU/Linux en parallèle avec Windows. Vous "
+"choisissez alors au démarrage le système que vous voulez démarrer."
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:39
+#, fuzzy
+msgid ""
+"Setting up a dual-boot can be helpful if you need time to abandon "
+"restrictive software. It is <a href=\"https://tutorials.ubuntu.com/tutorial/"
+"tutorial-install-ubuntu-desktop\" title=\"a tutorial on installing Ubuntu\" "
+"rel=\"external\">not difficult to set-up</a>, though erasing Windows or "
+"macOS altogether is even easier."
+msgstr ""
+"La configuration d'un dual-boot peut être utile si vous avez besoin de temps "
+"pour abandonner un logiciel restrictif. Ce <a href=\"https://tutorials."
+"ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" title=\"a tutorial on "
+"installing Ubuntu\" rel=\"external\">n'est pas difficile à configurer</a>, "
+"bien que l'effacement complet de Windows soit encore plus facile."
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:42
+#, fuzzy
+msgid ""
+"Installing GNU/Linux on your computer will take you less than 30 minutes. It "
+"is not an obvious step for complete beginners, but if you use computers on a "
+"daily basis this is very likely within your reach. If you have already re-"
+"installed Windows or macOS on your computer, rest assured that installing "
+"GNU/Linux is no harder."
+msgstr ""
+"Installer GNU/Linux sur votre ordinateur vous prendra moins de 30 minutes. "
+"Ce n'est pas une étape évidente pour les grands débutants, mais si vous "
+"utilisez un ordinateur quotidiennement, cela est très probablement à votre "
+"portée. Si vous avez déjà réinstallé Windows sur votre ordinateur, soyez "
+"assuré que l'installation de GNU/Linux n'est pas plus difficile."
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:46
+#, fuzzy
+msgid "Get the image you need"
+msgstr "Le CD qu'il vous faut"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:54
 #, fuzzy
 msgid ""
 "<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">Create "
@@ -1412,12 +1423,12 @@ msgstr ""
 "\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" "
 "rel=\"external\">installer Ubuntu</a> sur votre ordinateur."
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:57
+#: docroot/lib/views/switch_to_linux.try_or_install.php:58
 #, fuzzy
 msgid "Download Debian"
 msgstr "Télécharger Ubuntu"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:69
+#: docroot/lib/views/switch_to_linux.try_or_install.php:70
 msgid ""
 "<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-"
 "on-windows\" rel=\"external\">Create a bootable USB stick</a> or <a href="
@@ -1433,11 +1444,11 @@ msgstr ""
 "\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" "
 "rel=\"external\">installer Ubuntu</a> sur votre ordinateur."
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:73
+#: docroot/lib/views/switch_to_linux.try_or_install.php:74
 msgid "Download Ubuntu"
 msgstr "Télécharger Ubuntu"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:85
+#: docroot/lib/views/switch_to_linux.try_or_install.php:86
 #, fuzzy
 msgid ""
 "<i>Fedora Media Writer</i> is the easiest way to <a href=\"https://docs."
@@ -1450,11 +1461,11 @@ msgstr ""
 "Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external"
 "\">essayer ou d'installer Fedora</a>."
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:89
+#: docroot/lib/views/switch_to_linux.try_or_install.php:90
 msgid "Download Fedora"
 msgstr "Télécharger Fedora"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:96
+#: docroot/lib/views/switch_to_linux.try_or_install.php:97
 msgid ""
 "Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href="
 "\"https://www.gnu.org/philosophy/free-sw.html\" title=\"What do you mean, "
@@ -1466,11 +1477,11 @@ msgstr ""
 "mean, free?\" rel=\"external\">logiciel libre</a>. Vous payez simplement des "
 "frais de manutention et d'expédition."
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:100
+#: docroot/lib/views/switch_to_linux.try_or_install.php:101
 msgid "Free Software pre-installed"
 msgstr "Logiciel libre pré-installé"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:102
+#: docroot/lib/views/switch_to_linux.try_or_install.php:103
 msgid ""
 "Not all computers are shipped with Windows. If you do not wish to make the "
 "install yourself, or are in need of new hardware, you can get a laptop or a "
