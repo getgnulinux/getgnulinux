@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/getgnulinux/getgnulinux/issues\n"
-"POT-Creation-Date: 2020-12-10 05:41+0000\n"
-"PO-Revision-Date: 2020-12-01 00:06+0000\n"
+"POT-Creation-Date: 2020-12-10 16:24+0000\n"
+"PO-Revision-Date: 2020-12-08 08:15+0000\n"
 "Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
 "Language-Team: English (http://www.transifex.com/serrano/getgnulinux/"
 "language/en/)\n"
@@ -1333,7 +1333,6 @@ msgstr ""
 "from USB). You can then use it to install GNU/Linux onto your computer."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:53
-#, fuzzy
 msgid ""
 "<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">Create "
 "a bootable USB stick</a> or <a href=\"https://www.debian.org/CD/faq/#record-"
@@ -1341,17 +1340,15 @@ msgid ""
 "\"https://www.debian.org/releases/stable/installmanual\" rel=\"external"
 "\">install Debian</a> onto your computer."
 msgstr ""
-"<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-"
-"on-windows\" rel=\"external\">Create a bootable USB stick</a> or <a href="
-"\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel="
-"\"external\">burn it to a DVD</a>. Then use it to <a href=\"https://"
-"tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel="
-"\"external\">install Ubuntu</a> onto your computer."
+"<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">Create "
+"a bootable USB stick</a> or <a href=\"https://www.debian.org/CD/faq/#record-"
+"windows\" rel=\"external\">burn it to a CD/DVD</a>. Then use it to <a href="
+"\"https://www.debian.org/releases/stable/installmanual\" rel=\"external"
+"\">install Debian</a> onto your computer."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:57
-#, fuzzy
 msgid "Download Debian"
-msgstr "Download Ubuntu"
+msgstr "Download Debian"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:69
 msgid ""
@@ -1374,7 +1371,6 @@ msgid "Download Ubuntu"
 msgstr "Download Ubuntu"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:85
-#, fuzzy
 msgid ""
 "<i>Fedora Media Writer</i> is the easiest way to <a href=\"https://docs."
 "fedoraproject.org/en-US/fedora/f33/install-guide/install/"
@@ -1382,7 +1378,7 @@ msgid ""
 "or install Fedora</a>."
 msgstr ""
 "<i>Fedora Media Writer</i> is the easiest way to <a href=\"https://docs."
-"fedoraproject.org/en-US/fedora/f30/install-guide/install/"
+"fedoraproject.org/en-US/fedora/f33/install-guide/install/"
 "Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">try "
 "or install Fedora</a>."
 
@@ -3391,7 +3387,7 @@ msgstr "LibreOffice Writer open, editing a standard document."
 #. translators: This is the description of the "debian3.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:14
 msgid "Shotwell photo manager"
-msgstr ""
+msgstr "Shotwell photo manager"
 
 #. translators: This is the description of the "ubuntu1.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:17
@@ -3451,6 +3447,11 @@ msgid ""
 "this reason it is popular for use on personal computers as well as servers. "
 "Debian is also the basis for many other distributions, most notably Ubuntu."
 msgstr ""
+"Debian is one of the oldest operating systems based on the Linux kernel. It "
+"has the reputation of being a very stable and secure GNU/Linux distribution "
+"which is backed by a well-organized community of developers and users. For "
+"this reason it is popular for use on personal computers as well as servers. "
+"Debian is also the basis for many other distributions, most notably Ubuntu."
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:52
 msgid ""
@@ -3469,6 +3470,12 @@ msgid ""
 "software regardless of disability. The result is an operating system that "
 "has excellent hardware support, is easy to use and pleasant on the eyes."
 msgstr ""
+"Ubuntu is a GNU/Linux distribution based on Debian. The philosophy behind "
+"Ubuntu is that every computer user should be able to download and use their "
+"software free of charge, that anyone should be able to use their software in "
+"the language of their choice, and that anyone should be able to use all "
+"software regardless of disability. The result is an operating system that "
+"has excellent hardware support, is easy to use and pleasant on the eyes."
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:80
 msgid ""
@@ -3479,7 +3486,6 @@ msgstr ""
 "an easy way to try and step into GNU/Linux."
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:107
-#, fuzzy
 msgid ""
 "The distribution by the long-time prominent GNU/Linux developer company Red "
 "Hat. The default layout is similar to Debian, but there are differences in "
@@ -3489,10 +3495,11 @@ msgid ""
 "robust, useful, and powerful free software."
 msgstr ""
 "The distribution by the long-time prominent GNU/Linux developer company Red "
-"Hat. The default layout is similar to Ubuntu (it is also possible to use "
-"KDE, the more advanced desktop environment in use in Kubuntu), but there are "
-"differences in the chosen applications, install protocols and several "
-"technical elements."
+"Hat. The default layout is similar to Debian, but there are differences in "
+"the chosen applications, install protocols and several technical elements. "
+"The Fedora developers are committed to innovation, which is reflected by "
+"incorporating new technologies early on, providing the latest in stable and "
+"robust, useful, and powerful free software."
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:108
 msgid ""
@@ -3985,52 +3992,3 @@ msgstr ""
 #, php-format
 msgid "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
 msgstr "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
-
-#, fuzzy
-#~ msgid ""
-#~ "The <a href=\"https://www.debian.org/releases/stable/installmanual\" rel="
-#~ "\"external\">Installation Manual</a> contains detailed installation "
-#~ "instructions."
-#~ msgstr ""
-#~ "The <a href=\"https://trisquel.info/wiki/installation-guide\" rel="
-#~ "\"external\">Trisquel installation</a> is very similar to that of Ubuntu."
-
-#~ msgid "Download Trisquel"
-#~ msgstr "Download Trisquel"
-
-#~ msgid "Accessing applications."
-#~ msgstr "Accessing applications."
-
-#~ msgid "LibreOffice Calc open, showing an example spreadsheet."
-#~ msgstr "LibreOffice Calc open, showing an example spreadsheet."
-
-#~ msgid ""
-#~ "Simple, easy, usable and our personal favourite. A tanned, smooth "
-#~ "atmosphere that never gets in your way. All programs are kept in order "
-#~ "and managed easily. Configuration is kept simple rather than exhaustive."
-#~ msgstr ""
-#~ "Simple, easy, usable and our personal favourite. A tanned, smooth "
-#~ "atmosphere that never gets in your way. All programs are kept in order "
-#~ "and managed easily. Configuration is kept simple rather than exhaustive."
-
-#~ msgid ""
-#~ "Ubuntu also has a sister distribution, <a href=\"https://www.kubuntu.org/"
-#~ "\" rel=\"external\">Kubuntu</a>, with a different layout and slightly "
-#~ "more advanced graphics."
-#~ msgstr ""
-#~ "Ubuntu also has a sister distribution, <a href=\"https://www.kubuntu.org/"
-#~ "\" rel=\"external\">Kubuntu</a>, with a different layout and slightly "
-#~ "more advanced graphics."
-
-#~ msgid ""
-#~ "Since Ubuntu contains some restricting components (<a href="
-#~ "\"%s#full_freedom\">why?</a>), the Trisquel developers have built an "
-#~ "entirely free derivative. Although its community is smaller and its "
-#~ "hardware support might be slightly inferior, Trisquel gives anyone full "
-#~ "freedom over a complete operating system similar to Ubuntu."
-#~ msgstr ""
-#~ "Since Ubuntu contains some restricting components (<a href="
-#~ "\"%s#full_freedom\">why?</a>), the Trisquel developers have built an "
-#~ "entirely free derivative. Although its community is smaller and its "
-#~ "hardware support might be slightly inferior, Trisquel gives anyone full "
-#~ "freedom over a complete operating system similar to Ubuntu."

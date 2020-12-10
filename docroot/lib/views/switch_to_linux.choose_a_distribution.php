@@ -48,7 +48,7 @@ $fedora3_text = _("Software manager open, install/remove applications.");
           <img src="/images/DebianLogo.png" class="distro-logo" alt="Debian">
         </div>
 
-        <p><?php $p = _("Debian is one of the oldest operating systems based on the Linux kernel. It has the reputation of being a very stable and secure GNU/Linux distribution which is backed by a well-organized community of developers and users. For this reason it is popular for use on personal computers as well as servers. Debian is also the basis for many other distributions, most notably Ubuntu."); printf($p, $this->get_base_url('linux/linux_faq')); ?></p>
+        <p><?php print _("Debian is one of the oldest operating systems based on the Linux kernel. It has the reputation of being a very stable and secure GNU/Linux distribution which is backed by a well-organized community of developers and users. For this reason it is popular for use on personal computers as well as servers. Debian is also the basis for many other distributions, most notably Ubuntu."); ?></p>
         <p><?php print _("We recommend this distribution if you are committed to freedom in your computing."); ?></p>
 
         <div class="flexslider flexslider_screenshots">

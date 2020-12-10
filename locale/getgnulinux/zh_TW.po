@@ -26,8 +26,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/getgnulinux/getgnulinux/issues\n"
-"POT-Creation-Date: 2020-12-10 05:41+0000\n"
-"PO-Revision-Date: 2020-12-01 01:43+0000\n"
+"POT-Creation-Date: 2020-12-10 16:24+0000\n"
+"PO-Revision-Date: 2020-12-09 02:50+0000\n"
 "Last-Translator: 黃柏諺 <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/serrano/"
 "getgnulinux/language/zh_TW/)\n"
@@ -1277,7 +1277,6 @@ msgstr ""
 "腦上。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:53
-#, fuzzy
 msgid ""
 "<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">Create "
 "a bootable USB stick</a> or <a href=\"https://www.debian.org/CD/faq/#record-"
@@ -1285,17 +1284,15 @@ msgid ""
 "\"https://www.debian.org/releases/stable/installmanual\" rel=\"external"
 "\">install Debian</a> onto your computer."
 msgstr ""
-"<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-"
-"on-windows\" rel=\"external\">建立可用於開機的 USB 隨身碟</a>或<a href="
-"\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel="
-"\"external\">將其燒錄到 DVD</a>。然後使用它來<a href=\"https://tutorials."
-"ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel=\"external\">安裝 "
-"Ubuntu</a> 到您的電腦上。"
+"<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">建立可"
+"用於開機的 USB 隨身碟</a>或<a href=\"https://www.debian.org/CD/faq/#record-"
+"windows\" rel=\"external\">將其燒錄到 CD/DVD</a>。然後使用它來<a href="
+"\"https://www.debian.org/releases/stable/installmanual\" rel=\"external\">安"
+"裝 Debian</a> 到您的電腦上。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:57
-#, fuzzy
 msgid "Download Debian"
-msgstr "下載 Ubuntu"
+msgstr "下載 Debian"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:69
 msgid ""
@@ -1318,7 +1315,6 @@ msgid "Download Ubuntu"
 msgstr "下載 Ubuntu"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:85
-#, fuzzy
 msgid ""
 "<i>Fedora Media Writer</i> is the easiest way to <a href=\"https://docs."
 "fedoraproject.org/en-US/fedora/f33/install-guide/install/"
@@ -1326,7 +1322,7 @@ msgid ""
 "or install Fedora</a>."
 msgstr ""
 "<i>Fedora Media Writer</i> 是<a href=\"https://docs.fedoraproject.org/en-US/"
-"fedora/f30/install-guide/install/Preparing_for_Installation/#sect-preparing-"
+"fedora/f33/install-guide/install/Preparing_for_Installation/#sect-preparing-"
 "boot-media\" rel=\"external\">嘗試安裝 Fedora</a> 最簡單的方式。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:89
@@ -3209,7 +3205,7 @@ msgstr "LibreOffice Writer，可開啟、編輯標準文件。"
 #. translators: This is the description of the "debian3.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:14
 msgid "Shotwell photo manager"
-msgstr ""
+msgstr "Shotwell 照片管理程式"
 
 #. translators: This is the description of the "ubuntu1.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:17
@@ -3268,6 +3264,10 @@ msgid ""
 "this reason it is popular for use on personal computers as well as servers. "
 "Debian is also the basis for many other distributions, most notably Ubuntu."
 msgstr ""
+"Debian 是以 Linux 核心為基礎的其中一個相當古老的散佈版。其被譽為非常穩定且安"
+"全的 GNU/Linux 散佈版，並有良好組織的開發者與使用者社群在背後支持。因此，它在"
+"個人電腦與伺服器上都很流行。Debian 也是許多其他散佈版的基礎，其中最著名的當"
+"屬 Ubuntu。"
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:52
 msgid ""
@@ -3284,6 +3284,10 @@ msgid ""
 "software regardless of disability. The result is an operating system that "
 "has excellent hardware support, is easy to use and pleasant on the eyes."
 msgstr ""
+"Ubuntu 是一套以 Debian 為基礎的 GNU/Linux 散佈版。Ubuntu 背後的理念是，每個電"
+"腦使用者都應該要可以免費下載與使用他們的軟體，任何人都應該要可以選擇他們想要"
+"的語言來使用這些軟體，而且不管有沒有身心上的障礙都可以使用所有的軟體。而其結"
+"果是一套有著出色的硬體支援、易於使用且令人愉悅的作業系統。"
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:80
 msgid ""
@@ -3294,7 +3298,6 @@ msgstr ""
 "齊全的散布版。"
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:107
-#, fuzzy
 msgid ""
 "The distribution by the long-time prominent GNU/Linux developer company Red "
 "Hat. The default layout is similar to Debian, but there are differences in "
@@ -3303,9 +3306,10 @@ msgid ""
 "incorporating new technologies early on, providing the latest in stable and "
 "robust, useful, and powerful free software."
 msgstr ""
-"這個散布版是由長期以來傑出的 GNU/Linux 開發者公司「Red Hat 紅帽」所開發的版"
-"本。 雖然預設的畫面配置接近 Ubuntu（當然也可以另外使用 Kubuntu 中採用的更進階"
-"桌面環境 KDE），但預選的軟體、安裝方式以及其他技術性細節等與其不同。"
+"這個散佈版是由長期以來傑出的 GNU/Linux 開發者公司「Red Hat 紅帽」所開發的版"
+"本。 雖然預設的畫面配置接近 Debian，但預選的軟體、安裝方式以及其他技術性細節"
+"等與其不同。Fedora 開發者致力於創新，透過盡早加入新技術來體現，並提供穩定、可"
+"靠、好用且強大的最新自由軟體。"
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:108
 msgid ""
@@ -3768,49 +3772,3 @@ msgstr ""
 #, php-format
 msgid "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
 msgstr "此網站為<a href=\"%s\" rel=\"external\">自由且開放原始碼</a>。"
-
-#, fuzzy
-#~ msgid ""
-#~ "The <a href=\"https://www.debian.org/releases/stable/installmanual\" rel="
-#~ "\"external\">Installation Manual</a> contains detailed installation "
-#~ "instructions."
-#~ msgstr ""
-#~ "<a href=\"https://trisquel.info/wiki/installation-guide\" rel=\"external"
-#~ "\">Trisquel 的安裝</a>與 Ubuntu 非常相似。"
-
-#~ msgid "Download Trisquel"
-#~ msgstr "下載 Trisquel"
-
-#~ msgid "Accessing applications."
-#~ msgstr "選取應用程式。"
-
-#~ msgid "LibreOffice Calc open, showing an example spreadsheet."
-#~ msgstr "LibreOffice Calc 打開一份範例表格。"
-
-#~ msgid ""
-#~ "Simple, easy, usable and our personal favourite. A tanned, smooth "
-#~ "atmosphere that never gets in your way. All programs are kept in order "
-#~ "and managed easily. Configuration is kept simple rather than exhaustive."
-#~ msgstr ""
-#~ "簡單、容易、實用，而且是我們的最愛。展現在你面前的是一片柔和的氣氛。所有的"
-#~ "程式都有條不紊且易於管理。設定方式簡約而不冗贅。"
-
-#~ msgid ""
-#~ "Ubuntu also has a sister distribution, <a href=\"https://www.kubuntu.org/"
-#~ "\" rel=\"external\">Kubuntu</a>, with a different layout and slightly "
-#~ "more advanced graphics."
-#~ msgstr ""
-#~ "Ubuntu 同時也有一個孿生的散布版，<a href=\"https://www.kubuntu.org/\" rel="
-#~ "\"external\">Kubuntu</a>，它有著不同的層次感及不同的圖形介面。"
-
-#~ msgid ""
-#~ "Since Ubuntu contains some restricting components (<a href="
-#~ "\"%s#full_freedom\">why?</a>), the Trisquel developers have built an "
-#~ "entirely free derivative. Although its community is smaller and its "
-#~ "hardware support might be slightly inferior, Trisquel gives anyone full "
-#~ "freedom over a complete operating system similar to Ubuntu."
-#~ msgstr ""
-#~ "因為 Ubuntu 包含一些受限制的元件（<a href=\"%s#full_freedom\">為什麼？</"
-#~ "a>），Trisquel 的開發者想要開發一個完全自由的衍生版本。雖然它的社群沒有像 "
-#~ "Ubuntu 那麼龐大，硬體支援也不如 Ubuntu 來得完整。Trisquel 卻能給予任何人一"
-#~ "個與 Ubuntu 相似，但完全自由的作業系統。"
