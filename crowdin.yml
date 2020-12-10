@@ -1,3 +1,6 @@
 files:
   - source: /**/*.php
     translation: /locale/getgnulinux/%locale_with_underscore%.po
+    ignore:
+      - src/templates/setup.php
+      - docroot/lib/HTTP2/**/*.php
