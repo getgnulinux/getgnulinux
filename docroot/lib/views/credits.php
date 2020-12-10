@@ -311,6 +311,10 @@ $this->load_header();
       <li><a href="https://www.transifex.com/user/profile/agored/" rel="external">Agored Open</a></li>
     </ul>
 
+    <br>
+
+    <p>Is your name missing? Please <a href="https://github.com/getgnulinux/getgnulinux/issues" rel="external">create and issue on GitHub</a> or send us a pull request. Be sure to include your name and optionally a URL to your profile/website.</p>
+
     <h2>Inspiration &amp; reading</h2>
     <ul class="browser-default">
       <li>A fair amount came from the <a href="https://www.fsf.org/" rel="external">Free Software Foundation</a>. Verbatim copying of most FSF articles is allowed if notice is preserved. Note that we bear no affiliation with the FSF&mdash;views expressed on our websites might not represent those of the FSF.</li>
