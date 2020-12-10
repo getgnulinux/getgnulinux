@@ -14,7 +14,7 @@
       <div class="col l4 offset-l2 s12">
         <h5><?php print _("Resources"); ?></h5>
         <ul>
-          <li><a href="<?php $this->text('blog_url'); ?>" rel="external"><?php print _("Blog"); ?></a></li>
+          <li><a href="<?php $this->text('news_url'); ?>" rel="external"><?php print _("News"); ?></a></li>
           <li><a href="<?php $this->base_url('legal'); ?>" hreflang="en"><?php print _("Terms of use"); ?></a></li>
         </ul>
 
