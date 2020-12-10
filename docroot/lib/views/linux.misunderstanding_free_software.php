@@ -137,13 +137,6 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
         </ul>
       </section>
 
-      <aside>
-        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('linux'); ?>">
-          <?php print _("What is GNU/Linux?"); ?>
-          <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">expand_less</i>
-        </a>
-      </aside>
-
       <aside class="card-panel amber lighten-4 further-reading">
         <h1><?php print _("Further reading on the web"); ?></h1>
         <div class="column">
@@ -160,6 +153,15 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
           <h2><a href="http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-free-file-formats/" rel="external">Free Software and Free Knowledge</a></h2>
           <p><?php print _("An engaged article by co-founder of <a href=\"https://www.wikipedia.org/\" rel=\"external\">Wikipedia</a> Jimmy Wales, which shows the connections between freedom in software and free knowledge."); ?></p>
         </div>
+      </aside>
+
+      <br>
+
+      <aside>
+        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('linux'); ?>">
+          <?php print _("What is GNU/Linux?"); ?>
+          <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">expand_less</i>
+        </a>
       </aside>
 
       <div class="footnotes">

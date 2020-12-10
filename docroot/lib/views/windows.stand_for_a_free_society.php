@@ -101,23 +101,6 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
         <p><?php $p = _("May we suggest you <a href=\"%s\">switch to GNU/Linux</a>?"); printf($p, $this->get_base_url('switch_to_linux')); ?></p>
       </section>
 
-      <div class="footnotes">
-        <ol>
-          <li id="footnote-1"><sup><a href="#footnote-ref-1">^</a></sup>
-            <?php print _("Note that DRM is often referred to as \"Digital Rights Management\", although it has little to do with rights &ndash; \"Digital Restrictions Management\" is a more accurate name."); ?>
-          </li>
-        </ol>
-      </div>
-
-      <br>
-
-      <aside>
-        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('windows'); ?>">
-          <?php print _("Why not Windows"); ?>
-          <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">expand_less</i>
-        </a>
-      </aside>
-
       <aside class="card-panel amber lighten-4 further-reading">
         <h1><?php print _("Read more"); ?></h1>
 
@@ -150,7 +133,24 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
           print _("More on free software on this website."); ?></p>
         </div>
       </aside>
+
       <br>
+
+      <aside>
+        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('windows'); ?>">
+          <?php print _("Why not Windows"); ?>
+          <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">expand_less</i>
+        </a>
+      </aside>
+
+      <div class="footnotes">
+        <ol>
+          <li id="footnote-1"><sup><a href="#footnote-ref-1">^</a></sup>
+            <?php print _("Note that DRM is often referred to as \"Digital Rights Management\", although it has little to do with rights &ndash; \"Digital Restrictions Management\" is a more accurate name."); ?>
+          </li>
+        </ol>
+      </div>
+
     </article>
   </div>
 </main>

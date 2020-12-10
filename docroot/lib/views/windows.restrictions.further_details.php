@@ -66,12 +66,16 @@ $this->load_header();
       </aside>
     <article>
 
+    <br>
+
     <aside>
       <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('windows/restrictions'); ?>">
         <?php print _("Restrictions"); ?>
         <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">expand_less</i>
       </a>
     </aside>
+
+    <br>
   </div>
 </main>
 
