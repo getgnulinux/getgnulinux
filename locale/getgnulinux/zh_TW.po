@@ -2,7 +2,7 @@
 
 # This file is not a valid entry point; stop processing unless GGL is defined.
 if ( !defined('GGL') ) {
-  exit(1);
+    exit(1);
 }
 
 $this->load_header();
@@ -10,76 +10,73 @@ $this->load_header();
 ?>
 
 <main>
-  <article>
-    <div class="container">
+  <div class="container">
+    <article>
       <header>
-        <h1><?php print _("Why not Windows"); ?></h1>
-
+        <h1><?php print _("Restrictions"); ?></h1>
         <div class="page-intro">
-          <p><?php
-          # translators: This is the catcher-phrase for the Windows page. Exact translation is not required, the goal is to attract attention and set the tone of the page.
-          print _("Windows and Office work fine &mdash; Why worry about it?"); ?></p>
+          <p><?php print _("A common mistake is for Windows and Office users to think that they fully own their software. In fact, there are a number of <strong>legal bindings</strong> applied to it."); ?></p>
+          <p><?php print _("Haven't read your license fully? We did that job for you."); ?></p>
         </div>
       </header>
 
       <section>
-        <h2><?php print _("Restrictions"); ?></h2>
-        <p><?php
-        # translators: You may add emphasis ('em' tags) around the word 'licensed' if you wish
-        print _("A legal copy of Windows is expensive, but what do you get? Windows and Office are licensed, not sold."); ?></p>
-        <p><?php print _("By using these products, we have to agree to <strong>a number of harsh restrictions</strong>. For most Windows licenses, you can't keep the software when you change the hardware. You sometimes can't even give your software away. Who can run the software? On which computer? What can you do with it? The list of restrictions is long and some items are outrageous."); ?></p>
-        <p><a class="waves-effect btn-flat btn-outlined" href="<?php $this->base_url('windows/restrictions'); ?>" title="<?php print _("Restrictions in a proprietary software license."); ?>"><?php print _("Read more"); ?></a></p>
+        <h2 id="the_small_print"><?php print _("The small print in the contract"); ?></h2>
+        <ul class="browser-default">
+          <li>
+            <p class="highlight"><?php print _("Windows and Office are licensed, not sold."); ?></p>
+            <p><?php print _("No one can buy Windows or Microsoft Office: instead users <strong>purchase a permission to use</strong> them. The license describes the terms of this permission. It is the restrictive legal text you have to click \"OK\" to upon install."); ?></p>
+          </li>
+          <li>
+            <p class="highlight"><?php print _("You must abandon many rights to use the software."); ?></p>
+            <p><?php print _("There are a number of restrictions that you must accept by law."); ?>
+            <?php $p = _("Restrictions on who can use the software, what kind of revenue you may earn with it, on how you choose to install it, restrictions on your privacy, even on whether you can give it away: the list is long. <a href=\"%s\" title=\"a few more things about Microsoft licenses\">Reading the license and enumerating your remaining rights</a> is itself a difficult task.");
+            printf($p, $this->base_url('windows/restrictions/further_details',1)); ?></p>
+          </li>
+          <li>
+            <p class="highlight"><?php
+			# translators: Don't bother with the 'abbr' code. You can tranlsate as 'OEM [pre-installed]'
+			print _("An <abbr title=\"Original Equipment Manufacturer (simply the hardware seller)\">OEM</abbr>-distributed software cannot be transferred to another computer."); ?></p>
+
+            <p><?php
+			# translators: Don't bother with the 'shrink-wrap' expression. You can skip that bit if you wish.
+			print _("If you bought your computer with Windows or Office pre-installed (the so-called OEM licenses, or the \"shrink wrap\" Windows discs), <strong>if you change computers you must buy software again.</strong>"); ?>
+            <?php print _("The license is linked to one computer, and expires when the computer dies. It is then illegal to transfer the software on another computer."); ?></p>
+          </li>
+        </ul>
+
+        <br>
+
+        <div class="card-panel card-panel--source amber lighten-4">
+          <p><?php print _("If you go to most of the free software sites you can click down a couple of levels and find the [GNU] <abbr title=\"General Public License, the main free software license\">GPL</abbr>, the X license, the Apache license, whichever terms and conditions you have to accept in order to use that software."); ?></p>
+          <p><?php print _("Now with a proprietary software company, the license is buried so you can't read it until after you have paid for the product, then they're asking you to <strong>turn off part of your brain</strong>, they're asking you to turn off part of your ability to work with other people and to do business, when you use their software."); ?></p>
+          <span class="source">Don Marti, <a href="https://web.archive.org/web/20080217042507/http://www.go-opensource.org:80/go_open/episode_2/big_guns/" hreflang="en" title="<?php print _("Don Marti interview"); ?>" rel="external"><?php print _("2005 interview"); ?></a></span>
+        </div>
       </section>
 
       <section>
-        <h2><?php print _("What about choice?"); ?></h2>
-        <p><?php print _("Software should come without locks in it."); ?></p>
-        <p><?php print _("Why are Office documents difficult to export? Why are the formats continually changing? Why can you not even uninstall some programs? It might be that if you look for choice, Microsoft products aren't for you."); ?></p>
-        <p><a class="waves-effect btn-flat btn-outlined" href="<?php $this->base_url('windows/what_about_choice'); ?>" title="<?php print _("How Microsoft lock customers in."); ?>"><?php print _("Read more"); ?></a></p>
-      </section>
+        <h2 id="the_meaning_behind"><?php print _("The meaning behind"); ?></h2>
 
-      <section>
-        <h2><?php print _("No source code"); ?></h2>
-        <p><?php print _("The source codes of Windows and Office are hidden, so, <strong>no one is allowed to understand</strong> how these programs work."); ?></p>
-        <p><?php print _("If you can't get a right to inspect source code (the human-readable inner workings of a program), you can't have someone correct flaws or evaluate how your privacy is protected for you."); ?></p>
-        <p><?php print _("And guess what? On software that comes with source code, viruses and spyware aren't effective, and security isn't bought on extra. The antivirus software industry, in which Microsoft is now a significant player, prefers you to use Windows."); ?></p>
-        <p><a class="waves-effect btn-flat btn-outlined" href="<?php $this->base_url('windows/what_about_source_code'); ?>" title="<?php print _("No source code means no trust and no security."); ?>"><?php print _("Read more"); ?></a></p>
-      </section>
-
-      <section>
-        <h2><?php print _("Stand for a free society"); ?></h2>
+        <p><?php print _("Companies like Microsoft like to assimilate their software to physical products, when mentioning copyright infringement for example. Yet, proprietary software is very different because of the restrictive license -such restrictions would be unthinkable on a car or bicycle, for example."); ?></p>
+        <p><?php print _("Restrictions on the use of Office and Windows are so harsh, that many violations occur everyday around us. People are tempted to buy only one version of Microsoft Office and install it on two computers. Others keep their version of Windows when they throw their PC away. Other people give away their second-hand Windows software when they stop using it."); ?></p>
         <p><?php
-        # translators: In your language, you might not need to make the distinction between price and freedom. Please do however express that price does not matter, in this sentence.
-        print _("A free society requires free software. Think of &quot;free&quot; as in freedom, not price: the freedoms to inspect, learn from, modify the software you use."); ?></p>
-        <p><?php print _("Computers are used to share ideas, culture and information. Without these freedoms over software, we risk losing control over what we share."); ?></p>
-        <p><?php print _("This is happening today. From plain annoying technologies such as Digital Restrictions Management (<strong>DRM</strong>) to downright frightening ones like <strong>Trusted Computing</strong>, everyone's ability to participate in culture is threatened."); ?></p>
-        <p><?php print _("If you have to give up your freedoms to use software, maybe you should not be happy with it."); ?></p>
-        <p><a class="waves-effect btn-flat btn-outlined" href="<?php $this->base_url('windows/stand_for_a_free_society'); ?>" title="<?php print _("How software affects freedom in society."); ?>"><?php print _("Read more"); ?></a></p>
+        # translators: use the definition of "free software" on GNU.org; also, gnu.org uses language negotiation, so it's not necessary to replace those URLs.
+        print _("<strong>You have an alternative to breaking this law,</strong> or feeling very restrained when you abide to it. GNU/Linux is <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">Free Software</a> (much better than just freeware): its <a href=\"https://www.gnu.org/copyleft/gpl.html\" rel=\"external\">GPL</a> license is designed to protect your rights."); ?></p>
+        <p><a class="waves-effect btn-flat btn-outlined" href="<?php $this->base_url('windows/restrictions/further_details'); ?>" title="<?php print _("Restrictions - further details"); ?>"><?php print _("Read more"); ?></a></p>
       </section>
-    </div>
+    </article>
 
-    <section class="conclusion">
-      <div class="container">
-        <p><?php
-        # translators: This is the conclusion of the article.
-        $p = _("Many people find that Windows, an otherwise decent piece of software, <strong>withdraws so many rights</strong> from them, that it is not worth them using it. macOS is <a href=\"%s#mac_freedom\">not much better</a>, either."); printf($p, $this->get_base_url('linux/linux_faq')); ?></p>
-        <p><?php $p = _("If you find <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title=\"what is freedom in software?\" rel=\"external\">free software</a> attractive, you might want to <a href=\"%s\" title=\"make the switch to GNU/Linux today!\">give GNU/Linux a try</a>."); printf($p, $this->get_base_url('switch_to_linux')); ?></p>
-      </div>
-    </section>
-  </article>
+    <br>
 
-  <aside class="bg-even">
-    <div class="container button-section">
-      <h1><?php print _("Switch to GNU/Linux"); ?></h1>
-      <div class="page-intro">
-        <p><?php print _("Where to download and how to step into GNU/Linux"); ?></p>
-        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux'); ?>">
-          <?php print _("Read more"); ?>
-          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
-        </a>
-      </div>
-    </div>
-  </aside>
+    <aside>
+      <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('windows'); ?>">
+        <?php print _("Why not Windows"); ?>
+        <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">expand_less</i>
+      </a>
+    </aside>
+
+    <br>
+  </div>
 </main>
 
 <?php $this->load_footer(); ?>
