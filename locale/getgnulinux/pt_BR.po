@@ -1,10 +1,10 @@
 <?php
+
 # This file is not a valid entry point; stop processing unless GGL is defined.
 if ( !defined('GGL') ) {
-    exit(1);
+  exit(1);
 }
 
-$this->view = "404";
 $this->load_header();
 ?>
 
@@ -12,21 +12,53 @@ $this->load_header();
   <article>
     <div class="container">
       <header>
-        <h1><?php # translators: Title for the Page Not Found page.
-        print _("Page Not Found"); ?></h1>
+        <h1><?php print _("get GNU/Linux!"); ?></h1>
         <div class="page-intro">
-          <p><?php # translators: The "AWOL" part doesn't need to be translated literally.
-          print _("Sorry, but we couldn't find the page you were looking for. Either that page doesn't exist or the web page went <abbr title=\"away without leave\">AWOL</abbr>."); ?></p>
+        <p><?php # translators: This is the very first sentence every visitor is going to read. Please pay great attention to making it sound great, we only have one try! =)
+        print _("GNU/Linux is an alternative to Microsoft Windows and macOS. It is easy to use and gives more freedom to users. Anyone can install it: GNU/Linux is free as in freedom, and often available free of charge."); ?></p>
         </div>
       </header>
-
-      <section>
-        <h2><?php print _("Report broken link"); ?></h2>
-        <p><?php # translators: Here, the %s placeholder simply puts a link to the bug tracker.
-        $p = _("If you found a broken link, please <a href=\"%s\" rel=\"external\">report it</a> so we can repair it. Thank you!"); printf($p, $ggl->get('tracker_url')); ?></p>
-      </section>
     </div>
-  <article>
+
+    <section>
+      <div class="container button-section">
+        <h1><?php print _("What is GNU/Linux?"); ?></h1>
+        <div class="page-intro">
+          <p><?php print _("Learn more about the free operating system"); ?></p>
+          <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('linux'); ?>">
+          <?php print _("Read more"); ?>
+          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-even">
+      <div class="container button-section">
+        <h1><?php print _("Why not Windows"); ?></h1>
+        <div class="page-intro">
+          <p><?php print _("Why we should avoid using Microsoft Windows"); ?></p>
+          <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('windows'); ?>">
+          <?php print _("Read more"); ?>
+          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container button-section">
+        <h1><?php print _("Switch to GNU/Linux"); ?></h1>
+        <div class="page-intro">
+          <p><?php print _("Where to download and how to step into GNU/Linux"); ?></p>
+          <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux'); ?>">
+          <?php print _("Read more"); ?>
+          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </article>
 </main>
 
 <?php $this->load_footer(); ?>
