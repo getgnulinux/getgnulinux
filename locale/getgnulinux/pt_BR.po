@@ -13,64 +13,64 @@ $this->load_header();
   <div class="container">
     <article>
       <header>
-        <h1><?php print _("More details on restrictions"); ?></h1>
+        <h1><?php print _("Restrictions"); ?></h1>
+        <div class="page-intro">
+          <p><?php print _("A common mistake is for Windows and Office users to think that they fully own their software. In fact, there are a number of <strong>legal bindings</strong> applied to it."); ?></p>
+          <p><?php print _("Haven't read your license fully? We did that job for you."); ?></p>
+        </div>
       </header>
 
-      <p><?php $p = _("We wished to keep our \"<a href=\"%s\">Restrictions</a>\" page short, so we moved many of the license restrictions out here. Here is the fine print inside the Microsoft licenses."); printf($p, $this->get_base_url('windows/restrictions')); ?></p>
+      <section>
+        <h2 id="the_small_print"><?php print _("The small print in the contract"); ?></h2>
+        <ul class="browser-default">
+          <li>
+            <p class="highlight"><?php print _("Windows and Office are licensed, not sold."); ?></p>
+            <p><?php print _("No one can buy Windows or Microsoft Office: instead users <strong>purchase a permission to use</strong> them. The license describes the terms of this permission. It is the restrictive legal text you have to click \"OK\" to upon install."); ?></p>
+          </li>
+          <li>
+            <p class="highlight"><?php print _("You must abandon many rights to use the software."); ?></p>
+            <p><?php print _("There are a number of restrictions that you must accept by law."); ?>
+            <?php $p = _("Restrictions on who can use the software, what kind of revenue you may earn with it, on how you choose to install it, restrictions on your privacy, even on whether you can give it away: the list is long. <a href=\"%s\" title=\"a few more things about Microsoft licenses\">Reading the license and enumerating your remaining rights</a> is itself a difficult task.");
+            printf($p, $this->base_url('windows/restrictions/further_details',1)); ?></p>
+          </li>
+          <li>
+            <p class="highlight"><?php
+			# translators: Don't bother with the 'abbr' code. You can tranlsate as 'OEM [pre-installed]'
+			print _("An <abbr title=\"Original Equipment Manufacturer (simply the hardware seller)\">OEM</abbr>-distributed software cannot be transferred to another computer."); ?></p>
 
-      <ul class="browser-default">
-        <li>
-          <p class="highlight"><?php print _("It is unclear who can use, receive or buy your software."); ?></p>
-          <p><?php print _("The license is particularly unclear as to who may or may not use your version of Windows or Office. Several sentences in the Microsoft Office license suggest it would be illegal to let your neighbour type a letter with your version of Word on your computer."); ?></p>
-          <p><?php print _("It is however clear in the Microsoft Windows license that you may <em>only</em> give or sell your copy of Windows software to anyone <strong>if you are the first buyer</strong>. This means, that if you buy it from the user who initially purchased it from Microsoft, then <em>you</em> are not able to sell or give the software away to yet another user, even if you do not use it anymore, even if you buy the latest software version with your new computer."); ?></p>
-        </li>
-        <li>
-          <p class="highlight"><?php print _("You may not lease, lend or provide commercial hosting services with the software"); ?></p>
-          <p><?php print _("You cannot let professional users use your software, whether they pay for the service or not, and whether you use a &quot;Professional&quot; license or not."); ?></p>
-        </li>
-        <li>
-          <p class="highlight"><?php print _("The upgrade is only valid for the first license you use it on"); ?></p>
-          <p><?php print _("If that original license expires (for example because the computer it came on stops working), so does the upgrade. If you purchase an upgrade, you are not allowed to use the original software version anymore."); ?></p>
-        </li>
-        <li>
-          <p class="highlight"><?php print _("Educational versions are crippled"); ?></p>
-          <p><?php print _("If Microsoft accepts to define you as a student or an academic, you are allowed to buy an academic license, and install the software on three computers. But it is illegal to use it for any commercial purpose \"<em>or in any way related to the operation of any business enterprise or revenue-generating activities</em>\"."); ?></p>
-        </li>
-        <li>
-          <p class="highlight"><?php print _("The components of the software may not be separated"); ?></p>
-          <p><?php print _("It is illegal to buy Microsoft Office, then install only Word on one computer, and only Excel on another. The Office suite is one single product."); ?></p>
-        </li>
-        <li>
-          <p class="highlight"><?php print _("Private information is collected"); ?></p>
-          <p><?php print _("The licence explicitly states that \"Microsoft and its affiliates\" collect technical information gathered on your computer by the software. They \"<em>may use this information solely to improve products or to provide customized services or technologies</em>\"."); ?></p>
-          <p><?php print _("In order to activate most Microsoft products, as part of the license agreement, your computer connects to the Microsoft servers and sends &quot;technical&quot; information. It can &quot;solely&quot; be used for pretty much anything."); ?></p>
-        </li>
-      </ul>
+            <p><?php
+			# translators: Don't bother with the 'shrink-wrap' expression. You can skip that bit if you wish.
+			print _("If you bought your computer with Windows or Office pre-installed (the so-called OEM licenses, or the \"shrink wrap\" Windows discs), <strong>if you change computers you must buy software again.</strong>"); ?>
+            <?php print _("The license is linked to one computer, and expires when the computer dies. It is then illegal to transfer the software on another computer."); ?></p>
+          </li>
+        </ul>
 
-      <aside class="card-panel amber lighten-4 further-reading">
-        <h1 id="further_reading"><?php print _("Read more"); ?></h1>
+        <br>
 
-        <div class="column">
-          <h2 id="gpl"><a href="<?php
-          # translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
-          print _("https://www.gnu.org/copyleft/gpl.html"); ?>" title="<?php print _("The GNU General Public License"); ?>" rel="external"><?php print _("The GPL"); ?></a></h2>
-          <p><?php print _("The GNU General Public License, under which GNU/Linux and a vast amount of free software are published."); ?></p>
-
-          <h2 id="gpl_eula_comparison"><a href="/archive/comparing_the_gpl_to_eula.pdf" hreflang="en"><?php print _("Comparing the GPL to the Microsoft WinXP License"); ?></a> (pdf)</h2>
-          <p><?php print _("A thorough and clear comparison of the <abbr title=\"GNU General Public License\">GPL</abbr> and the Microsoft <abbr title=\"End-User License Agreement\">EULA</abbr> license that governs the use of most Windows XP versions."); ?></p>
+        <div class="card-panel card-panel--source amber lighten-4">
+          <p><?php print _("If you go to most of the free software sites you can click down a couple of levels and find the [GNU] <abbr title=\"General Public License, the main free software license\">GPL</abbr>, the X license, the Apache license, whichever terms and conditions you have to accept in order to use that software."); ?></p>
+          <p><?php print _("Now with a proprietary software company, the license is buried so you can't read it until after you have paid for the product, then they're asking you to <strong>turn off part of your brain</strong>, they're asking you to turn off part of your ability to work with other people and to do business, when you use their software."); ?></p>
+          <span class="source">Don Marti, <a href="https://web.archive.org/web/20080217042507/http://www.go-opensource.org:80/go_open/episode_2/big_guns/" hreflang="en" title="<?php print _("Don Marti interview"); ?>" rel="external"><?php print _("2005 interview"); ?></a></span>
         </div>
-        <div class="column">
-          <h2 id="right_to_read"><a href="<?php print _("https://www.gnu.org/philosophy/right-to-read.html"); ?>" rel="external"><?php print _("The Right to Read"); ?></a></h2>
-          <p><?php print _("A short story by Richard Stallman that describes what influence restrictive licenses could have on our lives."); ?></p>
-        </div>
-      </aside>
-    <article>
+      </section>
+
+      <section>
+        <h2 id="the_meaning_behind"><?php print _("The meaning behind"); ?></h2>
+
+        <p><?php print _("Companies like Microsoft like to assimilate their software to physical products, when mentioning copyright infringement for example. Yet, proprietary software is very different because of the restrictive license -such restrictions would be unthinkable on a car or bicycle, for example."); ?></p>
+        <p><?php print _("Restrictions on the use of Office and Windows are so harsh, that many violations occur everyday around us. People are tempted to buy only one version of Microsoft Office and install it on two computers. Others keep their version of Windows when they throw their PC away. Other people give away their second-hand Windows software when they stop using it."); ?></p>
+        <p><?php
+        # translators: use the definition of "free software" on GNU.org; also, gnu.org uses language negotiation, so it's not necessary to replace those URLs.
+        print _("<strong>You have an alternative to breaking this law,</strong> or feeling very restrained when you abide to it. GNU/Linux is <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">Free Software</a> (much better than just freeware): its <a href=\"https://www.gnu.org/copyleft/gpl.html\" rel=\"external\">GPL</a> license is designed to protect your rights."); ?></p>
+        <p><a class="waves-effect btn-flat btn-outlined" href="<?php $this->base_url('windows/restrictions/further_details'); ?>" title="<?php print _("Restrictions - further details"); ?>"><?php print _("Read more"); ?></a></p>
+      </section>
+    </article>
 
     <br>
 
     <aside>
-      <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('windows/restrictions'); ?>">
-        <?php print _("Restrictions"); ?>
+      <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('windows'); ?>">
+        <?php print _("Why not Windows"); ?>
         <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">expand_less</i>
       </a>
     </aside>
