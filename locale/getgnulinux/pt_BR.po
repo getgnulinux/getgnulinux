@@ -1,109 +1,85 @@
 <?php
+
 # This file is not a valid entry point; stop processing unless GGL is defined.
 if ( !defined('GGL') ) {
-    exit(1);
+  exit(1);
 }
 
 $this->load_header();
+
 ?>
 
 <main>
-  <div class="container">
-    <article>
+  <article>
+    <div class="container">
       <header>
-        <h1><?php print _("Try or install"); ?></h1>
+        <h1><?php print _("Why not Windows"); ?></h1>
+
         <div class="page-intro">
-          <p><?php print _("Make the step &ndash; unless you wish to <a href=\"#free_software_pre_installed\" title=\"GNU/Linux Desktops and Laptops\">purchase a PC with GNU/Linux pre-installed</a>, you can see what freedom looks like on your computer."); ?></p>
+          <p><?php
+          # translators: This is the catcher-phrase for the Windows page. Exact translation is not required, the goal is to attract attention and set the tone of the page.
+          print _("Windows and Office work fine &mdash; Why worry about it?"); ?></p>
         </div>
       </header>
 
       <section>
-        <h2 id="live_cd"><?php print _("Try out the live USB stick"); ?></h2>
-
-        <h3 id="live_cd_what_is"><?php print _("Take no risk"); ?></h3>
-        <img src="/images/USB-stick.svg" class="float-right width20p hidden-xs" alt="">
-        <p><?php print _("Using a live USB stick means that GNU/Linux will be running on your computer <em>without installing anything</em>. It's a risk-less way to try and see by yourself what GNU/Linux is."); ?></p>
-        <p><?php print _("When running on a live USB stick, your computer uses solely the USB stick to work (without accessing the hard drive inside). You can launch all of the default programs, edit documents, and browse the web."); ?></p>
-        <p><?php print _("Since it is only designed as a trial mode, it is a little slow (it will take you five minutes to boot up, and programs launch somewhat slowly). If you proceed to install, the system will go much faster."); ?></p>
-
-        <h3 id="live_cd_what_need"><?php print _("What you need"); ?></h3>
-        <p><?php print _("For the distributions we recommend, the live USB stick is the same as the installation CD. You can download an ISO image (rather large file) and then create a bootable USB stick (recommended) or burn it to a CD or DVD. Burning to a CD/DVD may be necessary when installing GNU/Linux on an older system which can not boot from USB. You can then use it to install GNU/Linux onto your computer."); ?></p>
-        <p><?php print _("To use a live USB stick, you need a little bit of curiosity, and fifteen minutes of free time, but <strong>no advanced knowledge in computing</strong>. If you feel confident simply using Windows or macOS from time to time, then this is within your reach."); ?></p>
+        <h2><?php print _("Restrictions"); ?></h2>
+        <p><?php
+        # translators: You may add emphasis ('em' tags) around the word 'licensed' if you wish
+        print _("A legal copy of Windows is expensive, but what do you get? Windows and Office are licensed, not sold."); ?></p>
+        <p><?php print _("By using these products, we have to agree to <strong>a number of harsh restrictions</strong>. For most Windows licenses, you can't keep the software when you change the hardware. You sometimes can't even give your software away. Who can run the software? On which computer? What can you do with it? The list of restrictions is long and some items are outrageous."); ?></p>
+        <p><a class="waves-effect btn-flat btn-outlined" href="<?php $this->base_url('windows/restrictions'); ?>" title="<?php print _("Restrictions in a proprietary software license."); ?>"><?php print _("Read more"); ?></a></p>
       </section>
 
       <section>
-        <h2 id="install_dual_boot"><?php print _("Installing as a dual boot"); ?></h2>
-
-        <h3 id="dual_boot_what_is"><?php print _("Choose at start-up"); ?></h3>
-        <p><?php print _("It is possible to install GNU/Linux along with Windows or macOS. This means that upon start-up, you will be greeted with a screen allowing you to boot into the operating system you prefer."); ?></p>
-        <p><?php print _("Setting up a dual-boot can be helpful if you need time to abandon restrictive software. It is <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" title=\"a tutorial on installing Ubuntu\" rel=\"external\">not difficult to set-up</a>, though erasing Windows or macOS altogether is even easier."); ?></p>
-
-        <h3 id="dual_boot_what_need"><?php print _("What you need"); ?></h3>
-        <p><?php print _("Installing GNU/Linux on your computer will take you less than 30 minutes. It is not an obvious step for complete beginners, but if you use computers on a daily basis this is very likely within your reach. If you have already re-installed Windows or macOS on your computer, rest assured that installing GNU/Linux is no harder."); ?></p>
+        <h2><?php print _("What about choice?"); ?></h2>
+        <p><?php print _("Software should come without locks in it."); ?></p>
+        <p><?php print _("Why are Office documents difficult to export? Why are the formats continually changing? Why can you not even uninstall some programs? It might be that if you look for choice, Microsoft products aren't for you."); ?></p>
+        <p><a class="waves-effect btn-flat btn-outlined" href="<?php $this->base_url('windows/what_about_choice'); ?>" title="<?php print _("How Microsoft lock customers in."); ?>"><?php print _("Read more"); ?></a></p>
       </section>
 
       <section>
-        <h2 id="get_the_cd"><?php print _("Get the image you need"); ?></h2>
-        <p><?php print _("For the distributions we recommend, the live USB stick is the same as the installation CD. You can download an ISO image (rather large file) and then create a bootable USB stick (recommended) or burn it to a CD or DVD. Burning to a CD/DVD may be necessary when installing GNU/Linux on an older system which can not boot from USB. You can then use it to install GNU/Linux onto your computer."); ?></p>
-
-        <div class="download-box">
-          <div class="download-box-logo">
-            <p><img src="/images/DebianIcon.svg" alt="Debian"></p>
-          </div>
-          <div class="download-box-content">
-            <p><?php print _("<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">Create a bootable USB stick</a> or <a href=\"https://www.debian.org/CD/faq/#record-windows\" rel=\"external\">burn it to a CD/DVD</a>. Then use it to <a href=\"https://www.debian.org/releases/stable/installmanual\" rel=\"external\">install Debian</a> onto your computer."); ?></p>
-
-            <div class="download-box-buttons">
-              <a class="waves-effect waves-light btn-large light-green darken-4" href="https://www.debian.org/distrib/" target="_blank">
-                <?php print _("Download Debian"); ?>
-                <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">cloud_download</i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="download-box">
-          <div class="download-box-logo">
-            <p><img src="/images/UbuntuIcon.svg" alt="Ubuntu"></p>
-          </div>
-          <div class="download-box-content">
-            <p><?php print _("<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows\" rel=\"external\">Create a bootable USB stick</a> or <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel=\"external\">burn it to a DVD</a>. Then use it to <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel=\"external\">install Ubuntu</a> onto your computer."); ?></p>
-
-            <div class="download-box-buttons">
-              <a class="waves-effect waves-light btn-large light-green darken-4" href="https://ubuntu.com/download/desktop" target="_blank">
-                <?php print _("Download Ubuntu"); ?>
-                <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">cloud_download</i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="download-box">
-          <div class="download-box-logo">
-            <p><img src="/images/FedoraIcon.png" alt="Fedora"></p>
-          </div>
-          <div class="download-box-content">
-            <p><?php print _("<i>Fedora Media Writer</i> is the easiest way to <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">try or install Fedora</a>."); ?></p>
-
-            <div class="download-box-buttons">
-              <a class="waves-effect waves-light btn-large light-green darken-4" href="https://getfedora.org/en/workstation/" target="_blank">
-                <?php print _("Download Fedora"); ?>
-                <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">cloud_download</i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <p class="note italic"><?php print _("Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title=\"What do you mean, free?\" rel=\"external\">free software</a>. You are simply paying a handling/shipping fee."); ?></p>
+        <h2><?php print _("No source code"); ?></h2>
+        <p><?php print _("The source codes of Windows and Office are hidden, so, <strong>no one is allowed to understand</strong> how these programs work."); ?></p>
+        <p><?php print _("If you can't get a right to inspect source code (the human-readable inner workings of a program), you can't have someone correct flaws or evaluate how your privacy is protected for you."); ?></p>
+        <p><?php print _("And guess what? On software that comes with source code, viruses and spyware aren't effective, and security isn't bought on extra. The antivirus software industry, in which Microsoft is now a significant player, prefers you to use Windows."); ?></p>
+        <p><a class="waves-effect btn-flat btn-outlined" href="<?php $this->base_url('windows/what_about_source_code'); ?>" title="<?php print _("No source code means no trust and no security."); ?>"><?php print _("Read more"); ?></a></p>
       </section>
 
       <section>
-        <h2 id="free_software_pre_installed"><?php print _("Free Software pre-installed"); ?></h2>
-        <img src="/images/Laptop.png" class="float-right width20p hidden-sm" alt="">
-        <p><?php print _("Not all computers are shipped with Windows or macOS. If you do not wish to make the install yourself, or are in need of new hardware, you can get a laptop or a desktop pre-installed with GNU/Linux. <a href=\"https://linuxpreloaded.com/\" rel=\"external\">LinuxPreloaded.com</a> has compiled a list of vendors pre-installing GNU/Linux just for that reason."); ?></p>
+        <h2><?php print _("Stand for a free society"); ?></h2>
+        <p><?php
+        # translators: In your language, you might not need to make the distinction between price and freedom. Please do however express that price does not matter, in this sentence.
+        print _("A free society requires free software. Think of &quot;free&quot; as in freedom, not price: the freedoms to inspect, learn from, modify the software you use."); ?></p>
+        <p><?php print _("Computers are used to share ideas, culture and information. Without these freedoms over software, we risk losing control over what we share."); ?></p>
+        <p><?php print _("This is happening today. From plain annoying technologies such as Digital Restrictions Management (<strong>DRM</strong>) to downright frightening ones like <strong>Trusted Computing</strong>, everyone's ability to participate in culture is threatened."); ?></p>
+        <p><?php print _("If you have to give up your freedoms to use software, maybe you should not be happy with it."); ?></p>
+        <p><a class="waves-effect btn-flat btn-outlined" href="<?php $this->base_url('windows/stand_for_a_free_society'); ?>" title="<?php print _("How software affects freedom in society."); ?>"><?php print _("Read more"); ?></a></p>
       </section>
-    </article>
-  </div>
+    </div>
+
+    <section class="conclusion">
+      <div class="container">
+        <p><?php
+        # translators: This is the conclusion of the article.
+        $p = _("Many people find that Windows, an otherwise decent piece of software, <strong>withdraws so many rights</strong> from them, that it is not worth them using it. macOS is <a href=\"%s#mac_freedom\">not much better</a>, either."); printf($p, $this->get_base_url('linux/linux_faq')); ?></p>
+        <p><?php $p = _("If you find <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title=\"what is freedom in software?\" rel=\"external\">free software</a> attractive, you might want to <a href=\"%s\" title=\"make the switch to GNU/Linux today!\">give GNU/Linux a try</a>."); printf($p, $this->get_base_url('switch_to_linux')); ?></p>
+      </div>
+    </section>
+  </article>
+
+  <aside class="bg-even">
+    <div class="container button-section">
+      <h1><?php print _("Switch to GNU/Linux"); ?></h1>
+      <div class="page-intro">
+        <p><?php print _("Where to download and how to step into GNU/Linux"); ?></p>
+        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux'); ?>">
+          <?php print _("Read more"); ?>
+          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
+        </a>
+      </div>
+    </div>
+  </aside>
 </main>
 
 <?php $this->load_footer(); ?>
