@@ -92,11 +92,7 @@ class GGL {
      */
     private static $locales_complete = array(
         'en',
-        'fr',
-        'ia',
         'nl',
-        'pt-br',
-        'zh-tw',
     );
 
     /**
