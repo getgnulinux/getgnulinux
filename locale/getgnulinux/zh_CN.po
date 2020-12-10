@@ -1,441 +1,134 @@
 <?php
-/*
- *  Copyright 2006-2008, GNU/Linux Matters <http://www.gnulinuxmatters.org/>
- *  Copyright 2011-2012 Launchpad getgnulinux Team <https://launchpad.net/~getgnulinux>
- *
- *  This file is part of Get GNU/Linux! <https://launchpad.net/getgnulinux>
- *
- *  GGL is free software: you can redistribute it and/or modify it under
- *  the terms of the GNU Affero General Public License as published by the
- *  Free Software Foundation, either version 3 of the License, or any later
- *  version.
- *
- *  GGL is distributed in the hope that it will be useful, but WITHOUT
- *  ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
- *  FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public
- *  License for more details.
- *
- *  You should have received a copy of the GNU Affero General Public License
- *  along with GGL. If not, see <http://www.gnu.org/licenses/>.
- *
- */
 
-/**
- * This is the configuration module for Get GNU/Linux!
- *
- * @author Serrano Pereira <serrano.pereira@gmail.com>
- * @license http://www.gnu.org/licenses/agpl-3.0.html GNU AGPL v3
- */
-
-/**
- * Management utilities for the website's configuration.
- */
-class GGL {
-    /**
-     * An associative, multidimensional array where each key is an
-     * ISO language code. Each value is an array containing the following
-     * items:
-     *   0 - Locale code for gettext.
-     *   1 - Native name for the language name.
-     *
-     * @var array
-     */
-    private static $locales = array(
-        'ar' => array('ar_SA.UTF-8',    "العربية"),
-        'ast' => array('ast_ES.UTF-8',  "Asturianu"),
-        'bg' => array('bg_BG.UTF-8',    "български"),
-        'ca' => array('ca_AD.UTF-8',    "Català"),
-        'cy' => array('cy_GB.UTF-8',    "Cymraeg"),
-        'da' => array('da_DK.UTF-8',    "Dansk"),
-        'de' => array('de_DE.UTF-8',    "Deutsch"),
-        'en' => array('en_GB.UTF-8',    "English"),
-        'el' => array('el_GR.UTF-8',    "Ελληνικά"),
-        'eo' => array('eo.UTF-8',       "Esperanto"),
-        'es' => array('es_ES.UTF-8',    "Español"),
-        'et' => array('et_EE.UTF-8',    "Eesti"),
-        'fa' => array('fa_IR.UTF-8',    "fārsi"),
-        'fi' => array('fi_FI.UTF-8',    "Suomi"),
-        'fr' => array('fr_FR.UTF-8',    "Français"),
-        'gl' => array('gl_ES.UTF-8',    "Galego"),
-        'he' => array('he_IL.UTF-8',    "עִבְרִית"),
-        'hr' => array('hr_HR.UTF-8',    "Hrvatski"),
-        'ia' => array('ia_FR.UTF-8',    "Interlingua"),
-        'id' => array('id_ID.UTF-8',    "Bahasa Indonesia"),
-        'it' => array('it_IT.UTF-8',    "Italiano"),
-        'ja' => array('ja_JP.UTF-8',    "日本語"),
-        //'jbo' => array('jbo.UTF-8',     "Lojban"),
-        'lt' => array('lt_LT.UTF-8',    "Lietuvių"),
-        'mk' => array('mk_MK.UTF-8',    "Македонски"),
-        'ml' => array('ml_IN.UTF-8',    "മലയാളം"),
-        'ms' => array('ms_MY.UTF-8',    "Bahasa Melayu"),
-        'nl' => array('nl_NL.UTF-8',    "Nederlands"),
-        'pl' => array('pl_PL.UTF-8',    "Polski"),
-        'pt' => array('pt_PT.UTF-8',    "Português"),
-        'pt-br' => array('pt_BR.UTF-8', "Português Brasileiro"),
-        'ru' => array('ru_RU.UTF-8',    "Русский"),
-        'si' => array('si_LK.UTF-8',    "සිංහල"),
-        'sl' => array('sl_SI.UTF-8',    "slovenski jezik"),
-        'sr' => array('sr_RS.UTF-8',    "Српски"),
-        'sv' => array('sv_SE.UTF-8',    "Svenska"),
-        'tr' => array('tr_TR.UTF-8',    "Türkçe"),
-        'uk' => array('uk_UA.UTF-8',    "Українська"),
-        'uz' => array('uz_UZ.UTF-8',    "Oʻzbekcha"),
-        'vi' => array('vi_VN.UTF-8',    "Tiếng Việt"),
-        'zh' => array('zh_CN.UTF-8',    "中文(简)"),
-        'zh-tw' => array('zh_TW.UTF-8', "中文(繁)"),
-    );
-
-    /**
-     * Set of ISO language codes for translations that are completed.
-     *
-     * @var array
-     */
-    private static $locales_complete = array(
-        'en',
-        'fr',
-        'ia',
-        'nl',
-        'pt-br',
-        'zh-tw',
-    );
-
-    /**
-     * Set of ISO language codes for right-to-left languages.
-     *
-     * @var array
-     */
-    private static $rtl_languages = array(
-        'ar',
-        'dv',
-        'fa',
-        'ha',
-        'he',
-        'ps',
-        'ur',
-        'yi'
-    );
-
-    /**
-     * Set of ISO language codes for languages for which italics should be
-     * disabled.
-     *
-     * @var array
-     */
-    private static $no_italics_languages = array('ar', 'he');
-
-    /**
-     * Configuration items.
-     *
-     * This is an associative array made up of the following items:
-     *  - negotiated_lang: Language set through language negotiation.
-     *  - lang: ISO language code of the current language.
-     *  - locale: Locale code of the current language.
-     *  - dir: Text direction of the current language.
-     *  - gettext_domain: The gettext domain which tells gettext where to look
-     *      for PO files.
-     *
-     * @var array
-     */
-    public $config = array(
-        'negotiated_lang' => null,
-        'lang' => 'en',
-        'lang-native' => 'English',
-        'locale' => "en_GB.UTF-8",
-        'locale_override' => null,
-        'dir' => "ltr",
-        'gettext_domain' => "getgnulinux",
-    );
-
-    /**
-     * Chapters sections.
-     *
-     * @var array
-     */
-    public $sections = array();
-
-    /**
-     * Initialise GGL. Needs to be called manually after the user settings
-     * are loaded.
-     *
-     * Sets locale information (like language code, country code, text
-     * direction), initialises gettext, and sets some main configurations.
-     */
-    public function init() {
-        # Set the base URL.
-        if (empty($this->config['base_url'])) {
-            $this->config['base_url'] = sprintf('http://%s/', $_SERVER['HTTP_HOST']);
-        }
-
-        # Get the locale provided in the URL. Defaults to null if no locale
-        # provided.
-        $override = isset($_GET['l']) ? $_GET['l'] : null;
-
-        # Only negotiate with completed translations.
-        $locales = Util::array_intersect_keys(self::$locales,
-            array_merge(self::$locales_complete, array($override)));
-
-        # Get preferred language from the client.
-        $lang = L10n::negotiate_language($locales, $override);
-
-        # Set the negotiated language and locale variables. If no language
-        # was found, negotiated_lang and the locale variables keep their
-        # default values.
-        if ($lang) {
-            $this->set('negotiated_lang', $lang);
-            $this->set('locale', $lang);
-        }
-
-        if ($override !== null && $override === $lang) {
-            $this->set('locale_override', $override);
-        }
-
-        # Initialize gettext.
-        $this->init_gettext();
-
-        # Set attribute values.
-        $this->init_attributes();
-    }
-
-    /**
-     * Initialise gettext.
-     *
-     * Set where gettext should obtain the localised content.
-     */
-    private function init_gettext() {
-        $domain = $this->get('gettext_domain');
-        L10n::locale_change();
-        Util::gettext_set_domain($domain, 'locale/', 'UTF-8');
-    }
-
-    /**
-     * Sets attributes.
-     */
-    private function init_attributes() {
-        # translators: The name of the website. It is displayed in the header of each page.
-        $this->config['website_title'] = _("get GNU/Linux!");
-
-        # Set page titles for <title> tags.
-        $this->config['page_titles'] = array(
-            # translators: This is the title of the 'Credits' page.
-            'credits' => _("Credits"),
-            # translators: This is the title of the 'Legal terms' page.
-            'legal' => _("Terms of use"),
-            # translators: This is the title of the 'More' page.
-            'more' => _("More"),
-            # translators: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
-            'linux' => _("What is GNU/Linux?"),
-            # translators: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
-            'linux.linux_faq' => _("GNU/Linux FAQ - common questions about GNU/Linux"),
-            # translators: Here the intent is to be a little provocative. Exact translation is not required.
-            'linux.misunderstanding_free_software' => _("How to Misunderstand Free Software"),
-            # translators: This is the title of the 'Screenshots' page.
-            'linux.screenshots' => _("What GNU/Linux looks like"),
-            # translators: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
-            'windows' => _("Why not Windows"),
-            # translators: This title can be translated loosely
-            'windows.restrictions' => _("Restrictions"),
-            # translators: This title can be translated loosely
-            'windows.restrictions.further_details' => _("More details on restrictions"),
-            # translators: This title can be translated loosely
-            'windows.stand_for_a_free_society' => _("Stand for a free society"),
-            # translators: This title can be translated loosely
-            'windows.what_about_choice' => _("What about choice?"),
-            # translators: This title can be translated loosely
-            'windows.what_about_source_code' => _("No source code"),
-            # translators: This appears in the top header menu and should be as short and concise as possible.
-            'switch_to_linux' => _("Switch to GNU/Linux"),
-            'switch_to_linux.choose_a_distribution' => _("Choose a distribution"),
-            'switch_to_linux.from_windows_to_linux' => _("From Windows to GNU/Linux"),
-            # translators: This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
-            'switch_to_linux.try_or_install' => _("Try or install"),
-            # translators: The title for the custom "Page Not Found" page.
-            '404' => _("Page Not Found"),
-        );
-
-        # Set page descriptions.
-        $this->config['page_descriptions'] = array(
-            # translators: This is the description of the homepage, and it appears in Google results! Please pay particular attention to this one =)
-            'default' => _("Get GNU/Linux! A simple, clear website about GNU/Linux. What is GNU/Linux? Why not Windows? Tips to make the switch."),
-            # translators: This is the description of the 'More' page
-            'more' => _("Read and discover more about GNU/Linux."),
-            # translators: This is the description of the 'Linux' page
-            'linux' => _("What is GNU/Linux? A clear explanation."),
-            # translators: This is the description of the 'GNU/Linux FAQ' page
-            'linux.linux_faq' => _("Frequently Asked Questions about GNU/Linux."),
-            # translators: This is the description of the 'Misunderstanding Free Software' page
-            'linux.misunderstanding_free_software' => _("An unconventional way to (re)discover free software."),
-            # translators: This is the description of the 'Screenshots' page
-            'linux.screenshots' => _("A brief look at GNU/Linux in everyday use."),
-            # translators: This is the description of the 'Why not Windows' page
-            'windows' => _("Four good reasons to avoid proprietary software."),
-            # translators: This is the description of the 'Restrictions' page
-            'windows.restrictions' => _("Restrictions in a proprietary software license."),
-            # translators: This is the description of the 'Restrictions further details' page
-            'windows.restrictions.further_details' => _("Restrictions in a proprietary software license - more details."),
-            # translators: This is the description of the 'Stand for a free society' page
-            'windows.stand_for_a_free_society' => _("How software affects freedom in society."),
-            # translators: This is the description of the 'What about choice' page
-            'windows.what_about_choice' => _("How Microsoft lock customers in."),
-            # translators: This is the description of the 'What about source code' page
-            'windows.what_about_source_code' => _("No source code means no trust and no security."),
-            # translators: This is the description of the 'Switch to GNU/Linux' page
-            'switch_to_linux' => _("Switch to GNU/Linux: Good tips and advice."),
-            # translators: This is the description of the 'Choose a distribution' page
-            'switch_to_linux.choose_a_distribution' => _("Recommended GNU/Linux distributions for everyday users."),
-            # translators: This is the description of the 'From Windows to GNU/Linux' page
-            'switch_to_linux.from_windows_to_linux' => _("The advantages and disadvantages of GNU/Linux over Windows."),
-            # translators: This is the description of the 'Try or Install' page. This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
-            'switch_to_linux.try_or_install' => _("Try or install GNU/Linux on your computer, very easily."),
-        );
-
-        # Chapter sections.
-        $this->sections['linux'] = array(
-            "linux/misunderstanding_free_software" => _("How to Misunderstand Free Software"),
-            "linux/linux_faq" => _("Frequently asked questions"),
-        );
-        $this->sections['switch_to_linux'] = array(
-            "switch_to_linux/from_windows_to_linux" => _("From Windows to GNU/Linux"),
-            "switch_to_linux/choose_a_distribution" => _("Choose a distribution"),
-            "switch_to_linux/try_or_install" => _("Try or install")
-        );
-        $this->sections['windows'] = array(
-            "windows/restrictions" => _("Restrictions"),
-            "windows/what_about_choice" => _("What about choice?"),
-            "windows/what_about_source_code" => _("No source code"),
-            "windows/stand_for_a_free_society" => _("Stand for a free society")
-        );
-    }
-
-    /**
-     * Set the configuration value for a configuration key.
-     *
-     * @param string $key The configuration key to set.
-     * @param $value The configuration value for $key.
-     */
-    public function set($key, $value) {
-        if ($key === 'locale') {
-            $this->set_locale($value);
-            return;
-        }
-        $this->config[$key] = $value;
-    }
-
-    /**
-     * Setter for locale specific configurations.
-     *
-     * Sets the following configurations:
-     *  - language code.
-     *  - locale code which is used by gettext.
-     *  - the country code for the language.
-     *  - the text direction for the language.
-     *
-     * @param string $lang The language code. This must be one of the keys of
-     *      the array $config['locale'].
-     */
-    public function set_locale($lang) {
-        if ( isset(self::$locales[$lang]) ) {
-            // Set the language code.
-            $this->config['lang'] = $lang;
-            // Set the native language name.
-            $this->config['lang-native'] = self::$locales[$lang][1];
-            // Set the locale.
-            $this->config['locale'] = self::$locales[$lang][0];
-            // Set the text direction for this language.
-            $this->config['dir'] = $this->langdir($lang);
-        }
-    }
-
-    /**
-     * Returns the value for a configuration key.
-     *
-     * @param string $key The configuration key from which to get the value.
-     * @param $default The value to be returned if $key is not set.
-     * @return unknown
-     */
-    public function get($key, $default=null) {
-        return array_key_exists($key, $this->config) ? $this->config[$key] : $default;
-    }
-
-    /**
-     * Returns the locales array.
-     *
-     * @param string $filter Set to 'complete' or 'incomplete' to return only
-     * complete or only incomplete translations, respectively.  Default is NULL
-     * (return all locales).
-     * @return array The locales.
-     */
-    public function get_locales($filter=null) {
-        if ($filter === null) {
-            return self::$locales;
-        }
-        else if ($filter === 'complete') {
-            $callback = function ($k) {
-                return $this->lang_is_complete($k);
-            };
-        }
-        else if ($filter === 'incomplete') {
-            $callback = function ($k) {
-                return !$this->lang_is_complete($k);
-            };
-        }
-        else {
-            throw new Exception('Invalid value for filter.');
-        }
-
-        return array_filter(self::$locales, $callback, ARRAY_FILTER_USE_KEY);
-    }
-
-    /**
-     * Returns an information array for a language code.
-     *
-     * @param string $lang The ISO 639-1 code of the language.
-     * @return array
-     */
-    public function get_lang_info($lang) {
-        return array(
-            'complete' => $this->lang_is_complete($lang),
-            'active' => $this->currlang($lang),
-            'dir' => $this->langdir($lang),
-        );
-    }
-
-    /**
-     * Return TRUE if the language ID matches the current page language.
-     *
-     * @param string $lang The ISO language code to check against.
-     * @return bool Returns TRUE if the language ID matches the current page
-     *      language, FALSE otherwise.
-     */
-    function currlang($lang) {
-        return ($lang === $this->get('lang'));
-    }
-
-    /**
-     * Returns the directionality of the requested language.
-     *
-     * @param string $lang The ISO 639-1 code of the language.
-     * @return string rtl|ltf
-     */
-    public function langdir($lang) {
-        return in_array($lang, self::$rtl_languages, true) ? "rtl" : "ltr";
-    }
-
-    /**
-     * Returns TRUE if italics should be disabled for the current language.
-     *
-     * @return bool TRUE|FALSE
-     */
-    public function no_italics() {
-        return in_array($this->config['lang'], self::$no_italics_languages, true);
-    }
-
-    /**
-     * Returns TRUE if the translation for provided language code is complete.
-     *
-     * @param string $lang The ISO 639-1 code of the language.
-     * @return bool TRUE|FALSE
-     */
-    public function lang_is_complete($lang) {
-        return in_array($lang, self::$locales_complete, true);
-    }
+# This file is not a valid entry point; stop processing unless GGL is defined.
+if ( !defined('GGL') ) {
+    exit(1);
 }
+
+$this->load_header();
+
+?>
+
+<main>
+  <article>
+    <div class="container">
+      <header>
+        <h1><?php print _("From Windows to GNU/Linux"); ?></h1>
+
+        <div class="page-intro">
+          <p><?php print _("This is what everyday users usually find better, mostly the same, or not as good, when switching from Windows to GNU/Linux."); ?></p>
+        </div>
+      </header>
+
+      <section>
+        <h2 id="whats_better"><?php print _("What is better in GNU/Linux"); ?></h2>
+
+        <h3><?php
+        # translators: please note the punctuation should be consistent
+        print _("It's free"); ?></h3>
+        <p><?php
+        # translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
+        print _("Unlike Windows, GNU/Linux is <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title=\"What does Free Software mean?\" rel=\"external\">free software</a> &ndash; free as in freedom. Install it on all computers and make copies for your friends! You can even study it, transform it as you please, or build and sell your own distribution."); ?></p>
+
+        <h3><?php print _("Programs"); ?></h3>
+        <p><?php print _("There are a wealth of free applications available at no cost under GNU/Linux. To edit professional documents, burn music CDs, rework photos, design a website, or organise music; there's no need for $200 software with restrictive licenses."); ?></p>
+        <p><?php print _("The internal installer makes it incredibly easy to find, install and remove programs."); ?></p>
+        <p><?php print _("It's also safe: you can forget the demo/trial crippled software, or harmful freeware polluting the web."); ?></p>
+
+        <h3 id="no_fighting"><?php print _("No fighting"); ?></h3>
+        <p><?php print _("Keeping your computer in shape over time needn't be a struggle. One year on, GNU/Linux runs just as fast as the first day. And it may bring your old PC back to life."); ?></p>
+        <p><?php print _("Also, GNU/Linux lets you choose what you want and what you don't. If you had a hard time getting rid of Internet Explorer, Windows Media Player, or adware and web browser toolbars, you'll find it refreshing."); ?></p>
+
+        <h3 id="security"><?php print _("Security"); ?></h3>
+        <p><?php print _("Forget expensive and restrictive anti-virus, anti-spyware, anti-anything and anti-everything. GNU/Linux is very, very secure."); ?></p>
+        <p><?php # translators: If you don't know of a link replacement in your languge, just leave the link as it is
+        print _("It is often difficult for Windows users to believe that there are <em>no spyware nor viruses</em> under GNU/Linux &mdash; <a href=\"http://linuxmafia.com/~rick/faq/#virus\" rel=\"external\">but it's true</a>. Malicious programs have a hard time doing anything at all in a well-built system."); ?></p>
+        <p><?php print _("Regular, easy software updates will keep everyone entirely safe."); ?></p>
+
+        <h3 id="support"><?php print _("Support"); ?></h3>
+        <p><?php # translators: The first %s represents the URL to the "More" page and seconds %s represents the title of the page "More" in your language
+        $p = _("GNU/Linux benefits from a great sense of community whose friendliness will surprise you. If you try to do something complicated but can't succeed, there are a lot of people around to help you out. Our \"<a href=\"%s\">%s</a>\" page gives a few pointers."); printf($p, $this->get_base_url('more'), _("More")); ?></p>
+        <p><?php print _("The companies behind the main GNU/Linux distributions, such as <a href=\"https://www.canonical.com/\" rel=\"external\">Canonical</a> and <a href=\"https://www.redhat.com/\" rel=\"external\">Red Hat</a>, also provide expert commercial support."); ?></p>
+      </section>
+
+      <section>
+        <h2 id="whats_the_same"><?php print _("What is mostly the same in GNU/Linux"); ?></h2>
+        <p><?php print _("Fundamentally, everyday users will find GNU/Linux similar in use to Windows or macOS."); ?></p>
+
+        <h3><?php print _("General set-up"); ?></h3>
+        <p><?php print _("If you still believe GNU/Linux is controlled with code and command-line, you should update your views!"); ?></p>
+        <p><?php print _("Just like Windows, GNU/Linux has to boot when you switch your computer on, and then you use programs in it to do different things. The taskbar and layout of applications will feel familiar to Windows or macOS users."); ?></p>
+
+        <h3><?php print _("Web browsing and common tasks"); ?></h3>
+        <p><?php # translators: use localized Firefox landing page if possible
+          print _("The Web looks just the same when viewed with GNU/Linux (in fact you can browse the Web with the same program if you already use <a href=\"https://www.getfirefox.com/\" rel=\"external\">Firefox</a> or <a href=\"https://www.google.com/chrome/\" rel=\"external\">Google Chrome</a>). And of course, you can go through your picture and music collection all the same. Files and folders are navigated with a file manager like Windows Explorer."); ?></p>
+      </section>
+
+      <section>
+        <h2 id="whats_not_as_good"><?php print _("What is not as good in GNU/Linux"); ?></h2>
+
+        <h3><?php print _("Driver support"); ?></h3>
+        <p><?php print _("Manufacturers of computer hardware don't always (yet) release drivers for GNU/Linux or publicize full specifications."); ?></p>
+        <p><?php print _("So, drivers are sometimes unavailable for the most recent high-end graphics cards &mdash; some are reverse-engineered from Windows drivers by volunteers. Some are also released free of charge, but under restrictive licenses."); ?></p>
+        <p><?php print _("Sadly, the same problem occurs with many low-end WiFi cards."); ?></p>
+        <p><?php print _("However, the vast majority of computers with standard hardware work out of the box with main GNU/Linux distributions. Common hardware such as USB keys or photo cameras never are a problem."); ?></p>
+
+        <h3><?php print _("DVDs, restricted formats"); ?></h3>
+        <p><?php print _("Many multimedia formats in use are proprietary and not openly specified; this means, broadly speaking, that GNU/Linux programmers have to find out how to read them without any help from the format designers."); ?></p>
+        <p><?php # translators: Please choose the wording of the DRM acronym according to the FSF terminology
+        print _("This might lead you to circumvent the restrictions in some DVDs and the <abbr title=\"Digital Restrictions Management\">DRM</abbr> in some music files, even if you purchased them in full legality, to be make them work under GNU/Linux. Unfortunately, depending on where you live, <em>such circumvention processes may be illegal</em> even if you purchased your media entirely legally."); ?></p>
+        <p><?php print _("Read more in our GNU/Linux FAQ:"); ?></p>
+        <ul class="browser-default">
+          <li><a href="<?php $this->base_url('linux/linux_faq'); ?>#dvd_mp3"><?php print _("Can I play my DVDs and MP3s under GNU/Linux?"); ?></a></li>
+        </ul>
+
+        <h3><?php print _("Gaming"); ?></h3>
+        <p><?php print _("Hard-core computer gamers, you might find that the GNU/Linux gaming world is less professional and out-of-the-box than under Windows: the large game developing companies are only slowly getting interested in the free software world, which means that many well-known titles do not work on GNU/Linux, or need special restrictive emulators to work."); ?></p>
+        <p><?php # translators: use localised link if possible, and contact us if you know better resources
+        print _("There is a very active free software game development community though, and they have produced quite a few high-quality games, both 2D and 3D, that are free software. You can head to the <a href=\"https://ubuntuforums.org/forumdisplay.php?f=93\" rel=\"external\">Ubuntu gaming forum</a> to find more information. And with the release of the popular Steam platform to GNU/Linux, the number of <a href=\"https://store.steampowered.com/linux\" rel=\"external\">GNU/Linux supported games on Steam</a> has been growing rapidly."); ?></p>
+        <p><?php print _("Read more in our GNU/Linux FAQ:"); ?></p>
+        <ul class="browser-default">
+          <li><a href="<?php $this->base_url('linux/linux_faq'); ?>#games"><?php print _("Can I play popular 3D games under GNU/Linux?"); ?></a></li>
+        </ul>
+
+        <h3><?php print _("Hibernating"); ?></h3>
+        <p><?php print _("Because of the driver issues above, hibernating is not always reliable. The most common occurrence is the loss of WiFi connection after hibernating on laptops whose hardware drivers are not free."); ?></p>
+      </section>
+
+      <section>
+        <h2 id="conclusion"><?php print _("Conclusion"); ?></h2>
+        <p><?php print _("Whether you are going to enjoy GNU/Linux depends mostly on what you expect from it."); ?></p>
+        <ul class="browser-default">
+          <li>
+            <?php # translators: Use a localised version of the "Linux is Not Windows" article if possible. The following page contains links to localised versions: http://geekblog.oneandoneis2.org/index.php/2005/12/31/derived_works_aamp_translations
+            print _("If you wish GNU/Linux to be just exactly like Windows, you will probably be disappointed. GNU/Linux is built by people who simply <a href=\"http://linux.oneandoneis2.org/LNW.htm\" rel=\"external\">wish it to be different</a>. In the free software community, members have different visions of what makes an ideal operating system. These differences lead to variety, which is what makes GNU/Linux so special and interesting."); ?>
+          </li>
+          <li>
+            <?php print _("Your freedom matters. Thousands in communities and companies work to build software on which you may exert this freedom. Using GNU/Linux is the easiest way to do so fully."); ?>
+          </li>
+          <li>
+            <?php print _("It's fun! Not having to worry about spyware, viruses, program registrations, demos that expire, or finding software that is really free as in freedom, makes using a computer suddenly very enjoyable."); ?>
+          </li>
+        </ul>
+        <p><?php print _("We hope you'll switch soon. There's a large community waiting, and no one in it asking you to &quot;sign up, purchase and register&quot;."); ?></p>
+      </section>
+    </div>
+  </article>
+
+  <aside class="bg-even">
+    <div class="container button-section">
+      <h1><?php print _("Choose a distribution"); ?></h1>
+
+      <div class="page-intro">
+        <p><?php print _("Our selection for an easy choice."); ?></p>
+
+        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux/choose_a_distribution'); ?>">
+          <?php print _("Read more"); ?>
+          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
+        </a>
+      </div>
+    </div>
+  </aside>
+</main>
+
+<?php $this->load_footer(); ?>
