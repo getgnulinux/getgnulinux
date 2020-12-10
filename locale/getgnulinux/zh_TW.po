@@ -1,71 +1,49 @@
-<?php
-
-# This file is not a valid entry point; stop processing unless GGL is defined.
-if ( !defined('GGL') ) {
-    exit(1);
-}
-
-$this->load_header();
-
-?>
-
-<main>
-  <article>
-    <div class="container">
-      <header>
-        <h1><?php print _("What about source code?"); ?></h1>
-
-        <div class="page-intro">
-            <p><?php print _("The source code details the way a program works (it is effectively what programmers write). Without it no one can understand how the software is built."); ?>
-            <?php print _("It does not matter if you can't read code: whether or not it is available <strong>directly affects any user</strong>."); ?></p>
-        </div>
-      </header>
-
-      <section>
-        <h2 id="no_one_can_look"><?php print _("No one can look inside"); ?></h2>
-        <p><?php print _("Windows comes without its source code. More than that: all users must abide to the license term that says:"); ?></p>
-        <blockquote><?php print _("You may not reverse engineer, decompile, or disassemble the software."); ?></blockquote>
-        <p><?php print _("As such, it is illegal to work out how Windows or Microsoft Word are designed. It is even illegal to try. You are also forbidden to modify the program for any purpose."); ?></p>
-        <p><?php print _("This restriction in the license makes sure that <strong>Microsoft remain the sole organisation that understand how their products work</strong>. Windows is very much like a car that only the original manufacturer is allowed to service."); ?></p>
-        <br/>
-        <div class="card-panel card-panel--source amber lighten-4">
-          <p><?php # translators: This is the quote from Stallman at the start of the article.
-          print _("You might say, \"How do I change this recipe to take out the salt?\" and the great chef would respond, \"How dare you insult my recipe, the child of my brain and my palate, by trying to tamper with it? You don't have the judgment to change my recipe and make it work right!\""); ?></p>
-          <span class="source">Richard Stallman, <a href="<?php print _("https://www.gnu.org/philosophy/why-free.html"); ?>" rel="external"><?php print _("Why Software Should Be Free"); ?></a></span>
-        </div>
-      </section>
-
-      <section>
-        <h2 id="you_can_trust_free_software"><?php print _("You can trust free software"); ?></h2>
-        <p><?php print _("It comes as no surprise that proprietary software is severely lacking in terms of security, compared to software whose source code is freely available (including GNU/Linux)."); ?></p>
-        <p><?php print _("Free software means <strong>programmers can change the code</strong> to repair flaws. It means you can hire someone to really check how secure your software is. It means you can benefit from the contributions of a world-wide community to improve safety and reliability. Fifteen million users run GNU/Linux without an anti-virus, in complete safety. And the servers behind search engines and banks run on it too."); ?></p>
-      </section>
+<footer class="footer">
+  <div class="container">
+    <div class="block">
+      <ul>
+        <li><?php print _("About:"); ?></li>
+        <li><a href="<?php $this->text('blog_url'); ?>" title="<?php print _("Read about news and updates."); ?>" rel="external"><?php print _("Our blog"); ?></a></li>
+        <li><a href="<?php $this->base_url('legal'); ?>" hreflang="en"><?php print _("Terms of use"); ?></a></li>
+        <li><a href="<?php $this->base_url('credits'); ?>"><?php print _("Credits"); ?></a></li>
+        <li><a href="<?php $this->text('contact_url'); ?>" title="<?php print _("Contact the authors."); ?>" rel="external"><?php print _("Contact us"); ?></a></li>
+      </ul>
+    </div>
+    <div class="block">
+      <ul>
+        <li><?php print _("Participate:"); ?></li>
+        <li><a href="<?php $this->text('forum_url'); ?>" title="<?php print _("Our community forum for discussions about this website."); ?>" rel="external"><?php print _("Community forum"); ?></a></li>
+        <li><a href="<?php $this->text('tracker_url'); ?>" title="<?php print _("Found something awkward? Please report it!"); ?>" rel="external"><?php print _("Report a bug"); ?></a></li>
+        <li><a href="<?php $this->text('l10n_url'); ?>" title="<?php print _("Help us reach an audience in your language!"); ?>" rel="external"><?php print _("Translation"); ?></a></li>
+        <li><a href="<?php $this->text('participate_url'); ?>" title="<?php print _("Ways to help."); ?>" rel="external"><?php print _("More"); ?></a></li>
+      </ul>
     </div>
 
-    <section class="conclusion">
-      <div class="container">
-        <p><?php print _("Source code is the recipe for software. How could one improve on a meal with too much salt, if forbidden to look at the recipe used to cook it?"); ?></p>
-        <p><?php print _("Using Windows and Office requires us to <strong>not ask</strong> nor search for the source of the software. Only Microsoft developers can modify your program."); ?></p>
-        <p><?php
-        # translators: Please note the conditionnal tense: we try to not be too harsh on the reader here ;-)
-        print _("Which would you rather trust: the package you are forbidden to study, or the package with the recipe?"); ?></p>
-      </div>
-    </section>
-  </article>
+    <hr>
 
-  <br>
-
-  <div class="container">
-    <aside>
-      <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('windows'); ?>">
-        <?php print _("Why not Windows"); ?>
-        <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">expand_less</i>
-      </a>
-    </aside>
+    <div class="notices" dir="ltr">
+      <p>
+        <?php # translators: If there is an official translation for the license, use that URL instead. Make sure you use the URL for CC BY-SA 4.0.
+        $p = _("Except where otherwise <a href=\"%s\">noted</a>, content on this site is licensed under a <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"license external\"><abbr title=\"Creative Commons Attribution-ShareAlike\">CC BY-SA</abbr> 4.0 International License</a>."); printf($p, $this->get_base_url('legal')); ?><br/>
+        <?php print _("Generously hosted by <a href=\"https://www.tuxfamily.org/\" rel=\"external\">TuxFamily</a>."); ?>
+        <?php $p = _("This site is <a href=\"%s\" rel=\"external\">free and open source</a>."); printf($p, $ggl->get('project_url')); ?>
+      </p>
+    </div>
   </div>
+</footer>
 
-  <br>
+<!-- build:js /scripts/vendor/jquery.js -->
+<script src="/node_modules/jquery/dist/jquery.min.js"></script>
+<!-- endbuild -->
+<!-- build:js /scripts/vendor/flexslider.js -->
+<script src="/node_modules/flexslider/jquery.flexslider-min.js"></script>
+<!-- endbuild -->
+<!-- build:js /scripts/vendor/materialize.js -->
+<script src="/node_modules/materialize-css/dist/js/materialize.min.js"></script>
+<!-- endbuild -->
+<!-- build:js /scripts/main.js -->
+<script src="/scripts/main.js"></script>
+<!-- endbuild -->
 
-</main>
-
-<?php $this->load_footer(); ?>
+</body>
+</html>
