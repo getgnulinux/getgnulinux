@@ -1,108 +1,81 @@
 <?php
+
 # This file is not a valid entry point; stop processing unless GGL is defined.
 if ( !defined('GGL') ) {
     exit(1);
 }
 
 $this->load_header();
+
 ?>
 
 <main>
   <div class="container">
     <article>
       <header>
-        <h1><?php print _("Try or install"); ?></h1>
-        <div class="page-intro">
-          <p><?php print _("Make the step &ndash; unless you wish to <a href=\"#free_software_pre_installed\" title=\"GNU/Linux Desktops and Laptops\">purchase a PC with GNU/Linux pre-installed</a>, you can see what freedom looks like on your computer."); ?></p>
-        </div>
+        <h1><?php print _("More details on restrictions"); ?></h1>
       </header>
 
-      <section>
-        <h2 id="live_cd"><?php print _("Try out the live USB stick"); ?></h2>
+      <p><?php $p = _("We wished to keep our \"<a href=\"%s\">Restrictions</a>\" page short, so we moved many of the license restrictions out here. Here is the fine print inside the Microsoft licenses."); printf($p, $this->get_base_url('windows/restrictions')); ?></p>
 
-        <h3 id="live_cd_what_is"><?php print _("Take no risk"); ?></h3>
-        <img src="/images/USB-stick.svg" class="float-right width20p hidden-xs" alt="">
-        <p><?php print _("Using a live USB stick means that GNU/Linux will be running on your computer <em>without installing anything</em>. It's a risk-less way to try and see by yourself what GNU/Linux is."); ?></p>
-        <p><?php print _("When running on a live USB stick, your computer uses solely the USB stick to work (without accessing the hard drive inside). You can launch all of the default programs, edit documents, and browse the web."); ?></p>
-        <p><?php print _("Since it is only designed as a trial mode, it is a little slow (it will take you five minutes to boot up, and programs launch somewhat slowly). If you proceed to install, the system will go much faster."); ?></p>
+      <ul class="browser-default">
+        <li>
+          <p class="highlight"><?php print _("It is unclear who can use, receive or buy your software."); ?></p>
+          <p><?php print _("The license is particularly unclear as to who may or may not use your version of Windows or Office. Several sentences in the Microsoft Office license suggest it would be illegal to let your neighbour type a letter with your version of Word on your computer."); ?></p>
+          <p><?php print _("It is however clear in the Microsoft Windows license that you may <em>only</em> give or sell your copy of Windows software to anyone <strong>if you are the first buyer</strong>. This means, that if you buy it from the user who initially purchased it from Microsoft, then <em>you</em> are not able to sell or give the software away to yet another user, even if you do not use it anymore, even if you buy the latest software version with your new computer."); ?></p>
+        </li>
+        <li>
+          <p class="highlight"><?php print _("You may not lease, lend or provide commercial hosting services with the software"); ?></p>
+          <p><?php print _("You cannot let professional users use your software, whether they pay for the service or not, and whether you use a &quot;Professional&quot; license or not."); ?></p>
+        </li>
+        <li>
+          <p class="highlight"><?php print _("The upgrade is only valid for the first license you use it on"); ?></p>
+          <p><?php print _("If that original license expires (for example because the computer it came on stops working), so does the upgrade. If you purchase an upgrade, you are not allowed to use the original software version anymore."); ?></p>
+        </li>
+        <li>
+          <p class="highlight"><?php print _("Educational versions are crippled"); ?></p>
+          <p><?php print _("If Microsoft accepts to define you as a student or an academic, you are allowed to buy an academic license, and install the software on three computers. But it is illegal to use it for any commercial purpose \"<em>or in any way related to the operation of any business enterprise or revenue-generating activities</em>\"."); ?></p>
+        </li>
+        <li>
+          <p class="highlight"><?php print _("The components of the software may not be separated"); ?></p>
+          <p><?php print _("It is illegal to buy Microsoft Office, then install only Word on one computer, and only Excel on another. The Office suite is one single product."); ?></p>
+        </li>
+        <li>
+          <p class="highlight"><?php print _("Private information is collected"); ?></p>
+          <p><?php print _("The licence explicitly states that \"Microsoft and its affiliates\" collect technical information gathered on your computer by the software. They \"<em>may use this information solely to improve products or to provide customized services or technologies</em>\"."); ?></p>
+          <p><?php print _("In order to activate most Microsoft products, as part of the license agreement, your computer connects to the Microsoft servers and sends &quot;technical&quot; information. It can &quot;solely&quot; be used for pretty much anything."); ?></p>
+        </li>
+      </ul>
 
-        <h3 id="live_cd_what_need"><?php print _("What you need"); ?></h3>
-        <p><?php print _("For the distributions we recommend, the live USB stick is the same as the installation CD. You can download an ISO image (rather large file) and then create a bootable USB stick (recommended) or burn it to a CD or DVD. Burning to a CD/DVD may be necessary when installing GNU/Linux on an older system which can not boot from USB. You can then use it to install GNU/Linux onto your computer."); ?></p>
-        <p><?php print _("To use a live USB stick, you need a little bit of curiosity, and fifteen minutes of free time, but <strong>no advanced knowledge in computing</strong>. If you feel confident simply using Windows or macOS from time to time, then this is within your reach."); ?></p>
-      </section>
+      <aside class="card-panel amber lighten-4 further-reading">
+        <h1 id="further_reading"><?php print _("Read more"); ?></h1>
 
-      <section>
-        <h2 id="install_dual_boot"><?php print _("Installing as a dual boot"); ?></h2>
+        <div class="column">
+          <h2 id="gpl"><a href="<?php
+          # translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
+          print _("https://www.gnu.org/copyleft/gpl.html"); ?>" title="<?php print _("The GNU General Public License"); ?>" rel="external"><?php print _("The GPL"); ?></a></h2>
+          <p><?php print _("The GNU General Public License, under which GNU/Linux and a vast amount of free software are published."); ?></p>
 
-        <h3 id="dual_boot_what_is"><?php print _("Choose at start-up"); ?></h3>
-        <p><?php print _("It is possible to install GNU/Linux along with Windows or macOS. This means that upon start-up, you will be greeted with a screen allowing you to boot into the operating system you prefer."); ?></p>
-        <p><?php print _("Setting up a dual-boot can be helpful if you need time to abandon restrictive software. It is <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" title=\"a tutorial on installing Ubuntu\" rel=\"external\">not difficult to set-up</a>, though erasing Windows or macOS altogether is even easier."); ?></p>
-
-        <h3 id="dual_boot_what_need"><?php print _("What you need"); ?></h3>
-        <p><?php print _("Installing GNU/Linux on your computer will take you less than 30 minutes. It is not an obvious step for complete beginners, but if you use computers on a daily basis this is very likely within your reach. If you have already re-installed Windows or macOS on your computer, rest assured that installing GNU/Linux is no harder."); ?></p>
-      </section>
-
-      <section>
-        <h2 id="get_the_cd"><?php print _("Get the image you need"); ?></h2>
-        <p><?php print _("For the distributions we recommend, the live USB stick is the same as the installation CD. You can download an ISO image (rather large file) and then create a bootable USB stick (recommended) or burn it to a CD or DVD. Burning to a CD/DVD may be necessary when installing GNU/Linux on an older system which can not boot from USB. You can then use it to install GNU/Linux onto your computer."); ?></p>
-
-        <div class="download-box">
-          <div class="download-box-logo">
-            <p><img src="/images/DebianIcon.svg" alt="Debian"></p>
-          </div>
-          <div class="download-box-content">
-            <p><?php print _("<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">Create a bootable USB stick</a> or <a href=\"https://www.debian.org/CD/faq/#record-windows\" rel=\"external\">burn it to a CD/DVD</a>. Then use it to <a href=\"https://www.debian.org/releases/stable/installmanual\" rel=\"external\">install Debian</a> onto your computer."); ?></p>
-
-            <div class="download-box-buttons">
-              <a class="waves-effect waves-light btn-large light-green darken-4" href="https://www.debian.org/distrib/" target="_blank">
-                <?php print _("Download Debian"); ?>
-                <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">cloud_download</i>
-              </a>
-            </div>
-          </div>
+          <h2 id="gpl_eula_comparison"><a href="/archive/comparing_the_gpl_to_eula.pdf" hreflang="en"><?php print _("Comparing the GPL to the Microsoft WinXP License"); ?></a> (pdf)</h2>
+          <p><?php print _("A thorough and clear comparison of the <abbr title=\"GNU General Public License\">GPL</abbr> and the Microsoft <abbr title=\"End-User License Agreement\">EULA</abbr> license that governs the use of most Windows XP versions."); ?></p>
         </div>
-
-        <div class="download-box">
-          <div class="download-box-logo">
-            <p><img src="/images/UbuntuIcon.svg" alt="Ubuntu"></p>
-          </div>
-          <div class="download-box-content">
-            <p><?php print _("<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows\" rel=\"external\">Create a bootable USB stick</a> or <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel=\"external\">burn it to a DVD</a>. Then use it to <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel=\"external\">install Ubuntu</a> onto your computer."); ?></p>
-
-            <div class="download-box-buttons">
-              <a class="waves-effect waves-light btn-large light-green darken-4" href="https://ubuntu.com/download/desktop" target="_blank">
-                <?php print _("Download Ubuntu"); ?>
-                <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">cloud_download</i>
-              </a>
-            </div>
-          </div>
+        <div class="column">
+          <h2 id="right_to_read"><a href="<?php print _("https://www.gnu.org/philosophy/right-to-read.html"); ?>" rel="external"><?php print _("The Right to Read"); ?></a></h2>
+          <p><?php print _("A short story by Richard Stallman that describes what influence restrictive licenses could have on our lives."); ?></p>
         </div>
+      </aside>
+    <article>
 
-        <div class="download-box">
-          <div class="download-box-logo">
-            <p><img src="/images/FedoraIcon.png" alt="Fedora"></p>
-          </div>
-          <div class="download-box-content">
-            <p><?php print _("<i>Fedora Media Writer</i> is the easiest way to <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">try or install Fedora</a>."); ?></p>
+    <br>
 
-            <div class="download-box-buttons">
-              <a class="waves-effect waves-light btn-large light-green darken-4" href="https://getfedora.org/en/workstation/" target="_blank">
-                <?php print _("Download Fedora"); ?>
-                <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">cloud_download</i>
-              </a>
-            </div>
-          </div>
-        </div>
+    <aside>
+      <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('windows/restrictions'); ?>">
+        <?php print _("Restrictions"); ?>
+        <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">expand_less</i>
+      </a>
+    </aside>
 
-        <p class="note italic"><?php print _("Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title=\"What do you mean, free?\" rel=\"external\">free software</a>. You are simply paying a handling/shipping fee."); ?></p>
-      </section>
-
-      <section>
-        <h2 id="free_software_pre_installed"><?php print _("Free Software pre-installed"); ?></h2>
-        <img src="/images/Laptop.png" class="float-right width20p hidden-sm" alt="">
-        <p><?php print _("Not all computers are shipped with Windows or macOS. If you do not wish to make the install yourself, or are in need of new hardware, you can get a laptop or a desktop pre-installed with GNU/Linux. <a href=\"https://linuxpreloaded.com/\" rel=\"external\">LinuxPreloaded.com</a> has compiled a list of vendors pre-installing GNU/Linux just for that reason."); ?></p>
-      </section>
-    </article>
+    <br>
   </div>
 </main>
 
