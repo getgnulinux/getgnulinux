@@ -10,66 +10,62 @@ $this->load_header();
 ?>
 
 <main>
-  <div class="container">
-    <article>
+  <article>
+    <div class="container">
       <header>
-        <h1 class="windows_section_h1"><?php print _("What about choice?"); ?></h1>
+        <h1><?php print _("What about source code?"); ?></h1>
 
         <div class="page-intro">
-          <p><?php print _("Microsoft works hard to make sure their users stay locked into their products."); ?></p>
+            <p><?php print _("The source code details the way a program works (it is effectively what programmers write). Without it no one can understand how the software is built."); ?>
+            <?php print _("It does not matter if you can't read code: whether or not it is available <strong>directly affects any user</strong>."); ?></p>
         </div>
       </header>
 
-      <div class="card-panel card-panel--source amber lighten-4">
+      <section>
+        <h2 id="no_one_can_look"><?php print _("No one can look inside"); ?></h2>
+        <p><?php print _("Windows comes without its source code. More than that: all users must abide to the license term that says:"); ?></p>
+        <blockquote><?php print _("You may not reverse engineer, decompile, or disassemble the software."); ?></blockquote>
+        <p><?php print _("As such, it is illegal to work out how Windows or Microsoft Word are designed. It is even illegal to try. You are also forbidden to modify the program for any purpose."); ?></p>
+        <p><?php print _("This restriction in the license makes sure that <strong>Microsoft remain the sole organisation that understand how their products work</strong>. Windows is very much like a car that only the original manufacturer is allowed to service."); ?></p>
+        <br/>
+        <div class="card-panel card-panel--source amber lighten-4">
+          <p><?php # translators: This is the quote from Stallman at the start of the article.
+          print _("You might say, \"How do I change this recipe to take out the salt?\" and the great chef would respond, \"How dare you insult my recipe, the child of my brain and my palate, by trying to tamper with it? You don't have the judgment to change my recipe and make it work right!\""); ?></p>
+          <span class="source">Richard Stallman, <a href="<?php print _("https://www.gnu.org/philosophy/why-free.html"); ?>" rel="external"><?php print _("Why Software Should Be Free"); ?></a></span>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="you_can_trust_free_software"><?php print _("You can trust free software"); ?></h2>
+        <p><?php print _("It comes as no surprise that proprietary software is severely lacking in terms of security, compared to software whose source code is freely available (including GNU/Linux)."); ?></p>
+        <p><?php print _("Free software means <strong>programmers can change the code</strong> to repair flaws. It means you can hire someone to really check how secure your software is. It means you can benefit from the contributions of a world-wide community to improve safety and reliability. Fifteen million users run GNU/Linux without an anti-virus, in complete safety. And the servers behind search engines and banks run on it too."); ?></p>
+      </section>
+    </div>
+
+    <section class="conclusion">
+      <div class="container">
+        <p><?php print _("Source code is the recipe for software. How could one improve on a meal with too much salt, if forbidden to look at the recipe used to cook it?"); ?></p>
+        <p><?php print _("Using Windows and Office requires us to <strong>not ask</strong> nor search for the source of the software. Only Microsoft developers can modify your program."); ?></p>
         <p><?php
-        # translators: This is a quote from Bill Gates at the start of the article.
-        print _("About 3 million computers get sold every year in China, but people don't pay for the software."); ?></p>
-        <p><?php print _("Someday they will, though. As long as they are going to steal it [sic], we want them to steal ours. They'll get sort of addicted, and then we'll somehow figure out how to collect sometime in the next decade."); ?></p>
-        <span class="source">Bill Gates, <a href="https://web.archive.org/web/20070312044716/http://news.com.com/2100-1023-212942.html" rel="external"><?php print _("1998 interview"); ?></a></span>
+        # translators: Please note the conditionnal tense: we try to not be too harsh on the reader here ;-)
+        print _("Which would you rather trust: the package you are forbidden to study, or the package with the recipe?"); ?></p>
       </div>
+    </section>
+  </article>
 
-      <section>
-        <h2 id="no_open_standards"><?php print _("Poor support for open standards"); ?></h2>
-        <p><?php print _("There exist open file formats and protocols, which are standards to store and carry many types of information, respectively. They are openly specified: they can be read by anyone on any computer, now and in the future. Proprietary programs, however, rarely support them."); ?></p>
-        <p><?php print _("<strong>For a long time Microsoft Office only had support for Microsoft formats</strong>. There are many ways to write work documents, but Microsoft Office users were bound to Microsoft Office files. People who opted without expensive Microsoft products cannot write and read <code>.doc</code> files very reliably."); ?></p>
-        <p><?php
-        # translators: Please use link to localized Wikipedia article in place of ODF
-        print _("There are of course other ways of writing and exchanging office files, the most well-known being <a href=\"http://www.opendocumentformat.org/\" rel=\"external\">the OpenDocument Format</a>. But Microsoft isn't keen on letting Office users exchange files anyone can read and edit. As of Microsoft Office 2007 SP2, Microsoft finally added support for the ODF format after being pushed by the European Commission."); ?></p>
-      </section>
+  <br>
 
-      <section>
-        <h2 id="standards_that_change"><?php print _("Standards that change all the time"); ?></h2>
-        <p><?php print _("Sticking to Microsoft standards is not an easy job &ndash; unless you can afford to upgrade very often. Ever tried to work on the same <code>.doc</code> file with both an Office 95 and an Office 97 computer? You'll know what we mean."); ?></p>
-        <p><?php print _("Microsoft owns the Office file formats: <strong>they change them with every new Office version</strong> and have no obligation to keep them backwards-compatible. Saved your presentation as a <code>.ppt</code> file? If you give up using Microsoft Office next year, you'll have to rely on other communities to reverse-engineer the format, to be able to access and modify your own work."); ?></p>
-      </section>
-
-      <section>
-        <h2 id="cant_remove_programs"><?php print _("Default programs you can't uninstall"); ?></h2>
-        <p><?php print _("Don't want Windows Media Player on your computer? Don't use Internet Explorer anymore? <strong>You can't uninstall these programs</strong>. They previously worked on a standalone basis, but have been intrinsically linked with Windows &ndash; so they come in with every PC and no one can get rid of them."); ?></p>
-      </section>
-
-      <section>
-        <h2 id="monopolistic_practices"><?php print _("Monopolistic practices"); ?></h2>
-        <p><?php print _("Microsoft has a tight control over <abbr title=\"Original Equipment Manufacturer\">OEM</abbr>s (computer manufacturers) who ship their computers with Windows installed."); ?><br/>
-        <?php
-        # translators: if you cannot find localized homepages, please leave the URLs as such
-        print _("This means that no program competing with Microsoft products, be it <a href=\"https://www.videolan.org/vlc/\" rel=\"external\">multimedia player</a>, <a href=\"https://www.getfirefox.com/\" rel=\"external\">web browser</a>, <a href=\"https://www.libreoffice.org/\" rel=\"external\">office suite</a>, <a href=\"https://www.pidgin.im/\" rel=\"external\">instant messaging program</a> or other, will come pre-installed on most computers you can buy."); ?></p>
-        <p><?php print _("It is a good thing to propose a wide range of software and services like Microsoft do; however, designing and combining them to shut users from non-Microsoft peers is unethical. It's not technically hard to adopt more open formats. But it means your customers are <em>free to choose what they do with their work</em> &ndash; Microsoft isn't there yet."); ?></p>
-      </section>
-    </article>
-
-    <br>
-
+  <div class="container">
     <aside>
       <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('windows'); ?>">
         <?php print _("Why not Windows"); ?>
         <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">expand_less</i>
       </a>
     </aside>
-
-    <br>
-
   </div>
+
+  <br>
+
 </main>
 
 <?php $this->load_footer(); ?>
