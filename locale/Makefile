@@ -14,7 +14,6 @@ all: \
 	$(DOMAIN)/da_DK.po \
 	$(DOMAIN)/de_DE.po \
 	$(DOMAIN)/el_GR.po \
-	$(DOMAIN)/en_GB.po \
 	$(DOMAIN)/eo.po \
 	$(DOMAIN)/es_ES.po \
 	$(DOMAIN)/et_EE.po \
@@ -63,9 +62,6 @@ $(IMPORT_DIR)/$(IMPORT_PREFIX)gl_ES.po: $(IMPORT_DIR)/$(IMPORT_PREFIX)gl.po
 	mv "$<" "$@"
 
 $(IMPORT_DIR)/$(IMPORT_PREFIX)el_GR.po: $(IMPORT_DIR)/$(IMPORT_PREFIX)el.po
-	mv "$<" "$@"
-
-$(IMPORT_DIR)/$(IMPORT_PREFIX)en_GB.po: $(IMPORT_DIR)/$(IMPORT_PREFIX)en.po
 	mv "$<" "$@"
 
 $(IMPORT_DIR)/$(IMPORT_PREFIX)cy_GB.po: $(IMPORT_DIR)/$(IMPORT_PREFIX)cy.po
