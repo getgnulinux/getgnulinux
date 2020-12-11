@@ -21,8 +21,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
-"Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
-"POT-Creation-Date: 2020-12-11 20:21+0000\n"
+"Report-Msgid-Bugs-To: https://github.com/getgnulinux/getgnulinux/issues\n"
+"POT-Creation-Date: 2020-12-11 23:24+0000\n"
 "PO-Revision-Date: 2020-12-11 22:20+0000\n"
 "Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/getgnulinux/"
@@ -262,10 +262,9 @@ msgid ""
 "moved many of the license restrictions out here. Here is the fine print "
 "inside the Microsoft licenses."
 msgstr ""
-"Volevamo mantenere corta la nostra pagina delle «<a href=\"%s\""
-">restrizioni</a>», così abbiamo spostato molte delle restrizioni della "
-"licenza fuori di qua. Ecco l'ammenda di stampa all'interno delle licenze "
-"Microsoft."
+"Volevamo mantenere corta la nostra pagina delle «<a href=\"%s\">restrizioni</"
+"a>», così abbiamo spostato molte delle restrizioni della licenza fuori di "
+"qua. Ecco l'ammenda di stampa all'interno delle licenze Microsoft."
 
 #: docroot/lib/views/windows.restrictions.further_details.php:23
 msgid "It is unclear who can use, receive or buy your software."
@@ -1275,11 +1274,11 @@ msgstr "Di cosa hai bisogno"
 #: docroot/lib/views/switch_to_linux.try_or_install.php:47
 msgid ""
 "For the distributions we recommend, the live USB stick is the same as the "
-"installation CD. You can download an ISO image (rather large file) and then "
-"create a bootable USB stick (recommended) or burn it to a CD or DVD. Burning "
-"to a CD/DVD may be necessary when installing GNU/Linux on an older system "
-"which can not boot from USB. You can then use it to install GNU/Linux onto "
-"your computer."
+"installation medium. You can download an ISO image (rather large file) and "
+"then create a bootable USB stick (recommended) or burn it to a CD or DVD. "
+"Burning to a CD/DVD may be necessary when installing GNU/Linux on an older "
+"system which can not boot from USB. You can then use it to install GNU/Linux "
+"onto your computer."
 msgstr ""
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:31
@@ -3161,7 +3160,8 @@ msgstr ""
 
 #. translators: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:135
-msgid "Now get a CD and try or install your distribution!"
+#, fuzzy
+msgid "Now grab a USB stick and try or install your distribution!"
 msgstr "Ora ottieni un CD e prova ad installare la tua distribuzione."
 
 #. translators: This is the catcher-phrase for the Windows page. Exact translation is not required, the goal is to attract attention and set the tone of the page.
@@ -3449,8 +3449,8 @@ msgstr "Domande e aiuto"
 
 #: docroot/lib/views/more.php:27
 msgid ""
-"<strong>Unix & Linux Stack Exchange</strong> is a question and answer site "
-"for users of GNU/Linux. This site is all about getting answers."
+"<strong>Unix &amp; Linux Stack Exchange</strong> is a question and answer "
+"site for users of GNU/Linux. This site is all about getting answers."
 msgstr ""
 
 #: docroot/lib/views/more.php:30
@@ -3538,10 +3538,6 @@ msgstr "Partecipa:"
 #, fuzzy
 msgid "Community"
 msgstr "Forum comunità"
-
-#: src/templates/footer.php:30
-msgid "GitHub"
-msgstr ""
 
 #: src/templates/footer.php:31
 msgid "Community forum"

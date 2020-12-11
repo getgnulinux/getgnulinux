@@ -26,7 +26,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/getgnulinux/getgnulinux/issues\n"
-"POT-Creation-Date: 2020-12-11 20:21+0000\n"
+"POT-Creation-Date: 2020-12-11 23:24+0000\n"
 "PO-Revision-Date: 2020-12-11 02:42+0000\n"
 "Last-Translator: 黃柏諺 <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/serrano/"
@@ -1209,13 +1209,14 @@ msgstr "你需要什麼"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:30
 #: docroot/lib/views/switch_to_linux.try_or_install.php:47
+#, fuzzy
 msgid ""
 "For the distributions we recommend, the live USB stick is the same as the "
-"installation CD. You can download an ISO image (rather large file) and then "
-"create a bootable USB stick (recommended) or burn it to a CD or DVD. Burning "
-"to a CD/DVD may be necessary when installing GNU/Linux on an older system "
-"which can not boot from USB. You can then use it to install GNU/Linux onto "
-"your computer."
+"installation medium. You can download an ISO image (rather large file) and "
+"then create a bootable USB stick (recommended) or burn it to a CD or DVD. "
+"Burning to a CD/DVD may be necessary when installing GNU/Linux on an older "
+"system which can not boot from USB. You can then use it to install GNU/Linux "
+"onto your computer."
 msgstr ""
 "對於我們所建議的散佈版來說，Live USB 隨身碟與安裝 CD 相同。您可以下載 ISO 映"
 "像檔（比較大的檔案）然後建立可用於開機的 USB 隨身碟（建議）或將其燒錄到 CD "
@@ -3326,7 +3327,8 @@ msgstr ""
 
 #. translators: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:135
-msgid "Now get a CD and try or install your distribution!"
+#, fuzzy
+msgid "Now grab a USB stick and try or install your distribution!"
 msgstr "現在就取得一張光碟，並體驗一下或是直接安裝你的散布版吧！"
 
 #. translators: This is the catcher-phrase for the Windows page. Exact translation is not required, the goal is to attract attention and set the tone of the page.
@@ -3641,9 +3643,10 @@ msgid "Questions and help"
 msgstr "問題與說明"
 
 #: docroot/lib/views/more.php:27
+#, fuzzy
 msgid ""
-"<strong>Unix & Linux Stack Exchange</strong> is a question and answer site "
-"for users of GNU/Linux. This site is all about getting answers."
+"<strong>Unix &amp; Linux Stack Exchange</strong> is a question and answer "
+"site for users of GNU/Linux. This site is all about getting answers."
 msgstr ""
 "<strong>Unix & Linux Stack Exchange</strong> 是 GNU/Linux 使用者的問題與回答"
 "的網頁。這個網頁完全是取得答案的好地方。"
@@ -3741,10 +3744,6 @@ msgstr "參與其中"
 msgid "Community"
 msgstr "社群"
 
-#: src/templates/footer.php:30
-msgid "GitHub"
-msgstr "GitHub"
-
 #: src/templates/footer.php:31
 msgid "Community forum"
 msgstr "社群論壇"
@@ -3752,3 +3751,6 @@ msgstr "社群論壇"
 #: src/templates/footer.php:33
 msgid "Contact us"
 msgstr "連絡我們"
+
+#~ msgid "GitHub"
+#~ msgstr "GitHub"

@@ -30,8 +30,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
-"Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
-"POT-Creation-Date: 2020-12-11 20:21+0000\n"
+"Report-Msgid-Bugs-To: https://github.com/getgnulinux/getgnulinux/issues\n"
+"POT-Creation-Date: 2020-12-11 23:24+0000\n"
 "PO-Revision-Date: 2020-12-11 22:20+0000\n"
 "Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/getgnulinux/"
@@ -758,8 +758,8 @@ msgid ""
 "\">Firefox</a> (web browser), <a href=\"https://inkscape.org/\" rel="
 "\"external\">Inkscape</a> (vector drawing)."
 msgstr ""
-"Applications : <a href=\"https://www.getfirefox.com/\" rel=\"external\""
-">Firefox</a> (navigateur Web), <a href=\"https://inkscape.org/\" rel="
+"Applications : <a href=\"https://www.getfirefox.com/\" rel=\"external"
+"\">Firefox</a> (navigateur Web), <a href=\"https://inkscape.org/\" rel="
 "\"external\">Inkscape</a> (dessin vectoriel)."
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:54
@@ -786,9 +786,9 @@ msgid ""
 msgstr ""
 "Formats et protocoles : <a href=\"https://en.wikipedia.org/wiki/HTML\" rel="
 "\"external\">HTML</a> (pages Web), <a href=\"https://en.wikipedia.org/wiki/"
-"BitTorrent_(protocol)\" rel=\"external\">BitTorrent</a> (partage de fichiers)"
-", <a href=\"http://www.opendocumentformat.org/\" rel=\"external\""
-">OpenDocument Format</a> (documents de bureautique)."
+"BitTorrent_(protocol)\" rel=\"external\">BitTorrent</a> (partage de "
+"fichiers), <a href=\"http://www.opendocumentformat.org/\" rel=\"external"
+"\">OpenDocument Format</a> (documents de bureautique)."
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:58
 msgid ""
@@ -797,8 +797,8 @@ msgid ""
 "org/\" rel=\"external\">Wordpress</a> (blog)."
 msgstr ""
 "Applications pour serveurs : <a href=\"https://www.drupal.org/\" rel="
-"\"external\">Drupal</a> (système de gestion de contenu), <a href=\"https"
-"://www.wordpress.org/\" rel=\"external\">Wordpress</a> (blog)."
+"\"external\">Drupal</a> (système de gestion de contenu), <a href=\"https://"
+"www.wordpress.org/\" rel=\"external\">Wordpress</a> (blog)."
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:64
 msgid "Software should Just Work"
@@ -875,8 +875,8 @@ msgstr ""
 "d'auteur et brevets. Le droit d'auteur (« copyright », dans les pays de "
 "common law) est attribué à chaque auteur·e sur ce qu'il/elle crée (par "
 "exemple, le texte d'un livre, ou le code source d'un programme). Un brevet, "
-"en revanche, s'achète et s'enregistre. C'est le contrôle exclusif d'un "
-"&lt;em&gt;processus&lt;/em&gt;, l'application d'une idée."
+"en revanche, s'achète et s'enregistre. C'est le contrôle exclusif d'un &lt;"
+"em&gt;processus&lt;/em&gt;, l'application d'une idée."
 
 #. translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
 #: docroot/lib/views/linux.misunderstanding_free_software.php:79
@@ -1135,9 +1135,9 @@ msgid ""
 msgstr ""
 "Besoin d'exemples ? Jetez un œil sur le navigateur web <a href=\"https://www."
 "getfirefox.com/\" rel=\"external\">Firefox</a>, le serveur web <a href="
-"\"https://en.wikipedia.org/wiki/Apache_HTTP_Server\" rel=\"external\""
-">Apache</a>, le système d'encryption <a href=\"https://en.wikipedia.org/wiki/"
-"Pretty_Good_Privacy\" rel=\"external\">OpenPGP</a>, ou le système "
+"\"https://en.wikipedia.org/wiki/Apache_HTTP_Server\" rel=\"external"
+"\">Apache</a>, le système d'encryption <a href=\"https://en.wikipedia.org/"
+"wiki/Pretty_Good_Privacy\" rel=\"external\">OpenPGP</a>, ou le système "
 "d'exploitation <a href=\"https://en.wikipedia.org/wiki/OpenBSD\" rel="
 "\"external\">OpenBSD</a>. Et il n'y a <a href=\"%s#security\">pas d'espions "
 "ni virus sous GNU/Linux</a>."
@@ -1248,9 +1248,8 @@ msgstr ""
 "la pratique, les exigences sont identiques, bien que le terme « ouvert », "
 "parce qu'il n'évoque pas la liberté, <a href=\"https://www.gnu.org/"
 "philosophy/open-source-misses-the-point.html\" rel=\"external\">passe à côté "
-"de l'essentiel</a>. Lisez dans notre FAQ le sujet : <a href=\"%s#"
-"open_source\">Est-ce que « open source » et « logiciel libre » sont la même "
-"chose ?</a>"
+"de l'essentiel</a>. Lisez dans notre FAQ le sujet : <a href=\"%s#open_source"
+"\">Est-ce que « open source » et « logiciel libre » sont la même chose ?</a>"
 
 #. translators: please note the "affirmative" tone with the '.' at end of sentence.
 #: docroot/lib/views/switch_to_linux.php:25
@@ -1325,13 +1324,14 @@ msgstr "Ce dont vous avez besoin"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:30
 #: docroot/lib/views/switch_to_linux.try_or_install.php:47
+#, fuzzy
 msgid ""
 "For the distributions we recommend, the live USB stick is the same as the "
-"installation CD. You can download an ISO image (rather large file) and then "
-"create a bootable USB stick (recommended) or burn it to a CD or DVD. Burning "
-"to a CD/DVD may be necessary when installing GNU/Linux on an older system "
-"which can not boot from USB. You can then use it to install GNU/Linux onto "
-"your computer."
+"installation medium. You can download an ISO image (rather large file) and "
+"then create a bootable USB stick (recommended) or burn it to a CD or DVD. "
+"Burning to a CD/DVD may be necessary when installing GNU/Linux on an older "
+"system which can not boot from USB. You can then use it to install GNU/Linux "
+"onto your computer."
 msgstr ""
 "Pour les distributions que nous recommandons, la clé USB live est le même "
 "que le CD d'installation. Vous pouvez télécharger une image ISO (fichier "
@@ -1378,10 +1378,10 @@ msgid ""
 "macOS altogether is even easier."
 msgstr ""
 "La configuration d'un dual-boot peut être utile si vous avez besoin de temps "
-"pour abandonner un logiciel restrictif. Ce <a href=\"https://tutorials.ubuntu"
-".com/tutorial/tutorial-install-ubuntu-desktop\" rel=\"external\" title=\"a "
-"tutorial on installing Ubuntu\">n'est pas difficile à configurer</a>, bien "
-"que l'effacement complet de Windows ou macOS soit encore plus facile."
+"pour abandonner un logiciel restrictif. Ce <a href=\"https://tutorials."
+"ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel=\"external\" title="
+"\"a tutorial on installing Ubuntu\">n'est pas difficile à configurer</a>, "
+"bien que l'effacement complet de Windows ou macOS soit encore plus facile."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:42
 msgid ""
@@ -1447,10 +1447,10 @@ msgid ""
 "Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">try "
 "or install Fedora</a>."
 msgstr ""
-"<i>Fedora Media Writer</i> est le moyen le plus simple d'<a href=\"https"
-"://docs.fedoraproject.org/en-US/fedora/f30/install-guide/install/"
-"Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\""
-">essayer ou d'installer Fedora</a>."
+"<i>Fedora Media Writer</i> est le moyen le plus simple d'<a href=\"https://"
+"docs.fedoraproject.org/en-US/fedora/f30/install-guide/install/"
+"Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external"
+"\">essayer ou d'installer Fedora</a>."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:90
 msgid "Download Fedora"
@@ -2365,10 +2365,10 @@ msgid ""
 "kernel) that fits within the <strong>GNU</strong> system. What users run "
 "today are, to be precise, \"<em>distributions of the GNU/Linux system</em>\"."
 msgstr ""
-"Originellement, <strong>Linux</strong> se réfère à un module technique ("
-"appellé le kernel ou noyau), à l'intérieur du système <strong>GNU</strong>. "
-"Ce que les utilisateurs utilisent aujourd'hui, pour être exact, ce sont des «"
-" <em>distributions du système GNU/Linux</em> »."
+"Originellement, <strong>Linux</strong> se réfère à un module technique "
+"(appellé le kernel ou noyau), à l'intérieur du système <strong>GNU</strong>. "
+"Ce que les utilisateurs utilisent aujourd'hui, pour être exact, ce sont des "
+"« <em>distributions du système GNU/Linux</em> »."
 
 #: docroot/lib/views/linux.linux_faq.php:31
 msgid ""
@@ -3639,7 +3639,8 @@ msgstr ""
 
 #. translators: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:135
-msgid "Now get a CD and try or install your distribution!"
+#, fuzzy
+msgid "Now grab a USB stick and try or install your distribution!"
 msgstr "Maintenant, essayez et installez votre distribution !"
 
 #. translators: This is the catcher-phrase for the Windows page. Exact translation is not required, the goal is to attract attention and set the tone of the page.
@@ -3993,9 +3994,10 @@ msgid "Questions and help"
 msgstr "Questions et aide"
 
 #: docroot/lib/views/more.php:27
+#, fuzzy
 msgid ""
-"<strong>Unix & Linux Stack Exchange</strong> is a question and answer site "
-"for users of GNU/Linux. This site is all about getting answers."
+"<strong>Unix &amp; Linux Stack Exchange</strong> is a question and answer "
+"site for users of GNU/Linux. This site is all about getting answers."
 msgstr ""
 "<strong>Unix & Linux Stack Exchange</strong> est un site de questions et "
 "réponses pour les utilisateurs de GNU/Linux. Ce site est consacré à "
@@ -4104,10 +4106,6 @@ msgstr "Participer"
 msgid "Community"
 msgstr "Forum communautaire"
 
-#: src/templates/footer.php:30
-msgid "GitHub"
-msgstr "GitHub"
-
 #: src/templates/footer.php:31
 msgid "Community forum"
 msgstr "Forum communautaire"
@@ -4115,6 +4113,9 @@ msgstr "Forum communautaire"
 #: src/templates/footer.php:33
 msgid "Contact us"
 msgstr "Contact"
+
+#~ msgid "GitHub"
+#~ msgstr "GitHub"
 
 #~ msgid "Our blog"
 #~ msgstr "Notre blog"

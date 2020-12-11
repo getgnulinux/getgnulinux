@@ -27,7 +27,7 @@ $this->load_header();
         <p><?php print _("Since it is only designed as a trial mode, it is a little slow (it will take you five minutes to boot up, and programs launch somewhat slowly). If you proceed to install, the system will go much faster."); ?></p>
 
         <h3 id="live_cd_what_need"><?php print _("What you need"); ?></h3>
-        <p><?php print _("For the distributions we recommend, the live USB stick is the same as the installation CD. You can download an ISO image (rather large file) and then create a bootable USB stick (recommended) or burn it to a CD or DVD. Burning to a CD/DVD may be necessary when installing GNU/Linux on an older system which can not boot from USB. You can then use it to install GNU/Linux onto your computer."); ?></p>
+        <p><?php print _("For the distributions we recommend, the live USB stick is the same as the installation medium. You can download an ISO image (rather large file) and then create a bootable USB stick (recommended) or burn it to a CD or DVD. Burning to a CD/DVD may be necessary when installing GNU/Linux on an older system which can not boot from USB. You can then use it to install GNU/Linux onto your computer."); ?></p>
         <p><?php print _("To use a live USB stick, you need a little bit of curiosity, and fifteen minutes of free time, but <strong>no advanced knowledge in computing</strong>. If you feel confident simply using Windows or macOS from time to time, then this is within your reach."); ?></p>
       </section>
 
@@ -44,7 +44,7 @@ $this->load_header();
 
       <section>
         <h2 id="get_the_cd"><?php print _("Get the image you need"); ?></h2>
-        <p><?php print _("For the distributions we recommend, the live USB stick is the same as the installation CD. You can download an ISO image (rather large file) and then create a bootable USB stick (recommended) or burn it to a CD or DVD. Burning to a CD/DVD may be necessary when installing GNU/Linux on an older system which can not boot from USB. You can then use it to install GNU/Linux onto your computer."); ?></p>
+        <p><?php print _("For the distributions we recommend, the live USB stick is the same as the installation medium. You can download an ISO image (rather large file) and then create a bootable USB stick (recommended) or burn it to a CD or DVD. Burning to a CD/DVD may be necessary when installing GNU/Linux on an older system which can not boot from USB. You can then use it to install GNU/Linux onto your computer."); ?></p>
 
         <div class="download-box">
           <div class="download-box-logo">
