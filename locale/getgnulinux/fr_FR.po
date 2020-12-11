@@ -30,17 +30,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
-"Report-Msgid-Bugs-To: https://github.com/getgnulinux/getgnulinux/issues\n"
+"Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2020-12-11 20:21+0000\n"
-"PO-Revision-Date: 2020-12-01 00:06+0000\n"
-"Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
-"Language-Team: French (France) (http://www.transifex.com/serrano/getgnulinux/"
-"language/fr_FR/)\n"
+"PO-Revision-Date: 2020-12-11 21:24+0000\n"
+"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/getgnulinux/"
+"getgnulinux-pot/fr/>\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #. translators: The name of the website. It is displayed in the header of each page.
 #: docroot/lib/ggl.php:212 docroot/lib/views/home.php:15
@@ -912,7 +913,7 @@ msgid ""
 "this process, whether proprietary or free."
 msgstr ""
 "Le brevet logiciel, en revanche, est un concept extrêmement controversé. "
-"Pour résumer : <strong>il n'existe pas de \"logiciel breveté\"</strong>. En "
+"Pour résumer : <strong>il n'existe pas de « logiciel breveté »</strong>. En "
 "revanche, en enregistrant un brevet, n'importe qui peut s'attribuer la "
 "propriété d'un <em>processus</em>. Le brevet s'applique alors à tous les "
 "logiciels qui font usage de ce processus, qu'ils soient libres ou "
@@ -1242,13 +1243,14 @@ msgid ""
 "point</a>. Read our FAQ entry: <a href=\"%s#open_source\">Are \"Open Source"
 "\" and \"Free Software\" the same thing?</a>."
 msgstr ""
-"Ce que nous appelons ici \"Logiciel Libre\" est aussi souvent appelé "
-"\"Logiciel Open Source\", source ouverte en français dans le texte. Dans la "
-"pratique, les exigences sont identiques, bien que le terme \"ouvert\", parce "
-"qu'il n'évoque pas la liberté, <a href=\"https://www.gnu.org/philosophy/open-"
-"source-misses-the-point.html\" rel=\"external\">passe à côté de l'essentiel</"
-"a>. Lisez dans notre FAQ le sujet : <a href=\"%s#open_source\">Est-ce que "
-"\"Open Source\" et \"Logiciel Libre\" sont la même chose ?</a>"
+"Ce que nous appelons ici « logiciel libre » est aussi souvent appelé « "
+"logiciel open source », ou « à [code] source ouvert[e] » en français. Dans "
+"la pratique, les exigences sont identiques, bien que le terme « ouvert », "
+"parce qu'il n'évoque pas la liberté, <a href=\"https://www.gnu.org/"
+"philosophy/open-source-misses-the-point.html\" rel=\"external\">passe à côté "
+"de l'essentiel</a>. Lisez dans notre FAQ le sujet : <a href=\"%s#"
+"open_source\">Est-ce que « open source » et « logiciel libre » sont la même "
+"chose ?</a>"
 
 #. translators: please note the "affirmative" tone with the '.' at end of sentence.
 #: docroot/lib/views/switch_to_linux.php:25
@@ -1277,35 +1279,33 @@ msgstr ""
 "liberté ressemble sur votre ordinateur."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:21
-#, fuzzy
 msgid "Try out the live USB stick"
-msgstr "Essayer : le live CD"
+msgstr "Essayez la clé USB live"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:23
 msgid "Take no risk"
 msgstr "Ne prenez pas de risque"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:25
-#, fuzzy
 msgid ""
 "Using a live USB stick means that GNU/Linux will be running on your computer "
 "<em>without installing anything</em>. It's a risk-less way to try and see by "
 "yourself what GNU/Linux is."
 msgstr ""
-"L'utilisation d'un CD Live signifie que GNU/Linux fonctionnera sur votre "
-"ordinateur <em>sans installer quoi que ce soit</em>. C'est une méthode sans "
-"risque pour essayer et voir par vous-même ce qu'est GNU/Linux."
+"L'utilisation d'une clé USB Live signifie que GNU/Linux fonctionnera sur "
+"votre ordinateur <em>sans installer quoi que ce soit</em>. C'est une méthode "
+"sans risque pour essayer et voir par vous-même ce qu'est GNU/Linux."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:26
-#, fuzzy
 msgid ""
 "When running on a live USB stick, your computer uses solely the USB stick to "
 "work (without accessing the hard drive inside). You can launch all of the "
 "default programs, edit documents, and browse the web."
 msgstr ""
-"Lorsque vous démarrez sur un Live CD, votre ordinateur n'utilise que le CD-"
-"ROM pour fonctionner (sans utiliser le disque dur). Vous pouvez lancer tous "
-"les programmes par défaut, éditer des documents et naviguer sur le web."
+"Lorsque vous démarrez sur une clé USB Live, votre ordinateur n'utilise que "
+"la clé USB pour fonctionner (sans utiliser le disque dur). Vous pouvez "
+"lancer tous les programmes par défaut, modifier des documents et naviguer "
+"sur le Web."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:27
 msgid ""
@@ -1325,7 +1325,6 @@ msgstr "Ce dont vous avez besoin"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:30
 #: docroot/lib/views/switch_to_linux.try_or_install.php:47
-#, fuzzy
 msgid ""
 "For the distributions we recommend, the live USB stick is the same as the "
 "installation CD. You can download an ISO image (rather large file) and then "
@@ -1334,25 +1333,24 @@ msgid ""
 "which can not boot from USB. You can then use it to install GNU/Linux onto "
 "your computer."
 msgstr ""
-"Pour les distributions que nous recommandons, le CD live est le même que le "
-"CD d'installation. Vous pouvez télécharger une image ISO (fichier assez "
-"volumineux) et ensuite créer une clé USB amorçable (recommandé) ou la graver "
-"sur un CD (peut être nécessaire lors de l'installation de GNU/Linux sur un "
-"système plus ancien qui ne peut pas démarrer depuis l'USB). Vous pouvez "
-"alors l'utiliser pour installer GNU/Linux sur votre ordinateur."
+"Pour les distributions que nous recommandons, la clé USB live est le même "
+"que le CD d'installation. Vous pouvez télécharger une image ISO (fichier "
+"assez volumineux) et ensuite créer une clé USB amorçable (recommandé) ou la "
+"graver sur un CD ou un DVD (peut être nécessaire lors de l'installation de "
+"GNU/Linux sur un système plus ancien qui ne peut pas démarrer depuis l'USB). "
+"Vous pouvez alors l'utiliser pour installer GNU/Linux sur votre ordinateur."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:31
-#, fuzzy
 msgid ""
 "To use a live USB stick, you need a little bit of curiosity, and fifteen "
 "minutes of free time, but <strong>no advanced knowledge in computing</"
 "strong>. If you feel confident simply using Windows or macOS from time to "
 "time, then this is within your reach."
 msgstr ""
-"Pour utiliser un Live CD, vous avez besoin d'un peu de curiosité et d'un "
-"quart d'heure de temps libre, mais <strong> d'aucune connaissance avancée en "
-"informatique</strong>. Si vous vous sentez à l'aise en utilisant Windows de "
-"temps à autre, ce sera à votre portée."
+"Pour utiliser une clé USB Live, vous avez besoin d'un peu de curiosité et "
+"d'un quart d'heure de temps libre, mais <strong>d'aucune connaissance "
+"avancée en informatique</strong>. Si vous vous sentez à l'aise en utilisant "
+"Windows de temps à autre, ce sera à votre portée."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:35
 msgid "Installing as a dual boot"
@@ -1363,17 +1361,15 @@ msgid "Choose at start-up"
 msgstr "Choisissez au démarrage"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:38
-#, fuzzy
 msgid ""
 "It is possible to install GNU/Linux along with Windows or macOS. This means "
 "that upon start-up, you will be greeted with a screen allowing you to boot "
 "into the operating system you prefer."
 msgstr ""
-"Il est possible d'utiliser GNU/Linux en parallèle avec Windows. Vous "
+"Il est possible d'installer GNU/Linux en parallèle avec Windows. Vous "
 "choisissez alors au démarrage le système que vous voulez démarrer."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:39
-#, fuzzy
 msgid ""
 "Setting up a dual-boot can be helpful if you need time to abandon "
 "restrictive software. It is <a href=\"https://tutorials.ubuntu.com/tutorial/"
@@ -1382,13 +1378,12 @@ msgid ""
 "macOS altogether is even easier."
 msgstr ""
 "La configuration d'un dual-boot peut être utile si vous avez besoin de temps "
-"pour abandonner un logiciel restrictif. Ce <a href=\"https://tutorials."
-"ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" title=\"a tutorial on "
-"installing Ubuntu\" rel=\"external\">n'est pas difficile à configurer</a>, "
-"bien que l'effacement complet de Windows soit encore plus facile."
+"pour abandonner un logiciel restrictif. Ce <a href=\"https://tutorials.ubuntu"
+".com/tutorial/tutorial-install-ubuntu-desktop\" rel=\"external\" title=\"a "
+"tutorial on installing Ubuntu\">n'est pas difficile à configurer</a>, bien "
+"que l'effacement complet de Windows ou macOS soit encore plus facile."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:42
-#, fuzzy
 msgid ""
 "Installing GNU/Linux on your computer will take you less than 30 minutes. It "
 "is not an obvious step for complete beginners, but if you use computers on a "
@@ -1398,17 +1393,15 @@ msgid ""
 msgstr ""
 "Installer GNU/Linux sur votre ordinateur vous prendra moins de 30 minutes. "
 "Ce n'est pas une étape évidente pour les grands débutants, mais si vous "
-"utilisez un ordinateur quotidiennement, cela est très probablement à votre "
+"utilisez un ordinateur quotidiennement, ceci est très probablement à votre "
 "portée. Si vous avez déjà réinstallé Windows sur votre ordinateur, soyez "
-"assuré que l'installation de GNU/Linux n'est pas plus difficile."
+"assuré·e que l'installation de GNU/Linux n'est pas plus difficile."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:46
-#, fuzzy
 msgid "Get the image you need"
-msgstr "Le CD qu'il vous faut"
+msgstr "Obtenez l'image qu'il vous faut"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:54
-#, fuzzy
 msgid ""
 "<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">Create "
 "a bootable USB stick</a> or <a href=\"https://www.debian.org/CD/faq/#record-"
@@ -1419,14 +1412,13 @@ msgstr ""
 "<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-"
 "on-windows\" rel=\"external\">Créez une clé USB amorçable</a> ou <a href="
 "\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel="
-"\"external\">gravez-la sur un DVD</a>. Ensuite, utilisez-le pour <a href="
+"\"external\">gravez-la sur un CD/DVD</a>. Ensuite, utilisez-le pour <a href="
 "\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" "
-"rel=\"external\">installer Ubuntu</a> sur votre ordinateur."
+"rel=\"external\">installer Debian</a> sur votre ordinateur."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:58
-#, fuzzy
 msgid "Download Debian"
-msgstr "Télécharger Ubuntu"
+msgstr "Télécharger Debian"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:70
 msgid ""
@@ -1449,17 +1441,16 @@ msgid "Download Ubuntu"
 msgstr "Télécharger Ubuntu"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:86
-#, fuzzy
 msgid ""
 "<i>Fedora Media Writer</i> is the easiest way to <a href=\"https://docs."
 "fedoraproject.org/en-US/fedora/f33/install-guide/install/"
 "Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">try "
 "or install Fedora</a>."
 msgstr ""
-"<i>Fedora Media Writer</i> est le moyen le plus simple d'<a href=\"https://"
-"docs.fedoraproject.org/en-US/fedora/f30/install-guide/install/"
-"Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external"
-"\">essayer ou d'installer Fedora</a>."
+"<i>Fedora Media Writer</i> est le moyen le plus simple d'<a href=\"https"
+"://docs.fedoraproject.org/en-US/fedora/f30/install-guide/install/"
+"Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\""
+">essayer ou d'installer Fedora</a>."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:90
 msgid "Download Fedora"
@@ -1482,7 +1473,6 @@ msgid "Free Software pre-installed"
 msgstr "Logiciel libre pré-installé"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:103
-#, fuzzy
 msgid ""
 "Not all computers are shipped with Windows or macOS. If you do not wish to "
 "make the install yourself, or are in need of new hardware, you can get a "
@@ -1494,7 +1484,7 @@ msgstr ""
 "pas faire l'installation vous-même, ou si vous avez besoin de nouveau "
 "matériel, vous pouvez obtenir un ordinateur portable ou un bureau pré-"
 "installé avec GNU/Linux. <a href=\"https://linuxpreloaded.com/\" rel="
-"\"external\">LinuxPreloaded.com</a> a compilé une liste de fournisseurs pré-"
+"\"external\">LinuxPreloaded.com</a> a établi une liste de fournisseurs pré-"
 "installant GNU/Linux juste pour cette raison."
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:19
@@ -3077,7 +3067,7 @@ msgstr "https://fedoraproject.org/wiki/Forbidden_items"
 
 #: docroot/lib/views/linux.linux_faq.php:235
 msgid "Fedora Forbidden Items"
-msgstr "Fedora Forbidden Items"
+msgstr "Éléments interdits dans Fedora"
 
 #: docroot/lib/views/linux.linux_faq.php:243
 msgid ""
@@ -3532,7 +3522,7 @@ msgstr "Édition d'un document standard sous LibreOffice Writer "
 #. translators: This is the description of the "debian3.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:14
 msgid "Shotwell photo manager"
-msgstr ""
+msgstr "Gestionnaire photo Shotwell"
 
 #. translators: This is the description of the "ubuntu1.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:17
@@ -3547,7 +3537,7 @@ msgstr "Lecteur de musique Rhythmbox"
 #. translators: This is the description of the "ubuntu3.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:21
 msgid "Thunderbird e-mail and calendar application"
-msgstr "Thunderbird, application de Messagerie et Calendrier"
+msgstr "Thunderbird, application de messagerie et calendrier"
 
 #. translators: This is the description of the "fedora2.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:26
@@ -3556,8 +3546,9 @@ msgstr "Vue d'ensemble du bureau avec deux applications ouvertes."
 
 #. translators: This is the description of the "fedora3.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:28
+#, fuzzy
 msgid "Software manager open, install/remove applications."
-msgstr ""
+msgstr "Gestionnaire logiciel ; ouvrir, installer/supprimer des applications."
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:37
 msgid ""
@@ -4062,11 +4053,11 @@ msgstr ""
 
 #: src/templates/header.php:42 src/templates/header.php:61
 msgid "Home"
-msgstr ""
+msgstr "Accueil"
 
 #: src/templates/header.php:79 src/templates/footer.php:23
 msgid "Help translate"
-msgstr ""
+msgstr "Aidez à traduire"
 
 #. translators: If there is an official translation for the license, use that URL instead. Make sure you use the URL for CC BY-SA 4.0.
 #: src/templates/footer.php:7
@@ -4094,14 +4085,16 @@ msgstr ""
 #, php-format
 msgid "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
 msgstr ""
+"Ce site est <a href=\"%s\" rel=\"external\">gratuit, libre et son code est "
+"ouvert</a>."
 
 #: src/templates/footer.php:15
 msgid "Resources"
-msgstr ""
+msgstr "Ressources"
 
 #: src/templates/footer.php:17
 msgid "News"
-msgstr ""
+msgstr "Actualité"
 
 #: src/templates/footer.php:21
 #, fuzzy
@@ -4115,7 +4108,7 @@ msgstr "Forum communautaire"
 
 #: src/templates/footer.php:30
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: src/templates/footer.php:31
 msgid "Community forum"
