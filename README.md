@@ -43,7 +43,7 @@ GitHub](https://github.com/getgnulinux/getgnulinux), push your change to a
 named branch, then send us a pull request.
 
 You can also help us reach an audience in your language. With
-[Weblate](https://hosted.weblate.org/projects/getgnulinux/), you can help
+[Weblate](https://hosted.weblate.org/engage/getgnulinux/), you can help
 translate the website into your own language. Please see our [translation
 guidelines](https://community.getgnulinux.org/t/about-the-translation-category/17)
 for more information.
