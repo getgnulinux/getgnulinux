@@ -132,7 +132,7 @@ $fedora3_text = _("Software manager open, install/remove applications.");
       <h1><?php print _("Try or install"); ?></h1>
       <div class="page-intro">
         <p><?php # translators: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
-        print _("Now get a CD and try or install your distribution!"); ?></p>
+        print _("Now grab a USB stick and try or install your distribution!"); ?></p>
 
         <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux/try_or_install'); ?>">
           <?php print _("Read more"); ?>
