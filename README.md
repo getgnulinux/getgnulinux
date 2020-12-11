@@ -42,14 +42,14 @@ GitHub](https://github.com/getgnulinux/getgnulinux), push your change to a
 named branch, then send us a pull request.
 
 You can also help us reach an audience in your language. With
-[Transifex](https://www.transifex.com/serrano/getgnulinux/), you can help
+[Weblate](https://hosted.weblate.org/projects/getgnulinux/), you can help
 translate the website into your own language. Please see our [translation
 guidelines](https://community.getgnulinux.org/t/about-the-translation-category/17)
 for more information.
 
 Also see [our community
-forum](https://community.getgnulinux.org/t/help-improve-getgnulinux-org/12)
-for more ways you can help.
+forum](https://community.getgnulinux.org/t/help-improve-getgnulinux-org/12) for
+more ways you can help.
 
 
 ## License
@@ -57,7 +57,7 @@ for more ways you can help.
 The source code is licensed under the GNU Affero General Public License Version
 3, which you can find in the COPYING file.
 
-The content of the website and its graphical assets are, except where otherwise
-[noted](https://www.getgnulinux.org/legal/), licensed under the [Creative
-Commons Attribution-ShareAlike 4.0 International
+The content and translations of the website and its graphical assets are,
+except where otherwise [noted](https://www.getgnulinux.org/legal/), licensed
+under the [Creative Commons Attribution-ShareAlike 4.0 International
 License](https://creativecommons.org/licenses/by-sa/4.0/).
