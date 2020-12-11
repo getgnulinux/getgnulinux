@@ -93,6 +93,7 @@ class GGL {
     private static $locales_complete = array(
         'en',
         'nl',
+        'zh-tw',
     );
 
     /**
