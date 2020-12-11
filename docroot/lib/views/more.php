@@ -23,8 +23,8 @@ $this->load_header();
         <h2><?php print _("Questions and help"); ?></h2>
 
         <div class="column">
-          <a href="https://unix.stackexchange.com/" title="Unix & Linux Stack Exchange" target="_blank"><img src="/images/more/unix.stackexchange.png" alt="Unix & Linux Stack Exchange"></a>
-          <p><?php print _("<strong>Unix & Linux Stack Exchange</strong> is a question and answer site for users of GNU/Linux. This site is all about getting answers."); ?></p>
+          <a href="https://unix.stackexchange.com/" title="Unix &amp; Linux Stack Exchange" target="_blank"><img src="/images/more/unix.stackexchange.png" alt="Unix &amp; Linux Stack Exchange"></a>
+          <p><?php print _("<strong>Unix &amp; Linux Stack Exchange</strong> is a question and answer site for users of GNU/Linux. This site is all about getting answers."); ?></p>
           <br>
           <a href="https://ask.fedoraproject.org/" title="Ask Fedora" target="_blank"><img src="/images/more/askfedora.png" alt="Ask Fedora"/></a>
           <p><?php print _("<strong>Ask Fedora</strong> is a forum for Fedora users. Here you can speak to the community to get help with installing, using, customizing, and upgrading a system running Fedora."); ?></p>
