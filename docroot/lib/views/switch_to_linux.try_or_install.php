@@ -79,7 +79,7 @@ $this->load_header();
             <div class="card brown lighten-5">
               <div class="card-image distribution_logo distribution_logo--fedora"></div>
               <div class="card-content">
-                <p><?php print _("<i>Fedora Media Writer</i> is the easiest way to try or install Fedora. Use it to <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">create a live USB stick or burn it to a CD/DVD</a>."); ?></p>
+                <p><?php print _("<a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">Create a live USB stick</a> or <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">burn it to a DVD</a>. Then use it to <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/Booting_the_Installation/\" rel=\"external\">install Fedora</a> onto your computer."); ?></p>
               </div>
               <div class="card-action center">
                 <a class="waves-effect waves-light btn-large light-green darken-4" href="https://getfedora.org/en/workstation/" target="_blank">
