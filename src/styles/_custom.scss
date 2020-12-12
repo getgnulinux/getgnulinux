@@ -1,0 +1,473 @@
+@import "materialize";
+@import "bourbon";
+@import "neat";
+@import "variables";
+@import "typography";
+
+/*----------------------------------------------------
+ * General styles
+ *----------------------------------------------------*/
+
+article header {
+    padding: 1rem 0;
+}
+
+aside,
+section {
+    padding: 1rem 0;
+}
+
+details > summary {
+    cursor: pointer;
+    outline: none;
+    text-align: start;
+}
+
+img, embed, object, video {
+    max-width: 100%;
+    height: auto;
+}
+
+::selection {
+    background: #009ACD;
+    color: #FFFFFF;
+}
+
+a {
+    color: $primary-color;
+
+    img {
+        border: none;
+    }
+    &:visited {
+        color: color("light-green", "darken-4");
+    }
+
+    &:hover {
+        color: color("light-green", "darken-3");
+        text-decoration: underline;
+    }
+
+    &:active {
+        color: color("light-green", "darken-3");
+    }
+}
+
+/* External link styles */
+a[rel~="external"]:after {
+    content: "open_in_new";
+    display: inline-block;
+    font-family: "Material Icons";
+    font-size: 80%;
+    font-style: normal;
+    font-weight: normal;
+    padding-left: 3px;
+    text-decoration: none;
+}
+
+abbr {
+    letter-spacing: 0.05em;
+}
+
+/*----------------------------------------------------
+ * Main content
+ *----------------------------------------------------*/
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: ($container-gutter / 2);
+    padding-right: ($container-gutter / 2);
+    @include clearfix;
+
+    @each $breakpoint, $width in $container-widths {
+        $breakpoint-width: map-get($container-breakpoints, $breakpoint);
+        @include media(min-width $breakpoint-width) {
+            width: $width;
+            max-width: 100%;
+        }
+    }
+}
+
+.hidden-xs {
+    @include media(min-width $xs-breakpoint) {
+        display: none;
+    }
+    @include media(min-width $sm-breakpoint) {
+        display: block;
+    }
+}
+
+.hidden-sm {
+    @include media(min-width $xs-breakpoint) {
+        display: none;
+    }
+    @include media(min-width $sm-breakpoint) {
+        display: none;
+    }
+    @include media(min-width $md-breakpoint) {
+        display: block;
+    }
+}
+
+.page-intro {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    max-width: 650px;
+    padding-bottom: 0.5em;
+    text-align: center;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.button-section h1 {
+    font-weight: 300;
+}
+
+.highlight {
+    background-color: #E4EFC7;
+    display: block;
+    padding: 0.4em;
+}
+
+.note {
+    font-size: 0.95em;
+}
+
+div.note {
+    margin-top: 1em;
+    text-align: right;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.centered {
+    text-align: center;
+}
+
+.footnotes {
+    border-top: 1px solid $color-light-gray-3;
+    font-size: 85%;
+    margin-top: 3em;
+}
+
+.paragraph {
+    margin-bottom: 4em;
+}
+
+#language-menu {
+    min-width: 200px;
+
+    li {
+        a {
+            color: black !important;
+        }
+    }
+}
+
+img.lift-effect {
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+}
+
+.pad3 {
+    padding: 2% 3% !important;
+}
+
+/* Material-UI styles */
+
+.MuiButtonBase-root {
+	align-items: center;
+	background-color: transparent;
+	border-color: currentcolor;
+	border: 0;
+	color: inherit;
+	cursor: pointer;
+	display: inline-flex;
+	justify-content: center;
+	margin: 0;
+	outline-color: currentcolor;
+	outline: 0;
+	padding: 0;
+	position: relative;
+	text-decoration-color: currentcolor;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.MuiIconButton-root {
+	flex: 0 0 auto;
+	color: rgba(0, 0, 0, 0.54);
+	padding: 12px;
+	overflow: visible;
+	font-size: 1.5rem;
+	text-align: center;
+	transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+	border-radius: 50%;
+}
+
+.MuiIconButton-colorInherit {
+	color: inherit;
+}
+
+.MuiIconButton-label {
+	width: 100%;
+	display: flex;
+	align-items: inherit;
+	justify-content: inherit;
+}
+
+.MuiSvgIcon-root {
+	fill: currentColor;
+	width: 1em;
+	height: 1em;
+	display: inline-block;
+	font-size: 1.5rem;
+	transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+	flex-shrink: 0;
+}
+
+/*----------------------------------------------------
+ * Flexslider: General
+ *----------------------------------------------------*/
+
+.flexslider {
+    border: none !important;
+    position: relative;
+
+    &_screenshots {
+        margin-bottom: 3em;
+
+        /* Put the navigation bullets on the slide */
+        .flex-control-nav {
+            bottom: 5px;
+            z-index: 2;
+        }
+
+        /* Captions */
+        .flex-caption {
+            @include border-top-radius(3px);
+            @include border-bottom-radius(3px);
+            font-size: 14px;
+            line-height: 18px;
+            margin: 10px 0 0;
+            padding: 1%;
+            position: absolute;
+            text-align: center;
+            width: 100%;
+        }
+
+        img {
+            @include border-top-radius(5px);
+            @include border-bottom-radius(5px);
+        }
+    }
+
+    /* Navigation icons bug workaround */
+    .flex-direction-nav a  {
+        line-height: 40px;
+    }
+}
+
+/*----------------------------------------------------
+ * Main contents
+ *----------------------------------------------------*/
+
+.float-right {
+    clear: right;
+    float: right;
+    margin: 0 0 2em 2em !important;
+}
+
+.conclusion {
+    background: none repeat scroll 0 0 $color-light-green;
+    border-top: 2px dashed $color-light-green-2;
+    border-bottom: 2px dashed $color-light-green-2;
+    margin: 2em 0;
+    padding-top: ($section-gutter / 2);
+    padding-bottom: ($section-gutter / 2);
+}
+
+img.w20 {
+    height: auto;
+    width: 20%;
+}
+
+img.w30 {
+    height: auto;
+    width: 30%;
+}
+
+/*----------------------------------------------------
+ * Styles for "Choose a distribution" page.
+ *----------------------------------------------------*/
+
+section.ubuntu {
+    border-top: medium solid #DD4814;
+}
+
+section.fedora {
+    border-top: medium solid #08517A;
+}
+
+section.debian {
+    border-top: medium solid #C70036;
+}
+
+.distro-logo {
+    padding: 2rem;
+    max-width: 300px;
+}
+
+.distro_screenshots {
+    margin-top: 3em;
+    text-align: center;
+
+    img {
+        float: none;
+        margin: 0 1em 0.5em 0;
+    }
+
+    a {
+        background: none;
+    }
+}
+
+/*----------------------------------------------------
+ * Styles for the "Try or install" page.
+ *----------------------------------------------------*/
+
+.distribution_logo {
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &--debian {
+        background-image: url('/images/DebianLogoStacked.svg');
+    }
+    &--ubuntu {
+        background-image: url('/images/UbuntuLogoStacked.svg');
+    }
+    &--fedora {
+        background-image: url('/images/FedoraLogoStacked.png');
+    }
+}
+
+/*----------------------------------------------------
+ * Cards
+ *----------------------------------------------------*/
+
+.card-panel {
+    &--source {
+        width: 85%;
+        margin: 1em auto;
+
+        p {
+            font-style: italic;
+        }
+
+        .source {
+            display: block;
+            font-size: 0.9em;
+            margin-top: 0.6em;
+            text-align: end;
+        }
+    }
+
+    &--small {
+        margin: 0;
+        padding: 0.5em 1em;
+        width: 35%;
+    }
+
+    &--image {
+        width: auto;
+    }
+
+    &--further-reading {
+        h3 {
+            font-size: 1.7rem;
+            border: medium none;
+            margin: 0 0 0.5em;
+            padding: 0;
+        }
+
+        h4 {
+            border: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+    }
+}
+
+/*----------------------------------------------------
+ * Linux FAQ
+ *----------------------------------------------------*/
+
+#faq {
+    h4 {
+        margin-top: 0;
+    }
+
+    details {
+        > summary {
+            cursor: pointer;
+            outline: none;
+            border-bottom: dotted 1px #b9b5b5;
+            margin-bottom: 1em;
+        }
+
+        > div.answer {
+            margin: 0 0 1.5em;
+            border-left: 4px solid $primary-color;
+            padding: 0 0 0 1em;
+
+            a img {
+                transition-duration: 0.2s;
+                transition-timing-function: ease;
+            }
+
+            a:hover img {
+                transform: translateY(-5px);
+            }
+
+            div.read-more {
+                li {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+/*----------------------------------------------------
+ * Footer
+ *----------------------------------------------------*/
+
+.page-footer {
+    a {
+        $footer-link-color: color("light-green", "lighten-3");
+
+        color: $footer-link-color;
+
+        &:hover {
+            color: $footer-link-color;
+        }
+
+        &:active {
+            color: $footer-link-color;
+        }
+
+        &:visited {
+            color: $footer-link-color;
+        }
+    }
+}
