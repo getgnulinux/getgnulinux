@@ -272,6 +272,7 @@ section.debian {
 
 .distro-logo {
     padding: 2rem;
+    max-width: 300px;
 }
 
 .distro_screenshots {
@@ -298,13 +299,13 @@ section.debian {
     background-repeat: no-repeat;
 
     &--debian {
-        background-image: url('/images/DebianIcon.svg');
+        background-image: url('/images/DebianLogoStacked.svg');
     }
     &--ubuntu {
-        background-image: url('/images/UbuntuIcon.svg');
+        background-image: url('/images/UbuntuLogoStacked.svg');
     }
     &--fedora {
-        background-image: url('/images/FedoraIcon.png');
+        background-image: url('/images/FedoraLogoStacked.png');
     }
 }
 

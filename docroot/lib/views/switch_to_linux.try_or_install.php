@@ -96,7 +96,10 @@ $this->load_header();
 
       <section>
         <h2 id="free_software_pre_installed"><?php print _("Free Software pre-installed"); ?></h2>
-        <img src="/images/Meerkat.png" class="float-right w30 hidden-sm" alt="">
+        <picture>
+          <source srcset="/images/Meerkat.webp" type="image/webp">
+          <img src="/images/Meerkat.png" alt="Mini Computer" class="float-right w30 hidden-sm">
+        </picture>
         <p><?php print _("Not all computers are shipped with Windows or macOS. If you do not wish to make the install yourself, or are in need of new hardware, you can get a laptop or a desktop pre-installed with GNU/Linux. <a href=\"https://linuxpreloaded.com/\" rel=\"external\">LinuxPreloaded.com</a> has compiled a list of vendors pre-installing GNU/Linux just for that reason."); ?></p>
       </section>
     </article>

@@ -45,7 +45,7 @@ $fedora3_text = _("Software manager open, install/remove applications.");
     <section class="debian">
       <div class="container">
         <div class="centered">
-          <img src="/images/DebianLogo.png" class="distro-logo" alt="Debian">
+          <img src="/images/DebianLogoStacked.svg" class="distro-logo" alt="Debian Logo">
         </div>
 
         <p><?php print _("Debian is one of the oldest operating systems based on the Linux kernel. It has the reputation of being a very stable and secure GNU/Linux distribution which is backed by a well-organized community of developers and users. For this reason it is popular for use on personal computers as well as servers. Debian is also the basis for many other distributions, most notably Ubuntu."); ?></p>
@@ -73,7 +73,7 @@ $fedora3_text = _("Software manager open, install/remove applications.");
     <section class="ubuntu">
       <div class="container">
         <div class="centered">
-          <img src="/images/UbuntuLogo.png" class="distro-logo" alt="Ubuntu">
+          <img src="/images/UbuntuLogo.svg" class="distro-logo" alt="Ubuntu Logo">
         </div>
 
         <p><?php print _("Ubuntu is a GNU/Linux distribution based on Debian. The philosophy behind Ubuntu is that every computer user should be able to download and use their software free of charge, that anyone should be able to use their software in the language of their choice, and that anyone should be able to use all software regardless of disability. The result is an operating system that has excellent hardware support, is easy to use and pleasant on the eyes."); ?></p>
@@ -101,7 +101,7 @@ $fedora3_text = _("Software manager open, install/remove applications.");
     <section class="fedora">
       <div class="container">
         <div class="centered">
-          <img src="/images/FedoraLogo.png" class="distro-logo" alt="Fedora">
+          <img src="/images/FedoraLogo.svg" class="distro-logo" alt="Fedora Logo">
         </div>
 
         <p><?php print _("The distribution by the long-time prominent GNU/Linux developer company Red Hat. The default layout is similar to Debian, but there are differences in the chosen applications, install protocols and several technical elements. The Fedora developers are committed to innovation, which is reflected by incorporating new technologies early on, providing the latest in stable and robust, useful, and powerful free software."); ?></p>
