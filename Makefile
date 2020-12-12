@@ -49,6 +49,7 @@ locales: \
 	$(BUILD_DIR)/mk_MK/LC_MESSAGES/$(DOMAIN).mo \
 	$(BUILD_DIR)/ml_IN/LC_MESSAGES/$(DOMAIN).mo \
 	$(BUILD_DIR)/ms_MY/LC_MESSAGES/$(DOMAIN).mo \
+	$(BUILD_DIR)/nb_NO/LC_MESSAGES/$(DOMAIN).mo \
 	$(BUILD_DIR)/nl_NL/LC_MESSAGES/$(DOMAIN).mo \
 	$(BUILD_DIR)/pl_PL/LC_MESSAGES/$(DOMAIN).mo \
 	$(BUILD_DIR)/pt_BR/LC_MESSAGES/$(DOMAIN).mo \
@@ -80,6 +81,7 @@ $(LOCALE_DIR)/$(DOMAIN)/%.po: $(LOCALE_DIR)/$(DOMAIN)/$(DOMAIN).pot
 	msgmerge -v -U $@ $<
 	@echo
 
+.PRECIOUS: $(BUILD_DIR)/%/LC_MESSAGES
 $(BUILD_DIR)/%/LC_MESSAGES:
 	@mkdir -p $@
 
