@@ -38,16 +38,16 @@
     <nav>
       <div class="nav-wrapper">
         <a href="#" data-target="sidenav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul id="nav-mobile" class="hide-on-med-and-down left">
+        <ul class="hide-on-med-and-down left">
           <?php $this->nav_link('nav-item-linux', 'home', _("Home")); ?></li>
           <?php $this->nav_link('nav-item-linux', 'linux', _("What is GNU/Linux?")); ?></li>
           <?php $this->nav_link('nav-item-windows', 'windows', _("Why not Windows")); ?></li>
           <?php $this->nav_link('nav-item-switch', 'switch_to_linux', _("Switch to GNU/Linux")); ?></li>
           <?php $this->nav_link('nav-item-more', 'more', _("More")); ?></li>
         </ul>
-        <ul id="nav-mobile" class="right">
+        <ul class="right">
           <li>
-            <a class="btn btn-flat btn-wide transparent waves-effect waves-light dropdown-trigger" href="#" data-target="language-menu">
+            <a class="btn btn-flat transparent waves-effect waves-light dropdown-trigger" href="#" data-target="language-menu">
               <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">translate</i>
               <?php print $ggl->get('lang-native'); ?>
               <i class="material-icons <?php print $this->rtltr("right", "left"); ?>">keyboard_arrow_down</i>
@@ -65,7 +65,7 @@
       <?php $this->sidenav_link('more', _("More")); ?></li>
     </ul>
 
-    <ul id="language-menu" class="dropdown-content">
+    <ul class="dropdown-content" id="language-menu">
       <?php foreach ($ggl->get_locales('complete') as $lng => $items) {
         list($locale, $native) = $items;
         $info = $ggl->get_lang_info($lng);
