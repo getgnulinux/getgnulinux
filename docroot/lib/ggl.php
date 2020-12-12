@@ -86,17 +86,6 @@ class GGL {
     );
 
     /**
-     * Set of ISO language codes for translations that are completed.
-     *
-     * @var array
-     */
-    private static $locales_complete = array(
-        'en',
-        'nl',
-        'zh-tw',
-    );
-
-    /**
      * Set of ISO language codes for right-to-left languages.
      *
      * @var array
@@ -178,7 +167,7 @@ class GGL {
 
         # Only negotiate with completed translations.
         $locales = Util::array_intersect_keys(self::$locales,
-            array_merge(self::$locales_complete, array($override)));
+            array_merge($this->config['locales_complete'], array($override)));
 
         # Get preferred language from the client.
         $lang = L10n::negotiate_language($locales, $override);
@@ -442,6 +431,6 @@ class GGL {
      * @return bool TRUE|FALSE
      */
     public function lang_is_complete($lang) {
-        return in_array($lang, self::$locales_complete, true);
+        return in_array($lang, $this->config['locales_complete'], true);
     }
 }

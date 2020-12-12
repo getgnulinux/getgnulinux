@@ -3,7 +3,9 @@ FROM node:10
 RUN apt-get update && apt-get install -y --no-install-recommends \
     bash-completion \
     gettext \
+    less \
     make \
+    man \
     rsync \
     vim
 
