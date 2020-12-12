@@ -48,6 +48,8 @@ translate the website into your own language. Please see our [translation
 guidelines](https://community.getgnulinux.org/t/about-the-translation-category/17)
 for more information.
 
+[![Translation status](https://hosted.weblate.org/widgets/getgnulinux/-/287x66-black.png)](https://hosted.weblate.org/engage/getgnulinux/)
+
 Also see [our community
 forum](https://community.getgnulinux.org/t/help-improve-getgnulinux-org/12) for
 more ways you can help.
