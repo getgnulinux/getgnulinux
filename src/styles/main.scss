@@ -299,47 +299,17 @@ section.debian {
  * Styles for the "More" page.
  *----------------------------------------------------*/
 
-.more-section {
-    @include outer-container;
-    @include clearfix;
+img.lift-effect {
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
 
-    h2 {
-        text-align: center;
-        clear: both;
-        margin: 0.5em 0 1.5em 0;
-    }
-
-    img {
-        display: block;
-        margin: 0 auto;
-    }
-
-    .column {
-        @include media($xs-breakpoint) {
-            @include span-columns(12);
-        }
-
-        @include media($sm-breakpoint) {
-            @include span-columns(6);
-            @include pad(0 3%);
-        }
-
-        a img {
-            transition-duration: 0.2s;
-            transition-timing-function: ease;
-        }
-
-        a:hover img {
-            transform: translateY(-5px);
-        }
+    &:hover {
+        transform: translateY(-5px);
     }
 }
 
-.credits h2 {
-    font-size: 1.5em;
-    font-weight: normal;
-    padding-top: 1em;
-    border-top: 1px #DFD9F9 solid;
+.pad3 {
+    padding: 2% 3% !important;
 }
 
 /*----------------------------------------------------
