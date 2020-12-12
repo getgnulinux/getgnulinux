@@ -137,21 +137,27 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
         </ul>
       </section>
 
-      <aside class="card-panel amber lighten-4 further-reading">
-        <h1><?php print _("Further reading on the web"); ?></h1>
-        <div class="column">
-          <h2><a href="https://www.gnu.org" rel="external">The GNU project</a></h2>
-          <p><?php print _("This is where free software all started. You will find a wealth of information about the free software philosophy, the history of the project, and the stands taken by the <a href=\"https://www.fsf.org/\" rel=\"external\">Free Software Foundation</a> (the organisation behind GNU)."); ?></p>
-
-          <h2><a href="https://en.wikibooks.org/wiki/FLOSS_Concept_Booklet" rel="external">The FLOSS concept booklet</a></h2>
-          <p><?php print _("The concept of Free&nbsp;/&nbsp;Libre&nbsp;/&nbsp;Open Source Software presented in a highly readable, friendly way. A must-read."); ?></p>
+      <aside class="card-panel amber lighten-4 card-panel--further-reading">
+        <h3 class="center"><?php print _("Further reading on the web"); ?></h3>
+        <div class="row">
+          <div class="col s12 l6">
+            <h4><a href="https://www.gnu.org" rel="external">The GNU project</a></h4>
+            <p><?php print _("This is where free software all started. You will find a wealth of information about the free software philosophy, the history of the project, and the stands taken by the <a href=\"https://www.fsf.org/\" rel=\"external\">Free Software Foundation</a> (the organisation behind GNU)."); ?></p>
+          </div>
+          <div class="col s12 l6">
+            <h4><a href="https://en.wikibooks.org/wiki/FLOSS_Concept_Booklet" rel="external">The FLOSS concept booklet</a></h4>
+            <p><?php print _("The concept of Free&nbsp;/&nbsp;Libre&nbsp;/&nbsp;Open Source Software presented in a highly readable, friendly way. A must-read."); ?></p>
+          </div>
         </div>
-        <div class="column">
-          <h2><a href="http://opendocumentfellowship.com/" rel="external">The OpenDocument Fellowship</a></h2>
-          <p><?php print _("A simple and clear website about the free format OpenDocument, showing the importance of freedom in formats (not just in applications)."); ?></p>
-
-          <h2><a href="http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-free-file-formats/" rel="external">Free Software and Free Knowledge</a></h2>
-          <p><?php print _("An engaged article by co-founder of <a href=\"https://www.wikipedia.org/\" rel=\"external\">Wikipedia</a> Jimmy Wales, which shows the connections between freedom in software and free knowledge."); ?></p>
+        <div class="row">
+          <div class="col s12 l6">
+            <h4><a href="http://opendocumentfellowship.com/" rel="external">The OpenDocument Fellowship</a></h4>
+            <p><?php print _("A simple and clear website about the free format OpenDocument, showing the importance of freedom in formats (not just in applications)."); ?></p>
+          </div>
+          <div class="col s12 l6">
+            <h4><a href="http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-free-file-formats/" rel="external">Free Software and Free Knowledge</a></h4>
+            <p><?php print _("An engaged article by co-founder of <a href=\"https://www.wikipedia.org/\" rel=\"external\">Wikipedia</a> Jimmy Wales, which shows the connections between freedom in software and free knowledge."); ?></p>
+          </div>
         </div>
       </aside>
 

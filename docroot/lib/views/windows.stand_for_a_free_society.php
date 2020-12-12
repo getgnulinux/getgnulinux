@@ -101,36 +101,47 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
         <p><?php $p = _("May we suggest you <a href=\"%s\">switch to GNU/Linux</a>?"); printf($p, $this->get_base_url('switch_to_linux')); ?></p>
       </section>
 
-      <aside class="card-panel amber lighten-4 further-reading">
-        <h1><?php print _("Read more"); ?></h1>
+      <aside class="card-panel amber lighten-4 card-panel--further-reading">
+        <h3 class="center"><?php print _("Read more"); ?></h3>
 
-        <div class="column">
-          <h2><a href="<?php print _("https://www.gnu.org/philosophy/right-to-read.html"); ?>" rel="external"><?php print _("The Right to Read"); ?></a></h2>
-          <p><?php print _("What is the Trusted Computing world like? This is a short story by Richard Stallman that describes how this can affect any of us."); ?></p>
-
-          <h2><a href="<?php
-          # translators: Unless you know of a very good resource about DRM, please point to the Wikipedia article about DRM in your language, if it exists
-          print _("http://www.timj.co.uk/computing/politics-policy/drm/fallacy/"); ?>" rel="external"><?php
-          # translators: Title of external link
-          print _("The fallacy of DRM"); ?></a></h2>
-          <p><?php print _("A very well constructed article about <abbr title=\"Digital Restrictions Management\">DRM</abbr> by Tim Jackson, and on which we based the present article."); ?></p>
-
-          <h2><a href="<?php
-          # translators: If you don't know of a localized version of this article, please leave the URL in English
-          print _("http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-free-file-formats/"); ?>" rel="external"><?php print _("Free Knowledge requires Free Software and Free File Formats"); ?></a></h2>
-          <p><?php print _("An engaged article by Jimmy Wales, who co-founded the free encyclopedia <a href=\"https://www.wikipedia.org/\" rel=\"external\">Wikipedia</a>."); ?></p>
+        <div class="row">
+          <div class="col s12 l6">
+            <h4><a href="<?php print _("https://www.gnu.org/philosophy/right-to-read.html"); ?>" rel="external"><?php print _("The Right to Read"); ?></a></h4>
+            <p><?php print _("What is the Trusted Computing world like? This is a short story by Richard Stallman that describes how this can affect any of us."); ?></p>
+          </div>
+          <div class="col s12 l6">
+            <h4><a href="<?php
+            # translators: Unless you know of a very good resource about DRM, please point to the Wikipedia article about DRM in your language, if it exists
+            print _("http://www.timj.co.uk/computing/politics-policy/drm/fallacy/"); ?>" rel="external"><?php
+            # translators: Title of external link
+            print _("The fallacy of DRM"); ?></a></h4>
+            <p><?php print _("A very well constructed article about <abbr title=\"Digital Restrictions Management\">DRM</abbr> by Tim Jackson, and on which we based the present article."); ?></p>
+          </div>
         </div>
 
-        <div class="column">
-          <h2><a href="<?php print _("https://www.lafkon.net/tc/"); ?>" hreflang="en" title="<?php print _("Trusted Computing"); ?>" rel="external"><?php print _("Trusted Computing"); ?></a></h2>
-          <p><?php print _("Short video animation by Benjamin Stephan and Lutz Vogel. A clear, snappy and convincing argument."); ?></p>
+        <div class="row">
+          <div class="col s12 l6">
+            <h4><a href="<?php
+            # translators: If you don't know of a localized version of this article, please leave the URL in English
+            print _("http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-free-file-formats/"); ?>" rel="external"><?php print _("Free Knowledge requires Free Software and Free File Formats"); ?></a></h4>
+            <p><?php print _("An engaged article by Jimmy Wales, who co-founded the free encyclopedia <a href=\"https://www.wikipedia.org/\" rel=\"external\">Wikipedia</a>."); ?></p>
+          </div>
+          <div class="col s12 l6">
+            <h4><a href="<?php print _("https://www.lafkon.net/tc/"); ?>" hreflang="en" title="<?php print _("Trusted Computing"); ?>" rel="external"><?php print _("Trusted Computing"); ?></a></h4>
+            <p><?php print _("Short video animation by Benjamin Stephan and Lutz Vogel. A clear, snappy and convincing argument."); ?></p>
+          </div>
+        </div>
 
-          <h2><a href="<?php print _("https://www.gnu.org/philosophy/why-free.html"); ?>" rel="external"><?php print _("Why Software Should Not Have Owners"); ?></a></h2>
+        <div class="row">
+          <div class="col s12 l6">
+          <h4><a href="<?php print _("https://www.gnu.org/philosophy/why-free.html"); ?>" rel="external"><?php print _("Why Software Should Not Have Owners"); ?></a></h4>
           <p><?php print _("A pivotal text for the Free Software movement by Richard Stallman. It clarifies common objections and explains a handful of important ideas."); ?></p>
-
-          <h2><a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a></h2>
-          <p><?php # translators: This describes the last link, which will automatically point to the 'Misunderstanding Free Software' article
-          print _("More on free software on this website."); ?></p>
+          </div>
+          <div class="col s12 l6">
+            <h4><a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a></h4>
+            <p><?php # translators: This describes the last link, which will automatically point to the 'Misunderstanding Free Software' article
+            print _("More on free software on this website."); ?></p>
+          </div>
         </div>
       </aside>
 

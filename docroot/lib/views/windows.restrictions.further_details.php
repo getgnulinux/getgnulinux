@@ -47,21 +47,29 @@ $this->load_header();
         </li>
       </ul>
 
-      <aside class="card-panel amber lighten-4 further-reading">
-        <h1 id="further_reading"><?php print _("Read more"); ?></h1>
+      <br>
 
-        <div class="column">
-          <h2 id="gpl"><a href="<?php
-          # translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
-          print _("https://www.gnu.org/copyleft/gpl.html"); ?>" title="<?php print _("The GNU General Public License"); ?>" rel="external"><?php print _("The GPL"); ?></a></h2>
-          <p><?php print _("The GNU General Public License, under which GNU/Linux and a vast amount of free software are published."); ?></p>
+      <aside class="card-panel amber lighten-4 card-panel--further-reading">
+        <h3 class="center"><?php print _("Read more"); ?></h3>
 
-          <h2 id="gpl_eula_comparison"><a href="/archive/comparing_the_gpl_to_eula.pdf" hreflang="en"><?php print _("Comparing the GPL to the Microsoft WinXP License"); ?></a> (pdf)</h2>
-          <p><?php print _("A thorough and clear comparison of the <abbr title=\"GNU General Public License\">GPL</abbr> and the Microsoft <abbr title=\"End-User License Agreement\">EULA</abbr> license that governs the use of most Windows XP versions."); ?></p>
+        <div class="row">
+          <div class="col s12 l6">
+            <h4 id="gpl"><a href="<?php
+            # translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
+            print _("https://www.gnu.org/copyleft/gpl.html"); ?>" title="<?php print _("The GNU General Public License"); ?>" rel="external"><?php print _("The GPL"); ?></a></h4>
+            <p><?php print _("The GNU General Public License, under which GNU/Linux and a vast amount of free software are published."); ?></p>
+          </div>
+          <div class="col s12 l6">
+            <h4 id="gpl_eula_comparison"><a href="/archive/comparing_the_gpl_to_eula.pdf" hreflang="en"><?php print _("Comparing the GPL to the Microsoft WinXP License"); ?></a> (pdf)</h4>
+            <p><?php print _("A thorough and clear comparison of the <abbr title=\"GNU General Public License\">GPL</abbr> and the Microsoft <abbr title=\"End-User License Agreement\">EULA</abbr> license that governs the use of most Windows XP versions."); ?></p>
+          </div>
         </div>
-        <div class="column">
-          <h2 id="right_to_read"><a href="<?php print _("https://www.gnu.org/philosophy/right-to-read.html"); ?>" rel="external"><?php print _("The Right to Read"); ?></a></h2>
-          <p><?php print _("A short story by Richard Stallman that describes what influence restrictive licenses could have on our lives."); ?></p>
+
+        <div class="row">
+          <div class="col s12 l6">
+            <h4 id="right_to_read"><a href="<?php print _("https://www.gnu.org/philosophy/right-to-read.html"); ?>" rel="external"><?php print _("The Right to Read"); ?></a></h4>
+            <p><?php print _("A short story by Richard Stallman that describes what influence restrictive licenses could have on our lives."); ?></p>
+          </div>
         </div>
       </aside>
     <article>
