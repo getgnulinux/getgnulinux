@@ -279,8 +279,20 @@ section.debian {
  * Styles for the "Try or install" page.
  *----------------------------------------------------*/
 
-img.distribution-logo {
-    max-height: 200px;
+.distribution_logo {
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &--debian {
+        background-image: url('/images/DebianIcon.svg');
+    }
+    &--ubuntu {
+        background-image: url('/images/UbuntuIcon.svg');
+    }
+    &--fedora {
+        background-image: url('/images/FedoraIcon.png');
+    }
 }
 
 /*----------------------------------------------------
