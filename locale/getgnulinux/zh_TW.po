@@ -26,7 +26,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/getgnulinux/getgnulinux/issues\n"
-"POT-Creation-Date: 2020-12-12 00:44+0000\n"
+"POT-Creation-Date: 2020-12-12 04:08+0000\n"
 "PO-Revision-Date: 2020-12-11 02:42+0000\n"
 "Last-Translator: 黃柏諺 <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/serrano/"
@@ -71,7 +71,7 @@ msgid "What is GNU/Linux?"
 msgstr "GNU/Linux 是什麼？"
 
 #. translators: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
-#: docroot/lib/ggl.php:223 docroot/lib/views/linux.php:52
+#: docroot/lib/ggl.php:223
 msgid "GNU/Linux FAQ - common questions about GNU/Linux"
 msgstr "GNU/Linux FAQ - 關於 GNU/Linux 的常見問題"
 
@@ -81,7 +81,7 @@ msgstr "GNU/Linux FAQ - 關於 GNU/Linux 的常見問題"
 #: docroot/lib/views/windows.stand_for_a_free_society.php:131
 #: docroot/lib/views/linux.linux_faq.php:97
 #: docroot/lib/views/linux.linux_faq.php:141
-#: docroot/lib/views/linux.linux_faq.php:152 docroot/lib/views/linux.php:51
+#: docroot/lib/views/linux.linux_faq.php:152 docroot/lib/views/linux.php:53
 msgid "How to Misunderstand Free Software"
 msgstr "對自由軟體的常見誤解"
 
@@ -94,7 +94,7 @@ msgstr "揭開 GNU/Linux 的神祕面紗"
 #: docroot/lib/ggl.php:229
 #: docroot/lib/views/windows.what_about_source_code.php:61
 #: docroot/lib/views/windows.stand_for_a_free_society.php:141
-#: docroot/lib/views/linux.php:62 docroot/lib/views/windows.restrictions.php:73
+#: docroot/lib/views/linux.php:83 docroot/lib/views/windows.restrictions.php:73
 #: docroot/lib/views/windows.php:16 docroot/lib/views/home.php:38
 #: docroot/lib/views/windows.what_about_choice.php:65
 #: src/templates/header.php:44 src/templates/header.php:63
@@ -105,7 +105,7 @@ msgstr "為什麼不用 Windows"
 #: docroot/lib/ggl.php:231 docroot/lib/ggl.php:297
 #: docroot/lib/views/windows.restrictions.further_details.php:73
 #: docroot/lib/views/windows.restrictions.php:16
-#: docroot/lib/views/windows.php:26
+#: docroot/lib/views/windows.php:29
 msgid "Restrictions"
 msgstr "限制"
 
@@ -117,26 +117,26 @@ msgstr "關於限制的更多細節"
 
 #. translators: This title can be translated loosely
 #: docroot/lib/ggl.php:235 docroot/lib/ggl.php:300
-#: docroot/lib/views/linux.linux_faq.php:192 docroot/lib/views/windows.php:50
+#: docroot/lib/views/linux.linux_faq.php:192 docroot/lib/views/windows.php:71
 msgid "Stand for a free society"
 msgstr "為了自由的社會"
 
 #. translators: This title can be translated loosely
 #: docroot/lib/ggl.php:237 docroot/lib/ggl.php:298
-#: docroot/lib/views/windows.php:35
+#: docroot/lib/views/windows.php:43
 #: docroot/lib/views/windows.what_about_choice.php:16
 msgid "What about choice?"
 msgstr "還有什麼選擇？"
 
 #. translators: This title can be translated loosely
 #: docroot/lib/ggl.php:239 docroot/lib/ggl.php:299
-#: docroot/lib/views/windows.php:42
+#: docroot/lib/views/windows.php:58
 msgid "No source code"
 msgstr "沒有源始程式碼"
 
 #. translators: This appears in the top header menu and should be as short and concise as possible.
 #: docroot/lib/ggl.php:241 docroot/lib/views/switch_to_linux.php:15
-#: docroot/lib/views/linux.php:77 docroot/lib/views/windows.php:73
+#: docroot/lib/views/linux.php:98 docroot/lib/views/windows.php:99
 #: docroot/lib/views/home.php:51 src/templates/header.php:45
 #: src/templates/header.php:64
 msgid "Switch to GNU/Linux"
@@ -209,7 +209,7 @@ msgid "Four good reasons to avoid proprietary software."
 msgstr "四個避免使用專有軟體的好理由。"
 
 #. translators: This is the description of the 'Restrictions' page
-#: docroot/lib/ggl.php:267 docroot/lib/views/windows.php:31
+#: docroot/lib/ggl.php:267
 msgid "Restrictions in a proprietary software license."
 msgstr "專有軟體授權條款的限制。"
 
@@ -219,17 +219,17 @@ msgid "Restrictions in a proprietary software license - more details."
 msgstr "專有軟體授權條款的限制 ─ 更多細節。"
 
 #. translators: This is the description of the 'Stand for a free society' page
-#: docroot/lib/ggl.php:271 docroot/lib/views/windows.php:57
+#: docroot/lib/ggl.php:271
 msgid "How software affects freedom in society."
 msgstr "軟體如何影響社會上的自由。"
 
 #. translators: This is the description of the 'What about choice' page
-#: docroot/lib/ggl.php:273 docroot/lib/views/windows.php:38
+#: docroot/lib/ggl.php:273
 msgid "How Microsoft lock customers in."
 msgstr "微軟如何套牢他們的顧客。"
 
 #. translators: This is the description of the 'What about source code' page
-#: docroot/lib/ggl.php:275 docroot/lib/views/windows.php:46
+#: docroot/lib/ggl.php:275
 msgid "No source code means no trust and no security."
 msgstr "沒有源始程式碼意味著不可信任以及不安全。"
 
@@ -384,12 +384,13 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.php:58
 #: docroot/lib/views/windows.stand_for_a_free_society.php:105
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:126
-#: docroot/lib/views/linux.php:66 docroot/lib/views/linux.php:81
+#: docroot/lib/views/linux.php:59 docroot/lib/views/linux.php:70
+#: docroot/lib/views/linux.php:87 docroot/lib/views/linux.php:102
 #: docroot/lib/views/windows.restrictions.php:65
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:138
-#: docroot/lib/views/windows.php:31 docroot/lib/views/windows.php:38
-#: docroot/lib/views/windows.php:46 docroot/lib/views/windows.php:57
-#: docroot/lib/views/windows.php:77 docroot/lib/views/home.php:29
+#: docroot/lib/views/windows.php:36 docroot/lib/views/windows.php:48
+#: docroot/lib/views/windows.php:64 docroot/lib/views/windows.php:80
+#: docroot/lib/views/windows.php:103 docroot/lib/views/home.php:29
 #: docroot/lib/views/home.php:42 docroot/lib/views/home.php:55
 msgid "Read more"
 msgstr "深入瞭解"
@@ -576,6 +577,7 @@ msgstr "你更願意相信哪一個呢？你不能學習參考的軟體，或者
 
 #. translators: use the definition of "free software" on GNU.org
 #: docroot/lib/views/linux.misunderstanding_free_software.php:24
+#: docroot/lib/views/linux.php:56
 msgid "Misconceptions about free software, corrected."
 msgstr "關於自由軟體的誤解與更正。"
 
@@ -1280,10 +1282,11 @@ msgstr ""
 msgid "Get the image you need"
 msgstr "取得您需要的映像檔"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:54
+#: docroot/lib/views/switch_to_linux.try_or_install.php:56
+#, fuzzy
 msgid ""
 "<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">Create "
-"a bootable USB stick</a> or <a href=\"https://www.debian.org/CD/faq/#record-"
+"a live USB stick</a> or <a href=\"https://www.debian.org/CD/faq/#record-"
 "windows\" rel=\"external\">burn it to a CD/DVD</a>. Then use it to <a href="
 "\"https://www.debian.org/releases/stable/installmanual\" rel=\"external"
 "\">install Debian</a> onto your computer."
@@ -1294,14 +1297,15 @@ msgstr ""
 "\"https://www.debian.org/releases/stable/installmanual\" rel=\"external\">安"
 "裝 Debian</a> 到您的電腦上。"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:58
+#: docroot/lib/views/switch_to_linux.try_or_install.php:60
 msgid "Download Debian"
 msgstr "下載 Debian"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:70
+#: docroot/lib/views/switch_to_linux.try_or_install.php:72
+#, fuzzy
 msgid ""
 "<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-"
-"on-windows\" rel=\"external\">Create a bootable USB stick</a> or <a href="
+"on-windows\" rel=\"external\">Create a live USB stick</a> or <a href="
 "\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel="
 "\"external\">burn it to a DVD</a>. Then use it to <a href=\"https://"
 "tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel="
@@ -1314,26 +1318,27 @@ msgstr ""
 "ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel=\"external\">安裝 "
 "Ubuntu</a> 到您的電腦上。"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:74
+#: docroot/lib/views/switch_to_linux.try_or_install.php:76
 msgid "Download Ubuntu"
 msgstr "下載 Ubuntu"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:86
+#: docroot/lib/views/switch_to_linux.try_or_install.php:88
+#, fuzzy
 msgid ""
-"<i>Fedora Media Writer</i> is the easiest way to <a href=\"https://docs."
-"fedoraproject.org/en-US/fedora/f33/install-guide/install/"
-"Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">try "
-"or install Fedora</a>."
+"<i>Fedora Media Writer</i> is the easiest way to try or install Fedora. Use "
+"it to <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-"
+"guide/install/Preparing_for_Installation/#sect-preparing-boot-media\" rel="
+"\"external\">create a live USB stick or burn it to a CD/DVD</a>."
 msgstr ""
 "<i>Fedora Media Writer</i> 是<a href=\"https://docs.fedoraproject.org/en-US/"
 "fedora/f33/install-guide/install/Preparing_for_Installation/#sect-preparing-"
 "boot-media\" rel=\"external\">嘗試安裝 Fedora</a> 最簡單的方式。"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:90
+#: docroot/lib/views/switch_to_linux.try_or_install.php:92
 msgid "Download Fedora"
 msgstr "下載 Fedora"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:97
+#: docroot/lib/views/switch_to_linux.try_or_install.php:100
 msgid ""
 "Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href="
 "\"https://www.gnu.org/philosophy/free-sw.html\" title=\"What do you mean, "
@@ -1344,11 +1349,11 @@ msgstr ""
 "philosophy/free-sw.html\" title=\"What do you mean, free?\" rel=\"external\">"
 "自由軟體</a>。您只需要付處理／購物費用。"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:101
+#: docroot/lib/views/switch_to_linux.try_or_install.php:104
 msgid "Free Software pre-installed"
 msgstr "預裝自由軟體"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:103
+#: docroot/lib/views/switch_to_linux.try_or_install.php:106
 msgid ""
 "Not all computers are shipped with Windows or macOS. If you do not wish to "
 "make the install yourself, or are in need of new hardware, you can get a "
@@ -2995,15 +3000,30 @@ msgstr ""
 "最後，個人終端使用者通常無償取得這些軟體，而企業客戶也樂於為取得更多支援而掏"
 "腰包。"
 
-#: docroot/lib/views/linux.php:49
-msgid "More in this section:"
+#: docroot/lib/views/linux.php:47
+#, fuzzy
+msgid "More in this section"
 msgstr "本小節的深入閱讀："
 
-#: docroot/lib/views/linux.php:64 docroot/lib/views/home.php:40
+#: docroot/lib/views/linux.php:66
+#, fuzzy
+msgid "GNU/Linux FAQ"
+msgstr "來用 GNU/Linux 吧！"
+
+#: docroot/lib/views/linux.php:67
+#, fuzzy
+msgid ""
+"This FAQ covers common questions about GNU/Linux. We hope this FAQ list can "
+"help if you are more curious."
+msgstr ""
+"<a href=\"%s\">我們關於 GNU/Linux 的頁面</a>已涵蓋了最重要的一些資訊。若有任"
+"何其他疑問，我們希望這份 FAQ 清單能滿足你的好奇心。"
+
+#: docroot/lib/views/linux.php:85 docroot/lib/views/home.php:40
 msgid "Why we should avoid using Microsoft Windows"
 msgstr "為什麼我們該避免使用微軟的 Windows 作業系統"
 
-#: docroot/lib/views/linux.php:79 docroot/lib/views/windows.php:75
+#: docroot/lib/views/linux.php:100 docroot/lib/views/windows.php:101
 #: docroot/lib/views/home.php:53
 msgid "Where to download and how to step into GNU/Linux"
 msgstr "哪裡可以下載？我又要如何步入 GNU/Linux 的世界？"
@@ -3337,7 +3357,7 @@ msgid "Windows and Office work fine &mdash; Why worry about it?"
 msgstr "Windows 和 Office 用得好好的 &mdash; 有什麼好擔心的？"
 
 #. translators: You may add emphasis ('em' tags) around the word 'licensed' if you wish
-#: docroot/lib/views/windows.php:29
+#: docroot/lib/views/windows.php:32
 msgid ""
 "A legal copy of Windows is expensive, but what do you get? Windows and "
 "Office are licensed, not sold."
@@ -3345,7 +3365,7 @@ msgstr ""
 "一份合法的正版 Windows 那麼昂貴，但是你得到了什麼呢？Windows 和 Office 都只是"
 "授權使用而已，而非出售給你。"
 
-#: docroot/lib/views/windows.php:30
+#: docroot/lib/views/windows.php:33
 msgid ""
 "By using these products, we have to agree to <strong>a number of harsh "
 "restrictions</strong>. For most Windows licenses, you can't keep the "
@@ -3358,11 +3378,11 @@ msgstr ""
 "出你購買的軟體。誰可以執行軟體？在哪一臺電腦上？你可以拿它來做什麼？那張滿是"
 "限制的清單又臭又長，有些條款甚至到了不可理喻的程度。"
 
-#: docroot/lib/views/windows.php:36
+#: docroot/lib/views/windows.php:44
 msgid "Software should come without locks in it."
 msgstr "軟體不應該附帶任何枷鎖。"
 
-#: docroot/lib/views/windows.php:37
+#: docroot/lib/views/windows.php:45
 msgid ""
 "Why are Office documents difficult to export? Why are the formats "
 "continually changing? Why can you not even uninstall some programs? It might "
@@ -3371,7 +3391,7 @@ msgstr ""
 "為什麼 Office 的文件難以匯出呢？為什麼這些檔案格式不斷更動呢？為什麼你難以解"
 "除安裝某些程式？如果你在尋找其他選擇，那麼 Microsoft 的產品可能不適合你。"
 
-#: docroot/lib/views/windows.php:43
+#: docroot/lib/views/windows.php:59
 msgid ""
 "The source codes of Windows and Office are hidden, so, <strong>no one is "
 "allowed to understand</strong> how these programs work."
@@ -3379,7 +3399,7 @@ msgstr ""
 "Windows 和 Office 的源始程式碼被隱藏起來，所以，<strong>沒有人可以去瞭解</"
 "strong>這些程式是如何運作的。"
 
-#: docroot/lib/views/windows.php:44
+#: docroot/lib/views/windows.php:60
 msgid ""
 "If you can't get a right to inspect source code (the human-readable inner "
 "workings of a program), you can't have someone correct flaws or evaluate how "
@@ -3388,7 +3408,7 @@ msgstr ""
 "如果你不能獲得檢視源始程式碼（一種人類可讀的程式內部運作機制）的權利，你就不"
 "能請專家來修補漏洞或是檢視你的隱私權是否受到保護。"
 
-#: docroot/lib/views/windows.php:45
+#: docroot/lib/views/windows.php:61
 msgid ""
 "And guess what? On software that comes with source code, viruses and spyware "
 "aren't effective, and security isn't bought on extra. The antivirus software "
@@ -3400,7 +3420,7 @@ msgstr ""
 "產業中扮演了相當重要的角色。"
 
 #. translators: In your language, you might not need to make the distinction between price and freedom. Please do however express that price does not matter, in this sentence.
-#: docroot/lib/views/windows.php:53
+#: docroot/lib/views/windows.php:74
 msgid ""
 "A free society requires free software. Think of &quot;free&quot; as in "
 "freedom, not price: the freedoms to inspect, learn from, modify the software "
@@ -3409,7 +3429,7 @@ msgstr ""
 "一個自由的社會需要自由的軟體。想一下所謂言論自由的那種「自由」：你可以自由的"
 "探索、學習、甚至是修改你正在使用的軟體。"
 
-#: docroot/lib/views/windows.php:54
+#: docroot/lib/views/windows.php:75
 msgid ""
 "Computers are used to share ideas, culture and information. Without these "
 "freedoms over software, we risk losing control over what we share."
@@ -3417,7 +3437,7 @@ msgstr ""
 "電腦是用來分享想法、文化和資訊的途徑。如果沒有了以上所說的那些自由，我們則將"
 "很有可能失去這些分享的掌控權。"
 
-#: docroot/lib/views/windows.php:55
+#: docroot/lib/views/windows.php:76
 msgid ""
 "This is happening today. From plain annoying technologies such as Digital "
 "Restrictions Management (<strong>DRM</strong>) to downright frightening ones "
@@ -3428,14 +3448,14 @@ msgstr ""
 "strong>)，到十分嚇人的<strong>信任式運算</strong>，每個人參與文化的權利都正被"
 "它們所威脅。"
 
-#: docroot/lib/views/windows.php:56
+#: docroot/lib/views/windows.php:77
 msgid ""
 "If you have to give up your freedoms to use software, maybe you should not "
 "be happy with it."
 msgstr "如果你必須放棄自由才能使用這些軟體，我想也許你會不開心了吧。"
 
 #. translators: This is the conclusion of the article.
-#: docroot/lib/views/windows.php:65
+#: docroot/lib/views/windows.php:91
 #, php-format
 msgid ""
 "Many people find that Windows, an otherwise decent piece of software, "
@@ -3447,7 +3467,7 @@ msgstr ""
 "權利</strong>，所以不值得使用。macOS 也<a href=\"%s#mac_freedom\">沒有比較好"
 "</a>。"
 
-#: docroot/lib/views/windows.php:66
+#: docroot/lib/views/windows.php:92
 #, php-format
 msgid ""
 "If you find <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title="

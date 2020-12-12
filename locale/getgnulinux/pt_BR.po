@@ -26,7 +26,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/getgnulinux/getgnulinux/issues\n"
-"POT-Creation-Date: 2020-12-12 00:44+0000\n"
+"POT-Creation-Date: 2020-12-12 04:08+0000\n"
 "PO-Revision-Date: 2020-12-08 21:36+0000\n"
 "Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/serrano/"
@@ -71,7 +71,7 @@ msgid "What is GNU/Linux?"
 msgstr "O que é GNU/Linux?"
 
 #. translators: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
-#: docroot/lib/ggl.php:223 docroot/lib/views/linux.php:52
+#: docroot/lib/ggl.php:223
 msgid "GNU/Linux FAQ - common questions about GNU/Linux"
 msgstr "GNU/Linux FAQ - perguntas frequentes sobre GNU/LINUX"
 
@@ -81,7 +81,7 @@ msgstr "GNU/Linux FAQ - perguntas frequentes sobre GNU/LINUX"
 #: docroot/lib/views/windows.stand_for_a_free_society.php:131
 #: docroot/lib/views/linux.linux_faq.php:97
 #: docroot/lib/views/linux.linux_faq.php:141
-#: docroot/lib/views/linux.linux_faq.php:152 docroot/lib/views/linux.php:51
+#: docroot/lib/views/linux.linux_faq.php:152 docroot/lib/views/linux.php:53
 msgid "How to Misunderstand Free Software"
 msgstr "Como entender mal o Software Livre"
 
@@ -94,7 +94,7 @@ msgstr "Como GNU/Linux se parece"
 #: docroot/lib/ggl.php:229
 #: docroot/lib/views/windows.what_about_source_code.php:61
 #: docroot/lib/views/windows.stand_for_a_free_society.php:141
-#: docroot/lib/views/linux.php:62 docroot/lib/views/windows.restrictions.php:73
+#: docroot/lib/views/linux.php:83 docroot/lib/views/windows.restrictions.php:73
 #: docroot/lib/views/windows.php:16 docroot/lib/views/home.php:38
 #: docroot/lib/views/windows.what_about_choice.php:65
 #: src/templates/header.php:44 src/templates/header.php:63
@@ -105,7 +105,7 @@ msgstr "Por que não Windows"
 #: docroot/lib/ggl.php:231 docroot/lib/ggl.php:297
 #: docroot/lib/views/windows.restrictions.further_details.php:73
 #: docroot/lib/views/windows.restrictions.php:16
-#: docroot/lib/views/windows.php:26
+#: docroot/lib/views/windows.php:29
 msgid "Restrictions"
 msgstr "Restrições"
 
@@ -117,26 +117,26 @@ msgstr "Mais detalhes sobre restrições"
 
 #. translators: This title can be translated loosely
 #: docroot/lib/ggl.php:235 docroot/lib/ggl.php:300
-#: docroot/lib/views/linux.linux_faq.php:192 docroot/lib/views/windows.php:50
+#: docroot/lib/views/linux.linux_faq.php:192 docroot/lib/views/windows.php:71
 msgid "Stand for a free society"
 msgstr "Suporte para uma sociedade livre"
 
 #. translators: This title can be translated loosely
 #: docroot/lib/ggl.php:237 docroot/lib/ggl.php:298
-#: docroot/lib/views/windows.php:35
+#: docroot/lib/views/windows.php:43
 #: docroot/lib/views/windows.what_about_choice.php:16
 msgid "What about choice?"
 msgstr "E sobre a escolha?"
 
 #. translators: This title can be translated loosely
 #: docroot/lib/ggl.php:239 docroot/lib/ggl.php:299
-#: docroot/lib/views/windows.php:42
+#: docroot/lib/views/windows.php:58
 msgid "No source code"
 msgstr "Sem código fonte"
 
 #. translators: This appears in the top header menu and should be as short and concise as possible.
 #: docroot/lib/ggl.php:241 docroot/lib/views/switch_to_linux.php:15
-#: docroot/lib/views/linux.php:77 docroot/lib/views/windows.php:73
+#: docroot/lib/views/linux.php:98 docroot/lib/views/windows.php:99
 #: docroot/lib/views/home.php:51 src/templates/header.php:45
 #: src/templates/header.php:64
 msgid "Switch to GNU/Linux"
@@ -209,7 +209,7 @@ msgid "Four good reasons to avoid proprietary software."
 msgstr "Quatro boas razões para evitar o software proprietário."
 
 #. translators: This is the description of the 'Restrictions' page
-#: docroot/lib/ggl.php:267 docroot/lib/views/windows.php:31
+#: docroot/lib/ggl.php:267
 msgid "Restrictions in a proprietary software license."
 msgstr "Restrições em uma licença de software proprietário."
 
@@ -219,17 +219,17 @@ msgid "Restrictions in a proprietary software license - more details."
 msgstr "Restrições em uma licença de software proprietário - mais detalhes."
 
 #. translators: This is the description of the 'Stand for a free society' page
-#: docroot/lib/ggl.php:271 docroot/lib/views/windows.php:57
+#: docroot/lib/ggl.php:271
 msgid "How software affects freedom in society."
 msgstr "Como software afeta a liberdade na sociedade."
 
 #. translators: This is the description of the 'What about choice' page
-#: docroot/lib/ggl.php:273 docroot/lib/views/windows.php:38
+#: docroot/lib/ggl.php:273
 msgid "How Microsoft lock customers in."
 msgstr "Como a Microsoft prende os clientes."
 
 #. translators: This is the description of the 'What about source code' page
-#: docroot/lib/ggl.php:275 docroot/lib/views/windows.php:46
+#: docroot/lib/ggl.php:275
 msgid "No source code means no trust and no security."
 msgstr "Sem código aberto significa sem confiança e sem segurança."
 
@@ -397,12 +397,13 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.php:58
 #: docroot/lib/views/windows.stand_for_a_free_society.php:105
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:126
-#: docroot/lib/views/linux.php:66 docroot/lib/views/linux.php:81
+#: docroot/lib/views/linux.php:59 docroot/lib/views/linux.php:70
+#: docroot/lib/views/linux.php:87 docroot/lib/views/linux.php:102
 #: docroot/lib/views/windows.restrictions.php:65
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:138
-#: docroot/lib/views/windows.php:31 docroot/lib/views/windows.php:38
-#: docroot/lib/views/windows.php:46 docroot/lib/views/windows.php:57
-#: docroot/lib/views/windows.php:77 docroot/lib/views/home.php:29
+#: docroot/lib/views/windows.php:36 docroot/lib/views/windows.php:48
+#: docroot/lib/views/windows.php:64 docroot/lib/views/windows.php:80
+#: docroot/lib/views/windows.php:103 docroot/lib/views/home.php:29
 #: docroot/lib/views/home.php:42 docroot/lib/views/home.php:55
 msgid "Read more"
 msgstr "Leia mais"
@@ -604,6 +605,7 @@ msgstr ""
 
 #. translators: use the definition of "free software" on GNU.org
 #: docroot/lib/views/linux.misunderstanding_free_software.php:24
+#: docroot/lib/views/linux.php:56
 msgid "Misconceptions about free software, corrected."
 msgstr "Equívocos sobre software livre, corrigidos."
 
@@ -1379,10 +1381,11 @@ msgstr ""
 msgid "Get the image you need"
 msgstr "Obtenha o CD que você precisa"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:54
+#: docroot/lib/views/switch_to_linux.try_or_install.php:56
+#, fuzzy
 msgid ""
 "<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">Create "
-"a bootable USB stick</a> or <a href=\"https://www.debian.org/CD/faq/#record-"
+"a live USB stick</a> or <a href=\"https://www.debian.org/CD/faq/#record-"
 "windows\" rel=\"external\">burn it to a CD/DVD</a>. Then use it to <a href="
 "\"https://www.debian.org/releases/stable/installmanual\" rel=\"external"
 "\">install Debian</a> onto your computer."
@@ -1393,14 +1396,15 @@ msgstr ""
 "<a href=\"https://www.debian.org/releases/stable/installmanual\" rel="
 "\"external\">instalar o Ubuntu</a> em seu computador."
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:58
+#: docroot/lib/views/switch_to_linux.try_or_install.php:60
 msgid "Download Debian"
 msgstr "Baixar Debian"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:70
+#: docroot/lib/views/switch_to_linux.try_or_install.php:72
+#, fuzzy
 msgid ""
 "<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-"
-"on-windows\" rel=\"external\">Create a bootable USB stick</a> or <a href="
+"on-windows\" rel=\"external\">Create a live USB stick</a> or <a href="
 "\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel="
 "\"external\">burn it to a DVD</a>. Then use it to <a href=\"https://"
 "tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel="
@@ -1413,27 +1417,28 @@ msgstr ""
 "tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel="
 "\"external\">instalar o Ubuntu</a> em seu computador."
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:74
+#: docroot/lib/views/switch_to_linux.try_or_install.php:76
 msgid "Download Ubuntu"
 msgstr "Baixar Ubuntu"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:86
+#: docroot/lib/views/switch_to_linux.try_or_install.php:88
+#, fuzzy
 msgid ""
-"<i>Fedora Media Writer</i> is the easiest way to <a href=\"https://docs."
-"fedoraproject.org/en-US/fedora/f33/install-guide/install/"
-"Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">try "
-"or install Fedora</a>."
+"<i>Fedora Media Writer</i> is the easiest way to try or install Fedora. Use "
+"it to <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-"
+"guide/install/Preparing_for_Installation/#sect-preparing-boot-media\" rel="
+"\"external\">create a live USB stick or burn it to a CD/DVD</a>."
 msgstr ""
 "<i>Fedora Media Writer</i> é a forma mais fácil de <a href=\"https://docs."
 "fedoraproject.org/en-US/fedora/f33/install-guide/install/"
 "Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external"
 "\">testar ou instalar o Fedora</a>."
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:90
+#: docroot/lib/views/switch_to_linux.try_or_install.php:92
 msgid "Download Fedora"
 msgstr "Baixar Fedora"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:97
+#: docroot/lib/views/switch_to_linux.try_or_install.php:100
 msgid ""
 "Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href="
 "\"https://www.gnu.org/philosophy/free-sw.html\" title=\"What do you mean, "
@@ -1445,11 +1450,11 @@ msgstr ""
 "free?\" rel=\"external\">software livre</a>. Você está simplesmente pagando "
 "uma taxa de manuseio/remessa."
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:101
+#: docroot/lib/views/switch_to_linux.try_or_install.php:104
 msgid "Free Software pre-installed"
 msgstr "Software livre pré-instalado"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:103
+#: docroot/lib/views/switch_to_linux.try_or_install.php:106
 #, fuzzy
 msgid ""
 "Not all computers are shipped with Windows or macOS. If you do not wish to "
@@ -3238,15 +3243,31 @@ msgstr ""
 "enquanto clientes corporativos geralmente ficam felizes em pagar por mais "
 "suporte."
 
-#: docroot/lib/views/linux.php:49
-msgid "More in this section:"
+#: docroot/lib/views/linux.php:47
+#, fuzzy
+msgid "More in this section"
 msgstr "Mais nesta seção:"
 
-#: docroot/lib/views/linux.php:64 docroot/lib/views/home.php:40
+#: docroot/lib/views/linux.php:66
+#, fuzzy
+msgid "GNU/Linux FAQ"
+msgstr "baixe GNU/Linux!"
+
+#: docroot/lib/views/linux.php:67
+#, fuzzy
+msgid ""
+"This FAQ covers common questions about GNU/Linux. We hope this FAQ list can "
+"help if you are more curious."
+msgstr ""
+"<a href=\"%s\">Nossa página sobre GNU/Linux</a> cobre as informações "
+"essenciais. Esperamos que esta lista de perguntas e respostas possa ajudá-lo "
+"se estiver mais curioso."
+
+#: docroot/lib/views/linux.php:85 docroot/lib/views/home.php:40
 msgid "Why we should avoid using Microsoft Windows"
 msgstr "Por que nós devemos evitar o uso do Microsoft Windows"
 
-#: docroot/lib/views/linux.php:79 docroot/lib/views/windows.php:75
+#: docroot/lib/views/linux.php:100 docroot/lib/views/windows.php:101
 #: docroot/lib/views/home.php:53
 msgid "Where to download and how to step into GNU/Linux"
 msgstr "Onde baixar e como iniciar com o GNU/Linux"
@@ -3604,7 +3625,7 @@ msgid "Windows and Office work fine &mdash; Why worry about it?"
 msgstr "Windows e Office funcionam bem - Por que se preocupar com isso?"
 
 #. translators: You may add emphasis ('em' tags) around the word 'licensed' if you wish
-#: docroot/lib/views/windows.php:29
+#: docroot/lib/views/windows.php:32
 msgid ""
 "A legal copy of Windows is expensive, but what do you get? Windows and "
 "Office are licensed, not sold."
@@ -3612,7 +3633,7 @@ msgstr ""
 "Uma copia legal do Windows é cara, mas o que você ganha com isso? Windows e "
 "Office são licenciados, não são vendidos."
 
-#: docroot/lib/views/windows.php:30
+#: docroot/lib/views/windows.php:33
 msgid ""
 "By using these products, we have to agree to <strong>a number of harsh "
 "restrictions</strong>. For most Windows licenses, you can't keep the "
@@ -3627,11 +3648,11 @@ msgstr ""
 "você pode fazer com ele? A lista de restrições é muito maior e alguns itens "
 "são ultrajantes."
 
-#: docroot/lib/views/windows.php:36
+#: docroot/lib/views/windows.php:44
 msgid "Software should come without locks in it."
 msgstr "O software deveria vir sem bloqueios."
 
-#: docroot/lib/views/windows.php:37
+#: docroot/lib/views/windows.php:45
 msgid ""
 "Why are Office documents difficult to export? Why are the formats "
 "continually changing? Why can you not even uninstall some programs? It might "
@@ -3642,7 +3663,7 @@ msgstr ""
 "programas? Isso tudo pode ser diferente se você fizer melhor suas escolhas, "
 "os produtos da Microsoft não são para você. "
 
-#: docroot/lib/views/windows.php:43
+#: docroot/lib/views/windows.php:59
 msgid ""
 "The source codes of Windows and Office are hidden, so, <strong>no one is "
 "allowed to understand</strong> how these programs work."
@@ -3651,7 +3672,7 @@ msgstr ""
 "<strong>ninguém tem permissão para entender</strong> como estes programas "
 "funcionam."
 
-#: docroot/lib/views/windows.php:44
+#: docroot/lib/views/windows.php:60
 msgid ""
 "If you can't get a right to inspect source code (the human-readable inner "
 "workings of a program), you can't have someone correct flaws or evaluate how "
@@ -3661,7 +3682,7 @@ msgstr ""
 "programa compreensível pelo ser humano), você não tem ninguém para corrigir "
 "os furos ou avaliar como sua privacidade está sendo protegida."
 
-#: docroot/lib/views/windows.php:45
+#: docroot/lib/views/windows.php:61
 msgid ""
 "And guess what? On software that comes with source code, viruses and spyware "
 "aren't effective, and security isn't bought on extra. The antivirus software "
@@ -3673,7 +3694,7 @@ msgstr ""
 "qual a Microsoft é um dos grandes jogadores, prefere que você use Windows."
 
 #. translators: In your language, you might not need to make the distinction between price and freedom. Please do however express that price does not matter, in this sentence.
-#: docroot/lib/views/windows.php:53
+#: docroot/lib/views/windows.php:74
 msgid ""
 "A free society requires free software. Think of &quot;free&quot; as in "
 "freedom, not price: the freedoms to inspect, learn from, modify the software "
@@ -3683,7 +3704,7 @@ msgstr ""
 "liberdade, não preço: as liberdades para inspecionar, aprender, modificar o "
 "software que você usa."
 
-#: docroot/lib/views/windows.php:54
+#: docroot/lib/views/windows.php:75
 msgid ""
 "Computers are used to share ideas, culture and information. Without these "
 "freedoms over software, we risk losing control over what we share."
@@ -3692,7 +3713,7 @@ msgstr ""
 "estas liberdades sobre o software, nós arriscamos perder o controle sobre o "
 "que nós partilhamos."
 
-#: docroot/lib/views/windows.php:55
+#: docroot/lib/views/windows.php:76
 msgid ""
 "This is happening today. From plain annoying technologies such as Digital "
 "Restrictions Management (<strong>DRM</strong>) to downright frightening ones "
@@ -3705,7 +3726,7 @@ msgstr ""
 "Computing</strong> (Computação confiável), a capacidade de todos em "
 "participar na cultura está ameaçada."
 
-#: docroot/lib/views/windows.php:56
+#: docroot/lib/views/windows.php:77
 msgid ""
 "If you have to give up your freedoms to use software, maybe you should not "
 "be happy with it."
@@ -3714,7 +3735,7 @@ msgstr ""
 "não deveria estar feliz com isso."
 
 #. translators: This is the conclusion of the article.
-#: docroot/lib/views/windows.php:65
+#: docroot/lib/views/windows.php:91
 #, php-format
 msgid ""
 "Many people find that Windows, an otherwise decent piece of software, "
@@ -3726,7 +3747,7 @@ msgstr ""
 "<strong>retira tantos direitos</strong> deles, que não vale a pena usá-lo. O "
 "macOS <a href=\"%s#mac_freedom\">não é muito melhor</a>."
 
-#: docroot/lib/views/windows.php:66
+#: docroot/lib/views/windows.php:92
 #, php-format
 msgid ""
 "If you find <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title="

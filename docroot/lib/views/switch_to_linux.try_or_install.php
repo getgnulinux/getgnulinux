@@ -46,50 +46,53 @@ $this->load_header();
         <h2 id="get_the_cd"><?php print _("Get the image you need"); ?></h2>
         <p><?php print _("For the distributions we recommend, the live USB stick is the same as the installation medium. You can download an ISO image (rather large file) and then create a bootable USB stick (recommended) or burn it to a CD or DVD. Burning to a CD/DVD may be necessary when installing GNU/Linux on an older system which can not boot from USB. You can then use it to install GNU/Linux onto your computer."); ?></p>
 
-        <div class="download-box">
-          <div class="download-box-logo">
-            <p><img src="/images/DebianIcon.svg" alt="Debian"></p>
-          </div>
-          <div class="download-box-content">
-            <p><?php print _("<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">Create a bootable USB stick</a> or <a href=\"https://www.debian.org/CD/faq/#record-windows\" rel=\"external\">burn it to a CD/DVD</a>. Then use it to <a href=\"https://www.debian.org/releases/stable/installmanual\" rel=\"external\">install Debian</a> onto your computer."); ?></p>
-
-            <div class="download-box-buttons">
-              <a class="waves-effect waves-light btn-large light-green darken-4" href="https://www.debian.org/distrib/" target="_blank">
-                <?php print _("Download Debian"); ?>
-                <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">cloud_download</i>
-              </a>
+        <div class="row">
+          <div class="col s12 m6 l4">
+            <div class="card brown lighten-5">
+              <div class="card-image">
+                <img class="distribution-logo" src="/images/DebianIcon.svg" alt="Debian Logo">
+              </div>
+              <div class="card-content">
+                <p><?php print _("<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">Create a live USB stick</a> or <a href=\"https://www.debian.org/CD/faq/#record-windows\" rel=\"external\">burn it to a CD/DVD</a>. Then use it to <a href=\"https://www.debian.org/releases/stable/installmanual\" rel=\"external\">install Debian</a> onto your computer."); ?></p>
+              </div>
+              <div class="card-action">
+                <a class="waves-effect waves-light btn-large light-green darken-4" href="https://www.debian.org/distrib/" target="_blank">
+                  <?php print _("Download Debian"); ?>
+                  <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">cloud_download</i>
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div class="download-box">
-          <div class="download-box-logo">
-            <p><img src="/images/UbuntuIcon.svg" alt="Ubuntu"></p>
-          </div>
-          <div class="download-box-content">
-            <p><?php print _("<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows\" rel=\"external\">Create a bootable USB stick</a> or <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel=\"external\">burn it to a DVD</a>. Then use it to <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel=\"external\">install Ubuntu</a> onto your computer."); ?></p>
-
-            <div class="download-box-buttons">
-              <a class="waves-effect waves-light btn-large light-green darken-4" href="https://ubuntu.com/download/desktop" target="_blank">
-                <?php print _("Download Ubuntu"); ?>
-                <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">cloud_download</i>
-              </a>
+          <div class="col s12 m6 l4">
+            <div class="card brown lighten-5">
+              <div class="card-image">
+                <img class="distribution-logo" src="/images/UbuntuIcon.svg" alt="Ubuntu Logo">
+              </div>
+              <div class="card-content">
+                <p><?php print _("<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows\" rel=\"external\">Create a live USB stick</a> or <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel=\"external\">burn it to a DVD</a>. Then use it to <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel=\"external\">install Ubuntu</a> onto your computer."); ?></p>
+              </div>
+              <div class="card-action">
+                <a class="waves-effect waves-light btn-large light-green darken-4" href="https://ubuntu.com/download/desktop" target="_blank">
+                  <?php print _("Download Ubuntu"); ?>
+                  <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">cloud_download</i>
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div class="download-box">
-          <div class="download-box-logo">
-            <p><img src="/images/FedoraIcon.png" alt="Fedora"></p>
-          </div>
-          <div class="download-box-content">
-            <p><?php print _("<i>Fedora Media Writer</i> is the easiest way to <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">try or install Fedora</a>."); ?></p>
-
-            <div class="download-box-buttons">
-              <a class="waves-effect waves-light btn-large light-green darken-4" href="https://getfedora.org/en/workstation/" target="_blank">
-                <?php print _("Download Fedora"); ?>
-                <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">cloud_download</i>
-              </a>
+          <div class="col s12 m6 l4">
+            <div class="card brown lighten-5">
+              <div class="card-image">
+                <img class="distribution-logo" src="/images/FedoraLogoWide.png" alt="Fedora Logo">
+              </div>
+              <div class="card-content">
+                <p><?php print _("<i>Fedora Media Writer</i> is the easiest way to try or install Fedora. Use it to <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">create a live USB stick or burn it to a CD/DVD</a>."); ?></p>
+              </div>
+              <div class="card-action">
+                <a class="waves-effect waves-light btn-large light-green darken-4" href="https://getfedora.org/en/workstation/" target="_blank">
+                  <?php print _("Download Fedora"); ?>
+                  <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">cloud_download</i>
+                </a>
+              </div>
             </div>
           </div>
         </div>

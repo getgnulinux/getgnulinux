@@ -43,14 +43,35 @@ $this->load_header();
         <p><?php print _("In the end, individual end-users often get the software at zero cost, while corporate customers are often happy to pay for more support."); ?></p>
       </section>
 
-      <hr>
-
       <section>
-        <p><?php print _("More in this section:"); ?></p>
-        <ul class="browser-default">
-          <li><a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a></li>
-          <li><a href="<?php $this->base_url('linux/linux_faq'); ?>"><?php print _("GNU/Linux FAQ - common questions about GNU/Linux"); ?></a></li>
-        </ul>
+        <h3><?php print _("More in this section"); ?></h3>
+
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title"><?php print _("How to Misunderstand Free Software"); ?></span>
+                <p><?php
+                # translators: use the definition of "free software" on GNU.org
+                print _("Misconceptions about free software, corrected."); ?></p>
+              </div>
+              <div class="card-action">
+                <a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("Read more"); ?></a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title"><?php print _("GNU/Linux FAQ"); ?></span>
+                <p><?php $p = _("This FAQ covers common questions about GNU/Linux. We hope this FAQ list can help if you are more curious."); printf($p, $this->get_base_url('linux')); ?></p>
+              </div>
+              <div class="card-action">
+                <a href="<?php $this->base_url('linux/linux_faq'); ?>"><?php print _("Read more"); ?></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   </article>

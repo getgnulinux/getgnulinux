@@ -4,46 +4,12 @@
 @import "neat";
 @import "variables";
 @import "materialize";
+@import "typography";
 @import "h5bp_header";
 
 /*----------------------------------------------------
  * General styles
  *----------------------------------------------------*/
-
-h1, h2, h3, h4, h5, h6 {
-    text-align: start;
-}
-
-h1 {
-    font-size: 3em;
-    font-weight: bold;
-    margin: 1rem;
-    text-align: center;
-}
-
-h2 {
-    border-top: 1px solid $color-light-gray-3;
-    font-size: 2.5em;
-    margin-top: 0.8em;
-    padding-top: 0.8em;
-}
-
-h3 {
-    font-size: 2em;
-    font-weight: 400;
-    margin-bottom: 0.5em;
-    margin-top: 1em;
-}
-
-h4 {
-    font-size: 1.5em;
-    font-style: italic;
-    font-weight: 300;
-}
-
-hr {
-    height: 0;
-}
 
 article header {
     padding: 1rem 0;
@@ -313,44 +279,8 @@ section.debian {
  * Styles for the "Try or install" page.
  *----------------------------------------------------*/
 
-.download-box {
-    @include outer-container;
-    @include row();
-    padding-top: 1em;
-    padding-bottom: 1em;
-
-    .download-box-logo {
-        @include media($xs-breakpoint) {
-            @include span-columns(4);
-        }
-        @include media($sm-breakpoint) {
-            @include span-columns(3);
-        }
-        @include media($md-breakpoint) {
-            @include span-columns(2);
-        }
-    }
-
-    .download-box-content {
-        @include media($xs-breakpoint) {
-            @include span-columns(12);
-        }
-        @include media($sm-breakpoint) {
-            @include span-columns(9);
-        }
-        @include media($md-breakpoint) {
-            @include span-columns(10);
-        }
-
-        .download-box-buttons {
-            @include clearfix;
-
-            .button {
-                float: left;
-                margin-right: 1em;
-            }
-        }
-    }
+img.distribution-logo {
+    max-height: 200px;
 }
 
 /*----------------------------------------------------

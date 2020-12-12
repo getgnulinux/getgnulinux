@@ -20,7 +20,7 @@
 
   .card-title {
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 500;
     &.activator {
       cursor: pointer;
     }
@@ -142,13 +142,11 @@
     padding: $card-padding;
     border-radius: 0 0 2px 2px;
 
-    p {
-      margin: 0;
-    }
     .card-title {
       display: block;
       line-height: 32px;
       margin-bottom: 8px;
+      margin-top: 0;
 
       i {
         line-height: 32px;

@@ -22,40 +22,66 @@ $this->load_header();
         </div>
       </header>
 
-      <section>
-        <h2><?php print _("Restrictions"); ?></h2>
-        <p><?php
-        # translators: You may add emphasis ('em' tags) around the word 'licensed' if you wish
-        print _("A legal copy of Windows is expensive, but what do you get? Windows and Office are licensed, not sold."); ?></p>
-        <p><?php print _("By using these products, we have to agree to <strong>a number of harsh restrictions</strong>. For most Windows licenses, you can't keep the software when you change the hardware. You sometimes can't even give your software away. Who can run the software? On which computer? What can you do with it? The list of restrictions is long and some items are outrageous."); ?></p>
-        <p><a class="waves-effect btn-flat btn-outlined" href="<?php $this->base_url('windows/restrictions'); ?>" title="<?php print _("Restrictions in a proprietary software license."); ?>"><?php print _("Read more"); ?></a></p>
-      </section>
+      <div class="row">
+        <div class="col m12 l6">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <h2 class="card-title"><?php print _("Restrictions"); ?></h2>
+              <p><?php
+              # translators: You may add emphasis ('em' tags) around the word 'licensed' if you wish
+              print _("A legal copy of Windows is expensive, but what do you get? Windows and Office are licensed, not sold."); ?></p>
+              <p><?php print _("By using these products, we have to agree to <strong>a number of harsh restrictions</strong>. For most Windows licenses, you can't keep the software when you change the hardware. You sometimes can't even give your software away. Who can run the software? On which computer? What can you do with it? The list of restrictions is long and some items are outrageous."); ?></p>
+            </div>
+            <div class="card-action">
+              <a href="<?php $this->base_url('windows/restrictions'); ?>"><?php print _("Read more"); ?></a>
+            </div>
+          </div>
+        </div>
+        <div class="col m12 l6">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <h2 class="card-title"><?php print _("What about choice?"); ?></h2>
+              <p><?php print _("Software should come without locks in it."); ?></p>
+              <p><?php print _("Why are Office documents difficult to export? Why are the formats continually changing? Why can you not even uninstall some programs? It might be that if you look for choice, Microsoft products aren't for you."); ?></p>
+            </div>
+            <div class="card-action">
+              <a href="<?php $this->base_url('windows/what_about_choice'); ?>"><?php print _("Read more"); ?></a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-      <section>
-        <h2><?php print _("What about choice?"); ?></h2>
-        <p><?php print _("Software should come without locks in it."); ?></p>
-        <p><?php print _("Why are Office documents difficult to export? Why are the formats continually changing? Why can you not even uninstall some programs? It might be that if you look for choice, Microsoft products aren't for you."); ?></p>
-        <p><a class="waves-effect btn-flat btn-outlined" href="<?php $this->base_url('windows/what_about_choice'); ?>" title="<?php print _("How Microsoft lock customers in."); ?>"><?php print _("Read more"); ?></a></p>
-      </section>
-
-      <section>
-        <h2><?php print _("No source code"); ?></h2>
-        <p><?php print _("The source codes of Windows and Office are hidden, so, <strong>no one is allowed to understand</strong> how these programs work."); ?></p>
-        <p><?php print _("If you can't get a right to inspect source code (the human-readable inner workings of a program), you can't have someone correct flaws or evaluate how your privacy is protected for you."); ?></p>
-        <p><?php print _("And guess what? On software that comes with source code, viruses and spyware aren't effective, and security isn't bought on extra. The antivirus software industry, in which Microsoft is now a significant player, prefers you to use Windows."); ?></p>
-        <p><a class="waves-effect btn-flat btn-outlined" href="<?php $this->base_url('windows/what_about_source_code'); ?>" title="<?php print _("No source code means no trust and no security."); ?>"><?php print _("Read more"); ?></a></p>
-      </section>
-
-      <section>
-        <h2><?php print _("Stand for a free society"); ?></h2>
-        <p><?php
-        # translators: In your language, you might not need to make the distinction between price and freedom. Please do however express that price does not matter, in this sentence.
-        print _("A free society requires free software. Think of &quot;free&quot; as in freedom, not price: the freedoms to inspect, learn from, modify the software you use."); ?></p>
-        <p><?php print _("Computers are used to share ideas, culture and information. Without these freedoms over software, we risk losing control over what we share."); ?></p>
-        <p><?php print _("This is happening today. From plain annoying technologies such as Digital Restrictions Management (<strong>DRM</strong>) to downright frightening ones like <strong>Trusted Computing</strong>, everyone's ability to participate in culture is threatened."); ?></p>
-        <p><?php print _("If you have to give up your freedoms to use software, maybe you should not be happy with it."); ?></p>
-        <p><a class="waves-effect btn-flat btn-outlined" href="<?php $this->base_url('windows/stand_for_a_free_society'); ?>" title="<?php print _("How software affects freedom in society."); ?>"><?php print _("Read more"); ?></a></p>
-      </section>
+      <div class="row">
+        <div class="col m12 l6">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <h2 class="card-title"><?php print _("No source code"); ?></h2>
+              <p><?php print _("The source codes of Windows and Office are hidden, so, <strong>no one is allowed to understand</strong> how these programs work."); ?></p>
+              <p><?php print _("If you can't get a right to inspect source code (the human-readable inner workings of a program), you can't have someone correct flaws or evaluate how your privacy is protected for you."); ?></p>
+              <p><?php print _("And guess what? On software that comes with source code, viruses and spyware aren't effective, and security isn't bought on extra. The antivirus software industry, in which Microsoft is now a significant player, prefers you to use Windows."); ?></p>
+            </div>
+            <div class="card-action">
+              <a href="<?php $this->base_url('windows/what_about_source_code'); ?>"><?php print _("Read more"); ?></a>
+            </div>
+          </div>
+        </div>
+        <div class="col m12 l6">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <h2 class="card-title"><?php print _("Stand for a free society"); ?></h2>
+              <p><?php
+              # translators: In your language, you might not need to make the distinction between price and freedom. Please do however express that price does not matter, in this sentence.
+              print _("A free society requires free software. Think of &quot;free&quot; as in freedom, not price: the freedoms to inspect, learn from, modify the software you use."); ?></p>
+              <p><?php print _("Computers are used to share ideas, culture and information. Without these freedoms over software, we risk losing control over what we share."); ?></p>
+              <p><?php print _("This is happening today. From plain annoying technologies such as Digital Restrictions Management (<strong>DRM</strong>) to downright frightening ones like <strong>Trusted Computing</strong>, everyone's ability to participate in culture is threatened."); ?></p>
+              <p><?php print _("If you have to give up your freedoms to use software, maybe you should not be happy with it."); ?></p>
+            </div>
+            <div class="card-action">
+              <a href="<?php $this->base_url('windows/stand_for_a_free_society'); ?>"><?php print _("Read more"); ?></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <section class="conclusion">
