@@ -286,15 +286,24 @@ class HTML {
     }
 
     /**
+     * Get the URL for a file.
+     *
+     * @uses GetGnuLinux $ggl
+     * @param string $file The relative path to a file.
+     */
+    function get_url($file) {
+        global $ggl;
+        return sprintf("%s%s", $ggl->get('base_url'), $file);
+    }
+
+    /**
      * Print the URL for a file.
      *
      * @uses GetGnuLinux $ggl
      * @param string $file The relative path to a file.
      */
-    function url($file)
-    {
-        global $ggl;
-        printf("%s%s", $ggl->get('base_url'), $file);
+    function url($file) {
+        print $this->get_url($file);
     }
 
     /**
@@ -305,8 +314,7 @@ class HTML {
      *      language-specific version.
      * @return string $path Path to the language-specific file.
      */
-    function language_file($filename)
-    {
+    function language_file($filename) {
         global $ggl;
         $path = sprintf("/images/locale/%s/%s", $ggl->get('lang'), $filename);
         if (!file_exists(ROOT.$path)) {
@@ -339,6 +347,7 @@ class HTML {
             'title' => $this->bare_page_title($ggl->get('website_title')),
             'description' => $this->page_description(),
             'url' => $this->current_page_url($ggl->get('locale_override')),
+            'image' => $this->get_url('images/open-graph.png'),
         );
 
         foreach ($properties as $property => $content) {

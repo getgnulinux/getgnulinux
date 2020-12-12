@@ -160,7 +160,16 @@ class GGL {
     public function init() {
         # Set the base URL.
         if (empty($this->config['base_url'])) {
-            $this->config['base_url'] = sprintf('http://%s/', $_SERVER['HTTP_HOST']);
+            if ((isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' || $_SERVER['HTTPS'] == 1)) ||
+                (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https')) {
+                $protocol = 'https://';
+            }
+            else {
+                $protocol = 'http://';
+            }
+
+            $domain_name = $_SERVER['HTTP_HOST'];
+            $this->config['base_url'] = sprintf('%s%s/', $protocol, $domain_name);
         }
 
         # Get the locale provided in the URL. Defaults to null if no locale
