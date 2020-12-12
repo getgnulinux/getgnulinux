@@ -115,7 +115,7 @@ $this->load_header();
     </div>
   </article>
 
-  <aside class="bg-even">
+  <aside class="brown lighten-5">
     <div class="container button-section">
       <h1><?php print _("Choose a distribution"); ?></h1>
 

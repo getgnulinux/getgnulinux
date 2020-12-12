@@ -20,7 +20,7 @@ $this->load_header();
       </header>
     </div>
 
-    <section>
+    <section class="brown lighten-5">
       <div class="container button-section">
         <h1><?php print _("What is GNU/Linux?"); ?></h1>
         <div class="page-intro">
@@ -33,7 +33,7 @@ $this->load_header();
       </div>
     </section>
 
-    <section class="bg-even">
+    <section>
       <div class="container button-section">
         <h1><?php print _("Why not Windows"); ?></h1>
         <div class="page-intro">
@@ -46,7 +46,7 @@ $this->load_header();
       </div>
     </section>
 
-    <section>
+    <section class="brown lighten-5">
       <div class="container button-section">
         <h1><?php print _("Switch to GNU/Linux"); ?></h1>
         <div class="page-intro">

@@ -94,7 +94,7 @@ $this->load_header();
     </section>
   </article>
 
-  <aside class="bg-even">
+  <aside class="brown lighten-5">
     <div class="container button-section">
       <h1><?php print _("Switch to GNU/Linux"); ?></h1>
       <div class="page-intro">

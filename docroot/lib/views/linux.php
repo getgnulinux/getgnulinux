@@ -78,7 +78,7 @@ $this->load_header();
 
   <!-- WHY NOT WINDOWS -->
 
-  <aside class="bg-even">
+  <aside class="brown lighten-5">
     <div class="container button-section">
       <h1><?php print _("Why not Windows"); ?></h1>
       <div class="page-intro">

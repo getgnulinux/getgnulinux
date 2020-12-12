@@ -16,7 +16,7 @@ $this->load_header();
     </div>
   </section>
 
-  <section class="bg-even">
+  <section class="brown lighten-5">
     <div class="container button-section">
       <h1><?php print _("From Windows to GNU/Linux"); ?></h1>
 
@@ -47,7 +47,7 @@ $this->load_header();
     </div>
   </section>
 
-  <section class="bg-even">
+  <section class="brown lighten-5">
     <div class="container button-section">
       <h1><?php print _("Try or install"); ?></h1>
 
