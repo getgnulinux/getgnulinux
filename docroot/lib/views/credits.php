@@ -313,7 +313,7 @@ $this->load_header();
 
     <br>
 
-    <p>Is your name missing? Please <a href="https://github.com/getgnulinux/getgnulinux/issues" rel="external">create and issue on GitHub</a> or send us a pull request. Be sure to include your name and optionally a URL to your profile/website.</p>
+    <p>Did we forget your name? Please <a href="https://community.getgnulinux.org/u/serrano/summary" rel="external">send me a message</a> or <a href="https://github.com/getgnulinux/getgnulinux#readme" rel="external">send us a pull request</a>. Be sure to include your name and optionally a URL to your profile/website.</p>
 
     <h2>Inspiration &amp; reading</h2>
     <ul class="browser-default">
