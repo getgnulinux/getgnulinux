@@ -21,7 +21,7 @@ $this->load_header();
         <h2 id="live_cd"><?php print _("Try out the live USB stick"); ?></h2>
 
         <h3 id="live_cd_what_is"><?php print _("Take no risk"); ?></h3>
-        <img src="/images/USB-stick.svg" class="float-right width20p hidden-xs" alt="">
+        <img src="/images/USB-stick.svg" class="float-right w20 hidden-xs" alt="">
         <p><?php print _("Using a live USB stick means that GNU/Linux will be running on your computer <em>without installing anything</em>. It's a risk-less way to try and see by yourself what GNU/Linux is."); ?></p>
         <p><?php print _("When running on a live USB stick, your computer uses solely the USB stick to work (without accessing the hard drive inside). You can launch all of the default programs, edit documents, and browse the web."); ?></p>
         <p><?php print _("Since it is only designed as a trial mode, it is a little slow (it will take you five minutes to boot up, and programs launch somewhat slowly). If you proceed to install, the system will go much faster."); ?></p>
@@ -96,7 +96,7 @@ $this->load_header();
 
       <section>
         <h2 id="free_software_pre_installed"><?php print _("Free Software pre-installed"); ?></h2>
-        <img src="/images/Laptop.png" class="float-right width20p hidden-sm" alt="">
+        <img src="/images/Meerkat.png" class="float-right w30 hidden-sm" alt="">
         <p><?php print _("Not all computers are shipped with Windows or macOS. If you do not wish to make the install yourself, or are in need of new hardware, you can get a laptop or a desktop pre-installed with GNU/Linux. <a href=\"https://linuxpreloaded.com/\" rel=\"external\">LinuxPreloaded.com</a> has compiled a list of vendors pre-installing GNU/Linux just for that reason."); ?></p>
       </section>
     </article>
