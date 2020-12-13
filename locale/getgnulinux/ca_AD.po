@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/getgnulinux/getgnulinux/issues\n"
-"POT-Creation-Date: 2020-12-13 01:55+0000\n"
+"POT-Creation-Date: 2020-12-13 03:38+0000\n"
 "PO-Revision-Date: 2020-12-01 00:06+0000\n"
 "Last-Translator: Josep Sànchez <papapep@gmx.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/serrano/getgnulinux/"
@@ -65,7 +65,7 @@ msgstr ""
 #: docroot/lib/views/windows.stand_for_a_free_society.php:141
 #: docroot/lib/views/linux.linux_faq.php:97
 #: docroot/lib/views/linux.linux_faq.php:141
-#: docroot/lib/views/linux.linux_faq.php:152 docroot/lib/views/linux.php:53
+#: docroot/lib/views/linux.linux_faq.php:152 docroot/lib/views/linux.php:70
 msgid "How to Misunderstand Free Software"
 msgstr "Com no entendre el Programari Lliure"
 
@@ -78,7 +78,8 @@ msgstr "Quin aspecte té el GNU/Linux"
 #: docroot/lib/ggl.php:229
 #: docroot/lib/views/windows.what_about_source_code.php:61
 #: docroot/lib/views/windows.stand_for_a_free_society.php:152
-#: docroot/lib/views/linux.php:83 docroot/lib/views/windows.restrictions.php:73
+#: docroot/lib/views/linux.php:100
+#: docroot/lib/views/windows.restrictions.php:73
 #: docroot/lib/views/windows.php:16 docroot/lib/views/home.php:38
 #: docroot/lib/views/windows.what_about_choice.php:65
 #: src/templates/header.php:44 src/templates/header.php:69
@@ -120,7 +121,7 @@ msgstr "Sense codi font"
 
 #. translators: This appears in the top header menu and should be as short and concise as possible.
 #: docroot/lib/ggl.php:241 docroot/lib/views/switch_to_linux.php:15
-#: docroot/lib/views/linux.php:98 docroot/lib/views/windows.php:99
+#: docroot/lib/views/linux.php:115 docroot/lib/views/windows.php:99
 #: docroot/lib/views/home.php:51 src/templates/header.php:45
 #: src/templates/header.php:70
 msgid "Switch to GNU/Linux"
@@ -383,8 +384,8 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.php:58
 #: docroot/lib/views/windows.stand_for_a_free_society.php:105
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:126
-#: docroot/lib/views/linux.php:59 docroot/lib/views/linux.php:70
-#: docroot/lib/views/linux.php:87 docroot/lib/views/linux.php:102
+#: docroot/lib/views/linux.php:76 docroot/lib/views/linux.php:87
+#: docroot/lib/views/linux.php:104 docroot/lib/views/linux.php:119
 #: docroot/lib/views/windows.restrictions.php:65
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:138
 #: docroot/lib/views/windows.php:36 docroot/lib/views/windows.php:48
@@ -593,7 +594,7 @@ msgstr ""
 
 #. translators: use the definition of "free software" on GNU.org
 #: docroot/lib/views/linux.misunderstanding_free_software.php:24
-#: docroot/lib/views/linux.php:56
+#: docroot/lib/views/linux.php:73
 msgid "Misconceptions about free software, corrected."
 msgstr ""
 
@@ -2778,12 +2779,12 @@ msgid ""
 "\">Making the switch</a> page."
 msgstr ""
 
-#: docroot/lib/views/linux.php:34
+#: docroot/lib/views/linux.php:51
 msgid "The larger picture"
 msgstr "La resposta completa"
 
 #. translators: use the definition of "free software" on GNU.org
-#: docroot/lib/views/linux.php:36
+#: docroot/lib/views/linux.php:53
 msgid ""
 "When you get a distribution of GNU/Linux, <strong>you also get the freedom "
 "to study, copy, change, and redistribute it</strong> &ndash;&nbsp;that's "
@@ -2791,7 +2792,7 @@ msgid ""
 "title=\"what is freedom in software?\" rel=\"external\">free software</a>."
 msgstr ""
 
-#: docroot/lib/views/linux.php:37
+#: docroot/lib/views/linux.php:54
 msgid ""
 "Many companies develop their own operating system based on the core <a href="
 "\"https://www.gnu.org\" title=\"the GNU project: at the source of all GNU/"
@@ -2799,7 +2800,7 @@ msgid ""
 "not have exclusive rights on. How does the wheel turn?"
 msgstr ""
 
-#: docroot/lib/views/linux.php:39
+#: docroot/lib/views/linux.php:56
 msgid ""
 "Most companies make a profit by <em>selling support and services</em> around "
 "their GNU/Linux distribution. Corporate customers buy guaranteed security "
@@ -2811,13 +2812,13 @@ msgstr ""
 "actualitzacions segures i l'assistència. Altres serveis inclouen formació i "
 "millores a mida del programari."
 
-#: docroot/lib/views/linux.php:40
+#: docroot/lib/views/linux.php:57
 msgid ""
 "Some companies, such as HP or IBM, contribute to GNU/Linux because they pre-"
 "install it on servers they sell."
 msgstr ""
 
-#: docroot/lib/views/linux.php:41
+#: docroot/lib/views/linux.php:58
 msgid ""
 "An extremely wide community participates in the development and improvement "
 "of software, decreasing costs and improving efficiency."
@@ -2825,7 +2826,7 @@ msgstr ""
 "El fet que una comunitat àmplia participi en el desenvolupament i millora "
 "del programari, disminueix costos i millora l'eficiència."
 
-#: docroot/lib/views/linux.php:43
+#: docroot/lib/views/linux.php:60
 msgid ""
 "In the end, individual end-users often get the software at zero cost, while "
 "corporate customers are often happy to pay for more support."
@@ -2833,22 +2834,22 @@ msgstr ""
 "En última instància, l'usuari final acostuma a tenir els programes a cost "
 "zero, mentre que les empreses acostumen a preferir pagar per més suport."
 
-#: docroot/lib/views/linux.php:66 src/templates/header.php:68
+#: docroot/lib/views/linux.php:83 src/templates/header.php:68
 #, fuzzy
 msgid "GNU/Linux FAQ"
 msgstr "Canvieu a GNU/Linux!"
 
-#: docroot/lib/views/linux.php:67
+#: docroot/lib/views/linux.php:84
 msgid ""
 "This FAQ covers common questions about GNU/Linux. We hope this FAQ list can "
 "help if you are more curious."
 msgstr ""
 
-#: docroot/lib/views/linux.php:85 docroot/lib/views/home.php:40
+#: docroot/lib/views/linux.php:102 docroot/lib/views/home.php:40
 msgid "Why we should avoid using Microsoft Windows"
 msgstr "Per què hauríeu d'evitar utilitzar Microsoft Windows"
 
-#: docroot/lib/views/linux.php:100 docroot/lib/views/windows.php:101
+#: docroot/lib/views/linux.php:117 docroot/lib/views/windows.php:101
 #: docroot/lib/views/home.php:53
 msgid "Where to download and how to step into GNU/Linux"
 msgstr ""

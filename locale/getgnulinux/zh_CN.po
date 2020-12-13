@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/getgnulinux/getgnulinux/issues\n"
-"POT-Creation-Date: 2020-12-13 01:55+0000\n"
+"POT-Creation-Date: 2020-12-13 03:38+0000\n"
 "PO-Revision-Date: 2020-12-01 00:06+0000\n"
 "Last-Translator: Serrano Pereira <serrano.pereira@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/serrano/getgnulinux/"
@@ -75,7 +75,7 @@ msgstr "GNU/Linux FAQ — GNU/Linux 的常见问题"
 #: docroot/lib/views/windows.stand_for_a_free_society.php:141
 #: docroot/lib/views/linux.linux_faq.php:97
 #: docroot/lib/views/linux.linux_faq.php:141
-#: docroot/lib/views/linux.linux_faq.php:152 docroot/lib/views/linux.php:53
+#: docroot/lib/views/linux.linux_faq.php:152 docroot/lib/views/linux.php:70
 msgid "How to Misunderstand Free Software"
 msgstr "人们对自由软件有哪些误解"
 
@@ -88,7 +88,8 @@ msgstr "GNU/Linux 是什么样的"
 #: docroot/lib/ggl.php:229
 #: docroot/lib/views/windows.what_about_source_code.php:61
 #: docroot/lib/views/windows.stand_for_a_free_society.php:152
-#: docroot/lib/views/linux.php:83 docroot/lib/views/windows.restrictions.php:73
+#: docroot/lib/views/linux.php:100
+#: docroot/lib/views/windows.restrictions.php:73
 #: docroot/lib/views/windows.php:16 docroot/lib/views/home.php:38
 #: docroot/lib/views/windows.what_about_choice.php:65
 #: src/templates/header.php:44 src/templates/header.php:69
@@ -130,7 +131,7 @@ msgstr "无源代码"
 
 #. translators: This appears in the top header menu and should be as short and concise as possible.
 #: docroot/lib/ggl.php:241 docroot/lib/views/switch_to_linux.php:15
-#: docroot/lib/views/linux.php:98 docroot/lib/views/windows.php:99
+#: docroot/lib/views/linux.php:115 docroot/lib/views/windows.php:99
 #: docroot/lib/views/home.php:51 src/templates/header.php:45
 #: src/templates/header.php:70
 msgid "Switch to GNU/Linux"
@@ -374,8 +375,8 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.php:58
 #: docroot/lib/views/windows.stand_for_a_free_society.php:105
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:126
-#: docroot/lib/views/linux.php:59 docroot/lib/views/linux.php:70
-#: docroot/lib/views/linux.php:87 docroot/lib/views/linux.php:102
+#: docroot/lib/views/linux.php:76 docroot/lib/views/linux.php:87
+#: docroot/lib/views/linux.php:104 docroot/lib/views/linux.php:119
 #: docroot/lib/views/windows.restrictions.php:65
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:138
 #: docroot/lib/views/windows.php:36 docroot/lib/views/windows.php:48
@@ -568,7 +569,7 @@ msgstr "您不能学习参考的软件，或者告诉您一切细节的软件—
 
 #. translators: use the definition of "free software" on GNU.org
 #: docroot/lib/views/linux.misunderstanding_free_software.php:24
-#: docroot/lib/views/linux.php:56
+#: docroot/lib/views/linux.php:73
 msgid "Misconceptions about free software, corrected."
 msgstr "对关于自由软件的误解的纠正"
 
@@ -2878,12 +2879,12 @@ msgstr ""
 "你不应该把 GNU/Linux 想象成 Windows 的克隆。想知道使用它有什么值得期待吗，建"
 "议你阅读我们的<a href=\"%s\">切换</a>一页。"
 
-#: docroot/lib/views/linux.php:34
+#: docroot/lib/views/linux.php:51
 msgid "The larger picture"
 msgstr "大图景"
 
 #. translators: use the definition of "free software" on GNU.org
-#: docroot/lib/views/linux.php:36
+#: docroot/lib/views/linux.php:53
 msgid ""
 "When you get a distribution of GNU/Linux, <strong>you also get the freedom "
 "to study, copy, change, and redistribute it</strong> &ndash;&nbsp;that's "
@@ -2891,7 +2892,7 @@ msgid ""
 "title=\"what is freedom in software?\" rel=\"external\">free software</a>."
 msgstr ""
 
-#: docroot/lib/views/linux.php:37
+#: docroot/lib/views/linux.php:54
 msgid ""
 "Many companies develop their own operating system based on the core <a href="
 "\"https://www.gnu.org\" title=\"the GNU project: at the source of all GNU/"
@@ -2902,7 +2903,7 @@ msgstr ""
 "the source of all GNU/Linux distributions\" rel=\"external\">GNU软件</a>基础"
 "上开发出自己的操作系统: 他们无法独有的产品。何以使然呢？"
 
-#: docroot/lib/views/linux.php:39
+#: docroot/lib/views/linux.php:56
 msgid ""
 "Most companies make a profit by <em>selling support and services</em> around "
 "their GNU/Linux distribution. Corporate customers buy guaranteed security "
@@ -2912,7 +2913,7 @@ msgstr ""
 "多数公司通过推销他们围绕其GNU/Linux发行版提供的支持与服务盈利。公司的客户则购"
 "买有保障的安全更新与协助。其他的服务还包括培训以及对软件应需改进。"
 
-#: docroot/lib/views/linux.php:40
+#: docroot/lib/views/linux.php:57
 msgid ""
 "Some companies, such as HP or IBM, contribute to GNU/Linux because they pre-"
 "install it on servers they sell."
@@ -2920,13 +2921,13 @@ msgstr ""
 "一些公司，如 HP 或 IBM，也为 GNU/Linux 做贡献，那是因为他们在其发售的服务器上"
 "预装了 GNU/Linux。"
 
-#: docroot/lib/views/linux.php:41
+#: docroot/lib/views/linux.php:58
 msgid ""
 "An extremely wide community participates in the development and improvement "
 "of software, decreasing costs and improving efficiency."
 msgstr "一个范围极广的社区参与软件的开发与改进，降低成本的同时也提高了效率。"
 
-#: docroot/lib/views/linux.php:43
+#: docroot/lib/views/linux.php:60
 msgid ""
 "In the end, individual end-users often get the software at zero cost, while "
 "corporate customers are often happy to pay for more support."
@@ -2934,12 +2935,12 @@ msgstr ""
 "最终，终端个人用户常常无需花钱便获得了软件，而公司客户则乐意花钱以获得更多的"
 "支持。"
 
-#: docroot/lib/views/linux.php:66 src/templates/header.php:68
+#: docroot/lib/views/linux.php:83 src/templates/header.php:68
 #, fuzzy
 msgid "GNU/Linux FAQ"
 msgstr "获取GNU/Linux！"
 
-#: docroot/lib/views/linux.php:67
+#: docroot/lib/views/linux.php:84
 #, fuzzy
 msgid ""
 "This FAQ covers common questions about GNU/Linux. We hope this FAQ list can "
@@ -2948,11 +2949,11 @@ msgstr ""
 "<a href=\"%s\">关于 GNU/Linux 页面</a> 涵盖了最基本的信息。希望这篇 FAQ 可以"
 "帮你了解更多。"
 
-#: docroot/lib/views/linux.php:85 docroot/lib/views/home.php:40
+#: docroot/lib/views/linux.php:102 docroot/lib/views/home.php:40
 msgid "Why we should avoid using Microsoft Windows"
 msgstr "为什么避免使用Microsoft Windows？"
 
-#: docroot/lib/views/linux.php:100 docroot/lib/views/windows.php:101
+#: docroot/lib/views/linux.php:117 docroot/lib/views/windows.php:101
 #: docroot/lib/views/home.php:53
 msgid "Where to download and how to step into GNU/Linux"
 msgstr "从何处下载 GNU/Linux？如何开始使用？"

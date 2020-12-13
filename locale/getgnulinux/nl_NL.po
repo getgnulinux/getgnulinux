@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: https://github.com/getgnulinux/getgnulinux/issues\n"
-"POT-Creation-Date: 2020-12-13 01:55+0000\n"
+"POT-Creation-Date: 2020-12-13 03:38+0000\n"
 "PO-Revision-Date: 2020-12-12 23:39+0000\n"
 "Last-Translator: Serrano Pereira <serrano@bitosis.nl>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/getgnulinux/"
@@ -69,7 +69,7 @@ msgstr "GNU/Linux FAQ - veelgestelde vragen over GNU/Linux"
 #: docroot/lib/views/windows.stand_for_a_free_society.php:141
 #: docroot/lib/views/linux.linux_faq.php:97
 #: docroot/lib/views/linux.linux_faq.php:141
-#: docroot/lib/views/linux.linux_faq.php:152 docroot/lib/views/linux.php:53
+#: docroot/lib/views/linux.linux_faq.php:152 docroot/lib/views/linux.php:70
 msgid "How to Misunderstand Free Software"
 msgstr "Hoe je Vrije Software verkeerd kunt begrijpen"
 
@@ -82,7 +82,8 @@ msgstr "Hoe GNU/Linux eruit ziet"
 #: docroot/lib/ggl.php:229
 #: docroot/lib/views/windows.what_about_source_code.php:61
 #: docroot/lib/views/windows.stand_for_a_free_society.php:152
-#: docroot/lib/views/linux.php:83 docroot/lib/views/windows.restrictions.php:73
+#: docroot/lib/views/linux.php:100
+#: docroot/lib/views/windows.restrictions.php:73
 #: docroot/lib/views/windows.php:16 docroot/lib/views/home.php:38
 #: docroot/lib/views/windows.what_about_choice.php:65
 #: src/templates/header.php:44 src/templates/header.php:69
@@ -124,7 +125,7 @@ msgstr "Geen broncode"
 
 #. translators: This appears in the top header menu and should be as short and concise as possible.
 #: docroot/lib/ggl.php:241 docroot/lib/views/switch_to_linux.php:15
-#: docroot/lib/views/linux.php:98 docroot/lib/views/windows.php:99
+#: docroot/lib/views/linux.php:115 docroot/lib/views/windows.php:99
 #: docroot/lib/views/home.php:51 src/templates/header.php:45
 #: src/templates/header.php:70
 msgid "Switch to GNU/Linux"
@@ -389,8 +390,8 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.php:58
 #: docroot/lib/views/windows.stand_for_a_free_society.php:105
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:126
-#: docroot/lib/views/linux.php:59 docroot/lib/views/linux.php:70
-#: docroot/lib/views/linux.php:87 docroot/lib/views/linux.php:102
+#: docroot/lib/views/linux.php:76 docroot/lib/views/linux.php:87
+#: docroot/lib/views/linux.php:104 docroot/lib/views/linux.php:119
 #: docroot/lib/views/windows.restrictions.php:65
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:138
 #: docroot/lib/views/windows.php:36 docroot/lib/views/windows.php:48
@@ -598,7 +599,7 @@ msgstr ""
 
 #. translators: use the definition of "free software" on GNU.org
 #: docroot/lib/views/linux.misunderstanding_free_software.php:24
-#: docroot/lib/views/linux.php:56
+#: docroot/lib/views/linux.php:73
 msgid "Misconceptions about free software, corrected."
 msgstr "Misvattingen over vrije software gecorrigeerd."
 
@@ -3149,12 +3150,12 @@ msgstr ""
 "wat je kunt verwachten kijk je op de pagina \"<a href=\"%s\">Overstappen</a>"
 "\"."
 
-#: docroot/lib/views/linux.php:34
+#: docroot/lib/views/linux.php:51
 msgid "The larger picture"
 msgstr "Een overzicht"
 
 #. translators: use the definition of "free software" on GNU.org
-#: docroot/lib/views/linux.php:36
+#: docroot/lib/views/linux.php:53
 msgid ""
 "When you get a distribution of GNU/Linux, <strong>you also get the freedom "
 "to study, copy, change, and redistribute it</strong> &ndash;&nbsp;that's "
@@ -3167,7 +3168,7 @@ msgstr ""
 "\" title=\"wat is vrijheid van software?\" rel=\"external\">vrije software</"
 "a> maakt."
 
-#: docroot/lib/views/linux.php:37
+#: docroot/lib/views/linux.php:54
 msgid ""
 "Many companies develop their own operating system based on the core <a href="
 "\"https://www.gnu.org\" title=\"the GNU project: at the source of all GNU/"
@@ -3179,7 +3180,7 @@ msgstr ""
 "bron van alle GNU/Linux-distributies.\" rel=\"external\">GNU</a>, producten "
 "waar ze geen exclusieve rechten op hebben. Hoe zit dat in elkaar?"
 
-#: docroot/lib/views/linux.php:39
+#: docroot/lib/views/linux.php:56
 msgid ""
 "Most companies make a profit by <em>selling support and services</em> around "
 "their GNU/Linux distribution. Corporate customers buy guaranteed security "
@@ -3191,7 +3192,7 @@ msgstr ""
 "veiligheidupdates en assistentie. Andere diensten zijn bijvoorbeeld training "
 "en specifieke aanpassingen aan de software."
 
-#: docroot/lib/views/linux.php:40
+#: docroot/lib/views/linux.php:57
 msgid ""
 "Some companies, such as HP or IBM, contribute to GNU/Linux because they pre-"
 "install it on servers they sell."
@@ -3199,7 +3200,7 @@ msgstr ""
 "Sommige bedrijven, zoals HP of IBM, werken mee aan GNU/Linux omdat ze het "
 "voorinstalleren op servers die ze verkopen."
 
-#: docroot/lib/views/linux.php:41
+#: docroot/lib/views/linux.php:58
 msgid ""
 "An extremely wide community participates in the development and improvement "
 "of software, decreasing costs and improving efficiency."
@@ -3207,7 +3208,7 @@ msgstr ""
 "Een zeer brede gemeenschap neemt deel aan de ontwikkeling en verbetering van "
 "software, waardoor kosten omlaag en effici&euml;ntie omhoog gaan."
 
-#: docroot/lib/views/linux.php:43
+#: docroot/lib/views/linux.php:60
 msgid ""
 "In the end, individual end-users often get the software at zero cost, while "
 "corporate customers are often happy to pay for more support."
@@ -3215,11 +3216,11 @@ msgstr ""
 "Uiteindelijk is de software voor individuele gebruikers vaak gratis, terwijl "
 "bedrijven meestal graag betalen voor meer ondersteuning."
 
-#: docroot/lib/views/linux.php:66 src/templates/header.php:68
+#: docroot/lib/views/linux.php:83 src/templates/header.php:68
 msgid "GNU/Linux FAQ"
 msgstr "GNU/Linux FAQ"
 
-#: docroot/lib/views/linux.php:67
+#: docroot/lib/views/linux.php:84
 msgid ""
 "This FAQ covers common questions about GNU/Linux. We hope this FAQ list can "
 "help if you are more curious."
@@ -3227,11 +3228,11 @@ msgstr ""
 "Deze FAQ behandeld veelgestelde vragen over GNU/Linux. We hopen dat deze FAQ "
 "je kan helpen als je meer wil weten."
 
-#: docroot/lib/views/linux.php:85 docroot/lib/views/home.php:40
+#: docroot/lib/views/linux.php:102 docroot/lib/views/home.php:40
 msgid "Why we should avoid using Microsoft Windows"
 msgstr "Waarom we Microsoft Windows zouden moeten vermijden"
 
-#: docroot/lib/views/linux.php:100 docroot/lib/views/windows.php:101
+#: docroot/lib/views/linux.php:117 docroot/lib/views/windows.php:101
 #: docroot/lib/views/home.php:53
 msgid "Where to download and how to step into GNU/Linux"
 msgstr "Waar downloaden, en hoe met GNU/Linux beginnen"
