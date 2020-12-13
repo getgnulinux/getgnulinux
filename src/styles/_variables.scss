@@ -1,3 +1,5 @@
+/* Bourbon */
+
 $medium-screen: 600px;
 $large-screen: 900px;
 
@@ -26,5 +28,21 @@ $container-gutter: 30px;
 $section-gutter: 2em;
 $footer-gutter: 4em;
 
-$color-light-green: #E4EFC7;
-$color-light-green-2: #CEDFA1;
+/* Materialize */
+
+$font-stack: "Open Sans", sans-serif;
+$medium-screen: 1020px;
+$primary-color: color("light-green", "darken-4");
+$secondary-color: color("light-green", "darken-4");
+$shade-lighten-4: color("blue-grey", "lighten-4");
+$highlight-darken-4: color("light-green", "darken-4");
+$highlight-darken-3: color("light-green", "darken-3");
+$highlight-lighten-4: color("light-green", "lighten-4");
+$highlight-lighten-3: color("light-green", "lighten-3");
+$highlight-lighten-2: color("light-green", "lighten-2");
+$button-raised-background: $secondary-color;
+$button-radius: 4px;
+$sidenav-width: 300px;
+$sidenav-bg-color: $primary-color;
+$sidenav-font-color: #FFFFFF;
+$sidenav-padding: 5px;

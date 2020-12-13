@@ -140,7 +140,7 @@ class HTML {
     }
 
     function nav_link($id, $page, $title) {
-      printf('<li id="%s" class="waves-effect waves-light %s"><a href="%s">%s</a>',
+      printf('<li id="%s" class="waves-effect waves-light %s"><a href="%s">%s</a></li>',
         $id,
         $this->we_are_here($page, true) ? 'active' : '',
         $this->get_base_url($page),
@@ -148,8 +148,8 @@ class HTML {
     }
 
     function sidenav_link($page, $title) {
-      printf('<li class="%s"><a class="waves-effect" href="%s">%s <i class="material-icons %s">chevron_right</i></a>',
-        $this->we_are_here($page, true) ? 'active' : '',
+      printf('<li class="%s"><a class="waves-effect" href="%s">%s <i class="material-icons %s">chevron_right</i></a></li>',
+        $this->we_are_here($page) ? 'active' : '',
         $this->get_base_url($page),
         $title,
         $this->rtltr("right", "left")

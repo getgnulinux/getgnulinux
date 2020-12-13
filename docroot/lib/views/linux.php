@@ -43,9 +43,9 @@ $this->load_header();
         <p><?php print _("In the end, individual end-users often get the software at zero cost, while corporate customers are often happy to pay for more support."); ?></p>
       </section>
 
-      <section>
-        <h3><?php print _("More in this section"); ?></h3>
+      <br>
 
+      <aside>
         <div class="row">
           <div class="col s12 m6">
             <div class="card blue-grey darken-1">
@@ -72,7 +72,7 @@ $this->load_header();
             </div>
           </div>
         </div>
-      </section>
+      <aside>
     </div>
   </article>
 

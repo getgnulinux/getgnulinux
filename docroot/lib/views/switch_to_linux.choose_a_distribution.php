@@ -55,15 +55,15 @@ $fedora3_text = _("Software manager open, install/remove applications.");
           <ul class="slides">
             <li>
               <img src="/images/screenshots/debian1.jpg" alt="Debian screenshot" />
-              <p class="flex-caption brown lighten-5"><?php print $debian1_text; ?></p>
+              <p class="flex-caption"><?php print $debian1_text; ?></p>
             </li>
             <li>
               <img src="/images/screenshots/debian2.jpg" alt="Debian screenshot" />
-              <p class="flex-caption brown lighten-5"><?php print $debian2_text; ?></p>
+              <p class="flex-caption"><?php print $debian2_text; ?></p>
             </li>
             <li>
               <img src="/images/screenshots/debian3.jpg" alt="Debian screenshot" />
-              <p class="flex-caption brown lighten-5"><?php print $debian3_text; ?></p>
+              <p class="flex-caption"><?php print $debian3_text; ?></p>
             </li>
           </ul>
         </div>
@@ -83,15 +83,15 @@ $fedora3_text = _("Software manager open, install/remove applications.");
           <ul class="slides">
             <li>
               <img src="/images/screenshots/ubuntu1.jpg" alt="Ubuntu screenshot" />
-              <p class="flex-caption brown lighten-5"><?php print $ubuntu1_text; ?></p>
+              <p class="flex-caption"><?php print $ubuntu1_text; ?></p>
             </li>
             <li>
               <img src="/images/screenshots/ubuntu2.jpg" alt="Ubuntu screenshot" />
-              <p class="flex-caption brown lighten-5"><?php print $ubuntu2_text; ?></p>
+              <p class="flex-caption"><?php print $ubuntu2_text; ?></p>
             </li>
             <li>
               <img src="/images/screenshots/ubuntu3.jpg" alt="Ubuntu screenshot" />
-              <p class="flex-caption brown lighten-5"><?php print $ubuntu3_text; ?></p>
+              <p class="flex-caption"><?php print $ubuntu3_text; ?></p>
             </li>
           </ul>
         </div>
@@ -111,15 +111,15 @@ $fedora3_text = _("Software manager open, install/remove applications.");
           <ul class="slides">
             <li>
               <img src="/images/screenshots/fedora1.jpg" alt="Fedora screenshot" />
-              <p class="flex-caption brown lighten-5"><?php print $fedora1_text; ?></p>
+              <p class="flex-caption"><?php print $fedora1_text; ?></p>
             </li>
             <li>
               <img src="/images/screenshots/fedora2.jpg" alt="Fedora screenshot" />
-              <p class="flex-caption brown lighten-5"><?php print $fedora2_text; ?></p>
+              <p class="flex-caption"><?php print $fedora2_text; ?></p>
             </li>
             <li>
               <img src="/images/screenshots/fedora3.jpg" alt="Fedora screenshot" />
-              <p class="flex-caption brown lighten-5"><?php print $fedora3_text; ?></p>
+              <p class="flex-caption"><?php print $fedora3_text; ?></p>
            </li>
           </ul>
         </div>

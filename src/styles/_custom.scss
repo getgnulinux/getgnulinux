@@ -72,16 +72,16 @@ a {
         border: none;
     }
     &:visited {
-        color: color("light-green", "darken-4");
+        color: $highlight-darken-4;
     }
 
     &:hover {
-        color: color("light-green", "darken-3");
+        color: $highlight-darken-3;
         text-decoration: underline;
     }
 
     &:active {
-        color: color("light-green", "darken-3");
+        color: $highlight-darken-3;
     }
 }
 
@@ -154,7 +154,7 @@ abbr {
 }
 
 .highlight {
-    background-color: #E4EFC7;
+    background-color: $highlight-lighten-4;
     display: block;
     padding: 0.4em;
 }
@@ -177,7 +177,7 @@ div.note {
 }
 
 .footnotes {
-    border-top: 1px solid $border-color;
+    border-top: 1px solid $shade-lighten-4;
     font-size: 85%;
     margin-top: 3em;
 }
@@ -212,9 +212,9 @@ img.lift-effect {
 }
 
 .conclusion {
-    background: none repeat scroll 0 0 $color-light-green;
-    border-top: 2px dashed $color-light-green-2;
-    border-bottom: 2px dashed $color-light-green-2;
+    background: none repeat scroll 0 0 $highlight-lighten-4;
+    border-top: 2px dashed $highlight-lighten-2;
+    border-bottom: 2px dashed $highlight-lighten-2;
     margin: 2em 0;
     padding-top: ($section-gutter / 2);
     padding-bottom: ($section-gutter / 2);
@@ -316,6 +316,7 @@ section.debian {
             border: none;
             font-size: 1.2rem;
             font-weight: bold;
+            font-style: normal;
         }
     }
 }
@@ -360,20 +361,16 @@ section.debian {
     font-size: 98%;
 
     a {
-        $footer-link-color: color("light-green", "lighten-3");
+        color: $highlight-lighten-3;
 
-        color: $footer-link-color;
-
-        &:hover {
-            color: $footer-link-color;
-        }
-
+        &:hover,
         &:active {
-            color: $footer-link-color;
+            color: white !important;
+            text-decoration: none;
         }
 
         &:visited {
-            color: $footer-link-color;
+            color: $highlight-lighten-3;
         }
     }
 }
@@ -395,9 +392,9 @@ section.debian {
 
         /* Captions */
         .flex-caption {
+            background-color: $shade-lighten-4;
             @include border-top-radius(3px);
             @include border-bottom-radius(3px);
-            font-size: 14px;
             line-height: 18px;
             margin: 10px 0 0;
             padding: 1%;

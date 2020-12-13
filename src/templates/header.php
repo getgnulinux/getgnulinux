@@ -39,11 +39,11 @@
       <div class="nav-wrapper">
         <a href="#" data-target="sidenav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="hide-on-med-and-down left">
-          <?php $this->nav_link('nav-item-linux', '', _("Home")); ?></li>
-          <?php $this->nav_link('nav-item-linux', 'linux', _("What is GNU/Linux?")); ?></li>
-          <?php $this->nav_link('nav-item-windows', 'windows', _("Why not Windows")); ?></li>
-          <?php $this->nav_link('nav-item-switch', 'switch_to_linux', _("Switch to GNU/Linux")); ?></li>
-          <?php $this->nav_link('nav-item-more', 'more', _("More")); ?></li>
+          <?php $this->nav_link('nav-item-linux', '', _("Home")); ?>
+          <?php $this->nav_link('nav-item-linux', 'linux', _("What is GNU/Linux?")); ?>
+          <?php $this->nav_link('nav-item-windows', 'windows', _("Why not Windows")); ?>
+          <?php $this->nav_link('nav-item-switch', 'switch_to_linux', _("Switch to GNU/Linux")); ?>
+          <?php $this->nav_link('nav-item-more', 'more', _("More")); ?>
         </ul>
         <ul class="right">
           <li>
@@ -63,11 +63,12 @@
     </nav>
 
     <ul class="sidenav" id="sidenav">
-      <?php $this->sidenav_link('home', _("Home")); ?></li>
-      <?php $this->sidenav_link('linux', _("What is GNU/Linux?")); ?></li>
-      <?php $this->sidenav_link('windows', _("Why not Windows")); ?></li>
-      <?php $this->sidenav_link('switch_to_linux', _("Switch to GNU/Linux")); ?></li>
-      <?php $this->sidenav_link('more', _("More")); ?></li>
+      <?php $this->sidenav_link('home', _("Home")); ?>
+      <?php $this->sidenav_link('linux', _("What is GNU/Linux?")); ?>
+      <?php $this->sidenav_link('linux/linux_faq', _("GNU/Linux FAQ")); ?>
+      <?php $this->sidenav_link('windows', _("Why not Windows")); ?>
+      <?php $this->sidenav_link('switch_to_linux', _("Switch to GNU/Linux")); ?>
+      <?php $this->sidenav_link('more', _("More")); ?>
     </ul>
 
     <ul class="dropdown-content" id="language-menu">
