@@ -316,6 +316,11 @@ ul.staggered-list li {
     display: none !important;
   }
 }
+.hide-on-large-and-down {
+  @media #{$large-and-down} {
+    display: none !important;
+  }
+}
 .hide-on-med-and-up {
   @media #{$medium-and-up} {
     display: none !important;

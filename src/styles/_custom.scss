@@ -230,6 +230,11 @@ img.w30 {
     width: 30%;
 }
 
+img.rounded-corners {
+    @include border-top-radius(5px);
+    @include border-bottom-radius(5px);
+}
+
 section.ubuntu {
     border-top: medium solid #DD4814;
 }
