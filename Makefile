@@ -13,7 +13,7 @@ xgettext_flags = -caiF --add-comments=translators --force-po \
 --copyright-holder="Get GNU/Linux!" \
 --package-name="getgnulinux" \
 --package-version=1 \
---msgid-bugs-address="https://github.com/getgnulinux/getgnulinux/issues" \
+--msgid-bugs-address="serrano@getgnulinux.org" \
 --from-code=UTF-8 -k_
 
 .PHONY: ci
@@ -89,12 +89,13 @@ $(LOCALE_DIR)/$(DOMAIN)/$(DOMAIN).pot: docroot/lib/*.php docroot/lib/views/*.php
 	@echo "Updating $@"
 	$(XGETTEXT) $(xgettext_flags) -o $@ $^
 	msguniq -o $@ $@
-	@sed --in-place "$@" --expression=s/"SOME DESCRIPTIVE TITLE."/"Translation file for the getgnulinux.org website."/
-	@sed --in-place "$@" --expression=s/PACKAGE/getgnulinux/
-	@sed --in-place "$@" --expression=s/"Copyright (C) YEAR"/"Copyright (C) 2014"/
-	@sed --in-place "$@" --expression=s/"FIRST AUTHOR <EMAIL@ADDRESS>, YEAR"/"Get GNU\/Linux! <no-reply@getgnulinux.org>, 2014"/
-	@sed --in-place "$@" --expression=s/CHARSET/$(CHARSET)/
-	@sed --in-place "$@" --expression=s/"Language: "/"Language: en"/
+	@sed --in-place "$@" \
+		--expression=s/"SOME DESCRIPTIVE TITLE."/"Translation file for the getgnulinux.org website."/ \
+		--expression=s/PACKAGE/getgnulinux/ \
+		--expression=s/"Copyright (C) YEAR"/"Copyright (C) 2014"/ \
+		--expression=s/"FIRST AUTHOR <EMAIL@ADDRESS>, YEAR"/"Get GNU\/Linux! <no-reply@getgnulinux.org>, 2014"/ \
+		--expression=s/CHARSET/$(CHARSET)/ \
+		--expression=s/"Language: "/"Language: en"/
 	@echo
 
 .PHONY: build
