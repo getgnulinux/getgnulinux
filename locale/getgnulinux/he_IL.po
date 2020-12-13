@@ -13,16 +13,17 @@ msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2020-12-13 04:38+0000\n"
-"PO-Revision-Date: 2020-12-01 00:06+0000\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew (Israel) (http://www.transifex.com/serrano/getgnulinux/"
-"language/he_IL/)\n"
+"PO-Revision-Date: 2020-12-13 20:52+0000\n"
+"Last-Translator: Omeritzics Games <omeritzicschwartz@gmail.com>\n"
+"Language-Team: Hebrew (Israel) <https://hosted.weblate.org/projects/"
+"getgnulinux/getgnulinux-pot/he_IL/>\n"
 "Language: he_IL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % "
-"1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
+"n % 10 == 0) ? 2 : 3));\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #. translators: The name of the website. It is displayed in the header of each page.
 #: docroot/lib/ggl.php:210 docroot/lib/views/home.php:15
@@ -507,10 +508,10 @@ msgid ""
 "brain and my palate, by trying to tamper with it? You don't have the "
 "judgment to change my recipe and make it work right!\""
 msgstr ""
-"יש סיכוי שתהיה לך השאלה: \"כיצד אוכל לשנות את המתכון הזה ולהוציא את המלח?\", "
-"והשף הגדול עשוי להגיב: \"איך העזת להעליב את המתכון שלי, פרי המחשבה והחך שלי, "
-"בניסיון עלוב להתערב בו? אין לך את היכולת המשפטית לשנות לי את המתכון ושהוא "
-"עדיין יצא טוב!\""
+"יש סיכוי שתעלה השאלה, \"איך אוכל לשנות את המתכון הזה ולהוציא ממנו את המלח?\""
+", והשף הגדול עשוי להגיב: \"איך העזת להעליב את המתכון שלי, פרי המחשבה והחך "
+"שלי, בניסיון עלוב להתערב בו? אין לך את היכולת המשפטית לשנות לי את המתכון "
+"ושהוא עדיין יצא טוב!\""
 
 #: docroot/lib/views/windows.what_about_source_code.php:34
 #: docroot/lib/views/windows.stand_for_a_free_society.php:137
@@ -900,17 +901,16 @@ msgstr "למידע נוסף:"
 
 #. translators: Unless you know of a good localized resource, please leave the URL as such.
 #: docroot/lib/views/linux.misunderstanding_free_software.php:97
-#, fuzzy
 msgid ""
 "<a href=\"https://ffii.org/Frequently%20Asked%20Questions%20about%20software"
 "%20patents\" hreflang=\"en\" rel=\"external\">Frequently Asked Questions on "
 "software patents, by the <abbr title=\"Foundation for a Free Information "
 "Infrastructure\">FFII</abbr></a>"
 msgstr ""
-"<a href=\"https://ffii.org/Frequently%20Asked%20Questions%20about%20software"
-"%20patents\" hreflang=\"en\" rel=\"external\">שאלות נפוצות על פטנטים בתכנה, "
-"מפי <abbr title=\"Foundation for a Free Information Infrastructure\">FFII</"
-"abbr>"
+"<a href=\"https://ffii.org/Frequently%20Asked%20Questions%20about%20software%"
+"20patents\" hreflang=\"en\" rel=\"external\">שאלות נפוצות לגבי פטנטים "
+"בתוכנה, לפי <abbr title=\"Foundation for a Free Information Infrastructure\""
+">FFII</abbr></a>"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:102
 msgid "Free software is like communism"
@@ -1176,9 +1176,8 @@ msgid ""
 msgstr ""
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:21
-#, fuzzy
 msgid "Try out the live USB stick"
-msgstr "התנסות: התקליטור החי"
+msgstr "התנסות עם החסן ה־USB בזמן־אמת"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:23
 msgid "Take no risk"
@@ -1190,6 +1189,9 @@ msgid ""
 "<em>without installing anything</em>. It's a risk-less way to try and see by "
 "yourself what GNU/Linux is."
 msgstr ""
+"המשמעות של שימוש בהחסן USB בזמן־אמת היא שמערכת גנו/לינוקס תופעל במחשבך "
+"<em>מבלי להתקין דבר</em>. זוהי דרך נטולת סיכונים כדי להתנסות ולראות בעצמך "
+"מהי גנו/לינוקס."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:26
 #, fuzzy
@@ -1229,16 +1231,15 @@ msgid ""
 msgstr ""
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:31
-#, fuzzy
 msgid ""
 "To use a live USB stick, you need a little bit of curiosity, and fifteen "
 "minutes of free time, but <strong>no advanced knowledge in computing</"
 "strong>. If you feel confident simply using Windows or macOS from time to "
 "time, then this is within your reach."
 msgstr ""
-"כדי להשתמש בתקליטור חי, זקוקה לך מעט סקרנות ורבע שעה פנויה, אך <strong>אין "
-"צורך בידע מתקדם במחשבים</strong>. אם השימוש ב־Windows מדי פעם בפעם עוזר לך "
-"לשמור על ראש שקט, אופציה זו נגישה לך תמיד."
+"כדי להשתמש בהחסן USB בזמן־אמת, יש לך צורך במעט סקרנות, ובזמן פנוי באורך של "
+"כרבע שעה, אך <strong>לא בידע מתקדם במחשבים</strong>. אם לא הגעת להחלטה אפשר "
+"להשתמש ב־Windows או ב־macOS מפעם לפעם, עד ההגעה להחלטה."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:35
 msgid "Installing as a dual boot"
@@ -1249,14 +1250,13 @@ msgid "Choose at start-up"
 msgstr "בחירה בזמן ההפעלה"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:38
-#, fuzzy
 msgid ""
 "It is possible to install GNU/Linux along with Windows or macOS. This means "
 "that upon start-up, you will be greeted with a screen allowing you to boot "
 "into the operating system you prefer."
 msgstr ""
-"ניתן להתקין גנו/לינוקס לצד Windows. משמעות הדבר היא שעם ההפעלה, יברך אותך "
-"מסך המאפשר לך להעלות את מערכת ההפעלה המועדפת עליך."
+"אפשר להתקין את גנו/לינוקס לצד Windows או macOS. משמעות הדבר היא שבעת ההפעלה, "
+"יברך אותך מסך המאפשר לך לטעון את מערכת ההפעלה לפי רצונך."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:39
 msgid ""
@@ -1282,9 +1282,8 @@ msgstr ""
 "מסובכת יותר."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:46
-#, fuzzy
 msgid "Get the image you need"
-msgstr "הורדת התקליטור הנחוץ לך"
+msgstr "הורדת קובץ הדמות הנחוץ"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:54
 #, fuzzy
@@ -1303,9 +1302,8 @@ msgstr ""
 "rel=\"external\">להתקנת אובונטו</a> במחשבך."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:58
-#, fuzzy
 msgid "Download Debian"
-msgstr "הורדת אובונטו"
+msgstr "הורדת דביאן"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:68
 #, fuzzy
@@ -1796,6 +1794,11 @@ msgid ""
 "make copies for your friends! You can even study it, transform it as you "
 "please, or build and sell your own distribution."
 msgstr ""
+"בניגוד ל־Windows, גנו/לינוקס היא <a href=\"https://www.gnu.org/philosophy/"
+"free-sw.html\" rel=\"external\" title=\"What does Free Software mean?\">תכנה "
+"חופשית</a> &ndash; מהמילה חופש. אפשר להתקין אותה בכל המחשבים וגם לתת לחברים "
+"עותקים! אפשר אפילו ללמוד עליה, לשנות אותה כרצונך, או לבנות ולמכור את ההפצה "
+"שלך."
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:33
 msgid "Programs"
@@ -2088,8 +2091,9 @@ msgid ""
 "demos that expire, or finding software that is really free as in freedom, "
 "makes using a computer suddenly very enjoyable."
 msgstr ""
-"הכול בכיף! חוסר הדאגה מווירוסים, רישומי תוכנות, תוכנות הדגמה שפגות או חיפוש "
-"תכנה שהיא באמת חופשית כמו בחירות, הופכת לפתע את השימוש במחשב למהנה במיוחד."
+"זה כיף! חוסר הדאגה מתכנת ריגול, וירוסים, מנויים לתכניות, תכניות הדגמה שתוקפן "
+"פג, או מציאת תוכנה שהיא באמת חופשית מהמילה חופש, הופכים לפתע את השימוש במחשב "
+"למהנה במיוחד."
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:113
 msgid ""
@@ -3549,7 +3553,7 @@ msgstr ""
 
 #: src/templates/header.php:42 src/templates/header.php:66
 msgid "Home"
-msgstr ""
+msgstr "דף הבית"
 
 #: src/templates/header.php:57
 msgid "GitHub repository"
