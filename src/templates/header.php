@@ -49,7 +49,7 @@
           <li>
             <a class="btn btn-flat transparent waves-effect waves-light dropdown-trigger" href="#" data-target="language-menu">
               <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">translate</i>
-              <?php print $ggl->get('lang-native'); ?>
+              <span class="hide-on-small-only"><?php print $ggl->get('lang-native'); ?></span>
               <i class="material-icons <?php print $this->rtltr("right", "left"); ?>">keyboard_arrow_down</i>
             </a>
           </li>
