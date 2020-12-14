@@ -1,6 +1,7 @@
 $(window).load(function() {
     $('.sidenav').sidenav();
-    $('.dropdown-trigger').dropdown();
+    $('.language-button-small').dropdown();
+    $('.language-button-large').dropdown();
     $('.materialboxed').materialbox();
     $('.flexslider.flexslider_screenshots').flexslider({
         animation: 'fade'

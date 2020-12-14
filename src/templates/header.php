@@ -47,11 +47,18 @@
         </ul>
         <ul class="right">
           <li>
-            <a class="btn btn-flat transparent waves-effect waves-light dropdown-trigger" href="#" data-target="language-menu">
-              <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">translate</i>
-              <span class="hide-on-small-only"><?php print $ggl->get('lang-native'); ?></span>
-              <i class="material-icons <?php print $this->rtltr("right", "left"); ?>">keyboard_arrow_down</i>
-            </a>
+            <span class="hide-on-med-and-up">
+              <a class="btn-floating btn-flat waves-effect waves-light language-button-small" href="#" data-target="language-menu-1">
+                <i class="material-icons">translate</i>
+              </a>
+            </span>
+            <span class="hide-on-small-only">
+              <a class="btn btn-flat waves-effect waves-light language-button-large" href="#" data-target="language-menu-2">
+                <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">translate</i>
+                <?php print $ggl->get('lang-native'); ?>
+                <i class="material-icons <?php print $this->rtltr("right", "left"); ?>">keyboard_arrow_down</i>
+              </a>
+            </span>
           </li>
         </ul>
       </div>
@@ -66,7 +73,21 @@
       <?php $this->sidenav_link('more', _("More")); ?>
     </ul>
 
-    <ul class="dropdown-content" id="language-menu">
+    <ul class="dropdown-content language-menu" id="language-menu-1">
+      <?php foreach ($ggl->get_locales('complete') as $lng => $items) {
+        list($locale, $native) = $items;
+        $info = $ggl->get_lang_info($lng);
+        printf("<li class=\"waves-effect\"><a href=\"/%s\" hreflang=\"%s\"><span dir=\"%s\">%s</span></a></li>\n",
+          $this->current_page_path($lng),
+          $lng,
+          $info['dir'],
+          $native);
+      } ?>
+      <li class="divider" tabindex="-1"></li>
+      <li><a href="<?php $this->text('l10n_url'); ?>" rel="external"><?php print _("Help translate"); ?></a></li>
+    </ul>
+
+    <ul class="dropdown-content language-menu" id="language-menu-2">
       <?php foreach ($ggl->get_locales('complete') as $lng => $items) {
         list($locale, $native) = $items;
         $info = $ggl->get_lang_info($lng);
