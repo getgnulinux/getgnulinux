@@ -43,7 +43,9 @@ $this->load_header();
       </section>
 
       <section>
-        <h2 id="get_the_cd"><?php print _("Get the image you need"); ?></h2>
+      <h2 id="get_the_cd"><?php
+        # translators: "Image" refers to a downloadable ISO image and can be translated loosely.
+        print _("Get the image you need"); ?></h2>
         <p><?php print _("For the distributions we recommend, the live USB stick is the same as the installation medium. You can download an ISO image (rather large file) and then create a bootable USB stick (recommended) or burn it to a CD or DVD. Burning to a CD/DVD may be necessary when installing GNU/Linux on an older system which can not boot from USB. You can then use it to install GNU/Linux onto your computer."); ?></p>
 
         <div class="row">
