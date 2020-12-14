@@ -33,14 +33,14 @@ $this->load_header();
           <div class="col s12 m6">
             <div class="card">
               <div class="card-image">
-                <img class="materialboxed" src="/images/screenshots/debian2.jpg" alt="<?php print _("LibreOffice Writer open, editing a standard document."); ?>">
+                <img class="materialboxed" src="/images/screenshots/debian2.jpg" title="<?php print _("LibreOffice Writer open, editing a standard document."); ?>" alt="Debian screenshot">
               </div>
             </div>
           </div>
           <div class="col s12 m6">
             <div class="card">
               <div class="card-image">
-                <img class="materialboxed" src="/images/screenshots/debian3.jpg" alt="<?php print _("Shotwell photo manager"); ?>">
+                <img class="materialboxed" src="/images/screenshots/debian3.jpg" title="<?php print _("Shotwell photo manager"); ?>" alt="Debian screenshot">
               </div>
             </div>
           </div>
