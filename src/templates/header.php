@@ -53,11 +53,6 @@
               <i class="material-icons <?php print $this->rtltr("right", "left"); ?>">keyboard_arrow_down</i>
             </a>
           </li>
-          <li>
-            <a class="btn-floating btn-flat waves-effect waves-light" href="<?php $this->text('project_url'); ?>" title="<?php print _("GitHub repository"); ?>" target="_blank">
-              <i class="material-icons <?php print $this->rtltr("right", "left"); ?>">code</i>
-            </a>
-          </li>
         </ul>
       </div>
     </nav>
