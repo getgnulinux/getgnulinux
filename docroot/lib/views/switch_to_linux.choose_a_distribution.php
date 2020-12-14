@@ -30,17 +30,19 @@ $fedora3_text = _("Software manager open, install/remove applications.");
 
 <main>
   <article>
-    <header>
-      <h1><?php print _("Choose a distribution"); ?></h1>
+    <div class="container">
+      <header>
+        <h1><?php print _("Choose a distribution"); ?></h1>
 
-      <div class="page-intro">
-        <p><?php print _("Because there is no \"one GNU/Linux\", finding what you need can be difficult. Here are our choice of three beginner-friendly, widely used distributions."); ?></p>
-      </div>
+        <div class="page-intro">
+          <p><?php print _("Because there is no \"one GNU/Linux\", finding what you need can be difficult. Here are our choice of three beginner-friendly, widely used distributions."); ?></p>
+        </div>
 
-      <p class="italic centered"><?php # translators: The distrowatch.com website is translated into many languages (see https://distrowatch.com/dwres.php?resource=about). If your language is present, please replace "EN" in the URL by the code of your language (e.g. for Spanish, the last part would become "language=ES").
-      print _("Note: There are <a href=\"https://distrowatch.com/dwres.php?resource=major&amp;language=EN\" rel=\"external\">plenty of distributions to choose from and compare</a>."); ?><br />
-      <?php print _("This is our selection for newcomers. These links are not commercial."); ?></p>
-    </header>
+        <p class="italic centered"><?php # translators: The distrowatch.com website is translated into many languages (see https://distrowatch.com/dwres.php?resource=about). If your language is present, please replace "EN" in the URL by the code of your language (e.g. for Spanish, the last part would become "language=ES").
+        print _("Note: There are <a href=\"https://distrowatch.com/dwres.php?resource=major&amp;language=EN\" rel=\"external\">plenty of distributions to choose from and compare</a>."); ?><br />
+        <?php print _("This is our selection for newcomers. These links are not commercial."); ?></p>
+      </header>
+    </div>
 
     <section class="debian">
       <div class="container">
