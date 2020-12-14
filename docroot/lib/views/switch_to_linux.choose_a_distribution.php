@@ -129,6 +129,8 @@ $fedora3_text = _("Software manager open, install/remove applications.");
     </section>
   </article>
 
+  <br>
+
   <aside class="brown lighten-5">
     <div class="container button-section">
       <h1><?php print _("Try or install"); ?></h1>
