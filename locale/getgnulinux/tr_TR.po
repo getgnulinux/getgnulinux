@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2020-12-15 03:11+0000\n"
-"PO-Revision-Date: 2020-12-12 13:58+0000\n"
+"PO-Revision-Date: 2020-12-15 13:04+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/getgnulinux/"
 "getgnulinux-pot/tr/>\n"
@@ -264,10 +264,10 @@ msgstr ""
 "lisanslarının içindeki küçük yazılar burada."
 
 #: docroot/lib/views/windows.restrictions.further_details.php:23
-#, fuzzy
 msgid "It is unclear who can use, receive or buy your software"
 msgstr ""
-"Yazılımınızı kimin kullanacağı, edineceği ya da satın alacağı açık değil."
+"Yazılımınızı kimin kullanabileceği, edinebileceği veya satın alabileceği "
+"açık değil"
 
 #: docroot/lib/views/windows.restrictions.further_details.php:24
 msgid ""
@@ -780,11 +780,11 @@ msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:64
 msgid "Software should Just Work"
-msgstr "Yazılım Çalışmalıdır"
+msgstr "Yazılım sorunsuz bir şekilde çalışmalıdır"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:65
 msgid "Anyone should care about whether their software is free."
-msgstr "Herkes yazılımlarının özgür olup olmadığına dikkat etmeli."
+msgstr "Kullandıkları yazılımların özgür olup olmadığını herkes önemsemelidir."
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:66
 msgid ""
@@ -794,6 +794,11 @@ msgid ""
 "allowed to make sure that it's reliable, that it does not leak, that it's "
 "not harmful to the society and environment?"
 msgstr ""
+"Kaputunu açmanız yasak olan bir araba satın aldığınızı hayal edin. Bir "
+"arabanın nasıl çalıştığını bilip bilmediğiniz önemli değil &ndash; önemli "
+"olan hiç kimsenin motoru denetleyemeyecek olmasıdır. Hiç kimsenin güvenilir "
+"olduğundan, sızdırmadığından, topluma ve çevreye zararlı olmadığından emin "
+"olmasına izin verilmiyorsa, arabanıza nasıl güvenebilirsiniz?"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:67
 msgid ""
@@ -801,6 +806,10 @@ msgid ""
 "<strong>much more</strong> than move cars. Software runs our computers, "
 "phones, TVs, media players and more, carrying information and our culture."
 msgstr ""
+"Yazılım için de aynısı geçerlidir &ndash; kodun arabaları hareket "
+"ettirmekten <strong>çok daha fazlasını</strong> yapması dışında. Yazılım "
+"bilgi ve kültürümüzü taşıyan bilgisayarlarımızı, telefonlarımızı, "
+"televizyonlarımızı, medya oynatıcılarımızı ve daha fazlasını çalıştırır."
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:68
 msgid ""
@@ -819,6 +828,11 @@ msgid ""
 "your computer at start-up, to try a full-featured, well-organised system, "
 "without installation, so you can judge by yourself."
 msgstr ""
+"İyi haber: <em>özgür yazılım da sorunsuz bir şekilde çalışır</em>. Ve "
+"aslında, genellikle daha iyi çalışır. Kurulum yapmadan tam özellikli, iyi "
+"düzenlenmiş bir sistemi denemek için başlatırken bilgisayarınıza <a href=\"%"
+"s\">bir GNU/Linux canlı CD'si takın</a>, böylece buna kendiniz karar "
+"verebilirsiniz."
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:75
 msgid ""
@@ -913,17 +927,16 @@ msgstr "Daha fazla bilgi:"
 
 #. translators: Unless you know of a good localized resource, please leave the URL as such.
 #: docroot/lib/views/linux.misunderstanding_free_software.php:97
-#, fuzzy
 msgid ""
 "<a href=\"https://ffii.org/Frequently%20Asked%20Questions%20about%20software"
 "%20patents\" hreflang=\"en\" rel=\"external\">Frequently Asked Questions on "
 "software patents, by the <abbr title=\"Foundation for a Free Information "
 "Infrastructure\">FFII</abbr></a>"
 msgstr ""
-"<abbr title=\"Foundation for a Free Information Infrastructure\">FFII</"
-"abbr><a href=\"https://ffii.org/Frequently%20Asked%20Questions%20about"
-"%20software%20patents\" hreflang=\"en\" rel=\"external\">tarafından verilen "
-"yazılım patentleri konusunda Sık Sorulan Sorular"
+"<a href=\"https://ffii.org/Frequently%20Asked%20Questions%20about%20software%"
+"20patents\" hreflang=\"en\" rel=\"external\"><abbr title=\"Foundation for a "
+"Free Information Infrastructure\">FFII</abbr> tarafından verilen yazılım "
+"patentleri konusunda Sık Sorulan Sorular</a>"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:102
 msgid "Free software is like communism"
@@ -1267,7 +1280,6 @@ msgid "Download Ubuntu"
 msgstr "Ubuntu'yu İndirin"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:84
-#, fuzzy
 msgid ""
 "<a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/"
 "install/Preparing_for_Installation/#sect-preparing-boot-media\" rel="
@@ -1279,12 +1291,14 @@ msgid ""
 "Booting_the_Installation/\" rel=\"external\">install Fedora</a> onto your "
 "computer."
 msgstr ""
-"<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-"
-"on-windows\" rel=\"external\">Canlı bir USB bellek oluşturun</a> veya <a "
-"href=\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows"
-"\" rel=\"external\">bir CD/DVD'ye yazdırın</a>. Sonra onu bilgisayarınıza <a "
-"href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop"
-"\" rel=\"external\">Ubuntu kurmak</a> için kullanın."
+"<a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/"
+"install/Preparing_for_Installation/#sect-preparing-boot-media\" rel="
+"\"external\">Canlı bir USB bellek oluşturun</a> veya <a href=\"https://docs."
+"fedoraproject.org/en-US/fedora/f33/install-guide/install/"
+"Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">bir "
+"CD/DVD'ye yazdırın</a>. Sonra onu bilgisayarınıza <a href=\"https://docs."
+"fedoraproject.org/en-US/fedora/f33/install-guide/install/"
+"Booting_the_Installation/\" rel=\"external\">Fedora kurmak</a> için kullanın."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:88
 msgid "Download Fedora"
@@ -2678,11 +2692,11 @@ msgid ""
 "what makes it truly <a href=\"https://www.gnu.org/philosophy/free-sw.html\" "
 "title=\"what is freedom in software?\" rel=\"external\">free software</a>."
 msgstr ""
-"Bir GNU/Linux dağıtımı edindiğin zaman, <strong>onu inceleme, kopyalama, "
-"değiştirme ve yeniden dağıtma özgürlüğünü de sahip olursun</strong> &ndash;"
-"&nbsp;işte bunlar yazılımı gerçekten <a href=\"https://www.gnu.org/"
-"philosophy/free-sw.html\" title=\"what is freedom in software?\" rel="
-"\"external\">özgür yazılım</a> yapar."
+"Bir GNU/Linux dağıtımı edindiğiniz zaman <strong>onu inceleme, kopyalama, "
+"değiştirme ve yeniden dağıtma özgürlüğünü de sahip olursunuz</strong> "
+"&ndash;&nbsp;yazılımı gerçekten <a href=\"https://www.gnu.org/philosophy/"
+"free-sw.html\" rel=\"external\" title=\"what is freedom in software?\">özgür "
+"yazılım</a> yapan bunlardır."
 
 #: docroot/lib/views/linux.php:54
 msgid ""
@@ -2691,10 +2705,11 @@ msgid ""
 "Linux distributions\" rel=\"external\">GNU software</a>: products they do "
 "not have exclusive rights on. How does the wheel turn?"
 msgstr ""
-"Birçok şirket <a href=\"https://www.gnu.org\" title=\"the GNU project: at "
-"the source of all GNU/Linux distributions\" rel=\"external\">GNU yazılım</a> "
-"çekirdeği tabanlı kendi işletim sistemlerini geliştiriyor: ve ürünler "
-"üzerinde ayrıcalıklı haklara sahip değiller. Peki işler nasıl yürüyor??"
+"Birçok şirket temel <a href=\"https://www.gnu.org\" rel=\"external\" title="
+"\"the GNU project: at the source of all GNU/Linux distributions\">GNU "
+"yazılımına</a> dayalı olarak kendi işletim sistemlerini geliştirir: ve "
+"ürünler üzerinde ayrıcalıklı haklara sahip değillerdir. Peki işler nasıl "
+"yürüyor?"
 
 #: docroot/lib/views/linux.php:56
 msgid ""
@@ -2927,11 +2942,8 @@ msgstr "Kısıtlamalar - daha çok ayrıntı"
 #. translators: This is the description of the "fedora1.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:10
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:24
-#, fuzzy
 msgid "Accessing applications in the GNOME desktop environment."
-msgstr ""
-"<a href=\"https://www.gnome.org/gnome-3/\" rel=\"external\">GNOME 3</a> "
-"masaüstü ortamında uygulamalara erişim."
+msgstr "GNOME masaüstü ortamında uygulamalara erişim."
 
 #. translators: This is the description of the "ubuntu1.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:17
@@ -3163,10 +3175,10 @@ msgid ""
 "attractive, you might want to <a href=\"%s\" title=\"make the switch to GNU/"
 "Linux today!\">give GNU/Linux a try</a>."
 msgstr ""
-"<a href=\"https://www.gnu.org/philosophy/free-sw.html\" title=\"what is "
-"freedom in software?\" rel=\"external\">özgür yazılım</a>ı çekici bulursanız "
-"<a href=\"%s\" title=\"make the switch to GNU/Linux today!\">GNU/Linux'u "
-"denemek</a> isteyebilirsiniz."
+"<a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\" "
+"title=\"what is freedom in software?\">Özgür yazılım</a>ı çekici "
+"buluyorsanız <a href=\"%s\" title=\"make the switch to GNU/Linux today!\">"
+"GNU/Linux'u denemek</a> isteyebilirsiniz."
 
 #. translators: This is the very first sentence every visitor is going to read. Please pay great attention to making it sound great, we only have one try! =)
 #: docroot/lib/views/home.php:18
