@@ -39,7 +39,7 @@
       <div class="nav-wrapper">
         <a href="#" data-target="sidenav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="hide-on-large-and-down left">
-          <?php $this->nav_link('nav-item-linux', '', _("Home")); ?>
+          <?php $this->nav_link('nav-item-home', '', _("Home")); ?>
           <?php $this->nav_link('nav-item-linux', 'linux', _("What is GNU/Linux?")); ?>
           <?php $this->nav_link('nav-item-windows', 'windows', _("Why not Windows")); ?>
           <?php $this->nav_link('nav-item-switch', 'switch_to_linux', _("Switch to GNU/Linux")); ?>
