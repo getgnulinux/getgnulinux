@@ -1,7 +1,5 @@
 @import "materialize";
 @import "bourbon";
-@import "neat";
-@import "variables";
 
 html {
   font-size: 101%;
@@ -50,6 +48,11 @@ section {
     padding: 1rem 0;
 }
 
+mark {
+    background-color: $highlight-lighten-4;
+    padding: 0.2em;
+}
+
 details > summary {
     cursor: pointer;
     outline: none;
@@ -62,7 +65,7 @@ img, embed, object, video {
 }
 
 ::selection {
-    background: #009ACD;
+    background: $highlight-darken-3;
     color: #FFFFFF;
 }
 
@@ -102,40 +105,7 @@ abbr {
 }
 
 .container {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: ($container-gutter / 2);
-    padding-right: ($container-gutter / 2);
     @include clearfix;
-
-    @each $breakpoint, $width in $container-widths {
-        $breakpoint-width: map-get($container-breakpoints, $breakpoint);
-        @include media(min-width $breakpoint-width) {
-            width: $width;
-            max-width: 100%;
-        }
-    }
-}
-
-.hidden-xs {
-    @include media(min-width $xs-breakpoint) {
-        display: none;
-    }
-    @include media(min-width $sm-breakpoint) {
-        display: block;
-    }
-}
-
-.hidden-sm {
-    @include media(min-width $xs-breakpoint) {
-        display: none;
-    }
-    @include media(min-width $sm-breakpoint) {
-        display: none;
-    }
-    @include media(min-width $md-breakpoint) {
-        display: block;
-    }
 }
 
 .page-intro {
@@ -146,35 +116,12 @@ abbr {
     text-align: center;
 }
 
-.no-padding {
-    padding: 0;
-}
-
 .button-section h1 {
     font-weight: 300;
 }
 
-.highlight {
-    background-color: $highlight-lighten-4;
-    display: block;
-    padding: 0.4em;
-}
-
 .note {
-    font-size: 0.95em;
-}
-
-div.note {
-    margin-top: 1em;
-    text-align: right;
-}
-
-.italic {
     font-style: italic;
-}
-
-.centered {
-    text-align: center;
 }
 
 .footnotes {
@@ -193,15 +140,6 @@ div.note {
     }
 }
 
-img.lift-effect {
-    transition-duration: 0.2s;
-    transition-timing-function: ease;
-
-    &:hover {
-        transform: translateY(-5px);
-    }
-}
-
 .pad3 {
     padding: 2% 3% !important;
 }
@@ -217,8 +155,8 @@ img.lift-effect {
     border-top: 2px dashed $highlight-lighten-2;
     border-bottom: 2px dashed $highlight-lighten-2;
     margin: 2em 0;
-    padding-top: ($section-gutter / 2);
-    padding-bottom: ($section-gutter / 2);
+    padding-top: (2em / 2);
+    padding-bottom: (2em / 2);
 }
 
 img.w20 {
@@ -234,6 +172,15 @@ img.w30 {
 img.rounded-corners {
     @include border-top-radius(5px);
     @include border-bottom-radius(5px);
+}
+
+img.lift-effect {
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
 }
 
 section.ubuntu {
@@ -267,19 +214,23 @@ section.debian {
     }
 }
 
-.distribution_logo {
-    height: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
+.card-distribution {
+    min-width: 200px;
 
-    &--debian {
-        background-image: url(/images/DebianLogoStacked.svg);
-    }
-    &--ubuntu {
-        background-image: url(/images/UbuntuLogoStacked.svg);
-    }
-    &--fedora {
-        background-image: url(/images/FedoraLogoStacked.png);
+    &-logo {
+        height: 200px;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        &--debian {
+            background-image: url(/images/DebianLogoStacked.svg);
+        }
+        &--ubuntu {
+            background-image: url(/images/UbuntuLogoStacked.svg);
+        }
+        &--fedora {
+            background-image: url(/images/FedoraLogoStacked.png);
+        }
     }
 }
 

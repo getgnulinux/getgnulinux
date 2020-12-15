@@ -26,7 +26,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
-"POT-Creation-Date: 2020-12-14 12:41+0000\n"
+"POT-Creation-Date: 2020-12-15 03:11+0000\n"
 "PO-Revision-Date: 2020-12-14 02:11+0000\n"
 "Last-Translator: Serrano Pereira <serrano@bitosis.nl>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
@@ -57,7 +57,7 @@ msgstr "使用條款"
 #: docroot/lib/ggl.php:216
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:50
 #: docroot/lib/views/linux.linux_faq.php:253 docroot/lib/views/more.php:16
-#: src/templates/header.php:46 src/templates/header.php:66
+#: src/templates/header.php:46 src/templates/header.php:73
 #: src/templates/footer.php:24
 msgid "More"
 msgstr "更多"
@@ -67,7 +67,7 @@ msgstr "更多"
 #: docroot/lib/views/linux.misunderstanding_free_software.php:168
 #: docroot/lib/views/linux.linux_faq.php:264 docroot/lib/views/linux.php:13
 #: docroot/lib/views/home.php:25 src/templates/header.php:43
-#: src/templates/header.php:62
+#: src/templates/header.php:69
 msgid "What is GNU/Linux?"
 msgstr "GNU/Linux 是什麼？"
 
@@ -96,10 +96,10 @@ msgstr "揭開 GNU/Linux 的神祕面紗"
 #: docroot/lib/views/windows.what_about_source_code.php:61
 #: docroot/lib/views/windows.stand_for_a_free_society.php:152
 #: docroot/lib/views/linux.php:100
-#: docroot/lib/views/windows.restrictions.php:73
+#: docroot/lib/views/windows.restrictions.php:75
 #: docroot/lib/views/windows.php:16 docroot/lib/views/home.php:38
 #: docroot/lib/views/windows.what_about_choice.php:65
-#: src/templates/header.php:44 src/templates/header.php:64
+#: src/templates/header.php:44 src/templates/header.php:71
 msgid "Why not Windows"
 msgstr "為什麼不用 Windows"
 
@@ -140,14 +140,14 @@ msgstr "沒有源始程式碼"
 #: docroot/lib/ggl.php:238 docroot/lib/views/switch_to_linux.php:15
 #: docroot/lib/views/linux.php:115 docroot/lib/views/windows.php:99
 #: docroot/lib/views/home.php:51 src/templates/header.php:45
-#: src/templates/header.php:65
+#: src/templates/header.php:72
 msgid "Switch to GNU/Linux"
 msgstr "投入 GNU/Linux 的懷抱"
 
 #: docroot/lib/ggl.php:239 docroot/lib/ggl.php:290
 #: docroot/lib/views/switch_to_linux.php:37
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:120
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:34
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:35
 msgid "Choose a distribution"
 msgstr "選擇一套散布版"
 
@@ -161,7 +161,7 @@ msgstr "從 Windows 到 GNU/Linux"
 #: docroot/lib/ggl.php:242 docroot/lib/ggl.php:291
 #: docroot/lib/views/switch_to_linux.php:52
 #: docroot/lib/views/switch_to_linux.try_or_install.php:14
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:132
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:136
 msgid "Try or install"
 msgstr "試用或安裝"
 
@@ -270,7 +270,8 @@ msgstr ""
 "權條款限制移到這裡來。這些是微軟授權條款的完整細節。"
 
 #: docroot/lib/views/windows.restrictions.further_details.php:23
-msgid "It is unclear who can use, receive or buy your software."
+#, fuzzy
+msgid "It is unclear who can use, receive or buy your software"
 msgstr "授權條款對於誰可以使用、收受、或是購買你的軟體並沒有說明清楚。"
 
 #: docroot/lib/views/windows.restrictions.further_details.php:24
@@ -388,8 +389,8 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:126
 #: docroot/lib/views/linux.php:76 docroot/lib/views/linux.php:87
 #: docroot/lib/views/linux.php:104 docroot/lib/views/linux.php:119
-#: docroot/lib/views/windows.restrictions.php:65
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:138
+#: docroot/lib/views/windows.restrictions.php:67
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:142
 #: docroot/lib/views/windows.php:36 docroot/lib/views/windows.php:48
 #: docroot/lib/views/windows.php:64 docroot/lib/views/windows.php:80
 #: docroot/lib/views/windows.php:103 docroot/lib/views/home.php:29
@@ -1179,6 +1180,10 @@ msgstr "試用 Live USB 隨身碟"
 msgid "Take no risk"
 msgstr "不須承擔風險"
 
+#: docroot/lib/views/switch_to_linux.try_or_install.php:24
+msgid "USB stick"
+msgstr ""
+
 #: docroot/lib/views/switch_to_linux.try_or_install.php:25
 msgid ""
 "Using a live USB stick means that GNU/Linux will be running on your computer "
@@ -1362,6 +1367,11 @@ msgstr ""
 msgid "Free Software pre-installed"
 msgstr "預裝自由軟體"
 
+#: docroot/lib/views/switch_to_linux.try_or_install.php:103
+#, fuzzy
+msgid "Computer with GNU/Linux pre-installed"
+msgstr "有預裝 GNU/Linux 的電腦嗎？"
+
 #: docroot/lib/views/switch_to_linux.try_or_install.php:105
 msgid ""
 "Not all computers are shipped with Windows or macOS. If you do not wish to "
@@ -1414,7 +1424,7 @@ msgstr ""
 "解的費用都會高昂地令人望而卻步。"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:30
-#: docroot/lib/views/windows.restrictions.php:53
+#: docroot/lib/views/windows.restrictions.php:55
 msgid "2005 interview"
 msgstr "2005年的訪談"
 
@@ -3023,7 +3033,7 @@ msgstr ""
 "最後，個人終端使用者通常無償取得這些軟體，而企業客戶也樂於為取得更多支援而掏"
 "腰包。"
 
-#: docroot/lib/views/linux.php:83 src/templates/header.php:63
+#: docroot/lib/views/linux.php:83 src/templates/header.php:70
 msgid "GNU/Linux FAQ"
 msgstr "GNU/Linux 常見問答集"
 
@@ -3104,18 +3114,18 @@ msgstr ""
 msgid "You must abandon many rights to use the software."
 msgstr "如果要使用這套軟體，你必須放棄許多權利。"
 
-#: docroot/lib/views/windows.restrictions.php:32
+#: docroot/lib/views/windows.restrictions.php:33
 msgid "There are a number of restrictions that you must accept by law."
 msgstr "在法律上，有許多的限制你必須接受。"
 
-#: docroot/lib/views/windows.restrictions.php:33
-#, php-format
+#: docroot/lib/views/windows.restrictions.php:34
+#, fuzzy, php-format
 msgid ""
 "Restrictions on who can use the software, what kind of revenue you may earn "
 "with it, on how you choose to install it, restrictions on your privacy, even "
-"on whether you can give it away: the list is long. <a href=\"%s\" title=\"a "
-"few more things about Microsoft licenses\">Reading the license and "
-"enumerating your remaining rights</a> is itself a difficult task."
+"on whether you can give it away: the list is long. <a href=\"%s\">Reading "
+"the license and enumerating your remaining rights</a> is itself a difficult "
+"task</a>."
 msgstr ""
 "限制誰可以使用軟體、你可以透過它賺取什麼樣的收入、以何種方式安裝它、限制你的"
 "隱私權、甚至是你能否將其轉送出去：這份列表非常的長，<a href=\"%s\" title=\"關"
@@ -3123,7 +3133,7 @@ msgstr ""
 "事。"
 
 #. translators: Don't bother with the 'abbr' code. You can tranlsate as 'OEM [pre-installed]'
-#: docroot/lib/views/windows.restrictions.php:39
+#: docroot/lib/views/windows.restrictions.php:41
 msgid ""
 "An <abbr title=\"Original Equipment Manufacturer (simply the hardware "
 "seller)\">OEM</abbr>-distributed software cannot be transferred to another "
@@ -3133,7 +3143,7 @@ msgstr ""
 "的廠商)\">OEM</abbr> 版本的軟體不能轉移給另一臺電腦。"
 
 #. translators: Don't bother with the 'shrink-wrap' expression. You can skip that bit if you wish.
-#: docroot/lib/views/windows.restrictions.php:43
+#: docroot/lib/views/windows.restrictions.php:45
 msgid ""
 "If you bought your computer with Windows or Office pre-installed (the so-"
 "called OEM licenses, or the \"shrink wrap\" Windows discs), <strong>if you "
@@ -3143,7 +3153,7 @@ msgstr ""
 "包」Windows光碟），<strong>當你想要更換一臺電腦，你就必須重新購買一份授權。</"
 "strong>"
 
-#: docroot/lib/views/windows.restrictions.php:44
+#: docroot/lib/views/windows.restrictions.php:46
 msgid ""
 "The license is linked to one computer, and expires when the computer dies. "
 "It is then illegal to transfer the software on another computer."
@@ -3151,7 +3161,7 @@ msgstr ""
 "這份授權與你的電腦緊密相連在一起，和你的電腦同生共死。如果你想將這套軟體安裝"
 "到其他電腦上，很不幸地，這樣做是違法的。"
 
-#: docroot/lib/views/windows.restrictions.php:51
+#: docroot/lib/views/windows.restrictions.php:53
 msgid ""
 "If you go to most of the free software sites you can click down a couple of "
 "levels and find the [GNU] <abbr title=\"General Public License, the main "
@@ -3164,7 +3174,7 @@ msgstr ""
 "X 授權、Apache 授權條款…等諸如此類的條款和細則，一樣你必須接受這些條件才能使"
 "用這些軟體。"
 
-#: docroot/lib/views/windows.restrictions.php:52
+#: docroot/lib/views/windows.restrictions.php:54
 msgid ""
 "Now with a proprietary software company, the license is buried so you can't "
 "read it until after you have paid for the product, then they're asking you "
@@ -3176,15 +3186,15 @@ msgstr ""
 "了他們的產品之後，他們會用這些嚴格的授權條款來<strong>限制你一部份大腦的運作"
 "</strong>，除非你不打算使用他們的軟體。"
 
-#: docroot/lib/views/windows.restrictions.php:53
+#: docroot/lib/views/windows.restrictions.php:55
 msgid "Don Marti interview"
 msgstr "Don Marti 訪談"
 
-#: docroot/lib/views/windows.restrictions.php:58
+#: docroot/lib/views/windows.restrictions.php:60
 msgid "The meaning behind"
 msgstr "背後的意涵"
 
-#: docroot/lib/views/windows.restrictions.php:60
+#: docroot/lib/views/windows.restrictions.php:62
 msgid ""
 "Companies like Microsoft like to assimilate their software to physical "
 "products, when mentioning copyright infringement for example. Yet, "
@@ -3195,7 +3205,7 @@ msgstr ""
 "為具有充滿限制的授權條款卻顯得格格不入 ─ 諸如此類的限制若發生在汽車或是腳踏車"
 "上簡直是無法想像。"
 
-#: docroot/lib/views/windows.restrictions.php:61
+#: docroot/lib/views/windows.restrictions.php:63
 msgid ""
 "Restrictions on the use of Office and Windows are so harsh, that many "
 "violations occur everyday around us. People are tempted to buy only one "
@@ -3209,7 +3219,7 @@ msgstr ""
 "使用以後還拋售二手的 Windows 軟體。"
 
 #. translators: use the definition of "free software" on GNU.org; also, gnu.org uses language negotiation, so it's not necessary to replace those URLs.
-#: docroot/lib/views/windows.restrictions.php:64
+#: docroot/lib/views/windows.restrictions.php:66
 msgid ""
 "<strong>You have an alternative to breaking this law,</strong> or feeling "
 "very restrained when you abide to it. GNU/Linux is <a href=\"https://www.gnu."
@@ -3223,7 +3233,7 @@ msgstr ""
 "gnu.org/copyleft/gpl.html\" rel=\"external\">GPL</a> 條款就是設計用於保護你的"
 "權利。"
 
-#: docroot/lib/views/windows.restrictions.php:65
+#: docroot/lib/views/windows.restrictions.php:67
 msgid "Restrictions - further details"
 msgstr "限制－更多細節"
 
@@ -3231,9 +3241,8 @@ msgstr "限制－更多細節"
 #. translators: This is the description of the "fedora1.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:10
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:24
-msgid ""
-"Accessing applications in the <a href=\"https://www.gnome.org/gnome-3/\" rel="
-"\"external\">GNOME 3</a> desktop environment."
+#, fuzzy
+msgid "Accessing applications in the GNOME desktop environment."
 msgstr ""
 "在 <a href=\"https://www.gnome.org/gnome-3/\" rel=\"external\">GNOME 3</a> 桌"
 "面環境裡存取應用程式。"
@@ -3263,7 +3272,7 @@ msgstr "開啟兩個應用程式的桌面概覽。"
 msgid "Software manager open, install/remove applications."
 msgstr "開啟軟體管理程式，安裝／移除應用程式。"
 
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:37
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:38
 msgid ""
 "Because there is no \"one GNU/Linux\", finding what you need can be "
 "difficult. Here are our choice of three beginner-friendly, widely used "
@@ -3273,7 +3282,7 @@ msgstr ""
 "我們挑選出的三個比較適合新手，並且被廣泛使用的散布版。"
 
 #. translators: The distrowatch.com website is translated into many languages (see https://distrowatch.com/dwres.php?resource=about). If your language is present, please replace "EN" in the URL by the code of your language (e.g. for Spanish, the last part would become "language=ES").
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:41
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:42
 msgid ""
 "Note: There are <a href=\"https://distrowatch.com/dwres.php?"
 "resource=major&amp;language=EN\" rel=\"external\">plenty of distributions to "
@@ -3283,11 +3292,11 @@ msgstr ""
 "resource=major&amp;language=EN\" rel=\"external\">林林總總的散布版可以選擇與"
 "比較</a>。"
 
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:42
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:43
 msgid "This is our selection for newcomers. These links are not commercial."
 msgstr "這些是我們為初心者選擇的散布版。以下這些連結並非商業行銷。"
 
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:51
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:53
 msgid ""
 "Debian is one of the oldest operating systems based on the Linux kernel. It "
 "has the reputation of being a very stable and secure GNU/Linux distribution "
@@ -3300,13 +3309,13 @@ msgstr ""
 "個人電腦與伺服器上都很流行。Debian 也是許多其他散布版的基礎，其中最著名的當"
 "屬 Ubuntu。"
 
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:52
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:54
 msgid ""
 "We recommend this distribution if you are committed to freedom in your "
 "computing."
 msgstr "倘若你致力於保有電腦運算的自由，那我們推薦這個散布版。"
 
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:79
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:81
 msgid ""
 "Ubuntu is a GNU/Linux distribution based on Debian. The philosophy behind "
 "Ubuntu is that every computer user should be able to download and use their "
@@ -3320,7 +3329,7 @@ msgstr ""
 "的語言來使用這些軟體，而且不管有沒有身心上的障礙都可以使用所有的軟體。而其結"
 "果是一套有著出色的硬體支援、易於使用且令人愉悅的作業系統。"
 
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:80
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:82
 msgid ""
 "We recommend this friendly and complete distribution if you are looking for "
 "an easy way to try and step into GNU/Linux."
@@ -3328,7 +3337,7 @@ msgstr ""
 "如果你正在尋找一個嘗試及踏入 GNU/Linux 的簡單輕鬆之路，我們推薦這個友善且功能"
 "齊全的散布版。"
 
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:107
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:109
 msgid ""
 "The distribution by the long-time prominent GNU/Linux developer company Red "
 "Hat. The default layout is similar to Debian, but there are differences in "
@@ -3342,7 +3351,7 @@ msgstr ""
 "等與其不同。Fedora 開發者致力於創新，透過盡早加入新技術來體現，並提供穩定、可"
 "靠、好用且強大的最新自由軟體。"
 
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:108
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:110
 msgid ""
 "We recommend this distribution if you wish to learn more about the workings "
 "of a GNU/Linux system, security configuration, or work on software "
@@ -3352,7 +3361,7 @@ msgstr ""
 "我們會推薦這個散布版。"
 
 #. translators: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:135
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:139
 msgid "Now grab a USB stick and try or install your distribution!"
 msgstr "現在就取得 USB 隨身碟並體驗一下，或是直接安裝你的散布版吧！"
 
@@ -3717,11 +3726,12 @@ msgid ""
 "Note: these links are proposed as a recommendation. They are not commercial."
 msgstr "注意：這些連結只是推薦閱讀，並非任何商業推銷行為。"
 
-#: src/templates/header.php:42 src/templates/header.php:61
+#: src/templates/header.php:42 src/templates/header.php:68
 msgid "Home"
 msgstr "首頁"
 
-#: src/templates/header.php:80 src/templates/footer.php:23
+#: src/templates/header.php:87 src/templates/header.php:101
+#: src/templates/footer.php:23
 msgid "Help translate"
 msgstr "協助翻譯"
 

@@ -24,23 +24,25 @@ $this->load_header();
         <h2 id="the_small_print"><?php print _("The small print in the contract"); ?></h2>
         <ul class="browser-default">
           <li>
-            <p class="highlight"><?php print _("Windows and Office are licensed, not sold."); ?></p>
+            <p><mark><?php print _("Windows and Office are licensed, not sold."); ?></mark></p>
             <p><?php print _("No one can buy Windows or Microsoft Office: instead users <strong>purchase a permission to use</strong> them. The license describes the terms of this permission. It is the restrictive legal text you have to click \"OK\" to upon install."); ?></p>
           </li>
           <li>
-            <p class="highlight"><?php print _("You must abandon many rights to use the software."); ?></p>
-            <p><?php print _("There are a number of restrictions that you must accept by law."); ?>
-            <?php $p = _("Restrictions on who can use the software, what kind of revenue you may earn with it, on how you choose to install it, restrictions on your privacy, even on whether you can give it away: the list is long. <a href=\"%s\" title=\"a few more things about Microsoft licenses\">Reading the license and enumerating your remaining rights</a> is itself a difficult task.");
-            printf($p, $this->base_url('windows/restrictions/further_details',1)); ?></p>
+            <p><mark><?php print _("You must abandon many rights to use the software."); ?></mark></p>
+            <p>
+              <?php print _("There are a number of restrictions that you must accept by law."); ?>
+              <?php $p = _("Restrictions on who can use the software, what kind of revenue you may earn with it, on how you choose to install it, restrictions on your privacy, even on whether you can give it away: the list is long. <a href=\"%s\">Reading the license and enumerating your remaining rights</a> is itself a difficult task</a>.");
+              printf($p, $this->get_base_url('windows/restrictions/further_details')); ?>
+            </p>
           </li>
           <li>
-            <p class="highlight"><?php
-			# translators: Don't bother with the 'abbr' code. You can tranlsate as 'OEM [pre-installed]'
-			print _("An <abbr title=\"Original Equipment Manufacturer (simply the hardware seller)\">OEM</abbr>-distributed software cannot be transferred to another computer."); ?></p>
+            <p><mark><?php
+            # translators: Don't bother with the 'abbr' code. You can tranlsate as 'OEM [pre-installed]'
+            print _("An <abbr title=\"Original Equipment Manufacturer (simply the hardware seller)\">OEM</abbr>-distributed software cannot be transferred to another computer."); ?></mark></p>
 
             <p><?php
-			# translators: Don't bother with the 'shrink-wrap' expression. You can skip that bit if you wish.
-			print _("If you bought your computer with Windows or Office pre-installed (the so-called OEM licenses, or the \"shrink wrap\" Windows discs), <strong>if you change computers you must buy software again.</strong>"); ?>
+            # translators: Don't bother with the 'shrink-wrap' expression. You can skip that bit if you wish.
+            print _("If you bought your computer with Windows or Office pre-installed (the so-called OEM licenses, or the \"shrink wrap\" Windows discs), <strong>if you change computers you must buy software again.</strong>"); ?>
             <?php print _("The license is linked to one computer, and expires when the computer dies. It is then illegal to transfer the software on another computer."); ?></p>
           </li>
         </ul>

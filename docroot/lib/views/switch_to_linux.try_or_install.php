@@ -21,7 +21,7 @@ $this->load_header();
         <h2 id="live_cd"><?php print _("Try out the live USB stick"); ?></h2>
 
         <h3 id="live_cd_what_is"><?php print _("Take no risk"); ?></h3>
-        <img src="/images/USB-stick.svg" class="float-right w20 hidden-xs" alt="">
+        <img src="/images/USB-stick.svg" class="float-right w20 hide-on-small-only" alt="<?php print _("USB stick"); ?>">
         <p><?php print _("Using a live USB stick means that GNU/Linux will be running on your computer <em>without installing anything</em>. It's a risk-less way to try and see by yourself what GNU/Linux is."); ?></p>
         <p><?php print _("When running on a live USB stick, your computer uses solely the USB stick to work (without accessing the hard drive inside). You can launch all of the default programs, edit documents, and browse the web."); ?></p>
         <p><?php print _("Since it is only designed as a trial mode, it is a little slow (it will take you five minutes to boot up, and programs launch somewhat slowly). If you proceed to install, the system will go much faster."); ?></p>
@@ -50,8 +50,8 @@ $this->load_header();
 
         <div class="row">
           <div class="col s12 m6 l4">
-            <div class="card brown lighten-5">
-              <div class="card-image distribution_logo distribution_logo--debian"></div>
+            <div class="card card-distribution brown lighten-5">
+              <div class="card-image card-distribution-logo card-distribution-logo--debian"></div>
               <div class="card-content">
                 <p><?php print _("<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">Create a live USB stick</a> or <a href=\"https://www.debian.org/CD/faq/#record-windows\" rel=\"external\">burn it to a CD/DVD</a>. Then use it to <a href=\"https://www.debian.org/releases/stable/installmanual\" rel=\"external\">install Debian</a> onto your computer."); ?></p>
               </div>
@@ -64,8 +64,8 @@ $this->load_header();
             </div>
           </div>
           <div class="col s12 m6 l4">
-            <div class="card brown lighten-5">
-              <div class="card-image distribution_logo distribution_logo--ubuntu"></div>
+            <div class="card card-distribution brown lighten-5">
+              <div class="card-image card-distribution-logo card-distribution-logo--ubuntu"></div>
               <div class="card-content">
                 <p><?php print _("<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows\" rel=\"external\">Create a live USB stick</a> or <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel=\"external\">burn it to a DVD</a>. Then use it to <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel=\"external\">install Ubuntu</a> onto your computer."); ?></p>
               </div>
@@ -78,8 +78,8 @@ $this->load_header();
             </div>
           </div>
           <div class="col s12 m6 l4">
-            <div class="card brown lighten-5">
-              <div class="card-image distribution_logo distribution_logo--fedora"></div>
+            <div class="card card-distribution brown lighten-5">
+              <div class="card-image card-distribution-logo card-distribution-logo--fedora"></div>
               <div class="card-content">
                 <p><?php print _("<a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">Create a live USB stick</a> or <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">burn it to a CD/DVD</a>. Then use it to <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/Booting_the_Installation/\" rel=\"external\">install Fedora</a> onto your computer."); ?></p>
               </div>
@@ -93,14 +93,14 @@ $this->load_header();
           </div>
         </div>
 
-        <p class="note italic"><?php print _("Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title=\"What do you mean, free?\" rel=\"external\">free software</a>. You are simply paying a handling/shipping fee."); ?></p>
+        <p class="note"><?php print _("Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title=\"What do you mean, free?\" rel=\"external\">free software</a>. You are simply paying a handling/shipping fee."); ?></p>
       </section>
 
       <section>
         <h2 id="free_software_pre_installed"><?php print _("Free Software pre-installed"); ?></h2>
         <picture>
           <source srcset="/images/Meerkat.webp" type="image/webp">
-          <img src="/images/Meerkat.png" alt="Mini Computer" class="float-right w30 hidden-sm">
+          <img class="float-right w30 hide-on-small-only" src="/images/Meerkat.png" title="<?php print _("Computer with GNU/Linux pre-installed"); ?>" alt="<?php print _("Computer with GNU/Linux pre-installed"); ?>">
         </picture>
         <p><?php print _("Not all computers are shipped with Windows or macOS. If you do not wish to make the install yourself, or are in need of new hardware, you can get a laptop or a desktop pre-installed with GNU/Linux. <a href=\"https://linuxpreloaded.com/\" rel=\"external\">LinuxPreloaded.com</a> has compiled a list of vendors pre-installing GNU/Linux just for that reason."); ?></p>
       </section>

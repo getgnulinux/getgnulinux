@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
-"POT-Creation-Date: 2020-12-14 12:41+0000\n"
+"POT-Creation-Date: 2020-12-15 03:11+0000\n"
 "PO-Revision-Date: 2020-12-13 02:41+0000\n"
 "Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/getgnulinux/"
@@ -55,7 +55,7 @@ msgstr "Condiciones de uso"
 #: docroot/lib/ggl.php:216
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:50
 #: docroot/lib/views/linux.linux_faq.php:253 docroot/lib/views/more.php:16
-#: src/templates/header.php:46 src/templates/header.php:66
+#: src/templates/header.php:46 src/templates/header.php:73
 #: src/templates/footer.php:24
 msgid "More"
 msgstr "Más detalles"
@@ -65,7 +65,7 @@ msgstr "Más detalles"
 #: docroot/lib/views/linux.misunderstanding_free_software.php:168
 #: docroot/lib/views/linux.linux_faq.php:264 docroot/lib/views/linux.php:13
 #: docroot/lib/views/home.php:25 src/templates/header.php:43
-#: src/templates/header.php:62
+#: src/templates/header.php:69
 msgid "What is GNU/Linux?"
 msgstr "¿Qué es GNU/Linux?"
 
@@ -94,10 +94,10 @@ msgstr "Cómo se ve GNU/Linux"
 #: docroot/lib/views/windows.what_about_source_code.php:61
 #: docroot/lib/views/windows.stand_for_a_free_society.php:152
 #: docroot/lib/views/linux.php:100
-#: docroot/lib/views/windows.restrictions.php:73
+#: docroot/lib/views/windows.restrictions.php:75
 #: docroot/lib/views/windows.php:16 docroot/lib/views/home.php:38
 #: docroot/lib/views/windows.what_about_choice.php:65
-#: src/templates/header.php:44 src/templates/header.php:64
+#: src/templates/header.php:44 src/templates/header.php:71
 msgid "Why not Windows"
 msgstr "Por qué no Windows"
 
@@ -138,14 +138,14 @@ msgstr "Sin código fuente"
 #: docroot/lib/ggl.php:238 docroot/lib/views/switch_to_linux.php:15
 #: docroot/lib/views/linux.php:115 docroot/lib/views/windows.php:99
 #: docroot/lib/views/home.php:51 src/templates/header.php:45
-#: src/templates/header.php:65
+#: src/templates/header.php:72
 msgid "Switch to GNU/Linux"
 msgstr "Cambiar a GNU/Linux"
 
 #: docroot/lib/ggl.php:239 docroot/lib/ggl.php:290
 #: docroot/lib/views/switch_to_linux.php:37
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:120
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:34
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:35
 msgid "Choose a distribution"
 msgstr "Escoge una distribución"
 
@@ -159,7 +159,7 @@ msgstr "De Windows a GNU/Linux"
 #: docroot/lib/ggl.php:242 docroot/lib/ggl.php:291
 #: docroot/lib/views/switch_to_linux.php:52
 #: docroot/lib/views/switch_to_linux.try_or_install.php:14
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:132
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:136
 msgid "Try or install"
 msgstr "Prueba o instala"
 
@@ -270,7 +270,8 @@ msgstr ""
 "de Microsoft."
 
 #: docroot/lib/views/windows.restrictions.further_details.php:23
-msgid "It is unclear who can use, receive or buy your software."
+#, fuzzy
+msgid "It is unclear who can use, receive or buy your software"
 msgstr "No está claro quién puede usar, recibir o vender su software."
 
 #: docroot/lib/views/windows.restrictions.further_details.php:24
@@ -402,8 +403,8 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:126
 #: docroot/lib/views/linux.php:76 docroot/lib/views/linux.php:87
 #: docroot/lib/views/linux.php:104 docroot/lib/views/linux.php:119
-#: docroot/lib/views/windows.restrictions.php:65
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:138
+#: docroot/lib/views/windows.restrictions.php:67
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:142
 #: docroot/lib/views/windows.php:36 docroot/lib/views/windows.php:48
 #: docroot/lib/views/windows.php:64 docroot/lib/views/windows.php:80
 #: docroot/lib/views/windows.php:103 docroot/lib/views/home.php:29
@@ -1249,6 +1250,10 @@ msgstr "Pruébalo: El \"Live CD\""
 msgid "Take no risk"
 msgstr "No hay nada que perder"
 
+#: docroot/lib/views/switch_to_linux.try_or_install.php:24
+msgid "USB stick"
+msgstr ""
+
 #: docroot/lib/views/switch_to_linux.try_or_install.php:25
 #, fuzzy
 msgid ""
@@ -1425,6 +1430,11 @@ msgstr ""
 msgid "Free Software pre-installed"
 msgstr "Software Libre pre-instalado"
 
+#: docroot/lib/views/switch_to_linux.try_or_install.php:103
+#, fuzzy
+msgid "Computer with GNU/Linux pre-installed"
+msgstr "¿Viene GNU/Linux preinstalado en ordenadores?"
+
 #: docroot/lib/views/switch_to_linux.try_or_install.php:105
 msgid ""
 "Not all computers are shipped with Windows or macOS. If you do not wish to "
@@ -1474,7 +1484,7 @@ msgstr ""
 "costos de transacción serían prohibitivos."
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:30
-#: docroot/lib/views/windows.restrictions.php:53
+#: docroot/lib/views/windows.restrictions.php:55
 msgid "2005 interview"
 msgstr "Entrevista del 2005"
 
@@ -2983,7 +2993,7 @@ msgstr ""
 "que los clientes empresariales suelen estar felices de pagar para un soporte "
 "más avanzado."
 
-#: docroot/lib/views/linux.php:83 src/templates/header.php:63
+#: docroot/lib/views/linux.php:83 src/templates/header.php:70
 #, fuzzy
 msgid "GNU/Linux FAQ"
 msgstr "¡Cámbiate a GNU/Linux!"
@@ -3069,18 +3079,18 @@ msgstr ""
 msgid "You must abandon many rights to use the software."
 msgstr "Debes renunciar a muchos derechos para poder utilizar este software."
 
-#: docroot/lib/views/windows.restrictions.php:32
+#: docroot/lib/views/windows.restrictions.php:33
 msgid "There are a number of restrictions that you must accept by law."
 msgstr "Existen ciertas restricciones que han de acatarse por ley."
 
-#: docroot/lib/views/windows.restrictions.php:33
-#, php-format
+#: docroot/lib/views/windows.restrictions.php:34
+#, fuzzy, php-format
 msgid ""
 "Restrictions on who can use the software, what kind of revenue you may earn "
 "with it, on how you choose to install it, restrictions on your privacy, even "
-"on whether you can give it away: the list is long. <a href=\"%s\" title=\"a "
-"few more things about Microsoft licenses\">Reading the license and "
-"enumerating your remaining rights</a> is itself a difficult task."
+"on whether you can give it away: the list is long. <a href=\"%s\">Reading "
+"the license and enumerating your remaining rights</a> is itself a difficult "
+"task</a>."
 msgstr ""
 "Las restricciones sobre quién puede usar el software, qué tipo de ingresos "
 "se pueden obtener con él, en la forma que elijas para instalar, "
@@ -3090,7 +3100,7 @@ msgstr ""
 "sí misma una tarea difícil."
 
 #. translators: Don't bother with the 'abbr' code. You can tranlsate as 'OEM [pre-installed]'
-#: docroot/lib/views/windows.restrictions.php:39
+#: docroot/lib/views/windows.restrictions.php:41
 msgid ""
 "An <abbr title=\"Original Equipment Manufacturer (simply the hardware "
 "seller)\">OEM</abbr>-distributed software cannot be transferred to another "
@@ -3102,7 +3112,7 @@ msgstr ""
 "inglés), no puede ser transferida a otro computador."
 
 #. translators: Don't bother with the 'shrink-wrap' expression. You can skip that bit if you wish.
-#: docroot/lib/views/windows.restrictions.php:43
+#: docroot/lib/views/windows.restrictions.php:45
 msgid ""
 "If you bought your computer with Windows or Office pre-installed (the so-"
 "called OEM licenses, or the \"shrink wrap\" Windows discs), <strong>if you "
@@ -3112,7 +3122,7 @@ msgstr ""
 "llamadas OEM, o los discos de Windows \"Shrink Wrap\")  <strong>y cambias de "
 "computadora, deberás volver a comprar el software.</strong>"
 
-#: docroot/lib/views/windows.restrictions.php:44
+#: docroot/lib/views/windows.restrictions.php:46
 msgid ""
 "The license is linked to one computer, and expires when the computer dies. "
 "It is then illegal to transfer the software on another computer."
@@ -3120,7 +3130,7 @@ msgstr ""
 "La licencia está asociada a un computador, y expira cuando el computador "
 "desaparece. Por lo tanto, transferir el software a otro computador es ilegal."
 
-#: docroot/lib/views/windows.restrictions.php:51
+#: docroot/lib/views/windows.restrictions.php:53
 msgid ""
 "If you go to most of the free software sites you can click down a couple of "
 "levels and find the [GNU] <abbr title=\"General Public License, the main "
@@ -3133,7 +3143,7 @@ msgstr ""
 "licencia X, la licencia de Apache, o cualquiera que sean los términos y "
 "condiciones que tiene que aceptar para usar el software."
 
-#: docroot/lib/views/windows.restrictions.php:52
+#: docroot/lib/views/windows.restrictions.php:54
 msgid ""
 "Now with a proprietary software company, the license is buried so you can't "
 "read it until after you have paid for the product, then they're asking you "
@@ -3147,15 +3157,15 @@ msgstr ""
 "parte de tu cerebro</strong>, que apagues parte de tu capacidad de trabajar "
 "con otras personas y hacer negocios."
 
-#: docroot/lib/views/windows.restrictions.php:53
+#: docroot/lib/views/windows.restrictions.php:55
 msgid "Don Marti interview"
 msgstr "Entrevista a Don Marti"
 
-#: docroot/lib/views/windows.restrictions.php:58
+#: docroot/lib/views/windows.restrictions.php:60
 msgid "The meaning behind"
 msgstr "El mensaje oculto"
 
-#: docroot/lib/views/windows.restrictions.php:60
+#: docroot/lib/views/windows.restrictions.php:62
 msgid ""
 "Companies like Microsoft like to assimilate their software to physical "
 "products, when mentioning copyright infringement for example. Yet, "
@@ -3168,7 +3178,7 @@ msgstr ""
 "tales restricciones serían impensables en un coche o una bicicleta, por "
 "ejemplo."
 
-#: docroot/lib/views/windows.restrictions.php:61
+#: docroot/lib/views/windows.restrictions.php:63
 msgid ""
 "Restrictions on the use of Office and Windows are so harsh, that many "
 "violations occur everyday around us. People are tempted to buy only one "
@@ -3184,7 +3194,7 @@ msgstr ""
 "dejan de usarlo."
 
 #. translators: use the definition of "free software" on GNU.org; also, gnu.org uses language negotiation, so it's not necessary to replace those URLs.
-#: docroot/lib/views/windows.restrictions.php:64
+#: docroot/lib/views/windows.restrictions.php:66
 msgid ""
 "<strong>You have an alternative to breaking this law,</strong> or feeling "
 "very restrained when you abide to it. GNU/Linux is <a href=\"https://www.gnu."
@@ -3193,7 +3203,7 @@ msgid ""
 "html\" rel=\"external\">GPL</a> license is designed to protect your rights."
 msgstr ""
 
-#: docroot/lib/views/windows.restrictions.php:65
+#: docroot/lib/views/windows.restrictions.php:67
 msgid "Restrictions - further details"
 msgstr "Más detalles acerca de las restricciones"
 
@@ -3201,9 +3211,8 @@ msgstr "Más detalles acerca de las restricciones"
 #. translators: This is the description of the "fedora1.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:10
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:24
-msgid ""
-"Accessing applications in the <a href=\"https://www.gnome.org/gnome-3/\" rel="
-"\"external\">GNOME 3</a> desktop environment."
+#, fuzzy
+msgid "Accessing applications in the GNOME desktop environment."
 msgstr ""
 "Accediendo a aplicaciones en el entorno de escritorio <a href=\"https://www."
 "gnome.org/gnome-3/\" rel=\"external\">GNOME 3</a>"
@@ -3233,7 +3242,7 @@ msgstr "Vista del escritorio con dos aplicaciones abiertas."
 msgid "Software manager open, install/remove applications."
 msgstr ""
 
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:37
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:38
 msgid ""
 "Because there is no \"one GNU/Linux\", finding what you need can be "
 "difficult. Here are our choice of three beginner-friendly, widely used "
@@ -3244,7 +3253,7 @@ msgstr ""
 "principiantes y son ampliamente usadas."
 
 #. translators: The distrowatch.com website is translated into many languages (see https://distrowatch.com/dwres.php?resource=about). If your language is present, please replace "EN" in the URL by the code of your language (e.g. for Spanish, the last part would become "language=ES").
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:41
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:42
 msgid ""
 "Note: There are <a href=\"https://distrowatch.com/dwres.php?"
 "resource=major&amp;language=EN\" rel=\"external\">plenty of distributions to "
@@ -3254,13 +3263,13 @@ msgstr ""
 "resource=major&amp;language=EN\" rel=\"external\">muchas distribuciones "
 "dónde elegir y comparar</a>."
 
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:42
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:43
 msgid "This is our selection for newcomers. These links are not commercial."
 msgstr ""
 "Esta es nuestra selección para los recién llegados. Estos enlaces no son "
 "comerciales."
 
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:51
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:53
 msgid ""
 "Debian is one of the oldest operating systems based on the Linux kernel. It "
 "has the reputation of being a very stable and secure GNU/Linux distribution "
@@ -3269,7 +3278,7 @@ msgid ""
 "Debian is also the basis for many other distributions, most notably Ubuntu."
 msgstr ""
 
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:52
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:54
 msgid ""
 "We recommend this distribution if you are committed to freedom in your "
 "computing."
@@ -3277,7 +3286,7 @@ msgstr ""
 "Recomendamos esta distribución si estás comprometido con la libertad en tu "
 "computación."
 
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:79
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:81
 msgid ""
 "Ubuntu is a GNU/Linux distribution based on Debian. The philosophy behind "
 "Ubuntu is that every computer user should be able to download and use their "
@@ -3287,7 +3296,7 @@ msgid ""
 "has excellent hardware support, is easy to use and pleasant on the eyes."
 msgstr ""
 
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:80
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:82
 msgid ""
 "We recommend this friendly and complete distribution if you are looking for "
 "an easy way to try and step into GNU/Linux."
@@ -3295,7 +3304,7 @@ msgstr ""
 "Recomendamos esta distribución si buscas una forma fácil de iniciarte en GNU/"
 "Linux."
 
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:107
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:109
 msgid ""
 "The distribution by the long-time prominent GNU/Linux developer company Red "
 "Hat. The default layout is similar to Debian, but there are differences in "
@@ -3305,7 +3314,7 @@ msgid ""
 "robust, useful, and powerful free software."
 msgstr ""
 
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:108
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:110
 msgid ""
 "We recommend this distribution if you wish to learn more about the workings "
 "of a GNU/Linux system, security configuration, or work on software "
@@ -3316,7 +3325,7 @@ msgstr ""
 "o no dispones de conexión a internet."
 
 #. translators: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:135
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:139
 #, fuzzy
 msgid "Now grab a USB stick and try or install your distribution!"
 msgstr "¡Ahora consigue un CD y prueba o instala tu distribución!"
@@ -3696,11 +3705,12 @@ msgid ""
 msgstr ""
 "Nota: Estos enlaces se proponen como recomendación. No son comerciales."
 
-#: src/templates/header.php:42 src/templates/header.php:61
+#: src/templates/header.php:42 src/templates/header.php:68
 msgid "Home"
 msgstr ""
 
-#: src/templates/header.php:80 src/templates/footer.php:23
+#: src/templates/header.php:87 src/templates/header.php:101
+#: src/templates/footer.php:23
 msgid "Help translate"
 msgstr ""
 

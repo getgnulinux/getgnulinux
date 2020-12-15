@@ -20,28 +20,28 @@ $this->load_header();
 
       <ul class="browser-default">
         <li>
-          <p class="highlight"><?php print _("It is unclear who can use, receive or buy your software."); ?></p>
+          <p><mark><?php print _("It is unclear who can use, receive or buy your software"); ?></mark></p>
           <p><?php print _("The license is particularly unclear as to who may or may not use your version of Windows or Office. Several sentences in the Microsoft Office license suggest it would be illegal to let your neighbour type a letter with your version of Word on your computer."); ?></p>
           <p><?php print _("It is however clear in the Microsoft Windows license that you may <em>only</em> give or sell your copy of Windows software to anyone <strong>if you are the first buyer</strong>. This means, that if you buy it from the user who initially purchased it from Microsoft, then <em>you</em> are not able to sell or give the software away to yet another user, even if you do not use it anymore, even if you buy the latest software version with your new computer."); ?></p>
         </li>
         <li>
-          <p class="highlight"><?php print _("You may not lease, lend or provide commercial hosting services with the software"); ?></p>
+          <p><mark><?php print _("You may not lease, lend or provide commercial hosting services with the software"); ?></mark></p>
           <p><?php print _("You cannot let professional users use your software, whether they pay for the service or not, and whether you use a &quot;Professional&quot; license or not."); ?></p>
         </li>
         <li>
-          <p class="highlight"><?php print _("The upgrade is only valid for the first license you use it on"); ?></p>
+          <p><mark><?php print _("The upgrade is only valid for the first license you use it on"); ?></mark></p>
           <p><?php print _("If that original license expires (for example because the computer it came on stops working), so does the upgrade. If you purchase an upgrade, you are not allowed to use the original software version anymore."); ?></p>
         </li>
         <li>
-          <p class="highlight"><?php print _("Educational versions are crippled"); ?></p>
+          <p><mark><?php print _("Educational versions are crippled"); ?></mark></p>
           <p><?php print _("If Microsoft accepts to define you as a student or an academic, you are allowed to buy an academic license, and install the software on three computers. But it is illegal to use it for any commercial purpose \"<em>or in any way related to the operation of any business enterprise or revenue-generating activities</em>\"."); ?></p>
         </li>
         <li>
-          <p class="highlight"><?php print _("The components of the software may not be separated"); ?></p>
+          <p><mark><?php print _("The components of the software may not be separated"); ?></mark></p>
           <p><?php print _("It is illegal to buy Microsoft Office, then install only Word on one computer, and only Excel on another. The Office suite is one single product."); ?></p>
         </li>
         <li>
-          <p class="highlight"><?php print _("Private information is collected"); ?></p>
+          <p><mark><?php print _("Private information is collected"); ?></mark></p>
           <p><?php print _("The licence explicitly states that \"Microsoft and its affiliates\" collect technical information gathered on your computer by the software. They \"<em>may use this information solely to improve products or to provide customized services or technologies</em>\"."); ?></p>
           <p><?php print _("In order to activate most Microsoft products, as part of the license agreement, your computer connects to the Microsoft servers and sends &quot;technical&quot; information. It can &quot;solely&quot; be used for pretty much anything."); ?></p>
         </li>

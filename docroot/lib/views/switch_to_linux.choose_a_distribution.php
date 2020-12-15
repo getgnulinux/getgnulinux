@@ -7,7 +7,7 @@ if ( !defined('GGL') ) {
 $this->load_header();
 
 # translators: This is the description of the "debian1.jpg" screenshot.
-$debian1_text = _("Accessing applications in the <a href=\"https://www.gnome.org/gnome-3/\" rel=\"external\">GNOME 3</a> desktop environment.");
+$debian1_text = _("Accessing applications in the GNOME desktop environment.");
 # translators: This is the description of the "debian2.jpg" screenshot.
 $debian2_text = _("LibreOffice Writer open, editing a standard document.");
 # translators: This is the description of the "debian3.jpg" screenshot.
@@ -21,7 +21,7 @@ $ubuntu2_text = _("Rhythmbox music player");
 $ubuntu3_text = _("Thunderbird e-mail and calendar application");
 
 # translators: This is the description of the "fedora1.jpg" screenshot.
-$fedora1_text = _("Accessing applications in the <a href=\"https://www.gnome.org/gnome-3/\" rel=\"external\">GNOME 3</a> desktop environment.");
+$fedora1_text = _("Accessing applications in the GNOME desktop environment.");
 # translators: This is the description of the "fedora2.jpg" screenshot.
 $fedora2_text = _("Desktop overview with two applications open.");
 # translators: This is the description of the "fedora3.jpg" screenshot.
@@ -38,7 +38,7 @@ $fedora3_text = _("Software manager open, install/remove applications.");
           <p><?php print _("Because there is no \"one GNU/Linux\", finding what you need can be difficult. Here are our choice of three beginner-friendly, widely used distributions."); ?></p>
         </div>
 
-        <p class="italic centered"><?php # translators: The distrowatch.com website is translated into many languages (see https://distrowatch.com/dwres.php?resource=about). If your language is present, please replace "EN" in the URL by the code of your language (e.g. for Spanish, the last part would become "language=ES").
+        <p class="note center"><?php # translators: The distrowatch.com website is translated into many languages (see https://distrowatch.com/dwres.php?resource=about). If your language is present, please replace "EN" in the URL by the code of your language (e.g. for Spanish, the last part would become "language=ES").
         print _("Note: There are <a href=\"https://distrowatch.com/dwres.php?resource=major&amp;language=EN\" rel=\"external\">plenty of distributions to choose from and compare</a>."); ?><br />
         <?php print _("This is our selection for newcomers. These links are not commercial."); ?></p>
       </header>
@@ -46,7 +46,7 @@ $fedora3_text = _("Software manager open, install/remove applications.");
 
     <section class="debian">
       <div class="container">
-        <div class="centered">
+        <div class="center">
           <img src="/images/DebianLogoStacked.svg" class="distro-logo" alt="Debian Logo">
         </div>
 
@@ -74,7 +74,7 @@ $fedora3_text = _("Software manager open, install/remove applications.");
 
     <section class="ubuntu">
       <div class="container">
-        <div class="centered">
+        <div class="center">
           <img src="/images/UbuntuLogo.svg" class="distro-logo" alt="Ubuntu Logo">
         </div>
 
@@ -102,7 +102,7 @@ $fedora3_text = _("Software manager open, install/remove applications.");
 
     <section class="fedora">
       <div class="container">
-        <div class="centered">
+        <div class="center">
           <img src="/images/FedoraLogo.svg" class="distro-logo" alt="Fedora Logo">
         </div>
 

@@ -33,7 +33,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
       <section>
         <h2 id="not_a_crazy_concept"><?php print _("Not a crazy concept"); ?></h2>
         <p><?php print _("It sounds peculiar to many users that software should be free as in freedom, since none of Microsoft's products are. Yet our society works with many free things in it, for example:"); ?></p>
-        <div class="card-panel card-panel--small card-panel--source amber lighten-4 float-right hidden-sm">
+        <div class="card-panel card-panel--small card-panel--source amber lighten-4 float-right hide-on-small-only">
           <p><?php
           # translators: This is the short quote on the side of the article.
           print _("Though no one has a proprietary lock on yoga, it is still a thriving $30 billion business in the United States."); ?></p>
@@ -58,7 +58,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
         # translators: The %s placeholder will automatically point to the footnote on bottom of page
         $p = _("The main idea of DRM %s is to restrict access to files. Users encounter this when, for example, they purchase music through iTunes, and then can only play their music with one player, from one brand. With this method, companies fight copyright infringement, but they also severely restrain users' access to their files.");
         printf($p, $footnote2); ?></p>
-        <p class="highlight"><?php print _("DRM is control over content"); ?></p>
+        <p><mark><?php print _("DRM is control over content"); ?></mark></p>
         <p><?php print _("Except that the control is not in the hands of the end-user. The original purpose of <abbr title=\"Digital Restrictions Management\">DRM</abbr> is understandable, but the implications over the flow of information and culture within a society are frightening."); ?></p>
         <ul class="browser-default">
           <li><?php print _("Imagine a book that automatically became glued shut after you read it once."); ?></li>
@@ -71,7 +71,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
         # translators: This is sometimes only known as "Trusted Computing", not TC, in some languages. Please choose the vocabulary carefully.
         print _("Trusted Computing (TC)"); ?></h3>
         <p><?php print _("Trusted Computing (sometimes <a href=\"https://www.lafkon.net/tc/\" title=\"A very well done video on Trusted Computing\" rel=\"external\">more accurately</a> called \"Treacherous Computing\") means a computer can only run \"Trusted\" Software. It is meant to be an uncircumventable protection against nuisances (like viruses or spyware) and copyright violations (people copying proprietary software)."); ?></p>
-        <p class="highlight"><?php print _("Trusted Computing is control over the computer"); ?></p>
+        <p><mark><?php print _("Trusted Computing is control over the computer"); ?></mark></p>
         <p><?php print _("The critical thing about Trusted Computing is that <strong>you cannot decide</strong> what is trustworthy and what is not. For example, your computer might refuse to run programs that are not certified by the software company &ndash;programs that could enable you to take documents out of the office, or play your neighbour's DVD, or send your essay to someone not using the same program."); ?></p>
         <p><?php print _("A whole range of possibilities opens up for companies that benefit from restricting your computing (such as proprietary software and recording companies). It is suddenly possible to rent DVDs that only play two times, or music you can only listen to during September, or information you can read but can't save or copy. All of a sudden, Trusted Computing and DRM enable <strong>remote control</strong> over content."); ?></p>
         <p><?php print _("Trusted Computing, in effect, enables the publisher to write their own copyright law."); ?></p>
@@ -90,7 +90,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
 
         <p><?php print _("Computing is not just about calculations anymore. We use software to communicate: to share information, ideas and culture. Software is in our phones, cars, media players, TVs, and gets to govern just about every new device around us."); ?></p>
 
-        <div class="card-panel card-panel--image card-panel--source amber lighten-4 float-right hidden-sm">
+        <div class="card-panel card-panel--image card-panel--source amber lighten-4 float-right hide-on-small-only">
           <img class="" src="/images/windows/windows.stand_for_a_free_society.content_protection.png" width="235" height="150" alt="DRM"/>
           <span class="source"><span class="author">Randall Munroe,</span> <a href="https://xkcd.com/c129.html" rel="external">xkcd</a></span>
         </div>
