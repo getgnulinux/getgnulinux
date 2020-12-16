@@ -104,6 +104,15 @@ abbr {
     letter-spacing: 0.05em;
 }
 
+details {
+    > summary {
+        cursor: pointer;
+        outline: none;
+        border-bottom: dotted 1px #b9b5b5;
+        margin-bottom: 1em;
+    }
+}
+
 .container {
     @include clearfix;
 }
@@ -275,42 +284,6 @@ section.debian {
             font-size: 1.2rem;
             font-weight: bold;
             font-style: normal;
-        }
-    }
-}
-
-#faq {
-    h4 {
-        margin-top: 0;
-    }
-
-    details {
-        > summary {
-            cursor: pointer;
-            outline: none;
-            border-bottom: dotted 1px #b9b5b5;
-            margin-bottom: 1em;
-        }
-
-        > div.answer {
-            margin: 0 0 1.5em;
-            border-left: 4px solid $primary-color;
-            padding: 0 0 0 1em;
-
-            a img {
-                transition-duration: 0.2s;
-                transition-timing-function: ease;
-            }
-
-            a:hover img {
-                transform: translateY(-5px);
-            }
-
-            div.read-more {
-                li {
-                    margin: 0;
-                }
-            }
         }
     }
 }
