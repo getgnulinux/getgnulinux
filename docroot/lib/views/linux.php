@@ -29,7 +29,7 @@ $this->load_header();
         <p><?php print _("If you need commercial-quality software to work with business documents, Internet/networking, or multimedia and graphics, it's there right out of the box. Want more than that? GNU/Linux can do &ndash; there are many hundreds of free, high quality applications you can find, install and uninstall neatly and easily."); ?></p>
         <p><?php $p = _("You shouldn't assume however, that GNU/Linux is a clone of Windows. To know what to expect when stepping into it, we suggest you read our <a href=\"%s\">Making the switch</a> page."); printf ($p, $this->get_base_url('switch_to_linux')) ?></p>
 
-        <div class="row">
+        <div class="row" dir="ltr">
           <div class="col s12 m6">
             <div class="card">
               <div class="card-image">
