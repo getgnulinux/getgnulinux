@@ -65,7 +65,7 @@ $this->load_header();
       <aside>
         <div class="row">
           <div class="col s12 m6">
-            <div class="card blue-grey darken-1">
+            <div class="card brown darken-1">
               <div class="card-content white-text">
                 <span class="card-title"><?php print _("How to Misunderstand Free Software"); ?></span>
                 <p><?php
@@ -78,7 +78,7 @@ $this->load_header();
             </div>
           </div>
           <div class="col s12 m6">
-            <div class="card blue-grey darken-1">
+            <div class="card brown darken-1">
               <div class="card-content white-text">
                 <span class="card-title"><?php print _("GNU/Linux FAQ"); ?></span>
                 <p><?php $p = _("This FAQ covers common questions about GNU/Linux. We hope this FAQ list can help if you are more curious."); printf($p, $this->get_base_url('linux')); ?></p>

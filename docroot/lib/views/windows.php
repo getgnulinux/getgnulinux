@@ -24,7 +24,7 @@ $this->load_header();
 
       <div class="row">
         <div class="col m12 l6">
-          <div class="card blue-grey darken-1">
+          <div class="card brown darken-1">
             <div class="card-content white-text">
               <h2 class="card-title"><?php print _("Restrictions"); ?></h2>
               <p><?php
@@ -38,7 +38,7 @@ $this->load_header();
           </div>
         </div>
         <div class="col m12 l6">
-          <div class="card blue-grey darken-1">
+          <div class="card brown darken-1">
             <div class="card-content white-text">
               <h2 class="card-title"><?php print _("What about choice?"); ?></h2>
               <p><?php print _("Software should come without locks in it."); ?></p>
@@ -53,7 +53,7 @@ $this->load_header();
 
       <div class="row">
         <div class="col m12 l6">
-          <div class="card blue-grey darken-1">
+          <div class="card brown darken-1">
             <div class="card-content white-text">
               <h2 class="card-title"><?php print _("No source code"); ?></h2>
               <p><?php print _("The source codes of Windows and Office are hidden, so, <strong>no one is allowed to understand</strong> how these programs work."); ?></p>
@@ -66,7 +66,7 @@ $this->load_header();
           </div>
         </div>
         <div class="col m12 l6">
-          <div class="card blue-grey darken-1">
+          <div class="card brown darken-1">
             <div class="card-content white-text">
               <h2 class="card-title"><?php print _("Stand for a free society"); ?></h2>
               <p><?php
