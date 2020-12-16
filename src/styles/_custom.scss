@@ -175,11 +175,6 @@ img.w30 {
     width: 30%;
 }
 
-img.rounded-corners {
-    @include border-top-radius(5px);
-    @include border-bottom-radius(5px);
-}
-
 img.lift-effect {
     transition-duration: 0.2s;
     transition-timing-function: ease;
@@ -344,32 +339,9 @@ section.debian {
     border: none !important;
     position: relative;
 
-    &_screenshots {
-        margin-bottom: 3em;
-
-        /* Put the navigation bullets on the slide */
-        .flex-control-nav {
-            bottom: 5px;
-            z-index: 2;
-        }
-
-        /* Captions */
-        .flex-caption {
-            background-color: $shade-lighten-4;
-            @include border-top-radius(3px);
-            @include border-bottom-radius(3px);
-            line-height: 18px;
-            margin: 10px 0 0;
-            padding: 1%;
-            position: absolute;
-            text-align: center;
-            width: 100%;
-        }
-
-        img {
-            @include border-top-radius(5px);
-            @include border-bottom-radius(5px);
-        }
+    /* Hide the navigation bullets */
+    .flex-control-nav {
+        display: none;
     }
 
     /* Navigation icons bug workaround */

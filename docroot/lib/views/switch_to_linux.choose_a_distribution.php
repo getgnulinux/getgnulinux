@@ -53,21 +53,23 @@ $fedora3_text = _("Software manager open, install/remove applications.");
         <p><?php print _("Debian is one of the oldest operating systems based on the Linux kernel. It has the reputation of being a very stable and secure GNU/Linux distribution which is backed by a well-organized community of developers and users. For this reason it is popular for use on personal computers as well as servers. Debian is also the basis for many other distributions, most notably Ubuntu."); ?></p>
         <p><?php print _("We recommend this distribution if you are committed to freedom in your computing."); ?></p>
 
-        <div class="flexslider flexslider_screenshots">
-          <ul class="slides">
-            <li>
-              <img src="/images/screenshots/debian1.jpg" alt="Debian screenshot" />
-              <p class="flex-caption"><?php print $debian1_text; ?></p>
-            </li>
-            <li>
-              <img src="/images/screenshots/debian2.jpg" alt="Debian screenshot" />
-              <p class="flex-caption"><?php print $debian2_text; ?></p>
-            </li>
-            <li>
-              <img src="/images/screenshots/debian3.jpg" alt="Debian screenshot" />
-              <p class="flex-caption"><?php print $debian3_text; ?></p>
-            </li>
-          </ul>
+        <div class="flexslider card brown lighten-5">
+          <div class="card-image">
+            <ul class="slides">
+              <li>
+                <img src="/images/screenshots/debian1.jpg" alt="Debian screenshot" />
+                <div class="card-content center"><?php print $debian1_text; ?></div>
+              </li>
+              <li>
+                <img src="/images/screenshots/debian2.jpg" alt="Debian screenshot" />
+                <div class="card-content center"><?php print $debian2_text; ?></div>
+              </li>
+              <li>
+                <img src="/images/screenshots/debian3.jpg" alt="Debian screenshot" />
+                <div class="card-content center"><?php print $debian3_text; ?></div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
@@ -81,21 +83,23 @@ $fedora3_text = _("Software manager open, install/remove applications.");
         <p><?php print _("Ubuntu is a GNU/Linux distribution based on Debian. The philosophy behind Ubuntu is that every computer user should be able to download and use their software free of charge, that anyone should be able to use their software in the language of their choice, and that anyone should be able to use all software regardless of disability. The result is an operating system that has excellent hardware support, is easy to use and pleasant on the eyes."); ?></p>
         <p><?php print _("We recommend this friendly and complete distribution if you are looking for an easy way to try and step into GNU/Linux."); ?></p>
 
-        <div class="flexslider flexslider_screenshots">
-          <ul class="slides">
-            <li>
-              <img src="/images/screenshots/ubuntu1.jpg" alt="Ubuntu screenshot" />
-              <p class="flex-caption"><?php print $ubuntu1_text; ?></p>
-            </li>
-            <li>
-              <img src="/images/screenshots/ubuntu2.jpg" alt="Ubuntu screenshot" />
-              <p class="flex-caption"><?php print $ubuntu2_text; ?></p>
-            </li>
-            <li>
-              <img src="/images/screenshots/ubuntu3.jpg" alt="Ubuntu screenshot" />
-              <p class="flex-caption"><?php print $ubuntu3_text; ?></p>
-            </li>
-          </ul>
+        <div class="flexslider card brown lighten-5">
+          <div class="card-image">
+            <ul class="slides">
+              <li>
+                <img src="/images/screenshots/ubuntu1.jpg" alt="Ubuntu screenshot" />
+                <div class="card-content center"><?php print $ubuntu1_text; ?></div>
+              </li>
+              <li>
+                <img src="/images/screenshots/ubuntu2.jpg" alt="Ubuntu screenshot" />
+                <div class="card-content center"><?php print $ubuntu2_text; ?></div>
+              </li>
+              <li>
+                <img src="/images/screenshots/ubuntu3.jpg" alt="Ubuntu screenshot" />
+                <div class="card-content center"><?php print $ubuntu3_text; ?></div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
@@ -109,21 +113,23 @@ $fedora3_text = _("Software manager open, install/remove applications.");
         <p><?php print _("The distribution by the long-time prominent GNU/Linux developer company Red Hat. The default layout is similar to Debian, but there are differences in the chosen applications, install protocols and several technical elements. The Fedora developers are committed to innovation, which is reflected by incorporating new technologies early on, providing the latest in stable and robust, useful, and powerful free software."); ?></p>
         <p><?php print _("We recommend this distribution if you wish to learn more about the workings of a GNU/Linux system, security configuration, or work on software development."); ?></p>
 
-        <div class="flexslider flexslider_screenshots">
-          <ul class="slides">
-            <li>
-              <img src="/images/screenshots/fedora1.jpg" alt="Fedora screenshot" />
-              <p class="flex-caption"><?php print $fedora1_text; ?></p>
-            </li>
-            <li>
-              <img src="/images/screenshots/fedora2.jpg" alt="Fedora screenshot" />
-              <p class="flex-caption"><?php print $fedora2_text; ?></p>
-            </li>
-            <li>
-              <img src="/images/screenshots/fedora3.jpg" alt="Fedora screenshot" />
-              <p class="flex-caption"><?php print $fedora3_text; ?></p>
-           </li>
-          </ul>
+        <div class="flexslider card brown lighten-5">
+          <div class="card-image">
+            <ul class="slides">
+              <li>
+                <img src="/images/screenshots/fedora1.jpg" alt="Fedora screenshot" />
+                <div class="card-content center"><?php print $fedora1_text; ?></div>
+              </li>
+              <li>
+                <img src="/images/screenshots/fedora2.jpg" alt="Fedora screenshot" />
+                <div class="card-content center"><?php print $fedora2_text; ?></div>
+              </li>
+              <li>
+                <img src="/images/screenshots/fedora3.jpg" alt="Fedora screenshot" />
+                <div class="card-content center"><?php print $fedora3_text; ?></div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>

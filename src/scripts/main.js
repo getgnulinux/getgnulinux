@@ -3,7 +3,7 @@ $(window).load(function() {
     $('.language-button-small').dropdown();
     $('.language-button-large').dropdown();
     $('.materialboxed').materialbox();
-    $('.flexslider.flexslider_screenshots').flexslider({
+    $('.flexslider').flexslider({
         animation: 'fade'
     });
 });
