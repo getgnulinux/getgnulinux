@@ -148,11 +148,10 @@ class HTML {
     }
 
     function sidenav_link($page, $title) {
-      printf('<li class="%s"><a class="waves-effect" href="%s">%s <i class="material-icons %s">chevron_right</i></a></li>',
+      printf('<li class="%s"><a class="waves-effect" href="%s">%s <i class="material-icons right">chevron_right</i></a></li>',
         $this->we_are_here($page) ? 'active' : '',
         $this->get_base_url($page),
-        $title,
-        $this->rtltr("right", "left")
+        $title
       );
     }
 
@@ -178,7 +177,18 @@ class HTML {
      */
     function rtltr($a, $b) {
         global $ggl;
-        return ($ggl->get('dir') == 'ltr') ? $a : $b;
+        return ($ggl->get('dir') === 'ltr') ? $a : $b;
+    }
+
+    /**
+     * Return $a when the language is left-to-right, $b otherwise.
+     *
+     * @param string $a String A.
+     * @param string $b String B.
+     */
+    function is_ltr() {
+        global $ggl;
+        return $ggl->get('dir') === 'ltr';
     }
 
     /**

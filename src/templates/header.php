@@ -37,15 +37,26 @@
   <div class="navigation-wrapper">
     <nav>
       <div class="nav-wrapper">
-        <a href="#" data-target="sidenav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul class="hide-on-large-and-down left">
-          <?php $this->nav_link('nav-item-home', '', _("Home")); ?>
-          <?php $this->nav_link('nav-item-linux', 'linux', _("What is GNU/Linux?")); ?>
-          <?php $this->nav_link('nav-item-windows', 'windows', _("Why not Windows")); ?>
-          <?php $this->nav_link('nav-item-switch', 'switch_to_linux', _("Switch to GNU/Linux")); ?>
-          <?php $this->nav_link('nav-item-more', 'more', _("More")); ?>
+        <a href="#" data-target="sidenav" class="sidenav-trigger <?php print $this->rtltr("left", "right"); ?>"><i class="material-icons">menu</i></a>
+        <ul class="hide-on-large-and-down <?php print $this->rtltr("left", "right"); ?>">
+          <?php
+          if ($this->is_ltr()) {
+              $this->nav_link('nav-item-home', '', _("Home"));
+              $this->nav_link('nav-item-linux', 'linux', _("What is GNU/Linux?"));
+              $this->nav_link('nav-item-windows', 'windows', _("Why not Windows"));
+              $this->nav_link('nav-item-switch', 'switch_to_linux', _("Switch to GNU/Linux"));
+              $this->nav_link('nav-item-more', 'more', _("More"));
+          }
+          else {
+              $this->nav_link('nav-item-more', 'more', _("More"));
+              $this->nav_link('nav-item-switch', 'switch_to_linux', _("Switch to GNU/Linux"));
+              $this->nav_link('nav-item-windows', 'windows', _("Why not Windows"));
+              $this->nav_link('nav-item-linux', 'linux', _("What is GNU/Linux?"));
+              $this->nav_link('nav-item-home', '', _("Home"));
+          }
+          ?>
         </ul>
-        <ul class="right">
+        <ul class="<?php print $this->rtltr("right", "left"); ?>">
           <li>
             <span class="hide-on-med-and-up">
               <a class="btn-floating btn-flat waves-effect waves-light language-button-small" href="#" data-target="language-menu-1">
@@ -65,12 +76,14 @@
     </nav>
 
     <ul class="sidenav" id="sidenav">
-      <?php $this->sidenav_link('home', _("Home")); ?>
-      <?php $this->sidenav_link('linux', _("What is GNU/Linux?")); ?>
-      <?php $this->sidenav_link('linux/linux_faq', _("GNU/Linux FAQ")); ?>
-      <?php $this->sidenav_link('windows', _("Why not Windows")); ?>
-      <?php $this->sidenav_link('switch_to_linux', _("Switch to GNU/Linux")); ?>
-      <?php $this->sidenav_link('more', _("More")); ?>
+      <?php
+      $this->sidenav_link('home', _("Home"));
+      $this->sidenav_link('linux', _("What is GNU/Linux?"));
+      $this->sidenav_link('linux/linux_faq', _("GNU/Linux FAQ"));
+      $this->sidenav_link('windows', _("Why not Windows"));
+      $this->sidenav_link('switch_to_linux', _("Switch to GNU/Linux"));
+      $this->sidenav_link('more', _("More"));
+      ?>
     </ul>
 
     <ul class="dropdown-content language-menu" id="language-menu-1">

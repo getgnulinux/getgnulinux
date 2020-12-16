@@ -21,7 +21,7 @@ $this->load_header();
         <h2 id="live_cd"><?php print _("Try out the live USB stick"); ?></h2>
 
         <h3 id="live_cd_what_is"><?php print _("Take no risk"); ?></h3>
-        <img src="/images/USB-stick.svg" class="float-right w20 hide-on-small-only" alt="<?php print _("USB stick"); ?>">
+        <img src="/images/USB-stick.svg" class="float-<?php print $this->rtltr("right", "left"); ?> w20 hide-on-small-only" alt="<?php print _("USB stick"); ?>">
         <p><?php print _("Using a live USB stick means that GNU/Linux will be running on your computer <em>without installing anything</em>. It's a risk-less way to try and see by yourself what GNU/Linux is."); ?></p>
         <p><?php print _("When running on a live USB stick, your computer uses solely the USB stick to work (without accessing the hard drive inside). You can launch all of the default programs, edit documents, and browse the web."); ?></p>
         <p><?php print _("Since it is only designed as a trial mode, it is a little slow (it will take you five minutes to boot up, and programs launch somewhat slowly). If you proceed to install, the system will go much faster."); ?></p>
@@ -100,7 +100,7 @@ $this->load_header();
         <h2 id="free_software_pre_installed"><?php print _("Free Software pre-installed"); ?></h2>
         <picture>
           <source srcset="/images/Meerkat.webp" type="image/webp">
-          <img class="float-right w30 hide-on-small-only" src="/images/Meerkat.png" title="<?php print _("Computer with GNU/Linux pre-installed"); ?>" alt="<?php print _("Computer with GNU/Linux pre-installed"); ?>">
+          <img class="float-<?php print $this->rtltr("right", "left"); ?> w30 hide-on-small-only" src="/images/Meerkat.png" title="<?php print _("Computer with GNU/Linux pre-installed"); ?>" alt="<?php print _("Computer with GNU/Linux pre-installed"); ?>">
         </picture>
         <p><?php print _("Not all computers are shipped with Windows or macOS. If you do not wish to make the install yourself, or are in need of new hardware, you can get a laptop or a desktop pre-installed with GNU/Linux. <a href=\"https://linuxpreloaded.com/\" rel=\"external\">LinuxPreloaded.com</a> has compiled a list of vendors pre-installing GNU/Linux just for that reason."); ?></p>
       </section>
