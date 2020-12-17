@@ -115,10 +115,10 @@ gulp.task('images', () => {
         '!src/images/src/**/*',
     ])
         .pipe($.imagemin([
-            $.imagemin.mozjpeg({
-                quality: 90,
-                progressive: true,
-            }),
+            $.imagemin.gifsicle(),
+            $.imagemin.mozjpeg({quality: 90}),
+            $.imagemin.optipng(),
+            $.imagemin.svgo()
         ]))
         .pipe(gulp.dest('docroot/images'));
 });
