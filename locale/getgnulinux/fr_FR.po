@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
-"POT-Creation-Date: 2020-12-16 21:50+0000\n"
+"POT-Creation-Date: 2020-12-17 18:24+0000\n"
 "PO-Revision-Date: 2020-12-16 15:24+0000\n"
 "Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/getgnulinux/"
@@ -3246,18 +3246,28 @@ msgstr ""
 "suggérons de lire notre page <a href=\"%s\">Faire la transition</a>."
 
 #. translators: This is the description of the "debian1.jpg" screenshot.
+#. translators: This is the description of the "ubuntu1.jpg" screenshot.
 #. translators: This is the description of the "fedora1.jpg" screenshot.
 #: docroot/lib/views/linux.php:36
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:10
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:17
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:24
 msgid "Accessing applications in the GNOME desktop environment."
 msgstr "Accès aux applications dans l'environnement de bureau GNOME 3."
 
-#. translators: This is the description of the "ubuntu1.jpg" screenshot.
+#: docroot/lib/views/linux.php:36 docroot/lib/views/linux.php:43
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:90
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:94
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:98
+msgid "Ubuntu screenshot"
+msgstr ""
+
+#. translators: This is the description of the "ubuntu3.jpg" screenshot.
 #: docroot/lib/views/linux.php:43
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:17
-msgid "Firefox web browser"
-msgstr "Navigateur Web Firefox"
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:21
+#, fuzzy
+msgid "GNOME music player"
+msgstr "Lecteur de musique Rhythmbox"
 
 #: docroot/lib/views/linux.php:51
 msgid "The larger picture"
@@ -3559,13 +3569,8 @@ msgstr "Gestionnaire photo Shotwell"
 
 #. translators: This is the description of the "ubuntu2.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:19
-msgid "Rhythmbox music player"
-msgstr "Lecteur de musique Rhythmbox"
-
-#. translators: This is the description of the "ubuntu3.jpg" screenshot.
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:21
-msgid "Thunderbird e-mail and calendar application"
-msgstr "Thunderbird, application de messagerie et calendrier"
+msgid "Firefox web browser"
+msgstr "Navigateur Web Firefox"
 
 #. translators: This is the description of the "fedora2.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:26
@@ -3628,6 +3633,12 @@ msgstr ""
 "Nous recommandons cette distribution si vous êtes intéressé par un système "
 "entièrement libre pour votre ordinateur."
 
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:60
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:64
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:68
+msgid "Debian screenshot"
+msgstr ""
+
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:83
 msgid ""
 "Ubuntu is a GNU/Linux distribution based on Debian. The philosophy behind "
@@ -3681,6 +3692,12 @@ msgstr ""
 "Nous vous recommandons cette distribution si vous souhaitez en apprendre "
 "plus sur le système GNU/Linux et la configuration de sécurité, ou travailler "
 "sur du développement de logiciel."
+
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:120
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:124
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:128
+msgid "Fedora screenshot"
+msgstr ""
 
 #. translators: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:145
@@ -4159,6 +4176,9 @@ msgstr "Forum communautaire"
 #: src/templates/footer.php:33
 msgid "Contact us"
 msgstr "Contact"
+
+#~ msgid "Thunderbird e-mail and calendar application"
+#~ msgstr "Thunderbird, application de messagerie et calendrier"
 
 #~ msgid "GitHub repository"
 #~ msgstr "Dépôt GitHub"

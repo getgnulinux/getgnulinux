@@ -33,14 +33,14 @@ $this->load_header();
           <div class="col s12 m6">
             <div class="card">
               <div class="card-image">
-                <img class="materialboxed" src="/images/screenshots/fedora1.jpg" title="<?php print _("Accessing applications in the GNOME desktop environment."); ?>" alt="Fedora screenshot">
+                <img class="materialboxed" src="/images/screenshots/ubuntu1.jpg" title="<?php print _("Accessing applications in the GNOME desktop environment."); ?>" alt="<?php print _("Ubuntu screenshot"); ?>">
               </div>
             </div>
           </div>
           <div class="col s12 m6">
             <div class="card">
               <div class="card-image">
-                <img class="materialboxed" src="/images/screenshots/ubuntu1.jpg" title="<?php print _("Firefox web browser"); ?>" alt="Debian screenshot">
+                <img class="materialboxed" src="/images/screenshots/ubuntu3.jpg" title="<?php print _("GNOME music player"); ?>" alt="<?php print _("Ubuntu screenshot"); ?>">
               </div>
             </div>
           </div>

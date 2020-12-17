@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
-"POT-Creation-Date: 2020-12-16 21:50+0000\n"
+"POT-Creation-Date: 2020-12-17 18:24+0000\n"
 "PO-Revision-Date: 2020-12-16 15:24+0000\n"
 "Last-Translator: mahmut özcan <mahmutozcan65@yahoo.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/getgnulinux/"
@@ -2683,18 +2683,28 @@ msgid ""
 msgstr ""
 
 #. translators: This is the description of the "debian1.jpg" screenshot.
+#. translators: This is the description of the "ubuntu1.jpg" screenshot.
 #. translators: This is the description of the "fedora1.jpg" screenshot.
 #: docroot/lib/views/linux.php:36
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:10
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:17
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:24
 msgid "Accessing applications in the GNOME desktop environment."
 msgstr "GNOME masaüstü ortamında uygulamalara erişim."
 
-#. translators: This is the description of the "ubuntu1.jpg" screenshot.
+#: docroot/lib/views/linux.php:36 docroot/lib/views/linux.php:43
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:90
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:94
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:98
+msgid "Ubuntu screenshot"
+msgstr ""
+
+#. translators: This is the description of the "ubuntu3.jpg" screenshot.
 #: docroot/lib/views/linux.php:43
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:17
-msgid "Firefox web browser"
-msgstr "Firefox web tarayıcı"
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:21
+#, fuzzy
+msgid "GNOME music player"
+msgstr "Rhythmbox müzikçalar"
 
 #: docroot/lib/views/linux.php:51
 msgid "The larger picture"
@@ -2966,13 +2976,8 @@ msgstr ""
 
 #. translators: This is the description of the "ubuntu2.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:19
-msgid "Rhythmbox music player"
-msgstr "Rhythmbox müzikçalar"
-
-#. translators: This is the description of the "ubuntu3.jpg" screenshot.
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:21
-msgid "Thunderbird e-mail and calendar application"
-msgstr "E-posta ve takvim uygulaması Thunderbird"
+msgid "Firefox web browser"
+msgstr "Firefox web tarayıcı"
 
 #. translators: This is the description of the "fedora2.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:26
@@ -3026,6 +3031,12 @@ msgstr ""
 "Bilgisayarınızda özgürlük konusunda kararlıysanız size bu dağıtımı "
 "öneriyoruz."
 
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:60
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:64
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:68
+msgid "Debian screenshot"
+msgstr ""
+
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:83
 msgid ""
 "Ubuntu is a GNU/Linux distribution based on Debian. The philosophy behind "
@@ -3063,6 +3074,12 @@ msgstr ""
 "Bir GNU / Linux sisteminin işleyişi, güvenlik yapılandırması veya yazılım "
 "geliştirme çalışmaları hakkında daha fazla bilgi edinmek isterseniz bu "
 "dağıtımı öneririz."
+
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:120
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:124
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:128
+msgid "Fedora screenshot"
+msgstr ""
 
 #. translators: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:145
@@ -3462,6 +3479,9 @@ msgstr "Topluluk forumu"
 #: src/templates/footer.php:33
 msgid "Contact us"
 msgstr "Bizimle iletişime geçin"
+
+#~ msgid "Thunderbird e-mail and calendar application"
+#~ msgstr "E-posta ve takvim uygulaması Thunderbird"
 
 #~ msgid "More in this section"
 #~ msgstr "Bu bölümle ilgili daha fazla bilgi almak için"

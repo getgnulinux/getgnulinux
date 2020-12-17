@@ -14,11 +14,11 @@ $debian2_text = _("LibreOffice Writer open, editing a standard document.");
 $debian3_text = _("Shotwell photo manager");
 
 # translators: This is the description of the "ubuntu1.jpg" screenshot.
-$ubuntu1_text = _("Firefox web browser");
+$ubuntu1_text = _("Accessing applications in the GNOME desktop environment.");
 # translators: This is the description of the "ubuntu2.jpg" screenshot.
-$ubuntu2_text = _("Rhythmbox music player");
+$ubuntu2_text = _("Firefox web browser");
 # translators: This is the description of the "ubuntu3.jpg" screenshot.
-$ubuntu3_text = _("Thunderbird e-mail and calendar application");
+$ubuntu3_text = _("GNOME music player");
 
 # translators: This is the description of the "fedora1.jpg" screenshot.
 $fedora1_text = _("Accessing applications in the GNOME desktop environment.");
@@ -57,15 +57,15 @@ $fedora3_text = _("Software manager open, install/remove applications.");
           <div class="card-image">
             <ul class="slides">
               <li>
-                <img src="/images/screenshots/debian1.jpg" alt="Debian screenshot" />
+                <img src="/images/screenshots/debian1.jpg" alt="<?php print _("Debian screenshot"); ?>" />
                 <div class="card-content center"><?php print $debian1_text; ?></div>
               </li>
               <li>
-                <img src="/images/screenshots/debian2.jpg" alt="Debian screenshot" />
+                <img src="/images/screenshots/debian2.jpg" alt="<?php print _("Debian screenshot"); ?>" />
                 <div class="card-content center"><?php print $debian2_text; ?></div>
               </li>
               <li>
-                <img src="/images/screenshots/debian3.jpg" alt="Debian screenshot" />
+                <img src="/images/screenshots/debian3.jpg" alt="<?php print _("Debian screenshot"); ?>" />
                 <div class="card-content center"><?php print $debian3_text; ?></div>
               </li>
             </ul>
@@ -87,15 +87,15 @@ $fedora3_text = _("Software manager open, install/remove applications.");
           <div class="card-image">
             <ul class="slides">
               <li>
-                <img src="/images/screenshots/ubuntu1.jpg" alt="Ubuntu screenshot" />
+                <img src="/images/screenshots/ubuntu1.jpg" alt="<?php print _("Ubuntu screenshot"); ?>" />
                 <div class="card-content center"><?php print $ubuntu1_text; ?></div>
               </li>
               <li>
-                <img src="/images/screenshots/ubuntu2.jpg" alt="Ubuntu screenshot" />
+                <img src="/images/screenshots/ubuntu2.jpg" alt="<?php print _("Ubuntu screenshot"); ?>" />
                 <div class="card-content center"><?php print $ubuntu2_text; ?></div>
               </li>
               <li>
-                <img src="/images/screenshots/ubuntu3.jpg" alt="Ubuntu screenshot" />
+                <img src="/images/screenshots/ubuntu3.jpg" alt="<?php print _("Ubuntu screenshot"); ?>" />
                 <div class="card-content center"><?php print $ubuntu3_text; ?></div>
               </li>
             </ul>
@@ -117,15 +117,15 @@ $fedora3_text = _("Software manager open, install/remove applications.");
           <div class="card-image">
             <ul class="slides">
               <li>
-                <img src="/images/screenshots/fedora1.jpg" alt="Fedora screenshot" />
+                <img src="/images/screenshots/fedora1.jpg" alt="<?php print _("Fedora screenshot"); ?>" />
                 <div class="card-content center"><?php print $fedora1_text; ?></div>
               </li>
               <li>
-                <img src="/images/screenshots/fedora2.jpg" alt="Fedora screenshot" />
+                <img src="/images/screenshots/fedora2.jpg" alt="<?php print _("Fedora screenshot"); ?>" />
                 <div class="card-content center"><?php print $fedora2_text; ?></div>
               </li>
               <li>
-                <img src="/images/screenshots/fedora3.jpg" alt="Fedora screenshot" />
+                <img src="/images/screenshots/fedora3.jpg" alt="<?php print _("Fedora screenshot"); ?>" />
                 <div class="card-content center"><?php print $fedora3_text; ?></div>
               </li>
             </ul>

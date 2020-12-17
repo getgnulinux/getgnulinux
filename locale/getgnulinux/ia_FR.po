@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
-"POT-Creation-Date: 2020-12-16 21:50+0000\n"
+"POT-Creation-Date: 2020-12-17 18:24+0000\n"
 "PO-Revision-Date: 2020-12-01 00:06+0000\n"
 "Last-Translator: Martijn Dekker <mcdutchie@hotmail.com>\n"
 "Language-Team: Interlingua (http://www.transifex.com/serrano/getgnulinux/"
@@ -3197,9 +3197,11 @@ msgstr ""
 "nostre pagina <a href=\"%s\">Facer le cambio</a>."
 
 #. translators: This is the description of the "debian1.jpg" screenshot.
+#. translators: This is the description of the "ubuntu1.jpg" screenshot.
 #. translators: This is the description of the "fedora1.jpg" screenshot.
 #: docroot/lib/views/linux.php:36
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:10
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:17
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:24
 #, fuzzy
 msgid "Accessing applications in the GNOME desktop environment."
@@ -3207,11 +3209,19 @@ msgstr ""
 "Acceder a applicationes in le ambiente de scriptorio <a href=\"https://www."
 "gnome.org/gnome-3/\" rel=\"external\">GNOME 3</a>."
 
-#. translators: This is the description of the "ubuntu1.jpg" screenshot.
+#: docroot/lib/views/linux.php:36 docroot/lib/views/linux.php:43
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:90
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:94
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:98
+msgid "Ubuntu screenshot"
+msgstr ""
+
+#. translators: This is the description of the "ubuntu3.jpg" screenshot.
 #: docroot/lib/views/linux.php:43
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:17
-msgid "Firefox web browser"
-msgstr "Navigator web Firefox"
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:21
+#, fuzzy
+msgid "GNOME music player"
+msgstr "Reproductor de musica Rhythmbox"
 
 #: docroot/lib/views/linux.php:51
 msgid "The larger picture"
@@ -3512,13 +3522,8 @@ msgstr ""
 
 #. translators: This is the description of the "ubuntu2.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:19
-msgid "Rhythmbox music player"
-msgstr "Reproductor de musica Rhythmbox"
-
-#. translators: This is the description of the "ubuntu3.jpg" screenshot.
-#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:21
-msgid "Thunderbird e-mail and calendar application"
-msgstr "Application Thunderbird pro e-mail e calendario."
+msgid "Firefox web browser"
+msgstr "Navigator web Firefox"
 
 #. translators: This is the description of the "fedora2.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:26
@@ -3573,6 +3578,12 @@ msgstr ""
 "Nos recommenda iste distribution si le libertate computatorial es importante "
 "pro vos."
 
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:60
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:64
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:68
+msgid "Debian screenshot"
+msgstr ""
+
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:83
 msgid ""
 "Ubuntu is a GNU/Linux distribution based on Debian. The philosophy behind "
@@ -3616,6 +3627,12 @@ msgstr ""
 "Nos recommenda iste distributiones si vos desira apprender plus sur le "
 "functionalitate de un systema GNU/Linux, sur le configuration de securitate, "
 "o laborar al disveloppamento de software."
+
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:120
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:124
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:128
+msgid "Fedora screenshot"
+msgstr ""
 
 #. translators: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:145
@@ -4081,6 +4098,9 @@ msgstr "Foro del communitate"
 #: src/templates/footer.php:33
 msgid "Contact us"
 msgstr "Contacta nos"
+
+#~ msgid "Thunderbird e-mail and calendar application"
+#~ msgstr "Application Thunderbird pro e-mail e calendario."
 
 #, fuzzy
 #~ msgid "More in this section"
