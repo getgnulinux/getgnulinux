@@ -96,6 +96,9 @@ $(LOCALE_DIR)/$(DOMAIN)/$(DOMAIN).pot: docroot/lib/*.php docroot/lib/views/*.php
 		--expression=s/"Language: "/"Language: en"/
 	@echo
 
+l10n.html: l10n.md
+	sed 's/ <.*>//' $< | markdown | sed 's/<ul>/<ul class="browser-default">/' > $@
+
 .PHONY: build
 build:
 	$(GULP) build
