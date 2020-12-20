@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2020-12-17 18:24+0000\n"
-"PO-Revision-Date: 2020-12-20 01:29+0000\n"
+"PO-Revision-Date: 2020-12-21 18:29+0000\n"
 "Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/getgnulinux/"
 "getgnulinux-pot/it/>\n"
@@ -174,6 +174,8 @@ msgid ""
 "Get GNU/Linux! A simple, clear website about GNU/Linux. What is GNU/Linux? "
 "Why not Windows? Tips to make the switch."
 msgstr ""
+"Passa a GNU/Linux! Un sito web semplice e chiaro su GNU/Linux. Cos'è GNU/"
+"Linux? Perché non Windows? Suggerimenti per effettuare il passaggio."
 
 #. translators: This is the description of the 'More' page
 #: docroot/lib/ggl.php:252
@@ -1042,15 +1044,15 @@ msgstr ""
 
 #. translators: The %s placeholder here will automatically point to the page "Windows Restrictions, further details"
 #: docroot/lib/views/linux.misunderstanding_free_software.php:115
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "So in fact, you have more \"ownership\" over free software than over "
 "proprietary software &ndash;where the programmer decides everything you can "
 "<a href=\"%s\">and can't do</a> with the software."
 msgstr ""
 "Quindi in verità sei più «proprietario» sul software libero che su quello "
-"proprietario — dove è il programmatore che decide tutto quello che puoi <a>e "
-"non puoi</a> fare con il software."
+"proprietario — dove è il programmatore che decide tutto quello che puoi <a "
+"href=\"%s\">e non puoi</a> fare con il software."
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:116
 msgid ""
@@ -1178,8 +1180,8 @@ msgid ""
 "The concept of Free&nbsp;/&nbsp;Libre&nbsp;/&nbsp;Open Source Software "
 "presented in a highly readable, friendly way. A must-read."
 msgstr ""
-"Un testo breve e divertente (in lingua inglese) per chiarirsi le idee sul "
-"software Free, Libre, Open Source."
+"Il concetto di software libero (e open source) presentato in modo "
+"estremamente leggibile e amichevole. Una lettura obbligata."
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:155
 msgid ""
@@ -1232,9 +1234,8 @@ msgid ""
 msgstr ""
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:21
-#, fuzzy
 msgid "Try out the live USB stick"
-msgstr "Prova su strada: il live CD"
+msgstr "Prova la chiave USB live"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:23
 msgid "Take no risk"
@@ -1252,16 +1253,15 @@ msgid ""
 msgstr ""
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:26
-#, fuzzy
 msgid ""
 "When running on a live USB stick, your computer uses solely the USB stick to "
 "work (without accessing the hard drive inside). You can launch all of the "
 "default programs, edit documents, and browse the web."
 msgstr ""
-"Quando si usa un live CD, il tuo computer usa esclusivamente il CD-ROM per "
-"lavorare (senza accedere quindi al disco interno). Puoi eseguire tutti i "
-"programmi installati di default, modificare documenti, e navigare su "
-"internet."
+"Quando si esegue su una chiave USB live, il computer utilizza esclusivamente "
+"la chiave USB per funzionare (senza accedere al disco rigido all'interno). "
+"Puoi avviare tutti i programmi predefiniti, modificare documenti e navigare "
+"sul Web."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:27
 msgid ""
@@ -1291,17 +1291,16 @@ msgid ""
 msgstr ""
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:31
-#, fuzzy
 msgid ""
 "To use a live USB stick, you need a little bit of curiosity, and fifteen "
 "minutes of free time, but <strong>no advanced knowledge in computing</"
 "strong>. If you feel confident simply using Windows or macOS from time to "
 "time, then this is within your reach."
 msgstr ""
-"Per usare un live CD, hai bisogno di un pizzico di curiosità e circa "
-"quindici minuti di tempo libero, e non è necessaria <strong>assolutamente "
-"nessuna conoscenza tecnica</strong>. Anche se sei tra coloro che usano "
-"Windows saltuariamente, questa attività è alla tua portata."
+"Per utilizzare una chiave USB live, hai bisogno di un po' di curiosità e "
+"quindici minuti di tempo libero, ma <strong>nessuna conoscenza avanzata di "
+"informatica</strong>. Se ti senti sicuro/a semplicemente usando Windows o "
+"macOS di tanto in tanto, allora questo è alla tua portata."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:35
 msgid "Installing as a dual boot"
@@ -1312,15 +1311,14 @@ msgid "Choose at start-up"
 msgstr "Scelta all'avvio"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:38
-#, fuzzy
 msgid ""
 "It is possible to install GNU/Linux along with Windows or macOS. This means "
 "that upon start-up, you will be greeted with a screen allowing you to boot "
 "into the operating system you prefer."
 msgstr ""
-"È possibile installare GNU/Linux insieme a Windows. Questo significa che "
-"all'accensione del computer appare una scelta che permette di far partire il "
-"proprio sistema operativo preferito."
+"È possibile installare GNU/Linux insieme a Windows o macOS. Ciò significa "
+"che all'avvio, verrai accolto/a da una schermata che ti consentirà di "
+"avviare il sistema operativo che preferisci."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:39
 msgid ""
@@ -1342,12 +1340,10 @@ msgstr ""
 
 #. translators: "Image" refers to a downloadable ISO image and can be translated loosely.
 #: docroot/lib/views/switch_to_linux.try_or_install.php:48
-#, fuzzy
 msgid "Get the image you need"
-msgstr "Ottieni il CD di cui ai bisogno"
+msgstr "Ottieni l'immagine di cui hai bisogno"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:56
-#, fuzzy
 msgid ""
 "<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">Create "
 "a live USB stick</a> or <a href=\"https://www.debian.org/CD/faq/#record-"
@@ -1355,16 +1351,17 @@ msgid ""
 "\"https://www.debian.org/releases/stable/installmanual\" rel=\"external"
 "\">install Debian</a> onto your computer."
 msgstr ""
-"L'<a href=\"https://trisquel.info/wiki/installation-guide\" rel=\"external"
-"\">Installazione di Trisquel</a> è molto simile a quella di Ubuntu."
+"<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">Crea "
+"una chiave USB live</a> o <a href=\"https://www.debian.org/CD/faq/#record-"
+"windows\" rel=\"external\">masterizzala su un CD/DVD</a>. Poi usalo per <a "
+"href=\"https://www.debian.org/releases/stable/installmanual\" rel=\"external"
+"\">installare Debian</a> sul tuo computer."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:60
-#, fuzzy
 msgid "Download Debian"
-msgstr "Scarica Ubuntu"
+msgstr "Scarica Debian"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:70
-#, fuzzy
 msgid ""
 "<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-"
 "on-windows\" rel=\"external\">Create a live USB stick</a> or <a href="
@@ -1373,15 +1370,18 @@ msgid ""
 "tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel="
 "\"external\">install Ubuntu</a> onto your computer."
 msgstr ""
-"L'<a href=\"https://trisquel.info/wiki/installation-guide\" rel=\"external"
-"\">Installazione di Trisquel</a> è molto simile a quella di Ubuntu."
+"<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-"
+"on-windows\" rel=\"external\">Crea unq chiave USB live</a> o <a href=\"https"
+"://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel="
+"\"external\">masterizzala su un DVD</a>. Poi usala per <a href=\"https"
+"://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel="
+"\"external\">installare Ubuntu</a> sul tuo computer."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:74
 msgid "Download Ubuntu"
 msgstr "Scarica Ubuntu"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:84
-#, fuzzy
 msgid ""
 "<a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/"
 "install/Preparing_for_Installation/#sect-preparing-boot-media\" rel="
@@ -1393,8 +1393,15 @@ msgid ""
 "Booting_the_Installation/\" rel=\"external\">install Fedora</a> onto your "
 "computer."
 msgstr ""
-"L'<a href=\"https://trisquel.info/wiki/installation-guide\" rel=\"external"
-"\">Installazione di Trisquel</a> è molto simile a quella di Ubuntu."
+"<a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/"
+"install/Preparing_for_Installation/#sect-preparing-boot-media\" rel="
+"\"external\">Crea una chiave USB live</a> o <a href=\"https://docs."
+"fedoraproject.org/en-US/fedora/f33/install-guide/install/"
+"Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\""
+">masterizzala su un CD/DVD</a>. Poi usala per <a href=\"https://docs."
+"fedoraproject.org/en-US/fedora/f33/install-guide/install/"
+"Booting_the_Installation/\" rel=\"external\">installare Fedora</a> sul tuo "
+"computer."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:88
 msgid "Download Fedora"
@@ -1706,8 +1713,8 @@ msgid ""
 "Management\">DRM</abbr> by Tim Jackson, and on which we based the present "
 "article."
 msgstr ""
-"La GNU General Public License, sotto la quale sono pubblicati GNU/linux ed "
-"una grande quantità di software liberi."
+"Un articolo molto ben costruito sulla gestione dei diritti digitali (DRM) "
+"scritto da Tim Jackson, e su cui abbiamo basato il presente articolo."
 
 #. translators: If you don't know of a localized version of this article, please leave the URL in English
 #: docroot/lib/views/windows.stand_for_a_free_society.php:126
@@ -3577,9 +3584,8 @@ msgid "Participate"
 msgstr "Partecipa"
 
 #: src/templates/footer.php:28
-#, fuzzy
 msgid "Community"
-msgstr "Forum comunità"
+msgstr "Comunità"
 
 #: src/templates/footer.php:31
 msgid "Community forum"
