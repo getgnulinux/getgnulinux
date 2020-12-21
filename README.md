@@ -24,6 +24,11 @@ container, create the settings file (you only need to do this once):
 
     make docroot/settings.php
 
+NOTE: If the above command gives you a "Permission denied" error, it is because
+you execute Docker with a user that has a UID other than 1000. The node user
+inside the Docker container uses UID 1000. To work around this issue, give user
+with UID 1000 read-write access to your project.
+
 To build the website, run:
 
     make develop
