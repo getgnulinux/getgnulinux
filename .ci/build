@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# This CI script attempts to build the project.
+# It should be executed from the Docker container.
+
+set -ex
+
+# This command gives errors, but they can be ignored.
+autoreconf --install || true
+
+# Create the Makefiles
+./configure --localedir=/home/node/getgnulinux/docroot/locale/
+
+# Run build steps.
+make ci

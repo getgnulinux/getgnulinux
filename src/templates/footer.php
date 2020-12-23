@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col l6 s12">
         <p>
-          <?php # translators: If there is an official translation for the license, use that URL instead. Make sure you use the URL for CC BY-SA 4.0.
+          <?php # TRANSLATORS: If there is an official translation for the license, use that URL instead. Make sure you use the URL for CC BY-SA 4.0.
           $p = _("Except where otherwise <a href=\"%s\">noted</a>, content on this site is licensed under a <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"license external\"><abbr title=\"Creative Commons Attribution-ShareAlike\">CC BY-SA</abbr> 4.0 International License</a>."); printf($p, $this->get_base_url('legal')); ?>
         </p>
         <p>

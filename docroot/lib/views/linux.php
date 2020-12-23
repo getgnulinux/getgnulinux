@@ -49,7 +49,7 @@ $this->load_header();
 
       <section>
         <h2><?php print _("The larger picture"); ?></h2>
-        <p><?php # translators: use the definition of "free software" on GNU.org
+        <p><?php # TRANSLATORS: use the definition of "free software" on GNU.org
         print _("When you get a distribution of GNU/Linux, <strong>you also get the freedom to study, copy, change, and redistribute it</strong> &ndash;&nbsp;that's what makes it truly <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title=\"what is freedom in software?\" rel=\"external\">free software</a>."); ?></p>
         <p><?php print _("Many companies develop their own operating system based on the core <a href=\"https://www.gnu.org\" title=\"the GNU project: at the source of all GNU/Linux distributions\" rel=\"external\">GNU software</a>: products they do not have exclusive rights on. How does the wheel turn?"); ?></p>
         <ul class="browser-default">
@@ -69,7 +69,7 @@ $this->load_header();
               <div class="card-content white-text">
                 <span class="card-title"><?php print _("How to Misunderstand Free Software"); ?></span>
                 <p><?php
-                # translators: use the definition of "free software" on GNU.org
+                # TRANSLATORS: use the definition of "free software" on GNU.org
                 print _("Misconceptions about free software, corrected."); ?></p>
               </div>
               <div class="card-action">

@@ -55,7 +55,7 @@ $this->load_header();
         <div class="row">
           <div class="col s12 l6">
             <h4 id="gpl"><a href="<?php
-            # translators: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
+            # TRANSLATORS: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
             print _("https://www.gnu.org/copyleft/gpl.html"); ?>" title="<?php print _("The GNU General Public License"); ?>" rel="external"><?php print _("The GPL"); ?></a></h4>
             <p><?php print _("The GNU General Public License, under which GNU/Linux and a vast amount of free software are published."); ?></p>
           </div>

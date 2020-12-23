@@ -6,25 +6,25 @@ if ( !defined('GGL') ) {
 
 $this->load_header();
 
-# translators: This is the description of the "debian1.jpg" screenshot.
+# TRANSLATORS: This is the description of the "debian1.jpg" screenshot.
 $debian1_text = _("Accessing applications in the GNOME desktop environment.");
-# translators: This is the description of the "debian2.jpg" screenshot.
+# TRANSLATORS: This is the description of the "debian2.jpg" screenshot.
 $debian2_text = _("LibreOffice Writer open, editing a standard document.");
-# translators: This is the description of the "debian3.jpg" screenshot.
+# TRANSLATORS: This is the description of the "debian3.jpg" screenshot.
 $debian3_text = _("Shotwell photo manager");
 
-# translators: This is the description of the "ubuntu1.jpg" screenshot.
+# TRANSLATORS: This is the description of the "ubuntu1.jpg" screenshot.
 $ubuntu1_text = _("Accessing applications in the GNOME desktop environment.");
-# translators: This is the description of the "ubuntu2.jpg" screenshot.
+# TRANSLATORS: This is the description of the "ubuntu2.jpg" screenshot.
 $ubuntu2_text = _("Firefox web browser");
-# translators: This is the description of the "ubuntu3.jpg" screenshot.
+# TRANSLATORS: This is the description of the "ubuntu3.jpg" screenshot.
 $ubuntu3_text = _("GNOME music player");
 
-# translators: This is the description of the "fedora1.jpg" screenshot.
+# TRANSLATORS: This is the description of the "fedora1.jpg" screenshot.
 $fedora1_text = _("Accessing applications in the GNOME desktop environment.");
-# translators: This is the description of the "fedora2.jpg" screenshot.
+# TRANSLATORS: This is the description of the "fedora2.jpg" screenshot.
 $fedora2_text = _("Desktop overview with two applications open.");
-# translators: This is the description of the "fedora3.jpg" screenshot.
+# TRANSLATORS: This is the description of the "fedora3.jpg" screenshot.
 $fedora3_text = _("Software manager open, install/remove applications.");
 ?>
 
@@ -38,7 +38,7 @@ $fedora3_text = _("Software manager open, install/remove applications.");
           <p><?php print _("Because there is no \"one GNU/Linux\", finding what you need can be difficult. Here are our choice of three beginner-friendly, widely used distributions."); ?></p>
         </div>
 
-        <p class="note center"><?php # translators: The distrowatch.com website is translated into many languages (see https://distrowatch.com/dwres.php?resource=about). If your language is present, please replace "EN" in the URL by the code of your language (e.g. for Spanish, the last part would become "language=ES").
+        <p class="note center"><?php # TRANSLATORS: The distrowatch.com website is translated into many languages (see https://distrowatch.com/dwres.php?resource=about). If your language is present, please replace "EN" in the URL by the code of your language (e.g. for Spanish, the last part would become "language=ES").
         print _("Note: There are <a href=\"https://distrowatch.com/dwres.php?resource=major&amp;language=EN\" rel=\"external\">plenty of distributions to choose from and compare</a>."); ?><br />
         <?php print _("This is our selection for newcomers. These links are not commercial."); ?></p>
       </header>
@@ -141,7 +141,7 @@ $fedora3_text = _("Software manager open, install/remove applications.");
     <div class="container button-section">
       <h1><?php print _("Try or install"); ?></h1>
       <div class="page-intro">
-        <p><?php # translators: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
+        <p><?php # TRANSLATORS: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
         print _("Now grab a USB stick and try or install your distribution!"); ?></p>
 
         <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux/try_or_install'); ?>">

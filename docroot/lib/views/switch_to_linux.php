@@ -21,7 +21,7 @@ $this->load_header();
       <h1><?php print _("From Windows to GNU/Linux"); ?></h1>
 
       <div class="page-intro">
-        <p><?php # translators: please note the "affirmative" tone with the '.' at end of sentence.
+        <p><?php # TRANSLATORS: please note the "affirmative" tone with the '.' at end of sentence.
         print _("Meet GNU/Linux in everyday use."); ?></p>
 
         <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux/from_windows_to_linux'); ?>">

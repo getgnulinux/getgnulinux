@@ -1,0 +1,78 @@
+PACKAGE = @PACKAGE@
+VERSION = @VERSION@
+
+SUBDIRS = po docroot
+
+GULP = npx gulp
+
+.PHONY: ci
+ci: clean docroot/settings.php install-mo build
+
+.PHONY: develop
+develop: clean install-mo build deploy-dev
+
+docroot/settings.php: docroot
+	$(MAKE) -C $< settings.php
+
+.PHONY: build
+build:
+	$(GULP) build
+
+.PHONY: deploy-dev
+deploy-dev:
+	$(GULP) deploy:dev
+
+.PHONY: deploy
+deploy:
+	$(GULP) deploy:prod
+
+.PHONY: update-po
+update-po: po
+	$(MAKE) -C $< $@
+
+.PHONY: update-gmo
+update-gmo: po
+	$(MAKE) -C $< $@
+
+.PHONY: install-mo
+install-mo: po
+	$(MAKE) -C $< install
+
+.PHONY: dist
+distdir = $(PACKAGE)-$(VERSION)
+dist: Makefile
+	rm -fr $(distdir)
+	mkdir $(distdir)
+	chmod 777 $(distdir)
+	for file in $(DISTFILES); do \
+	  ln $$file $(distdir) 2>/dev/null || cp -p $$file $(distdir); \
+	done
+	for subdir in $(SUBDIRS); do \
+	  mkdir $(distdir)/$$subdir || exit 1; \
+	  chmod 777 $(distdir)/$$subdir; \
+	  (cd $$subdir && $(MAKE) $@) || exit 1; \
+	done
+	tar chozf $(distdir).tar.gz $(distdir)
+	rm -fr $(distdir)
+
+.PHONY: clean
+clean: $(SUBDIRS)
+	for subdir in $(SUBDIRS); do \
+	  $(MAKE) -C $$subdir $@ || exit 1; \
+	done
+
+.PHONY: maintainer-clean
+maintainer-clean: $(SUBDIRS)
+	for subdir in $(SUBDIRS); do \
+	  $(MAKE) -C $$subdir $@ || exit 1; \
+	done
+	rm -fr autom4te.cache
+	rm -f config.rpath
+	rm -f config.log
+	rm -f config.status
+	rm -f configure
+	rm -f install-sh
+	rm -fr intl
+	rm -fr m4
+	rm -f Makefile
+	rm -f missing

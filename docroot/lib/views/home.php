@@ -14,7 +14,7 @@ $this->load_header();
       <header>
         <h1><?php print _("get GNU/Linux!"); ?></h1>
         <div class="page-intro">
-        <p><?php # translators: This is the very first sentence every visitor is going to read. Please pay great attention to making it sound great, we only have one try! =)
+        <p><?php # TRANSLATORS: This is the very first sentence every visitor is going to read. Please pay great attention to making it sound great, we only have one try! =)
         print _("GNU/Linux is an alternative to Microsoft Windows and macOS. It is easy to use and gives more freedom to users. Anyone can install it: GNU/Linux is free as in freedom, and often available free of charge."); ?></p>
         </div>
       </header>

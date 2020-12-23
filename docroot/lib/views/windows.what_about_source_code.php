@@ -29,7 +29,7 @@ $this->load_header();
         <p><?php print _("This restriction in the license makes sure that <strong>Microsoft remain the sole organisation that understand how their products work</strong>. Windows is very much like a car that only the original manufacturer is allowed to service."); ?></p>
         <br/>
         <div class="card-panel card-panel--source amber lighten-4">
-          <p><?php # translators: This is the quote from Stallman at the start of the article.
+          <p><?php # TRANSLATORS: This is the quote from Stallman at the start of the article.
           print _("You might say, \"How do I change this recipe to take out the salt?\" and the great chef would respond, \"How dare you insult my recipe, the child of my brain and my palate, by trying to tamper with it? You don't have the judgment to change my recipe and make it work right!\""); ?></p>
           <span class="source">Richard Stallman, <a href="<?php print _("https://www.gnu.org/philosophy/why-free.html"); ?>" rel="external"><?php print _("Why Software Should Be Free"); ?></a></span>
         </div>
@@ -47,7 +47,7 @@ $this->load_header();
         <p><?php print _("Source code is the recipe for software. How could one improve on a meal with too much salt, if forbidden to look at the recipe used to cook it?"); ?></p>
         <p><?php print _("Using Windows and Office requires us to <strong>not ask</strong> nor search for the source of the software. Only Microsoft developers can modify your program."); ?></p>
         <p><?php
-        # translators: Please note the conditionnal tense: we try to not be too harsh on the reader here ;-)
+        # TRANSLATORS: Please note the conditionnal tense: we try to not be too harsh on the reader here ;-)
         print _("Which would you rather trust: the package you are forbidden to study, or the package with the recipe?"); ?></p>
       </div>
     </section>

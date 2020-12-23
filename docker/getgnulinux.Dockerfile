@@ -1,12 +1,16 @@
 FROM node:10
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
+    autoconf \
+    automake \
+    autopoint \
     bash-completion \
     gettext \
     less \
     make \
     man \
     rsync \
+    tree \
     vim
 
 RUN mkdir -p /var/www/html

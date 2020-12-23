@@ -1,0 +1,20 @@
+PACKAGE = @PACKAGE@
+VERSION = @VERSION@
+
+BUILD_DIRS = locale scripts styles templates images
+
+settings.php: settings.php.sample
+	cp $^ $@
+
+l10n.html: l10n.md
+	sed 's/ <.*>//' $< | markdown | sed 's/<ul>/<ul class="browser-default">/' > $@
+
+dist:
+
+.PHONY: maintainer-clean
+maintainer-clean: clean
+	rm -f Makefile settings.php
+
+.PHONY: clean
+clean:
+	rm -fr $(BUILD_DIRS)

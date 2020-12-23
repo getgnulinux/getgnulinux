@@ -1,0 +1,3861 @@
+# Translation file for the getgnulinux.org website.
+# Copyright (C) 2014 Get GNU/Linux!
+# This file is distributed under the same license as the getgnulinux package.
+#
+# Translators:
+# Bastián Nuñez <bastiannunez.b@gmail.com>, 2013
+# Bastián Nuñez <bastiannunez.b@gmail.com>, 2013,2016
+# bird black <b1ackbird@mailoo.org>, 2012
+# bird black <b1ackbird@mailoo.org>, 2012
+# Diego Ordoñez <diegoordoezsebastian@gmail.com>, 2020
+# Emilio Sepúlveda <djfunkinmixer@gmail.com>, 2011
+# Fabian Rodriguez, 2020
+# Néstor Arellano Pulido <nestor_arellano@rocketmail.com>, 2012
+# Florencia Menéndez <mariaflormz2@gmail.com>, 2018
+# GLM Websites Edition Team <websites@gnulinuxmatters.org>, 2008
+# Ignacio Carrera <icg837@gmail.com>, 2012
+# Iñaki Ibañez <lmpakoporras@gmail.com>, 2018
+# Leonardo Quiroga <leoquiroga221@gmail.com>, 2018
+# Martin Farias <martinpulento53@gmail.com>, 2017
+# Néstor Arellano Pulido <nestor_arellano@rocketmail.com>, 2012
+# Serrano Pereira <serrano.pereira@gmail.com>, 2013-2015
+# durka42 <transifex@alexburka.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: get GNU/Linux!\n"
+"Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
+"POT-Creation-Date: 2020-12-24 03:51+0000\n"
+"PO-Revision-Date: 2020-12-13 02:41+0000\n"
+"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/getgnulinux/"
+"getgnulinux-pot/es/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4-dev\n"
+
+#. TRANSLATORS: The name of the website. It is displayed in the header of each page.
+#: docroot/lib/ggl.php:207 docroot/lib/views/home.php:15
+msgid "get GNU/Linux!"
+msgstr "¡Cámbiate a GNU/Linux!"
+
+#. TRANSLATORS: This is the title of the 'Credits' page.
+#: docroot/lib/ggl.php:212 src/templates/footer.php:32
+msgid "Credits"
+msgstr "Créditos"
+
+#. TRANSLATORS: This is the title of the 'Legal terms' page.
+#: docroot/lib/ggl.php:214 src/templates/footer.php:18
+msgid "Terms of use"
+msgstr "Condiciones de uso"
+
+#. TRANSLATORS: This is the title of the 'More' page.
+#: docroot/lib/ggl.php:216 docroot/lib/views/more.php:16
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:50
+#: docroot/lib/views/linux.linux_faq.php:262 src/templates/footer.php:24
+#: src/templates/header.php:48 src/templates/header.php:51
+#: src/templates/header.php:85
+msgid "More"
+msgstr "Más detalles"
+
+#. TRANSLATORS: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
+#: docroot/lib/ggl.php:218 docroot/lib/views/home.php:25
+#: docroot/lib/views/linux.php:13
+#: docroot/lib/views/linux.misunderstanding_free_software.php:168
+#: docroot/lib/views/linux.linux_faq.php:274 src/templates/header.php:45
+#: src/templates/header.php:54 src/templates/header.php:81
+msgid "What is GNU/Linux?"
+msgstr "¿Qué es GNU/Linux?"
+
+#. TRANSLATORS: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
+#: docroot/lib/ggl.php:220
+msgid "GNU/Linux FAQ - common questions about GNU/Linux"
+msgstr "FAQ de GNU / Linux - preguntas comunes sobre GNU / Linux"
+
+#. TRANSLATORS: Here the intent is to be a little provocative. Exact translation is not required.
+#: docroot/lib/ggl.php:222 docroot/lib/ggl.php:285
+#: docroot/lib/views/windows.stand_for_a_free_society.php:141
+#: docroot/lib/views/linux.php:70
+#: docroot/lib/views/linux.misunderstanding_free_software.php:19
+#: docroot/lib/views/linux.linux_faq.php:100
+#: docroot/lib/views/linux.linux_faq.php:144
+#: docroot/lib/views/linux.linux_faq.php:155
+msgid "How to Misunderstand Free Software"
+msgstr "Como malinterpretar el software libre"
+
+#. TRANSLATORS: This is the title of the 'Screenshots' page.
+#: docroot/lib/ggl.php:224
+msgid "What GNU/Linux looks like"
+msgstr "Cómo se ve GNU/Linux"
+
+#. TRANSLATORS: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
+#: docroot/lib/ggl.php:226 docroot/lib/views/windows.php:16
+#: docroot/lib/views/windows.restrictions.php:75
+#: docroot/lib/views/windows.stand_for_a_free_society.php:152
+#: docroot/lib/views/home.php:38
+#: docroot/lib/views/windows.what_about_choice.php:65
+#: docroot/lib/views/linux.php:100
+#: docroot/lib/views/windows.what_about_source_code.php:61
+#: src/templates/header.php:46 src/templates/header.php:53
+#: src/templates/header.php:83
+msgid "Why not Windows"
+msgstr "Por qué no Windows"
+
+#. TRANSLATORS: This title can be translated loosely
+#: docroot/lib/ggl.php:228 docroot/lib/ggl.php:294
+#: docroot/lib/views/windows.php:29
+#: docroot/lib/views/windows.restrictions.php:16
+#: docroot/lib/views/windows.restrictions.further_details.php:81
+msgid "Restrictions"
+msgstr "Restricciones"
+
+#. TRANSLATORS: This title can be translated loosely
+#: docroot/lib/ggl.php:230
+#: docroot/lib/views/windows.restrictions.further_details.php:16
+msgid "More details on restrictions"
+msgstr "Más detalles acerca de las restricciones"
+
+#. TRANSLATORS: This title can be translated loosely
+#: docroot/lib/ggl.php:232 docroot/lib/ggl.php:297
+#: docroot/lib/views/windows.php:71 docroot/lib/views/linux.linux_faq.php:197
+msgid "Stand for a free society"
+msgstr "Por una sociedad libre"
+
+#. TRANSLATORS: This title can be translated loosely
+#: docroot/lib/ggl.php:234 docroot/lib/ggl.php:295
+#: docroot/lib/views/windows.php:43
+#: docroot/lib/views/windows.what_about_choice.php:16
+msgid "What about choice?"
+msgstr "¿Qué hay de la elección?"
+
+#. TRANSLATORS: This title can be translated loosely
+#: docroot/lib/ggl.php:236 docroot/lib/ggl.php:296
+#: docroot/lib/views/windows.php:58
+msgid "No source code"
+msgstr "Sin código fuente"
+
+#. TRANSLATORS: This appears in the top header menu and should be as short and concise as possible.
+#: docroot/lib/ggl.php:238 docroot/lib/views/windows.php:99
+#: docroot/lib/views/home.php:51 docroot/lib/views/linux.php:115
+#: docroot/lib/views/switch_to_linux.php:15 src/templates/header.php:47
+#: src/templates/header.php:52 src/templates/header.php:84
+msgid "Switch to GNU/Linux"
+msgstr "Cambiar a GNU/Linux"
+
+#: docroot/lib/ggl.php:239 docroot/lib/ggl.php:290
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:35
+#: docroot/lib/views/switch_to_linux.php:37
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:120
+msgid "Choose a distribution"
+msgstr "Escoge una distribución"
+
+#: docroot/lib/ggl.php:240 docroot/lib/ggl.php:289
+#: docroot/lib/views/switch_to_linux.php:21
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:16
+msgid "From Windows to GNU/Linux"
+msgstr "De Windows a GNU/Linux"
+
+#. TRANSLATORS: This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
+#: docroot/lib/ggl.php:242 docroot/lib/ggl.php:291
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:142
+#: docroot/lib/views/switch_to_linux.php:52
+#: docroot/lib/views/switch_to_linux.try_or_install.php:14
+msgid "Try or install"
+msgstr "Prueba o instala"
+
+#. TRANSLATORS: The title for the custom "Page Not Found" page.
+#. TRANSLATORS: Title for the Page Not Found page.
+#: docroot/lib/ggl.php:244 docroot/lib/views/404.php:16
+msgid "Page Not Found"
+msgstr "Página No Encontrada"
+
+#. TRANSLATORS: This is the description of the homepage, and it appears in Google results! Please pay particular attention to this one =)
+#: docroot/lib/ggl.php:250
+msgid ""
+"Get GNU/Linux! A simple, clear website about GNU/Linux. What is GNU/Linux? "
+"Why not Windows? Tips to make the switch."
+msgstr ""
+"¡Cámbiate a GNU/Linux! Un sitio web sencillo y claro sobre GNU/Linux. ¿Qué "
+"es GNU / Linux? ¿Por qué no Windows? Consejos para hacer el cambio."
+
+#. TRANSLATORS: This is the description of the 'More' page
+#: docroot/lib/ggl.php:252
+msgid "Read and discover more about GNU/Linux."
+msgstr "Lee y descubre mas sobre GNU/Linux"
+
+#. TRANSLATORS: This is the description of the 'Linux' page
+#: docroot/lib/ggl.php:254
+msgid "What is GNU/Linux? A clear explanation."
+msgstr "¿Qué es GNU / Linux? Una explicación clara."
+
+#. TRANSLATORS: This is the description of the 'GNU/Linux FAQ' page
+#: docroot/lib/ggl.php:256
+msgid "Frequently Asked Questions about GNU/Linux."
+msgstr "Preguntas frecuentes sobre GNU/Linux"
+
+#. TRANSLATORS: This is the description of the 'Misunderstanding Free Software' page
+#: docroot/lib/ggl.php:258
+msgid "An unconventional way to (re)discover free software."
+msgstr "Una forma poco convencional de (re)descubrir el software libre."
+
+#. TRANSLATORS: This is the description of the 'Screenshots' page
+#: docroot/lib/ggl.php:260
+msgid "A brief look at GNU/Linux in everyday use."
+msgstr "Una breve mirada a GNU / Linux en el uso diario."
+
+#. TRANSLATORS: This is the description of the 'Why not Windows' page
+#: docroot/lib/ggl.php:262
+msgid "Four good reasons to avoid proprietary software."
+msgstr "Cuatro buenas razones para evitar el software propietario."
+
+#. TRANSLATORS: This is the description of the 'Restrictions' page
+#: docroot/lib/ggl.php:264
+msgid "Restrictions in a proprietary software license."
+msgstr "Restricciones en las licencias de software propietario."
+
+#. TRANSLATORS: This is the description of the 'Restrictions further details' page
+#: docroot/lib/ggl.php:266
+msgid "Restrictions in a proprietary software license - more details."
+msgstr "Restricciones en las licencias de software propietario - más detalles."
+
+#. TRANSLATORS: This is the description of the 'Stand for a free society' page
+#: docroot/lib/ggl.php:268
+msgid "How software affects freedom in society."
+msgstr "Cómo el software afecta la libertad en la sociedad."
+
+#. TRANSLATORS: This is the description of the 'What about choice' page
+#: docroot/lib/ggl.php:270
+msgid "How Microsoft lock customers in."
+msgstr "Como Microsoft bloquea a sus clientes."
+
+#. TRANSLATORS: This is the description of the 'What about source code' page
+#: docroot/lib/ggl.php:272
+msgid "No source code means no trust and no security."
+msgstr "Sin código abierto, no hay confianza ni seguridad."
+
+#. TRANSLATORS: This is the description of the 'Switch to GNU/Linux' page
+#: docroot/lib/ggl.php:274
+msgid "Switch to GNU/Linux: Good tips and advice."
+msgstr "Cámbiate a GNU / Linux: Consejos y sugerencias"
+
+#. TRANSLATORS: This is the description of the 'Choose a distribution' page
+#: docroot/lib/ggl.php:276
+msgid "Recommended GNU/Linux distributions for everyday users."
+msgstr "Distribuciones recomendadas de GNU / Linux para el uso diario "
+
+#. TRANSLATORS: This is the description of the 'From Windows to GNU/Linux' page
+#: docroot/lib/ggl.php:278
+msgid "The advantages and disadvantages of GNU/Linux over Windows."
+msgstr "Ventajas y desventajas de Linux sobre Windows."
+
+#. TRANSLATORS: This is the description of the 'Try or Install' page. This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
+#: docroot/lib/ggl.php:280
+msgid "Try or install GNU/Linux on your computer, very easily."
+msgstr "Prueba o instala Linux en tu computador, fácilmente."
+
+#: docroot/lib/ggl.php:286 docroot/lib/views/linux.linux_faq.php:14
+msgid "Frequently asked questions"
+msgstr "Preguntas frecuentes sobre Linux"
+
+#. TRANSLATORS: This is the catcher-phrase for the Windows page. Exact translation is not required, the goal is to attract attention and set the tone of the page.
+#: docroot/lib/views/windows.php:21
+msgid "Windows and Office work fine &mdash; Why worry about it?"
+msgstr "Windows y Office funcionan bien, entonces, ¿cómo pueden ser tan malos?"
+
+#. TRANSLATORS: You may add emphasis ('em' tags) around the word 'licensed' if you wish
+#: docroot/lib/views/windows.php:32
+msgid ""
+"A legal copy of Windows is expensive, but what do you get? Windows and "
+"Office are licensed, not sold."
+msgstr ""
+"Una copia legal de Windows es costosa, pero, ¿qué obtienes realmente? Ni "
+"Windows ni Office son verdaderamente vendidos, sino que lo que se vende es "
+"una licencia para usarlos."
+
+#: docroot/lib/views/windows.php:33
+msgid ""
+"By using these products, we have to agree to <strong>a number of harsh "
+"restrictions</strong>. For most Windows licenses, you can't keep the "
+"software when you change the hardware. You sometimes can't even give your "
+"software away. Who can run the software? On which computer? What can you do "
+"with it? The list of restrictions is long and some items are outrageous."
+msgstr ""
+"Para usar estos productos, tenemos que aceptar <strong>varias restricciones "
+"muy fuertes</strong>. En la mayoría de las licencias de Windows, no puedes "
+"conservar el software cuando cambias de computador. A veces ni siquiera "
+"puedes regalar el software. Microsoft te impone quién puede usar el "
+"software, en qué computador y para qué propósitos; la lista de restricciones "
+"es larga y en ocasiones aberrante."
+
+#: docroot/lib/views/windows.php:36 docroot/lib/views/windows.php:48
+#: docroot/lib/views/windows.php:64 docroot/lib/views/windows.php:80
+#: docroot/lib/views/windows.php:103
+#: docroot/lib/views/windows.restrictions.php:67
+#: docroot/lib/views/windows.stand_for_a_free_society.php:105
+#: docroot/lib/views/home.php:29 docroot/lib/views/home.php:42
+#: docroot/lib/views/home.php:55
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:148
+#: docroot/lib/views/linux.php:76 docroot/lib/views/linux.php:87
+#: docroot/lib/views/linux.php:104 docroot/lib/views/linux.php:119
+#: docroot/lib/views/windows.restrictions.further_details.php:53
+#: docroot/lib/views/switch_to_linux.php:28
+#: docroot/lib/views/switch_to_linux.php:43
+#: docroot/lib/views/switch_to_linux.php:58
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:126
+msgid "Read more"
+msgstr "Más información"
+
+#: docroot/lib/views/windows.php:44
+msgid "Software should come without locks in it."
+msgstr ""
+"El software debería venir sin mecanismos para atar a los usuarios a los "
+"productos de una compañía."
+
+#: docroot/lib/views/windows.php:45
+msgid ""
+"Why are Office documents difficult to export? Why are the formats "
+"continually changing? Why can you not even uninstall some programs? It might "
+"be that if you look for choice, Microsoft products aren't for you."
+msgstr ""
+"¿Por qué los documentos de Office son tan difíciles de exportar? ¿Por qué "
+"sus formatos están constantemente cambiando? ¿Por qué ni siquiera puedes "
+"desinstalar algunos programas? Si buscas el control, los productos de "
+"Microsoft no son para ti."
+
+#: docroot/lib/views/windows.php:59
+msgid ""
+"The source codes of Windows and Office are hidden, so, <strong>no one is "
+"allowed to understand</strong> how these programs work."
+msgstr ""
+"El código fuente (los detalles del funcionamiento de un programa) de Windows "
+"y Office están ocultos, y además <strong>nadie tiene permiso legal para "
+"averiguar cómo funcionan</strong>."
+
+#: docroot/lib/views/windows.php:60
+msgid ""
+"If you can't get a right to inspect source code (the human-readable inner "
+"workings of a program), you can't have someone correct flaws or evaluate how "
+"your privacy is protected for you."
+msgstr ""
+"Si no tienes derecho a inspeccionar el código fuente (la descripción del "
+"funcionamiento de un programa), no puedes pedirle a un informático que "
+"modifique el software ni que evalúe cómo el software protege tu privacidad."
+
+#: docroot/lib/views/windows.php:61
+msgid ""
+"And guess what? On software that comes with source code, viruses and spyware "
+"aren't effective, and security isn't bought on extra. The antivirus software "
+"industry, in which Microsoft is now a significant player, prefers you to use "
+"Windows."
+msgstr ""
+"Y adivina qué: En el software que cuyo código fuente está disponible, los "
+"programas maliciosos (como los virus) no logran su objetivo, es decir, aquí "
+"la seguridad no se compra por separado. La industria de los antivirus, en la "
+"cual Microsoft juega un papel crucial, prefiere que tú uses Windows."
+
+#. TRANSLATORS: In your language, you might not need to make the distinction between price and freedom. Please do however express that price does not matter, in this sentence.
+#: docroot/lib/views/windows.php:74
+msgid ""
+"A free society requires free software. Think of &quot;free&quot; as in "
+"freedom, not price: the freedoms to inspect, learn from, modify the software "
+"you use."
+msgstr ""
+"Una sociedad libre requiere software libre. Piensa en \"libre\" como en "
+"libertad, no de precio: la libertad para inspeccionar, aprender y modificar "
+"el software que utilice."
+
+#: docroot/lib/views/windows.php:75
+msgid ""
+"Computers are used to share ideas, culture and information. Without these "
+"freedoms over software, we risk losing control over what we share."
+msgstr ""
+"Los computadores se usan para compartir ideas, cultura e información. Sin "
+"estas libertades sobre el software, estamos en riesgo de perder el control "
+"sobre lo que compartimos."
+
+#: docroot/lib/views/windows.php:76
+msgid ""
+"This is happening today. From plain annoying technologies such as Digital "
+"Restrictions Management (<strong>DRM</strong>) to downright frightening ones "
+"like <strong>Trusted Computing</strong>, everyone's ability to participate "
+"in culture is threatened."
+msgstr ""
+"Esto ya está sucediendo hoy; desde tecnologías evidentemente fastidiosas "
+"como la <strong>Gestión de Digital de Restricciones</strong> (<abbr  xml:"
+"lang=\"en\" title=\"Digital Rights Management\">DRM</abbr>) hasta las "
+"completamente espantosas como la <strong>Computación Confiable</strong> "
+"(<abbr xml:lang=\"en\" title=\"Trusted Computing\">TC</abbr>). El derecho "
+"que tiene cualquiera de participar en la cultura se está viendo amenazado."
+
+#: docroot/lib/views/windows.php:77
+msgid ""
+"If you have to give up your freedoms to use software, maybe you should not "
+"be happy with it."
+msgstr ""
+"Si tienes que renunciar a tu libertad para usar un software, quizá entonces "
+"no estés contento con él."
+
+#. TRANSLATORS: This is the conclusion of the article.
+#: docroot/lib/views/windows.php:91
+#, php-format
+msgid ""
+"Many people find that Windows, an otherwise decent piece of software, "
+"<strong>withdraws so many rights</strong> from them, that it is not worth "
+"them using it. macOS is <a href=\"%s#mac_freedom\">not much better</a>, "
+"either."
+msgstr ""
+
+#: docroot/lib/views/windows.php:92
+#, php-format
+msgid ""
+"If you find <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title="
+"\"what is freedom in software?\" rel=\"external\">free software</a> "
+"attractive, you might want to <a href=\"%s\" title=\"make the switch to GNU/"
+"Linux today!\">give GNU/Linux a try</a>."
+msgstr ""
+
+#: docroot/lib/views/windows.php:101 docroot/lib/views/home.php:53
+#: docroot/lib/views/linux.php:117
+msgid "Where to download and how to step into GNU/Linux"
+msgstr "Dónde descargar y como adentrarse en GNU/Linux"
+
+#: docroot/lib/views/windows.restrictions.php:18
+msgid ""
+"A common mistake is for Windows and Office users to think that they fully "
+"own their software. In fact, there are a number of <strong>legal bindings</"
+"strong> applied to it."
+msgstr ""
+"Un error común en los usuarios de Windows y Office es pensar que son "
+"plenamente dueños de su software. De hecho, hay una serie de fijaciones "
+"<strong>legales</strong> que se aplican."
+
+#: docroot/lib/views/windows.restrictions.php:19
+msgid "Haven't read your license fully? We did that job for you."
+msgstr ""
+"¿Nunca has leído la licencia por completo? Nosotros lo hemos hecho por ti."
+
+#: docroot/lib/views/windows.restrictions.php:24
+msgid "The small print in the contract"
+msgstr "La letra pequeña en el contrato"
+
+#: docroot/lib/views/windows.restrictions.php:27
+msgid "Windows and Office are licensed, not sold."
+msgstr "Windows y Office no se venden, sólo se paga para obtener una licencia."
+
+#: docroot/lib/views/windows.restrictions.php:28
+msgid ""
+"No one can buy Windows or Microsoft Office: instead users <strong>purchase a "
+"permission to use</strong> them. The license describes the terms of this "
+"permission. It is the restrictive legal text you have to click \"OK\" to "
+"upon install."
+msgstr ""
+"Nadie puede comprar Windows o Microsoft Office: en lugar de eso <strong>los "
+"usuarios compran un permiso para utilizarlo</strong>. La licencia describe "
+"los términos de este permiso. Es el texto legal restrictivo tienes que hacer "
+"clic en \"Aceptar\" para instalarlo."
+
+#: docroot/lib/views/windows.restrictions.php:31
+msgid "You must abandon many rights to use the software."
+msgstr "Debes renunciar a muchos derechos para poder utilizar este software."
+
+#: docroot/lib/views/windows.restrictions.php:33
+msgid "There are a number of restrictions that you must accept by law."
+msgstr "Existen ciertas restricciones que han de acatarse por ley."
+
+#: docroot/lib/views/windows.restrictions.php:34
+#, fuzzy, php-format
+msgid ""
+"Restrictions on who can use the software, what kind of revenue you may earn "
+"with it, on how you choose to install it, restrictions on your privacy, even "
+"on whether you can give it away: the list is long. <a href=\"%s\">Reading "
+"the license and enumerating your remaining rights</a> is itself a difficult "
+"task."
+msgstr ""
+"Las restricciones sobre quién puede usar el software, qué tipo de ingresos "
+"se pueden obtener con él, en la forma que elijas para instalar, "
+"restricciones en su privacidad, incluso de si puedes regalarlo: la lista es "
+"larga. <a href=\"%s\" title=\"Un poco más acerca de las licencias de "
+"Microsoft\">Leyendo la licencia y enumerando sus derechos restantes</a>es en "
+"sí misma una tarea difícil."
+
+#. TRANSLATORS: Don't bother with the 'abbr' code. You can tranlsate as 'OEM [pre-installed]'
+#: docroot/lib/views/windows.restrictions.php:41
+msgid ""
+"An <abbr title=\"Original Equipment Manufacturer (simply the hardware "
+"seller)\">OEM</abbr>-distributed software cannot be transferred to another "
+"computer."
+msgstr ""
+"Una copia del software distribuido por el <a href=\"http://es.wikipedia.org/"
+"wiki/OEM\">Fabricante Original de Equipo</a> (<abbr title=\"Original "
+"Equipment Manufacturer\" xml:lang=\"en\">OEM</abbr>, por sus siglas en "
+"inglés), no puede ser transferida a otro computador."
+
+#. TRANSLATORS: Don't bother with the 'shrink-wrap' expression. You can skip that bit if you wish.
+#: docroot/lib/views/windows.restrictions.php:45
+msgid ""
+"If you bought your computer with Windows or Office pre-installed (the so-"
+"called OEM licenses, or the \"shrink wrap\" Windows discs), <strong>if you "
+"change computers you must buy software again.</strong>"
+msgstr ""
+"Si compraste tu computadora con Windows u Office preinstalado (las licencias "
+"llamadas OEM, o los discos de Windows \"Shrink Wrap\")  <strong>y cambias de "
+"computadora, deberás volver a comprar el software.</strong>"
+
+#: docroot/lib/views/windows.restrictions.php:46
+msgid ""
+"The license is linked to one computer, and expires when the computer dies. "
+"It is then illegal to transfer the software on another computer."
+msgstr ""
+"La licencia está asociada a un computador, y expira cuando el computador "
+"desaparece. Por lo tanto, transferir el software a otro computador es ilegal."
+
+#: docroot/lib/views/windows.restrictions.php:53
+msgid ""
+"If you go to most of the free software sites you can click down a couple of "
+"levels and find the [GNU] <abbr title=\"General Public License, the main "
+"free software license\">GPL</abbr>, the X license, the Apache license, "
+"whichever terms and conditions you have to accept in order to use that "
+"software."
+msgstr ""
+"Si visita la mayoría de los sitios web de software libre, se dará cuenta de "
+"que con poco esfuerzo encontrará la licencia del mismo, ya sea la GPL, la "
+"licencia X, la licencia de Apache, o cualquiera que sean los términos y "
+"condiciones que tiene que aceptar para usar el software."
+
+#: docroot/lib/views/windows.restrictions.php:54
+msgid ""
+"Now with a proprietary software company, the license is buried so you can't "
+"read it until after you have paid for the product, then they're asking you "
+"to <strong>turn off part of your brain</strong>, they're asking you to turn "
+"off part of your ability to work with other people and to do business, when "
+"you use their software."
+msgstr ""
+"Ahora, con una compañía de software privativo, la licencia está enterrada "
+"por lo que no se puede leer sino hasta que haya pagado por el producto, "
+"entonces, al utilizar su software, ellos están pidiendo que <strong> apagues "
+"parte de tu cerebro</strong>, que apagues parte de tu capacidad de trabajar "
+"con otras personas y hacer negocios."
+
+#: docroot/lib/views/windows.restrictions.php:55
+msgid "Don Marti interview"
+msgstr "Entrevista a Don Marti"
+
+#: docroot/lib/views/windows.restrictions.php:55
+#: docroot/lib/views/windows.stand_for_a_free_society.php:30
+msgid "2005 interview"
+msgstr "Entrevista del 2005"
+
+#: docroot/lib/views/windows.restrictions.php:60
+msgid "The meaning behind"
+msgstr "El mensaje oculto"
+
+#: docroot/lib/views/windows.restrictions.php:62
+msgid ""
+"Companies like Microsoft like to assimilate their software to physical "
+"products, when mentioning copyright infringement for example. Yet, "
+"proprietary software is very different because of the restrictive license -"
+"such restrictions would be unthinkable on a car or bicycle, for example."
+msgstr ""
+"Empresas como Microsoft les gusta asimilar su software a productos físicos, "
+"al mencionar infracción de derechos de autor por ejemplo. Sin embargo, el "
+"software propietario es muy diferente debido a la restrictiva licencia, "
+"tales restricciones serían impensables en un coche o una bicicleta, por "
+"ejemplo."
+
+#: docroot/lib/views/windows.restrictions.php:63
+msgid ""
+"Restrictions on the use of Office and Windows are so harsh, that many "
+"violations occur everyday around us. People are tempted to buy only one "
+"version of Microsoft Office and install it on two computers. Others keep "
+"their version of Windows when they throw their PC away. Other people give "
+"away their second-hand Windows software when they stop using it."
+msgstr ""
+"Restricciones en el uso de Office y Windows son tan duras, que muchas "
+"violaciones ocurren todos los días a nuestro alrededor. Las personas sienten "
+"la tentación de comprar sólo una versión de Microsoft Office e instalarlo en "
+"dos equipos. Otros mantienen su versión de Windows cuando botan su PC a la "
+"basura. Otras personas regalan su software de segunda mano de Windows cuando "
+"dejan de usarlo."
+
+#. TRANSLATORS: use the definition of "free software" on GNU.org; also, gnu.org uses language negotiation, so it's not necessary to replace those URLs.
+#: docroot/lib/views/windows.restrictions.php:66
+msgid ""
+"<strong>You have an alternative to breaking this law,</strong> or feeling "
+"very restrained when you abide to it. GNU/Linux is <a href=\"https://www.gnu."
+"org/philosophy/free-sw.html\" rel=\"external\">Free Software</a> (much "
+"better than just freeware): its <a href=\"https://www.gnu.org/copyleft/gpl."
+"html\" rel=\"external\">GPL</a> license is designed to protect your rights."
+msgstr ""
+
+#: docroot/lib/views/windows.restrictions.php:67
+msgid "Restrictions - further details"
+msgstr "Más detalles acerca de las restricciones"
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:19
+msgid "Stand for a Free Society"
+msgstr "Soporte para una Sociedad Libre"
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:21
+msgid ""
+"There is much more to software than being trustworthy (being \"Open-Source"
+"\"): what really counts is <strong>the freedoms you get</strong> over it. "
+"Can you learn from it? Can you build upon it? Can you distribute it? That's "
+"what we refer to as \"free software\"."
+msgstr ""
+"No sólo importa que el software sea confiable (al ser de \"código abierto"
+"\"): Lo que cuenta es <strong>las libertades que obtienes</strong> sobre él. "
+"¿Se puede aprender de él? ¿Se puede construir sobre él? ¿Puedes "
+"distribuirla? Eso es a lo que nos referimos con \"software libre\"."
+
+#. TRANSLATORS: This is the quote by Don Marti at the start of the article.
+#: docroot/lib/views/windows.stand_for_a_free_society.php:28
+msgid ""
+"I come up with new words, phrases, analogies, all kinds of fun stuff in the "
+"English language and people paraphrase what I had to say and make money "
+"talking about some of the same things that I did."
+msgstr ""
+"Se me ocurren nuevas palabras, frases, analogías, todo tipo de cosas "
+"divertidas en el idioma, luego la gente parafrasea lo que he dicho y gana "
+"dinero hablando sobre las cosas que yo también hablé."
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:29
+msgid ""
+"<strong>If I try to lock down</strong> what I talk about and write about, "
+"the same way as a proprietary software company does, then the whole industry "
+"of speaking, writing, media, would be overly litigious, and transaction "
+"costs would be prohibitive."
+msgstr ""
+"<strong>Si trato de bloquear</strong> lo que hablo y escribo, del mismo modo "
+"que una empresa de software propietario lo haría, entonces toda la industria "
+"de hablar, escribir, medios de comunicación, sería muy litigiosa, y los "
+"costos de transacción serían prohibitivos."
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:34
+msgid "Not a crazy concept"
+msgstr "No es un concepto disparatado"
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:35
+msgid ""
+"It sounds peculiar to many users that software should be free as in freedom, "
+"since none of Microsoft's products are. Yet our society works with many free "
+"things in it, for example:"
+msgstr ""
+"Suena extraño para muchos usuarios que el software debe ser libre, ya que "
+"ninguno de los productos de Microsoft lo son. Sin embargo, nuestra sociedad "
+"trabaja con muchas cosas gratis en el mismo, por ejemplo:"
+
+#. TRANSLATORS: This is the short quote on the side of the article.
+#: docroot/lib/views/windows.stand_for_a_free_society.php:39
+msgid ""
+"Though no one has a proprietary lock on yoga, it is still a thriving $30 "
+"billion business in the United States."
+msgstr ""
+"Aunque el yoga no está patentado, sigue siendo un próspero negocio "
+"billonario en los Estados Unidos."
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:43
+msgid ""
+"No chef would ever forbid you to modify his recipe and make derivatives out "
+"of it. The food industry thrives despite being required by law to list "
+"ingredients on product labels."
+msgstr ""
+"Un chef no llegaría a prohibirle su receta ni hacer derivados de ella. La "
+"industria de la comida crece mucho, a pesar de que la ley exija que los "
+"ingredientes de la comida se indiquen en las etiquetas de los productos."
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:44
+msgid ""
+"A fair law court system permits anyone to read through all the trial "
+"hearings and arguments. Not only the result (the final deliberations), but "
+"also the process is fully open."
+msgstr ""
+"Un sistema de justicia transparente permite a cualquiera acceder a las "
+"vistas y argumentos en un juicio; no sólo al veredicto (el resultado), sino "
+"al proceso entero."
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:46
+msgid ""
+"Free software is free as in &quot;free speech&quot;, as in a &quot;free "
+"market&quot;: all are necessary for a free society. Unconvinced? Let us look "
+"at proprietary software a little closer."
+msgstr ""
+"El software libre es como la libertad de expresión: Necesario para una "
+"sociedad libre. ¿Aún no estás convencido? Permítenos hablarte sobre el "
+"software privativo un poco más."
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:50
+msgid "Proprietary software going wrong"
+msgstr "El software privativo yendo mal"
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:51
+#, php-format
+msgid ""
+"The limits of proprietary software go beyond the security issue (see <a href="
+"\"%s\">our article on source code</a>): today proprietary software "
+"interferes with the spread of culture and information. This happens mainly "
+"through two technologies:"
+msgstr ""
+"Los límites del software privativo van más allá de su inseguridad (vea <a "
+"href=\"%s\">nuestro artículo sobre el código fuente</a>): Hoy en día, este "
+"software interfiere con la difusión de la cultura y la información. Esto "
+"ocurre principalmente debido a dos tecnologías:"
+
+#. TRANSLATORS: This is sometimes only known as "DRM" in some languages. Please choose the vocabulary carefully. The %s placeholder links to a footnote which explains why we use the term "Digital Restrictions Management": https://www.getgnulinux.org/windows/stand_for_a_free_society/#footnote_bottom1
+#: docroot/lib/views/windows.stand_for_a_free_society.php:56
+#, php-format
+msgid "Digital Restrictions Management %s (DRM)"
+msgstr "Gestión Digital de Restricciones %s (DRM)"
+
+#. TRANSLATORS: The %s placeholder will automatically point to the footnote on bottom of page
+#: docroot/lib/views/windows.stand_for_a_free_society.php:59
+#, php-format
+msgid ""
+"The main idea of DRM %s is to restrict access to files. Users encounter this "
+"when, for example, they purchase music through iTunes, and then can only "
+"play their music with one player, from one brand. With this method, "
+"companies fight copyright infringement, but they also severely restrain "
+"users' access to their files."
+msgstr ""
+"La principal idea de la Gestión de Derechos Digitales %s es restringir el "
+"acceso a los archivos. Los usuarios encuentran esto cuando, por ejemplo, "
+"adquirieron música en iTunes, y luego la única forma de escuchar su música "
+"es mediante un sólo reproductor, de un sólo fabricante. Con este método, las "
+"compañías se enfrentan a los infractores de los derechos de autor, pero "
+"también privan a sus usuarios del libre acceso a sus archivos."
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:61
+msgid "DRM is control over content"
+msgstr "DRM es el control sobre el contenido"
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:62
+msgid ""
+"Except that the control is not in the hands of the end-user. The original "
+"purpose of <abbr title=\"Digital Restrictions Management\">DRM</abbr> is "
+"understandable, but the implications over the flow of information and "
+"culture within a society are frightening."
+msgstr ""
+"Pero el control no está en las manos del usuario final. El propósito "
+"original de la <abbr title=\"Gestión Digital de Restricciones\">GDR</abbr> "
+"es razonable, pero las implicaciones sobre el flujo de la información y la "
+"cultura dentro de la sociedad son aterradoras."
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:64
+msgid ""
+"Imagine a book that automatically became glued shut after you read it once."
+msgstr ""
+"Imagina un libro que se sella automáticamente, después de haberlo leído una "
+"sola vez."
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:65
+msgid ""
+"Imagine documents that self-destructed if you tried to take them out of the "
+"room."
+msgstr ""
+"Imagina documentos que se auto destruyen, al tratar de salir por la puerta."
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:66
+msgid ""
+"Imagine telephones that only worked if the person you were ringing was "
+"renting the same make and model."
+msgstr ""
+"Imagina teléfonos que sólo funcionan, si la persona a quien estás llamando "
+"estuviera usando un teléfono del mismo fabricante y modelo que tú."
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:68
+msgid "Sounds crazy? This is where Trusted Computing comes in."
+msgstr "¿Parece una locura? De esto se trata la \"Computación Confiable\"."
+
+#. TRANSLATORS: This is sometimes only known as "Trusted Computing", not TC, in some languages. Please choose the vocabulary carefully.
+#: docroot/lib/views/windows.stand_for_a_free_society.php:72
+msgid "Trusted Computing (TC)"
+msgstr "Computación Confiable"
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:73
+msgid ""
+"Trusted Computing (sometimes <a href=\"https://www.lafkon.net/tc/\" title="
+"\"A very well done video on Trusted Computing\" rel=\"external\">more "
+"accurately</a> called \"Treacherous Computing\") means a computer can only "
+"run \"Trusted\" Software. It is meant to be an uncircumventable protection "
+"against nuisances (like viruses or spyware) and copyright violations (people "
+"copying proprietary software)."
+msgstr ""
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:74
+msgid "Trusted Computing is control over the computer"
+msgstr "La computación confiable es control sobre el computador"
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:75
+msgid ""
+"The critical thing about Trusted Computing is that <strong>you cannot "
+"decide</strong> what is trustworthy and what is not. For example, your "
+"computer might refuse to run programs that are not certified by the software "
+"company &ndash;programs that could enable you to take documents out of the "
+"office, or play your neighbour's DVD, or send your essay to someone not "
+"using the same program."
+msgstr ""
+"El problema de la Computación Confiable, es que uno <strong>no puede "
+"decidir</strong> qué software es confiable, y qué no. Por ejemplo, tu "
+"computador podría rehusarse a ejecutar programas que no están certificados "
+"por la compañía de software; programas que podrían permitirte llevar "
+"documentos fuera de la oficina, o reproducir un DVD de tu vecino, o enviar "
+"una redacción a alguien que no usa el mismo programa."
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:76
+msgid ""
+"A whole range of possibilities opens up for companies that benefit from "
+"restricting your computing (such as proprietary software and recording "
+"companies). It is suddenly possible to rent DVDs that only play two times, "
+"or music you can only listen to during September, or information you can "
+"read but can't save or copy. All of a sudden, Trusted Computing and DRM "
+"enable <strong>remote control</strong> over content."
+msgstr ""
+"Una gran gama de posibilidades se abren para las compañías que se benefician "
+"de limitar lo que puedes hacer con tu propio computador (como las compañías "
+"de software privativo y las discográficas). Es posible alquilar DVDs que "
+"sólo se reproducirán dos veces, o música que sólo puede ser escuchada en "
+"Septiembre, o información que se puede leer pero no puede ser grabada o "
+"copiada. Así de repente, la Computación Confiable y la Gestión Digital de "
+"Restricciones permiten el <strong>control remoto</strong> sobre el contenido."
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:77
+msgid ""
+"Trusted Computing, in effect, enables the publisher to write their own "
+"copyright law."
+msgstr ""
+"La Computación Confiable, efectivamente, permite que las empresas escriban "
+"su propia ley de derechos de autor."
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:81
+msgid "The wider impact"
+msgstr "El gran impacto"
+
+#. TRANSLATORS: This is the quote by Rosemary Bechler in the middle of the article.
+#: docroot/lib/views/windows.stand_for_a_free_society.php:86
+msgid ""
+"Many cultural products are now emerging &quot;triple protected&quot;, not "
+"only by copyright and code, but also by contracts or licenses for which "
+"users waive all remaining rights."
+msgstr ""
+"Hoy en día, muchos productos culturales están saliendo \"triplemente "
+"protegidos\", no sólo por los derechos de autor y el DRM, sino también por "
+"contratos o licencias por los cuales los usuarios renuncian a los derechos "
+"que les quedaban."
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:87
+msgid ""
+"Increasingly, copyright is replaced with click-through end-user licenses for "
+"digital content, using contract law to establish the absolute property "
+"rights that copyright laws were originally intended to deny to publishers."
+msgstr ""
+"El derecho de autor está siendo reemplazado por licencias de usuario final "
+"para contenido digital, usando contratos legales para establecer los "
+"derechos de propiedad absoluta que las leyes de derecho de autor pretendían "
+"originalmente negar a los autores."
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:91
+msgid ""
+"Computing is not just about calculations anymore. We use software to "
+"communicate: to share information, ideas and culture. Software is in our "
+"phones, cars, media players, TVs, and gets to govern just about every new "
+"device around us."
+msgstr ""
+"La computación ya no se trata solamente de cálculos. Usamos el software para "
+"comunicarnos; para compartir información, ideas y cultura. El software está "
+"en nuestros teléfonos, automóviles, reproductores de sonido, televisores, y "
+"llega a gobernar cada nuevo dispositivo a nuestro alrededor."
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:98
+msgid ""
+"<strong>Software is increasingly used to enforce rules</strong>. Rules that "
+"may or may not be the law. Rules that may or may not be fair. If the "
+"software is not free there will be no space for the user to influence these "
+"rules."
+msgstr ""
+"<strong>El software es cada vez más usado para hacer cumplir reglas</"
+"strong>. Reglas que pueden, o no, ser la ley. Reglas que pueden, o no, ser "
+"justas. Si el software no es libre, no habrá espacio para que el usuario "
+"influya en estas reglas."
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:99
+msgid ""
+"Trusted Computing and DRM pave the way for a society in which culture and "
+"information are not simply turned into products (they are right now, and "
+"that is fine), but into <em>consumable</em> products."
+msgstr ""
+"La Computación Confiable y la Gestión Digital de Restricciones, propician un "
+"modelo de sociedad en el que la cultura y la información no son simplemente "
+"convertidos en productos (ahora mismo lo son, y está bien), sino que serían "
+"productos <strong>de consumo</strong>."
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:100
+msgid ""
+"Code is power. Most of today's work documents are written and encoded with "
+"secret algorithms in proprietary software. What will be of tomorrow's books, "
+"photos, films, essays, animations, music, news? Proprietary programs such as "
+"Windows have no transparency. A free culture and a free society cannot grow "
+"from such software."
+msgstr ""
+"El código es poder. La mayoría de los documentos actuales están escritos y "
+"codificados con algoritmos secretos, en software privativo. ¿Qué será de los "
+"libros, fotos, películas, ensayos, animaciones, música y noticias del "
+"mañana? Programas privativos como Windows no son transparentes. Una sociedad "
+"o cultura libre no puede crecer con dicho software."
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:101
+#, php-format
+msgid "May we suggest you <a href=\"%s\">switch to GNU/Linux</a>?"
+msgstr ""
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:109
+#: docroot/lib/views/windows.restrictions.further_details.php:70
+msgid "https://www.gnu.org/philosophy/right-to-read.html"
+msgstr "https://www.gnu.org/philosophy/right-to-read.html"
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:109
+#: docroot/lib/views/windows.restrictions.further_details.php:70
+msgid "The Right to Read"
+msgstr "El derecho a leer"
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:110
+msgid ""
+"What is the Trusted Computing world like? This is a short story by Richard "
+"Stallman that describes how this can affect any of us."
+msgstr ""
+"¿Cómo es el mundo de la Computación Confiable? Este es un breve artículo "
+"realizado por Richard Stallman para describir cómo esto puede afectar a "
+"cualquiera de nosotros."
+
+#. TRANSLATORS: Unless you know of a very good resource about DRM, please point to the Wikipedia article about DRM in your language, if it exists
+#: docroot/lib/views/windows.stand_for_a_free_society.php:115
+msgid "http://www.timj.co.uk/computing/politics-policy/drm/fallacy/"
+msgstr ""
+"http://translate.google.com/translate?hl=en&amp;sl=auto&amp;tl=es&amp;"
+"u=http://www.timj.co.uk/computing/politics-policy/drm/fallacy/"
+
+#. TRANSLATORS: Title of external link
+#: docroot/lib/views/windows.stand_for_a_free_society.php:117
+msgid "The fallacy of DRM"
+msgstr "Introducción al DRM"
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:118
+msgid ""
+"A very well constructed article about <abbr title=\"Digital Restrictions "
+"Management\">DRM</abbr> by Tim Jackson, and on which we based the present "
+"article."
+msgstr ""
+"Un buen artículo, en castellano, que proporciona una completa explicación "
+"sobre la Gestión Digital de Restricciones."
+
+#. TRANSLATORS: If you don't know of a localized version of this article, please leave the URL in English
+#: docroot/lib/views/windows.stand_for_a_free_society.php:126
+msgid ""
+"http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-"
+"free-file-formats/"
+msgstr ""
+"http://translate.google.com/translate?sl=en&amp;tl=es&amp;js=n&amp;"
+"prev=_t&amp;hl=en&amp;ie=UTF-8&amp;eotf=1&amp;u=http://jimmywales."
+"com/2004/10/21/free-knowledge-requires-free-software-and-free-file-formats/"
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:126
+msgid "Free Knowledge requires Free Software and Free File Formats"
+msgstr ""
+"El software libre y los formatos de archivos libres son imprescindibles para "
+"el conocimiento libre (en inglés)"
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:127
+msgid ""
+"An engaged article by Jimmy Wales, who co-founded the free encyclopedia <a "
+"href=\"https://www.wikipedia.org/\" rel=\"external\">Wikipedia</a>."
+msgstr ""
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:130
+msgid "https://www.lafkon.net/tc/"
+msgstr "https://www.lafkon.net/tc/"
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:130
+msgid "Trusted Computing"
+msgstr "¿Puede confiar en su computadora?"
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:131
+msgid ""
+"Short video animation by Benjamin Stephan and Lutz Vogel. A clear, snappy "
+"and convincing argument."
+msgstr ""
+"Un artículo del proyecto GNU que explica, a fondo, el problema con la "
+"\"computación confiable\"."
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:137
+#: docroot/lib/views/windows.what_about_source_code.php:34
+msgid "https://www.gnu.org/philosophy/why-free.html"
+msgstr "https://www.gnu.org/philosophy/why-free.html"
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:137
+msgid "Why Software Should Not Have Owners"
+msgstr "Por qué el software no debe tener propietarios"
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:138
+msgid ""
+"A pivotal text for the Free Software movement by Richard Stallman. It "
+"clarifies common objections and explains a handful of important ideas."
+msgstr ""
+"Un texto crucial para el movimiento del software libre, escrito por Richard "
+"Stallman. El mismo refuta argumentos y explica muchas ideas fundamentales."
+
+#. TRANSLATORS: This describes the last link, which will automatically point to the 'Misunderstanding Free Software' article
+#: docroot/lib/views/windows.stand_for_a_free_society.php:143
+msgid "More on free software on this website."
+msgstr "Más acerca del software libre en este sitio web."
+
+#: docroot/lib/views/windows.stand_for_a_free_society.php:160
+msgid ""
+"Note that DRM is often referred to as \"Digital Rights Management\", "
+"although it has little to do with rights &ndash; \"Digital Restrictions "
+"Management\" is a more accurate name."
+msgstr ""
+"Nótese que frecuentemente se dice que \"DRM\" significa, en castellano, "
+"\"Gestión Digital de Derechos\", pero en realidad no tiene nada que ver con "
+"derechos: Por eso \"Gestión Digital de Restricciones\" es el significado "
+"correcto."
+
+#. TRANSLATORS: This is the very first sentence every visitor is going to read. Please pay great attention to making it sound great, we only have one try! =)
+#: docroot/lib/views/home.php:18
+msgid ""
+"GNU/Linux is an alternative to Microsoft Windows and macOS. It is easy to "
+"use and gives more freedom to users. Anyone can install it: GNU/Linux is "
+"free as in freedom, and often available free of charge."
+msgstr ""
+"GNU/Linux es una alternativa a Microsoft Windows y macOS. Es fácil de "
+"utilizar y otorga más libertad a los usuarios. Cualquiera puede instalarlo: "
+"GNU/Linux es libre como como la libertad, y habitualmente disponible de "
+"manera gratuita."
+
+#: docroot/lib/views/home.php:27
+msgid "Learn more about the free operating system"
+msgstr "Conoce el sistema operativo libre."
+
+#: docroot/lib/views/home.php:40 docroot/lib/views/linux.php:102
+msgid "Why we should avoid using Microsoft Windows"
+msgstr "Por qué se debe evitar usar Microsoft Windows."
+
+#: docroot/lib/views/more.php:18
+msgid "Selected reading on the Internet."
+msgstr "Más información en la web."
+
+#: docroot/lib/views/more.php:22
+msgid "Questions and help"
+msgstr ""
+
+#: docroot/lib/views/more.php:33
+msgid ""
+"<strong>Unix &amp; Linux Stack Exchange</strong> is a question and answer "
+"site for users of GNU/Linux. This site is all about getting answers."
+msgstr ""
+
+#: docroot/lib/views/more.php:41
+msgid ""
+"<strong>Ask Ubuntu</strong> is a question and answer site for Ubuntu users. "
+"Even for users of different distributions of GNU/Linux this can be a helpful "
+"resource for finding answers."
+msgstr ""
+
+#: docroot/lib/views/more.php:49
+msgid ""
+"<strong>Ask Fedora</strong> is a forum for Fedora users. Here you can speak "
+"to the community to get help with installing, using, customizing, and "
+"upgrading a system running Fedora."
+msgstr ""
+"<strong>Ask Fedora</strong> es un foro para usuarios de Fedora. Aquí puedes "
+"hablar con la comunidad para conseguir ayuda con la instalación, uso, "
+"personalización y actualización de un equipo con Fedora."
+
+#: docroot/lib/views/more.php:53
+msgid "Learn and read more"
+msgstr "Para aprender más"
+
+#: docroot/lib/views/more.php:64
+msgid ""
+"A short, entertaining way to clarify thoughts about free, libre, \"open-"
+"source\" software."
+msgstr ""
+"Un articulo breve para aclarar ideas sobre el <abbr title=\"free/libre/open "
+"source software\">FLOSS</abbr>: Software libre y de código abierto. "
+"(traducido por Google Translate)"
+
+#: docroot/lib/views/more.php:72
+msgid ""
+"The Free Software Foundation defends and advocates the very concept of <a "
+"href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">free "
+"software</a> that gave birth to GNU/Linux."
+msgstr ""
+
+#: docroot/lib/views/more.php:78
+msgid ""
+"Note: these links are proposed as a recommendation. They are not commercial."
+msgstr ""
+"Nota: Estos enlaces se proponen como recomendación. No son comerciales."
+
+#: docroot/lib/views/windows.what_about_choice.php:19
+msgid ""
+"Microsoft works hard to make sure their users stay locked into their "
+"products."
+msgstr ""
+"Microsoft trabaja muy duro para mantener atados a sus clientes y que sólo "
+"usen sus productos."
+
+#. TRANSLATORS: This is a quote from Bill Gates at the start of the article.
+#: docroot/lib/views/windows.what_about_choice.php:26
+msgid ""
+"About 3 million computers get sold every year in China, but people don't pay "
+"for the software."
+msgstr ""
+"Casi 3 millones de computadores se venden anualmente en China, pero la gente "
+"no paga por el software."
+
+#: docroot/lib/views/windows.what_about_choice.php:27
+msgid ""
+"Someday they will, though. As long as they are going to steal it [sic], we "
+"want them to steal ours. They'll get sort of addicted, and then we'll "
+"somehow figure out how to collect sometime in the next decade."
+msgstr ""
+"Aunque algún día lo harán. Mientras ellos sigan robando [sic], preferimos "
+"que nos roben a nosotros. En cierto modo se volverán adictos y encontraremos "
+"alguna forma de saldar las deudas algún día en la siguiente década."
+
+#: docroot/lib/views/windows.what_about_choice.php:28
+msgid "1998 interview"
+msgstr "entrevista en 1998 (en inglés)"
+
+#: docroot/lib/views/windows.what_about_choice.php:32
+msgid "Poor support for open standards"
+msgstr "Soporte deficiente para los estándares abiertos."
+
+#: docroot/lib/views/windows.what_about_choice.php:33
+msgid ""
+"There exist open file formats and protocols, which are standards to store "
+"and carry many types of information, respectively. They are openly "
+"specified: they can be read by anyone on any computer, now and in the "
+"future. Proprietary programs, however, rarely support them."
+msgstr ""
+"Existen formatos de archivo y protocolos abiertos, los cuales son estándares "
+"para almacenar y transportar muchos tipos de información, respectivamente. "
+"Son definidos abiertamente: Pueden ser usados por cualquiera en cualquier "
+"computador, ahora y en el futuro. El software privativo normalmente los "
+"evitan."
+
+#: docroot/lib/views/windows.what_about_choice.php:34
+msgid ""
+"<strong>For a long time Microsoft Office only had support for Microsoft "
+"formats</strong>. There are many ways to write work documents, but Microsoft "
+"Office users were bound to Microsoft Office files. People who opted without "
+"expensive Microsoft products cannot write and read <code>.doc</code> files "
+"very reliably."
+msgstr ""
+"<strong>Por mucho tiempo, Microsoft Office sólo fue capaz de leer y escribir "
+"formatos de Microsoft</strong>. A pesar de haber muchas formas de escribir "
+"documentos laborales, los usuarios de Microsoft Office estaban forzados a "
+"utilizar el formato propietario de Microsoft Office. Aquellos que decidiesen "
+"no utilizar los caros productos de Microsoft no podían leer y escribir "
+"archivos <code>.doc</code> correctamente."
+
+#. TRANSLATORS: Please use link to localized Wikipedia article in place of ODF
+#: docroot/lib/views/windows.what_about_choice.php:37
+msgid ""
+"There are of course other ways of writing and exchanging office files, the "
+"most well-known being <a href=\"http://www.opendocumentformat.org/\" rel="
+"\"external\">the OpenDocument Format</a>. But Microsoft isn't keen on "
+"letting Office users exchange files anyone can read and edit. As of "
+"Microsoft Office 2007 SP2, Microsoft finally added support for the ODF "
+"format after being pushed by the European Commission."
+msgstr ""
+
+#: docroot/lib/views/windows.what_about_choice.php:41
+msgid "Standards that change all the time"
+msgstr "Sus estándares cambian todo el tiempo"
+
+#: docroot/lib/views/windows.what_about_choice.php:42
+msgid ""
+"Sticking to Microsoft standards is not an easy job &ndash; unless you can "
+"afford to upgrade very often. Ever tried to work on the same <code>.doc</"
+"code> file with both an Office 95 and an Office 97 computer? You'll know "
+"what we mean."
+msgstr ""
+"Apegarse a los estándares de Microsoft no es fácil, a menos que puedas pagar "
+"las actualizaciones de manera frecuente. ¿Alguna vez has tratado de trabajar "
+"sobre el mismo archivo <code>.doc</code> en un computador con Office 95 y en "
+"otro con Office 97? Sabrás a qué nos referimos."
+
+#: docroot/lib/views/windows.what_about_choice.php:43
+msgid ""
+"Microsoft owns the Office file formats: <strong>they change them with every "
+"new Office version</strong> and have no obligation to keep them backwards-"
+"compatible. Saved your presentation as a <code>.ppt</code> file? If you give "
+"up using Microsoft Office next year, you'll have to rely on other "
+"communities to reverse-engineer the format, to be able to access and modify "
+"your own work."
+msgstr ""
+"Microsoft es el dueño de los formatos de archivo Office: <strong>los cambian "
+"para cada nueva versión</strong> y no tienen obligación de hacerlos "
+"compatibles con versiónes anteriores. ¿Guardaste tu presentación como un "
+"archivo <code>.ppt</code>? Si dejas de usar Microsoft Office el próximo año, "
+"tendrás que depender de otras comunidades para que le hagan ingeniería "
+"inversa al formato, y así ser capaz de leer y modificar tu propio trabajo."
+
+#: docroot/lib/views/windows.what_about_choice.php:47
+msgid "Default programs you can't uninstall"
+msgstr "Programas por defecto que no pueden desinstalarse"
+
+#: docroot/lib/views/windows.what_about_choice.php:48
+msgid ""
+"Don't want Windows Media Player on your computer? Don't use Internet "
+"Explorer anymore? <strong>You can't uninstall these programs</strong>. They "
+"previously worked on a standalone basis, but have been intrinsically linked "
+"with Windows &ndash; so they come in with every PC and no one can get rid of "
+"them."
+msgstr ""
+"¿No quieres Windows Media Player en tu computador? ¿Ya no usas Internet "
+"Explorer? Pues, <strong>no puedes desinstalar esos programas</strong>. "
+"Solían funcionar de forma independiente al sistema operativo, pero ahora han "
+"sido inseparablemente asociados a Windows; vienen en todos los computadores "
+"y nadie puede deshacerse de ellos."
+
+#: docroot/lib/views/windows.what_about_choice.php:52
+msgid "Monopolistic practices"
+msgstr "Prácticas monopolísticas"
+
+#: docroot/lib/views/windows.what_about_choice.php:53
+msgid ""
+"Microsoft has a tight control over <abbr title=\"Original Equipment "
+"Manufacturer\">OEM</abbr>s (computer manufacturers) who ship their computers "
+"with Windows installed."
+msgstr ""
+"Microsoft tiene un gran control sobre los fabricantes de computadores, "
+"quienes entregan sus equipos con Windows preinstalado."
+
+#. TRANSLATORS: if you cannot find localized homepages, please leave the URLs as such
+#: docroot/lib/views/windows.what_about_choice.php:56
+msgid ""
+"This means that no program competing with Microsoft products, be it <a href="
+"\"https://www.videolan.org/vlc/\" rel=\"external\">multimedia player</a>, <a "
+"href=\"https://www.getfirefox.com/\" rel=\"external\">web browser</a>, <a "
+"href=\"https://www.libreoffice.org/\" rel=\"external\">office suite</a>, <a "
+"href=\"https://www.pidgin.im/\" rel=\"external\">instant messaging program</"
+"a> or other, will come pre-installed on most computers you can buy."
+msgstr ""
+
+#: docroot/lib/views/windows.what_about_choice.php:57
+msgid ""
+"It is a good thing to propose a wide range of software and services like "
+"Microsoft do; however, designing and combining them to shut users from non-"
+"Microsoft peers is unethical. It's not technically hard to adopt more open "
+"formats. But it means your customers are <em>free to choose what they do "
+"with their work</em> &ndash; Microsoft isn't there yet."
+msgstr ""
+"Es una buena idea proponer una amplia gama de programas y servicios como "
+"Microsoft lo hace, sin embargo, diseñarlas y combinarlas para alejar a los "
+"usuarios de alternativas ofrecidas por competidores, no es ético. "
+"Técnicamente, no es difícil adoptar más formatos abiertos. Pero eso "
+"significaría que los consumidores serían <em>libres de elegir qué hacen con "
+"su trabajo</em>, y esto a Microsoft no le gustaría."
+
+#. TRANSLATORS: This is the description of the "debian1.jpg" screenshot.
+#. TRANSLATORS: This is the description of the "ubuntu1.jpg" screenshot.
+#. TRANSLATORS: This is the description of the "fedora1.jpg" screenshot.
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:10
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:17
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:24
+#: docroot/lib/views/linux.php:36
+#, fuzzy
+msgid "Accessing applications in the GNOME desktop environment."
+msgstr ""
+"Accediendo a aplicaciones en el entorno de escritorio <a href=\"https://www."
+"gnome.org/gnome-3/\" rel=\"external\">GNOME 3</a>"
+
+#. TRANSLATORS: This is the description of the "debian2.jpg" screenshot.
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:12
+msgid "LibreOffice Writer open, editing a standard document."
+msgstr "OpenOffice.org Writer abierto, editando un documento sencillo."
+
+#. TRANSLATORS: This is the description of the "debian3.jpg" screenshot.
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:14
+msgid "Shotwell photo manager"
+msgstr ""
+
+#. TRANSLATORS: This is the description of the "ubuntu2.jpg" screenshot.
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:19
+msgid "Firefox web browser"
+msgstr "El navegador web Firefox"
+
+#. TRANSLATORS: This is the description of the "ubuntu3.jpg" screenshot.
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:21
+#: docroot/lib/views/linux.php:43
+#, fuzzy
+msgid "GNOME music player"
+msgstr "Reproductor de música Rhythmbox"
+
+#. TRANSLATORS: This is the description of the "fedora2.jpg" screenshot.
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:26
+msgid "Desktop overview with two applications open."
+msgstr "Vista del escritorio con dos aplicaciones abiertas."
+
+#. TRANSLATORS: This is the description of the "fedora3.jpg" screenshot.
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:28
+msgid "Software manager open, install/remove applications."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:38
+msgid ""
+"Because there is no \"one GNU/Linux\", finding what you need can be "
+"difficult. Here are our choice of three beginner-friendly, widely used "
+"distributions."
+msgstr ""
+"Dado que no hay un \"único GNU/Linux\", encontrar lo que necesitas puede ser "
+"difícil. He aquí tres distribuciones propuestas que resultan amigables con "
+"principiantes y son ampliamente usadas."
+
+#. TRANSLATORS: The distrowatch.com website is translated into many languages (see https://distrowatch.com/dwres.php?resource=about). If your language is present, please replace "EN" in the URL by the code of your language (e.g. for Spanish, the last part would become "language=ES").
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:42
+msgid ""
+"Note: There are <a href=\"https://distrowatch.com/dwres.php?"
+"resource=major&amp;language=EN\" rel=\"external\">plenty of distributions to "
+"choose from and compare</a>."
+msgstr ""
+"Ten en cuenta: Hay <a href=\"https://distrowatch.com/dwres.php?"
+"resource=major&amp;language=EN\" rel=\"external\">muchas distribuciones "
+"dónde elegir y comparar</a>."
+
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:43
+msgid "This is our selection for newcomers. These links are not commercial."
+msgstr ""
+"Esta es nuestra selección para los recién llegados. Estos enlaces no son "
+"comerciales."
+
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:53
+msgid ""
+"Debian is one of the oldest operating systems based on the Linux kernel. It "
+"has the reputation of being a very stable and secure GNU/Linux distribution "
+"which is backed by a well-organized community of developers and users. For "
+"this reason it is popular for use on personal computers as well as servers. "
+"Debian is also the basis for many other distributions, most notably Ubuntu."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:54
+msgid ""
+"We recommend this distribution if you are committed to freedom in your "
+"computing."
+msgstr ""
+"Recomendamos esta distribución si estás comprometido con la libertad en tu "
+"computación."
+
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:60
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:64
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:68
+msgid "Debian screenshot"
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:83
+msgid ""
+"Ubuntu is a GNU/Linux distribution based on Debian. The philosophy behind "
+"Ubuntu is that every computer user should be able to download and use their "
+"software free of charge, that anyone should be able to use their software in "
+"the language of their choice, and that anyone should be able to use all "
+"software regardless of disability. The result is an operating system that "
+"has excellent hardware support, is easy to use and pleasant on the eyes."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:84
+msgid ""
+"We recommend this friendly and complete distribution if you are looking for "
+"an easy way to try and step into GNU/Linux."
+msgstr ""
+"Recomendamos esta distribución si buscas una forma fácil de iniciarte en GNU/"
+"Linux."
+
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:90
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:94
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:98
+#: docroot/lib/views/linux.php:36 docroot/lib/views/linux.php:43
+msgid "Ubuntu screenshot"
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:113
+msgid ""
+"The distribution by the long-time prominent GNU/Linux developer company Red "
+"Hat. The default layout is similar to Debian, but there are differences in "
+"the chosen applications, install protocols and several technical elements. "
+"The Fedora developers are committed to innovation, which is reflected by "
+"incorporating new technologies early on, providing the latest in stable and "
+"robust, useful, and powerful free software."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:114
+msgid ""
+"We recommend this distribution if you wish to learn more about the workings "
+"of a GNU/Linux system, security configuration, or work on software "
+"development."
+msgstr ""
+"Recomendamos esta distribución si deseas aprender acerca del funcionamiento "
+"del sistema GNU/Linux y su configuración de seguridad, desarrollar software "
+"o no dispones de conexión a internet."
+
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:120
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:124
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:128
+msgid "Fedora screenshot"
+msgstr ""
+
+#. TRANSLATORS: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
+#: docroot/lib/views/switch_to_linux.choose_a_distribution.php:145
+#, fuzzy
+msgid "Now grab a USB stick and try or install your distribution!"
+msgstr "¡Ahora consigue un CD y prueba o instala tu distribución!"
+
+#: docroot/lib/views/linux.php:15
+msgid ""
+"When you hear the word Linux, you may think of programmers with a beard "
+"typing obscure code on a black screen. Good news! things have changed."
+msgstr ""
+"Cuando escuchas la palabra Linux, puede que te imagines programadores con "
+"barba escribiendo largas líneas de código en una pantalla negra. ¡Buenas "
+"noticias! Las cosas han cambiado."
+
+#: docroot/lib/views/linux.php:20
+msgid "The picture"
+msgstr "La respuesta rápida"
+
+#: docroot/lib/views/linux.php:21
+msgid ""
+"GNU/Linux is an <em>operating system</em>, a large piece of software that "
+"manages a computer. It is similar to Microsoft Windows, but it is entirely "
+"free. The accurate name is <em>GNU/Linux</em> but \"Linux\" is used more "
+"often."
+msgstr ""
+
+#: docroot/lib/views/linux.php:22
+msgid ""
+"GNU/Linux is not one company's product, but a number of companies and groups "
+"of people contribute to it. In fact, the <em>GNU/Linux system</em> is a core "
+"component, which is branched off into many different products. They are "
+"called <strong>distributions</strong>."
+msgstr ""
+
+#: docroot/lib/views/linux.php:23
+msgid ""
+"Distributions change the appearance and function of GNU/Linux completely. "
+"They range from large, fully supported complete systems (endorsed by "
+"companies) to lightweight ones that fit on a USB memory stick or run on old "
+"computers (often developed by volunteers)."
+msgstr ""
+
+#: docroot/lib/views/linux.php:27 docroot/lib/views/linux.linux_faq.php:212
+msgid "Using GNU/Linux"
+msgstr "Usar GNU/Linux"
+
+#: docroot/lib/views/linux.php:28
+#, php-format
+msgid ""
+"GNU/Linux is no harder to use than Windows, and has many more capabilities. "
+"It just takes a dozen minutes to get familiar with a distribution like <a "
+"href=\"%s\">the ones we recommend for newcomers</a>, which come in with many "
+"programs installed."
+msgstr ""
+
+#: docroot/lib/views/linux.php:29
+msgid ""
+"If you need commercial-quality software to work with business documents, "
+"Internet/networking, or multimedia and graphics, it's there right out of the "
+"box. Want more than that? GNU/Linux can do &ndash; there are many hundreds "
+"of free, high quality applications you can find, install and uninstall "
+"neatly and easily."
+msgstr ""
+
+#: docroot/lib/views/linux.php:30
+#, php-format
+msgid ""
+"You shouldn't assume however, that GNU/Linux is a clone of Windows. To know "
+"what to expect when stepping into it, we suggest you read our <a href=\"%s"
+"\">Making the switch</a> page."
+msgstr ""
+"No deberías suponer, sin embargo, que GNU/Linux es un clon de Windows. Para "
+"saber qué esperar cuando te inicies, sugerimos que leas nuestra página <a "
+"href=\"%s\">hacer el cambio</a>."
+
+#: docroot/lib/views/linux.php:51
+msgid "The larger picture"
+msgstr "La respuesta completa"
+
+#. TRANSLATORS: use the definition of "free software" on GNU.org
+#: docroot/lib/views/linux.php:53
+msgid ""
+"When you get a distribution of GNU/Linux, <strong>you also get the freedom "
+"to study, copy, change, and redistribute it</strong> &ndash;&nbsp;that's "
+"what makes it truly <a href=\"https://www.gnu.org/philosophy/free-sw.html\" "
+"title=\"what is freedom in software?\" rel=\"external\">free software</a>."
+msgstr ""
+
+#: docroot/lib/views/linux.php:54
+msgid ""
+"Many companies develop their own operating system based on the core <a href="
+"\"https://www.gnu.org\" title=\"the GNU project: at the source of all GNU/"
+"Linux distributions\" rel=\"external\">GNU software</a>: products they do "
+"not have exclusive rights on. How does the wheel turn?"
+msgstr ""
+"Muchas compañías desarrollan su propio sistema operativo basado en el núcleo "
+"del <a href=\"https://www.gnu.org\" title=\"the GNU project: at the source "
+"of all GNU/Linux distributions\" rel=\"external\">software GNU</a>: "
+"Productos sobre los que no tienen derechos exclusivos. ¿Como obtienen una "
+"contrapartida?"
+
+#: docroot/lib/views/linux.php:56
+msgid ""
+"Most companies make a profit by <em>selling support and services</em> around "
+"their GNU/Linux distribution. Corporate customers buy guaranteed security "
+"updates and assistance. Other services often include training and on-demand "
+"improvements to software."
+msgstr ""
+"La mayoría de las empresas consiguen beneficios gracias al  <em>soporte "
+"técnico y otros servicios de pago</em> relacionados con su distribución de "
+"GNU/Linux. Los clientes empresariales pagan por la garantía de "
+"actualizaciones de seguridad y asistencia, e incluso muchas veces "
+"entrenamiento y modificaciones al software para adecuarlo a sus necesidades."
+
+#: docroot/lib/views/linux.php:57
+msgid ""
+"Some companies, such as HP or IBM, contribute to GNU/Linux because they pre-"
+"install it on servers they sell."
+msgstr ""
+"Algunas compañías, como HP o IBM, contribuyen a GNU/Linux porque lo "
+"preinstalan también en servidores."
+
+#: docroot/lib/views/linux.php:58
+msgid ""
+"An extremely wide community participates in the development and improvement "
+"of software, decreasing costs and improving efficiency."
+msgstr ""
+"Una enorme comunidad participa en el desarrollo y mejora del software, "
+"disminuyendo los costos y mejorando la eficiencia."
+
+#: docroot/lib/views/linux.php:60
+msgid ""
+"In the end, individual end-users often get the software at zero cost, while "
+"corporate customers are often happy to pay for more support."
+msgstr ""
+"Finalmente, las personas suelen obtener el software gratuitamente, mientras "
+"que los clientes empresariales suelen estar felices de pagar para un soporte "
+"más avanzado."
+
+#. TRANSLATORS: use the definition of "free software" on GNU.org
+#: docroot/lib/views/linux.php:73
+#: docroot/lib/views/linux.misunderstanding_free_software.php:24
+msgid "Misconceptions about free software, corrected."
+msgstr "Cinco ideas erróneas acerca del software libre, corregidas."
+
+#: docroot/lib/views/linux.php:83 src/templates/header.php:82
+#, fuzzy
+msgid "GNU/Linux FAQ"
+msgstr "¡Cámbiate a GNU/Linux!"
+
+#: docroot/lib/views/linux.php:84
+#, fuzzy
+msgid ""
+"This FAQ covers common questions about GNU/Linux. We hope this FAQ list can "
+"help if you are more curious."
+msgstr ""
+"<a href=\"%s\">Nuestra página sobre GNU/Linux</a> cubre la información "
+"esencial. Esperamos que este FAQ te pueda ayudar si tienes mayor curiosidad."
+
+#: docroot/lib/views/windows.restrictions.further_details.php:19
+#, php-format
+msgid ""
+"We wished to keep our \"<a href=\"%s\">Restrictions</a>\" page short, so we "
+"moved many of the license restrictions out here. Here is the fine print "
+"inside the Microsoft licenses."
+msgstr ""
+"Queríamos ser lo más breves posible sobre <a href=\"%s\" title=\"Un vistazo "
+"a las licencias de Microsoft\">las licencias de Microsoft</a> y dejamos "
+"muchos puntos sin tratar. Aquí está la letra pequeña dentro de las licencias "
+"de Microsoft."
+
+#: docroot/lib/views/windows.restrictions.further_details.php:23
+#, fuzzy
+msgid "It is unclear who can use, receive or buy your software"
+msgstr "No está claro quién puede usar, recibir o vender su software."
+
+#: docroot/lib/views/windows.restrictions.further_details.php:24
+msgid ""
+"The license is particularly unclear as to who may or may not use your "
+"version of Windows or Office. Several sentences in the Microsoft Office "
+"license suggest it would be illegal to let your neighbour type a letter with "
+"your version of Word on your computer."
+msgstr ""
+"La licencia no es precisa en lo que se refiere a quién puede o no utilizar "
+"su versión de Windows u Office. Varios apartados de la licencia de Microsoft "
+"Office dan a entender que sería ilegal dejar a tu vecino redactar una carta "
+"con la versión de Word que tú tienes instalada."
+
+#: docroot/lib/views/windows.restrictions.further_details.php:25
+msgid ""
+"It is however clear in the Microsoft Windows license that you may <em>only</"
+"em> give or sell your copy of Windows software to anyone <strong>if you are "
+"the first buyer</strong>. This means, that if you buy it from the user who "
+"initially purchased it from Microsoft, then <em>you</em> are not able to "
+"sell or give the software away to yet another user, even if you do not use "
+"it anymore, even if you buy the latest software version with your new "
+"computer."
+msgstr ""
+"Sin embargo, sí está bien claro en la licencia de Microsoft Windows que "
+"<em>sólo</em> puedes dar o vender la copia que tú posees de Windows a otras "
+"personas <strong>si eres el primer comprador</strong>. De lo contrario, tú "
+"no podrías venderlo o regalarlo a otro usuario, incluso si ya no lo usas, o "
+"compraste la versión más reciente de Windows con un computador nuevo."
+
+#: docroot/lib/views/windows.restrictions.further_details.php:28
+msgid ""
+"You may not lease, lend or provide commercial hosting services with the "
+"software"
+msgstr ""
+"No puedes arrendar, prestar, o proveer servicios de alojamiento comercial "
+"con el sofware"
+
+#: docroot/lib/views/windows.restrictions.further_details.php:29
+msgid ""
+"You cannot let professional users use your software, whether they pay for "
+"the service or not, and whether you use a &quot;Professional&quot; license "
+"or not."
+msgstr ""
+"No se puede permitir que los usuarios profesionales utilicen tu software, ya "
+"sea que paguen por el servicio o no, o si se utiliza una licencia "
+"\"profesional\" o no."
+
+#: docroot/lib/views/windows.restrictions.further_details.php:32
+msgid "The upgrade is only valid for the first license you use it on"
+msgstr ""
+"Las actualizaciones sólo son válidas para la primera licencia en las que se "
+"aplica"
+
+#: docroot/lib/views/windows.restrictions.further_details.php:33
+msgid ""
+"If that original license expires (for example because the computer it came "
+"on stops working), so does the upgrade. If you purchase an upgrade, you are "
+"not allowed to use the original software version anymore."
+msgstr ""
+"Si esa licencia original caduca (por ejemplo, si su computador con licencia "
+"del fabricante ya no funciona), también terminan las actualizaciones. Si "
+"compras una actualización, ya no se te permite usar la versión del software "
+"original."
+
+#: docroot/lib/views/windows.restrictions.further_details.php:36
+msgid "Educational versions are crippled"
+msgstr "Las versiones educativas tienen un uso muy restringido"
+
+#: docroot/lib/views/windows.restrictions.further_details.php:37
+msgid ""
+"If Microsoft accepts to define you as a student or an academic, you are "
+"allowed to buy an academic license, and install the software on three "
+"computers. But it is illegal to use it for any commercial purpose \"<em>or "
+"in any way related to the operation of any business enterprise or revenue-"
+"generating activities</em>\"."
+msgstr ""
+"Si Microsoft acepta considerarte como un estudiante o un académico, se te "
+"permite comprar una licencia académica e instalar el software en hasta tres "
+"computadores. Pero es ilegal usarlo para cualquier propósito comercial o "
+"\"<em>cualquier uso relacionado con la gestión de un negocio o empresa, o "
+"actividades que generen ingresos</em>\"."
+
+#: docroot/lib/views/windows.restrictions.further_details.php:40
+msgid "The components of the software may not be separated"
+msgstr "Los componentes del software no pueden ser separados"
+
+#: docroot/lib/views/windows.restrictions.further_details.php:41
+msgid ""
+"It is illegal to buy Microsoft Office, then install only Word on one "
+"computer, and only Excel on another. The Office suite is one single product."
+msgstr ""
+"Es ilegal comprar Microsft Office, más tarde instalar Word en un computador, "
+"y sólamente Excel en otro. El paquete de Office es un solo producto."
+
+#: docroot/lib/views/windows.restrictions.further_details.php:44
+msgid "Private information is collected"
+msgstr "Se recopila información privada"
+
+#: docroot/lib/views/windows.restrictions.further_details.php:45
+msgid ""
+"The licence explicitly states that \"Microsoft and its affiliates\" collect "
+"technical information gathered on your computer by the software. They "
+"\"<em>may use this information solely to improve products or to provide "
+"customized services or technologies</em>\"."
+msgstr ""
+"La licencia explícitamente dice que \"Microsoft y sus afiliados\" recogen "
+"información técnica en tu computador. Ellos \"<em>usarán esta información "
+"únicamente para mejorar sus productos o para ofrecer servicios o tecnologías "
+"personalizadas</em>\"."
+
+#: docroot/lib/views/windows.restrictions.further_details.php:46
+msgid ""
+"In order to activate most Microsoft products, as part of the license "
+"agreement, your computer connects to the Microsoft servers and sends &quot;"
+"technical&quot; information. It can &quot;solely&quot; be used for pretty "
+"much anything."
+msgstr ""
+"Con el fin de activar la mayoría de productos de Microsoft, como parte del "
+"acuerdo de licencia, el equipo se conecta a los servidores de Microsoft y "
+"envía información \"técnica\". Puede \"únicamente\" ser utilizada para casi "
+"cualquier cosa."
+
+#. TRANSLATORS: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
+#: docroot/lib/views/windows.restrictions.further_details.php:59
+msgid "https://www.gnu.org/copyleft/gpl.html"
+msgstr "https://www.gnu.org/copyleft/gpl.html"
+
+#: docroot/lib/views/windows.restrictions.further_details.php:59
+msgid "The GNU General Public License"
+msgstr "La Licencia Pública General de GNU"
+
+#: docroot/lib/views/windows.restrictions.further_details.php:59
+msgid "The GPL"
+msgstr "La GPL"
+
+#: docroot/lib/views/windows.restrictions.further_details.php:60
+msgid ""
+"The GNU General Public License, under which GNU/Linux and a vast amount of "
+"free software are published."
+msgstr ""
+"La licencia GNU GPL, bajo la cual GNU/Linux y una enorme cantidad de "
+"software libre es publicado."
+
+#: docroot/lib/views/windows.restrictions.further_details.php:63
+msgid "Comparing the GPL to the Microsoft WinXP License"
+msgstr ""
+"Comparación de la licencia GNU GPL con la licencia de Microsoft Windows XP "
+"(en inglés)"
+
+#: docroot/lib/views/windows.restrictions.further_details.php:64
+msgid ""
+"A thorough and clear comparison of the <abbr title=\"GNU General Public "
+"License\">GPL</abbr> and the Microsoft <abbr title=\"End-User License "
+"Agreement\">EULA</abbr> license that governs the use of most Windows XP "
+"versions."
+msgstr ""
+"Una profunda y clara comparación entre la <abbr title=\"GNU General Public "
+"License\" xml:lang=\"en\">GPL</abbr> y el Acuerdo de Licencia de Usuario "
+"Final (<abbr title=\"End-User License Agreement\" xml:lang=\"en\">EULA</"
+"abbr>, en inglés) de Microsoft aplicada al uso de la mayoría de las "
+"versiones de Windows XP."
+
+#: docroot/lib/views/windows.restrictions.further_details.php:71
+msgid ""
+"A short story by Richard Stallman that describes what influence restrictive "
+"licenses could have on our lives."
+msgstr ""
+"Una historia corta y fácil de leer escrita por Richard Stallman que describe "
+"la influencia que las licencias restrictivas pueden tener sobre nuestras "
+"vidas."
+
+#. TRANSLATORS: please note the "affirmative" tone with the '.' at end of sentence.
+#: docroot/lib/views/switch_to_linux.php:25
+msgid "Meet GNU/Linux in everyday use."
+msgstr "Conoce a GNU/Linux en el uso diario."
+
+#: docroot/lib/views/switch_to_linux.php:40
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:123
+msgid "Our selection for an easy choice."
+msgstr "Nuestra selección para facilitar la elección."
+
+#: docroot/lib/views/switch_to_linux.php:55
+msgid "Install it! (it's easier than you think)"
+msgstr "¡Instálalo! (es más fácil de lo que crees)"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:16
+msgid ""
+"Make the step &ndash; unless you wish to <a href="
+"\"#free_software_pre_installed\" title=\"GNU/Linux Desktops and Laptops"
+"\">purchase a PC with GNU/Linux pre-installed</a>, you can see what freedom "
+"looks like on your computer."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:21
+#, fuzzy
+msgid "Try out the live USB stick"
+msgstr "Pruébalo: El \"Live CD\""
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:23
+msgid "Take no risk"
+msgstr "No hay nada que perder"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:24
+msgid "USB stick"
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:25
+#, fuzzy
+msgid ""
+"Using a live USB stick means that GNU/Linux will be running on your computer "
+"<em>without installing anything</em>. It's a risk-less way to try and see by "
+"yourself what GNU/Linux is."
+msgstr ""
+"Usar un CD vivo significa que GNU/Linux funcionará en tu ordenador <em>sin "
+"instalar nada</em>. Es una forma menos peligrosa de probar y mirar por ti "
+"mismo lo qué es GNU/Linux."
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:26
+#, fuzzy
+msgid ""
+"When running on a live USB stick, your computer uses solely the USB stick to "
+"work (without accessing the hard drive inside). You can launch all of the "
+"default programs, edit documents, and browse the web."
+msgstr ""
+"Cuando se ejecuta en un Live CD, el equipo utiliza únicamente el CD-ROM para "
+"trabajar (sin acceder al interior del disco duro). Puedes iniciar todos los "
+"programas predeterminados, editar documentos y navegar por la web."
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:27
+msgid ""
+"Since it is only designed as a trial mode, it is a little slow (it will take "
+"you five minutes to boot up, and programs launch somewhat slowly). If you "
+"proceed to install, the system will go much faster."
+msgstr ""
+"Debido a que sólo está diseñado como un modo de prueba, es un poco lento "
+"(tomará cinco minutos para iniciar, y ejecutará las aplicaciones un poco "
+"lento). Si procedes a instalarlo, el sistema irá mucho mas rápido."
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:29
+#: docroot/lib/views/switch_to_linux.try_or_install.php:41
+msgid "What you need"
+msgstr "Lo que necesitas"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:30
+#: docroot/lib/views/switch_to_linux.try_or_install.php:49
+msgid ""
+"For the distributions we recommend, the live USB stick is the same as the "
+"installation medium. You can download an ISO image (rather large file) and "
+"then create a bootable USB stick (recommended) or burn it to a CD or DVD. "
+"Burning to a CD/DVD may be necessary when installing GNU/Linux on an older "
+"system which can not boot from USB. You can then use it to install GNU/Linux "
+"onto your computer."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:31
+#, fuzzy
+msgid ""
+"To use a live USB stick, you need a little bit of curiosity, and fifteen "
+"minutes of free time, but <strong>no advanced knowledge in computing</"
+"strong>. If you feel confident simply using Windows or macOS from time to "
+"time, then this is within your reach."
+msgstr ""
+"Para usar el Live CD se necesita un poco de curiosidad y quince minutos de "
+"tiempo libre, pero <strong>ningún conocimiento avanzado en informática</"
+"strong>. Si te sientes seguro simplemente usando Windows de vez en cuando, "
+"entonces esto está dentro de tu alcance."
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:35
+msgid "Installing as a dual boot"
+msgstr "Instalarlo como un doble arranque"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:37
+msgid "Choose at start-up"
+msgstr "Elije en el arranque"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:38
+#, fuzzy
+msgid ""
+"It is possible to install GNU/Linux along with Windows or macOS. This means "
+"that upon start-up, you will be greeted with a screen allowing you to boot "
+"into the operating system you prefer."
+msgstr ""
+"Es posible tener a GNU/Linux y a Windows en el mismo computador. Esto "
+"implica que al encender el equipo, encontrarás una pantalla que te pregunta "
+"cuál sistema deseas usar: Linux o Windows."
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:39
+msgid ""
+"Setting up a dual-boot can be helpful if you need time to abandon "
+"restrictive software. It is <a href=\"https://tutorials.ubuntu.com/tutorial/"
+"tutorial-install-ubuntu-desktop\" title=\"a tutorial on installing Ubuntu\" "
+"rel=\"external\">not difficult to set-up</a>, though erasing Windows or "
+"macOS altogether is even easier."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:42
+#, fuzzy
+msgid ""
+"Installing GNU/Linux on your computer will take you less than 30 minutes. It "
+"is not an obvious step for complete beginners, but if you use computers on a "
+"daily basis this is very likely within your reach. If you have already re-"
+"installed Windows or macOS on your computer, rest assured that installing "
+"GNU/Linux is no harder."
+msgstr ""
+"Instalar GNU/Linux en tu ordenador te llevará menos de 30 minutos. No es un "
+"proceso del todo obvio para completos principiantes, pero si utilizas "
+"ordenadores a diario, está muy probablemente dentro de tu alcance. Si ya has "
+"reinstalado Windows en tu ordenador, ten por seguro que instalar GNU/Linux "
+"no es más complicado."
+
+#. TRANSLATORS: "Image" refers to a downloadable ISO image and can be translated loosely.
+#: docroot/lib/views/switch_to_linux.try_or_install.php:48
+#, fuzzy
+msgid "Get the image you need"
+msgstr "Obtén el CD que necesitas"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:56
+#, fuzzy
+msgid ""
+"<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">Create "
+"a live USB stick</a> or <a href=\"https://www.debian.org/CD/faq/#record-"
+"windows\" rel=\"external\">burn it to a CD/DVD</a>. Then use it to <a href="
+"\"https://www.debian.org/releases/stable/installmanual\" rel=\"external"
+"\">install Debian</a> onto your computer."
+msgstr ""
+"La <a href=\"https://trisquel.info/wiki/installation-guide\" rel=\"external"
+"\">instalación de Trisquel</a> es muy similar a la de Ubuntu"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:60
+#, fuzzy
+msgid "Download Debian"
+msgstr "Descargar Ubuntu"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:70
+#, fuzzy
+msgid ""
+"<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-"
+"on-windows\" rel=\"external\">Create a live USB stick</a> or <a href="
+"\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel="
+"\"external\">burn it to a DVD</a>. Then use it to <a href=\"https://"
+"tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel="
+"\"external\">install Ubuntu</a> onto your computer."
+msgstr ""
+"La <a href=\"https://trisquel.info/wiki/installation-guide\" rel=\"external"
+"\">instalación de Trisquel</a> es muy similar a la de Ubuntu"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:74
+msgid "Download Ubuntu"
+msgstr "Descargar Ubuntu"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:84
+#, fuzzy
+msgid ""
+"<a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/"
+"install/Preparing_for_Installation/#sect-preparing-boot-media\" rel="
+"\"external\">Create a live USB stick</a> or <a href=\"https://docs."
+"fedoraproject.org/en-US/fedora/f33/install-guide/install/"
+"Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external"
+"\">burn it to a CD/DVD</a>. Then use it to <a href=\"https://docs."
+"fedoraproject.org/en-US/fedora/f33/install-guide/install/"
+"Booting_the_Installation/\" rel=\"external\">install Fedora</a> onto your "
+"computer."
+msgstr ""
+"La <a href=\"https://trisquel.info/wiki/installation-guide\" rel=\"external"
+"\">instalación de Trisquel</a> es muy similar a la de Ubuntu"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:88
+msgid "Download Fedora"
+msgstr "Descargar Fedora"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:96
+msgid ""
+"Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href="
+"\"https://www.gnu.org/philosophy/free-sw.html\" title=\"What do you mean, "
+"free?\" rel=\"external\">free software</a>. You are simply paying a handling/"
+"shipping fee."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:100
+msgid "Free Software pre-installed"
+msgstr "Software Libre pre-instalado"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:103
+#, fuzzy
+msgid "Computer with GNU/Linux pre-installed"
+msgstr "¿Viene GNU/Linux preinstalado en ordenadores?"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:105
+msgid ""
+"Not all computers are shipped with Windows or macOS. If you do not wish to "
+"make the install yourself, or are in need of new hardware, you can get a "
+"laptop or a desktop pre-installed with GNU/Linux. <a href=\"https://"
+"linuxpreloaded.com/\" rel=\"external\">LinuxPreloaded.com</a> has compiled a "
+"list of vendors pre-installing GNU/Linux just for that reason."
+msgstr ""
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:29
+msgid "The software industry can't keep going if programmers don't get paid"
+msgstr ""
+"La industria del software no puede seguir funcionando si no se le paga a los "
+"programadores"
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:30
+msgid ""
+"Let's begin with one simple fact: free software programmers <em>do</em> like "
+"to get paid, and all need to buy lunch at some time."
+msgstr ""
+"Comencemos por algo sencillo: A los programadores de software libre <em>sí</"
+"em> les gusta que les paguen y todos tienen sus gastos."
+
+#. TRANSLATORS: Here, the %s placeholder simply puts a link to a footnote in this page
+#: docroot/lib/views/linux.misunderstanding_free_software.php:33
+#, php-format
+msgid ""
+"When we mention free software, we refer to <strong>liberty not price</"
+"strong>. You may actually pay to get free software (or \"open source\" "
+"software %s), which you can then study, change and copy at will."
+msgstr ""
+"Cuando hablamos de software libre, nos referimos a la <strong>libertad sin "
+"precio</strong>. Es posible pagar para conseguir software libre (o de "
+"\"código abierto\" %s), que luego se puede estudiar, cambiar y copiar a "
+"voluntad."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:34
+msgid ""
+"How does it work? You can think about it the following way: software is just "
+"code, code is only math. Once you view software as <strong>useful math</"
+"strong>, an elaborate language, not like ordinary property, there is no "
+"reason to restrict others' use of it."
+msgstr ""
+"¿Y acaso eso funciona? Se lo puede imaginar de la siguiente forma: El "
+"software es código, y el código es matemática. Una vez que vea el código "
+"como una \"<strong>matemática útil</strong>\", un idioma elaborado, no una "
+"propiedad tangible, no se verá razón para prohibirle su uso a las demás "
+"personas."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:35
+msgid ""
+"Just like math (where nobody would claim property on an equation), software "
+"requires advanced knowledge to be adapted, improved, applied correctly. This "
+"is where programmers generally generate an income: many customers, "
+"especially companies, are willing to pay for regular security updates and "
+"improvements on software."
+msgstr ""
+"Al igual que la matemática (donde nadie reclamaría la propiedad de una "
+"ecuación), el software requiere conocimiento avanzado para que pueda ser "
+"adaptado, mejorado y aplicado correctamente. Es aquí donde los "
+"desarrolladores suelen generar ganancias: Muchos clientes, generalmente "
+"compañías, están dispuestos a pagar por mejoras y actualizaciones de "
+"seguridad en el software."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:36
+msgid ""
+"Free software companies benefit from a very decentralised development system "
+"with a large number of voluntary contributors. The revenues inside the free "
+"software industry might be smaller than in the proprietary counterpoint, but "
+"are by no means negligible. In the end, individual users generally end up "
+"using free software at no cost."
+msgstr ""
+"Las compañías de software libre se benefician de un sistema de desarrollo "
+"descentralizado con un gran número de voluntarios. Las ganancias de la "
+"industria del software libre puede que sean menor que su contraparte "
+"privativa, pero de ninguna manera son insignificantes. A la final, los "
+"usuarios individuales suelen terminar usando el software gratuitamente."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:37
+msgid ""
+"Free software is not about killing incentives for programmers. It's about "
+"seeing code as knowledge which should not be hidden from the user. It works "
+"with a different business model, in which many companies already do well."
+msgstr ""
+"El software libre no trata de acabar con los los incentivos de los "
+"programadores; se trata de ver el código como un conocimiento que no se le "
+"debe ocultar al usuario. Simplemente funciona con un modelo de negocio "
+"distinto, que muchas compañías están aprovechando."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:41
+msgid "Innovation is killed in free software"
+msgstr "El software libre mata la innovación"
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:42
+msgid ""
+"The common perception is that if everyone can copy ideas, innovation will be "
+"stifled."
+msgstr ""
+"La idea que suele tener la gente es que, si cualquiera puede copiar ideas, "
+"la innovación se vendrá abajo."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:43
+msgid ""
+"In fact, freedom is often <strong>the key to innovative and successful "
+"software</strong>."
+msgstr ""
+"En realidad, la libertad  suele ser <strong>la clave para el software libre "
+"y la innovación</strong>."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:45
+msgid "Anyone is allowed and encouraged to work upon it;"
+msgstr "A la gente se le permite y se le anima a trabajar sobre él;"
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:46
+msgid "Many people are willing to participate;"
+msgstr "Muchas personas están dispuestas a participar;"
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:47
+msgid ""
+"There is no need to re-invent everything, ideas can be improved upon "
+"directly."
+msgstr ""
+"No hay necesidad de reinvertar nada; las ideas se pueden implementar "
+"directamente."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:51
+msgid ""
+"Non-proprietary software stands out in many areas: consider, to name just a "
+"few:"
+msgstr ""
+"El software libre se puede apreciar en muchas áreas: Considere, por "
+"mencionar algunas:"
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:53
+msgid ""
+"Applications: <a href=\"https://www.getfirefox.com/\" rel=\"external"
+"\">Firefox</a> (web browser), <a href=\"https://inkscape.org/\" rel="
+"\"external\">Inkscape</a> (vector drawing)."
+msgstr ""
+"Aplicaciones <a href=\"http://www.mozilla.org/es-ES/firefox/new/\"  title="
+"\"Obtenga Firefox - un navegador web libre y gratuito que cambia la web"
+"\">Firefox</a> (navegador web) o <a href=\"http://www.inkscape.org/?lang=es"
+"\" title=\"Inkscape, un editor de gráficos vectoriales\">Inkscape</a> "
+"(editor de gráficos  vectoriales)."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:54
+msgid ""
+"Complete systems: <a href=\"https://en.wikipedia.org/wiki/Apache_HTTP_Server"
+"\" rel=\"external\">Apache</a> (web server), <a href=\"https://en.wikipedia."
+"org/wiki/OpenBSD\" rel=\"external\">OpenBSD</a> (<abbr title=\"Operating "
+"System\">OS</abbr>), and of course, GNU/Linux."
+msgstr ""
+"Sistemas completos: <a href=\"https://en.wikipedia.org/wiki/"
+"Apache_HTTP_Server\" rel=\"external\">Apache</a> (servidor web), <a href="
+"\"https://en.wikipedia.org/wiki/OpenBSD\" rel=\"external\">OpenBSD</a> "
+"(<abbr title=\"Operating System\">OS</abbr>), y por supuesto, GNU/Linux."
+
+#. TRANSLATORS: use URL to localized Wikipedia article for OpenDocument Format, instead of www.opendocumentformat.org
+#: docroot/lib/views/linux.misunderstanding_free_software.php:57
+msgid ""
+"Formats and protocols: <a href=\"https://en.wikipedia.org/wiki/HTML\" rel="
+"\"external\">HTML</a> (web pages), <a href=\"https://en.wikipedia.org/wiki/"
+"BitTorrent_(protocol)\" rel=\"external\">BitTorrent</a> (file sharing), <a "
+"href=\"http://www.opendocumentformat.org/\" rel=\"external\">OpenDocument "
+"Format</a> (office documents)."
+msgstr ""
+"Formatos y protocolos: <a href=\"https://en.wikipedia.org/wiki/HTML\" rel="
+"\"external\">HTML</a> (páginas web), <a href=\"https://en.wikipedia.org/wiki/"
+"BitTorrent_(protocol)\" rel=\"external\">BitTorrent (buscador de archivos), "
+"<a href=\"http://www.opendocumentformat.org/\" rel=\"external\">OpenDocument "
+"Format</a>  (documentos de oficina)."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:58
+msgid ""
+"Server applications: <a href=\"https://www.drupal.org/\" rel=\"external"
+"\">Drupal</a> (Content Management System), <a href=\"https://www.wordpress."
+"org/\" rel=\"external\">Wordpress</a> (blog)."
+msgstr ""
+"Aplicaciones de servidor: <a href=\"http://es.wikipedia.org/wiki/Drupal"
+"\">Drupal</a> (sistema de administración de contenidos), <a href=\"http://es."
+"wordpress.org/\">Wordpress</a> (blog)."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:64
+msgid "Software should Just Work"
+msgstr "El software debería Funcionar"
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:65
+msgid "Anyone should care about whether their software is free."
+msgstr "Cualquiera debería preocuparse acerca de si su software es libre o no."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:66
+msgid ""
+"Imagine purchasing a car whose hood you are forbidden to open. It does not "
+"matter whether you know how a car works &ndash; the point is that nobody "
+"will be able to check the engine. How can you trust your car, if no one is "
+"allowed to make sure that it's reliable, that it does not leak, that it's "
+"not harmful to the society and environment?"
+msgstr ""
+"Imagínate que compras un automóvil, y se te prohibe abrir el capó. No "
+"importa si sabes, o no, cómo funcionan los automóviles, el hecho es que "
+"nadie será capaz de revisar el motor. ¿Cómo puedes estar tranquilo con tu "
+"automóvil si a nadie se le permite verificar que sea fiable, que no tenga "
+"una fuga o que no afecte a la sociedad ni el medio ambiente?"
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:67
+msgid ""
+"The idea is the same with software &ndash; except that code does "
+"<strong>much more</strong> than move cars. Software runs our computers, "
+"phones, TVs, media players and more, carrying information and our culture."
+msgstr ""
+"Sucede lo mismo con el software, excepto que el código sirve para "
+"<strong>mucho más</strong> que para mover autos. El software maneja nuestros "
+"computadores, teléfonos, televisores, reproductores de sonido y más, "
+"transportando información y nuestra cultura."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:68
+msgid ""
+"Free software is as important as free speech, as a free market. If software "
+"is free, users have control and liberty over it."
+msgstr ""
+"El software libre es tan importante como la libertad de expresión. Si el "
+"software es libre, los usuarios tienen libertad y el control del mismo."
+
+#. TRANSLATORS: The %s placeholder will automatically point to the 'try and install' page
+#: docroot/lib/views/linux.misunderstanding_free_software.php:71
+#, php-format
+msgid ""
+"The good news are: <em>free software also Just Works.</em> And in fact, it "
+"often Just Works Better. <a href=\"%s\">Pop in a GNU/Linux liveCD</a> in "
+"your computer at start-up, to try a full-featured, well-organised system, "
+"without installation, so you can judge by yourself."
+msgstr ""
+"La buena noticia es que <em>el software libre no sólo funciona bien</em>, "
+"sino que suele funcionar mucho mejor. ¡<a href=\"%s\">Introduce un Live CD "
+"de GNU/Linux en tu computador</a> para probar un sistema completo y bien "
+"organizado, de manera que puedas juzgarlo tú mismo sin instalarlo!"
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:75
+msgid ""
+"Free software doesn't respect authors' copyrighted and patented software"
+msgstr ""
+"El software libre no respeta los derechos de autor ni las patentes de "
+"software."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:76
+msgid ""
+"To answer this correctly, we must first make a clear distinction between "
+"copyright and patents. Copyright is a right granted to the author over his/"
+"her creation (for example, the text of a book, or the source code of a "
+"program). A patent, on the other hand, is a purchased, registered exclusive "
+"control over a process, the application of an idea."
+msgstr ""
+"Para responder a esto, primero tenemos que hacer una clara distinción entre "
+"el derecho de autor y las patentes. El derecho de autor se le concede al "
+"creador de una obra sobre la misma (por ejemplo, el texto de un libro o el "
+"código fuente de un programa). Por otro lado, una patente es el control "
+"exclusivo que se registra sobre un proceso, la aplicación de una idea."
+
+#. TRANSLATORS: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
+#: docroot/lib/views/linux.misunderstanding_free_software.php:79
+msgid ""
+"<strong>Copyright is very important in free software.</strong> It is the "
+"very mechanism, central to the <a href=\"https://www.gnu.org/copyleft/gpl."
+"html\" rel=\"external\">GNU General Public License</a>, which ensures that "
+"free software remains free, and that authors are credited for their work. "
+"Programs are copyrighted, whether they are free or proprietary."
+msgstr ""
+"<strong>El derecho de autor es muy importante en el software libre</strong>. "
+"Es el mecanismo propio, esencial en la <a href=\"http://www.viti.es/gnu/"
+"licenses/gpl.html\" title=\"GNU GPL, la principal licencia en el software "
+"libre\">Licencia Pública General de GNU</a>, mediante el cual se encarga de "
+"que el software libre permanezca libre y que los autores reciban el crédito "
+"por su trabajo. Los programas están amparados bajo el derecho de autor, ya "
+"sean libres o privativos."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:80
+msgid ""
+"Any proprietary software author can easily check that his copyright is not "
+"violated in a free software application, since its source code is readily "
+"available."
+msgstr ""
+"Cualquier autor de software privativo puede fácilmente comprobar que no se "
+"viola su derecho en un programa de software libre, puesto que el código "
+"fuente está al alcance de su mano."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:81
+msgid ""
+"Patents in software, on the other hand, are a very controversial concept. To "
+"put it shortly: there is <strong>no such thing as a \"patented software\"</"
+"strong>. By registering for a patent, however, someone can claim ownership "
+"over a <em>process</em>. The patent then applies to all software that use "
+"this process, whether proprietary or free."
+msgstr ""
+"Por otro lado, las patentes en el software representan un concepto muy "
+"controversial. Para resumirlo: <strong>No existe nada a lo que se le pudiera "
+"llamar \"software patentado\"</strong>. Sin embargo, alguien puede "
+"atribuirse la propiedad de un <em>proceso</em> si registra una patente. "
+"Entonces la patente aplicaría a todo software que use ese proceso, sin "
+"importar que sea privativo o libre."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:82
+msgid "Software patents:"
+msgstr "Características de las patentes de software:"
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:84
+msgid "Are expensive and are granted only several years after application;"
+msgstr "Son costosas y se otorgan luego de varios años de la solicitud;"
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:85
+msgid ""
+"Are limited geographically (a patent granted in the US is worthless in "
+"Europe);"
+msgstr ""
+"Tienen límites geográficos (una patente concedida en Estados Unidos no tiene "
+"valor en Europa);"
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:86
+msgid "Have long life-times (often 20 years) in a quickly-moving industry;"
+msgstr ""
+"Tiene largos períodos de vigencia (generalmente 20 años), en una industria "
+"que avanza constantemente;"
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:87
+msgid "Often apply entirely trivial processes."
+msgstr "A menudo aplican procesos completamente triviales."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:89
+msgid ""
+"As such, they are seldom used to benefit innovators (and in fact, rarely "
+"used by the innovators themselves)."
+msgstr ""
+"Como tal, raramente son usadas para beneficiar a quienes innovan; de hecho, "
+"casi nunca son usadas por los propios innovadores."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:90
+msgid ""
+"It's safe to say that <strong>any medium-size piece of software violates "
+"patents</strong>, in several countries, whether it's free or not."
+msgstr ""
+"Se puede decir que <strong>cualquier pieza de software de mediano tamaño "
+"viola las patentes</strong> en varios países, tanto libre como privativo."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:91
+msgid ""
+"Depending on the holding company's ability to cover very large legal costs, "
+"or to retaliate with other patent threats, royalties and restrictions can be "
+"applied over these patents."
+msgstr ""
+"Dependiendo de la capacidad que tenga la compañía titular de la patente para "
+"cubrir grandes gastos legales, se pueden aplicar restricciones y regalías "
+"sobre dichas patentes."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:93
+msgid "Read more:"
+msgstr "Más información:"
+
+#. TRANSLATORS: Unless you know of a good localized resource, please leave the URL as such.
+#: docroot/lib/views/linux.misunderstanding_free_software.php:97
+msgid ""
+"<a href=\"https://ffii.org/Frequently%20Asked%20Questions%20about%20software"
+"%20patents\" hreflang=\"en\" rel=\"external\">Frequently Asked Questions on "
+"software patents, by the <abbr title=\"Foundation for a Free Information "
+"Infrastructure\">FFII</abbr></a>"
+msgstr ""
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:102
+msgid "Free software is like communism"
+msgstr ""
+
+#. TRANSLATORS: Here, the %s placeholder simply puts a link to a footnote in this page
+#: docroot/lib/views/linux.misunderstanding_free_software.php:105
+#, php-format
+msgid ""
+"Supporters of this idea argue that there can be no private ownership with "
+"free (or \"open source\" %s) software. Let's answer this with an example."
+msgstr ""
+"Los defensores de esta idea sostienen que no puede haber propiedad privada "
+"con software libre (o \"código abierto\" %s). Vamos a responder a esto con "
+"un ejemplo."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:106
+msgid ""
+"Let's imagine that you use one application that is free software, at home "
+"and within your company. You find a great way to improve it, so now with "
+"your modified version, your computer works better and your factories run "
+"twice as fast!"
+msgstr ""
+"Supongamos que usas una aplicación que es software libre, tanto en casa como "
+"en el trabajo. Entonces encuentras una buena forma de mejorarlo, de manera "
+"que con la versión modificada, ¡ahora tu computador funciona mejor y hace el "
+"trabajo al doble de rápido!"
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:107
+msgid ""
+"This modified version is <strong>your own version</strong>. You are not "
+"required to tell anyone about it, nor must you share any of the profits you "
+"made using it. You are simply exerting your freedom to use and modify free "
+"software."
+msgstr ""
+"Esta versión modificada es <strong>tu propia versión</strong>. No estás "
+"obligado a hablar de ella a nadie ni tienes que compartir la ganancia que "
+"obtuviste mientras la usabas. Simplemente estás ejerciendo tu derecho a usar "
+"y modificar el software."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:108
+msgid ""
+"What the free software license requires is that <strong>if you redistribute</"
+"strong> this software, then you must keep it free. Namely, if you sell CDs "
+"with your software on them, or start letting people outside your home or "
+"company use it, then you must:"
+msgstr ""
+"Lo que la licencia de software libre exige es que <strong>si tú "
+"redistribuyes</strong> este software, entonces debes mantenerlo libre. "
+"Concretamente, si vendes CDs que contengan su software o empiezas a "
+"permitirle a personas ajenas a su casa o lugar de trabajo que lo usen, tú "
+"tendrías que:"
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:110
+msgid ""
+"Either give everyone the same rights you had when you obtained the original "
+"software, that is, the freedom to inspect, modify and redistribute your "
+"modified version;"
+msgstr ""
+"Darle a cualquier persona los mismos derechos que se te otorgaron al obtener "
+"el software original, es decir, la libertad de revisar, modificar y "
+"redistribuir la versión modificada,"
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:111
+msgid ""
+"Or, make the original software and your secret addition to it clearly "
+"separate (that is, your addition should contain none of the original work)."
+msgstr ""
+"O, separar las modificaciones del software original (es decir, que el "
+"trabajo final no contenga ningún código del trabajo original)."
+
+#. TRANSLATORS: The %s placeholder here will automatically point to the page "Windows Restrictions, further details"
+#: docroot/lib/views/linux.misunderstanding_free_software.php:115
+#, php-format
+msgid ""
+"So in fact, you have more \"ownership\" over free software than over "
+"proprietary software &ndash;where the programmer decides everything you can "
+"<a href=\"%s\">and can't do</a> with the software."
+msgstr ""
+"Así que, en realidad, tu tienes más \"propiedad\" sobre el software libre "
+"que el privativo (donde el programador decide todo lo que puedes y <a href="
+"\"%s\" title=\"Restricciones del software privativo\">no puedes</a> hacer "
+"con el software)."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:116
+msgid ""
+"<em>Free software has nothing to do with a political system.</em> You can "
+"run free software on top of proprietary software, just as well as the "
+"opposite. The free software license is simply a legal, ethical contract "
+"between the programmer and the end-user."
+msgstr ""
+"<em>El software libre no tiene nada que ver con algún sistema político.</em> "
+"Puedes usarlo sobre software privativo, y viceversa. La licencia de software "
+"libre simplemente es un contrato ético entre el programador y el usuario "
+"final."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:120
+msgid "Free software can't be secure"
+msgstr ""
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:121
+msgid ""
+"The argument generally goes that since the source code of free software is "
+"available, it is less likely to be secure."
+msgstr ""
+"El argumento suele ser que, ya que el código fuente del software está "
+"disponible, es menos probable que sea seguro."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:122
+msgid ""
+"Short answer: The majority of servers run free software. They are the major "
+"networked computers holding sensitive or confidential information such as "
+"your bank details or trade secrets."
+msgstr ""
+"Respuesta corta: La mayoría de los servidores usan software libre. Son las "
+"más importantes redes de computadores y manejan información delicada y/o "
+"confidencial como sus detalles bancarios o sus secretos comerciales."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:123
+msgid ""
+"A more precise answer is that availability of source code is a warrant of "
+"security, not a weakness. The freedom of the software ensures it can be "
+"inspected, tested and improved by a very wide community. A good lock is "
+"secure because the technology used to design it is open, though only the key "
+"holder can open it. The same goes for software."
+msgstr ""
+"Una respuesta más adecuada sería que la disponibilidad del código fuente es "
+"una garantía de seguridad, no una debilidad. La libertad del software "
+"asegura que pueda ser revisado, probado y mejorado por una comunidad muy "
+"grande. Una cerradura es buena si la tecnología usada para diseñarla es "
+"abierta, aunque no sólo quien posea la llave pueda abrirla; lo mismo sucede "
+"con el software."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:124
+#, php-format
+msgid ""
+"Need examples? Have a look at the <a href=\"https://www.getfirefox.com/\" "
+"rel=\"external\">Firefox browser</a>, the <a href=\"https://en.wikipedia.org/"
+"wiki/Apache_HTTP_Server\" rel=\"external\">Apache HTTP Server</a>, the <a "
+"href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\" rel=\"external"
+"\">OpenPGP</a> encryption system, or the <a href=\"https://en.wikipedia.org/"
+"wiki/OpenBSD\" rel=\"external\">OpenBSD</a> operating system. And <a href="
+"\"%s#security\">there are no spyware or viruses under GNU/Linux</a>."
+msgstr ""
+"¿Necesitas ejemplos? MIra el <a href=\"https://www.getfirefox.com/\" rel="
+"\"external\">navegador Firefox</a>, el <a href=\"https://en.wikipedia.org/"
+"wiki/Apache_HTTP_Server\" rel=\"external\">servidor Apache HTTP</a>, el "
+"sistema de encriptación <a href=\"https://en.wikipedia.org/wiki/"
+"Pretty_Good_Privacy\" rel=\"external\">OpenPGP</a>, o el sistema operativo "
+"<a href=\"https://en.wikipedia.org/wiki/OpenBSD\" rel=\"external\">OpenBSD</"
+"a>. Y <a href=\"%s#security\">no hay spyware o virus en GNU/Linux</a>."
+
+#. TRANSLATORS: this can be translated loosely, ex "Free software isolates me" or else.
+#: docroot/lib/views/linux.misunderstanding_free_software.php:130
+msgid "I'm on my own with free software"
+msgstr ""
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:131
+msgid "Not at all."
+msgstr "No del todo."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:133
+msgid ""
+"If you are looking for good documentation and support forums to assist you, "
+"there is plenty available for free (\"open source\") software."
+msgstr ""
+"Si está buscando buena documentación y foros de ayuda, hay demasiados "
+"disponibles para el software libre."
+
+#. TRANSLATORS: use your best knowledge of the community to propose localized links ;-)
+#: docroot/lib/views/linux.misunderstanding_free_software.php:135
+#, fuzzy
+msgid ""
+"Each GNU/Linux distribution has its own community (for example, <a href="
+"\"https://askubuntu.com/\" rel=\"external\">Ask Ubuntu</a> or <a href="
+"\"https://ask.fedoraproject.org/\" rel=\"external\">Ask Fedora</a>), but "
+"there are also general GNU/Linux help communities, like <a href=\"https://"
+"unix.stackexchange.com/\" rel=\"external\">Unix &amp; Linux Stack Exchange</"
+"a>."
+msgstr ""
+"Cada distribución GNU/Linux tiene su propia comunidad (por ejemplo, <a href="
+"\"https://askubuntu.com/\" rel=\"external\">Ask Ubuntu</a> o <a href="
+"\"https://ask.fedoraproject.org/\" rel=\"external\">Ask Fedora</a>), pero "
+"también suele haber comunidades de temática general sobre GNU/Linux, como <a "
+"href=\"https://unix.stackexchange.com/\" rel=\"external\">Unix y Linux Stack "
+"Exchange</a>."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:136
+msgid ""
+"If you need someone you can reach on the phone anytime to assist you, the "
+"companies behind most distributions provide commercial support: see the <a "
+"href=\"https://www.ubuntu.com/support\" rel=\"external\">Ubuntu Commercial "
+"Support</a> or <a href=\"https://www.redhat.com/rhel/\" rel=\"external\">Red "
+"Hat Enterprise Linux</a> pages for example."
+msgstr ""
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:141
+msgid "Further reading on the web"
+msgstr "Más información en la web"
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:145
+msgid ""
+"This is where free software all started. You will find a wealth of "
+"information about the free software philosophy, the history of the project, "
+"and the stands taken by the <a href=\"https://www.fsf.org/\" rel=\"external"
+"\">Free Software Foundation</a> (the organisation behind GNU)."
+msgstr ""
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:149
+msgid ""
+"The concept of Free&nbsp;/&nbsp;Libre&nbsp;/&nbsp;Open Source Software "
+"presented in a highly readable, friendly way. A must-read."
+msgstr ""
+"El concepto de Free/Open Source Software presentado de una manera agradable. "
+"Lectura obligada."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:155
+msgid ""
+"A simple and clear website about the free format OpenDocument, showing the "
+"importance of freedom in formats (not just in applications)."
+msgstr ""
+"Este es un sitio sencillo sobre el formato libre <a href=\"http://es."
+"wikipedia.org/wiki/OpenDocument\">OpenDocument</a> (libertad en software no "
+"aplicada a programas, sino a formatos de archivos)."
+
+#: docroot/lib/views/linux.misunderstanding_free_software.php:159
+msgid ""
+"An engaged article by co-founder of <a href=\"https://www.wikipedia.org/\" "
+"rel=\"external\">Wikipedia</a> Jimmy Wales, which shows the connections "
+"between freedom in software and free knowledge."
+msgstr ""
+
+#. TRANSLATORS: This is the content of the footnote, at the bottom of the page
+#: docroot/lib/views/linux.misunderstanding_free_software.php:177
+#, php-format
+msgid ""
+"What we call \"Free Software\" here is also often called \"Open Source "
+"Software\". In practice the requirements are identical, although because the "
+"term \"open\" doesn't call to mind freedom, it <a href=\"https://www.gnu.org/"
+"philosophy/open-source-misses-the-point.html\" rel=\"external\">misses the "
+"point</a>. Read our FAQ entry: <a href=\"%s#open_source\">Are \"Open Source"
+"\" and \"Free Software\" the same thing?</a>."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:19
+msgid ""
+"This is what everyday users usually find better, mostly the same, or not as "
+"good, when switching from Windows to GNU/Linux."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:24
+msgid "What is better in GNU/Linux"
+msgstr "Qué es mejor en GNU/Linux"
+
+#. TRANSLATORS: please note the punctuation should be consistent
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:28
+msgid "It's free"
+msgstr "Es libre"
+
+#. TRANSLATORS: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:31
+msgid ""
+"Unlike Windows, GNU/Linux is <a href=\"https://www.gnu.org/philosophy/free-"
+"sw.html\" title=\"What does Free Software mean?\" rel=\"external\">free "
+"software</a> &ndash; free as in freedom. Install it on all computers and "
+"make copies for your friends! You can even study it, transform it as you "
+"please, or build and sell your own distribution."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:33
+msgid "Programs"
+msgstr "Aplicaciones"
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:34
+msgid ""
+"There are a wealth of free applications available at no cost under GNU/"
+"Linux. To edit professional documents, burn music CDs, rework photos, design "
+"a website, or organise music; there's no need for $200 software with "
+"restrictive licenses."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:35
+msgid ""
+"The internal installer makes it incredibly easy to find, install and remove "
+"programs."
+msgstr ""
+"El instalador incorporado hace que sea increíblemente fácil encontrar, "
+"instalar y desinstalar programas, eliminando la rutina de buscar en la web "
+"el software que no le haga daño al computador."
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:36
+msgid ""
+"It's also safe: you can forget the demo/trial crippled software, or harmful "
+"freeware polluting the web."
+msgstr ""
+"Además es seguro: Te puedes olvidar del software con versiones de prueba que "
+"expira a los 30 días, o el peligroso freeware que contamina la web."
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:38
+msgid "No fighting"
+msgstr "Ninguna lucha"
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:39
+msgid ""
+"Keeping your computer in shape over time needn't be a struggle. One year on, "
+"GNU/Linux runs just as fast as the first day. And it may bring your old PC "
+"back to life."
+msgstr ""
+"Para mantener el computador en forma con el paso del tiempo no tiene que ser "
+"necesario una lucha constante. Un año después de su instalación, GNU/Linux "
+"funciona tan rápido como el primer día. E incluso puede darle vida a tu "
+"computador viejo."
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:40
+msgid ""
+"Also, GNU/Linux lets you choose what you want and what you don't. If you had "
+"a hard time getting rid of Internet Explorer, Windows Media Player, or "
+"adware and web browser toolbars, you'll find it refreshing."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:42
+msgid "Security"
+msgstr "Seguridad"
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:43
+msgid ""
+"Forget expensive and restrictive anti-virus, anti-spyware, anti-anything and "
+"anti-everything. GNU/Linux is very, very secure."
+msgstr ""
+"Olvida los caros y resctrictivos anti-virus,  anti-spyware, anti-nada y anti-"
+"todo. GNU/Linux es muy, muy seguro."
+
+#. TRANSLATORS: If you don't know of a link replacement in your languge, just leave the link as it is
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:45
+msgid ""
+"It is often difficult for Windows users to believe that there are <em>no "
+"spyware nor viruses</em> under GNU/Linux &mdash; <a href=\"http://linuxmafia."
+"com/~rick/faq/#virus\" rel=\"external\">but it's true</a>. Malicious "
+"programs have a hard time doing anything at all in a well-built system."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:46
+msgid "Regular, easy software updates will keep everyone entirely safe."
+msgstr ""
+"Las actualizaciones regulares y sencillas de GNU/Linux mantienen el sistema "
+"completamente a salvo."
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:48
+msgid "Support"
+msgstr "Soporte"
+
+#. TRANSLATORS: The first %s represents the URL to the "More" page and seconds %s represents the title of the page "More" in your language
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:50
+#, php-format
+msgid ""
+"GNU/Linux benefits from a great sense of community whose friendliness will "
+"surprise you. If you try to do something complicated but can't succeed, "
+"there are a lot of people around to help you out. Our \"<a href=\"%s\">%s</a>"
+"\" page gives a few pointers."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:51
+msgid ""
+"The companies behind the main GNU/Linux distributions, such as <a href="
+"\"https://www.canonical.com/\" rel=\"external\">Canonical</a> and <a href="
+"\"https://www.redhat.com/\" rel=\"external\">Red Hat</a>, also provide "
+"expert commercial support."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:55
+msgid "What is mostly the same in GNU/Linux"
+msgstr "Lo que es mayormente parecido en GNU/Linux"
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:56
+msgid ""
+"Fundamentally, everyday users will find GNU/Linux similar in use to Windows "
+"or macOS."
+msgstr ""
+"Básicamente, el usuario cotidiano encontrará el funcionamiento de GNU/Linux "
+"muy similar al de Windows o macOS."
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:58
+msgid "General set-up"
+msgstr "Configuración general"
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:59
+msgid ""
+"If you still believe GNU/Linux is controlled with code and command-line, you "
+"should update your views!"
+msgstr ""
+"Si aún crees que GNU/Linux es controlado con código y líneas de comandos, "
+"deberías actualizar tu punto de vista."
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:60
+msgid ""
+"Just like Windows, GNU/Linux has to boot when you switch your computer on, "
+"and then you use programs in it to do different things. The taskbar and "
+"layout of applications will feel familiar to Windows or macOS users."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:62
+msgid "Web browsing and common tasks"
+msgstr "Navegación web y tareas comunes"
+
+#. TRANSLATORS: use localized Firefox landing page if possible
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:64
+msgid ""
+"The Web looks just the same when viewed with GNU/Linux (in fact you can "
+"browse the Web with the same program if you already use <a href=\"https://"
+"www.getfirefox.com/\" rel=\"external\">Firefox</a> or <a href=\"https://www."
+"google.com/chrome/\" rel=\"external\">Google Chrome</a>). And of course, you "
+"can go through your picture and music collection all the same. Files and "
+"folders are navigated with a file manager like Windows Explorer."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:68
+msgid "What is not as good in GNU/Linux"
+msgstr "Lo que no es tan bueno en GNU/Linux"
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:70
+msgid "Driver support"
+msgstr "Soporte de controladores"
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:71
+msgid ""
+"Manufacturers of computer hardware don't always (yet) release drivers for "
+"GNU/Linux or publicize full specifications."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:72
+msgid ""
+"So, drivers are sometimes unavailable for the most recent high-end graphics "
+"cards &mdash; some are reverse-engineered from Windows drivers by "
+"volunteers. Some are also released free of charge, but under restrictive "
+"licenses."
+msgstr ""
+"Por esta razón, a veces no hay controladores para las tarjetas gráficas más "
+"nuevas en el mercado; los voluntarios tienen que aplicar ingeniería inversa "
+"a los controladores de Windows. Además, algunos son ofrecidos gratuitamente, "
+"pero bajo licencias restrictivas."
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:73
+msgid "Sadly, the same problem occurs with many low-end WiFi cards."
+msgstr "Lamentablemente, lo mismo sucede con muchas tarjetas WiFi baratas."
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:74
+msgid ""
+"However, the vast majority of computers with standard hardware work out of "
+"the box with main GNU/Linux distributions. Common hardware such as USB keys "
+"or photo cameras never are a problem."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:76
+msgid "DVDs, restricted formats"
+msgstr "DVDs, formatos restringidos"
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:77
+msgid ""
+"Many multimedia formats in use are proprietary and not openly specified; "
+"this means, broadly speaking, that GNU/Linux programmers have to find out "
+"how to read them without any help from the format designers."
+msgstr ""
+
+#. TRANSLATORS: Please choose the wording of the DRM acronym according to the FSF terminology
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:79
+msgid ""
+"This might lead you to circumvent the restrictions in some DVDs and the "
+"<abbr title=\"Digital Restrictions Management\">DRM</abbr> in some music "
+"files, even if you purchased them in full legality, to be make them work "
+"under GNU/Linux. Unfortunately, depending on where you live, <em>such "
+"circumvention processes may be illegal</em> even if you purchased your media "
+"entirely legally."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:80
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:89
+msgid "Read more in our GNU/Linux FAQ:"
+msgstr "Lea más en nuestras Preguntas Frequentes de GNU/Linux:"
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:82
+#: docroot/lib/views/linux.linux_faq.php:230
+msgid "Can I play my DVDs and MP3s under GNU/Linux?"
+msgstr "¿Puedo reproducir mis DVDs y MP3s en GNU/Linux?"
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:85
+msgid "Gaming"
+msgstr "Juegos"
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:86
+msgid ""
+"Hard-core computer gamers, you might find that the GNU/Linux gaming world is "
+"less professional and out-of-the-box than under Windows: the large game "
+"developing companies are only slowly getting interested in the free software "
+"world, which means that many well-known titles do not work on GNU/Linux, or "
+"need special restrictive emulators to work."
+msgstr ""
+
+#. TRANSLATORS: use localised link if possible, and contact us if you know better resources
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:88
+msgid ""
+"There is a very active free software game development community though, and "
+"they have produced quite a few high-quality games, both 2D and 3D, that are "
+"free software. You can head to the <a href=\"https://ubuntuforums.org/"
+"forumdisplay.php?f=93\" rel=\"external\">Ubuntu gaming forum</a> to find "
+"more information. And with the release of the popular Steam platform to GNU/"
+"Linux, the number of <a href=\"https://store.steampowered.com/linux\" rel="
+"\"external\">GNU/Linux supported games on Steam</a> has been growing rapidly."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:91
+#: docroot/lib/views/linux.linux_faq.php:248
+msgid "Can I play popular 3D games under GNU/Linux?"
+msgstr "¿Puedo jugar juegos 3D en GNU/Linux?"
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:94
+msgid "Hibernating"
+msgstr "Hibernando"
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:95
+msgid ""
+"Because of the driver issues above, hibernating is not always reliable. The "
+"most common occurrence is the loss of WiFi connection after hibernating on "
+"laptops whose hardware drivers are not free."
+msgstr ""
+"En algunos computadores, hibernar no es del todo fiable, una vez más, por "
+"problemas de controladores. El problema más frecuente es la pérdida de la "
+"conexión WiFi después de hibernar en computadores portátiles cuyos "
+"controladores no son libres."
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:99
+msgid "Conclusion"
+msgstr "Conclusión"
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:100
+msgid ""
+"Whether you are going to enjoy GNU/Linux depends mostly on what you expect "
+"from it."
+msgstr ""
+"Pensar que vas a disfrutas de GNU/Linux depende mayormente de tus "
+"expectativas."
+
+#. TRANSLATORS: Use a localised version of the "Linux is Not Windows" article if possible. The following page contains links to localised versions: http://geekblog.oneandoneis2.org/index.php/2005/12/31/derived_works_aamp_translations
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:104
+msgid ""
+"If you wish GNU/Linux to be just exactly like Windows, you will probably be "
+"disappointed. GNU/Linux is built by people who simply <a href=\"http://linux."
+"oneandoneis2.org/LNW.htm\" rel=\"external\">wish it to be different</a>. In "
+"the free software community, members have different visions of what makes an "
+"ideal operating system. These differences lead to variety, which is what "
+"makes GNU/Linux so special and interesting."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:107
+msgid ""
+"Your freedom matters. Thousands in communities and companies work to build "
+"software on which you may exert this freedom. Using GNU/Linux is the easiest "
+"way to do so fully."
+msgstr ""
+"Tu libertad importa. Miles de personas en comunidades y compañías trabajan "
+"para crear software sobre el cual tú puedas ejercer tu libertad. Usando GNU/"
+"Linux es la forma más sencilla de hacerlo."
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:110
+msgid ""
+"It's fun! Not having to worry about spyware, viruses, program registrations, "
+"demos that expire, or finding software that is really free as in freedom, "
+"makes using a computer suddenly very enjoyable."
+msgstr ""
+"¡Es divertido! El no tener que preocuparse de spyware, virus, activación de "
+"programas, programas que expiran, o encontrar software que es realmente "
+"libre, hace que de la nada, usar un computador sea una experiencia agradable."
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:113
+msgid ""
+"We hope you'll switch soon. There's a large community waiting, and no one in "
+"it asking you to &quot;sign up, purchase and register&quot;."
+msgstr ""
+"Esperamos que cambies pronto. Hay una gran comunidad esperando, y nadie "
+"pidiéndote que &quot;te inscribas, compres y te registres&quot;."
+
+#. TRANSLATORS: The "AWOL" part doesn't need to be translated literally.
+#: docroot/lib/views/404.php:19
+msgid ""
+"Sorry, but we couldn't find the page you were looking for. Either that page "
+"doesn't exist or the web page went <abbr title=\"away without leave\">AWOL</"
+"abbr>."
+msgstr ""
+"Lo sentimos, pero no hemos podido encontrar la página que estabas buscando. "
+"Es posible que la página web no exista o se fue sin dejar rastro."
+
+#: docroot/lib/views/404.php:24
+msgid "Report broken link"
+msgstr "Reportar enlace roto"
+
+#. TRANSLATORS: Here, the %s placeholder simply puts a link to the bug tracker.
+#: docroot/lib/views/404.php:26
+#, php-format
+msgid ""
+"If you found a broken link, please <a href=\"%s\" rel=\"external\">report "
+"it</a> so we can repair it. Thank you!"
+msgstr ""
+"Si encuentras un enlace roto, por favor <a href=\"%s\" rel=\"external"
+"\">repórtalo</a>para que podamos arreglarlo. ¡Gracias!"
+
+#: docroot/lib/views/windows.what_about_source_code.php:16
+msgid "What about source code?"
+msgstr "¿Que hay del código fuente?"
+
+#: docroot/lib/views/windows.what_about_source_code.php:19
+msgid ""
+"The source code details the way a program works (it is effectively what "
+"programmers write). Without it no one can understand how the software is "
+"built."
+msgstr ""
+"El código fuente detalla la forma en que un programa trabaja (de hecho, es "
+"lo que los programadores escriben). Sin este, no se puede entender como está "
+"hecho un programa."
+
+#: docroot/lib/views/windows.what_about_source_code.php:20
+msgid ""
+"It does not matter if you can't read code: whether or not it is available "
+"<strong>directly affects any user</strong>."
+msgstr ""
+"No importa si tú no lo entiendes: El estar disponible o no <strong>afecta "
+"directamente a cualquier usuario</strong>."
+
+#: docroot/lib/views/windows.what_about_source_code.php:25
+msgid "No one can look inside"
+msgstr "Nadie puede saber qué hay dentro"
+
+#: docroot/lib/views/windows.what_about_source_code.php:26
+msgid ""
+"Windows comes without its source code. More than that: all users must abide "
+"to the license term that says:"
+msgstr ""
+"Windows viene sin código fuente. Es más, al usarlo, tienes que atenerte al "
+"término de la licencia que dice:"
+
+#: docroot/lib/views/windows.what_about_source_code.php:27
+msgid "You may not reverse engineer, decompile, or disassemble the software."
+msgstr ""
+"No podrá hacer ingeniería inversa, decompilar o desensamblar el software."
+
+#: docroot/lib/views/windows.what_about_source_code.php:28
+msgid ""
+"As such, it is illegal to work out how Windows or Microsoft Word are "
+"designed. It is even illegal to try. You are also forbidden to modify the "
+"program for any purpose."
+msgstr ""
+"Por lo tanto, es ilegal descubrir como funcionan Windows o Microsoft Word; "
+"hasta intentarlo es ilegal. También tienes prohibido modificar los programas "
+"para cualquier propósito."
+
+#: docroot/lib/views/windows.what_about_source_code.php:29
+msgid ""
+"This restriction in the license makes sure that <strong>Microsoft remain the "
+"sole organisation that understand how their products work</strong>. Windows "
+"is very much like a car that only the original manufacturer is allowed to "
+"service."
+msgstr ""
+"Esta restricción en la licencia es para asegurarse que <strong>Microsoft "
+"permanezca como la única organización que entiende cómo funcionan sus "
+"productos</strong>. Windows es parecido a un carro donde sólo al fabricante "
+"original le está permitido darle servicio."
+
+#. TRANSLATORS: This is the quote from Stallman at the start of the article.
+#: docroot/lib/views/windows.what_about_source_code.php:33
+msgid ""
+"You might say, \"How do I change this recipe to take out the salt?\" and the "
+"great chef would respond, \"How dare you insult my recipe, the child of my "
+"brain and my palate, by trying to tamper with it? You don't have the "
+"judgment to change my recipe and make it work right!\""
+msgstr ""
+"Puede que digas, \"¿Cómo cambio la receta para hacer la comida menos salada?"
+"\" y el maravilloso chef responda, \"¿Cómo te atreves a insultar mi receta, "
+"mi inteligencia y mi paladar, tratando de alterarla? ¡Tú no estás en la "
+"posición de cambiar mi receta y hacer que sea buena!\""
+
+#: docroot/lib/views/windows.what_about_source_code.php:34
+msgid "Why Software Should Be Free"
+msgstr "Por qué el software no debe tener propietarios"
+
+#: docroot/lib/views/windows.what_about_source_code.php:39
+msgid "You can trust free software"
+msgstr "Puedes confiar en el software libre"
+
+#: docroot/lib/views/windows.what_about_source_code.php:40
+msgid ""
+"It comes as no surprise that proprietary software is severely lacking in "
+"terms of security, compared to software whose source code is freely "
+"available (including GNU/Linux)."
+msgstr ""
+"No resulta una sorpresa que el software privativo esté tan mal en términos "
+"de seguridad, comparado con el software cuyo código fuente está disponible "
+"(incluyendo a GNU/Linux)."
+
+#: docroot/lib/views/windows.what_about_source_code.php:41
+msgid ""
+"Free software means <strong>programmers can change the code</strong> to "
+"repair flaws. It means you can hire someone to really check how secure your "
+"software is. It means you can benefit from the contributions of a world-wide "
+"community to improve safety and reliability. Fifteen million users run GNU/"
+"Linux without an anti-virus, in complete safety. And the servers behind "
+"search engines and banks run on it too."
+msgstr ""
+"Con el software libre <strong>los programadores pueden cambiar el código</"
+"strong> para reparar defectos. Significa que puedes contratar a un "
+"informático para verificar que tu software es realmente seguro. Significa "
+"que te puedes beneficiar de las contribuciones de una comunidad mundial que "
+"mejora la seguridad y la fiabilidad del software, constantemente. 15 "
+"millones de usuarios utilizan GNU/Linux sin un programa antivirus, y están "
+"completamente seguros. También es usado en los servidores detrás de motores "
+"de búsqueda y bancos."
+
+#: docroot/lib/views/windows.what_about_source_code.php:47
+msgid ""
+"Source code is the recipe for software. How could one improve on a meal with "
+"too much salt, if forbidden to look at the recipe used to cook it?"
+msgstr ""
+"El código fuente es la receta del software. ¿Cómo puedes mejorar una comida, "
+"para hacerla menos salada, si te prohiben el acceso a la receta con la que "
+"fue creada?"
+
+#: docroot/lib/views/windows.what_about_source_code.php:48
+msgid ""
+"Using Windows and Office requires us to <strong>not ask</strong> nor search "
+"for the source of the software. Only Microsoft developers can modify your "
+"program."
+msgstr ""
+"El usar Windows y Office requiere que <strong>no pidas</strong> ni busques "
+"el código fuente del software. Solamente Microsoft puede modificar tu "
+"programa."
+
+#. TRANSLATORS: Please note the conditionnal tense: we try to not be too harsh on the reader here ;-)
+#: docroot/lib/views/windows.what_about_source_code.php:51
+msgid ""
+"Which would you rather trust: the package you are forbidden to study, or the "
+"package with the recipe?"
+msgstr ""
+"¿En cuál confiarías: En el software que no se puede inspeccionar o el que "
+"viene con su receta? "
+
+#: docroot/lib/views/linux.linux_faq.php:17
+#, php-format
+msgid ""
+"<a href=\"%s\">Our page about GNU/Linux</a> covers the essential "
+"information. We hope this FAQ list can help if you are more curious."
+msgstr ""
+"<a href=\"%s\">Nuestra página sobre GNU/Linux</a> cubre la información "
+"esencial. Esperamos que este FAQ te pueda ayudar si tienes mayor curiosidad."
+
+#: docroot/lib/views/linux.linux_faq.php:22
+msgid "General Questions"
+msgstr "Preguntas generales"
+
+#: docroot/lib/views/linux.linux_faq.php:25
+msgid "Are &quot;GNU/Linux&quot; and &quot;Linux&quot; any different?"
+msgstr "¿Hay alguna diferencia entre \"GNU/Linux\" y \"Linux\"?"
+
+#. TRANSLATORS: This is italic text just below the question, which elaborates a little on it.
+#: docroot/lib/views/linux.linux_faq.php:29
+msgid ""
+"You keep referring to one and the other alternatively. What is this all "
+"about?"
+msgstr "Se refieren a uno y a otro alternadamente, ¿hay alguna diferencia?"
+
+#: docroot/lib/views/linux.linux_faq.php:31
+msgid ""
+"Originally, <strong>Linux</strong> refers to a core component (called the "
+"kernel) that fits within the <strong>GNU</strong> system. What users run "
+"today are, to be precise, \"<em>distributions of the GNU/Linux system</em>\"."
+msgstr ""
+"Estrictamente hablando, <strong>Linux</strong> se refiere a una parte "
+"central del sistema, llamada kernel o núcleo, la cual se coloca dentro del "
+"sistema <strong>GNU</strong>. Lo que los usuarios usan en sus equipos en "
+"realidad se llama \"<em>distribución del sistema GNU/Linux</em>\"."
+
+#: docroot/lib/views/linux.linux_faq.php:32
+msgid ""
+"In practice, the word \"Linux\" caught on much better (unsurprisingly), and "
+"today people refer to the whole system as simply \"Linux\". This causes a "
+"great deal of controversy."
+msgstr ""
+"En la práctica, la palabra \"Linux\" fue mejor recibida (como era de "
+"esperarse), y hoy en día la gente usa simplemente \"Linux\" para referirse "
+"al sistema entero. No creerías la controversia que genera este hecho."
+
+#. TRANSLATORS: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
+#: docroot/lib/views/linux.linux_faq.php:35
+msgid ""
+"Calling the system <em>GNU/Linux</em> is much more meaningful, technically "
+"(end-users use a lot of \"GNU\" and a little of \"Linux\") but also "
+"philosophically: the strength and momentum of the <a href=\"https://www.gnu."
+"org/philosophy/free-sw.html\" rel=\"external\">Free Software</a> movement "
+"started with and are still carried by <a href=\"https://www.gnu.org/\" rel="
+"\"external\">the GNU project</a>."
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:36
+msgid ""
+"Calling the system <em>Linux</em> is more practical and appealing for "
+"computer users that often believe Windows is the only thing on earth."
+msgstr ""
+"Llamar <em>Linux</em> al sistema es más práctico y simple para usuarios de "
+"equipos que suelen creen que Windows es lo único sobre la tierra."
+
+#: docroot/lib/views/linux.linux_faq.php:37
+msgid ""
+"To avoid confusion, we use \"GNU/Linux\" to refer to operating system "
+"distributions that include <a href=\"https://www.gnu.org/\" rel=\"external"
+"\">GNU</a> software and the <a href=\"https://www.kernel.org/\" rel="
+"\"external\">Linux kernel</a>. When we use \"Linux\" without the GNU part, "
+"we refer to the kernel."
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:42
+msgid "And what has that software to do with a GNU?"
+msgstr "¿Y qué tiene que ver ese software con GNU?"
+
+#. TRANSLATORS: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
+#: docroot/lib/views/linux.linux_faq.php:46
+msgid ""
+"When Richard Stallman started to design GNU, the main system in use was "
+"Unix, which is proprietary. Because GNU is similar in function to (and "
+"compatible with) Unix, but is <a href=\"https://www.gnu.org/philosophy/free-"
+"sw.html\" rel=\"external\">free software</a>, he coined the term GNU which "
+"stands for <strong>GNU's Not Unix</strong>. It's a <a href=\"https://en."
+"wikipedia.org/wiki/Recursive_acronym\" rel=\"external\">recursive acronym</"
+"a>. If you enjoy that kind of humour, check out what <a href=\"https://www."
+"gnu.org/software/hurd/hurd.html\" rel=\"external\">GNU Hurd</a> means."
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:51
+msgid "Is Linux a registered trademark?"
+msgstr "¿Es Linux una marca registrada?"
+
+#: docroot/lib/views/linux.linux_faq.php:53
+msgid ""
+"Yes. You cannot sell any random software under the name of Linux&reg;. The "
+"trademark is held by <a href=\"http://www.linuxmark.org/\" rel=\"external"
+"\">the Linux Mark Institute</a>."
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:58
+msgid "Is GNU/Linux the only free operating system available?"
+msgstr "¿Es GNU/Linux el único sistema operativo libre disponible?"
+
+#: docroot/lib/views/linux.linux_faq.php:60
+msgid ""
+"No. GNU/Linux is by far the most widely used free system; however a number "
+"of other systems exist."
+msgstr ""
+"No. GNU/Linux sólo es el sistema libre más usado; sin embargo, existe un "
+"número de sistemas que también son libres."
+
+#: docroot/lib/views/linux.linux_faq.php:61
+msgid ""
+"These include the UNIX derivatives <a href=\"https://freebsd.org/\" rel="
+"\"external\">FreeBSD</a>, <a href=\"https://netbsd.org/\" rel=\"external"
+"\">NetBSD</a>, <a href=\"https://openbsd.org/\" rel=\"external\">OpenBSD</"
+"a>, the BeOS clone <a href=\"https://haiku-os.org/\" rel=\"external\">Haiku "
+"OS</a>, the Windows NT clone <a href=\"http://www.reactos.com/\" rel="
+"\"external\">ReactOS</a>, the DOS clone <a href=\"http://www.freedos.org/\" "
+"rel=\"external\">FreeDOS</a>, and <a href=\"https://www.syllable.org/\" rel="
+"\"external\">Syllable</a>, just to name a few."
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:66
+msgid "Is macOS a distribution of GNU/Linux?"
+msgstr "¿Es macOS una distribución de GNU/Linux?"
+
+#. TRANSLATORS: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
+#: docroot/lib/views/linux.linux_faq.php:70
+#, php-format
+msgid ""
+"No. There are a few <a href=\"https://www.gnu.org/philosophy/free-sw.html\" "
+"rel=\"external\">free software</a> components in macOS, and it is "
+"technically similar to GNU/Linux systems. But overall, it is proprietary "
+"software: all the <a href=\"%s\">issues about Windows</a> apply to it as "
+"well."
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:76
+msgid "Understanding free software"
+msgstr "Comprendiendo el software libre"
+
+#: docroot/lib/views/linux.linux_faq.php:79
+msgid ""
+"Are &quot;Open Source&quot; and &quot;Free Software&quot; the same thing?"
+msgstr "¿Son lo mismo el \"Open Source\" y el \"Software Libre\"?"
+
+#: docroot/lib/views/linux.linux_faq.php:81
+msgid ""
+"Yes and no. Technically, the great majority of open source programs are free "
+"software and vice-versa."
+msgstr ""
+"Sí y no. Técnicamente, la inmensa mayoría de los programas de código abierto "
+"son gratuitos y vice-versa."
+
+#: docroot/lib/views/linux.linux_faq.php:82
+msgid ""
+"In terms of philosophy, things are quite different. The term &quot;open "
+"source&quot; was coined to make &quot;free software&quot; more attractive, "
+"its supporters see open source software as a better way to make software."
+msgstr ""
+"Filosóficamente, son muy distintos. El término \"código abierto\" fue "
+"acuñado para hacer ver al \"software libre\" más atractivo; quienes lo "
+"apoyan lo ven como una mejor forma de desarrollar software."
+
+#: docroot/lib/views/linux.linux_faq.php:83
+msgid ""
+"Supporters of the \"free software\" term value the freedom, not merely the "
+"way software is made, and thus argue that the term \"open source\" <a href="
+"\"https://www.gnu.org/philosophy/open-source-misses-the-point.html\" rel="
+"\"external\">misses the point</a>."
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:84
+msgid "Which term you employ simply depends on your vision of software."
+msgstr "El término que decidas usar dependerá de tu visión del software."
+
+#: docroot/lib/views/linux.linux_faq.php:89
+msgid "Why are some GNU/Linux distributions sold, not given away?"
+msgstr ""
+"¿Por qué se venden algunas distribuciones de GNU/Linux, en vez de regalarlas?"
+
+#. TRANSLATORS: This is italic text just below the question, which elaborates a little on it.
+#: docroot/lib/views/linux.linux_faq.php:93
+msgid ""
+"Some websites actually <em>sell</em> distributions of GNU/Linux. So, why do "
+"you write it is \"free as speech and available at no charge\"?"
+msgstr ""
+
+#. TRANSLATORS: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
+#: docroot/lib/views/linux.linux_faq.php:96
+msgid ""
+"The concept of <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel="
+"\"external\">free software</a>, refers to freedom, not price. You have the "
+"freedom to copy, study, modify, and give free software away."
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:97
+msgid ""
+"Most companies developing free software make money by selling "
+"<strong>services</strong> around their software, rather than the software "
+"itself. This is sometimes done by selling everything as a package: the "
+"customer buys the CD, book, and support contract at once. The software can "
+"still guarantee your freedoms."
+msgstr ""
+"La mayoría de las compañías que desarrollan software libre hacen dinero "
+"vendiendo <strong>servicios</strong> relacionados con su software, en lugar "
+"de vender el propio software. Esto se suele hacer vendiendo todo como un "
+"paquete: El cliente compra el CD, el manual y el servicio de soporte técnico "
+"de una vez. Y el software aún garantiza tus derechos."
+
+#: docroot/lib/views/linux.linux_faq.php:98
+msgid "More:"
+msgstr "Más:"
+
+#: docroot/lib/views/linux.linux_faq.php:101
+msgid "FLOSS concept booklet"
+msgstr "Libreta de conceptos FLOSS"
+
+#: docroot/lib/views/linux.linux_faq.php:107
+msgid "Why are some GNU/Linux distributions not fully free?"
+msgstr ""
+"¿Por qué hay algunas distribuciones de GNU/Linux que no son completamente "
+"gratuitas?"
+
+#. TRANSLATORS: This is italic text just below the question, which elaborates a little on it.
+#: docroot/lib/views/linux.linux_faq.php:111
+msgid ""
+"Some GNU/Linux distributions are available at no charge, but include "
+"restrictive software. Why is it so?"
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:112
+msgid ""
+"There are typically three types of policies regarding the inclusion of non-"
+"free software:"
+msgstr ""
+"Normalmente hay tres tipos de políticas relacionadas con la inclusión del "
+"software privativo:"
+
+#: docroot/lib/views/linux.linux_faq.php:114
+msgid ""
+"Some GNU/Linux distributors allow non-free software in order to enable "
+"hardware functionality."
+msgstr ""
+"Algunos creadores de distribuciones de GNU/Linux permiten el software "
+"privativo para que algunos dispositivos de hardware funcionen."
+
+#. TRANSLATORS: If it exits, please use the URL of the official Ubuntu homepage localized in your language.
+#: docroot/lib/views/linux.linux_faq.php:116
+msgid ""
+"This happens because some hardware manufacturers such as NVidia do not care "
+"about their customers' freedoms, and only release restricting firmware and "
+"drivers (some of them don't even release anything, like Broadcom). These are "
+"available at no cost (they are freeware) but under restrictive licenses. "
+"Distributions such as <a href=\"https://www.ubuntu.com/\" rel=\"external"
+"\">Ubuntu</a> thus include such components to improve hardware compatibility."
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:117
+msgid ""
+"Some GNU/Linux distributors do not compromise on the freedom of software, "
+"and make sure their distribution are entirely free. Such is the case of <a "
+"href=\"https://trisquel.info/\" rel=\"external\">Trisquel</a>, which is a "
+"Ubuntu derivative with all restricting components removed."
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:118
+#, php-format
+msgid ""
+"Some GNU/Linux distributors assemble free and restrictive software without "
+"distinction. Such distributors would not like users to think of their "
+"freedom, and rather advertise only the technical capabilities of their "
+"product. Using such distributions isn't much better than <a href=\"%s"
+"\">using Windows</a>. We value your freedom and recommend you choose "
+"carefully!"
+msgstr ""
+"Algunos creadores de distribuciones de GNU/Linux empaquetan software libre y "
+"privativo sin distinción. A ellos no les gusta que los usuarios piensen en "
+"su libertad; por el contrario, solamente publican las características "
+"técnicas de su producto. El usar dichas distribuciones no es mucho mejor que "
+"usar  <a href=\"%s\">Windows</a>. ¡Nosotros valoramos tu libertad y te "
+"recomendamos que escojas con cuidado!"
+
+#: docroot/lib/views/linux.linux_faq.php:124
+msgid "Is macOS also a free operating system?"
+msgstr "¿Es también macOS un sistema operativo gratuito?"
+
+#: docroot/lib/views/linux.linux_faq.php:126
+msgid "Do all the reasons for avoiding Windows apply to macOS?"
+msgstr "¿Se aplican acaso todas las razones para evitar WIndows en macOS?"
+
+#: docroot/lib/views/linux.linux_faq.php:127
+#, php-format
+msgid ""
+"It's quite common for Mac users to believe they are exempt from <a href=\"%s"
+"\">restrictions associated with Windows</a>. Unfortunately such is not the "
+"case."
+msgstr ""
+"Muchos usuarios de Mac creen que están exentos de las <a href=\"%s"
+"\">restricciones asociados con el uso de Windows</a>. Desafortunadamente se "
+"equivocan."
+
+#: docroot/lib/views/linux.linux_faq.php:128
+msgid ""
+"macOS does have some low-level components which are <a href=\"https://www."
+"gnu.org/philosophy/free-sw.html\" rel=\"external\">free software</a>; and "
+"Apple puts less energy into customer lock-in (with some notable efforts such "
+"as BootCamp)."
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:129
+msgid ""
+"However, the end-user is still fundamentally restricted &mdash; because of "
+"the proprietary license, he/she cannot use macOS for all purposes, nor copy, "
+"study, modify, or redistribute it."
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:130
+msgid ""
+"Happily, because these freedoms matter a lot, it's possible to run popular "
+"GNU/Linux distributions (such as <a href=\"https://www.ubuntu.com/\" rel="
+"\"external\">Ubuntu</a>) on Mac computers."
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:135
+msgid "Aren't GNU/Linux users the ones who make illegal downloads?"
+msgstr "¿No son acaso los usuarios de GNU/Linux los que descargan ilegalmente?"
+
+#. TRANSLATORS: This is italic text just below the question, which elaborates a little on it.
+#: docroot/lib/views/linux.linux_faq.php:139
+msgid ""
+"Isn't GNU/Linux about cracking, &quot;piracy&quot; and illegal download "
+"websites?"
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:140
+msgid ""
+"No. Wherever you read or heard this, you should update your views. GNU/Linux "
+"is completely distinct from such things. Whether you want to do them, or "
+"whether you prefer <a href=\"https://www.magnatune.com/\" rel=\"external"
+"\">intelligent</a>, <a href=\"https://www.jamendo.com/\" rel=\"external"
+"\">legal downloads</a>, GNU/Linux will work just as well as Windows. "
+"Unfortunately you can't identify gangsters by the make of their cars; the "
+"same thing goes for their operating system."
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:141
+msgid ""
+"GNU/Linux was made by people who don't like the thought of all the world's "
+"computers running just one company's proprietary products. There is "
+"certainly nothing wrong with that!"
+msgstr ""
+"GNU/Linux fue creado por personas a quienes no les gusta la idea de que "
+"todos los computadores del mundo usen productos privativos de una misma "
+"compañía. ¡Y eso, definitivamente no tiene nada de malo!"
+
+#. TRANSLATORS: The link here points to the "misunderstanding_free_software" article.
+#: docroot/lib/views/linux.linux_faq.php:144
+#, php-format
+msgid "Read more in the article: <a href=\"%s\">%s</a>."
+msgstr "Leer más en el artículo: <a href=\"%s\">%s</a>."
+
+#: docroot/lib/views/linux.linux_faq.php:149
+msgid "Is GNU/Linux a form of communism?"
+msgstr "¿Es GNU/Linux una forma de comunismo?"
+
+#. TRANSLATORS: This is italic text just below the question, which elaborates a little on it.
+#: docroot/lib/views/linux.linux_faq.php:153
+msgid ""
+"\"Everything has to be free\" and \"No one owns anything\" sounds somewhat "
+"frightening. Are GNU/Linux and its <abbr title=\"GNU General Public License"
+"\">GPL</abbr> License something for anarchists or communists?"
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:157
+#, php-format
+msgid ""
+"GNU/Linux has nothing to do with a political system and anyone &mdash; "
+"regardless of their political views &mdash; can use it. We have this "
+"explained simply in our article %s."
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:164
+msgid "Installing GNU/Linux"
+msgstr "Instalar GNU/Linux:"
+
+#: docroot/lib/views/linux.linux_faq.php:167
+msgid "Does GNU/Linux come pre-installed on computers?"
+msgstr "¿Viene GNU/Linux preinstalado en ordenadores?"
+
+#. TRANSLATORS: If LinuxPreloaded has not been localized to your language, please leave the URL to linuxpreloaded.com.
+#: docroot/lib/views/linux.linux_faq.php:171
+msgid ""
+"Yes it does. <a href=\"https://linuxpreloaded.com/\" title=\"GNU/Linux "
+"laptops\" rel=\"external\">LinuxPreloaded.com</a> has built a website "
+"specially for that purpose, listing vendors that sell GNU/Linux desktops and "
+"laptops."
+msgstr ""
+"Sí. <a href=\"https://linuxpreloaded.com/\" title=\"GNU/Linux laptops\" rel="
+"\"external\">LinuxPreloaded.com</a>ha creado una página web con ese "
+"objetivo, listando vendedores que ofertan ordenadores portátiles y sobremesa "
+"con GNU/Linux."
+
+#. TRANSLATORS: please leave the "#new_computer" element as such. It is an internal link.
+#: docroot/lib/views/linux.linux_faq.php:174
+msgid ""
+"Note that <a href=\"#new_computer\">buying new hardware is not necessary</a> "
+"to use GNU/Linux!"
+msgstr ""
+"¡Y ten en cuenta que <a href=\"#new_computer\">no hace falta comprar un "
+"nuevo computador</a> para usar GNU/Linux!"
+
+#: docroot/lib/views/linux.linux_faq.php:179
+msgid "Can I get GNU/Linux in my own language?"
+msgstr "¿Puedo obtener GNU/Linux en mi idioma?"
+
+#: docroot/lib/views/linux.linux_faq.php:181
+#, php-format
+msgid ""
+"Yes. All main distributions, such as <a href=\"%s\">the ones we recommend</"
+"a>, are all available in the main languages around, and have support for "
+"many keyboard types."
+msgstr ""
+"Si. Todas las distribuciones principales, <a href=\"%s\">como las que "
+"recomendamos</a>, están disponibles en varios idiomas, y soportan muchos "
+"tipos de teclados."
+
+#: docroot/lib/views/linux.linux_faq.php:182
+msgid ""
+"Unlike Windows, all languages are included on each installation CD, so there "
+"is no need for you to download (or pay for!) another whole version to merely "
+"change the language on your computer."
+msgstr ""
+"Al contrario de Windows, todos los idiomas están incluidos en el disco de "
+"instalación, así que no hace falta que descargue (o pague) una versión "
+"totalmente diferente para cambiar el lenguaje en su computador."
+
+#: docroot/lib/views/linux.linux_faq.php:187
+msgid "Is it legal to install GNU/Linux on my computer?"
+msgstr "¿Es legal instalar GNU/Linux en mi ordenador?"
+
+#. TRANSLATORS: This is italic text just below the question, which elaborates a little on it.
+#: docroot/lib/views/linux.linux_faq.php:191
+msgid ""
+"There is a shiny Windows sticker on it! Am I allowed to erase Windows or use "
+"it together with GNU/Linux?"
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:192
+msgid ""
+"Yes. It is absolutely, completely legal, provided of course it's your "
+"computer!"
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:193
+msgid ""
+"The sticker on it is purely marketing, it has no legal value. We believe it "
+"is <em>one fundamental right</em> to choose which software to run on our own "
+"hardware."
+msgstr ""
+"La etiqueta es pura mercadotecnia, no tiene valor legal. Creemos que es un "
+"<em>derecho fundamental</em> elegir cuál software instalar en nuestro propio "
+"hardware."
+
+#. TRANSLATORS: If you do not know of a very good resource about DRM, please link to the Wikipedia article on DRM in your language.
+#: docroot/lib/views/linux.linux_faq.php:196
+#, php-format
+msgid ""
+"In fact this right is threatened by the rise of things such as <a href="
+"\"http://www.timj.co.uk/digiculture/drm-fallacy\" rel=\"external\">DRM and "
+"Trusted Computing</a>. Read our article \"<a href=\"%s\">%s</a>\" for more "
+"information."
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:203
+msgid "Do I have to purchase a new computer to run GNU/Linux?"
+msgstr "¿Necesito comprar un nuevo ordenador para hacer funcionar GNU/Linux?"
+
+#: docroot/lib/views/linux.linux_faq.php:205
+msgid "Not at all. It will run happily on your own computer."
+msgstr ""
+"Definitivamente no será necesario. Funcionará perfectamente en tu computador "
+"actual."
+
+#: docroot/lib/views/linux.linux_faq.php:206
+#, php-format
+msgid ""
+"The only thing you might be worried about is using very recent special "
+"hardware, such as graphics cards. Otherwise, almost all GNU/Linux "
+"distributions can run on normal PCs (often called \"i386\" or \"x86\" "
+"computers), 64-bit-processor computers and Apple Mac computers. <a href=\"%s"
+"\">Read how you can try or install GNU/Linux on your computer</a>, be it "
+"instead of or together with Windows."
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:215
+msgid "Will Microsoft Office run on GNU/Linux?"
+msgstr "¿Funcionará Microsoft Office en GNU/Linux?"
+
+#: docroot/lib/views/linux.linux_faq.php:217
+msgid ""
+"No. It is technically possible to adapt Microsoft Office to GNU/Linux, but "
+"Microsoft isn't keen on allowing Office users to choose their operating "
+"system. There are other issues with MS Office and openness &mdash; like "
+"Microsoft's fierce opposition to supporting <a href=\"http://www."
+"opendocumentformat.org/\" rel=\"external\">the OpenDocument format</a>."
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:218
+msgid ""
+"However, a complete, free, reliable office suite exists: <a href=\"https://"
+"www.libreoffice.org/\" rel=\"external\">LibreOffice</a>. Or you can choose "
+"its close cousin, <a href=\"https://www.openoffice.org/\" rel=\"external"
+"\">Apache OpenOffice</a>. They will both happily use all your existing "
+"office files in MS-Word, MS-Excel, and MS-PowerPoint format, and are really "
+"free (both as in freedom and as in price). And they run on Windows as well "
+"as on GNU/Linux."
+msgstr ""
+
+#. TRANSLATORS: If it exists, please use the localized URL of libreoffice.org. You can find localized URLs here: https://www.libreoffice.org/international-sites/
+#: docroot/lib/views/linux.linux_faq.php:221
+msgid "https://www.libreoffice.org/"
+msgstr "https://es.libreoffice.org/"
+
+#. TRANSLATORS: If it exists, please use the localized URL of openoffice.org. You can find localized URLs here: https://www.openoffice.org/projects/native-lang.html
+#: docroot/lib/views/linux.linux_faq.php:224
+msgid "https://www.openoffice.org/"
+msgstr "https://www.openoffice.org/es/"
+
+#: docroot/lib/views/linux.linux_faq.php:232
+msgid ""
+"The simple answer to this question would be &quot;yes&quot;, however this is "
+"only half the truth."
+msgstr ""
+"La respuesta simple a esta pregunta sería \"sí\", sin embargo esto es sólo "
+"una verdad a medias."
+
+#: docroot/lib/views/linux.linux_faq.php:233
+msgid ""
+"Quite a few GNU/Linux distributions do not include MP3 playback software due "
+"to the patent situation of the MP3 format. These patent issues do not affect "
+"the user directly, so most distributions make it fairly easy to install MP3 "
+"support over the Internet after the installation, making it possible to "
+"<strong>legally play MP3 files</strong>, for non-commercial use."
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:234
+msgid ""
+"DVDs, on the other hand, are a more difficult situation. Most, if not all, "
+"DVDs are encrypted using a system called \"<abbr title=\"Content Scrambling "
+"System\">CSS</abbr>\". There is a widely supported free software, called "
+"<code>libdvdcss</code>, capable of decrypting DVD videos. However, "
+"circumventing the restriction on your DVDs is illegal in many parts of the "
+"world, including the USA and the European Union."
+msgstr ""
+"Por otro lado, la situación con los DVDs es más compleja. La mayoría (o "
+"todos) los DVDs son encriptados con un sistema llamado <abbr xml:lang=\"en\" "
+"title=\"Content Scrambling System\">CSS</abbr> (\"Sistema para la "
+"Codificación del Contenido\", en castellano). Y aunque hay un software libre "
+"ampliamente soportado que es capaz de decodificar dichos DVDs (llamado "
+"<code>libdvdcss</code>), en lugares como Estados Unidos y la Unión Europea "
+"es ilegal usarlo porque se estaría esquivando las restricciones impuestas."
+
+#: docroot/lib/views/linux.linux_faq.php:235
+msgid ""
+"There is a legal solution to play your DVDs on GNU/Linux where "
+"<code>libdvdcss</code> is illegal. The <a href=\"https://fluendo.com/\" rel="
+"\"external\">Fluendo</a> company has developed an (non-free) application for "
+"that purpose which can be purchased from their website."
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:236
+msgid ""
+"Non-encrypted DVDs, which include most home-made DVDs, play perfectly well "
+"with only free software."
+msgstr ""
+"Sin embargo, los DVDs no encriptados, como la mayoría de los creados en "
+"casa, pueden reproducirse perfectamente usando sólo software libre."
+
+#: docroot/lib/views/linux.linux_faq.php:237
+msgid "More on the web:"
+msgstr "Más en la web:"
+
+#. TRANSLATORS: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
+#: docroot/lib/views/linux.linux_faq.php:240
+msgid "https://wiki.ubuntu.com/RestrictedFormats"
+msgstr "https://wiki.ubuntu.com/RestrictedFormats"
+
+#: docroot/lib/views/linux.linux_faq.php:240
+msgid "Ubuntu Restricted Formats"
+msgstr "Formatos Restringidos en Ubuntu (en inglés)"
+
+#. TRANSLATORS: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
+#: docroot/lib/views/linux.linux_faq.php:242
+msgid "https://fedoraproject.org/wiki/Forbidden_items"
+msgstr "https://fedoraproject.org/wiki/Forbidden_items"
+
+#: docroot/lib/views/linux.linux_faq.php:242
+msgid "Fedora Forbidden Items"
+msgstr "Elementos prohibidos en Fedora (en inglés)"
+
+#: docroot/lib/views/linux.linux_faq.php:250
+msgid ""
+"Yes and no. Some games, for example the Quake series, Rust, Counter-Strike, "
+"Tomb Raider, Portal, Left 4 Dead, and many more have GNU/Linux versions. "
+"Since the release of the popular Steam platform to the GNU/Linux operating "
+"system, the number of GNU/Linux compatible games on Steam has been growing "
+"rapidly. Check out the <a href=\"https://store.steampowered.com/linux\" rel="
+"\"external\">Steam store</a> where you can find a wealth of high quality, "
+"GNU/Linux compatible games."
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:251
+msgid ""
+"Most popular games, alas, only work on Windows and occasionally on macOS. "
+"Some Windows games can be run on GNU/Linux with <a href=\"https://www.winehq."
+"org/\" rel=\"external\">Wine</a> or its non-free variant <a href=\"https://"
+"www.codeweavers.com/products/crossover/\" rel=\"external\">CrossOver</a>, "
+"which involves some unpleasant effort for the user. For a list of games "
+"known to work on Wine, see <a href=\"https://appdb.winehq.org/\" rel="
+"\"external\">their games database</a>."
+msgstr ""
+
+#: docroot/lib/views/linux.linux_faq.php:257
+msgid "More questions?"
+msgstr "¿Tienes más preguntas?"
+
+#. TRANSLATORS: The first link will automatically point to the "more" page.
+#: docroot/lib/views/linux.linux_faq.php:261
+#, php-format
+msgid ""
+"If you have a question that is not covered here, there are many communities "
+"to help you. Our \"<a href=\"%s\">%s</a>\" section will help you find the "
+"right place to ask."
+msgstr ""
+"Si tienes una pregunta que no es respondida aquí, hay muchas comunidades "
+"dispuestas a ayudarte. Nuestra sección \"<a href=\"%s\">%s</a>\" te ayudará "
+"a encontrar el lugar correcto para preguntar."
+
+#. TRANSLATORS: The first link will automatically point to the contact page, the second to the bug tracker.
+#: docroot/lib/views/linux.linux_faq.php:265
+#, php-format
+msgid ""
+"If you can think of a frequent question that we haven't answered yet, do <a "
+"href=\"%s\" rel=\"external\">let us know</a>, or <a href=\"%s\" rel="
+"\"external\">file an issue</a>."
+msgstr ""
+
+#. TRANSLATORS: If there is an official translation for the license, use that URL instead. Make sure you use the URL for CC BY-SA 4.0.
+#: src/templates/footer.php:7
+#, php-format
+msgid ""
+"Except where otherwise <a href=\"%s\">noted</a>, content on this site is "
+"licensed under a <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" "
+"rel=\"license external\"><abbr title=\"Creative Commons Attribution-"
+"ShareAlike\">CC BY-SA</abbr> 4.0 International License</a>."
+msgstr ""
+
+#: src/templates/footer.php:10
+msgid ""
+"Generously hosted by <a href=\"https://www.tuxfamily.org/\" rel=\"external"
+"\">TuxFamily</a>."
+msgstr ""
+"Generosamente hospedado por <a href=\"https://www.tuxfamily.org/\" rel="
+"\"external\">TuxFamily</a>."
+
+#: src/templates/footer.php:11
+#, php-format
+msgid "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
+msgstr ""
+
+#: src/templates/footer.php:15
+msgid "Resources"
+msgstr ""
+
+#: src/templates/footer.php:17
+msgid "News"
+msgstr ""
+
+#: src/templates/footer.php:21
+#, fuzzy
+msgid "Participate"
+msgstr "Participa"
+
+#: src/templates/footer.php:23 src/templates/header.php:100
+#: src/templates/header.php:114
+msgid "Help translate"
+msgstr ""
+
+#: src/templates/footer.php:28
+msgid "Community"
+msgstr ""
+
+#: src/templates/footer.php:31
+msgid "Community forum"
+msgstr ""
+
+#: src/templates/footer.php:33
+msgid "Contact us"
+msgstr "Contáctenos"
+
+#: src/templates/header.php:44 src/templates/header.php:55
+#: src/templates/header.php:80
+msgid "Home"
+msgstr ""
+
+#~ msgid "Thunderbird e-mail and calendar application"
+#~ msgstr "Thunderbird, aplicación de correo electrónico y calendario"
+
+#, fuzzy
+#~ msgid "More in this section"
+#~ msgstr "Más en esta sección:"
+
+#, fuzzy
+#~ msgid ""
+#~ "<i>Fedora Media Writer</i> is the easiest way to try or install Fedora. "
+#~ "Use it to <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/"
+#~ "install-guide/install/Preparing_for_Installation/#sect-preparing-boot-"
+#~ "media\" rel=\"external\">create a live USB stick or burn it to a CD/DVD</"
+#~ "a>."
+#~ msgstr ""
+#~ "<i>Fedora Media Writer</i> es la manera más sencilla para <a href="
+#~ "\"https://docs.fedoraproject.org/en-US/fedora/f30/install-guide/install/"
+#~ "Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\"> "
+#~ "probar o instalar Fedora</a>."
+
+#~ msgid "Our blog"
+#~ msgstr "Nuestro blog"
+
+#, fuzzy
+#~ msgid "About"
+#~ msgstr "Acerca de"
+
+#~ msgid "Read about news and updates."
+#~ msgstr "Lee novedades y actualizaciones."
+
+#~ msgid "Contact the authors."
+#~ msgstr "Contacta a los autores."
+
+#~ msgid "Help us reach an audience in your language!"
+#~ msgstr "¡Ayudanos a llegar a más gente en tu idioma!"
+
+#, fuzzy
+#~ msgid "More ways to help."
+#~ msgstr "Formas de ayudar."
+
+#~ msgid "Found something awkward? Please report it!"
+#~ msgstr "¿Has encontrado algún problema? ¡Por favor, infórmanos!"
+
+#~ msgid "Report a bug"
+#~ msgstr "Notificar error"
+
+#~ msgid "Translation"
+#~ msgstr "Traducción"
+
+#~ msgid "Download Trisquel"
+#~ msgstr "Descargar Trisquel"
+
+#~ msgid "Accessing applications."
+#~ msgstr "Accediendo a aplicaciones."
+
+#~ msgid "LibreOffice Calc open, showing an example spreadsheet."
+#~ msgstr "El programa LibreOffice Calc, mostrando una hoja de cálculo."
+
+#~ msgid ""
+#~ "Simple, easy, usable and our personal favourite. A tanned, smooth "
+#~ "atmosphere that never gets in your way. All programs are kept in order "
+#~ "and managed easily. Configuration is kept simple rather than exhaustive."
+#~ msgstr ""
+#~ "Sencilla, fácil, lista para usar: Nuestra favorita. Una limpia y suave "
+#~ "atmósfera que nunca se interpone en su camino. Todos los programas son "
+#~ "mantenidos en orden y fácilmente gestionados. La configuración se "
+#~ "mantiene más simple que compleja."
+
+#~ msgid ""
+#~ "Ubuntu also has a sister distribution, <a href=\"https://www.kubuntu.org/"
+#~ "\" rel=\"external\">Kubuntu</a>, with a different layout and slightly "
+#~ "more advanced graphics."
+#~ msgstr ""
+#~ "Ubuntu también tiene una distribución hermana, <a href=\"https://www."
+#~ "kubuntu.org/\" rel=\"external\">Kubuntu</a>, con un diseño distinto y "
+#~ "unos gráficos un poco más avanzados."

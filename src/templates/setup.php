@@ -2,9 +2,6 @@
 <head lang="en">
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
   <title>get GNU/Linux!</title>
-  <!-- build:css /styles/main.css -->
-  <link rel="stylesheet" type="text/css" href="/styles/main.css">
-  <!-- endbuild -->
 </head>
 <body>
 <main>

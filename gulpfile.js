@@ -1,6 +1,5 @@
 const gulp = require('gulp');
 const gulpLoadPlugins = require('gulp-load-plugins');
-const del = require('del');
 const $ = gulpLoadPlugins();
 
 const sassConfig = {
@@ -123,27 +122,17 @@ gulp.task('images', () => {
         .pipe(gulp.dest('docroot/images'));
 });
 
-gulp.task('clean', del.bind(null, [
-    'docroot/scripts',
-    'docroot/styles',
-    'docroot/templates',
-]));
-
-gulp.task('clean:images', del.bind(null, [
-    'docroot/images',
-]));
-
 gulp.task('build', gulp.series('lint', 'html', 'images', 'fonts', () => {
     return gulp.src('src/**/*').pipe($.size({title: 'build', gzip: true}));
 }));
 
-gulp.task('default', gulp.series('clean', 'build'));
+gulp.task('default', gulp.series('build'));
 
 gulp.task('deploy:dev', () => {
     return gulp.src('docroot/**').pipe($.rsync(rsyncConfDev));
 });
 
-gulp.task('develop', gulp.series('clean', 'build', 'deploy:dev'));
+gulp.task('develop', gulp.series('build', 'deploy:dev'));
 
 gulp.task('deploy:prod', () => {
     const conf = rsyncConfProd;

@@ -22,7 +22,7 @@ $this->load_header();
 
       <div class="card-panel card-panel--source amber lighten-4">
         <p><?php
-        # translators: This is a quote from Bill Gates at the start of the article.
+        # TRANSLATORS: This is a quote from Bill Gates at the start of the article.
         print _("About 3 million computers get sold every year in China, but people don't pay for the software."); ?></p>
         <p><?php print _("Someday they will, though. As long as they are going to steal it [sic], we want them to steal ours. They'll get sort of addicted, and then we'll somehow figure out how to collect sometime in the next decade."); ?></p>
         <span class="source">Bill Gates, <a href="https://web.archive.org/web/20070312044716/http://news.com.com/2100-1023-212942.html" rel="external"><?php print _("1998 interview"); ?></a></span>
@@ -33,7 +33,7 @@ $this->load_header();
         <p><?php print _("There exist open file formats and protocols, which are standards to store and carry many types of information, respectively. They are openly specified: they can be read by anyone on any computer, now and in the future. Proprietary programs, however, rarely support them."); ?></p>
         <p><?php print _("<strong>For a long time Microsoft Office only had support for Microsoft formats</strong>. There are many ways to write work documents, but Microsoft Office users were bound to Microsoft Office files. People who opted without expensive Microsoft products cannot write and read <code>.doc</code> files very reliably."); ?></p>
         <p><?php
-        # translators: Please use link to localized Wikipedia article in place of ODF
+        # TRANSLATORS: Please use link to localized Wikipedia article in place of ODF
         print _("There are of course other ways of writing and exchanging office files, the most well-known being <a href=\"http://www.opendocumentformat.org/\" rel=\"external\">the OpenDocument Format</a>. But Microsoft isn't keen on letting Office users exchange files anyone can read and edit. As of Microsoft Office 2007 SP2, Microsoft finally added support for the ODF format after being pushed by the European Commission."); ?></p>
       </section>
 
@@ -52,7 +52,7 @@ $this->load_header();
         <h2 id="monopolistic_practices"><?php print _("Monopolistic practices"); ?></h2>
         <p><?php print _("Microsoft has a tight control over <abbr title=\"Original Equipment Manufacturer\">OEM</abbr>s (computer manufacturers) who ship their computers with Windows installed."); ?><br/>
         <?php
-        # translators: if you cannot find localized homepages, please leave the URLs as such
+        # TRANSLATORS: if you cannot find localized homepages, please leave the URLs as such
         print _("This means that no program competing with Microsoft products, be it <a href=\"https://www.videolan.org/vlc/\" rel=\"external\">multimedia player</a>, <a href=\"https://www.getfirefox.com/\" rel=\"external\">web browser</a>, <a href=\"https://www.libreoffice.org/\" rel=\"external\">office suite</a>, <a href=\"https://www.pidgin.im/\" rel=\"external\">instant messaging program</a> or other, will come pre-installed on most computers you can buy."); ?></p>
         <p><?php print _("It is a good thing to propose a wide range of software and services like Microsoft do; however, designing and combining them to shut users from non-Microsoft peers is unethical. It's not technically hard to adopt more open formats. But it means your customers are <em>free to choose what they do with their work</em> &ndash; Microsoft isn't there yet."); ?></p>
       </section>

@@ -17,7 +17,7 @@ $this->load_header();
 
         <div class="page-intro">
           <p><?php
-          # translators: This is the catcher-phrase for the Windows page. Exact translation is not required, the goal is to attract attention and set the tone of the page.
+          # TRANSLATORS: This is the catcher-phrase for the Windows page. Exact translation is not required, the goal is to attract attention and set the tone of the page.
           print _("Windows and Office work fine &mdash; Why worry about it?"); ?></p>
         </div>
       </header>
@@ -28,7 +28,7 @@ $this->load_header();
             <div class="card-content white-text">
               <h2 class="card-title"><?php print _("Restrictions"); ?></h2>
               <p><?php
-              # translators: You may add emphasis ('em' tags) around the word 'licensed' if you wish
+              # TRANSLATORS: You may add emphasis ('em' tags) around the word 'licensed' if you wish
               print _("A legal copy of Windows is expensive, but what do you get? Windows and Office are licensed, not sold."); ?></p>
               <p><?php print _("By using these products, we have to agree to <strong>a number of harsh restrictions</strong>. For most Windows licenses, you can't keep the software when you change the hardware. You sometimes can't even give your software away. Who can run the software? On which computer? What can you do with it? The list of restrictions is long and some items are outrageous."); ?></p>
             </div>
@@ -70,7 +70,7 @@ $this->load_header();
             <div class="card-content white-text">
               <h2 class="card-title"><?php print _("Stand for a free society"); ?></h2>
               <p><?php
-              # translators: In your language, you might not need to make the distinction between price and freedom. Please do however express that price does not matter, in this sentence.
+              # TRANSLATORS: In your language, you might not need to make the distinction between price and freedom. Please do however express that price does not matter, in this sentence.
               print _("A free society requires free software. Think of &quot;free&quot; as in freedom, not price: the freedoms to inspect, learn from, modify the software you use."); ?></p>
               <p><?php print _("Computers are used to share ideas, culture and information. Without these freedoms over software, we risk losing control over what we share."); ?></p>
               <p><?php print _("This is happening today. From plain annoying technologies such as Digital Restrictions Management (<strong>DRM</strong>) to downright frightening ones like <strong>Trusted Computing</strong>, everyone's ability to participate in culture is threatened."); ?></p>
@@ -87,7 +87,7 @@ $this->load_header();
     <section class="conclusion">
       <div class="container">
         <p><?php
-        # translators: This is the conclusion of the article.
+        # TRANSLATORS: This is the conclusion of the article.
         $p = _("Many people find that Windows, an otherwise decent piece of software, <strong>withdraws so many rights</strong> from them, that it is not worth them using it. macOS is <a href=\"%s#mac_freedom\">not much better</a>, either."); printf($p, $this->get_base_url('linux/linux_faq')); ?></p>
         <p><?php $p = _("If you find <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title=\"what is freedom in software?\" rel=\"external\">free software</a> attractive, you might want to <a href=\"%s\" title=\"make the switch to GNU/Linux today!\">give GNU/Linux a try</a>."); printf($p, $this->get_base_url('switch_to_linux')); ?></p>
       </div>

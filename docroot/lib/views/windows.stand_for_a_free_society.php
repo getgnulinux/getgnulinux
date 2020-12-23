@@ -24,7 +24,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
 
       <div class="card-panel card-panel--source amber lighten-4">
         <p><?php
-        # translators: This is the quote by Don Marti at the start of the article.
+        # TRANSLATORS: This is the quote by Don Marti at the start of the article.
         print _("I come up with new words, phrases, analogies, all kinds of fun stuff in the English language and people paraphrase what I had to say and make money talking about some of the same things that I did."); ?></p>
         <p><?php print _("<strong>If I try to lock down</strong> what I talk about and write about, the same way as a proprietary software company does, then the whole industry of speaking, writing, media, would be overly litigious, and transaction costs would be prohibitive."); ?></p>
         <span class="source">Don Marti, <a href="https://web.archive.org/web/20080217042507/http://www.go-opensource.org:80/go_open/episode_2/big_guns/" rel="external"><?php print _("2005 interview"); ?></a></span>
@@ -35,7 +35,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
         <p><?php print _("It sounds peculiar to many users that software should be free as in freedom, since none of Microsoft's products are. Yet our society works with many free things in it, for example:"); ?></p>
         <div class="card-panel card-panel--small card-panel--source amber lighten-4 float-<?php print $this->rtltr("right", "left"); ?> hide-on-small-only">
           <p><?php
-          # translators: This is the short quote on the side of the article.
+          # TRANSLATORS: This is the short quote on the side of the article.
           print _("Though no one has a proprietary lock on yoga, it is still a thriving $30 billion business in the United States."); ?></p>
           <span class="source">Venkatesh Hariharan <a href="https://web.archive.org/web/20100306185803/http://www.redhat.com:80/magazine/025nov06/features/intellectual_india/?sc_cid=bcm_edmsept_007" rel="external">[1]</a></span>
         </div>
@@ -52,10 +52,10 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
         printf($p, $this->get_base_url('windows/what_about_source_code')); ?></p>
 
         <h3 id="digital_rights_management"><?php
-        # translators: This is sometimes only known as "DRM" in some languages. Please choose the vocabulary carefully. The %s placeholder links to a footnote which explains why we use the term "Digital Restrictions Management": https://www.getgnulinux.org/windows/stand_for_a_free_society/#footnote_bottom1
+        # TRANSLATORS: This is sometimes only known as "DRM" in some languages. Please choose the vocabulary carefully. The %s placeholder links to a footnote which explains why we use the term "Digital Restrictions Management": https://www.getgnulinux.org/windows/stand_for_a_free_society/#footnote_bottom1
         $p = _("Digital Restrictions Management %s (DRM)"); printf($p, $footnote1);?></h3>
         <p><?php
-        # translators: The %s placeholder will automatically point to the footnote on bottom of page
+        # TRANSLATORS: The %s placeholder will automatically point to the footnote on bottom of page
         $p = _("The main idea of DRM %s is to restrict access to files. Users encounter this when, for example, they purchase music through iTunes, and then can only play their music with one player, from one brand. With this method, companies fight copyright infringement, but they also severely restrain users' access to their files.");
         printf($p, $footnote2); ?></p>
         <p><mark><?php print _("DRM is control over content"); ?></mark></p>
@@ -68,7 +68,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
         <p><?php print _("Sounds crazy? This is where Trusted Computing comes in."); ?></p>
 
         <h3 id="trusted_computing"><?php
-        # translators: This is sometimes only known as "Trusted Computing", not TC, in some languages. Please choose the vocabulary carefully.
+        # TRANSLATORS: This is sometimes only known as "Trusted Computing", not TC, in some languages. Please choose the vocabulary carefully.
         print _("Trusted Computing (TC)"); ?></h3>
         <p><?php print _("Trusted Computing (sometimes <a href=\"https://www.lafkon.net/tc/\" title=\"A very well done video on Trusted Computing\" rel=\"external\">more accurately</a> called \"Treacherous Computing\") means a computer can only run \"Trusted\" Software. It is meant to be an uncircumventable protection against nuisances (like viruses or spyware) and copyright violations (people copying proprietary software)."); ?></p>
         <p><mark><?php print _("Trusted Computing is control over the computer"); ?></mark></p>
@@ -82,7 +82,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
 
         <div class="card-panel card-panel--source amber lighten-4">
           <p><?php
-          # translators: This is the quote by Rosemary Bechler in the middle of the article.
+          # TRANSLATORS: This is the quote by Rosemary Bechler in the middle of the article.
           print _("Many cultural products are now emerging &quot;triple protected&quot;, not only by copyright and code, but also by contracts or licenses for which users waive all remaining rights."); ?></p>
           <p><?php print _("Increasingly, copyright is replaced with click-through end-user licenses for digital content, using contract law to establish the absolute property rights that copyright laws were originally intended to deny to publishers."); ?></p>
           <span class="source">Rosemary Bechler, <a href="https://web.archive.org/web/20090107014724/http://www.counterpoint-online.org/cgi-bin/item.cgi?id=637" rel="external">Unbounded Freedom</a></span>
@@ -111,9 +111,9 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
           </div>
           <div class="col s12 l6">
             <h4><a href="<?php
-            # translators: Unless you know of a very good resource about DRM, please point to the Wikipedia article about DRM in your language, if it exists
+            # TRANSLATORS: Unless you know of a very good resource about DRM, please point to the Wikipedia article about DRM in your language, if it exists
             print _("http://www.timj.co.uk/computing/politics-policy/drm/fallacy/"); ?>" rel="external"><?php
-            # translators: Title of external link
+            # TRANSLATORS: Title of external link
             print _("The fallacy of DRM"); ?></a></h4>
             <p><?php print _("A very well constructed article about <abbr title=\"Digital Restrictions Management\">DRM</abbr> by Tim Jackson, and on which we based the present article."); ?></p>
           </div>
@@ -122,7 +122,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
         <div class="row">
           <div class="col s12 l6">
             <h4><a href="<?php
-            # translators: If you don't know of a localized version of this article, please leave the URL in English
+            # TRANSLATORS: If you don't know of a localized version of this article, please leave the URL in English
             print _("http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-free-file-formats/"); ?>" rel="external"><?php print _("Free Knowledge requires Free Software and Free File Formats"); ?></a></h4>
             <p><?php print _("An engaged article by Jimmy Wales, who co-founded the free encyclopedia <a href=\"https://www.wikipedia.org/\" rel=\"external\">Wikipedia</a>."); ?></p>
           </div>
@@ -139,7 +139,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
           </div>
           <div class="col s12 l6">
             <h4><a href="<?php $this->base_url('linux/misunderstanding_free_software'); ?>"><?php print _("How to Misunderstand Free Software"); ?></a></h4>
-            <p><?php # translators: This describes the last link, which will automatically point to the 'Misunderstanding Free Software' article
+            <p><?php # TRANSLATORS: This describes the last link, which will automatically point to the 'Misunderstanding Free Software' article
             print _("More on free software on this website."); ?></p>
           </div>
         </div>
