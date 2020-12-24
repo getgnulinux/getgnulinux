@@ -25,7 +25,7 @@ Inside the container, initialize the build environment with:
     autoreconf --install  # prints errors, but they can be ignored
     ./configure --localedir=/home/node/getgnulinux/docroot/locale/
 
-*NOTE:* These and other common commands are already in your Bash history. Use
+**NOTE:** These and other common commands are already in your Bash history. Use
 Arrow-Up to see them.
 
 You should now be able to run `make` commands inside the container.
@@ -34,7 +34,7 @@ Create the settings file (you only need to do this once):
 
     make docroot/settings.php
 
-*NOTE:* If the above command gives you a "Permission denied" error, it is
+**NOTE:** If the above command gives you a "Permission denied" error, it is
 because you execute Docker with a user that has a UID other than 1000. The node
 user inside the Docker container uses UID 1000. To work around this issue, give
 user with UID 1000 read-write access to the project directory.
