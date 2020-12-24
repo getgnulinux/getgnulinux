@@ -220,8 +220,6 @@ class GGL {
             'linux.linux_faq' => _("GNU/Linux FAQ - common questions about GNU/Linux"),
             # TRANSLATORS: Here the intent is to be a little provocative. Exact translation is not required.
             'linux.misunderstanding_free_software' => _("How to Misunderstand Free Software"),
-            # TRANSLATORS: This is the title of the 'Screenshots' page.
-            'linux.screenshots' => _("What GNU/Linux looks like"),
             # TRANSLATORS: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
             'windows' => _("Why not Windows"),
             # TRANSLATORS: This title can be translated loosely
@@ -256,8 +254,6 @@ class GGL {
             'linux.linux_faq' => _("Frequently Asked Questions about GNU/Linux."),
             # TRANSLATORS: This is the description of the 'Misunderstanding Free Software' page
             'linux.misunderstanding_free_software' => _("An unconventional way to (re)discover free software."),
-            # TRANSLATORS: This is the description of the 'Screenshots' page
-            'linux.screenshots' => _("A brief look at GNU/Linux in everyday use."),
             # TRANSLATORS: This is the description of the 'Why not Windows' page
             'windows' => _("Four good reasons to avoid proprietary software."),
             # TRANSLATORS: This is the description of the 'Restrictions' page
@@ -278,23 +274,6 @@ class GGL {
             'switch_to_linux.from_windows_to_linux' => _("The advantages and disadvantages of GNU/Linux over Windows."),
             # TRANSLATORS: This is the description of the 'Try or Install' page. This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
             'switch_to_linux.try_or_install' => _("Try or install GNU/Linux on your computer, very easily."),
-        );
-
-        # Chapter sections.
-        $this->sections['linux'] = array(
-            "linux/misunderstanding_free_software" => _("How to Misunderstand Free Software"),
-            "linux/linux_faq" => _("Frequently asked questions"),
-        );
-        $this->sections['switch_to_linux'] = array(
-            "switch_to_linux/from_windows_to_linux" => _("From Windows to GNU/Linux"),
-            "switch_to_linux/choose_a_distribution" => _("Choose a distribution"),
-            "switch_to_linux/try_or_install" => _("Try or install")
-        );
-        $this->sections['windows'] = array(
-            "windows/restrictions" => _("Restrictions"),
-            "windows/what_about_choice" => _("What about choice?"),
-            "windows/what_about_source_code" => _("No source code"),
-            "windows/stand_for_a_free_society" => _("Stand for a free society")
         );
     }
 
