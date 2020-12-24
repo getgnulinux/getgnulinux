@@ -1,29 +1,29 @@
 <?php
 /*
- *  Copyright 2006-2008, GNU/Linux Matters <http://www.gnulinuxmatters.org/>
- *  Copyright 2011-2012 Launchpad getgnulinux Team <https://launchpad.net/~getgnulinux>
+ *  Copyright 2006-2008 GNU/Linux Matters <http://www.gnulinuxmatters.org/>
+ *  Copyright 2011-2012,2020 get GNU/Linux! <https://github.com/getgnulinux>
  *
- *  This file is part of Get GNU/Linux! <https://launchpad.net/getgnulinux>
+ *  This file is part of Get GNU/Linux! <https://github.com/getgnulinux>
  *
- *  GGL is free software: you can redistribute it and/or modify it under
+ *  getgnulinux is free software: you can redistribute it and/or modify it under
  *  the terms of the GNU Affero General Public License as published by the
  *  Free Software Foundation, either version 3 of the License, or any later
  *  version.
  *
- *  GGL is distributed in the hope that it will be useful, but WITHOUT
+ *  getgnulinux is distributed in the hope that it will be useful, but WITHOUT
  *  ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
  *  FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public
  *  License for more details.
  *
  *  You should have received a copy of the GNU Affero General Public License
- *  along with GGL. If not, see <http://www.gnu.org/licenses/>.
+ *  along with getgnulinux. If not, see <http://www.gnu.org/licenses/>.
  *
  */
 
 /**
  * This is the HTML module for Get GNU/Linux!
  *
- * @author Serrano Pereira <serrano.pereira@gmail.com>
+ * @author Serrano Pereira <serrano@bitosis.nl>
  * @license http://www.gnu.org/licenses/agpl-3.0.html GNU AGPL v3
  */
 
