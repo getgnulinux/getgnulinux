@@ -67,12 +67,9 @@ maintainer-clean: $(SUBDIRS)
 	  $(MAKE) -C $$subdir $@ || exit 1; \
 	done
 	rm -fr autom4te.cache
-	rm -f config.rpath
 	rm -f config.log
 	rm -f config.status
 	rm -f configure
 	rm -f install-sh
-	rm -fr intl
-	rm -fr m4
 	rm -f Makefile
 	rm -f missing
