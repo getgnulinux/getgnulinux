@@ -5,17 +5,8 @@ SUBDIRS = po docroot
 
 GULP = npx gulp
 
-.PHONY: ci
-ci: clean docroot/settings.php install-mo build
-
-.PHONY: develop
-develop: clean install-mo build deploy-dev
-
-docroot/settings.php: docroot
-	$(MAKE) -C $< settings.php
-
 .PHONY: build
-build:
+build: install-mo
 	$(GULP) build
 
 .PHONY: deploy-dev
@@ -45,7 +36,7 @@ dist: Makefile
 	mkdir $(distdir)
 	chmod 777 $(distdir)
 	for file in $(DISTFILES); do \
-	  ln $$file $(distdir) 2>/dev/null || cp -p $$file $(distdir); \
+	  $(LN_S) $$file $(distdir) 2>/dev/null || cp -p $$file $(distdir); \
 	done
 	for subdir in $(SUBDIRS); do \
 	  mkdir $(distdir)/$$subdir || exit 1; \
@@ -73,3 +64,9 @@ maintainer-clean: $(SUBDIRS)
 	rm -f install-sh
 	rm -f Makefile
 	rm -f missing
+
+Makefile: Makefile.in config.status
+	./config.status $@
+
+config.status: configure
+	./config.status --recheck

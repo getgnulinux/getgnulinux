@@ -5,11 +5,6 @@
 
 set -ex
 
-# This command gives errors, but they can be ignored.
-autoreconf --install || true
-
-# Create the Makefiles
+./autogen.sh
 ./configure --localedir=/home/node/getgnulinux/docroot/locale/
-
-# Run build steps.
-make ci
+make clean build

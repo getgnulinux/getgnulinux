@@ -3,6 +3,13 @@ AM_INIT_AUTOMAKE
 
 AM_PO_SUBDIRS
 
-AC_CONFIG_FILES([Makefile docroot/Makefile po/Makefile.in])
+AC_PROG_LN_S
+
+AC_CONFIG_FILES([
+    Makefile
+    docroot/Makefile
+    docroot/settings.php
+    po/Makefile.in
+])
 
 AC_OUTPUT

@@ -17,38 +17,37 @@ need to install the Docker engine as well as `docker-compose`:
 
 Start the build environment with:
 
-    docker/dev.sh
+    ./docker/dev.sh
 
 This should open a Bash shell inside the Docker container.
 Inside the container, initialize the build environment with:
 
-    autoreconf --install  # prints errors, but they can be ignored
+    ./autogen.sh
     ./configure --localedir=/home/node/getgnulinux/docroot/locale/
 
 **NOTE:** These and other common commands are already in your Bash history. Use
 Arrow-Up to see them.
-
-You should now be able to run `make` commands inside the container.
-
-Create the settings file (you only need to do this once):
-
-    make docroot/settings.php
 
 **NOTE:** If the above command gives you a "Permission denied" error, it is
 because you execute Docker with a user that has a UID other than 1000. The node
 user inside the Docker container uses UID 1000. To work around this issue, give
 user with UID 1000 read-write access to the project directory.
 
+You should now be able to run `make` commands inside the container.
+
 To build the website, run:
 
-    make develop
+    make build
 
-That will compile the translations, build the website, and sync the build to
-the HTTP server. The website should be accessible at <http://localhost:1337/>.
+To copy the build to the development web server, run:
 
-To stop the services, exit the development container and run:
+    make deploy-dev
 
-    docker/stop.sh
+The website should now be accessible at <http://localhost:1337/>.
+
+To stop the web server, exit the development container and run:
+
+    ./docker/stop.sh
 
 
 ## Contributing

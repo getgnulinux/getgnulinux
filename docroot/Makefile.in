@@ -3,9 +3,6 @@ VERSION = @VERSION@
 
 BUILD_DIRS = locale scripts styles templates images
 
-settings.php: settings.php.sample
-	cp $^ $@
-
 l10n.html: l10n.md
 	sed 's/ <.*>//' $< | markdown | sed 's/<ul>/<ul class="browser-default">/' > $@
 
@@ -18,3 +15,9 @@ maintainer-clean: clean
 .PHONY: clean
 clean:
 	rm -fr $(BUILD_DIRS)
+
+Makefile: Makefile.in ../config.status
+	cd .. && ./config.status $@
+
+../config.status: ../configure
+	cd .. && ./config.status --recheck
