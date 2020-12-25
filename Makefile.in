@@ -6,7 +6,7 @@ SUBDIRS = po docroot
 GULP = npx gulp
 
 .PHONY: build
-build: install-mo
+build: install
 	$(GULP) build
 
 .PHONY: deploy-dev
@@ -25,9 +25,9 @@ update-po: po
 update-gmo: po
 	$(MAKE) -C $< $@
 
-.PHONY: install-mo
-install-mo: po
-	$(MAKE) -C $< install
+.PHONY: install
+install: po
+	$(MAKE) -C $< $@
 
 .PHONY: dist
 distdir = $(PACKAGE)-$(VERSION)
