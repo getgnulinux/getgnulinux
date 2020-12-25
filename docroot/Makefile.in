@@ -1,11 +1,20 @@
 # @configure_input@
 
+M4 = m4
+NODEJS = nodejs
+
 BUILD_DIRS = locale scripts styles templates images
 
 top_srcdir = ..
 
-l10n.html: l10n.md
-	sed 's/ <.*>//' $< | markdown | sed 's/<ul>/<ul class="browser-default">/' > $@
+build: lib/views/credits.php
+
+lib/views/credits.php: $(top_srcdir)/src/m4/credits.php.m4 weblate_credits.html.m4
+	$(M4) $< > $@
+
+.INTERMEDIATE: weblate_credits.html.m4
+weblate_credits.html.m4: $(top_srcdir)/data/weblate_credits.json
+	$(NODEJS) $(top_srcdir)/l10n-credits.js $< > $@
 
 install:
 
@@ -16,6 +25,7 @@ maintainer-clean: clean
 .PHONY: clean
 clean:
 	rm -fr $(BUILD_DIRS)
+	rm -f lib/views/credits.php
 
 Makefile: Makefile.in $(top_srcdir)/config.status
 	$(top_srcdir)/config.status $@

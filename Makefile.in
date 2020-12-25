@@ -1,17 +1,15 @@
 # @configure_input@
 
-PACKAGE = @PACKAGE@
-VERSION = @VERSION@
-
 SUBDIRS = po docroot
 
 GULP = npx gulp
 
-top_srcdir = .
+top_srcdir = @srcdir@
 
 .PHONY: build
-build: install
-	$(GULP) build
+build: docroot
+	$(MAKE) -C docroot $@
+	$(GULP) $@
 
 .PHONY: deploy-dev
 deploy-dev:

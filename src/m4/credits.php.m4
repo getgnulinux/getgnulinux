@@ -32,69 +32,11 @@ $this->load_header();
 
     <h2 id="translators">Translators</h2>
 
-    <p>Translations done using Weblate.</p>
+    <p>Translations from Weblate.</p>
 
-    <ul class="browser-default">
-    <li><p>Norwegian Bokmål</p>
+    include(`weblate_credits.html.m4')
 
-    <ul class="browser-default">
-    <li>Allan Nordhøy (106)</li>
-    </ul></li>
-    <li><p>Dutch</p>
-
-    <ul class="browser-default">
-    <li>Serrano Pereira (131)</li>
-    </ul></li>
-    <li><p>Chinese (Traditional)</p>
-
-    <ul class="browser-default">
-    <li>Serrano Pereira (6)</li>
-    <li>Jeff Huang (14)</li>
-    <li>Chang-Chia Tseng (32)</li>
-    </ul></li>
-    <li><p>Turkish</p>
-
-    <ul class="browser-default">
-    <li>mahmut özcan (8)</li>
-    <li>Oğuz Ersen (68)</li>
-    </ul></li>
-    <li><p>Portuguese (Brazil)</p>
-
-    <ul class="browser-default">
-    <li>Serrano Pereira (4)</li>
-    <li>Rafael Fontenelle (60)</li>
-    </ul></li>
-    <li><p>Italian</p>
-
-    <ul class="browser-default">
-    <li>J. Lavoie (18)</li>
-    </ul></li>
-    <li><p>Chinese (Simplified)</p>
-
-    <ul class="browser-default">
-    <li>FengChao (73)</li>
-    </ul></li>
-    <li><p>German</p>
-
-    <ul class="browser-default">
-    <li>J. Lavoie (45)</li>
-    </ul></li>
-    <li><p>French</p>
-
-    <ul class="browser-default">
-    <li>Serrano Pereira (3)</li>
-    <li>K. Herbert (24)</li>
-    <li>J. Lavoie (130)</li>
-    </ul></li>
-    <li><p>Hebrew (Israel)</p>
-
-    <ul class="browser-default">
-    <li>Yaron Shahrabani (14)</li>
-    <li>Omeritzics Games (54)</li>
-    </ul></li>
-    </ul>
-
-    <p>Translations done using Transifex.</p>
+    <p>Translations form Transifex.</p>
 
     <strong>Arabic</strong>
     <ul class="browser-default">
@@ -377,7 +319,7 @@ $this->load_header();
 
     <br>
 
-    <p>Did we forget your name? Please <a href="https://community.getgnulinux.org/u/serrano/summary" rel="external">send me a message</a> or <a href="https://github.com/getgnulinux/getgnulinux#readme" rel="external">send us a pull request</a>.</p>
+    <p>Did we forget your name? Please <a href="https://community.getgnulinux.org/u/serrano/summary" rel="external">send me a message</a>.</p>
 
     <h2>Inspiration &amp; reading</h2>
     <ul class="browser-default">
