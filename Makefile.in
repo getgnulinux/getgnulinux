@@ -7,7 +7,7 @@ GULP = npx gulp
 top_srcdir = @srcdir@
 
 .PHONY: build
-build: docroot
+build: install docroot
 	$(MAKE) -C docroot $@
 	$(GULP) $@
 
