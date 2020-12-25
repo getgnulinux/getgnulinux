@@ -3,8 +3,6 @@ AM_INIT_AUTOMAKE
 
 AM_PO_SUBDIRS
 
-AC_PROG_LN_S
-
 AC_CONFIG_FILES([
     Makefile
     docroot/Makefile

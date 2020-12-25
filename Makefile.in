@@ -1,9 +1,13 @@
+# @configure_input@
+
 PACKAGE = @PACKAGE@
 VERSION = @VERSION@
 
 SUBDIRS = po docroot
 
 GULP = npx gulp
+
+top_srcdir = .
 
 .PHONY: build
 build: install
@@ -26,25 +30,12 @@ update-gmo: po
 	$(MAKE) -C $< $@
 
 .PHONY: install
-install: po
-	$(MAKE) -C $< $@
-
-.PHONY: dist
-distdir = $(PACKAGE)-$(VERSION)
-dist: Makefile
-	rm -fr $(distdir)
-	mkdir $(distdir)
-	chmod 777 $(distdir)
-	for file in $(DISTFILES); do \
-	  $(LN_S) $$file $(distdir) 2>/dev/null || cp -p $$file $(distdir); \
-	done
+install: $(SUBDIRS)
 	for subdir in $(SUBDIRS); do \
-	  mkdir $(distdir)/$$subdir || exit 1; \
-	  chmod 777 $(distdir)/$$subdir; \
-	  (cd $$subdir && $(MAKE) $@) || exit 1; \
+	  $(MAKE) -C $$subdir $@ || exit 1; \
 	done
-	tar chozf $(distdir).tar.gz $(distdir)
-	rm -fr $(distdir)
+
+dist:
 
 .PHONY: clean
 clean: $(SUBDIRS)
@@ -58,15 +49,10 @@ maintainer-clean: $(SUBDIRS)
 	  $(MAKE) -C $$subdir $@ || exit 1; \
 	done
 	rm -fr autom4te.cache
-	rm -f config.log
-	rm -f config.status
-	rm -f configure
-	rm -f install-sh
-	rm -f Makefile
-	rm -f missing
+	rm -f config.log config.status configure install-sh Makefile missing
 
-Makefile: Makefile.in config.status
-	./config.status $@
+Makefile: Makefile.in $(top_srcdir)/config.status
+	$(top_srcdir)/config.status $@
 
-config.status: configure
-	./config.status --recheck
+$(top_srcdir)/config.status: $(top_srcdir)/configure
+	$(top_srcdir)/config.status --recheck

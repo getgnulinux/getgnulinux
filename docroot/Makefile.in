@@ -1,12 +1,13 @@
-PACKAGE = @PACKAGE@
-VERSION = @VERSION@
+# @configure_input@
 
 BUILD_DIRS = locale scripts styles templates images
+
+top_srcdir = ..
 
 l10n.html: l10n.md
 	sed 's/ <.*>//' $< | markdown | sed 's/<ul>/<ul class="browser-default">/' > $@
 
-dist:
+install:
 
 .PHONY: maintainer-clean
 maintainer-clean: clean
@@ -16,8 +17,8 @@ maintainer-clean: clean
 clean:
 	rm -fr $(BUILD_DIRS)
 
-Makefile: Makefile.in ../config.status
-	cd .. && ./config.status $@
+Makefile: Makefile.in $(top_srcdir)/config.status
+	$(top_srcdir)/config.status $@
 
-../config.status: ../configure
-	cd .. && ./config.status --recheck
+$(top_srcdir)/config.status: $(top_srcdir)/configure
+	$(top_srcdir)/config.status --recheck
