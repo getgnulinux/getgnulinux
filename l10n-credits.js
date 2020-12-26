@@ -26,7 +26,7 @@ credits.forEach(entry => {
         console.log(`    <p><strong>${language}</strong></p>`);
         console.log('    <ul class="browser-default">');
         authors.forEach(author => {
-            const [email, name, count] = author;
+            const [, name, count] = author;
             console.log(`      <li>${name} (${count})</li>`);
         });
         console.log('    </ul>');

@@ -7,8 +7,12 @@ GULP = npx gulp
 top_srcdir = @srcdir@
 
 .PHONY: build
-build: install docroot
+build: lint install docroot
 	$(MAKE) -C docroot $@
+	$(GULP) $@
+
+.PHONY: lint
+lint:
 	$(GULP) $@
 
 .PHONY: deploy-dev

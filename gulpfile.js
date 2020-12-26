@@ -93,13 +93,13 @@ gulp.task('fonts', () => {
         .pipe(gulp.dest('docroot/styles/vendor/fonts'));
 });
 
-gulp.task('lint:gulpfile', () => lint(['gulpfile.js']));
+gulp.task('lint:root', () => lint(['*.js']));
 
 gulp.task('lint:src', () => {
-    return lint(['src/scripts/main.js']).pipe(gulp.dest('src/scripts'));
+    return lint(['src/scripts/*.js']).pipe(gulp.dest('src/scripts'));
 });
 
-gulp.task('lint', gulp.series('lint:gulpfile', 'lint:src'));
+gulp.task('lint', gulp.series('lint:root', 'lint:src'));
 
 gulp.task('html', gulp.series('styles', 'scripts', () => {
     return gulp.src('src/**/*.php')
@@ -122,7 +122,7 @@ gulp.task('images', () => {
         .pipe(gulp.dest('docroot/images'));
 });
 
-gulp.task('build', gulp.series('lint', 'html', 'images', 'fonts', () => {
+gulp.task('build', gulp.series('html', 'images', 'fonts', () => {
     return gulp.src('src/**/*').pipe($.size({title: 'build', gzip: true}));
 }));
 

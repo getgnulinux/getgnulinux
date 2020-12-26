@@ -1,19 +1,14 @@
 # @configure_input@
 
-M4 = m4
 NODEJS = nodejs
 
 BUILD_DIRS = locale scripts styles templates images
 
 top_srcdir = ..
 
-build: lib/views/credits.php
+build: lib/views/include/weblate_credits.html
 
-lib/views/credits.php: $(top_srcdir)/src/m4/credits.php.m4 weblate_credits.html.m4
-	$(M4) $< > $@
-
-.INTERMEDIATE: weblate_credits.html.m4
-weblate_credits.html.m4: $(top_srcdir)/data/weblate_credits.json
+lib/views/include/weblate_credits.html: $(top_srcdir)/data/weblate_credits.json
 	$(NODEJS) $(top_srcdir)/l10n-credits.js $< > $@
 
 install:
