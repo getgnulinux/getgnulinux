@@ -1,3 +1,9 @@
+/*
+ * Generate a HTML report from a Weblate translation report in JSON format.
+ *
+ * Usage: nodejs l10n-credits.js report.json > report.html
+ */
+
 const fs = require('fs');
 
 const filename = process.argv[2];
