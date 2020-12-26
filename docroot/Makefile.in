@@ -5,10 +5,12 @@ NODEJS = nodejs
 BUILD_DIRS = locale scripts styles templates images
 
 top_srcdir = ..
+views_dir = lib/views
+includes_dir = $(views_dir)/include
 
-build: lib/views/include/weblate_credits.html
+build: $(includes_dir)/weblate_credits.html
 
-lib/views/include/weblate_credits.html: $(top_srcdir)/data/weblate_credits.json
+$(includes_dir)/weblate_credits.html: $(top_srcdir)/data/weblate_credits.json
 	$(NODEJS) $(top_srcdir)/l10n-credits.js $< > $@
 
 install:
@@ -20,7 +22,7 @@ maintainer-clean: clean
 .PHONY: clean
 clean:
 	rm -fr $(BUILD_DIRS)
-	rm -f lib/views/credits.php
+	rm -f $(includes_dir)/weblate_credits.html
 
 Makefile: Makefile.in $(top_srcdir)/config.status
 	$(top_srcdir)/config.status $@

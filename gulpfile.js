@@ -31,7 +31,7 @@ const rsyncConfDev = {
     recursive: true,
     clean: true,
     compress: false,
-    exclude: ['.*.swp'],
+    exclude: ['.*.swp', 'config.log', 'Makefile', 'Makefile.in'],
 };
 
 // Rsync configuration for deploying to production.
@@ -45,7 +45,7 @@ const rsyncConfProd = {
     recursive: true,
     clean: true,
     compress: true,
-    exclude: ['.*.swp'],
+    exclude: ['.*.swp', 'config.log', 'Makefile', 'Makefile.in'],
 };
 
 const lint = (files, options = {fix: false}) => {

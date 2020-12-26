@@ -51,7 +51,7 @@ maintainer-clean: $(SUBDIRS)
 	  $(MAKE) -C $$subdir $@ || exit 1; \
 	done
 	rm -fr autom4te.cache
-	rm -f config.log config.status configure install-sh Makefile missing
+	rm -f aclocal.m4 config.log config.status configure install-sh Makefile missing
 
 Makefile: Makefile.in $(top_srcdir)/config.status
 	$(top_srcdir)/config.status $@
