@@ -4,18 +4,19 @@ SUBDIRS = po docroot
 
 GULP = npx gulp
 
-top_srcdir = @srcdir@
+top_srcdir = @top_srcdir@
 
+.PHONY: all
 all: build
 
 .PHONY: build
-build: lint install docroot
+build: check install docroot
 	$(MAKE) -C docroot $@
 	$(GULP) $@
 
-.PHONY: lint
-lint:
-	$(GULP) $@
+.PHONY: check
+check:
+	$(GULP) lint
 
 .PHONY: deploy-dev
 deploy-dev:
