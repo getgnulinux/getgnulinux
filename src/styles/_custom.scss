@@ -53,12 +53,6 @@ mark {
     padding: 0.2em;
 }
 
-details > summary {
-    cursor: pointer;
-    outline: none;
-    text-align: start;
-}
-
 img, embed, object, video {
     max-width: 100%;
     height: auto;
@@ -108,7 +102,7 @@ details {
     > summary {
         cursor: pointer;
         outline: none;
-        border-bottom: dotted 1px #b9b5b5;
+        border-bottom: none;
         margin-bottom: 1em;
     }
 }

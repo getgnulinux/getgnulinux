@@ -19,8 +19,8 @@ $this->load_header();
       </header>
 
       <section>
+        <img class="float-<?php print $this->rtltr("right", "left"); ?> w30 hide-on-large-and-down" src="/images/faq.svg" alt="Question marks">
         <h3><?php print _("General Questions"); ?></h3>
-
         <details>
             <summary id="naming_conventions"><?php print _("Are &quot;GNU/Linux&quot; and &quot;Linux&quot; any different?"); ?></summary>
             <blockquote>

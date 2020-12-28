@@ -23,6 +23,8 @@ $this->load_header();
       <section>
         <h2 id="whats_better"><?php print _("What is better in GNU/Linux"); ?></h2>
 
+        <img class="float-<?php print $this->rtltr("right", "left"); ?> w30 hide-on-large-and-down" src="/images/no-restrictions.svg" alt="Woman computing worry-free">
+
         <h3><?php
         # TRANSLATORS: please note the punctuation should be consistent
         print _("It's free"); ?></h3>

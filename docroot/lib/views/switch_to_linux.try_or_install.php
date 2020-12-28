@@ -19,9 +19,9 @@ $this->load_header();
 
       <section>
         <h2 id="live_cd"><?php print _("Try out the live USB stick"); ?></h2>
+        <img src="/images/launch.svg" class="float-<?php print $this->rtltr("right", "left"); ?> w30 hide-on-med-and-down" alt="Launch operating system">
 
         <h3 id="live_cd_what_is"><?php print _("Take no risk"); ?></h3>
-        <img src="/images/USB-stick.svg" class="float-<?php print $this->rtltr("right", "left"); ?> w20 hide-on-small-only" alt="<?php print _("USB stick"); ?>">
         <p><?php print _("Using a live USB stick means that GNU/Linux will be running on your computer <em>without installing anything</em>. It's a risk-less way to try and see by yourself what GNU/Linux is."); ?></p>
         <p><?php print _("When running on a live USB stick, your computer uses solely the USB stick to work (without accessing the hard drive inside). You can launch all of the default programs, edit documents, and browse the web."); ?></p>
         <p><?php print _("Since it is only designed as a trial mode, it is a little slow (it will take you five minutes to boot up, and programs launch somewhat slowly). If you proceed to install, the system will go much faster."); ?></p>

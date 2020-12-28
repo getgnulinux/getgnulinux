@@ -27,6 +27,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
 
       <section>
         <h2 id="programmers_paid"><?php print _("The software industry can't keep going if programmers don't get paid"); ?></h2>
+        <img class="float-<?php print $this->rtltr("right", "left"); ?> w30 hide-on-large-and-down" src="/images/misunderstood.svg" alt="Worried woman">
         <p><?php print _("Let's begin with one simple fact: free software programmers <em>do</em> like to get paid, and all need to buy lunch at some time."); ?></p>
         <p><?php
         # TRANSLATORS: Here, the %s placeholder simply puts a link to a footnote in this page
@@ -136,6 +137,8 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
           <li><?php print _("If you need someone you can reach on the phone anytime to assist you, the companies behind most distributions provide commercial support: see the <a href=\"https://www.ubuntu.com/support\" rel=\"external\">Ubuntu Commercial Support</a> or <a href=\"https://www.redhat.com/rhel/\" rel=\"external\">Red Hat Enterprise Linux</a> pages for example."); ?></li>
         </ul>
       </section>
+
+      <br>
 
       <aside class="card-panel amber lighten-4 card-panel--further-reading">
         <h3 class="center"><?php print _("Further reading on the web"); ?></h3>

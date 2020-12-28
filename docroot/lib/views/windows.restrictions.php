@@ -22,6 +22,9 @@ $this->load_header();
 
       <section>
         <h2 id="the_small_print"><?php print _("The small print in the contract"); ?></h2>
+
+        <img class="float-<?php print $this->rtltr("right", "left"); ?> w30 hide-on-large-and-down" src="/images/restrictions.svg" alt="">
+
         <ul class="browser-default">
           <li>
             <p><mark><?php print _("Windows and Office are licensed, not sold."); ?></mark></p>
