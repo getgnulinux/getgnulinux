@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
-"POT-Creation-Date: 2020-12-28 16:55+0000\n"
+"POT-Creation-Date: 2020-12-28 20:05+0000\n"
 "PO-Revision-Date: 2020-12-13 02:41+0000\n"
 "Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/getgnulinux/"
@@ -77,7 +77,7 @@ msgstr "FAQ de GNU / Linux - preguntas comunes sobre GNU / Linux"
 #. TRANSLATORS: Here the intent is to be a little provocative. Exact translation is not required.
 #: docroot/lib/ggl.php:222
 #: docroot/lib/views/windows.stand_for_a_free_society.php:141
-#: docroot/lib/views/linux.php:70
+#: docroot/lib/views/linux.php:81
 #: docroot/lib/views/linux.misunderstanding_free_software.php:19
 #: docroot/lib/views/linux.linux_faq.php:100
 #: docroot/lib/views/linux.linux_faq.php:144
@@ -91,7 +91,7 @@ msgstr "Como malinterpretar el software libre"
 #: docroot/lib/views/windows.stand_for_a_free_society.php:152
 #: docroot/lib/views/home.php:38
 #: docroot/lib/views/windows.what_about_choice.php:65
-#: docroot/lib/views/linux.php:100
+#: docroot/lib/views/linux.php:113
 #: docroot/lib/views/windows.what_about_source_code.php:61
 #: src/templates/header.php:46 src/templates/header.php:53
 #: src/templates/header.php:83
@@ -130,7 +130,7 @@ msgstr "Sin código fuente"
 
 #. TRANSLATORS: This appears in the top header menu and should be as short and concise as possible.
 #: docroot/lib/ggl.php:236 docroot/lib/views/windows.php:99
-#: docroot/lib/views/home.php:51 docroot/lib/views/linux.php:115
+#: docroot/lib/views/home.php:51 docroot/lib/views/linux.php:128
 #: docroot/lib/views/switch_to_linux.php:15 src/templates/header.php:47
 #: src/templates/header.php:52 src/templates/header.php:84
 msgid "Switch to GNU/Linux"
@@ -279,8 +279,9 @@ msgstr ""
 #: docroot/lib/views/home.php:29 docroot/lib/views/home.php:42
 #: docroot/lib/views/home.php:55
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:148
-#: docroot/lib/views/linux.php:76 docroot/lib/views/linux.php:87
-#: docroot/lib/views/linux.php:104 docroot/lib/views/linux.php:119
+#: docroot/lib/views/linux.php:74 docroot/lib/views/linux.php:87
+#: docroot/lib/views/linux.php:100 docroot/lib/views/linux.php:117
+#: docroot/lib/views/linux.php:132
 #: docroot/lib/views/windows.restrictions.further_details.php:53
 #: docroot/lib/views/switch_to_linux.php:28
 #: docroot/lib/views/switch_to_linux.php:43
@@ -399,7 +400,7 @@ msgid ""
 msgstr ""
 
 #: docroot/lib/views/windows.php:101 docroot/lib/views/home.php:53
-#: docroot/lib/views/linux.php:117
+#: docroot/lib/views/linux.php:130
 msgid "Where to download and how to step into GNU/Linux"
 msgstr "Dónde descargar y como adentrarse en GNU/Linux"
 
@@ -1017,7 +1018,7 @@ msgstr ""
 msgid "Learn more about the free operating system"
 msgstr "Conoce el sistema operativo libre."
 
-#: docroot/lib/views/home.php:40 docroot/lib/views/linux.php:102
+#: docroot/lib/views/home.php:40 docroot/lib/views/linux.php:115
 msgid "Why we should avoid using Microsoft Windows"
 msgstr "Por qué se debe evitar usar Microsoft Windows."
 
@@ -1527,18 +1528,12 @@ msgstr ""
 "que los clientes empresariales suelen estar felices de pagar para un soporte "
 "más avanzado."
 
-#. TRANSLATORS: use the definition of "free software" on GNU.org
-#: docroot/lib/views/linux.php:73
-#: docroot/lib/views/linux.misunderstanding_free_software.php:24
-msgid "Misconceptions about free software, corrected."
-msgstr "Cinco ideas erróneas acerca del software libre, corregidas."
-
-#: docroot/lib/views/linux.php:83 src/templates/header.php:82
+#: docroot/lib/views/linux.php:70 src/templates/header.php:82
 #, fuzzy
 msgid "GNU/Linux FAQ"
 msgstr "¡Cámbiate a GNU/Linux!"
 
-#: docroot/lib/views/linux.php:84
+#: docroot/lib/views/linux.php:71
 #, fuzzy
 msgid ""
 "This FAQ covers common questions about GNU/Linux. We hope this FAQ list can "
@@ -1546,6 +1541,24 @@ msgid ""
 msgstr ""
 "<a href=\"%s\">Nuestra página sobre GNU/Linux</a> cubre la información "
 "esencial. Esperamos que este FAQ te pueda ayudar si tienes mayor curiosidad."
+
+#. TRANSLATORS: use the definition of "free software" on GNU.org
+#: docroot/lib/views/linux.php:84
+#: docroot/lib/views/linux.misunderstanding_free_software.php:24
+msgid "Misconceptions about free software, corrected."
+msgstr "Cinco ideas erróneas acerca del software libre, corregidas."
+
+#: docroot/lib/views/linux.php:96
+#, fuzzy
+msgid "GNU/Linux is not Windows"
+msgstr "Por qué no Windows"
+
+#: docroot/lib/views/linux.php:97
+msgid ""
+"If you wish GNU/Linux to be just exactly like Windows, you will probably be "
+"disappointed. GNU/Linux is built by people who simply wish it to be "
+"different."
+msgstr ""
 
 #: docroot/lib/views/windows.restrictions.further_details.php:19
 #, php-format
@@ -2853,13 +2866,13 @@ msgstr ""
 
 #. TRANSLATORS: Use a localised version of the "Linux is Not Windows" article if possible. The following page contains links to localised versions: http://geekblog.oneandoneis2.org/index.php/2005/12/31/derived_works_aamp_translations
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:106
+#, php-format
 msgid ""
 "If you wish GNU/Linux to be just exactly like Windows, you will probably be "
-"disappointed. GNU/Linux is built by people who simply <a href=\"http://linux."
-"oneandoneis2.org/LNW.htm\" rel=\"external\">wish it to be different</a>. In "
-"the free software community, members have different visions of what makes an "
-"ideal operating system. These differences lead to variety, which is what "
-"makes GNU/Linux so special and interesting."
+"disappointed. GNU/Linux is built by people who simply <a href=\"%s\">wish it "
+"to be different</a>. In the free software community, members have different "
+"visions of what makes an ideal operating system. These differences lead to "
+"variety, which is what makes GNU/Linux so special and interesting."
 msgstr ""
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:109

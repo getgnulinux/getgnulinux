@@ -64,7 +64,18 @@ $this->load_header();
 
       <aside>
         <div class="row">
-          <div class="col s12 m6">
+          <div class="col l12 xl4">
+            <div class="card brown darken-1">
+              <div class="card-content white-text">
+                <span class="card-title"><?php print _("GNU/Linux FAQ"); ?></span>
+                <p><?php $p = _("This FAQ covers common questions about GNU/Linux. We hope this FAQ list can help if you are more curious."); printf($p, $this->get_base_url('linux')); ?></p>
+              </div>
+              <div class="card-action">
+                <a href="<?php $this->base_url('linux/linux_faq'); ?>"><?php print _("Read more"); ?></a>
+              </div>
+            </div>
+          </div>
+          <div class="col l12 xl4">
             <div class="card brown darken-1">
               <div class="card-content white-text">
                 <span class="card-title"><?php print _("How to Misunderstand Free Software"); ?></span>
@@ -77,14 +88,14 @@ $this->load_header();
               </div>
             </div>
           </div>
-          <div class="col s12 m6">
+          <div class="col l12 xl4">
             <div class="card brown darken-1">
               <div class="card-content white-text">
-                <span class="card-title"><?php print _("GNU/Linux FAQ"); ?></span>
-                <p><?php $p = _("This FAQ covers common questions about GNU/Linux. We hope this FAQ list can help if you are more curious."); printf($p, $this->get_base_url('linux')); ?></p>
+                <span class="card-title"><?php print _("GNU/Linux is not Windows"); ?></span>
+                <p><?php print _("If you wish GNU/Linux to be just exactly like Windows, you will probably be disappointed. GNU/Linux is built by people who simply wish it to be different."); ?></p>
               </div>
               <div class="card-action">
-                <a href="<?php $this->base_url('linux/linux_faq'); ?>"><?php print _("Read more"); ?></a>
+                <a href="<?php $this->base_url('linux/linux_is_not_windows'); ?>"><?php print _("Read more"); ?></a>
               </div>
             </div>
           </div>
