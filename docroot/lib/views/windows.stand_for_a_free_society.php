@@ -88,6 +88,8 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
           <span class="source">Rosemary Bechler, <a href="https://web.archive.org/web/20090107014724/http://www.counterpoint-online.org/cgi-bin/item.cgi?id=637" rel="external">Unbounded Freedom</a></span>
         </div>
 
+        <br>
+
         <p><?php print _("Computing is not just about calculations anymore. We use software to communicate: to share information, ideas and culture. Software is in our phones, cars, media players, TVs, and gets to govern just about every new device around us."); ?></p>
 
         <div class="card-panel card-panel--image card-panel--source amber lighten-4 float-<?php print $this->rtltr("right", "left"); ?> hide-on-small-only">

@@ -136,18 +136,15 @@ $fedora3_text = _("Software manager open, install/remove applications.");
 
     <br>
 
-    <aside class="brown lighten-5">
-      <div class="container button-section">
-        <h1><?php print _("Try or install"); ?></h1>
-        <div class="page-intro">
-          <p><?php # TRANSLATORS: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
-          print _("Now grab a USB stick and try or install your distribution!"); ?></p>
-
-          <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux/try_or_install'); ?>">
-            <?php print _("Read more"); ?>
-            <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
-          </a>
-        </div>
+    <aside class="brown lighten-5 button-section">
+      <div class="container">
+        <h2><?php print _("Try or install"); ?></h2>
+        <p><?php # TRANSLATORS: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
+        print _("Now grab a USB stick and try or install your distribution!"); ?></p>
+        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux/try_or_install'); ?>">
+          <?php print _("Read more"); ?>
+          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
+        </a>
       </div>
     </aside>
   </article>

@@ -93,16 +93,14 @@ $this->load_header();
       </div>
     </section>
 
-    <aside class="brown lighten-5">
-      <div class="container button-section">
-        <h1><?php print _("Switch to GNU/Linux"); ?></h1>
-        <div class="page-intro">
-          <p><?php print _("Where to download and how to step into GNU/Linux"); ?></p>
-          <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux'); ?>">
-            <?php print _("Read more"); ?>
-            <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
-          </a>
-        </div>
+    <aside class="brown lighten-5 button-section">
+      <div class="container">
+        <h2><?php print _("Switch to GNU/Linux"); ?></h2>
+        <p><?php print _("Where to download and how to step into GNU/Linux"); ?></p>
+        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux'); ?>">
+          <?php print _("Read more"); ?>
+          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
+        </a>
       </div>
     </aside>
   </article>
