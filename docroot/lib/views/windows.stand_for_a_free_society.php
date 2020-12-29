@@ -101,6 +101,8 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
         <p><?php $p = _("May we suggest you <a href=\"%s\">switch to GNU/Linux</a>?"); printf($p, $this->get_base_url('switch_to_linux')); ?></p>
       </section>
 
+      <br>
+
       <aside class="card-panel amber lighten-4 card-panel--further-reading">
         <h3 class="center"><?php print _("Read more"); ?></h3>
 

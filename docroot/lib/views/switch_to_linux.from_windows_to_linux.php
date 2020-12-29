@@ -115,22 +115,24 @@ $this->load_header();
         <p><?php print _("We hope you'll switch soon. There's a large community waiting, and no one in it asking you to &quot;sign up, purchase and register&quot;."); ?></p>
       </section>
     </div>
-  </article>
 
-  <aside class="brown lighten-5">
-    <div class="container button-section">
-      <h1><?php print _("Choose a distribution"); ?></h1>
+    <br>
 
-      <div class="page-intro">
-        <p><?php print _("Our selection for an easy choice."); ?></p>
+    <aside class="brown lighten-5">
+      <div class="container button-section">
+        <h1><?php print _("Choose a distribution"); ?></h1>
 
-        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux/choose_a_distribution'); ?>">
-          <?php print _("Read more"); ?>
-          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
-        </a>
+        <div class="page-intro">
+          <p><?php print _("Our selection for an easy choice."); ?></p>
+
+          <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux/choose_a_distribution'); ?>">
+            <?php print _("Read more"); ?>
+            <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
+          </a>
+        </div>
       </div>
-    </div>
-  </aside>
+    </aside>
+  </article>
 </main>
 
 <?php $this->load_footer(); ?>

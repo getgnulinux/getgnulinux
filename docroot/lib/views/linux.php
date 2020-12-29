@@ -64,7 +64,7 @@ $this->load_header();
 
       <aside>
         <div class="row">
-          <div class="col l12 xl4">
+          <div class="col l12 xl6">
             <div class="card brown darken-1">
               <div class="card-content white-text">
                 <span class="card-title"><?php print _("GNU/Linux FAQ"); ?></span>
@@ -75,7 +75,7 @@ $this->load_header();
               </div>
             </div>
           </div>
-          <div class="col l12 xl4">
+          <div class="col l12 xl6">
             <div class="card brown darken-1">
               <div class="card-content white-text">
                 <span class="card-title"><?php print _("How to Misunderstand Free Software"); ?></span>
@@ -88,7 +88,9 @@ $this->load_header();
               </div>
             </div>
           </div>
-          <div class="col l12 xl4">
+        </div>
+        <div class="row">
+          <div class="col l12 xl6">
             <div class="card brown darken-1">
               <div class="card-content white-text">
                 <span class="card-title"><?php print _("GNU/Linux is not Windows"); ?></span>
@@ -102,37 +104,37 @@ $this->load_header();
         </div>
       <aside>
     </div>
+
+    <!-- WHY NOT WINDOWS -->
+
+    <aside class="brown lighten-5">
+        <div class="container button-section">
+        <h1><?php print _("Why not Windows"); ?></h1>
+        <div class="page-intro">
+            <p><?php print _("Why we should avoid using Microsoft Windows"); ?></p>
+            <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('windows'); ?>">
+            <?php print _("Read more"); ?>
+            <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
+            </a>
+        </div>
+        </div>
+    </aside>
+
+    <!-- SWITCH TO GNU/LINUX -->
+
+    <aside>
+        <div class="container button-section">
+        <h1><?php print _("Switch to GNU/Linux"); ?></h1>
+        <div class="page-intro">
+            <p><?php print _("Where to download and how to step into GNU/Linux"); ?></p>
+            <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux'); ?>">
+            <?php print _("Read more"); ?>
+            <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
+            </a>
+        </div>
+        </div>
+    </aside>
   </article>
-
-  <!-- WHY NOT WINDOWS -->
-
-  <aside class="brown lighten-5">
-    <div class="container button-section">
-      <h1><?php print _("Why not Windows"); ?></h1>
-      <div class="page-intro">
-        <p><?php print _("Why we should avoid using Microsoft Windows"); ?></p>
-        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('windows'); ?>">
-          <?php print _("Read more"); ?>
-          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
-        </a>
-      </div>
-    </div>
-  </aside>
-
-  <!-- SWITCH TO GNU/LINUX -->
-
-  <aside>
-    <div class="container button-section">
-      <h1><?php print _("Switch to GNU/Linux"); ?></h1>
-      <div class="page-intro">
-        <p><?php print _("Where to download and how to step into GNU/Linux"); ?></p>
-        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux'); ?>">
-          <?php print _("Read more"); ?>
-          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
-        </a>
-      </div>
-    </div>
-  </aside>
 </main>
 
 <?php $this->load_footer(); ?>

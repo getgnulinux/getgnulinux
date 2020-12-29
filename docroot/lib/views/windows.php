@@ -92,20 +92,20 @@ $this->load_header();
         <p><?php $p = _("If you find <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title=\"what is freedom in software?\" rel=\"external\">free software</a> attractive, you might want to <a href=\"%s\" title=\"make the switch to GNU/Linux today!\">give GNU/Linux a try</a>."); printf($p, $this->get_base_url('switch_to_linux')); ?></p>
       </div>
     </section>
-  </article>
 
-  <aside class="brown lighten-5">
-    <div class="container button-section">
-      <h1><?php print _("Switch to GNU/Linux"); ?></h1>
-      <div class="page-intro">
-        <p><?php print _("Where to download and how to step into GNU/Linux"); ?></p>
-        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux'); ?>">
-          <?php print _("Read more"); ?>
-          <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
-        </a>
+    <aside class="brown lighten-5">
+      <div class="container button-section">
+        <h1><?php print _("Switch to GNU/Linux"); ?></h1>
+        <div class="page-intro">
+          <p><?php print _("Where to download and how to step into GNU/Linux"); ?></p>
+          <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('switch_to_linux'); ?>">
+            <?php print _("Read more"); ?>
+            <i class="material-icons <?php print $this->rtltr("right", "left"); ?>"><?php print $this->rtltr("chevron_right", "chevron_left"); ?></i>
+          </a>
+        </div>
       </div>
-    </div>
-  </aside>
+    </aside>
+  </article>
 </main>
 
 <?php $this->load_footer(); ?>

@@ -76,6 +76,8 @@ $this->load_header();
       <br>
 
       <p class="note center"><?php print _("Note: these links are proposed as a recommendation. They are not commercial."); ?></p>
+
+      <br>
     </div>
   </article>
 </main>
