@@ -176,7 +176,7 @@ $this->load_header();
 
       <hr>
 
-      <p>This page is copyright 24/05/06 and belongs to Dominic Humphries. It may be redistributed under a <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/" rel="license external">Creative Commons License</a>.<br>
+      <p>This article is copyright 24/05/06 and belongs to Dominic Humphries. It may be redistributed under a <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/" rel="license external">Creative Commons License</a>.<br>
       The URL <a href="http://linux.oneandoneis2.org/LNW.htm" rel="external">http://linux.oneandoneis2.org/LNW.htm</a> must be supplied in attribution.</p>
 
       <br>
