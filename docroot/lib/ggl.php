@@ -220,6 +220,7 @@ class GGL {
             'linux.linux_faq' => _("GNU/Linux FAQ - common questions about GNU/Linux"),
             # TRANSLATORS: Here the intent is to be a little provocative. Exact translation is not required.
             'linux.misunderstanding_free_software' => _("How to Misunderstand Free Software"),
+            'linux.linux_is_not_windows' => _("GNU/Linux is not Windows"),
             # TRANSLATORS: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
             'windows' => _("Why not Windows"),
             # TRANSLATORS: This title can be translated loosely
@@ -254,6 +255,8 @@ class GGL {
             'linux.linux_faq' => _("Frequently Asked Questions about GNU/Linux."),
             # TRANSLATORS: This is the description of the 'Misunderstanding Free Software' page
             'linux.misunderstanding_free_software' => _("An unconventional way to (re)discover free software."),
+            # TRANSLATORS: This is the description of the 'GNU/Linux is not Windows' page
+            'linux.linux_is_not_windows' => _("If you wish GNU/Linux to be just exactly like Windows, you will probably be disappointed. GNU/Linux is built by people who simply wish it to be different."),
             # TRANSLATORS: This is the description of the 'Why not Windows' page
             'windows' => _("Four good reasons to avoid proprietary software."),
             # TRANSLATORS: This is the description of the 'Restrictions' page
