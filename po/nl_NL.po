@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
-"POT-Creation-Date: 2020-12-30 22:10+0000\n"
-"PO-Revision-Date: 2020-12-30 18:22+0000\n"
+"POT-Creation-Date: 2020-12-30 21:43+0000\n"
+"PO-Revision-Date: 2020-12-30 22:11+0000\n"
 "Last-Translator: Serrano Pereira <serrano@bitosis.nl>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/getgnulinux/"
 "getgnulinux-pot/nl/>\n"
@@ -2745,7 +2745,7 @@ msgstr ""
 "en anti-alles-software. GNU/Linux is zeer, zeer veilig."
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:46
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "It is often difficult for Windows users to believe that there are <em>no "
 "spyware nor viruses</em> under GNU/Linux&mdash;<a href=\"%s\">but it's true</"
@@ -2753,9 +2753,8 @@ msgid ""
 "built system."
 msgstr ""
 "Windows-gebruikers hebben vaak moeite te geloven dat er <em>geen spyware of "
-"virussen</em> zijn voor GNU/Linux &mdash; <a href=\"http://linuxmafia.com/"
-"~rick/faq/#virus\" rel=\"external\">maar het is waar</a>. Schadelijke "
-"software krijgt weinig kans op een goed ontworpen systeem."
+"virussen</em> zijn voor GNU/Linux&mdash;<a href=\"%s\">maar het is waar</a>. "
+"Schadelijke software krijgt weinig kans op een goed ontworpen systeem."
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:48
 msgid "Regular, easy software updates will keep everyone entirely safe."
@@ -2865,14 +2864,13 @@ msgstr ""
 "volledige specificaties publiek."
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:74
-#, fuzzy
 msgid ""
 "So, drivers are sometimes unavailable for the most recent high-end graphics "
 "cards&mdash;some are reverse-engineered from Windows drivers by volunteers. "
 "Some are also released free of charge, but under restrictive licenses."
 msgstr ""
 "Hierdoor zijn drivers soms niet beschikbaar voor bijvoorbeeld de nieuwste "
-"dure grafische kaarten &mdash; soms zijn het door vrijwilligers gereverse-"
+"dure grafische kaarten&mdash;soms zijn het door vrijwilligers gereverse-"
 "engineerde versies van Windows-drivers. Sommige drivers worden wel kosteloos "
 "uitgegeven, maar hebben beperkende licenties."
 
@@ -3971,7 +3969,7 @@ msgstr ""
 
 #: docroot/lib/views/linux.linux_faq.php:256
 msgid "Should I install anti-virus software under GNU/Linux?"
-msgstr ""
+msgstr "Zou ik anti-virus software moeten installeren onder GNU/Linux?"
 
 #: docroot/lib/views/linux.linux_faq.php:258
 msgid ""
@@ -3986,6 +3984,17 @@ msgid ""
 "privileged executables enjoy paranoid-grade scrutiny (such that any "
 "unauthorised changes would be detected and remedied)."
 msgstr ""
+"Hier is de korte versie van het antwoord: Nee. Als je simpelweg <em>nooit "
+"onvertrouwde toepassingen uitvoert terwijl je als de root gebruiker bent "
+"ingelogd (of iets vergelijkbaars)</em>, zullen \"virusscanners\" op z'n best "
+"overbodig zijn; in het ergste geval zelfs schadelijk. \"Schadelijke\" "
+"toepassingen (inclusief virussen) zijn <em>bijna niet te vinden</em> in de "
+"GNU/Linux wereld&mdash;en zullen ook geen echte bedreiging vormen&mdash;"
+"omdat zij geen superuser-rechten hebben, en omdat GNU/Linux-beheerders "
+"zelden stom genoeg zijn om onvertrouwde toepassingen als superuser uit te "
+"voeren, <em>en</em> omdat de gebruikelijke en aanbevolen bronnen voor "
+"toepassingen van GNU/Linux-gebruikers aan paranoïde-graad onderzoek "
+"onderhevig zijn (zodat onbevoegde aanpassingen opgemerkt en opgelost worden)."
 
 #: docroot/lib/views/linux.linux_faq.php:259
 msgid ""
