@@ -35,6 +35,15 @@ user with UID 1000 read-write access to the project directory.
 
 You should now be able to run `make` commands inside the container.
 
+When translatable content is updated, update the translation files with:
+
+    make update-po
+
+When new translations were made, compile the translation files for use on the
+website with:
+
+    make update-gmo
+
 To build the website, run:
 
     make build
