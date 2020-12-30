@@ -10,9 +10,9 @@ $this->load_header();
   <article>
     <div class="container">
       <header>
-        <h1><?php print _("GNU/Linux is not Windows"); ?></h1>
+        <h1>GNU/Linux is not Windows</h1>
         <div class="page-intro">
-          <p><?php print _("If you've been pointed at this page, then the chances are you're a relatively new GNU/Linux user who's having some problems making the switch from Windows to GNU/Linux. This causes many problems for many people, hence this article was written. Many individual issues arise from this single problem, so the page is broken down into multiple problem areas."); ?></p>
+          <p>If you've been pointed at this page, then the chances are you're a relatively new GNU/Linux user who's having some problems making the switch from Windows to GNU/Linux. This causes many problems for many people, hence this article was written. Many individual issues arise from this single problem, so the page is broken down into multiple problem areas.</p>
         </div>
       </header>
 
