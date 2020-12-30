@@ -43,8 +43,8 @@ $this->load_header();
 
         <h3 id="security"><?php print _("Security"); ?></h3>
         <p><?php print _("Forget expensive and restrictive anti-virus, anti-spyware, anti-anything and anti-everything. GNU/Linux is very, very secure."); ?></p>
-        <p><?php # TRANSLATORS: If you don't know of a link replacement in your languge, just leave the link as it is
-        print _("It is often difficult for Windows users to believe that there are <em>no spyware nor viruses</em> under GNU/Linux &mdash; <a href=\"http://linuxmafia.com/~rick/faq/#virus\" rel=\"external\">but it's true</a>. Malicious programs have a hard time doing anything at all in a well-built system."); ?></p>
+        <p><?php $p = _("It is often difficult for Windows users to believe that there are <em>no spyware nor viruses</em> under GNU/Linux&mdash;<a href=\"%s\">but it's true</a>. Malicious programs have a hard time doing anything at all in a well-built system.");
+        printf($p, $this->get_base_url('linux/linux_faq/virus')); ?></p>
         <p><?php print _("Regular, easy software updates will keep everyone entirely safe."); ?></p>
 
         <h3 id="support"><?php print _("Support"); ?></h3>
@@ -71,7 +71,7 @@ $this->load_header();
 
         <h3><?php print _("Driver support"); ?></h3>
         <p><?php print _("Manufacturers of computer hardware don't always (yet) release drivers for GNU/Linux or publicize full specifications."); ?></p>
-        <p><?php print _("So, drivers are sometimes unavailable for the most recent high-end graphics cards &mdash; some are reverse-engineered from Windows drivers by volunteers. Some are also released free of charge, but under restrictive licenses."); ?></p>
+        <p><?php print _("So, drivers are sometimes unavailable for the most recent high-end graphics cards&mdash;some are reverse-engineered from Windows drivers by volunteers. Some are also released free of charge, but under restrictive licenses."); ?></p>
         <p><?php print _("Sadly, the same problem occurs with many low-end WiFi cards."); ?></p>
         <p><?php print _("However, the vast majority of computers with standard hardware work out of the box with main GNU/Linux distributions. Common hardware such as USB keys or photo cameras never are a problem."); ?></p>
 
