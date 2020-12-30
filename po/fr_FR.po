@@ -32,7 +32,7 @@ msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2020-12-30 22:10+0000\n"
-"PO-Revision-Date: 2020-12-30 18:22+0000\n"
+"PO-Revision-Date: 2020-12-31 07:08+0000\n"
 "Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/getgnulinux/"
 "getgnulinux-pot/fr/>\n"
@@ -2839,7 +2839,7 @@ msgstr ""
 "est très, très sécurisé."
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:46
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "It is often difficult for Windows users to believe that there are <em>no "
 "spyware nor viruses</em> under GNU/Linux&mdash;<a href=\"%s\">but it's true</"
@@ -2847,10 +2847,9 @@ msgid ""
 "built system."
 msgstr ""
 "Il est souvent difficile pour les utilisateurs de Windows de croire qu'il "
-"n'y a <em>pas de spyware ou de virus</em> sous GNU/Linux – <a href=\"http://"
-"linuxmafia.com/~rick/faq/#virus\" rel=\"external\">mais c'est vrai</a>. Les "
-"programmes malveillants ont du mal à faire quoi que ce soit dans un système "
-"bien construit."
+"n'y a <em>pas de logiciels espion ou de virus</em> sous GNU/Linux&mdash;<a "
+"href=\"%s\">mais c'est vrai</a>. Les programmes malveillants ont beaucoup de "
+"difficulté à faire quoi que ce soit dans un système bien conçu."
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:48
 msgid "Regular, easy software updates will keep everyone entirely safe."
@@ -2960,7 +2959,6 @@ msgstr ""
 "les pilotes pour GNU/Linux ou ne publient pas les spécifications complètes."
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:74
-#, fuzzy
 msgid ""
 "So, drivers are sometimes unavailable for the most recent high-end graphics "
 "cards&mdash;some are reverse-engineered from Windows drivers by volunteers. "
@@ -4086,7 +4084,7 @@ msgstr ""
 
 #: docroot/lib/views/linux.linux_faq.php:256
 msgid "Should I install anti-virus software under GNU/Linux?"
-msgstr ""
+msgstr "Devrais-je installer un logiciel antivirus sous GNU/Linux ?"
 
 #: docroot/lib/views/linux.linux_faq.php:258
 msgid ""
@@ -4101,6 +4099,18 @@ msgid ""
 "privileged executables enjoy paranoid-grade scrutiny (such that any "
 "unauthorised changes would be detected and remedied)."
 msgstr ""
+"Voici la version courte de la réponse : non. Si vous <em>n’exécutez "
+"simplement pas d’exécutables non fiables en étant connecté en tant qu’"
+"utilisateur racine (ou équivalent)</em>, tous les « antivirus » du monde "
+"seront au mieux superflus ; au pire, carrément nuisibles. Les exécutables « "
+"hostiles » (y compris les virus) sont <em>presque introuvables</em> dans le "
+"monde GNU/Linux – et ne constituent pas une menace réelle pour celui-ci – "
+"parce qu'ils leur manquent une autorité de superutilisateur, et parce que "
+"les administrateurs GNU/Linux sont rarement assez stupides pour exécuter des "
+"exécutables non fiables en tant que super-utilisateur, <em>et</em> parce que "
+"les sources habituelles et recommandées des utilisateurs GNU/Linux pour les "
+"exécutables privilégiés bénéficient d'un examen de niveau paranoïaque (de "
+"sorte que tout changement non autorisé serait détecté et corrigé)."
 
 #: docroot/lib/views/linux.linux_faq.php:259
 msgid ""
@@ -4109,6 +4119,12 @@ msgid ""
 "aren't allowed to hurt the system (only a superuser account can), so neither "
 "can programs they run."
 msgstr ""
+"Voici la version longue : <em>Encore une fois</em> non. N'importe quel "
+"programme sur un boîtier GNU/Linux, virus inclus, peuvent seulement faire ce "
+"que l'utilisateur qui les a exécutés peut faire. Les vrais utilisateurs ne "
+"sont pas autorisés à faire du mal au système (seul un compte super-"
+"utilisateur peut le faire), et donc les programmes qu'ils exécutent non plus "
+"ne peuvent pas."
 
 #: docroot/lib/views/linux.linux_faq.php:260
 #, php-format
@@ -4116,6 +4132,8 @@ msgid ""
 "See our \"<a href=\"%s\">GNU/Linux virus FAQ</a>\" for more details on this "
 "subject."
 msgstr ""
+"Voir notre « <a href=\"%s\">FAQ sur les virus GNU/Linux</a> » pour plus de "
+"détails sur ce sujet."
 
 #: docroot/lib/views/linux.linux_faq.php:267
 msgid "More questions?"
