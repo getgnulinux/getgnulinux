@@ -78,7 +78,7 @@
       <?php
       $this->sidenav_link('home', _("Home"));
       $this->sidenav_link('linux', _("What is GNU/Linux?"));
-      $this->sidenav_link('linux/linux_faq', _("GNU/Linux FAQ"));
+      $this->sidenav_link('linux/faq', _("GNU/Linux FAQ"));
       $this->sidenav_link('windows', _("Why not Windows"));
       $this->sidenav_link('switch_to_linux', _("Switch to GNU/Linux"));
       $this->sidenav_link('more', _("More"));

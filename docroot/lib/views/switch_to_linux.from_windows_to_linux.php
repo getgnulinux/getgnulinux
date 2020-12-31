@@ -44,7 +44,7 @@ $this->load_header();
         <h3 id="security"><?php print _("Security"); ?></h3>
         <p><?php print _("Forget expensive and restrictive anti-virus, anti-spyware, anti-anything and anti-everything. GNU/Linux is very, very secure."); ?></p>
         <p><?php $p = _("It is often difficult for Windows users to believe that there are <em>no spyware nor viruses</em> under GNU/Linux&mdash;<a href=\"%s\">but it's true</a>. Malicious programs have a hard time doing anything at all in a well-built system.");
-        printf($p, $this->get_base_url('linux/linux_faq/virus')); ?></p>
+        printf($p, $this->get_base_url('linux/faq/virus')); ?></p>
         <p><?php print _("Regular, easy software updates will keep everyone entirely safe."); ?></p>
 
         <h3 id="support"><?php print _("Support"); ?></h3>
@@ -81,7 +81,7 @@ $this->load_header();
         print _("This might lead you to circumvent the restrictions in some DVDs and the <abbr title=\"Digital Restrictions Management\">DRM</abbr> in some music files, even if you purchased them in full legality, to be make them work under GNU/Linux. Unfortunately, depending on where you live, <em>such circumvention processes may be illegal</em> even if you purchased your media entirely legally."); ?></p>
         <p><?php print _("Read more in our GNU/Linux FAQ:"); ?></p>
         <ul class="browser-default">
-          <li><a href="<?php $this->base_url('linux/linux_faq'); ?>#dvd_mp3"><?php print _("Can I play my DVDs and MP3s under GNU/Linux?"); ?></a></li>
+          <li><a href="<?php $this->base_url('linux/faq'); ?>#dvd_mp3"><?php print _("Can I play my DVDs and MP3s under GNU/Linux?"); ?></a></li>
         </ul>
 
         <h3><?php print _("Gaming"); ?></h3>
@@ -90,7 +90,7 @@ $this->load_header();
         print _("There is a very active free software game development community though, and they have produced quite a few high-quality games, both 2D and 3D, that are free software. You can head to the <a href=\"https://ubuntuforums.org/forumdisplay.php?f=93\" rel=\"external\">Ubuntu gaming forum</a> to find more information. And with the release of the popular Steam platform to GNU/Linux, the number of <a href=\"https://store.steampowered.com/linux\" rel=\"external\">GNU/Linux supported games on Steam</a> has been growing rapidly."); ?></p>
         <p><?php print _("Read more in our GNU/Linux FAQ:"); ?></p>
         <ul class="browser-default">
-          <li><a href="<?php $this->base_url('linux/linux_faq'); ?>#games"><?php print _("Can I play popular 3D games under GNU/Linux?"); ?></a></li>
+          <li><a href="<?php $this->base_url('linux/faq'); ?>#games"><?php print _("Can I play popular 3D games under GNU/Linux?"); ?></a></li>
         </ul>
 
         <h3><?php print _("Hibernating"); ?></h3>

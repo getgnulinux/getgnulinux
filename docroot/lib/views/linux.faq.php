@@ -258,7 +258,7 @@ $this->load_header();
               <p><?php print _("Here's the short version of the answer: No. If you simply <em>never run untrusted executables while logged in as the root user (or equivalent)</em>, all the \"virus checkers\" in the world will be at best superfluous; at worst, downright harmful. \"Hostile\" executables (including viruses) are <em>almost unfindable</em> in the GNU/Linux world&mdash;and no real threat to it&mdash;because they lack superuser authority, and because GNU/Linux admins are seldom stupid enough to run untrusted executables as a superuser, <em>and</em> because GNU/Linux users' customary and recommended sources for privileged executables enjoy paranoid-grade scrutiny (such that any unauthorised changes would be detected and remedied)."); ?></p>
               <p><?php print _("Here's the long version: <em>Still</em> no. Any program on a GNU/Linux box, viruses included, can only do what the user who ran it can do. Real users aren't allowed to hurt the system (only a superuser account can), so neither can programs they run."); ?></p>
               <p><?php $p = _("See our \"<a href=\"%s\">GNU/Linux virus FAQ</a>\" for more details on this subject.");
-              printf($p, $this->get_base_url('linux/linux_faq/virus')); ?></p>
+              printf($p, $this->get_base_url('linux/faq/virus')); ?></p>
             </blockquote>
         </details>
       </section>

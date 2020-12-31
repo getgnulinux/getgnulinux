@@ -88,7 +88,7 @@ $this->load_header();
       <div class="container">
         <p><?php
         # TRANSLATORS: This is the conclusion of the article.
-        $p = _("Many people find that Windows, an otherwise decent piece of software, <strong>withdraws so many rights</strong> from them, that it is not worth them using it. macOS is <a href=\"%s#mac_freedom\">not much better</a>, either."); printf($p, $this->get_base_url('linux/linux_faq')); ?></p>
+        $p = _("Many people find that Windows, an otherwise decent piece of software, <strong>withdraws so many rights</strong> from them, that it is not worth them using it. macOS is <a href=\"%s#mac_freedom\">not much better</a>, either."); printf($p, $this->get_base_url('linux/faq')); ?></p>
         <p><?php $p = _("If you find <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title=\"what is freedom in software?\" rel=\"external\">free software</a> attractive, you might want to <a href=\"%s\" title=\"make the switch to GNU/Linux today!\">give GNU/Linux a try</a>."); printf($p, $this->get_base_url('switch_to_linux')); ?></p>
       </div>
     </section>

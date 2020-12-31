@@ -71,7 +71,7 @@ $this->load_header();
                 <p><?php $p = _("This FAQ covers common questions about GNU/Linux. We hope this FAQ list can help if you are more curious."); printf($p, $this->get_base_url('linux')); ?></p>
               </div>
               <div class="card-action">
-                <a href="<?php $this->base_url('linux/linux_faq'); ?>"><?php print _("Read more"); ?></a>
+                <a href="<?php $this->base_url('linux/faq'); ?>"><?php print _("Read more"); ?></a>
               </div>
             </div>
           </div>

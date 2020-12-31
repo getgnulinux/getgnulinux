@@ -178,7 +178,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
           <li id="footnote-1"><sup>^ <a href="#footnote-ref-1a">a</a> <a href="#footnote-ref-1b">b</a></sup>
             <?php # TRANSLATORS: This is the content of the footnote, at the bottom of the page
             $p = _("What we call \"Free Software\" here is also often called \"Open Source Software\". In practice the requirements are identical, although because the term \"open\" doesn't call to mind freedom, it <a href=\"https://www.gnu.org/philosophy/open-source-misses-the-point.html\" rel=\"external\">misses the point</a>. Read our FAQ entry: <a href=\"%s#open_source\">Are \"Open Source\" and \"Free Software\" the same thing?</a>.");
-            printf($p, $this->get_base_url('linux/linux_faq')); ?>
+            printf($p, $this->get_base_url('linux/faq')); ?>
           </li>
         </ol>
       </div>

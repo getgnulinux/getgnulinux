@@ -432,7 +432,7 @@ $this->load_header();
       <br>
 
       <aside>
-        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('linux/linux_faq'); ?>">
+        <a class="waves-effect waves-light btn-large light-green darken-4" href="<?php $this->base_url('linux/faq'); ?>">
           <?php print _("GNU/Linux FAQ"); ?>
           <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">expand_less</i>
         </a>

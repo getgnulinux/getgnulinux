@@ -1,6 +1,9 @@
 # Do not display file lists.
 Options -Indexes
 
+# Redirect old URLs.
+Redirect 301 "/linux/linux_faq" "/linux/faq"
+
 # Set custom not found page.
 ErrorDocument 404 /index.php?p=404
 
