@@ -218,6 +218,8 @@ class GGL {
             'linux' => _("What is GNU/Linux?"),
             # TRANSLATORS: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
             'linux.faq' => _("GNU/Linux FAQ - common questions about GNU/Linux"),
+            # TRANSLATORS: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
+            'linux.faq.virus' => _("GNU/Linux virus FAQ"),
             # TRANSLATORS: Here the intent is to be a little provocative. Exact translation is not required.
             'linux.misunderstanding_free_software' => _("How to Misunderstand Free Software"),
             'linux.linux_is_not_windows' => _("GNU/Linux is not Windows"),
@@ -253,6 +255,8 @@ class GGL {
             'linux' => _("What is GNU/Linux? A clear explanation."),
             # TRANSLATORS: This is the description of the 'GNU/Linux FAQ' page
             'linux.faq' => _("Frequently Asked Questions about GNU/Linux."),
+            # TRANSLATORS: This is the description of the 'GNU/Linux virus FAQ' page
+            'linux.faq.virus' => _("Should I install anti-virus software under GNU/Linux?"),
             # TRANSLATORS: This is the description of the 'Misunderstanding Free Software' page
             'linux.misunderstanding_free_software' => _("An unconventional way to (re)discover free software."),
             # TRANSLATORS: This is the description of the 'GNU/Linux is not Windows' page

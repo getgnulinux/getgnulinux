@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
-"POT-Creation-Date: 2020-12-30 22:10+0000\n"
+"POT-Creation-Date: 2020-12-31 10:34+0000\n"
 "PO-Revision-Date: 2020-12-13 02:41+0000\n"
 "Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/getgnulinux/"
@@ -54,7 +54,7 @@ msgstr "Condiciones de uso"
 #. TRANSLATORS: This is the title of the 'More' page.
 #: docroot/lib/ggl.php:216 docroot/lib/views/more.php:16
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:52
-#: docroot/lib/views/linux.linux_faq.php:272 src/templates/footer.php:24
+#: docroot/lib/views/linux.faq.php:272 src/templates/footer.php:24
 #: src/templates/header.php:47 src/templates/header.php:50
 #: src/templates/header.php:84
 msgid "More"
@@ -64,7 +64,7 @@ msgstr "Más detalles"
 #: docroot/lib/ggl.php:218 docroot/lib/views/home.php:25
 #: docroot/lib/views/linux.php:13
 #: docroot/lib/views/linux.misunderstanding_free_software.php:171
-#: docroot/lib/views/linux.linux_faq.php:284 src/templates/header.php:44
+#: docroot/lib/views/linux.faq.php:284 src/templates/header.php:44
 #: src/templates/header.php:53 src/templates/header.php:80
 msgid "What is GNU/Linux?"
 msgstr "¿Qué es GNU/Linux?"
@@ -74,24 +74,29 @@ msgstr "¿Qué es GNU/Linux?"
 msgid "GNU/Linux FAQ - common questions about GNU/Linux"
 msgstr "FAQ de GNU / Linux - preguntas comunes sobre GNU / Linux"
 
-#. TRANSLATORS: Here the intent is to be a little provocative. Exact translation is not required.
+#. TRANSLATORS: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
 #: docroot/lib/ggl.php:222
+#, fuzzy
+msgid "GNU/Linux virus FAQ"
+msgstr "¡Cámbiate a GNU/Linux!"
+
+#. TRANSLATORS: Here the intent is to be a little provocative. Exact translation is not required.
+#: docroot/lib/ggl.php:224
 #: docroot/lib/views/windows.stand_for_a_free_society.php:145
 #: docroot/lib/views/linux.php:81
 #: docroot/lib/views/linux.misunderstanding_free_software.php:19
-#: docroot/lib/views/linux.linux_faq.php:100
-#: docroot/lib/views/linux.linux_faq.php:144
-#: docroot/lib/views/linux.linux_faq.php:155
+#: docroot/lib/views/linux.faq.php:100 docroot/lib/views/linux.faq.php:144
+#: docroot/lib/views/linux.faq.php:155
 msgid "How to Misunderstand Free Software"
 msgstr "Como malinterpretar el software libre"
 
-#: docroot/lib/ggl.php:223 docroot/lib/views/linux.php:96
+#: docroot/lib/ggl.php:225 docroot/lib/views/linux.php:96
 #, fuzzy
 msgid "GNU/Linux is not Windows"
 msgstr "Por qué no Windows"
 
 #. TRANSLATORS: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
-#: docroot/lib/ggl.php:225 docroot/lib/views/windows.php:16
+#: docroot/lib/ggl.php:227 docroot/lib/views/windows.php:16
 #: docroot/lib/views/windows.restrictions.php:78
 #: docroot/lib/views/windows.stand_for_a_free_society.php:156
 #: docroot/lib/views/home.php:36
@@ -104,57 +109,57 @@ msgid "Why not Windows"
 msgstr "Por qué no Windows"
 
 #. TRANSLATORS: This title can be translated loosely
-#: docroot/lib/ggl.php:227 docroot/lib/views/windows.php:29
+#: docroot/lib/ggl.php:229 docroot/lib/views/windows.php:29
 #: docroot/lib/views/windows.restrictions.php:16
 #: docroot/lib/views/windows.restrictions.further_details.php:81
 msgid "Restrictions"
 msgstr "Restricciones"
 
 #. TRANSLATORS: This title can be translated loosely
-#: docroot/lib/ggl.php:229
+#: docroot/lib/ggl.php:231
 #: docroot/lib/views/windows.restrictions.further_details.php:16
 msgid "More details on restrictions"
 msgstr "Más detalles acerca de las restricciones"
 
 #. TRANSLATORS: This title can be translated loosely
-#: docroot/lib/ggl.php:231 docroot/lib/views/windows.php:71
-#: docroot/lib/views/linux.linux_faq.php:197
+#: docroot/lib/ggl.php:233 docroot/lib/views/windows.php:71
+#: docroot/lib/views/linux.faq.php:197
 msgid "Stand for a free society"
 msgstr "Por una sociedad libre"
 
 #. TRANSLATORS: This title can be translated loosely
-#: docroot/lib/ggl.php:233 docroot/lib/views/windows.php:43
+#: docroot/lib/ggl.php:235 docroot/lib/views/windows.php:43
 #: docroot/lib/views/windows.what_about_choice.php:16
 msgid "What about choice?"
 msgstr "¿Qué hay de la elección?"
 
 #. TRANSLATORS: This title can be translated loosely
-#: docroot/lib/ggl.php:235 docroot/lib/views/windows.php:58
+#: docroot/lib/ggl.php:237 docroot/lib/views/windows.php:58
 msgid "No source code"
 msgstr "Sin código fuente"
 
 #. TRANSLATORS: This appears in the top header menu and should be as short and concise as possible.
-#: docroot/lib/ggl.php:237 docroot/lib/views/windows.php:98
+#: docroot/lib/ggl.php:239 docroot/lib/views/windows.php:98
 #: docroot/lib/views/home.php:47 docroot/lib/views/linux.php:125
 #: docroot/lib/views/switch_to_linux.php:16 src/templates/header.php:46
 #: src/templates/header.php:51 src/templates/header.php:83
 msgid "Switch to GNU/Linux"
 msgstr "Cambiar a GNU/Linux"
 
-#: docroot/lib/ggl.php:238
+#: docroot/lib/ggl.php:240
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:35
 #: docroot/lib/views/switch_to_linux.php:34
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:123
 msgid "Choose a distribution"
 msgstr "Escoge una distribución"
 
-#: docroot/lib/ggl.php:239 docroot/lib/views/switch_to_linux.php:22
+#: docroot/lib/ggl.php:241 docroot/lib/views/switch_to_linux.php:22
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:16
 msgid "From Windows to GNU/Linux"
 msgstr "De Windows a GNU/Linux"
 
 #. TRANSLATORS: This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
-#: docroot/lib/ggl.php:241
+#: docroot/lib/ggl.php:243
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:141
 #: docroot/lib/views/switch_to_linux.php:45
 #: docroot/lib/views/switch_to_linux.try_or_install.php:14
@@ -163,12 +168,12 @@ msgstr "Prueba o instala"
 
 #. TRANSLATORS: The title for the custom "Page Not Found" page.
 #. TRANSLATORS: Title for the Page Not Found page.
-#: docroot/lib/ggl.php:243 docroot/lib/views/404.php:16
+#: docroot/lib/ggl.php:245 docroot/lib/views/404.php:16
 msgid "Page Not Found"
 msgstr "Página No Encontrada"
 
 #. TRANSLATORS: This is the description of the homepage, and it appears in Google results! Please pay particular attention to this one =)
-#: docroot/lib/ggl.php:249
+#: docroot/lib/ggl.php:251
 msgid ""
 "Get GNU/Linux! A simple, clear website about GNU/Linux. What is GNU/Linux? "
 "Why not Windows? Tips to make the switch."
@@ -177,27 +182,32 @@ msgstr ""
 "es GNU / Linux? ¿Por qué no Windows? Consejos para hacer el cambio."
 
 #. TRANSLATORS: This is the description of the 'More' page
-#: docroot/lib/ggl.php:251
+#: docroot/lib/ggl.php:253
 msgid "Read and discover more about GNU/Linux."
 msgstr "Lee y descubre mas sobre GNU/Linux"
 
 #. TRANSLATORS: This is the description of the 'Linux' page
-#: docroot/lib/ggl.php:253
+#: docroot/lib/ggl.php:255
 msgid "What is GNU/Linux? A clear explanation."
 msgstr "¿Qué es GNU / Linux? Una explicación clara."
 
 #. TRANSLATORS: This is the description of the 'GNU/Linux FAQ' page
-#: docroot/lib/ggl.php:255
+#: docroot/lib/ggl.php:257
 msgid "Frequently Asked Questions about GNU/Linux."
 msgstr "Preguntas frecuentes sobre GNU/Linux"
 
+#. TRANSLATORS: This is the description of the 'GNU/Linux virus FAQ' page
+#: docroot/lib/ggl.php:259 docroot/lib/views/linux.faq.php:256
+msgid "Should I install anti-virus software under GNU/Linux?"
+msgstr ""
+
 #. TRANSLATORS: This is the description of the 'Misunderstanding Free Software' page
-#: docroot/lib/ggl.php:257
+#: docroot/lib/ggl.php:261
 msgid "An unconventional way to (re)discover free software."
 msgstr "Una forma poco convencional de (re)descubrir el software libre."
 
 #. TRANSLATORS: This is the description of the 'GNU/Linux is not Windows' page
-#: docroot/lib/ggl.php:259 docroot/lib/views/linux.php:97
+#: docroot/lib/ggl.php:263 docroot/lib/views/linux.php:97
 msgid ""
 "If you wish GNU/Linux to be just exactly like Windows, you will probably be "
 "disappointed. GNU/Linux is built by people who simply wish it to be "
@@ -205,52 +215,52 @@ msgid ""
 msgstr ""
 
 #. TRANSLATORS: This is the description of the 'Why not Windows' page
-#: docroot/lib/ggl.php:261
+#: docroot/lib/ggl.php:265
 msgid "Four good reasons to avoid proprietary software."
 msgstr "Cuatro buenas razones para evitar el software propietario."
 
 #. TRANSLATORS: This is the description of the 'Restrictions' page
-#: docroot/lib/ggl.php:263
+#: docroot/lib/ggl.php:267
 msgid "Restrictions in a proprietary software license."
 msgstr "Restricciones en las licencias de software propietario."
 
 #. TRANSLATORS: This is the description of the 'Restrictions further details' page
-#: docroot/lib/ggl.php:265
+#: docroot/lib/ggl.php:269
 msgid "Restrictions in a proprietary software license - more details."
 msgstr "Restricciones en las licencias de software propietario - más detalles."
 
 #. TRANSLATORS: This is the description of the 'Stand for a free society' page
-#: docroot/lib/ggl.php:267
+#: docroot/lib/ggl.php:271
 msgid "How software affects freedom in society."
 msgstr "Cómo el software afecta la libertad en la sociedad."
 
 #. TRANSLATORS: This is the description of the 'What about choice' page
-#: docroot/lib/ggl.php:269
+#: docroot/lib/ggl.php:273
 msgid "How Microsoft lock customers in."
 msgstr "Como Microsoft bloquea a sus clientes."
 
 #. TRANSLATORS: This is the description of the 'What about source code' page
-#: docroot/lib/ggl.php:271
+#: docroot/lib/ggl.php:275
 msgid "No source code means no trust and no security."
 msgstr "Sin código abierto, no hay confianza ni seguridad."
 
 #. TRANSLATORS: This is the description of the 'Switch to GNU/Linux' page
-#: docroot/lib/ggl.php:273
+#: docroot/lib/ggl.php:277
 msgid "Switch to GNU/Linux: Good tips and advice."
 msgstr "Cámbiate a GNU / Linux: Consejos y sugerencias"
 
 #. TRANSLATORS: This is the description of the 'Choose a distribution' page
-#: docroot/lib/ggl.php:275
+#: docroot/lib/ggl.php:279
 msgid "Recommended GNU/Linux distributions for everyday users."
 msgstr "Distribuciones recomendadas de GNU / Linux para el uso diario "
 
 #. TRANSLATORS: This is the description of the 'From Windows to GNU/Linux' page
-#: docroot/lib/ggl.php:277
+#: docroot/lib/ggl.php:281
 msgid "The advantages and disadvantages of GNU/Linux over Windows."
 msgstr "Ventajas y desventajas de Linux sobre Windows."
 
 #. TRANSLATORS: This is the description of the 'Try or Install' page. This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
-#: docroot/lib/ggl.php:279
+#: docroot/lib/ggl.php:283
 msgid "Try or install GNU/Linux on your computer, very easily."
 msgstr "Prueba o instala Linux en tu computador, fácilmente."
 
@@ -1444,7 +1454,7 @@ msgid ""
 "computers (often developed by volunteers)."
 msgstr ""
 
-#: docroot/lib/views/linux.php:27 docroot/lib/views/linux.linux_faq.php:212
+#: docroot/lib/views/linux.php:27 docroot/lib/views/linux.faq.php:212
 msgid "Using GNU/Linux"
 msgstr "Usar GNU/Linux"
 
@@ -2804,7 +2814,7 @@ msgid "Read more in our GNU/Linux FAQ:"
 msgstr "Lea más en nuestras Preguntas Frequentes de GNU/Linux:"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:84
-#: docroot/lib/views/linux.linux_faq.php:230
+#: docroot/lib/views/linux.faq.php:230
 msgid "Can I play my DVDs and MP3s under GNU/Linux?"
 msgstr "¿Puedo reproducir mis DVDs y MP3s en GNU/Linux?"
 
@@ -2834,7 +2844,7 @@ msgid ""
 msgstr ""
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:93
-#: docroot/lib/views/linux.linux_faq.php:248
+#: docroot/lib/views/linux.faq.php:248
 msgid "Can I play popular 3D games under GNU/Linux?"
 msgstr "¿Puedo jugar juegos 3D en GNU/Linux?"
 
@@ -3066,11 +3076,11 @@ msgstr ""
 "¿En cuál confiarías: En el software que no se puede inspeccionar o el que "
 "viene con su receta? "
 
-#: docroot/lib/views/linux.linux_faq.php:14
+#: docroot/lib/views/linux.faq.php:14
 msgid "Frequently asked questions"
 msgstr "Preguntas frecuentes sobre Linux"
 
-#: docroot/lib/views/linux.linux_faq.php:17
+#: docroot/lib/views/linux.faq.php:17
 #, php-format
 msgid ""
 "<a href=\"%s\">Our page about GNU/Linux</a> covers the essential "
@@ -3079,22 +3089,22 @@ msgstr ""
 "<a href=\"%s\">Nuestra página sobre GNU/Linux</a> cubre la información "
 "esencial. Esperamos que este FAQ te pueda ayudar si tienes mayor curiosidad."
 
-#: docroot/lib/views/linux.linux_faq.php:23
+#: docroot/lib/views/linux.faq.php:23
 msgid "General Questions"
 msgstr "Preguntas generales"
 
-#: docroot/lib/views/linux.linux_faq.php:25
+#: docroot/lib/views/linux.faq.php:25
 msgid "Are &quot;GNU/Linux&quot; and &quot;Linux&quot; any different?"
 msgstr "¿Hay alguna diferencia entre \"GNU/Linux\" y \"Linux\"?"
 
 #. TRANSLATORS: This is italic text just below the question, which elaborates a little on it.
-#: docroot/lib/views/linux.linux_faq.php:29
+#: docroot/lib/views/linux.faq.php:29
 msgid ""
 "You keep referring to one and the other alternatively. What is this all "
 "about?"
 msgstr "Se refieren a uno y a otro alternadamente, ¿hay alguna diferencia?"
 
-#: docroot/lib/views/linux.linux_faq.php:31
+#: docroot/lib/views/linux.faq.php:31
 msgid ""
 "Originally, <strong>Linux</strong> refers to a core component (called the "
 "kernel) that fits within the <strong>GNU</strong> system. What users run "
@@ -3105,7 +3115,7 @@ msgstr ""
 "sistema <strong>GNU</strong>. Lo que los usuarios usan en sus equipos en "
 "realidad se llama \"<em>distribución del sistema GNU/Linux</em>\"."
 
-#: docroot/lib/views/linux.linux_faq.php:32
+#: docroot/lib/views/linux.faq.php:32
 msgid ""
 "In practice, the word \"Linux\" caught on much better (unsurprisingly), and "
 "today people refer to the whole system as simply \"Linux\". This causes a "
@@ -3116,7 +3126,7 @@ msgstr ""
 "al sistema entero. No creerías la controversia que genera este hecho."
 
 #. TRANSLATORS: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
-#: docroot/lib/views/linux.linux_faq.php:35
+#: docroot/lib/views/linux.faq.php:35
 msgid ""
 "Calling the system <em>GNU/Linux</em> is much more meaningful, technically "
 "(end-users use a lot of \"GNU\" and a little of \"Linux\") but also "
@@ -3126,7 +3136,7 @@ msgid ""
 "\"external\">the GNU project</a>."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:36
+#: docroot/lib/views/linux.faq.php:36
 msgid ""
 "Calling the system <em>Linux</em> is more practical and appealing for "
 "computer users that often believe Windows is the only thing on earth."
@@ -3134,7 +3144,7 @@ msgstr ""
 "Llamar <em>Linux</em> al sistema es más práctico y simple para usuarios de "
 "equipos que suelen creen que Windows es lo único sobre la tierra."
 
-#: docroot/lib/views/linux.linux_faq.php:37
+#: docroot/lib/views/linux.faq.php:37
 msgid ""
 "To avoid confusion, we use \"GNU/Linux\" to refer to operating system "
 "distributions that include <a href=\"https://www.gnu.org/\" rel=\"external"
@@ -3143,12 +3153,12 @@ msgid ""
 "we refer to the kernel."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:42
+#: docroot/lib/views/linux.faq.php:42
 msgid "And what has that software to do with a GNU?"
 msgstr "¿Y qué tiene que ver ese software con GNU?"
 
 #. TRANSLATORS: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
-#: docroot/lib/views/linux.linux_faq.php:46
+#: docroot/lib/views/linux.faq.php:46
 msgid ""
 "When Richard Stallman started to design GNU, the main system in use was "
 "Unix, which is proprietary. Because GNU is similar in function to (and "
@@ -3160,22 +3170,22 @@ msgid ""
 "gnu.org/software/hurd/hurd.html\" rel=\"external\">GNU Hurd</a> means."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:51
+#: docroot/lib/views/linux.faq.php:51
 msgid "Is Linux a registered trademark?"
 msgstr "¿Es Linux una marca registrada?"
 
-#: docroot/lib/views/linux.linux_faq.php:53
+#: docroot/lib/views/linux.faq.php:53
 msgid ""
 "Yes. You cannot sell any random software under the name of Linux&reg;. The "
 "trademark is held by <a href=\"http://www.linuxmark.org/\" rel=\"external"
 "\">the Linux Mark Institute</a>."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:58
+#: docroot/lib/views/linux.faq.php:58
 msgid "Is GNU/Linux the only free operating system available?"
 msgstr "¿Es GNU/Linux el único sistema operativo libre disponible?"
 
-#: docroot/lib/views/linux.linux_faq.php:60
+#: docroot/lib/views/linux.faq.php:60
 msgid ""
 "No. GNU/Linux is by far the most widely used free system; however a number "
 "of other systems exist."
@@ -3183,7 +3193,7 @@ msgstr ""
 "No. GNU/Linux sólo es el sistema libre más usado; sin embargo, existe un "
 "número de sistemas que también son libres."
 
-#: docroot/lib/views/linux.linux_faq.php:61
+#: docroot/lib/views/linux.faq.php:61
 msgid ""
 "These include the UNIX derivatives <a href=\"https://freebsd.org/\" rel="
 "\"external\">FreeBSD</a>, <a href=\"https://netbsd.org/\" rel=\"external"
@@ -3195,12 +3205,12 @@ msgid ""
 "\"external\">Syllable</a>, just to name a few."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:66
+#: docroot/lib/views/linux.faq.php:66
 msgid "Is macOS a distribution of GNU/Linux?"
 msgstr "¿Es macOS una distribución de GNU/Linux?"
 
 #. TRANSLATORS: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
-#: docroot/lib/views/linux.linux_faq.php:70
+#: docroot/lib/views/linux.faq.php:70
 #, php-format
 msgid ""
 "No. There are a few <a href=\"https://www.gnu.org/philosophy/free-sw.html\" "
@@ -3210,16 +3220,16 @@ msgid ""
 "well."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:76
+#: docroot/lib/views/linux.faq.php:76
 msgid "Understanding free software"
 msgstr "Comprendiendo el software libre"
 
-#: docroot/lib/views/linux.linux_faq.php:79
+#: docroot/lib/views/linux.faq.php:79
 msgid ""
 "Are &quot;Open Source&quot; and &quot;Free Software&quot; the same thing?"
 msgstr "¿Son lo mismo el \"Open Source\" y el \"Software Libre\"?"
 
-#: docroot/lib/views/linux.linux_faq.php:81
+#: docroot/lib/views/linux.faq.php:81
 msgid ""
 "Yes and no. Technically, the great majority of open source programs are free "
 "software and vice-versa."
@@ -3227,7 +3237,7 @@ msgstr ""
 "Sí y no. Técnicamente, la inmensa mayoría de los programas de código abierto "
 "son gratuitos y vice-versa."
 
-#: docroot/lib/views/linux.linux_faq.php:82
+#: docroot/lib/views/linux.faq.php:82
 msgid ""
 "In terms of philosophy, things are quite different. The term &quot;open "
 "source&quot; was coined to make &quot;free software&quot; more attractive, "
@@ -3237,7 +3247,7 @@ msgstr ""
 "acuñado para hacer ver al \"software libre\" más atractivo; quienes lo "
 "apoyan lo ven como una mejor forma de desarrollar software."
 
-#: docroot/lib/views/linux.linux_faq.php:83
+#: docroot/lib/views/linux.faq.php:83
 msgid ""
 "Supporters of the \"free software\" term value the freedom, not merely the "
 "way software is made, and thus argue that the term \"open source\" <a href="
@@ -3245,31 +3255,31 @@ msgid ""
 "\"external\">misses the point</a>."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:84
+#: docroot/lib/views/linux.faq.php:84
 msgid "Which term you employ simply depends on your vision of software."
 msgstr "El término que decidas usar dependerá de tu visión del software."
 
-#: docroot/lib/views/linux.linux_faq.php:89
+#: docroot/lib/views/linux.faq.php:89
 msgid "Why are some GNU/Linux distributions sold, not given away?"
 msgstr ""
 "¿Por qué se venden algunas distribuciones de GNU/Linux, en vez de regalarlas?"
 
 #. TRANSLATORS: This is italic text just below the question, which elaborates a little on it.
-#: docroot/lib/views/linux.linux_faq.php:93
+#: docroot/lib/views/linux.faq.php:93
 msgid ""
 "Some websites actually <em>sell</em> distributions of GNU/Linux. So, why do "
 "you write it is \"free as speech and available at no charge\"?"
 msgstr ""
 
 #. TRANSLATORS: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
-#: docroot/lib/views/linux.linux_faq.php:96
+#: docroot/lib/views/linux.faq.php:96
 msgid ""
 "The concept of <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel="
 "\"external\">free software</a>, refers to freedom, not price. You have the "
 "freedom to copy, study, modify, and give free software away."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:97
+#: docroot/lib/views/linux.faq.php:97
 msgid ""
 "Most companies developing free software make money by selling "
 "<strong>services</strong> around their software, rather than the software "
@@ -3283,28 +3293,28 @@ msgstr ""
 "paquete: El cliente compra el CD, el manual y el servicio de soporte técnico "
 "de una vez. Y el software aún garantiza tus derechos."
 
-#: docroot/lib/views/linux.linux_faq.php:98
+#: docroot/lib/views/linux.faq.php:98
 msgid "More:"
 msgstr "Más:"
 
-#: docroot/lib/views/linux.linux_faq.php:101
+#: docroot/lib/views/linux.faq.php:101
 msgid "FLOSS concept booklet"
 msgstr "Libreta de conceptos FLOSS"
 
-#: docroot/lib/views/linux.linux_faq.php:107
+#: docroot/lib/views/linux.faq.php:107
 msgid "Why are some GNU/Linux distributions not fully free?"
 msgstr ""
 "¿Por qué hay algunas distribuciones de GNU/Linux que no son completamente "
 "gratuitas?"
 
 #. TRANSLATORS: This is italic text just below the question, which elaborates a little on it.
-#: docroot/lib/views/linux.linux_faq.php:111
+#: docroot/lib/views/linux.faq.php:111
 msgid ""
 "Some GNU/Linux distributions are available at no charge, but include "
 "restrictive software. Why is it so?"
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:112
+#: docroot/lib/views/linux.faq.php:112
 msgid ""
 "There are typically three types of policies regarding the inclusion of non-"
 "free software:"
@@ -3312,7 +3322,7 @@ msgstr ""
 "Normalmente hay tres tipos de políticas relacionadas con la inclusión del "
 "software privativo:"
 
-#: docroot/lib/views/linux.linux_faq.php:114
+#: docroot/lib/views/linux.faq.php:114
 msgid ""
 "Some GNU/Linux distributors allow non-free software in order to enable "
 "hardware functionality."
@@ -3321,7 +3331,7 @@ msgstr ""
 "privativo para que algunos dispositivos de hardware funcionen."
 
 #. TRANSLATORS: If it exits, please use the URL of the official Ubuntu homepage localized in your language.
-#: docroot/lib/views/linux.linux_faq.php:116
+#: docroot/lib/views/linux.faq.php:116
 msgid ""
 "This happens because some hardware manufacturers such as NVidia do not care "
 "about their customers' freedoms, and only release restricting firmware and "
@@ -3331,7 +3341,7 @@ msgid ""
 "\">Ubuntu</a> thus include such components to improve hardware compatibility."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:117
+#: docroot/lib/views/linux.faq.php:117
 msgid ""
 "Some GNU/Linux distributors do not compromise on the freedom of software, "
 "and make sure their distribution are entirely free. Such is the case of <a "
@@ -3339,7 +3349,7 @@ msgid ""
 "Ubuntu derivative with all restricting components removed."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:118
+#: docroot/lib/views/linux.faq.php:118
 #, php-format
 msgid ""
 "Some GNU/Linux distributors assemble free and restrictive software without "
@@ -3356,15 +3366,15 @@ msgstr ""
 "usar  <a href=\"%s\">Windows</a>. ¡Nosotros valoramos tu libertad y te "
 "recomendamos que escojas con cuidado!"
 
-#: docroot/lib/views/linux.linux_faq.php:124
+#: docroot/lib/views/linux.faq.php:124
 msgid "Is macOS also a free operating system?"
 msgstr "¿Es también macOS un sistema operativo gratuito?"
 
-#: docroot/lib/views/linux.linux_faq.php:126
+#: docroot/lib/views/linux.faq.php:126
 msgid "Do all the reasons for avoiding Windows apply to macOS?"
 msgstr "¿Se aplican acaso todas las razones para evitar WIndows en macOS?"
 
-#: docroot/lib/views/linux.linux_faq.php:127
+#: docroot/lib/views/linux.faq.php:127
 #, php-format
 msgid ""
 "It's quite common for Mac users to believe they are exempt from <a href=\"%s"
@@ -3375,7 +3385,7 @@ msgstr ""
 "\">restricciones asociados con el uso de Windows</a>. Desafortunadamente se "
 "equivocan."
 
-#: docroot/lib/views/linux.linux_faq.php:128
+#: docroot/lib/views/linux.faq.php:128
 msgid ""
 "macOS does have some low-level components which are <a href=\"https://www."
 "gnu.org/philosophy/free-sw.html\" rel=\"external\">free software</a>; and "
@@ -3383,32 +3393,32 @@ msgid ""
 "as BootCamp)."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:129
+#: docroot/lib/views/linux.faq.php:129
 msgid ""
 "However, the end-user is still fundamentally restricted &mdash; because of "
 "the proprietary license, he/she cannot use macOS for all purposes, nor copy, "
 "study, modify, or redistribute it."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:130
+#: docroot/lib/views/linux.faq.php:130
 msgid ""
 "Happily, because these freedoms matter a lot, it's possible to run popular "
 "GNU/Linux distributions (such as <a href=\"https://www.ubuntu.com/\" rel="
 "\"external\">Ubuntu</a>) on Mac computers."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:135
+#: docroot/lib/views/linux.faq.php:135
 msgid "Aren't GNU/Linux users the ones who make illegal downloads?"
 msgstr "¿No son acaso los usuarios de GNU/Linux los que descargan ilegalmente?"
 
 #. TRANSLATORS: This is italic text just below the question, which elaborates a little on it.
-#: docroot/lib/views/linux.linux_faq.php:139
+#: docroot/lib/views/linux.faq.php:139
 msgid ""
 "Isn't GNU/Linux about cracking, &quot;piracy&quot; and illegal download "
 "websites?"
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:140
+#: docroot/lib/views/linux.faq.php:140
 msgid ""
 "No. Wherever you read or heard this, you should update your views. GNU/Linux "
 "is completely distinct from such things. Whether you want to do them, or "
@@ -3419,7 +3429,7 @@ msgid ""
 "same thing goes for their operating system."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:141
+#: docroot/lib/views/linux.faq.php:141
 msgid ""
 "GNU/Linux was made by people who don't like the thought of all the world's "
 "computers running just one company's proprietary products. There is "
@@ -3430,24 +3440,24 @@ msgstr ""
 "compañía. ¡Y eso, definitivamente no tiene nada de malo!"
 
 #. TRANSLATORS: The link here points to the "misunderstanding_free_software" article.
-#: docroot/lib/views/linux.linux_faq.php:144
+#: docroot/lib/views/linux.faq.php:144
 #, php-format
 msgid "Read more in the article: <a href=\"%s\">%s</a>."
 msgstr "Leer más en el artículo: <a href=\"%s\">%s</a>."
 
-#: docroot/lib/views/linux.linux_faq.php:149
+#: docroot/lib/views/linux.faq.php:149
 msgid "Is GNU/Linux a form of communism?"
 msgstr "¿Es GNU/Linux una forma de comunismo?"
 
 #. TRANSLATORS: This is italic text just below the question, which elaborates a little on it.
-#: docroot/lib/views/linux.linux_faq.php:153
+#: docroot/lib/views/linux.faq.php:153
 msgid ""
 "\"Everything has to be free\" and \"No one owns anything\" sounds somewhat "
 "frightening. Are GNU/Linux and its <abbr title=\"GNU General Public License"
 "\">GPL</abbr> License something for anarchists or communists?"
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:157
+#: docroot/lib/views/linux.faq.php:157
 #, php-format
 msgid ""
 "GNU/Linux has nothing to do with a political system and anyone &mdash; "
@@ -3455,16 +3465,16 @@ msgid ""
 "explained simply in our article %s."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:164
+#: docroot/lib/views/linux.faq.php:164
 msgid "Installing GNU/Linux"
 msgstr "Instalar GNU/Linux:"
 
-#: docroot/lib/views/linux.linux_faq.php:167
+#: docroot/lib/views/linux.faq.php:167
 msgid "Does GNU/Linux come pre-installed on computers?"
 msgstr "¿Viene GNU/Linux preinstalado en ordenadores?"
 
 #. TRANSLATORS: If LinuxPreloaded has not been localized to your language, please leave the URL to linuxpreloaded.com.
-#: docroot/lib/views/linux.linux_faq.php:171
+#: docroot/lib/views/linux.faq.php:171
 msgid ""
 "Yes it does. <a href=\"https://linuxpreloaded.com/\" title=\"GNU/Linux "
 "laptops\" rel=\"external\">LinuxPreloaded.com</a> has built a website "
@@ -3477,7 +3487,7 @@ msgstr ""
 "con GNU/Linux."
 
 #. TRANSLATORS: please leave the "#new_computer" element as such. It is an internal link.
-#: docroot/lib/views/linux.linux_faq.php:174
+#: docroot/lib/views/linux.faq.php:174
 msgid ""
 "Note that <a href=\"#new_computer\">buying new hardware is not necessary</a> "
 "to use GNU/Linux!"
@@ -3485,11 +3495,11 @@ msgstr ""
 "¡Y ten en cuenta que <a href=\"#new_computer\">no hace falta comprar un "
 "nuevo computador</a> para usar GNU/Linux!"
 
-#: docroot/lib/views/linux.linux_faq.php:179
+#: docroot/lib/views/linux.faq.php:179
 msgid "Can I get GNU/Linux in my own language?"
 msgstr "¿Puedo obtener GNU/Linux en mi idioma?"
 
-#: docroot/lib/views/linux.linux_faq.php:181
+#: docroot/lib/views/linux.faq.php:181
 #, php-format
 msgid ""
 "Yes. All main distributions, such as <a href=\"%s\">the ones we recommend</"
@@ -3500,7 +3510,7 @@ msgstr ""
 "recomendamos</a>, están disponibles en varios idiomas, y soportan muchos "
 "tipos de teclados."
 
-#: docroot/lib/views/linux.linux_faq.php:182
+#: docroot/lib/views/linux.faq.php:182
 msgid ""
 "Unlike Windows, all languages are included on each installation CD, so there "
 "is no need for you to download (or pay for!) another whole version to merely "
@@ -3510,24 +3520,24 @@ msgstr ""
 "instalación, así que no hace falta que descargue (o pague) una versión "
 "totalmente diferente para cambiar el lenguaje en su computador."
 
-#: docroot/lib/views/linux.linux_faq.php:187
+#: docroot/lib/views/linux.faq.php:187
 msgid "Is it legal to install GNU/Linux on my computer?"
 msgstr "¿Es legal instalar GNU/Linux en mi ordenador?"
 
 #. TRANSLATORS: This is italic text just below the question, which elaborates a little on it.
-#: docroot/lib/views/linux.linux_faq.php:191
+#: docroot/lib/views/linux.faq.php:191
 msgid ""
 "There is a shiny Windows sticker on it! Am I allowed to erase Windows or use "
 "it together with GNU/Linux?"
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:192
+#: docroot/lib/views/linux.faq.php:192
 msgid ""
 "Yes. It is absolutely, completely legal, provided of course it's your "
 "computer!"
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:193
+#: docroot/lib/views/linux.faq.php:193
 msgid ""
 "The sticker on it is purely marketing, it has no legal value. We believe it "
 "is <em>one fundamental right</em> to choose which software to run on our own "
@@ -3538,7 +3548,7 @@ msgstr ""
 "hardware."
 
 #. TRANSLATORS: If you do not know of a very good resource about DRM, please link to the Wikipedia article on DRM in your language.
-#: docroot/lib/views/linux.linux_faq.php:196
+#: docroot/lib/views/linux.faq.php:196
 #, php-format
 msgid ""
 "In fact this right is threatened by the rise of things such as <a href="
@@ -3547,17 +3557,17 @@ msgid ""
 "information."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:203
+#: docroot/lib/views/linux.faq.php:203
 msgid "Do I have to purchase a new computer to run GNU/Linux?"
 msgstr "¿Necesito comprar un nuevo ordenador para hacer funcionar GNU/Linux?"
 
-#: docroot/lib/views/linux.linux_faq.php:205
+#: docroot/lib/views/linux.faq.php:205
 msgid "Not at all. It will run happily on your own computer."
 msgstr ""
 "Definitivamente no será necesario. Funcionará perfectamente en tu computador "
 "actual."
 
-#: docroot/lib/views/linux.linux_faq.php:206
+#: docroot/lib/views/linux.faq.php:206
 #, php-format
 msgid ""
 "The only thing you might be worried about is using very recent special "
@@ -3568,11 +3578,11 @@ msgid ""
 "instead of or together with Windows."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:215
+#: docroot/lib/views/linux.faq.php:215
 msgid "Will Microsoft Office run on GNU/Linux?"
 msgstr "¿Funcionará Microsoft Office en GNU/Linux?"
 
-#: docroot/lib/views/linux.linux_faq.php:217
+#: docroot/lib/views/linux.faq.php:217
 msgid ""
 "No. It is technically possible to adapt Microsoft Office to GNU/Linux, but "
 "Microsoft isn't keen on allowing Office users to choose their operating "
@@ -3581,7 +3591,7 @@ msgid ""
 "opendocumentformat.org/\" rel=\"external\">the OpenDocument format</a>."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:218
+#: docroot/lib/views/linux.faq.php:218
 msgid ""
 "However, a complete, free, reliable office suite exists: <a href=\"https://"
 "www.libreoffice.org/\" rel=\"external\">LibreOffice</a>. Or you can choose "
@@ -3593,16 +3603,16 @@ msgid ""
 msgstr ""
 
 #. TRANSLATORS: If it exists, please use the localized URL of libreoffice.org. You can find localized URLs here: https://www.libreoffice.org/international-sites/
-#: docroot/lib/views/linux.linux_faq.php:221
+#: docroot/lib/views/linux.faq.php:221
 msgid "https://www.libreoffice.org/"
 msgstr "https://es.libreoffice.org/"
 
 #. TRANSLATORS: If it exists, please use the localized URL of openoffice.org. You can find localized URLs here: https://www.openoffice.org/projects/native-lang.html
-#: docroot/lib/views/linux.linux_faq.php:224
+#: docroot/lib/views/linux.faq.php:224
 msgid "https://www.openoffice.org/"
 msgstr "https://www.openoffice.org/es/"
 
-#: docroot/lib/views/linux.linux_faq.php:232
+#: docroot/lib/views/linux.faq.php:232
 msgid ""
 "The simple answer to this question would be &quot;yes&quot;, however this is "
 "only half the truth."
@@ -3610,7 +3620,7 @@ msgstr ""
 "La respuesta simple a esta pregunta sería \"sí\", sin embargo esto es sólo "
 "una verdad a medias."
 
-#: docroot/lib/views/linux.linux_faq.php:233
+#: docroot/lib/views/linux.faq.php:233
 msgid ""
 "Quite a few GNU/Linux distributions do not include MP3 playback software due "
 "to the patent situation of the MP3 format. These patent issues do not affect "
@@ -3619,7 +3629,7 @@ msgid ""
 "<strong>legally play MP3 files</strong>, for non-commercial use."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:234
+#: docroot/lib/views/linux.faq.php:234
 msgid ""
 "DVDs, on the other hand, are a more difficult situation. Most, if not all, "
 "DVDs are encrypted using a system called \"<abbr title=\"Content Scrambling "
@@ -3636,7 +3646,7 @@ msgstr ""
 "<code>libdvdcss</code>), en lugares como Estados Unidos y la Unión Europea "
 "es ilegal usarlo porque se estaría esquivando las restricciones impuestas."
 
-#: docroot/lib/views/linux.linux_faq.php:235
+#: docroot/lib/views/linux.faq.php:235
 msgid ""
 "There is a legal solution to play your DVDs on GNU/Linux where "
 "<code>libdvdcss</code> is illegal. The <a href=\"https://fluendo.com/\" rel="
@@ -3644,7 +3654,7 @@ msgid ""
 "that purpose which can be purchased from their website."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:236
+#: docroot/lib/views/linux.faq.php:236
 msgid ""
 "Non-encrypted DVDs, which include most home-made DVDs, play perfectly well "
 "with only free software."
@@ -3652,29 +3662,29 @@ msgstr ""
 "Sin embargo, los DVDs no encriptados, como la mayoría de los creados en "
 "casa, pueden reproducirse perfectamente usando sólo software libre."
 
-#: docroot/lib/views/linux.linux_faq.php:237
+#: docroot/lib/views/linux.faq.php:237
 msgid "More on the web:"
 msgstr "Más en la web:"
 
 #. TRANSLATORS: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
-#: docroot/lib/views/linux.linux_faq.php:240
+#: docroot/lib/views/linux.faq.php:240
 msgid "https://wiki.ubuntu.com/RestrictedFormats"
 msgstr "https://wiki.ubuntu.com/RestrictedFormats"
 
-#: docroot/lib/views/linux.linux_faq.php:240
+#: docroot/lib/views/linux.faq.php:240
 msgid "Ubuntu Restricted Formats"
 msgstr "Formatos Restringidos en Ubuntu (en inglés)"
 
 #. TRANSLATORS: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
-#: docroot/lib/views/linux.linux_faq.php:242
+#: docroot/lib/views/linux.faq.php:242
 msgid "https://fedoraproject.org/wiki/Forbidden_items"
 msgstr "https://fedoraproject.org/wiki/Forbidden_items"
 
-#: docroot/lib/views/linux.linux_faq.php:242
+#: docroot/lib/views/linux.faq.php:242
 msgid "Fedora Forbidden Items"
 msgstr "Elementos prohibidos en Fedora (en inglés)"
 
-#: docroot/lib/views/linux.linux_faq.php:250
+#: docroot/lib/views/linux.faq.php:250
 msgid ""
 "Yes and no. Some games, for example the Quake series, Rust, Counter-Strike, "
 "Tomb Raider, Portal, Left 4 Dead, and many more have GNU/Linux versions. "
@@ -3685,7 +3695,7 @@ msgid ""
 "GNU/Linux compatible games."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:251
+#: docroot/lib/views/linux.faq.php:251
 msgid ""
 "Most popular games, alas, only work on Windows and occasionally on macOS. "
 "Some Windows games can be run on GNU/Linux with <a href=\"https://www.winehq."
@@ -3696,11 +3706,7 @@ msgid ""
 "\"external\">their games database</a>."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:256
-msgid "Should I install anti-virus software under GNU/Linux?"
-msgstr ""
-
-#: docroot/lib/views/linux.linux_faq.php:258
+#: docroot/lib/views/linux.faq.php:258
 msgid ""
 "Here's the short version of the answer: No. If you simply <em>never run "
 "untrusted executables while logged in as the root user (or equivalent)</em>, "
@@ -3714,7 +3720,7 @@ msgid ""
 "unauthorised changes would be detected and remedied)."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:259
+#: docroot/lib/views/linux.faq.php:259
 msgid ""
 "Here's the long version: <em>Still</em> no. Any program on a GNU/Linux box, "
 "viruses included, can only do what the user who ran it can do. Real users "
@@ -3722,19 +3728,19 @@ msgid ""
 "can programs they run."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:260
+#: docroot/lib/views/linux.faq.php:260
 #, php-format
 msgid ""
 "See our \"<a href=\"%s\">GNU/Linux virus FAQ</a>\" for more details on this "
 "subject."
 msgstr ""
 
-#: docroot/lib/views/linux.linux_faq.php:267
+#: docroot/lib/views/linux.faq.php:267
 msgid "More questions?"
 msgstr "¿Tienes más preguntas?"
 
 #. TRANSLATORS: The first link will automatically point to the "more" page.
-#: docroot/lib/views/linux.linux_faq.php:271
+#: docroot/lib/views/linux.faq.php:271
 #, php-format
 msgid ""
 "If you have a question that is not covered here, there are many communities "
@@ -3746,7 +3752,7 @@ msgstr ""
 "a encontrar el lugar correcto para preguntar."
 
 #. TRANSLATORS: The first link will automatically point to the contact page, the second to the bug tracker.
-#: docroot/lib/views/linux.linux_faq.php:275
+#: docroot/lib/views/linux.faq.php:275
 #, php-format
 msgid ""
 "If you can think of a frequent question that we haven't answered yet, do <a "
@@ -3811,10 +3817,6 @@ msgstr "Contáctenos"
 #: src/templates/header.php:79
 msgid "Home"
 msgstr ""
-
-#, fuzzy
-#~ msgid "GNU/Linux virus FAQ"
-#~ msgstr "¡Cámbiate a GNU/Linux!"
 
 #~ msgid "What GNU/Linux looks like"
 #~ msgstr "Cómo se ve GNU/Linux"
