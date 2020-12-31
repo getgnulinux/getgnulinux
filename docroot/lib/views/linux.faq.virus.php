@@ -119,7 +119,7 @@ $this->load_header();
 
       <p>Is this inconvenient? Possibly. At a minimum, it requires modifying the usual PC-desktop habits of thinking&mdash;e.g., you might have to provide security-hardened remote access to your GNU/Linux box using <a href="http://linuxmafia.com/ssh/" rel="external"> ssh/scp</a>. But that is a good thing, because it allows you to deal with real, fundamental problems in an effective manner. Adopting Garfinkel's would-be solution does not accomplish that.</p>
 
-      <p>(By the way, that prediction of a "coming Linux plague" was in 2000&mdash;many years ago already and still counting.</p>
+      <p>(By the way, that prediction of a "coming Linux plague" was in 2000&mdash;many years ago already and still counting.)</p>
 
       <h2 id="virus3">Doesn't the rise of GNU/Linux worms like Ramen, 1i0n, Red Worm, Adore, Cheese, lpdw0rm, and Slapper show that GNU/Linux now has a virus problem?</h2>
 
