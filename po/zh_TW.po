@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2020-12-30 22:10+0000\n"
-"PO-Revision-Date: 2020-12-29 02:58+0000\n"
+"PO-Revision-Date: 2020-12-31 07:08+0000\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "getgnulinux/getgnulinux-pot/zh_Hant/>\n"
@@ -2574,16 +2574,15 @@ msgstr ""
 "常、非常的安全。"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:46
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "It is often difficult for Windows users to believe that there are <em>no "
 "spyware nor viruses</em> under GNU/Linux&mdash;<a href=\"%s\">but it's true</"
 "a>. Malicious programs have a hard time doing anything at all in a well-"
 "built system."
 msgstr ""
-"通常對 Windows 使用者而言難以相信的是：GNU/Linux 底下<em>沒有間諜軟體或病毒</"
-"em> &mdash; <a href=\"http://linuxmafia.com/~rick/faq/#virus\" rel=\"external"
-"\">但這是真的</a>。可疑軟體對精心打造的系統束手無策。"
+"通常對 Windows 使用者而言難以相信的是：GNU/Linux 底下<em>沒有間諜軟體或病毒</em> &mdash; <a href=\"%s\""
+">但這是真的</a>。可疑軟體對精心打造的系統束手無策。"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:48
 msgid "Regular, easy software updates will keep everyone entirely safe."
@@ -2687,15 +2686,13 @@ msgstr ""
 "格書。"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:74
-#, fuzzy
 msgid ""
 "So, drivers are sometimes unavailable for the most recent high-end graphics "
 "cards&mdash;some are reverse-engineered from Windows drivers by volunteers. "
 "Some are also released free of charge, but under restrictive licenses."
 msgstr ""
-"所以，有些高階顯示卡的驅動程式可能會無法即時提供 &mdash; 有些是由志工對 "
-"Windows 的驅動程式進行逆向工程而得。而有些則是驅動程式則是只能在受限的條款下"
-"免費使用。"
+"所以，有些高階顯示卡的驅動程式可能會無法即時提供 &mdash; 有些是由志工對 Windows "
+"的驅動程式進行逆向工程而得。而有些則是驅動程式則是只能在受限的條款下免費使用。"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:75
 msgid "Sadly, the same problem occurs with many low-end WiFi cards."
@@ -3711,7 +3708,7 @@ msgstr ""
 
 #: docroot/lib/views/linux.linux_faq.php:256
 msgid "Should I install anti-virus software under GNU/Linux?"
-msgstr ""
+msgstr "我需要在 GNU/Linux 下安裝防毒軟體嗎？"
 
 #: docroot/lib/views/linux.linux_faq.php:258
 msgid ""
@@ -3726,6 +3723,11 @@ msgid ""
 "privileged executables enjoy paranoid-grade scrutiny (such that any "
 "unauthorised changes would be detected and remedied)."
 msgstr ""
+"這是簡短的答案：不用。如果您<em>以 root "
+"使用者（或等價的使用者）登入時永遠不執行不受信任的執行檔</em>，那麼世界上所有的「病毒檢查程式」都是多餘的，甚至可能是有害的。在 GNU/Linux "
+"的世界中，「惡意」的執行檔（包含病毒）<em>幾乎找不到</em>，而且也幾乎沒有威脅，因為其沒有超級使用者權限，且因為 GNU/Linux "
+"管理員很少愚蠢到以超級使用者身份執行不受信任的執行檔，<em>且</em>因為 GNU/Linux "
+"使用者對高權限可執行檔的慣用與推薦來源有近乎偏執的審閱（如此，任何未經授權的變動都會被偵測到並修正）。"
 
 #: docroot/lib/views/linux.linux_faq.php:259
 msgid ""
@@ -3734,13 +3736,15 @@ msgid ""
 "aren't allowed to hurt the system (only a superuser account can), so neither "
 "can programs they run."
 msgstr ""
+"這是較長版本的回答：<em>仍然</em>不用。GNU/Linux "
+"機器上的任何程式（包含病毒在內）只能做執行它們的使用者能做的事情。真實的使用者不被允許損害系統（僅有超級使用者帳號可以），那麼他們執行的程式也不行。"
 
 #: docroot/lib/views/linux.linux_faq.php:260
 #, php-format
 msgid ""
 "See our \"<a href=\"%s\">GNU/Linux virus FAQ</a>\" for more details on this "
 "subject."
-msgstr ""
+msgstr "看看我們的「<a href=\"%s\">GNU/Linux FAQ</a>」以取得更多關於此主題的資訊。"
 
 #: docroot/lib/views/linux.linux_faq.php:267
 msgid "More questions?"
