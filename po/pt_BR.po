@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2020-12-30 22:10+0000\n"
-"PO-Revision-Date: 2020-12-29 02:58+0000\n"
+"PO-Revision-Date: 2020-12-31 07:08+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "getgnulinux/getgnulinux-pot/pt_BR/>\n"
@@ -2771,7 +2771,7 @@ msgstr ""
 "anti tudo. GNU/Linux é muito, muito seguro."
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:46
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "It is often difficult for Windows users to believe that there are <em>no "
 "spyware nor viruses</em> under GNU/Linux&mdash;<a href=\"%s\">but it's true</"
@@ -2779,10 +2779,9 @@ msgid ""
 "built system."
 msgstr ""
 "É muitas vezes difícil para os usuários do Windows acreditarem que não há "
-"<em>nenhum spyware nem vírus</em> no GNU/Linux &mdash; <a href=\"http://"
-"linuxmafia.com/~rick/faq/#virus\" rel=\"external\">mas é verdade</a>. Os "
-"programas maliciosos têm muita dificuldade para fazer qualquer coisa em um "
-"sistema de bem-construído."
+"<em>nenhum spyware nem vírus</em> no GNU/Linux &mdash; <a href=\"%s\">mas é "
+"verdade</a>. Os programas maliciosos têm muita dificuldade para fazer "
+"qualquer coisa em um sistema de bem-construído."
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:48
 msgid "Regular, easy software updates will keep everyone entirely safe."
@@ -2894,16 +2893,15 @@ msgstr ""
 "drivers para GNU/Linux ou divulgam as especificações completas."
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:74
-#, fuzzy
 msgid ""
 "So, drivers are sometimes unavailable for the most recent high-end graphics "
 "cards&mdash;some are reverse-engineered from Windows drivers by volunteers. "
 "Some are also released free of charge, but under restrictive licenses."
 msgstr ""
-"Assim, drives estão, às vezes indisponíveis para as mais recentes placas "
-"gráficas high-end - alguns são de engenharia reversa de drivers do Windows "
-"por voluntários. Alguns também são lançados gratuitamente, mas sob licenças "
-"restritivas."
+"Assim, drivers estão, às vezes, indisponíveis para as mais recentes placas "
+"gráficas high-end &ndash; alguns são de engenharia reversa de drivers do "
+"Windows por voluntários. Alguns também são lançados gratuitamente, mas sob "
+"licenças restritivas."
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:75
 msgid "Sadly, the same problem occurs with many low-end WiFi cards."
@@ -4006,7 +4004,7 @@ msgstr ""
 
 #: docroot/lib/views/linux.linux_faq.php:256
 msgid "Should I install anti-virus software under GNU/Linux?"
-msgstr ""
+msgstr "Devo instalar um software antivírus no GNU/Linux?"
 
 #: docroot/lib/views/linux.linux_faq.php:258
 msgid ""
@@ -4021,6 +4019,18 @@ msgid ""
 "privileged executables enjoy paranoid-grade scrutiny (such that any "
 "unauthorised changes would be detected and remedied)."
 msgstr ""
+"Aqui está a versão resumida da resposta: Não. Se você simplesmente <em>nunca "
+"executar executáveis não confiáveis enquanto estiver conectado como usuário "
+"root (ou equivalente)</em>, todos os \"verificadores de vírus\" no mundo "
+"serão, na melhor das hipóteses, supérfluos; na pior das hipóteses, "
+"francamente prejudicial. Executáveis \"hostis\" (incluindo vírus) são "
+"<em>quase impossíveis de encontrar</em> no mundo GNU/Linux &ndash; e nenhuma "
+"ameaça real para ele &ndash; porque eles não têm autoridade de superusuário "
+"e porque administradores GNU/Linux raramente são estúpidos o suficiente para "
+"executar executáveis não confiáveis como superusuário, <em>e</em> porque as "
+"fontes habituais e recomendadas dos usuários do GNU/Linux para executáveis "
+"privilegiados desfrutam de um escrutínio de grau paranóico (de modo que "
+"quaisquer alterações não autorizadas seriam detectadas e corrigidas)."
 
 #: docroot/lib/views/linux.linux_faq.php:259
 msgid ""
@@ -4029,6 +4039,11 @@ msgid ""
 "aren't allowed to hurt the system (only a superuser account can), so neither "
 "can programs they run."
 msgstr ""
+"Aqui está a versão longa: <em>Ainda</em> não. Qualquer programa em uma "
+"máquina com GNU/Linux, vírus incluídos, só pode fazer o que o usuário que o "
+"executou pode fazer. Usuários reais não têm permissão para prejudicar o "
+"sistema (apenas uma conta de superusuário pode), então nem os programas que "
+"eles executam."
 
 #: docroot/lib/views/linux.linux_faq.php:260
 #, php-format
@@ -4036,6 +4051,8 @@ msgid ""
 "See our \"<a href=\"%s\">GNU/Linux virus FAQ</a>\" for more details on this "
 "subject."
 msgstr ""
+"Veja nosso \"<a href=\"%s\">FAQ de vírus de GNU/Linux</a>\" para mais "
+"detalhes sobre este assunto."
 
 #: docroot/lib/views/linux.linux_faq.php:267
 msgid "More questions?"
