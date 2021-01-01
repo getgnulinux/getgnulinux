@@ -46,6 +46,10 @@ $this->load_header();
         <p><?php $p = _("It is often difficult for Windows users to believe that there are <em>no spyware nor viruses</em> under GNU/Linux&mdash;<a href=\"%s\">but it's true</a>. Malicious programs have a hard time doing anything at all in a well-built system.");
         printf($p, $this->get_base_url('linux/faq/virus')); ?></p>
         <p><?php print _("Regular, easy software updates will keep everyone entirely safe."); ?></p>
+        <p><?php print _("Read more in our GNU/Linux FAQ:"); ?></p>
+        <ul class="browser-default">
+          <li><a href="<?php $this->base_url('linux/faq'); ?>#virus"><?php print _("Should I install anti-virus software under GNU/Linux?"); ?></a></li>
+        </ul>
 
         <h3 id="support"><?php print _("Support"); ?></h3>
         <p><?php # TRANSLATORS: The first %s represents the URL to the "More" page and seconds %s represents the title of the page "More" in your language

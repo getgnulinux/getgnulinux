@@ -253,7 +253,7 @@ $this->load_header();
         </details>
 
         <details>
-            <summary id="games"><?php print _("Should I install anti-virus software under GNU/Linux?"); ?></summary>
+            <summary id="virus"><?php print _("Should I install anti-virus software under GNU/Linux?"); ?></summary>
             <blockquote>
               <p><?php print _("Here's the short version of the answer: No. If you simply <em>never run untrusted executables while logged in as the root user (or equivalent)</em>, all the \"virus checkers\" in the world will be at best superfluous; at worst, downright harmful. \"Hostile\" executables (including viruses) are <em>almost unfindable</em> in the GNU/Linux world&mdash;and no real threat to it&mdash;because they lack superuser authority, and because GNU/Linux admins are seldom stupid enough to run untrusted executables as a superuser, <em>and</em> because GNU/Linux users' customary and recommended sources for privileged executables enjoy paranoid-grade scrutiny (such that any unauthorised changes would be detected and remedied)."); ?></p>
               <p><?php print _("Here's the long version: <em>Still</em> no. Any program on a GNU/Linux box, viruses included, can only do what the user who ran it can do. Real users aren't allowed to hurt the system (only a superuser account can), so neither can programs they run."); ?></p>
