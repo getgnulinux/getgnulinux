@@ -154,7 +154,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
         </div>
         <div class="row">
           <div class="col s12 l6">
-            <h4><a href="http://opendocumentfellowship.com/" rel="external">The OpenDocument Fellowship</a></h4>
+            <h4><a href="http://www.opendocumentformat.org/" rel="external">OpenDocument Format</a></h4>
             <p><?php print _("A simple and clear website about the free format OpenDocument, showing the importance of freedom in formats (not just in applications)."); ?></p>
           </div>
           <div class="col s12 l6">
