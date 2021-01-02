@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
-"POT-Creation-Date: 2021-01-02 04:15+0000\n"
+"POT-Creation-Date: 2021-01-02 06:58+0000\n"
 "PO-Revision-Date: 2021-01-01 14:29+0000\n"
 "Last-Translator: Serrano Pereira <serrano@bitosis.nl>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/getgnulinux/"
@@ -43,7 +43,7 @@ msgstr "Voorwaarden voor gebruik"
 #. TRANSLATORS: This is the title of the 'More' page.
 #: docroot/lib/ggl.php:216 docroot/lib/views/more.php:16
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:56
-#: docroot/lib/views/linux.faq.php:272 src/templates/footer.php:24
+#: docroot/lib/views/linux.faq.php:273 src/templates/footer.php:24
 #: src/templates/header.php:47 src/templates/header.php:50
 #: src/templates/header.php:84
 msgid "More"
@@ -53,7 +53,7 @@ msgstr "Meer"
 #: docroot/lib/ggl.php:218 docroot/lib/views/home.php:25
 #: docroot/lib/views/linux.php:13
 #: docroot/lib/views/linux.misunderstanding_free_software.php:210
-#: docroot/lib/views/linux.faq.php:284 src/templates/header.php:44
+#: docroot/lib/views/linux.faq.php:285 src/templates/header.php:44
 #: src/templates/header.php:53 src/templates/header.php:80
 msgid "What is GNU/Linux?"
 msgstr "Wat is GNU/Linux?"
@@ -186,7 +186,7 @@ msgstr "Veelgestelde vragen (FAQ) over GNU/Linux."
 #. TRANSLATORS: This is the description of the 'GNU/Linux virus FAQ' page
 #: docroot/lib/ggl.php:259
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:51
-#: docroot/lib/views/linux.faq.php:256
+#: docroot/lib/views/linux.faq.php:257
 msgid "Should I install anti-virus software under GNU/Linux?"
 msgstr "Zou ik anti-virus software moeten installeren onder GNU/Linux?"
 
@@ -3044,16 +3044,14 @@ msgstr ""
 "voor de wereld van de vrije software. Hierdoor werken veel bekende spellen "
 "niet onder GNU/Linux, of zijn er beperkende emulatoren voor nodig."
 
-#. TRANSLATORS: use localised link if possible, and contact us if you know better resources
-#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:94
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:93
+#, fuzzy
 msgid ""
 "There is a very active free software game development community though, and "
 "they have produced quite a few high-quality games, both 2D and 3D, that are "
-"free software. You can head to the <a href=\"https://ubuntuforums.org/"
-"forumdisplay.php?f=93\" rel=\"external\">Ubuntu gaming forum</a> to find "
-"more information. And with the release of the popular Steam platform to GNU/"
-"Linux, the number of <a href=\"https://store.steampowered.com/linux\" rel="
-"\"external\">GNU/Linux supported games on Steam</a> has been growing rapidly."
+"free software. You can head to <a href=\"https://www.reddit.com/r/"
+"linux_gaming/\" rel=\"external\">GNU/Linux Gaming on Reddit</a> to find more "
+"information."
 msgstr ""
 "Er bestaat echter een zeer actieve gemeenschap voor de ontwikkeling van "
 "vrije-softwaregames, en deze heeft een aardig aantal 2D en 3D spellen van "
@@ -3063,6 +3061,18 @@ msgstr ""
 "Linux besturingssysteem, is het aantal <a href=\"https://store.steampowered."
 "com/linux\" rel=\"external\">GNU/Linux ondersteunde spellen op Steam</a> "
 "snel gegroeid."
+
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:94
+#: docroot/lib/views/linux.faq.php:251
+msgid ""
+"There is also a good selection of online game distribution platforms that "
+"sell many high-quality games for GNU/Linux, for example <a href=\"https://"
+"store.steampowered.com/linux\" rel=\"external\">Steam</a>, <a href=\"https://"
+"www.gog.com/games?system=lin_mint,lin_ubuntu&sort=popularity&page=1\" rel="
+"\"external\">GOG</a>, <a href=\"https://itch.io/games/platform-linux\" rel="
+"\"external\">itch.io</a>, and <a href=\"https://www.humblebundle.com/\" rel="
+"\"external\">Humble Bundle</a>."
+msgstr ""
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:97
 #: docroot/lib/views/linux.faq.php:248
@@ -4032,30 +4042,23 @@ msgstr "Verboden Fedora-items"
 #: docroot/lib/views/linux.faq.php:250
 msgid ""
 "Yes and no. Some games, for example the Quake series, Rust, Counter-Strike, "
-"Tomb Raider, Portal, Left 4 Dead, and many more have GNU/Linux versions. "
-"Since the release of the popular Steam platform to the GNU/Linux operating "
-"system, the number of GNU/Linux compatible games on Steam has been growing "
-"rapidly. Check out the <a href=\"https://store.steampowered.com/linux\" rel="
-"\"external\">Steam store</a> where you can find a wealth of high quality, "
-"GNU/Linux compatible games."
+"Tomb Raider, Portal, Left 4 Dead, and many more have GNU/Linux versions."
 msgstr ""
-"Ja en nee. Sommige spellen, zoals de Quake series, Rust, Counter-Strike, "
-"Tomb Raider, Portal, Left 4 Dead, en vele andere hebben GNU/Linux-versies. "
-"Met de komst van het populaire Steam platform voor GNU/Linux is het aantal "
-"GNU/Linux ondersteunde spellen op Steam snel gegroeid. Zie ook <a href="
-"\"https://store.steampowered.com/linux\" rel=\"external\">de Steam store</a> "
-"waar je een schat aan hoog kwaliteit GNU/Linux ondersteunde spellen kan "
-"vinden."
 
-#: docroot/lib/views/linux.faq.php:251
+#: docroot/lib/views/linux.faq.php:252
+#, fuzzy
 msgid ""
 "Most popular games, alas, only work on Windows and occasionally on macOS. "
 "Some Windows games can be run on GNU/Linux with <a href=\"https://www.winehq."
 "org/\" rel=\"external\">Wine</a> or its non-free variant <a href=\"https://"
-"www.codeweavers.com/products/crossover/\" rel=\"external\">CrossOver</a>, "
-"which involves some unpleasant effort for the user. For a list of games "
-"known to work on Wine, see <a href=\"https://appdb.winehq.org/\" rel="
-"\"external\">their games database</a>."
+"www.codeweavers.com/crossover/\" rel=\"external\">CrossOver</a>, which "
+"involves some unpleasant effort for the user. For a list of games known to "
+"work on Wine, see <a href=\"https://appdb.winehq.org/\" rel=\"external"
+"\">their games database</a>. There is also Proton, a tool released by Valve "
+"Software that has been integrated with Steam Play to make playing Windows "
+"games on GNU/Linux as simple as hitting the Play button within Steam. For a "
+"list of games know to work on Proton, see <a href=\"https://www.protondb.com/"
+"\" rel=\"external\">their games database</a>."
 msgstr ""
 "Helaas werken de meeste populaire games alleen onder Windows of soms onder "
 "macOS. Sommige Windows-spellen kunnen onder GNU/Linux worden gedraaid met <a "
@@ -4065,7 +4068,7 @@ msgstr ""
 "Voor een lijst van spellen die onder Wine werken, zie <a href=\"https://"
 "appdb.winehq.org/\" rel=\"external\">hun games database</a>."
 
-#: docroot/lib/views/linux.faq.php:258
+#: docroot/lib/views/linux.faq.php:259
 msgid ""
 "Here's the short version of the answer: No. If you simply <em>never run "
 "untrusted executables while logged in as the root user (or equivalent)</em>, "
@@ -4090,7 +4093,7 @@ msgstr ""
 "softwarebronnen van GNU/Linux-gebruikers aan paranoïde-graad onderzoek "
 "onderhevig zijn (zodat onbevoegde aanpassingen opgemerkt en opgelost worden)."
 
-#: docroot/lib/views/linux.faq.php:259
+#: docroot/lib/views/linux.faq.php:260
 msgid ""
 "Here's the long version: <em>Still</em> no. Any program on a GNU/Linux box, "
 "viruses included, can only do what the user who ran it can do. Real users "
@@ -4103,7 +4106,7 @@ msgstr ""
 "toebrengen (alleen een superuser-account kan dat), en de applicaties die ze "
 "uitvoeren dus ook niet."
 
-#: docroot/lib/views/linux.faq.php:260
+#: docroot/lib/views/linux.faq.php:261
 #, php-format
 msgid ""
 "See our \"<a href=\"%s\">GNU/Linux virus FAQ</a>\" for more details on this "
@@ -4112,12 +4115,12 @@ msgstr ""
 "Zie onze \"<a href=\"%s\">GNU/Linux virus FAQ</a>\" voor meer details over "
 "dit onderwerp."
 
-#: docroot/lib/views/linux.faq.php:267
+#: docroot/lib/views/linux.faq.php:268
 msgid "More questions?"
 msgstr "Meer vragen?"
 
 #. TRANSLATORS: The first link will automatically point to the "more" page.
-#: docroot/lib/views/linux.faq.php:271
+#: docroot/lib/views/linux.faq.php:272
 #, php-format
 msgid ""
 "If you have a question that is not covered here, there are many communities "
@@ -4129,7 +4132,7 @@ msgstr ""
 "wijzen waar je een antwoord kunt vinden."
 
 #. TRANSLATORS: The first link will automatically point to the contact page, the second to the bug tracker.
-#: docroot/lib/views/linux.faq.php:275
+#: docroot/lib/views/linux.faq.php:276
 #, php-format
 msgid ""
 "If you can think of a frequent question that we haven't answered yet, do <a "
@@ -4201,6 +4204,23 @@ msgstr "Contact"
 #: src/templates/header.php:79
 msgid "Home"
 msgstr "Startpagina"
+
+#~ msgid ""
+#~ "Yes and no. Some games, for example the Quake series, Rust, Counter-"
+#~ "Strike, Tomb Raider, Portal, Left 4 Dead, and many more have GNU/Linux "
+#~ "versions. Since the release of the popular Steam platform to the GNU/"
+#~ "Linux operating system, the number of GNU/Linux compatible games on Steam "
+#~ "has been growing rapidly. Check out the <a href=\"https://store."
+#~ "steampowered.com/linux\" rel=\"external\">Steam store</a> where you can "
+#~ "find a wealth of high quality, GNU/Linux compatible games."
+#~ msgstr ""
+#~ "Ja en nee. Sommige spellen, zoals de Quake series, Rust, Counter-Strike, "
+#~ "Tomb Raider, Portal, Left 4 Dead, en vele andere hebben GNU/Linux-"
+#~ "versies. Met de komst van het populaire Steam platform voor GNU/Linux is "
+#~ "het aantal GNU/Linux ondersteunde spellen op Steam snel gegroeid. Zie ook "
+#~ "<a href=\"https://store.steampowered.com/linux\" rel=\"external\">de "
+#~ "Steam store</a> waar je een schat aan hoog kwaliteit GNU/Linux "
+#~ "ondersteunde spellen kan vinden."
 
 #~ msgid ""
 #~ "Applications: <a href=\"https://www.getfirefox.com/\" rel=\"external"
