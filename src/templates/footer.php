@@ -38,6 +38,11 @@
   <div class="footer-copyright">
     <div class="container">
       Copyright <?php echo date("Y"); ?> get GNU/Linux!
+      <div class="right">
+        <a href="https://teamtrees.org/" target="_blank">#teamtrees</a>
+        &#8226;
+        <a href="https://justdiggit.org/" target="_blank">#justdiggit</a>
+      </div>
     </div>
   </div>
 </footer>
