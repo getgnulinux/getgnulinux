@@ -51,12 +51,51 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
         <div id="applist">
           <p><?php print _("Non-proprietary software stands out in many areas: consider, to name just a few:"); ?></p>
           <ul class="browser-default">
-            <li><?php print _("Applications: <a href=\"https://www.getfirefox.com/\" rel=\"external\">Firefox</a> (web browser), <a href=\"https://inkscape.org/\" rel=\"external\">Inkscape</a> (vector drawing)."); ?></li>
-            <li><?php print _("Complete systems: <a href=\"https://en.wikipedia.org/wiki/Apache_HTTP_Server\" rel=\"external\">Apache</a> (web server), <a href=\"https://en.wikipedia.org/wiki/OpenBSD\" rel=\"external\">OpenBSD</a> (<abbr title=\"Operating System\">OS</abbr>), and of course, GNU/Linux."); ?></li>
-            <li><?php
-            # TRANSLATORS: use URL to localized Wikipedia article for OpenDocument Format, instead of www.opendocumentformat.org
-            print _("Formats and protocols: <a href=\"https://en.wikipedia.org/wiki/HTML\" rel=\"external\">HTML</a> (web pages), <a href=\"https://en.wikipedia.org/wiki/BitTorrent_(protocol)\" rel=\"external\">BitTorrent</a> (file sharing), <a href=\"http://www.opendocumentformat.org/\" rel=\"external\">OpenDocument Format</a> (office documents)."); ?></li>
-            <li><?php print _("Server applications: <a href=\"https://www.drupal.org/\" rel=\"external\">Drupal</a> (Content Management System), <a href=\"https://www.wordpress.org/\" rel=\"external\">Wordpress</a> (blog)."); ?></li>
+            <li><?php print _("Applications:"); ?>
+              <ul class="browser-default">
+                <li><a href="https://atom.io/" rel="external">Atom</a> <?php print _("(text editor)"); ?></li>
+                <li><a href="https://en.wikipedia.org/wiki/Chromium_(web_browser)" rel="external">Chromium</a> <?php print _("(web browser)"); ?></li>
+                <li><a href="https://git-scm.com/" rel="external">Git</a> <?php print _("(distributed version control system)"); ?></li>
+                <li><a href="https://inkscape.org/" rel="external">Inkscape</a> <?php print _("(vector drawing)"); ?></li>
+                <li><a href="https://krita.org/" rel="external">Krita</a> <?php print _("(painting)"); ?></li>
+                <li><a href="https://www.ardour.org/" rel="external">Ardour</a> <?php print _("(digital audio workstation)"); ?></li>
+                <li><a href="https://www.blender.org/" rel="external">Blender</a> <?php print _("(3D graphics creation)"); ?></li>
+                <li><a href="https://www.getfirefox.com/" rel="external">Firefox</a> <?php print _("(web browser)"); ?></li>
+                <li><a href="https://www.gimp.org/" rel="external">GIMP</a> <?php print _("(image editor)"); ?></li>
+                <li><a href="https://www.libreoffice.org/" rel="external">LibreOffice</a> <?php print _("(office suite)"); ?></li>
+                <li><a href="https://www.tensorflow.org/" rel="external">TensorFlow</a> <?php print _("(machine learning)"); ?></li>
+                <li><a href="https://www.thunderbird.net/" rel="external">Thunderbird</a> <?php print _("(email client)"); ?></li>
+              </ul>
+            </li>
+            <li><?php print _("Server applications:"); ?>
+              <ul class="browser-default">
+                <li><a href="https://en.wikipedia.org/wiki/MediaWiki" rel="external">MediaWiki</a> <?php print _("(content management system)"); ?></li>
+                <li><a href="https://hadoop.apache.org/" rel="external">Hadoop</a> <?php print _("(distributed computing)"); ?></li>
+                <li><a href="https://httpd.apache.org/" rel="external">Apache HTTP Server</a> <?php print _("(web server)"); ?></li>
+                <li><a href="https://nginx.org/en/" rel="external">Nginx</a> <?php print _("(web server)"); ?></li>
+                <li><a href="https://nodejs.org/" rel="external">Node.js</a> <?php print _("(JavaScript runtime environment)"); ?></li>
+                <li><a href="https://www.docker.com/" rel="external">Docker</a> <?php print _("(virtualization)"); ?></li>
+                <li><a href="https://www.wordpress.org/" rel="external">Wordpress</a> <?php print _("(blog)"); ?></li>
+              </ul>
+            </li>
+            <li><?php print _("Formats and protocols:"); ?>
+              <ul class="browser-default">
+                <li><a href="https://en.wikipedia.org/wiki/BitTorrent_(protocol)" rel="external">BitTorrent</a> <?php print _("(file sharing)"); ?></li>
+                <li><a href="https://en.wikipedia.org/wiki/FLAC" rel="external">FLAC</a> <?php print _("(lossless audio codec)"); ?></li>
+                <li><a href="https://en.wikipedia.org/wiki/Gzip" rel="external">gzip</a> <?php print _("(data compression)"); ?></li>
+                <li><a href="https://en.wikipedia.org/wiki/HTML" rel="external">HTML</a> <?php print _("(web pages)"); ?></li>
+                <li><a href="https://en.wikipedia.org/wiki/Ogg" rel="external">Ogg</a> <?php print _("(container format)"); ?></li>
+                <li><a href="https://en.wikipedia.org/wiki/OpenDocument" rel="external">OpenDocument Format</a> <?php print _("(office documents)"); ?></li>
+                <li><a href="https://en.wikipedia.org/wiki/WebM" rel="external">WebM</a> <?php print _("(video file format)"); ?></li>
+                <li><a href="https://en.wikipedia.org/wiki/YAML" rel="external">YAML</a> <?php print _("(data interchange)"); ?></li>
+              </ul>
+            </li>
+            <li><?php print _("Complete systems:"); ?>
+              <ul class="browser-default">
+                <li><a href="https://en.wikipedia.org/wiki/OpenBSD" rel="external">OpenBSD</a> <?php print _("(operating system)"); ?></li>
+                <li><?php print _("and of course, GNU/Linux."); ?></li>
+              </ul>
+            </li>
           </ul>
         </div>
       </section>
@@ -69,7 +108,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
         <p><?php print _("Free software is as important as free speech, as a free market. If software is free, users have control and liberty over it."); ?></p>
         <p><?php
         # TRANSLATORS: The %s placeholder will automatically point to the 'try and install' page
-        $p = _("The good news are: <em>free software also Just Works.</em> And in fact, it often Just Works Better. <a href=\"%s\">Pop in a GNU/Linux liveCD</a> in your computer at start-up, to try a full-featured, well-organised system, without installation, so you can judge by yourself."); printf($p, $this->get_base_url('switch_to_linux/try_or_install')); ?></p>
+        $p = _("The good news are: <em>free software also Just Works.</em> And in fact, it often Just Works Better. <a href=\"%s\">Pop in a GNU/Linux live USB stick</a> in your computer at start-up, to try a full-featured, well-organised system, without installation, so you can judge by yourself."); printf($p, $this->get_base_url('switch_to_linux/try_or_install')); ?></p>
       </section>
 
       <section>
@@ -122,7 +161,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
         <p><?php print _("The argument generally goes that since the source code of free software is available, it is less likely to be secure."); ?></p>
         <p><?php print _("Short answer: The majority of servers run free software. They are the major networked computers holding sensitive or confidential information such as your bank details or trade secrets."); ?></p>
         <p><?php print _("A more precise answer is that availability of source code is a warrant of security, not a weakness. The freedom of the software ensures it can be inspected, tested and improved by a very wide community. A good lock is secure because the technology used to design it is open, though only the key holder can open it. The same goes for software."); ?></p>
-        <p><?php $p = _("Need examples? Have a look at the <a href=\"https://www.getfirefox.com/\" rel=\"external\">Firefox browser</a>, the <a href=\"https://en.wikipedia.org/wiki/Apache_HTTP_Server\" rel=\"external\">Apache HTTP Server</a>, the <a href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\" rel=\"external\">OpenPGP</a> encryption system, or the <a href=\"https://en.wikipedia.org/wiki/OpenBSD\" rel=\"external\">OpenBSD</a> operating system. And <a href=\"%s#security\">there are no spyware or viruses under GNU/Linux</a>."); printf($p, $this->get_base_url('switch_to_linux/from_windows_to_linux')); ?></p>
+        <p><?php $p = _("Need examples? Have a look at the <a href=\"https://www.getfirefox.com/\" rel=\"external\">Firefox web browser</a>, the <a href=\"https://en.wikipedia.org/wiki/Apache_HTTP_Server\" rel=\"external\">Apache HTTP Server</a>, the <a href=\"https://en.wikipedia.org/wiki/Nginx\" rel=\"external\">Nginx web server</a>, the <a href=\"https://en.wikipedia.org/wiki/Dovecot_(software)\" rel=\"external\">Dovecot email server</a>, the <a href=\"https://en.wikipedia.org/wiki/Exim\" rel=\"external\">Exim mail transfer agent</a>, the <a href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\" rel=\"external\">OpenPGP</a> encryption system, or the <a href=\"https://en.wikipedia.org/wiki/OpenBSD\" rel=\"external\">OpenBSD</a> operating system. And <a href=\"%s#security\">there are no spyware or viruses under GNU/Linux</a>."); printf($p, $this->get_base_url('switch_to_linux/from_windows_to_linux')); ?></p>
       </section>
 
       <section>
