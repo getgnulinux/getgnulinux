@@ -180,14 +180,25 @@ details {
     padding-bottom: (2em / 2);
 }
 
-img.w20 {
+.w20 {
     height: auto;
     width: 20%;
 }
 
-img.w30 {
+.w30 {
     height: auto;
     width: 30%;
+}
+
+.logos {
+    margin: 2em auto;
+
+    img {
+        display: inline-block;
+        height: 64px;
+        width: auto;
+        margin: 10px;
+    }
 }
 
 img.lift-effect {
