@@ -10,6 +10,10 @@
           <?php print _("Generously hosted by <a href=\"https://www.tuxfamily.org/\" rel=\"external\">TuxFamily</a>."); ?>
           <?php $p = _("This site is <a href=\"%s\" rel=\"external\">free and open source</a>."); printf($p, $ggl->get('project_url')); ?>
         </p>
+        <p>
+          <a href="https://teamtrees.org/" target="_blank">#teamtrees</a>
+          <a href="https://justdiggit.org/" target="_blank">#justdiggit</a>
+        </p>
       </div>
       <div class="col l4 offset-l2 s12">
         <h5><?php print _("Resources"); ?></h5>
@@ -38,11 +42,6 @@
   <div class="footer-copyright">
     <div class="container">
       Copyright <?php echo date("Y"); ?> get GNU/Linux!
-      <div class="right">
-        <a href="https://teamtrees.org/" target="_blank">#teamtrees</a>
-        &#8226;
-        <a href="https://justdiggit.org/" target="_blank">#justdiggit</a>
-      </div>
     </div>
   </div>
 </footer>
