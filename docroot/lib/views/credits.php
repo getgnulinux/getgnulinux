@@ -27,7 +27,7 @@ $this->load_header();
 
       <ul class="browser-default">
         <li>Ubuntu, Fedora, and Debian logos: in accordance with the respective trademark guidelines (<a href="https://www.ubuntu.com/aboutus/trademarkpolicy" rel="external">Ubuntu</a>, <a href="https://fedoraproject.org/wiki/Legal/TrademarkGuidelines" rel="external">Fedora</a>, <a href="https://www.debian.org/logos/" rel="external">Debian</a>)</li>
-        <li>The computer image on the "Try or install" page used with permission from <a href="https://www.system76.com/" rel="external">system76.com</a>.</li>
+        <li>The computer image on the "Try or install" page is of Purism's <a href="https://puri.sm/products/librem-mini/" rel="external">Librem Mini</a> (CC-BY-SA 4.0 license)</li>
       </ul>
 
       <h2 id="translators">Translators</h2>
