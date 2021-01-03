@@ -96,23 +96,22 @@ $this->load_header();
       <p>What does "user-friendly" really mean? Well, in the context in which it is used, "user friendly" software means <i>"Software that can be used to a reasonable level of competence by a user with no previous experience of the software"</i>. This has the unfortunate effect of making lousy-but-familiar interfaces fall into the category of "user-friendly".</p>
 
       <h3>Subproblem #5a: Familiar is friendly</h3>
-      <p>So it is that in most "user-friendly" text editors and word processors, you Cut and Paste by using <kbd>Ctrl</kbd>-<kbd>X</kbd> and <kbd>Ctrl</kbd>-<kbd>V</kbd>. Totally unintuitive, but everybody's used to these combinations, so they count as a "friendly" combination.</p>
+      <p>So it is that in most "user-friendly" text editors and word processors, you Cut and Paste by using <kbd>Ctrl</kbd>+<kbd>X</kbd> and <kbd>Ctrl</kbd>+<kbd>V</kbd>. Totally unintuitive, but everybody's used to these combinations, so they count as a "friendly" combination.</p>
       <p>So when somebody comes to vi and finds that it's "<kbd>d</kbd>" to cut, and "<kbd>p</kbd>" to paste, it's not considered friendly: it's not what anybody is used to.</p>
       <p>Is it superior? Well, actually, yes.</p>
-      <p>With the Ctrl-X approach, how do you cut a word from the document you're currently in? <em>(No using the mouse!)</em></p>
-      <p>From the start of the word, <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Right</kbd> to select the word.</p>
-      <p>Then <kbd>Ctrl</kbd>-<kbd>X</kbd> to cut it.</p>
+      <p>With the <kbd>Ctrl</kbd>+<kbd>X</kbd> approach, how do you cut a word from the document you're currently in? <em>(No using the mouse!)</em></p>
+      <p>From the start of the word, <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Right</kbd> to select the word. Then <kbd>Ctrl</kbd>+<kbd>X</kbd> to cut it.</p>
       <p>The vi approach? <kbd>dw</kbd> deletes the word.</p>
       <p>How about cutting <strong>five</strong> words with a Ctrl-X application?</p>
 
       <p> From the start of the words,</p>
 
-      <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Right</kbd><br>
-      <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Right</kbd><br>
-      <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Right</kbd><br>
-      <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Right</kbd><br>
-      <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>Right</kbd><br>
-      <kbd>Ctrl</kbd>-<kbd>X</kbd>
+      <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Right</kbd><br>
+      <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Right</kbd><br>
+      <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Right</kbd><br>
+      <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Right</kbd><br>
+      <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Right</kbd><br>
+      <kbd>Ctrl</kbd>+<kbd>X</kbd>
 
       <p>And with vi?</p>
 
@@ -125,7 +124,7 @@ $this->load_header();
       <p>This is a sad but inescapable fact. Paradoxically, the harder you make it to access an application's functionality, the friendlier it can seem to be.</p>
       <p>This is because friendliness is added to an interface by using simple, visible "clues"&mdash;the more, the better. After all, if a complete novice to computers is put in front of a <abbr title="What You See Is What You Get">WYSIWYG</abbr> word processor and asked to make a bit of text bold, which is more likely:</p>
       <ul class="browser-default">
-        <li>He'll guess that "<kbd>Ctrl</kbd>-<kbd>B</kbd>" is the usual standard.</li>
+        <li>He'll guess that "<kbd>Ctrl</kbd>+<kbd>B</kbd>" is the usual standard.</li>
         <li>He'll look for clues, and try clicking on the "Edit" menu. Unsuccessful, he'll try the next likely one along the row of menus: "Format". The new menu has a "Font" option, which seems promising. And Hey! There's our "Bold" option. Success!</li>
       </ul>
       <p>Next time you do any processing, try doing every job via the menus: no shortcut keys, and no toolbar icons. Menus all the way. You'll find you slow to a crawl, as every task suddenly demands a multitude of keystrokes/mouseclicks.</p>
