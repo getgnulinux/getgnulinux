@@ -173,7 +173,21 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
           <li><?php print _("If you are looking for good documentation and support forums to assist you, there is plenty available for free (\"open source\") software."); ?><br/>
           <?php # TRANSLATORS: use your best knowledge of the community to propose localized links ;-)
           print _("Each GNU/Linux distribution has its own community (for example, <a href=\"https://askubuntu.com/\" rel=\"external\">Ask Ubuntu</a> or <a href=\"https://ask.fedoraproject.org/\" rel=\"external\">Ask Fedora</a>), but there are also general GNU/Linux help communities, like <a href=\"https://unix.stackexchange.com/\" rel=\"external\">Unix &amp; Linux Stack Exchange</a>."); ?></li>
-          <li><?php print _("If you need someone you can reach on the phone anytime to assist you, the companies behind most distributions provide commercial support: see the <a href=\"https://www.ubuntu.com/support\" rel=\"external\">Ubuntu Commercial Support</a> or <a href=\"https://www.redhat.com/rhel/\" rel=\"external\">Red Hat Enterprise Linux</a> pages for example."); ?></li>
+          <li><?php print _("There are many real-time discussion channels for the free software community. IRC, or Internet Relay Chat, is a real-time, text-based form of communication. You can have conversations with multiple people in an open channel or chat with someone privately one-on-one. Major GNU/Linux distributions have their own dedicated IRC channels where you'll find users and developers that are happy to answer your questions. Here you can find the IRC channels for the distributions we recommend:"); ?>
+            <ul class="browser-default">
+              <li><a href="https://wiki.debian.org/IRC" rel="external">Debian</a></li>
+              <li><a href="https://wiki.ubuntu.com/IRC/ChannelList" rel="external">Ubuntu</a></li>
+              <li><a href="https://fedoraproject.org/wiki/Communicating_and_getting_help#IRC" rel="external">Fedora</a></li>
+            </ul>
+          </li>
+          <li><?php print _("All major GNU/Linux distributions offer free help through mailing lists:"); ?>
+            <ul class="browser-default">
+              <li><a href="https://www.debian.org/MailingLists/" rel="external">Debian</a></li>
+              <li><a href="https://lists.ubuntu.com/" rel="external">Ubuntu</a></li>
+              <li><a href="https://lists.fedoraproject.org/archives/" rel="external">Fedora</a></li>
+            </ul>
+          </li>
+          <li><?php print _("If you need someone you can reach on the phone anytime to assist you, the companies behind most distributions provide commercial support: see <a href=\"https://www.debian.org/consultants/\" rel=\"external\">Debian consultants</a>, <a href=\"https://www.ubuntu.com/support\" rel=\"external\">Ubuntu Commercial Support</a>, or <a href=\"https://www.redhat.com/rhel/\" rel=\"external\">Red Hat Enterprise Linux</a> for example."); ?></li>
         </ul>
       </section>
 
