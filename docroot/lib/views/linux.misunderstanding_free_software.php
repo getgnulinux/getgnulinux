@@ -180,7 +180,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
               <li><a href="https://fedoraproject.org/wiki/Communicating_and_getting_help#IRC" rel="external">Fedora</a></li>
             </ul>
           </li>
-          <li><?php print _("All major GNU/Linux distributions offer help&mdash;free of charge&mdash;through mailing lists:"); ?>
+          <li><?php print _("All major GNU/Linux distributions offer help &ndash; free of charge &ndash; through mailing lists:"); ?>
             <ul class="browser-default">
               <li><a href="https://www.debian.org/MailingLists/" rel="external">Debian</a></li>
               <li><a href="https://lists.ubuntu.com/" rel="external">Ubuntu</a></li>
