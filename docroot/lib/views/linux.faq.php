@@ -216,13 +216,12 @@ $this->load_header();
             <blockquote>
             <p><?php print _("No. It is technically possible to adapt Microsoft Office to GNU/Linux, but Microsoft isn't keen on allowing Office users to choose their operating system. There are other issues with MS Office and openness &mdash; like Microsoft's fierce opposition to supporting <a href=\"http://www.opendocumentformat.org/\" rel=\"external\">the OpenDocument format</a>."); ?></p>
             <p><?php print _("However, a complete, free, reliable office suite exists: <a href=\"https://www.libreoffice.org/\" rel=\"external\">LibreOffice</a>. Or you can choose its close cousin, <a href=\"https://www.openoffice.org/\" rel=\"external\">Apache OpenOffice</a>. They will both happily use all your existing office files in MS-Word, MS-Excel, and MS-PowerPoint format, and are really free (both as in freedom and as in price). And they run on Windows as well as on GNU/Linux."); ?></p>
-            <p>
-                <a href="<?php # TRANSLATORS: If it exists, please use the localized URL of libreoffice.org. You can find localized URLs here: https://www.libreoffice.org/international-sites/
-                print _("https://www.libreoffice.org/"); ?>" target="_blank"><img class="lift-effect" src="/images/LibreOfficeLogo.png" alt="LibreOffice.org"/></a>
-                &nbsp;
-                <a href="<?php # TRANSLATORS: If it exists, please use the localized URL of openoffice.org. You can find localized URLs here: https://www.openoffice.org/projects/native-lang.html
-                print _("https://www.openoffice.org/") ?>" target="_blank"><img class="lift-effect" src="/images/OpenOfficeLogo.png" alt="OpenOffice.org"/></a>
-            </p>
+            <div class="logos logos--small">
+              <a href="<?php # TRANSLATORS: If it exists, please use the localized URL of libreoffice.org. You can find localized URLs here: https://www.libreoffice.org/international-sites/
+              print _("https://www.libreoffice.org/"); ?>" target="_blank"><img class="lift-effect" src="/images/LibreOfficeLogo.svg" alt="LibreOffice logo"/></a>
+              <a href="<?php # TRANSLATORS: If it exists, please use the localized URL of openoffice.org. You can find localized URLs here: https://www.openoffice.org/projects/native-lang.html
+              print _("https://www.openoffice.org/") ?>" target="_blank"><img class="lift-effect" src="/images/OpenOfficeLogo.svg" alt="Apache OpenOffice logo"/></a>
+            </div>
             </blockquote>
         </details>
 
@@ -249,7 +248,7 @@ $this->load_header();
             <blockquote>
             <p><?php print _("Yes and no. Some games, for example the Quake series, Rust, Counter-Strike, Tomb Raider, Portal, Left 4 Dead, and many more have GNU/Linux versions."); ?>
             <?php print _("There is also a good selection of online game distribution platforms that sell many high-quality games for GNU/Linux:"); ?></p>
-            <div class="logos">
+            <div class="logos logos--small">
               <a href="https://store.steampowered.com/linux" target="_blank"><img class="lift-effect" src="/images/SteamLogo.png" title="Steam" alt="Steam Logo"></a>
               <a href="https://www.gog.com/games?system=lin_mint,lin_ubuntu&amp;sort=popularity&amp;page=1" target="_blank"><img class="lift-effect" src="/images/GogLogo.png" title="GOG.COM" alt="GOG.COM logo"></a>
               <a href="https://itch.io/games/platform-linux" target="_blank"><img class="lift-effect" src="/images/ItchLogo.png" title="itch.io" alt="itch.io logo"></a>

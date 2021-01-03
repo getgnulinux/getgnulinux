@@ -28,6 +28,7 @@ $this->load_header();
       <ul class="browser-default">
         <li>Ubuntu, Fedora, and Debian logos: in accordance with the respective trademark guidelines (<a href="https://www.ubuntu.com/aboutus/trademarkpolicy" rel="external">Ubuntu</a>, <a href="https://fedoraproject.org/wiki/Legal/TrademarkGuidelines" rel="external">Fedora</a>, <a href="https://www.debian.org/logos/" rel="external">Debian</a>)</li>
         <li>The computer image on the "Try or install" page is of Purism's <a href="https://puri.sm/products/librem-mini/" rel="external">Librem Mini</a> (CC-BY-SA 4.0 license)</li>
+        <li>LibreOffice logo by Christoph Noack - <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34369081">Link</a></li>
       </ul>
 
       <h2 id="translators">Translators</h2>

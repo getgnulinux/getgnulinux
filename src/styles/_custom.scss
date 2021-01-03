@@ -195,9 +195,20 @@ details {
 
     img {
         display: inline-block;
-        height: 64px;
         width: auto;
         margin: 10px;
+    }
+
+    &--small {
+        img {
+            height: 64px;
+        }
+    }
+
+    &--large {
+        img {
+            height: 96px;
+        }
     }
 }
 
