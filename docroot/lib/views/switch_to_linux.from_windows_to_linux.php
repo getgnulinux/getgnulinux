@@ -92,7 +92,7 @@ $this->load_header();
         <p><?php print _("Hard-core computer gamers, you might find that the GNU/Linux gaming world is less professional and out-of-the-box than under Windows: the large game developing companies are only slowly getting interested in the free software world, which means that many well-known titles do not work on GNU/Linux, or need special restrictive emulators to work."); ?></p>
         <p><?php print _("There is a very active free software game development community though, and they have produced quite a few high-quality games, both 2D and 3D, that are free software. You can head to <a href=\"https://www.reddit.com/r/linux_gaming/\" rel=\"external\">GNU/Linux Gaming on Reddit</a> to find more information."); ?></p>
         <p><?php print _("There is also a good selection of online game distribution platforms that sell many high-quality games for GNU/Linux:"); ?></p>
-        <div class="logos">
+        <div class="logos logos--small">
           <a href="https://store.steampowered.com/linux" target="_blank"><img class="lift-effect" src="/images/SteamLogo.png" title="Steam" alt="Steam Logo"></a>
           <a href="https://www.gog.com/games?system=lin_mint,lin_ubuntu&amp;sort=popularity&amp;page=1" target="_blank"><img class="lift-effect" src="/images/GogLogo.png" title="GOG.COM" alt="GOG.COM logo"></a>
           <a href="https://itch.io/games/platform-linux" target="_blank"><img class="lift-effect" src="/images/ItchLogo.png" title="itch.io" alt="itch.io logo"></a>
