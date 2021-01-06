@@ -18,7 +18,7 @@ $this->load_header();
         <div class="page-intro">
           <p><?php
           # TRANSLATORS: This is the catcher-phrase for the Windows page. Exact translation is not required, the goal is to attract attention and set the tone of the page.
-          print _("Windows and Office work fine &mdash; Why worry about it?"); ?></p>
+          print _("Windows and Office work fine &ndash; Why worry about it?"); ?></p>
         </div>
       </header>
 

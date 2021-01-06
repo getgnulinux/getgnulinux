@@ -126,7 +126,7 @@ $this->load_header();
             <p><i><?php print _("Do all the reasons for avoiding Windows apply to macOS?"); ?></i></p>
             <p><?php $p = _("It's quite common for Mac users to believe they are exempt from <a href=\"%s\">restrictions associated with Windows</a>. Unfortunately such is not the case."); printf($p, $this->get_base_url('windows')); ?></p>
             <p><?php print _("macOS does have some low-level components which are <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">free software</a>; and Apple puts less energy into customer lock-in (with some notable efforts such as BootCamp)."); ?></p>
-            <p><?php print _("However, the end-user is still fundamentally restricted &mdash; because of the proprietary license, he/she cannot use macOS for all purposes, nor copy, study, modify, or redistribute it."); ?></p>
+            <p><?php print _("However, the end-user is still fundamentally restricted &ndash; because of the proprietary license, he/she cannot use macOS for all purposes, nor copy, study, modify, or redistribute it."); ?></p>
             <p><?php print _("Happily, because these freedoms matter a lot, it's possible to run popular GNU/Linux distributions (such as <a href=\"https://www.ubuntu.com/\" rel=\"external\">Ubuntu</a>) on Mac computers."); ?></p>
             </blockquote>
         </details>
@@ -140,7 +140,7 @@ $this->load_header();
             <p><?php print _("No. Wherever you read or heard this, you should update your views. GNU/Linux is completely distinct from such things. Whether you want to do them, or whether you prefer <a href=\"https://www.magnatune.com/\" rel=\"external\">intelligent</a>, <a href=\"https://www.jamendo.com/\" rel=\"external\">legal downloads</a>, GNU/Linux will work just as well as Windows. Unfortunately you can't identify gangsters by the make of their cars; the same thing goes for their operating system."); ?></p>
             <p><?php print _("GNU/Linux was made by people who don't like the thought of all the world's computers running just one company's proprietary products. There is certainly nothing wrong with that!"); ?></p>
             <p><?php
-            # TRANSLATORS: The link here points to the "misunderstanding_free_software" article.
+            # TRANSLATORS: The link here points to the "How to Misunderstand Free Software" article.
             $p = _("Read more in the article: <a href=\"%s\">%s</a>."); printf( $p, $this->get_base_url('linux/misunderstanding_free_software'), _("How to Misunderstand Free Software") ); ?></p>
             </blockquote>
         </details>
@@ -152,10 +152,9 @@ $this->load_header();
             # TRANSLATORS: This is italic text just below the question, which elaborates a little on it.
             print _("\"Everything has to be free\" and \"No one owns anything\" sounds somewhat frightening. Are GNU/Linux and its <abbr title=\"GNU General Public License\">GPL</abbr> License something for anarchists or communists?"); ?></i></p>
             <p><?php
-            $title = _("How to Misunderstand Free Software");
-            $link = sprintf("<a href=\"%s\">%s</a>", $this->get_base_url('linux/misunderstanding_free_software'), $title);
-            $p = _("GNU/Linux has nothing to do with a political system and anyone &mdash; regardless of their political views &mdash; can use it. We have this explained simply in our article %s.");
-            printf($p, $link); ?></p>
+            # TRANSLATORS: The link here points to the "How to Misunderstand Free Software" article.
+            $p = _("GNU/Linux has nothing to do with a political system and anyone &ndash; regardless of their political views &ndash; can use it. We have this explained simply in our article \"<a href=\"%s\">%s</a>\".");
+            sprintf($p, $this->get_base_url('linux/misunderstanding_free_software'), _("How to Misunderstand Free Software")); ?></p>
             </blockquote>
         </details>
       </section>
@@ -178,7 +177,9 @@ $this->load_header();
         <details>
             <summary id="language"><?php print _("Can I get GNU/Linux in my own language?"); ?></summary>
             <blockquote>
-            <p><?php $url = $this->get_base_url('switch_to_linux/choose_a_distribution'); $p = _("Yes. All main distributions, such as <a href=\"%s\">the ones we recommend</a>, are all available in the main languages around, and have support for many keyboard types."); printf($p, $url); ?></p>
+            <p><?php
+            $p = _("Yes. All main distributions, such as <a href=\"%s\">the ones we recommend</a>, are all available in the main languages around, and have support for many keyboard types.");
+            printf($p, $this->get_base_url('switch_to_linux/choose_a_distribution')); ?></p>
             <p><?php print _("Unlike Windows, all languages are included on each installation CD, so there is no need for you to download (or pay for!) another whole version to merely change the language on your computer."); ?></p>
             </blockquote>
         </details>
@@ -214,7 +215,7 @@ $this->load_header();
         <details>
             <summary id="ms_office"><?php print _("Will Microsoft Office run on GNU/Linux?"); ?></summary>
             <blockquote>
-            <p><?php print _("No. It is technically possible to adapt Microsoft Office to GNU/Linux, but Microsoft isn't keen on allowing Office users to choose their operating system. There are other issues with MS Office and openness &mdash; like Microsoft's fierce opposition to supporting <a href=\"http://www.opendocumentformat.org/\" rel=\"external\">the OpenDocument format</a>."); ?></p>
+            <p><?php print _("No. It is technically possible to adapt Microsoft Office to GNU/Linux, but Microsoft isn't keen on allowing Office users to choose their operating system. There are other issues with MS Office and openness &ndash; like Microsoft's fierce opposition to supporting <a href=\"http://www.opendocumentformat.org/\" rel=\"external\">the OpenDocument format</a>."); ?></p>
             <p><?php print _("However, a complete, free, reliable office suite exists: <a href=\"https://www.libreoffice.org/\" rel=\"external\">LibreOffice</a>. Or you can choose its close cousin, <a href=\"https://www.openoffice.org/\" rel=\"external\">Apache OpenOffice</a>. They will both happily use all your existing office files in MS-Word, MS-Excel, and MS-PowerPoint format, and are really free (both as in freedom and as in price). And they run on Windows as well as on GNU/Linux."); ?></p>
             <div class="logos logos--small">
               <a href="<?php # TRANSLATORS: If it exists, please use the localized URL of libreoffice.org. You can find localized URLs here: https://www.libreoffice.org/international-sites/
@@ -261,10 +262,12 @@ $this->load_header();
         <details>
             <summary id="virus"><?php print _("Should I install anti-virus software under GNU/Linux?"); ?></summary>
             <blockquote>
-              <p><?php print _("Here's the short version of the answer: No. If you simply <em>never run untrusted executables while logged in as the root user (or equivalent)</em>, all the \"virus checkers\" in the world will be at best superfluous; at worst, downright harmful. \"Hostile\" executables (including viruses) are <em>almost unfindable</em> in the GNU/Linux world&mdash;and no real threat to it&mdash;because they lack superuser authority, and because GNU/Linux admins are seldom stupid enough to run untrusted executables as a superuser, <em>and</em> because GNU/Linux users' customary and recommended sources for privileged executables enjoy paranoid-grade scrutiny (such that any unauthorised changes would be detected and remedied)."); ?></p>
+              <p><?php print _("Here's the short version of the answer: No. If you simply <em>never run untrusted executables while logged in as the root user (or equivalent)</em>, all the \"virus checkers\" in the world will be at best superfluous; at worst, downright harmful. \"Hostile\" executables (including viruses) are <em>almost unfindable</em> in the GNU/Linux world &ndash; and no real threat to it &ndash; because they lack superuser authority, and because GNU/Linux admins are seldom stupid enough to run untrusted executables as a superuser, <em>and</em> because GNU/Linux users' customary and recommended sources for privileged executables enjoy paranoid-grade scrutiny (such that any unauthorised changes would be detected and remedied)."); ?></p>
               <p><?php print _("Here's the long version: <em>Still</em> no. Any program on a GNU/Linux box, viruses included, can only do what the user who ran it can do. Real users aren't allowed to hurt the system (only a superuser account can), so neither can programs they run."); ?></p>
-              <p><?php $p = _("See our \"<a href=\"%s\">GNU/Linux virus FAQ</a>\" for more details on this subject.");
-              printf($p, $this->get_base_url('linux/faq/virus')); ?></p>
+              <p><?php
+              # TRANSLATORS: The link will automatically point to the "GNU/Linux virus FAQ" page.
+              $p = _("See our \"<a href=\"%s\">%s</a>\" for more details on this subject.");
+              printf($p, $this->get_base_url('linux/faq/virus'), _("GNU/Linux virus FAQ")); ?></p>
             </blockquote>
         </details>
       </section>
@@ -273,7 +276,7 @@ $this->load_header();
         <h2><?php print _("More questions?"); ?></h2>
 
         <p><?php
-        # TRANSLATORS: The first link will automatically point to the "more" page.
+        # TRANSLATORS: The link will automatically point to the "more" page.
         $p = _("If you have a question that is not covered here, there are many communities to help you. Our \"<a href=\"%s\">%s</a>\" section will help you find the right place to ask.");
         printf( $p, $this->get_base_url('more'), _("More") ); ?></p>
         <p><?php

@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
-"POT-Creation-Date: 2021-01-06 04:05+0000\n"
+"POT-Creation-Date: 2021-01-06 12:45+0000\n"
 "PO-Revision-Date: 2020-12-20 01:29+0000\n"
 "Last-Translator: FengChao <chaofeng111@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -50,7 +50,7 @@ msgstr "使用条款"
 #. TRANSLATORS: This is the title of the 'More' page.
 #: docroot/lib/ggl.php:216 docroot/lib/views/more.php:16
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:56
-#: docroot/lib/views/linux.faq.php:278 src/templates/footer.php:28
+#: docroot/lib/views/linux.faq.php:281 src/templates/footer.php:28
 #: src/templates/header.php:47 src/templates/header.php:50
 #: src/templates/header.php:84
 msgid "More"
@@ -60,7 +60,7 @@ msgstr "更多"
 #: docroot/lib/ggl.php:218 docroot/lib/views/home.php:25
 #: docroot/lib/views/linux.php:13
 #: docroot/lib/views/linux.misunderstanding_free_software.php:225
-#: docroot/lib/views/linux.faq.php:290 src/templates/header.php:44
+#: docroot/lib/views/linux.faq.php:293 src/templates/header.php:44
 #: src/templates/header.php:53 src/templates/header.php:80
 msgid "What is GNU/Linux?"
 msgstr "什么是 GNU/Linux？"
@@ -71,7 +71,7 @@ msgid "GNU/Linux FAQ - common questions about GNU/Linux"
 msgstr "GNU/Linux FAQ — GNU/Linux 的常见问题"
 
 #. TRANSLATORS: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
-#: docroot/lib/ggl.php:222
+#: docroot/lib/ggl.php:222 docroot/lib/views/linux.faq.php:270
 #, fuzzy
 msgid "GNU/Linux virus FAQ"
 msgstr "GNU/Linux 常见问题"
@@ -82,7 +82,7 @@ msgstr "GNU/Linux 常见问题"
 #: docroot/lib/views/linux.php:81
 #: docroot/lib/views/linux.misunderstanding_free_software.php:19
 #: docroot/lib/views/linux.faq.php:100 docroot/lib/views/linux.faq.php:144
-#: docroot/lib/views/linux.faq.php:155
+#: docroot/lib/views/linux.faq.php:157
 msgid "How to Misunderstand Free Software"
 msgstr "人们对自由软件有哪些误解"
 
@@ -119,7 +119,7 @@ msgstr "关于限制的更多细节"
 
 #. TRANSLATORS: This title can be translated loosely
 #: docroot/lib/ggl.php:233 docroot/lib/views/windows.php:71
-#: docroot/lib/views/linux.faq.php:197
+#: docroot/lib/views/linux.faq.php:198
 msgid "Stand for a free society"
 msgstr "代表自由社会"
 
@@ -195,7 +195,7 @@ msgstr "关于GNU/Linux的高频提问。"
 #. TRANSLATORS: This is the description of the 'GNU/Linux virus FAQ' page
 #: docroot/lib/ggl.php:259
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:51
-#: docroot/lib/views/linux.faq.php:262
+#: docroot/lib/views/linux.faq.php:263
 msgid "Should I install anti-virus software under GNU/Linux?"
 msgstr ""
 
@@ -264,7 +264,8 @@ msgstr "试着在电脑上安装 GNU/Linux，非常简单."
 
 #. TRANSLATORS: This is the catcher-phrase for the Windows page. Exact translation is not required, the goal is to attract attention and set the tone of the page.
 #: docroot/lib/views/windows.php:21
-msgid "Windows and Office work fine &mdash; Why worry about it?"
+#, fuzzy
+msgid "Windows and Office work fine &ndash; Why worry about it?"
 msgstr "Windows和Office用得好好的，担心什么呢？"
 
 #. TRANSLATORS: You may add emphasis ('em' tags) around the word 'licensed' if you wish
@@ -1363,7 +1364,7 @@ msgstr ""
 "司支撑）到可以嵌入 USB 中或者运行在陈旧的计算机之上的轻型系统（常由自愿者开"
 "发），不一而足。"
 
-#: docroot/lib/views/linux.php:27 docroot/lib/views/linux.faq.php:212
+#: docroot/lib/views/linux.php:27 docroot/lib/views/linux.faq.php:213
 msgid "Using GNU/Linux"
 msgstr "使用 GNU/Linux"
 
@@ -2605,9 +2606,9 @@ msgstr ""
 #, fuzzy, php-format
 msgid ""
 "It is often difficult for Windows users to believe that there are <em>no "
-"spyware nor viruses</em> under GNU/Linux&mdash;<a href=\"%s\">but it's true</"
-"a>. Malicious programs have a hard time doing anything at all in a well-"
-"built system."
+"spyware nor viruses</em> under GNU/Linux &ndash; <a href=\"%s\">but it's "
+"true</a>. Malicious programs have a hard time doing anything at all in a "
+"well-built system."
 msgstr ""
 "通常 Windows 用户都难以相信在 GNU/Linux 下<em>没有恶意软件和病毒</em>&mdash; "
 "<a href=\"http://linuxmafia.com/~rick/faq/#virus\" rel=\"external\">但这是现"
@@ -2719,8 +2720,9 @@ msgstr "计算机硬件制造商并不总是放出 GNU/Linux 的驱动或者公�
 #, fuzzy
 msgid ""
 "So, drivers are sometimes unavailable for the most recent high-end graphics "
-"cards&mdash;some are reverse-engineered from Windows drivers by volunteers. "
-"Some are also released free of charge, but under restrictive licenses."
+"cards &ndash; some are reverse-engineered from Windows drivers by "
+"volunteers. Some are also released free of charge, but under restrictive "
+"licenses."
 msgstr ""
 "所以有时您可能无法找到高端显卡的最新驱动&mdash;有些驱动是由志愿者们从 "
 "Windows 驱动反编译得来的，而有些驱动是免费，但不自由的。"
@@ -2767,7 +2769,7 @@ msgstr ""
 "em>，即使您已经付了钱。"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:88
-#: docroot/lib/views/linux.faq.php:229
+#: docroot/lib/views/linux.faq.php:230
 msgid "Can I play my DVDs and MP3s under GNU/Linux?"
 msgstr "在GNU/Linux中能播放DVD和MP3吗？"
 
@@ -2797,14 +2799,14 @@ msgid ""
 msgstr ""
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:94
-#: docroot/lib/views/linux.faq.php:250
+#: docroot/lib/views/linux.faq.php:251
 msgid ""
 "There is also a good selection of online game distribution platforms that "
 "sell many high-quality games for GNU/Linux:"
 msgstr ""
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:103
-#: docroot/lib/views/linux.faq.php:247
+#: docroot/lib/views/linux.faq.php:248
 msgid "Can I play popular 3D games under GNU/Linux?"
 msgstr "在GNU/Linux下能玩流行的3D游戏吗？"
 
@@ -3366,8 +3368,9 @@ msgstr ""
 "BootCamp 就是一例）。"
 
 #: docroot/lib/views/linux.faq.php:129
+#, fuzzy
 msgid ""
-"However, the end-user is still fundamentally restricted &mdash; because of "
+"However, the end-user is still fundamentally restricted &ndash; because of "
 "the proprietary license, he/she cannot use macOS for all purposes, nor copy, "
 "study, modify, or redistribute it."
 msgstr ""
@@ -3419,7 +3422,7 @@ msgstr ""
 "一群不满全世界的电脑只运行一家公司私有产品的人创造了GNU/Linux 。这当然没有"
 "错！"
 
-#. TRANSLATORS: The link here points to the "misunderstanding_free_software" article.
+#. TRANSLATORS: The link here points to the "How to Misunderstand Free Software" article.
 #: docroot/lib/views/linux.faq.php:144
 #, php-format
 msgid "Read more in the article: <a href=\"%s\">%s</a>."
@@ -3440,26 +3443,27 @@ msgstr ""
 "Linux 以及 <abbr title=\"GNU General Public License\">GPL</abbr> 许可协议是不"
 "是属于无政府主义或者共产主义？"
 
-#: docroot/lib/views/linux.faq.php:157
-#, php-format
+#. TRANSLATORS: The link here points to the "How to Misunderstand Free Software" article.
+#: docroot/lib/views/linux.faq.php:156
+#, fuzzy, php-format
 msgid ""
-"GNU/Linux has nothing to do with a political system and anyone &mdash; "
-"regardless of their political views &mdash; can use it. We have this "
-"explained simply in our article %s."
+"GNU/Linux has nothing to do with a political system and anyone &ndash; "
+"regardless of their political views &ndash; can use it. We have this "
+"explained simply in our article \"<a href=\"%s\">%s</a>\"."
 msgstr ""
 "GNU/Linux 与政治体系没有任何关系——持有任何政见的人都可以使用它。我们已经在我"
 "们的%s一文中解释了这个问题。"
 
-#: docroot/lib/views/linux.faq.php:164
+#: docroot/lib/views/linux.faq.php:163
 msgid "Installing GNU/Linux"
 msgstr "安装 GNU/Linux"
 
-#: docroot/lib/views/linux.faq.php:167
+#: docroot/lib/views/linux.faq.php:166
 msgid "Does GNU/Linux come pre-installed on computers?"
 msgstr "GNU/Linux 有预装在电脑上吗？"
 
 #. TRANSLATORS: If LinuxPreloaded has not been localized to your language, please leave the URL to linuxpreloaded.com.
-#: docroot/lib/views/linux.faq.php:171
+#: docroot/lib/views/linux.faq.php:170
 msgid ""
 "Yes it does. <a href=\"https://linuxpreloaded.com/\" title=\"GNU/Linux "
 "laptops\" rel=\"external\">LinuxPreloaded.com</a> has built a website "
@@ -3471,13 +3475,13 @@ msgstr ""
 "装 GNU/Linux 的台式机和笔记本商家。"
 
 #. TRANSLATORS: please leave the "#new_computer" element as such. It is an internal link.
-#: docroot/lib/views/linux.faq.php:174
+#: docroot/lib/views/linux.faq.php:173
 msgid ""
 "Note that <a href=\"#new_computer\">buying new hardware is not necessary</a> "
 "to use GNU/Linux!"
 msgstr "使用GNU/Linux<a href=\"#new_computer\">无须您购买新的硬件</a>！"
 
-#: docroot/lib/views/linux.faq.php:179
+#: docroot/lib/views/linux.faq.php:178
 msgid "Can I get GNU/Linux in my own language?"
 msgstr "我能得到支持我自己语言的GNU/Linux吗？"
 
@@ -3491,7 +3495,7 @@ msgstr ""
 "可以。所有主流的发行版，比如<a href=\"%s\">我们推荐的这些</a>，都支持多种主要"
 "的语言和很多的键盘类型。"
 
-#: docroot/lib/views/linux.faq.php:182
+#: docroot/lib/views/linux.faq.php:183
 msgid ""
 "Unlike Windows, all languages are included on each installation CD, so there "
 "is no need for you to download (or pay for!) another whole version to merely "
@@ -3500,12 +3504,12 @@ msgstr ""
 "不像Windows，你不必因为要变更你电脑上的语言就去下载（或购买！）又一个完整版，"
 "所有的语言都包含在每一张安装CD上。"
 
-#: docroot/lib/views/linux.faq.php:187
+#: docroot/lib/views/linux.faq.php:188
 msgid "Is it legal to install GNU/Linux on my computer?"
 msgstr "在我的电脑上安装 GNU/Linux 系统是否合法？"
 
 #. TRANSLATORS: This is italic text just below the question, which elaborates a little on it.
-#: docroot/lib/views/linux.faq.php:191
+#: docroot/lib/views/linux.faq.php:192
 msgid ""
 "There is a shiny Windows sticker on it! Am I allowed to erase Windows or use "
 "it together with GNU/Linux?"
@@ -3513,13 +3517,13 @@ msgstr ""
 "它上面贴了一个闪亮的 Windows 标签！我有权删除 Windows 或者安装 GNU/Linux 双系"
 "统吗？"
 
-#: docroot/lib/views/linux.faq.php:192
+#: docroot/lib/views/linux.faq.php:193
 msgid ""
 "Yes. It is absolutely, completely legal, provided of course it's your "
 "computer!"
 msgstr "是。完全合法，当然，前提是电脑是你的！"
 
-#: docroot/lib/views/linux.faq.php:193
+#: docroot/lib/views/linux.faq.php:194
 msgid ""
 "The sticker on it is purely marketing, it has no legal value. We believe it "
 "is <em>one fundamental right</em> to choose which software to run on our own "
@@ -3529,7 +3533,7 @@ msgstr ""
 "行是一项<em>基本权利</em>。"
 
 #. TRANSLATORS: If you do not know of a very good resource about DRM, please link to the Wikipedia article on DRM in your language.
-#: docroot/lib/views/linux.faq.php:196
+#: docroot/lib/views/linux.faq.php:197
 #, php-format
 msgid ""
 "In fact this right is threatened by the rise of things such as <a href="
@@ -3541,15 +3545,15 @@ msgstr ""
 "fallacy\" rel=\"external\">DRM 和可信计算</a>的威胁。详情请阅读\"<a href=\"%s"
 "\">%s</a>\"。"
 
-#: docroot/lib/views/linux.faq.php:203
+#: docroot/lib/views/linux.faq.php:204
 msgid "Do I have to purchase a new computer to run GNU/Linux?"
 msgstr "我需要购买一台新的电脑才能运行 GNU/Linux 吗？"
 
-#: docroot/lib/views/linux.faq.php:205
+#: docroot/lib/views/linux.faq.php:206
 msgid "Not at all. It will run happily on your own computer."
 msgstr "完全没必要。它可以在你自己的电脑上舒舒服服地运行。"
 
-#: docroot/lib/views/linux.faq.php:206
+#: docroot/lib/views/linux.faq.php:207
 #, php-format
 msgid ""
 "The only thing you might be worried about is using very recent special "
@@ -3564,15 +3568,16 @@ msgstr ""
 "以及苹果的 Mac 计算机上运行。参阅<a href=\"%s\">怎样在您的计算机上尝试或安装 "
 "GNU/Linux</a>，不论您希望替代 Windows 还是安装双系统。"
 
-#: docroot/lib/views/linux.faq.php:215
+#: docroot/lib/views/linux.faq.php:216
 msgid "Will Microsoft Office run on GNU/Linux?"
 msgstr "Microsoft Office 可以运行在 GNU/Linux 上？"
 
-#: docroot/lib/views/linux.faq.php:217
+#: docroot/lib/views/linux.faq.php:218
+#, fuzzy
 msgid ""
 "No. It is technically possible to adapt Microsoft Office to GNU/Linux, but "
 "Microsoft isn't keen on allowing Office users to choose their operating "
-"system. There are other issues with MS Office and openness &mdash; like "
+"system. There are other issues with MS Office and openness &ndash; like "
 "Microsoft's fierce opposition to supporting <a href=\"http://www."
 "opendocumentformat.org/\" rel=\"external\">the OpenDocument format</a>."
 msgstr ""
@@ -3581,7 +3586,7 @@ msgstr ""
 "蒂&mdash;比如微软在支持<a href=\"http://www.opendocumentformat.org/\" rel="
 "\"external\">开放文档格式</a>上所采取的强烈反对立场。"
 
-#: docroot/lib/views/linux.faq.php:218
+#: docroot/lib/views/linux.faq.php:219
 msgid ""
 "However, a complete, free, reliable office suite exists: <a href=\"https://"
 "www.libreoffice.org/\" rel=\"external\">LibreOffice</a>. Or you can choose "
@@ -3598,22 +3603,22 @@ msgstr ""
 "文件，并且都自由免费。这两个软件同时拥有 Windows 和 GNU/Linux 版本。"
 
 #. TRANSLATORS: If it exists, please use the localized URL of libreoffice.org. You can find localized URLs here: https://www.libreoffice.org/international-sites/
-#: docroot/lib/views/linux.faq.php:221
+#: docroot/lib/views/linux.faq.php:222
 msgid "https://www.libreoffice.org/"
 msgstr "https://www.libreoffice.org/"
 
 #. TRANSLATORS: If it exists, please use the localized URL of openoffice.org. You can find localized URLs here: https://www.openoffice.org/projects/native-lang.html
-#: docroot/lib/views/linux.faq.php:223
+#: docroot/lib/views/linux.faq.php:224
 msgid "https://www.openoffice.org/"
 msgstr "https://www.openoffice.org/"
 
-#: docroot/lib/views/linux.faq.php:231
+#: docroot/lib/views/linux.faq.php:232
 msgid ""
 "The simple answer to this question would be &quot;yes&quot;, however this is "
 "only half the truth."
 msgstr "一个初步的回答是“可以”，然而这只说对了一半。"
 
-#: docroot/lib/views/linux.faq.php:232
+#: docroot/lib/views/linux.faq.php:233
 msgid ""
 "Quite a few GNU/Linux distributions do not include MP3 playback software due "
 "to the patent situation of the MP3 format. These patent issues do not affect "
@@ -3625,7 +3630,7 @@ msgstr ""
 "些专利问题并不直接影响用户，因此大多数的发行版都让用户得以通过因特网非常容易"
 "地安装 MP3 支持以后，以非商业用途<strong>合法地播放 MP3 文件</strong>。"
 
-#: docroot/lib/views/linux.faq.php:233
+#: docroot/lib/views/linux.faq.php:234
 msgid ""
 "DVDs, on the other hand, are a more difficult situation. Most, if not all, "
 "DVDs are encrypted using a system called \"<abbr title=\"Content Scrambling "
@@ -3639,7 +3644,7 @@ msgstr ""
 "<code>libdvdcss</code>的获得广泛支持的自由软件，能解密DVD影像。然而，在全世界"
 "的很多地方，包括美国和欧盟，逃避加于DVD上的限制是非法的。"
 
-#: docroot/lib/views/linux.faq.php:234
+#: docroot/lib/views/linux.faq.php:235
 msgid ""
 "There is a legal solution to play your DVDs on GNU/Linux where "
 "<code>libdvdcss</code> is illegal. The <a href=\"https://fluendo.com/\" rel="
@@ -3650,41 +3655,41 @@ msgstr ""
 "www.fluendo.com/\" rel=\"external\">Fluendo</a> 公司为这些地区的用户提供了一"
 "个（收费的）播放软件，可以在他们的网站购买。"
 
-#: docroot/lib/views/linux.faq.php:235
+#: docroot/lib/views/linux.faq.php:236
 msgid ""
 "Non-encrypted DVDs, which include most home-made DVDs, play perfectly well "
 "with only free software."
 msgstr "未加密的DVD，包括大多数家庭DVD，仅用自由软件就可以完美无缺地播放。"
 
-#: docroot/lib/views/linux.faq.php:236
+#: docroot/lib/views/linux.faq.php:237
 msgid "More on the web:"
 msgstr "关于更多："
 
 #. TRANSLATORS: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
-#: docroot/lib/views/linux.faq.php:239
+#: docroot/lib/views/linux.faq.php:240
 msgid "https://wiki.ubuntu.com/RestrictedFormats"
 msgstr "https://wiki.ubuntu.com/RestrictedFormats"
 
-#: docroot/lib/views/linux.faq.php:239
+#: docroot/lib/views/linux.faq.php:240
 msgid "Ubuntu Restricted Formats"
 msgstr "Ubuntu文档“受限格式”"
 
 #. TRANSLATORS: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
-#: docroot/lib/views/linux.faq.php:241
+#: docroot/lib/views/linux.faq.php:242
 msgid "https://fedoraproject.org/wiki/Forbidden_items"
 msgstr "https://fedoraproject.org/wiki/Forbidden_items"
 
-#: docroot/lib/views/linux.faq.php:241
+#: docroot/lib/views/linux.faq.php:242
 msgid "Fedora Forbidden Items"
 msgstr "Fedora Wiki“受限内容”"
 
-#: docroot/lib/views/linux.faq.php:249
+#: docroot/lib/views/linux.faq.php:250
 msgid ""
 "Yes and no. Some games, for example the Quake series, Rust, Counter-Strike, "
 "Tomb Raider, Portal, Left 4 Dead, and many more have GNU/Linux versions."
 msgstr ""
 
-#: docroot/lib/views/linux.faq.php:257
+#: docroot/lib/views/linux.faq.php:258
 #, fuzzy
 msgid ""
 "Most popular games, alas, only work on Windows and occasionally on macOS. "
@@ -3706,21 +3711,21 @@ msgstr ""
 "些额外的精力。<a href=\"https://appdb.winehq.org/\" rel=\"external\">Wine 游"
 "戏数据库</a>包含一个可以通过 Wine 运行的游戏列表。"
 
-#: docroot/lib/views/linux.faq.php:264
+#: docroot/lib/views/linux.faq.php:265
 msgid ""
 "Here's the short version of the answer: No. If you simply <em>never run "
 "untrusted executables while logged in as the root user (or equivalent)</em>, "
 "all the \"virus checkers\" in the world will be at best superfluous; at "
 "worst, downright harmful. \"Hostile\" executables (including viruses) are "
-"<em>almost unfindable</em> in the GNU/Linux world&mdash;and no real threat "
-"to it&mdash;because they lack superuser authority, and because GNU/Linux "
+"<em>almost unfindable</em> in the GNU/Linux world &ndash; and no real threat "
+"to it &ndash; because they lack superuser authority, and because GNU/Linux "
 "admins are seldom stupid enough to run untrusted executables as a superuser, "
 "<em>and</em> because GNU/Linux users' customary and recommended sources for "
 "privileged executables enjoy paranoid-grade scrutiny (such that any "
 "unauthorised changes would be detected and remedied)."
 msgstr ""
 
-#: docroot/lib/views/linux.faq.php:265
+#: docroot/lib/views/linux.faq.php:266
 msgid ""
 "Here's the long version: <em>Still</em> no. Any program on a GNU/Linux box, "
 "viruses included, can only do what the user who ran it can do. Real users "
@@ -3728,19 +3733,18 @@ msgid ""
 "can programs they run."
 msgstr ""
 
-#: docroot/lib/views/linux.faq.php:266
+#. TRANSLATORS: The link will automatically point to the "GNU/Linux virus FAQ" page.
+#: docroot/lib/views/linux.faq.php:269
 #, php-format
-msgid ""
-"See our \"<a href=\"%s\">GNU/Linux virus FAQ</a>\" for more details on this "
-"subject."
+msgid "See our \"<a href=\"%s\">%s</a>\" for more details on this subject."
 msgstr ""
 
-#: docroot/lib/views/linux.faq.php:273
+#: docroot/lib/views/linux.faq.php:276
 msgid "More questions?"
 msgstr "更多问题？"
 
-#. TRANSLATORS: The first link will automatically point to the "more" page.
-#: docroot/lib/views/linux.faq.php:277
+#. TRANSLATORS: The link will automatically point to the "more" page.
+#: docroot/lib/views/linux.faq.php:280
 #, php-format
 msgid ""
 "If you have a question that is not covered here, there are many communities "
@@ -3751,7 +3755,7 @@ msgstr ""
 "\">%s</a>”栏目会帮助您找到正确的提问地点。"
 
 #. TRANSLATORS: The first link will automatically point to the contact page, the second to the bug tracker.
-#: docroot/lib/views/linux.faq.php:281
+#: docroot/lib/views/linux.faq.php:284
 #, php-format
 msgid ""
 "If you can think of a frequent question that we haven't answered yet, do <a "
