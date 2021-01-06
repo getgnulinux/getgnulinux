@@ -65,6 +65,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
                 <li><a href="https://www.libreoffice.org/" rel="external">LibreOffice</a> <?php print _("(office suite)"); ?></li>
                 <li><a href="https://www.tensorflow.org/" rel="external">TensorFlow</a> <?php print _("(machine learning)"); ?></li>
                 <li><a href="https://www.thunderbird.net/" rel="external">Thunderbird</a> <?php print _("(email client)"); ?></li>
+                <li><a href="https://www.videolan.org/vlc/" rel="external">VLC media player</a> <?php print _("(multimedia player)"); ?></li>
               </ul>
             </li>
             <li><?php print _("Server applications:"); ?>
@@ -87,7 +88,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
                 <li><a href="https://en.wikipedia.org/wiki/Ogg" rel="external">Ogg</a> <?php print _("(container format)"); ?></li>
                 <li><a href="https://en.wikipedia.org/wiki/OpenDocument" rel="external">OpenDocument Format</a> <?php print _("(office documents)"); ?></li>
                 <li><a href="https://en.wikipedia.org/wiki/WebM" rel="external">WebM</a> <?php print _("(video file format)"); ?></li>
-                <li><a href="https://en.wikipedia.org/wiki/YAML" rel="external">YAML</a> <?php print _("(data interchange)"); ?></li>
+                <li><a href="https://en.wikipedia.org/wiki/WebRTC" rel="external">WebRTC</a> <?php print _("(web real-time communication)"); ?></li>
               </ul>
             </li>
             <li><?php print _("Complete systems:"); ?>
