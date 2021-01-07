@@ -206,6 +206,15 @@ class GGL {
         # TRANSLATORS: The name of the website. It is displayed in the header of each page.
         $this->config['website_title'] = _("get GNU/Linux!");
 
+        # Main navigation items.
+        $this->config['navigation_items'] = array(
+            0 => array('', _("Home")),
+            1 => array('linux', _("What is GNU/Linux?")),
+            2 => array('windows', _("Why not Windows")),
+            3 => array('switch_to_linux', _("Switch to GNU/Linux")),
+            4 => array('more', _("More"))
+        );
+
         # Set page titles for <title> tags.
         $this->config['page_titles'] = array(
             # TRANSLATORS: This is the title of the 'Credits' page.

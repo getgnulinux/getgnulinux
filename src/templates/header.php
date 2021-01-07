@@ -39,19 +39,15 @@
         <a href="#" data-target="sidenav" class="sidenav-trigger <?php print $this->rtltr("left", "right"); ?>"><i class="material-icons">menu</i></a>
         <ul class="hide-on-large-and-down <?php print $this->rtltr("left", "right"); ?>">
           <?php
-          if ($this->is_ltr()) {
-              $this->nav_link('nav-item-home', '', _("Home"));
-              $this->nav_link('nav-item-linux', 'linux', _("What is GNU/Linux?"));
-              $this->nav_link('nav-item-windows', 'windows', _("Why not Windows"));
-              $this->nav_link('nav-item-switch', 'switch_to_linux', _("Switch to GNU/Linux"));
-              $this->nav_link('nav-item-more', 'more', _("More"));
+          $navigation_items = $ggl->get('navigation_items');
+
+          if (!$this->is_ltr()) {
+              krsort($navigation_items, SORT_NUMERIC);
           }
-          else {
-              $this->nav_link('nav-item-more', 'more', _("More"));
-              $this->nav_link('nav-item-switch', 'switch_to_linux', _("Switch to GNU/Linux"));
-              $this->nav_link('nav-item-windows', 'windows', _("Why not Windows"));
-              $this->nav_link('nav-item-linux', 'linux', _("What is GNU/Linux?"));
-              $this->nav_link('nav-item-home', '', _("Home"));
+
+          foreach ($navigation_items as $i => $items) {
+              list($page, $title) = $items;
+              $this->nav_link($page, $title);
           }
           ?>
         </ul>
@@ -76,12 +72,12 @@
 
     <ul class="sidenav" id="sidenav">
       <?php
-      $this->sidenav_link('home', _("Home"));
-      $this->sidenav_link('linux', _("What is GNU/Linux?"));
-      $this->sidenav_link('linux/faq', _("GNU/Linux FAQ"));
-      $this->sidenav_link('windows', _("Why not Windows"));
-      $this->sidenav_link('switch_to_linux', _("Switch to GNU/Linux"));
-      $this->sidenav_link('more', _("More"));
+      $navigation_items = $ggl->get('navigation_items');
+
+      foreach ($navigation_items as $i => $items) {
+          list($page, $title) = $items;
+          $this->sidenav_link($page, $title);
+      }
       ?>
     </ul>
 

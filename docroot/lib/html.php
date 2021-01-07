@@ -139,9 +139,8 @@ class HTML {
         return $ggl->config['page_descriptions'][$view];
     }
 
-    function nav_link($id, $page, $title) {
-      printf('<li id="%s" class="waves-effect waves-light %s"><a href="%s">%s</a></li>',
-        $id,
+    function nav_link($page, $title) {
+      printf('<li class="waves-effect waves-light %s"><a href="%s">%s</a></li>',
         $this->we_are_here($page, true) ? 'active' : '',
         $this->get_base_url($page),
         $title);
