@@ -33,7 +33,7 @@ $this->load_header();
             <p><?php # TRANSLATORS: This is the quote from Stallman at the start of the article.
             print _("You might say, \"How do I change this recipe to take out the salt?\" and the great chef would respond, \"How dare you insult my recipe, the child of my brain and my palate, by trying to tamper with it? You don't have the judgment to change my recipe and make it work right!\""); ?></p>
             <footer>
-              Richard Stallman, <cite><a href="<?php print _("https://www.gnu.org/philosophy/why-free.html"); ?>" rel="external"><?php print _("Why Software Should Be Free"); ?></a></cite>
+              Richard Stallman, <cite><a href="https://www.gnu.org/philosophy/shouldbefree.html" rel="external"><?php print _("Why Software Should Be Free"); ?></a></cite>
             </footer>
           </blockquote>
         </div>
