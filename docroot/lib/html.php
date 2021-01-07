@@ -258,11 +258,15 @@ class HTML {
      *         FALSE otherwise.
      */
     function we_are_here($path, $fuzzy=false) {
+        if ($path === '' && $this->view === 'home') {
+            return true;
+        }
+
         if ($fuzzy) {
             return Util::startswith($path, $this->view);
         }
         else {
-          return $this->view === str_replace('/','.',$path);
+          return $this->view === str_replace('/', '.', $path);
         }
     }
 
