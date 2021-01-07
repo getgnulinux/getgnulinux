@@ -154,7 +154,7 @@ $this->load_header();
             <p><?php
             # TRANSLATORS: The link here points to the "How to Misunderstand Free Software" article.
             $p = _("GNU/Linux has nothing to do with a political system and anyone &ndash; regardless of their political views &ndash; can use it. We have this explained simply in our article \"<a href=\"%s\">%s</a>\".");
-            sprintf($p, $this->get_base_url('linux/misunderstanding_free_software'), _("How to Misunderstand Free Software")); ?></p>
+            printf($p, $this->get_base_url('linux/misunderstanding_free_software'), _("How to Misunderstand Free Software")); ?></p>
             </blockquote>
         </details>
       </section>
