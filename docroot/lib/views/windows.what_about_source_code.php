@@ -28,10 +28,14 @@ $this->load_header();
         <p><?php print _("As such, it is illegal to work out how Windows or Microsoft Word are designed. It is even illegal to try. You are also forbidden to modify the program for any purpose."); ?></p>
         <p><?php print _("This restriction in the license makes sure that <strong>Microsoft remain the sole organisation that understand how their products work</strong>. Windows is very much like a car that only the original manufacturer is allowed to service."); ?></p>
         <br/>
-        <div class="card-panel card-panel--source amber lighten-4">
-          <p><?php # TRANSLATORS: This is the quote from Stallman at the start of the article.
-          print _("You might say, \"How do I change this recipe to take out the salt?\" and the great chef would respond, \"How dare you insult my recipe, the child of my brain and my palate, by trying to tamper with it? You don't have the judgment to change my recipe and make it work right!\""); ?></p>
-          <span class="source">Richard Stallman, <a href="<?php print _("https://www.gnu.org/philosophy/why-free.html"); ?>" rel="external"><?php print _("Why Software Should Be Free"); ?></a></span>
+        <div class="card-panel card-panel--quote amber lighten-4">
+          <blockquote>
+            <p><?php # TRANSLATORS: This is the quote from Stallman at the start of the article.
+            print _("You might say, \"How do I change this recipe to take out the salt?\" and the great chef would respond, \"How dare you insult my recipe, the child of my brain and my palate, by trying to tamper with it? You don't have the judgment to change my recipe and make it work right!\""); ?></p>
+            <footer>
+              Richard Stallman, <cite><a href="<?php print _("https://www.gnu.org/philosophy/why-free.html"); ?>" rel="external"><?php print _("Why Software Should Be Free"); ?></a></cite>
+            </footer>
+          </blockquote>
         </div>
       </section>
 

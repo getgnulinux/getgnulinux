@@ -26,7 +26,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
-"POT-Creation-Date: 2021-01-06 12:45+0000\n"
+"POT-Creation-Date: 2021-01-07 02:15+0000\n"
 "PO-Revision-Date: 2021-01-06 04:11+0000\n"
 "Last-Translator: Serrano Pereira <serrano@bitosis.nl>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
@@ -83,7 +83,7 @@ msgstr "GNU/Linux 病毒 FAQ"
 
 #. TRANSLATORS: Here the intent is to be a little provocative. Exact translation is not required.
 #: docroot/lib/ggl.php:224
-#: docroot/lib/views/windows.stand_for_a_free_society.php:145
+#: docroot/lib/views/windows.stand_for_a_free_society.php:163
 #: docroot/lib/views/linux.php:81
 #: docroot/lib/views/linux.misunderstanding_free_software.php:19
 #: docroot/lib/views/linux.faq.php:100 docroot/lib/views/linux.faq.php:144
@@ -97,12 +97,12 @@ msgstr "GNU/Linux 不是 Windows"
 
 #. TRANSLATORS: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
 #: docroot/lib/ggl.php:227 docroot/lib/views/windows.php:16
-#: docroot/lib/views/windows.restrictions.php:78
-#: docroot/lib/views/windows.stand_for_a_free_society.php:156
+#: docroot/lib/views/windows.restrictions.php:82
+#: docroot/lib/views/windows.stand_for_a_free_society.php:174
 #: docroot/lib/views/home.php:36
-#: docroot/lib/views/windows.what_about_choice.php:65
+#: docroot/lib/views/windows.what_about_choice.php:69
 #: docroot/lib/views/linux.php:112
-#: docroot/lib/views/windows.what_about_source_code.php:61
+#: docroot/lib/views/windows.what_about_source_code.php:65
 #: src/templates/header.php:45 src/templates/header.php:52
 #: src/templates/header.php:82
 msgid "Why not Windows"
@@ -299,8 +299,8 @@ msgstr ""
 #: docroot/lib/views/windows.php:36 docroot/lib/views/windows.php:48
 #: docroot/lib/views/windows.php:64 docroot/lib/views/windows.php:80
 #: docroot/lib/views/windows.php:101
-#: docroot/lib/views/windows.restrictions.php:70
-#: docroot/lib/views/windows.stand_for_a_free_society.php:109
+#: docroot/lib/views/windows.restrictions.php:74
+#: docroot/lib/views/windows.stand_for_a_free_society.php:127
 #: docroot/lib/views/home.php:28 docroot/lib/views/home.php:39
 #: docroot/lib/views/home.php:50
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:145
@@ -504,7 +504,7 @@ msgstr ""
 "這份授權與你的電腦緊密相連在一起，和你的電腦同生共死。如果你想將這套軟體安裝"
 "到其他電腦上，很不幸地，這樣做是違法的。"
 
-#: docroot/lib/views/windows.restrictions.php:56
+#: docroot/lib/views/windows.restrictions.php:57
 msgid ""
 "If you go to most of the free software sites you can click down a couple of "
 "levels and find the [GNU] <abbr title=\"General Public License, the main "
@@ -517,7 +517,7 @@ msgstr ""
 "X 授權、Apache 授權條款…等諸如此類的條款和細則，一樣你必須接受這些條件才能使"
 "用這些軟體。"
 
-#: docroot/lib/views/windows.restrictions.php:57
+#: docroot/lib/views/windows.restrictions.php:58
 msgid ""
 "Now with a proprietary software company, the license is buried so you can't "
 "read it until after you have paid for the product, then they're asking you "
@@ -529,20 +529,11 @@ msgstr ""
 "了他們的產品之後，他們會用這些嚴格的授權條款來<strong>限制你一部份大腦的運作"
 "</strong>，除非你不打算使用他們的軟體。"
 
-#: docroot/lib/views/windows.restrictions.php:58
-msgid "Don Marti interview"
-msgstr "Don Marti 訪談"
-
-#: docroot/lib/views/windows.restrictions.php:58
-#: docroot/lib/views/windows.stand_for_a_free_society.php:30
-msgid "2005 interview"
-msgstr "2005年的訪談"
-
-#: docroot/lib/views/windows.restrictions.php:63
+#: docroot/lib/views/windows.restrictions.php:67
 msgid "The meaning behind"
 msgstr "背後的意涵"
 
-#: docroot/lib/views/windows.restrictions.php:65
+#: docroot/lib/views/windows.restrictions.php:69
 msgid ""
 "Companies like Microsoft like to assimilate their software to physical "
 "products, when mentioning copyright infringement for example. Yet, "
@@ -553,7 +544,7 @@ msgstr ""
 "為具有充滿限制的授權條款卻顯得格格不入 ─ 諸如此類的限制若發生在汽車或是腳踏車"
 "上簡直是無法想像。"
 
-#: docroot/lib/views/windows.restrictions.php:66
+#: docroot/lib/views/windows.restrictions.php:70
 msgid ""
 "Restrictions on the use of Office and Windows are so harsh, that many "
 "violations occur everyday around us. People are tempted to buy only one "
@@ -567,7 +558,7 @@ msgstr ""
 "使用以後還拋售二手的 Windows 軟體。"
 
 #. TRANSLATORS: use the definition of "free software" on GNU.org; also, gnu.org uses language negotiation, so it's not necessary to replace those URLs.
-#: docroot/lib/views/windows.restrictions.php:69
+#: docroot/lib/views/windows.restrictions.php:73
 msgid ""
 "<strong>You have an alternative to breaking this law,</strong> or feeling "
 "very restrained when you abide to it. GNU/Linux is <a href=\"https://www.gnu."
@@ -581,7 +572,7 @@ msgstr ""
 "gnu.org/copyleft/gpl.html\" rel=\"external\">GPL</a> 條款就是設計用於保護你的"
 "權利。"
 
-#: docroot/lib/views/windows.restrictions.php:70
+#: docroot/lib/views/windows.restrictions.php:74
 msgid "Restrictions - further details"
 msgstr "限制－更多細節"
 
@@ -602,7 +593,7 @@ msgstr ""
 "體」。"
 
 #. TRANSLATORS: This is the quote by Don Marti at the start of the article.
-#: docroot/lib/views/windows.stand_for_a_free_society.php:28
+#: docroot/lib/views/windows.stand_for_a_free_society.php:29
 msgid ""
 "I come up with new words, phrases, analogies, all kinds of fun stuff in the "
 "English language and people paraphrase what I had to say and make money "
@@ -611,7 +602,7 @@ msgstr ""
 "我想到了新的詞語、成語、比喻、還有各種英語中的趣味，而人們改述我說過的話，並"
 "且透過談論那些我曾說過的話來賺錢。"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:29
+#: docroot/lib/views/windows.stand_for_a_free_society.php:30
 msgid ""
 "<strong>If I try to lock down</strong> what I talk about and write about, "
 "the same way as a proprietary software company does, then the whole industry "
@@ -622,11 +613,11 @@ msgstr ""
 "司所做的一樣，那麼所有演說、寫作、媒體相關的產業都將很容易被告上法院，還有和"
 "解的費用都會高昂地令人望而卻步。"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:34
+#: docroot/lib/views/windows.stand_for_a_free_society.php:38
 msgid "Not a crazy concept"
 msgstr "並非是瘋狂的理念"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:35
+#: docroot/lib/views/windows.stand_for_a_free_society.php:39
 msgid ""
 "It sounds peculiar to many users that software should be free as in freedom, "
 "since none of Microsoft's products are. Yet our society works with many free "
@@ -636,7 +627,7 @@ msgstr ""
 "者這種自由。我們的社會正在為這種自由而努力著，例如："
 
 #. TRANSLATORS: This is the short quote on the side of the article.
-#: docroot/lib/views/windows.stand_for_a_free_society.php:39
+#: docroot/lib/views/windows.stand_for_a_free_society.php:44
 msgid ""
 "Though no one has a proprietary lock on yoga, it is still a thriving $30 "
 "billion business in the United States."
@@ -644,7 +635,7 @@ msgstr ""
 "因為沒有人擁有對瑜珈的所有權，因此它在美國至今擁有超過300億美元產值的興旺產"
 "業。"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:43
+#: docroot/lib/views/windows.stand_for_a_free_society.php:51
 msgid ""
 "No chef would ever forbid you to modify his recipe and make derivatives out "
 "of it. The food industry thrives despite being required by law to list "
@@ -653,7 +644,7 @@ msgstr ""
 "沒有廚師會禁止你修改他的食譜，然後從其變化出更棒的佳餚。食品產業依規定只必須"
 "將成份列在標籤上，但依舊可以蓬勃發展。"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:44
+#: docroot/lib/views/windows.stand_for_a_free_society.php:52
 msgid ""
 "A fair law court system permits anyone to read through all the trial "
 "hearings and arguments. Not only the result (the final deliberations), but "
@@ -662,7 +653,7 @@ msgstr ""
 "一個公平的司法體系允許任何人閱讀所有的聽審以及證據。不僅只是結果（最終的審判"
 "結果）而已，還要這整個過程完全公開。"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:46
+#: docroot/lib/views/windows.stand_for_a_free_society.php:54
 msgid ""
 "Free software is free as in &quot;free speech&quot;, as in a &quot;free "
 "market&quot;: all are necessary for a free society. Unconvinced? Let us look "
@@ -671,11 +662,11 @@ msgstr ""
 "自由軟體並不僅僅在「言論」上是自由的，在「市場」上也是自由的：這些在自由的社"
 "會中都是必要的。不服氣？讓我們再來仔細瞧瞧專有軟體吧。"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:50
+#: docroot/lib/views/windows.stand_for_a_free_society.php:58
 msgid "Proprietary software going wrong"
 msgstr "專有軟體走向錯誤的道路"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:51
+#: docroot/lib/views/windows.stand_for_a_free_society.php:59
 #, php-format
 msgid ""
 "The limits of proprietary software go beyond the security issue (see <a href="
@@ -687,13 +678,13 @@ msgstr ""
 "a>）：今天專有軟體對文化與資訊傳播的干涉，主要是採取了以下兩種技術："
 
 #. TRANSLATORS: This is sometimes only known as "DRM" in some languages. Please choose the vocabulary carefully. The %s placeholder links to a footnote which explains why we use the term "Digital Restrictions Management": https://www.getgnulinux.org/windows/stand_for_a_free_society/#footnote_bottom1
-#: docroot/lib/views/windows.stand_for_a_free_society.php:56
+#: docroot/lib/views/windows.stand_for_a_free_society.php:64
 #, php-format
 msgid "Digital Restrictions Management %s (DRM)"
 msgstr "數位限制管理 %s (Digital Restrictions Management, DRM)"
 
 #. TRANSLATORS: The %s placeholder will automatically point to the footnote on bottom of page
-#: docroot/lib/views/windows.stand_for_a_free_society.php:59
+#: docroot/lib/views/windows.stand_for_a_free_society.php:67
 #, php-format
 msgid ""
 "The main idea of DRM %s is to restrict access to files. Users encounter this "
@@ -706,11 +697,11 @@ msgstr ""
 "樂，那麼他們就只能在自己的播放器上面播放這些音樂，透過這些手段，音樂公司成功"
 "的打擊著作權侵害，但同時也嚴重地限制了使用者要如何運用這些檔案。"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:61
+#: docroot/lib/views/windows.stand_for_a_free_society.php:69
 msgid "DRM is control over content"
 msgstr "DRM 控制了內容"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:62
+#: docroot/lib/views/windows.stand_for_a_free_society.php:70
 msgid ""
 "Except that the control is not in the hands of the end-user. The original "
 "purpose of <abbr title=\"Digital Restrictions Management\">DRM</abbr> is "
@@ -721,33 +712,33 @@ msgstr ""
 "Restrictions Management\">DRM</abbr> 的本意相當清楚，但是對於社會中資訊和文化"
 "的流動所造成的影響卻令人感到畏懼。"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:64
+#: docroot/lib/views/windows.stand_for_a_free_society.php:72
 msgid ""
 "Imagine a book that automatically became glued shut after you read it once."
 msgstr "想像一本書在閱讀完以後會自動黏死。"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:65
+#: docroot/lib/views/windows.stand_for_a_free_society.php:73
 msgid ""
 "Imagine documents that self-destructed if you tried to take them out of the "
 "room."
 msgstr "想像一下試圖帶出房間就會自動銷毀的文件。"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:66
+#: docroot/lib/views/windows.stand_for_a_free_society.php:74
 msgid ""
 "Imagine telephones that only worked if the person you were ringing was "
 "renting the same make and model."
 msgstr "想像必須要對方跟你租借同樣製造商以及型號時才會接通的電話。"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:68
+#: docroot/lib/views/windows.stand_for_a_free_society.php:76
 msgid "Sounds crazy? This is where Trusted Computing comes in."
 msgstr "聽起來很瘋狂嗎？這就是信任式運算的由來。"
 
 #. TRANSLATORS: This is sometimes only known as "Trusted Computing", not TC, in some languages. Please choose the vocabulary carefully.
-#: docroot/lib/views/windows.stand_for_a_free_society.php:72
+#: docroot/lib/views/windows.stand_for_a_free_society.php:80
 msgid "Trusted Computing (TC)"
 msgstr "信任式運算 (Trusted Computing, TC)"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:73
+#: docroot/lib/views/windows.stand_for_a_free_society.php:81
 msgid ""
 "Trusted Computing (sometimes <a href=\"https://www.lafkon.net/tc/\" title="
 "\"A very well done video on Trusted Computing\" rel=\"external\">more "
@@ -762,11 +753,11 @@ msgstr ""
 "「信任的」軟體。其目的是為了防止滋擾（如病毒或間諜軟體）或是著作權侵犯（例如"
 "人們複製專有軟體）。"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:74
+#: docroot/lib/views/windows.stand_for_a_free_society.php:82
 msgid "Trusted Computing is control over the computer"
 msgstr "信任式運算控制了電腦"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:75
+#: docroot/lib/views/windows.stand_for_a_free_society.php:83
 msgid ""
 "The critical thing about Trusted Computing is that <strong>you cannot "
 "decide</strong> what is trustworthy and what is not. For example, your "
@@ -780,7 +771,7 @@ msgstr ""
 "可能是允許你把文件帶出你的辦公室，或是播放你鄰居的 DVD，或是將你的文章寄給一"
 "個並非使用相同程式的人之類的軟體。"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:76
+#: docroot/lib/views/windows.stand_for_a_free_society.php:84
 msgid ""
 "A whole range of possibilities opens up for companies that benefit from "
 "restricting your computing (such as proprietary software and recording "
@@ -795,19 +786,19 @@ msgstr ""
 "為現實。突然之間，信任式運算以及 DRM 開啟 <strong>遠端控制</strong> 住內容的"
 "可能性。"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:77
+#: docroot/lib/views/windows.stand_for_a_free_society.php:85
 msgid ""
 "Trusted Computing, in effect, enables the publisher to write their own "
 "copyright law."
 msgstr ""
 "信任式運算，就實際影響來說，就是讓發行單位去編寫屬於他們自己的著作權法。"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:81
+#: docroot/lib/views/windows.stand_for_a_free_society.php:89
 msgid "The wider impact"
 msgstr "更廣泛的影響"
 
 #. TRANSLATORS: This is the quote by Rosemary Bechler in the middle of the article.
-#: docroot/lib/views/windows.stand_for_a_free_society.php:86
+#: docroot/lib/views/windows.stand_for_a_free_society.php:95
 msgid ""
 "Many cultural products are now emerging &quot;triple protected&quot;, not "
 "only by copyright and code, but also by contracts or licenses for which "
@@ -816,7 +807,7 @@ msgstr ""
 "許多文化產品現在都有了「三重保護」不只是著作權和法律，還有許多的契約及授權條"
 "款來讓使用者放棄所剩無幾的權利。"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:87
+#: docroot/lib/views/windows.stand_for_a_free_society.php:96
 msgid ""
 "Increasingly, copyright is replaced with click-through end-user licenses for "
 "digital content, using contract law to establish the absolute property "
@@ -825,7 +816,7 @@ msgstr ""
 "越來越多的數位內容著作權被需要讓終端使用者點擊通過的終端使用者授權條款取代，"
 "發行單位利用契約法建立了原本著作權法拒絕給予的絕對財產權。"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:93
+#: docroot/lib/views/windows.stand_for_a_free_society.php:105
 msgid ""
 "Computing is not just about calculations anymore. We use software to "
 "communicate: to share information, ideas and culture. Software is in our "
@@ -836,7 +827,7 @@ msgstr ""
 "化。軟體在我們的電話、車子、媒體播放器、電視中隨處可見，並開始掌管我們身邊的"
 "每項新設備。"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:100
+#: docroot/lib/views/windows.stand_for_a_free_society.php:118
 msgid ""
 "<strong>Software is increasingly used to enforce rules</strong>. Rules that "
 "may or may not be the law. Rules that may or may not be fair. If the "
@@ -847,7 +838,7 @@ msgstr ""
 "可能公平也可能不公平。如果軟體不是自由的，那麼使用者永遠也不會有機會改變這些"
 "規則。"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:101
+#: docroot/lib/views/windows.stand_for_a_free_society.php:119
 msgid ""
 "Trusted Computing and DRM pave the way for a society in which culture and "
 "information are not simply turned into products (they are right now, and "
@@ -856,7 +847,7 @@ msgstr ""
 "想想未來，文化和資訊不再只是轉化成產品（它們現在是，那還好），而成為了一種"
 "<em>消耗性</em>產品。信任式運算和 DRM 正為這樣的社會鋪了一條新路。"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:102
+#: docroot/lib/views/windows.stand_for_a_free_society.php:120
 msgid ""
 "Code is power. Most of today's work documents are written and encoded with "
 "secret algorithms in proprietary software. What will be of tomorrow's books, "
@@ -869,22 +860,22 @@ msgstr ""
 "麼樣子？像 Windows 這樣的專有軟體沒有任何透明可言。一個自由的文化和自由的社會"
 "無法受益於諸如此類的軟體而成長茁壯。"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:103
+#: docroot/lib/views/windows.stand_for_a_free_society.php:121
 #, php-format
 msgid "May we suggest you <a href=\"%s\">switch to GNU/Linux</a>?"
 msgstr "我們可以建議你<a href=\"%s\">擁抱 GNU/Linux 嗎</a>？"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:113
+#: docroot/lib/views/windows.stand_for_a_free_society.php:131
 #: docroot/lib/views/windows.restrictions.further_details.php:70
 msgid "https://www.gnu.org/philosophy/right-to-read.html"
 msgstr "https://www.gnu.org/philosophy/right-to-read.html"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:113
+#: docroot/lib/views/windows.stand_for_a_free_society.php:131
 #: docroot/lib/views/windows.restrictions.further_details.php:70
 msgid "The Right to Read"
 msgstr "閱讀的權利"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:114
+#: docroot/lib/views/windows.stand_for_a_free_society.php:132
 msgid ""
 "What is the Trusted Computing world like? This is a short story by Richard "
 "Stallman that describes how this can affect any of us."
@@ -894,16 +885,16 @@ msgstr ""
 "人。"
 
 #. TRANSLATORS: Unless you know of a very good resource about DRM, please point to the Wikipedia article about DRM in your language, if it exists
-#: docroot/lib/views/windows.stand_for_a_free_society.php:119
+#: docroot/lib/views/windows.stand_for_a_free_society.php:137
 msgid "http://www.timj.co.uk/computing/politics-policy/drm/fallacy/"
 msgstr "https://zh.wikipedia.org/wiki/DRM"
 
 #. TRANSLATORS: Title of external link
-#: docroot/lib/views/windows.stand_for_a_free_society.php:121
+#: docroot/lib/views/windows.stand_for_a_free_society.php:139
 msgid "The fallacy of DRM"
 msgstr "DRM"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:122
+#: docroot/lib/views/windows.stand_for_a_free_society.php:140
 msgid ""
 "A very well constructed article about <abbr title=\"Digital Restrictions "
 "Management\">DRM</abbr> by Tim Jackson, and on which we based the present "
@@ -913,7 +904,7 @@ msgstr ""
 "\">DRM</abbr> 的好文章，我們這篇文章就是根據它所寫成的。"
 
 #. TRANSLATORS: If you don't know of a localized version of this article, please leave the URL in English
-#: docroot/lib/views/windows.stand_for_a_free_society.php:130
+#: docroot/lib/views/windows.stand_for_a_free_society.php:148
 msgid ""
 "http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-"
 "free-file-formats/"
@@ -921,11 +912,11 @@ msgstr ""
 "http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-"
 "free-file-formats/"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:130
+#: docroot/lib/views/windows.stand_for_a_free_society.php:148
 msgid "Free Knowledge requires Free Software and Free File Formats"
 msgstr "自由的知識需要自由軟體和自由的檔案格式"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:131
+#: docroot/lib/views/windows.stand_for_a_free_society.php:149
 msgid ""
 "An engaged article by Jimmy Wales, who co-founded the free encyclopedia <a "
 "href=\"https://www.wikipedia.org/\" rel=\"external\">Wikipedia</a>."
@@ -933,15 +924,15 @@ msgstr ""
 "一篇由自由的<a href=\"https://www.wikipedia.org/\" rel=\"external\">維基百科"
 "</a>聯合創始人 Jimmy Wales 所創作，引人入勝的專文。"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:134
+#: docroot/lib/views/windows.stand_for_a_free_society.php:152
 msgid "https://www.lafkon.net/tc/"
 msgstr "https://www.lafkon.net/tc/"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:134
+#: docroot/lib/views/windows.stand_for_a_free_society.php:152
 msgid "Trusted Computing"
 msgstr "信任式運算"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:135
+#: docroot/lib/views/windows.stand_for_a_free_society.php:153
 msgid ""
 "Short video animation by Benjamin Stephan and Lutz Vogel. A clear, snappy "
 "and convincing argument."
@@ -949,16 +940,16 @@ msgstr ""
 "由 Benjamin Stephan 和 Lutz Vogel 創作的短片。一則清晰、活潑、令人信服的論"
 "述。"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:141
-#: docroot/lib/views/windows.what_about_source_code.php:34
+#: docroot/lib/views/windows.stand_for_a_free_society.php:159
+#: docroot/lib/views/windows.what_about_source_code.php:36
 msgid "https://www.gnu.org/philosophy/why-free.html"
 msgstr "https://www.gnu.org/philosophy/why-free.html"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:141
+#: docroot/lib/views/windows.stand_for_a_free_society.php:159
 msgid "Why Software Should Not Have Owners"
 msgstr "為何軟體不應有其所有者"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:142
+#: docroot/lib/views/windows.stand_for_a_free_society.php:160
 msgid ""
 "A pivotal text for the Free Software movement by Richard Stallman. It "
 "clarifies common objections and explains a handful of important ideas."
@@ -967,11 +958,11 @@ msgstr ""
 "述了關於抵制的共識，並解釋了自由軟體運動的重要思想。"
 
 #. TRANSLATORS: This describes the last link, which will automatically point to the 'Misunderstanding Free Software' article
-#: docroot/lib/views/windows.stand_for_a_free_society.php:147
+#: docroot/lib/views/windows.stand_for_a_free_society.php:165
 msgid "More on free software on this website."
 msgstr "本網站上更多關於自由軟體的解說內容。"
 
-#: docroot/lib/views/windows.stand_for_a_free_society.php:164
+#: docroot/lib/views/windows.stand_for_a_free_society.php:182
 msgid ""
 "Note that DRM is often referred to as \"Digital Rights Management\", "
 "although it has little to do with rights &ndash; \"Digital Restrictions "
@@ -1066,13 +1057,13 @@ msgid ""
 msgstr "微軟為了確保用戶在他們產品的嚴格控制下而做出了巨大的努力。"
 
 #. TRANSLATORS: This is a quote from Bill Gates at the start of the article.
-#: docroot/lib/views/windows.what_about_choice.php:26
+#: docroot/lib/views/windows.what_about_choice.php:27
 msgid ""
 "About 3 million computers get sold every year in China, but people don't pay "
 "for the software."
 msgstr "中國每年賣出300萬臺電腦，但人們卻不願為軟體付錢。"
 
-#: docroot/lib/views/windows.what_about_choice.php:27
+#: docroot/lib/views/windows.what_about_choice.php:28
 msgid ""
 "Someday they will, though. As long as they are going to steal it [sic], we "
 "want them to steal ours. They'll get sort of addicted, and then we'll "
@@ -1081,15 +1072,11 @@ msgstr ""
 "總有一天他們會付錢的。只要他們想要盜版 [sic] ，我們就希望他們盜的是我們的軟"
 "體。他們會開始上癮，然後我們就能在十年後想出把錢收回的辦法。"
 
-#: docroot/lib/views/windows.what_about_choice.php:28
-msgid "1998 interview"
-msgstr "1998年訪談"
-
-#: docroot/lib/views/windows.what_about_choice.php:32
+#: docroot/lib/views/windows.what_about_choice.php:36
 msgid "Poor support for open standards"
 msgstr "對開放標準的支援很差"
 
-#: docroot/lib/views/windows.what_about_choice.php:33
+#: docroot/lib/views/windows.what_about_choice.php:37
 msgid ""
 "There exist open file formats and protocols, which are standards to store "
 "and carry many types of information, respectively. They are openly "
@@ -1100,7 +1087,7 @@ msgstr ""
 "開透明：因此不管現在和未來都可以被任何人在任何電腦上讀取。可惜的是，專有軟體"
 "卻很少願意支援它們。"
 
-#: docroot/lib/views/windows.what_about_choice.php:34
+#: docroot/lib/views/windows.what_about_choice.php:38
 msgid ""
 "<strong>For a long time Microsoft Office only had support for Microsoft "
 "formats</strong>. There are many ways to write work documents, but Microsoft "
@@ -1114,7 +1101,7 @@ msgstr ""
 "code> 文件。"
 
 #. TRANSLATORS: Please use link to localized Wikipedia article in place of ODF
-#: docroot/lib/views/windows.what_about_choice.php:37
+#: docroot/lib/views/windows.what_about_choice.php:41
 msgid ""
 "There are of course other ways of writing and exchanging office files, the "
 "most well-known being <a href=\"http://www.opendocumentformat.org/\" rel="
@@ -1128,11 +1115,11 @@ msgstr ""
 "並不想讓 Office 的用戶使用任何人都可以讀取及編輯的檔案格式。直到微軟 Office "
 "2007 SP2 起，微軟才因為來自歐盟的壓力，終於加入對 ODF 格式的支援。"
 
-#: docroot/lib/views/windows.what_about_choice.php:41
+#: docroot/lib/views/windows.what_about_choice.php:45
 msgid "Standards that change all the time"
 msgstr "標準總是在改"
 
-#: docroot/lib/views/windows.what_about_choice.php:42
+#: docroot/lib/views/windows.what_about_choice.php:46
 msgid ""
 "Sticking to Microsoft standards is not an easy job &ndash; unless you can "
 "afford to upgrade very often. Ever tried to work on the same <code>.doc</"
@@ -1143,7 +1130,7 @@ msgstr ""
 "用。你曾經歷過在 Office 95 和 Office 97 間交換 <code>.doc</code> 文件的痛苦"
 "嗎？如果有，你大概能理解我在說什麼。"
 
-#: docroot/lib/views/windows.what_about_choice.php:43
+#: docroot/lib/views/windows.what_about_choice.php:47
 msgid ""
 "Microsoft owns the Office file formats: <strong>they change them with every "
 "new Office version</strong> and have no obligation to keep them backwards-"
@@ -1157,11 +1144,11 @@ msgstr ""
 "code>檔，但明年你考慮放棄微軟 Office 之時，你就不得不依靠其他對這種文件格式作"
 "逆向工程的社群，如此才能存取、並修改你的文件。"
 
-#: docroot/lib/views/windows.what_about_choice.php:47
+#: docroot/lib/views/windows.what_about_choice.php:51
 msgid "Default programs you can't uninstall"
 msgstr "預設軟體不能移除"
 
-#: docroot/lib/views/windows.what_about_choice.php:48
+#: docroot/lib/views/windows.what_about_choice.php:52
 msgid ""
 "Don't want Windows Media Player on your computer? Don't use Internet "
 "Explorer anymore? <strong>You can't uninstall these programs</strong>. They "
@@ -1174,11 +1161,11 @@ msgstr ""
 "式，但是現在已經被緊緊地綁到 Windows 內部之中 &ndash; 它們出現在幾乎每一臺電"
 "腦上，永遠無法擺脫。"
 
-#: docroot/lib/views/windows.what_about_choice.php:52
+#: docroot/lib/views/windows.what_about_choice.php:56
 msgid "Monopolistic practices"
 msgstr "壟斷手法"
 
-#: docroot/lib/views/windows.what_about_choice.php:53
+#: docroot/lib/views/windows.what_about_choice.php:57
 msgid ""
 "Microsoft has a tight control over <abbr title=\"Original Equipment "
 "Manufacturer\">OEM</abbr>s (computer manufacturers) who ship their computers "
@@ -1188,7 +1175,7 @@ msgstr ""
 "\">OEM</abbr> 廠商（電腦製造商），讓他們在每一臺電腦上安裝 Windows 作業系統。"
 
 #. TRANSLATORS: if you cannot find localized homepages, please leave the URLs as such
-#: docroot/lib/views/windows.what_about_choice.php:56
+#: docroot/lib/views/windows.what_about_choice.php:60
 msgid ""
 "This means that no program competing with Microsoft products, be it <a href="
 "\"https://www.videolan.org/vlc/\" rel=\"external\">multimedia player</a>, <a "
@@ -1204,7 +1191,7 @@ msgstr ""
 "rel=\"external\">即時通訊軟體</a>、或是其他的軟體等，基本上絕大多數你買得到的"
 "電腦都已經預裝微軟的產品。"
 
-#: docroot/lib/views/windows.what_about_choice.php:57
+#: docroot/lib/views/windows.what_about_choice.php:61
 msgid ""
 "It is a good thing to propose a wide range of software and services like "
 "Microsoft do; however, designing and combining them to shut users from non-"
@@ -3063,7 +3050,7 @@ msgstr ""
 "</strong>。Windows 非常像一部只能由原製造商維修的汽車。"
 
 #. TRANSLATORS: This is the quote from Stallman at the start of the article.
-#: docroot/lib/views/windows.what_about_source_code.php:33
+#: docroot/lib/views/windows.what_about_source_code.php:34
 msgid ""
 "You might say, \"How do I change this recipe to take out the salt?\" and the "
 "great chef would respond, \"How dare you insult my recipe, the child of my "
@@ -3074,15 +3061,15 @@ msgstr ""
 "「你怎麼敢玩弄我的作品，修改我偉大的食譜，侮辱我智慧的結晶！你不能判定我的作"
 "品成功與否！」"
 
-#: docroot/lib/views/windows.what_about_source_code.php:34
+#: docroot/lib/views/windows.what_about_source_code.php:36
 msgid "Why Software Should Be Free"
 msgstr "為什麼軟體應該自由"
 
-#: docroot/lib/views/windows.what_about_source_code.php:39
+#: docroot/lib/views/windows.what_about_source_code.php:43
 msgid "You can trust free software"
 msgstr "你可以信任自由軟體"
 
-#: docroot/lib/views/windows.what_about_source_code.php:40
+#: docroot/lib/views/windows.what_about_source_code.php:44
 msgid ""
 "It comes as no surprise that proprietary software is severely lacking in "
 "terms of security, compared to software whose source code is freely "
@@ -3091,7 +3078,7 @@ msgstr ""
 "相較於源始程式碼對外開放自由存取的軟體（包含 GNU/Linux 作業系統），專有軟體在"
 "安全性方面有許多的缺陷並不那麼的令人驚訝。"
 
-#: docroot/lib/views/windows.what_about_source_code.php:41
+#: docroot/lib/views/windows.what_about_source_code.php:45
 msgid ""
 "Free software means <strong>programmers can change the code</strong> to "
 "repair flaws. It means you can hire someone to really check how secure your "
@@ -3106,7 +3093,7 @@ msgstr ""
 "Linux，卻基本上沒有使用防毒軟體，因為他們知道他們處於安全之中。搜索引擎等網站"
 "的伺服器、銀行的伺服器也有許多是執行它的。"
 
-#: docroot/lib/views/windows.what_about_source_code.php:47
+#: docroot/lib/views/windows.what_about_source_code.php:51
 msgid ""
 "Source code is the recipe for software. How could one improve on a meal with "
 "too much salt, if forbidden to look at the recipe used to cook it?"
@@ -3114,7 +3101,7 @@ msgstr ""
 "源始程式碼是軟體的食譜。如果一個人被禁止看做某道菜的食譜，又該如何改善加了太"
 "多鹽的那道菜的口味呢？"
 
-#: docroot/lib/views/windows.what_about_source_code.php:48
+#: docroot/lib/views/windows.what_about_source_code.php:52
 msgid ""
 "Using Windows and Office requires us to <strong>not ask</strong> nor search "
 "for the source of the software. Only Microsoft developers can modify your "
@@ -3124,7 +3111,7 @@ msgstr ""
 "有微軟的開發者可以修改你購買的軟體。"
 
 #. TRANSLATORS: Please note the conditionnal tense: we try to not be too harsh on the reader here ;-)
-#: docroot/lib/views/windows.what_about_source_code.php:51
+#: docroot/lib/views/windows.what_about_source_code.php:55
 msgid ""
 "Which would you rather trust: the package you are forbidden to study, or the "
 "package with the recipe?"
@@ -3972,6 +3959,15 @@ msgstr "連絡我們"
 #: src/templates/header.php:79
 msgid "Home"
 msgstr "首頁"
+
+#~ msgid "Don Marti interview"
+#~ msgstr "Don Marti 訪談"
+
+#~ msgid "2005 interview"
+#~ msgstr "2005年的訪談"
+
+#~ msgid "1998 interview"
+#~ msgstr "1998年訪談"
 
 #~ msgid "(data interchange)"
 #~ msgstr "（資料交換）"

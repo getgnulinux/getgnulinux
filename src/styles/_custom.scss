@@ -43,6 +43,15 @@ article header {
     padding: 1rem 0;
 }
 
+blockquote {
+    footer {
+        display: block;
+        font-size: 0.9em;
+        margin-top: 0.6em;
+        text-align: end;
+    }
+}
+
 aside,
 section {
     padding: 1rem 0;
@@ -259,25 +268,23 @@ section.debian {
 }
 
 .card-panel {
-    &--source {
+    &--quote {
         width: 85%;
         margin: 1em auto;
 
-        p {
-            font-style: italic;
-        }
+        blockquote {
+            border: none;
+            padding: 0;
+            margin: 0;
 
-        .source {
-            display: block;
-            font-size: 0.9em;
-            margin-top: 0.6em;
-            text-align: end;
+            p {
+                font-style: italic;
+            }
         }
     }
 
     &--small {
         margin: 0;
-        padding: 0.5em 1em;
         width: 35%;
     }
 

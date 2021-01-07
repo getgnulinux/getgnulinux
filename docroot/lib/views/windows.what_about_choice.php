@@ -20,12 +20,16 @@ $this->load_header();
         </div>
       </header>
 
-      <div class="card-panel card-panel--source amber lighten-4">
-        <p><?php
-        # TRANSLATORS: This is a quote from Bill Gates at the start of the article.
-        print _("About 3 million computers get sold every year in China, but people don't pay for the software."); ?></p>
-        <p><?php print _("Someday they will, though. As long as they are going to steal it [sic], we want them to steal ours. They'll get sort of addicted, and then we'll somehow figure out how to collect sometime in the next decade."); ?></p>
-        <span class="source">Bill Gates, <a href="https://web.archive.org/web/20070312044716/http://news.com.com/2100-1023-212942.html" rel="external"><?php print _("1998 interview"); ?></a></span>
+      <div class="card-panel card-panel--quote amber lighten-4">
+        <blockquote>
+          <p><?php
+          # TRANSLATORS: This is a quote from Bill Gates at the start of the article.
+          print _("About 3 million computers get sold every year in China, but people don't pay for the software."); ?></p>
+          <p><?php print _("Someday they will, though. As long as they are going to steal it [sic], we want them to steal ours. They'll get sort of addicted, and then we'll somehow figure out how to collect sometime in the next decade."); ?></p>
+          <footer>
+            Bill Gates, <cite><a href="https://web.archive.org/web/20070312044716/http://news.com.com/2100-1023-212942.html" rel="external">Gates, Buffett a bit bearish</a></cite>
+          </footer>
+        <blockquote>
       </div>
 
       <section>
