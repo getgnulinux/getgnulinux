@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
-"POT-Creation-Date: 2021-01-07 02:15+0000\n"
+"POT-Creation-Date: 2021-01-09 00:11+0000\n"
 "PO-Revision-Date: 2020-12-20 01:29+0000\n"
 "Last-Translator: FengChao <chaofeng111@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -37,47 +37,68 @@ msgstr ""
 msgid "get GNU/Linux!"
 msgstr "获取GNU/Linux！"
 
+#: docroot/lib/ggl.php:211
+msgid "Home"
+msgstr ""
+
+#. TRANSLATORS: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
+#: docroot/lib/ggl.php:212 docroot/lib/ggl.php:227
+#: docroot/lib/views/home.php:25 docroot/lib/views/linux.php:13
+#: docroot/lib/views/linux.misunderstanding_free_software.php:225
+#: docroot/lib/views/linux.faq.php:293
+msgid "What is GNU/Linux?"
+msgstr "什么是 GNU/Linux？"
+
+#. TRANSLATORS: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
+#: docroot/lib/ggl.php:213 docroot/lib/ggl.php:236
+#: docroot/lib/views/windows.php:16
+#: docroot/lib/views/windows.restrictions.php:82
+#: docroot/lib/views/windows.stand_for_a_free_society.php:174
+#: docroot/lib/views/home.php:36
+#: docroot/lib/views/windows.what_about_choice.php:69
+#: docroot/lib/views/linux.php:112
+#: docroot/lib/views/windows.what_about_source_code.php:65
+msgid "Why not Windows"
+msgstr "抛弃Windows"
+
+#. TRANSLATORS: This appears in the top header menu and should be as short and concise as possible.
+#: docroot/lib/ggl.php:214 docroot/lib/ggl.php:248
+#: docroot/lib/views/windows.php:98 docroot/lib/views/home.php:47
+#: docroot/lib/views/linux.php:125 docroot/lib/views/switch_to_linux.php:16
+msgid "Switch to GNU/Linux"
+msgstr "拥抱 GNU/Linux"
+
+#. TRANSLATORS: This is the title of the 'More' page.
+#: docroot/lib/ggl.php:215 docroot/lib/ggl.php:225
+#: docroot/lib/views/more.php:16
+#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:56
+#: docroot/lib/views/linux.faq.php:281 src/templates/footer.php:28
+msgid "More"
+msgstr "更多"
+
 #. TRANSLATORS: This is the title of the 'Credits' page.
-#: docroot/lib/ggl.php:212 src/templates/footer.php:36
+#: docroot/lib/ggl.php:221 src/templates/footer.php:36
 msgid "Credits"
 msgstr "鸣谢"
 
 #. TRANSLATORS: This is the title of the 'Legal terms' page.
-#: docroot/lib/ggl.php:214 src/templates/footer.php:22
+#: docroot/lib/ggl.php:223 src/templates/footer.php:22
 msgid "Terms of use"
 msgstr "使用条款"
 
-#. TRANSLATORS: This is the title of the 'More' page.
-#: docroot/lib/ggl.php:216 docroot/lib/views/more.php:16
-#: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:56
-#: docroot/lib/views/linux.faq.php:281 src/templates/footer.php:28
-#: src/templates/header.php:47 src/templates/header.php:50
-#: src/templates/header.php:84
-msgid "More"
-msgstr "更多"
-
-#. TRANSLATORS: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
-#: docroot/lib/ggl.php:218 docroot/lib/views/home.php:25
-#: docroot/lib/views/linux.php:13
-#: docroot/lib/views/linux.misunderstanding_free_software.php:225
-#: docroot/lib/views/linux.faq.php:293 src/templates/header.php:44
-#: src/templates/header.php:53 src/templates/header.php:80
-msgid "What is GNU/Linux?"
-msgstr "什么是 GNU/Linux？"
-
 #. TRANSLATORS: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
-#: docroot/lib/ggl.php:220
+#: docroot/lib/ggl.php:229
 msgid "GNU/Linux FAQ - common questions about GNU/Linux"
 msgstr "GNU/Linux FAQ — GNU/Linux 的常见问题"
 
 #. TRANSLATORS: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
-#: docroot/lib/ggl.php:222 docroot/lib/views/linux.faq.php:270
+#: docroot/lib/ggl.php:231 docroot/lib/views/linux.faq.php:270
 #, fuzzy
 msgid "GNU/Linux virus FAQ"
 msgstr "GNU/Linux 常见问题"
 
 #. TRANSLATORS: Here the intent is to be a little provocative. Exact translation is not required.
-#: docroot/lib/ggl.php:224
+#: docroot/lib/ggl.php:233
 #: docroot/lib/views/windows.stand_for_a_free_society.php:163
 #: docroot/lib/views/linux.php:81
 #: docroot/lib/views/linux.misunderstanding_free_software.php:19
@@ -86,76 +107,55 @@ msgstr "GNU/Linux 常见问题"
 msgid "How to Misunderstand Free Software"
 msgstr "人们对自由软件有哪些误解"
 
-#: docroot/lib/ggl.php:225 docroot/lib/views/linux.php:96
+#: docroot/lib/ggl.php:234 docroot/lib/views/linux.php:96
 #, fuzzy
 msgid "GNU/Linux is not Windows"
 msgstr "抛弃Windows"
 
-#. TRANSLATORS: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
-#: docroot/lib/ggl.php:227 docroot/lib/views/windows.php:16
-#: docroot/lib/views/windows.restrictions.php:82
-#: docroot/lib/views/windows.stand_for_a_free_society.php:174
-#: docroot/lib/views/home.php:36
-#: docroot/lib/views/windows.what_about_choice.php:69
-#: docroot/lib/views/linux.php:112
-#: docroot/lib/views/windows.what_about_source_code.php:65
-#: src/templates/header.php:45 src/templates/header.php:52
-#: src/templates/header.php:82
-msgid "Why not Windows"
-msgstr "抛弃Windows"
-
 #. TRANSLATORS: This title can be translated loosely
-#: docroot/lib/ggl.php:229 docroot/lib/views/windows.php:29
+#: docroot/lib/ggl.php:238 docroot/lib/views/windows.php:29
 #: docroot/lib/views/windows.restrictions.php:16
 #: docroot/lib/views/windows.restrictions.further_details.php:81
 msgid "Restrictions"
 msgstr "严格的限制"
 
 #. TRANSLATORS: This title can be translated loosely
-#: docroot/lib/ggl.php:231
+#: docroot/lib/ggl.php:240
 #: docroot/lib/views/windows.restrictions.further_details.php:16
 msgid "More details on restrictions"
 msgstr "关于限制的更多细节"
 
 #. TRANSLATORS: This title can be translated loosely
-#: docroot/lib/ggl.php:233 docroot/lib/views/windows.php:71
+#: docroot/lib/ggl.php:242 docroot/lib/views/windows.php:71
 #: docroot/lib/views/linux.faq.php:198
 msgid "Stand for a free society"
 msgstr "代表自由社会"
 
 #. TRANSLATORS: This title can be translated loosely
-#: docroot/lib/ggl.php:235 docroot/lib/views/windows.php:43
+#: docroot/lib/ggl.php:244 docroot/lib/views/windows.php:43
 #: docroot/lib/views/windows.what_about_choice.php:16
 msgid "What about choice?"
 msgstr "自由选择呢？"
 
 #. TRANSLATORS: This title can be translated loosely
-#: docroot/lib/ggl.php:237 docroot/lib/views/windows.php:58
+#: docroot/lib/ggl.php:246 docroot/lib/views/windows.php:58
 msgid "No source code"
 msgstr "无源代码"
 
-#. TRANSLATORS: This appears in the top header menu and should be as short and concise as possible.
-#: docroot/lib/ggl.php:239 docroot/lib/views/windows.php:98
-#: docroot/lib/views/home.php:47 docroot/lib/views/linux.php:125
-#: docroot/lib/views/switch_to_linux.php:16 src/templates/header.php:46
-#: src/templates/header.php:51 src/templates/header.php:83
-msgid "Switch to GNU/Linux"
-msgstr "拥抱 GNU/Linux"
-
-#: docroot/lib/ggl.php:240
+#: docroot/lib/ggl.php:249
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:35
 #: docroot/lib/views/switch_to_linux.php:34
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:133
 msgid "Choose a distribution"
 msgstr "选择一个发行版"
 
-#: docroot/lib/ggl.php:241 docroot/lib/views/switch_to_linux.php:22
+#: docroot/lib/ggl.php:250 docroot/lib/views/switch_to_linux.php:22
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:16
 msgid "From Windows to GNU/Linux"
 msgstr "从 Windows 到 GNU/Linux"
 
 #. TRANSLATORS: This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
-#: docroot/lib/ggl.php:243
+#: docroot/lib/ggl.php:252
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:141
 #: docroot/lib/views/switch_to_linux.php:45
 #: docroot/lib/views/switch_to_linux.try_or_install.php:14
@@ -164,12 +164,12 @@ msgstr "试用或安装"
 
 #. TRANSLATORS: The title for the custom "Page Not Found" page.
 #. TRANSLATORS: Title for the Page Not Found page.
-#: docroot/lib/ggl.php:245 docroot/lib/views/404.php:16
+#: docroot/lib/ggl.php:254 docroot/lib/views/404.php:16
 msgid "Page Not Found"
 msgstr "页面未找到"
 
 #. TRANSLATORS: This is the description of the homepage, and it appears in Google results! Please pay particular attention to this one =)
-#: docroot/lib/ggl.php:251
+#: docroot/lib/ggl.php:260
 msgid ""
 "Get GNU/Linux! A simple, clear website about GNU/Linux. What is GNU/Linux? "
 "Why not Windows? Tips to make the switch."
@@ -178,34 +178,34 @@ msgstr ""
 "建议."
 
 #. TRANSLATORS: This is the description of the 'More' page
-#: docroot/lib/ggl.php:253
+#: docroot/lib/ggl.php:262
 msgid "Read and discover more about GNU/Linux."
 msgstr "阅读更多关于 GNU/Linux 的文章。"
 
 #. TRANSLATORS: This is the description of the 'Linux' page
-#: docroot/lib/ggl.php:255
+#: docroot/lib/ggl.php:264
 msgid "What is GNU/Linux? A clear explanation."
 msgstr "什么是 GNU/Linux? 一个清晰的解释。"
 
 #. TRANSLATORS: This is the description of the 'GNU/Linux FAQ' page
-#: docroot/lib/ggl.php:257
+#: docroot/lib/ggl.php:266
 msgid "Frequently Asked Questions about GNU/Linux."
 msgstr "关于GNU/Linux的高频提问。"
 
 #. TRANSLATORS: This is the description of the 'GNU/Linux virus FAQ' page
-#: docroot/lib/ggl.php:259
+#: docroot/lib/ggl.php:268
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:51
 #: docroot/lib/views/linux.faq.php:263
 msgid "Should I install anti-virus software under GNU/Linux?"
 msgstr ""
 
 #. TRANSLATORS: This is the description of the 'Misunderstanding Free Software' page
-#: docroot/lib/ggl.php:261
+#: docroot/lib/ggl.php:270
 msgid "An unconventional way to (re)discover free software."
 msgstr "一个（重新）探索自由软件的特别方式。"
 
 #. TRANSLATORS: This is the description of the 'GNU/Linux is not Windows' page
-#: docroot/lib/ggl.php:263 docroot/lib/views/linux.php:97
+#: docroot/lib/ggl.php:272 docroot/lib/views/linux.php:97
 msgid ""
 "If you wish GNU/Linux to be just exactly like Windows, you will probably be "
 "disappointed. GNU/Linux is built by people who simply wish it to be "
@@ -213,52 +213,52 @@ msgid ""
 msgstr ""
 
 #. TRANSLATORS: This is the description of the 'Why not Windows' page
-#: docroot/lib/ggl.php:265
+#: docroot/lib/ggl.php:274
 msgid "Four good reasons to avoid proprietary software."
 msgstr "避免使用专有软件的四个理由。"
 
 #. TRANSLATORS: This is the description of the 'Restrictions' page
-#: docroot/lib/ggl.php:267
+#: docroot/lib/ggl.php:276
 msgid "Restrictions in a proprietary software license."
 msgstr "专有软件许可证中的限制。"
 
 #. TRANSLATORS: This is the description of the 'Restrictions further details' page
-#: docroot/lib/ggl.php:269
+#: docroot/lib/ggl.php:278
 msgid "Restrictions in a proprietary software license - more details."
 msgstr "专有软件许可证的限制细节。"
 
 #. TRANSLATORS: This is the description of the 'Stand for a free society' page
-#: docroot/lib/ggl.php:271
+#: docroot/lib/ggl.php:280
 msgid "How software affects freedom in society."
 msgstr "软件如何影响社会中的自由。"
 
 #. TRANSLATORS: This is the description of the 'What about choice' page
-#: docroot/lib/ggl.php:273
+#: docroot/lib/ggl.php:282
 msgid "How Microsoft lock customers in."
 msgstr "微软是如何禁锢用户的。"
 
 #. TRANSLATORS: This is the description of the 'What about source code' page
-#: docroot/lib/ggl.php:275
+#: docroot/lib/ggl.php:284
 msgid "No source code means no trust and no security."
 msgstr "没有源代码意味着没有信任和安全。"
 
 #. TRANSLATORS: This is the description of the 'Switch to GNU/Linux' page
-#: docroot/lib/ggl.php:277
+#: docroot/lib/ggl.php:286
 msgid "Switch to GNU/Linux: Good tips and advice."
 msgstr "切换到 GNU/Linux: 技巧和建议。"
 
 #. TRANSLATORS: This is the description of the 'Choose a distribution' page
-#: docroot/lib/ggl.php:279
+#: docroot/lib/ggl.php:288
 msgid "Recommended GNU/Linux distributions for everyday users."
 msgstr "推荐给日常用户使用的发行版。"
 
 #. TRANSLATORS: This is the description of the 'From Windows to GNU/Linux' page
-#: docroot/lib/ggl.php:281
+#: docroot/lib/ggl.php:290
 msgid "The advantages and disadvantages of GNU/Linux over Windows."
 msgstr "GNU/Linux 与 Windows 相比的优势和缺点。"
 
 #. TRANSLATORS: This is the description of the 'Try or Install' page. This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
-#: docroot/lib/ggl.php:283
+#: docroot/lib/ggl.php:292
 msgid "Try or install GNU/Linux on your computer, very easily."
 msgstr "试着在电脑上安装 GNU/Linux，非常简单."
 
@@ -912,7 +912,6 @@ msgstr ""
 "的论据。"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:159
-#: docroot/lib/views/windows.what_about_source_code.php:36
 msgid "https://www.gnu.org/philosophy/why-free.html"
 msgstr "https://www.gnu.org/philosophy/why-free.html"
 
@@ -1444,7 +1443,7 @@ msgstr ""
 "最终，终端个人用户常常无需花钱便获得了软件，而公司客户则乐意花钱以获得更多的"
 "支持。"
 
-#: docroot/lib/views/linux.php:70 src/templates/header.php:81
+#: docroot/lib/views/linux.php:70
 msgid "GNU/Linux FAQ"
 msgstr "GNU/Linux 常见问题"
 
@@ -3790,8 +3789,8 @@ msgstr ""
 msgid "Participate"
 msgstr "参与"
 
-#: src/templates/footer.php:27 src/templates/header.php:99
-#: src/templates/header.php:113
+#: src/templates/footer.php:27 src/templates/header.php:95
+#: src/templates/header.php:109
 msgid "Help translate"
 msgstr ""
 
@@ -3806,11 +3805,6 @@ msgstr ""
 #: src/templates/footer.php:37
 msgid "Contact us"
 msgstr "联系我们"
-
-#: src/templates/header.php:43 src/templates/header.php:54
-#: src/templates/header.php:79
-msgid "Home"
-msgstr ""
 
 #~ msgid "Don Marti interview"
 #~ msgstr "Don Marti 访谈"
