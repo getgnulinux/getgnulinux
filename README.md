@@ -8,6 +8,7 @@ about free software and barely remotely heard the word "Linux".
 
 [![Build Status](https://travis-ci.org/getgnulinux/getgnulinux.svg?branch=master)](https://travis-ci.org/getgnulinux/getgnulinux)
 [![Translation status](https://hosted.weblate.org/widgets/getgnulinux/-/svg-badge.svg)](https://hosted.weblate.org/engage/getgnulinux/)
+[![Donate using Liberapay](https://img.shields.io/liberapay/patrons/getgnulinux.svg?logo=liberapay)](https://liberapay.com/getgnulinux/donate)
 
 ## Quick start
 
