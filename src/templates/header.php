@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<?php $this->text('lang') ?>" dir="<?php $this->text('dir'); ?>" prefix="og: http://ogp.me/ns#">
+<html class="<?php print($ggl->get_css_features()); ?>" lang="<?php $this->text('lang') ?>" dir="<?php $this->text('dir'); ?>" prefix="og: http://ogp.me/ns#">
 <head>
   <meta charset="utf-8">
   <title><?php print $this->page_title(); ?></title>
@@ -16,18 +16,6 @@
   <!-- build:css /styles/main.css -->
   <link rel="stylesheet" type="text/css" href="/styles/main.css" media="all">
   <!-- endbuild -->
-
-  <?php if ( $ggl->get('dir') == 'rtl' ) { ?>
-    <!-- build:css /styles/main-rtl.css -->
-    <link rel="stylesheet" type="text/css" href="/styles/main-rtl.css" media="all">
-    <!-- endbuild -->
-  <?php } ?>
-
-  <?php if ( $ggl->no_italics() ) { ?>
-    <!-- build:css /styles/no-italics.css -->
-    <link rel="stylesheet" type="text/css" href="/styles/no-italics.css" media="all">
-    <!-- endbuild -->
-  <?php } ?>
 </head>
 
 <body>

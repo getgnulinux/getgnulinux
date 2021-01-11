@@ -410,10 +410,11 @@ class GGL {
     /**
      * Returns TRUE if italics should be disabled for the current language.
      *
+     * @param string $lang The ISO 639-1 code of the language.
      * @return bool TRUE|FALSE
      */
-    public function no_italics() {
-        return in_array($this->config['lang'], self::$no_italics_languages, true);
+    public function no_italics($lang) {
+        return in_array($lang, self::$no_italics_languages, true);
     }
 
     /**
@@ -424,5 +425,19 @@ class GGL {
      */
     public function lang_is_complete($lang) {
         return in_array($lang, $this->config['locales_complete'], true);
+    }
+
+    /**
+     * Returns string with global CSS classes to be used in the HTML tag.
+     *
+     * @return string
+     */
+    public function get_css_features() {
+        $lang = $this->config['lang'];
+        $features = array();
+        $features[] = $this->langdir($lang);
+        $features[] = $this->no_italics($lang) ? 'no-italics' : 'italics';
+
+        return implode(' ', $features);
     }
 }

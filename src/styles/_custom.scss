@@ -123,6 +123,34 @@ details {
     }
 }
 
+.rtl {
+    a[rel~="external"]:after {
+        padding-left: auto;
+        padding-right: 3px;
+    }
+
+    blockquote {
+        margin: 20px 0;
+        padding-left: auto;
+        padding-right: 1.5rem;
+        border-left: none;
+        border-right: 5px solid #33691e;
+    }
+
+    ul:not(.browser-default) {
+        padding-right: 0 !important;
+        list-style-type: none;
+    }
+}
+
+.no-italics {
+    em,
+    blockquote p,
+    h4 {
+        font-style: normal !important;
+    }
+}
+
 .container {
     @include clearfix;
 }
