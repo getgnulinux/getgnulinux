@@ -13,8 +13,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     tree \
     vim
 
-RUN mkdir -p /var/www/html
-
 USER node
 
 RUN mkdir /home/node/getgnulinux
