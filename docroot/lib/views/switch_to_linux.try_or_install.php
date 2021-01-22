@@ -67,7 +67,7 @@ $this->load_header();
             <div class="card card-distribution brown lighten-5">
               <div class="card-image card-distribution-logo card-distribution-logo--ubuntu"></div>
               <div class="card-content">
-                <p><?php print _("<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows\" rel=\"external\">Create a live USB stick</a> or <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel=\"external\">burn it to a DVD</a>. Then use it to <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel=\"external\">install Ubuntu</a> onto your computer."); ?></p>
+                <p><?php print _("<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows\" rel=\"external\">Create a live USB stick</a> or <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel=\"external\">burn it to a CD/DVD</a>. Then use it to <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel=\"external\">install Ubuntu</a> onto your computer."); ?></p>
               </div>
               <div class="card-action center">
                 <a class="waves-effect waves-light btn-large light-green darken-4" href="https://ubuntu.com/download/desktop" target="_blank">
@@ -98,7 +98,7 @@ $this->load_header();
 
       <section>
         <h2 id="free_software_pre_installed"><?php print _("Free Software pre-installed"); ?></h2>
-        <img class="float-<?php print $this->rtltr("right", "left"); ?> w30 hide-on-small-only" src="/images/librem-mini-right-angle.png" title="<?php print _("Computer with GNU/Linux pre-installed"); ?>" alt="Librem Mini">
+        <img class="float-<?php print $this->rtltr("right", "left"); ?> w30 hide-on-med-and-down" src="/images/librem-mini-right-angle.png" title="<?php print _("Computer with GNU/Linux pre-installed"); ?>" alt="Librem Mini">
         <p><?php print _("Not all computers are shipped with Windows or macOS. If you do not wish to make the install yourself, or are in need of new hardware, you can get a laptop or a desktop pre-installed with GNU/Linux. <a href=\"https://linuxpreloaded.com/\" rel=\"external\">LinuxPreloaded.com</a> has compiled a list of vendors pre-installing GNU/Linux just for that reason."); ?></p>
       </section>
     </article>
