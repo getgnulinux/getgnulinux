@@ -26,7 +26,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
-"POT-Creation-Date: 2021-01-22 19:08+0000\n"
+"POT-Creation-Date: 2021-01-22 20:48+0000\n"
 "PO-Revision-Date: 2021-01-07 10:26+0000\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
@@ -1824,68 +1824,102 @@ msgid "Get the image you need"
 msgstr "取得你需要的映像檔"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:56
+#: docroot/lib/views/switch_to_linux.try_or_install.php:71
+#: docroot/lib/views/switch_to_linux.try_or_install.php:86
+#, php-format
 msgid ""
-"<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">Create "
-"a live USB stick</a> or <a href=\"https://www.debian.org/CD/faq/#record-"
-"windows\" rel=\"external\">burn it to a CD/DVD</a>. Then use it to <a href="
-"\"https://www.debian.org/releases/stable/installmanual\" rel=\"external"
-"\">install Debian</a> onto your computer."
+"<a href=\"%s\" rel=\"external\">Create a live USB stick</a> or <a href=\"%s"
+"\" rel=\"external\">burn it to a CD/DVD</a>."
 msgstr ""
-"<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">製作 "
-"Live USB 隨身碟</a>或<a href=\"https://www.debian.org/CD/faq/#record-windows"
-"\" rel=\"external\">將其燒錄成 CD/DVD</a>。然後用它來<a href=\"https://www."
-"debian.org/releases/stable/installmanual\" rel=\"external\">安裝 Debian</a> "
-"到你的電腦上。"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:60
+#: docroot/lib/views/switch_to_linux.try_or_install.php:56
+msgid "https://www.debian.org/CD/faq/#write-usb"
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:56
+msgid "https://www.debian.org/CD/faq/#record-windows"
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:57
+#, fuzzy, php-format
+#| msgid ""
+#| "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
+msgid ""
+"Then use it to <a href=\"%s\" rel=\"external\">install Debian</a> onto your "
+"computer."
+msgstr "此網站為<a href=\"%s\" rel=\"external\">自由且開放原始碼</a>。"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:57
+msgid "https://www.debian.org/releases/stable/installmanual"
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:61
 msgid "Download Debian"
 msgstr "下載 Debian"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:70
+#: docroot/lib/views/switch_to_linux.try_or_install.php:71
 msgid ""
-"<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-"
-"on-windows\" rel=\"external\">Create a live USB stick</a> or <a href="
-"\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel="
-"\"external\">burn it to a DVD</a>. Then use it to <a href=\"https://"
-"tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel="
-"\"external\">install Ubuntu</a> onto your computer."
+"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows"
 msgstr ""
-"<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-"
-"on-windows\" rel=\"external\">製作 Live USB 隨身碟</a>或<a href=\"https://"
-"tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel=\"external"
-"\">燒錄成 DVD</a>。然後用它來<a href=\"https://tutorials.ubuntu.com/tutorial/"
-"tutorial-install-ubuntu-desktop\" rel=\"external\">安裝 Ubuntu</a> 到你的電腦"
-"上。"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:74
+#: docroot/lib/views/switch_to_linux.try_or_install.php:71
+msgid "https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows"
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:72
+#, fuzzy, php-format
+#| msgid ""
+#| "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
+msgid ""
+"Then use it to <a href=\"%s\" rel=\"external\">install Ubuntu</a> onto your "
+"computer."
+msgstr "此網站為<a href=\"%s\" rel=\"external\">自由且開放原始碼</a>。"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:72
+msgid "https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop"
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:76
 msgid "Download Ubuntu"
 msgstr "下載 Ubuntu"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:84
+#: docroot/lib/views/switch_to_linux.try_or_install.php:86
+#, fuzzy
+#| msgid ""
+#| "<i>Fedora Media Writer</i> is the easiest way to try or install Fedora. "
+#| "Use it to <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/"
+#| "install-guide/install/Preparing_for_Installation/#sect-preparing-boot-"
+#| "media\" rel=\"external\">create a live USB stick or burn it to a CD/DVD</"
+#| "a>."
 msgid ""
-"<a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/"
-"install/Preparing_for_Installation/#sect-preparing-boot-media\" rel="
-"\"external\">Create a live USB stick</a> or <a href=\"https://docs."
-"fedoraproject.org/en-US/fedora/f33/install-guide/install/"
-"Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external"
-"\">burn it to a CD/DVD</a>. Then use it to <a href=\"https://docs."
-"fedoraproject.org/en-US/fedora/f33/install-guide/install/"
-"Booting_the_Installation/\" rel=\"external\">install Fedora</a> onto your "
-"computer."
+"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/"
+"Preparing_for_Installation/#sect-preparing-boot-media"
 msgstr ""
-"<a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/"
-"install/Preparing_for_Installation/#sect-preparing-boot-media\" rel="
-"\"external\">製作 Live USB 隨身碟</a>或<a href=\"https://docs.fedoraproject."
-"org/en-US/fedora/f33/install-guide/install/Preparing_for_Installation/#sect-"
-"preparing-boot-media\" rel=\"external\">燒錄成 DVD</a>。然後用它來<a href="
+"<i>Fedora Media Writer</i> 是嘗試或安裝 Fedora 的最簡單方式。請用它來<a href="
 "\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/"
-"Booting_the_Installation/\" rel=\"external\">安裝 Fedora</a> 到你的電腦上。"
+"Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">製"
+"作 Live USB，或燒錄成 CD/DVD</a>。"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:88
+#: docroot/lib/views/switch_to_linux.try_or_install.php:87
+#, fuzzy, php-format
+#| msgid ""
+#| "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
+msgid ""
+"Then use it to <a href=\"%s\" rel=\"external\">install Fedora</a> onto your "
+"computer."
+msgstr "此網站為<a href=\"%s\" rel=\"external\">自由且開放原始碼</a>。"
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:87
+msgid ""
+"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/"
+"Booting_the_Installation/"
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:91
 msgid "Download Fedora"
 msgstr "下載 Fedora"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:96
+#: docroot/lib/views/switch_to_linux.try_or_install.php:99
 msgid ""
 "Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href="
 "\"https://www.gnu.org/philosophy/free-sw.html\" title=\"What do you mean, "
@@ -1896,15 +1930,15 @@ msgstr ""
 "philosophy/free-sw.html\" rel=\"external\" title=\"What do you mean, free?\">"
 "自由軟體</a>。你只需要付處理費或購入費。"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:100
+#: docroot/lib/views/switch_to_linux.try_or_install.php:103
 msgid "Free Software pre-installed"
 msgstr "預裝自由軟體"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:101
+#: docroot/lib/views/switch_to_linux.try_or_install.php:104
 msgid "Computer with GNU/Linux pre-installed"
 msgstr "有預裝 GNU/Linux 的電腦嗎？"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:102
+#: docroot/lib/views/switch_to_linux.try_or_install.php:105
 msgid ""
 "Not all computers are shipped with Windows or macOS. If you do not wish to "
 "make the install yourself, or are in need of new hardware, you can get a "
@@ -3953,6 +3987,54 @@ msgstr "社群論壇"
 msgid "Contact us"
 msgstr "連絡我們"
 
+#~ msgid ""
+#~ "<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external"
+#~ "\">Create a live USB stick</a> or <a href=\"https://www.debian.org/CD/faq/"
+#~ "#record-windows\" rel=\"external\">burn it to a CD/DVD</a>. Then use it "
+#~ "to <a href=\"https://www.debian.org/releases/stable/installmanual\" rel="
+#~ "\"external\">install Debian</a> onto your computer."
+#~ msgstr ""
+#~ "<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">製"
+#~ "作 Live USB 隨身碟</a>或<a href=\"https://www.debian.org/CD/faq/#record-"
+#~ "windows\" rel=\"external\">將其燒錄成 CD/DVD</a>。然後用它來<a href="
+#~ "\"https://www.debian.org/releases/stable/installmanual\" rel=\"external\">"
+#~ "安裝 Debian</a> 到你的電腦上。"
+
+#~ msgid ""
+#~ "<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-"
+#~ "stick-on-windows\" rel=\"external\">Create a live USB stick</a> or <a "
+#~ "href=\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-"
+#~ "windows\" rel=\"external\">burn it to a DVD</a>. Then use it to <a href="
+#~ "\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" "
+#~ "rel=\"external\">install Ubuntu</a> onto your computer."
+#~ msgstr ""
+#~ "<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-"
+#~ "stick-on-windows\" rel=\"external\">製作 Live USB 隨身碟</a>或<a href="
+#~ "\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" "
+#~ "rel=\"external\">燒錄成 DVD</a>。然後用它來<a href=\"https://tutorials."
+#~ "ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel=\"external\">安"
+#~ "裝 Ubuntu</a> 到你的電腦上。"
+
+#~ msgid ""
+#~ "<a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/"
+#~ "install/Preparing_for_Installation/#sect-preparing-boot-media\" rel="
+#~ "\"external\">Create a live USB stick</a> or <a href=\"https://docs."
+#~ "fedoraproject.org/en-US/fedora/f33/install-guide/install/"
+#~ "Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external"
+#~ "\">burn it to a CD/DVD</a>. Then use it to <a href=\"https://docs."
+#~ "fedoraproject.org/en-US/fedora/f33/install-guide/install/"
+#~ "Booting_the_Installation/\" rel=\"external\">install Fedora</a> onto your "
+#~ "computer."
+#~ msgstr ""
+#~ "<a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/"
+#~ "install/Preparing_for_Installation/#sect-preparing-boot-media\" rel="
+#~ "\"external\">製作 Live USB 隨身碟</a>或<a href=\"https://docs."
+#~ "fedoraproject.org/en-US/fedora/f33/install-guide/install/"
+#~ "Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">"
+#~ "燒錄成 DVD</a>。然後用它來<a href=\"https://docs.fedoraproject.org/en-US/"
+#~ "fedora/f33/install-guide/install/Booting_the_Installation/\" rel="
+#~ "\"external\">安裝 Fedora</a> 到你的電腦上。"
+
 #~ msgid "Don Marti interview"
 #~ msgstr "Don Marti 訪談"
 
@@ -4039,18 +4121,6 @@ msgstr "連絡我們"
 
 #~ msgid "More in this section"
 #~ msgstr "本小節的深入閱讀"
-
-#~ msgid ""
-#~ "<i>Fedora Media Writer</i> is the easiest way to try or install Fedora. "
-#~ "Use it to <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/"
-#~ "install-guide/install/Preparing_for_Installation/#sect-preparing-boot-"
-#~ "media\" rel=\"external\">create a live USB stick or burn it to a CD/DVD</"
-#~ "a>."
-#~ msgstr ""
-#~ "<i>Fedora Media Writer</i> 是嘗試或安裝 Fedora 的最簡單方式。請用它來<a "
-#~ "href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/"
-#~ "install/Preparing_for_Installation/#sect-preparing-boot-media\" rel="
-#~ "\"external\">製作 Live USB，或燒錄成 CD/DVD</a>。"
 
 #~ msgid "GitHub"
 #~ msgstr "GitHub"

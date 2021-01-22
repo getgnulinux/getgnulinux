@@ -53,7 +53,8 @@ $this->load_header();
             <div class="card card-distribution brown lighten-5">
               <div class="card-image card-distribution-logo card-distribution-logo--debian"></div>
               <div class="card-content">
-                <p><?php print _("<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">Create a live USB stick</a> or <a href=\"https://www.debian.org/CD/faq/#record-windows\" rel=\"external\">burn it to a CD/DVD</a>. Then use it to <a href=\"https://www.debian.org/releases/stable/installmanual\" rel=\"external\">install Debian</a> onto your computer."); ?></p>
+                <p><?php $p = _("<a href=\"%s\" rel=\"external\">Create a live USB stick</a> or <a href=\"%s\" rel=\"external\">burn it to a CD/DVD</a>."); printf($p, _("https://www.debian.org/CD/faq/#write-usb"), _("https://www.debian.org/CD/faq/#record-windows")); ?></p>
+                <p><?php $p = _("Then use it to <a href=\"%s\" rel=\"external\">install Debian</a> onto your computer."); printf($p, _("https://www.debian.org/releases/stable/installmanual")); ?></p>
               </div>
               <div class="card-action center">
                 <a class="waves-effect waves-light btn-large light-green darken-4" href="https://www.debian.org/distrib/" target="_blank">
@@ -67,7 +68,8 @@ $this->load_header();
             <div class="card card-distribution brown lighten-5">
               <div class="card-image card-distribution-logo card-distribution-logo--ubuntu"></div>
               <div class="card-content">
-                <p><?php print _("<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows\" rel=\"external\">Create a live USB stick</a> or <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel=\"external\">burn it to a CD/DVD</a>. Then use it to <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel=\"external\">install Ubuntu</a> onto your computer."); ?></p>
+                <p><?php $p = _("<a href=\"%s\" rel=\"external\">Create a live USB stick</a> or <a href=\"%s\" rel=\"external\">burn it to a CD/DVD</a>."); printf($p, _("https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows"), _("https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows")); ?></p>
+                <p><?php $p = _("Then use it to <a href=\"%s\" rel=\"external\">install Ubuntu</a> onto your computer."); printf($p, _("https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop")); ?></p>
               </div>
               <div class="card-action center">
                 <a class="waves-effect waves-light btn-large light-green darken-4" href="https://ubuntu.com/download/desktop" target="_blank">
@@ -81,7 +83,8 @@ $this->load_header();
             <div class="card card-distribution brown lighten-5">
               <div class="card-image card-distribution-logo card-distribution-logo--fedora"></div>
               <div class="card-content">
-                <p><?php print _("<a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">Create a live USB stick</a> or <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external\">burn it to a CD/DVD</a>. Then use it to <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/Booting_the_Installation/\" rel=\"external\">install Fedora</a> onto your computer."); ?></p>
+                <p><?php $p = _("<a href=\"%s\" rel=\"external\">Create a live USB stick</a> or <a href=\"%s\" rel=\"external\">burn it to a CD/DVD</a>."); printf($p, _("https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media"), _("https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media")); ?></p>
+                <p><?php $p = _("Then use it to <a href=\"%s\" rel=\"external\">install Fedora</a> onto your computer."); printf($p, _("https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/Booting_the_Installation/")); ?></p>
               </div>
               <div class="card-action center">
                 <a class="waves-effect waves-light btn-large light-green darken-4" href="https://getfedora.org/en/workstation/" target="_blank">

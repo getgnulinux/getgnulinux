@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
-"POT-Creation-Date: 2021-01-22 19:08+0000\n"
+"POT-Creation-Date: 2021-01-22 20:48+0000\n"
 "PO-Revision-Date: 2021-01-06 12:08+0000\n"
 "Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/getgnulinux/"
@@ -1728,70 +1728,90 @@ msgid "Get the image you need"
 msgstr "Ottieni l'immagine di cui hai bisogno"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:56
+#: docroot/lib/views/switch_to_linux.try_or_install.php:71
+#: docroot/lib/views/switch_to_linux.try_or_install.php:86
+#, php-format
 msgid ""
-"<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">Create "
-"a live USB stick</a> or <a href=\"https://www.debian.org/CD/faq/#record-"
-"windows\" rel=\"external\">burn it to a CD/DVD</a>. Then use it to <a href="
-"\"https://www.debian.org/releases/stable/installmanual\" rel=\"external"
-"\">install Debian</a> onto your computer."
+"<a href=\"%s\" rel=\"external\">Create a live USB stick</a> or <a href=\"%s"
+"\" rel=\"external\">burn it to a CD/DVD</a>."
 msgstr ""
-"<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external\">Crea "
-"una chiave USB live</a> o <a href=\"https://www.debian.org/CD/faq/#record-"
-"windows\" rel=\"external\">masterizzala su un CD/DVD</a>. Poi usalo per <a "
-"href=\"https://www.debian.org/releases/stable/installmanual\" rel=\"external"
-"\">installare Debian</a> sul tuo computer."
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:60
+#: docroot/lib/views/switch_to_linux.try_or_install.php:56
+msgid "https://www.debian.org/CD/faq/#write-usb"
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:56
+msgid "https://www.debian.org/CD/faq/#record-windows"
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:57
+#, php-format
+msgid ""
+"Then use it to <a href=\"%s\" rel=\"external\">install Debian</a> onto your "
+"computer."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:57
+msgid "https://www.debian.org/releases/stable/installmanual"
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:61
 msgid "Download Debian"
 msgstr "Scarica Debian"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:70
+#: docroot/lib/views/switch_to_linux.try_or_install.php:71
 msgid ""
-"<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-"
-"on-windows\" rel=\"external\">Create a live USB stick</a> or <a href="
-"\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel="
-"\"external\">burn it to a DVD</a>. Then use it to <a href=\"https://"
-"tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel="
-"\"external\">install Ubuntu</a> onto your computer."
+"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows"
 msgstr ""
-"<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-"
-"on-windows\" rel=\"external\">Crea unq chiave USB live</a> o <a href="
-"\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows\" rel="
-"\"external\">masterizzala su un DVD</a>. Poi usala per <a href=\"https://"
-"tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel="
-"\"external\">installare Ubuntu</a> sul tuo computer."
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:74
+#: docroot/lib/views/switch_to_linux.try_or_install.php:71
+msgid "https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows"
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:72
+#, php-format
+msgid ""
+"Then use it to <a href=\"%s\" rel=\"external\">install Ubuntu</a> onto your "
+"computer."
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:72
+msgid "https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop"
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:76
 msgid "Download Ubuntu"
 msgstr "Scarica Ubuntu"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:84
+#: docroot/lib/views/switch_to_linux.try_or_install.php:86
+#, fuzzy
 msgid ""
-"<a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/"
-"install/Preparing_for_Installation/#sect-preparing-boot-media\" rel="
-"\"external\">Create a live USB stick</a> or <a href=\"https://docs."
-"fedoraproject.org/en-US/fedora/f33/install-guide/install/"
+"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/"
+"Preparing_for_Installation/#sect-preparing-boot-media"
+msgstr ""
+"<i>Fedora Media Writer</i> è il modo più semplice di <a href=\"https://docs."
+"fedoraproject.org/en-US/fedora/f30/install-guide/install/"
 "Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external"
-"\">burn it to a CD/DVD</a>. Then use it to <a href=\"https://docs."
-"fedoraproject.org/en-US/fedora/f33/install-guide/install/"
-"Booting_the_Installation/\" rel=\"external\">install Fedora</a> onto your "
+"\">provare o installare Fedora</a>."
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:87
+#, php-format
+msgid ""
+"Then use it to <a href=\"%s\" rel=\"external\">install Fedora</a> onto your "
 "computer."
 msgstr ""
-"<a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/"
-"install/Preparing_for_Installation/#sect-preparing-boot-media\" rel="
-"\"external\">Crea una chiave USB live</a> o <a href=\"https://docs."
-"fedoraproject.org/en-US/fedora/f33/install-guide/install/"
-"Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external"
-"\">masterizzala su un CD/DVD</a>. Poi usala per <a href=\"https://docs."
-"fedoraproject.org/en-US/fedora/f33/install-guide/install/"
-"Booting_the_Installation/\" rel=\"external\">installare Fedora</a> sul tuo "
-"computer."
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:88
+#: docroot/lib/views/switch_to_linux.try_or_install.php:87
+msgid ""
+"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/"
+"Booting_the_Installation/"
+msgstr ""
+
+#: docroot/lib/views/switch_to_linux.try_or_install.php:91
 msgid "Download Fedora"
 msgstr "Scarica Fedora"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:96
+#: docroot/lib/views/switch_to_linux.try_or_install.php:99
 msgid ""
 "Note: Purchased and downloaded CDs are identical! GNU/Linux is <a href="
 "\"https://www.gnu.org/philosophy/free-sw.html\" title=\"What do you mean, "
@@ -1799,15 +1819,15 @@ msgid ""
 "shipping fee."
 msgstr ""
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:100
+#: docroot/lib/views/switch_to_linux.try_or_install.php:103
 msgid "Free Software pre-installed"
 msgstr "Software libero preinstallato"
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:101
+#: docroot/lib/views/switch_to_linux.try_or_install.php:104
 msgid "Computer with GNU/Linux pre-installed"
 msgstr ""
 
-#: docroot/lib/views/switch_to_linux.try_or_install.php:102
+#: docroot/lib/views/switch_to_linux.try_or_install.php:105
 msgid ""
 "Not all computers are shipped with Windows or macOS. If you do not wish to "
 "make the install yourself, or are in need of new hardware, you can get a "
@@ -3733,6 +3753,55 @@ msgstr "Forum comunità"
 msgid "Contact us"
 msgstr "Contattaci"
 
+#~ msgid ""
+#~ "<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external"
+#~ "\">Create a live USB stick</a> or <a href=\"https://www.debian.org/CD/faq/"
+#~ "#record-windows\" rel=\"external\">burn it to a CD/DVD</a>. Then use it "
+#~ "to <a href=\"https://www.debian.org/releases/stable/installmanual\" rel="
+#~ "\"external\">install Debian</a> onto your computer."
+#~ msgstr ""
+#~ "<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external"
+#~ "\">Crea una chiave USB live</a> o <a href=\"https://www.debian.org/CD/faq/"
+#~ "#record-windows\" rel=\"external\">masterizzala su un CD/DVD</a>. Poi "
+#~ "usalo per <a href=\"https://www.debian.org/releases/stable/installmanual"
+#~ "\" rel=\"external\">installare Debian</a> sul tuo computer."
+
+#~ msgid ""
+#~ "<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-"
+#~ "stick-on-windows\" rel=\"external\">Create a live USB stick</a> or <a "
+#~ "href=\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-"
+#~ "windows\" rel=\"external\">burn it to a DVD</a>. Then use it to <a href="
+#~ "\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" "
+#~ "rel=\"external\">install Ubuntu</a> onto your computer."
+#~ msgstr ""
+#~ "<a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-"
+#~ "stick-on-windows\" rel=\"external\">Crea unq chiave USB live</a> o <a "
+#~ "href=\"https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-"
+#~ "windows\" rel=\"external\">masterizzala su un DVD</a>. Poi usala per <a "
+#~ "href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-"
+#~ "desktop\" rel=\"external\">installare Ubuntu</a> sul tuo computer."
+
+#~ msgid ""
+#~ "<a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/"
+#~ "install/Preparing_for_Installation/#sect-preparing-boot-media\" rel="
+#~ "\"external\">Create a live USB stick</a> or <a href=\"https://docs."
+#~ "fedoraproject.org/en-US/fedora/f33/install-guide/install/"
+#~ "Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external"
+#~ "\">burn it to a CD/DVD</a>. Then use it to <a href=\"https://docs."
+#~ "fedoraproject.org/en-US/fedora/f33/install-guide/install/"
+#~ "Booting_the_Installation/\" rel=\"external\">install Fedora</a> onto your "
+#~ "computer."
+#~ msgstr ""
+#~ "<a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/"
+#~ "install/Preparing_for_Installation/#sect-preparing-boot-media\" rel="
+#~ "\"external\">Crea una chiave USB live</a> o <a href=\"https://docs."
+#~ "fedoraproject.org/en-US/fedora/f33/install-guide/install/"
+#~ "Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external"
+#~ "\">masterizzala su un CD/DVD</a>. Poi usala per <a href=\"https://docs."
+#~ "fedoraproject.org/en-US/fedora/f33/install-guide/install/"
+#~ "Booting_the_Installation/\" rel=\"external\">installare Fedora</a> sul "
+#~ "tuo computer."
+
 #~ msgid "Don Marti interview"
 #~ msgstr "Intervista a Don Marti"
 
@@ -3797,19 +3866,6 @@ msgstr "Contattaci"
 #, fuzzy
 #~ msgid "More in this section"
 #~ msgstr "Altro in questa sezione:"
-
-#, fuzzy
-#~ msgid ""
-#~ "<i>Fedora Media Writer</i> is the easiest way to try or install Fedora. "
-#~ "Use it to <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/"
-#~ "install-guide/install/Preparing_for_Installation/#sect-preparing-boot-"
-#~ "media\" rel=\"external\">create a live USB stick or burn it to a CD/DVD</"
-#~ "a>."
-#~ msgstr ""
-#~ "<i>Fedora Media Writer</i> è il modo più semplice di <a href=\"https://"
-#~ "docs.fedoraproject.org/en-US/fedora/f30/install-guide/install/"
-#~ "Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external"
-#~ "\">provare o installare Fedora</a>."
 
 #~ msgid "Our blog"
 #~ msgstr "Il nostro blog"
