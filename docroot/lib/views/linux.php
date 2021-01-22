@@ -12,7 +12,7 @@ $this->load_header();
       <header>
         <h1><?php print _("What is GNU/Linux?"); ?></h1>
         <div class="page-intro">
-          <p><?php print _("When you hear the word Linux, you may think of programmers with a beard typing obscure code on a black screen. Good news! things have changed."); ?></p>
+          <p><?php print _("When you hear the word Linux, you may think of programmers with a beard typing obscure code on a black screen. Good news! Things have changed."); ?></p>
         </div>
       </header>
 
