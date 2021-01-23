@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
-"POT-Creation-Date: 2021-01-22 20:48+0000\n"
+"POT-Creation-Date: 2021-01-23 09:10+0000\n"
 "PO-Revision-Date: 2020-12-20 01:29+0000\n"
 "Last-Translator: FengChao <chaofeng111@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -55,7 +55,7 @@ msgstr "什么是 GNU/Linux？"
 #: docroot/lib/views/windows.restrictions.php:82
 #: docroot/lib/views/windows.stand_for_a_free_society.php:174
 #: docroot/lib/views/home.php:36
-#: docroot/lib/views/windows.what_about_choice.php:69
+#: docroot/lib/views/windows.what_about_choice.php:64
 #: docroot/lib/views/linux.php:112
 #: docroot/lib/views/windows.what_about_source_code.php:65
 msgid "Why not Windows"
@@ -1048,26 +1048,39 @@ msgstr ""
 "很少支持它们的。"
 
 #: docroot/lib/views/windows.what_about_choice.php:38
+#, fuzzy
+#| msgid ""
+#| "<strong>For a long time Microsoft Office only had support for Microsoft "
+#| "formats</strong>. There are many ways to write work documents, but "
+#| "Microsoft Office users were bound to Microsoft Office files. People who "
+#| "opted without expensive Microsoft products cannot write and read <code>."
+#| "doc</code> files very reliably."
 msgid ""
-"<strong>For a long time Microsoft Office only had support for Microsoft "
-"formats</strong>. There are many ways to write work documents, but Microsoft "
-"Office users were bound to Microsoft Office files. People who opted without "
-"expensive Microsoft products cannot write and read <code>.doc</code> files "
-"very reliably."
+"Microsoft Office used to only support Microsoft formats. There are many ways "
+"to write work documents, but Microsoft Office users were bound to Microsoft "
+"Office files. People who opted without expensive Microsoft products cannot "
+"write and read <code>.doc</code> files very reliably."
 msgstr ""
 "<strong>很长的一段时间，Microsoft Office 只支持微软自己的文件格式</strong>。"
 "有很多很多的方式进行文档工作，可是Office用户已经紧紧地被Microsoft Office文件"
 "格式绑架了。人们如果不愿意为微软昂贵的产品付费，就无法可靠地读写<code>.doc</"
 "code>文件。"
 
-#. TRANSLATORS: Please use link to localized Wikipedia article in place of ODF
-#: docroot/lib/views/windows.what_about_choice.php:41
+#: docroot/lib/views/windows.what_about_choice.php:39
+#, fuzzy
+#| msgid ""
+#| "There are of course other ways of writing and exchanging office files, "
+#| "the most well-known being <a href=\"http://www.opendocumentformat.org/\" "
+#| "rel=\"external\">the OpenDocument Format</a>. But Microsoft isn't keen on "
+#| "letting Office users exchange files anyone can read and edit. As of "
+#| "Microsoft Office 2007 SP2, Microsoft finally added support for the ODF "
+#| "format after being pushed by the European Commission."
 msgid ""
 "There are of course other ways of writing and exchanging office files, the "
-"most well-known being <a href=\"http://www.opendocumentformat.org/\" rel="
-"\"external\">the OpenDocument Format</a>. But Microsoft isn't keen on "
+"most well-known being <a href=\"https://en.wikipedia.org/wiki/OpenDocument\" "
+"rel=\"external\">the OpenDocument Format</a>. But Microsoft isn't keen on "
 "letting Office users exchange files anyone can read and edit. As of "
-"Microsoft Office 2007 SP2, Microsoft finally added support for the ODF "
+"Microsoft Office 2007 SP2, Microsoft did add support for the OpenDocument "
 "format after being pushed by the European Commission."
 msgstr ""
 "当然，有很多其他的创作和交换办公文档的方式——最出名的就是 <a href=\"http://"
@@ -1075,11 +1088,11 @@ msgstr ""
 "Format)</a>了。但是微软并不打算让世界变得如此自由。直到 Microsoft Office "
 "2007 SP2，由于欧盟反垄断诉讼，微软才很不情愿地添加了 ODF 格式支持。"
 
-#: docroot/lib/views/windows.what_about_choice.php:45
+#: docroot/lib/views/windows.what_about_choice.php:43
 msgid "Standards that change all the time"
 msgstr "文件标准总是在不停改变"
 
-#: docroot/lib/views/windows.what_about_choice.php:46
+#: docroot/lib/views/windows.what_about_choice.php:44
 msgid ""
 "Sticking to Microsoft standards is not an easy job &ndash; unless you can "
 "afford to upgrade very often. Ever tried to work on the same <code>.doc</"
@@ -1090,7 +1103,7 @@ msgstr ""
 "过在 Office 95 和 Office 97 间传输 <code>.doc</code> 文件的痛苦吗？如果有，您"
 "会理解我在说什么的。"
 
-#: docroot/lib/views/windows.what_about_choice.php:47
+#: docroot/lib/views/windows.what_about_choice.php:45
 msgid ""
 "Microsoft owns the Office file formats: <strong>they change them with every "
 "new Office version</strong> and have no obligation to keep them backwards-"
@@ -1104,11 +1117,11 @@ msgstr ""
 "用 Microsoft Office 时，您就不得不依赖于社区对这个文件格式的反向工程来修改您"
 "的文件了。"
 
-#: docroot/lib/views/windows.what_about_choice.php:51
+#: docroot/lib/views/windows.what_about_choice.php:49
 msgid "Default programs you can't uninstall"
 msgstr "默认软件是不可卸载的"
 
-#: docroot/lib/views/windows.what_about_choice.php:52
+#: docroot/lib/views/windows.what_about_choice.php:50
 msgid ""
 "Don't want Windows Media Player on your computer? Don't use Internet "
 "Explorer anymore? <strong>You can't uninstall these programs</strong>. They "
@@ -1121,28 +1134,30 @@ msgstr ""
 "序，但是现在已经被紧紧地绑定与 Windows 之中——他们出现在几乎每一台计算机，永远"
 "无法躲开。"
 
-#: docroot/lib/views/windows.what_about_choice.php:56
+#: docroot/lib/views/windows.what_about_choice.php:54
 msgid "Monopolistic practices"
 msgstr "垄断实践"
 
-#: docroot/lib/views/windows.what_about_choice.php:57
+#: docroot/lib/views/windows.what_about_choice.php:55
+#, fuzzy
+#| msgid ""
+#| "This means that no program competing with Microsoft products, be it <a "
+#| "href=\"https://www.videolan.org/vlc/\" rel=\"external\">multimedia "
+#| "player</a>, <a href=\"https://www.getfirefox.com/\" rel=\"external\">web "
+#| "browser</a>, <a href=\"https://www.libreoffice.org/\" rel=\"external"
+#| "\">office suite</a>, <a href=\"https://www.pidgin.im/\" rel=\"external"
+#| "\">instant messaging program</a> or other, will come pre-installed on "
+#| "most computers you can buy."
 msgid ""
 "Microsoft has a tight control over <abbr title=\"Original Equipment "
 "Manufacturer\">OEM</abbr>s (computer manufacturers) who ship their computers "
-"with Windows installed."
-msgstr ""
-"微软紧紧地控制着<abbr title=\"原始设备制造商\">OEM</abbr>厂商（计算机制造"
-"商），并强迫他们在每一台计算机上安装 Windows 操作系统。"
-
-#. TRANSLATORS: if you cannot find localized homepages, please leave the URLs as such
-#: docroot/lib/views/windows.what_about_choice.php:60
-msgid ""
-"This means that no program competing with Microsoft products, be it <a href="
-"\"https://www.videolan.org/vlc/\" rel=\"external\">multimedia player</a>, <a "
-"href=\"https://www.getfirefox.com/\" rel=\"external\">web browser</a>, <a "
-"href=\"https://www.libreoffice.org/\" rel=\"external\">office suite</a>, <a "
-"href=\"https://www.pidgin.im/\" rel=\"external\">instant messaging program</"
-"a> or other, will come pre-installed on most computers you can buy."
+"with Windows installed. This means that no program competing with Microsoft "
+"products, be it <a href=\"https://www.videolan.org/vlc/\" rel=\"external"
+"\">multimedia player</a>, <a href=\"https://www.getfirefox.com/\" rel="
+"\"external\">web browser</a>, <a href=\"https://www.libreoffice.org/\" rel="
+"\"external\">office suite</a>, <a href=\"https://www.pidgin.im/\" rel="
+"\"external\">instant messaging program</a> or other, will come pre-installed "
+"on most computers you can buy."
 msgstr ""
 "这意味着您能买到的绝大多数电脑中，都没有预装能与微软竞争的产品，比如<a href="
 "\"https://www.videolan.org/vlc/\" rel=\"external\">多媒体播放器</a>、<a href="
@@ -1150,7 +1165,7 @@ msgstr ""
 "\"https://www.libreoffice.org/\" rel=\"external\">办公套件</a>或者<a href="
 "\"https://www.pidgin.im/\" rel=\"external\">即时通讯软件</a>。"
 
-#: docroot/lib/views/windows.what_about_choice.php:61
+#: docroot/lib/views/windows.what_about_choice.php:56
 msgid ""
 "It is a good thing to propose a wide range of software and services like "
 "Microsoft do; however, designing and combining them to shut users from non-"
@@ -2337,10 +2352,14 @@ msgstr ""
 
 #. TRANSLATORS: The %s placeholder here will automatically point to the page "Windows Restrictions, further details"
 #: docroot/lib/views/linux.misunderstanding_free_software.php:156
-#, php-format
+#, fuzzy, php-format
+#| msgid ""
+#| "So in fact, you have more \"ownership\" over free software than over "
+#| "proprietary software &ndash;where the programmer decides everything you "
+#| "can <a href=\"%s\">and can't do</a> with the software."
 msgid ""
 "So in fact, you have more \"ownership\" over free software than over "
-"proprietary software &ndash;where the programmer decides everything you can "
+"proprietary software &ndash; where the programmer decides everything you can "
 "<a href=\"%s\">and can't do</a> with the software."
 msgstr ""
 "所以事实上，相较私有软件的情形，程序员决定着你对软件所能做与<a href=\"%s\">不"
@@ -3587,8 +3606,8 @@ msgid ""
 "No. It is technically possible to adapt Microsoft Office to GNU/Linux, but "
 "Microsoft isn't keen on allowing Office users to choose their operating "
 "system. There are other issues with MS Office and openness &ndash; like "
-"Microsoft's fierce opposition to supporting <a href=\"http://www."
-"opendocumentformat.org/\" rel=\"external\">the OpenDocument format</a>."
+"Microsoft's fierce opposition to supporting <a href=\"https://en.wikipedia."
+"org/wiki/OpenDocument\" rel=\"external\">the OpenDocument format</a>."
 msgstr ""
 "并非如此。从技术上来讲，将 Microsoft Office 移植到 GNU/Linux 上是完全可行的。"
 "但是微软并不想让 Office 用户选择操作系统。MS Office 与开放之间还存在其他的芥"
@@ -3828,6 +3847,14 @@ msgstr ""
 #: src/templates/footer.php:37
 msgid "Contact us"
 msgstr "联系我们"
+
+#~ msgid ""
+#~ "Microsoft has a tight control over <abbr title=\"Original Equipment "
+#~ "Manufacturer\">OEM</abbr>s (computer manufacturers) who ship their "
+#~ "computers with Windows installed."
+#~ msgstr ""
+#~ "微软紧紧地控制着<abbr title=\"原始设备制造商\">OEM</abbr>厂商（计算机制造"
+#~ "商），并强迫他们在每一台计算机上安装 Windows 操作系统。"
 
 #~ msgid ""
 #~ "<a href=\"https://www.debian.org/CD/faq/#write-usb\" rel=\"external"

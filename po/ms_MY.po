@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
-"POT-Creation-Date: 2021-01-22 20:48+0000\n"
+"POT-Creation-Date: 2021-01-23 09:10+0000\n"
 "PO-Revision-Date: 2020-12-01 00:06+0000\n"
 "Last-Translator: abuyop <abuyop@gmail.com>\n"
 "Language-Team: Malay (Malaysia) (http://www.transifex.com/serrano/"
@@ -42,7 +42,7 @@ msgstr "Apa itu GNU/Linux?"
 #: docroot/lib/views/windows.restrictions.php:82
 #: docroot/lib/views/windows.stand_for_a_free_society.php:174
 #: docroot/lib/views/home.php:36
-#: docroot/lib/views/windows.what_about_choice.php:69
+#: docroot/lib/views/windows.what_about_choice.php:64
 #: docroot/lib/views/linux.php:112
 #: docroot/lib/views/windows.what_about_source_code.php:65
 msgid "Why not Windows"
@@ -1002,29 +1002,27 @@ msgstr ""
 
 #: docroot/lib/views/windows.what_about_choice.php:38
 msgid ""
-"<strong>For a long time Microsoft Office only had support for Microsoft "
-"formats</strong>. There are many ways to write work documents, but Microsoft "
-"Office users were bound to Microsoft Office files. People who opted without "
-"expensive Microsoft products cannot write and read <code>.doc</code> files "
-"very reliably."
+"Microsoft Office used to only support Microsoft formats. There are many ways "
+"to write work documents, but Microsoft Office users were bound to Microsoft "
+"Office files. People who opted without expensive Microsoft products cannot "
+"write and read <code>.doc</code> files very reliably."
 msgstr ""
 
-#. TRANSLATORS: Please use link to localized Wikipedia article in place of ODF
-#: docroot/lib/views/windows.what_about_choice.php:41
+#: docroot/lib/views/windows.what_about_choice.php:39
 msgid ""
 "There are of course other ways of writing and exchanging office files, the "
-"most well-known being <a href=\"http://www.opendocumentformat.org/\" rel="
-"\"external\">the OpenDocument Format</a>. But Microsoft isn't keen on "
+"most well-known being <a href=\"https://en.wikipedia.org/wiki/OpenDocument\" "
+"rel=\"external\">the OpenDocument Format</a>. But Microsoft isn't keen on "
 "letting Office users exchange files anyone can read and edit. As of "
-"Microsoft Office 2007 SP2, Microsoft finally added support for the ODF "
+"Microsoft Office 2007 SP2, Microsoft did add support for the OpenDocument "
 "format after being pushed by the European Commission."
 msgstr ""
 
-#: docroot/lib/views/windows.what_about_choice.php:45
+#: docroot/lib/views/windows.what_about_choice.php:43
 msgid "Standards that change all the time"
 msgstr "Piawaian yang berubah sepanjang masa"
 
-#: docroot/lib/views/windows.what_about_choice.php:46
+#: docroot/lib/views/windows.what_about_choice.php:44
 msgid ""
 "Sticking to Microsoft standards is not an easy job &ndash; unless you can "
 "afford to upgrade very often. Ever tried to work on the same <code>.doc</"
@@ -1036,7 +1034,7 @@ msgstr ""
 "code> pada kedua-dua komputer dengan Office 95 dan Office 97? Anda tahu "
 "kesusahannya."
 
-#: docroot/lib/views/windows.what_about_choice.php:47
+#: docroot/lib/views/windows.what_about_choice.php:45
 msgid ""
 "Microsoft owns the Office file formats: <strong>they change them with every "
 "new Office version</strong> and have no obligation to keep them backwards-"
@@ -1052,11 +1050,11 @@ msgstr ""
 "anda perlu bantuan komuniti lain untuk ubahsuai format tersebut, supaya "
 "dapat buka dan menyunting kerja anda sendiri."
 
-#: docroot/lib/views/windows.what_about_choice.php:51
+#: docroot/lib/views/windows.what_about_choice.php:49
 msgid "Default programs you can't uninstall"
 msgstr "Program lalai yang anda boleh buang"
 
-#: docroot/lib/views/windows.what_about_choice.php:52
+#: docroot/lib/views/windows.what_about_choice.php:50
 msgid ""
 "Don't want Windows Media Player on your computer? Don't use Internet "
 "Explorer anymore? <strong>You can't uninstall these programs</strong>. They "
@@ -1070,29 +1068,30 @@ msgstr ""
 "disepadukan dengan Windows &ndash; supaya ia ada dalam setiap Komputer dan "
 "tiada siapa boleh membuangnya."
 
-#: docroot/lib/views/windows.what_about_choice.php:56
+#: docroot/lib/views/windows.what_about_choice.php:54
 msgid "Monopolistic practices"
 msgstr "Amalan monopoli"
 
-#: docroot/lib/views/windows.what_about_choice.php:57
+#: docroot/lib/views/windows.what_about_choice.php:55
+#, fuzzy
+#| msgid ""
+#| "This means that no program competing with Microsoft products, be it <a "
+#| "href=\"https://www.videolan.org/vlc/\" rel=\"external\">multimedia "
+#| "player</a>, <a href=\"https://www.getfirefox.com/\" rel=\"external\">web "
+#| "browser</a>, <a href=\"https://www.libreoffice.org/\" rel=\"external"
+#| "\">office suite</a>, <a href=\"https://www.pidgin.im/\" rel=\"external"
+#| "\">instant messaging program</a> or other, will come pre-installed on "
+#| "most computers you can buy."
 msgid ""
 "Microsoft has a tight control over <abbr title=\"Original Equipment "
 "Manufacturer\">OEM</abbr>s (computer manufacturers) who ship their computers "
-"with Windows installed."
-msgstr ""
-"Microsoft mempunyai kawalan ketat terhadap <abbr title=\"Original Equipment "
-"Manufacturer\">OEM</abbr> (pengeluar komputer) yang mengeluarkan komputer "
-"mereka dengan Windows siap dipasang."
-
-#. TRANSLATORS: if you cannot find localized homepages, please leave the URLs as such
-#: docroot/lib/views/windows.what_about_choice.php:60
-msgid ""
-"This means that no program competing with Microsoft products, be it <a href="
-"\"https://www.videolan.org/vlc/\" rel=\"external\">multimedia player</a>, <a "
-"href=\"https://www.getfirefox.com/\" rel=\"external\">web browser</a>, <a "
-"href=\"https://www.libreoffice.org/\" rel=\"external\">office suite</a>, <a "
-"href=\"https://www.pidgin.im/\" rel=\"external\">instant messaging program</"
-"a> or other, will come pre-installed on most computers you can buy."
+"with Windows installed. This means that no program competing with Microsoft "
+"products, be it <a href=\"https://www.videolan.org/vlc/\" rel=\"external"
+"\">multimedia player</a>, <a href=\"https://www.getfirefox.com/\" rel="
+"\"external\">web browser</a>, <a href=\"https://www.libreoffice.org/\" rel="
+"\"external\">office suite</a>, <a href=\"https://www.pidgin.im/\" rel="
+"\"external\">instant messaging program</a> or other, will come pre-installed "
+"on most computers you can buy."
 msgstr ""
 "Ini bermaksud tiada program yang dapat menyaingi produk Microsoft, sama ada "
 "<a href=\"https://www.videolan.org/vlc/\" rel=\"external\">pemain media</a>, "
@@ -1102,7 +1101,7 @@ msgstr ""
 "segera</a> atau yang lain-lain, semua akan dipra-pasang dalam kebanyakan "
 "komputer yang anda beli."
 
-#: docroot/lib/views/windows.what_about_choice.php:61
+#: docroot/lib/views/windows.what_about_choice.php:56
 msgid ""
 "It is a good thing to propose a wide range of software and services like "
 "Microsoft do; however, designing and combining them to shut users from non-"
@@ -2306,7 +2305,7 @@ msgstr ""
 #, php-format
 msgid ""
 "So in fact, you have more \"ownership\" over free software than over "
-"proprietary software &ndash;where the programmer decides everything you can "
+"proprietary software &ndash; where the programmer decides everything you can "
 "<a href=\"%s\">and can't do</a> with the software."
 msgstr ""
 
@@ -3447,8 +3446,8 @@ msgid ""
 "No. It is technically possible to adapt Microsoft Office to GNU/Linux, but "
 "Microsoft isn't keen on allowing Office users to choose their operating "
 "system. There are other issues with MS Office and openness &ndash; like "
-"Microsoft's fierce opposition to supporting <a href=\"http://www."
-"opendocumentformat.org/\" rel=\"external\">the OpenDocument format</a>."
+"Microsoft's fierce opposition to supporting <a href=\"https://en.wikipedia."
+"org/wiki/OpenDocument\" rel=\"external\">the OpenDocument format</a>."
 msgstr ""
 
 #: docroot/lib/views/linux.faq.php:219
@@ -3679,6 +3678,15 @@ msgstr ""
 #: src/templates/footer.php:37
 msgid "Contact us"
 msgstr "Hubungi kami"
+
+#~ msgid ""
+#~ "Microsoft has a tight control over <abbr title=\"Original Equipment "
+#~ "Manufacturer\">OEM</abbr>s (computer manufacturers) who ship their "
+#~ "computers with Windows installed."
+#~ msgstr ""
+#~ "Microsoft mempunyai kawalan ketat terhadap <abbr title=\"Original "
+#~ "Equipment Manufacturer\">OEM</abbr> (pengeluar komputer) yang "
+#~ "mengeluarkan komputer mereka dengan Windows siap dipasang."
 
 #~ msgid "Don Marti interview"
 #~ msgstr "Temuramah Don Marti"

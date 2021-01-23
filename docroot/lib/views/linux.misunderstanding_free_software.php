@@ -153,7 +153,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
         </ul>
         <p><?php
         # TRANSLATORS: The %s placeholder here will automatically point to the page "Windows Restrictions, further details"
-        $p = _("So in fact, you have more \"ownership\" over free software than over proprietary software &ndash;where the programmer decides everything you can <a href=\"%s\">and can't do</a> with the software."); printf($p, $this->get_base_url('windows/restrictions/further_details')); ?></p>
+        $p = _("So in fact, you have more \"ownership\" over free software than over proprietary software &ndash; where the programmer decides everything you can <a href=\"%s\">and can't do</a> with the software."); printf($p, $this->get_base_url('windows/restrictions/further_details')); ?></p>
         <p><?php print _("<em>Free software has nothing to do with a political system.</em> You can run free software on top of proprietary software, just as well as the opposite. The free software license is simply a legal, ethical contract between the programmer and the end-user."); ?></p>
       </section>
 
@@ -208,7 +208,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
         </div>
         <div class="row">
           <div class="col s12 l6">
-            <h4><a href="http://www.opendocumentformat.org/" rel="external">OpenDocument Format</a></h4>
+            <h4><a href="https://en.wikipedia.org/wiki/OpenDocument" rel="external">OpenDocument Format</a></h4>
             <p><?php print _("A simple and clear website about the free format OpenDocument, showing the importance of freedom in formats (not just in applications)."); ?></p>
           </div>
           <div class="col s12 l6">
