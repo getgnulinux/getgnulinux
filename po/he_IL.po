@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2021-01-23 09:10+0000\n"
-"PO-Revision-Date: 2021-01-22 19:09+0000\n"
+"PO-Revision-Date: 2021-01-26 02:32+0000\n"
 "Last-Translator: Omer I.S. <omeritzicschwartz@gmail.com>\n"
 "Language-Team: Hebrew (Israel) <https://hosted.weblate.org/projects/"
 "getgnulinux/getgnulinux-pot/he_IL/>\n"
@@ -202,6 +202,8 @@ msgid ""
 "disappointed. GNU/Linux is built by people who simply wish it to be "
 "different."
 msgstr ""
+"אם הציפייה שלך היא שגנו/לינוקס תעבוד בדיוק כמו Windows, כנראה שזה ינחל "
+"אכזבה. גנו/לינוקס נבנתה על ידי אנשים שפשוט רוצים שתהיה שונה."
 
 #. TRANSLATORS: This is the description of the 'Why not Windows' page
 #: docroot/lib/ggl.php:274
@@ -1080,34 +1082,18 @@ msgstr ""
 "מחשב, עכשיו ובעתיד. מצד שני, התמיכה בהם נדירה מאוד בתכניות קנייניות."
 
 #: docroot/lib/views/windows.what_about_choice.php:38
-#, fuzzy
-#| msgid ""
-#| "<strong>For a long time Microsoft Office only had support for Microsoft "
-#| "formats</strong>. There are many ways to write work documents, but "
-#| "Microsoft Office users were bound to Microsoft Office files. People who "
-#| "opted without expensive Microsoft products cannot write and read <code>."
-#| "doc</code> files very reliably."
 msgid ""
 "Microsoft Office used to only support Microsoft formats. There are many ways "
 "to write work documents, but Microsoft Office users were bound to Microsoft "
 "Office files. People who opted without expensive Microsoft products cannot "
 "write and read <code>.doc</code> files very reliably."
 msgstr ""
-"<strong>למשך תקופה ארוכה ב־Microsoft Office הייתה תמיכה אך ורק בתבניות "
-"הקבצים של Microsoft</strong>. ישנן דרכים רבות לכתוב מסמכים עסקיים, אך משתמשי "
-"Microsoft Office היו כבולים לקבצים של Microsoft Office. אנשים שבחרו להפסיק "
-"את השימוש במוצרי Microsoft לא יכלו לקרוא ולכתוב קובצי <code>.doc</code> "
-"בצורה אמינה במיוחד."
+"הייעוד של Microsoft Office היה לתמוך בתבניות הקבצים של Microsoft בלבד. ישנן "
+"דרכים רבות לכתוב מסמכים עסקיים, אך משתמשי Microsoft Office היו כבולים לקבצים "
+"של Microsoft Office. אנשים שבחרו להפסיק את השימוש במוצרי Microsoft לא יכלו "
+"לקרוא ולכתוב קובצי <code>.doc</code> בצורה אמינה במיוחד."
 
 #: docroot/lib/views/windows.what_about_choice.php:39
-#, fuzzy
-#| msgid ""
-#| "There are of course other ways of writing and exchanging office files, "
-#| "the most well-known being <a href=\"http://www.opendocumentformat.org/\" "
-#| "rel=\"external\">the OpenDocument Format</a>. But Microsoft isn't keen on "
-#| "letting Office users exchange files anyone can read and edit. As of "
-#| "Microsoft Office 2007 SP2, Microsoft finally added support for the ODF "
-#| "format after being pushed by the European Commission."
 msgid ""
 "There are of course other ways of writing and exchanging office files, the "
 "most well-known being <a href=\"https://en.wikipedia.org/wiki/OpenDocument\" "
@@ -1117,11 +1103,11 @@ msgid ""
 "format after being pushed by the European Commission."
 msgstr ""
 "מן הסתם ישנן דרכים אחרות לכתיבה ולהעברה של קבצים משרדיים, הדרך הידועה ביותר "
-"היא <a href=\"http://www.opendocumentformat.org/\" rel=\"external\">תבנית "
-"הקבצים OpenDocument</a>. אך Microsoft אינה נלהבת במיוחד לאפשר למשתמשי Office "
-"להחליף קבצים שכל אחד יכול לקרוא ולערוך. נכון לגרסת 2007 SP2 של Microsoft "
-"Office, סוף סוף הוסיפה Microsoft תמיכה בתבנית הקובץ ODF לאחר שנדחקה לפינה על "
-"ידי האיחוד האירופי."
+"היא <a href='https://he.wikipedia.org/wiki/OpenDocument/\"' rel=\"external\""
+">תבנית הקבצים OpenDocument</a>. אך Microsoft אינה נלהבת במיוחד לאפשר למשתמשי "
+"Office להחליף קבצים שכל אחד יכול לקרוא ולערוך. נכון לגרסת 2007 SP2 של "
+"Microsoft Office, ‏Microsoft הוסיפה תמיכה בתבנית הקבצים OpenDocument לאחר "
+"שנדחקה לפינה על ידי האיחוד האירופי."
 
 #: docroot/lib/views/windows.what_about_choice.php:43
 msgid "Standards that change all the time"
@@ -1226,7 +1212,7 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:24
 #: docroot/lib/views/linux.php:36
 msgid "Accessing applications in the GNOME desktop environment."
-msgstr ""
+msgstr "גישה ליישומים בסביבת שולחן העבודה GNOME."
 
 #. TRANSLATORS: This is the description of the "debian2.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:12
@@ -1365,10 +1351,6 @@ msgid "Now grab a USB stick and try or install your distribution!"
 msgstr "כעת אפשר להשיג החסן USB ולנסות או להתקין את ההפצה שלך!"
 
 #: docroot/lib/views/linux.php:15
-#, fuzzy
-#| msgid ""
-#| "When you hear the word Linux, you may think of programmers with a beard "
-#| "typing obscure code on a black screen. Good news! things have changed."
 msgid ""
 "When you hear the word Linux, you may think of programmers with a beard "
 "typing obscure code on a black screen. Good news! Things have changed."
@@ -1387,6 +1369,9 @@ msgid ""
 "free. The accurate name is <em>GNU/Linux</em> but \"Linux\" is used more "
 "often."
 msgstr ""
+"גנו/לינוקס היא <em>מערכת הפעלה</em>, פיסה גדולה של תוכנה אשר מנהלת מחשב. היא "
+"דומה ל־Windows של Microsoft, אך חופשית לגמרי. השם המדויק הוא <em>גנו/לינוקס</"
+"em> אך בשם \"לינוקס\" נעשה שימוש לעיתים קרובות יותר."
 
 #: docroot/lib/views/linux.php:22
 msgid ""
@@ -1416,6 +1401,9 @@ msgid ""
 "href=\"%s\">the ones we recommend for newcomers</a>, which come in with many "
 "programs installed."
 msgstr ""
+"גנו/לינוקס לא קשה מ־Windows, ובה יכולות רבות יותר. ההיכרות עם הפצה כמו <a "
+"href=\"%s\">אלו שאנו ממליצים עליהן למשתמשים חדשים</a> ואיתן מותקנות מספר "
+"תכניות, לוקחת דקות ספורות."
 
 #: docroot/lib/views/linux.php:29
 msgid ""
@@ -1835,13 +1823,13 @@ msgid "https://www.debian.org/CD/faq/#record-windows"
 msgstr ""
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:57
-#, fuzzy, php-format
-#| msgid ""
-#| "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
+#, php-format
 msgid ""
 "Then use it to <a href=\"%s\" rel=\"external\">install Debian</a> onto your "
 "computer."
-msgstr "האתר הזה <a href=\"%s\" rel=\"external\">חופשי ובקוד פתוח</a>."
+msgstr ""
+"אז אפשר להשתמש בו כדי <a href=\"%s\" rel=\"external\">להתקין את דביאן</a> "
+"במחשבך."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:57
 msgid "https://www.debian.org/releases/stable/installmanual"
@@ -1861,13 +1849,13 @@ msgid "https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows"
 msgstr ""
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:72
-#, fuzzy, php-format
-#| msgid ""
-#| "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
+#, php-format
 msgid ""
 "Then use it to <a href=\"%s\" rel=\"external\">install Ubuntu</a> onto your "
 "computer."
-msgstr "האתר הזה <a href=\"%s\" rel=\"external\">חופשי ובקוד פתוח</a>."
+msgstr ""
+"אז אפשר להשתמש בו כדי <a href=\"%s\" rel=\"external\">להתקין את אובונטו</a> "
+"במחשבך."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:72
 msgid "https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop"
@@ -1878,24 +1866,21 @@ msgid "Download Ubuntu"
 msgstr "הורדת אובונטו"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:86
-#, fuzzy
 msgid ""
 "https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/"
 "Preparing_for_Installation/#sect-preparing-boot-media"
 msgstr ""
-"<i>כותב המדיה של פדורה</i> הנו הדרך הקלה ביותר ל<a href=\"https://docs."
-"fedoraproject.org/en-US/fedora/f30/install-guide/install/"
-"Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external"
-"\">התנסות או התקנת פדורה</a>."
+"https://docs.fedoraproject.org/he/fedora/f33/install-guide/install/"
+"Preparing_for_Installation/"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:87
-#, fuzzy, php-format
-#| msgid ""
-#| "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
+#, php-format
 msgid ""
 "Then use it to <a href=\"%s\" rel=\"external\">install Fedora</a> onto your "
 "computer."
-msgstr "האתר הזה <a href=\"%s\" rel=\"external\">חופשי ובקוד פתוח</a>."
+msgstr ""
+"אז אפשר להשתמש בו כדי <a href=\"%s\" rel=\"external\">להתקין את פדורה</a> "
+"במחשבך."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:87
 msgid ""
@@ -2102,18 +2087,16 @@ msgid "(multimedia player)"
 msgstr "(נגן מולטימדיה)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:71
-#, fuzzy
 msgid "Server applications:"
-msgstr "גישה ליישומים."
+msgstr "יישומים לשרתים:"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:73
 msgid "(content management system)"
 msgstr "(מערכת ניהול תוכן)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:74
-#, fuzzy
 msgid "(distributed computing)"
-msgstr "מחשוב מהימן"
+msgstr "(מחשוב מבוזר)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:75
 #: docroot/lib/views/linux.misunderstanding_free_software.php:76
@@ -2420,18 +2403,15 @@ msgstr ""
 
 #. TRANSLATORS: The %s placeholder here will automatically point to the page "Windows Restrictions, further details"
 #: docroot/lib/views/linux.misunderstanding_free_software.php:156
-#, fuzzy, php-format
-#| msgid ""
-#| "So in fact, you have more \"ownership\" over free software than over "
-#| "proprietary software &ndash;where the programmer decides everything you "
-#| "can <a href=\"%s\">and can't do</a> with the software."
+#, php-format
 msgid ""
 "So in fact, you have more \"ownership\" over free software than over "
 "proprietary software &ndash; where the programmer decides everything you can "
 "<a href=\"%s\">and can't do</a> with the software."
 msgstr ""
-"כך שלמעשה, יש לכם יותר „בעלות“ על תכנה חופשית מאשר על כל תכנה קניינית אחרת – "
-"בה המתכנת מחליט מה תוכלו לעשות <a href=\"%s\">ומה לא</a> באמצעות התכנה."
+"כך שלמעשה, תהיה לך יותר \"בעלות\" על התכנה החופשית מעל התכנה הקניינית &ndash;"
+" שבה המתכנתים מחליטים מה יהיה ניתן לעשות <a href=\"%s\">ומה לא יהיה ניתן "
+"לעשות</a> עם התוכנה."
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:157
 msgid ""
