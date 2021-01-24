@@ -32,7 +32,7 @@ msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2021-01-23 09:10+0000\n"
-"PO-Revision-Date: 2021-01-10 00:53+0000\n"
+"PO-Revision-Date: 2021-01-26 02:32+0000\n"
 "Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/getgnulinux/"
 "getgnulinux-pot/fr/>\n"
@@ -41,7 +41,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.4.1-dev\n"
+"X-Generator: Weblate 4.5-dev\n"
 
 #. TRANSLATORS: The name of the website. It is displayed in the header of each page.
 #: docroot/lib/ggl.php:207 docroot/lib/views/home.php:15
@@ -1185,35 +1185,20 @@ msgstr ""
 "Cependant, les logiciels propriétaires les supportent rarement."
 
 #: docroot/lib/views/windows.what_about_choice.php:38
-#, fuzzy
-#| msgid ""
-#| "<strong>For a long time Microsoft Office only had support for Microsoft "
-#| "formats</strong>. There are many ways to write work documents, but "
-#| "Microsoft Office users were bound to Microsoft Office files. People who "
-#| "opted without expensive Microsoft products cannot write and read <code>."
-#| "doc</code> files very reliably."
 msgid ""
 "Microsoft Office used to only support Microsoft formats. There are many ways "
 "to write work documents, but Microsoft Office users were bound to Microsoft "
 "Office files. People who opted without expensive Microsoft products cannot "
 "write and read <code>.doc</code> files very reliably."
 msgstr ""
-"<strong>Pendant longtemps, Micrsoft Office ne supportait que les formats de "
-"Microsoft.</strong>. Il existe de nombreux moyens pour écrire des documents "
-"de travail mais les utilisateurs de Microsoft étaient obligés d'utiliser les "
-"fichiers Microsoft Office. Ceux qui ont choisi de ne pas utiliser les "
-"produits chers de Microsoft ne peuvent pas lire et écrire les fichiers "
-"<code>.doc</code> de manière très fiable."
+"&lt;strong&gt;Auparavant, Micrsoft Office prenait seulement en charge les "
+"formats de Microsoft.&lt;/strong&gt;. Il existe de nombreux moyens pour "
+"écrire des documents de travail mais les utilisateurs de Microsoft étaient "
+"obligés d'utiliser les fichiers Microsoft Office. Ceux qui ont choisi de ne "
+"pas utiliser les produits chers de Microsoft ne peuvent pas lire et écrire "
+"les fichiers <code>.doc</code> de manière très fiable."
 
 #: docroot/lib/views/windows.what_about_choice.php:39
-#, fuzzy
-#| msgid ""
-#| "There are of course other ways of writing and exchanging office files, "
-#| "the most well-known being <a href=\"http://www.opendocumentformat.org/\" "
-#| "rel=\"external\">the OpenDocument Format</a>. But Microsoft isn't keen on "
-#| "letting Office users exchange files anyone can read and edit. As of "
-#| "Microsoft Office 2007 SP2, Microsoft finally added support for the ODF "
-#| "format after being pushed by the European Commission."
 msgid ""
 "There are of course other ways of writing and exchanging office files, the "
 "most well-known being <a href=\"https://en.wikipedia.org/wiki/OpenDocument\" "
@@ -1223,12 +1208,12 @@ msgid ""
 "format after being pushed by the European Commission."
 msgstr ""
 "Il existe bien sûr d'autres façons d'écrire et d'échanger des fichiers "
-"bureautiques, la plus connue étant <a href=\"http://www.opendocumentformat."
-"org/\" rel=\"external\">le format OpenDocument</a>. Mais Microsoft ne "
-"souhaite pas laisser les utilisateurs d'Office échanger des fichiers que "
+"bureautiques, la plus connue étant <a href=\"https://fr.wikipedia.org/wiki/"
+"OpenDocument\" rel=\"external\">le format OpenDocument</a>. Mais Microsoft "
+"ne souhaite pas laisser les utilisateurs d'Office échanger des fichiers que "
 "n'importe qui peut lire et éditer. A partir de Microsoft Office 2007 SP2, "
-"Microsoft a finalement ajouté la prise en charge du format ODF après avoir "
-"été pressé par la Commission Européenne."
+"Microsoft a finalement ajouté la prise en charge du format OpenDocument "
+"après avoir été pressé par la Commission européenne."
 
 #: docroot/lib/views/windows.what_about_choice.php:43
 msgid "Standards that change all the time"
@@ -1286,15 +1271,6 @@ msgid "Monopolistic practices"
 msgstr "Pratiques de monopole"
 
 #: docroot/lib/views/windows.what_about_choice.php:55
-#, fuzzy
-#| msgid ""
-#| "This means that no program competing with Microsoft products, be it <a "
-#| "href=\"https://www.videolan.org/vlc/\" rel=\"external\">multimedia "
-#| "player</a>, <a href=\"https://www.getfirefox.com/\" rel=\"external\">web "
-#| "browser</a>, <a href=\"https://www.libreoffice.org/\" rel=\"external"
-#| "\">office suite</a>, <a href=\"https://www.pidgin.im/\" rel=\"external"
-#| "\">instant messaging program</a> or other, will come pre-installed on "
-#| "most computers you can buy."
 msgid ""
 "Microsoft has a tight control over <abbr title=\"Original Equipment "
 "Manufacturer\">OEM</abbr>s (computer manufacturers) who ship their computers "
@@ -1306,9 +1282,12 @@ msgid ""
 "\"external\">instant messaging program</a> or other, will come pre-installed "
 "on most computers you can buy."
 msgstr ""
+"Microsoft a un grand contrôle sur les équipementiers informatiques (les "
+"<abbr title=\"fabricant d'équipement d'origine\">FEO</abbr>) qui expédient "
+"leurs ordinateurs avec Windows installés. \n"
 "Ceci signifie qu'aucun programme concurrent des produits Microsoft, qu'il "
-"s'agisse d'un <a href=\"https://www.videolan.org/vlc/\" rel=\"external"
-"\">lecteur multimédia</a>, d'un <a href=\"https://www.getfirefox.com/\" rel="
+"s'agisse d'un <a href=\"https://www.videolan.org/vlc/\" rel=\"external\""
+">lecteur multimédia</a>, d'un <a href=\"https://www.getfirefox.com/\" rel="
 "\"external\">navigateur Web</a>, d'une <a href=\"https://www.libreoffice.org/"
 "\" rel=\"external\">suite bureautique</a>, d'un <a href=\"https://www.pidgin."
 "im/\" rel=\"external\">programme de messagerie instantanée</a> ou autre, ne "
@@ -1502,16 +1481,12 @@ msgstr ""
 "Maintenant, obetnez une clé USB et essayez ou installez votre distribution !"
 
 #: docroot/lib/views/linux.php:15
-#, fuzzy
-#| msgid ""
-#| "When you hear the word Linux, you may think of programmers with a beard "
-#| "typing obscure code on a black screen. Good news! things have changed."
 msgid ""
 "When you hear the word Linux, you may think of programmers with a beard "
 "typing obscure code on a black screen. Good news! Things have changed."
 msgstr ""
 "Le mot Linux vous évoque peut-être des programmeurs barbus tapant du code "
-"obscur sur un écran noir. Bonne nouvelle ! Les choses ont changé."
+"obscur sur un écran noir. Bonne nouvelle ! Les choses ont changé."
 
 #: docroot/lib/views/linux.php:20
 msgid "The picture"
@@ -2033,29 +2008,29 @@ msgid ""
 "<a href=\"%s\" rel=\"external\">Create a live USB stick</a> or <a href=\"%s"
 "\" rel=\"external\">burn it to a CD/DVD</a>."
 msgstr ""
+"<a href=\"%s\" rel=\"external\">Créez une clé USB a live</a> ou <a href=\"%"
+"s\" rel=\"external\">gravez-la sur un CD/DVD</a>."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:56
 msgid "https://www.debian.org/CD/faq/#write-usb"
-msgstr ""
+msgstr "https://www.debian.org/CD/faq/#write-usb"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:56
 msgid "https://www.debian.org/CD/faq/#record-windows"
-msgstr ""
+msgstr "https://www.debian.org/CD/faq/#record-windows"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:57
-#, fuzzy, php-format
-#| msgid ""
-#| "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
+#, php-format
 msgid ""
 "Then use it to <a href=\"%s\" rel=\"external\">install Debian</a> onto your "
 "computer."
 msgstr ""
-"Ce site est <a href=\"%s\" rel=\"external\">gratuit, libre et son code est "
-"ouvert</a>."
+"Puis utilisez-la pour <a href=\"%s\" rel=\"external\">installer Debian</a> "
+"sur votre ordinateur."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:57
 msgid "https://www.debian.org/releases/stable/installmanual"
-msgstr ""
+msgstr "https://www.debian.org/releases/stable/installmanual"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:61
 msgid "Download Debian"
@@ -2065,57 +2040,53 @@ msgstr "Télécharger Debian"
 msgid ""
 "https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows"
 msgstr ""
+"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:71
 msgid "https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows"
-msgstr ""
+msgstr "https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:72
-#, fuzzy, php-format
-#| msgid ""
-#| "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
+#, php-format
 msgid ""
 "Then use it to <a href=\"%s\" rel=\"external\">install Ubuntu</a> onto your "
 "computer."
 msgstr ""
-"Ce site est <a href=\"%s\" rel=\"external\">gratuit, libre et son code est "
-"ouvert</a>."
+"Puis utilisez-la <a href=\"%s\" rel=\"external\">installer Ubuntu</a> sur "
+"votre ordinateur."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:72
 msgid "https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop"
-msgstr ""
+msgstr "https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:76
 msgid "Download Ubuntu"
 msgstr "Télécharger Ubuntu"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:86
-#, fuzzy
 msgid ""
 "https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/"
 "Preparing_for_Installation/#sect-preparing-boot-media"
 msgstr ""
-"<i>Fedora Media Writer</i> est le moyen le plus simple d'<a href=\"https://"
-"docs.fedoraproject.org/en-US/fedora/f30/install-guide/install/"
-"Preparing_for_Installation/#sect-preparing-boot-media\" rel=\"external"
-"\">essayer ou d'installer Fedora</a>."
+"https://docs.fedoraproject.org/fr/fedora/f33/install-guide/install/"
+"Preparing_for_Installation/#sect-preparing-boot-media"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:87
-#, fuzzy, php-format
-#| msgid ""
-#| "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
+#, php-format
 msgid ""
 "Then use it to <a href=\"%s\" rel=\"external\">install Fedora</a> onto your "
 "computer."
 msgstr ""
-"Ce site est <a href=\"%s\" rel=\"external\">gratuit, libre et son code est "
-"ouvert</a>."
+"Puis utilisez-la pour <a href=\"%s\" rel=\"external\">installer Fedora</a> "
+"sur votre ordinateur."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:87
 msgid ""
 "https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/"
 "Booting_the_Installation/"
 msgstr ""
+"https://docs.fedoraproject.org/fr/fedora/f33/install-guide/install/"
+"Booting_the_Installation/"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:91
 msgid "Download Fedora"
@@ -2674,11 +2645,7 @@ msgstr ""
 
 #. TRANSLATORS: The %s placeholder here will automatically point to the page "Windows Restrictions, further details"
 #: docroot/lib/views/linux.misunderstanding_free_software.php:156
-#, fuzzy, php-format
-#| msgid ""
-#| "So in fact, you have more \"ownership\" over free software than over "
-#| "proprietary software &ndash;where the programmer decides everything you "
-#| "can <a href=\"%s\">and can't do</a> with the software."
+#, php-format
 msgid ""
 "So in fact, you have more \"ownership\" over free software than over "
 "proprietary software &ndash; where the programmer decides everything you can "
@@ -4103,14 +4070,6 @@ msgid "Will Microsoft Office run on GNU/Linux?"
 msgstr "Microsoft Office fonctionnera-t-il sous GNU/Linux ?"
 
 #: docroot/lib/views/linux.faq.php:218
-#, fuzzy
-#| msgid ""
-#| "No. It is technically possible to adapt Microsoft Office to GNU/Linux, "
-#| "but Microsoft isn't keen on allowing Office users to choose their "
-#| "operating system. There are other issues with MS Office and openness "
-#| "&ndash; like Microsoft's fierce opposition to supporting <a href=\"http://"
-#| "www.opendocumentformat.org/\" rel=\"external\">the OpenDocument format</"
-#| "a>."
 msgid ""
 "No. It is technically possible to adapt Microsoft Office to GNU/Linux, but "
 "Microsoft isn't keen on allowing Office users to choose their operating "
@@ -4122,8 +4081,8 @@ msgstr ""
 "mais Microsoft ne tient pas à permettre aux utilisateurs d'Office de choisir "
 "leur système d'exploitation. Il y a d'autres problèmes avec MS Office et "
 "l'ouverture &ndash; comme l'opposition farouche de Microsoft au support <a "
-"href=\"http://www.opendocumentformat.org/\" rel=\"external\">du format "
-"OpenDocument</a>."
+"href=\"https://fr.wikipedia.org/wiki/OpenDocument\" rel=\"external\">du "
+"format OpenDocument</a>."
 
 #: docroot/lib/views/linux.faq.php:219
 msgid ""
