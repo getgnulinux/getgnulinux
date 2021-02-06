@@ -21,8 +21,8 @@ msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2021-01-23 09:10+0000\n"
-"PO-Revision-Date: 2020-12-20 01:29+0000\n"
-"Last-Translator: FengChao <chaofeng111@qq.com>\n"
+"PO-Revision-Date: 2021-02-07 23:50+0000\n"
+"Last-Translator: Liu Tao <lyuutau@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "getgnulinux/getgnulinux-pot/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -30,7 +30,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.5-dev\n"
 
 #. TRANSLATORS: The name of the website. It is displayed in the header of each page.
 #: docroot/lib/ggl.php:207 docroot/lib/views/home.php:15
@@ -39,7 +39,7 @@ msgstr "获取GNU/Linux！"
 
 #: docroot/lib/ggl.php:211
 msgid "Home"
-msgstr ""
+msgstr "主页"
 
 #. TRANSLATORS: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
 #: docroot/lib/ggl.php:212 docroot/lib/ggl.php:227
@@ -93,9 +93,8 @@ msgstr "GNU/Linux FAQ — GNU/Linux 的常见问题"
 
 #. TRANSLATORS: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
 #: docroot/lib/ggl.php:231 docroot/lib/views/linux.faq.php:270
-#, fuzzy
 msgid "GNU/Linux virus FAQ"
-msgstr "GNU/Linux 常见问题"
+msgstr "GNU/Linux 病毒常见问题"
 
 #. TRANSLATORS: Here the intent is to be a little provocative. Exact translation is not required.
 #: docroot/lib/ggl.php:233
@@ -108,9 +107,8 @@ msgid "How to Misunderstand Free Software"
 msgstr "人们对自由软件有哪些误解"
 
 #: docroot/lib/ggl.php:234 docroot/lib/views/linux.php:96
-#, fuzzy
 msgid "GNU/Linux is not Windows"
-msgstr "抛弃Windows"
+msgstr "GNU/Linux 不是 Windows"
 
 #. TRANSLATORS: This title can be translated loosely
 #: docroot/lib/ggl.php:238 docroot/lib/views/windows.php:29
@@ -197,7 +195,7 @@ msgstr "关于GNU/Linux的高频提问。"
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:51
 #: docroot/lib/views/linux.faq.php:263
 msgid "Should I install anti-virus software under GNU/Linux?"
-msgstr ""
+msgstr "我需要在 GNU/Linux 下安装杀毒软件吗？"
 
 #. TRANSLATORS: This is the description of the 'Misunderstanding Free Software' page
 #: docroot/lib/ggl.php:270
@@ -264,9 +262,8 @@ msgstr "试着在电脑上安装 GNU/Linux，非常简单."
 
 #. TRANSLATORS: This is the catcher-phrase for the Windows page. Exact translation is not required, the goal is to attract attention and set the tone of the page.
 #: docroot/lib/views/windows.php:21
-#, fuzzy
 msgid "Windows and Office work fine &ndash; Why worry about it?"
-msgstr "Windows和Office用得好好的，担心什么呢？"
+msgstr "Windows 和 Office 用得好好的 &ndash; 担心什么呢？"
 
 #. TRANSLATORS: You may add emphasis ('em' tags) around the word 'licensed' if you wish
 #: docroot/lib/views/windows.php:32
@@ -725,10 +722,9 @@ msgid ""
 "against nuisances (like viruses or spyware) and copyright violations (people "
 "copying proprietary software)."
 msgstr ""
-"可信计算(或者<a href=\"https://www.lafkon.net/tc/\" rel=\"external\" title="
-"\"一个关于可信计算的很好的视频\">更准确地</a>说是\"奸诈的计算\")就是一台只能"
-"运行“可信”软件的计算机。其目的是为了防止滋扰(如病毒和恶意软件)和版权侵犯(拷贝"
-"有版权的软件)。"
+"可信计算（或者<a href=\"https://www.lafkon.net/tc/\" rel=\"external\" title=\"A "
+"very well done video on Trusted Computing\""
+">更准确地</a>说是“背信计算”）就是一台只能运行“可信”软件的计算机。其目的是为了防止滋扰（如病毒和恶意软件）和版权侵犯（复制专有软件）。"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:82
 msgid "Trusted Computing is control over the computer"
@@ -1048,33 +1044,16 @@ msgstr ""
 "很少支持它们的。"
 
 #: docroot/lib/views/windows.what_about_choice.php:38
-#, fuzzy
-#| msgid ""
-#| "<strong>For a long time Microsoft Office only had support for Microsoft "
-#| "formats</strong>. There are many ways to write work documents, but "
-#| "Microsoft Office users were bound to Microsoft Office files. People who "
-#| "opted without expensive Microsoft products cannot write and read <code>."
-#| "doc</code> files very reliably."
 msgid ""
 "Microsoft Office used to only support Microsoft formats. There are many ways "
 "to write work documents, but Microsoft Office users were bound to Microsoft "
 "Office files. People who opted without expensive Microsoft products cannot "
 "write and read <code>.doc</code> files very reliably."
 msgstr ""
-"<strong>很长的一段时间，Microsoft Office 只支持微软自己的文件格式</strong>。"
-"有很多很多的方式进行文档工作，可是Office用户已经紧紧地被Microsoft Office文件"
-"格式绑架了。人们如果不愿意为微软昂贵的产品付费，就无法可靠地读写<code>.doc</"
-"code>文件。"
+"Microsoft Office 曾经只支持微软自己的文件格式。有很多很多的方式进行文档工作，可是Office用户已经紧紧地被Microsoft "
+"Office文件格式绑架了。人们如果不愿意为微软昂贵的产品付费，就无法可靠地读写<code>.doc</code>文件。"
 
 #: docroot/lib/views/windows.what_about_choice.php:39
-#, fuzzy
-#| msgid ""
-#| "There are of course other ways of writing and exchanging office files, "
-#| "the most well-known being <a href=\"http://www.opendocumentformat.org/\" "
-#| "rel=\"external\">the OpenDocument Format</a>. But Microsoft isn't keen on "
-#| "letting Office users exchange files anyone can read and edit. As of "
-#| "Microsoft Office 2007 SP2, Microsoft finally added support for the ODF "
-#| "format after being pushed by the European Commission."
 msgid ""
 "There are of course other ways of writing and exchanging office files, the "
 "most well-known being <a href=\"https://en.wikipedia.org/wiki/OpenDocument\" "
@@ -1083,10 +1062,10 @@ msgid ""
 "Microsoft Office 2007 SP2, Microsoft did add support for the OpenDocument "
 "format after being pushed by the European Commission."
 msgstr ""
-"当然，有很多其他的创作和交换办公文档的方式——最出名的就是 <a href=\"http://"
-"www.opendocumentformat.org/\" rel=\"external\">开放文档格式(the OpenDocument "
-"Format)</a>了。但是微软并不打算让世界变得如此自由。直到 Microsoft Office "
-"2007 SP2，由于欧盟反垄断诉讼，微软才很不情愿地添加了 ODF 格式支持。"
+"当然，有很多其他的创作和交换办公文档的方式——最出名的就是<a href=\"https://en.wikipedia.org/wiki/"
+"OpenDocument\" rel=\"external\">开放文档格式(the OpenDocument "
+"Format)</a>了。但是微软并不打算让世界变得如此自由。直到 Microsoft Office 2007 SP2，由于欧盟反垄断诉讼，"
+"微软才很不情愿地添加了 ODF 格式支持。"
 
 #: docroot/lib/views/windows.what_about_choice.php:43
 msgid "Standards that change all the time"
@@ -1321,16 +1300,10 @@ msgid "Now grab a USB stick and try or install your distribution!"
 msgstr "那现在就拿起优盘，体验一下或直接安装吧！"
 
 #: docroot/lib/views/linux.php:15
-#, fuzzy
-#| msgid ""
-#| "When you hear the word Linux, you may think of programmers with a beard "
-#| "typing obscure code on a black screen. Good news! things have changed."
 msgid ""
 "When you hear the word Linux, you may think of programmers with a beard "
 "typing obscure code on a black screen. Good news! Things have changed."
-msgstr ""
-"当您听到Linux这个词，出现在您脑海里的可能是一个不修边幅的程序员正对着漆黑的显"
-"示屏敲入让人费解的代码。好消息！早已不再是这样了。"
+msgstr "当你听到 Linux 这个词，出现在您脑海里的可能是一个不修边幅的程序员正对着漆黑的显示屏敲入让人费解的代码。好消息！早已不再是这样了。"
 
 #: docroot/lib/views/linux.php:20
 msgid "The picture"
@@ -1755,10 +1728,9 @@ msgid ""
 "rel=\"external\">not difficult to set-up</a>, though erasing Windows or "
 "macOS altogether is even easier."
 msgstr ""
-"如果摈弃限制性的软件需要时间，可以选择安装双系统，<a href=\"https://"
-"tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel="
-"\"external\" title=\"Ubuntu 安装指南\">这并不难</a>，将 Windows 彻底删除会更"
-"加简单。"
+"如果摈弃限制性的软件需要时间，可以选择安装双系统，<a href=\"https://tutorials.ubuntu.com/tutorial/"
+"tutorial-install-ubuntu-desktop\" rel=\"external\" title=\"a tutorial on "
+"installing Ubuntu\">这并不难安装</a>，尽管将 Windows 彻底删除会更加简单。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:42
 msgid ""
@@ -1863,9 +1835,9 @@ msgid ""
 "free?\" rel=\"external\">free software</a>. You are simply paying a handling/"
 "shipping fee."
 msgstr ""
-"注意：购买与下载到的 CD 是相同的！GNU/Linux 是<a href=\"https://www.gnu.org/"
-"philosophy/free-sw.html\" rel=\"external\" title=\"What do you mean, free?\">"
-"自由软件</a>。只需要付处理／运输费用。"
+"注意：购买与下载到的 CD 是相同的！GNU/Linux 是<a href=\"https://www.gnu.org/philosophy/free-"
+"sw.html\" rel=\"external\" title=\"What do you mean, free?\""
+">自由软件</a>。你只需要付处理／运输费用。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:103
 msgid "Free Software pre-installed"
@@ -1992,9 +1964,8 @@ msgid ""
 msgstr "非私有软件在很多方面都很突出：稍事一想，便可举出一些例子："
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:54
-#, fuzzy
 msgid "Applications:"
-msgstr "访问应用程序。"
+msgstr "应用程序："
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:56
 msgid "(text editor)"
@@ -2002,9 +1973,8 @@ msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:57
 #: docroot/lib/views/linux.misunderstanding_free_software.php:63
-#, fuzzy
 msgid "(web browser)"
-msgstr "Firefox网页浏览器"
+msgstr "（网页浏览器）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:58
 msgid "(distributed version control system)"
@@ -2047,18 +2017,16 @@ msgid "(multimedia player)"
 msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:71
-#, fuzzy
 msgid "Server applications:"
-msgstr "访问应用程序。"
+msgstr "服务器应用程序："
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:73
 msgid "(content management system)"
 msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:74
-#, fuzzy
 msgid "(distributed computing)"
-msgstr "可信计算"
+msgstr "（分布式计算）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:75
 #: docroot/lib/views/linux.misunderstanding_free_software.php:76
@@ -2124,7 +2092,7 @@ msgstr ""
 #: docroot/lib/views/linux.misunderstanding_free_software.php:97
 #, fuzzy
 msgid "and of course, GNU/Linux."
-msgstr "在 GNU/Linux FAQ 中了解更多信息："
+msgstr "毫无疑问，GNU/Linux。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:105
 msgid "Software should Just Work"
@@ -2172,9 +2140,8 @@ msgid ""
 "a> in your computer at start-up, to try a full-featured, well-organised "
 "system, without installation, so you can judge by yourself."
 msgstr ""
-"好消息是：<em>自由软件也能正常工作</em>。而且事实上，它往往正常工作得更好。在"
-"你的电脑开启的时候，<a href=\"%s\">插入一张GNU/Linux liveCD</a>，不用安装，你"
-"就自己判断吧。"
+"好消息是：<em>自由软件也能正常工作</em>。而且事实上，它往往工作得更好。在你的电脑开启的时候，<a href=\"%s\">插入一张GNU/"
+"Linux liveCD</a>，不用安装，你就自己判断吧。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:116
 msgid ""
@@ -2631,16 +2598,15 @@ msgstr ""
 "全的世界。"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:46
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "It is often difficult for Windows users to believe that there are <em>no "
 "spyware nor viruses</em> under GNU/Linux &ndash; <a href=\"%s\">but it's "
 "true</a>. Malicious programs have a hard time doing anything at all in a "
 "well-built system."
 msgstr ""
-"通常 Windows 用户都难以相信在 GNU/Linux 下<em>没有恶意软件和病毒</em>&mdash; "
-"<a href=\"http://linuxmafia.com/~rick/faq/#virus\" rel=\"external\">但这是现"
-"实</a>。任何恶意软件在一个坚固的操作系统下都束手无策。"
+"通常 Windows 用户都难以相信在 GNU/Linux 下<em>没有恶意软件和病毒</em>·&ndash;·<a href=\"%s\""
+">但这是现实</a>。任何恶意软件在一个坚固的操作系统下都束手无策。"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:48
 msgid "Regular, easy software updates will keep everyone entirely safe."
@@ -2863,7 +2829,7 @@ msgstr "您的 GNU/Linux 使用体验和您的期望直接相关。"
 
 #. TRANSLATORS: Use a localised version of the "Linux is Not Windows" article if possible. The following page contains links to localised versions: http://geekblog.oneandoneis2.org/index.php/2005/12/31/derived_works_aamp_translations
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:116
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "If you wish GNU/Linux to be just exactly like Windows, you will probably be "
 "disappointed. GNU/Linux is built by people who simply <a href=\"%s\">wish it "
@@ -2871,10 +2837,8 @@ msgid ""
 "visions of what makes an ideal operating system. These differences lead to "
 "variety, which is what makes GNU/Linux so special and interesting."
 msgstr ""
-"如果您希望 GNU/Linux 与 Windows 完全相同，您可能会失望了。GNU/Linux 是由一群"
-"<a href=\"http://linux.oneandoneis2.org/LNW.htm\" rel=\"external\">有个性</a>"
-"的人建立的。在开源社区中，每个人都有对理想操作系统的不同的向往，也正是因为这"
-"样，才有了五彩斑斓的 GNU/Linux 世界。"
+"如果您希望 GNU/Linux 与 Windows 完全相同，您可能会失望了。GNU/Linux 是由只<a href=\"%s\""
+">希望它与众不同</a>的人建立的。在开源社区中，每个人都有对理想操作系统的不同的向往，也正是因为这样，才有了五彩斑斓的 GNU/Linux 世界。"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:119
 msgid ""
@@ -3325,7 +3289,6 @@ msgstr "有些GNU/Linux发行版允许非自由软件是为了使硬件发挥其
 
 #. TRANSLATORS: If it exits, please use the URL of the official Ubuntu homepage localized in your language.
 #: docroot/lib/views/linux.faq.php:116
-#, fuzzy
 msgid ""
 "This happens because some hardware manufacturers such as NVidia do not care "
 "about their customers' freedoms, and only release restricting firmware and "
@@ -3335,10 +3298,9 @@ msgid ""
 "\">Ubuntu</a> and <a href=\"https://getfedora.org/\" rel=\"external"
 "\">Fedora</a> thus include such components to improve hardware compatibility."
 msgstr ""
-"某些硬件厂商，比如 NVidia，并不关心用户的自由，这些厂商仅发布私有固件和驱动"
-"(有些厂商甚至连这些都没有，比如 Broadcom)。这些私有的固件和驱动并不收费，但是"
-"使用的是私有版权协议。<a href=\"https://www.ubuntu.com/\" rel=\"external"
-"\">Ubuntu</a> 等发行版引入了这些组件以提高硬件兼容性。"
+"某些硬件厂商，比如 NVidia，并不关心用户的自由，这些厂商仅发布私有固件和驱动（有些厂商甚至连这些都没有，比如 "
+"Broadcom）。这些私有的固件和驱动并不收费，但是使用的是私有版权协议。<a href=\"https://www.ubuntu.com/\" "
+"rel=\"external\">Ubuntu</a> 等发行版引入了这些组件以提高硬件兼容性。"
 
 #: docroot/lib/views/linux.faq.php:117
 #, fuzzy
@@ -3473,14 +3435,14 @@ msgstr ""
 
 #. TRANSLATORS: The link here points to the "How to Misunderstand Free Software" article.
 #: docroot/lib/views/linux.faq.php:156
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "GNU/Linux has nothing to do with a political system and anyone &ndash; "
 "regardless of their political views &ndash; can use it. We have this "
 "explained simply in our article \"<a href=\"%s\">%s</a>\"."
 msgstr ""
-"GNU/Linux 与政治体系没有任何关系——持有任何政见的人都可以使用它。我们已经在我"
-"们的%s一文中解释了这个问题。"
+"GNU/Linux 与政治体系没有任何关系——&ndash;持有任何政见&ndash;的人都可以使用它。我们已经在我们的<a href=\"%s\""
+">%s</a>一文中解释了这个问题。"
 
 #: docroot/lib/views/linux.faq.php:163
 msgid "Installing GNU/Linux"
