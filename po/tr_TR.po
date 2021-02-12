@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2021-01-23 09:10+0000\n"
-"PO-Revision-Date: 2021-01-02 07:07+0000\n"
+"PO-Revision-Date: 2021-02-15 01:51+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/getgnulinux/"
 "getgnulinux-pot/tr/>\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.4.1-dev\n"
+"X-Generator: Weblate 4.5-dev\n"
 
 #. TRANSLATORS: The name of the website. It is displayed in the header of each page.
 #: docroot/lib/ggl.php:207 docroot/lib/views/home.php:15
@@ -264,9 +264,8 @@ msgstr "GNU/Linux'u bilgisayarına kolayca kur veya kurmadan dene."
 
 #. TRANSLATORS: This is the catcher-phrase for the Windows page. Exact translation is not required, the goal is to attract attention and set the tone of the page.
 #: docroot/lib/views/windows.php:21
-#, fuzzy
 msgid "Windows and Office work fine &ndash; Why worry about it?"
-msgstr "Windows ve Office mis gibi çalışıyor &mdash; Neden endişeleneyim ki?"
+msgstr "Windows ve Office mis gibi çalışıyor &ndash; Neden endişeleneyim ki?"
 
 #. TRANSLATORS: You may add emphasis ('em' tags) around the word 'licensed' if you wish
 #: docroot/lib/views/windows.php:32
@@ -565,6 +564,12 @@ msgid ""
 "their version of Windows when they throw their PC away. Other people give "
 "away their second-hand Windows software when they stop using it."
 msgstr ""
+"Office ve Windows kullanımıyla ilgili kısıtlamalar o kadar serttir ki "
+"çevremizde her gün birçok ihlal meydana gelmektedir. İnsanlar, Microsoft "
+"Office'in yalnızca bir sürümünü satın alıp bunu iki bilgisayara yüklemeye "
+"isteklidir. Diğerleri, bilgisayarlarını çöpe attıklarında Windows "
+"sürümlerini saklar. Diğer insanlar, ikinci el Windows yazılımlarını "
+"kullanmayı bıraktıklarında başkalarına verirler."
 
 #. TRANSLATORS: use the definition of "free software" on GNU.org; also, gnu.org uses language negotiation, so it's not necessary to replace those URLs.
 #: docroot/lib/views/windows.restrictions.php:73
@@ -1261,10 +1266,6 @@ msgid "Now grab a USB stick and try or install your distribution!"
 msgstr "Şimdi bir USB bellek edinin ve dağıtımınızı deneyin veya kurun!"
 
 #: docroot/lib/views/linux.php:15
-#, fuzzy
-#| msgid ""
-#| "When you hear the word Linux, you may think of programmers with a beard "
-#| "typing obscure code on a black screen. Good news! things have changed."
 msgid ""
 "When you hear the word Linux, you may think of programmers with a beard "
 "typing obscure code on a black screen. Good news! Things have changed."
@@ -1627,7 +1628,7 @@ msgstr "Canlı USB belleği deneyin"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:24
 msgid "Take no risk"
-msgstr "Risk alma"
+msgstr "Risk almayın"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:25
 msgid ""
@@ -1772,22 +1773,12 @@ msgid "Download Ubuntu"
 msgstr "Ubuntu'yu İndirin"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:86
-#, fuzzy
-#| msgid ""
-#| "<i>Fedora Media Writer</i> is the easiest way to try or install Fedora. "
-#| "Use it to <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/"
-#| "install-guide/install/Preparing_for_Installation/#sect-preparing-boot-"
-#| "media\" rel=\"external\">create a live USB stick or burn it to a CD/DVD</"
-#| "a>."
 msgid ""
 "https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/"
 "Preparing_for_Installation/#sect-preparing-boot-media"
 msgstr ""
-"<i>Fedora Media Writer</i> Fedora'yı denemenin veya kurmanın en kolay "
-"yoludur. <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/install-"
-"guide/install/Preparing_for_Installation/#sect-preparing-boot-media\" rel="
-"\"external\">Canlı bir USB bellek oluşturmak veya CD/DVD'ye yazdırmak için</"
-"a> onu kullanın."
+"https://docs.fedoraproject.org/tr/fedora/rawhide/install-guide/install/"
+"Preparing_for_Installation/#sect-preparing-boot-media"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:87
 #, php-format
@@ -1966,7 +1957,7 @@ msgstr "Uygulamalar:"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:56
 msgid "(text editor)"
-msgstr ""
+msgstr "(metin düzenleyici)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:57
 #: docroot/lib/views/linux.misunderstanding_free_software.php:63
@@ -1975,43 +1966,43 @@ msgstr "(web tarayıcısı)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:58
 msgid "(distributed version control system)"
-msgstr ""
+msgstr "(dağıtık sürüm denetim sistemi)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:59
 msgid "(vector drawing)"
-msgstr ""
+msgstr "(vektör çizimi)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:60
 msgid "(painting)"
-msgstr ""
+msgstr "(boyama)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:61
 msgid "(digital audio workstation)"
-msgstr ""
+msgstr "(sayısal ses iş istasyonu)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:62
 msgid "(3D graphics creation)"
-msgstr ""
+msgstr "(3B grafik oluşturma)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:64
 msgid "(image editor)"
-msgstr ""
+msgstr "(resim düzenleyici)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:65
 msgid "(office suite)"
-msgstr ""
+msgstr "(ofis paketi)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:66
 msgid "(machine learning)"
-msgstr ""
+msgstr "(makine öğrenmesi)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:67
 msgid "(email client)"
-msgstr ""
+msgstr "(e-posta istemcisi)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:68
 msgid "(multimedia player)"
-msgstr ""
+msgstr "(çoklu ortam oynatıcısı)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:71
 msgid "Server applications:"
@@ -2019,7 +2010,7 @@ msgstr "Sunucu uygulamaları:"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:73
 msgid "(content management system)"
-msgstr ""
+msgstr "(içerik yönetim sistemi)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:74
 msgid "(distributed computing)"
@@ -2028,63 +2019,63 @@ msgstr "(dağıtık bilgi işleme)"
 #: docroot/lib/views/linux.misunderstanding_free_software.php:75
 #: docroot/lib/views/linux.misunderstanding_free_software.php:76
 msgid "(web server)"
-msgstr ""
+msgstr "(web sunucusu)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:77
 msgid "(JavaScript runtime environment)"
-msgstr ""
+msgstr "(JavaScript çalışma zamanı ortamı)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:78
 msgid "(virtualization)"
-msgstr ""
+msgstr "(sanallaştırma)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:79
 msgid "(blog)"
-msgstr ""
+msgstr "(blog)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:82
 msgid "Formats and protocols:"
-msgstr ""
+msgstr "Biçimler ve protokoller:"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:84
 msgid "(file sharing)"
-msgstr ""
+msgstr "(dosya paylaşma)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:85
 msgid "(lossless audio codec)"
-msgstr ""
+msgstr "(kayıpsız ses kodeki)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:86
 msgid "(data compression)"
-msgstr ""
+msgstr "(veri sıkıştırma)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:87
 msgid "(web pages)"
-msgstr ""
+msgstr "(web sayfaları)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:88
 msgid "(container format)"
-msgstr ""
+msgstr "(konteyner biçimi)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:89
 msgid "(office documents)"
-msgstr ""
+msgstr "(ofis belgeleri)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:90
 msgid "(video file format)"
-msgstr ""
+msgstr "(video dosyası biçimi)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:91
 msgid "(web real-time communication)"
-msgstr ""
+msgstr "(gerçek zamanlı web haberleşmesi)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:94
 msgid "Complete systems:"
-msgstr ""
+msgstr "Bütün sistemler:"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:96
 msgid "(operating system)"
-msgstr ""
+msgstr "(işletim sistemi)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:97
 msgid "and of course, GNU/Linux."
@@ -3212,6 +3203,8 @@ msgid ""
 "There are typically three types of policies regarding the inclusion of non-"
 "free software:"
 msgstr ""
+"Özgür olmayan yazılımın dahil edilmesiyle ilgili genel olarak üç tür "
+"politika vardır:"
 
 #: docroot/lib/views/linux.faq.php:114
 msgid ""
@@ -3258,7 +3251,7 @@ msgstr "Mac OS özgür bir işletim sistemi mi?"
 
 #: docroot/lib/views/linux.faq.php:126
 msgid "Do all the reasons for avoiding Windows apply to macOS?"
-msgstr ""
+msgstr "Windows'tan kaçınmanın tüm nedenleri macOS için geçerli mi?"
 
 #: docroot/lib/views/linux.faq.php:127
 #, php-format
@@ -3637,15 +3630,15 @@ msgstr ""
 #: src/templates/footer.php:11
 #, php-format
 msgid "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
-msgstr ""
+msgstr "Bu site <a href=\"%s\" rel=\"external\">özgür ve açık kaynaklıdır</a>."
 
 #: src/templates/footer.php:19
 msgid "Resources"
-msgstr ""
+msgstr "Kaynaklar"
 
 #: src/templates/footer.php:21
 msgid "News"
-msgstr ""
+msgstr "Haberler"
 
 #: src/templates/footer.php:25
 msgid "Participate"
