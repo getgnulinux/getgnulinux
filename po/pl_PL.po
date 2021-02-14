@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2021-01-23 09:10+0000\n"
-"PO-Revision-Date: 2021-02-14 00:22+0000\n"
-"Last-Translator: WaldiS <sto@tutanota.de>\n"
+"PO-Revision-Date: 2021-02-15 01:50+0000\n"
+"Last-Translator: Stanisław Stefan Krukowski <pet209a1@riseup.net>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/getgnulinux/"
 "getgnulinux-pot/pl/>\n"
 "Language: pl_PL\n"
@@ -329,7 +329,7 @@ msgid ""
 "allowed to understand</strong> how these programs work."
 msgstr ""
 "Kody źródłowe systemu Windows i pakietu Office są ukryte, więc <strong>nikt "
-"nie może zrozumieć zrozumieć</strong>, jak działają te programy."
+"nie może zrozumieć</strong>, jak działa to oprogramowanie."
 
 #: docroot/lib/views/windows.php:60
 msgid ""
@@ -349,9 +349,9 @@ msgid ""
 "industry, in which Microsoft is now a significant player, prefers you to use "
 "Windows."
 msgstr ""
-"I wiecie co? W przypadku oprogramowania, które zawiera kod źródłowy, wirusy "
-"i oprogramowanie szpiegujące nie są skuteczne, a zabezpieczenia nie są "
-"dodatkowo płatne. Branża oprogramowania antywirusowego, w której Microsoft "
+"I wiesz co? W przypadku oprogramowania, które zawiera kod źródłowy, wirusy i "
+"oprogramowanie szpiegujące nie są skuteczne, a zabezpieczenia nie są "
+"dodatkowo płatne. Przemysł oprogramowania antywirusowego, w której Microsoft "
 "jest obecnie znaczącym graczem, woli używać systemu Windows."
 
 #. TRANSLATORS: In your language, you might not need to make the distinction between price and freedom. Please do however express that price does not matter, in this sentence.
@@ -417,10 +417,10 @@ msgid ""
 "attractive, you might want to <a href=\"%s\" title=\"make the switch to GNU/"
 "Linux today!\">give GNU/Linux a try</a>."
 msgstr ""
-"Jeśli stwierdzisz, że <a href=\"https://www.gnu.org/philosophy/free-sw.html\""
-" rel=\"external\" title=\"what is freedom in software?\">wolne "
-"oprogramowanie</a> jest atrakcyjne, być może będziesz chciał /-a <a href=\"%"
-"s\" title=\"make the switch to GNU/Linux today!\">wypróbować GNU/Linux/</a>."
+"If you find <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title="
+"\"what is freedom in software?\">free software</a> attractive, you might "
+"want to <a href=\"%s\" title=\"make the switch to GNU/Linux today!\">give "
+"GNU/Linux a try</a>."
 
 #: docroot/lib/views/windows.php:99 docroot/lib/views/home.php:48
 #: docroot/lib/views/linux.php:126
@@ -434,9 +434,9 @@ msgid ""
 "strong> applied to it."
 msgstr ""
 "Powszechnym błędem użytkowników Windows i Office jest przekonanie, że w "
-"pełni posiadają własne oprogramowanie. W rzeczywistości, jest wiele  "
+"pełni posiadają własne oprogramowanie. W rzeczywistości, jest wiele "
 "<strong>prawnych ograniczeń, które mają zastosowanie w przypadku tych "
-"oprogramowań.</strong>."
+"oprogramowań</strong>."
 
 #: docroot/lib/views/windows.restrictions.php:19
 msgid "Haven't read your license fully? We did that job for you."
@@ -457,14 +457,20 @@ msgid ""
 "permission. It is the restrictive legal text you have to click \"OK\" to "
 "upon install."
 msgstr ""
+"Nie można kupić Windows lub Microsoft Office — zamiast tego użytkownicy "
+"<strong>kupują pozwolenie</strong> ich użytkowania. Licencja opisuje warunki "
+"tego pozwolenia. To właśnie ten restryktywny tekst prawny akceptujesz, "
+"klikajac OK podczas instalacji."
 
 #: docroot/lib/views/windows.restrictions.php:34
 msgid "You must abandon many rights to use the software."
-msgstr ""
+msgstr "Musisz zrzec się wielu swoich praw, aby używać to oprogramowanie."
 
 #: docroot/lib/views/windows.restrictions.php:36
 msgid "There are a number of restrictions that you must accept by law."
 msgstr ""
+"Jest wiele ograniczeń, które musisz zaakceptować, ze względu na przepisy "
+"prawne."
 
 #: docroot/lib/views/windows.restrictions.php:37
 #, php-format
@@ -475,6 +481,12 @@ msgid ""
 "the license and enumerating your remaining rights</a> is itself a difficult "
 "task."
 msgstr ""
+"Restrykcje prawne, związane z tym, kto może używać tego oprogramowania, jak "
+"rodzaj zysków możesz z niego osiagnąć, jakich wyborów możesz dokonać podczas "
+"jego instalacji; restrykcje, dotyczace twojej prywatności, lub nawet tego, "
+"czy możesz z niej zrezygnować — ta lista jest długa. <a href=\"%s\""
+">Przeczytanie licencji i wyliczenie twoich pozostałych uprawnień</a> – samo "
+"w sobie – może być trudnym zadaniem."
 
 #. TRANSLATORS: Don't bother with the 'abbr' code. You can tranlsate as 'OEM [pre-installed]'
 #: docroot/lib/views/windows.restrictions.php:44
@@ -483,6 +495,9 @@ msgid ""
 "seller)\">OEM</abbr>-distributed software cannot be transferred to another "
 "computer."
 msgstr ""
+"<abbr title=\"Original Equipment Manufacturer (simply the hardware seller)\""
+">OEM</abbr> — rozprowadzane oprogramowanie nie może być przeniesione na inny "
+"komputer."
 
 #. TRANSLATORS: Don't bother with the 'shrink-wrap' expression. You can skip that bit if you wish.
 #: docroot/lib/views/windows.restrictions.php:48
@@ -491,12 +506,19 @@ msgid ""
 "called OEM licenses, or the \"shrink wrap\" Windows discs), <strong>if you "
 "change computers you must buy software again.</strong>"
 msgstr ""
+"Jeśli otrzymujesz komputer /komputery z wcześniej zainstalowanym systemem "
+"Windows lub oprogramowaniem Office, a nastepnie chcesz wymienić swoja "
+"maszynę /maszyny (są to tzw. licencje OEM, lub \"shrink wrap\" płytek "
+"Windows), <strong>to musisz ponownie kupić to oprogramowanie.</strong>"
 
 #: docroot/lib/views/windows.restrictions.php:49
 msgid ""
 "The license is linked to one computer, and expires when the computer dies. "
 "It is then illegal to transfer the software on another computer."
 msgstr ""
+"Licencja jest połączona z jednym komputerem i wygasa, gdy ten komputer nie "
+"nadaje sie już do użytku. Wtedy przeniesienie oprogramowania na inny "
+"komputer jest działaniem łamiącym prawo."
 
 #: docroot/lib/views/windows.restrictions.php:57
 msgid ""
@@ -1302,7 +1324,7 @@ msgstr ""
 
 #: docroot/lib/views/linux.php:70
 msgid "GNU/Linux FAQ"
-msgstr "GNU/Linux FAQ"
+msgstr "Często Zadawane Pytania na temat GNU/Linux"
 
 #: docroot/lib/views/linux.php:71
 msgid ""
