@@ -17,10 +17,10 @@ msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2021-01-23 09:10+0000\n"
-"PO-Revision-Date: 2020-12-01 00:06+0000\n"
-"Last-Translator: Alissa\n"
-"Language-Team: Russian (Russia) (http://www.transifex.com/serrano/"
-"getgnulinux/language/ru_RU/)\n"
+"PO-Revision-Date: 2021-03-02 18:50+0000\n"
+"Last-Translator: Mihail Iosilevitch <yosik@tutanota.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/getgnulinux/"
+"getgnulinux-pot/ru/>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,6 +28,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 4.5\n"
 
 #. TRANSLATORS: The name of the website. It is displayed in the header of each page.
 #: docroot/lib/ggl.php:207 docroot/lib/views/home.php:15
@@ -105,9 +106,8 @@ msgid "How to Misunderstand Free Software"
 msgstr "Вредные советы по свободному ПО"
 
 #: docroot/lib/ggl.php:234 docroot/lib/views/linux.php:96
-#, fuzzy
 msgid "GNU/Linux is not Windows"
-msgstr "Почему не Windows"
+msgstr "GNU/Linux это не Windows"
 
 #. TRANSLATORS: This title can be translated loosely
 #: docroot/lib/ggl.php:238 docroot/lib/views/windows.php:29
@@ -171,6 +171,8 @@ msgid ""
 "Get GNU/Linux! A simple, clear website about GNU/Linux. What is GNU/Linux? "
 "Why not Windows? Tips to make the switch."
 msgstr ""
+"Перейдите на GNU/Linux! Простой и понятный вебсайт о GNU/Linux Что такое GNU/"
+"Linux? Почему не Windows? Советы для перехода."
 
 #. TRANSLATORS: This is the description of the 'More' page
 #: docroot/lib/ggl.php:262
@@ -192,7 +194,7 @@ msgstr "Часто задаваемые вопросы о GNU/Linux"
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:51
 #: docroot/lib/views/linux.faq.php:263
 msgid "Should I install anti-virus software under GNU/Linux?"
-msgstr ""
+msgstr "Следует ли мне устанавливать антивирус под GNU/Linux?"
 
 #. TRANSLATORS: This is the description of the 'Misunderstanding Free Software' page
 #: docroot/lib/ggl.php:270
@@ -206,6 +208,8 @@ msgid ""
 "disappointed. GNU/Linux is built by people who simply wish it to be "
 "different."
 msgstr ""
+"Если вы хотите чтобы GNU/Linux был абсолютно как Windows, вы скорее всего "
+"разочаруетесь. GNU/Linux создается людьми, которые просто хотят быть другими."
 
 #. TRANSLATORS: This is the description of the 'Why not Windows' page
 #: docroot/lib/ggl.php:274
@@ -260,9 +264,8 @@ msgstr ""
 
 #. TRANSLATORS: This is the catcher-phrase for the Windows page. Exact translation is not required, the goal is to attract attention and set the tone of the page.
 #: docroot/lib/views/windows.php:21
-#, fuzzy
 msgid "Windows and Office work fine &ndash; Why worry about it?"
-msgstr "Windows и Office работают великолепно &mdash; Зачем мне волноваться?"
+msgstr "Windows и Office работают великолепно &ndash; Что с ними не так?"
 
 #. TRANSLATORS: You may add emphasis ('em' tags) around the word 'licensed' if you wish
 #: docroot/lib/views/windows.php:32
@@ -402,18 +405,22 @@ msgid ""
 msgstr ""
 
 #: docroot/lib/views/windows.php:92
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "If you find <a href=\"https://www.gnu.org/philosophy/free-sw.html\" title="
 "\"what is freedom in software?\" rel=\"external\">free software</a> "
 "attractive, you might want to <a href=\"%s\" title=\"make the switch to GNU/"
 "Linux today!\">give GNU/Linux a try</a>."
 msgstr ""
+"Если вам нравится <a href=\"https://www.gnu.org/philosophy/free-sw.html\" "
+"rel=\"external\" title=\"what is freedom in software?\">свободное ПО</a>, "
+"вам стоит <a href=\"%s\" title=\"make the switch to GNU/Linux today!\""
+">попробовать GNU/Linux</a>."
 
 #: docroot/lib/views/windows.php:99 docroot/lib/views/home.php:48
 #: docroot/lib/views/linux.php:126
 msgid "Where to download and how to step into GNU/Linux"
-msgstr ""
+msgstr "Где скачать и как вкатиться в GNU/LInux"
 
 #: docroot/lib/views/windows.restrictions.php:18
 msgid ""
@@ -459,7 +466,7 @@ msgstr ""
 "Существует несколько ограничений, которые Вы обязаны принять по закону."
 
 #: docroot/lib/views/windows.restrictions.php:37
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "Restrictions on who can use the software, what kind of revenue you may earn "
 "with it, on how you choose to install it, restrictions on your privacy, even "
@@ -467,11 +474,10 @@ msgid ""
 "the license and enumerating your remaining rights</a> is itself a difficult "
 "task."
 msgstr ""
-"Ограничен список лиц, которые могут использовать программу, виды прибыли, "
-"которую можно от нее получить, способы установки программы, ограничена Ваша "
-"приватность, и даже возможность отдать программу другим &mdash; длинный "
-"перечень. <a href=\"%s\" title=\"еще немного про лицензии Microsoft\">Чтение "
-"лицензии и выявление тех прав, что у Вас остались</a> это непростое занятие."
+"Ограничения на то, кто может использовать ПО, какой доход можно получать с "
+"его помощью, как его можно устанавливать, ограничения вашей приватности, "
+"даже кому ПО можно дать: это длинный список. <a href=\"%s\">Чтение лицензии "
+"и подсчет оставшихся прав</a> сам по себе является сложной задачей."
 
 #. TRANSLATORS: Don't bother with the 'abbr' code. You can tranlsate as 'OEM [pre-installed]'
 #: docroot/lib/views/windows.restrictions.php:44
@@ -572,6 +578,12 @@ msgid ""
 "better than just freeware): its <a href=\"https://www.gnu.org/copyleft/gpl."
 "html\" rel=\"external\">GPL</a> license is designed to protect your rights."
 msgstr ""
+"<strong>У вас есть альтернатива нарушению этого закона,</strong> или чувства "
+"ограниченности когда вы придерживаетесь его. GNU/Linux это <a href=\"https"
+"://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">Свободное ПО</a> ("
+"намного лучше, чем просто freeware): его лицензия <a href=\"https://www.gnu."
+"org/copyleft/gpl.html\" rel=\"external\">GPL</a> создана для защиты ваших "
+"прав."
 
 #: docroot/lib/views/windows.restrictions.php:74
 msgid "Restrictions - further details"
@@ -893,7 +905,7 @@ msgstr ""
 #: docroot/lib/views/windows.stand_for_a_free_society.php:121
 #, php-format
 msgid "May we suggest you <a href=\"%s\">switch to GNU/Linux</a>?"
-msgstr ""
+msgstr "Может мы предложим <a href=\"%s\">попробовать GNU/Linux</a>?"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:131
 #: docroot/lib/views/windows.restrictions.further_details.php:70
@@ -1003,11 +1015,15 @@ msgstr ""
 
 #. TRANSLATORS: This is the very first sentence every visitor is going to read. Please pay great attention to making it sound great, we only have one try! =)
 #: docroot/lib/views/home.php:18
+#, fuzzy
 msgid ""
 "GNU/Linux is an alternative to Microsoft Windows and macOS. It is easy to "
 "use and gives more freedom to users. Anyone can install it: GNU/Linux is "
 "free as in freedom, and often available free of charge."
 msgstr ""
+"GNU/LInux это альтернатива Microsoft Windows и macOS. Он легок в "
+"использовании и дает больше свободы пользователям. Кто угодно может его "
+"использовать: GNU/Linux свободен и обычно бесплатен."
 
 #: docroot/lib/views/home.php:26
 msgid "Learn more about the free operating system"
@@ -1023,13 +1039,16 @@ msgstr "Избранные ссылки в Интернет."
 
 #: docroot/lib/views/more.php:22
 msgid "Questions and help"
-msgstr ""
+msgstr "Вопросы и помощь"
 
 #: docroot/lib/views/more.php:33
 msgid ""
 "<strong>Unix &amp; Linux Stack Exchange</strong> is a question and answer "
 "site for users of GNU/Linux. This site is all about getting answers."
 msgstr ""
+"<strong>Unix&amp; Linux Stack Exchange</strong> это сайт с вопросами и "
+"ответами пользователей GNU/Linux. Этот сайт полностью посвящен получению "
+"ответов."
 
 #: docroot/lib/views/more.php:41
 msgid ""
@@ -1037,6 +1056,9 @@ msgid ""
 "Even for users of different distributions of GNU/Linux this can be a helpful "
 "resource for finding answers."
 msgstr ""
+"<strong>Ask Ubuntu</strong> это сайт с вопросами и ответами пользователей "
+"Ubuntu. Даже для пользователей других дистрибутивов GNU/Linux он является "
+"полезным ресурсом для поиска ответов."
 
 #: docroot/lib/views/more.php:49
 msgid ""
@@ -1044,6 +1066,9 @@ msgid ""
 "to the community to get help with installing, using, customizing, and "
 "upgrading a system running Fedora."
 msgstr ""
+"<strong>Ask Fedora</strong> это форум пользователей Fedora. На нем вы можете "
+"говорить с сообществом, чтобы получить помощь с установкой, использованием, "
+"настройкой и обновлением системы, работающей на Fedora."
 
 #: docroot/lib/views/more.php:53
 msgid "Learn and read more"
@@ -1063,6 +1088,9 @@ msgid ""
 "href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">free "
 "software</a> that gave birth to GNU/Linux."
 msgstr ""
+"Фонд Свободного ПО защищает концепцию <a href=\"https://www.gnu.org/"
+"philosophy/free-sw.html\" rel=\"external\">свободного ПО</a>, которое дало "
+"начало GNU/Linux."
 
 #: docroot/lib/views/more.php:78
 msgid ""
@@ -1115,23 +1143,16 @@ msgstr ""
 "сейчас и в будущем. Коммерческие программы, однако, редко их поддерживают."
 
 #: docroot/lib/views/windows.what_about_choice.php:38
-#, fuzzy
-#| msgid ""
-#| "<strong>For a long time Microsoft Office only had support for Microsoft "
-#| "formats</strong>. There are many ways to write work documents, but "
-#| "Microsoft Office users were bound to Microsoft Office files. People who "
-#| "opted without expensive Microsoft products cannot write and read <code>."
-#| "doc</code> files very reliably."
 msgid ""
 "Microsoft Office used to only support Microsoft formats. There are many ways "
 "to write work documents, but Microsoft Office users were bound to Microsoft "
 "Office files. People who opted without expensive Microsoft products cannot "
 "write and read <code>.doc</code> files very reliably."
 msgstr ""
-"<strong>Долгое время Microsoft Office читал и записывал только форматы "
-"Microsoft</strong>. Есть множество способов сохранить рабочие документы, но "
-"пользователи Office ограничены файлами Office. Люди, отказавшиеся от дорогих "
-"продуктов Microsoft не могут читать и записывать <code>.doc</code> наверняка."
+"Microsoft Office читает и записывает только форматы Microsoft. Есть "
+"множество способов писать рабочие документы, но пользователи Microsoft "
+"Office ограничены файлами Microsoft Office. Люди, отказавшиеся от дорогих "
+"продуктов Microsoft не могут надежно читать и писать <code>.doc</code>."
 
 #: docroot/lib/views/windows.what_about_choice.php:39
 msgid ""
@@ -1142,6 +1163,13 @@ msgid ""
 "Microsoft Office 2007 SP2, Microsoft did add support for the OpenDocument "
 "format after being pushed by the European Commission."
 msgstr ""
+"Конечно, есть и другие способы писать и обмениваться офисными файлами, "
+"наиболее известный – <a href=\"https://en.wikipedia.org/wiki/OpenDocument\" "
+"rel=\"external\">формат OpenDocument</a>. Но Microsoft не очень "
+"заинтересован в том, чтобы давать пользователям Office возможность "
+"обмениваться файлами так, чтобы кто угодно мог читать и редактировать их. В "
+"Microsoft Office 2007 SP2 Microsoft добавили поддержку формата OpenDocument "
+"после толчка со стороны Европейской Комиссии."
 
 #: docroot/lib/views/windows.what_about_choice.php:43
 msgid "Standards that change all the time"
@@ -1210,6 +1238,16 @@ msgid ""
 "\"external\">instant messaging program</a> or other, will come pre-installed "
 "on most computers you can buy."
 msgstr ""
+"Microsoft плотно контролирует <abbr title=\"Original Equipment Manufacturer\""
+">OEM</abbr>-ы (производители компьютеров), которые доставляют их компьютеры "
+"с предустановленной Windows. Это означает что ни одна программа "
+"соревнующаяся с продуктами Microsot, будь это <a href=\"https://www.videolan."
+"org/vlc/\" rel=\"external\">мультимедийный проигрыватель</a>, <a href=\"https"
+"://www.getfirefox.com/\" rel=\"external\">веб-браузер</a>, <a href=\"https"
+"://www.libreoffice.org/\" rel=\"external\">пакет офисных программ</a>, <a "
+"href=\"https://www.pidgin.im/\" rel=\"external\">программа для обмена "
+"мгновенными сообщениями</a> или другая, не будет предустановлена на "
+"большинстве компьютеров, которые вы купите."
 
 #: docroot/lib/views/windows.what_about_choice.php:56
 msgid ""
@@ -1234,7 +1272,7 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:24
 #: docroot/lib/views/linux.php:36
 msgid "Accessing applications in the GNOME desktop environment."
-msgstr ""
+msgstr "Доступ к приложениям в окружении GNOME."
 
 #. TRANSLATORS: This is the description of the "debian2.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:12
@@ -1244,7 +1282,7 @@ msgstr "Запущен Libreoffice Writer, редактируется обычн
 #. TRANSLATORS: This is the description of the "debian3.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:14
 msgid "Shotwell photo manager"
-msgstr ""
+msgstr "Программа для управления фотографиями Shotwell"
 
 #. TRANSLATORS: This is the description of the "ubuntu2.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:19
@@ -1255,17 +1293,17 @@ msgstr "Веб-браузер Firefox"
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:21
 #: docroot/lib/views/linux.php:43
 msgid "GNOME music player"
-msgstr ""
+msgstr "Проигрыватель музыки GNOME"
 
 #. TRANSLATORS: This is the description of the "fedora2.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:26
 msgid "Desktop overview with two applications open."
-msgstr ""
+msgstr "Обзор рабочего стола на котором открыты два приложения."
 
 #. TRANSLATORS: This is the description of the "fedora3.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:28
 msgid "Software manager open, install/remove applications."
-msgstr ""
+msgstr "Открыта программа для управления ПО, установка/удаление приложений."
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:38
 msgid ""
@@ -1273,6 +1311,9 @@ msgid ""
 "difficult. Here are our choice of three beginner-friendly, widely used "
 "distributions."
 msgstr ""
+"Так как нет \"единственного GNU/Linux\", поиск того что вам нужно может быть "
+"сложным. Здесь мы выбрали три широко используемых дистрибутива, которые "
+"дружелюбны для новичков."
 
 #. TRANSLATORS: The distrowatch.com website is translated into many languages (see https://distrowatch.com/dwres.php?resource=about). If your language is present, please replace "EN" in the URL by the code of your language (e.g. for Spanish, the last part would become "language=ES").
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:42
@@ -1281,6 +1322,9 @@ msgid ""
 "resource=major&amp;language=EN\" rel=\"external\">plenty of distributions to "
 "choose from and compare</a>."
 msgstr ""
+"Заметка: Здесь перечислены <a href=\"https://distrowatch.com/dwres."
+"php?resource=major&amp;language=RU\" rel=\"external\">множество "
+"дистрибутивов для выбора и сравнения</a>."
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:43
 msgid "This is our selection for newcomers. These links are not commercial."
@@ -1294,6 +1338,12 @@ msgid ""
 "this reason it is popular for use on personal computers as well as servers. "
 "Debian is also the basis for many other distributions, most notably Ubuntu."
 msgstr ""
+"Debian это одна из старейших операционных систем, основанных на ядре Linux. "
+"Он имеет репутацию очень стабильного и безопасного дистрибутива GNU/Linux, "
+"который создается хорошо организованным сообществом разработчиков и "
+"пользователей. По этой причине он является популярным выбором для "
+"персональных компьютеров и серверов. Debian также является основой для "
+"многих других дистрибутивов, наиболее значимым из которых является Ubuntu."
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:54
 msgid ""
