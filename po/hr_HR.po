@@ -13,16 +13,17 @@ msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2021-01-23 09:10+0000\n"
-"PO-Revision-Date: 2020-12-01 00:06+0000\n"
-"Last-Translator: Serrano Pereira <serrano@bitosis.nl>\n"
-"Language-Team: Croatian (Croatia) (http://www.transifex.com/serrano/"
-"getgnulinux/language/hr_HR/)\n"
+"PO-Revision-Date: 2021-03-05 18:50+0000\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/getgnulinux/"
+"getgnulinux-pot/hr/>\n"
 "Language: hr_HR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.5.1-dev\n"
 
 #. TRANSLATORS: The name of the website. It is displayed in the header of each page.
 #: docroot/lib/ggl.php:207 docroot/lib/views/home.php:15
@@ -31,7 +32,7 @@ msgstr "nabavi GNU/Linux!"
 
 #: docroot/lib/ggl.php:211
 msgid "Home"
-msgstr ""
+msgstr "Početna"
 
 #. TRANSLATORS: Try to be as concise and short as possible. This appears in the top header menu and must be easily readable.
 #: docroot/lib/ggl.php:212 docroot/lib/ggl.php:227
@@ -39,7 +40,7 @@ msgstr ""
 #: docroot/lib/views/linux.misunderstanding_free_software.php:225
 #: docroot/lib/views/linux.faq.php:293
 msgid "What is GNU/Linux?"
-msgstr "Što je Linux?"
+msgstr "Što je GNU/Linux?"
 
 #. TRANSLATORS: If it makes sense in your language, do not formulate 'why not windows' as a question. This appears in the top header menu and should be as short and concise as possible.
 #: docroot/lib/ggl.php:213 docroot/lib/ggl.php:236
@@ -51,14 +52,14 @@ msgstr "Što je Linux?"
 #: docroot/lib/views/linux.php:112
 #: docroot/lib/views/windows.what_about_source_code.php:65
 msgid "Why not Windows"
-msgstr "Zašto ne Windowsi?"
+msgstr "Zašto ne Windows"
 
 #. TRANSLATORS: This appears in the top header menu and should be as short and concise as possible.
 #: docroot/lib/ggl.php:214 docroot/lib/ggl.php:248
 #: docroot/lib/views/windows.php:98 docroot/lib/views/home.php:47
 #: docroot/lib/views/linux.php:125 docroot/lib/views/switch_to_linux.php:16
 msgid "Switch to GNU/Linux"
-msgstr ""
+msgstr "Prebaci se na GNU/Linux"
 
 #. TRANSLATORS: This is the title of the 'More' page.
 #: docroot/lib/ggl.php:215 docroot/lib/ggl.php:225
@@ -76,18 +77,17 @@ msgstr "Zahvale"
 #. TRANSLATORS: This is the title of the 'Legal terms' page.
 #: docroot/lib/ggl.php:223 src/templates/footer.php:22
 msgid "Terms of use"
-msgstr ""
+msgstr "Uvjeti korištenja"
 
 #. TRANSLATORS: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
 #: docroot/lib/ggl.php:229
 msgid "GNU/Linux FAQ - common questions about GNU/Linux"
-msgstr ""
+msgstr "GNU/Linux ČPP – često postavljena pitanja o GNU/Linux"
 
 #. TRANSLATORS: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
 #: docroot/lib/ggl.php:231 docroot/lib/views/linux.faq.php:270
-#, fuzzy
 msgid "GNU/Linux virus FAQ"
-msgstr "nabavi GNU/Linux!"
+msgstr "GNU/Linux virus ČPP"
 
 #. TRANSLATORS: Here the intent is to be a little provocative. Exact translation is not required.
 #: docroot/lib/ggl.php:233
@@ -97,12 +97,11 @@ msgstr "nabavi GNU/Linux!"
 #: docroot/lib/views/linux.faq.php:100 docroot/lib/views/linux.faq.php:144
 #: docroot/lib/views/linux.faq.php:157
 msgid "How to Misunderstand Free Software"
-msgstr "Kako krivo pojmiti slobodni softver?"
+msgstr "Kako krivo razumjeti slobodni softver"
 
 #: docroot/lib/ggl.php:234 docroot/lib/views/linux.php:96
-#, fuzzy
 msgid "GNU/Linux is not Windows"
-msgstr "Zašto ne Windowsi?"
+msgstr "GNU/Linux nije Windows"
 
 #. TRANSLATORS: This title can be translated loosely
 #: docroot/lib/ggl.php:238 docroot/lib/views/windows.php:29
@@ -115,7 +114,7 @@ msgstr "Ograničenja"
 #: docroot/lib/ggl.php:240
 #: docroot/lib/views/windows.restrictions.further_details.php:16
 msgid "More details on restrictions"
-msgstr ""
+msgstr "Više o ograničenjima"
 
 #. TRANSLATORS: This title can be translated loosely
 #: docroot/lib/ggl.php:242 docroot/lib/views/windows.php:71
@@ -127,7 +126,7 @@ msgstr "Zauzmi se za slobodno društvo"
 #: docroot/lib/ggl.php:244 docroot/lib/views/windows.php:43
 #: docroot/lib/views/windows.what_about_choice.php:16
 msgid "What about choice?"
-msgstr "Pravo izbora"
+msgstr "Što je s izborom?"
 
 #. TRANSLATORS: This title can be translated loosely
 #: docroot/lib/ggl.php:246 docroot/lib/views/windows.php:58
@@ -139,12 +138,12 @@ msgstr "Bez izvornog koda"
 #: docroot/lib/views/switch_to_linux.php:34
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:133
 msgid "Choose a distribution"
-msgstr "Izaberite distribuciju"
+msgstr "Odaberi distribuciju"
 
 #: docroot/lib/ggl.php:250 docroot/lib/views/switch_to_linux.php:22
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:16
 msgid "From Windows to GNU/Linux"
-msgstr ""
+msgstr "S Windowsa na GNU/Linux"
 
 #. TRANSLATORS: This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
 #: docroot/lib/ggl.php:252
@@ -152,13 +151,13 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.php:45
 #: docroot/lib/views/switch_to_linux.try_or_install.php:14
 msgid "Try or install"
-msgstr "Isprobajte i instalirajte"
+msgstr "Isprobaj ili instaliraj"
 
 #. TRANSLATORS: The title for the custom "Page Not Found" page.
 #. TRANSLATORS: Title for the Page Not Found page.
 #: docroot/lib/ggl.php:254 docroot/lib/views/404.php:16
 msgid "Page Not Found"
-msgstr ""
+msgstr "Stranica nije pronađena"
 
 #. TRANSLATORS: This is the description of the homepage, and it appears in Google results! Please pay particular attention to this one =)
 #: docroot/lib/ggl.php:260
@@ -166,33 +165,35 @@ msgid ""
 "Get GNU/Linux! A simple, clear website about GNU/Linux. What is GNU/Linux? "
 "Why not Windows? Tips to make the switch."
 msgstr ""
+"Nabavi GNU/Linux! Jednostavna web-stranica o GNU/Linuxu. Što je GNU/Linux? "
+"Zašto ne Windows? Savjeti za mijenjanje sustava."
 
 #. TRANSLATORS: This is the description of the 'More' page
 #: docroot/lib/ggl.php:262
 msgid "Read and discover more about GNU/Linux."
-msgstr ""
+msgstr "Saznaj više o GNU/Linuxu."
 
 #. TRANSLATORS: This is the description of the 'Linux' page
 #: docroot/lib/ggl.php:264
 msgid "What is GNU/Linux? A clear explanation."
-msgstr ""
+msgstr "Što je GNU/Linux? Jednostavno objašnjenje."
 
 #. TRANSLATORS: This is the description of the 'GNU/Linux FAQ' page
 #: docroot/lib/ggl.php:266
 msgid "Frequently Asked Questions about GNU/Linux."
-msgstr ""
+msgstr "Često postavljena pitanja o GNU/Linux sustavu."
 
 #. TRANSLATORS: This is the description of the 'GNU/Linux virus FAQ' page
 #: docroot/lib/ggl.php:268
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:51
 #: docroot/lib/views/linux.faq.php:263
 msgid "Should I install anti-virus software under GNU/Linux?"
-msgstr ""
+msgstr "Je li potrebno instalirati antivirusni softver pod GNU/Linuxom?"
 
 #. TRANSLATORS: This is the description of the 'Misunderstanding Free Software' page
 #: docroot/lib/ggl.php:270
 msgid "An unconventional way to (re)discover free software."
-msgstr ""
+msgstr "Nekonvencionalan način (ponovnog) otkrivanja slobodnog softvera."
 
 #. TRANSLATORS: This is the description of the 'GNU/Linux is not Windows' page
 #: docroot/lib/ggl.php:272 docroot/lib/views/linux.php:97
@@ -201,6 +202,8 @@ msgid ""
 "disappointed. GNU/Linux is built by people who simply wish it to be "
 "different."
 msgstr ""
+"Ako očekuješ da GNU/Linux bude kao Windows, razočarat ćeš se. GNU/Linux "
+"grade ljudi koji jednostavno žele da bude drugačiji."
 
 #. TRANSLATORS: This is the description of the 'Why not Windows' page
 #: docroot/lib/ggl.php:274
@@ -221,44 +224,42 @@ msgstr ""
 #. TRANSLATORS: This is the description of the 'Stand for a free society' page
 #: docroot/lib/ggl.php:280
 msgid "How software affects freedom in society."
-msgstr ""
+msgstr "Kako softver utječe na slobodu u društvu."
 
 #. TRANSLATORS: This is the description of the 'What about choice' page
 #: docroot/lib/ggl.php:282
 msgid "How Microsoft lock customers in."
-msgstr "Kako Microsoft zaključava korisnike"
+msgstr "Kako Microsoft blokira korisnike."
 
 #. TRANSLATORS: This is the description of the 'What about source code' page
 #: docroot/lib/ggl.php:284
 msgid "No source code means no trust and no security."
-msgstr "Zatvorenost izvornog koda znači nepostojanje povjerenja i sigurnosti."
+msgstr "Bez izvornog koda znači nepovjerenje i nesigurnost."
 
 #. TRANSLATORS: This is the description of the 'Switch to GNU/Linux' page
 #: docroot/lib/ggl.php:286
 msgid "Switch to GNU/Linux: Good tips and advice."
-msgstr ""
+msgstr "Prebaci se na GNU/Linux: Dobri savjeti."
 
 #. TRANSLATORS: This is the description of the 'Choose a distribution' page
 #: docroot/lib/ggl.php:288
 msgid "Recommended GNU/Linux distributions for everyday users."
-msgstr ""
+msgstr "Preporučene GNU/Linux distribucije."
 
 #. TRANSLATORS: This is the description of the 'From Windows to GNU/Linux' page
 #: docroot/lib/ggl.php:290
 msgid "The advantages and disadvantages of GNU/Linux over Windows."
-msgstr ""
+msgstr "Prednosti i nedostaci GNU/Linuxa u odnosu na Windows."
 
 #. TRANSLATORS: This is the description of the 'Try or Install' page. This should be translated as if it was 'Try *and* install'. In English there was possible confusion (with 'try to install') but this was the intended title.
 #: docroot/lib/ggl.php:292
 msgid "Try or install GNU/Linux on your computer, very easily."
-msgstr ""
+msgstr "Isprobaj ili instaliraj GNU/Linux."
 
 #. TRANSLATORS: This is the catcher-phrase for the Windows page. Exact translation is not required, the goal is to attract attention and set the tone of the page.
 #: docroot/lib/views/windows.php:21
-#, fuzzy
 msgid "Windows and Office work fine &ndash; Why worry about it?"
-msgstr ""
-"Windowsi i Office rade zadovoljavajuće &mdash; zašto se brinuti oko toga?"
+msgstr "Windows i Office rade dobro &ndash; zašto se brinuti oko toga?"
 
 #. TRANSLATORS: You may add emphasis ('em' tags) around the word 'licensed' if you wish
 #: docroot/lib/views/windows.php:32
@@ -266,7 +267,7 @@ msgid ""
 "A legal copy of Windows is expensive, but what do you get? Windows and "
 "Office are licensed, not sold."
 msgstr ""
-"Legalan primjerak Windowsa je skup, a što dobivate? Windowsi i Office se ne "
+"Legalan primjerak Windowsa je skup, a što dobivaš? Windows i Office se ne "
 "prodaju nego licenciraju."
 
 #: docroot/lib/views/windows.php:33
@@ -277,9 +278,9 @@ msgid ""
 "software away. Who can run the software? On which computer? What can you do "
 "with it? The list of restrictions is long and some items are outrageous."
 msgstr ""
-"Da bi koristili te proizvode moramo pristati na <strong>niz strogih "
-"ograničenja</strong>. Kod većine Windows licenci, nakon što promijenite "
-"hardver ne možete zadržati softver. Ponekad softver čak ne možete niti "
+"Da bismo koristili te proizvode moramo pristati na <strong>niz strogih "
+"ograničenja</strong>. Kod većine Windows licenci, nakon što se zamijeni "
+"hardver, softver se ne može zadržati. Ponekad se softver čak ne može niti "
 "pokloniti. Tko smije koristiti softver? Na kojem računalu? Što smijete "
 "raditi s njim? Popis ograničenja je dugačak, a neka su uvredljiva."
 
@@ -300,11 +301,11 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.php:48
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:136
 msgid "Read more"
-msgstr ""
+msgstr "Saznaj više"
 
 #: docroot/lib/views/windows.php:44
 msgid "Software should come without locks in it."
-msgstr "Softver ne bi trebao imati ugrađene blokade"
+msgstr "Softver ne bi trebao imati ugrađene blokade."
 
 #: docroot/lib/views/windows.php:45
 msgid ""
@@ -313,9 +314,8 @@ msgid ""
 "be that if you look for choice, Microsoft products aren't for you."
 msgstr ""
 "Zašto je Office dokumente tako teško prebaciti u druge formate? Zašto se "
-"Microsoftovi formati kontinuirano mijenjanju? Zašto neke programe ne možete "
-"niti ukloniti? Ako tražite pravo izbora, moguće je da Microsoftovi proizvodi "
-"nisu za vas."
+"Microsoftovi formati kontinuirano mijenjanju? Zašto se neki programi ne mogu "
+"ukloniti? Ako tražiš pravo izbora, možda Microsoftovi proizvodi nisu za tebe."
 
 #: docroot/lib/views/windows.php:59
 msgid ""
@@ -331,9 +331,9 @@ msgid ""
 "workings of a program), you can't have someone correct flaws or evaluate how "
 "your privacy is protected for you."
 msgstr ""
-"Ako nemate pravo pregledavati izvorni kod (mehanizam djelovanja programa "
-"čitljiv čovjeku), ne možete od nekoga zatražiti da ispravi pogreške u njemu "
-"ili procijeni je li zaštićena vaša privatnost."
+"Ako nemaš pravo pregledati izvorni kod (mehanizam djelovanja programa "
+"čitljiv čovjeku), ne možeš od nekoga zatražiti da ispravi pogreške u njemu "
+"ili procijeniti je li tvoja privatnost zaštićena."
 
 #: docroot/lib/views/windows.php:61
 msgid ""
@@ -342,9 +342,10 @@ msgid ""
 "industry, in which Microsoft is now a significant player, prefers you to use "
 "Windows."
 msgstr ""
-"Pogodite što? Virusi i spyware ne djeluju na softver koji dolazi s izvornim "
-"kodom, a sigurnost se ne kupuje zasebno. Industriji antivirusnog softvera, u "
-"kojoj je Microsoft danas značajan igrač, odgovara da koristite Windowse."
+"I znaš što još? Virusi i spyware ne djeluju na softver koji dolazi s "
+"izvornim kodom, a sigurnost se ne kupuje zasebno. Industriji antivirusnog "
+"softvera, u kojoj je Microsoft danas značajan igrač, odgovara da koristiš "
+"Windows."
 
 #. TRANSLATORS: In your language, you might not need to make the distinction between price and freedom. Please do however express that price does not matter, in this sentence.
 #: docroot/lib/views/windows.php:74
@@ -353,6 +354,9 @@ msgid ""
 "freedom, not price: the freedoms to inspect, learn from, modify the software "
 "you use."
 msgstr ""
+"Slobodno društvo zahtijeva slobodan softver. Podrazumijeva se sloboda, a ne "
+"cijena: sloboda pregledavanja, učenja iz njega i mijenjanja korištenog "
+"softvera."
 
 #: docroot/lib/views/windows.php:75
 msgid ""
@@ -375,8 +379,8 @@ msgid ""
 "If you have to give up your freedoms to use software, maybe you should not "
 "be happy with it."
 msgstr ""
-"Ako se morate odreći svojih sloboda da biste koristili softver, možda ne "
-"biste trebali biti zadovoljni s tim."
+"Ako se moraš odreći svojih sloboda zbog upotrebe softvera, možda ti se to ne "
+"bi trebalo sviđati."
 
 #. TRANSLATORS: This is the conclusion of the article.
 #: docroot/lib/views/windows.php:91
@@ -400,7 +404,7 @@ msgstr ""
 #: docroot/lib/views/windows.php:99 docroot/lib/views/home.php:48
 #: docroot/lib/views/linux.php:126
 msgid "Where to download and how to step into GNU/Linux"
-msgstr ""
+msgstr "Gdje preuzeti i kako početi raditi s GNU/Linuxom"
 
 #: docroot/lib/views/windows.restrictions.php:18
 msgid ""
@@ -524,7 +528,7 @@ msgstr "Podrobnije o ograničenjima"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:19
 msgid "Stand for a Free Society"
-msgstr ""
+msgstr "Zauzmi se za slobodno društvo"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:21
 msgid ""
@@ -650,12 +654,12 @@ msgstr ""
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:76
 msgid "Sounds crazy? This is where Trusted Computing comes in."
-msgstr ""
+msgstr "Zvuči nevjerojatno? Pouzdano računarstvo kao spas."
 
 #. TRANSLATORS: This is sometimes only known as "Trusted Computing", not TC, in some languages. Please choose the vocabulary carefully.
 #: docroot/lib/views/windows.stand_for_a_free_society.php:80
 msgid "Trusted Computing (TC)"
-msgstr ""
+msgstr "Pouzdano računarstvo"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:81
 msgid ""
@@ -666,10 +670,16 @@ msgid ""
 "against nuisances (like viruses or spyware) and copyright violations (people "
 "copying proprietary software)."
 msgstr ""
+"Pouzdano računarstvo (ponekad <a href=\"https://www.lafkon.net/tc/\" rel="
+"\"external\" title=\"A very well done video on Trusted Computing\">se "
+"točnije</a> zove „Zavarano računarstvo” (Treacherous Computing) znači, da "
+"računalo može poretati samo „pouzdani” softver. Zamišljeno je kao "
+"nezaobilazna zaštita od neželjenih izvođenja (poput virusa ili špijunskog "
+"softvera) i kršenja autorskih prava (ljudi koji kopiraju vlasnički softver)."
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:82
 msgid "Trusted Computing is control over the computer"
-msgstr ""
+msgstr "Pouzdano računarstvo znači kontrolu nad računalom"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:83
 msgid ""
@@ -756,7 +766,7 @@ msgstr ""
 #: docroot/lib/views/windows.stand_for_a_free_society.php:131
 #: docroot/lib/views/windows.restrictions.further_details.php:70
 msgid "https://www.gnu.org/philosophy/right-to-read.html"
-msgstr ""
+msgstr "https://www.gnu.org/philosophy/right-to-read.html"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:131
 #: docroot/lib/views/windows.restrictions.further_details.php:70
@@ -772,7 +782,7 @@ msgstr ""
 #. TRANSLATORS: Unless you know of a very good resource about DRM, please point to the Wikipedia article about DRM in your language, if it exists
 #: docroot/lib/views/windows.stand_for_a_free_society.php:137
 msgid "http://www.timj.co.uk/computing/politics-policy/drm/fallacy/"
-msgstr ""
+msgstr "http://www.timj.co.uk/computing/politics-policy/drm/fallacy/"
 
 #. TRANSLATORS: Title of external link
 #: docroot/lib/views/windows.stand_for_a_free_society.php:139
@@ -792,6 +802,8 @@ msgid ""
 "http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-"
 "free-file-formats/"
 msgstr ""
+"http://jimmywales.com/2004/10/21/"
+"free-knowledge-requires-free-software-and-free-file-formats/"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:148
 msgid "Free Knowledge requires Free Software and Free File Formats"
@@ -805,11 +817,11 @@ msgstr ""
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:152
 msgid "https://www.lafkon.net/tc/"
-msgstr ""
+msgstr "https://www.lafkon.net/tc/"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:152
 msgid "Trusted Computing"
-msgstr ""
+msgstr "Pouzdano računarstvo"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:153
 msgid ""
@@ -819,7 +831,7 @@ msgstr ""
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:159
 msgid "https://www.gnu.org/philosophy/why-free.html"
-msgstr ""
+msgstr "https://www.gnu.org/philosophy/why-free.html"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:159
 msgid "Why Software Should Not Have Owners"
@@ -834,7 +846,7 @@ msgstr ""
 #. TRANSLATORS: This describes the last link, which will automatically point to the 'Misunderstanding Free Software' article
 #: docroot/lib/views/windows.stand_for_a_free_society.php:165
 msgid "More on free software on this website."
-msgstr ""
+msgstr "Više o slobodnom softveru na ovoj web-stranici."
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:182
 msgid ""
@@ -853,19 +865,19 @@ msgstr ""
 
 #: docroot/lib/views/home.php:26
 msgid "Learn more about the free operating system"
-msgstr "Nauči više o slobodnom operativnom sustavu"
+msgstr "Saznaj više o slobodnom operacijskom sustavu"
 
 #: docroot/lib/views/home.php:37 docroot/lib/views/linux.php:113
 msgid "Why we should avoid using Microsoft Windows"
-msgstr "Zašto bismo trebali izbjegavati korištenje Microsoftovih Windowsa?"
+msgstr "Zašto bismo trebali izbjegavati koristiti Microsoft Windows"
 
 #: docroot/lib/views/more.php:18
 msgid "Selected reading on the Internet."
-msgstr "Odabrani sadržaji na Internetu."
+msgstr "Odabrani sadržaji na internetu."
 
 #: docroot/lib/views/more.php:22
 msgid "Questions and help"
-msgstr ""
+msgstr "Pitanja i pomoć"
 
 #: docroot/lib/views/more.php:33
 msgid ""
@@ -889,13 +901,13 @@ msgstr ""
 
 #: docroot/lib/views/more.php:53
 msgid "Learn and read more"
-msgstr "Naučite i pročitajte više"
+msgstr "Nauči i pročitaj više"
 
 #: docroot/lib/views/more.php:64
 msgid ""
 "A short, entertaining way to clarify thoughts about free, libre, \"open-"
 "source\" software."
-msgstr "Kratak, zabavan način za pojašnjavanje ideja slobodnog softvera."
+msgstr "Kratak, zabavan način za pojašnjavanje ideje slobodnog softvera."
 
 #: docroot/lib/views/more.php:72
 msgid ""
@@ -908,7 +920,7 @@ msgstr ""
 msgid ""
 "Note: these links are proposed as a recommendation. They are not commercial."
 msgstr ""
-"Napomena: ovi linkovi su predloženi kao preporuka, i nisu komercijalne "
+"Napomena: ove poveznice su predloženi kao preporuka, i nisu komercijalne "
 "naravi."
 
 #: docroot/lib/views/windows.what_about_choice.php:19
@@ -933,7 +945,7 @@ msgstr ""
 
 #: docroot/lib/views/windows.what_about_choice.php:36
 msgid "Poor support for open standards"
-msgstr ""
+msgstr "Slaba podrška otvorene standarde"
 
 #: docroot/lib/views/windows.what_about_choice.php:37
 msgid ""
@@ -963,7 +975,7 @@ msgstr ""
 
 #: docroot/lib/views/windows.what_about_choice.php:43
 msgid "Standards that change all the time"
-msgstr ""
+msgstr "Standardi se stalno mijenjaju"
 
 #: docroot/lib/views/windows.what_about_choice.php:44
 msgid ""
@@ -985,7 +997,7 @@ msgstr ""
 
 #: docroot/lib/views/windows.what_about_choice.php:49
 msgid "Default programs you can't uninstall"
-msgstr ""
+msgstr "Standardni programi koji se no mogu deinstalirati"
 
 #: docroot/lib/views/windows.what_about_choice.php:50
 msgid ""
@@ -998,7 +1010,7 @@ msgstr ""
 
 #: docroot/lib/views/windows.what_about_choice.php:54
 msgid "Monopolistic practices"
-msgstr ""
+msgstr "Monopolistička praksa"
 
 #: docroot/lib/views/windows.what_about_choice.php:55
 msgid ""
@@ -1030,28 +1042,28 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:24
 #: docroot/lib/views/linux.php:36
 msgid "Accessing applications in the GNOME desktop environment."
-msgstr ""
+msgstr "Pristup programima u GNOME radnom okruženju."
 
 #. TRANSLATORS: This is the description of the "debian2.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:12
 msgid "LibreOffice Writer open, editing a standard document."
-msgstr ""
+msgstr "Otvoren LibreOffice Writer, uređivanje standardnog dokumenta."
 
 #. TRANSLATORS: This is the description of the "debian3.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:14
 msgid "Shotwell photo manager"
-msgstr ""
+msgstr "Shotwell – upravljač fotografija"
 
 #. TRANSLATORS: This is the description of the "ubuntu2.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:19
 msgid "Firefox web browser"
-msgstr ""
+msgstr "Firefox – web-preglednik"
 
 #. TRANSLATORS: This is the description of the "ubuntu3.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:21
 #: docroot/lib/views/linux.php:43
 msgid "GNOME music player"
-msgstr ""
+msgstr "Svirač glazbe za GNOME"
 
 #. TRANSLATORS: This is the description of the "fedora2.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:26
@@ -1101,7 +1113,7 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:64
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:68
 msgid "Debian screenshot"
-msgstr ""
+msgstr "Debian – slika ekrana"
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:83
 msgid ""
@@ -1124,7 +1136,7 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:98
 #: docroot/lib/views/linux.php:36 docroot/lib/views/linux.php:43
 msgid "Ubuntu screenshot"
-msgstr ""
+msgstr "Ubuntu – slika ekrana"
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:113
 msgid ""
@@ -1147,28 +1159,25 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:124
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:128
 msgid "Fedora screenshot"
-msgstr ""
+msgstr "Fedora – slika ekrana"
 
 #. TRANSLATORS: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:143
 msgid "Now grab a USB stick and try or install your distribution!"
-msgstr ""
+msgstr "Sada zgrabi USB-memoriju i isprobaj distribuciju ili je instaliraj!"
 
 #: docroot/lib/views/linux.php:15
-#, fuzzy
-#| msgid ""
-#| "When you hear the word Linux, you may think of programmers with a beard "
-#| "typing obscure code on a black screen. Good news! things have changed."
 msgid ""
 "When you hear the word Linux, you may think of programmers with a beard "
 "typing obscure code on a black screen. Good news! Things have changed."
 msgstr ""
-"Kad čujete riječ Linux, možda pomislite na bradate programere kako tipkaju "
-"neshvatljiv kod na crnom zaslonu. Dobre vijesti - stvari su se promjenile!"
+"Kad čuješ riječ Linux, možda pomisliš na bradate programere kako tipkaju "
+"neshvatljiv kod na crnom ekranu. Imamo dobre vijesti! Stvari su se "
+"promjenile."
 
 #: docroot/lib/views/linux.php:20
 msgid "The picture"
-msgstr "Slika"
+msgstr "Pogled"
 
 #: docroot/lib/views/linux.php:21
 msgid ""
@@ -1196,7 +1205,7 @@ msgstr ""
 
 #: docroot/lib/views/linux.php:27 docroot/lib/views/linux.faq.php:213
 msgid "Using GNU/Linux"
-msgstr ""
+msgstr "Korištenje GNU/Linuxa"
 
 #: docroot/lib/views/linux.php:28
 #, php-format
@@ -1226,7 +1235,7 @@ msgstr ""
 
 #: docroot/lib/views/linux.php:51
 msgid "The larger picture"
-msgstr ""
+msgstr "Širi pogled"
 
 #. TRANSLATORS: use the definition of "free software" on GNU.org
 #: docroot/lib/views/linux.php:53
@@ -1272,9 +1281,8 @@ msgid ""
 msgstr ""
 
 #: docroot/lib/views/linux.php:70
-#, fuzzy
 msgid "GNU/Linux FAQ"
-msgstr "nabavi GNU/Linux!"
+msgstr "GNU/Linux ČPP"
 
 #: docroot/lib/views/linux.php:71
 msgid ""
@@ -1389,21 +1397,23 @@ msgstr ""
 #. TRANSLATORS: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
 #: docroot/lib/views/windows.restrictions.further_details.php:59
 msgid "https://www.gnu.org/copyleft/gpl.html"
-msgstr ""
+msgstr "https://www.gnu.org/copyleft/gpl.html"
 
 #: docroot/lib/views/windows.restrictions.further_details.php:59
 msgid "The GNU General Public License"
-msgstr ""
+msgstr "GNU opća javna licenca"
 
 #: docroot/lib/views/windows.restrictions.further_details.php:59
 msgid "The GPL"
-msgstr ""
+msgstr "Opća javna licenca"
 
 #: docroot/lib/views/windows.restrictions.further_details.php:60
 msgid ""
 "The GNU General Public License, under which GNU/Linux and a vast amount of "
 "free software are published."
 msgstr ""
+"GNU opća javna licenca pod kojom se objavljuje GNU/Linux i velika količina "
+"slobodnog softvera."
 
 #: docroot/lib/views/windows.restrictions.further_details.php:63
 msgid "Comparing the GPL to the Microsoft WinXP License"
@@ -1426,16 +1436,16 @@ msgstr ""
 #. TRANSLATORS: please note the "affirmative" tone with the '.' at end of sentence.
 #: docroot/lib/views/switch_to_linux.php:24
 msgid "Meet GNU/Linux in everyday use."
-msgstr ""
+msgstr "Upoznaj GNU/Linux u svakodnevnoj upotrebi."
 
 #: docroot/lib/views/switch_to_linux.php:35
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:134
 msgid "Our selection for an easy choice."
-msgstr ""
+msgstr "Naš izbor za jednostavan odabir."
 
 #: docroot/lib/views/switch_to_linux.php:46
 msgid "Install it! (it's easier than you think)"
-msgstr ""
+msgstr "Instaliraj! (lakše je nego što misliš)"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:16
 msgid ""
@@ -1447,11 +1457,11 @@ msgstr ""
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:21
 msgid "Try out the live USB stick"
-msgstr ""
+msgstr "Isprobaj pomoću USB-memorije"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:24
 msgid "Take no risk"
-msgstr ""
+msgstr "Ne riskiraj ništa"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:25
 msgid ""
@@ -1477,7 +1487,7 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.try_or_install.php:29
 #: docroot/lib/views/switch_to_linux.try_or_install.php:41
 msgid "What you need"
-msgstr ""
+msgstr "Što trebaš"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:30
 #: docroot/lib/views/switch_to_linux.try_or_install.php:49
@@ -1500,11 +1510,11 @@ msgstr ""
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:35
 msgid "Installing as a dual boot"
-msgstr ""
+msgstr "Instaliranje za biranje sustava"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:37
 msgid "Choose at start-up"
-msgstr ""
+msgstr "Odaberi prilikom pokretanja računala"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:38
 msgid ""
@@ -1512,6 +1522,9 @@ msgid ""
 "that upon start-up, you will be greeted with a screen allowing you to boot "
 "into the operating system you prefer."
 msgstr ""
+"GNU/Linux je moguće je instalirati zajedno sa sustavima Windows ili macOS. "
+"To znači da će se nakon pokretanja računala na ekranu pojaviti mogućnost "
+"biranja operacijskog sustava koji se želi pokrenuti."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:39
 msgid ""
@@ -1521,6 +1534,11 @@ msgid ""
 "rel=\"external\">not difficult to set-up</a>, though erasing Windows or "
 "macOS altogether is even easier."
 msgstr ""
+"Postavljanje alternativnog pokretanja može biti korisno ako trebaš vremena "
+"napustiti restriktivni softver. <a href=\"https://tutorials.ubuntu.com/"
+"tutorial/tutorial-install-ubuntu-desktop\" rel=\"external\" title=\"Priručnik"
+" za instaliranje Ubuntu sustava\">Jednostavno se postavlja</a>, iako je još "
+"lakše izbrisati Windows ili macOS s računala."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:42
 msgid ""
@@ -1530,11 +1548,16 @@ msgid ""
 "installed Windows or macOS on your computer, rest assured that installing "
 "GNU/Linux is no harder."
 msgstr ""
+"Instaliranje GNU/Linuxa na računalu traje manje od 30 minuta. To nije "
+"uobičajen korak za potpune početnike, ali ako svakodnevno koristiš računala, "
+"vrlo je vjerojatno da će ti poći lako od ruke. Ako već imaš iskustva s "
+"instaliranjem Windows ili MacOS sustava, instaliranje GNU/Linuxa ti neće "
+"stvarati probleme."
 
 #. TRANSLATORS: "Image" refers to a downloadable ISO image and can be translated loosely.
 #: docroot/lib/views/switch_to_linux.try_or_install.php:48
 msgid "Get the image you need"
-msgstr ""
+msgstr "Nabavi ISO-datoteku"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:56
 #: docroot/lib/views/switch_to_linux.try_or_install.php:71
@@ -1544,14 +1567,16 @@ msgid ""
 "<a href=\"%s\" rel=\"external\">Create a live USB stick</a> or <a href=\"%s"
 "\" rel=\"external\">burn it to a CD/DVD</a>."
 msgstr ""
+"<a href=\"%s\" rel=\"external\">Spremi na USB-memoriju</a> ili <a href=\"%s\""
+" rel=\"external\">snimi CD/DVD</a>."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:56
 msgid "https://www.debian.org/CD/faq/#write-usb"
-msgstr ""
+msgstr "https://www.debian.org/CD/faq/#write-usb"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:56
 msgid "https://www.debian.org/CD/faq/#record-windows"
-msgstr ""
+msgstr "https://www.debian.org/CD/faq/#record-windows"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:57
 #, php-format
@@ -1559,23 +1584,26 @@ msgid ""
 "Then use it to <a href=\"%s\" rel=\"external\">install Debian</a> onto your "
 "computer."
 msgstr ""
+"Zatim je koristi za <a href=\"%s\" rel=\"external\">instaliranje Debiana</a> "
+"na računalo."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:57
 msgid "https://www.debian.org/releases/stable/installmanual"
-msgstr ""
+msgstr "https://www.debian.org/releases/stable/installmanual"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:61
 msgid "Download Debian"
-msgstr ""
+msgstr "Preuzmi Debian"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:71
 msgid ""
 "https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows"
 msgstr ""
+"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:71
 msgid "https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows"
-msgstr ""
+msgstr "https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:72
 #, php-format
@@ -1583,20 +1611,24 @@ msgid ""
 "Then use it to <a href=\"%s\" rel=\"external\">install Ubuntu</a> onto your "
 "computer."
 msgstr ""
+"Zatim je koristi za <a href=\"%s\" rel=\"external\">instaliranje Debiana</a> "
+"na računalo."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:72
 msgid "https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop"
-msgstr ""
+msgstr "https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:76
 msgid "Download Ubuntu"
-msgstr ""
+msgstr "Preuzmi Ubuntu"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:86
 msgid ""
 "https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/"
 "Preparing_for_Installation/#sect-preparing-boot-media"
 msgstr ""
+"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/"
+"Preparing_for_Installation/#sect-preparing-boot-media"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:87
 #, php-format
@@ -1604,16 +1636,20 @@ msgid ""
 "Then use it to <a href=\"%s\" rel=\"external\">install Fedora</a> onto your "
 "computer."
 msgstr ""
+"Zatim je koristi za <a href=\"%s\" rel=\"external\">instaliranje Fedore</a> "
+"na računalo."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:87
 msgid ""
 "https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/"
 "Booting_the_Installation/"
 msgstr ""
+"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/"
+"Booting_the_Installation/"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:91
 msgid "Download Fedora"
-msgstr ""
+msgstr "Preuzmi Fedora"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:99
 msgid ""
@@ -1625,11 +1661,11 @@ msgstr ""
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:103
 msgid "Free Software pre-installed"
-msgstr ""
+msgstr "Predinstaliran slobodni softver"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:104
 msgid "Computer with GNU/Linux pre-installed"
-msgstr ""
+msgstr "Računala s predinstaliranim GNU/Linux sustavom"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:105
 msgid ""
@@ -1658,6 +1694,10 @@ msgid ""
 "strong>. You may actually pay to get free software (or \"open source\" "
 "software %s), which you can then study, change and copy at will."
 msgstr ""
+"Pod pojmom „slobodni softver”, podrazumijeva se <strong>sloboda, a ne "
+"cijena</strong>. U biti je moguće platiti slobodni softver (ili softver „"
+"otvorenog koda” %s), koji se zatim može proučavati, mijenjati i kopirati po "
+"volji."
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:35
 msgid ""
@@ -1730,138 +1770,137 @@ msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:54
 msgid "Applications:"
-msgstr ""
+msgstr "Programi:"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:56
 msgid "(text editor)"
-msgstr ""
+msgstr "(uređivač teksta)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:57
 #: docroot/lib/views/linux.misunderstanding_free_software.php:63
 msgid "(web browser)"
-msgstr ""
+msgstr "(web-preglednik)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:58
 msgid "(distributed version control system)"
-msgstr ""
+msgstr "(distribuirani sustav za upravljanje verzijama)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:59
 msgid "(vector drawing)"
-msgstr ""
+msgstr "(crtanje vektorskih slika)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:60
 msgid "(painting)"
-msgstr ""
+msgstr "(crtanje)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:61
 msgid "(digital audio workstation)"
-msgstr ""
+msgstr "(obrada digitalnih audiosnimaka)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:62
 msgid "(3D graphics creation)"
-msgstr ""
+msgstr "(izrada 3D-grafika)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:64
 msgid "(image editor)"
-msgstr ""
+msgstr "(uređivač slika)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:65
 msgid "(office suite)"
-msgstr ""
+msgstr "(paket uredskih programa)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:66
 msgid "(machine learning)"
-msgstr ""
+msgstr "(strojno učenje)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:67
 msgid "(email client)"
-msgstr ""
+msgstr "(klijent e-pošte)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:68
 msgid "(multimedia player)"
-msgstr ""
+msgstr "(reprodukcija multimedije)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:71
 msgid "Server applications:"
-msgstr ""
+msgstr "Programi za poslužitelje:"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:73
 msgid "(content management system)"
-msgstr ""
+msgstr "(sustav za upravljanje sadržajem)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:74
 msgid "(distributed computing)"
-msgstr ""
+msgstr "(distribuirano računanje)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:75
 #: docroot/lib/views/linux.misunderstanding_free_software.php:76
 msgid "(web server)"
-msgstr ""
+msgstr "(web-poslužitelj)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:77
 msgid "(JavaScript runtime environment)"
-msgstr ""
+msgstr "(JavaScript okruženje izvođenja)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:78
 msgid "(virtualization)"
-msgstr ""
+msgstr "(virtualizacija)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:79
 msgid "(blog)"
-msgstr ""
+msgstr "(blog)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:82
 msgid "Formats and protocols:"
-msgstr ""
+msgstr "Formati i protokoli:"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:84
 msgid "(file sharing)"
-msgstr ""
+msgstr "(dijeljenje datoteka)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:85
 msgid "(lossless audio codec)"
-msgstr ""
+msgstr "(audio kodek bez gubitka kvalitete)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:86
 msgid "(data compression)"
-msgstr ""
+msgstr "(komprimiranje podataka)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:87
 msgid "(web pages)"
-msgstr ""
+msgstr "(web-stranice)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:88
 msgid "(container format)"
-msgstr ""
+msgstr "(format spremnika)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:89
 msgid "(office documents)"
-msgstr ""
+msgstr "(dokumenti uredskih programa)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:90
 msgid "(video file format)"
-msgstr ""
+msgstr "(videoformat)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:91
 msgid "(web real-time communication)"
-msgstr ""
+msgstr "(web-komunikacija uživo)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:94
 msgid "Complete systems:"
-msgstr ""
+msgstr "Potpuni sustavi:"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:96
 msgid "(operating system)"
-msgstr ""
+msgstr "(operacijski sustav)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:97
-#, fuzzy
 msgid "and of course, GNU/Linux."
-msgstr "Što je Linux?"
+msgstr "i naravno, GNU/Linux."
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:105
 msgid "Software should Just Work"
-msgstr ""
+msgstr "Softver mora jednostavno raditi"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:106
 msgid "Anyone should care about whether their software is free."
@@ -1982,7 +2021,7 @@ msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:134
 msgid "Read more:"
-msgstr ""
+msgstr "Saznaj više:"
 
 #. TRANSLATORS: Unless you know of a good localized resource, please leave the URL as such.
 #: docroot/lib/views/linux.misunderstanding_free_software.php:138
@@ -2156,7 +2195,7 @@ msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:198
 msgid "Further reading on the web"
-msgstr ""
+msgstr "Daljnje informacije na webu"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:202
 msgid ""
@@ -2205,12 +2244,12 @@ msgstr ""
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:24
 msgid "What is better in GNU/Linux"
-msgstr ""
+msgstr "Što je bolje u GNU/Linuxu"
 
 #. TRANSLATORS: please note the punctuation should be consistent
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:30
 msgid "It's free"
-msgstr ""
+msgstr "Sustav je slobodan"
 
 #. TRANSLATORS: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:33
@@ -2224,7 +2263,7 @@ msgstr ""
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:35
 msgid "Programs"
-msgstr ""
+msgstr "Programi"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:36
 msgid ""
@@ -2256,9 +2295,9 @@ msgid ""
 "GNU/Linux runs just as fast as the first day. And it may bring your old PC "
 "back to life."
 msgstr ""
-"Održavanje vašeg računala u formi ne bi smjelo biti problem. Linux i nakon "
-"godinu dana radi jednako brzo kao i prvog dana. Mogao bi i udahnuti život "
-"vašem starom računalu."
+"Održavanje računala u formi ne bi smjelo biti problem. Linux i nakon godinu "
+"dana radi jednako brzo kao i prvog dana. Mogao bi i udahnuti život tvom "
+"starom računalu."
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:42
 msgid ""
@@ -2269,7 +2308,7 @@ msgstr ""
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:44
 msgid "Security"
-msgstr ""
+msgstr "Sigurnost"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:45
 msgid ""
@@ -2294,11 +2333,11 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:86
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:101
 msgid "Read more in our GNU/Linux FAQ:"
-msgstr ""
+msgstr "Saznaj više na našoj stranici GNU/Linux ČPP:"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:54
 msgid "Support"
-msgstr ""
+msgstr "Podrška"
 
 #. TRANSLATORS: The first %s represents the URL to the "More" page and seconds %s represents the title of the page "More" in your language
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:56
@@ -2320,7 +2359,7 @@ msgstr ""
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:61
 msgid "What is mostly the same in GNU/Linux"
-msgstr ""
+msgstr "Što je uglavnom isto u GNU/Linuxu"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:62
 msgid ""
@@ -2330,7 +2369,7 @@ msgstr ""
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:64
 msgid "General set-up"
-msgstr ""
+msgstr "Opće postavljanje"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:65
 msgid ""
@@ -2347,7 +2386,7 @@ msgstr ""
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:68
 msgid "Web browsing and common tasks"
-msgstr ""
+msgstr "Pregledavanje interneta i uobičajene radnje"
 
 #. TRANSLATORS: use localized Firefox landing page if possible
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:70
@@ -2362,7 +2401,7 @@ msgstr ""
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:74
 msgid "What is not as good in GNU/Linux"
-msgstr ""
+msgstr "Što je manje dobro u GNU/Linuxu"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:76
 msgid "Driver support"
@@ -2422,7 +2461,7 @@ msgstr "Mogu li izvoditi moje DVD-ove i MP3-datoteke u GNU/Linuxu?"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:91
 msgid "Gaming"
-msgstr ""
+msgstr "Igre"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:92
 msgid ""
@@ -2456,7 +2495,7 @@ msgstr "Mogu li igrati popularne 3D-igre u GNU/Linuxu?"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:106
 msgid "Hibernating"
-msgstr ""
+msgstr "Neaktivnost"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:107
 msgid ""
@@ -2464,10 +2503,13 @@ msgid ""
 "most common occurrence is the loss of WiFi connection after hibernating on "
 "laptops whose hardware drivers are not free."
 msgstr ""
+"Zbog gore navedenih problema s upravljačem, neaktivnost nije uvijek "
+"pouzdana. Najčešća pojava je gubitak WiFi veze nakon neaktivnosti na "
+"prijenosnim računalima čiji upravljački programi za hardver nisu besplatni."
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:111
 msgid "Conclusion"
-msgstr ""
+msgstr "Zaključak"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:112
 msgid ""
@@ -2516,7 +2558,7 @@ msgstr ""
 
 #: docroot/lib/views/404.php:24
 msgid "Report broken link"
-msgstr ""
+msgstr "Prijavi pokvarenu poveznicu"
 
 #. TRANSLATORS: Here, the %s placeholder simply puts a link to the bug tracker.
 #: docroot/lib/views/404.php:26
@@ -2528,7 +2570,7 @@ msgstr ""
 
 #: docroot/lib/views/windows.what_about_source_code.php:16
 msgid "What about source code?"
-msgstr ""
+msgstr "Što je s izvornim kodom?"
 
 #: docroot/lib/views/windows.what_about_source_code.php:19
 msgid ""
@@ -2628,7 +2670,7 @@ msgstr ""
 
 #: docroot/lib/views/linux.faq.php:14
 msgid "Frequently asked questions"
-msgstr ""
+msgstr "Često postavljena pitanja"
 
 #: docroot/lib/views/linux.faq.php:17
 #, php-format
@@ -2639,7 +2681,7 @@ msgstr ""
 
 #: docroot/lib/views/linux.faq.php:23
 msgid "General Questions"
-msgstr "Opći upiti"
+msgstr "Opća pitanja"
 
 #: docroot/lib/views/linux.faq.php:25
 msgid "Are &quot;GNU/Linux&quot; and &quot;Linux&quot; any different?"
@@ -2650,7 +2692,7 @@ msgstr "Razlikuju li se uopće &quot;GNU/Linux&quot; i &quot;Linux&quot;?"
 msgid ""
 "You keep referring to one and the other alternatively. What is this all "
 "about?"
-msgstr "Stalno upućuješ i na jedan i na drugi. Zbog čega je tako?"
+msgstr "Stalno se navode i jedan i drugi. U čemu je razlika?"
 
 #: docroot/lib/views/linux.faq.php:31
 msgid ""
@@ -2659,9 +2701,9 @@ msgid ""
 "today are, to be precise, \"<em>distributions of the GNU/Linux system</em>\"."
 msgstr ""
 "Izvorno, <strong>Linux</strong> se odnosi na jezgrenu sastavnicu (zvanu "
-"kernel) koja je smještena unutar operativnog sustava <strong>GNU</strong>. "
-"Ono što korisnici danas pokreću jesu, zapravo, \"<em>distribucije sustava "
-"GNU/Linux</em>\"."
+"kernel) koja je smještena unutar operacijskog sustava <strong>GNU</strong>. "
+"Ono što korisnici danas pokreću su zapravo „<em>distribucije GNU/Linux "
+"sustava</em>”."
 
 #: docroot/lib/views/linux.faq.php:32
 msgid ""
@@ -2669,9 +2711,8 @@ msgid ""
 "today people refer to the whole system as simply \"Linux\". This causes a "
 "great deal of controversy."
 msgstr ""
-"U korištenju je riječ \"Linux\" pogodnija (nije iznenađujuće), a danas je "
-"ljudi poimaju u značenju cijelog operativnog sustava znanog jednostavno kao "
-"\"Linux\". To izaziva poprilično proturječje."
+"U dnevnoj upotrebi uglavnom se koristi riječ „Linux” (što ne iznenađujuće) i "
+"podrazumijeva cijeli sustav. To izaziva popriličan broj kontroverzija."
 
 #. TRANSLATORS: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
 #: docroot/lib/views/linux.faq.php:35
@@ -2683,6 +2724,11 @@ msgid ""
 "started with and are still carried by <a href=\"https://www.gnu.org/\" rel="
 "\"external\">the GNU project</a>."
 msgstr ""
+"Nazivati sustav <em>GNU/Linux</em> puno je bolje, s tehničkog stajališta ("
+"krajnji korisnici koriste puno „GNU” i malo „Linuxa”), ali i s filozofskog: "
+"snaga i zamah pokreta za<a href=\"https://www.gnu.org/philosophy/free-sw."
+"html\" rel=\"external\">slobodim softverom</a> pokrenut je i još uvijek se "
+"pokreće u <a href=\"https://www.gnu.org/\" rel=\"external\">GNU projektu</a>."
 
 #: docroot/lib/views/linux.faq.php:36
 msgid ""
@@ -2690,7 +2736,7 @@ msgid ""
 "computer users that often believe Windows is the only thing on earth."
 msgstr ""
 "Nazivati sustav <em>Linux</em> je zgodnije i privlačnije za računalne "
-"korisnike koji često vjeruju kako su Windowsi jedina postojeća stvar u ovom "
+"korisnike koji često vjeruju kako su Windowsi jedina postojeća stvar na ovom "
 "svijetu."
 
 #: docroot/lib/views/linux.faq.php:37
@@ -2721,7 +2767,7 @@ msgstr ""
 
 #: docroot/lib/views/linux.faq.php:51
 msgid "Is Linux a registered trademark?"
-msgstr "Je li Linux zaštićeni zaštitni znak?"
+msgstr "Je li Linux registriran zaštitni znak?"
 
 #: docroot/lib/views/linux.faq.php:53
 msgid ""
@@ -2729,18 +2775,21 @@ msgid ""
 "trademark is held by <a href=\"http://www.linuxmark.org/\" rel=\"external"
 "\">the Linux Mark Institute</a>."
 msgstr ""
+"Da. Ne možeš prodati bilo koji softver pod imenom Linux&reg;. Vlasnik "
+"zaštitnog znaka je <a href=\"http://www.linuxmark.org/\" rel=\"external\""
+">Linux Mark Institute</a>."
 
 #: docroot/lib/views/linux.faq.php:58
 msgid "Is GNU/Linux the only free operating system available?"
-msgstr "Je li GNU/Linux jedini dostupan slobodni operativni sustav?"
+msgstr "Je li GNU/Linux jedini dostupan slobodni operacijski sustav?"
 
 #: docroot/lib/views/linux.faq.php:60
 msgid ""
 "No. GNU/Linux is by far the most widely used free system; however a number "
 "of other systems exist."
 msgstr ""
-"Ne. GNU/Linux je daleko najrasprostranjeniji korišteni slobodni operativni "
-"sustav; međutim, postoji i niz drugih slobodnih sustava."
+"Ne. GNU/Linux je najčešće korišten slobodni operacijski sustav; međutim, "
+"postoji i niz drugih slobodnih sustava."
 
 #: docroot/lib/views/linux.faq.php:61
 msgid ""
@@ -2753,6 +2802,14 @@ msgid ""
 "rel=\"external\">FreeDOS</a>, and <a href=\"https://www.syllable.org/\" rel="
 "\"external\">Syllable</a>, just to name a few."
 msgstr ""
+"Neki od njih su UNIX derivati, npr. <a href=\"https://freebsd.org/\" rel="
+"\"external\">FreeBSD</a>, <a href=\"https://netbsd.org/\" rel=\"external\""
+">NetBSD</a>, <a href=\"https://openbsd.org/\" rel=\"external\">OpenBSD</a>, "
+"BeOS klon <a href=\"https://haiku-os.org/\" rel=\"external\">Haiku OS</a>, "
+"Windows NT klon <a href=\"http://www.reactos.com/\" rel=\"external\""
+">ReactOS</a>, DOS klon <a href=\"http://www.freedos.org/\" rel=\"external\""
+">FreeDOS</a> i <a href=\"https://www.syllable.org/\" rel=\"external\""
+">Syllable</a>."
 
 #: docroot/lib/views/linux.faq.php:66
 msgid "Is macOS a distribution of GNU/Linux?"
@@ -2771,20 +2828,22 @@ msgstr ""
 
 #: docroot/lib/views/linux.faq.php:76
 msgid "Understanding free software"
-msgstr ""
+msgstr "Pojašnjenje za slobodni softver"
 
 #: docroot/lib/views/linux.faq.php:79
 msgid ""
 "Are &quot;Open Source&quot; and &quot;Free Software&quot; the same thing?"
 msgstr ""
-"Jesu li &quot;Open Source&quot; i &quot;Free Software&quot; istovjetni "
-"pojmovi?"
+"Jesu li &quot;otvoreni kod&quot; (Open Source) i &quot;slobodan softver&quot;"
+" (Free Software) istovjetni pojmovi?"
 
 #: docroot/lib/views/linux.faq.php:81
 msgid ""
 "Yes and no. Technically, the great majority of open source programs are free "
 "software and vice-versa."
 msgstr ""
+"I da i ne. Tehnički gledano, velika većina programa otvorenog koda je "
+"slobodan softver i obrnuto."
 
 #: docroot/lib/views/linux.faq.php:82
 msgid ""
@@ -2795,7 +2854,7 @@ msgstr ""
 "U pogledu svjetonazora, stvari su prilično drugačije. Pojam &quot;otvoreni "
 "kod&quot; skovan je kako bi se &quot;slobodni softver&quot; učinio "
 "privlačnijim; njegovi podupiratelji vide softver otvorenog koda kao bolji "
-"način za stvaranje softvera."
+"način stvaranje softvera."
 
 #: docroot/lib/views/linux.faq.php:83
 msgid ""
@@ -2804,6 +2863,10 @@ msgid ""
 "\"https://www.gnu.org/philosophy/open-source-misses-the-point.html\" rel="
 "\"external\">misses the point</a>."
 msgstr ""
+"Pristalice pojma „slobodni softver” cijene slobodu, ne samo način izrade "
+"softvera, i stoga misle da pojam „otvoreni kod” <a href=\"https://www.gnu."
+"org/philosophy/open-source-misses-the-point.html\" rel=\"external\">nije "
+"odgovarajući</a>."
 
 #: docroot/lib/views/linux.faq.php:84
 msgid "Which term you employ simply depends on your vision of software."
@@ -2827,6 +2890,9 @@ msgid ""
 "\"external\">free software</a>, refers to freedom, not price. You have the "
 "freedom to copy, study, modify, and give free software away."
 msgstr ""
+"Koncept <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel="
+"\"external\">slobodnog softvera</a> odnosi se na slobodu, a ne na cijenu. "
+"Slobodni softver smije se kopirati, proučavati, mijenjati i dijeliti."
 
 #: docroot/lib/views/linux.faq.php:97
 msgid ""
@@ -2838,8 +2904,8 @@ msgid ""
 msgstr ""
 "Većina tvrtki koje razvijaju slobodni softver stvaraju dobit prodajući "
 "<strong>podršku</strong> vezanu za njihov softver, radije nego sam softver. "
-"To se ponekad postiže prodajom svega u paketu: kupac odmah kupuje CD, "
-"priručnik i ugovor za podršku. Softver ti i dalje može jamčiti slobode."
+"To se ponekad postiže prodajom svega u paketu: kupac kupuje CD, priručnik i "
+"ugovor za podršku. Softver ti i dalje može jamčiti slobode."
 
 #: docroot/lib/views/linux.faq.php:98
 msgid "More:"
@@ -2847,7 +2913,7 @@ msgstr "Više:"
 
 #: docroot/lib/views/linux.faq.php:101
 msgid "FLOSS concept booklet"
-msgstr ""
+msgstr "Knjižica FLOSS koncepta"
 
 #: docroot/lib/views/linux.faq.php:107
 msgid "Why are some GNU/Linux distributions not fully free?"
@@ -2894,6 +2960,10 @@ msgid ""
 "href=\"https://www.debian.org/\" rel=\"external\">Debian</a> (though non-"
 "free software can be installed if necessary)."
 msgstr ""
+"Neki distributeri GNU/Linuxa paze na slobodu softvera i vode računa da je "
+"njihova distribucija potpuno besplatna. <a href=\"https://www.debian.org/\" "
+"rel=\"external\">Debian</a> je takav slučaj (mada se po potrebi može "
+"instalirati neslobodni softver)."
 
 #: docroot/lib/views/linux.faq.php:118
 #, php-format
@@ -2908,8 +2978,8 @@ msgstr ""
 "Pojedini distributeri GNU/Linuxa spajaju slobodne i ograničavajuće računalne "
 "programe bez razlike. Takvi distributeri ne žele da korisnici razmišljaju o "
 "vlastitoj slobodi, već radije govore o tehničkim mogućnostima svoga "
-"proizvoda. Korištenje takvih distribucija nije puno bolje od <a href=\"%s"
-"\">korištenja Windowsa</a>. Mi cijenimo tvoju slobodu i preporučamo ti da "
+"proizvoda. Korištenje takvih distribucija nije puno bolje od <a href=\"%s\""
+">korištenja Windowsa</a>. Mi cijenimo tvoju slobodu i preporučujemo ti da "
 "pažljivo biraš!"
 
 #: docroot/lib/views/linux.faq.php:124
@@ -2983,7 +3053,7 @@ msgstr ""
 #: docroot/lib/views/linux.faq.php:144
 #, php-format
 msgid "Read more in the article: <a href=\"%s\">%s</a>."
-msgstr "Pročitaj više u članku: <a href=\"%s\">%s</a>."
+msgstr "Saznaj više u članku: <a href=\"%s\">%s</a>."
 
 #: docroot/lib/views/linux.faq.php:149
 msgid "Is GNU/Linux a form of communism?"
@@ -3008,11 +3078,11 @@ msgstr ""
 
 #: docroot/lib/views/linux.faq.php:163
 msgid "Installing GNU/Linux"
-msgstr ""
+msgstr "Instaliranje GNU/Linuxa"
 
 #: docroot/lib/views/linux.faq.php:166
 msgid "Does GNU/Linux come pre-installed on computers?"
-msgstr ""
+msgstr "Je li GNU/Linux predinstaliran na računalima?"
 
 #. TRANSLATORS: If LinuxPreloaded has not been localized to your language, please leave the URL to linuxpreloaded.com.
 #: docroot/lib/views/linux.faq.php:170
@@ -3022,6 +3092,9 @@ msgid ""
 "specially for that purpose, listing vendors that sell GNU/Linux desktops and "
 "laptops."
 msgstr ""
+"Da. Stranica <a href=\"https://linuxpreloaded.com/\" rel=\"external\" title="
+"\"GNU/Linux prijenosna računala\">LinuxPreloaded.com</a> sadrži popis "
+"prodavača računala i prijenosnih računala s GNU/Linux sustavom."
 
 #. TRANSLATORS: please leave the "#new_computer" element as such. It is an internal link.
 #: docroot/lib/views/linux.faq.php:173
@@ -3029,10 +3102,12 @@ msgid ""
 "Note that <a href=\"#new_computer\">buying new hardware is not necessary</a> "
 "to use GNU/Linux!"
 msgstr ""
+"Za korištenje GNU/Linuxa <a href=\"#new_computer\">nije potrebno kupiti novi "
+"hadrver</a>!"
 
 #: docroot/lib/views/linux.faq.php:178
 msgid "Can I get GNU/Linux in my own language?"
-msgstr "Mogu li nabaviti GNU/Linux na mom vlastitom jeziku?"
+msgstr "Mogu li nabaviti GNU/Linux na mom jeziku?"
 
 #: docroot/lib/views/linux.faq.php:181
 #, php-format
@@ -3041,6 +3116,8 @@ msgid ""
 "a>, are all available in the main languages around, and have support for "
 "many keyboard types."
 msgstr ""
+"Da. Sve glavne distribucije, poput <a href=\"%s\">onih koje preporučujemo</"
+"a>, dostupne su na najvažnijim jezicima i podržavaju mnoge vrste tipkovnica."
 
 #: docroot/lib/views/linux.faq.php:183
 msgid ""
@@ -3048,10 +3125,13 @@ msgid ""
 "is no need for you to download (or pay for!) another whole version to merely "
 "change the language on your computer."
 msgstr ""
+"Za razliku od sustava Windows, svi su jezici uključeni u svaki instalacijski "
+"CD, tako da nema potrebe za preuzimanjem (ili plaćanjem!) jedne daljnje "
+"cijele verzije samo da bi se promijenio jezik na računalu."
 
 #: docroot/lib/views/linux.faq.php:188
 msgid "Is it legal to install GNU/Linux on my computer?"
-msgstr ""
+msgstr "Smijem li instalirati GNU/Linux na moje računalo?"
 
 #. TRANSLATORS: This is italic text just below the question, which elaborates a little on it.
 #: docroot/lib/views/linux.faq.php:192
@@ -3059,12 +3139,14 @@ msgid ""
 "There is a shiny Windows sticker on it! Am I allowed to erase Windows or use "
 "it together with GNU/Linux?"
 msgstr ""
+"Na računalu se nalazi naljepnica za Windows! Smijem li izbrisati Windows ili "
+"ga koristiti zajedno s GNU/Linuxom?"
 
 #: docroot/lib/views/linux.faq.php:193
 msgid ""
 "Yes. It is absolutely, completely legal, provided of course it's your "
 "computer!"
-msgstr ""
+msgstr "Da, smiješ, pod uvjetom da si vlasnik računala!"
 
 #: docroot/lib/views/linux.faq.php:194
 msgid ""
@@ -3072,6 +3154,9 @@ msgid ""
 "is <em>one fundamental right</em> to choose which software to run on our own "
 "hardware."
 msgstr ""
+"Naljepnica na računalu je čisto stvar marketinga, nema pravnu vrijednost. Mi "
+"vjerujemo da je <em>jedno od temeljnih prava</em> mogućnost biranja softvera "
+"koji se pokreće na vlastitom hardveru."
 
 #. TRANSLATORS: If you do not know of a very good resource about DRM, please link to the Wikipedia article on DRM in your language.
 #: docroot/lib/views/linux.faq.php:197
@@ -3082,14 +3167,18 @@ msgid ""
 "Trusted Computing</a>. Read our article \"<a href=\"%s\">%s</a>\" for more "
 "information."
 msgstr ""
+"Zapravo, ovo je pravo ugroženo porastom stvari kao što su <a href=\"http"
+"://www.timj.co.uk/digiculture/drm-fallacy\" rel=\"external\">upravljanje "
+"autorskim pravima (DRM) i pozdano računarstvo (Trusted Computing)</a>. Više "
+"informacija potraži u članku „<a href=\"%s\">%s</a>”."
 
 #: docroot/lib/views/linux.faq.php:204
 msgid "Do I have to purchase a new computer to run GNU/Linux?"
-msgstr ""
+msgstr "Moram li kupiti novo računalo za pokretanje GNU/Linuxa?"
 
 #: docroot/lib/views/linux.faq.php:206
 msgid "Not at all. It will run happily on your own computer."
-msgstr "Ni najmanje. Fino će se pokretati na tvom vlastitom računalu."
+msgstr "Ne. Bez problema se pokreće na tvom računalu."
 
 #: docroot/lib/views/linux.faq.php:207
 #, php-format
@@ -3101,10 +3190,16 @@ msgid ""
 "\">Read how you can try or install GNU/Linux on your computer</a>, be it "
 "instead of or together with Windows."
 msgstr ""
+"Jedino što bi moglo biti problematično je upotreba najnovijeg posebnog "
+"hardvera, poput grafičkih kartica. Inače, gotovo se sve GNU/Linux "
+"distribucije mogu izvoditi na normalnim računalima (često se nazivaju „i386” "
+"ili „x86” računala), 64-bitnim procesorskim računalima i Apple Mac "
+"računalima. <a href=\"%s\">Pročitaj kako isprobati ili instalirati GNU/Linux "
+"na tvoje računalo</a> umjesto Windowsa ili zajedno s njim."
 
 #: docroot/lib/views/linux.faq.php:216
 msgid "Will Microsoft Office run on GNU/Linux?"
-msgstr ""
+msgstr "Je li Microsoft Office radi na GNU/Linuxu?"
 
 #: docroot/lib/views/linux.faq.php:218
 msgid ""
@@ -3114,6 +3209,11 @@ msgid ""
 "Microsoft's fierce opposition to supporting <a href=\"https://en.wikipedia."
 "org/wiki/OpenDocument\" rel=\"external\">the OpenDocument format</a>."
 msgstr ""
+"Ne. Tehnički je moguće prilagoditi Microsoft Office GNU/Linuxu, ali "
+"Microsoft ne želi dopustiti korisnicima Office programa odabrati operacijski "
+"sustav. Postoje i drugi problemi s MS Officeom i otvorenošću &ndash; poput "
+"Microsoftova žestokog protivljenja da podrži <a href=\"https://en.wikipedia."
+"org/wiki/OpenDocument\" rel=\"external\">format OpenDocument</a>."
 
 #: docroot/lib/views/linux.faq.php:219
 msgid ""
@@ -3125,16 +3225,23 @@ msgid ""
 "free (both as in freedom and as in price). And they run on Windows as well "
 "as on GNU/Linux."
 msgstr ""
+"Međutim, postoji kompletan, slobodan i pouzdan paket uredskih programa: <a "
+"href=\"https://www.libreoffice.org/\" rel=\"external\">LibreOffice</a>. "
+"Možeš se odlučiti i za <a href=\"https://www.openoffice.org/\" rel=\"external"
+"\">Apache OpenOffice</a>. Oba paketa su u stanju koristiti sve tvoje "
+"postojeće datoteke u formatu MS-Word, MS-Excel i MS-PowerPoint. Paketi su "
+"potpuno slobodni (u smislu slobodne upotrebe i cijene), a rade na oba "
+"sustava Windows i GNU/Linux."
 
 #. TRANSLATORS: If it exists, please use the localized URL of libreoffice.org. You can find localized URLs here: https://www.libreoffice.org/international-sites/
 #: docroot/lib/views/linux.faq.php:222
 msgid "https://www.libreoffice.org/"
-msgstr ""
+msgstr "https://www.libreoffice.org/"
 
 #. TRANSLATORS: If it exists, please use the localized URL of openoffice.org. You can find localized URLs here: https://www.openoffice.org/projects/native-lang.html
 #: docroot/lib/views/linux.faq.php:224
 msgid "https://www.openoffice.org/"
-msgstr ""
+msgstr "https://www.openoffice.org/"
 
 #: docroot/lib/views/linux.faq.php:232
 msgid ""
@@ -3186,16 +3293,16 @@ msgstr "https://wiki.ubuntu.com/RestrictedFormats"
 
 #: docroot/lib/views/linux.faq.php:240
 msgid "Ubuntu Restricted Formats"
-msgstr "Ubuntuovi ograničeni oblici "
+msgstr "Ubuntu ograničeni formati"
 
 #. TRANSLATORS: If it exists, please use the localized URL of this wiki page (it's sometimes hard to find). Else, please leave the URL as such.
 #: docroot/lib/views/linux.faq.php:242
 msgid "https://fedoraproject.org/wiki/Forbidden_items"
-msgstr ""
+msgstr "https://fedoraproject.org/wiki/Forbidden_items"
 
 #: docroot/lib/views/linux.faq.php:242
 msgid "Fedora Forbidden Items"
-msgstr "Fedorine zabranjene stavke"
+msgstr "Fedora zabranjene stavke"
 
 #: docroot/lib/views/linux.faq.php:250
 msgid ""
@@ -3245,10 +3352,11 @@ msgstr ""
 #, php-format
 msgid "See our \"<a href=\"%s\">%s</a>\" for more details on this subject."
 msgstr ""
+"Posjeti našu „<a href=\"%s\">%s</a>” stranicu za pojedinosti o ovoj temi."
 
 #: docroot/lib/views/linux.faq.php:276
 msgid "More questions?"
-msgstr "Još upita?"
+msgstr "Imaš još pitanja?"
 
 #. TRANSLATORS: The link will automatically point to the "more" page.
 #: docroot/lib/views/linux.faq.php:280
@@ -3258,6 +3366,9 @@ msgid ""
 "to help you. Our \"<a href=\"%s\">%s</a>\" section will help you find the "
 "right place to ask."
 msgstr ""
+"Ako imaš pitanje koje ovdje nije obrađeno, postoje razne zajednice koje mogu "
+"pomoći. U odjeljku „<a href=\"%s\">%s</a>” saznaj gdje postaviti tvoja "
+"pitanja."
 
 #. TRANSLATORS: The first link will automatically point to the contact page, the second to the bug tracker.
 #: docroot/lib/views/linux.faq.php:284
@@ -3267,6 +3378,9 @@ msgid ""
 "href=\"%s\" rel=\"external\">let us know</a>, or <a href=\"%s\" rel="
 "\"external\">file an issue</a>."
 msgstr ""
+"Ako smatraš da postoji često pitanje na koje još nismo odgovorili, <a href=\""
+"%s\" rel=\"external\">javi nam</a> ili <a href=\"%s\" rel=\"external\"> "
+"prijavi problem </a>."
 
 #. TRANSLATORS: If there is an official translation for the license, use that URL instead. Make sure you use the URL for CC BY-SA 4.0.
 #: src/templates/footer.php:7
@@ -3277,46 +3391,54 @@ msgid ""
 "rel=\"license external\"><abbr title=\"Creative Commons Attribution-"
 "ShareAlike\">CC BY-SA</abbr> 4.0 International License</a>."
 msgstr ""
+"Ako nije drugačije <a href=\"%s\">naznačeno</a>, sadržaj ove web-stranice "
+"licenciran je pod <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\""
+" rel=\"licence external\"><abbr title=\"Imenovanje – Dijeli pod istim "
+"uvjetima\">CC BY-SA</abbr> 4.0 međunarodna licenca</a>."
 
 #: src/templates/footer.php:10
 msgid ""
 "Generously hosted by <a href=\"https://www.tuxfamily.org/\" rel=\"external"
 "\">TuxFamily</a>."
 msgstr ""
+"Hosting pruža <a href=\"https://www.tuxfamily.org/\" rel=\"external\""
+">TuxFamily</a>."
 
 #: src/templates/footer.php:11
 #, php-format
 msgid "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
 msgstr ""
+"Ova je web-stranica <a href=\"%s\" rel=\"external\">slobodna i otvorenog "
+"koda</a>."
 
 #: src/templates/footer.php:19
 msgid "Resources"
-msgstr ""
+msgstr "Resursi"
 
 #: src/templates/footer.php:21
 msgid "News"
-msgstr ""
+msgstr "Novosti"
 
 #: src/templates/footer.php:25
 msgid "Participate"
-msgstr ""
+msgstr "Sudjeluj"
 
 #: src/templates/footer.php:27 src/templates/header.php:83
 #: src/templates/header.php:97
 msgid "Help translate"
-msgstr ""
+msgstr "Pomogni prevesti"
 
 #: src/templates/footer.php:32
 msgid "Community"
-msgstr ""
+msgstr "Zajednica"
 
 #: src/templates/footer.php:35
 msgid "Community forum"
-msgstr ""
+msgstr "Forum zajednice"
 
 #: src/templates/footer.php:37
 msgid "Contact us"
-msgstr ""
+msgstr "Kontakt"
 
 #, fuzzy
 #~ msgid "More in this section"
