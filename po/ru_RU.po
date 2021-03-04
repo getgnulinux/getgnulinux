@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2021-01-23 09:10+0000\n"
-"PO-Revision-Date: 2021-03-02 18:50+0000\n"
+"PO-Revision-Date: 2021-03-05 18:50+0000\n"
 "Last-Translator: Mihail Iosilevitch <yosik@tutanota.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/getgnulinux/"
 "getgnulinux-pot/ru/>\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Weblate 4.5\n"
+"X-Generator: Weblate 4.5.1-dev\n"
 
 #. TRANSLATORS: The name of the website. It is displayed in the header of each page.
 #: docroot/lib/ggl.php:207 docroot/lib/views/home.php:15
@@ -1823,19 +1823,24 @@ msgid ""
 "system which can not boot from USB. You can then use it to install GNU/Linux "
 "onto your computer."
 msgstr ""
+"Для рекомендуемых дистрибутивов Live USB это то же самое, что и установочный "
+"носитель. Вы можете скачать образ ISO (довольно большой файл) а затем "
+"создать загрузочный USB (рекомендуется) или записать на CD или DVD. Запись "
+"на CD/DVD может потребоваться для установки GNU/Linux на старые системы, "
+"которые не могут загружаться с USB. Далее вы можете использовать его, чтобы "
+"установить GNU/Linux на ваш компьютер."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:31
-#, fuzzy
 msgid ""
 "To use a live USB stick, you need a little bit of curiosity, and fifteen "
 "minutes of free time, but <strong>no advanced knowledge in computing</"
 "strong>. If you feel confident simply using Windows or macOS from time to "
 "time, then this is within your reach."
 msgstr ""
-"Чтобы воспользоваться LiveCD, Вам нужно немного любопытства и пятнадцать "
-"минут свободного времени, однако <strong>не требуется особых знаний "
-"компьютера</strong>. Если Вы чувствуете себя уверенно, просто используя "
-"Windows время от времени, тогда это Вам по силам."
+"Чтобы воспользоваться Live USB, Вам нужно немного любопытства и пятнадцать "
+"минут свободного времени, но <strong>не требуется продвинутых знаний о "
+"работе компьютера</strong>. Если Вы чувствуете себя уверенно, просто время "
+"от времени используя Windows или macOS, тогда это Вам по силам."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:35
 msgid "Installing as a dual boot"
@@ -1846,15 +1851,14 @@ msgid "Choose at start-up"
 msgstr "Выбрирать при старте"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:38
-#, fuzzy
 msgid ""
 "It is possible to install GNU/Linux along with Windows or macOS. This means "
 "that upon start-up, you will be greeted with a screen allowing you to boot "
 "into the operating system you prefer."
 msgstr ""
-"GNU/Linux поддерживает установку параллельно с Windows. Это означает, что во "
-"время загрузки компьютера Вас поприветствует экран выбора, позволяющий "
-"загрузить ту операционную систему, которую Вы хотите."
+"GNU/Linux поддерживает установку параллельно с Windows или macOS. Это "
+"означает, что во время загрузки компьютера Вас поприветствует экран выбора, "
+"позволяющий загрузить ту операционную систему, которую Вы хотите."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:39
 msgid ""
@@ -1873,12 +1877,15 @@ msgid ""
 "installed Windows or macOS on your computer, rest assured that installing "
 "GNU/Linux is no harder."
 msgstr ""
+"Установка GNU/Linux на компьютер займет менее 30 минут. Это не очень "
+"очевидный шаг для полных новичков, но если вы используете компьютер "
+"ежедневно, это достаточно просто. Если вы уже переустанавливали Windows или "
+"macOS, будьте уверены, установка GNU/Linux не труднее."
 
 #. TRANSLATORS: "Image" refers to a downloadable ISO image and can be translated loosely.
 #: docroot/lib/views/switch_to_linux.try_or_install.php:48
-#, fuzzy
 msgid "Get the image you need"
-msgstr "Получите диск, который Вам нужен"
+msgstr "Получите образ, который Вам нужен"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:56
 #: docroot/lib/views/switch_to_linux.try_or_install.php:71
@@ -1888,14 +1895,16 @@ msgid ""
 "<a href=\"%s\" rel=\"external\">Create a live USB stick</a> or <a href=\"%s"
 "\" rel=\"external\">burn it to a CD/DVD</a>."
 msgstr ""
+"<a href=\"%s\" rel=\"external\">Создание Live USB</a> или <a href=\"%s\" rel="
+"\"external\">запись на CD/DVD</a>."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:56
 msgid "https://www.debian.org/CD/faq/#write-usb"
-msgstr ""
+msgstr "https://www.debian.org/CD/faq/#write-usb"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:56
 msgid "https://www.debian.org/CD/faq/#record-windows"
-msgstr ""
+msgstr "https://www.debian.org/CD/faq/#record-windows"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:57
 #, php-format
@@ -1903,24 +1912,26 @@ msgid ""
 "Then use it to <a href=\"%s\" rel=\"external\">install Debian</a> onto your "
 "computer."
 msgstr ""
+"Затем используйте его, чтобы <a href=\"%s\" rel=\"external\">установить "
+"Debian</a> на ваш компьютер."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:57
 msgid "https://www.debian.org/releases/stable/installmanual"
-msgstr ""
+msgstr "https://www.debian.org/releases/stable/installmanual"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:61
-#, fuzzy
 msgid "Download Debian"
-msgstr "Скачать Ubuntu"
+msgstr "Скачать Debian"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:71
 msgid ""
 "https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows"
 msgstr ""
+"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:71
 msgid "https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows"
-msgstr ""
+msgstr "https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:72
 #, php-format
@@ -1928,10 +1939,12 @@ msgid ""
 "Then use it to <a href=\"%s\" rel=\"external\">install Ubuntu</a> onto your "
 "computer."
 msgstr ""
+"Затем используйте его, чтобы <a href=\"%s\" rel=\"external\">установить "
+"Ubuntu</a> на компьютер."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:72
 msgid "https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop"
-msgstr ""
+msgstr "https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:76
 msgid "Download Ubuntu"
@@ -1942,6 +1955,8 @@ msgid ""
 "https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/"
 "Preparing_for_Installation/#sect-preparing-boot-media"
 msgstr ""
+"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/"
+"Preparing_for_Installation/#sect-preparing-boot-media"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:87
 #, php-format
@@ -1949,12 +1964,16 @@ msgid ""
 "Then use it to <a href=\"%s\" rel=\"external\">install Fedora</a> onto your "
 "computer."
 msgstr ""
+"Затем используйте его, чтобы <a href=\"%s\" rel=\"external\">установить "
+"Fedora</a> на компьютер."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:87
 msgid ""
 "https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/"
 "Booting_the_Installation/"
 msgstr ""
+"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/"
+"Booting_the_Installation/"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:91
 msgid "Download Fedora"
@@ -1967,6 +1986,9 @@ msgid ""
 "free?\" rel=\"external\">free software</a>. You are simply paying a handling/"
 "shipping fee."
 msgstr ""
+"Заметка: Купленные и скачанные CD идентичны! GNU/Linux это <a href=\"https"
+"://www.gnu.org/philosophy/free-sw.html\" rel=\"external\" title=\"What do "
+"you mean, free?\">свободное ПО</a>. Вы просто платите за доставку/обработку."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:103
 msgid "Free Software pre-installed"
@@ -1974,7 +1996,7 @@ msgstr "Свободное ПО из коробки"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:104
 msgid "Computer with GNU/Linux pre-installed"
-msgstr ""
+msgstr "Компьютер с предустановленным GNU/LInux"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:105
 msgid ""
@@ -1984,10 +2006,15 @@ msgid ""
 "linuxpreloaded.com/\" rel=\"external\">LinuxPreloaded.com</a> has compiled a "
 "list of vendors pre-installing GNU/Linux just for that reason."
 msgstr ""
+"Не все компьютеры доставляются с Windows или macOS. Если вы не хотите самому "
+"заниматься установкой или вам нужно новое железо, вы можете просто купить "
+"ноутбук или полноразмерный ПК с предустановленным GNU/Linux. На <a href="
+"\"https://linuxpreloaded.com/\" rel=\"external\">LinuxPreloaded.com</a> "
+"хранится список производителей, предустанавливающих GNU/Linux."
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:29
 msgid "The software industry can't keep going if programmers don't get paid"
-msgstr ""
+msgstr "Индустрия ПО не сможет развиваться, если программистам не будут платить"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:31
 msgid ""
@@ -2064,7 +2091,7 @@ msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:42
 msgid "Innovation is killed in free software"
-msgstr ""
+msgstr "Инновации убиваются свободным ПО"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:43
 msgid ""
@@ -2106,31 +2133,29 @@ msgstr ""
 "приведем следующие:"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:54
-#, fuzzy
 msgid "Applications:"
-msgstr "Доступ к приложениям"
+msgstr "Приложения:"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:56
 msgid "(text editor)"
-msgstr ""
+msgstr "(текстовый редактор)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:57
 #: docroot/lib/views/linux.misunderstanding_free_software.php:63
-#, fuzzy
 msgid "(web browser)"
-msgstr "Веб-браузер Firefox"
+msgstr "(веб-браузер)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:58
 msgid "(distributed version control system)"
-msgstr ""
+msgstr "(распределенная система контроля версий)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:59
 msgid "(vector drawing)"
-msgstr ""
+msgstr "(векторное рисование)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:60
 msgid "(painting)"
-msgstr ""
+msgstr "(рисование)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:61
 msgid "(digital audio workstation)"
@@ -2138,90 +2163,88 @@ msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:62
 msgid "(3D graphics creation)"
-msgstr ""
+msgstr "(создание 3D графики)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:64
 msgid "(image editor)"
-msgstr ""
+msgstr "(редактор изображений)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:65
 msgid "(office suite)"
-msgstr ""
+msgstr "(пакет офисных программ)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:66
 msgid "(machine learning)"
-msgstr ""
+msgstr "(машинное обучение)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:67
 msgid "(email client)"
-msgstr ""
+msgstr "(клиент электронной почты)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:68
 msgid "(multimedia player)"
-msgstr ""
+msgstr "(мультимедийный проигрыватель)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:71
-#, fuzzy
 msgid "Server applications:"
-msgstr "Доступ к приложениям"
+msgstr "Серверные приложения:"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:73
 msgid "(content management system)"
 msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:74
-#, fuzzy
 msgid "(distributed computing)"
-msgstr "Trusted Computing (англ.)"
+msgstr "(распределенные вычисления)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:75
 #: docroot/lib/views/linux.misunderstanding_free_software.php:76
 msgid "(web server)"
-msgstr ""
+msgstr "(веб сервер)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:77
 msgid "(JavaScript runtime environment)"
-msgstr ""
+msgstr "(окружение JavaScript)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:78
 msgid "(virtualization)"
-msgstr ""
+msgstr "(виртуализация)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:79
 msgid "(blog)"
-msgstr ""
+msgstr "(блог)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:82
 msgid "Formats and protocols:"
-msgstr ""
+msgstr "Форматы и протоколы:"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:84
 msgid "(file sharing)"
-msgstr ""
+msgstr "(обмен файлами)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:85
 msgid "(lossless audio codec)"
-msgstr ""
+msgstr "(lossless аудиокодек)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:86
 msgid "(data compression)"
-msgstr ""
+msgstr "(сжатие данных)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:87
 msgid "(web pages)"
-msgstr ""
+msgstr "(веб страницы)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:88
 msgid "(container format)"
-msgstr ""
+msgstr "(формат контейнеров)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:89
 msgid "(office documents)"
-msgstr ""
+msgstr "(офисные документы)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:90
 msgid "(video file format)"
-msgstr ""
+msgstr "(формат видеофайлов)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:91
 msgid "(web real-time communication)"
@@ -2229,20 +2252,19 @@ msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:94
 msgid "Complete systems:"
-msgstr ""
+msgstr "Полные системы:"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:96
 msgid "(operating system)"
-msgstr ""
+msgstr "(операционная система)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:97
-#, fuzzy
 msgid "and of course, GNU/Linux."
-msgstr "Прочитайте и узнайте больше про Linux."
+msgstr "и, конечно, GNU/Linux."
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:105
 msgid "Software should Just Work"
-msgstr ""
+msgstr "ПО должно Просто Работать"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:106
 msgid "Anyone should care about whether their software is free."
@@ -2258,10 +2280,10 @@ msgid ""
 "not harmful to the society and environment?"
 msgstr ""
 "Представьте, что Вам запрещено заглядывать под капот купленного Вами же "
-"автомобиля.  Не важно, знаете Вы, как работает машина; суть в том, что никто "
-"не сможет проверить мотор.  Как Вы можете доверять своей машине, если никому "
-"не позволено убедиться, что он надёжен и не течёт, что он не приносит вреда "
-"обществу и окружающей среде?"
+"автомобиля. Не важно, знаете Вы, как работает машина &ndash; суть в том, что "
+"никто не сможет проверить мотор. Как Вы можете доверять своей машине, если "
+"никому не позволено убедиться, что мотор надёжен и не течёт, что он не "
+"приносит вреда обществу и окружающей среде?"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:108
 msgid ""
@@ -2269,10 +2291,10 @@ msgid ""
 "<strong>much more</strong> than move cars. Software runs our computers, "
 "phones, TVs, media players and more, carrying information and our culture."
 msgstr ""
-"То же самое и с программами — кроме того, что код делает <strong>намного "
-"больше</strong>, чем приводит в движение автомобиль.  Программы управляют "
-"нашими компьютерами, телефона, телевизорами, медиа-проигрывателями и всем "
-"остальным; хранят информацию и нашу культуру."
+"То же самое и с программами &ndash; кроме того, что код делает "
+"<strong>намного больше</strong>, чем приводит в движение автомобиль. "
+"Программы управляют нашими компьютерами, телефонами, телевизорами, медиа-"
+"проигрывателями и всем остальным; хранят информацию и нашу культуру."
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:109
 msgid ""
@@ -2285,7 +2307,7 @@ msgstr ""
 
 #. TRANSLATORS: The %s placeholder will automatically point to the 'try and install' page
 #: docroot/lib/views/linux.misunderstanding_free_software.php:112
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "The good news are: <em>free software also Just Works.</em> And in fact, it "
 "often Just Works Better. <a href=\"%s\">Pop in a GNU/Linux live USB stick</"
