@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2021-01-23 09:10+0000\n"
-"PO-Revision-Date: 2021-02-09 08:50+0000\n"
+"PO-Revision-Date: 2021-03-12 11:03+0000\n"
 "Last-Translator: Liu Tao <lyuutau@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "getgnulinux/getgnulinux-pot/zh_Hans/>\n"
@@ -30,12 +30,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 4.5.2-dev\n"
 
 #. TRANSLATORS: The name of the website. It is displayed in the header of each page.
 #: docroot/lib/ggl.php:207 docroot/lib/views/home.php:15
 msgid "get GNU/Linux!"
-msgstr "获取GNU/Linux！"
+msgstr "获取 GNU/Linux！"
 
 #: docroot/lib/ggl.php:211
 msgid "Home"
@@ -59,7 +59,7 @@ msgstr "什么是 GNU/Linux？"
 #: docroot/lib/views/linux.php:112
 #: docroot/lib/views/windows.what_about_source_code.php:65
 msgid "Why not Windows"
-msgstr "抛弃Windows"
+msgstr "抛弃 Windows"
 
 #. TRANSLATORS: This appears in the top header menu and should be as short and concise as possible.
 #: docroot/lib/ggl.php:214 docroot/lib/ggl.php:248
@@ -188,7 +188,7 @@ msgstr "什么是 GNU/Linux? 一个清晰的解释。"
 #. TRANSLATORS: This is the description of the 'GNU/Linux FAQ' page
 #: docroot/lib/ggl.php:266
 msgid "Frequently Asked Questions about GNU/Linux."
-msgstr "关于GNU/Linux的高频提问。"
+msgstr "关于 GNU/Linux 的常见提问。"
 
 #. TRANSLATORS: This is the description of the 'GNU/Linux virus FAQ' page
 #: docroot/lib/ggl.php:268
@@ -208,7 +208,7 @@ msgid ""
 "If you wish GNU/Linux to be just exactly like Windows, you will probably be "
 "disappointed. GNU/Linux is built by people who simply wish it to be "
 "different."
-msgstr ""
+msgstr "如果你希望 GNU/Linux 和 Windows 一模一样，你可能会失望。GNU/Linux 是由那些单纯希望它与众不同的人建立的。"
 
 #. TRANSLATORS: This is the description of the 'Why not Windows' page
 #: docroot/lib/ggl.php:274
@@ -304,7 +304,7 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.php:48
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:136
 msgid "Read more"
-msgstr "继续阅读"
+msgstr "深入阅读"
 
 #: docroot/lib/views/windows.php:44
 msgid "Software should come without locks in it."
@@ -316,25 +316,20 @@ msgid ""
 "continually changing? Why can you not even uninstall some programs? It might "
 "be that if you look for choice, Microsoft products aren't for you."
 msgstr ""
-"为什么Office文档难于导出呢？为什么它的格式持续变更呢？更有甚者，您无法卸载一"
-"些程序。如果您希望有更多选择的余地，那么Microsoft的产品可能不适合您。"
+"为什么 Office 文档难于导出呢？为什么它的格式持续变更呢？更有甚者，您无法卸载一些程序。如果您希望有更多选择的余地，那么微软的产品可能不适合您。"
 
 #: docroot/lib/views/windows.php:59
 msgid ""
 "The source codes of Windows and Office are hidden, so, <strong>no one is "
 "allowed to understand</strong> how these programs work."
-msgstr ""
-"Windows和Office的源代码不可见，因此，<strong>不允许任何人去理解</strong>这些"
-"程序是如何运作的。"
+msgstr "Windows 和 Office的源代码不可见，因此，<strong>任何人不被允许去理解</strong>这些程序是如何运作的。"
 
 #: docroot/lib/views/windows.php:60
 msgid ""
 "If you can't get a right to inspect source code (the human-readable inner "
 "workings of a program), you can't have someone correct flaws or evaluate how "
 "your privacy is protected for you."
-msgstr ""
-"倘若您不能获得检视源代码（一个程序的内部机理）的权利，您就不能让专业人士修补"
-"缺陷或评估您的隐私是否受到保护。"
+msgstr "倘若您不能获得检视源代码（人能理解的程序内部机理）的权利，您就不能让专业人士修补缺陷或评估您的隐私是否受到保护。"
 
 #: docroot/lib/views/windows.php:61
 msgid ""
@@ -343,8 +338,7 @@ msgid ""
 "industry, in which Microsoft is now a significant player, prefers you to use "
 "Windows."
 msgstr ""
-"猜怎么着？病毒对那些与源代码一同发布的软件失效了，您不比为安全额外破费。反病"
-"毒产业是特别希望你用 Windows 的，Microsoft 在这里面可是一个重要角色。"
+"猜怎么着？病毒对那些与源代码一同发布的软件失效了，您不比为安全额外破费。反病毒产业是特别希望你用 Windows 的，微软在这里面可是一个重要角色。"
 
 #. TRANSLATORS: In your language, you might not need to make the distinction between price and freedom. Please do however express that price does not matter, in this sentence.
 #: docroot/lib/views/windows.php:74
@@ -390,9 +384,8 @@ msgid ""
 "them using it. macOS is <a href=\"%s#mac_freedom\">not much better</a>, "
 "either."
 msgstr ""
-"许多人都发现，视窗操作系统虽然是非常优秀的软件，却<strong>剥夺了用户太多的权"
-"利</strong> 所以不值得使用。macOS 也 <a href=\"%s#mac_freedom\">没有好到哪里"
-"去</a>。"
+"许多人都发现，Windows 虽然是非常优秀的软件，却<strong>剥夺了用户太多的权利</strong>，所以不值得使用。macOS 也 <a "
+"href=\"%s#mac_freedom\">没有好到哪里去</a>。"
 
 #: docroot/lib/views/windows.php:92
 #, php-format
@@ -402,11 +395,14 @@ msgid ""
 "attractive, you might want to <a href=\"%s\" title=\"make the switch to GNU/"
 "Linux today!\">give GNU/Linux a try</a>."
 msgstr ""
+"如果您觉得<a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\""
+" title=\"what is freedom in software?\">自由软件</a>很有吸引力，您可能想要<a href=\"%s\" "
+"title=\"make the switch to GNU/Linux today!\">尝试一下 GNU/Linux</a>。"
 
 #: docroot/lib/views/windows.php:99 docroot/lib/views/home.php:48
 #: docroot/lib/views/linux.php:126
 msgid "Where to download and how to step into GNU/Linux"
-msgstr "下载和使用 GNU/Linux"
+msgstr "如何下载和使用 GNU/Linux"
 
 #: docroot/lib/views/windows.restrictions.php:18
 msgid ""
@@ -448,7 +444,7 @@ msgid "There are a number of restrictions that you must accept by law."
 msgstr "在法律上，有许多的限制您必须接受。"
 
 #: docroot/lib/views/windows.restrictions.php:37
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "Restrictions on who can use the software, what kind of revenue you may earn "
 "with it, on how you choose to install it, restrictions on your privacy, even "
@@ -456,9 +452,8 @@ msgid ""
 "the license and enumerating your remaining rights</a> is itself a difficult "
 "task."
 msgstr ""
-"谁可以使用这个软件，您可以从中获得怎样的收益，或者您如何安装此软件，您的隐私"
-"将会怎样被使用，甚至您是否可以将它送给别人：限制列表非常长。从中<a href=\"%s"
-"\">了解您所剩不多的权利</a>是一项艰难的工作。"
+"谁可以使用这个软件，您可以从中获得怎样的收益，或者您如何安装此软件，您的隐私将会怎样被使用，甚至您是否可以将它送给别人：限制列表非常长。从中<a "
+"href=\"%s\">了解您所剩不多的权利</a>是一项艰难的工作。"
 
 #. TRANSLATORS: Don't bother with the 'abbr' code. You can tranlsate as 'OEM [pre-installed]'
 #: docroot/lib/views/windows.restrictions.php:44
@@ -467,8 +462,8 @@ msgid ""
 "seller)\">OEM</abbr>-distributed software cannot be transferred to another "
 "computer."
 msgstr ""
-"一个<abbr title=\"原始设备制造商\">OEM(硬件销售商)</abbr>发布的软件不能被安装"
-"在另一台计算机上。"
+"一个<abbr title=\"Original Equipment Manufacturer (simply the hardware seller)"
+"\">OEM（硬件销售商）</abbr>发布的软件不能被安装在另一台计算机上。"
 
 #. TRANSLATORS: Don't bother with the 'shrink-wrap' expression. You can skip that bit if you wish.
 #: docroot/lib/views/windows.restrictions.php:48
@@ -477,8 +472,8 @@ msgid ""
 "called OEM licenses, or the \"shrink wrap\" Windows discs), <strong>if you "
 "change computers you must buy software again.</strong>"
 msgstr ""
-"如果您购买了一台预装 Windows 或者 Ofiice 的计算机（也就是所谓的OEM授权，或"
-"者“缩水”的 Windows光盘），<strong>更换计算机后就必须再购买新的授权.</strong>"
+"如果您购买了一台预装 Windows 或者 Ofiice 的计算机（也就是所谓的 OEM 授权，或者“缩水”的 Windows "
+"光盘），<strong>更换计算机后就必须再购买新的授权。</strong>"
 
 #: docroot/lib/views/windows.restrictions.php:49
 msgid ""
@@ -496,8 +491,8 @@ msgid ""
 "whichever terms and conditions you have to accept in order to use that "
 "software."
 msgstr ""
-"如果您访问大多数的自由软件网站，您可以找到[GNU] <abbr title=\"通用公共许可"
-"证，大多数自由软件使用的许可协议\">GPL</abbr>，X许可证和Apache许可证等。"
+"如果您访问大多数的自由软件网站，您可以找到 [GNU] <abbr title=\"General Public License, the main "
+"free software license\">GPL</abbr>，X 许可证和 Apache 许可证等。"
 
 #: docroot/lib/views/windows.restrictions.php:58
 msgid ""
@@ -548,6 +543,10 @@ msgid ""
 "better than just freeware): its <a href=\"https://www.gnu.org/copyleft/gpl."
 "html\" rel=\"external\">GPL</a> license is designed to protect your rights."
 msgstr ""
+"<strong>您可以选择打破这个法律，</strong>或者忍受着拘谨遵守这个法律。GNU/Linux 是 <a href=\"https://www."
+"gnu.org/philosophy/free-sw.html\" rel=\"external\">自由软件</a>（比单纯的免费软件好得多）：它的 "
+"<a href=\"https://www.gnu.org/copyleft/gpl.html\" rel=\"external\">GPL</a> "
+"许可证旨在保护您的权利。"
 
 #: docroot/lib/views/windows.restrictions.php:74
 msgid "Restrictions - further details"
@@ -606,17 +605,14 @@ msgstr ""
 msgid ""
 "Though no one has a proprietary lock on yoga, it is still a thriving $30 "
 "billion business in the United States."
-msgstr ""
-"因为没有人受到所有权的枷锁，瑜伽在美国仍是一个产值超30亿美元的兴旺产业。"
+msgstr "因为没有人受到所有权的枷锁，瑜伽在美国仍是一个产值超 300 亿美元的兴旺产业。"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:51
 msgid ""
 "No chef would ever forbid you to modify his recipe and make derivatives out "
 "of it. The food industry thrives despite being required by law to list "
 "ingredients on product labels."
-msgstr ""
-"没有人会阻止您修改他菜谱，并对其进行派生。根据法律规定产品的配料被列在商品标"
-"签上，餐饮行业却也能蓬勃发展。"
+msgstr "没有人会阻止您修改他的菜谱，并对其进行派生。根据法律规定产品的配料被列在商品标签上，餐饮行业却也能蓬勃发展。"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:52
 msgid ""
@@ -633,12 +629,12 @@ msgid ""
 "market&quot;: all are necessary for a free society. Unconvinced? Let us look "
 "at proprietary software a little closer."
 msgstr ""
-"自由软件不仅在“言论”上是自由的，还在“市场”上拥有自由——这些在自由的社会上都是"
-"必须的。不服气？让我们再看看专有软件吧。"
+"自由软件不仅在&ldquo;言论&rdquo;上是自由的，还在&ldquo;市场&rdquo;上拥有自由——这些在自由的社会上都是必须的。不服气？让我们再"
+"看看专有软件吧。"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:58
 msgid "Proprietary software going wrong"
-msgstr "私有软件错了"
+msgstr "专有软件错了"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:59
 #, php-format
@@ -648,8 +644,8 @@ msgid ""
 "interferes with the spread of culture and information. This happens mainly "
 "through two technologies:"
 msgstr ""
-"专有软件的限制超越了安全问题(浏览<a href=\"%s\">我们关于源代码问题的文章</"
-"a>)：今天专有软件对文化与信息自由传播的干扰，主要采用下列两种技术："
+"专有软件的限制超越了安全问题（浏览<a href=\"%s\""
+">我们关于源代码问题的文章</a>）：今天专有软件对文化与信息自由传播的干扰，主要采用下列两种技术："
 
 #. TRANSLATORS: This is sometimes only known as "DRM" in some languages. Please choose the vocabulary carefully. The %s placeholder links to a footnote which explains why we use the term "Digital Restrictions Management": https://www.getgnulinux.org/windows/stand_for_a_free_society/#footnote_bottom1
 #: docroot/lib/views/windows.stand_for_a_free_society.php:64
@@ -688,9 +684,7 @@ msgstr ""
 #: docroot/lib/views/windows.stand_for_a_free_society.php:72
 msgid ""
 "Imagine a book that automatically became glued shut after you read it once."
-msgstr ""
-"想象您购买了这样一本书，当您阅读一遍之后他会自动把每页粘在一起防止您把它和其"
-"他人分享。"
+msgstr "想象这样一本书，当您阅读一遍之后他会自动把每页粘在一起。"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:73
 msgid ""
@@ -706,12 +700,12 @@ msgstr "想象这样一台电话机，只有当您呼叫同样牌子电话的人
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:76
 msgid "Sounds crazy? This is where Trusted Computing comes in."
-msgstr "听起来很疯狂吧？这就是可信计算(TC)。"
+msgstr "听起来很疯狂吧？这就是可信计算。"
 
 #. TRANSLATORS: This is sometimes only known as "Trusted Computing", not TC, in some languages. Please choose the vocabulary carefully.
 #: docroot/lib/views/windows.stand_for_a_free_society.php:80
 msgid "Trusted Computing (TC)"
-msgstr "可信计算(TC)"
+msgstr "可信计算（TC）"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:81
 msgid ""
@@ -739,10 +733,8 @@ msgid ""
 "office, or play your neighbour's DVD, or send your essay to someone not "
 "using the same program."
 msgstr ""
-"可信计算带来的最严重的问题是，<strong>您不能决定</strong>什么是可信的而什么不"
-"是。您的计算机可能会拒绝运行没有受到软件厂商认证的程序——这可能是一个让您把文"
-"档带出办公室，或是播放您邻居的DVD，或者让您给并不使用同一软件的人发送信息的软"
-"件。"
+"可信计算带来的最严重的问题是，<strong>您不能决定</strong>什么是可信的而什么不是。您的计算机可能会拒绝运行没有受到软件厂商认证的程序——这"
+"可能是一个让您把文档带出办公室，或是播放您邻居的 DVD，或者让您给并不使用同一软件的人发送信息的软件。"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:84
 msgid ""
@@ -753,10 +745,9 @@ msgid ""
 "read but can't save or copy. All of a sudden, Trusted Computing and DRM "
 "enable <strong>remote control</strong> over content."
 msgstr ""
-"这所有的可能性使得公司（比如专有软件和音像公司）能够限制您的计算机。租到一个"
-"只能播放两次的DVD，购买到只能在九月听的音乐，或者只能阅读而不能保存的信息成为"
-"了现实。就在突然之间，信任计算和DRM开启了通过内容<strong>远程控制</strong>的"
-"时代。"
+"这所有的可能性使得公司（比如专有软件和音像公司）能够限制您的计算机。租到一个只能播放两次的 "
+"DVD，购买到只能在九月听的音乐，或者只能阅读而不能保存的信息成为了现实。就在突然之间，信任计算和 DRM "
+"开启了通过内容<strong>远程控制</strong>的时代。"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:85
 msgid ""
@@ -774,9 +765,7 @@ msgid ""
 "Many cultural products are now emerging &quot;triple protected&quot;, not "
 "only by copyright and code, but also by contracts or licenses for which "
 "users waive all remaining rights."
-msgstr ""
-"文化产品现在集成了“三重保护”，不止被版权和法规保护，还有许多的合同和许可证使"
-"得用户放弃所剩无几的权利。"
+msgstr "文化产品现在集成了&ldquo;三重保护&rdquo;，不止被版权和法规保护，还有许多的合同和许可证使得用户放弃所剩无几的权利。"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:96
 msgid ""
@@ -814,8 +803,7 @@ msgid ""
 "information are not simply turned into products (they are right now, and "
 "that is fine), but into <em>consumable</em> products."
 msgstr ""
-"想想未来，文化和信息不再仅仅是商品(它们现在是，这没问题)，而是成为了<em>消耗"
-"品</em>。可信计算和 DRM 为这样的社会铺平了一条道路。"
+"想想未来，文化和信息不再仅仅是商品（它们现在是，这没问题），而是成为了<em>消耗品</em>。可信计算和 DRM 为这样的社会铺平了一条道路。"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:120
 msgid ""
@@ -825,10 +813,8 @@ msgid ""
 "Windows have no transparency. A free culture and a free society cannot grow "
 "from such software."
 msgstr ""
-"代码就是力量。许多今天的工作文档是在专有软件中完成的，它们被写于、编码于秘密"
-"的算法中。明天的书籍、摄影作品、电影、随笔、动画、音乐甚至新闻会有什么？像"
-"Windows这样的专有软件没有任何透明，一个自由的文明和自由的社会不会产生出如此的"
-"作品。"
+"代码就是力量。许多今天的工作文档是在专有软件中完成的，它们被写于、编码于秘密的算法中。明天的书籍、摄影作品、电影、随笔、动画、音乐甚至新闻会有什么？像 "
+"Windows 这样的专有软件没有任何透明，一个自由的文明和自由的社会不会产生出如此的作品。"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:121
 #, php-format
@@ -849,7 +835,7 @@ msgstr "阅读的权力"
 msgid ""
 "What is the Trusted Computing world like? This is a short story by Richard "
 "Stallman that describes how this can affect any of us."
-msgstr "您没有完全读过您的许可证吗？让我们来帮你完成这项工作吧。"
+msgstr "可信计算的世界是什么样的？这是 Richard Stallman 的一个小故事，描述了它如何影响我们每一个人。"
 
 #. TRANSLATORS: Unless you know of a very good resource about DRM, please point to the Wikipedia article about DRM in your language, if it exists
 #: docroot/lib/views/windows.stand_for_a_free_society.php:137
@@ -881,15 +867,15 @@ msgstr ""
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:148
 msgid "Free Knowledge requires Free Software and Free File Formats"
-msgstr "自由的知识需要自由软件和自由的文件格式"
+msgstr "自由的知识需要自由的软件和自由的文件格式"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:149
 msgid ""
 "An engaged article by Jimmy Wales, who co-founded the free encyclopedia <a "
 "href=\"https://www.wikipedia.org/\" rel=\"external\">Wikipedia</a>."
 msgstr ""
-"这篇引人入胜的文章出自<a href=\"https://www.wikipedia.org/\" rel=\"external"
-"\">Wikipedia</a>的联合创始人Jimmy Wales。"
+"这篇引人入胜的文章出自<a href=\"https://www.wikipedia.org/\" rel=\"external\""
+">Wikipedia</a>的联合创始人 Jimmy Wales。"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:152
 msgid "https://www.lafkon.net/tc/"
@@ -913,7 +899,7 @@ msgstr "https://www.gnu.org/philosophy/why-free.html"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:159
 msgid "Why Software Should Not Have Owners"
-msgstr "为什么软件不应该被占有"
+msgstr "为什么软件不应该有所有者"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:160
 msgid ""
@@ -934,9 +920,8 @@ msgid ""
 "although it has little to do with rights &ndash; \"Digital Restrictions "
 "Management\" is a more accurate name."
 msgstr ""
-"注意：DRM是“数字版权管理(Digital Rights Management)”的简称。尽管它确实有做一"
-"些关于版权的事情，不过“数字限制管理(Digital Restrictions Management)是一个更"
-"恰切的名称。"
+"注意：DRM 是“数字版权管理 (Digital Rights Management)”的简称。尽管它确实有做一些关于版权的事情，不过“数字限制管理 ("
+"Digital Restrictions Management) 是一个更贴切的名称。"
 
 #. TRANSLATORS: This is the very first sentence every visitor is going to read. Please pay great attention to making it sound great, we only have one try! =)
 #: docroot/lib/views/home.php:18
@@ -945,12 +930,12 @@ msgid ""
 "use and gives more freedom to users. Anyone can install it: GNU/Linux is "
 "free as in freedom, and often available free of charge."
 msgstr ""
-"GNU/Linux 是 Microsoft Windows 或 macOS 的一个替代品。简单易用，并且用户拥有"
-"更多自由。任何人都可以安装：GNU/Linux是自由的，通常亦是免费的。"
+"GNU/Linux 是 Microsoft Windows 或 macOS 的一个替代品。简单易用，并且用户拥有更多自由。任何人都可以安装：GNU/"
+"Linux 是自由的，通常亦是免费的。"
 
 #: docroot/lib/views/home.php:26
 msgid "Learn more about the free operating system"
-msgstr "GNU/Linux自由操作系统的更多方面"
+msgstr "了解自由的操作系统的更多方面"
 
 #: docroot/lib/views/home.php:37 docroot/lib/views/linux.php:113
 msgid "Why we should avoid using Microsoft Windows"
@@ -962,13 +947,15 @@ msgstr "外部网站选读。"
 
 #: docroot/lib/views/more.php:22
 msgid "Questions and help"
-msgstr ""
+msgstr "问题与帮助"
 
 #: docroot/lib/views/more.php:33
 msgid ""
 "<strong>Unix &amp; Linux Stack Exchange</strong> is a question and answer "
 "site for users of GNU/Linux. This site is all about getting answers."
 msgstr ""
+"<strong>Unix &amp; Linux Stack Exchange</strong> 是一个面向 GNU/Linux "
+"用户的问答网站。这个网站就是为了得到答案。"
 
 #: docroot/lib/views/more.php:41
 msgid ""
@@ -976,6 +963,8 @@ msgid ""
 "Even for users of different distributions of GNU/Linux this can be a helpful "
 "resource for finding answers."
 msgstr ""
+"<strong>Ask Ubuntu</strong> 是一个针对 Ubuntu 用户的问答网站。即使对于不同 GNU/Linux "
+"发行版的用户来说，这也是一个很有帮助的资源。"
 
 #: docroot/lib/views/more.php:49
 msgid ""
@@ -983,6 +972,8 @@ msgid ""
 "to the community to get help with installing, using, customizing, and "
 "upgrading a system running Fedora."
 msgstr ""
+"<strong>Ask Fedora</strong> 是 Fedora 用户的论坛。在这里您可以与社区交流，以获得安装、使用、定制和升级运行 "
+"Fedora 系统的帮助。"
 
 #: docroot/lib/views/more.php:53
 msgid "Learn and read more"
@@ -1000,6 +991,8 @@ msgid ""
 "href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">free "
 "software</a> that gave birth to GNU/Linux."
 msgstr ""
+"自由软件基金会捍卫并倡导<a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel="
+"\"external\">自由软件</a>的概念，这正是 GNU/Linux 的诞生原因。"
 
 #: docroot/lib/views/more.php:78
 msgid ""
@@ -1017,7 +1010,7 @@ msgstr "微软为了确保用户在他们产品的严格控制下而做出了巨
 msgid ""
 "About 3 million computers get sold every year in China, but people don't pay "
 "for the software."
-msgstr "中国每年卖出 3 百万计算机，但人们却不为软件付应付的费用。"
+msgstr "中国每年卖出 300 万台计算机，但人们却不为软件付应付的费用。"
 
 #: docroot/lib/views/windows.what_about_choice.php:28
 msgid ""
@@ -1050,8 +1043,8 @@ msgid ""
 "Office files. People who opted without expensive Microsoft products cannot "
 "write and read <code>.doc</code> files very reliably."
 msgstr ""
-"Microsoft Office 曾经只支持微软自己的文件格式。有很多很多的方式进行文档工作，可是Office用户已经紧紧地被Microsoft "
-"Office文件格式绑架了。人们如果不愿意为微软昂贵的产品付费，就无法可靠地读写<code>.doc</code>文件。"
+"Microsoft Office 曾经只支持微软自己的文件格式。有很多很多的方式进行文档工作，可是 Office 用户已经紧紧地被Microsoft "
+"Office文件格式绑架了。人们如果不愿意为微软昂贵的产品付费，就无法可靠地读写 <code>.doc</code> 文件。"
 
 #: docroot/lib/views/windows.what_about_choice.php:39
 msgid ""
@@ -1069,7 +1062,7 @@ msgstr ""
 
 #: docroot/lib/views/windows.what_about_choice.php:43
 msgid "Standards that change all the time"
-msgstr "文件标准总是在不停改变"
+msgstr "文件标准一直在改变"
 
 #: docroot/lib/views/windows.what_about_choice.php:44
 msgid ""
@@ -1108,25 +1101,15 @@ msgid ""
 "with Windows &ndash; so they come in with every PC and no one can get rid of "
 "them."
 msgstr ""
-"您不希望在您的计算机上出现 Windows Media Player 程序吗？您尝试过卸载 "
-"Internet Explorer 吗？<strong>很抱歉您肯定失败了</strong>。他们曾经是独立的程"
-"序，但是现在已经被紧紧地绑定与 Windows 之中——他们出现在几乎每一台计算机，永远"
-"无法躲开。"
+"您不希望在您的计算机上出现 Windows Media Player 程序吗？您尝试过卸载 Internet Explorer "
+"吗？<strong>您不可能卸载这些软件</strong>。他们曾经是独立的程序，但是现在已经被紧紧地绑定与 Windows "
+"之中——他们出现在几乎每一台计算机，永远无法躲开。"
 
 #: docroot/lib/views/windows.what_about_choice.php:54
 msgid "Monopolistic practices"
 msgstr "垄断实践"
 
 #: docroot/lib/views/windows.what_about_choice.php:55
-#, fuzzy
-#| msgid ""
-#| "This means that no program competing with Microsoft products, be it <a "
-#| "href=\"https://www.videolan.org/vlc/\" rel=\"external\">multimedia "
-#| "player</a>, <a href=\"https://www.getfirefox.com/\" rel=\"external\">web "
-#| "browser</a>, <a href=\"https://www.libreoffice.org/\" rel=\"external"
-#| "\">office suite</a>, <a href=\"https://www.pidgin.im/\" rel=\"external"
-#| "\">instant messaging program</a> or other, will come pre-installed on "
-#| "most computers you can buy."
 msgid ""
 "Microsoft has a tight control over <abbr title=\"Original Equipment "
 "Manufacturer\">OEM</abbr>s (computer manufacturers) who ship their computers "
@@ -1138,11 +1121,12 @@ msgid ""
 "\"external\">instant messaging program</a> or other, will come pre-installed "
 "on most computers you can buy."
 msgstr ""
-"这意味着您能买到的绝大多数电脑中，都没有预装能与微软竞争的产品，比如<a href="
-"\"https://www.videolan.org/vlc/\" rel=\"external\">多媒体播放器</a>、<a href="
-"\"https://www.getfirefox.com/\" rel=\"external\">网页浏览器</a>、<a href="
-"\"https://www.libreoffice.org/\" rel=\"external\">办公套件</a>或者<a href="
-"\"https://www.pidgin.im/\" rel=\"external\">即时通讯软件</a>。"
+"微软对安装了 Windows 的计算机的 <abbr title=\"Original Equipment Manufacturer\""
+">OEM</abbr>（计算机制造商）进行严格的控制。这意味着与微软产品竞争的任何程序，无论是<a href=\"https://www.videolan"
+".org/vlc/\" rel=\"external\">多媒体播放器</a>、<a href=\"https://www.getfirefox.com/"
+"\" rel=\"external\">网络浏览器</a>、<a href=\"https://www.libreoffice.org/\" rel="
+"\"external\">办公套件</a>、<a href=\"https://www.pidgin.im/\" rel=\"external\""
+">即时通讯程序</a>或其他，都不会预装在你能买到的大多数计算机上。"
 
 #: docroot/lib/views/windows.what_about_choice.php:56
 msgid ""
@@ -1175,29 +1159,28 @@ msgstr "在 LibreOffice Writer 中编辑一个标准文档。"
 #. TRANSLATORS: This is the description of the "debian3.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:14
 msgid "Shotwell photo manager"
-msgstr ""
+msgstr "Shotwell 照片管理器"
 
 #. TRANSLATORS: This is the description of the "ubuntu2.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:19
 msgid "Firefox web browser"
-msgstr "Firefox网页浏览器"
+msgstr "Firefox 网页浏览器"
 
 #. TRANSLATORS: This is the description of the "ubuntu3.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:21
 #: docroot/lib/views/linux.php:43
-#, fuzzy
 msgid "GNOME music player"
-msgstr "Rhythmbox 音乐播放器"
+msgstr "GNOME 音乐播放器"
 
 #. TRANSLATORS: This is the description of the "fedora2.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:26
 msgid "Desktop overview with two applications open."
-msgstr "打开了两个程序的桌面."
+msgstr "打开了两个程序的桌面概览。"
 
 #. TRANSLATORS: This is the description of the "fedora3.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:28
 msgid "Software manager open, install/remove applications."
-msgstr ""
+msgstr "软件管理器打开、安装/删除应用程序。"
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:38
 msgid ""
@@ -1215,8 +1198,8 @@ msgid ""
 "resource=major&amp;language=EN\" rel=\"external\">plenty of distributions to "
 "choose from and compare</a>."
 msgstr ""
-"提示: 这里有 <a href=\"https://distrowatch.com/dwres.php?resource=major&amp;"
-"language=EN\" rel=\"external\">大量的发行版供选择和比较</a>。"
+"提示：这里有 <a href=\"https://distrowatch.com/dwres."
+"php?resource=major&amp;language=EN\" rel=\"external\">大量的发行版供选择和比较</a>。"
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:43
 msgid "This is our selection for newcomers. These links are not commercial."
@@ -1230,6 +1213,9 @@ msgid ""
 "this reason it is popular for use on personal computers as well as servers. "
 "Debian is also the basis for many other distributions, most notably Ubuntu."
 msgstr ""
+"Debian 是基于 Linux 内核的最古老的操作系统之一。它以作为一个非常稳定和安全的 GNU/Linux "
+"发行版而著称，并得到了组织良好的开发者和用户社区的支持。因此，它在个人电脑和服务器上的使用非常普遍。Debian 也是许多其他发行版的基础，最著名的是 "
+"Ubuntu。"
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:54
 msgid ""
@@ -1241,7 +1227,7 @@ msgstr "如果您非常看重计算自由，我们推荐这款发行版本。"
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:64
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:68
 msgid "Debian screenshot"
-msgstr ""
+msgstr "Debian 截屏"
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:83
 msgid ""
@@ -1252,6 +1238,9 @@ msgid ""
 "software regardless of disability. The result is an operating system that "
 "has excellent hardware support, is easy to use and pleasant on the eyes."
 msgstr ""
+"Ubuntu 是一个基于 Debian 的 GNU/Linux 发行版，它的理念是每个计算机用户都能免费下载和使用他们的软件。Ubuntu 的理念是：每个"
+"计算机用户都应该能够免费下载和使用他们的软件，每个人都应该能够用自己选择的语言使用他们的软件，每个人都应该能够使用所有的软件，无论残疾与否。其结果是，这个"
+"操作系统有很好的硬件支持，易于使用，令人赏心悦目。"
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:84
 msgid ""
@@ -1264,7 +1253,7 @@ msgstr "如果您正在尝试进入 GNU/Linux，我们推荐这款友好、功�
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:98
 #: docroot/lib/views/linux.php:36 docroot/lib/views/linux.php:43
 msgid "Ubuntu screenshot"
-msgstr ""
+msgstr "Ubuntu 截屏"
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:113
 msgid ""
@@ -1275,24 +1264,21 @@ msgid ""
 "incorporating new technologies early on, providing the latest in stable and "
 "robust, useful, and powerful free software."
 msgstr ""
-"由杰出的 GNU/Linux 开发公司 Red Hat 提供的发行版。默认布局与 Debian 类似, 在"
-"软件选择和安装、技术选择上有区别。Fedora 开发者致力于创新，通常更早使用新的技"
-"术，提供最新、最健壮的自由软件。"
+"由杰出的 GNU/Linux 开发公司 Red Hat 提供的发行版。默认布局与 Debian 类似， 在软件选择和安装、技术选择上有区别。Fedora "
+"开发者致力于创新，通常更早使用新的技术，提供最新、最健壮的自由软件。"
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:114
 msgid ""
 "We recommend this distribution if you wish to learn more about the workings "
 "of a GNU/Linux system, security configuration, or work on software "
 "development."
-msgstr ""
-"如果你想学习更多有关GNU/Linux系统如何工作，相关安全配置或者从事软件开发，我们"
-"推荐这款发行版。"
+msgstr "如果你想学习更多有关 GNU/Linux 系统如何工作，相关安全配置或者从事软件开发，我们推荐这款发行版。"
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:120
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:124
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:128
 msgid "Fedora screenshot"
-msgstr ""
+msgstr "Fedora 截屏"
 
 #. TRANSLATORS: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:143
@@ -1316,9 +1302,8 @@ msgid ""
 "free. The accurate name is <em>GNU/Linux</em> but \"Linux\" is used more "
 "often."
 msgstr ""
-"GNU/Linux是一个<em>操作系统</em>，管理计算机的大型软件。 它与 Microsoft "
-"Windows类似，但完全免费。<em>GNU/Linux</em>是更准确的名称，然而通常人们称之为"
-"\"Linux\"。"
+"GNU/Linux 是一个<em>操作系统</em>，管理计算机的大型软件。 它与 Microsoft Windows 类似，但完全自由。<em>GNU/"
+"Linux</em> 是更准确的名称，然而通常人们称之为 \"Linux\"。"
 
 #: docroot/lib/views/linux.php:22
 msgid ""
@@ -1391,6 +1376,9 @@ msgid ""
 "what makes it truly <a href=\"https://www.gnu.org/philosophy/free-sw.html\" "
 "title=\"what is freedom in software?\" rel=\"external\">free software</a>."
 msgstr ""
+"当您获得 GNU/Linux 的发行版时，<strong>您也获得了研究、复制、更改和重新发布它的自由</strong> &ndash;&nbsp;"
+"这才是真正的<a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external"
+"\" title=\"what is freedom in software?\">自由软件</a>。"
 
 #: docroot/lib/views/linux.php:54
 msgid ""
@@ -1417,9 +1405,7 @@ msgstr ""
 msgid ""
 "Some companies, such as HP or IBM, contribute to GNU/Linux because they pre-"
 "install it on servers they sell."
-msgstr ""
-"一些公司，如 HP 或 IBM，也为 GNU/Linux 做贡献，那是因为他们在其发售的服务器上"
-"预装了 GNU/Linux。"
+msgstr "一些公司，如惠普或 IBM，也为 GNU/Linux 做贡献，那是因为他们在其发售的服务器上预装了 GNU/Linux。"
 
 #: docroot/lib/views/linux.php:58
 msgid ""
@@ -1457,9 +1443,7 @@ msgid ""
 "We wished to keep our \"<a href=\"%s\">Restrictions</a>\" page short, so we "
 "moved many of the license restrictions out here. Here is the fine print "
 "inside the Microsoft licenses."
-msgstr ""
-"为了保持\"<a href=\"%s\">限制</a>\"页面的简短，我们把许多的许可证限制移到了这"
-"里。这些是微软许可证内的细节。"
+msgstr "为了保持“<a href=\"%s\">限制</a>”页面的简短，我们把许多的许可证限制移到了这里。这些是微软许可证内的细节。"
 
 #: docroot/lib/views/windows.restrictions.further_details.php:23
 msgid "It is unclear who can use, receive or buy your software"
@@ -1502,9 +1486,7 @@ msgid ""
 "You cannot let professional users use your software, whether they pay for "
 "the service or not, and whether you use a &quot;Professional&quot; license "
 "or not."
-msgstr ""
-"您不能让专业人士使用您的软件：无论他们是否购买过，也无论您是否拥有一个&quot;"
-"专业&quot;授权。"
+msgstr "您不能让专业人士使用您的软件：无论他们是否购买过，也无论您是否拥有一个&ldquo;专业版&rdquo;授权。"
 
 #: docroot/lib/views/windows.restrictions.further_details.php:32
 msgid "The upgrade is only valid for the first license you use it on"
@@ -1515,9 +1497,7 @@ msgid ""
 "If that original license expires (for example because the computer it came "
 "on stops working), so does the upgrade. If you purchase an upgrade, you are "
 "not allowed to use the original software version anymore."
-msgstr ""
-"如果最初的授权过期了(比如因为您的计算机坏了)，那么您也将永久失去您的更新。如"
-"果您为升级付了款，原有的旧软件您也无法再使用。"
+msgstr "如果最初的授权过期了（比如因为您的计算机坏了），那么您也将永久失去您的更新。如果您为升级付了款，原有的旧软件您也无法再使用。"
 
 #: docroot/lib/views/windows.restrictions.further_details.php:36
 msgid "Educational versions are crippled"
@@ -1531,9 +1511,8 @@ msgid ""
 "in any way related to the operation of any business enterprise or revenue-"
 "generating activities</em>\"."
 msgstr ""
-"如果微软承认您是一位学生或者学者，您将可以购买一份教育授权，并在三台计算机上"
-"安装此授权。但任何商业用途的使用\"<em>或者一切与商业或者盈利相关的活动</em>"
-"\"都是非法的。"
+"如果微软承认您是一名学生或者学者，您将可以购买一份教育授权，并在三台计算机上安装此授权。但任何商业用途的使用“<em>或者一切与商业或者盈利相关的活动</"
+"em>”都是非法的。"
 
 #: docroot/lib/views/windows.restrictions.further_details.php:40
 msgid "The components of the software may not be separated"
@@ -1544,8 +1523,8 @@ msgid ""
 "It is illegal to buy Microsoft Office, then install only Word on one "
 "computer, and only Excel on another. The Office suite is one single product."
 msgstr ""
-"购买 Microsoft Office 后，如果您在一台计算机上安装Word而在另一台计算机上安装 "
-"Excel，您可能会收到一张法院的传单。Office 套件是一个单独的产品。"
+"按照法律条款，购买 Microsoft Office 后，您不能在一台计算机上安装 Word 而在另一台计算机上安装 Excel。Office "
+"套件是一个单独的产品。"
 
 #: docroot/lib/views/windows.restrictions.further_details.php:44
 msgid "Private information is collected"
@@ -1568,8 +1547,8 @@ msgid ""
 "technical&quot; information. It can &quot;solely&quot; be used for pretty "
 "much anything."
 msgstr ""
-"作为许可证协议中的一部分内容，为了激活绝大多数的微软产品，您的计算机将会被连"
-"接到微软服务器并传送一些“技术”信息。他们“仅仅”可以被用于做许多的事情。"
+"作为许可证协议中的一部分内容，为了激活绝大多数的微软产品，您的计算机将会被连接到微软服务器并传送一些&ldquo;技术&rdquo;信息。他们&ldquo"
+";仅仅&rdquo;可以被用于做许多的事情。"
 
 #. TRANSLATORS: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
 #: docroot/lib/views/windows.restrictions.further_details.php:59
@@ -1578,7 +1557,7 @@ msgstr "https://www.gnu.org/copyleft/gpl.html"
 
 #: docroot/lib/views/windows.restrictions.further_details.php:59
 msgid "The GNU General Public License"
-msgstr "GNU通用公共许可证(GPL)"
+msgstr "GNU 通用公共许可证"
 
 #: docroot/lib/views/windows.restrictions.further_details.php:59
 msgid "The GPL"
@@ -1588,11 +1567,11 @@ msgstr "GPL"
 msgid ""
 "The GNU General Public License, under which GNU/Linux and a vast amount of "
 "free software are published."
-msgstr "GNU/Linux 和很多很多的自由软件都是在GNU通用公共许可证下发布的。"
+msgstr "GNU/Linux 和很多很多的自由软件都是在 GNU 通用公共许可证下发布的。"
 
 #: docroot/lib/views/windows.restrictions.further_details.php:63
 msgid "Comparing the GPL to the Microsoft WinXP License"
-msgstr "将 GPL 与 WinXP的协议对比"
+msgstr "将 GPL 与 WinXP 的协议对比"
 
 #: docroot/lib/views/windows.restrictions.further_details.php:64
 msgid ""
@@ -1601,9 +1580,8 @@ msgid ""
 "Agreement\">EULA</abbr> license that governs the use of most Windows XP "
 "versions."
 msgstr ""
-"在<abbr title=\"GNU通用公共许可证\">GPL</abbr>和微软<abbr title=\"最终用户许"
-"可协议\">EULA</abbr>(被用于绝大多数的Windows XP系统)间的一个深入但清晰的比"
-"较。"
+"在<abbr title=\"GNU General Public License\">GPL</abbr>和微软<abbr title=\"End-"
+"User License Agreement\">EULA</abbr>(被用于绝大多数的Windows XP系统)间的一个深入但清晰的比较。"
 
 #: docroot/lib/views/windows.restrictions.further_details.php:71
 msgid ""
@@ -1660,18 +1638,14 @@ msgid ""
 "When running on a live USB stick, your computer uses solely the USB stick to "
 "work (without accessing the hard drive inside). You can launch all of the "
 "default programs, edit documents, and browse the web."
-msgstr ""
-"运行一个 live 优盘时，并不会修改硬盘上的任何东西(仅仅访问优盘)。您可以运行所"
-"有的默认软件、编辑文档或者浏览网页。"
+msgstr "运行一个 live 优盘时，并不会修改硬盘上的任何东西（仅仅访问优盘）。您可以运行所有的默认软件、编辑文档或者浏览网页。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:27
 msgid ""
 "Since it is only designed as a trial mode, it is a little slow (it will take "
 "you five minutes to boot up, and programs launch somewhat slowly). If you "
 "proceed to install, the system will go much faster."
-msgstr ""
-"因为这被设计为试用模式，所以可能有一点点慢(您可能需要几分钟的时间来启动操作系"
-"统，并且运行软件会有点慢)。如果您安装在您的计算机上会快很多。"
+msgstr "因为这被设计为试用模式，所以可能有一点点慢（您可能需要几分钟的时间来启动操作系统，并且运行软件会有点慢）。如果您安装在您的计算机上会快很多。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:29
 #: docroot/lib/views/switch_to_linux.try_or_install.php:41
@@ -1688,9 +1662,8 @@ msgid ""
 "system which can not boot from USB. You can then use it to install GNU/Linux "
 "onto your computer."
 msgstr ""
-"对于我们所建议的发行版，Live CD 与安装 CD 相同。您可以下载 ISO 映像档(比较大"
-"的档案)然后建立可用于开机的优盘(建议)或将其烧录到 CD 中，对不能从 USB 开机的"
-"旧系统来说比较有用。您可以使用它来安装 GNU/Linux 到您的电脑上。"
+"对于我们所建议的发行版，Live CD 与安装 CD 相同。您可以下载 ISO 映像档（比较大的档案）然后建立可用于开机的优盘（建议）或将其烧录到 CD "
+"中，对不能从 USB 开机的旧系统来说比较有用。您可以使用它来安装 GNU/Linux 到您的电脑上。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:31
 msgid ""
@@ -1760,11 +1733,11 @@ msgstr ""
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:56
 msgid "https://www.debian.org/CD/faq/#write-usb"
-msgstr ""
+msgstr "https://www.debian.org/CD/faq/#write-usb"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:56
 msgid "https://www.debian.org/CD/faq/#record-windows"
-msgstr ""
+msgstr "https://www.debian.org/CD/faq/#record-windows"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:57
 #, php-format
@@ -1775,7 +1748,7 @@ msgstr ""
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:57
 msgid "https://www.debian.org/releases/stable/installmanual"
-msgstr ""
+msgstr "https://www.debian.org/releases/stable/installmanual"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:61
 msgid "Download Debian"
@@ -1785,10 +1758,11 @@ msgstr "下载 Debian"
 msgid ""
 "https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows"
 msgstr ""
+"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:71
 msgid "https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows"
-msgstr ""
+msgstr "https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:72
 #, php-format
@@ -1799,7 +1773,7 @@ msgstr ""
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:72
 msgid "https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop"
-msgstr ""
+msgstr "https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:76
 msgid "Download Ubuntu"
@@ -1810,6 +1784,8 @@ msgid ""
 "https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/"
 "Preparing_for_Installation/#sect-preparing-boot-media"
 msgstr ""
+"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/"
+"Preparing_for_Installation/#sect-preparing-boot-media"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:87
 #, php-format
@@ -1823,6 +1799,8 @@ msgid ""
 "https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/"
 "Booting_the_Installation/"
 msgstr ""
+"https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/"
+"Booting_the_Installation/"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:91
 msgid "Download Fedora"
@@ -1837,7 +1815,7 @@ msgid ""
 msgstr ""
 "注意：购买与下载到的 CD 是相同的！GNU/Linux 是<a href=\"https://www.gnu.org/philosophy/free-"
 "sw.html\" rel=\"external\" title=\"What do you mean, free?\""
-">自由软件</a>。你只需要付处理／运输费用。"
+">自由软件</a>。你只需要付处理/运输费用。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:103
 msgid "Free Software pre-installed"
@@ -1880,8 +1858,8 @@ msgid ""
 "strong>. You may actually pay to get free software (or \"open source\" "
 "software %s), which you can then study, change and copy at will."
 msgstr ""
-"当我们谈论自由软件，指的是<strong>自由而非免费</strong>。实际上，为获取自由软"
-"件 (或者开源软件%s) 以便研习，修改和任意拷贝，您也可能要破费。"
+"当我们谈论自由软件，指的是<strong>自由而非免费</strong>。实际上，为获取自由软件（或者开源软件%s）以便研习，修改和任意拷贝，您也可能要破"
+"费。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:35
 msgid ""
@@ -1914,9 +1892,8 @@ msgid ""
 "are by no means negligible. In the end, individual users generally end up "
 "using free software at no cost."
 msgstr ""
-"自由软件公司得益于由大量自愿贡献者所组成的一个非常分散的开发系统。自由软件产"
-"业内部的收入少于与其相对的私有软件产业，但也不可小觑。最终，单个的用户一般不"
-"用花钱也能用上自由软件。"
+"自由软件公司得益于由大量自愿贡献者所组成的一个非常分散的开发系统。自由软件产业内部的收入少于与其相对的专有软件产业，但也不可小觑。最终，单个的用户一般不用"
+"花钱也能用上自由软件。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:38
 msgid ""
@@ -1945,11 +1922,11 @@ msgstr "事实上，自由往往是<strong>催生富有创意的成功软件的�
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:46
 msgid "Anyone is allowed and encouraged to work upon it;"
-msgstr "允许且鼓励任何人研究它，开发它;"
+msgstr "允许且鼓励任何人研究它，开发它；"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:47
 msgid "Many people are willing to participate;"
-msgstr "很多人都愿意参与进来;"
+msgstr "很多人都愿意参与进来；"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:48
 msgid ""
@@ -1961,7 +1938,7 @@ msgstr "没有重复开发的必要，可以直接在其上进行改进。"
 msgid ""
 "Non-proprietary software stands out in many areas: consider, to name just a "
 "few:"
-msgstr "非私有软件在很多方面都很突出：稍事一想，便可举出一些例子："
+msgstr "非专有软件在很多方面都很突出：稍事一想，便可举出一些例子："
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:54
 msgid "Applications:"
@@ -1969,7 +1946,7 @@ msgstr "应用程序："
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:56
 msgid "(text editor)"
-msgstr ""
+msgstr "（文本编辑器）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:57
 #: docroot/lib/views/linux.misunderstanding_free_software.php:63
@@ -1978,27 +1955,27 @@ msgstr "（网页浏览器）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:58
 msgid "(distributed version control system)"
-msgstr ""
+msgstr "（分布式版本控制系统）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:59
 msgid "(vector drawing)"
-msgstr ""
+msgstr "（矢量绘图）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:60
 msgid "(painting)"
-msgstr ""
+msgstr "（绘图）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:61
 msgid "(digital audio workstation)"
-msgstr ""
+msgstr "（数字音频工作站）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:62
 msgid "(3D graphics creation)"
-msgstr ""
+msgstr "（3D 图形创作）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:64
 msgid "(image editor)"
-msgstr ""
+msgstr "（图像编辑器）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:65
 msgid "(office suite)"
@@ -2006,15 +1983,15 @@ msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:66
 msgid "(machine learning)"
-msgstr ""
+msgstr "（机器学习）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:67
 msgid "(email client)"
-msgstr ""
+msgstr "（电子邮件客户端）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:68
 msgid "(multimedia player)"
-msgstr ""
+msgstr "（多媒体播放器）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:71
 msgid "Server applications:"
@@ -2035,15 +2012,15 @@ msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:77
 msgid "(JavaScript runtime environment)"
-msgstr ""
+msgstr "（JavaScript 运行环境）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:78
 msgid "(virtualization)"
-msgstr ""
+msgstr "（虚拟化）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:79
 msgid "(blog)"
-msgstr ""
+msgstr "（博客）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:82
 msgid "Formats and protocols:"
@@ -2055,19 +2032,19 @@ msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:85
 msgid "(lossless audio codec)"
-msgstr ""
+msgstr "（无损音频编解码器）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:86
 msgid "(data compression)"
-msgstr ""
+msgstr "（数据压缩）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:87
 msgid "(web pages)"
-msgstr ""
+msgstr "（网页）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:88
 msgid "(container format)"
-msgstr ""
+msgstr "（容器格式）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:89
 msgid "(office documents)"
@@ -2075,11 +2052,11 @@ msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:90
 msgid "(video file format)"
-msgstr ""
+msgstr "（视频文件格式）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:91
 msgid "(web real-time communication)"
-msgstr ""
+msgstr "（网络实时通信）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:94
 msgid "Complete systems:"
@@ -2087,7 +2064,7 @@ msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:96
 msgid "(operating system)"
-msgstr ""
+msgstr "（操作系统）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:97
 msgid "and of course, GNU/Linux."
@@ -2168,19 +2145,16 @@ msgid ""
 "free software remains free, and that authors are credited for their work. "
 "Programs are copyrighted, whether they are free or proprietary."
 msgstr ""
-"<strong>自由软件里的版权非常重要</strong>。它正是<a href=\"https://www.gnu."
-"org/copyleft/gpl.html\" rel=\"external\">GNU通用公共许可协议</a>，这一确保自"
-"由软件保持自由，作者的工作得到肯定的核心机制所在。程序都是受版权保护的，不管"
-"是自由的还是私有的。"
+"<strong>自由软件里的版权非常重要</strong>。它正是<a href=\"https://www.gnu.org/copyleft/gpl."
+"html\" rel=\"external\""
+">GNU通用公共许可协议</a>，这一确保自由软件保持自由，作者的工作得到肯定的核心机制所在。程序都是受版权保护的，不管是自由的还是专有的。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:121
 msgid ""
 "Any proprietary software author can easily check that his copyright is not "
 "violated in a free software application, since its source code is readily "
 "available."
-msgstr ""
-"任何私有软件的作者都可以很轻易地检查一个自由软件应用程序里是否有侵犯他的版权"
-"的地方，因为源代码可以轻易地获取。"
+msgstr "任何专有软件的作者都可以很轻易地检查一个自由软件应用程序里是否有侵犯他的版权的地方，因为源代码可以轻易地获取。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:122
 msgid ""
@@ -2190,9 +2164,8 @@ msgid ""
 "over a <em>process</em>. The patent then applies to all software that use "
 "this process, whether proprietary or free."
 msgstr ""
-"另一方面，软件专利，却是一个相当有争议的概念。简而言之：<strong>根本就没有什"
-"么“专利软件”</strong>。然而，通过申请专利，某人可以宣称对一个<em>过程</em>的"
-"所有权。既而凡是用到这一过程的软件，不论是私有的或自由的，都受其约束。"
+"另一方面，软件专利，却是一个相当有争议的概念。简而言之：<strong>根本就没有什么“专利软件”</strong>。然而，通过申请专利，某人可以宣称对一"
+"个<em>过程</em>的所有权。既而凡是用到这一过程的软件，不论是专有的或自由的，都受其约束。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:123
 msgid "Software patents:"
@@ -2265,9 +2238,7 @@ msgstr "自由软件像是共产主义"
 msgid ""
 "Supporters of this idea argue that there can be no private ownership with "
 "free (or \"open source\" %s) software. Let's answer this with an example."
-msgstr ""
-"这种想法的支持者争辩说自由 (或者“开源”%s) 软件不能私有。我们以一个例子来回"
-"应。"
+msgstr "这种想法的支持者争辩说自由 (或者“开源”%s) 软件不能专有。我们以一个例子来回应。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:147
 msgid ""
@@ -2318,18 +2289,14 @@ msgstr ""
 
 #. TRANSLATORS: The %s placeholder here will automatically point to the page "Windows Restrictions, further details"
 #: docroot/lib/views/linux.misunderstanding_free_software.php:156
-#, fuzzy, php-format
-#| msgid ""
-#| "So in fact, you have more \"ownership\" over free software than over "
-#| "proprietary software &ndash;where the programmer decides everything you "
-#| "can <a href=\"%s\">and can't do</a> with the software."
+#, php-format
 msgid ""
 "So in fact, you have more \"ownership\" over free software than over "
 "proprietary software &ndash; where the programmer decides everything you can "
 "<a href=\"%s\">and can't do</a> with the software."
 msgstr ""
-"所以事实上，相较私有软件的情形，程序员决定着你对软件所能做与<a href=\"%s\">不"
-"能做</a>的一切，对自由软件，你有更多的“所有权”。"
+"因此，事实上，你对自由软件的“所有权”比对专有软件的“所有权”更多&ndash;在那里，程序员决定了你可以<a href=\"%s\""
+">和不能</a>用软件做的一切。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:157
 msgid ""
@@ -2433,6 +2400,9 @@ msgid ""
 "and developers that are happy to answer your questions. Here you can find "
 "the IRC channels for the distributions we recommend:"
 msgstr ""
+"自由软件社区有很多实时讨论渠道。IRC，即 Internet Relay "
+"Chat，是一种实时的、基于文本的通信形式。你可以在一个开放的频道中与多人对话，也可以与人一对一私下聊天。主要的 GNU/Linux "
+"发行版都有自己专门的 IRC 频道，在那里你会发现用户和开发者很乐意回答你的问题。在这里您可以找到我们推荐的发行版的 IRC 频道："
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:184
 msgid ""
@@ -2441,7 +2411,6 @@ msgid ""
 msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:191
-#, fuzzy
 msgid ""
 "If you need someone you can reach on the phone anytime to assist you, the "
 "companies behind most distributions provide commercial support: see <a href="
@@ -2450,10 +2419,10 @@ msgid ""
 "Commercial Support</a>, or <a href=\"https://www.redhat.com/rhel/\" rel="
 "\"external\">Red Hat Enterprise Linux</a> for example."
 msgstr ""
-"如果需要即时电话协助，大多数发行版都有公司提供商业支持：比如<a href="
-"\"https://www.ubuntu.com/support\" rel=\"external\">Ubuntu商业支持</a>或<a "
-"href=\"https://www.redhat.com/rhel/\" rel=\"external\">Red Hat企业版Linux</a>"
-"页面。"
+"如果你需要有人可以随时打电话协助你，大多数发行版背后的公司都会提供商业支持：参见<a href=\"https://www.debian.org/"
+"consultants/\" rel=\"external\">Debian 顾问</a>，<a href=\"https://www.ubuntu."
+"com/support\" rel=\"external\">Ubuntu 商业支持</a>，或者<a href=\"https://www.redhat"
+".com/rhel/\" rel=\"external\">Red Hat Enterprise Linux</a>。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:198
 msgid "Further reading on the web"
@@ -2533,6 +2502,9 @@ msgid ""
 "make copies for your friends! You can even study it, transform it as you "
 "please, or build and sell your own distribution."
 msgstr ""
+"与 Windows 不同，GNU/Linux 是<a href=\"https://www.gnu.org/philosophy/free-sw."
+"html\" rel=\"external\" title=\"What does Free Software mean?\">自由软件</a> "
+"。您可以在所有的计算机上安装它，并为您的朋友制作副本。你甚至可以研究它，随心所欲地改造它，或者建立和销售你自己的发行版。"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:35
 msgid "Programs"
@@ -2710,15 +2682,14 @@ msgid ""
 msgstr "计算机硬件制造商并不总是放出 GNU/Linux 的驱动或者公开所有的技术规格。"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:78
-#, fuzzy
 msgid ""
 "So, drivers are sometimes unavailable for the most recent high-end graphics "
 "cards &ndash; some are reverse-engineered from Windows drivers by "
 "volunteers. Some are also released free of charge, but under restrictive "
 "licenses."
 msgstr ""
-"所以有时您可能无法找到高端显卡的最新驱动&mdash;有些驱动是由志愿者们从 "
-"Windows 驱动反编译得来的，而有些驱动是免费，但不自由的。"
+"所以，最新的高端显卡&ndash;的驱动程序有时是不可用的；有的则是志愿者从 Windows "
+"驱动程序中逆向设计出来的。有些也是免费发布的，但有限制性许可证。"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:79
 msgid "Sadly, the same problem occurs with many low-end WiFi cards."
@@ -2790,13 +2761,16 @@ msgid ""
 "linux_gaming/\" rel=\"external\">GNU/Linux Gaming on Reddit</a> to find more "
 "information."
 msgstr ""
+"不过有一个非常活跃的自由软件游戏开发社区，他们已经制作了不少高质量的游戏，无论是 2D 还是 3D，都是自由软件。你可以前往 <a href="
+"\"https://www.reddit.com/r/linux_gaming/\" rel=\"external\">Reddit 上的 GNU/"
+"Linux 游戏</a>查找更多信息。"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:94
 #: docroot/lib/views/linux.faq.php:251
 msgid ""
 "There is also a good selection of online game distribution platforms that "
 "sell many high-quality games for GNU/Linux:"
-msgstr ""
+msgstr "还有一个很好的在线游戏发行平台，出售许多GNU/Linux的高质量游戏："
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:103
 #: docroot/lib/views/linux.faq.php:248
@@ -2942,8 +2916,7 @@ msgid ""
 "is very much like a car that only the original manufacturer is allowed to "
 "service."
 msgstr ""
-"这份许可证的限制确保了<strong>微软是唯一一个能够了解他们产品如何工作的组织</"
-"strong>。Windows非常像一个只能由生产厂商维修的汽车。"
+"这份许可证的限制确保了<strong>微软是唯一一个能够了解他们产品如何工作的组织</strong>。Windows 非常像只能由生产厂商维修的汽车。"
 
 #. TRANSLATORS: This is the quote from Stallman at the start of the article.
 #: docroot/lib/views/windows.what_about_source_code.php:34
@@ -2953,9 +2926,8 @@ msgid ""
 "brain and my palate, by trying to tamper with it? You don't have the "
 "judgment to change my recipe and make it work right!\""
 msgstr ""
-"您可能会说：“我能不能不按照您的菜谱加盐？”他们伟大的首席可能会如此回复您：“你"
-"怎么敢玩弄我的作品，修改我伟大的菜谱，侮辱我智慧的结晶！你不能判定我的作品成"
-"功与否，他不能正常工作是你的错误”"
+"你可能说，“我怎么修改食谱才能不放盐？”，厨师长会回答，“你怎么敢侮辱我的食谱，它是我智力和味觉的产物，你怎么能试图擅自修改呢？你没有决断力改变我的食谱，"
+"也不能让它改了之后还能正常！”"
 
 #: docroot/lib/views/windows.what_about_source_code.php:36
 msgid "Why Software Should Be Free"
@@ -3032,7 +3004,7 @@ msgstr "常规问题"
 
 #: docroot/lib/views/linux.faq.php:25
 msgid "Are &quot;GNU/Linux&quot; and &quot;Linux&quot; any different?"
-msgstr "“GNU/Linux”与“Linux”有什么不同吗?"
+msgstr "&quot;GNU/Linux&quot; 与 &quot;Linux&quot; 有什么不同吗？"
 
 #. TRANSLATORS: This is italic text just below the question, which elaborates a little on it.
 #: docroot/lib/views/linux.faq.php:29
@@ -3302,16 +3274,14 @@ msgstr ""
 "rel=\"external\">Ubuntu</a> 等发行版引入了这些组件以提高硬件兼容性。"
 
 #: docroot/lib/views/linux.faq.php:117
-#, fuzzy
 msgid ""
 "Some GNU/Linux distributors do not compromise on the freedom of software, "
 "and make sure their distribution are entirely free. Such is the case of <a "
 "href=\"https://www.debian.org/\" rel=\"external\">Debian</a> (though non-"
 "free software can be installed if necessary)."
 msgstr ""
-"有些 GNU/Linux 发行版在软件自由上则毫不妥协，以确保自己是完全自由的。<a href="
-"\"https://trisquel.info/\" rel=\"external\">Trisquel</a>，一个移除了所有限制"
-"性部件的 Ubuntu衍生版，就是其中之一。"
+"一些 GNU/Linux 发行者并没有在软件自由上妥协，而是确保他们的发行版是完全自由的。<a href=\"https://www.debian."
+"org/\" rel=\"external\">Debian</a>就是这样的例子（尽管必要时可以安装非自由软件）。"
 
 #: docroot/lib/views/linux.faq.php:118
 #, php-format
@@ -3357,14 +3327,11 @@ msgstr ""
 "BootCamp 就是一例）。"
 
 #: docroot/lib/views/linux.faq.php:129
-#, fuzzy
 msgid ""
 "However, the end-user is still fundamentally restricted &ndash; because of "
 "the proprietary license, he/she cannot use macOS for all purposes, nor copy, "
 "study, modify, or redistribute it."
-msgstr ""
-"然而，终端用户从根本上仍然受到限制，因私有许可协议，他/她无法随心所欲的使用 "
-"macOS 无法拷贝、研习、修改，也无法重新发布。"
+msgstr "但是，最终用户还是受到了根本性的限制&ndash;由于专有许可，他不能将 macOS 用于所有目的，也不能复制、研究、修改或重新发布。"
 
 #: docroot/lib/views/linux.faq.php:130
 msgid ""
@@ -3415,7 +3382,7 @@ msgstr ""
 #: docroot/lib/views/linux.faq.php:144
 #, php-format
 msgid "Read more in the article: <a href=\"%s\">%s</a>."
-msgstr "继续阅读：<a href=\"%s\">%s</a> 。"
+msgstr "深入阅读文章：<a href=\"%s\">%s</a> 。"
 
 #: docroot/lib/views/linux.faq.php:149
 msgid "Is GNU/Linux a form of communism?"
@@ -3459,9 +3426,9 @@ msgid ""
 "specially for that purpose, listing vendors that sell GNU/Linux desktops and "
 "laptops."
 msgstr ""
-"当然有！我们为此还专门创建了一个网站<a href=\"https://linuxpreloaded.com/\" "
-"rel=\"external\" title=\"GNU/Linux 笔记本\">LinuxPreloaded.com</a>，列出了预"
-"装 GNU/Linux 的台式机和笔记本商家。"
+"当然有！我们为此还专门创建了一个网站<a href=\"https://linuxpreloaded.com/\" rel=\"external\" "
+"title=\"GNU/Linux laptops\">LinuxPreloaded.com</a>，列出了预装 GNU/Linux "
+"的台式机和笔记本商家。"
 
 #. TRANSLATORS: please leave the "#new_computer" element as such. It is an internal link.
 #: docroot/lib/views/linux.faq.php:173
@@ -3559,10 +3526,9 @@ msgstr ""
 
 #: docroot/lib/views/linux.faq.php:216
 msgid "Will Microsoft Office run on GNU/Linux?"
-msgstr "Microsoft Office 可以运行在 GNU/Linux 上？"
+msgstr "Microsoft Office 可以运行在 GNU/Linux 上吗？"
 
 #: docroot/lib/views/linux.faq.php:218
-#, fuzzy
 msgid ""
 "No. It is technically possible to adapt Microsoft Office to GNU/Linux, but "
 "Microsoft isn't keen on allowing Office users to choose their operating "
@@ -3570,10 +3536,9 @@ msgid ""
 "Microsoft's fierce opposition to supporting <a href=\"https://en.wikipedia."
 "org/wiki/OpenDocument\" rel=\"external\">the OpenDocument format</a>."
 msgstr ""
-"并非如此。从技术上来讲，将 Microsoft Office 移植到 GNU/Linux 上是完全可行的。"
-"但是微软并不想让 Office 用户选择操作系统。MS Office 与开放之间还存在其他的芥"
-"蒂&mdash;比如微软在支持<a href=\"http://www.opendocumentformat.org/\" rel="
-"\"external\">开放文档格式</a>上所采取的强烈反对立场。"
+"并非如此。从技术上来讲，将 Microsoft Office 移植到 GNU/Linux 上是完全可行的。但是微软并不想让 Office "
+"用户选择操作系统。MS Office 与开放之间还存在其他的芥蒂&ndash;比如微软在支持<a href=\"https://en.wikipedia."
+"org/wiki/OpenDocument\" rel=\"external\">开放文档格式</a>上所采取的强烈反对立场。"
 
 #: docroot/lib/views/linux.faq.php:219
 msgid ""
@@ -3676,10 +3641,9 @@ msgstr "Fedora Wiki“受限内容”"
 msgid ""
 "Yes and no. Some games, for example the Quake series, Rust, Counter-Strike, "
 "Tomb Raider, Portal, Left 4 Dead, and many more have GNU/Linux versions."
-msgstr ""
+msgstr "是，也不是。有些游戏，例如雷神之锤系列、Rust、反恐精英、古墓丽影、传送门、求生之路等都有 GNU/Linux 版本。"
 
 #: docroot/lib/views/linux.faq.php:258
-#, fuzzy
 msgid ""
 "Most popular games, alas, only work on Windows and occasionally on macOS. "
 "Some Windows games can be run on GNU/Linux with <a href=\"https://www.winehq."
@@ -3693,14 +3657,17 @@ msgid ""
 "list of games known to work on Proton, see <a href=\"https://www.protondb."
 "com/\" rel=\"external\">their games database</a>."
 msgstr ""
-"许多流行的游戏只能在 Windows 下运行，个别游戏提供 macOS 版本。一些 Windows 游"
-"戏可以通过 <a href=\"https://www.winehq.org/\" rel=\"external\">Wine</a> 或者"
-"它的非免费版本 <a href=\"https://www.codeweavers.com/products/crossover/\" "
-"rel=\"external\">CrossOver</a> 在 GNU/Linux 下运行。但是用户可能会需要付出一"
-"些额外的精力。<a href=\"https://appdb.winehq.org/\" rel=\"external\">Wine 游"
-"戏数据库</a>包含一个可以通过 Wine 运行的游戏列表。"
+"大多数流行的游戏，可惜只能在 Windows 上运行，偶尔也能在 macOS 上运行。一些 Windows 游戏可以在 GNU/Linux 上使用 <a "
+"href=\"https://www.winehq.org/\" rel=\"external\">Wine </a>或其非自由的变体 <a href="
+"\"https://www.codeweavers.com/crossover/\" rel=\"external\">CrossOver</a> "
+"运行，这需要用户付出一些不愉快的努力。关于已知可在 Wine 上运行的游戏列表，请参阅 <a href=\"https://appdb.winehq."
+"org/\" rel=\"external\">他们的游戏数据库</a>。还有一个由 Valve 软件公司发布的工具 Proton，它已经与 Steam "
+"Play 集成在一起，使在 GNU/Linux 上玩 Windows 游戏变得像在 Steam 上点击 Play 按钮一样简单。关于已知可在 "
+"Proton 上运行的游戏列表，请参见 <a href=\"https://www.protondb.com/\" rel=\"external\""
+">他们的游戏数据库</a>。"
 
 #: docroot/lib/views/linux.faq.php:265
+#, fuzzy
 msgid ""
 "Here's the short version of the answer: No. If you simply <em>never run "
 "untrusted executables while logged in as the root user (or equivalent)</em>, "
@@ -3713,6 +3680,11 @@ msgid ""
 "privileged executables enjoy paranoid-grade scrutiny (such that any "
 "unauthorised changes would be detected and remedied)."
 msgstr ""
+"以下是答案的简短版本。如果您只是<em>永远不要在以root用户（或同等用户）</em>登录时运行不受信任的可执行文件，那么世界上所有的 \"病毒检查程序"
+" \"充其量都是多余的；在最坏的情况下，简直是有害的。\"敌对的 \"可执行文件（包括病毒）在 GNU/Linux 世界中几乎找不到 <em></em> "
+"&amp;ndash；而且对它没有真正的威胁 &amp;ndash。因为它们缺乏超级用户的授权，而且GNU/"
+"Linux管理员很少会蠢到以超级用户的身份运行不受信任的可执行文件，<em>而且</em>因为GNU/"
+"Linux用户习惯的、推荐的特权可执行文件来源享有偏执狂级别的审查（这样任何未经授权的修改都会被发现并得到补救）。"
 
 #: docroot/lib/views/linux.faq.php:266
 msgid ""
@@ -3763,9 +3735,9 @@ msgid ""
 "rel=\"license external\"><abbr title=\"Creative Commons Attribution-"
 "ShareAlike\">CC BY-SA</abbr> 4.0 International License</a>."
 msgstr ""
-"除另有<a href=\"%s\">注明</a>，本网站内容皆采用<a href=\"https://"
-"creativecommons.org/licenses/by-sa/4.0/\" rel=\"license external\"><abbr "
-"title=\"创作共享署名\">CC BY-SA</abbr> 4.0 许可证</a>。"
+"除另有<a href=\"%s\">注明</a>，本网站内容皆采用<a href=\"https://creativecommons.org/"
+"licenses/by-sa/4.0/\" rel=\"license external\"><abbr title=\"Creative "
+"Commons Attribution-ShareAlike\">知识共享 署名-相同方式共享</abbr> 4.0 许可证</a>。"
 
 #: src/templates/footer.php:10
 msgid ""
@@ -3778,15 +3750,15 @@ msgstr ""
 #: src/templates/footer.php:11
 #, php-format
 msgid "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
-msgstr ""
+msgstr "本网站<a href=\"%s\" rel=\"external\">自由且开源</a>。"
 
 #: src/templates/footer.php:19
 msgid "Resources"
-msgstr ""
+msgstr "资源"
 
 #: src/templates/footer.php:21
 msgid "News"
-msgstr ""
+msgstr "最新动态"
 
 #: src/templates/footer.php:25
 msgid "Participate"
@@ -3795,15 +3767,15 @@ msgstr "参与"
 #: src/templates/footer.php:27 src/templates/header.php:83
 #: src/templates/header.php:97
 msgid "Help translate"
-msgstr ""
+msgstr "协助翻译"
 
 #: src/templates/footer.php:32
 msgid "Community"
-msgstr ""
+msgstr "社区"
 
 #: src/templates/footer.php:35
 msgid "Community forum"
-msgstr ""
+msgstr "社区论坛"
 
 #: src/templates/footer.php:37
 msgid "Contact us"
