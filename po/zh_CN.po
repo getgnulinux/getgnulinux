@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2021-01-23 09:10+0000\n"
-"PO-Revision-Date: 2021-03-21 10:29+0000\n"
+"PO-Revision-Date: 2021-03-25 16:29+0000\n"
 "Last-Translator: Liu Tao <lyuutau@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "getgnulinux/getgnulinux-pot/zh_Hans/>\n"
@@ -921,7 +921,7 @@ msgid ""
 "use and gives more freedom to users. Anyone can install it: GNU/Linux is "
 "free as in freedom, and often available free of charge."
 msgstr ""
-"GNU/Linux 是 Microsoft Windows 或 macOS 的一个替代品。简单易用，并且用户拥有更多自由。任何人都可以安装：GNU/"
+"GNU/Linux 是 Microsoft Windows 或 macOS 的替代品。它简单易用，并给予用户更多的自由。任何人都可以安装：GNU/"
 "Linux 是自由的，通常亦是免费的。"
 
 #: docroot/lib/views/home.php:26
@@ -1272,7 +1272,7 @@ msgstr "Fedora 截屏"
 #. TRANSLATORS: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:143
 msgid "Now grab a USB stick and try or install your distribution!"
-msgstr "那现在就拿起优盘，体验一下或直接安装吧！"
+msgstr "现在就拿起 U 盘，体验一下或直接安装吧！"
 
 #: docroot/lib/views/linux.php:15
 msgid ""
@@ -1602,7 +1602,7 @@ msgstr ""
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:21
 msgid "Try out the live USB stick"
-msgstr "试用安装优盘"
+msgstr "试用安装 U 盘"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:24
 msgid "Take no risk"
@@ -1713,6 +1713,8 @@ msgid ""
 "<a href=\"%s\" rel=\"external\">Create a live USB stick</a> or <a href=\"%s"
 "\" rel=\"external\">burn it to a CD/DVD</a>."
 msgstr ""
+"<a href=\"%s\" rel=\"external\">创建一个 live U 盘</a>或<a href=\"%s\" rel="
+"\"external\">将其刻录到 CD/DVD </a>中。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:56
 msgid "https://www.debian.org/CD/faq/#write-usb"
@@ -1752,7 +1754,7 @@ msgstr "https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows"
 msgid ""
 "Then use it to <a href=\"%s\" rel=\"external\">install Ubuntu</a> onto your "
 "computer."
-msgstr ""
+msgstr "然后用它<a href=\"%s\" rel=\"external\">将 Ubuntu 安装</a>到你的电脑上。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:72
 msgid "https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop"
@@ -1775,7 +1777,7 @@ msgstr ""
 msgid ""
 "Then use it to <a href=\"%s\" rel=\"external\">install Fedora</a> onto your "
 "computer."
-msgstr ""
+msgstr "然后用它<a href=\"%s\" rel=\"external\">将 Fedora 安装</a>到你的电脑上。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:87
 msgid ""
@@ -1816,9 +1818,9 @@ msgid ""
 "linuxpreloaded.com/\" rel=\"external\">LinuxPreloaded.com</a> has compiled a "
 "list of vendors pre-installing GNU/Linux just for that reason."
 msgstr ""
-"并不是所有的计算机都是预装 Windows 或 macOS 的。如果不想自己安装，或者正好需要购买新计算机，你可以选择购买预装 GNU/Linux "
+"并不是所有的计算机都是预装 Windows 或 macOS 的。如果不想自己安装，或者需要新的硬件，你可以选择购买预装 GNU/Linux "
 "的台式机或者笔记本。<a href=\"https://linuxpreloaded.com/\" rel=\"external\""
-">LinuxPreloaded.com</a> 收集了预装 GNU/Linux 操作系统的计算机厂商。"
+">LinuxPreloaded.com</a> 为此整理了一份预装 GNU/Linux 的厂商名单。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:29
 msgid "The software industry can't keep going if programmers don't get paid"
@@ -1840,8 +1842,8 @@ msgid ""
 "strong>. You may actually pay to get free software (or \"open source\" "
 "software %s), which you can then study, change and copy at will."
 msgstr ""
-"当我们谈论自由软件，指的是<strong>自由而非免费</strong>。实际上，为获取自由软件（或者开源软件%s）以便研习，修改和任意拷贝，你也可能要破"
-"费。"
+"当我们提到自由软件 (free software) "
+"时，指的是<strong>自由而非免费</strong>。实际上，为获取自由软件（或者开源软件%s）以便研习，修改和任意拷贝，你也可能要破费。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:35
 msgid ""
@@ -1960,7 +1962,7 @@ msgstr "（图像编辑器）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:65
 msgid "(office suite)"
-msgstr ""
+msgstr "（办公软件套装）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:66
 msgid "(machine learning)"
@@ -2028,8 +2030,9 @@ msgid "(container format)"
 msgstr "（容器格式）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:89
+#, fuzzy
 msgid "(office documents)"
-msgstr ""
+msgstr "（办公文件）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:90
 msgid "(video file format)"
@@ -2180,9 +2183,7 @@ msgstr "因此，它们很少被创造者用来获益（而且事实上，创造
 msgid ""
 "It's safe to say that <strong>any medium-size piece of software violates "
 "patents</strong>, in several countries, whether it's free or not."
-msgstr ""
-"可以很放心地说，在不少国家，<strong>任何中等大小的软件都侵犯了专利</strong>，"
-"不管软件本身是自由的还是非自由的。"
+msgstr "可以肯定地说，在不少国家，<strong>任何中等大小的软件都侵犯了专利</strong>，不管软件本身是自由的还是非自由的。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:132
 msgid ""
@@ -2272,7 +2273,7 @@ msgid ""
 "proprietary software &ndash; where the programmer decides everything you can "
 "<a href=\"%s\">and can't do</a> with the software."
 msgstr ""
-"因此，事实上，你对自由软件的“所有权”比对专有软件的“所有权”更多&ndash;在那里，程序员决定了你可以<a href=\"%s\""
+"因此，事实上，你对自由软件的“所有权”比对专有软件的“所有权”更多&mdash;在专有软件中，程序员决定了你可以<a href=\"%s\""
 ">和不能</a>用软件做的一切。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:157
@@ -2282,9 +2283,8 @@ msgid ""
 "opposite. The free software license is simply a legal, ethical contract "
 "between the programmer and the end-user."
 msgstr ""
-"<em>自由软件跟一种政治体系毫无瓜葛。</em> 你可以在私有软件上运行自由软件，正"
-"如相反的情形一样。自由软件许可协议只是程序员与终端用户之间一款有法律效应的，"
-"也符合道德准则的协议。"
+"<em>自由软件与政治制度无关。</em> "
+"你可以在私有软件上运行自由软件，反之亦然。自由软件许可协议只是程序员与终端用户之间的一款既有法律效力，也符合道德准则的协议。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:161
 msgid "Free software can't be secure"
@@ -2301,9 +2301,7 @@ msgid ""
 "Short answer: The majority of servers run free software. They are the major "
 "networked computers holding sensitive or confidential information such as "
 "your bank details or trade secrets."
-msgstr ""
-"一个短而有力的回答：大部分的服务器都运行自由软件。它们可是持有敏感或机密信息"
-"比如你的银行帐户细节或贸易机密的联了网的计算机。"
+msgstr "简短的回答：大部分的服务器都运行自由软件。它们可是持有敏感或机密信息，比如你的银行帐户细节或贸易机密的联网的计算机。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:164
 msgid ""
@@ -2318,7 +2316,7 @@ msgstr ""
 "的，因为只有钥匙持有者才能打开它。对软件也是同样的道理。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:165
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "Need examples? Have a look at the <a href=\"https://www.getfirefox.com/\" "
 "rel=\"external\">Firefox web browser</a>, the <a href=\"https://en.wikipedia."
@@ -2332,13 +2330,16 @@ msgid ""
 "wiki/OpenBSD\" rel=\"external\">OpenBSD</a> operating system. And <a href="
 "\"%s#security\">there are no spyware or viruses under GNU/Linux</a>."
 msgstr ""
-"要些例子吗？看看<a href=\"https://www.getfirefox.com/\" rel=\"external"
-"\">Firefox浏览器</a>，<a href=\"https://en.wikipedia.org/wiki/"
-"Apache_HTTP_Server\" rel=\"external\">Apache HTTP服务器</a>，<a href="
-"\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\" rel=\"external"
-"\">OpenPGP</a>加密系统，或者<a href=\"https://en.wikipedia.org/wiki/OpenBSD"
-"\" rel=\"external\">OpenBSD</a>操作系统。并且<a href=\"%s#security\">在 GNU/"
-"Linux 下没有间谍软件或电脑病毒</a>。"
+"需要例子吗？看看<a href=\"https://www.getfirefox.com/\" rel=\"external\">Firefox "
+"网页浏览器</a>、<a href=\"https://en.wikipedia.org/wiki/Apache_HTTP_Server\" rel="
+"\"external\">Apache HTTP 服务器</a>、<a href=\"https://en.wikipedia.org/wiki/"
+"Nginx\" rel=\"external\">Nginx 网页服务器</a>、<a href=\"https://en.wikipedia.org/"
+"wiki/Dovecot_(software)\" rel=\"external\">Dovecot 电子邮件服务器</a>、<a href="
+"\"https://en.wikipedia.org/wiki/Exim\" rel=\"external\">Exim 邮件传输代理</a>、<a "
+"href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\" rel=\"external\""
+">OpenPGP</a> 加密系统或<a href=\"https://en.wikipedia.org/wiki/OpenBSD\" rel="
+"\"external\">OpenBSD</a> 操作系统。而且<a href=\"%s#security\">GNU/Linux</a> "
+"下没有间谍软件或病毒。"
 
 #. TRANSLATORS: this can be translated loosely, ex "Free software isolates me" or else.
 #: docroot/lib/views/linux.misunderstanding_free_software.php:171
@@ -2365,6 +2366,10 @@ msgid ""
 "unix.stackexchange.com/\" rel=\"external\">Unix &amp; Linux Stack Exchange</"
 "a>."
 msgstr ""
+"每个 GNU/Linux 发行版都有自己的社区（例如，<a href=\"https://askubuntu.com/\" rel=\"external"
+"\">Ask Ubuntu</a> 或 <a href=\"https://ask.fedoraproject.org/\" rel=\"external"
+"\">Ask Fedora</a>），但也有通用的 GNU/Linux 帮助社区，如 <a href=\"https://unix."
+"stackexchange.com/\" rel=\"external\">Unix &amp; Linux Stack Exchange</a>。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:177
 msgid ""
@@ -2376,15 +2381,15 @@ msgid ""
 "and developers that are happy to answer your questions. Here you can find "
 "the IRC channels for the distributions we recommend:"
 msgstr ""
-"自由软件社区有很多实时讨论渠道。IRC，即 Internet Relay "
-"Chat，是一种实时的、基于文本的通信形式。你可以在一个开放的频道中与多人对话，也可以与人一对一私下聊天。主要的 GNU/Linux "
+"自由软件社区有很多实时讨论渠道。IRC，即互联网中继聊天 (Internet Relay "
+"Chat)，是一种实时的、基于文本的通信形式。你可以在一个开放的频道中与多人对话，也可以与人一对一私下聊天。主要的 GNU/Linux "
 "发行版都有自己专门的 IRC 频道，在那里你会发现用户和开发者很乐意回答你的问题。在这里你可以找到我们推荐的发行版的 IRC 频道："
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:184
 msgid ""
 "All major GNU/Linux distributions offer help &ndash; free of charge &ndash; "
 "through mailing lists:"
-msgstr ""
+msgstr "所有主要的 GNU/Linux 发行版都通过邮件列表免费提供帮助："
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:191
 msgid ""
@@ -2448,10 +2453,10 @@ msgid ""
 "point</a>. Read our FAQ entry: <a href=\"%s#open_source\">Are \"Open Source"
 "\" and \"Free Software\" the same thing?</a>."
 msgstr ""
-"我们这里称的“自由软件”也往往被称为“开源软件”。实际上，要求是一样的，只不过“开"
-"放”这个用语让人想不到自由，<a href=\"https://www.gnu.org/philosophy/open-"
-"source-misses-the-point.html\" rel=\"external\">不得要领</a>。请阅读常见问题"
-"中的<a href=\"%s#open_source\">“开源”与“自由软件”是一回事吗？</a>。"
+"我们这里称的“自由软件”也往往被称为“开放源代码软件”。实际使用中，两者的要求是相同的，不过由于“开放”一词并没有让人关注于自由，所以<a href="
+"\"https://www.gnu.org/philosophy/open-source-misses-the-point.html\" rel="
+"\"external\">不得要领</a>。请阅读常见问题中的<a href=\"%s#open_source\""
+">“开源”与“自由软件”是一回事吗？</a>。"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:19
 msgid ""
@@ -3097,10 +3102,9 @@ msgid ""
 "software: all the <a href=\"%s\">issues about Windows</a> apply to it as "
 "well."
 msgstr ""
-"不，macOS 中有一些<a href=\"https://www.gnu.org/philosophy/free-sw.html\" "
-"rel=\"external\">自由軟體</a>元件，它在技術上類似於 GNU/Linux 系統。但它基本"
-"上還是專有軟體：所有<a href=\"%s\">關於 Windows 的問題</a>在它身上也一樣適"
-"用。"
+"不，macOS 中有一些<a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel="
+"\"external\">自由软件</a>的组件，它在技术上类似于 GNU/Linux 系统。但总的来说，它是专有软件：所有<a href=\"%s\""
+">关于 Window 的问题</a>也适用于它。"
 
 #: docroot/lib/views/linux.faq.php:76
 msgid "Understanding free software"
@@ -3115,7 +3119,7 @@ msgstr "“开源”与“自由软件”是一回事吗？"
 msgid ""
 "Yes and no. Technically, the great majority of open source programs are free "
 "software and vice-versa."
-msgstr "是，不是。从技术上讲，绝大多数开源程序都是自由软件，反过来也一样。"
+msgstr "是，也不是。从技术上讲，绝大多数的开源程序都是自由软件，反之亦然。"
 
 #: docroot/lib/views/linux.faq.php:82
 msgid ""
@@ -3341,9 +3345,8 @@ msgid ""
 "frightening. Are GNU/Linux and its <abbr title=\"GNU General Public License"
 "\">GPL</abbr> License something for anarchists or communists?"
 msgstr ""
-"“每一样东西都必须是自由的”，“没有一个人拥有任何东西”听起来有点不可思议。GNU/"
-"Linux 以及 <abbr title=\"GNU General Public License\">GPL</abbr> 许可协议是不"
-"是属于无政府主义或者共产主义？"
+"“一切都必须是自由的”，“不为任何人所私有”有点骇人听闻。GNU/Linux 以及 <abbr title=\"GNU General Public "
+"License\">GPL</abbr> 许可协议是不是属于无政府主义或者共产主义？"
 
 #. TRANSLATORS: The link here points to the "How to Misunderstand Free Software" article.
 #: docroot/lib/views/linux.faq.php:156
@@ -3353,8 +3356,8 @@ msgid ""
 "regardless of their political views &ndash; can use it. We have this "
 "explained simply in our article \"<a href=\"%s\">%s</a>\"."
 msgstr ""
-"GNU/Linux 与政治体系没有任何关系——&ndash;持有任何政见&ndash;的人都可以使用它。我们已经在我们的<a href=\"%s\""
-">%s</a>一文中解释了这个问题。"
+"GNU/Linux 与政治制度无关，任何人&mdash;无论其政治观点如何&mdash;都可以使用它。在我们的《<a href=\"%s\""
+">%s</a>》一文中，我们对此做了简单的解释。"
 
 #: docroot/lib/views/linux.faq.php:163
 msgid "Installing GNU/Linux"
@@ -3641,7 +3644,7 @@ msgstr ""
 #: docroot/lib/views/linux.faq.php:269
 #, php-format
 msgid "See our \"<a href=\"%s\">%s</a>\" for more details on this subject."
-msgstr ""
+msgstr "关于这个问题，详见我们的 “<a href=\"%s\">%s</a>”。"
 
 #: docroot/lib/views/linux.faq.php:276
 msgid "More questions?"
