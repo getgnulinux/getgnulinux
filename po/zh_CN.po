@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2021-01-23 09:10+0000\n"
-"PO-Revision-Date: 2021-03-25 16:29+0000\n"
+"PO-Revision-Date: 2021-03-28 17:29+0000\n"
 "Last-Translator: Liu Tao <lyuutau@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "getgnulinux/getgnulinux-pot/zh_Hans/>\n"
@@ -30,7 +30,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5.2-dev\n"
+"X-Generator: Weblate 4.6-dev\n"
 
 #. TRANSLATORS: The name of the website. It is displayed in the header of each page.
 #: docroot/lib/ggl.php:207 docroot/lib/views/home.php:15
@@ -127,7 +127,7 @@ msgstr "关于限制的更多细节"
 #: docroot/lib/ggl.php:242 docroot/lib/views/windows.php:71
 #: docroot/lib/views/linux.faq.php:198
 msgid "Stand for a free society"
-msgstr "代表自由社会"
+msgstr "支持自由社会"
 
 #. TRANSLATORS: This title can be translated loosely
 #: docroot/lib/ggl.php:244 docroot/lib/views/windows.php:43
@@ -312,7 +312,7 @@ msgid ""
 "continually changing? Why can you not even uninstall some programs? It might "
 "be that if you look for choice, Microsoft products aren't for you."
 msgstr ""
-"为什么 Office 文档难于导出呢？为什么它的格式持续变更呢？更有甚者，你无法卸载一些程序。如果你希望有更多选择的余地，那么微软的产品可能不适合你。"
+"为什么 Office 文档难以导出？为什么它的格式会不断变更？为什么某些程序甚至不能卸载？如果你希望有更多选择的余地，那么微软的产品可能不适合你。"
 
 #: docroot/lib/views/windows.php:59
 msgid ""
@@ -359,9 +359,8 @@ msgid ""
 "like <strong>Trusted Computing</strong>, everyone's ability to participate "
 "in culture is threatened."
 msgstr ""
-"而这一切现在正在发生。种种技术，从明显恼人的如数字约束管理（<strong>DRM</"
-"strong>）到十分吓人的如<strong>可信计算</strong>，每个人参与文化的权利都在受"
-"到来自它们的威胁。"
+"而这一切现在正在发生。种种技术，从明显恼人的如数字限制管理（<strong>DRM</strong>）到十分吓人的如<strong>可信计算</stron"
+"g>，每个人参与文化的权利都在受到来自它们的威胁。"
 
 #: docroot/lib/views/windows.php:77
 msgid ""
@@ -554,8 +553,8 @@ msgid ""
 "Can you learn from it? Can you build upon it? Can you distribute it? That's "
 "what we refer to as \"free software\"."
 msgstr ""
-"除了开源软件的可信属性: "
-"真正重要的是通过它<strong>你能获得的自由</strong>。是否能从中学习？是否能继续开发？是否能分发新版本？这就是我们所说的“自由软件”。"
+"好的软件远不止应该值得信赖（通过“开源”的方式）：真正重要的是通过它<strong>你能获得的自由</strong>。是否能从中学习？是否能继续开发？是否"
+"能分发新版本？这就是我们所说的“自由软件”。"
 
 #. TRANSLATORS: This is the quote by Don Marti at the start of the article.
 #: docroot/lib/views/windows.stand_for_a_free_society.php:29
@@ -675,19 +674,19 @@ msgstr ""
 #: docroot/lib/views/windows.stand_for_a_free_society.php:72
 msgid ""
 "Imagine a book that automatically became glued shut after you read it once."
-msgstr "想象这样一本书，当你阅读一遍之后他会自动把每页粘在一起。"
+msgstr "想象这样一本书，当你阅读一遍之后会自动把每页粘在一起。"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:73
 msgid ""
 "Imagine documents that self-destructed if you tried to take them out of the "
 "room."
-msgstr "想象这样的一份文档，当你想要把它带出你的房间时它会自动销毁自己。"
+msgstr "想象这样一份文档，当你想要把它带出你的房间时它会自动销毁自己。"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:74
 msgid ""
 "Imagine telephones that only worked if the person you were ringing was "
 "renting the same make and model."
-msgstr "想象这样一台电话机，只有当你呼叫同样牌子电话的人时才能工作。"
+msgstr "想象这样一台电话，只有当你呼叫的人租用的电话和你是同品牌同型号时，才能接通。"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:76
 msgid "Sounds crazy? This is where Trusted Computing comes in."
@@ -707,9 +706,10 @@ msgid ""
 "against nuisances (like viruses or spyware) and copyright violations (people "
 "copying proprietary software)."
 msgstr ""
-"可信计算（或者<a href=\"https://www.lafkon.net/tc/\" rel=\"external\" title=\"A "
-"very well done video on Trusted Computing\""
-">更准确地</a>说是“背信计算”）就是一台只能运行“可信”软件的计算机。其目的是为了防止滋扰（如病毒和恶意软件）和版权侵犯（复制专有软件）。"
+"可信计算 (Trusted Computing)［或者<a href=\"https://www.lafkon.net/tc/\" rel="
+"\"external\" title=\"A very well done video on Trusted Computing\""
+">更准确地</a>说是“背信计算” (Treacherous "
+"Computing)］意味着计算机只能运行“可信”软件。它旨在提供不可规避的保护措施，以防止滋扰（如病毒和恶意软件）和版权侵犯（复制专有软件）。"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:82
 msgid "Trusted Computing is control over the computer"
@@ -744,7 +744,7 @@ msgstr ""
 msgid ""
 "Trusted Computing, in effect, enables the publisher to write their own "
 "copyright law."
-msgstr "可信计算事实上允许了发行商编写自己的版权法律。"
+msgstr "可信计算，就其实际影响而言，是让发行商能制定自己的版权法。"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:89
 msgid "The wider impact"
@@ -793,8 +793,7 @@ msgid ""
 "Trusted Computing and DRM pave the way for a society in which culture and "
 "information are not simply turned into products (they are right now, and "
 "that is fine), but into <em>consumable</em> products."
-msgstr ""
-"想想未来，文化和信息不再仅仅是商品（它们现在是，这没问题），而是成为了<em>消耗品</em>。可信计算和 DRM 为这样的社会铺平了一条道路。"
+msgstr "想想未来，文化和信息不再仅仅是商品（好在现在还是），而是成为了<em>消耗品</em>。可信计算和 DRM 为这样的社会铺平了一条道路。"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:120
 msgid ""
@@ -844,8 +843,8 @@ msgid ""
 "Management\">DRM</abbr> by Tim Jackson, and on which we based the present "
 "article."
 msgstr ""
-"一个由 Tim Jackson 创作的关于<abbr title=\"数字限制管理\">DRM</abbr>的，写得"
-"很好的文章，我们这篇文章就是基于它创作的。"
+"一篇由 Tim Jackson 创作的关于 <abbr title=\"数字限制管理\">DRM</abbr> "
+"的，写得很好的文章，我们这篇文章就是基于它创作的。"
 
 #. TRANSLATORS: If you don't know of a localized version of this article, please leave the URL in English
 #: docroot/lib/views/windows.stand_for_a_free_society.php:148
@@ -1597,12 +1596,12 @@ msgid ""
 "\">purchase a PC with GNU/Linux pre-installed</a>, you can see what freedom "
 "looks like on your computer."
 msgstr ""
-"按照下面的步骤&ndash;除非你希望<a href=\"#free_software_pre_installed\" title=\"Linux "
-"台式机和笔记本\">购买一台预装 GNU/Linux 的计算机</a>, 你会感受到自由的计算机是什么样子。"
+"按照下面的步骤&mdash;除非你希望<a href=\"#free_software_pre_installed\" title=\"Linux "
+"台式机和笔记本\">购买一台预装 GNU/Linux 的计算机</a>，你会感受到自由的计算机是什么样子。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:21
 msgid "Try out the live USB stick"
-msgstr "试用安装 U 盘"
+msgstr "试用临场 U 盘"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:24
 msgid "Take no risk"
@@ -1613,16 +1612,14 @@ msgid ""
 "Using a live USB stick means that GNU/Linux will be running on your computer "
 "<em>without installing anything</em>. It's a risk-less way to try and see by "
 "yourself what GNU/Linux is."
-msgstr ""
-"使用 Live 优盘可以在<em>不安装任何东西的情况下</em>运行 GNU/Linux。这是体验 "
-"GNU/Linux 的一个无风险方案。"
+msgstr "使用临场 U 盘可以在 <em>不安装任何东西的情况下</em> 运行 GNU/Linux。这是体验 GNU/Linux 的一个无风险方案。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:26
 msgid ""
 "When running on a live USB stick, your computer uses solely the USB stick to "
 "work (without accessing the hard drive inside). You can launch all of the "
 "default programs, edit documents, and browse the web."
-msgstr "运行一个 live 优盘时，并不会修改硬盘上的任何东西（仅仅访问优盘）。你可以运行所有的默认软件、编辑文档或者浏览网页。"
+msgstr "运行一个临场 U 盘时，你的电脑只使用 U 盘工作（不访问机器里的硬盘）。你可以运行所有的默认软件、编辑文档或者浏览网页。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:27
 msgid ""
@@ -1646,8 +1643,8 @@ msgid ""
 "system which can not boot from USB. You can then use it to install GNU/Linux "
 "onto your computer."
 msgstr ""
-"对于我们所建议的发行版，Live CD 与安装 CD 相同。你可以下载 ISO 映像档（比较大的档案）然后建立可用于开机的优盘（建议）或将其烧录到 CD "
-"中，对不能从 USB 开机的旧系统来说比较有用。你可以使用它来安装 GNU/Linux 到你的电脑上。"
+"对于我们所建议的发行版，临场 U 盘与安装介质相同。你可以下载 ISO 映像（相当大的文件）然后创建一个可启动的 U 盘（建议）或将其刻录到 CD 或 "
+"DVD 中，对不能从 USB 启动的旧系统来说比较有用。你可以使用它来安装 GNU/Linux 到你的电脑上。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:31
 msgid ""
@@ -1656,8 +1653,8 @@ msgid ""
 "strong>. If you feel confident simply using Windows or macOS from time to "
 "time, then this is within your reach."
 msgstr ""
-"使用一个 live 优盘只需要一点点的好奇心和几十分钟的空闲时间， <strong>并不需要对计算机有专业了解</strong>。"
-"如果你在日常生活中能够使用 Windows 或 macOS 操作系统，那么这将非常简单。"
+"使用一个临场 U 盘只需要一点点的好奇心和几十分钟的空闲时间， <strong>并不需要对计算机有专业了解</strong>。如果你在日常生活中能够使用 "
+"Windows 或 macOS 操作系统，那么这将非常简单。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:35
 msgid "Installing as a dual boot"
@@ -1713,8 +1710,8 @@ msgid ""
 "<a href=\"%s\" rel=\"external\">Create a live USB stick</a> or <a href=\"%s"
 "\" rel=\"external\">burn it to a CD/DVD</a>."
 msgstr ""
-"<a href=\"%s\" rel=\"external\">创建一个 live U 盘</a>或<a href=\"%s\" rel="
-"\"external\">将其刻录到 CD/DVD </a>中。"
+"<a href=\"%s\" rel=\"external\">创建一个临场 U 盘</a>或<a href=\"%s\" rel=\"external"
+"\">将其刻录到 CD/DVD </a>中。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:56
 msgid "https://www.debian.org/CD/faq/#write-usb"
@@ -2030,7 +2027,6 @@ msgid "(container format)"
 msgstr "（容器格式）"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:89
-#, fuzzy
 msgid "(office documents)"
 msgstr "（办公文件）"
 
@@ -2100,8 +2096,8 @@ msgid ""
 "a> in your computer at start-up, to try a full-featured, well-organised "
 "system, without installation, so you can judge by yourself."
 msgstr ""
-"好消息是：<em>自由软件也能正常工作</em>。而且事实上，它往往工作得更好。在你的电脑开启的时候，<a href=\"%s\">插入一张GNU/"
-"Linux liveCD</a>，不用安装，你就自己判断吧。"
+"好消息是：<em>自由软件也能正常工作</em> 。而且事实上，它往往工作得更好。在你的电脑开启的时候，<a href=\"%s\">插入一个 GNU/"
+"Linux 临场 U 盘</a>，不用安装就能尝试一下这个功能齐全、组织良好的系统，这样你就可以自行判断了。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:116
 msgid ""
@@ -2700,7 +2696,7 @@ msgid ""
 "entirely legally."
 msgstr ""
 "这可能导致尽管你已经合法地购买了它们，却不得不绕开一些 DVD 的限制或音乐文件的 <abbr title=\"Digital Restrictions "
-"Management\">DRM</abbr>保护，才能在 GNU/Linux "
+"Management\">DRM</abbr> 保护，才能在 GNU/Linux "
 "中使用它们。很不幸，在某些地区，<em>这种规避的行为可能是不合法的</em>，即使你已经付了钱。"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:88
@@ -3613,7 +3609,6 @@ msgstr ""
 ">他们的游戏数据库</a>。"
 
 #: docroot/lib/views/linux.faq.php:265
-#, fuzzy
 msgid ""
 "Here's the short version of the answer: No. If you simply <em>never run "
 "untrusted executables while logged in as the root user (or equivalent)</em>, "
@@ -3639,6 +3634,8 @@ msgid ""
 "aren't allowed to hurt the system (only a superuser account can), so neither "
 "can programs they run."
 msgstr ""
+"这是长版的。<em>还是</em>没有。GNU/Linux盒子上的任何程序，包括病毒在内，只能做运行它的用户能做的事情。真正的用户是不允许伤害系统的（只有"
+"超级用户帐号才可以），所以他们运行的程序也不可以。"
 
 #. TRANSLATORS: The link will automatically point to the "GNU/Linux virus FAQ" page.
 #: docroot/lib/views/linux.faq.php:269
