@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2021-01-23 09:10+0000\n"
-"PO-Revision-Date: 2021-02-01 13:41+0000\n"
+"PO-Revision-Date: 2021-04-28 04:32+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "getgnulinux/getgnulinux-pot/pt_BR/>\n"
@@ -36,7 +36,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 4.7-dev\n"
 
 #. TRANSLATORS: The name of the website. It is displayed in the header of each page.
 #: docroot/lib/ggl.php:207 docroot/lib/views/home.php:15
@@ -1164,14 +1164,6 @@ msgstr ""
 "ler arquivos <code>.doc</code> de forma muito confiável."
 
 #: docroot/lib/views/windows.what_about_choice.php:39
-#, fuzzy
-#| msgid ""
-#| "There are of course other ways of writing and exchanging office files, "
-#| "the most well-known being <a href=\"http://www.opendocumentformat.org/\" "
-#| "rel=\"external\">the OpenDocument Format</a>. But Microsoft isn't keen on "
-#| "letting Office users exchange files anyone can read and edit. As of "
-#| "Microsoft Office 2007 SP2, Microsoft finally added support for the ODF "
-#| "format after being pushed by the European Commission."
 msgid ""
 "There are of course other ways of writing and exchanging office files, the "
 "most well-known being <a href=\"https://en.wikipedia.org/wiki/OpenDocument\" "
@@ -1181,12 +1173,12 @@ msgid ""
 "format after being pushed by the European Commission."
 msgstr ""
 "É claro que há outras formas que escrever e compartilhar arquivos de "
-"escritório, sendo mais conhecido o <a href=\"http://www.opendocumentformat."
-"org/\" rel=\"external\">OpenDocument Format</a>. Mas a Microsoft não está "
-"muito interessada em deixar que usuários do Office compartilhem arquivos que "
-"qualquer pessoa possa ler e editar. A partir do Microsoft Office 2007 SP2, a "
-"Microsoft finalmente adicionou suporte ao formato ODF depois de ter sido "
-"publicado pela Comissão Europeia."
+"escritório, sendo mais conhecido o <a href=\"https://en.wikipedia.org/wiki/"
+"OpenDocument\" rel=\"external\">OpenDocument Format</a>. Mas a Microsoft não "
+"está muito interessada em deixar que usuários do Office compartilhem "
+"arquivos que qualquer pessoa possa ler e editar. A partir do Microsoft "
+"Office 2007 SP2, a Microsoft adicionou suporte ao formato OpenDocument "
+"depois de ter sido publicado pela Comissão Europeia."
 
 #: docroot/lib/views/windows.what_about_choice.php:43
 msgid "Standards that change all the time"
@@ -1244,15 +1236,6 @@ msgid "Monopolistic practices"
 msgstr "Práticas monopolistas"
 
 #: docroot/lib/views/windows.what_about_choice.php:55
-#, fuzzy
-#| msgid ""
-#| "This means that no program competing with Microsoft products, be it <a "
-#| "href=\"https://www.videolan.org/vlc/\" rel=\"external\">multimedia "
-#| "player</a>, <a href=\"https://www.getfirefox.com/\" rel=\"external\">web "
-#| "browser</a>, <a href=\"https://www.libreoffice.org/\" rel=\"external"
-#| "\">office suite</a>, <a href=\"https://www.pidgin.im/\" rel=\"external"
-#| "\">instant messaging program</a> or other, will come pre-installed on "
-#| "most computers you can buy."
 msgid ""
 "Microsoft has a tight control over <abbr title=\"Original Equipment "
 "Manufacturer\">OEM</abbr>s (computer manufacturers) who ship their computers "
@@ -1264,13 +1247,16 @@ msgid ""
 "\"external\">instant messaging program</a> or other, will come pre-installed "
 "on most computers you can buy."
 msgstr ""
-"Isso significa que nenhum programa competindo com produtos da Microsoft, "
-"seja ele um <a href=\"https://www.videolan.org/vlc/\" rel=\"external"
-"\">reprodutor de multimídia</a>, <a href=\"https://www.getfirefox.com/\" rel="
-"\"external\">navegador web</a>, <a href=\"https://www.libreoffice.org/\" rel="
-"\"external\">suíte de escritório</a>, <a href=\"https://www.pidgin.im/\" rel="
-"\"external\">programa de mensagens instantânea</a> ou outro, virá pré-"
-"instalado na maioria dos computadores que você pode comprar."
+"A Microsoft tem um controle rígido sobre os <abbr title=\"Original Equipment "
+"Manufacturer\">OEM</abbr>s (fabricantes de computadores) que enviam seus "
+"computadores com o Windows instalado. Isso significa que nenhum programa "
+"competindo com produtos da Microsoft, seja ele um <a href=\"https://www."
+"videolan.org/vlc/\" rel=\"external\">reprodutor de multimídia</a>, <a href="
+"\"https://www.getfirefox.com/\" rel=\"external\">navegador web</a>, <a href="
+"\"https://www.libreoffice.org/\" rel=\"external\">suíte de escritório</a>, "
+"<a href=\"https://www.pidgin.im/\" rel=\"external\">programa de mensagens "
+"instantânea</a> ou outro, virá pré-instalado na maioria dos computadores que "
+"você pode comprar."
 
 #: docroot/lib/views/windows.what_about_choice.php:56
 msgid ""
@@ -1453,10 +1439,6 @@ msgid "Now grab a USB stick and try or install your distribution!"
 msgstr "Agora, pegue um pendrive e experimente ou instale sua distribuição!"
 
 #: docroot/lib/views/linux.php:15
-#, fuzzy
-#| msgid ""
-#| "When you hear the word Linux, you may think of programmers with a beard "
-#| "typing obscure code on a black screen. Good news! things have changed."
 msgid ""
 "When you hear the word Linux, you may think of programmers with a beard "
 "typing obscure code on a black screen. Good news! Things have changed."
@@ -1969,27 +1951,29 @@ msgid ""
 "<a href=\"%s\" rel=\"external\">Create a live USB stick</a> or <a href=\"%s"
 "\" rel=\"external\">burn it to a CD/DVD</a>."
 msgstr ""
+"<a href=\"%s\" rel=\"external\">Crie um pendrive live</a> ou <a href=\"%s\" "
+"rel=\"external\">grave-a em um CD/DVD</a>."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:56
 msgid "https://www.debian.org/CD/faq/#write-usb"
-msgstr ""
+msgstr "https://www.debian.org/CD/faq/#write-usb"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:56
 msgid "https://www.debian.org/CD/faq/#record-windows"
-msgstr ""
+msgstr "https://www.debian.org/CD/faq/#record-windows"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:57
-#, fuzzy, php-format
-#| msgid ""
-#| "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
+#, php-format
 msgid ""
 "Then use it to <a href=\"%s\" rel=\"external\">install Debian</a> onto your "
 "computer."
-msgstr "Este site é <a href=\"%s\" rel=\"external\">código aberto e livre</a>."
+msgstr ""
+"Então, use-o para <a href=\"%s\" rel=\"external\">instalar o Debian</a> em "
+"seu computador."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:57
 msgid "https://www.debian.org/releases/stable/installmanual"
-msgstr ""
+msgstr "https://www.debian.org/releases/stable/installmanual"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:61
 msgid "Download Debian"
@@ -1999,59 +1983,53 @@ msgstr "Baixar Debian"
 msgid ""
 "https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows"
 msgstr ""
+"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:71
 msgid "https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows"
-msgstr ""
+msgstr "https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:72
-#, fuzzy, php-format
-#| msgid ""
-#| "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
+#, php-format
 msgid ""
 "Then use it to <a href=\"%s\" rel=\"external\">install Ubuntu</a> onto your "
 "computer."
-msgstr "Este site é <a href=\"%s\" rel=\"external\">código aberto e livre</a>."
+msgstr ""
+"Então, use-o para <a href=\"%s\" rel=\"external\">instalar o Ubuntu</a> em "
+"seu computador."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:72
 msgid "https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop"
-msgstr ""
+msgstr "https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:76
 msgid "Download Ubuntu"
 msgstr "Baixar Ubuntu"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:86
-#, fuzzy
-#| msgid ""
-#| "<i>Fedora Media Writer</i> is the easiest way to try or install Fedora. "
-#| "Use it to <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/"
-#| "install-guide/install/Preparing_for_Installation/#sect-preparing-boot-"
-#| "media\" rel=\"external\">create a live USB stick or burn it to a CD/DVD</"
-#| "a>."
 msgid ""
 "https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/"
 "Preparing_for_Installation/#sect-preparing-boot-media"
 msgstr ""
-"<i>Fedora Media Writer</i> é a forma mais fácil de testar ou instalar o "
-"Fedora. Use-o para <a href=\"https://docs.fedoraproject.org/en-US/fedora/f33/"
-"install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media"
-"\" rel=\"external\">criar um USB live ou gravá-lo em um CD/DVD</a>."
+"https://docs.fedoraproject.org/pt_BR/fedora/f33/install-guide/install/"
+"Preparing_for_Installation/#sect-preparing-boot-media"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:87
-#, fuzzy, php-format
-#| msgid ""
-#| "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
+#, php-format
 msgid ""
 "Then use it to <a href=\"%s\" rel=\"external\">install Fedora</a> onto your "
 "computer."
-msgstr "Este site é <a href=\"%s\" rel=\"external\">código aberto e livre</a>."
+msgstr ""
+"Então, use-o para <a href=\"%s\" rel=\"external\">instalar o Fedora</a> em "
+"seu computador."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:87
 msgid ""
 "https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/"
 "Booting_the_Installation/"
 msgstr ""
+"https://docs.fedoraproject.org/pt_BR/fedora/f33/install-guide/install/"
+"Booting_the_Installation/"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:91
 msgid "Download Fedora"
@@ -2604,11 +2582,7 @@ msgstr ""
 
 #. TRANSLATORS: The %s placeholder here will automatically point to the page "Windows Restrictions, further details"
 #: docroot/lib/views/linux.misunderstanding_free_software.php:156
-#, fuzzy, php-format
-#| msgid ""
-#| "So in fact, you have more \"ownership\" over free software than over "
-#| "proprietary software &ndash;where the programmer decides everything you "
-#| "can <a href=\"%s\">and can't do</a> with the software."
+#, php-format
 msgid ""
 "So in fact, you have more \"ownership\" over free software than over "
 "proprietary software &ndash; where the programmer decides everything you can "
@@ -4012,14 +3986,6 @@ msgid "Will Microsoft Office run on GNU/Linux?"
 msgstr "O Microsoft Office funciona no GNU/Linux?"
 
 #: docroot/lib/views/linux.faq.php:218
-#, fuzzy
-#| msgid ""
-#| "No. It is technically possible to adapt Microsoft Office to GNU/Linux, "
-#| "but Microsoft isn't keen on allowing Office users to choose their "
-#| "operating system. There are other issues with MS Office and openness "
-#| "&ndash; like Microsoft's fierce opposition to supporting <a href=\"http://"
-#| "www.opendocumentformat.org/\" rel=\"external\">the OpenDocument format</"
-#| "a>."
 msgid ""
 "No. It is technically possible to adapt Microsoft Office to GNU/Linux, but "
 "Microsoft isn't keen on allowing Office users to choose their operating "
@@ -4031,8 +3997,8 @@ msgstr ""
 "a Microsoft não está interessada em permitir que os usuários do Office "
 "escolham o seu sistema operacional. Há outros problemas com o MS Office e "
 "sua abertura &ndash; como a feroz oposição da Microsoft em oferecer suporte "
-"ao <a href=\"http://www.opendocumentformat.org/\" rel=\"external\">formato "
-"OpenDocument</a>."
+"ao <a href=\"https://en.wikipedia.org/wiki/OpenDocument\" rel=\"external\""
+">formato OpenDocument</a>."
 
 #: docroot/lib/views/linux.faq.php:219
 msgid ""
