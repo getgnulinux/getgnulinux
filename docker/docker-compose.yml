@@ -12,9 +12,6 @@ services:
       - "1337:80"
 
   getgnulinux:
-    security_opt:
-      # Required to enable mounts in the container.
-      - "apparmor:unconfined"
     hostname: ggl
     build:
       context: ..
@@ -27,6 +24,9 @@ services:
     user: root
     cap_add: [SYS_ADMIN]
     entrypoint: ["/root/setup_mounts.sh"]
+    security_opt:
+      # Required to enable mounts in the container.
+      - "apparmor:unconfined"
     depends_on:
       - httpd
 
