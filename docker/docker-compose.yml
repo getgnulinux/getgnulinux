@@ -11,11 +11,11 @@ services:
     ports:
       - "1337:80"
 
-  getgnulinux:
-    hostname: ggl
+  builder:
+    hostname: getgnulinux
     build:
       context: ..
-      dockerfile: docker/getgnulinux.Dockerfile
+      dockerfile: docker/builder.Dockerfile
     volumes:
       - "docroot:/var/www/html"
       - "..:/home/node/getgnulinux"
@@ -30,11 +30,11 @@ services:
     depends_on:
       - httpd
 
-  ci:
-    hostname: ggl
+  runner:
+    hostname: getgnulinux
     build:
       context: ..
-      dockerfile: docker/getgnulinux.Dockerfile
+      dockerfile: docker/builder.Dockerfile
     volumes:
       - "docroot:/var/www/html"
     depends_on:
