@@ -1,5 +1,6 @@
 const gulp = require('gulp');
 const gulpLoadPlugins = require('gulp-load-plugins');
+const sass = require('gulp-sass')(require('sass'));
 const $ = gulpLoadPlugins();
 
 const sassConfig = {
@@ -59,7 +60,7 @@ gulp.task('styles:sass', () => {
     return gulp.src('src/styles/*.scss')
         .pipe($.plumber())
         .pipe($.sourcemaps.init())
-        .pipe($.sass.sync(sassConfig).on('error', $.sass.logError))
+        .pipe(sass.sync(sassConfig).on('error', sass.logError))
         .pipe($.autoprefixer())
         .pipe($.cssnano({safe: true, autoprefixer: false}))
         .pipe($.sourcemaps.write('.'), {includeContent: true})
