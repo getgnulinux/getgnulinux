@@ -27,7 +27,7 @@ $this->load_header();
         <div class="col s12 l6 pad3">
           <div class="center">
             <a href="https://unix.stackexchange.com/" title="Unix &amp; Linux Stack Exchange" target="_blank">
-              <img class="lift-effect" src="/images/more/unix.stackexchange.png" alt="Unix &amp; Linux Stack Exchange">
+              <img class="lift-effect" src="/images/more/unix.stackexchange.png" width="280" alt="Unix &amp; Linux Stack Exchange">
             </a>
           </div>
           <p><?php print _("<strong>Unix &amp; Linux Stack Exchange</strong> is a question and answer site for users of GNU/Linux. This site is all about getting answers."); ?></p>
@@ -35,7 +35,7 @@ $this->load_header();
         <div class="col s12 l6 pad3">
           <div class="center">
             <a href="https://askubuntu.com/" title="Ask Ubuntu" target="_blank">
-              <img class="lift-effect" src="/images/more/askubuntu.png" alt="Ask Ubuntu"/>
+              <img class="lift-effect" src="/images/more/askubuntu.png" width="280" alt="Ask Ubuntu">
             </a>
           </div>
           <p><?php print _("<strong>Ask Ubuntu</strong> is a question and answer site for Ubuntu users. Even for users of different distributions of GNU/Linux this can be a helpful resource for finding answers."); ?></p>
@@ -43,7 +43,7 @@ $this->load_header();
         <div class="col s12 l6 pad3">
           <div class="center">
             <a href="https://ask.fedoraproject.org/" title="Ask Fedora" target="_blank">
-              <img class="lift-effect" src="/images/more/askfedora.png" alt="Ask Fedora"/>
+              <img class="lift-effect" src="/images/more/askfedora.png" width="280" alt="Ask Fedora">
             </a>
           </div>
           <p><?php print _("<strong>Ask Fedora</strong> is a forum for Fedora users. Here you can speak to the community to get help with installing, using, customizing, and upgrading a system running Fedora."); ?></p>
@@ -58,7 +58,7 @@ $this->load_header();
         <div class="col s12 l6 pad3">
           <div class="center">
             <a href="https://en.wikibooks.org/wiki/FLOSS_Concept_Booklet" title="The FLOSS concept booklet" target="_blank">
-              <img class="lift-effect" src="/images/more/floss-booklet.png" alt="FLOSS Booklet">
+              <img class="lift-effect" src="/images/more/floss-booklet.png" width="299" alt="FLOSS Booklet">
             </a>
           </div>
           <p><?php print _("A short, entertaining way to clarify thoughts about free, libre, \"open-source\" software."); ?></p>
@@ -66,7 +66,7 @@ $this->load_header();
         <div class="col s12 l6 pad3">
           <div class="center">
             <a href="https://www.fsf.org/" title="Free Software Foundation" target="_blank">
-              <img class="lift-effect" src="/images/more/fsf.png" alt="FSF">
+              <img class="lift-effect" src="/images/more/fsf.png" width="299" alt="FSF">
             </a>
           </div>
           <p><?php print _("The Free Software Foundation defends and advocates the very concept of <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">free software</a> that gave birth to GNU/Linux."); ?></p>
