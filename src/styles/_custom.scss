@@ -85,6 +85,12 @@ html {
             color: rgba(232, 230, 227, 0.87) !important;
         }
 
+        .waves-effect {
+            &.waves-light .waves-ripple {
+                background-color: rgba(0, 0, 0, 0.45);
+            }
+        }
+
         .conclusion {
             background-color: rgb(55, 71, 23);
             border-top-color: rgb(79, 114, 38);
