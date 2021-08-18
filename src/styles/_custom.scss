@@ -2,8 +2,148 @@
 @import "bourbon";
 
 html {
-  font-size: 101%;
-  hyphens: auto;
+    font-size: 101%;
+    hyphens: auto;
+
+    &.dark-mode {
+        html,
+        body,
+        input,
+        textarea,
+        select,
+        button {
+            color: #e8e6e3;
+        }
+
+        body {
+            background-color: #181a1b;
+        }
+
+        a {
+            color: rgb(164, 223, 142);
+
+            &:visited {
+                color: rgb(164, 223, 142);
+            }
+            &:active,
+            &:hover {
+                color: rgb(157, 209, 120);
+            }
+        }
+
+        blockquote {
+            border-left-color: rgb(81, 167, 48);
+        }
+
+        nav {
+            color: rgb(232, 230, 227);
+            background-color: rgb(41, 84, 24);
+
+            ul a:hover {
+                background-color: rgba(0, 0, 0, 0.1);
+            }
+        }
+
+        :target,
+        mark {
+            background-color: rgb(55, 71, 23);
+            color: rgb(232, 230, 227);
+        }
+
+        .sidenav {
+            background-color: rgb(41, 84, 24);
+
+            li > a {
+                color: rgb(232, 230, 227);
+            }
+        }
+
+        .dropdown-content {
+            background-color: rgb(24, 26, 27);
+
+            li.active,
+            li:hover {
+                background-color: rgb(34, 36, 38);
+            }
+        }
+
+        .language-menu li a {
+            color: rgb(232, 230, 227) !important;
+        }
+
+        .divider {
+            background-color: rgb(42, 45, 47);
+        }
+
+        .btn-outlined {
+            border-color: rgba(140, 130, 115, 0.23) !important;
+            color: rgba(232, 230, 227, 0.87) !important;
+        }
+
+        .conclusion {
+            background-color: rgb(55, 71, 23);
+            border-top-color: rgb(79, 114, 38);
+            border-bottom-color: rgb(79, 114, 38);
+        }
+
+        .card,
+        .card-panel {
+            background-color: rgb(70, 70, 70);
+        }
+
+        .light-green {
+            &.darken-4 {
+                background-color: rgb(41, 84, 24) !important;
+            }
+        }
+
+        .brown {
+            &.darken-1 {
+                background-color: rgb(87, 61, 52) !important;
+            }
+
+            &.lighten-5 {
+                background-color: rgb(43, 35, 31) !important;
+            }
+        }
+
+        .amber {
+            &.lighten-4 {
+                background-color: rgb(97, 72, 0) !important;
+            }
+        }
+
+        .btn-large:hover,
+        .btn-small:hover,
+        .btn:hover {
+            background-color: rgb(49, 100, 29) !important;
+        }
+
+        .page-footer {
+            color: rgb(232, 230, 227);
+            background-color: rgb(41, 84, 24);
+
+            a {
+                color: rgb(190, 221, 154);
+            }
+            a:visited {
+                color: rgb(190, 221, 154);
+            }
+            a:active,
+            a:hover {
+                color: rgb(232, 230, 227) !important;
+                text-decoration-color: currentcolor;
+            }
+        }
+
+        .flex-direction-nav {
+            a,
+            a::before {
+                color: rgba(255, 255, 255, 0.8);
+                text-shadow: 1px 1px 0 hsla(0, 0%, 0%, 0.3);
+            }
+        }
+    }
 }
 
 h1 {

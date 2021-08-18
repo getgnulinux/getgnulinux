@@ -41,6 +41,9 @@
         </ul>
         <ul class="<?php print $this->rtltr("right", "left"); ?>">
           <li>
+            <a class="btn-floating btn-flat waves-effect waves-light dark-mode-button" href="#">
+              <i class="material-icons">dark_mode</i>
+            </a>
             <span class="hide-on-med-and-up">
               <a class="btn-floating btn-flat waves-effect waves-light language-button-small" href="#" data-target="language-menu-1">
                 <i class="material-icons">translate</i>
