@@ -13,20 +13,19 @@ $(window).on('load', function() {
     });
 });
 
-function initDarkMode() {
-    var root = document.documentElement;
-    var darkMode = window.localStorage.getItem('dark-mode');
+const initDarkMode = () => {
+    const root = document.documentElement;
+    const darkMode = window.localStorage.getItem('dark-mode');
 
     if (darkMode === '1' && !root.classList.contains('dark-mode')) {
         toggleDarkMode();
     }
-}
+};
 
-function toggleDarkMode() {
-    var storage = window.localStorage;
-    var button = document.querySelector('.dark-mode-button');
-    var icon = button.querySelector('.material-icons');
-
+const toggleDarkMode = () => {
+    const storage = window.localStorage;
+    const button = document.querySelector('.dark-mode-button');
+    const icon = button.querySelector('.material-icons');
     document.documentElement.classList.toggle('dark-mode');
 
     if (icon.textContent === 'dark_mode') {
@@ -37,4 +36,4 @@ function toggleDarkMode() {
         icon.textContent = 'dark_mode';
         storage.setItem('dark-mode', '0');
     }
-}
+};
