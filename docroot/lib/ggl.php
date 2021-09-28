@@ -258,7 +258,7 @@ class GGL {
         # Set page descriptions.
         $this->config['page_descriptions'] = array(
             # TRANSLATORS: This is the description of the homepage, and it appears in Google results! Please pay particular attention to this one =)
-            'default' => _("Get GNU/Linux! A simple, clear website about GNU/Linux. What is GNU/Linux? Why not Windows? Tips to make the switch."),
+            'default' => _("Get GNU/Linux! A simple, clear website about GNU/Linux. What is Linux? Why not Windows? Tips to make the switch."),
             # TRANSLATORS: This is the description of the 'More' page
             'more' => _("Read and discover more about GNU/Linux."),
             # TRANSLATORS: This is the description of the 'Linux' page
