@@ -13,6 +13,8 @@
         <ul class="inline">
           <li dir="ltr"><a href="https://teamtrees.org/" target="_blank">#teamtrees</a></li>
           <li dir="ltr"><a href="https://justdiggit.org/" target="_blank">#justdiggit</a></li>
+          <li dir="ltr"><a href="https://wwf.org/" target="_blank">#wwf</a></li>
+          <li dir="ltr"><a href="https://www.fsf.org/" target="_blank">#fsf</a></li>
         </ul>
       </div>
       <div class="col l4 offset-l2 s12">
