@@ -18,7 +18,7 @@ $this->load_header();
       </header>
 
       <h2>Licensing</h2>
-      <p>Except for the material listed below, the content of the website and its graphical assets are published under a <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="external">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+      <p>Except for the material listed below, the content of the website and its graphical assets are published under a <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="external">Creative Commons Attribution-ShareAlike 4.0 International license</a>.</p>
       <p>The <a href="<?php $this->text('project_url'); ?>" rel="external" title="GitHub Project">source code</a> of the web application is licensed under the <a href="https://www.gnu.org/licenses/agpl-3.0.html" rel="external">GNU Affero General Public License Version 3</a>.</p>
       <p>Copyright <?php echo date("Y"); ?> <a href="https://github.com/getgnulinux/" rel="external">get GNU/Linux!</a></p>
 
