@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2021-10-21 01:06+0000\n"
-"PO-Revision-Date: 2021-10-27 17:44+0000\n"
+"PO-Revision-Date: 2021-10-29 11:02+0000\n"
 "Last-Translator: Jorge Maldonado Ventura <jorgesumle@freakspot.net>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/getgnulinux/"
 "getgnulinux-pot/es/>\n"
@@ -112,9 +112,8 @@ msgid "How to Misunderstand Free Software"
 msgstr "Como malinterpretar el software libre"
 
 #: docroot/lib/ggl.php:235 docroot/lib/views/linux.php:96
-#, fuzzy
 msgid "GNU/Linux is not Windows"
-msgstr "Por qué no Windows"
+msgstr "GNU/Linux no es Windows"
 
 #. TRANSLATORS: This title can be translated loosely
 #: docroot/lib/ggl.php:239 docroot/lib/views/windows.php:29
@@ -174,16 +173,12 @@ msgstr "Página No Encontrada"
 
 #. TRANSLATORS: This is the description of the homepage, and it appears in Google results! Please pay particular attention to this one =)
 #: docroot/lib/ggl.php:261
-#, fuzzy
-#| msgid ""
-#| "Get GNU/Linux! A simple, clear website about GNU/Linux. What is GNU/"
-#| "Linux? Why not Windows? Tips to make the switch."
 msgid ""
 "Get GNU/Linux! A simple, clear website about GNU/Linux. What is Linux? Why "
 "not Windows? Tips to make the switch."
 msgstr ""
-"¡Cámbiate a GNU/Linux! Un sitio web sencillo y claro sobre GNU/Linux. ¿Qué "
-"es GNU / Linux? ¿Por qué no Windows? Consejos para hacer el cambio."
+"¡Obtén GNU/Linux! Un sitio web sencillo y claro sobre GNU/Linux. ¿Qué es "
+"Linux? ¿Por qué no Windows? Consejos para hacer el cambio."
 
 #. TRANSLATORS: This is the description of the 'More' page
 #: docroot/lib/ggl.php:263
@@ -219,6 +214,9 @@ msgid ""
 "disappointed. GNU/Linux is built by people who simply wish it to be "
 "different."
 msgstr ""
+"Si deseas que GNU/Linux sea exactamente como Windows, probablemente te "
+"decepcionarás. GNU/Linux es desarrollado por personas que simplemente "
+"quieren que sea diferente."
 
 #. TRANSLATORS: This is the description of the 'Why not Windows' page
 #: docroot/lib/ggl.php:275
@@ -272,9 +270,8 @@ msgstr "Prueba o instala Linux en tu computador, fácilmente."
 
 #. TRANSLATORS: This is the catcher-phrase for the Windows page. Exact translation is not required, the goal is to attract attention and set the tone of the page.
 #: docroot/lib/views/windows.php:21
-#, fuzzy
 msgid "Windows and Office work fine &ndash; Why worry about it?"
-msgstr "Windows y Office funcionan bien, entonces, ¿cómo pueden ser tan malos?"
+msgstr "Windows y Office funcionan bien &ndash; ¿Por qué preocuparse?"
 
 #. TRANSLATORS: You may add emphasis ('em' tags) around the word 'licensed' if you wish
 #: docroot/lib/views/windows.php:32
@@ -419,6 +416,9 @@ msgid ""
 "them using it. macOS is <a href=\"%s#mac_freedom\">not much better</a>, "
 "either."
 msgstr ""
+"Mucha gente piensa que Windows, un software por lo demás decente, "
+"<strong>les quita tantos derechos</strong> que no les merece la pena usarlo. "
+"macOS <a href=\"%s#mac_freedom\">tampoco es mucho mejor</a>."
 
 #: docroot/lib/views/windows.php:92
 #, php-format
@@ -428,6 +428,10 @@ msgid ""
 "attractive, you might want to <a href=\"%s\" title=\"make the switch to GNU/"
 "Linux today!\">give GNU/Linux a try</a>."
 msgstr ""
+"Si encuentras atractivo el <a href=\"https://www.gnu.org/philosophy/free-sw."
+"html\" rel=\"external\" title=\"¿qué es la libertad en el software?\""
+">software libre</a>, puede que quieras <a href=\"%s\" title=\"¡haz hoy el "
+"cambio a GNU/Linux!\">probar GNU/Linux</a>."
 
 #: docroot/lib/views/windows.php:99 docroot/lib/views/home.php:48
 #: docroot/lib/views/linux.php:126
@@ -1048,13 +1052,16 @@ msgstr "Más información en la web."
 
 #: docroot/lib/views/more.php:22
 msgid "Questions and help"
-msgstr ""
+msgstr "Preguntas y ayuda"
 
 #: docroot/lib/views/more.php:33
 msgid ""
 "<strong>Unix &amp; Linux Stack Exchange</strong> is a question and answer "
 "site for users of GNU/Linux. This site is all about getting answers."
 msgstr ""
+"<strong>Unix &amp; Linux Stack Exchange</strong> es un sitio web de "
+"preguntas y respuestas para usuarios de GNU/Linux. Este sitio está orientado "
+"a obtener respuestas."
 
 #: docroot/lib/views/more.php:41
 msgid ""
@@ -1062,6 +1069,9 @@ msgid ""
 "Even for users of different distributions of GNU/Linux this can be a helpful "
 "resource for finding answers."
 msgstr ""
+"<strong>Ask Ubuntu</strong> es un sitio web de preguntas y respuestas para "
+"usuarios de Ubuntu. Incluso para usuarios de otras distribuciones de GNU/"
+"Linux puede ser un recurso útil para encontrar respuestas."
 
 #: docroot/lib/views/more.php:49
 msgid ""
@@ -1092,6 +1102,9 @@ msgid ""
 "href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">free "
 "software</a> that gave birth to GNU/Linux."
 msgstr ""
+"La Free Software Foundation defiende y promueve el concepto mismo del <a "
+"href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\""
+">software libre</a> que dio a luz a GNU/Linux."
 
 #: docroot/lib/views/more.php:78
 msgid ""
@@ -1157,12 +1170,12 @@ msgid ""
 "Office files. People who opted without expensive Microsoft products cannot "
 "write and read <code>.doc</code> files very reliably."
 msgstr ""
-"<strong>Por mucho tiempo, Microsoft Office sólo fue capaz de leer y escribir "
-"formatos de Microsoft</strong>. A pesar de haber muchas formas de escribir "
-"documentos laborales, los usuarios de Microsoft Office estaban forzados a "
-"utilizar el formato propietario de Microsoft Office. Aquellos que decidiesen "
-"no utilizar los caros productos de Microsoft no podían leer y escribir "
-"archivos <code>.doc</code> correctamente."
+"Por mucho tiempo, Microsoft Office solo fue capaz de leer y escribir "
+"formatos de Microsoft. A pesar de haber muchas formas de escribir documentos "
+"laborales, los usuarios de Microsoft Office estaban forzados a utilizar el "
+"formato propietario de Microsoft Office. Aquellos que decidiesen no utilizar "
+"los caros productos de Microsoft no podían leer y escribir archivos <code>."
+"doc</code> correctamente."
 
 #: docroot/lib/views/windows.what_about_choice.php:39
 msgid ""
@@ -1173,6 +1186,13 @@ msgid ""
 "Microsoft Office 2007 SP2, Microsoft did add support for the OpenDocument "
 "format after being pushed by the European Commission."
 msgstr ""
+"Por supuesto, hay otras formas de escribir e intercambiar archivos "
+"ofimáticos, siendo <a href=\"https://es.wikipedia.org/wiki/OpenDocument\" "
+"rel=\"external\">el OpenDocument Format</a> el más conocido. Pero Microsoft "
+"no tiene interés en dejar a los usuarios de Office intercambiar archivos que "
+"cualquiera pueda leer y editar. A partir de Microsoft Office 2007 SP2, "
+"Microsoft añadió soporte para el formato OpenDocument después de ser "
+"presionado por la Comisión Europea."
 
 #: docroot/lib/views/windows.what_about_choice.php:43
 msgid "Standards that change all the time"
@@ -1263,11 +1283,8 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:17
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:24
 #: docroot/lib/views/linux.php:36
-#, fuzzy
 msgid "Accessing applications in the GNOME desktop environment."
-msgstr ""
-"Accediendo a aplicaciones en el entorno de escritorio <a href=\"https://www."
-"gnome.org/gnome-3/\" rel=\"external\">GNOME 3</a>"
+msgstr "Accediendo a aplicaciones en el entorno de escritorio GNOME."
 
 #. TRANSLATORS: This is the description of the "debian2.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:12
@@ -1277,7 +1294,7 @@ msgstr "OpenOffice.org Writer abierto, editando un documento sencillo."
 #. TRANSLATORS: This is the description of the "debian3.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:14
 msgid "Shotwell photo manager"
-msgstr ""
+msgstr "Gestor de fotos Shotwell"
 
 #. TRANSLATORS: This is the description of the "ubuntu2.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:19
@@ -1287,9 +1304,8 @@ msgstr "El navegador web Firefox"
 #. TRANSLATORS: This is the description of the "ubuntu3.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:21
 #: docroot/lib/views/linux.php:43
-#, fuzzy
 msgid "GNOME music player"
-msgstr "Reproductor de música Rhythmbox"
+msgstr "Reproductor de música de GNOME"
 
 #. TRANSLATORS: This is the description of the "fedora2.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:26
@@ -1336,6 +1352,12 @@ msgid ""
 "this reason it is popular for use on personal computers as well as servers. "
 "Debian is also the basis for many other distributions, most notably Ubuntu."
 msgstr ""
+"Debian es uno de los sistemas operativos más antiguos basados en el núcleo "
+"Linux. Tiene fama de ser una distribución de GNU/Linux muy segura y estable "
+"que está respaldada por una comunidad bien organizada de desarrolladores y "
+"usuarios. Por esta razón es comúnmente usada tanto en ordenadores personales "
+"como en servidores. Debian es también la base de muchas otras "
+"distribuciones, siendo Ubuntu la más destacada."
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:54
 msgid ""
@@ -1349,7 +1371,7 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:64
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:68
 msgid "Debian screenshot"
-msgstr ""
+msgstr "Captura de pantalla de Debian"
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:83
 msgid ""
@@ -1360,6 +1382,13 @@ msgid ""
 "software regardless of disability. The result is an operating system that "
 "has excellent hardware support, is easy to use and pleasant on the eyes."
 msgstr ""
+"Ubuntu es una distribución de GNU/Linux basada en Debian. La filosofía "
+"detrás de Ubuntu es que cualquier usuario ordenador debería ser capaz de "
+"descargar y usar su software de forma gratuita, que cualquiera debería poder "
+"usar su software en el idioma que prefiera y que cualquiera debería poder "
+"usar todo el software aun teniendo alguna discapacidad. El resultado es un "
+"sistema operativo que tiene un excelente soporte de «hardware», es fácil de "
+"usar y agradable a la vista."
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:84
 msgid ""
@@ -1374,9 +1403,10 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:98
 #: docroot/lib/views/linux.php:36 docroot/lib/views/linux.php:43
 msgid "Ubuntu screenshot"
-msgstr ""
+msgstr "Captura de pantalla de Ubuntu"
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:113
+#, fuzzy
 msgid ""
 "The distribution by the long-time prominent GNU/Linux developer company Red "
 "Hat. The default layout is similar to Debian, but there are differences in "
@@ -1384,7 +1414,7 @@ msgid ""
 "The Fedora developers are committed to innovation, which is reflected by "
 "incorporating new technologies early on, providing the latest in stable and "
 "robust, useful, and powerful free software."
-msgstr ""
+msgstr "La distribución hecha por la"
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:114
 msgid ""
@@ -1400,7 +1430,7 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:124
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:128
 msgid "Fedora screenshot"
-msgstr ""
+msgstr "Captura de pantalla de Fedora"
 
 #. TRANSLATORS: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:143
@@ -1432,6 +1462,10 @@ msgid ""
 "free. The accurate name is <em>GNU/Linux</em> but \"Linux\" is used more "
 "often."
 msgstr ""
+"GNU/Linux es un <em>sistema operativo</em>, un gran conjunto de software que "
+"gestiona un ordenador. Es similar a Microsoft Windows, pero es completamente "
+"libre. El nombre preciso es <em>GNU/Linux</em>, pero «Linux» se usa con más "
+"frecuencia."
 
 #: docroot/lib/views/linux.php:22
 msgid ""
@@ -1923,9 +1957,8 @@ msgid "https://www.debian.org/releases/stable/installmanual"
 msgstr ""
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:61
-#, fuzzy
 msgid "Download Debian"
-msgstr "Descargar Ubuntu"
+msgstr "Descargar Debian"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:71
 msgid ""
@@ -2140,9 +2173,8 @@ msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:57
 #: docroot/lib/views/linux.misunderstanding_free_software.php:64
-#, fuzzy
 msgid "(web browser)"
-msgstr "El navegador web Firefox"
+msgstr "(navegador web)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:58
 msgid "(distributed version control system)"
@@ -3907,6 +3939,9 @@ msgid ""
 "href=\"%s\" rel=\"external\">let us know</a>, or <a href=\"%s\" rel="
 "\"external\">file an issue</a>."
 msgstr ""
+"Si se te ocurre una pregunta frecuente a la que todavía no hayamos "
+"contestado, <a href=\"%s\" rel=\"external\">háznoslo saber</a> o <a href=\"%"
+"s\" rel=\"external\">abre una incidencia</a>."
 
 #. TRANSLATORS: If there is an official translation for the license, use that URL instead. Make sure you use the URL for CC BY-SA 4.0.
 #: src/templates/footer.php:7
@@ -3917,6 +3952,11 @@ msgid ""
 "rel=\"license external\"><abbr title=\"Creative Commons Attribution-"
 "ShareAlike\">CC BY-SA</abbr> 4.0 International License</a>."
 msgstr ""
+"Excepto donde se <a href=\"%s\">indique</a> lo contrario, el contenido en "
+"este sitio web está licenciado por una licencia <a href=\"https"
+"://creativecommons.org/licenses/by-sa/4.0/deed.es\" rel=\"license external\""
+"><abbr title=\"Creative Commons Atribución-CompartirIgual\">CC BY-SA</abbr> "
+"4.0 Internacional</a>."
 
 #: src/templates/footer.php:10
 msgid ""
@@ -3930,14 +3970,15 @@ msgstr ""
 #, php-format
 msgid "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
 msgstr ""
+"Este sitio web es <a href=\"%s\" rel=\"external\">libre y código abierto</a>."
 
 #: src/templates/footer.php:19
 msgid "Resources"
-msgstr ""
+msgstr "Recursos"
 
 #: src/templates/footer.php:21
 msgid "News"
-msgstr ""
+msgstr "Novedades"
 
 #: src/templates/footer.php:25
 #, fuzzy
@@ -3947,15 +3988,15 @@ msgstr "Participa"
 #: src/templates/footer.php:27 src/templates/header.php:86
 #: src/templates/header.php:100
 msgid "Help translate"
-msgstr ""
+msgstr "Ayuda a traducir"
 
 #: src/templates/footer.php:32
 msgid "Community"
-msgstr ""
+msgstr "Comunidad"
 
 #: src/templates/footer.php:35
 msgid "Community forum"
-msgstr ""
+msgstr "Foro de la comunidad"
 
 #: src/templates/footer.php:37
 msgid "Contact us"
