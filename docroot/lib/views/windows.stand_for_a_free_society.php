@@ -145,7 +145,7 @@ $footnote2 = '<sup><a class="footnote" href="#footnote-1">1</a></sup>';
           <div class="col s12 l6">
             <h4><a href="<?php
             # TRANSLATORS: If you don't know of a localized version of this article, please leave the URL in English
-            print _("http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-free-file-formats/"); ?>" rel="external"><?php print _("Free Knowledge requires Free Software and Free File Formats"); ?></a></h4>
+            print _("https://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-free-file-formats/"); ?>" rel="external"><?php print _("Free Knowledge requires Free Software and Free File Formats"); ?></a></h4>
             <p><?php print _("An engaged article by Jimmy Wales, who co-founded the free encyclopedia <a href=\"https://www.wikipedia.org/\" rel=\"external\">Wikipedia</a>."); ?></p>
           </div>
           <div class="col s12 l6">

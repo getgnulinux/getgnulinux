@@ -56,7 +56,7 @@ $this->load_header();
         <p>Microsoft Windows&reg;, Microsoft Windows Vista&trade;, Microsoft Excel&reg;,
         Microsoft PowerPoint&reg;, Microsoft Internet Explorer&reg;, Microsoft Windows
         Media Player&reg;, and
-        <a rel="nofollow external" href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/#E6" title="Partial list of Microsoft products subjected to trademark regulations">other Microsoft product and service names</a>
+        <a rel="nofollow external" href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/" title="Partial list of Microsoft products subjected to trademark regulations">other Microsoft product and service names</a>
         are trademarks, registered trademarks or trade dress of Microsoft, Inc. or
         its affiliates in the U.S. and/or other countries.</p>
 

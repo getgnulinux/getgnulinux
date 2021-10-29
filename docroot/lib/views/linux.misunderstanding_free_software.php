@@ -61,7 +61,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
                 <li><a href="https://mixxx.org/" rel="external">Mixxx</a> <?php print _("(DJ mixing)"); ?></li>
                 <li><a href="https://www.ardour.org/" rel="external">Ardour</a> <?php print _("(digital audio workstation)"); ?></li>
                 <li><a href="https://www.blender.org/" rel="external">Blender</a> <?php print _("(3D graphics creation)"); ?></li>
-                <li><a href="https://www.getfirefox.com/" rel="external">Firefox</a> <?php print _("(web browser)"); ?></li>
+                <li><a href="https://www.mozilla.org/firefox/new/" rel="external">Firefox</a> <?php print _("(web browser)"); ?></li>
                 <li><a href="https://www.gimp.org/" rel="external">GIMP</a> <?php print _("(image editor)"); ?></li>
                 <li><a href="https://www.libreoffice.org/" rel="external">LibreOffice</a> <?php print _("(office suite)"); ?></li>
                 <li><a href="https://www.tensorflow.org/" rel="external">TensorFlow</a> <?php print _("(machine learning)"); ?></li>
@@ -163,7 +163,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
         <p><?php print _("The argument generally goes that since the source code of free software is available, it is less likely to be secure."); ?></p>
         <p><?php print _("Short answer: The majority of servers run free software. They are the major networked computers holding sensitive or confidential information such as your bank details or trade secrets."); ?></p>
         <p><?php print _("A more precise answer is that availability of source code is a warrant of security, not a weakness. The freedom of the software ensures it can be inspected, tested and improved by a very wide community. A good lock is secure because the technology used to design it is open, though only the key holder can open it. The same goes for software."); ?></p>
-        <p><?php $p = _("Need examples? Have a look at the <a href=\"https://www.getfirefox.com/\" rel=\"external\">Firefox web browser</a>, the <a href=\"https://en.wikipedia.org/wiki/Apache_HTTP_Server\" rel=\"external\">Apache HTTP Server</a>, the <a href=\"https://en.wikipedia.org/wiki/Nginx\" rel=\"external\">Nginx web server</a>, the <a href=\"https://en.wikipedia.org/wiki/Dovecot_(software)\" rel=\"external\">Dovecot email server</a>, the <a href=\"https://en.wikipedia.org/wiki/Exim\" rel=\"external\">Exim mail transfer agent</a>, the <a href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\" rel=\"external\">OpenPGP</a> encryption system, or the <a href=\"https://en.wikipedia.org/wiki/OpenBSD\" rel=\"external\">OpenBSD</a> operating system. And <a href=\"%s#security\">there are no spyware or viruses under GNU/Linux</a>."); printf($p, $this->get_base_url('switch_to_linux/from_windows_to_linux')); ?></p>
+        <p><?php $p = _("Need examples? Have a look at the <a href=\"https://www.mozilla.org/firefox/new/\" rel=\"external\">Firefox web browser</a>, the <a href=\"https://en.wikipedia.org/wiki/Apache_HTTP_Server\" rel=\"external\">Apache HTTP Server</a>, the <a href=\"https://en.wikipedia.org/wiki/Nginx\" rel=\"external\">Nginx web server</a>, the <a href=\"https://en.wikipedia.org/wiki/Dovecot_(software)\" rel=\"external\">Dovecot email server</a>, the <a href=\"https://en.wikipedia.org/wiki/Exim\" rel=\"external\">Exim mail transfer agent</a>, the <a href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\" rel=\"external\">OpenPGP</a> encryption system, or the <a href=\"https://en.wikipedia.org/wiki/OpenBSD\" rel=\"external\">OpenBSD</a> operating system. And <a href=\"%s#security\">there are no spyware or viruses under GNU/Linux</a>."); printf($p, $this->get_base_url('switch_to_linux/from_windows_to_linux')); ?></p>
       </section>
 
       <section>
@@ -189,7 +189,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
               <li><a href="https://lists.fedoraproject.org/archives/" rel="external">Fedora</a></li>
             </ul>
           </li>
-          <li><?php print _("If you need someone you can reach on the phone anytime to assist you, the companies behind most distributions provide commercial support: see <a href=\"https://www.debian.org/consultants/\" rel=\"external\">Debian consultants</a>, <a href=\"https://www.ubuntu.com/support\" rel=\"external\">Ubuntu Commercial Support</a>, or <a href=\"https://www.redhat.com/rhel/\" rel=\"external\">Red Hat Enterprise Linux</a> for example."); ?></li>
+          <li><?php print _("If you need someone you can reach on the phone anytime to assist you, the companies behind most distributions provide commercial support: see <a href=\"https://www.debian.org/consultants/\" rel=\"external\">Debian consultants</a>, <a href=\"https://ubuntu.com/support\" rel=\"external\">Ubuntu Commercial Support</a>, or <a href=\"https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux\" rel=\"external\">Red Hat Enterprise Linux</a> for example."); ?></li>
         </ul>
       </section>
 
@@ -213,7 +213,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
             <p><?php print _("A simple and clear website about the free format OpenDocument, showing the importance of freedom in formats (not just in applications)."); ?></p>
           </div>
           <div class="col s12 l6">
-            <h4><a href="http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-free-file-formats/" rel="external">Free Software and Free Knowledge</a></h4>
+            <h4><a href="https://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-free-file-formats/" rel="external">Free Software and Free Knowledge</a></h4>
             <p><?php print _("An engaged article by co-founder of <a href=\"https://www.wikipedia.org/\" rel=\"external\">Wikipedia</a> Jimmy Wales, which shows the connections between freedom in software and free knowledge."); ?></p>
           </div>
         </div>
