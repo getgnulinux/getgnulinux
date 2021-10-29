@@ -50,7 +50,7 @@ $this->load_header();
         <details>
             <summary id="trademark"><?php print _("Is Linux a registered trademark?"); ?></summary>
             <blockquote>
-            <p><?php print _("Yes. You cannot sell any random software under the name of Linux&reg;. The trademark is held by <a href=\"http://www.linuxmark.org/\" rel=\"external\">the Linux Mark Institute</a>."); ?></p>
+            <p><?php print _("Yes. You cannot sell any random software under the name of Linux&reg;. The trademark is held by <a href=\"https://www.linuxfoundation.org/the-linux-mark/\" rel=\"external\">the Linux Mark Institute</a>."); ?></p>
             </blockquote>
         </details>
 
@@ -58,7 +58,7 @@ $this->load_header();
             <summary id="only_linux"><?php print _("Is GNU/Linux the only free operating system available?"); ?></summary>
             <blockquote>
             <p><?php print _("No. GNU/Linux is by far the most widely used free system; however a number of other systems exist."); ?></p>
-            <p><?php print _("These include the UNIX derivatives <a href=\"https://freebsd.org/\" rel=\"external\">FreeBSD</a>, <a href=\"https://netbsd.org/\" rel=\"external\">NetBSD</a>, <a href=\"https://openbsd.org/\" rel=\"external\">OpenBSD</a>, the BeOS clone <a href=\"https://haiku-os.org/\" rel=\"external\">Haiku OS</a>, the Windows NT clone <a href=\"http://www.reactos.com/\" rel=\"external\">ReactOS</a>, the DOS clone <a href=\"http://www.freedos.org/\" rel=\"external\">FreeDOS</a>, and <a href=\"https://www.syllable.org/\" rel=\"external\">Syllable</a>, just to name a few."); ?></p>
+            <p><?php print _("These include the UNIX derivatives <a href=\"https://www.freebsd.org/\" rel=\"external\">FreeBSD</a>, <a href=\"https://netbsd.org/\" rel=\"external\">NetBSD</a>, <a href=\"https://www.openbsd.org/\" rel=\"external\">OpenBSD</a>, the BeOS clone <a href=\"https://haiku-os.org/\" rel=\"external\">Haiku OS</a>, the Windows NT clone <a href=\"https://reactos.org/\" rel=\"external\">ReactOS</a>, the DOS clone <a href=\"http://www.freedos.org/\" rel=\"external\">FreeDOS</a>, and <a href=\"https://www.syllable.org/\" rel=\"external\">Syllable</a>, just to name a few."); ?></p>
             </blockquote>
         </details>
 
@@ -113,7 +113,7 @@ $this->load_header();
             <ul class="browser-default">
                 <li><?php print _("Some GNU/Linux distributors allow non-free software in order to enable hardware functionality."); ?>
                 <?php # TRANSLATORS: If it exits, please use the URL of the official Ubuntu homepage localized in your language.
-                print _("This happens because some hardware manufacturers such as NVidia do not care about their customers' freedoms, and only release restricting firmware and drivers (some of them don't even release anything, like Broadcom). These are available at no cost (they are freeware) but under restrictive licenses. Distributions such as <a href=\"https://www.ubuntu.com/\" rel=\"external\">Ubuntu</a> and <a href=\"https://getfedora.org/\" rel=\"external\">Fedora</a> thus include such components to improve hardware compatibility."); ?></li>
+                print _("This happens because some hardware manufacturers such as NVidia do not care about their customers' freedoms, and only release restricting firmware and drivers (some of them don't even release anything, like Broadcom). These are available at no cost (they are freeware) but under restrictive licenses. Distributions such as <a href=\"https://ubuntu.com/\" rel=\"external\">Ubuntu</a> and <a href=\"https://getfedora.org/\" rel=\"external\">Fedora</a> thus include such components to improve hardware compatibility."); ?></li>
                 <li><?php print _("Some GNU/Linux distributors do not compromise on the freedom of software, and make sure their distribution are entirely free. Such is the case of <a href=\"https://www.debian.org/\" rel=\"external\">Debian</a> (though non-free software can be installed if necessary)."); ?></li>
                 <li><?php $p = _("Some GNU/Linux distributors assemble free and restrictive software without distinction. Such distributors would not like users to think of their freedom, and rather advertise only the technical capabilities of their product. Using such distributions isn't much better than <a href=\"%s\">using Windows</a>. We value your freedom and recommend you choose carefully!"); printf($p, $this->get_base_url('windows')); ?></li>
             </ul>

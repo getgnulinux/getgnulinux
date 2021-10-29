@@ -36,7 +36,7 @@ $this->load_header();
 
         <h3 id="dual_boot_what_is"><?php print _("Choose at start-up"); ?></h3>
         <p><?php print _("It is possible to install GNU/Linux along with Windows or macOS. This means that upon start-up, you will be greeted with a screen allowing you to boot into the operating system you prefer."); ?></p>
-        <p><?php print _("Setting up a dual-boot can be helpful if you need time to abandon restrictive software. It is <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" title=\"a tutorial on installing Ubuntu\" rel=\"external\">not difficult to set-up</a>, though erasing Windows or macOS altogether is even easier."); ?></p>
+        <p><?php print _("Setting up a dual-boot can be helpful if you need time to abandon restrictive software. It is <a href=\"https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview\" title=\"a tutorial on installing Ubuntu\" rel=\"external\">not difficult to set-up</a>, though erasing Windows or macOS altogether is even easier."); ?></p>
 
         <h3 id="dual_boot_what_need"><?php print _("What you need"); ?></h3>
         <p><?php print _("Installing GNU/Linux on your computer will take you less than 30 minutes. It is not an obvious step for complete beginners, but if you use computers on a daily basis this is very likely within your reach. If you have already re-installed Windows or macOS on your computer, rest assured that installing GNU/Linux is no harder."); ?></p>
@@ -68,8 +68,8 @@ $this->load_header();
             <div class="card card-distribution brown lighten-5">
               <div class="card-image card-distribution-logo card-distribution-logo--ubuntu"></div>
               <div class="card-content">
-                <p><?php $p = _("<a href=\"%s\" rel=\"external\">Create a live USB stick</a> or <a href=\"%s\" rel=\"external\">burn it to a CD/DVD</a>."); printf($p, _("https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows"), _("https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows")); ?></p>
-                <p><?php $p = _("Then use it to <a href=\"%s\" rel=\"external\">install Ubuntu</a> onto your computer."); printf($p, _("https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop")); ?></p>
+                <p><?php $p = _("<a href=\"%s\" rel=\"external\">Create a live USB stick</a> or <a href=\"%s\" rel=\"external\">burn it to a CD/DVD</a>."); printf($p, _("https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview"), _("https://ubuntu.com/tutorials/burn-a-dvd-on-windows#1-overview")); ?></p>
+                <p><?php $p = _("Then use it to <a href=\"%s\" rel=\"external\">install Ubuntu</a> onto your computer."); printf($p, _("https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview")); ?></p>
               </div>
               <div class="card-action center">
                 <a class="waves-effect waves-light btn-large light-green darken-4" href="https://ubuntu.com/download/desktop" target="_blank">
