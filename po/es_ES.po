@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2021-10-21 01:06+0000\n"
-"PO-Revision-Date: 2021-10-29 11:02+0000\n"
+"PO-Revision-Date: 2021-10-30 18:36+0000\n"
 "Last-Translator: Jorge Maldonado Ventura <jorgesumle@freakspot.net>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/getgnulinux/"
 "getgnulinux-pot/es/>\n"
@@ -93,13 +93,12 @@ msgstr "Condiciones de uso"
 #. TRANSLATORS: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
 #: docroot/lib/ggl.php:230
 msgid "GNU/Linux FAQ - common questions about GNU/Linux"
-msgstr "FAQ de GNU / Linux - preguntas comunes sobre GNU / Linux"
+msgstr "Preguntas frecuentes de GNU/Linux - preguntas comunes sobre GNU/Linux"
 
 #. TRANSLATORS: The term 'FAQ' may not be meaningful, or have an equivalent acronym in your language. If so, just skip the term.
 #: docroot/lib/ggl.php:232 docroot/lib/views/linux.faq.php:270
-#, fuzzy
 msgid "GNU/Linux virus FAQ"
-msgstr "¡Cámbiate a GNU/Linux!"
+msgstr "Preguntas frecuentes de virus en GNU/Linux"
 
 #. TRANSLATORS: Here the intent is to be a little provocative. Exact translation is not required.
 #: docroot/lib/ggl.php:234
@@ -482,7 +481,7 @@ msgid "There are a number of restrictions that you must accept by law."
 msgstr "Existen ciertas restricciones que han de acatarse por ley."
 
 #: docroot/lib/views/windows.restrictions.php:37
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "Restrictions on who can use the software, what kind of revenue you may earn "
 "with it, on how you choose to install it, restrictions on your privacy, even "
@@ -491,11 +490,10 @@ msgid ""
 "task."
 msgstr ""
 "Las restricciones sobre quién puede usar el software, qué tipo de ingresos "
-"se pueden obtener con él, en la forma que elijas para instalar, "
-"restricciones en su privacidad, incluso de si puedes regalarlo: la lista es "
-"larga. <a href=\"%s\" title=\"Un poco más acerca de las licencias de "
-"Microsoft\">Leyendo la licencia y enumerando sus derechos restantes</a>es en "
-"sí misma una tarea difícil."
+"se pueden obtener con él, cómo elijas instalarlo, restricciones en tu "
+"privacidad, incluso de si puedes regalarlo: la lista es larga. <a href=\"%s\""
+">Leer la licencia y enumerar los derechos que te quedan</a> es en sí una "
+"tarea difícil."
 
 #. TRANSLATORS: Don't bother with the 'abbr' code. You can tranlsate as 'OEM [pre-installed]'
 #: docroot/lib/views/windows.restrictions.php:44
@@ -596,6 +594,12 @@ msgid ""
 "better than just freeware): its <a href=\"https://www.gnu.org/copyleft/gpl."
 "html\" rel=\"external\">GPL</a> license is designed to protect your rights."
 msgstr ""
+"<strong>Tienes una alternativa a romper la ley,</strong> o a sentirte muy "
+"restringido cuando la cumples. GNU/Linux es <a href=\"https://www.gnu.org/"
+"philosophy/free-sw.html\" rel=\"external\">software libre</a> (mucho mejor "
+"que solo software gratuito): su licencia <a href=\"https://www.gnu.org/"
+"copyleft/gpl.html\" rel=\"external\">GPL</a> está diseñada para proteger tus "
+"derechos."
 
 #: docroot/lib/views/windows.restrictions.php:74
 msgid "Restrictions - further details"
@@ -1157,25 +1161,17 @@ msgstr ""
 "evitan."
 
 #: docroot/lib/views/windows.what_about_choice.php:38
-#, fuzzy
-#| msgid ""
-#| "<strong>For a long time Microsoft Office only had support for Microsoft "
-#| "formats</strong>. There are many ways to write work documents, but "
-#| "Microsoft Office users were bound to Microsoft Office files. People who "
-#| "opted without expensive Microsoft products cannot write and read <code>."
-#| "doc</code> files very reliably."
 msgid ""
 "Microsoft Office used to only support Microsoft formats. There are many ways "
 "to write work documents, but Microsoft Office users were bound to Microsoft "
 "Office files. People who opted without expensive Microsoft products cannot "
 "write and read <code>.doc</code> files very reliably."
 msgstr ""
-"Por mucho tiempo, Microsoft Office solo fue capaz de leer y escribir "
-"formatos de Microsoft. A pesar de haber muchas formas de escribir documentos "
-"laborales, los usuarios de Microsoft Office estaban forzados a utilizar el "
-"formato propietario de Microsoft Office. Aquellos que decidiesen no utilizar "
-"los caros productos de Microsoft no podían leer y escribir archivos <code>."
-"doc</code> correctamente."
+"Microsoft Office solía admitir solo los formatos de Microsoft. Hay muchas "
+"maneras de escribir documentos de trabajo, pero los usuarios de Microsoft "
+"Office estaban atados a los archivos de Microsoft Office. Las personas que "
+"decidiesen no utilizar los caros productos de Microsoft no podían leer y "
+"escribir archivos <code>.doc</code> de forma muy fiable."
 
 #: docroot/lib/views/windows.what_about_choice.php:39
 msgid ""
@@ -1406,7 +1402,6 @@ msgid "Ubuntu screenshot"
 msgstr "Captura de pantalla de Ubuntu"
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:113
-#, fuzzy
 msgid ""
 "The distribution by the long-time prominent GNU/Linux developer company Red "
 "Hat. The default layout is similar to Debian, but there are differences in "
@@ -1414,7 +1409,14 @@ msgid ""
 "The Fedora developers are committed to innovation, which is reflected by "
 "incorporating new technologies early on, providing the latest in stable and "
 "robust, useful, and powerful free software."
-msgstr "La distribución hecha por la"
+msgstr ""
+"La distribución hecha por la empresa, destacada desde hace tiempo, de "
+"desarrolladores de GNU/Linux Red Hat. El diseño predeterminado es parecido "
+"al de Debian, pero hay diferencias en las aplicaciones escogidas, protocolos "
+"de instalación y varios elementos técnicos. Los desarrolladores de Fedora "
+"están comprometidos con la innovación, lo que se refleja en la incorporación "
+"temprana de nuevas tecnologías, proporcionando lo último en software libre "
+"estable, robusto, útil y potente."
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:114
 msgid ""
@@ -1434,22 +1436,17 @@ msgstr "Captura de pantalla de Fedora"
 
 #. TRANSLATORS: We try to be friendly and inviting here. The term "get a CD" does not have to be translated exactly.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:143
-#, fuzzy
 msgid "Now grab a USB stick and try or install your distribution!"
-msgstr "¡Ahora consigue un CD y prueba o instala tu distribución!"
+msgstr "¡Ahora coge un lápiz USB y prueba o instala tu distribución!"
 
 #: docroot/lib/views/linux.php:15
-#, fuzzy
-#| msgid ""
-#| "When you hear the word Linux, you may think of programmers with a beard "
-#| "typing obscure code on a black screen. Good news! things have changed."
 msgid ""
 "When you hear the word Linux, you may think of programmers with a beard "
 "typing obscure code on a black screen. Good news! Things have changed."
 msgstr ""
 "Cuando escuchas la palabra Linux, puede que te imagines programadores con "
-"barba escribiendo largas líneas de código en una pantalla negra. ¡Buenas "
-"noticias! Las cosas han cambiado."
+"barba escribiendo código extraño en una pantalla negra. ¡Buenas noticias! "
+"Las cosas han cambiado."
 
 #: docroot/lib/views/linux.php:20
 msgid "The picture"
@@ -1474,6 +1471,10 @@ msgid ""
 "component, which is branched off into many different products. They are "
 "called <strong>distributions</strong>."
 msgstr ""
+"GNU/Linux no es el producto de una empresa, sino varias empresas y grupos de "
+"personas que contribuyen a él. De hecho, el <em>sistema GNU/Linux</em> es un "
+"componente esencial, que se ramifica en muchos productos diferentes. Se "
+"llaman <strong>distribuciones</strong>."
 
 #: docroot/lib/views/linux.php:23
 msgid ""
@@ -1482,6 +1483,11 @@ msgid ""
 "companies) to lightweight ones that fit on a USB memory stick or run on old "
 "computers (often developed by volunteers)."
 msgstr ""
+"Las distribuciones cambian la apariencia y la función de GNU/Linux "
+"completamente. Van desde grandes sistemas completos con soporte total ("
+"respaldados por empresas) a sistemas ligeros que caben en un lápiz de "
+"memoria USB o funcionan en ordenadores viejos (normalmente desarrollados por "
+"voluntarios)."
 
 #: docroot/lib/views/linux.php:27 docroot/lib/views/linux.faq.php:213
 msgid "Using GNU/Linux"
@@ -1495,6 +1501,10 @@ msgid ""
 "href=\"%s\">the ones we recommend for newcomers</a>, which come in with many "
 "programs installed."
 msgstr ""
+"GNU/Linux no es más difícil de usar que Windows y tiene muchas más "
+"prestaciones. Familiarizarse con una distribución como <a href=\"%s\">las "
+"que recomendamos para recién llegados</a>, que vienen con muchos programas "
+"instalados, solo lleva unos doce minutos."
 
 #: docroot/lib/views/linux.php:29
 msgid ""
@@ -1504,6 +1514,11 @@ msgid ""
 "of free, high quality applications you can find, install and uninstall "
 "neatly and easily."
 msgstr ""
+"Si necesitas software de calidad comercial para trabajar con documentos de "
+"negocios, Internet/redes de trabajo o multimedia y gráficos, está ahí listo "
+"para usar. ¿Quieres más que eso? GNU/Linux puede hacerlo: hay cientos de "
+"aplicaciones gratuitas, de gran calidad que puedes encontrar, instalar y "
+"desinstalar sencilla y ordenadamente."
 
 #: docroot/lib/views/linux.php:30
 #, php-format
@@ -1528,6 +1543,11 @@ msgid ""
 "what makes it truly <a href=\"https://www.gnu.org/philosophy/free-sw.html\" "
 "title=\"what is freedom in software?\" rel=\"external\">free software</a>."
 msgstr ""
+"Cuando obtienes una distribución de GNU/Linux, <strong>también recibes la "
+"libertad de estudiarla, copiarla, cambiarla y distribuirla</strong> &mdash;"
+"eso es lo que la hace verdaderamente <a href=\"https://www.gnu.org/"
+"philosophy/free-sw.html\" rel=\"external\" title=\"¿qué es la libertad en el "
+"software?\">software libre</a>."
 
 #: docroot/lib/views/linux.php:54
 msgid ""
@@ -1581,18 +1601,16 @@ msgstr ""
 "más avanzado."
 
 #: docroot/lib/views/linux.php:70
-#, fuzzy
 msgid "GNU/Linux FAQ"
-msgstr "¡Cámbiate a GNU/Linux!"
+msgstr "Preguntas Frecuentes sobre GNU/Linux"
 
 #: docroot/lib/views/linux.php:71
-#, fuzzy
 msgid ""
 "This FAQ covers common questions about GNU/Linux. We hope this FAQ list can "
 "help if you are more curious."
 msgstr ""
-"<a href=\"%s\">Nuestra página sobre GNU/Linux</a> cubre la información "
-"esencial. Esperamos que este FAQ te pueda ayudar si tienes mayor curiosidad."
+"Esta lista de preguntas y respuestas trata preguntas comunes sobre GNU/"
+"Linux. Esperamos que esta lista pueda ayudar si eres más curioso."
 
 #. TRANSLATORS: use the definition of "free software" on GNU.org
 #: docroot/lib/views/linux.php:84
@@ -1613,9 +1631,8 @@ msgstr ""
 "de Microsoft."
 
 #: docroot/lib/views/windows.restrictions.further_details.php:23
-#, fuzzy
 msgid "It is unclear who can use, receive or buy your software"
-msgstr "No está claro quién puede usar, recibir o vender su software."
+msgstr "No está claro quién puede usar, recibir o vender tu software."
 
 #: docroot/lib/views/windows.restrictions.further_details.php:24
 msgid ""
@@ -1808,6 +1825,10 @@ msgid ""
 "\">purchase a PC with GNU/Linux pre-installed</a>, you can see what freedom "
 "looks like on your computer."
 msgstr ""
+"Da el paso &ndash; a no ser que quieras <a href=\"#"
+"free_software_pre_installed\" title=\"Ordenadores y portátiles con GNU/"
+"Linux\">comprar un ordenador con GNU/Linux preinstalado</a>, puedes ver el "
+"aspecto de la libertad en tu ordenador."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:21
 #, fuzzy
@@ -1926,7 +1947,7 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.try_or_install.php:48
 #, fuzzy
 msgid "Get the image you need"
-msgstr "Obtén el CD que necesitas"
+msgstr "Obtén la imagen que necesitas"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:56
 #: docroot/lib/views/switch_to_linux.try_or_install.php:71
@@ -1939,11 +1960,11 @@ msgstr ""
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:56
 msgid "https://www.debian.org/CD/faq/#write-usb"
-msgstr ""
+msgstr "https://www.debian.org/CD/faq/#write-usb"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:56
 msgid "https://www.debian.org/CD/faq/#record-windows"
-msgstr ""
+msgstr "https://www.debian.org/CD/faq/#record-windows"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:57
 #, php-format
@@ -1954,7 +1975,7 @@ msgstr ""
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:57
 msgid "https://www.debian.org/releases/stable/installmanual"
-msgstr ""
+msgstr "https://www.debian.org/releases/stable/installmanual"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:61
 msgid "Download Debian"
@@ -1964,10 +1985,11 @@ msgstr "Descargar Debian"
 msgid ""
 "https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows"
 msgstr ""
+"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:71
 msgid "https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows"
-msgstr ""
+msgstr "https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:72
 #, php-format
@@ -1975,10 +1997,12 @@ msgid ""
 "Then use it to <a href=\"%s\" rel=\"external\">install Ubuntu</a> onto your "
 "computer."
 msgstr ""
+"Luego úsalo para <a href=\"%s\" rel=\"external\">instalar Ubuntu</a> en tu "
+"ordenador."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:72
 msgid "https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop"
-msgstr ""
+msgstr "https://ubuntu.com/tutorials/install-ubuntu-desktop"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:76
 msgid "Download Ubuntu"
@@ -2001,12 +2025,16 @@ msgid ""
 "Then use it to <a href=\"%s\" rel=\"external\">install Fedora</a> onto your "
 "computer."
 msgstr ""
+"Luego úsalo para <a href=\"%s\" rel=\"external\">instalar Fedora</a> en tu "
+"ordenador."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:87
 msgid ""
 "https://docs.fedoraproject.org/en-US/fedora/f33/install-guide/install/"
 "Booting_the_Installation/"
 msgstr ""
+"https://docs.fedoraproject.org/es/fedora/f33/install-guide/install/"
+"Booting_the_Installation/"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:91
 msgid "Download Fedora"
@@ -2025,9 +2053,8 @@ msgid "Free Software pre-installed"
 msgstr "Software Libre pre-instalado"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:104
-#, fuzzy
 msgid "Computer with GNU/Linux pre-installed"
-msgstr "¿Viene GNU/Linux preinstalado en ordenadores?"
+msgstr "Ordenador con GNU/Linux preinstalado"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:105
 msgid ""
@@ -2163,13 +2190,12 @@ msgstr ""
 "mencionar algunas:"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:54
-#, fuzzy
 msgid "Applications:"
-msgstr "Accediendo a aplicaciones."
+msgstr "Aplicaciones:"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:56
 msgid "(text editor)"
-msgstr ""
+msgstr "(editor de texto)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:57
 #: docroot/lib/views/linux.misunderstanding_free_software.php:64
@@ -2178,86 +2204,84 @@ msgstr "(navegador web)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:58
 msgid "(distributed version control system)"
-msgstr ""
+msgstr "(sistema de control de versiones distribuido)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:59
 msgid "(vector drawing)"
-msgstr ""
+msgstr "(dibujar gráficos vectoriales)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:60
 msgid "(painting)"
-msgstr ""
+msgstr "(pintar)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:61
 msgid "(DJ mixing)"
-msgstr ""
+msgstr "(mezcla de DJ)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:62
 msgid "(digital audio workstation)"
-msgstr ""
+msgstr "(entorno de trabajo de audio digital)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:63
 msgid "(3D graphics creation)"
-msgstr ""
+msgstr "(Creación de gráficos 3D)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:65
 msgid "(image editor)"
-msgstr ""
+msgstr "(editor de imagen)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:66
 msgid "(office suite)"
-msgstr ""
+msgstr "(paquete ofimático)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:67
 msgid "(machine learning)"
-msgstr ""
+msgstr "(aprendizaje automático)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:68
 msgid "(email client)"
-msgstr ""
+msgstr "(cliente de correo)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:69
 msgid "(multimedia player)"
-msgstr ""
+msgstr "(reproductor multimedia)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:72
-#, fuzzy
 msgid "Server applications:"
-msgstr "Accediendo a aplicaciones."
+msgstr "Aplicaciones de servidor:"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:74
 msgid "(content management system)"
-msgstr ""
+msgstr "(sistema de gestión de contenidos)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:75
-#, fuzzy
 msgid "(distributed computing)"
-msgstr "¿Puede confiar en su computadora?"
+msgstr "(computación distribuida)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:76
 #: docroot/lib/views/linux.misunderstanding_free_software.php:77
 msgid "(web server)"
-msgstr ""
+msgstr "(servidor web)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:78
 msgid "(JavaScript runtime environment)"
-msgstr ""
+msgstr "(entorno de ejecución de JavaScript)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:79
 msgid "(virtualization)"
-msgstr ""
+msgstr "(virtualización)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:80
 msgid "(blog)"
-msgstr ""
+msgstr "(blog)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:83
 msgid "Formats and protocols:"
-msgstr ""
+msgstr "Formatos y protocolos:"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:85
 msgid "(file sharing)"
-msgstr ""
+msgstr "(compartir archivos)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:86
 msgid "(lossless audio codec)"
@@ -2269,7 +2293,7 @@ msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:88
 msgid "(web pages)"
-msgstr ""
+msgstr "(páginas web)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:89
 msgid "(container format)"
@@ -2277,28 +2301,27 @@ msgstr ""
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:90
 msgid "(office documents)"
-msgstr ""
+msgstr "(documentos ofimáticos)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:91
 msgid "(video file format)"
-msgstr ""
+msgstr "(formato de archivo de vídeo)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:92
 msgid "(web real-time communication)"
-msgstr ""
+msgstr "(comunicación web en tiempo real)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:95
 msgid "Complete systems:"
-msgstr ""
+msgstr "Sistemas completos:"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:97
 msgid "(operating system)"
-msgstr ""
+msgstr "(sistema operativo)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:98
-#, fuzzy
 msgid "and of course, GNU/Linux."
-msgstr "Lea más en nuestras Preguntas Frequentes de GNU/Linux:"
+msgstr "y, por supuesto, GNU/Linux."
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:106
 msgid "Software should Just Work"
@@ -2751,6 +2774,13 @@ msgid ""
 "point</a>. Read our FAQ entry: <a href=\"%s#open_source\">Are \"Open Source"
 "\" and \"Free Software\" the same thing?</a>."
 msgstr ""
+"Lo que aquí llamamos «software libre» también se llama comúnmente «software "
+"de código abierto». En la práctica los requisitos son idénticos, aunque como "
+"el término «abierto» no hace pensar en libertad, <a href=\"https://www.gnu."
+"org/philosophy/open-source-misses-the-point.html\" rel=\"external\">pierde "
+"de vista lo esencial</a>. Lee nuestra entrada de preguntas frecuentes <a "
+"href=\"%s#open_source\">¿Son «código abierto» y «software libre» lo "
+"mismo?</a>."
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:19
 msgid ""
@@ -2859,7 +2889,7 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:86
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:101
 msgid "Read more in our GNU/Linux FAQ:"
-msgstr "Lea más en nuestras Preguntas Frequentes de GNU/Linux:"
+msgstr "Lee más en nuestra lista de preguntas frecuentes de GNU/Linux:"
 
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:54
 msgid "Support"
@@ -3267,7 +3297,8 @@ msgid ""
 "information. We hope this FAQ list can help if you are more curious."
 msgstr ""
 "<a href=\"%s\">Nuestra página sobre GNU/Linux</a> cubre la información "
-"esencial. Esperamos que este FAQ te pueda ayudar si tienes mayor curiosidad."
+"esencial. Esperamos que esta lista de preguntas frecuentes te pueda ayudar "
+"si tienes mayor curiosidad."
 
 #: docroot/lib/views/linux.faq.php:23
 msgid "General Questions"
@@ -3407,7 +3438,7 @@ msgstr "Comprendiendo el software libre"
 #: docroot/lib/views/linux.faq.php:79
 msgid ""
 "Are &quot;Open Source&quot; and &quot;Free Software&quot; the same thing?"
-msgstr "¿Son lo mismo el \"Open Source\" y el \"Software Libre\"?"
+msgstr "¿Son «código abierto» y «software libre» lo mismo?"
 
 #: docroot/lib/views/linux.faq.php:81
 msgid ""
@@ -3914,6 +3945,7 @@ msgstr ""
 #, php-format
 msgid "See our \"<a href=\"%s\">%s</a>\" for more details on this subject."
 msgstr ""
+"Consulta nuestras «<a href=\"%s\">%s</a>» para más detalles sobre este asunto"
 
 #: docroot/lib/views/linux.faq.php:276
 msgid "More questions?"
@@ -3981,7 +4013,6 @@ msgid "News"
 msgstr "Novedades"
 
 #: src/templates/footer.php:25
-#, fuzzy
 msgid "Participate"
 msgstr "Participa"
 
