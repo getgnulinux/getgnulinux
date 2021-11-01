@@ -136,7 +136,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
         <ul class="browser-default">
           <li><?php
           # TRANSLATORS: Unless you know of a good localized resource, please leave the URL as such.
-          print _("<a href=\"https://ffii.org/Frequently%20Asked%20Questions%20about%20software%20patents\" hreflang=\"en\" rel=\"external\">Frequently Asked Questions on software patents, by the <abbr title=\"Foundation for a Free Information Infrastructure\">FFII</abbr></a>"); ?></a></li>
+          print _("<a href=\"https://web.archive.org/web/20190608143048/https://ffii.org/Frequently%20Asked%20Questions%20about%20software%20patents\" hreflang=\"en\" rel=\"external\">Frequently Asked Questions on software patents, by the <abbr title=\"Foundation for a Free Information Infrastructure\">FFII</abbr></a>"); ?></a></li>
         </ul>
       </section>
 
