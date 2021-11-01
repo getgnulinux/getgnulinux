@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2021-10-21 01:06+0000\n"
-"PO-Revision-Date: 2021-08-25 16:33+0000\n"
+"PO-Revision-Date: 2021-11-03 10:34+0000\n"
 "Last-Translator: Omer I.S. <omeritzicschwartz@gmail.com>\n"
 "Language-Team: Hebrew (Israel) <https://hosted.weblate.org/projects/"
 "getgnulinux/getgnulinux-pot/he_IL/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 4.8.1-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #. TRANSLATORS: The name of the website. It is displayed in the header of each page.
 #: docroot/lib/ggl.php:208 docroot/lib/views/home.php:15
@@ -161,15 +161,11 @@ msgstr "העמוד לא נמצא"
 
 #. TRANSLATORS: This is the description of the homepage, and it appears in Google results! Please pay particular attention to this one =)
 #: docroot/lib/ggl.php:261
-#, fuzzy
-#| msgid ""
-#| "Get GNU/Linux! A simple, clear website about GNU/Linux. What is GNU/"
-#| "Linux? Why not Windows? Tips to make the switch."
 msgid ""
 "Get GNU/Linux! A simple, clear website about GNU/Linux. What is Linux? Why "
 "not Windows? Tips to make the switch."
 msgstr ""
-"אני רוצה גנו/לינוקס! אתר פשוט וברור על גנו/לינוקס. מה זה גנו/לינוקס? למה לא "
+"אני רוצה גנו/לינוקס! אתר פשוט וברור על גנו/לינוקס. מה זה לינוקס? למה לא "
 "Windows? עצות למעבר."
 
 #. TRANSLATORS: This is the description of the 'More' page
@@ -1342,6 +1338,11 @@ msgid ""
 "incorporating new technologies early on, providing the latest in stable and "
 "robust, useful, and powerful free software."
 msgstr ""
+"ההפצה מבית חברת פיתוח הגנו/לינוקס הבולטת והוותיקה רד האט. פריסת ברירת־המחדל "
+"בהפצה דומה לזו של דביאן, אך יש הבדלים בין היישומים המותקנים מראש, פרוטוקולי "
+"ההתקנה ואלמנטיים טכניים שונים. המפתחים של פדורה מחויבים לחדשנות, המתבטאת "
+"בשילוב טכנולוגיות חדשות בשלבים מוקדמים, ובסיפוק הגרסאות העדכניות בתכנה "
+"החופשית היציבה, החזקה, השימושית והעוצמתית."
 
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:114
 msgid ""
@@ -1725,7 +1726,7 @@ msgstr ""
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:21
 msgid "Try out the live USB stick"
-msgstr "התנסות עם ההחסן הנייד בזמן־אמת"
+msgstr "התנסות עם ההחסן הנייד במצב המחשה"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:24
 msgid "Take no risk"
@@ -1737,7 +1738,7 @@ msgid ""
 "<em>without installing anything</em>. It's a risk-less way to try and see by "
 "yourself what GNU/Linux is."
 msgstr ""
-"משמעות השימוש בהחסן נייד בזמן־אמת היא שמערכת גנו/לינוקס תופעל במחשבך "
+"משמעות השימוש בהחסן נייד במצב המחשה היא שמערכת גנו/לינוקס תופעל במחשבך "
 "<em>מבלי להתקין דבר</em>. זוהי דרך נטולת סיכונים כדי להתנסות ולראות בעצמך "
 "מהי גנו/לינוקס."
 
@@ -1747,9 +1748,9 @@ msgid ""
 "work (without accessing the hard drive inside). You can launch all of the "
 "default programs, edit documents, and browse the web."
 msgstr ""
-"בעת הפעלה מהחסן נייד בזמן־אמת, המחשב שלך משתמש אך ורק בהחסן הנייד כדי לעבוד "
-"(מבלי לגשת לכונן הקשיח בפנים). אפשר להפעיל את כל תכניות ברירת המחדל, לערוך "
-"מסמכים, ולגלוש באינטרנט."
+"בעת הפעלה מהחסן נייד במצב המחשה, המחשב שלך משתמש אך ורק בהחסן הנייד כדי "
+"לעבוד (מבלי לגשת לכונן הקשיח בפנים). אפשר להפעיל את כל תכניות ברירת המחדל, "
+"לערוך מסמכים, ולגלוש באינטרנט."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:27
 msgid ""
@@ -1776,11 +1777,11 @@ msgid ""
 "system which can not boot from USB. You can then use it to install GNU/Linux "
 "onto your computer."
 msgstr ""
-"בהפצות שאנו ממליצים עליהן, ההחסן הנייד בזמן־אמת ואמצעי התקנה הם אותו הדבר. "
-"אפשר להוריד קובץ דמות ISO (או שמא לומר קובץ גדול) וליצור החסן נייד בר־אתחול "
-"(מומלץ) או לצרוב אותו על תקליטור CD או DVD. ייתכן שצריבה לתקליטור CD‏/DVD "
-"נחוצה להתקנת גנו/לינוקס במערכת ישנה שבה לא ניתן להפעיל מ־USB. אפשר להשתמש "
-"בהם כדי להתקין את גנו/לינוקס במחשב שלך."
+"בהפצות שאנו ממליצים עליהן, ההחסן הנייד במצב ההמחשה ואמצעי התקנה הם אותו "
+"הדבר. אפשר להוריד קובץ דמות ISO (או שמא לומר קובץ גדול) וליצור החסן נייד "
+"לאתחול (מומלץ) או לצרוב אותו על תקליטור CD או DVD. ייתכן שצריבה לתקליטור CD‏/"
+"DVD נחוצה להתקנת גנו/לינוקס במערכת ישנה שבה לא ניתן להפעיל מ־USB. אפשר "
+"להשתמש בהם כדי להתקין את גנו/לינוקס במחשב שלך."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:31
 msgid ""
@@ -1789,9 +1790,9 @@ msgid ""
 "strong>. If you feel confident simply using Windows or macOS from time to "
 "time, then this is within your reach."
 msgstr ""
-"כדי להשתמש בהחסן נייד בזמן־אמת, יש לך צורך במעט סקרנות, ובזמן פנוי באורך של "
-"כרבע שעה, אך <strong>לא בידע מתקדם במחשבים</strong>. אם לא הגעת להחלטה אפשר "
-"להשתמש ב־Windows או ב־macOS מפעם לפעם, עד ההגעה להחלטה."
+"כדי להשתמש בהחסן נייד במצב המחשה, יש לך צורך במעט סקרנות, ובזמן פנוי באורך "
+"של כרבע שעה, אך <strong>לא בידע מתקדם במחשבים</strong>. אם לא הגעת להחלטה "
+"אפשר להשתמש ב־Windows או ב־macOS מפעם לפעם, עד ההגעה להחלטה."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:35
 msgid "Installing as a dual boot"
@@ -2251,9 +2252,9 @@ msgid ""
 "system, without installation, so you can judge by yourself."
 msgstr ""
 "החדשות הטובות הן: <em>התכנה החופשית \"פשוט עובדת\".</em> למעשה, לרוב היא "
-"עובדת טוב יותר. אפשר <a href=\"%s\">להכניס מערכת גנו/לינוקס בזמן־אמת בהחסן "
-"USB</a> למחשבך בהפעלה, כדי להתנסות במערכת עשירת תכונות ומאורגנת היטב, מבלי "
-"להתקינה, כך שניתן לשפוט אותה בעצמך."
+"עובדת טוב יותר. אפשר <a href=\"%s\">לחבר החסן נייד במצב המחשה</a> למחשבך בעת "
+"האתחול, ולהתנסות במערכת עשירה בתכונות ומאורגנת היטב, מבלי להתקינה, באופן "
+"שאפשר לשפוט אותה בעצמך."
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:117
 msgid ""
@@ -3361,15 +3362,14 @@ msgstr ""
 
 #. TRANSLATORS: gnu.org uses language negotiation, so it's not necessary to replace those URLs.
 #: docroot/lib/views/linux.faq.php:96
-#, fuzzy
 msgid ""
 "The concept of <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel="
 "\"external\">free software</a>, refers to freedom, not price. You have the "
 "freedom to copy, study, modify, and give free software away."
 msgstr ""
-"מושג <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external"
-"\">התכנה החופשית</a> מתייחס לחופש, ולא למחיר. משמעותו היא הזכות להעתיק, "
-"ללמוד, לשנות, ולהפיץ תכנה חופשית אחרת."
+"מושג <a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel=\"external\""
+">התכנה החופשית</a> מתייחס לחופש, ולא למחיר. משמעותו היא הזכות להעתיק, ללמוד, "
+"לשנות, ולהפיץ תכנה חופשית אחרת."
 
 #: docroot/lib/views/linux.faq.php:97
 msgid ""
