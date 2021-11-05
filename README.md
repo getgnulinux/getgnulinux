@@ -23,7 +23,6 @@ Start the build environment with:
 This should open a Bash shell inside the Docker container.
 Inside the container, initialize the build environment with:
 
-    ./autogen.sh
     ./configure --localedir=/home/node/getgnulinux/docroot/locale/
 
 **NOTE:** These and other common commands are already in your Bash history. Use
