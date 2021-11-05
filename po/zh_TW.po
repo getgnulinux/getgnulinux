@@ -64,6 +64,7 @@ msgstr "GNU/Linux 是什麼？"
 #: docroot/lib/views/windows.what_about_choice.php:57
 #: docroot/lib/views/linux.php:112
 #: docroot/lib/views/windows.what_about_source_code.php:65
+#: docroot/lib/views/windows.what_about_choice.php:64
 msgid "Why not Windows"
 msgstr "為什麼不用 Windows"
 
@@ -558,14 +559,6 @@ msgstr ""
 
 #. TRANSLATORS: use the definition of "free software" on GNU.org; also, gnu.org uses language negotiation, so it's not necessary to replace those URLs.
 #: docroot/lib/views/windows.restrictions.php:73
-#, fuzzy
-#| msgid ""
-#| "<strong>You have an alternative to breaking this law,</strong> or feeling "
-#| "very restrained when you abide to it. GNU/Linux is <a href=\"https://www."
-#| "gnu.org/philosophy/free-sw.html\" rel=\"external\">Free Software</a> "
-#| "(much better than just freeware): its <a href=\"https://www.gnu.org/"
-#| "copyleft/gpl.html\" rel=\"external\">GPL</a> license is designed to "
-#| "protect your rights."
 msgid ""
 "<strong>You have an alternative to breaking this law,</strong> or feeling "
 "very restrained when you abide to it. GNU/Linux is <a href=\"https://www.gnu."
@@ -577,8 +570,8 @@ msgstr ""
 "<strong>你可以選擇違反此法律</strong>，或是在遵守的時候感到非常不舒服。GNU/"
 "Linux 是<a href=\"https://www.gnu.org/philosophy/free-sw.html\" rel="
 "\"external\">自由軟體</a>（比免費軟體好多了）：它的 <a href=\"https://www."
-"gnu.org/copyleft/gpl.html\" rel=\"external\">GPL</a> 條款就是設計用於保護你的"
-"權利。"
+"gnu.org/copyleft/gpl.html\" rel=\"external\" title=\"GNU General Public "
+"License\">GPL</a> 條款就是設計用於保護你的權利。"
 
 #: docroot/lib/views/windows.restrictions.php:74
 msgid "Restrictions - further details"
@@ -913,15 +906,11 @@ msgstr ""
 
 #. TRANSLATORS: If you don't know of a localized version of this article, please leave the URL in English
 #: docroot/lib/views/windows.stand_for_a_free_society.php:148
-#, fuzzy
-#| msgid ""
-#| "http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-"
-#| "and-free-file-formats/"
 msgid ""
 "https://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-"
 "free-file-formats/"
 msgstr ""
-"http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-"
+"https://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-"
 "free-file-formats/"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:148
@@ -1084,10 +1073,12 @@ msgstr ""
 "體。他們會開始上癮，然後我們就能在十年後想出把錢收回的辦法。"
 
 #: docroot/lib/views/windows.what_about_choice.php:36
+#: docroot/lib/views/windows.what_about_choice.php:43
 msgid "Standards that change all the time"
 msgstr "標準總是在改"
 
 #: docroot/lib/views/windows.what_about_choice.php:37
+#: docroot/lib/views/windows.what_about_choice.php:44
 msgid ""
 "Sticking to Microsoft standards is not an easy job &ndash; unless you can "
 "afford to upgrade very often. Ever tried to work on the same <code>.doc</"
@@ -1099,6 +1090,7 @@ msgstr ""
 "嗎？如果有，你大概能理解我在說什麼。"
 
 #: docroot/lib/views/windows.what_about_choice.php:38
+#: docroot/lib/views/windows.what_about_choice.php:45
 msgid ""
 "Microsoft owns the Office file formats: <strong>they change them with every "
 "new Office version</strong> and have no obligation to keep them backwards-"
@@ -1113,10 +1105,12 @@ msgstr ""
 "逆向工程的社群，如此才能存取、並修改你的文件。"
 
 #: docroot/lib/views/windows.what_about_choice.php:42
+#: docroot/lib/views/windows.what_about_choice.php:49
 msgid "Default programs you can't uninstall"
 msgstr "預設軟體不能移除"
 
 #: docroot/lib/views/windows.what_about_choice.php:43
+#: docroot/lib/views/windows.what_about_choice.php:50
 msgid ""
 "Don't want Windows Media Player on your computer? Don't use Internet "
 "Explorer anymore? <strong>You can't uninstall these programs</strong>. They "
@@ -1130,21 +1124,11 @@ msgstr ""
 "腦上，永遠無法擺脫。"
 
 #: docroot/lib/views/windows.what_about_choice.php:47
+#: docroot/lib/views/windows.what_about_choice.php:54
 msgid "Monopolistic practices"
 msgstr "壟斷手法"
 
-#: docroot/lib/views/windows.what_about_choice.php:48
-#, fuzzy
-#| msgid ""
-#| "Microsoft has a tight control over <abbr title=\"Original Equipment "
-#| "Manufacturer\">OEM</abbr>s (computer manufacturers) who ship their "
-#| "computers with Windows installed. This means that no program competing "
-#| "with Microsoft products, be it <a href=\"https://www.videolan.org/vlc/\" "
-#| "rel=\"external\">multimedia player</a>, <a href=\"https://www.getfirefox."
-#| "com/\" rel=\"external\">web browser</a>, <a href=\"https://www."
-#| "libreoffice.org/\" rel=\"external\">office suite</a>, <a href=\"https://"
-#| "www.pidgin.im/\" rel=\"external\">instant messaging program</a> or other, "
-#| "will come pre-installed on most computers you can buy."
+#: docroot/lib/views/windows.what_about_choice.php:55
 msgid ""
 "Microsoft has a tight control over <abbr title=\"Original Equipment "
 "Manufacturer\">OEM</abbr>s (computer manufacturers) who ship their computers "
@@ -1159,13 +1143,14 @@ msgstr ""
 "微軟牢牢地控制著 <abbr title=\"Original Equipment Manufacturer\">OEM</"
 "abbr>（電腦製造商），這些製造商在出貨時就安裝了 Windows。這意味著沒有軟體能和"
 "微軟的產品競爭，不論是<a href=\"https://www.videolan.org/vlc/\" rel="
-"\"external\">多媒體播放器</a>、<a href=\"https://www.getfirefox.com/\" rel="
-"\"external\">網頁瀏覽器</a>、<a href=\"https://www.libreoffice.org/\" rel="
-"\"external\">辦公套裝軟體</a>、<a href=\"https://www.pidgin.im/\" rel="
+"\"external\">多媒體播放器</a>、<a href=\"https://www.mozilla.org/firefox/new/"
+"\" rel=\"external\">網頁瀏覽器</a>、<a href=\"https://www.libreoffice.org/\" "
+"rel=\"external\">辦公套裝軟體</a>、<a href=\"https://www.pidgin.im/\" rel="
 "\"external\">即時通訊軟體</a>、或是其他的軟體等，基本上絕大多數你買得到的電腦"
 "都已經預裝微軟的產品。"
 
 #: docroot/lib/views/windows.what_about_choice.php:49
+#: docroot/lib/views/windows.what_about_choice.php:56
 msgid ""
 "It is a good thing to propose a wide range of software and services like "
 "Microsoft do; however, designing and combining them to shut users from non-"
@@ -1766,13 +1751,6 @@ msgstr ""
 "會在螢幕上看到選擇你想開機的作業系統選單。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:39
-#, fuzzy
-#| msgid ""
-#| "Setting up a dual-boot can be helpful if you need time to abandon "
-#| "restrictive software. It is <a href=\"https://tutorials.ubuntu.com/"
-#| "tutorial/tutorial-install-ubuntu-desktop\" title=\"a tutorial on "
-#| "installing Ubuntu\" rel=\"external\">not difficult to set-up</a>, though "
-#| "erasing Windows or macOS altogether is even easier."
 msgid ""
 "Setting up a dual-boot can be helpful if you need time to abandon "
 "restrictive software. It is <a href=\"https://ubuntu.com/tutorials/install-"
@@ -1780,10 +1758,10 @@ msgid ""
 "\"external\">not difficult to set-up</a>, though erasing Windows or macOS "
 "altogether is even easier."
 msgstr ""
-"如果放棄受限制的軟體需要時間，你可以選擇安裝雙系統，<a href=\"https://"
-"tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel="
-"\"external\" title=\"a tutorial on installing Ubuntu\">而這並不困難</a>，雖然"
-"將 Windows 或 macOS 徹底刪除會更加簡單。"
+"如果放棄受限制的軟體需要時間，你可以選擇安裝雙系統，<a href=\"https://ubuntu."
+"com/tutorials/install-ubuntu-desktop#1-overview\" title=\"a tutorial on "
+"installing Ubuntu\" rel=\"external\">而這並不困難</a>，雖然將 Windows 或 "
+"macOS 徹底刪除會更加簡單。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:42
 msgid ""
@@ -1838,19 +1816,12 @@ msgid "Download Debian"
 msgstr "下載 Debian"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:71
-#, fuzzy
-#| msgid ""
-#| "https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-"
-#| "windows"
 msgid "https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview"
-msgstr ""
-"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows"
+msgstr "https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:71
-#, fuzzy
-#| msgid "https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows"
 msgid "https://ubuntu.com/tutorials/burn-a-dvd-on-windows#1-overview"
-msgstr "https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows"
+msgstr "https://ubuntu.com/tutorials/burn-a-dvd-on-windows#1-overview"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:72
 #, php-format
@@ -1861,11 +1832,8 @@ msgstr ""
 "然後使用它<a href=\"%s\" rel=\"external\">安裝 Ubuntu</a> 到您的電腦上。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:72
-#, fuzzy
-#| msgid ""
-#| "https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop"
 msgid "https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview"
-msgstr "https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop"
+msgstr "https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:76
 msgid "Download Ubuntu"
@@ -2464,20 +2432,7 @@ msgstr ""
 "體也是同個道理。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:166
-#, fuzzy, php-format
-#| msgid ""
-#| "Need examples? Have a look at the <a href=\"https://www.getfirefox.com/\" "
-#| "rel=\"external\">Firefox web browser</a>, the <a href=\"https://en."
-#| "wikipedia.org/wiki/Apache_HTTP_Server\" rel=\"external\">Apache HTTP "
-#| "Server</a>, the <a href=\"https://en.wikipedia.org/wiki/Nginx\" rel="
-#| "\"external\">Nginx web server</a>, the <a href=\"https://en.wikipedia.org/"
-#| "wiki/Dovecot_(software)\" rel=\"external\">Dovecot email server</a>, the "
-#| "<a href=\"https://en.wikipedia.org/wiki/Exim\" rel=\"external\">Exim mail "
-#| "transfer agent</a>, the <a href=\"https://en.wikipedia.org/wiki/"
-#| "Pretty_Good_Privacy\" rel=\"external\">OpenPGP</a> encryption system, or "
-#| "the <a href=\"https://en.wikipedia.org/wiki/OpenBSD\" rel=\"external"
-#| "\">OpenBSD</a> operating system. And <a href=\"%s#security\">there are no "
-#| "spyware or viruses under GNU/Linux</a>."
+#, php-format
 msgid ""
 "Need examples? Have a look at the <a href=\"https://www.mozilla.org/firefox/"
 "new/\" rel=\"external\">Firefox web browser</a>, the <a href=\"https://en."
@@ -2492,8 +2447,8 @@ msgid ""
 "And <a href=\"%s#security\">there are no spyware or viruses under GNU/Linux</"
 "a>."
 msgstr ""
-"想要看些例子？看看 <a href=\"https://www.getfirefox.com/\" rel=\"external"
-"\">Firefox 瀏覽器</a>、<a href=\"https://en.wikipedia.org/wiki/"
+"想要看些例子？看看 <a href=\"https://www.mozilla.org/firefox/new/\" rel="
+"\"external\">Firefox 瀏覽器</a>、<a href=\"https://en.wikipedia.org/wiki/"
 "Apache_HTTP_Server\" rel=\"external\">Apache HTTP 伺服器</a>、<a href="
 "\"https://en.wikipedia.org/wiki/Nginx\" rel=\"external\">Nginx 網路伺服器</"
 "a>、<a href=\"https://en.wikipedia.org/wiki/Dovecot_(software)\" rel="
@@ -2559,14 +2514,6 @@ msgid ""
 msgstr "所有主要的 GNU/Linux 散佈版幾乎都可以透過郵遞論壇（免費）提供協助："
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:192
-#, fuzzy
-#| msgid ""
-#| "If you need someone you can reach on the phone anytime to assist you, the "
-#| "companies behind most distributions provide commercial support: see <a "
-#| "href=\"https://www.debian.org/consultants/\" rel=\"external\">Debian "
-#| "consultants</a>, <a href=\"https://www.ubuntu.com/support\" rel=\"external"
-#| "\">Ubuntu Commercial Support</a>, or <a href=\"https://www.redhat.com/"
-#| "rhel/\" rel=\"external\">Red Hat Enterprise Linux</a> for example."
 msgid ""
 "If you need someone you can reach on the phone anytime to assist you, the "
 "companies behind most distributions provide commercial support: see <a href="
@@ -2578,9 +2525,10 @@ msgid ""
 msgstr ""
 "如果你需要的是有人可以在電話的另一端幫助你，那麼有些散布版背後會有公司提供商"
 "業支援：請見 <a href=\"https://www.debian.org/consultants/\" rel=\"external"
-"\">Debian 顧問</a>、<a href=\"https://www.ubuntu.com/support\" rel=\"external"
-"\">Ubuntu 商業支援</a>或是 <a href=\"https://www.redhat.com/rhel/\" rel="
-"\"external\">Red Hat Enterprise Linux</a>等。"
+"\">Debian 顧問</a>、<a href=\"https://ubuntu.com/support\" rel=\"external"
+"\">Ubuntu 商業支援</a>或是 <a href=\"https://www.redhat.com/en/technologies/"
+"linux-platforms/enterprise-linux\" rel=\"external\">Red Hat Enterprise "
+"Linux</a>等。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:199
 msgid "Further reading on the web"
@@ -2818,15 +2766,6 @@ msgstr "網路瀏覽與一般事務"
 
 #. TRANSLATORS: use localized Firefox landing page if possible
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:70
-#, fuzzy
-#| msgid ""
-#| "The Web looks just the same when viewed with GNU/Linux (in fact you can "
-#| "browse the Web with the same program if you already use <a href=\"https://"
-#| "www.getfirefox.com/\" rel=\"external\">Firefox</a> or <a href=\"https://"
-#| "www.google.com/chrome/\" rel=\"external\">Google Chrome</a>). And of "
-#| "course, you can go through your picture and music collection all the "
-#| "same. Files and folders are navigated with a file manager like Windows "
-#| "Explorer."
 msgid ""
 "The Web looks just the same when viewed with GNU/Linux (in fact you can "
 "browse the Web with the same program if you already use <a href=\"https://"
@@ -2837,7 +2776,7 @@ msgid ""
 "Explorer."
 msgstr ""
 "在 Linux 上看到的網頁和 Windows 下完全相同（事實上你可以選擇繼續使用你已經在"
-"使用的軟體如 <a href=\"https://www.getfirefox.com/\" rel=\"external"
+"使用的軟體如 <a href=\"https://www.mozilla.org/firefox/new/\" rel=\"external"
 "\">Firefox</a> 或者 <a href=\"https://www.google.com/chrome/\" rel=\"external"
 "\">Google Chrome</a>）。當然，你也可以像在 Windows 下一樣查看你的照片，享受你"
 "的音樂。檔案和資料夾的管理和 Windows 下的 Explorer 非常相似。"
@@ -3283,18 +3222,14 @@ msgid "Is Linux a registered trademark?"
 msgstr "Linux 是一個註冊商標嗎？"
 
 #: docroot/lib/views/linux.faq.php:53
-#, fuzzy
-#| msgid ""
-#| "Yes. You cannot sell any random software under the name of Linux&reg;. "
-#| "The trademark is held by <a href=\"http://www.linuxmark.org/\" rel="
-#| "\"external\">the Linux Mark Institute</a>."
 msgid ""
 "Yes. You cannot sell any random software under the name of Linux&reg;. The "
 "trademark is held by <a href=\"https://www.linuxfoundation.org/the-linux-"
 "mark/\" rel=\"external\">the Linux Mark Institute</a>."
 msgstr ""
-"是的，你不能販賣任何帶有 Linux&reg; 字樣的商品。該商標為 <a href=\"http://"
-"www.linuxmark.org/\" rel=\"external\">Linux 標示機構</a>所有。"
+"是的，你不能販賣任何帶有 Linux&reg; 字樣的商品。該商標為 <a href=\"https://"
+"www.linuxfoundation.org/the-linux-mark/\" rel=\"external\">Linux 標示機構</a>"
+"所有。"
 
 #: docroot/lib/views/linux.faq.php:58
 msgid "Is GNU/Linux the only free operating system available?"
@@ -3307,16 +3242,6 @@ msgid ""
 msgstr "不，GNU/Linux 是目前使用最廣的自由作業系統；但還有其他的系統存在。"
 
 #: docroot/lib/views/linux.faq.php:61
-#, fuzzy
-#| msgid ""
-#| "These include the UNIX derivatives <a href=\"https://freebsd.org/\" rel="
-#| "\"external\">FreeBSD</a>, <a href=\"https://netbsd.org/\" rel=\"external"
-#| "\">NetBSD</a>, <a href=\"https://openbsd.org/\" rel=\"external\">OpenBSD</"
-#| "a>, the BeOS clone <a href=\"https://haiku-os.org/\" rel=\"external"
-#| "\">Haiku OS</a>, the Windows NT clone <a href=\"http://www.reactos.com/\" "
-#| "rel=\"external\">ReactOS</a>, the DOS clone <a href=\"http://www.freedos."
-#| "org/\" rel=\"external\">FreeDOS</a>, and <a href=\"https://www.syllable."
-#| "org/\" rel=\"external\">Syllable</a>, just to name a few."
 msgid ""
 "These include the UNIX derivatives <a href=\"https://www.freebsd.org/\" rel="
 "\"external\">FreeBSD</a>, <a href=\"https://netbsd.org/\" rel=\"external"
@@ -3327,14 +3252,14 @@ msgid ""
 "freedos.org/\" rel=\"external\">FreeDOS</a>, and <a href=\"https://www."
 "syllable.org/\" rel=\"external\">Syllable</a>, just to name a few."
 msgstr ""
-"這些包含 Unix 的衍生系統如 <a href=\"https://freebsd.org/\" rel=\"external"
-"\">FreeBSD</a>、<a href=\"https://netbsd.org/\" rel=\"external\">NetBSD</a>、"
-"<a href=\"https://openbsd.org/\" rel=\"external\">OpenBSD</a> 以及 BeOS 的克"
-"隆版 <a href=\"https://haiku-os.org/\" rel=\"external\">Haiku OS</a>，"
-"Windows NT 的克隆版 <a href=\"http://www.reactos.com/\" rel=\"external"
-"\">ReactOS</a>，DOS 的克隆版 <a href=\"http://www.freedos.org/\" rel="
-"\"external\">FreeDOS</a>、還有<a href=\"https://www.syllable.org/\" rel="
-"\"external\">Syllable</a> 等等。"
+"這些包含 Unix 的衍生系統如 <a href=\"https://www.freebsd.org/\" rel="
+"\"external\">FreeBSD</a>、<a href=\"https://netbsd.org/\" rel=\"external"
+"\">NetBSD</a>、<a href=\"https://www.openbsd.org/\" rel=\"external"
+"\">OpenBSD</a> 以及 BeOS 的克隆版 <a href=\"https://haiku-os.org/\" rel="
+"\"external\">Haiku OS</a>，Windows NT 的克隆版 <a href=\"https://reactos.org/"
+"\" rel=\"external\">ReactOS</a>，DOS 的克隆版 <a href=\"http://www.freedos."
+"org/\" rel=\"external\">FreeDOS</a>、還有<a href=\"https://www.syllable.org/"
+"\" rel=\"external\">Syllable</a> 等等。"
 
 #: docroot/lib/views/linux.faq.php:66
 msgid "Is macOS a distribution of GNU/Linux?"
@@ -3466,16 +3391,6 @@ msgstr ""
 
 #. TRANSLATORS: If it exits, please use the URL of the official Ubuntu homepage localized in your language.
 #: docroot/lib/views/linux.faq.php:116
-#, fuzzy
-#| msgid ""
-#| "This happens because some hardware manufacturers such as NVidia do not "
-#| "care about their customers' freedoms, and only release restricting "
-#| "firmware and drivers (some of them don't even release anything, like "
-#| "Broadcom). These are available at no cost (they are freeware) but under "
-#| "restrictive licenses. Distributions such as <a href=\"https://www.ubuntu."
-#| "com/\" rel=\"external\">Ubuntu</a> and <a href=\"https://getfedora.org/\" "
-#| "rel=\"external\">Fedora</a> thus include such components to improve "
-#| "hardware compatibility."
 msgid ""
 "This happens because some hardware manufacturers such as NVidia do not care "
 "about their customers' freedoms, and only release restricting firmware and "
@@ -3488,9 +3403,9 @@ msgstr ""
 "這是因為有些硬體研發廠商，例如說 NVidia，他們並不在乎其使用者的自由，所以只提"
 "供充滿限制的韌體與驅動程式（有些廠商則甚至不提供任何支援，例如說 Broadcom）。"
 "雖然說這類軟體可以免費使用（屬於免費軟體），但是其授權條款上會有所限制。因此"
-"在某些像是 <a href=\"https://www.ubuntu.com/\" rel=\"external\">Ubuntu</a> "
-"與 <a href=\"https://getfedora.org/\" rel=\"external\">Fedora</a> 這些散布版"
-"中，還是會提供這類軟體以增進硬體的相容性。"
+"在某些像是 <a href=\"https://ubuntu.com/\" rel=\"external\">Ubuntu</a> 與 <a "
+"href=\"https://getfedora.org/\" rel=\"external\">Fedora</a> 這些散布版中，還"
+"是會提供這類軟體以增進硬體的相容性。"
 
 #: docroot/lib/views/linux.faq.php:117
 msgid ""
@@ -3616,20 +3531,14 @@ msgstr "GNU/Linux 是共產主義的一種形式嗎？"
 
 #. TRANSLATORS: This is italic text just below the question, which elaborates a little on it.
 #: docroot/lib/views/linux.faq.php:153
-#, fuzzy
-#| msgid ""
-#| "\"Everything has to be free\" and \"No one owns anything\" sounds "
-#| "somewhat frightening. Are GNU/Linux and its <abbr title=\"GNU General "
-#| "Public License\">GPL</abbr> License something for anarchists or "
-#| "communists?"
 msgid ""
 "\"Everything has to be free\" and \"No one owns anything\" sounds somewhat "
 "frightening. Are GNU/Linux and its <abbr title=\"GNU General Public License"
 "\">GPL</abbr> something for anarchists or communists?"
 msgstr ""
 "「全部都必須自由」以及「沒有人可以私佔任何東西」，這些概念聽起來挺嚇人的，所"
-"以 GNU/Linux 和它的 <abbr title=\"GNU General Public License\">GNU 公眾授權條"
-"款 (GPL)</abbr> 是否是為無政府主義者或共產主義者所設計的？"
+"以 GNU/Linux 和它的 <abbr title=\"GNU General Public License\">GPL</abbr> 是"
+"否是為無政府主義者或共產主義者所設計的？"
 
 #. TRANSLATORS: The link here points to the "How to Misunderstand Free Software" article.
 #: docroot/lib/views/linux.faq.php:156
@@ -3769,13 +3678,6 @@ msgstr "可以在 GNU/Linux 上執行 Microsoft Office 嗎？"
 
 #: docroot/lib/views/linux.faq.php:218
 #, fuzzy
-#| msgid ""
-#| "No. It is technically possible to adapt Microsoft Office to GNU/Linux, "
-#| "but Microsoft isn't keen on allowing Office users to choose their "
-#| "operating system. There are other issues with MS Office and openness "
-#| "&ndash; like Microsoft's fierce opposition to supporting <a href="
-#| "\"https://en.wikipedia.org/wiki/OpenDocument\" rel=\"external\">the "
-#| "OpenDocument format</a>."
 msgid ""
 "No. It is technically possible to adapt Microsoft Office to GNU/Linux, but "
 "Microsoft isn't keen on allowing Office users to choose their operating "
@@ -4042,42 +3944,60 @@ msgstr "社群論壇"
 msgid "Contact us"
 msgstr "連絡我們"
 
-#~ msgid "Poor support for open standards"
-#~ msgstr "對開放標準的支援很差"
+#: docroot/lib/views/windows.what_about_choice.php:36
+msgid "Poor support for open standards"
+msgstr "對開放標準的支援很差"
 
-#~ msgid ""
-#~ "There exist open file formats and protocols, which are standards to store "
-#~ "and carry many types of information, respectively. They are openly "
-#~ "specified: they can be read by anyone on any computer, now and in the "
-#~ "future. Proprietary programs, however, rarely support them."
-#~ msgstr ""
-#~ "我們有開放的檔案格式和協定，各自有存放和傳遞各種資訊類型的標準。規格書也都"
-#~ "公開透明：因此不管現在和未來都可以被任何人在任何電腦上讀取。可惜的是，專有"
-#~ "軟體卻很少願意支援它們。"
+#: docroot/lib/views/windows.what_about_choice.php:37
+msgid ""
+"There exist open file formats and protocols, which are standards to store "
+"and carry many types of information, respectively. They are openly "
+"specified: they can be read by anyone on any computer, now and in the "
+"future. Proprietary programs, however, rarely support them."
+msgstr ""
+"我們有開放的檔案格式和協定，各自有存放和傳遞各種資訊類型的標準。規格書也都公"
+"開透明：因此不管現在和未來都可以被任何人在任何電腦上讀取。可惜的是，專有軟體"
+"卻很少願意支援它們。"
 
-#~ msgid ""
-#~ "Microsoft Office used to only support Microsoft formats. There are many "
-#~ "ways to write work documents, but Microsoft Office users were bound to "
-#~ "Microsoft Office files. People who opted without expensive Microsoft "
-#~ "products cannot write and read <code>.doc</code> files very reliably."
-#~ msgstr ""
-#~ "微軟的 Office 過去只支援微軟自己的檔案格式。編寫一份工作文件有許許多多的方"
-#~ "式，可是 Office 用戶已經緊緊地被微軟 Office 文件格式綁架了。人們如果不願意"
-#~ "為微軟昂貴的產品付費，就無法可靠地讀寫 <code>.doc</code> 文件。"
+#: docroot/lib/views/windows.what_about_choice.php:38
+msgid ""
+"Microsoft Office used to only support Microsoft formats. There are many ways "
+"to write work documents, but Microsoft Office users were bound to Microsoft "
+"Office files. People who opted without expensive Microsoft products cannot "
+"write and read <code>.doc</code> files very reliably."
+msgstr ""
+"微軟的 Office 過去只支援微軟自己的檔案格式。編寫一份工作文件有許許多多的方"
+"式，可是 Office 用戶已經緊緊地被微軟 Office 文件格式綁架了。人們如果不願意為"
+"微軟昂貴的產品付費，就無法可靠地讀寫 <code>.doc</code> 文件。"
 
-#~ msgid ""
-#~ "There are of course other ways of writing and exchanging office files, "
-#~ "the most well-known being <a href=\"https://en.wikipedia.org/wiki/"
-#~ "OpenDocument\" rel=\"external\">the OpenDocument Format</a>. But "
-#~ "Microsoft isn't keen on letting Office users exchange files anyone can "
-#~ "read and edit. As of Microsoft Office 2007 SP2, Microsoft did add support "
-#~ "for the OpenDocument format after being pushed by the European Commission."
-#~ msgstr ""
-#~ "編寫以及交換文件檔案的方式也有有很多很多種，其中最知名的是<a href="
-#~ "\"https://zh.wikipedia.org/wiki/开放文档格式\" rel=\"external\">開放文件格"
-#~ "式</a> (ODF)。但微軟並不想讓 Office 的使用者使用任何人都可以讀取及編輯的檔"
-#~ "案格式。直到微軟 Office 2007 SP2 起，微軟才因為來自歐盟的壓力，加入對開放"
-#~ "文件格式的支援。"
+#: docroot/lib/views/windows.what_about_choice.php:39
+msgid ""
+"There are of course other ways of writing and exchanging office files, the "
+"most well-known being <a href=\"https://en.wikipedia.org/wiki/OpenDocument\" "
+"rel=\"external\">the OpenDocument Format</a>. But Microsoft isn't keen on "
+"letting Office users exchange files anyone can read and edit. As of "
+"Microsoft Office 2007 SP2, Microsoft did add support for the OpenDocument "
+"format after being pushed by the European Commission."
+msgstr ""
+"編寫以及交換文件檔案的方式也有有很多很多種，其中最知名的是<a href=\"https://"
+"zh.wikipedia.org/wiki/开放文档格式\" rel=\"external\">開放文件格式</a> "
+"(ODF)。但微軟並不想讓 Office 的使用者使用任何人都可以讀取及編輯的檔案格式。直"
+"到微軟 Office 2007 SP2 起，微軟才因為來自歐盟的壓力，加入對開放文件格式的支"
+"援。"
+
+#: docroot/lib/views/linux.faq.php:218
+msgid ""
+"No. It is technically possible to adapt Microsoft Office to GNU/Linux, but "
+"Microsoft isn't keen on allowing Office users to choose their operating "
+"system. There are other issues with MS Office and openness &ndash; like "
+"Microsoft's fierce opposition to supporting <a href=\"https://en.wikipedia."
+"org/wiki/OpenDocument\" rel=\"external\">the OpenDocument format</a>."
+msgstr ""
+"從技術面而言，讓 Microsoft Office 在 GNU/Linux 上執行完全可行，但 Microsoft "
+"並不想讓 Office 用戶選擇他們想要使用的作業系統。而 MS Office 與開放之間還存在"
+"著其他問題 &ndash; 例如 Microsoft 在對<a href=\"https://zh.wikipedia.org/"
+"wiki/开放文档格式\" rel=\"external\">開放文件格式</a>的支援上採取強烈反對的立"
+"場。"
 
 #~ msgid ""
 #~ "Microsoft has a tight control over <abbr title=\"Original Equipment "
