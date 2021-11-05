@@ -53,12 +53,11 @@ $this->load_header();
       <section>
         <h2 id="microsoft_trademarks">Microsoft trademarks</h2>
 
-        <p>Microsoft Windows&reg;, Microsoft Windows Vista&trade;, Microsoft Excel&reg;,
-        Microsoft PowerPoint&reg;, Microsoft Internet Explorer&reg;, Microsoft Windows
-        Media Player&reg;, and
-        <a rel="nofollow external" href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/" title="Partial list of Microsoft products subjected to trademark regulations">other Microsoft product and service names</a>
-        are trademarks, registered trademarks or trade dress of Microsoft, Inc. or
-        its affiliates in the U.S. and/or other countries.</p>
+        <p>Microsoft Windows&reg;, Microsoft Excel&reg;, Microsoft
+        PowerPoint&reg;, Microsoft Internet Explorer&reg;, Microsoft Windows Media
+        Player&reg;, and other Microsoft product and service names are trademarks,
+        registered trademarks or trade dress of Microsoft, Inc. or its affiliates in
+        the U.S. and/or other countries.</p>
 
         <p>All other trademarks not owned by Microsoft or its affiliates that may appear
         on these sites are the property of their respective owners, who may or may not
