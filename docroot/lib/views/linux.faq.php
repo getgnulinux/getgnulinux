@@ -150,7 +150,7 @@ $this->load_header();
             <blockquote>
             <p><i><?php
             # TRANSLATORS: This is italic text just below the question, which elaborates a little on it.
-            print _("\"Everything has to be free\" and \"No one owns anything\" sounds somewhat frightening. Are GNU/Linux and its <abbr title=\"GNU General Public License\">GPL</abbr> License something for anarchists or communists?"); ?></i></p>
+            print _("\"Everything has to be free\" and \"No one owns anything\" sounds somewhat frightening. Are GNU/Linux and its <abbr title=\"GNU General Public License\">GPL</abbr> something for anarchists or communists?"); ?></i></p>
             <p><?php
             # TRANSLATORS: The link here points to the "How to Misunderstand Free Software" article.
             $p = _("GNU/Linux has nothing to do with a political system and anyone &ndash; regardless of their political views &ndash; can use it. We have this explained simply in our article \"<a href=\"%s\">%s</a>\".");
