@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
-"POT-Creation-Date: 2021-10-21 01:06+0000\n"
+"POT-Creation-Date: 2021-11-05 00:16+0000\n"
 "PO-Revision-Date: 2021-04-28 04:32+0000\n"
 "Last-Translator: Liu Tao <lyuutau@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -72,17 +72,17 @@ msgstr "拥抱 GNU/Linux"
 #: docroot/lib/ggl.php:216 docroot/lib/ggl.php:226
 #: docroot/lib/views/more.php:16
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:56
-#: docroot/lib/views/linux.faq.php:281 src/templates/footer.php:28
+#: docroot/lib/views/linux.faq.php:281 src/templates/footer.php:30
 msgid "More"
 msgstr "更多"
 
 #. TRANSLATORS: This is the title of the 'Credits' page.
-#: docroot/lib/ggl.php:222 src/templates/footer.php:36
+#: docroot/lib/ggl.php:222 src/templates/footer.php:38
 msgid "Credits"
 msgstr "鸣谢"
 
 #. TRANSLATORS: This is the title of the 'Legal terms' page.
-#: docroot/lib/ggl.php:224 src/templates/footer.php:22
+#: docroot/lib/ggl.php:224 src/templates/footer.php:24
 msgid "Terms of use"
 msgstr "使用条款"
 
@@ -893,8 +893,12 @@ msgstr ""
 
 #. TRANSLATORS: If you don't know of a localized version of this article, please leave the URL in English
 #: docroot/lib/views/windows.stand_for_a_free_society.php:148
+#, fuzzy
+#| msgid ""
+#| "http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-"
+#| "and-free-file-formats/"
 msgid ""
-"http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-"
+"https://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-"
 "free-file-formats/"
 msgstr ""
 "http://jimmywales.com/2004/10/21/free-knowledge-requires-free-software-and-"
@@ -1149,14 +1153,25 @@ msgid "Monopolistic practices"
 msgstr "垄断实践"
 
 #: docroot/lib/views/windows.what_about_choice.php:55
+#, fuzzy
+#| msgid ""
+#| "Microsoft has a tight control over <abbr title=\"Original Equipment "
+#| "Manufacturer\">OEM</abbr>s (computer manufacturers) who ship their "
+#| "computers with Windows installed. This means that no program competing "
+#| "with Microsoft products, be it <a href=\"https://www.videolan.org/vlc/\" "
+#| "rel=\"external\">multimedia player</a>, <a href=\"https://www.getfirefox."
+#| "com/\" rel=\"external\">web browser</a>, <a href=\"https://www."
+#| "libreoffice.org/\" rel=\"external\">office suite</a>, <a href=\"https://"
+#| "www.pidgin.im/\" rel=\"external\">instant messaging program</a> or other, "
+#| "will come pre-installed on most computers you can buy."
 msgid ""
 "Microsoft has a tight control over <abbr title=\"Original Equipment "
 "Manufacturer\">OEM</abbr>s (computer manufacturers) who ship their computers "
 "with Windows installed. This means that no program competing with Microsoft "
 "products, be it <a href=\"https://www.videolan.org/vlc/\" rel=\"external"
-"\">multimedia player</a>, <a href=\"https://www.getfirefox.com/\" rel="
-"\"external\">web browser</a>, <a href=\"https://www.libreoffice.org/\" rel="
-"\"external\">office suite</a>, <a href=\"https://www.pidgin.im/\" rel="
+"\">multimedia player</a>, <a href=\"https://www.mozilla.org/firefox/new/\" "
+"rel=\"external\">web browser</a>, <a href=\"https://www.libreoffice.org/\" "
+"rel=\"external\">office suite</a>, <a href=\"https://www.pidgin.im/\" rel="
 "\"external\">instant messaging program</a> or other, will come pre-installed "
 "on most computers you can buy."
 msgstr ""
@@ -1760,12 +1775,19 @@ msgstr ""
 "要的操作系统。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:39
+#, fuzzy
+#| msgid ""
+#| "Setting up a dual-boot can be helpful if you need time to abandon "
+#| "restrictive software. It is <a href=\"https://tutorials.ubuntu.com/"
+#| "tutorial/tutorial-install-ubuntu-desktop\" title=\"a tutorial on "
+#| "installing Ubuntu\" rel=\"external\">not difficult to set-up</a>, though "
+#| "erasing Windows or macOS altogether is even easier."
 msgid ""
 "Setting up a dual-boot can be helpful if you need time to abandon "
-"restrictive software. It is <a href=\"https://tutorials.ubuntu.com/tutorial/"
-"tutorial-install-ubuntu-desktop\" title=\"a tutorial on installing Ubuntu\" "
-"rel=\"external\">not difficult to set-up</a>, though erasing Windows or "
-"macOS altogether is even easier."
+"restrictive software. It is <a href=\"https://ubuntu.com/tutorials/install-"
+"ubuntu-desktop#1-overview\" title=\"a tutorial on installing Ubuntu\" rel="
+"\"external\">not difficult to set-up</a>, though erasing Windows or macOS "
+"altogether is even easier."
 msgstr ""
 "如果摈弃限制性的软件需要时间，可以选择安装双系统，<a href=\"https://"
 "tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop\" rel="
@@ -1825,13 +1847,18 @@ msgid "Download Debian"
 msgstr "下载 Debian"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:71
-msgid ""
-"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows"
+#, fuzzy
+#| msgid ""
+#| "https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-"
+#| "windows"
+msgid "https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview"
 msgstr ""
 "https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:71
-msgid "https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows"
+#, fuzzy
+#| msgid "https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows"
+msgid "https://ubuntu.com/tutorials/burn-a-dvd-on-windows#1-overview"
 msgstr "https://tutorials.ubuntu.com/tutorial/tutorial-burn-a-dvd-on-windows"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:72
@@ -1843,7 +1870,10 @@ msgstr ""
 "然后用它<a href=\"%s\" rel=\"external\">将 Ubuntu 安装</a>到你的电脑上。"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:72
-msgid "https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop"
+#, fuzzy
+#| msgid ""
+#| "https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop"
+msgid "https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview"
 msgstr "https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop"
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:76
@@ -2302,10 +2332,11 @@ msgstr "阅读更多："
 #. TRANSLATORS: Unless you know of a good localized resource, please leave the URL as such.
 #: docroot/lib/views/linux.misunderstanding_free_software.php:139
 msgid ""
-"<a href=\"https://web.archive.org/web/20190608143048/https://ffii.org/Frequen"
-"tly%20Asked%20Questions%20about%20software%20patents\" hreflang=\"en\" rel=\"external\">Frequently Asked Questions on "
-"software patents, by the <abbr title=\"Foundation for a Free Information "
-"Infrastructure\">FFII</abbr></a>"
+"<a href=\"https://web.archive.org/web/20190608143048/https://ffii.org/"
+"Frequently%20Asked%20Questions%20about%20software%20patents\" hreflang=\"en"
+"\" rel=\"external\">Frequently Asked Questions on software patents, by the "
+"<abbr title=\"Foundation for a Free Information Infrastructure\">FFII</"
+"abbr></a>"
 msgstr ""
 "<a href=\"https://ffii.org/Frequently%20Asked%20Questions%20about%20software"
 "%20patents\" hreflang=\"en\" rel=\"external\">软件专利常问问题<abbr title="
@@ -2426,19 +2457,33 @@ msgstr ""
 "的，因为只有钥匙持有者才能打开它。对软件也是同样的道理。"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:166
-#, php-format
+#, fuzzy, php-format
+#| msgid ""
+#| "Need examples? Have a look at the <a href=\"https://www.getfirefox.com/\" "
+#| "rel=\"external\">Firefox web browser</a>, the <a href=\"https://en."
+#| "wikipedia.org/wiki/Apache_HTTP_Server\" rel=\"external\">Apache HTTP "
+#| "Server</a>, the <a href=\"https://en.wikipedia.org/wiki/Nginx\" rel="
+#| "\"external\">Nginx web server</a>, the <a href=\"https://en.wikipedia.org/"
+#| "wiki/Dovecot_(software)\" rel=\"external\">Dovecot email server</a>, the "
+#| "<a href=\"https://en.wikipedia.org/wiki/Exim\" rel=\"external\">Exim mail "
+#| "transfer agent</a>, the <a href=\"https://en.wikipedia.org/wiki/"
+#| "Pretty_Good_Privacy\" rel=\"external\">OpenPGP</a> encryption system, or "
+#| "the <a href=\"https://en.wikipedia.org/wiki/OpenBSD\" rel=\"external"
+#| "\">OpenBSD</a> operating system. And <a href=\"%s#security\">there are no "
+#| "spyware or viruses under GNU/Linux</a>."
 msgid ""
-"Need examples? Have a look at the <a href=\"https://www.getfirefox.com/\" "
-"rel=\"external\">Firefox web browser</a>, the <a href=\"https://en.wikipedia."
-"org/wiki/Apache_HTTP_Server\" rel=\"external\">Apache HTTP Server</a>, the "
-"<a href=\"https://en.wikipedia.org/wiki/Nginx\" rel=\"external\">Nginx web "
-"server</a>, the <a href=\"https://en.wikipedia.org/wiki/Dovecot_(software)\" "
-"rel=\"external\">Dovecot email server</a>, the <a href=\"https://en."
-"wikipedia.org/wiki/Exim\" rel=\"external\">Exim mail transfer agent</a>, the "
-"<a href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\" rel=\"external"
-"\">OpenPGP</a> encryption system, or the <a href=\"https://en.wikipedia.org/"
-"wiki/OpenBSD\" rel=\"external\">OpenBSD</a> operating system. And <a href="
-"\"%s#security\">there are no spyware or viruses under GNU/Linux</a>."
+"Need examples? Have a look at the <a href=\"https://www.mozilla.org/firefox/"
+"new/\" rel=\"external\">Firefox web browser</a>, the <a href=\"https://en."
+"wikipedia.org/wiki/Apache_HTTP_Server\" rel=\"external\">Apache HTTP Server</"
+"a>, the <a href=\"https://en.wikipedia.org/wiki/Nginx\" rel=\"external"
+"\">Nginx web server</a>, the <a href=\"https://en.wikipedia.org/wiki/"
+"Dovecot_(software)\" rel=\"external\">Dovecot email server</a>, the <a href="
+"\"https://en.wikipedia.org/wiki/Exim\" rel=\"external\">Exim mail transfer "
+"agent</a>, the <a href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\" "
+"rel=\"external\">OpenPGP</a> encryption system, or the <a href=\"https://en."
+"wikipedia.org/wiki/OpenBSD\" rel=\"external\">OpenBSD</a> operating system. "
+"And <a href=\"%s#security\">there are no spyware or viruses under GNU/Linux</"
+"a>."
 msgstr ""
 "需要例子吗？看看<a href=\"https://www.getfirefox.com/\" rel=\"external"
 "\">Firefox 网页浏览器</a>、<a href=\"https://en.wikipedia.org/wiki/"
@@ -2507,13 +2552,22 @@ msgid ""
 msgstr "所有主要的 GNU/Linux 发行版都通过邮件列表免费提供帮助："
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:192
+#, fuzzy
+#| msgid ""
+#| "If you need someone you can reach on the phone anytime to assist you, the "
+#| "companies behind most distributions provide commercial support: see <a "
+#| "href=\"https://www.debian.org/consultants/\" rel=\"external\">Debian "
+#| "consultants</a>, <a href=\"https://www.ubuntu.com/support\" rel=\"external"
+#| "\">Ubuntu Commercial Support</a>, or <a href=\"https://www.redhat.com/"
+#| "rhel/\" rel=\"external\">Red Hat Enterprise Linux</a> for example."
 msgid ""
 "If you need someone you can reach on the phone anytime to assist you, the "
 "companies behind most distributions provide commercial support: see <a href="
 "\"https://www.debian.org/consultants/\" rel=\"external\">Debian consultants</"
-"a>, <a href=\"https://www.ubuntu.com/support\" rel=\"external\">Ubuntu "
-"Commercial Support</a>, or <a href=\"https://www.redhat.com/rhel/\" rel="
-"\"external\">Red Hat Enterprise Linux</a> for example."
+"a>, <a href=\"https://ubuntu.com/support\" rel=\"external\">Ubuntu "
+"Commercial Support</a>, or <a href=\"https://www.redhat.com/en/technologies/"
+"linux-platforms/enterprise-linux\" rel=\"external\">Red Hat Enterprise "
+"Linux</a> for example."
 msgstr ""
 "如果你需要有人可以随时打电话协助你，大多数发行版背后的公司都会提供商业支持："
 "参见<a href=\"https://www.debian.org/consultants/\" rel=\"external\">Debian "
@@ -2752,13 +2806,23 @@ msgstr "网页浏览和一般任务"
 
 #. TRANSLATORS: use localized Firefox landing page if possible
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:70
+#, fuzzy
+#| msgid ""
+#| "The Web looks just the same when viewed with GNU/Linux (in fact you can "
+#| "browse the Web with the same program if you already use <a href=\"https://"
+#| "www.getfirefox.com/\" rel=\"external\">Firefox</a> or <a href=\"https://"
+#| "www.google.com/chrome/\" rel=\"external\">Google Chrome</a>). And of "
+#| "course, you can go through your picture and music collection all the "
+#| "same. Files and folders are navigated with a file manager like Windows "
+#| "Explorer."
 msgid ""
 "The Web looks just the same when viewed with GNU/Linux (in fact you can "
 "browse the Web with the same program if you already use <a href=\"https://"
-"www.getfirefox.com/\" rel=\"external\">Firefox</a> or <a href=\"https://www."
-"google.com/chrome/\" rel=\"external\">Google Chrome</a>). And of course, you "
-"can go through your picture and music collection all the same. Files and "
-"folders are navigated with a file manager like Windows Explorer."
+"www.mozilla.org/firefox/new/\" rel=\"external\">Firefox</a> or <a href="
+"\"https://www.google.com/chrome/\" rel=\"external\">Google Chrome</a>). And "
+"of course, you can go through your picture and music collection all the "
+"same. Files and folders are navigated with a file manager like Windows "
+"Explorer."
 msgstr ""
 "在 GNU/Linux 上看到的网页和 Windows 下完全相同（事实上你可以选择继续使用你已"
 "经在使用的软件如 <a href=\"https://www.getfirefox.com/\" rel=\"external"
@@ -3199,10 +3263,15 @@ msgid "Is Linux a registered trademark?"
 msgstr "Linux是一个注册商标吗？"
 
 #: docroot/lib/views/linux.faq.php:53
+#, fuzzy
+#| msgid ""
+#| "Yes. You cannot sell any random software under the name of Linux&reg;. "
+#| "The trademark is held by <a href=\"http://www.linuxmark.org/\" rel="
+#| "\"external\">the Linux Mark Institute</a>."
 msgid ""
 "Yes. You cannot sell any random software under the name of Linux&reg;. The "
-"trademark is held by <a href=\"http://www.linuxmark.org/\" rel=\"external"
-"\">the Linux Mark Institute</a>."
+"trademark is held by <a href=\"https://www.linuxfoundation.org/the-linux-"
+"mark/\" rel=\"external\">the Linux Mark Institute</a>."
 msgstr ""
 "是。你不能以Linux&reg;的名义出售任何软件。该商标归<a href=\"http://www."
 "linuxmark.org/\" rel=\"external\">Linux标志协会</a>所有。"
@@ -3218,15 +3287,25 @@ msgid ""
 msgstr "不。GNU/Linux是目前为止使用最广的自由系统；但是还有不少其他系统存在。"
 
 #: docroot/lib/views/linux.faq.php:61
+#, fuzzy
+#| msgid ""
+#| "These include the UNIX derivatives <a href=\"https://freebsd.org/\" rel="
+#| "\"external\">FreeBSD</a>, <a href=\"https://netbsd.org/\" rel=\"external"
+#| "\">NetBSD</a>, <a href=\"https://openbsd.org/\" rel=\"external\">OpenBSD</"
+#| "a>, the BeOS clone <a href=\"https://haiku-os.org/\" rel=\"external"
+#| "\">Haiku OS</a>, the Windows NT clone <a href=\"http://www.reactos.com/\" "
+#| "rel=\"external\">ReactOS</a>, the DOS clone <a href=\"http://www.freedos."
+#| "org/\" rel=\"external\">FreeDOS</a>, and <a href=\"https://www.syllable."
+#| "org/\" rel=\"external\">Syllable</a>, just to name a few."
 msgid ""
-"These include the UNIX derivatives <a href=\"https://freebsd.org/\" rel="
+"These include the UNIX derivatives <a href=\"https://www.freebsd.org/\" rel="
 "\"external\">FreeBSD</a>, <a href=\"https://netbsd.org/\" rel=\"external"
-"\">NetBSD</a>, <a href=\"https://openbsd.org/\" rel=\"external\">OpenBSD</"
-"a>, the BeOS clone <a href=\"https://haiku-os.org/\" rel=\"external\">Haiku "
-"OS</a>, the Windows NT clone <a href=\"http://www.reactos.com/\" rel="
-"\"external\">ReactOS</a>, the DOS clone <a href=\"http://www.freedos.org/\" "
-"rel=\"external\">FreeDOS</a>, and <a href=\"https://www.syllable.org/\" rel="
-"\"external\">Syllable</a>, just to name a few."
+"\">NetBSD</a>, <a href=\"https://www.openbsd.org/\" rel=\"external"
+"\">OpenBSD</a>, the BeOS clone <a href=\"https://haiku-os.org/\" rel="
+"\"external\">Haiku OS</a>, the Windows NT clone <a href=\"https://reactos."
+"org/\" rel=\"external\">ReactOS</a>, the DOS clone <a href=\"http://www."
+"freedos.org/\" rel=\"external\">FreeDOS</a>, and <a href=\"https://www."
+"syllable.org/\" rel=\"external\">Syllable</a>, just to name a few."
 msgstr ""
 "包括UNIX的衍生系列<a href=\"https://freebsd.org/\" rel=\"external\">FreeBSD</"
 "a>、<a href=\"https://netbsd.org/\" rel=\"external\">NetBSD</a>、<a href="
@@ -3361,12 +3440,22 @@ msgstr "有些GNU/Linux发行版允许非自由软件是为了使硬件发挥其
 
 #. TRANSLATORS: If it exits, please use the URL of the official Ubuntu homepage localized in your language.
 #: docroot/lib/views/linux.faq.php:116
+#, fuzzy
+#| msgid ""
+#| "This happens because some hardware manufacturers such as NVidia do not "
+#| "care about their customers' freedoms, and only release restricting "
+#| "firmware and drivers (some of them don't even release anything, like "
+#| "Broadcom). These are available at no cost (they are freeware) but under "
+#| "restrictive licenses. Distributions such as <a href=\"https://www.ubuntu."
+#| "com/\" rel=\"external\">Ubuntu</a> and <a href=\"https://getfedora.org/\" "
+#| "rel=\"external\">Fedora</a> thus include such components to improve "
+#| "hardware compatibility."
 msgid ""
 "This happens because some hardware manufacturers such as NVidia do not care "
 "about their customers' freedoms, and only release restricting firmware and "
 "drivers (some of them don't even release anything, like Broadcom). These are "
 "available at no cost (they are freeware) but under restrictive licenses. "
-"Distributions such as <a href=\"https://www.ubuntu.com/\" rel=\"external"
+"Distributions such as <a href=\"https://ubuntu.com/\" rel=\"external"
 "\">Ubuntu</a> and <a href=\"https://getfedora.org/\" rel=\"external"
 "\">Fedora</a> thus include such components to improve hardware compatibility."
 msgstr ""
@@ -3868,32 +3957,32 @@ msgstr ""
 msgid "This site is <a href=\"%s\" rel=\"external\">free and open source</a>."
 msgstr "本网站<a href=\"%s\" rel=\"external\">自由且开源</a>。"
 
-#: src/templates/footer.php:19
+#: src/templates/footer.php:21
 msgid "Resources"
 msgstr "资源"
 
-#: src/templates/footer.php:21
+#: src/templates/footer.php:23
 msgid "News"
 msgstr "最新动态"
 
-#: src/templates/footer.php:25
+#: src/templates/footer.php:27
 msgid "Participate"
 msgstr "参与"
 
-#: src/templates/footer.php:27 src/templates/header.php:86
+#: src/templates/footer.php:29 src/templates/header.php:86
 #: src/templates/header.php:100
 msgid "Help translate"
 msgstr "协助翻译"
 
-#: src/templates/footer.php:32
+#: src/templates/footer.php:34
 msgid "Community"
 msgstr "社区"
 
-#: src/templates/footer.php:35
+#: src/templates/footer.php:37
 msgid "Community forum"
 msgstr "社区论坛"
 
-#: src/templates/footer.php:37
+#: src/templates/footer.php:39
 msgid "Contact us"
 msgstr "联系我们"
 
