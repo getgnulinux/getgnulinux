@@ -5,7 +5,6 @@ services:
     build:
       context: ..
       dockerfile: docker/httpd.Dockerfile
-    restart: always
     volumes:
       - "docroot:/var/www/html"
     ports:
