@@ -36,11 +36,13 @@ $this->load_header();
         <h2 id="standards_that_change"><?php print _("Standards that change all the time"); ?></h2>
         <p><?php print _("Sticking to Microsoft standards is not an easy job &ndash; unless you can afford to upgrade very often. Ever tried to work on the same <code>.doc</code> file with both an Office 95 and an Office 97 computer? You'll know what we mean."); ?></p>
         <p><?php print _("Microsoft owns the Office file formats: <strong>they change them with every new Office version</strong> and have no obligation to keep them backwards-compatible. Saved your presentation as a <code>.ppt</code> file? If you give up using Microsoft Office next year, you'll have to rely on other communities to reverse-engineer the format, to be able to access and modify your own work."); ?></p>
+        <p><?php print _("There are of course other ways of writing and exchanging office files, the most well-known being <a href=\"https://en.wikipedia.org/wiki/OpenDocument\" rel=\"external\">the OpenDocument Format</a>. But Microsoft isn't keen on letting Office users exchange files anyone can read and edit. As of Microsoft Office 2007 SP2, Microsoft did add support for the OpenDocument format after being pushed by the European Commission."); ?></p>
       </section>
 
       <section>
         <h2 id="cant_remove_programs"><?php print _("Default programs you can't uninstall"); ?></h2>
         <p><?php print _("Don't want Windows Media Player on your computer? Don't use Internet Explorer anymore? <strong>You can't uninstall these programs</strong>. They previously worked on a standalone basis, but have been intrinsically linked with Windows &ndash; so they come in with every PC and no one can get rid of them."); ?></p>
+        <p><?php print _("Even today the Microsoft Edge browser is tightly integrated with Windows and can't be removed without breaking your system. Even if you've changed your default browser to something else, Edge still opens automatically when you perform certain tasks."); ?></p>
       </section>
 
       <section>

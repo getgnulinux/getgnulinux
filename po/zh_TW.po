@@ -26,7 +26,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
-"POT-Creation-Date: 2021-11-05 01:39+0000\n"
+"POT-Creation-Date: 2021-11-28 05:26+0000\n"
 "PO-Revision-Date: 2021-11-09 01:49+0000\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
@@ -61,10 +61,9 @@ msgstr "GNU/Linux 是什麼？"
 #: docroot/lib/views/windows.restrictions.php:82
 #: docroot/lib/views/windows.stand_for_a_free_society.php:174
 #: docroot/lib/views/home.php:36
-#: docroot/lib/views/windows.what_about_choice.php:57
+#: docroot/lib/views/windows.what_about_choice.php:59
 #: docroot/lib/views/linux.php:112
 #: docroot/lib/views/windows.what_about_source_code.php:65
-#: docroot/lib/views/windows.what_about_choice.php:64
 msgid "Why not Windows"
 msgstr "為什麼不用 Windows"
 
@@ -1073,12 +1072,10 @@ msgstr ""
 "體。他們會開始上癮，然後我們就能在十年後想出把錢收回的辦法。"
 
 #: docroot/lib/views/windows.what_about_choice.php:36
-#: docroot/lib/views/windows.what_about_choice.php:43
 msgid "Standards that change all the time"
 msgstr "標準總是在改"
 
 #: docroot/lib/views/windows.what_about_choice.php:37
-#: docroot/lib/views/windows.what_about_choice.php:44
 msgid ""
 "Sticking to Microsoft standards is not an easy job &ndash; unless you can "
 "afford to upgrade very often. Ever tried to work on the same <code>.doc</"
@@ -1090,7 +1087,6 @@ msgstr ""
 "嗎？如果有，你大概能理解我在說什麼。"
 
 #: docroot/lib/views/windows.what_about_choice.php:38
-#: docroot/lib/views/windows.what_about_choice.php:45
 msgid ""
 "Microsoft owns the Office file formats: <strong>they change them with every "
 "new Office version</strong> and have no obligation to keep them backwards-"
@@ -1104,13 +1100,26 @@ msgstr ""
 "code>檔，但明年你考慮放棄微軟 Office 之時，你就不得不依靠其他對這種文件格式作"
 "逆向工程的社群，如此才能存取、並修改你的文件。"
 
-#: docroot/lib/views/windows.what_about_choice.php:42
-#: docroot/lib/views/windows.what_about_choice.php:49
+#: docroot/lib/views/windows.what_about_choice.php:39
+msgid ""
+"There are of course other ways of writing and exchanging office files, the "
+"most well-known being <a href=\"https://en.wikipedia.org/wiki/OpenDocument\" "
+"rel=\"external\">the OpenDocument Format</a>. But Microsoft isn't keen on "
+"letting Office users exchange files anyone can read and edit. As of "
+"Microsoft Office 2007 SP2, Microsoft did add support for the OpenDocument "
+"format after being pushed by the European Commission."
+msgstr ""
+"編寫以及交換文件檔案的方式也有有很多很多種，其中最知名的是<a href=\"https://"
+"zh.wikipedia.org/wiki/开放文档格式\" rel=\"external\">開放文件格式</a> "
+"(ODF)。但微軟並不想讓 Office 的使用者使用任何人都可以讀取及編輯的檔案格式。直"
+"到微軟 Office 2007 SP2 起，微軟才因為來自歐盟的壓力，加入對開放文件格式的支"
+"援。"
+
+#: docroot/lib/views/windows.what_about_choice.php:43
 msgid "Default programs you can't uninstall"
 msgstr "預設軟體不能移除"
 
-#: docroot/lib/views/windows.what_about_choice.php:43
-#: docroot/lib/views/windows.what_about_choice.php:50
+#: docroot/lib/views/windows.what_about_choice.php:44
 msgid ""
 "Don't want Windows Media Player on your computer? Don't use Internet "
 "Explorer anymore? <strong>You can't uninstall these programs</strong>. They "
@@ -1123,12 +1132,19 @@ msgstr ""
 "式，但是現在已經被緊緊地綁到 Windows 內部之中 &ndash; 它們出現在幾乎每一臺電"
 "腦上，永遠無法擺脫。"
 
-#: docroot/lib/views/windows.what_about_choice.php:47
-#: docroot/lib/views/windows.what_about_choice.php:54
+#: docroot/lib/views/windows.what_about_choice.php:45
+msgid ""
+"Even today the Microsoft Edge browser is tightly integrated with Windows and "
+"can't be removed without breaking your system. Even if you've changed your "
+"default browser to something else, Edge still opens automatically when you "
+"perform certain tasks."
+msgstr ""
+
+#: docroot/lib/views/windows.what_about_choice.php:49
 msgid "Monopolistic practices"
 msgstr "壟斷手法"
 
-#: docroot/lib/views/windows.what_about_choice.php:55
+#: docroot/lib/views/windows.what_about_choice.php:50
 msgid ""
 "Microsoft has a tight control over <abbr title=\"Original Equipment "
 "Manufacturer\">OEM</abbr>s (computer manufacturers) who ship their computers "
@@ -1149,8 +1165,7 @@ msgstr ""
 "\"external\">即時通訊軟體</a>、或是其他的軟體等，基本上絕大多數你買得到的電腦"
 "都已經預裝微軟的產品。"
 
-#: docroot/lib/views/windows.what_about_choice.php:49
-#: docroot/lib/views/windows.what_about_choice.php:56
+#: docroot/lib/views/windows.what_about_choice.php:51
 msgid ""
 "It is a good thing to propose a wide range of software and services like "
 "Microsoft do; however, designing and combining them to shut users from non-"
@@ -3682,8 +3697,8 @@ msgid ""
 "Microsoft isn't keen on allowing Office users to choose their operating "
 "system."
 msgstr ""
-"從技術面而言，讓 Microsoft Office 在 GNU/Linux 上執行完全可行，但 Microsoft 並不想讓 Office "
-"用戶選擇他們想要使用的作業系統。"
+"從技術面而言，讓 Microsoft Office 在 GNU/Linux 上執行完全可行，但 Microsoft "
+"並不想讓 Office 用戶選擇他們想要使用的作業系統。"
 
 #: docroot/lib/views/linux.faq.php:219
 msgid ""
@@ -3940,60 +3955,42 @@ msgstr "社群論壇"
 msgid "Contact us"
 msgstr "連絡我們"
 
-#: docroot/lib/views/windows.what_about_choice.php:36
-msgid "Poor support for open standards"
-msgstr "對開放標準的支援很差"
+#~ msgid "Poor support for open standards"
+#~ msgstr "對開放標準的支援很差"
 
-#: docroot/lib/views/windows.what_about_choice.php:37
-msgid ""
-"There exist open file formats and protocols, which are standards to store "
-"and carry many types of information, respectively. They are openly "
-"specified: they can be read by anyone on any computer, now and in the "
-"future. Proprietary programs, however, rarely support them."
-msgstr ""
-"我們有開放的檔案格式和協定，各自有存放和傳遞各種資訊類型的標準。規格書也都公"
-"開透明：因此不管現在和未來都可以被任何人在任何電腦上讀取。可惜的是，專有軟體"
-"卻很少願意支援它們。"
+#~ msgid ""
+#~ "There exist open file formats and protocols, which are standards to store "
+#~ "and carry many types of information, respectively. They are openly "
+#~ "specified: they can be read by anyone on any computer, now and in the "
+#~ "future. Proprietary programs, however, rarely support them."
+#~ msgstr ""
+#~ "我們有開放的檔案格式和協定，各自有存放和傳遞各種資訊類型的標準。規格書也都"
+#~ "公開透明：因此不管現在和未來都可以被任何人在任何電腦上讀取。可惜的是，專有"
+#~ "軟體卻很少願意支援它們。"
 
-#: docroot/lib/views/windows.what_about_choice.php:38
-msgid ""
-"Microsoft Office used to only support Microsoft formats. There are many ways "
-"to write work documents, but Microsoft Office users were bound to Microsoft "
-"Office files. People who opted without expensive Microsoft products cannot "
-"write and read <code>.doc</code> files very reliably."
-msgstr ""
-"微軟的 Office 過去只支援微軟自己的檔案格式。編寫一份工作文件有許許多多的方"
-"式，可是 Office 用戶已經緊緊地被微軟 Office 文件格式綁架了。人們如果不願意為"
-"微軟昂貴的產品付費，就無法可靠地讀寫 <code>.doc</code> 文件。"
+#~ msgid ""
+#~ "Microsoft Office used to only support Microsoft formats. There are many "
+#~ "ways to write work documents, but Microsoft Office users were bound to "
+#~ "Microsoft Office files. People who opted without expensive Microsoft "
+#~ "products cannot write and read <code>.doc</code> files very reliably."
+#~ msgstr ""
+#~ "微軟的 Office 過去只支援微軟自己的檔案格式。編寫一份工作文件有許許多多的方"
+#~ "式，可是 Office 用戶已經緊緊地被微軟 Office 文件格式綁架了。人們如果不願意"
+#~ "為微軟昂貴的產品付費，就無法可靠地讀寫 <code>.doc</code> 文件。"
 
-#: docroot/lib/views/windows.what_about_choice.php:39
-msgid ""
-"There are of course other ways of writing and exchanging office files, the "
-"most well-known being <a href=\"https://en.wikipedia.org/wiki/OpenDocument\" "
-"rel=\"external\">the OpenDocument Format</a>. But Microsoft isn't keen on "
-"letting Office users exchange files anyone can read and edit. As of "
-"Microsoft Office 2007 SP2, Microsoft did add support for the OpenDocument "
-"format after being pushed by the European Commission."
-msgstr ""
-"編寫以及交換文件檔案的方式也有有很多很多種，其中最知名的是<a href=\"https://"
-"zh.wikipedia.org/wiki/开放文档格式\" rel=\"external\">開放文件格式</a> "
-"(ODF)。但微軟並不想讓 Office 的使用者使用任何人都可以讀取及編輯的檔案格式。直"
-"到微軟 Office 2007 SP2 起，微軟才因為來自歐盟的壓力，加入對開放文件格式的支"
-"援。"
-
-#: docroot/lib/views/linux.faq.php:218
-msgid ""
-"No. It is technically possible to adapt Microsoft Office to GNU/Linux, but "
-"Microsoft isn't keen on allowing Office users to choose their operating "
-"system. There are other issues with MS Office and openness &ndash; like "
-"Microsoft's fierce opposition to supporting <a href=\"https://en.wikipedia."
-"org/wiki/OpenDocument\" rel=\"external\">the OpenDocument format</a>."
-msgstr ""
-"從技術面而言，讓 Microsoft Office 在 GNU/Linux 上執行完全可行，但 Microsoft "
-"並不想讓 Office 用戶選擇他們想要使用的作業系統。而 MS Office 與開放之間還存在"
-"著其他問題 &ndash; 例如 Microsoft 在對<a href=\"https://zh.wikipedia.org/"
-"wiki/开放文档格式\" rel=\"external\">開放文件格式</a>的支援上採取強烈反對的立"
-"場。"
+#~ msgid ""
+#~ "No. It is technically possible to adapt Microsoft Office to GNU/Linux, "
+#~ "but Microsoft isn't keen on allowing Office users to choose their "
+#~ "operating system. There are other issues with MS Office and openness "
+#~ "&ndash; like Microsoft's fierce opposition to supporting <a href="
+#~ "\"https://en.wikipedia.org/wiki/OpenDocument\" rel=\"external\">the "
+#~ "OpenDocument format</a>."
+#~ msgstr ""
+#~ "從技術面而言，讓 Microsoft Office 在 GNU/Linux 上執行完全可行，但 "
+#~ "Microsoft 並不想讓 Office 用戶選擇他們想要使用的作業系統。而 MS Office 與"
+#~ "開放之間還存在著其他問題 &ndash; 例如 Microsoft 在對<a href=\"https://zh."
+#~ "wikipedia.org/wiki/开放文档格式\" rel=\"external\">開放文件格式</a>的支援"
+#~ "上採取強烈反對的立場。"
 
 #~ msgid ""
 #~ "Microsoft has a tight control over <abbr title=\"Original Equipment "
