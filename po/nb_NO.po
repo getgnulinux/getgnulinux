@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: getgnulinux 1\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2021-11-28 07:29+0000\n"
-"PO-Revision-Date: 2020-12-12 13:58+0000\n"
+"PO-Revision-Date: 2021-11-30 02:52+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
 "getgnulinux/getgnulinux-pot/nb_NO/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.10-dev\n"
 
 #. TRANSLATORS: The name of the website. It is displayed in the header of each page.
 #: docroot/lib/ggl.php:208 docroot/lib/views/home.php:15
@@ -182,7 +182,7 @@ msgstr "Ofte stilte spørsmål om Linux|GNU."
 #: docroot/lib/views/switch_to_linux.from_windows_to_linux.php:51
 #: docroot/lib/views/linux.faq.php:263
 msgid "Should I install anti-virus software under GNU/Linux?"
-msgstr ""
+msgstr "Bør jeg installere antivirusprogram på Linux|GNU?"
 
 #. TRANSLATORS: This is the description of the 'Misunderstanding Free Software' page
 #: docroot/lib/ggl.php:271
@@ -205,27 +205,27 @@ msgstr "Fire gode grunner til å unngå ufri programvare."
 #. TRANSLATORS: This is the description of the 'Restrictions' page
 #: docroot/lib/ggl.php:277
 msgid "Restrictions in a proprietary software license."
-msgstr ""
+msgstr "Begrensninger i en proprietær programvarelisens."
 
 #. TRANSLATORS: This is the description of the 'Restrictions further details' page
 #: docroot/lib/ggl.php:279
 msgid "Restrictions in a proprietary software license - more details."
-msgstr ""
+msgstr "Begrensninger i proprietær programvare — flere detaljer."
 
 #. TRANSLATORS: This is the description of the 'Stand for a free society' page
 #: docroot/lib/ggl.php:281
 msgid "How software affects freedom in society."
-msgstr ""
+msgstr "Hvordan programvare har innvirkning på samfunnsfrihet."
 
 #. TRANSLATORS: This is the description of the 'What about choice' page
 #: docroot/lib/ggl.php:283
 msgid "How Microsoft lock customers in."
-msgstr ""
+msgstr "Hvordan Microsoft låser inn sine brukere."
 
 #. TRANSLATORS: This is the description of the 'What about source code' page
 #: docroot/lib/ggl.php:285
 msgid "No source code means no trust and no security."
-msgstr ""
+msgstr "Ingen kildekode betyr ingen tillit og ingen sikkerhet."
 
 #. TRANSLATORS: This is the description of the 'Switch to GNU/Linux' page
 #: docroot/lib/ggl.php:287
@@ -250,7 +250,7 @@ msgstr "Prøv eller installer Linux|GNU på din datamaskin, veldig enkelt."
 #. TRANSLATORS: This is the catcher-phrase for the Windows page. Exact translation is not required, the goal is to attract attention and set the tone of the page.
 #: docroot/lib/views/windows.php:21
 msgid "Windows and Office work fine &ndash; Why worry about it?"
-msgstr ""
+msgstr "Windows og Office fungerer fint. Hvorfor uroe seg over det?"
 
 #. TRANSLATORS: You may add emphasis ('em' tags) around the word 'licensed' if you wish
 #: docroot/lib/views/windows.php:32
@@ -258,6 +258,8 @@ msgid ""
 "A legal copy of Windows is expensive, but what do you get? Windows and "
 "Office are licensed, not sold."
 msgstr ""
+"En lovlig kopi av Windows er kostbar, men hva får du egentlig? Windows og "
+"Office lisensieres, de selges ikke."
 
 #: docroot/lib/views/windows.php:33
 msgid ""
@@ -289,7 +291,7 @@ msgstr "Les mer"
 
 #: docroot/lib/views/windows.php:44
 msgid "Software should come without locks in it."
-msgstr ""
+msgstr "Programvare bør leveres uten innebygde låser."
 
 #: docroot/lib/views/windows.php:45
 msgid ""
@@ -369,7 +371,7 @@ msgstr ""
 #: docroot/lib/views/windows.php:99 docroot/lib/views/home.php:48
 #: docroot/lib/views/linux.php:126
 msgid "Where to download and how to step into GNU/Linux"
-msgstr ""
+msgstr "Hvor man kan laste ned og bekjentgjøre seg Linux|GNU"
 
 #: docroot/lib/views/windows.restrictions.php:18
 msgid ""
@@ -380,7 +382,7 @@ msgstr ""
 
 #: docroot/lib/views/windows.restrictions.php:19
 msgid "Haven't read your license fully? We did that job for you."
-msgstr ""
+msgstr "Har du ikke lest hele lisensen? Vi har gjort den jobben for deg."
 
 #: docroot/lib/views/windows.restrictions.php:24
 msgid "The small print in the contract"
@@ -400,7 +402,7 @@ msgstr ""
 
 #: docroot/lib/views/windows.restrictions.php:34
 msgid "You must abandon many rights to use the software."
-msgstr ""
+msgstr "Du må gi slipp på mange rettigheter for å bruke programvaren."
 
 #: docroot/lib/views/windows.restrictions.php:36
 msgid "There are a number of restrictions that you must accept by law."
@@ -803,8 +805,9 @@ msgstr ""
 
 #. TRANSLATORS: This describes the last link, which will automatically point to the 'Misunderstanding Free Software' article
 #: docroot/lib/views/windows.stand_for_a_free_society.php:165
+#, fuzzy
 msgid "More on free software on this website."
-msgstr ""
+msgstr "Mer om fri programvare på denne nettsiden."
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:182
 msgid ""
@@ -831,7 +834,7 @@ msgstr ""
 
 #: docroot/lib/views/more.php:18
 msgid "Selected reading on the Internet."
-msgstr ""
+msgstr "Lesning i utvalg på Internett."
 
 #: docroot/lib/views/more.php:22
 msgid "Questions and help"
