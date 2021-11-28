@@ -247,7 +247,7 @@ $this->load_header();
         <details>
             <summary id="games"><?php print _("Can I play popular 3D games under GNU/Linux?"); ?></summary>
             <blockquote>
-            <p><?php print _("Yes and no. Some games, for example the Quake series, Rust, Counter-Strike, Tomb Raider, Portal, Left 4 Dead, and many more have GNU/Linux versions."); ?>
+            <p><?php print _("Yes and no. Some games, for example the Quake series, Dota, Counter-Strike, Tomb Raider, Portal, Left 4 Dead, and many more have GNU/Linux versions."); ?>
             <?php print _("There is also a good selection of online game distribution platforms that sell many high-quality games for GNU/Linux:"); ?></p>
             <div class="logos logos--small">
               <a href="https://store.steampowered.com/linux" target="_blank"><img class="lift-effect" src="/images/SteamLogo.png" title="Steam" alt="Steam Logo"></a>
