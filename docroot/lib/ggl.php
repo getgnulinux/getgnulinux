@@ -72,6 +72,7 @@ class GGL {
         'pl' => array('pl_PL.UTF-8',    "Polski"),
         'pt' => array('pt_PT.UTF-8',    "Português"),
         'pt-br' => array('pt_BR.UTF-8', "Português Brasileiro"),
+        'ro' => array('ro_RO.UTF-8',    "limba română"),
         'ru' => array('ru_RU.UTF-8',    "Русский"),
         'si' => array('si_LK.UTF-8',    "සිංහල"),
         'sr' => array('sr_RS.UTF-8',    "Српски"),
