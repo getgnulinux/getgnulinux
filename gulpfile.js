@@ -78,7 +78,7 @@ gulp.task('styles:vendor', () => {
 gulp.task('styles', gulp.series('styles:sass', 'styles:vendor'));
 
 gulp.task('scripts:main', () => {
-    return gulp.src('src/scripts/main.js')
+    return gulp.src('src/scripts/*.js')
         .pipe($.plumber())
         .pipe($.sourcemaps.init())
         .pipe($.babel())

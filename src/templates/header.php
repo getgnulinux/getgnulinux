@@ -8,13 +8,14 @@
   <?php $this->og_tags(); ?>
   <?php $this->link_alternate_tags(); ?>
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons" media="all">
-
   <!-- build:css /styles/vendor/flexslider.css -->
   <link rel="stylesheet" type="text/css" href="/styles/vendor/flexslider.css" media="all">
   <!-- endbuild -->
-
   <!-- build:css /styles/main.css -->
   <link rel="stylesheet" type="text/css" href="/styles/main.css" media="all">
+  <!-- endbuild -->
+  <!-- build:js /scripts/theme.js -->
+  <script src="/scripts/theme.js"></script>
   <!-- endbuild -->
 </head>
 
