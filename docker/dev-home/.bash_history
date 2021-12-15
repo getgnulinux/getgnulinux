@@ -6,6 +6,5 @@ make deploy
 make maintainer-clean
 make clean
 make update-po
-make update-gmo
-make build deploy-dev
+make build install
 ./configure --localedir=/home/node/getgnulinux/docroot/locale/

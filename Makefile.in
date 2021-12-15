@@ -10,7 +10,7 @@ top_srcdir = @top_srcdir@
 all: build
 
 .PHONY: build
-build: check install docroot
+build: check update-gmo docroot
 	$(MAKE) -C docroot $@
 	$(GULP) $@
 
@@ -18,9 +18,9 @@ build: check install docroot
 check:
 	$(GULP) lint
 
-.PHONY: deploy-dev
-deploy-dev:
-	$(GULP) deploy:dev
+.PHONY: install
+install: install-gmo
+	$(GULP) $@
 
 .PHONY: deploy
 deploy:
@@ -34,11 +34,9 @@ update-po: po
 update-gmo: po
 	$(MAKE) -C $< $@
 
-.PHONY: install
-install: $(SUBDIRS)
-	for subdir in $(SUBDIRS); do \
-	  $(MAKE) -C $$subdir $@ || exit 1; \
-	done
+.PHONY: install-gmo
+install-gmo: po
+	$(MAKE) -C $< install
 
 dist:
 

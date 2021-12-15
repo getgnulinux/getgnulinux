@@ -13,8 +13,6 @@ build: $(includes_dir)/weblate_credits.html
 $(includes_dir)/weblate_credits.html: $(top_srcdir)/data/weblate_credits.json $(top_srcdir)/l10n-credits.js
 	$(NODEJS) $(top_srcdir)/l10n-credits.js $< > $@
 
-install:
-
 .PHONY: maintainer-clean
 maintainer-clean: clean
 	rm -f Makefile settings.php

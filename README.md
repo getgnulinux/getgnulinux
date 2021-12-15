@@ -38,18 +38,13 @@ When translatable content is updated, update the translation files with:
 
     make update-po
 
-When new translations were made, compile the translation files for use on the
-website with:
+Build the website:
 
-    make update-gmo
+    make
 
-To build the website, run:
+Install the build to the development server:
 
-    make build
-
-To copy the build to the development web server, run:
-
-    make deploy-dev
+    make install
 
 The website should now be accessible at <http://localhost:1337/>.
 

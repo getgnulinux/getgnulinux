@@ -129,11 +129,9 @@ gulp.task('build', gulp.series('html', 'images', 'fonts', () => {
 
 gulp.task('default', gulp.series('build'));
 
-gulp.task('deploy:dev', () => {
+gulp.task('install', () => {
     return gulp.src('docroot/**').pipe($.rsync(rsyncConfDev));
 });
-
-gulp.task('develop', gulp.series('build', 'deploy:dev'));
 
 gulp.task('deploy:prod', () => {
     const conf = rsyncConfProd;
