@@ -74,7 +74,6 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
                 <li><a href="https://en.wikipedia.org/wiki/MediaWiki" rel="external">MediaWiki</a> <?php print _("(content management system)"); ?></li>
                 <li><a href="https://hadoop.apache.org/" rel="external">Hadoop</a> <?php print _("(distributed computing)"); ?></li>
                 <li><a href="https://httpd.apache.org/" rel="external">Apache HTTP Server</a> <?php print _("(web server)"); ?></li>
-                <li><a href="https://joinmastodon.org/" rel="external">Mastodon</a> <?php print _("(microblogging)"); ?></li>
                 <li><a href="https://nginx.org/en/" rel="external">Nginx</a> <?php print _("(web server)"); ?></li>
                 <li><a href="https://nodejs.org/" rel="external">Node.js</a> <?php print _("(JavaScript runtime environment)"); ?></li>
                 <li><a href="https://www.discourse.org/" rel="external">Discourse</a> <?php print _("(message board)"); ?></li>
