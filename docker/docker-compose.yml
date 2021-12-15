@@ -25,7 +25,7 @@ services:
     entrypoint: ["/root/setup_mounts.sh"]
     security_opt:
       # Required to enable mounts in the container.
-      - "apparmor:unconfined"
+      - "apparmor=unconfined"
     depends_on:
       - httpd
 
