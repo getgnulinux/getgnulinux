@@ -16,5 +16,8 @@ rmdir /container
 
 export USER="node"
 export HOME="/home/node"
+export TERM="xterm-256color"
+source $HOME/.profile
+
 cd "${HOME}/getgnulinux"
 exec chroot --userspec=node --skip-chdir / "$@"
