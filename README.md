@@ -13,8 +13,7 @@ about free software and barely remotely heard the word "Linux".
 ## Quick start
 
 You can use Docker to setup a local build and test environment. You will first
-need to install the Docker engine as well as `docker-compose`:
-<https://docs.docker.com/engine/install/>
+need to [install Docker and Docker Compose](https://docs.docker.com/engine/install/).
 
 Start the build environment with:
 
