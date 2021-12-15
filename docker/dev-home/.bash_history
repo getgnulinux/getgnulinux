@@ -9,4 +9,3 @@ make update-po
 make update-gmo
 make build deploy-dev
 ./configure --localedir=/home/node/getgnulinux/docroot/locale/
-./autogen.sh
