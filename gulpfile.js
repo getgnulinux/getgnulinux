@@ -22,33 +22,6 @@ const versionConfig = {
     },
 };
 
-// Rsync configuration for deploying to development.
-const rsyncConfDev = {
-    root: 'docroot/',
-    destination: '/var/www/html',
-    progress: false,
-    incremental: true,
-    relative: true,
-    recursive: true,
-    clean: true,
-    compress: false,
-    exclude: ['.*.swp', 'config.log', 'Makefile', 'Makefile.in'],
-};
-
-// Rsync configuration for deploying to production.
-const rsyncConfProd = {
-    root: 'docroot/',
-    hostname: 'tuxfamily',
-    destination: '/home/getgnulinux/getgnulinux.org-web/htdocs',
-    progress: true,
-    incremental: true,
-    relative: true,
-    recursive: true,
-    clean: true,
-    compress: true,
-    exclude: ['.*.swp', 'config.log', 'Makefile', 'Makefile.in'],
-};
-
 const lint = (files, options = {fix: false}) => {
     return gulp.src(files)
         .pipe($.eslint(options))
@@ -128,20 +101,3 @@ gulp.task('build', gulp.series('html', 'images', 'fonts', () => {
 }));
 
 gulp.task('default', gulp.series('build'));
-
-gulp.task('install', () => {
-    return gulp.src('docroot/**').pipe($.rsync(rsyncConfDev));
-});
-
-gulp.task('deploy:prod', () => {
-    const conf = rsyncConfProd;
-
-    return gulp.src('docroot/**')
-        .pipe(
-            $.prompt.confirm({
-                message: `Are you sure you want to deploy to ${conf.hostname}:${conf.destination}?`,
-                default: false
-            })
-        )
-        .pipe($.rsync(conf));
-});

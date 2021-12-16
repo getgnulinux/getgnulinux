@@ -3,6 +3,10 @@
 SUBDIRS = po docroot
 
 GULP = npx gulp
+RSYNC = rsync
+RSYNC_OPTS = --recursive --checksum --exclude-from .rsync-exclude --delete --progress
+DEPLOY_HOST = tuxfamily
+DEPLOY_PATH = /home/getgnulinux/getgnulinux.org-web/htdocs
 
 top_srcdir = @top_srcdir@
 
@@ -19,12 +23,13 @@ check:
 	$(GULP) lint
 
 .PHONY: install
-install: install-gmo
-	$(GULP) $@
+install:
+	$(MAKE) -C po $@
+	$(RSYNC) $(RSYNC_OPTS) docroot/ /var/www/html
 
 .PHONY: deploy
 deploy:
-	$(GULP) deploy:prod
+	$(RSYNC) $(RSYNC_OPTS) --compress /var/www/html/ $(DEPLOY_HOST):$(DEPLOY_PATH)
 
 .PHONY: update-po
 update-po: po
@@ -33,10 +38,6 @@ update-po: po
 .PHONY: update-gmo
 update-gmo: po
 	$(MAKE) -C $< $@
-
-.PHONY: install-gmo
-install-gmo: po
-	$(MAKE) -C $< install
 
 dist:
 
