@@ -26,6 +26,7 @@ gulp.task('styles:sass', () => {
         .pipe($.autoprefixer())
         .pipe($.cssnano({safe: true, autoprefixer: false}))
         .pipe($.sourcemaps.write('.'), {includeContent: true})
+        .pipe($.size({title: 'styles:sass', gzip: true}))
         .pipe(gulp.dest('docroot/styles'));
 });
 
@@ -34,6 +35,7 @@ gulp.task('styles:vendor', () => {
         'node_modules/flexslider/flexslider.css',
     ])
         .pipe($.cssnano({safe: true, autoprefixer: false}))
+        .pipe($.size({title: 'styles:vendor', gzip: true}))
         .pipe(gulp.dest('docroot/styles/vendor'));
 });
 
@@ -46,6 +48,7 @@ gulp.task('scripts:main', () => {
         .pipe($.babel())
         .pipe($.uglify())
         .pipe($.sourcemaps.write('.'), {includeContent: true})
+        .pipe($.size({title: 'scripts', gzip: true}))
         .pipe(gulp.dest('docroot/scripts'));
 });
 
@@ -53,6 +56,7 @@ gulp.task('scripts', gulp.series('scripts:main'));
 
 gulp.task('fonts', () => {
     return gulp.src('node_modules/flexslider/fonts/*')
+        .pipe($.size({title: 'fonts', gzip: true}))
         .pipe(gulp.dest('docroot/styles/vendor/fonts'));
 });
 
@@ -81,6 +85,7 @@ gulp.task('images', () => {
             $.imagemin.optipng(),
             $.imagemin.svgo()
         ]))
+        .pipe($.size({title: 'images', gzip: true}))
         .pipe(gulp.dest('docroot/images'));
 });
 
