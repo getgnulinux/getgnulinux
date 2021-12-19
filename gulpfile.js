@@ -84,8 +84,6 @@ gulp.task('images', () => {
         .pipe(gulp.dest('docroot/images'));
 });
 
-gulp.task('build', gulp.series('html', 'images', 'fonts', () => {
-    return gulp.src('src/**/*').pipe($.size({title: 'build', gzip: true}));
-}));
+gulp.task('all', gulp.series('html', 'images', 'fonts'));
 
-gulp.task('default', gulp.series('build'));
+gulp.task('default', gulp.series('all'));

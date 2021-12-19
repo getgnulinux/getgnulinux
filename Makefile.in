@@ -11,10 +11,7 @@ DEPLOY_PATH = /home/getgnulinux/getgnulinux.org-web/htdocs
 top_srcdir = @top_srcdir@
 
 .PHONY: all
-all: build
-
-.PHONY: build
-build: check update-gmo docroot
+all: check update-gmo docroot
 	$(MAKE) -C docroot $@
 	$(GULP) $@
 

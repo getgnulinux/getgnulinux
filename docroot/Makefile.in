@@ -8,7 +8,8 @@ top_srcdir = @top_srcdir@
 views_dir = lib/views
 includes_dir = $(views_dir)/include
 
-build: $(includes_dir)/weblate_credits.html
+.PHONY: all
+all: $(includes_dir)/weblate_credits.html
 
 $(includes_dir)/weblate_credits.html: $(top_srcdir)/data/weblate_credits.json $(top_srcdir)/l10n-credits.js
 	$(NODEJS) $(top_srcdir)/l10n-credits.js $< > $@
