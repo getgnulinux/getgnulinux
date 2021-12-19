@@ -11,17 +11,6 @@ const sassConfig = {
     ]
 };
 
-const versionConfig = {
-    'value': '%MDS%',
-    'append': {
-        'key': 'v',
-        'to': [
-            'css',
-            'js',
-        ],
-    },
-};
-
 const lint = (files, options = {fix: false}) => {
     return gulp.src(files)
         .pipe($.eslint(options))
@@ -78,7 +67,6 @@ gulp.task('lint', gulp.series('lint:root', 'lint:src'));
 gulp.task('html', gulp.series('styles', 'scripts', () => {
     return gulp.src('src/**/*.php')
         .pipe($.useref({searchPath: ['docroot', 'src', '.']}))
-        .pipe($.if('*.php', $.versionNumber(versionConfig)))
         .pipe(gulp.dest('docroot'));
 }));
 
