@@ -23,7 +23,7 @@ $ubuntu3_text = _("GNOME music player");
 # TRANSLATORS: This is the description of the "fedora1.jpg" screenshot.
 $fedora1_text = _("Accessing applications in the GNOME desktop environment.");
 # TRANSLATORS: This is the description of the "fedora2.jpg" screenshot.
-$fedora2_text = _("Desktop overview with two applications open.");
+$fedora2_text = _("Desktop overview with multiple applications open.");
 # TRANSLATORS: This is the description of the "fedora3.jpg" screenshot.
 $fedora3_text = _("Software manager open, install/remove applications.");
 ?>
