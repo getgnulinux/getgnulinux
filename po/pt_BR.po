@@ -27,8 +27,8 @@ msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2022-01-01 15:03+0000\n"
-"PO-Revision-Date: 2021-12-15 22:42+0000\n"
-"Last-Translator: Serrano Pereira <serrano@bitosis.nl>\n"
+"PO-Revision-Date: 2022-01-04 02:53+0000\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "getgnulinux/getgnulinux-pot/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -36,7 +36,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.10-dev\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #. TRANSLATORS: The name of the website. It is displayed in the header of each page.
 #: docroot/lib/ggl.php:209 docroot/lib/views/home.php:15
@@ -581,14 +581,6 @@ msgstr ""
 
 #. TRANSLATORS: use the definition of "free software" on GNU.org; also, gnu.org uses language negotiation, so it's not necessary to replace those URLs.
 #: docroot/lib/views/windows.restrictions.php:73
-#, fuzzy
-#| msgid ""
-#| "<strong>You have an alternative to breaking this law,</strong> or feeling "
-#| "very restrained when you abide to it. GNU/Linux is <a href=\"https://www."
-#| "gnu.org/philosophy/free-sw.html\" rel=\"external\">Free Software</a> "
-#| "(much better than just freeware): its <a href=\"https://www.gnu.org/"
-#| "copyleft/gpl.html\" rel=\"external\">GPL</a> license is designed to "
-#| "protect your rights."
 msgid ""
 "<strong>You have an alternative to breaking this law,</strong> or feeling "
 "very restrained when you abide to it. GNU/Linux is <a href=\"https://www.gnu."
@@ -598,11 +590,11 @@ msgid ""
 "designed to protect your rights."
 msgstr ""
 "<strong>Você tem uma alternativa para quebrar essa lei</strong>, ou está se "
-"sentindo muito contido quando você a cumpre. O GNU/Linux é <a href=\"https://"
-"www.gnu.org/philosophy/free-sw.html\" rel=\"external\">Software Livre</a> "
-"(muito melhor que apenas freeware): sua licença <a href=\"https://www.gnu."
-"org/copyleft/gpl.html\" rel=\"external\">GPL</a> é projetada para proteger "
-"seus direitos."
+"sentindo muito contido quando você a cumpre. O GNU/Linux é <a href=\"https"
+"://www.gnu.org/philosophy/free-sw.html\" rel=\"external\">Software Livre</a> "
+"(muito melhor que apenas freeware): a <a href=\"https://www.gnu.org/copyleft/"
+"gpl.html\" rel=\"external\" title=\"Licença Pública Geral GNU\">GPL</a> é "
+"projetada para proteger seus direitos."
 
 #: docroot/lib/views/windows.restrictions.php:74
 msgid "Restrictions - further details"
@@ -1217,6 +1209,10 @@ msgid ""
 "default browser to something else, Edge still opens automatically when you "
 "perform certain tasks."
 msgstr ""
+"Ainda hoje, o navegador Microsoft Edge está totalmente integrado ao Windows "
+"e não pode ser removido sem quebrar seu sistema. Mesmo se você mudou seu "
+"navegador padrão para outra coisa, o Edge ainda abre automaticamente quando "
+"você executa certas tarefas."
 
 #: docroot/lib/views/windows.what_about_choice.php:49
 msgid "Monopolistic practices"
@@ -1293,10 +1289,8 @@ msgstr "Reprodutor de música do GNOME"
 
 #. TRANSLATORS: This is the description of the "fedora2.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:26
-#, fuzzy
-#| msgid "Desktop overview with two applications open."
 msgid "Desktop overview with multiple applications open."
-msgstr "Visão geral do ambiente com dois aplicativos abertos."
+msgstr "Visão geral do ambiente com vários aplicativos abertos."
 
 #. TRANSLATORS: This is the description of the "fedora3.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:28
@@ -1909,8 +1903,8 @@ msgid ""
 msgstr ""
 "Configurar um dual boot pode ser útil se você precisa de tempo para "
 "abandonar um software restritivo. <a href=\"https://ubuntu.com/tutorials/"
-"install-ubuntu-desktop#1-overview\" title=\"um tutorial sobre instalação do "
-"Ubuntu\" rel=\"external\">Não é difícil de instalar</a>, apesar de que se "
+"install-ubuntu-desktop#1-overview\" rel=\"external\" title=\"um tutorial "
+"sobre instalação do Ubuntu\">Não é difícil de instalar</a>, apesar de que se "
 "apagar por completo o Windows ou macOS ficará ainda mais fácil."
 
 #: docroot/lib/views/switch_to_linux.try_or_install.php:42
@@ -2209,7 +2203,7 @@ msgstr "(pintura)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:61
 msgid "(DJ mixing)"
-msgstr ""
+msgstr "(Mixagem de DJ)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:62
 msgid "(digital audio workstation)"
@@ -2261,10 +2255,8 @@ msgid "(JavaScript runtime environment)"
 msgstr "(ambiente de tempo de execução JavaScript)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:79
-#, fuzzy
-#| msgid "(image editor)"
 msgid "(message board)"
-msgstr "(editor de imagem)"
+msgstr "(quadro de mensagens)"
 
 #: docroot/lib/views/linux.misunderstanding_free_software.php:80
 msgid "(virtualization)"
@@ -3837,20 +3829,14 @@ msgstr "GNU/Linux é uma forma de comunismo?"
 
 #. TRANSLATORS: This is italic text just below the question, which elaborates a little on it.
 #: docroot/lib/views/linux.faq.php:153
-#, fuzzy
-#| msgid ""
-#| "\"Everything has to be free\" and \"No one owns anything\" sounds "
-#| "somewhat frightening. Are GNU/Linux and its <abbr title=\"GNU General "
-#| "Public License\">GPL</abbr> License something for anarchists or "
-#| "communists?"
 msgid ""
 "\"Everything has to be free\" and \"No one owns anything\" sounds somewhat "
 "frightening. Are GNU/Linux and its <abbr title=\"GNU General Public License"
 "\">GPL</abbr> something for anarchists or communists?"
 msgstr ""
 "“Tudo tem que ser livre” e “Ninguém é dono de nada” soa um pouco assustador. "
-"São GNU/Linux e sua licença <abbr title=\"Licença Pública Geral GNU\">GPL</"
-"abbr> alguma coisa para anarquistas ou comunistas?"
+"São GNU/Linux e a <abbr title=\"Licença Pública Geral GNU\">GPL</abbr> "
+"alguma coisa para anarquistas ou comunistas?"
 
 #. TRANSLATORS: The link here points to the "How to Misunderstand Free Software" article.
 #: docroot/lib/views/linux.faq.php:156
