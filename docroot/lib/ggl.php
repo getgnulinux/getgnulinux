@@ -63,6 +63,7 @@ class GGL {
         'ia' => array('ia_FR.UTF-8',    "Interlingua"),
         'id' => array('id_ID.UTF-8',    "Bahasa Indonesia"),
         'it' => array('it_IT.UTF-8',    "Italiano"),
+        'ko' => array('ko_KR.UTF-8',    "한국어"),
         'lt' => array('lt_LT.UTF-8',    "Lietuvių"),
         'mk' => array('mk_MK.UTF-8',    "Македонски"),
         'ml' => array('ml_IN.UTF-8',    "മലയാളം"),
