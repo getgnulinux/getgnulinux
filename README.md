@@ -17,7 +17,7 @@ need to [install Docker and Docker Compose](https://docs.docker.com/engine/insta
 
 Start the build environment with:
 
-    ./docker/dev.sh
+    ./docker/start.sh
 
 This should open a Bash shell inside the Docker container.
 Inside the container, initialize the build environment with:
