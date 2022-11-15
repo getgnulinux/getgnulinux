@@ -3,6 +3,7 @@
 SUBDIRS = po docroot
 
 GULP = npx gulp
+NODEJS = nodejs
 RSYNC = rsync
 RSYNC_OPTS = --recursive --checksum --exclude-from .rsync-exclude --delete --progress
 DEPLOY_HOST = tuxfamily
@@ -35,6 +36,9 @@ update-po: po
 .PHONY: update-gmo
 update-gmo: po
 	$(MAKE) -C $< $@
+
+$(top_srcdir)/data/weblate_credits.json: $(top_srcdir)/data/hosted.weblate.org.json $(top_srcdir)/clean-credits
+	$(NODEJS) $(top_srcdir)/clean-credits $< > $@
 
 dist:
 
