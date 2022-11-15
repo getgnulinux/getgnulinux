@@ -11,8 +11,11 @@ includes_dir = $(views_dir)/include
 .PHONY: all
 all: $(includes_dir)/weblate_credits.html
 
-$(includes_dir)/weblate_credits.html: $(top_srcdir)/data/weblate_credits.json $(top_srcdir)/l10n-credits.js
-	$(NODEJS) $(top_srcdir)/l10n-credits.js $< > $@
+$(includes_dir)/weblate_credits.html: $(top_srcdir)/data/weblate_credits.json $(top_srcdir)/credits2html
+	$(NODEJS) $(top_srcdir)/credits2html $< > $@
+
+$(top_srcdir)/data/weblate_credits.json: $(top_srcdir)/data/hosted.weblate.org.json $(top_srcdir)/clean-credits
+	$(NODEJS) $(top_srcdir)/clean-credits $< > $@
 
 .PHONY: maintainer-clean
 maintainer-clean: clean

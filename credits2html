@@ -1,7 +1,9 @@
+#!/usr/bin/env nodejs
+
 /*
  * Generate a HTML report from a Weblate translation report in JSON format.
  *
- * Usage: nodejs l10n-credits.js report.json > report.html
+ * Usage: nodejs credits2html report.json > report.html
  */
 
 const fs = require('fs');
@@ -32,7 +34,7 @@ credits.forEach(entry => {
         console.log(`    <p><strong>${language}</strong></p>`);
         console.log('    <ul class="browser-default">');
         authors.forEach(author => {
-            const [, name, count] = author;
+            const [name, count] = author;
             console.log(`      <li>${name} (${count})</li>`);
         });
         console.log('    </ul>');

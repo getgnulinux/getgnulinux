@@ -1,0 +1,31 @@
+#!/usr/bin/env nodejs
+
+/*
+ * Process Weblate translation credits report.
+ * Return a new report in JSON format with email addresses removed.
+ *
+ * Usage: nodejs clean-credits report.json > report-clean.json
+ */
+
+const fs = require('fs');
+
+const filename = process.argv[2];
+const data = fs.readFileSync(filename, 'utf8');
+const credits = JSON.parse(data);
+const newCredits = [];
+
+credits.forEach(entry => {
+    for (const [language, authors] of Object.entries(entry)) {
+        const newLanguage = {};
+        newLanguage[language] = [];
+
+        authors.forEach(author => {
+            const [email, name, count] = author;
+            newLanguage[language].push([name, count]);
+        });
+
+        newCredits.push(newLanguage);
+    }
+});
+
+console.log(JSON.stringify(newCredits));
