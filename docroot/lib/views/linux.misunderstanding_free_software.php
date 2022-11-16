@@ -54,6 +54,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
             <li><?php print _("Applications:"); ?>
               <ul class="browser-default">
                 <li><a href="https://atom.io/" rel="external">Atom</a> <?php print _("(text editor)"); ?></li>
+                <li><a href="https://code.visualstudio.com/" rel="external">Visual Studio Code</a> <?php print _("(text editor)"); ?></li>
                 <li><a href="https://en.wikipedia.org/wiki/Chromium_(web_browser)" rel="external">Chromium</a> <?php print _("(web browser)"); ?></li>
                 <li><a href="https://git-scm.com/" rel="external">Git</a> <?php print _("(distributed version control system)"); ?></li>
                 <li><a href="https://inkscape.org/" rel="external">Inkscape</a> <?php print _("(vector drawing)"); ?></li>
@@ -61,9 +62,9 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
                 <li><a href="https://mixxx.org/" rel="external">Mixxx</a> <?php print _("(DJ mixing)"); ?></li>
                 <li><a href="https://www.ardour.org/" rel="external">Ardour</a> <?php print _("(digital audio workstation)"); ?></li>
                 <li><a href="https://www.blender.org/" rel="external">Blender</a> <?php print _("(3D graphics creation)"); ?></li>
-                <li><a href="https://www.mozilla.org/firefox/new/" rel="external">Firefox</a> <?php print _("(web browser)"); ?></li>
                 <li><a href="https://www.gimp.org/" rel="external">GIMP</a> <?php print _("(image editor)"); ?></li>
                 <li><a href="https://www.libreoffice.org/" rel="external">LibreOffice</a> <?php print _("(office suite)"); ?></li>
+                <li><a href="https://www.mozilla.org/firefox/new/" rel="external">Firefox</a> <?php print _("(web browser)"); ?></li>
                 <li><a href="https://www.tensorflow.org/" rel="external">TensorFlow</a> <?php print _("(machine learning)"); ?></li>
                 <li><a href="https://www.thunderbird.net/" rel="external">Thunderbird</a> <?php print _("(email client)"); ?></li>
                 <li><a href="https://www.videolan.org/vlc/" rel="external">VLC media player</a> <?php print _("(multimedia player)"); ?></li>
