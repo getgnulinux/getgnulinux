@@ -17,12 +17,16 @@ need to [install Docker and Docker Compose](https://docs.docker.com/engine/insta
 
 Start the build environment with:
 
-    ./docker/start.sh
+```bash
+./docker/start.sh
+```
 
 This should open a Bash shell inside the Docker container.
 Inside the container, initialize the build environment with:
 
-    ./configure --localedir=/home/node/getgnulinux/docroot/locale/
+```bash
+./configure --localedir=/home/node/getgnulinux/docroot/locale/
+```
 
 **NOTE:** These and other common commands are already in your Bash history. Use
 Arrow-Up to see them.
@@ -36,21 +40,29 @@ You should now be able to run `make` commands inside the container.
 
 When translatable content is updated, update the translation files with:
 
-    make update-po
+```bash
+make update-po
+```
 
 Build the website:
 
-    make
+```bash
+make
+```
 
 Install the build to the development server:
 
-    make install
+```bash
+make install
+```
 
 The website should now be accessible at <http://localhost:1337/>.
 
 To stop the web server, exit the development container and run:
 
-    ./docker/stop.sh
+```bash
+./docker/stop.sh
+```
 
 
 ## Contributing
