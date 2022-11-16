@@ -56,8 +56,9 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
                 <li><a href="https://atom.io/" rel="external">Atom</a> <?php print _("(text editor)"); ?></li>
                 <li><a href="https://code.visualstudio.com/" rel="external">Visual Studio Code</a> <?php print _("(text editor)"); ?></li>
                 <li><a href="https://en.wikipedia.org/wiki/Chromium_(web_browser)" rel="external">Chromium</a> <?php print _("(web browser)"); ?></li>
-                <li><a href="https://git-scm.com/" rel="external">Git</a> <?php print _("(distributed version control system)"); ?></li>
+                <li><a href="https://git-scm.com/" rel="external">Git</a> <?php print _("(version control system)"); ?></li>
                 <li><a href="https://inkscape.org/" rel="external">Inkscape</a> <?php print _("(vector drawing)"); ?></li>
+                <li><a href="https://kodi.tv/" rel="external">Kodi</a> <?php print _("(media center)"); ?></li>
                 <li><a href="https://krita.org/" rel="external">Krita</a> <?php print _("(painting)"); ?></li>
                 <li><a href="https://mixxx.org/" rel="external">Mixxx</a> <?php print _("(DJ mixing)"); ?></li>
                 <li><a href="https://www.ardour.org/" rel="external">Ardour</a> <?php print _("(digital audio workstation)"); ?></li>
