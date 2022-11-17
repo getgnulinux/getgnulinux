@@ -53,7 +53,6 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
           <ul class="browser-default">
             <li><?php print _("Applications:"); ?>
               <ul class="browser-default">
-                <li><a href="https://atom.io/" rel="external">Atom</a> <?php print _("(text editor)"); ?></li>
                 <li><a href="https://code.visualstudio.com/" rel="external">Visual Studio Code</a> <?php print _("(text editor)"); ?></li>
                 <li><a href="https://en.wikipedia.org/wiki/Chromium_(web_browser)" rel="external">Chromium</a> <?php print _("(web browser)"); ?></li>
                 <li><a href="https://git-scm.com/" rel="external">Git</a> <?php print _("(version control system)"); ?></li>
