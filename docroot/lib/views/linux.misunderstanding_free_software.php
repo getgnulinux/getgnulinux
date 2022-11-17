@@ -58,9 +58,7 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
                 <li><a href="https://git-scm.com/" rel="external">Git</a> <?php print _("(version control system)"); ?></li>
                 <li><a href="https://inkscape.org/" rel="external">Inkscape</a> <?php print _("(vector drawing)"); ?></li>
                 <li><a href="https://kodi.tv/" rel="external">Kodi</a> <?php print _("(media center)"); ?></li>
-                <li><a href="https://krita.org/" rel="external">Krita</a> <?php print _("(painting)"); ?></li>
                 <li><a href="https://mixxx.org/" rel="external">Mixxx</a> <?php print _("(DJ mixing)"); ?></li>
-                <li><a href="https://www.ardour.org/" rel="external">Ardour</a> <?php print _("(digital audio workstation)"); ?></li>
                 <li><a href="https://www.blender.org/" rel="external">Blender</a> <?php print _("(3D graphics creation)"); ?></li>
                 <li><a href="https://www.gimp.org/" rel="external">GIMP</a> <?php print _("(image editor)"); ?></li>
                 <li><a href="https://www.libreoffice.org/" rel="external">LibreOffice</a> <?php print _("(office suite)"); ?></li>
@@ -73,12 +71,14 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
             <li><?php print _("Server applications:"); ?>
               <ul class="browser-default">
                 <li><a href="https://en.wikipedia.org/wiki/MediaWiki" rel="external">MediaWiki</a> <?php print _("(content management system)"); ?></li>
-                <li><a href="https://hadoop.apache.org/" rel="external">Hadoop</a> <?php print _("(distributed computing)"); ?></li>
                 <li><a href="https://httpd.apache.org/" rel="external">Apache HTTP Server</a> <?php print _("(web server)"); ?></li>
                 <li><a href="https://nginx.org/en/" rel="external">Nginx</a> <?php print _("(web server)"); ?></li>
                 <li><a href="https://nodejs.org/" rel="external">Node.js</a> <?php print _("(JavaScript runtime environment)"); ?></li>
+                <li><a href="https://spark.apache.org/" rel="external">Apache Spark</a> <?php print _("(large-scale data processing)"); ?></li>
                 <li><a href="https://www.discourse.org/" rel="external">Discourse</a> <?php print _("(message board)"); ?></li>
                 <li><a href="https://www.docker.com/" rel="external">Docker</a> <?php print _("(virtualization)"); ?></li>
+                <li><a href="https://www.mysql.com/" rel="external">MySQL</a> <?php print _("(database management system)"); ?></li>
+                <li><a href="https://www.postgresql.org/" rel="external">PostgreSQL</a> <?php print _("(database management system)"); ?></li>
                 <li><a href="https://www.wordpress.org/" rel="external">Wordpress</a> <?php print _("(blog)"); ?></li>
               </ul>
             </li>
@@ -88,8 +88,8 @@ $footnote2 = '<sup><a class="footnote" id="footnote-ref-1b" href="#footnote-1">1
                 <li><a href="https://en.wikipedia.org/wiki/FLAC" rel="external">FLAC</a> <?php print _("(lossless audio codec)"); ?></li>
                 <li><a href="https://en.wikipedia.org/wiki/Gzip" rel="external">gzip</a> <?php print _("(data compression)"); ?></li>
                 <li><a href="https://en.wikipedia.org/wiki/HTML" rel="external">HTML</a> <?php print _("(web pages)"); ?></li>
-                <li><a href="https://en.wikipedia.org/wiki/Ogg" rel="external">Ogg</a> <?php print _("(container format)"); ?></li>
                 <li><a href="https://en.wikipedia.org/wiki/OpenDocument" rel="external">OpenDocument Format</a> <?php print _("(office documents)"); ?></li>
+                <li><a href="https://en.wikipedia.org/wiki/Opus_(audio_format)" rel="external">Opus</a> <?php print _("(audio format)"); ?></li>
                 <li><a href="https://en.wikipedia.org/wiki/WebM" rel="external">WebM</a> <?php print _("(video file format)"); ?></li>
                 <li><a href="https://en.wikipedia.org/wiki/WebRTC" rel="external">WebRTC</a> <?php print _("(web real-time communication)"); ?></li>
               </ul>
