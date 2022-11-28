@@ -1,10 +1,10 @@
+---
 version: "3.3"
 
 services:
   httpd:
     build:
-      context: ../..
-      dockerfile: docker/httpd.Dockerfile
+      context: ./docker/httpd
     volumes:
       - "docroot:/var/www/html"
     ports:
@@ -13,11 +13,10 @@ services:
   builder:
     hostname: getgnulinux
     build:
-      context: ../..
-      dockerfile: docker/builder.Dockerfile
+      context: .
     volumes:
       - "docroot:/var/www/html"
-      - "../..:/home/node/getgnulinux"
+      - ".:/home/node/getgnulinux"
     # Start as root and with the CAP_SYS_ADMIN capability to bind-mount the
     # node_modules directory in the container over those mounted from the host.
     user: root
@@ -32,8 +31,7 @@ services:
   runner:
     hostname: getgnulinux
     build:
-      context: ../..
-      dockerfile: docker/builder.Dockerfile
+      context: .
     volumes:
       - "docroot:/var/www/html"
     depends_on:

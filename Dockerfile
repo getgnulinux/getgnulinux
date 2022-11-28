@@ -11,7 +11,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     man \
     rsync \
     tree \
-    vim
+    vim \
+  && rm -rf /var/lib/apt/lists/*
 
 USER node
 
