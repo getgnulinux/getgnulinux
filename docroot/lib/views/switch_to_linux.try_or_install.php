@@ -72,7 +72,7 @@ $this->load_header();
                 <p><?php $p = _("Then use it to <a href=\"%s\" rel=\"external\">install Ubuntu</a> onto your computer."); printf($p, _("https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview")); ?></p>
               </div>
               <div class="card-action center">
-                <a class="waves-effect waves-light btn-large light-green darken-4" href="https://ubuntu.com/download/desktop" target="_blank">
+                <a class="waves-effect waves-light btn-large light-green darken-4" href="https://ubuntu.com/desktop" target="_blank">
                   <?php print _("Download Ubuntu"); ?>
                   <i class="material-icons <?php print $this->rtltr("left", "right"); ?>">cloud_download</i>
                 </a>
