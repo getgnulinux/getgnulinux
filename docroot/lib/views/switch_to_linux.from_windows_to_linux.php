@@ -94,7 +94,7 @@ $this->load_header();
         <p><?php print _("There is also a good selection of online game distribution platforms that sell many high-quality games for GNU/Linux:"); ?></p>
         <div class="logos logos--small">
           <a href="https://store.steampowered.com/linux" target="_blank"><img class="lift-effect" src="/images/SteamLogo.png" title="Steam" alt="Steam Logo"></a>
-          <a href="https://www.gog.com/games?page=1&amp;sort=popularity&amp;system=lin_ubuntu%2Clin_mint%2Clin_ubuntu_18" target="_blank"><img class="lift-effect" src="/images/GogLogo.png" title="GOG.COM" alt="GOG.COM logo"></a>
+          <a href="https://www.gog.com/en/games?systems=linux" target="_blank"><img class="lift-effect" src="/images/GogLogo.png" title="GOG.COM" alt="GOG.COM logo"></a>
           <a href="https://itch.io/games/platform-linux" target="_blank"><img class="lift-effect" src="/images/ItchLogo.png" title="itch.io" alt="itch.io logo"></a>
           <a href="https://www.humblebundle.com/store/search?sort=newest&amp;filter=new&amp;platform=linux" target="_blank"><img class="lift-effect" src="/images/HumbleBundleLogo.png" title="Humble Bundle" alt="Humble Bundle logo"></a>
         </div>
