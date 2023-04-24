@@ -54,7 +54,7 @@ $this->load_header();
 
         <div class="card-panel card-panel--quote amber lighten-4">
           <blockquote>
-            <p><?php print _("If you go to most of the free software sites you can click down a couple of levels and find the [GNU] <abbr title=\"General Public License, the main free software license\">GPL</abbr>, the X license, the Apache license, whichever terms and conditions you have to accept in order to use that software."); ?></p>
+            <p><?php print _("If you go to most of the free software sites, you can click down a couple of levels and find the [GNU] <abbr title=\"General Public License, the main free software license\">GPL</abbr>, the X license, the Apache license, whichever terms and conditions you have to accept in order to use that software."); ?></p>
             <p><?php print _("Now with a proprietary software company, the license is buried so you can't read it until after you have paid for the product, then they're asking you to <strong>turn off part of your brain</strong>, they're asking you to turn off part of your ability to work with other people and to do business, when you use their software."); ?></p>
             <footer>
               Don Marti, <cite><a href="https://web.archive.org/web/20080217042507/http://www.go-opensource.org:80/go_open/episode_2/big_guns/" hreflang="en" rel="external">Go Open Source - Big Gun: Don Marti</a></cite>
