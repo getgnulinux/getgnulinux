@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: get GNU/Linux!\n"
 "Report-Msgid-Bugs-To: serrano@getgnulinux.org\n"
 "POT-Creation-Date: 2022-11-17 20:27+0000\n"
-"PO-Revision-Date: 2023-05-14 19:52+0000\n"
+"PO-Revision-Date: 2023-05-20 18:52+0000\n"
 "Last-Translator: WaldiS <sto@tutanota.de>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/getgnulinux/"
 "getgnulinux-pot/pl/>\n"
@@ -783,6 +783,7 @@ msgid "Trusted Computing (TC)"
 msgstr "Trusted Computing (TC)"
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:81
+#, fuzzy
 msgid ""
 "Trusted Computing (sometimes <a href=\"https://www.lafkon.net/tc/\" title="
 "\"A very well done video on Trusted Computing\" rel=\"external\">more "
@@ -791,6 +792,13 @@ msgid ""
 "against nuisances (like viruses or spyware) and copyright violations (people "
 "copying proprietary software)."
 msgstr ""
+"Trusted Computing (czasami <a href=\"https://www.lafkon.net/tc/\" title="
+"\"Bardzo dobrze zrobiony film o Trusted Computing\" rel=\"external\""
+">dokładniej</a> nazywany \"Treacherous Computing\") oznacza, że komputer "
+"może uruchamiać tylko \"zaufane\" oprogramowanie. Ma to być nieobliczalna "
+"ochrona przed uciążliwościami (takimi jak wirusy lub oprogramowanie "
+"szpiegujące) i naruszeniami praw autorskich (osoby kopiujące zastrzeżone "
+"oprogramowanie)."
 
 #: docroot/lib/views/windows.stand_for_a_free_society.php:82
 msgid "Trusted Computing is control over the computer"
@@ -1146,6 +1154,10 @@ msgid ""
 "code> file with both an Office 95 and an Office 97 computer? You'll know "
 "what we mean."
 msgstr ""
+"Trzymanie się standardów Microsoftu nie jest łatwym zadaniem – chyba że "
+"możesz sobie pozwolić na częstą aktualizację. Czy kiedykolwiek próbowałeś "
+"pracować nad tym samym plikiem <code>.doc</code> zarówno na komputerze z "
+"Office 95, jak i Office 97? Będziesz wiedział, co mamy na myśli."
 
 #: docroot/lib/views/windows.what_about_choice.php:38
 msgid ""
@@ -1156,6 +1168,13 @@ msgid ""
 "communities to reverse-engineer the format, to be able to access and modify "
 "your own work."
 msgstr ""
+"Microsoft jest właścicielem formatów plików Office: <strong>zmieniają je z "
+"każdą nową wersją Office</strong> i nie mają obowiązku zachowania "
+"kompatybilności wstecznej. Zapisałeś swoją prezentację jako plik <code>.ppt</"
+"code>? Jeśli w przyszłym roku zrezygnujesz z korzystania z pakietu Microsoft "
+"Office, będziesz musiał polegać na innych społecznościach, które dokonają "
+"inżynierii wstecznej formatu, aby móc uzyskać dostęp do własnej pracy i ją "
+"zmodyfikować."
 
 #: docroot/lib/views/windows.what_about_choice.php:39
 msgid ""
@@ -1166,6 +1185,13 @@ msgid ""
 "Microsoft Office 2007 SP2, Microsoft did add support for the OpenDocument "
 "format after being pushed by the European Commission."
 msgstr ""
+"Istnieją oczywiście inne sposoby zapisu i wymiany plików biurowych, z "
+"których najbardziej znanym jest <a href=\"https://en.wikipedia.org/wiki/"
+"OpenDocument\" rel=\"external\">format OpenDocument</a>. Microsoft nie chce "
+"jednak, by użytkownicy pakietu Office mogli wymieniać się plikami, które "
+"każdy może odczytać i edytować. Począwszy od Microsoft Office 2007 SP2, "
+"Microsoft dodał obsługę formatu OpenDocument po naciskach ze strony Komisji "
+"Europejskiej."
 
 #: docroot/lib/views/windows.what_about_choice.php:43
 msgid "Default programs you can't uninstall"
@@ -1179,6 +1205,11 @@ msgid ""
 "with Windows &ndash; so they come in with every PC and no one can get rid of "
 "them."
 msgstr ""
+"Nie chcesz programu Windows Media Player na swoim komputerze? Nie używasz "
+"już Internet Explorera? <strong>Nie możesz odinstalować tych programów</"
+"strong>. Wcześniej działały one samodzielnie, ale zostały nieodłącznie "
+"powiązane z systemem Windows – więc są dostarczane z każdym komputerem i "
+"nikt nie może się ich pozbyć."
 
 #: docroot/lib/views/windows.what_about_choice.php:45
 msgid ""
@@ -1187,10 +1218,14 @@ msgid ""
 "default browser to something else, Edge still opens automatically when you "
 "perform certain tasks."
 msgstr ""
+"Nawet dziś przeglądarka Microsoft Edge jest ściśle zintegrowana z systemem "
+"Windows i nie można jej usunąć bez uszkodzenia systemu. Nawet jeśli "
+"zmieniłeś domyślną przeglądarkę na inną, Edge nadal otwiera się "
+"automatycznie podczas wykonywania niektórych zadań."
 
 #: docroot/lib/views/windows.what_about_choice.php:49
 msgid "Monopolistic practices"
-msgstr ""
+msgstr "Praktyki monopolistyczne"
 
 #: docroot/lib/views/windows.what_about_choice.php:50
 msgid ""
@@ -1213,6 +1248,12 @@ msgid ""
 "formats. But it means your customers are <em>free to choose what they do "
 "with their work</em> &ndash; Microsoft isn't there yet."
 msgstr ""
+"Dobrą rzeczą jest proponowanie szerokiej gamy oprogramowania i usług, tak "
+"jak robi to Microsoft; jednak projektowanie i łączenie ich w celu odcięcia "
+"użytkowników od równorzędnych spoza Microsoftu jest nieetyczne. Przyjęcie "
+"bardziej otwartych formatów nie jest technicznie trudne. Oznacza to jednak, "
+"że klienci mają <em>swobodę wyboru tego, co robią ze swoją pracą</em> – "
+"Microsoft jeszcze tego nie osiągnął."
 
 #. TRANSLATORS: This is the description of the "debian1.jpg" screenshot.
 #. TRANSLATORS: This is the description of the "ubuntu1.jpg" screenshot.
@@ -1222,17 +1263,17 @@ msgstr ""
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:24
 #: docroot/lib/views/linux.php:36
 msgid "Accessing applications in the GNOME desktop environment."
-msgstr ""
+msgstr "Dostęp do aplikacji w środowisku graficznym GNOME."
 
 #. TRANSLATORS: This is the description of the "debian2.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:12
 msgid "LibreOffice Writer open, editing a standard document."
-msgstr ""
+msgstr "Otwarty LibreOffice Writer, edycja standardowego dokumentu."
 
 #. TRANSLATORS: This is the description of the "debian3.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:14
 msgid "Shotwell photo manager"
-msgstr ""
+msgstr "Menedżer zdjęć Shotwell"
 
 #. TRANSLATORS: This is the description of the "ubuntu2.jpg" screenshot.
 #: docroot/lib/views/switch_to_linux.choose_a_distribution.php:19
