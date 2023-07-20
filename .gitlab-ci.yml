@@ -1,0 +1,39 @@
+---
+
+default:
+  image: docker
+  before_script:
+    - apk update && apk add docker openssh-client
+    - eval $(ssh-agent -s)
+    - echo "$SSH_DEPLOY_KEY" | tr -d '\r' | ssh-add -
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - echo "$SSH_KNOWN_HOSTS" >> ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts
+
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  services:
+    - docker:dind
+  script:
+    - ./docker/run.sh .ci/build
+  rules:
+    - if: $CI_COMMIT_REF_NAME =~ /^(master|main)/
+
+deploy:
+  stage: deploy
+  services:
+    - docker:dind
+  script:
+    - docker compose build --pull
+    - docker compose pull
+    - docker compose exec -T builder make deploy
+  environment:
+    name: production
+    url: https://www.getgnulinux.org/
+  rules:
+    - if: $CI_COMMIT_REF_NAME =~ /^(master|main)/
