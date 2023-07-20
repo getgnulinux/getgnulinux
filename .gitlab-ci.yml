@@ -1,0 +1,62 @@
+---
+
+stages:
+  - build
+  - deploy
+
+build-review:
+  stage: build
+  image: docker
+  services:
+    - docker:dind
+  before_script:
+    - docker login -u "$CI_REGISTRY_USER" -p "$CI_JOB_TOKEN" "$CI_REGISTRY"
+  script:
+    - docker build --pull -t "$CI_REGISTRY_IMAGE:review-${CI_COMMIT_REF_NAME}" .
+    - docker push --all-tags "$CI_REGISTRY_IMAGE"
+  rules:
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+
+build:
+  stage: build
+  image: docker
+  services:
+    - docker:dind
+  before_script:
+    - docker login -u "$CI_REGISTRY_USER" -p "$CI_JOB_TOKEN" "$CI_REGISTRY"
+  script:
+    - docker build --pull -t "$CI_REGISTRY_IMAGE:latest" -t "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME" .
+    - docker push --all-tags "$CI_REGISTRY_IMAGE"
+  rules:
+    - if: $CI_COMMIT_REF_NAME =~ /^(master|main)/
+
+deploy-review:
+  stage: deploy
+  image: "registry.gitlab.com/getgnulinux/getgnulinux:review-${CI_COMMIT_REF_NAME}"
+  script:
+    - cd /home/node/getgnulinux
+    - ./configure --localedir=/home/node/getgnulinux/docroot/locale/
+    - make all install
+  rules:
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+
+deploy:
+  stage: deploy
+  image: "registry.gitlab.com/getgnulinux/getgnulinux:latest"
+  before_script:
+    - eval $(ssh-agent -s)
+    - echo "$SSH_DEPLOY_KEY" | tr -d '\r' | ssh-add -
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - echo "$SSH_CONFIG" > ~/.ssh/config
+    - echo "$SSH_KNOWN_HOSTS" >> ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts
+  script:
+    - cd /home/node/getgnulinux
+    - ./configure --localedir=/home/node/getgnulinux/docroot/locale/
+    - make all install deploy
+  environment:
+    name: production
+    url: https://www.getgnulinux.org/
+  rules:
+    - if: $CI_COMMIT_REF_NAME =~ /^(master|main)/

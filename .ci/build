@@ -1,9 +1,0 @@
-#!/bin/sh
-
-# This CI script attempts to build the project.
-# It should be executed from the Docker container.
-
-set -ex
-
-./configure --localedir=/home/node/getgnulinux/docroot/locale/
-make clean all install
