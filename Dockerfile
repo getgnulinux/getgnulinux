@@ -14,10 +14,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     vim \
   && rm -rf /var/lib/apt/lists/*
 
-# Create this directory for CI. For development this is a volume.
-RUN mkdir -p /var/www/html
-RUN chown -R node:node /var/www/html
-
 USER node
 
 RUN mkdir /home/node/getgnulinux

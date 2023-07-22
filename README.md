@@ -52,7 +52,7 @@ make
 Install the build to the development server:
 
 ```bash
-make install
+make install deploy-dev
 ```
 
 The website should now be accessible at <http://localhost:1337/>.

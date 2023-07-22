@@ -23,11 +23,14 @@ check:
 .PHONY: install
 install:
 	$(MAKE) -C po $@
+
+.PHONY: deploy-dev
+deploy-dev: /var/www/html
 	$(RSYNC) $(RSYNC_OPTS) docroot/ /var/www/html
 
 .PHONY: deploy
 deploy:
-	$(RSYNC) $(RSYNC_OPTS) --compress /var/www/html/ $(DEPLOY_HOST):$(DEPLOY_PATH)
+	$(RSYNC) $(RSYNC_OPTS) --compress docroot/ $(DEPLOY_HOST):$(DEPLOY_PATH)
 
 .PHONY: update-po
 update-po: po
