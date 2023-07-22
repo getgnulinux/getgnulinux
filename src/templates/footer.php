@@ -33,7 +33,7 @@
 
         <h5><?php print _("Community"); ?></h5>
         <ul>
-          <li><a href="<?php $this->text('project_url'); ?>" rel="external">GitHub</a></li>
+          <li><a href="<?php $this->text('project_url'); ?>" rel="external">GitLab</a></li>
           <li><a href="<?php $this->text('forum_url'); ?>" rel="external"><?php print _("Community forum"); ?></a></li>
           <li><a href="<?php $this->base_url('credits'); ?>" hreflang="en"><?php print _("Credits"); ?></a></li>
           <li><a href="<?php $this->text('contact_url'); ?>" rel="external"><?php print _("Contact us"); ?></a></li>
