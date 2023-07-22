@@ -1,7 +1,7 @@
 less /usr/share/i18n/SUPPORTED
 npx ncu
 npx browserslist@latest --update-db
-autoreconf --install
+./autogen.sh
 make deploy
 make maintainer-clean
 make clean

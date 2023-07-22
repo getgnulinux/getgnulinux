@@ -68,7 +68,7 @@ To stop the web server, exit the development container and run:
 ## Contributing
 
 If you wish to contribute to this website, please [fork it on
-GitHub](https://github.com/getgnulinux/getgnulinux), push your change to a
+GitLab](https://gitlab.com/getgnulinux/getgnulinux), push your change to a
 named branch, then send us a pull request.
 
 You can also help us reach an audience in your language. With
