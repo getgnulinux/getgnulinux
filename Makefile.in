@@ -14,15 +14,12 @@ top_srcdir = @top_srcdir@
 .PHONY: all
 all: check update-gmo docroot
 	$(MAKE) -C docroot $@
+	$(MAKE) -C po install
 	$(GULP) $@
 
 .PHONY: check
 check:
 	$(GULP) lint
-
-.PHONY: install
-install:
-	$(MAKE) -C po $@
 
 .PHONY: deploy-dev
 deploy-dev: /var/www/html

@@ -36,7 +36,7 @@ deploy-review:
   script:
     - cd /home/node/getgnulinux
     - ./configure --localedir=/home/node/getgnulinux/docroot/locale/
-    - make all install
+    - make
   rules:
     - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
 
@@ -54,7 +54,8 @@ deploy:
   script:
     - cd /home/node/getgnulinux
     - ./configure --localedir=/home/node/getgnulinux/docroot/locale/
-    - make all install deploy
+    - make
+    - make deploy
   environment:
     name: production
     url: https://www.getgnulinux.org/
