@@ -1,5 +1,8 @@
 # Get GNU/Linux!
 
+**NOTE:** Project moved to <https://gitlab.com/getgnulinux/getgnulinux>. This
+repository is archived and read-only.
+
 This is the web application for the
 [www.getgnulinux.org](https://www.getgnulinux.org) site. Get GNU/Linux! is a
 simple, clear website about GNU/Linux. What is GNU/Linux? Why not Windows? Tips
